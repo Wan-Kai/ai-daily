@@ -1,12 +1,12 @@
 {
   "date": "2026-05-11",
-  "generatedAt": "2026-05-11T15:26:37.166Z",
+  "generatedAt": "2026-05-11T15:38:44.547Z",
   "title": "AI Daily - 2026-05-11",
   "stats": {
     "sources": 11,
-    "fetched": 2037,
+    "fetched": 2913,
     "selected": 30,
-    "failures": 4
+    "failures": 2
   },
   "sections": [
     {
@@ -425,17 +425,7 @@
     {
       "source": "Meta AI Blog",
       "url": "https://ai.meta.com/blog/rss/",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Hugging Face Blog",
-      "url": "https://huggingface.co/blog/feed.xml",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Google Research Blog",
-      "url": "https://research.google/blog/rss/",
-      "error": "fetch failed"
+      "error": "HTTP 404"
     }
   ]
 }
