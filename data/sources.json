@@ -1,0 +1,68 @@
+[
+  {
+    "name": "OpenAI News",
+    "url": "https://openai.com/news/rss.xml",
+    "type": "company",
+    "weight": 5
+  },
+  {
+    "name": "Google DeepMind Blog",
+    "url": "https://deepmind.google/discover/blog/rss.xml",
+    "type": "research",
+    "weight": 5
+  },
+  {
+    "name": "AWS Machine Learning Blog",
+    "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+    "type": "company",
+    "weight": 4
+  },
+  {
+    "name": "Meta AI Blog",
+    "url": "https://ai.meta.com/blog/rss/",
+    "type": "company",
+    "weight": 4
+  },
+  {
+    "name": "Microsoft Research Blog",
+    "url": "https://www.microsoft.com/en-us/research/feed/",
+    "type": "research",
+    "weight": 4
+  },
+  {
+    "name": "NVIDIA Technical Blog AI",
+    "url": "https://developer.nvidia.com/blog/category/artificial-intelligence/feed/",
+    "type": "company",
+    "weight": 4
+  },
+  {
+    "name": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "type": "community",
+    "weight": 4
+  },
+  {
+    "name": "BAIR Blog",
+    "url": "https://bair.berkeley.edu/blog/feed.xml",
+    "type": "research",
+    "weight": 3
+  },
+  {
+    "name": "arXiv AI",
+    "url": "https://export.arxiv.org/rss/cs.AI",
+    "type": "paper",
+    "weight": 3
+  },
+  {
+    "name": "arXiv Machine Learning",
+    "url": "https://export.arxiv.org/rss/cs.LG",
+    "type": "paper",
+    "weight": 3
+  },
+  {
+    "name": "Google Research Blog",
+    "url": "https://research.google/blog/rss/",
+    "type": "research",
+    "weight": 3
+  }
+]

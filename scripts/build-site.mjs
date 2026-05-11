@@ -1,0 +1,369 @@
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
+import path from "node:path";
+
+const root = process.cwd();
+const reportsDir = path.join(root, "data", "reports");
+const distDir = path.join(root, "dist");
+
+function escapeHtml(value = "") {
+  return String(value)
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll("\"", "&quot;")
+    .replaceAll("'", "&#39;");
+}
+
+function renderItem(item) {
+  const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
+  const advantages = (item.advantages || []).map((advantage) => `<li>${escapeHtml(advantage)}</li>`).join("");
+
+  return `
+    <article class="item">
+      <div class="item-meta">
+        <span>${escapeHtml(item.source)}</span>
+        <span>${escapeHtml(item.sourceType)}</span>
+      </div>
+      <h3><a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">${escapeHtml(item.title)}</a></h3>
+      <p>${escapeHtml(item.summary)}</p>
+      <div class="tags">${tags}</div>
+      ${advantages ? `<ul class="advantages">${advantages}</ul>` : ""}
+    </article>
+  `;
+}
+
+function renderSection(section) {
+  const items = section.items.map(renderItem).join("");
+  return `
+    <section class="report-section" id="${escapeHtml(section.id)}">
+      <div class="section-heading">
+        <h2>${escapeHtml(section.title)}</h2>
+        <span>${section.items.length} items</span>
+      </div>
+      <div class="grid">${items || "<p>No items selected for this section today.</p>"}</div>
+    </section>
+  `;
+}
+
+function renderPage(report, reports) {
+  const nav = reports.map((file) => {
+    const date = file.replace(".json", "");
+    const active = date === report.date ? "active" : "";
+    return `<a class="${active}" href="./${date}.html">${date}</a>`;
+  }).join("");
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${escapeHtml(report.title)}</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav>
+      <a class="brand" href="./index.html">AI Daily</a>
+      <div class="report-nav">${nav}</div>
+    </nav>
+    <div class="hero">
+      <p class="kicker">Daily AI signal brief</p>
+      <h1>${escapeHtml(report.title)}</h1>
+      <p class="lede">Curated updates from AI labs, research feeds, papers, and major technology blogs, with advantage signals extracted for faster reading.</p>
+      <div class="stats">
+        <span>${report.stats.sources} sources</span>
+        <span>${report.stats.selected} selected</span>
+        <span>${report.stats.failures} source issues</span>
+      </div>
+    </div>
+  </header>
+  <main>
+    ${report.sections.map(renderSection).join("")}
+    ${report.failures.length > 0 ? `
+      <section class="report-section">
+        <div class="section-heading">
+          <h2>Source Issues</h2>
+          <span>${report.failures.length}</span>
+        </div>
+        <div class="issues">
+          ${report.failures.map((failure) => `<p><strong>${escapeHtml(failure.source)}</strong>: ${escapeHtml(failure.error)}</p>`).join("")}
+        </div>
+      </section>
+    ` : ""}
+  </main>
+  <footer>
+    Generated at ${escapeHtml(report.generatedAt)}
+  </footer>
+</body>
+</html>`;
+}
+
+const css = `
+:root {
+  color-scheme: light;
+  --bg: #f6f7f9;
+  --panel: #ffffff;
+  --text: #17202a;
+  --muted: #5f6b7a;
+  --line: #d9dee7;
+  --accent: #0f766e;
+  --accent-2: #b45309;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.55;
+}
+
+a {
+  color: inherit;
+}
+
+.site-header {
+  background: #10231f;
+  color: #f8fafc;
+  border-bottom: 1px solid #0b1815;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 18px 24px;
+}
+
+.brand {
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.report-nav {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.report-nav a {
+  border: 1px solid rgba(255,255,255,.24);
+  color: #dbeafe;
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.report-nav a.active {
+  background: #f8fafc;
+  color: #10231f;
+}
+
+.hero {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 64px 24px 72px;
+}
+
+.kicker {
+  margin: 0 0 12px;
+  color: #99f6e4;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+h1 {
+  margin: 0;
+  max-width: 840px;
+  font-size: clamp(38px, 7vw, 82px);
+  line-height: .96;
+  letter-spacing: 0;
+}
+
+.lede {
+  max-width: 760px;
+  margin: 24px 0 0;
+  color: #cbd5e1;
+  font-size: 19px;
+}
+
+.stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 28px;
+}
+
+.stats span {
+  border: 1px solid rgba(255,255,255,.24);
+  border-radius: 6px;
+  padding: 8px 12px;
+  color: #e2e8f0;
+}
+
+main {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 34px 24px 64px;
+}
+
+.report-section {
+  margin-top: 38px;
+}
+
+.section-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 12px;
+  margin-bottom: 18px;
+}
+
+.section-heading h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.section-heading span {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.item {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.item-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.item h3 {
+  margin: 12px 0 10px;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.item h3 a {
+  text-decoration: none;
+}
+
+.item h3 a:hover {
+  color: var(--accent);
+}
+
+.item p {
+  margin: 0;
+  color: #344054;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 14px;
+}
+
+.tags span {
+  background: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+  border-radius: 999px;
+  padding: 3px 8px;
+  font-size: 12px;
+}
+
+.advantages {
+  margin: 14px 0 0;
+  padding-left: 18px;
+  color: #374151;
+}
+
+.advantages li + li {
+  margin-top: 4px;
+}
+
+.issues {
+  background: #fff7ed;
+  border: 1px solid #fed7aa;
+  border-radius: 8px;
+  padding: 14px 18px;
+  color: #7c2d12;
+}
+
+footer {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 24px 34px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 720px) {
+  nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hero {
+    padding-top: 42px;
+    padding-bottom: 52px;
+  }
+}
+`;
+
+async function main() {
+  await mkdir(distDir, { recursive: true });
+  const files = (await readdir(reportsDir))
+    .filter((file) => file.endsWith(".json"))
+    .sort()
+    .reverse();
+
+  if (files.length === 0) {
+    throw new Error("No reports found. Run npm run generate first.");
+  }
+
+  const latestFile = files[0];
+  for (const file of files) {
+    const report = JSON.parse(await readFile(path.join(reportsDir, file), "utf8"));
+    const html = renderPage(report, files);
+    await writeFile(path.join(distDir, file.replace(".json", ".html")), html);
+  }
+
+  const latestReport = JSON.parse(await readFile(path.join(reportsDir, latestFile), "utf8"));
+  await writeFile(path.join(distDir, "index.html"), renderPage(latestReport, files));
+  await writeFile(path.join(distDir, "styles.css"), css);
+  console.log(`Built ${files.length} report page(s)`);
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});

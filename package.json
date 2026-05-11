@@ -1,0 +1,15 @@
+{
+  "name": "ai-daily",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily AI news, papers, and industry blog digest published with GitHub Pages.",
+  "scripts": {
+    "generate": "node scripts/generate-daily.mjs",
+    "build": "node scripts/build-site.mjs",
+    "daily": "npm run generate && npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

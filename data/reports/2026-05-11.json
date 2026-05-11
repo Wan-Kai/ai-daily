@@ -1,0 +1,441 @@
+{
+  "date": "2026-05-11",
+  "generatedAt": "2026-05-11T15:26:37.166Z",
+  "title": "AI Daily - 2026-05-11",
+  "stats": {
+    "sources": 11,
+    "fetched": 2037,
+    "selected": 30,
+    "failures": 4
+  },
+  "sections": [
+    {
+      "id": "top",
+      "title": "Top Signals",
+      "items": [
+        {
+          "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
+          "link": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
+          "publishedAt": "Fri, 08 May 2026 02:00:00 -0700",
+          "source": "BAIR Blog",
+          "sourceType": "research",
+          "summary": "Overview of adaptive parallel reasoning. What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Potential speed or productivity advantage",
+            "Potential efficiency advantage",
+            "Useful for agentic workflows and automation",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 23
+        },
+        {
+          "title": "EgoPro-Bench: Benchmarking Personalized Proactive Interaction in Egocentric Video Streams",
+          "link": "https://arxiv.org/abs/2605.07299",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.07299v1 Announce Type: cross Abstract: Existing Multimodal Large Language Models (MLLMs) remain primarily reactive, failing to continuously perceive environments or proactively assist users. While emerging...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Multimodal"
+          ],
+          "advantages": [
+            "Potential efficiency advantage",
+            "Useful for agentic workflows and automation",
+            "Expands modality coverage",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 22
+        },
+        {
+          "title": "Switchcraft: AI Model Router for Agentic Tool Calling",
+          "link": "https://arxiv.org/abs/2605.07112",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.07112v1 Announce Type: new Abstract: Agentic AI systems that invoke external tools are powerful but costly, leading developers to default to large models and overspend inference budgets. Model routing can m...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Useful for agentic workflows and automation",
+            "Improves developer experience or integration path",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 21
+        },
+        {
+          "title": "Think Before You Drive: World Model-Inspired Multimodal Grounding for Autonomous Vehicles",
+          "link": "https://arxiv.org/abs/2512.03454",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2512.03454v4 Announce Type: replace-cross Abstract: Interpreting natural-language commands to localize target objects is critical for autonomous driving (AD). Existing visual grounding (VG) methods for autonomou...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Multimodal"
+          ],
+          "advantages": [
+            "Positions itself around state-of-the-art results",
+            "Useful for agentic workflows and automation",
+            "Expands modality coverage",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 21
+        },
+        {
+          "title": "Agentick: A Unified Benchmark for General Sequential Decision-Making Agents",
+          "link": "https://arxiv.org/abs/2605.06869",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.06869v1 Announce Type: new Abstract: AI agent research spans a wide spectrum: from RL agents that learn from scratch to foundation model agents that leverage pre-trained knowledge, yet no unified benchmark...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Useful for agentic workflows and automation",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 19
+        },
+        {
+          "title": "Beyond the Black Box: Interpretability of Agentic AI Tool Use",
+          "link": "https://arxiv.org/abs/2605.06890",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.06890v1 Announce Type: new Abstract: AI agents are promising for high-stakes enterprise workflows, but dependable deployment remains limited because tool-use failures are difficult to diagnose and control....",
+          "tags": [
+            "Model release",
+            "Agent workflow",
+            "Safety",
+            "Evaluation",
+            "Enterprise"
+          ],
+          "advantages": [
+            "Includes safety or governance signal",
+            "Useful for agentic workflows and automation",
+            "Targets enterprise adoption"
+          ],
+          "score": 19
+        },
+        {
+          "title": "Multi-Objective Constraint Inference using Inverse reinforcement learning",
+          "link": "https://arxiv.org/abs/2605.06951",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.06951v1 Announce Type: new Abstract: Constraint inference is widely considered essential to align reinforcement learning agents with safety boundaries and operational guidelines by observing expert demonstr...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Safety",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Includes safety or governance signal",
+            "Useful for agentic workflows and automation"
+          ],
+          "score": 19
+        },
+        {
+          "title": "Towards Autonomous Business Intelligence via Data-to-Insight Discovery Agent",
+          "link": "https://arxiv.org/abs/2605.07202",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.07202v1 Announce Type: new Abstract: Transforming fragmented enterprise data into actionable insights remains a significant challenge for LLMs, constrained by complex database schemas, limitations in dynami...",
+          "tags": [
+            "Agent workflow",
+            "Reasoning",
+            "Evaluation",
+            "Enterprise",
+            "Paper"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Useful for agentic workflows and automation",
+            "Targets enterprise adoption",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 19
+        }
+      ]
+    },
+    {
+      "id": "papers",
+      "title": "Papers And Research",
+      "items": [
+        {
+          "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
+          "link": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
+          "publishedAt": "Fri, 08 May 2026 02:00:00 -0700",
+          "source": "BAIR Blog",
+          "sourceType": "research",
+          "summary": "Overview of adaptive parallel reasoning. What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Potential speed or productivity advantage",
+            "Potential efficiency advantage",
+            "Useful for agentic workflows and automation",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 23
+        },
+        {
+          "title": "EgoPro-Bench: Benchmarking Personalized Proactive Interaction in Egocentric Video Streams",
+          "link": "https://arxiv.org/abs/2605.07299",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.07299v1 Announce Type: cross Abstract: Existing Multimodal Large Language Models (MLLMs) remain primarily reactive, failing to continuously perceive environments or proactively assist users. While emerging...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Multimodal"
+          ],
+          "advantages": [
+            "Potential efficiency advantage",
+            "Useful for agentic workflows and automation",
+            "Expands modality coverage",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 22
+        },
+        {
+          "title": "Switchcraft: AI Model Router for Agentic Tool Calling",
+          "link": "https://arxiv.org/abs/2605.07112",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.07112v1 Announce Type: new Abstract: Agentic AI systems that invoke external tools are powerful but costly, leading developers to default to large models and overspend inference budgets. Model routing can m...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Useful for agentic workflows and automation",
+            "Improves developer experience or integration path",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 21
+        },
+        {
+          "title": "Think Before You Drive: World Model-Inspired Multimodal Grounding for Autonomous Vehicles",
+          "link": "https://arxiv.org/abs/2512.03454",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2512.03454v4 Announce Type: replace-cross Abstract: Interpreting natural-language commands to localize target objects is critical for autonomous driving (AD). Existing visual grounding (VG) methods for autonomou...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Multimodal"
+          ],
+          "advantages": [
+            "Positions itself around state-of-the-art results",
+            "Useful for agentic workflows and automation",
+            "Expands modality coverage",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 21
+        },
+        {
+          "title": "Agentick: A Unified Benchmark for General Sequential Decision-Making Agents",
+          "link": "https://arxiv.org/abs/2605.06869",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.06869v1 Announce Type: new Abstract: AI agent research spans a wide spectrum: from RL agents that learn from scratch to foundation model agents that leverage pre-trained knowledge, yet no unified benchmark...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Useful for agentic workflows and automation",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 19
+        },
+        {
+          "title": "Beyond the Black Box: Interpretability of Agentic AI Tool Use",
+          "link": "https://arxiv.org/abs/2605.06890",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.06890v1 Announce Type: new Abstract: AI agents are promising for high-stakes enterprise workflows, but dependable deployment remains limited because tool-use failures are difficult to diagnose and control....",
+          "tags": [
+            "Model release",
+            "Agent workflow",
+            "Safety",
+            "Evaluation",
+            "Enterprise"
+          ],
+          "advantages": [
+            "Includes safety or governance signal",
+            "Useful for agentic workflows and automation",
+            "Targets enterprise adoption"
+          ],
+          "score": 19
+        },
+        {
+          "title": "Multi-Objective Constraint Inference using Inverse reinforcement learning",
+          "link": "https://arxiv.org/abs/2605.06951",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.06951v1 Announce Type: new Abstract: Constraint inference is widely considered essential to align reinforcement learning agents with safety boundaries and operational guidelines by observing expert demonstr...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Safety",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Includes safety or governance signal",
+            "Useful for agentic workflows and automation"
+          ],
+          "score": 19
+        },
+        {
+          "title": "Towards Autonomous Business Intelligence via Data-to-Insight Discovery Agent",
+          "link": "https://arxiv.org/abs/2605.07202",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.07202v1 Announce Type: new Abstract: Transforming fragmented enterprise data into actionable insights remains a significant challenge for LLMs, constrained by complex database schemas, limitations in dynami...",
+          "tags": [
+            "Agent workflow",
+            "Reasoning",
+            "Evaluation",
+            "Enterprise",
+            "Paper"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Useful for agentic workflows and automation",
+            "Targets enterprise adoption",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 19
+        },
+        {
+          "title": "Efficient Data Selection for Multimodal Models via Incremental Optimization Utility",
+          "link": "https://arxiv.org/abs/2605.07488",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.07488v1 Announce Type: new Abstract: The scaling of Large Multimodal Models (LMMs) is constrained by the quality-quantity trade-off inherent in synthetic data. Previous approaches, such as LLM-as-a-Judge, h...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Reasoning",
+            "Multimodal",
+            "Training"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Potential efficiency advantage",
+            "Expands modality coverage",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 19
+        },
+        {
+          "title": "Video Understanding Reward Modeling: A Robust Benchmark and Performant Reward Models",
+          "link": "https://arxiv.org/abs/2605.07872",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.07872v1 Announce Type: cross Abstract: Multimodal reward models have advanced substantially in text and image domains, yet progress in video understanding reward modeling remains severely limited by the lac...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Reasoning",
+            "Multimodal",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Positions itself around state-of-the-art results",
+            "Expands modality coverage",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 19
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "title": "Company And Product Updates",
+      "items": []
+    }
+  ],
+  "failures": [
+    {
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/discover/blog/rss.xml",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/rss/",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "error": "fetch failed"
+    }
+  ]
+}
