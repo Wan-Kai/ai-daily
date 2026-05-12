@@ -13,6 +13,7 @@ const today = new Intl.DateTimeFormat("en-CA", {
 
 const SECTION_CONFIG = [
   { id: "product_updates", title: "产品快讯", limit: 8 },
+  { id: "practice_cases", title: "实践案例", limit: 6 },
   { id: "research_frontier", title: "研究前线", limit: 8 },
   { id: "open_source_top", title: "开源项目", limit: 6 },
   { id: "social_shares", title: "社媒观察", limit: 10 }
@@ -181,13 +182,13 @@ function summarize(item) {
 function summaryZh(item) {
   const summary = summarize(item);
   if (/[\u4e00-\u9fff]/.test(summary)) return summary;
-  const sourceLabel = item.channel === "social" ? "社媒" : item.channel === "paper_rank" ? "论文推荐" : "资讯";
-  return `来自 ${item.source} 的${sourceLabel}：${summary}`;
+  return summary;
 }
 
 function whyItMatters(item) {
   const tags = inferTags(item);
   if (item.section === "product_updates") return `这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。`;
+  if (item.section === "practice_cases") return `这展示了 AI 在真实业务、团队流程或客户场景中的落地方式，适合观察采用路径。`;
   if (item.section === "research_frontier") return `这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。`;
   if (item.section === "open_source_top") return `这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。`;
   if (item.section === "social_shares") return `这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。`;
@@ -310,8 +311,30 @@ function publicItem(item) {
 }
 
 function normalizedSection(item) {
-  if (item.section !== "product_updates") return item.section;
-  return isProductUpdate(item) ? "product_updates" : "social_shares";
+  if (isOpenSourceItem(item)) return "open_source_top";
+  if (isStrongPracticeCase(item)) return "practice_cases";
+  if (item.section === "product_updates") return isProductUpdate(item) ? "product_updates" : "social_shares";
+  if (isPracticeCase(item)) return "practice_cases";
+  return item.section;
+}
+
+function isStrongPracticeCase(item) {
+  const text = `${item.title} ${item.description}`.toLowerCase();
+  return /shopify|mahindra|uber uses|parloa|case study|customer story|customers want|deployed .* ai|ai voice agents powered by|real-world deployment|真实客户|客户案例/.test(text);
+}
+
+function isPracticeCase(item) {
+  const text = `${item.title} ${item.description}`.toLowerCase();
+  return /customer story|case study|enterprise adoption|production traces|a\/b testing|ship with confidence|real-world deployment|真实业务|客户案例|落地案例/.test(text);
+}
+
+function isOpenSourceItem(item) {
+  const text = `${item.title} ${item.description} ${item.source}`.toLowerCase();
+  if (item.channel === "open_source_rank" || item.source === "GitHub Trending Daily") return true;
+  if (/datawhale/i.test(item.source) && /开源项目|开源了|github 热榜|星标|deepseek-tui|deepseek 版 claude code/.test(text)) return true;
+  if (/qdrant|milvus|weaviate|ollama|hellogithub|逛逛github|开源服务指南/i.test(item.source)) return true;
+  if (item.source === "The GitHub Blog" && /agentic workflow|agent pull requests|copilot|token efficiency/i.test(text)) return true;
+  return false;
 }
 
 function isProductUpdate(item) {
@@ -329,6 +352,8 @@ function isRelevantForSection(item, sectionId) {
   if (sectionId === "product_updates") {
     return item.channel === "social" && item.trust === "official";
   }
+
+  if (sectionId === "practice_cases") return true;
 
   if (sectionId !== "open_source_top") return true;
   const text = `${item.title} ${item.summary} ${item.summaryZh} ${item.tags.join(" ")}`.toLowerCase();
