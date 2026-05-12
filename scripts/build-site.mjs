@@ -106,10 +106,10 @@ function renderIndexPage(reports) {
 }
 
 function renderPage(report, reports) {
-  const dateOptions = reports.map((file) => {
+  const dateMenu = reports.map((file) => {
     const date = file.replace(".json", "");
-    const selected = date === report.date ? " selected" : "";
-    return `<option value="./${date}.html"${selected}>${date}</option>`;
+    const active = date === report.date ? ` class="active"` : "";
+    return `<a${active} href="./${date}.html">${date}</a>`;
   }).join("");
   const sectionLinks = (report.sections || [])
     .map((section) => `<a href="#${escapeHtml(section.id)}">${escapeHtml(section.title)}</a>`)
@@ -127,10 +127,13 @@ function renderPage(report, reports) {
   <header class="masthead">
     <nav class="topline">
       <a href="./index.html">AI Daily</a>
-      <label class="date-picker">
-        <span>选择日期</span>
-        <select onchange="if (this.value) window.location.href = this.value">${dateOptions}</select>
-      </label>
+      <details class="date-menu">
+        <summary>
+          <span>选择日期</span>
+          <strong>${escapeHtml(report.date)}</strong>
+        </summary>
+        <div class="date-menu-list">${dateMenu}</div>
+      </details>
     </nav>
     <div class="paper">
       <p class="eyebrow">${escapeHtml(report.date)}</p>
@@ -251,28 +254,78 @@ h1 {
   letter-spacing: .08em;
 }
 
-.date-picker {
+.date-menu {
+  position: relative;
+  z-index: 2;
+}
+
+.date-menu summary {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-}
-
-.date-picker span {
-  color: var(--muted);
-}
-
-.date-picker select {
-  appearance: none;
-  background-color: transparent;
+  gap: 9px;
+  min-width: 178px;
+  padding: 7px 12px;
   border: 1px solid var(--line);
-  border-radius: 0;
+  background: rgba(251, 250, 245, .94);
+  color: var(--muted);
+  cursor: pointer;
+  list-style: none;
+}
+
+.date-menu summary::-webkit-details-marker {
+  display: none;
+}
+
+.date-menu summary::after {
+  content: "";
+  width: 7px;
+  height: 7px;
+  margin-left: auto;
+  border-right: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform .16s ease;
+}
+
+.date-menu[open] summary::after {
+  transform: rotate(225deg) translate(-1px, -1px);
+}
+
+.date-menu summary strong {
   color: var(--ink);
-  font: inherit;
-  padding: 6px 30px 6px 10px;
-  background-image: linear-gradient(45deg, transparent 50%, var(--accent) 50%), linear-gradient(135deg, var(--accent) 50%, transparent 50%);
-  background-position: calc(100% - 15px) 50%, calc(100% - 10px) 50%;
-  background-repeat: no-repeat;
-  background-size: 5px 5px, 5px 5px;
+  font-weight: 800;
+  letter-spacing: 0;
+}
+
+.date-menu-list {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 6px);
+  width: 210px;
+  max-height: 280px;
+  overflow: auto;
+  border: 1px solid var(--line);
+  background: var(--paper);
+  box-shadow: 0 18px 36px rgba(23, 23, 23, .12);
+}
+
+.date-menu-list a {
+  display: block;
+  padding: 9px 12px;
+  border-bottom: 1px solid var(--soft-line);
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.date-menu-list a:last-child {
+  border-bottom: 0;
+}
+
+.date-menu-list a:hover,
+.date-menu-list a.active {
+  background: #f1eadb;
+  color: var(--accent);
 }
 
 .subtitle {

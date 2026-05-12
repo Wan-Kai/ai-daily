@@ -212,6 +212,114 @@ async function fetchText(url, timeoutMs = 15000) {
   }
 }
 
+async function fetchBinary(url, timeoutMs = 8000) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, {
+      signal: controller.signal,
+      headers: {
+        "user-agent": "ai-daily/0.1 (+https://github.com/Wan-Kai/ai-daily)"
+      }
+    });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return {
+      bytes: new Uint8Array(await response.arrayBuffer()),
+      contentType: response.headers.get("content-type") || ""
+    };
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+function readUint32BE(bytes, offset) {
+  return (bytes[offset] << 24) | (bytes[offset + 1] << 16) | (bytes[offset + 2] << 8) | bytes[offset + 3];
+}
+
+function readUint32LE(bytes, offset) {
+  return bytes[offset] | (bytes[offset + 1] << 8) | (bytes[offset + 2] << 16) | (bytes[offset + 3] << 24);
+}
+
+function readUint24LE(bytes, offset) {
+  return bytes[offset] | (bytes[offset + 1] << 8) | (bytes[offset + 2] << 16);
+}
+
+function parseImageSize(bytes, contentType = "") {
+  const ascii = (start, length) => String.fromCharCode(...bytes.slice(start, start + length));
+  if (bytes.length >= 24 && ascii(1, 3) === "PNG") {
+    return { width: readUint32BE(bytes, 16), height: readUint32BE(bytes, 20) };
+  }
+  if (bytes.length >= 10 && ascii(0, 3) === "GIF") {
+    return { width: bytes[6] | (bytes[7] << 8), height: bytes[8] | (bytes[9] << 8) };
+  }
+  if (bytes.length >= 12 && ascii(0, 4) === "RIFF" && ascii(8, 4) === "WEBP") {
+    const format = ascii(12, 4);
+    if (format === "VP8X" && bytes.length >= 30) {
+      return { width: readUint24LE(bytes, 24) + 1, height: readUint24LE(bytes, 27) + 1 };
+    }
+    if (format === "VP8 " && bytes.length >= 30) {
+      return { width: bytes[26] | ((bytes[27] & 0x3f) << 8), height: bytes[28] | ((bytes[29] & 0x3f) << 8) };
+    }
+    if (format === "VP8L" && bytes.length >= 25) {
+      const bits = readUint32LE(bytes, 21);
+      return { width: (bits & 0x3fff) + 1, height: ((bits >> 14) & 0x3fff) + 1 };
+    }
+  }
+  if (bytes.length >= 4 && bytes[0] === 0xff && bytes[1] === 0xd8) {
+    let offset = 2;
+    while (offset + 9 < bytes.length) {
+      if (bytes[offset] !== 0xff) break;
+      const marker = bytes[offset + 1];
+      const length = (bytes[offset + 2] << 8) + bytes[offset + 3];
+      if (marker >= 0xc0 && marker <= 0xcf && ![0xc4, 0xc8, 0xcc].includes(marker)) {
+        return { width: (bytes[offset + 7] << 8) + bytes[offset + 8], height: (bytes[offset + 5] << 8) + bytes[offset + 6] };
+      }
+      offset += 2 + length;
+    }
+  }
+  if (/svg/i.test(contentType) || ascii(0, Math.min(bytes.length, 256)).includes("<svg")) {
+    const text = new TextDecoder().decode(bytes.slice(0, Math.min(bytes.length, 2048)));
+    const width = Number(text.match(/\bwidth=["']?([\d.]+)/i)?.[1] || 0);
+    const height = Number(text.match(/\bheight=["']?([\d.]+)/i)?.[1] || 0);
+    const viewBox = text.match(/\bviewBox=["'][^"']*?([\d.]+)\s+([\d.]+)["']/i);
+    return { width: width || Number(viewBox?.[1] || 0), height: height || Number(viewBox?.[2] || 0) };
+  }
+  return null;
+}
+
+function isLikelyAvatarImage(url) {
+  return /profile_images\/|_normal\.(?:jpe?g|png|webp)(?:\?|$)|\/100x100\./i.test(url);
+}
+
+function isUsableNewsImage(size) {
+  if (!size?.width || !size?.height) return false;
+  return size.width >= 360 && size.height >= 180 && size.width * size.height >= 90000;
+}
+
+async function filterLowQualityImages(sections) {
+  const imageUrls = [...new Set(sections.flatMap((section) => section.items.map((item) => item.image).filter(Boolean)))];
+  const verdicts = new Map();
+
+  await runWithConcurrency(imageUrls, 5, async (url) => {
+    if (isLikelyAvatarImage(url)) {
+      verdicts.set(url, false);
+      return;
+    }
+    try {
+      const { bytes, contentType } = await fetchBinary(url);
+      verdicts.set(url, isUsableNewsImage(parseImageSize(bytes, contentType)));
+    } catch {
+      verdicts.set(url, false);
+    }
+  });
+
+  for (const section of sections) {
+    for (const item of section.items) {
+      if (item.image && verdicts.get(item.image) === false) item.image = "";
+    }
+  }
+}
+
 async function fetchRssSource(source) {
   const xml = await fetchText(source.url, source.timeoutMs ?? 15000);
   return parseFeed(xml, source).filter((item) => isRecent(item, source));
@@ -406,6 +514,8 @@ async function main() {
       .sort((a, b) => b.score - a.score)
       .slice(0, section.limit)
   }));
+
+  await filterLowQualityImages(sections);
 
   const selectedCount = sections.reduce((total, section) => total + section.items.length, 0);
   const report = {
