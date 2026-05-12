@@ -1,12 +1,12 @@
 {
   "date": "2026-05-12",
-  "generatedAt": "2026-05-12T13:48:13.933Z",
+  "generatedAt": "2026-05-12T14:02:19.606Z",
   "title": "AI 日报 - 2026-05-12",
   "stats": {
     "sources": 137,
-    "fetched": 502,
-    "selected": 32,
-    "failures": 10
+    "fetched": 492,
+    "selected": 30,
+    "failures": 14
   },
   "sections": [
     {
@@ -24,9 +24,9 @@
           "channel": "social",
           "trust": "official",
           "image": "",
-          "summary": "Chain of thought monitors are a key layer of defense against AI agent misalignment. To preserve monitorability, we avoid penalizing misaligned reasoning during RL. We found a limited amount of accidental CoT grading w...",
-          "summaryZh": "OpenAI 表示，思维链监控是识别 AI 智能体失配行为的一层关键防御；为了保持监控有效，需要避免直接对思维链进行优化。",
-          "whyItMatters": "这条推送直接指向智能体安全和可观测性，关系到未来 Agent 产品如何被监控、审计和约束。",
+          "summary": "Chain of thought monitors are a key layer of defense against AI agent misalignment. To preserve monitorability, we avoid penalizing misaligned reasoning during RL. We found a limited amount of accidental CoT grading which affected released models, and are sharing our analysis. alignment.openai.com/accidental-cot… 💬 328 🔄 293 ❤️ 3011 👀 453246 📊 654 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI 表示，思维链监控是识别 AI 智能体失配行为的一层关键防御；为了保持监控有效，需要避免直接对思维链进行优化。这说明 Agent 产品后续不仅要追求任务完成率，也需要保留可观测、可审计的推理线索。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "产品发布",
             "模型",
@@ -46,9 +46,9 @@
           "channel": "social",
           "trust": "official",
           "image": "",
-          "summary": "Codex can now help you build AI apps and agents faster with OpenAI APIs using the OpenAI Developers plugin. Your browser does not support the video tag. 🔗 View on Twitter 💬 89 🔄 170 ❤️ 2306 👀 216922 📊 503 ⚡ Power...",
-          "summaryZh": "OpenAI Developers 表示，Codex 现在可以借助 OpenAI Developers 插件，更快构建基于 OpenAI API 的 AI 应用和智能体。",
-          "whyItMatters": "Codex 正在从编码助手变成 OpenAI API 开发入口，开发者工作流会进一步被产品化。",
+          "summary": "Codex can now help you build AI apps and agents faster with OpenAI APIs using the OpenAI Developers plugin. Your browser does not support the video tag. 🔗 View on Twitter 💬 89 🔄 172 ❤️ 2331 👀 223549 📊 508 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Developers 表示，Codex 现在可以借助 OpenAI Developers 插件，更快构建基于 OpenAI API 的 AI 应用和智能体。这让 Codex 更像 OpenAI API 的开发入口，可能缩短从想法到可运行 Agent 应用的路径。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "API",
             "智能体",
@@ -59,7 +59,7 @@
         },
         {
           "title": "Happy Friday! 🎉We’re officially 11 days away from I/O (but the launches keep rolling in). Here’s wh...",
-          "titleZh": "Google AI：I/O 前继续预热 AI 产品发布",
+          "titleZh": "Google AI：I/O 前发布多项 Gemini 与 AI 产品更新",
           "link": "https://x.com/GoogleAI/status/2052789253038592466",
           "publishedAt": "Fri, 08 May 2026 16:34:31 GMT",
           "source": "Google AI(@GoogleAI)",
@@ -68,9 +68,9 @@
           "channel": "social",
           "trust": "official",
           "image": "",
-          "summary": "Happy Friday! 🎉We’re officially 11 days away from I/O (but the launches keep rolling in). Here’s what happened this week: — The @googlehealth app, featuring a personalized health coach built with Gemini that uses you...",
-          "summaryZh": "Google AI 在 I/O 前预热近期产品发布节奏，提示未来几天还会持续推出新内容。",
-          "whyItMatters": "Google I/O 往往集中发布 Gemini、开发者工具和平台能力，这类预热值得放入产品更新观察。",
+          "summary": "Happy Friday! 🎉We’re officially 11 days away from I/O (but the launches keep rolling in). Here’s what happened this week: — The @googlehealth app, featuring a personalized health coach built with Gemini that uses your wearables, favorite health & fitness apps, and medical records to deliver proactive wellness guidance that fits your life — Multi-Token Prediction (MTP) drafters in @googlegemma 4, which can speed up your workflows by up to 3X — Automatic source organization and customizable Mind Maps in @NotebookLM — Gemini API File Search tool updates with multimodal support, custom metadata, and page citations — Webhooks (now available in the Gemini API) replace continuous polling with push-based notifications — Some of our most popular AI features, like Nano Banana, Veo, and @googlephotos Remix are now available on Google TVs 💬 46 🔄 48 ❤️ 668 👀 48604 📊 99 ⚡ Powered by xgo.ing",
+          "summaryZh": "Google AI 在 I/O 前 11 天汇总了一组本周更新：Google Health 应用加入基于 Gemini 的个性化健康教练，可结合可穿戴设备、健康/健身应用和医疗记录提供主动健康指导；Gemma 4 引入 Multi-Token Prediction（MTP）drafter，最高可让工作流提速 3 倍；NotebookLM 增加自动来源整理和可定制 Mind Map；Gemini API 的 File Search 工具更新了多模态支持、自定义 metadata 和页面引用；Gemini API 新增 Webhooks，用推送通知替代持续轮询；Nano Banana、Veo、Google Photos Remix 等热门 AI 功能也开始登陆 Google TV。这条推送不是单点功能，而是 Google 在健康、开发者 API、知识管理和客厅设备上的一组 AI 产品铺开信号。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "产品发布",
             "API",
@@ -89,9 +89,9 @@
           "channel": "social",
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HH0ikxiWAAcZkTd.png",
-          "summary": "Most agentic stacks run into the same problems pretty quickly: reasoning and tool parsing drift across turns, KV cache reuse falls apart, or tools fire too late. We’ve been hardening Dynamo’s harness-facing path so @C...",
-          "summaryZh": "NVIDIA AI 提到多数智能体技术栈会遇到推理、工具解析和执行漂移等问题，并指向相关解决思路。",
-          "whyItMatters": "NVIDIA 正在围绕智能体基础设施和推理部署持续发声，可能影响企业 Agent 技术选型。",
+          "summary": "Most agentic stacks run into the same problems pretty quickly: reasoning and tool parsing drift across turns, KV cache reuse falls apart, or tools fire too late. We’ve been hardening Dynamo’s harness-facing path so @Claudeai Code, @OpenClaw , and @openai Codex-style agent patterns behave reliably on custom stacks and inference endpoints: • Stable prompts for KV reuse and lower TTFT • Interleaved reasoning + tool calls preserved across turns • Streaming tool dispatch instead of end-of-turn buffering • Harness behavior aligned with real multi-turn agent runtimes If you’re building your own agent stack or serving endpoint, this blog goes through the infrastructure issues that tend to show up in practice and the patterns we’ve been using to fix them. Tech blog ➡️ nvda.ws/4dj5KzF 💬 28 🔄 41 ❤️ 343 👀 76939 📊 107 ⚡ Powered by xgo.ing",
+          "summaryZh": "NVIDIA AI 提到多数智能体技术栈会遇到推理、工具解析和执行漂移等问题，并指向相关解决思路。这类基础设施问题会影响企业 Agent 的稳定性，NVIDIA 的方案可能进入后续推理部署和工具调用栈。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "智能体",
             "推理能力",
@@ -110,9 +110,9 @@
           "channel": "social",
           "trust": "official",
           "image": "",
-          "summary": "@Mahindra_Auto , one of the world's largest automotive manufacturers operating across 100+ countries, deployed AI voice agents powered by ElevenLabs to manage peak demand during the XUV 7XO launch - achieving higher c...",
-          "summaryZh": "ElevenLabs 分享 Mahindra 在新车型发布期间使用 AI 语音智能体处理高峰需求，覆盖 100 多个国家的客户沟通场景。",
-          "whyItMatters": "语音智能体正在进入真实商业流程，汽车、客服和营销场景会成为验证规模化能力的重要样本。",
+          "summary": "@Mahindra_Auto , one of the world's largest automotive manufacturers operating across 100+ countries, deployed AI voice agents powered by ElevenLabs to manage peak demand during the XUV 7XO launch - achieving higher contact rates and an ~8% conversion uplift. Your browser does not support the video tag. 🔗 View on Twitter 💬 10 🔄 10 ❤️ 170 👀 16083 📊 32 ⚡ Powered by xgo.ing",
+          "summaryZh": "ElevenLabs 分享 Mahindra 在新车型发布期间使用 AI 语音智能体处理高峰需求，覆盖 100 多个国家的客户沟通场景。这说明语音智能体已经进入真实商业流程，汽车、客服和营销高峰场景正在验证其规模化能力。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "产品发布",
             "智能体",
@@ -132,9 +132,9 @@
           "channel": "social",
           "trust": "official",
           "image": "",
-          "summary": "Introducing Daybreak: frontier AI for cyber defenders. Daybreak brings together the most capable OpenAI models, Codex, and our security partners to accelerate cyber defense and continuously secure software. A step tow...",
-          "summaryZh": "OpenAI 介绍 Daybreak，将前沿模型、Codex 和安全合作伙伴结合，用于加速网络防御和持续保护软件系统。",
-          "whyItMatters": "这是编码智能体进入安全运营场景的重要信号，可能影响企业安全工具链。",
+          "summary": "Introducing Daybreak: frontier AI for cyber defenders. Daybreak brings together the most capable OpenAI models, Codex, and our security partners to accelerate cyber defense and continuously secure software. A step toward a future where security teams can move at the speed defense demands. Your browser does not support the video tag. 🔗 View on Twitter 💬 485 🔄 914 ❤️ 9106 👀 3620115 📊 1762 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI 介绍 Daybreak，将前沿模型、Codex 和安全合作伙伴结合，用于加速网络防御和持续保护软件系统。这是编码智能体进入安全运营场景的重要信号，可能影响企业漏洞扫描、修复和安全响应工具链。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型",
             "视频"
@@ -152,9 +152,9 @@
           "channel": "social",
           "trust": "official",
           "image": "",
-          "summary": "Cursor is now available in Microsoft Teams. Mention @​Cursor in any channel to delegate tasks to an agent or pull information from Cursor into Teams. Your browser does not support the video tag. 🔗 View on Twitter 💬...",
-          "summaryZh": "Cursor 宣布可在 Microsoft Teams 中使用，用户可以在频道里提及 Cursor 来委派任务。",
-          "whyItMatters": "AI 编程工具正在进入团队协作入口，未来竞争会从 IDE 扩展到 Slack、Teams 等工作流场景。",
+          "summary": "Cursor is now available in Microsoft Teams. Mention @​Cursor in any channel to delegate tasks to an agent or pull information from Cursor into Teams. Your browser does not support the video tag. 🔗 View on Twitter 💬 51 🔄 92 ❤️ 1103 👀 118894 📊 195 ⚡ Powered by xgo.ing",
+          "summaryZh": "Cursor 宣布可在 Microsoft Teams 中使用，用户可以在频道里提及 Cursor 来委派任务。AI 编程工具正在进入团队协作入口，未来竞争会从 IDE 扩展到 Slack、Teams 等日常工作流。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "智能体",
             "视频"
@@ -172,9 +172,9 @@
           "channel": "social",
           "trust": "official",
           "image": "",
-          "summary": "New in Claude Code: agent view. One list of all your sessions, available today as a research preview. Your browser does not support the video tag. 🔗 View on Twitter 💬 733 🔄 1690 ❤️ 21678 👀 2608883 📊 3693 ⚡ Powere...",
-          "summaryZh": "Claude 宣布 Claude Code 新增 Agent View，可在一个列表中查看所有会话、等待处理的任务和已完成事项，并支持内联回复来解除阻塞。",
-          "whyItMatters": "这是多智能体并行开发体验的关键改进，能解决同时运行多个 Claude Code 任务时的可见性和管理问题。",
+          "summary": "New in Claude Code: agent view. One list of all your sessions, available today as a research preview. Your browser does not support the video tag. 🔗 View on Twitter 💬 743 🔄 1728 ❤️ 22051 👀 2700646 📊 3758 ⚡ Powered by xgo.ing",
+          "summaryZh": "Claude 宣布 Claude Code 新增 Agent View，可在一个列表中查看所有会话、等待处理的任务和已完成事项，并支持内联回复来解除阻塞。这个功能解决了多任务并行时的可见性和管理问题，是 Claude Code 面向多智能体开发体验的重要改进。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "智能体",
             "视频"
@@ -198,8 +198,8 @@
           "channel": "research_blog",
           "trust": "expert",
           "image": "https://charonhub.deeplearning.ai/content/images/2026/05/AI-effect-on-workforce_PressCoverage3--1--1.webp",
-          "summary": "The Batch AI News and Insights: There will be no AI jobpocalypse.&nbsp; Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, There will be no AI jobpocalypse.&nbsp; The story that AI will lead to...",
-          "summaryZh": "来自 deeplearning.ai 的资讯：The Batch AI News and Insights: There will be no AI jobpocalypse.&nbsp; Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, There will be no AI jobpocalypse.&nbsp; The story that AI will lead to...",
+          "summary": "The Batch AI News and Insights: There will be no AI jobpocalypse.&nbsp; Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, There will be no AI jobpocalypse.&nbsp; The story that AI will lead to massive unemployment is stoking unnecessary fear. AI — like any other technology — does affect jobs, but telling overblown stories of large-scale unemployment is irresponsible and damaging. Let’s put a stop to it. I’ve expressed skepticism about the jobpocalypse in previous letters. I’m glad to see...",
+          "summaryZh": "来自 deeplearning.ai 的资讯：The Batch AI News and Insights: There will be no AI jobpocalypse.&nbsp; Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, There will be no AI jobpocalypse.&nbsp; The story that AI will lead to massive unemployment is stoking unnecessary fear. AI — like any other technology — does affect jobs, but telling overblown stories of large-scale unemployment is irresponsible and damaging. Let’s put a stop to it. I’ve expressed skepticism about the jobpocalypse in previous letters. I’m glad to see...",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "产品发布",
@@ -221,8 +221,8 @@
           "channel": "research_blog",
           "trust": "official",
           "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/SocialReasoningBench-BlogHeroFeature-1400x788-1.jpg",
-          "summary": "Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest....",
-          "summaryZh": "来自 Microsoft Research Blog 的资讯：Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest....",
+          "summary": "Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests appeared first on Microsoft Research .",
+          "summaryZh": "来自 Microsoft Research Blog 的资讯：Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests appeared first on Microsoft Research .",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "模型",
@@ -242,8 +242,8 @@
           "channel": "research_blog",
           "trust": "expert",
           "image": "",
-          "summary": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing reali...",
-          "summaryZh": "来自 Simon Willison's Weblog 的资讯：I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing reali...",
+          "summary": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own work. One thing I really enjoy about podcasts is that they sometimes push me to think out loud in a way that exposes an idea I've not previously been able to put into words. Vibe coding and agentic engineering are sta...",
+          "summaryZh": "来自 Simon Willison's Weblog 的资讯：I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing realization that vibe coding and agentic engineering have started to converge in my own work. One thing I really enjoy about podcasts is that they sometimes push me to think out loud in a way that exposes an idea I've not previously been able to put into words. Vibe coding and agentic engineering are sta...",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "模型",
@@ -265,8 +265,8 @@
           "channel": "research_blog",
           "trust": "official",
           "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/GridSage-BlogHeroFeature-1400x788-1-scaled.jpg",
-          "summary": "Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is...",
-          "summaryZh": "来自 Microsoft Research Blog 的资讯：Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is...",
+          "summary": "Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is essential for modern power systems research. Analyses of congestion, transmission expansion, demand growth, and system resilience all depend on network models with realistic […] The post Building realistic electric transmission grid dataset at scale: a pipeline from open dataset appeared first on M...",
+          "summaryZh": "来自 Microsoft Research Blog 的资讯：Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is essential for modern power systems research. Analyses of congestion, transmission expansion, demand growth, and system resilience all depend on network models with realistic […] The post Building realistic electric transmission grid dataset at scale: a pipeline from open dataset appeared first on M...",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "产品发布",
@@ -285,8 +285,8 @@
           "channel": "research_blog",
           "trust": "expert",
           "image": "https://wechat2rss.bestblogs.dev/img-proxy/?k=5e27a1c4&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F48xwB6awqXv0Vgs9bVd23OW6KO98CzrXzDWnKC6K016JBjhch9iczLFic2xcXFM0rl6Ag0S9sBiaf61MthicJSQZkzn1kbb2TSyq97mnp1p8TCI%2F0%3Fwx_fmt%3Djpeg",
-          "summary": "原创 DeeplearningAI 2026-05-07 12:45 北京 Hi～新朋友，记得关注我们哟 Moonshot AI 升级后的 Kimi 模型相比前代，能够处理更长时间的自主编程任务，并在多智能体协同方面实现了更大规模的扩展。 ● 最新消息 ：Kimi K2.6 是一款拥有 1 万亿参数的视觉-语言模型，在性能上与 Qwen3.6 Max Preview 和新发布的 DeepSeek V4 不相上下，仅略逊于顶级闭源模...",
-          "summaryZh": "原创 DeeplearningAI 2026-05-07 12:45 北京 Hi～新朋友，记得关注我们哟 Moonshot AI 升级后的 Kimi 模型相比前代，能够处理更长时间的自主编程任务，并在多智能体协同方面实现了更大规模的扩展。 ● 最新消息 ：Kimi K2.6 是一款拥有 1 万亿参数的视觉-语言模型，在性能上与 Qwen3.6 Max Preview 和新发布的 DeepSeek V4 不相上下，仅略逊于顶级闭源模...",
+          "summary": "原创 DeeplearningAI 2026-05-07 12:45 北京 Hi～新朋友，记得关注我们哟 Moonshot AI 升级后的 Kimi 模型相比前代，能够处理更长时间的自主编程任务，并在多智能体协同方面实现了更大规模的扩展。 ● 最新消息 ：Kimi K2.6 是一款拥有 1 万亿参数的视觉-语言模型，在性能上与 Qwen3.6 Max Preview 和新发布的 DeepSeek V4 不相上下，仅略逊于顶级闭源模型。该模型专为在“规划-编写-测试-调试”的循环中生成代码而设计，这一过程可以持续数天，并且可以实例化数百个协同工作的智能体来完成单一任务。此外，其幻觉率也低于前代。 ✴ 输入输出：文本、图像和视频输入（最多 256,000 tokens）；输出为文本（最多 98,000 tokens） ✴ 结构：混合专家架构（Mixture-of-experts），总参数 1 万亿，每 token 激活 320 亿参数，配备 MoonViT 视觉编码器 ✴ 功能：工具调用、网页搜索、原生 INT4 量化、“preserve thinking”（保留思考）模式、智能体群（agent swarm） ✴ 性能：在...",
+          "summaryZh": "原创 DeeplearningAI 2026-05-07 12:45 北京 Hi～新朋友，记得关注我们哟 Moonshot AI 升级后的 Kimi 模型相比前代，能够处理更长时间的自主编程任务，并在多智能体协同方面实现了更大规模的扩展。 ● 最新消息 ：Kimi K2.6 是一款拥有 1 万亿参数的视觉-语言模型，在性能上与 Qwen3.6 Max Preview 和新发布的 DeepSeek V4 不相上下，仅略逊于顶级闭源模型。该模型专为在“规划-编写-测试-调试”的循环中生成代码而设计，这一过程可以持续数天，并且可以实例化数百个协同工作的智能体来完成单一任务。此外，其幻觉率也低于前代。 ✴ 输入输出：文本、图像和视频输入（最多 256,000 tokens）；输出为文本（最多 98,000 tokens） ✴ 结构：混合专家架构（Mixture-of-experts），总参数 1 万亿，每 token 激活 320 亿参数，配备 MoonViT 视觉编码器 ✴ 功能：工具调用、网页搜索、原生 INT4 量化、“preserve thinking”（保留思考）模式、智能体群（agent swarm） ✴ 性能：在...",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "API",
@@ -326,8 +326,8 @@
           "channel": "research_blog",
           "trust": "official",
           "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/MatterSimv1_5-BlogHeroFeature-1400x788-1-scaled.jpg",
-          "summary": "MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advanc...",
-          "summaryZh": "来自 Microsoft Research Blog 的资讯：MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advanc...",
+          "summary": "MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models appeared first on Microsoft Research .",
+          "summaryZh": "来自 Microsoft Research Blog 的资讯：MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models appeared first on Microsoft Research .",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "模型"
@@ -345,8 +345,8 @@
           "channel": "research_blog",
           "trust": "expert",
           "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/01/amansk-100x100.jpg",
-          "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavio...",
-          "summaryZh": "来自 AWS Machine Learning Blog 的资讯：Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavio...",
+          "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement […]",
+          "summaryZh": "来自 AWS Machine Learning Blog 的资讯：Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement […]",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "产品发布",
@@ -362,62 +362,23 @@
       "title": "开源项目 TOP",
       "items": [
         {
-          "title": "datawhalechina/hello-agents",
-          "titleZh": "datawhalechina/hello-agents",
-          "link": "https://github.com/datawhalechina/hello-agents",
-          "publishedAt": "2026-05-12",
-          "source": "GitHub Trending Daily",
+          "title": "Qdrant 1.18 - TurboQuant",
+          "titleZh": "Qdrant 1.18 - TurboQuant",
+          "link": "https://qdrant.tech/blog/qdrant-1.18.x/",
+          "publishedAt": "Mon, 11 May 2026 00:00:00 -0800",
+          "source": "Qdrant",
           "sourceType": "open_source",
           "section": "open_source_top",
-          "channel": "open_source_rank",
-          "trust": "rank",
+          "channel": "open_source",
+          "trust": "official",
           "image": "",
-          "summary": "Star datawhalechina / hello-agents 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
-          "summaryZh": "Star datawhalechina / hello-agents 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+          "summary": "Qdrant 1.18.0 is out! Let&rsquo;s look at the main features for this version: TurboQuant: A new quantization method that, at twice the compression ratio of scalar quantization, delivers similar recall and speed. Memory Monitoring: Inspect a collection&rsquo;s disk, RAM, and page cache usage broken down by component (vectors, payload, indexes, and more) via a new Web UI view and API endpoint. Adding and Removing Named Vectors: Add or remove named vectors to an existing collection&rsquo;s schema without having to...",
+          "summaryZh": "来自 Qdrant 的资讯：Qdrant 1.18.0 is out! Let&rsquo;s look at the main features for this version: TurboQuant: A new quantization method that, at twice the compression ratio of scalar quantization, delivers similar recall and speed. Memory Monitoring: Inspect a collection&rsquo;s disk, RAM, and page cache usage broken down by component (vectors, payload, indexes, and more) via a new Web UI view and API endpoint. Adding and Removing Named Vectors: Add or remove named vectors to an existing collection&rsquo;s schema without having to...",
           "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
           "tags": [
-            "智能体"
+            "API"
           ],
-          "score": 33
-        },
-        {
-          "title": "rohitg00/agentmemory",
-          "titleZh": "rohitg00/agentmemory",
-          "link": "https://github.com/rohitg00/agentmemory",
-          "publishedAt": "2026-05-12",
-          "source": "GitHub Trending Daily",
-          "sourceType": "open_source",
-          "section": "open_source_top",
-          "channel": "open_source_rank",
-          "trust": "rank",
-          "image": "",
-          "summary": "Sponsor Star rohitg00 / agentmemory #1 Persistent memory for AI coding agents based on real-world benchmarks",
-          "summaryZh": "来自 GitHub Trending Daily 的资讯：Sponsor Star rohitg00 / agentmemory #1 Persistent memory for AI coding agents based on real-world benchmarks",
-          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
-          "tags": [
-            "智能体",
-            "评测"
-          ],
-          "score": 32
-        },
-        {
-          "title": "millionco/react-doctor",
-          "titleZh": "millionco/react-doctor",
-          "link": "https://github.com/millionco/react-doctor",
-          "publishedAt": "2026-05-12",
-          "source": "GitHub Trending Daily",
-          "sourceType": "open_source",
-          "section": "open_source_top",
-          "channel": "open_source_rank",
-          "trust": "rank",
-          "image": "",
-          "summary": "Star millionco / react-doctor Your agent writes bad React. This catches it",
-          "summaryZh": "来自 GitHub Trending Daily 的资讯：Star millionco / react-doctor Your agent writes bad React. This catches it",
-          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
-          "tags": [
-            "智能体"
-          ],
-          "score": 30
+          "score": 35
         },
         {
           "title": "Improving token efficiency in GitHub Agentic Workflows",
@@ -430,8 +391,8 @@
           "channel": "open_source",
           "trust": "expert",
           "image": "https://github.blog/wp-content/uploads/2026/05/graph.png?resize=1024%2C504",
-          "summary": "Agentic workflows that run on every pull request can quietly accumulate large API bills. Here's how we instrumented our own production workflows, found the inefficiencies, and built agents to fix them. The post Improv...",
-          "summaryZh": "来自 The GitHub Blog 的资讯：Agentic workflows that run on every pull request can quietly accumulate large API bills. Here's how we instrumented our own production workflows, found the inefficiencies, and built agents to fix them. The post Improv...",
+          "summary": "Agentic workflows that run on every pull request can quietly accumulate large API bills. Here's how we instrumented our own production workflows, found the inefficiencies, and built agents to fix them. The post Improving token efficiency in GitHub Agentic Workflows appeared first on The GitHub Blog .",
+          "summaryZh": "来自 The GitHub Blog 的资讯：Agentic workflows that run on every pull request can quietly accumulate large API bills. Here's how we instrumented our own production workflows, found the inefficiencies, and built agents to fix them. The post Improving token efficiency in GitHub Agentic Workflows appeared first on The GitHub Blog .",
           "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
           "tags": [
             "API",
@@ -441,38 +402,44 @@
           "score": 30
         },
         {
-          "title": "tinyhumansai/openhuman",
-          "titleZh": "tinyhumansai/openhuman",
-          "link": "https://github.com/tinyhumansai/openhuman",
-          "publishedAt": "2026-05-12",
-          "source": "GitHub Trending Daily",
+          "title": "Validating agentic behavior when “correct” isn’t deterministic",
+          "titleZh": "Validating agentic behavior when “correct” isn’t deterministic",
+          "link": "https://github.blog/ai-and-ml/generative-ai/validating-agentic-behavior-when-correct-isnt-deterministic/",
+          "publishedAt": "Wed, 06 May 2026 21:16:31 +0000",
+          "source": "The GitHub Blog",
           "sourceType": "open_source",
           "section": "open_source_top",
-          "channel": "open_source_rank",
-          "trust": "rank",
-          "image": "",
-          "summary": "Star tinyhumansai / openhuman Your Personal AI super intelligence. Private, Simple and extremely powerful.",
-          "summaryZh": "来自 GitHub Trending Daily 的资讯：Star tinyhumansai / openhuman Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+          "channel": "open_source",
+          "trust": "expert",
+          "image": "https://github.blog/wp-content/uploads/2026/05/Screenshot-2026-05-05-at-6.10.57-PM.png?resize=1024%2C582",
+          "summary": "How to build the “Trust Layer” for Github Copilot Coding Agents without brittle scripts or black-box judgements by using dominatory analysis. The post Validating agentic behavior when “correct” isn’t deterministic appeared first on The GitHub Blog .",
+          "summaryZh": "来自 The GitHub Blog 的资讯：How to build the “Trust Layer” for Github Copilot Coding Agents without brittle scripts or black-box judgements by using dominatory analysis. The post Validating agentic behavior when “correct” isn’t deterministic appeared first on The GitHub Blog .",
           "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
-          "tags": [],
+          "tags": [
+            "智能体",
+            "开源"
+          ],
           "score": 27
         },
         {
-          "title": "rasbt/LLMs-from-scratch",
-          "titleZh": "rasbt/LLMs-from-scratch",
-          "link": "https://github.com/rasbt/LLMs-from-scratch",
-          "publishedAt": "2026-05-12",
-          "source": "GitHub Trending Daily",
+          "title": "Agent pull requests are everywhere. Here’s how to review them.",
+          "titleZh": "Agent pull requests are everywhere. Here’s how to review them.",
+          "link": "https://github.blog/ai-and-ml/generative-ai/agent-pull-requests-are-everywhere-heres-how-to-review-them/",
+          "publishedAt": "Thu, 07 May 2026 19:00:00 +0000",
+          "source": "The GitHub Blog",
           "sourceType": "open_source",
           "section": "open_source_top",
-          "channel": "open_source_rank",
-          "trust": "rank",
+          "channel": "open_source",
+          "trust": "expert",
           "image": "",
-          "summary": "Star rasbt / LLMs-from-scratch Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
-          "summaryZh": "来自 GitHub Trending Daily 的资讯：Star rasbt / LLMs-from-scratch Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+          "summary": "A practical guide to reviewing agent-generated pull requests: what to look for, where issues hide, and how to catch technical debt before it ships. The post Agent pull requests are everywhere. Here’s how to review them. appeared first on The GitHub Blog .",
+          "summaryZh": "来自 The GitHub Blog 的资讯：A practical guide to reviewing agent-generated pull requests: what to look for, where issues hide, and how to catch technical debt before it ships. The post Agent pull requests are everywhere. Here’s how to review them. appeared first on The GitHub Blog .",
           "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
-          "tags": [],
-          "score": 27
+          "tags": [
+            "智能体",
+            "开源"
+          ],
+          "score": 26
         }
       ]
     },
@@ -491,8 +458,8 @@
           "channel": "social",
           "trust": "expert",
           "image": "https://pbs.twimg.com/profile_images/1999293930936909824/_HWYanot_normal.jpg",
-          "summary": "Shopify's River agent system lives in Slack and can only be used in public so that other employees can learn from what you do with it Reminds me of how Midjourney's Discord-only launch helped people figure out the wei...",
-          "summaryZh": "来自 Simon Willison(@simonw) 的社媒：Shopify's River agent system lives in Slack and can only be used in public so that other employees can learn from what you do with it Reminds me of how Midjourney's Discord-only launch helped people figure out the wei...",
+          "summary": "Shopify's River agent system lives in Slack and can only be used in public so that other employees can learn from what you do with it Reminds me of how Midjourney's Discord-only launch helped people figure out the weird & complex craft of image prompting by watching each other tobi lutke @tobi x.com/i/article/2052… 🔗 View Quoted Tweet 💬 63 🔄 57 ❤️ 1022 👀 146426 📊 189 ⚡ Powered by xgo.ing",
+          "summaryZh": "来自 Simon Willison(@simonw) 的社媒：Shopify's River agent system lives in Slack and can only be used in public so that other employees can learn from what you do with it Reminds me of how Midjourney's Discord-only launch helped people figure out the weird & complex craft of image prompting by watching each other tobi lutke @tobi x.com/i/article/2052… 🔗 View Quoted Tweet 💬 63 🔄 57 ❤️ 1022 👀 146426 📊 189 ⚡ Powered by xgo.ing",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "产品发布",
@@ -512,8 +479,8 @@
           "channel": "social",
           "trust": "expert",
           "image": "https://pbs.twimg.com/profile_images/2022002720971096064/l3Kyt4qt_normal.jpg",
-          "summary": "AI for helping you build apps powered by AI: OpenAI Developers @OpenAIDevs Codex can now help you build AI apps and agents faster with OpenAI APIs using the OpenAI Developers plugin. Your browser does not support the...",
-          "summaryZh": "来自 Greg Brockman(@gdb) 的社媒：AI for helping you build apps powered by AI: OpenAI Developers @OpenAIDevs Codex can now help you build AI apps and agents faster with OpenAI APIs using the OpenAI Developers plugin. Your browser does not support the...",
+          "summary": "AI for helping you build apps powered by AI: OpenAI Developers @OpenAIDevs Codex can now help you build AI apps and agents faster with OpenAI APIs using the OpenAI Developers plugin. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 58 🔄 25 ❤️ 407 👀 36293 📊 83 ⚡ Powered by xgo.ing",
+          "summaryZh": "来自 Greg Brockman(@gdb) 的社媒：AI for helping you build apps powered by AI: OpenAI Developers @OpenAIDevs Codex can now help you build AI apps and agents faster with OpenAI APIs using the OpenAI Developers plugin. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 58 🔄 25 ❤️ 407 👀 36293 📊 83 ⚡ Powered by xgo.ing",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "API",
@@ -534,8 +501,8 @@
           "channel": "social",
           "trust": "expert",
           "image": "https://pbs.twimg.com/profile_images/1911666162137477120/EbzxHHzp_normal.jpg",
-          "summary": "In case you missed it: Ring-2.6-1T from @AntLingAGI is live and free on OpenRouter through May 15th! A 1T-param thinking model with adjustable thinking effort, capable of tackling your production agent needs. Ant Ling...",
-          "summaryZh": "来自 OpenRouter(@OpenRouterAI) 的社媒：In case you missed it: Ring-2.6-1T from @AntLingAGI is live and free on OpenRouter through May 15th! A 1T-param thinking model with adjustable thinking effort, capable of tackling your production agent needs. Ant Ling...",
+          "summary": "In case you missed it: Ring-2.6-1T from @AntLingAGI is live and free on OpenRouter through May 15th! A 1T-param thinking model with adjustable thinking effort, capable of tackling your production agent needs. Ant Ling @AntLingAGI We are launching Ring-2.6-1T, a trillion-parameter flagship thinking model engineered for real-world complex tasks and production env: 🚀 - Adjustable Thinking Effort: dynamic compute mechanism to flexibly balance cognitive depth, token cost, and execution speed; - Agent-Optimized: Buil...",
+          "summaryZh": "来自 OpenRouter(@OpenRouterAI) 的社媒：In case you missed it: Ring-2.6-1T from @AntLingAGI is live and free on OpenRouter through May 15th! A 1T-param thinking model with adjustable thinking effort, capable of tackling your production agent needs. Ant Ling @AntLingAGI We are launching Ring-2.6-1T, a trillion-parameter flagship thinking model engineered for real-world complex tasks and production env: 🚀 - Adjustable Thinking Effort: dynamic compute mechanism to flexibly balance cognitive depth, token cost, and execution speed; - Agent-Optimized: Buil...",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "产品发布",
@@ -556,8 +523,8 @@
           "channel": "social",
           "trust": "expert",
           "image": "https://pbs.twimg.com/media/HIEOQjHXwAAmvnC.jpg",
-          "summary": "Codex 的野心，MCP 和 Skill 的下一步 这段时间我在密集使用 Codex App、Cursor 等 Agent 应用，有件事越来越觉得有意思。 去年大家争的是谁家模型更强，今年争的好像变成了谁家窗口右侧更好用。 Codex、Claude 桌面版、Cursor 3.0、TRAE SOLO，这几家最顶尖的 Agent，在完全没有协商的情况下，几乎同时收敛到了同一个界面布局：左侧是项目和会话列表，中间是和 Agent 的对...",
-          "summaryZh": "Codex 的野心，MCP 和 Skill 的下一步 这段时间我在密集使用 Codex App、Cursor 等 Agent 应用，有件事越来越觉得有意思。 去年大家争的是谁家模型更强，今年争的好像变成了谁家窗口右侧更好用。 Codex、Claude 桌面版、Cursor 3.0、TRAE SOLO，这几家最顶尖的 Agent，在完全没有协商的情况下，几乎同时收敛到了同一个界面布局：左侧是项目和会话列表，中间是和 Agent 的对...",
+          "summary": "Codex 的野心，MCP 和 Skill 的下一步 这段时间我在密集使用 Codex App、Cursor 等 Agent 应用，有件事越来越觉得有意思。 去年大家争的是谁家模型更强，今年争的好像变成了谁家窗口右侧更好用。 Codex、Claude 桌面版、Cursor 3.0、TRAE SOLO，这几家最顶尖的 Agent，在完全没有协商的情况下，几乎同时收敛到了同一个界面布局：左侧是项目和会话列表，中间是和 Agent 的对话，右侧是工作区，放着文件浏览、网页预览、文件变更审查这些功能。 肯定不是相互之间的抄袭，更像是当前 Agent 交互的最优解。 【1】为什么是三栏 传统 Chatbot 只需要两栏，左边会话历史，右边对话窗口，你问它答，用完走人。 到了 Agent 时代，Agent 能自己写代码、改文件、调工具了。它做完之后，你得看看有没有做对——右侧工作区就是为这件事出现的。 但这只是第一阶段。 随着用户越来越多时间是在指挥 Agent，打开 VSCode 这类专业工具的时间自然越来越少。那个问题迟早会冒出来：Agent 帮你写完代码、做完 PPT，你想微调几个字，还要专门切出去打开另一个软件？ 没有人愿...",
+          "summaryZh": "Codex 的野心，MCP 和 Skill 的下一步 这段时间我在密集使用 Codex App、Cursor 等 Agent 应用，有件事越来越觉得有意思。 去年大家争的是谁家模型更强，今年争的好像变成了谁家窗口右侧更好用。 Codex、Claude 桌面版、Cursor 3.0、TRAE SOLO，这几家最顶尖的 Agent，在完全没有协商的情况下，几乎同时收敛到了同一个界面布局：左侧是项目和会话列表，中间是和 Agent 的对话，右侧是工作区，放着文件浏览、网页预览、文件变更审查这些功能。 肯定不是相互之间的抄袭，更像是当前 Agent 交互的最优解。 【1】为什么是三栏 传统 Chatbot 只需要两栏，左边会话历史，右边对话窗口，你问它答，用完走人。 到了 Agent 时代，Agent 能自己写代码、改文件、调工具了。它做完之后，你得看看有没有做对——右侧工作区就是为这件事出现的。 但这只是第一阶段。 随着用户越来越多时间是在指挥 Agent，打开 VSCode 这类专业工具的时间自然越来越少。那个问题迟早会冒出来：Agent 帮你写完代码、做完 PPT，你想微调几个字，还要专门切出去打开另一个软件？ 没有人愿...",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "智能体",
@@ -576,8 +543,8 @@
           "channel": "social",
           "trust": "expert",
           "image": "https://pbs.twimg.com/profile_images/1950950107937185792/QOfEjFoJ_normal.jpg",
-          "summary": "Claude Code 今天上线了一个新功能：agent view，让开发者可以在一个界面里统管所有正在运行的 AI 编程会话。 过去用 Claude Code 同时跑多个任务，只能靠一堆终端标签页和 tmux 分屏拼凑，脑子里还得记着每个任务跑到哪了。现在不用这么折腾了。 在任意会话里按左箭头，或者直接在终端跑 claude agents，就能打开 agent view 的总览界面。每一行显示一个会话的状态：在等你回复、还在跑、...",
-          "summaryZh": "Claude Code 今天上线了一个新功能：agent view，让开发者可以在一个界面里统管所有正在运行的 AI 编程会话。 过去用 Claude Code 同时跑多个任务，只能靠一堆终端标签页和 tmux 分屏拼凑，脑子里还得记着每个任务跑到哪了。现在不用这么折腾了。 在任意会话里按左箭头，或者直接在终端跑 claude agents，就能打开 agent view 的总览界面。每一行显示一个会话的状态：在等你回复、还在跑、...",
+          "summary": "Claude Code 今天上线了一个新功能：agent view，让开发者可以在一个界面里统管所有正在运行的 AI 编程会话。 过去用 Claude Code 同时跑多个任务，只能靠一堆终端标签页和 tmux 分屏拼凑，脑子里还得记着每个任务跑到哪了。现在不用这么折腾了。 在任意会话里按左箭头，或者直接在终端跑 claude agents，就能打开 agent view 的总览界面。每一行显示一个会话的状态：在等你回复、还在跑、还是已经完成，一眼能看清。 最实用的一点是不用切换上下文就能回复。选中某个会话可以先\"偷看\"最新进展，如果它在等你做决定，直接在那里打回复，它就接着跑。不用打开完整会话窗口，不打断你手头在做的事。 想把某个会话扔到后台？在会话内输入 /bg。想直接起一个后台任务？claude --bg [任务描述]，连前台都不用经过。 目前 agent view 以“研究预览”状态上线，Pro、Max、Team、Enterprise 和 API 用户今天就可以用，直接跑 claude agents 即可激活。 Claude @claudeai New in Claude Code: agent view. O...",
+          "summaryZh": "Claude Code 今天上线了一个新功能：agent view，让开发者可以在一个界面里统管所有正在运行的 AI 编程会话。 过去用 Claude Code 同时跑多个任务，只能靠一堆终端标签页和 tmux 分屏拼凑，脑子里还得记着每个任务跑到哪了。现在不用这么折腾了。 在任意会话里按左箭头，或者直接在终端跑 claude agents，就能打开 agent view 的总览界面。每一行显示一个会话的状态：在等你回复、还在跑、还是已经完成，一眼能看清。 最实用的一点是不用切换上下文就能回复。选中某个会话可以先\"偷看\"最新进展，如果它在等你做决定，直接在那里打回复，它就接着跑。不用打开完整会话窗口，不打断你手头在做的事。 想把某个会话扔到后台？在会话内输入 /bg。想直接起一个后台任务？claude --bg [任务描述]，连前台都不用经过。 目前 agent view 以“研究预览”状态上线，Pro、Max、Team、Enterprise 和 API 用户今天就可以用，直接跑 claude agents 即可激活。 Claude @claudeai New in Claude Code: agent view. O...",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "API",
@@ -597,8 +564,8 @@
           "channel": "social",
           "trust": "expert",
           "image": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
-          "summary": "Introducing the OpenAI Deployment Company, which will help businesses maximally succeed with their deployments of AI. Starting with 150 Forward Deployed Engineers and Deployment Specialists, and $4 billion of initial...",
-          "summaryZh": "来自 Greg Brockman(@gdb) 的社媒：Introducing the OpenAI Deployment Company, which will help businesses maximally succeed with their deployments of AI. Starting with 150 Forward Deployed Engineers and Deployment Specialists, and $4 billion of initial...",
+          "summary": "Introducing the OpenAI Deployment Company, which will help businesses maximally succeed with their deployments of AI. Starting with 150 Forward Deployed Engineers and Deployment Specialists, and $4 billion of initial investment from 19 partners. OpenAI @OpenAI Today we’re launching the OpenAI Deployment Company to help businesses build and deploy AI. It's majority-owned and controlled by OpenAI. It brings together 19 leading investment firms, consultancies, and system integrators to help organizations deploy fro...",
+          "summaryZh": "来自 Greg Brockman(@gdb) 的社媒：Introducing the OpenAI Deployment Company, which will help businesses maximally succeed with their deployments of AI. Starting with 150 Forward Deployed Engineers and Deployment Specialists, and $4 billion of initial investment from 19 partners. OpenAI @OpenAI Today we’re launching the OpenAI Deployment Company to help businesses build and deploy AI. It's majority-owned and controlled by OpenAI. It brings together 19 leading investment firms, consultancies, and system integrators to help organizations deploy fro...",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "产品发布"
@@ -616,8 +583,8 @@
           "channel": "social",
           "trust": "expert",
           "image": "https://pbs.twimg.com/profile_images/1885410181409820672/ztsaR0JW_normal.jpg",
-          "summary": "Daybreak: our umbrella effort for defensive acceleration, equipping cyber defenders with the best possible frontier AI capabilities. OpenAI @OpenAI Introducing Daybreak: frontier AI for cyber defenders. Daybreak bring...",
-          "summaryZh": "来自 Greg Brockman(@gdb) 的社媒：Daybreak: our umbrella effort for defensive acceleration, equipping cyber defenders with the best possible frontier AI capabilities. OpenAI @OpenAI Introducing Daybreak: frontier AI for cyber defenders. Daybreak bring...",
+          "summary": "Daybreak: our umbrella effort for defensive acceleration, equipping cyber defenders with the best possible frontier AI capabilities. OpenAI @OpenAI Introducing Daybreak: frontier AI for cyber defenders. Daybreak brings together the most capable OpenAI models, Codex, and our security partners to accelerate cyber defense and continuously secure software. A step toward a future where security teams can move at the speed defense demands. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted...",
+          "summaryZh": "来自 Greg Brockman(@gdb) 的社媒：Daybreak: our umbrella effort for defensive acceleration, equipping cyber defenders with the best possible frontier AI capabilities. OpenAI @OpenAI Introducing Daybreak: frontier AI for cyber defenders. Daybreak brings together the most capable OpenAI models, Codex, and our security partners to accelerate cyber defense and continuously secure software. A step toward a future where security teams can move at the speed defense demands. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted...",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "模型",
@@ -636,8 +603,8 @@
           "channel": "social",
           "trust": "expert",
           "image": "",
-          "summary": "OpenAI is launching Daybreak, our effort to accelerate cyber defense and continuously secure software. AI is already good and about to get super good at cybersecurity; we'd like to start working with as many companies...",
-          "summaryZh": "来自 Sam Altman(@sama) 的社媒：OpenAI is launching Daybreak, our effort to accelerate cyber defense and continuously secure software. AI is already good and about to get super good at cybersecurity; we'd like to start working with as many companies...",
+          "summary": "OpenAI is launching Daybreak, our effort to accelerate cyber defense and continuously secure software. AI is already good and about to get super good at cybersecurity; we'd like to start working with as many companies as possible now to help them continuously secure themselves. 💬 640 🔄 268 ❤️ 4481 👀 298502 📊 890 ⚡ Powered by xgo.ing",
+          "summaryZh": "来自 Sam Altman(@sama) 的社媒：OpenAI is launching Daybreak, our effort to accelerate cyber defense and continuously secure software. AI is already good and about to get super good at cybersecurity; we'd like to start working with as many companies as possible now to help them continuously secure themselves. 💬 640 🔄 268 ❤️ 4481 👀 298502 📊 890 ⚡ Powered by xgo.ing",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "产品发布"
@@ -655,8 +622,8 @@
           "channel": "social",
           "trust": "expert",
           "image": "https://pbs.twimg.com/profile_images/2046736394152812544/LfmDgg0I_normal.jpg",
-          "summary": "interesting Chris @chatgpt21 Codex made me money without me doing anything.. Huge turning point for me today, I asked Codex to go off and make me $5. It went out, found a small open-source security/audit bounty path,...",
-          "summaryZh": "来自 Sam Altman(@sama) 的社媒：interesting Chris @chatgpt21 Codex made me money without me doing anything.. Huge turning point for me today, I asked Codex to go off and make me $5. It went out, found a small open-source security/audit bounty path,...",
+          "summary": "interesting Chris @chatgpt21 Codex made me money without me doing anything.. Huge turning point for me today, I asked Codex to go off and make me $5. It went out, found a small open-source security/audit bounty path, made a legit PR, followed up with the maintainer, kept my payment details private - (without me asking), handled the GitHub proof/verification loop, and got the work merged. it spent about 22 hours working on multiple security audits. Today I received my first payment from that experiment: $16.88. T...",
+          "summaryZh": "来自 Sam Altman(@sama) 的社媒：interesting Chris @chatgpt21 Codex made me money without me doing anything.. Huge turning point for me today, I asked Codex to go off and make me $5. It went out, found a small open-source security/audit bounty path, made a legit PR, followed up with the maintainer, kept my payment details private - (without me asking), handled the GitHub proof/verification loop, and got the work merged. it spent about 22 hours working on multiple security audits. Today I received my first payment from that experiment: $16.88. T...",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "开源"
@@ -674,8 +641,8 @@
           "channel": "social",
           "trust": "expert",
           "image": "https://pbs.twimg.com/media/HH5RlF3XQAkVLAI.jpg",
-          "summary": "Introducing Pareto Code: a new, free, experimental coding router Set `min_coding_score` in your request and route to the cheapest code-capable model that clears your bar, ranked by @ArtificialAnlys . See the Pareto fr...",
-          "summaryZh": "来自 OpenRouter(@OpenRouterAI) 的社媒：Introducing Pareto Code: a new, free, experimental coding router Set `min_coding_score` in your request and route to the cheapest code-capable model that clears your bar, ranked by @ArtificialAnlys . See the Pareto fr...",
+          "summary": "Introducing Pareto Code: a new, free, experimental coding router Set `min_coding_score` in your request and route to the cheapest code-capable model that clears your bar, ranked by @ArtificialAnlys . See the Pareto frontier shifting in real time👇 💬 39 🔄 65 ❤️ 893 👀 193877 📊 224 ⚡ Powered by xgo.ing",
+          "summaryZh": "来自 OpenRouter(@OpenRouterAI) 的社媒：Introducing Pareto Code: a new, free, experimental coding router Set `min_coding_score` in your request and route to the cheapest code-capable model that clears your bar, ranked by @ArtificialAnlys . See the Pareto frontier shifting in real time👇 💬 39 🔄 65 ❤️ 893 👀 193877 📊 224 ⚡ Powered by xgo.ing",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "模型"
@@ -692,9 +659,14 @@
       "error": "fetch failed"
     },
     {
+      "source": "GitHub Trending Daily",
+      "url": "https://github.com/trending?since=daily",
+      "error": "This operation was aborted"
+    },
+    {
       "source": "LangChain Blog",
       "url": "https://blog.langchain.dev/rss/",
-      "error": "fetch failed"
+      "error": "This operation was aborted"
     },
     {
       "source": "Hugging Face Blog",
@@ -712,14 +684,29 @@
       "error": "fetch failed"
     },
     {
+      "source": "歸藏的AI工具箱",
+      "url": "https://wechat2rss.bestblogs.dev/feed/1c3e3571b1627d23ee9c64521a0b0a41d3fe2987.xml",
+      "error": "This operation was aborted"
+    },
+    {
       "source": "LlamaIndex Blog",
       "url": "https://www.llamaindex.ai/blog/feed",
       "error": "HTTP 404"
     },
     {
+      "source": "大模型智能",
+      "url": "https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml",
+      "error": "This operation was aborted"
+    },
+    {
       "source": "AI Musings by Mu",
       "url": "https://kelvinmu.substack.com/feed",
       "error": "fetch failed"
+    },
+    {
+      "source": "Jina AI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/ff2c5468828ebe7236afd6c1d128e219774487c2.xml",
+      "error": "This operation was aborted"
     },
     {
       "source": "Datawhale",

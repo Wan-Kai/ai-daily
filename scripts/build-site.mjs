@@ -19,7 +19,6 @@ function renderItem(item) {
   const title = item.titleZh || item.title;
   const summary = item.summaryZh || item.summary;
   const image = item.image ? `<a class="item-image" href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer"><img src="${escapeHtml(item.image)}" alt="${escapeHtml(title)}" loading="lazy"></a>` : "";
-  const whyItMatters = item.whyItMatters ? `<p class="why"><strong>为什么重要：</strong>${escapeHtml(item.whyItMatters)}</p>` : "";
 
   return `
     <article class="item">
@@ -30,7 +29,6 @@ function renderItem(item) {
       </div>
       <h3><a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></h3>
       <p>${escapeHtml(summary)}</p>
-      ${whyItMatters}
       <div class="tags">${tags}</div>
     </article>
   `;
@@ -375,11 +373,6 @@ main {
 .item p {
   margin: 0;
   color: #344054;
-}
-
-.item .why {
-  margin-top: 12px;
-  color: #1f2937;
 }
 
 .tags {

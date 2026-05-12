@@ -173,8 +173,9 @@ function socialEngagementScore(item) {
 
 function summarize(item) {
   const text = item.description || item.title;
-  if (text.length <= 220) return text;
-  return `${text.slice(0, 217).trim()}...`;
+  const maxLength = item.section === "product_updates" ? 900 : 520;
+  if (text.length <= maxLength) return text;
+  return `${text.slice(0, maxLength - 3).trim()}...`;
 }
 
 function summaryZh(item) {
