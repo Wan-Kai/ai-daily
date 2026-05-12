@@ -14,68 +14,66 @@ function escapeHtml(value = "") {
     .replaceAll("'", "&#39;");
 }
 
-function renderItem(item) {
-  const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
+function reportTitle(report) {
+  return report.title?.replace("AI Daily", "AI 日报") || `AI 日报 - ${report.date}`;
+}
+
+function sectionCounts(report) {
+  return (report.sections || [])
+    .map((section) => `${section.title.replace(" TOP", "")} ${section.items?.length || 0}`)
+    .join(" / ");
+}
+
+function renderItem(item, index) {
   const title = item.titleZh || item.title;
   const summary = item.summaryZh || item.summary;
-  const image = item.image ? `<a class="item-image" href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer"><img src="${escapeHtml(item.image)}" alt="${escapeHtml(title)}" loading="lazy"></a>` : "";
+  const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
+  const image = item.image ? `
+    <figure class="news-figure">
+      <a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">
+        <img src="${escapeHtml(item.image)}" alt="${escapeHtml(title)}" loading="lazy">
+      </a>
+    </figure>
+  ` : "";
 
   return `
-    <article class="item">
-      ${image}
-      <div class="item-meta">
-        <span>${escapeHtml(item.source)}</span>
-        <span>${escapeHtml(item.channel || item.sourceType)}</span>
+    <article class="news-item">
+      <div class="news-number">${String(index + 1).padStart(2, "0")}</div>
+      <div class="news-body">
+        <h3><a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></h3>
+        <p class="news-meta">${escapeHtml(item.source)} · <a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">原文</a></p>
+        ${image}
+        <p class="news-summary">${escapeHtml(summary)}</p>
+        ${tags ? `<div class="tags">${tags}</div>` : ""}
       </div>
-      <h3><a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></h3>
-      <p>${escapeHtml(summary)}</p>
-      <div class="tags">${tags}</div>
     </article>
   `;
 }
 
 function renderSection(section) {
-  const items = section.items.map(renderItem).join("");
+  const items = (section.items || []).map((item, index) => renderItem(item, index)).join("");
   return `
     <section class="report-section" id="${escapeHtml(section.id)}">
       <div class="section-heading">
+        <p>${String(section.items?.length || 0).padStart(2, "0")}</p>
         <h2>${escapeHtml(section.title)}</h2>
-        <span>${section.items.length} 条</span>
       </div>
-      <div class="grid">${items || "<p>今天这个栏目暂无入选内容。</p>"}</div>
+      ${items || "<p class=\"empty-state\">今天这个栏目暂无入选内容。</p>"}
     </section>
   `;
 }
 
-function reportSummary(report) {
-  const sections = report.sections || [];
-  const itemCount = sections.reduce((total, section) => total + (section.items?.length || 0), 0);
-
-  return {
-    date: report.date,
-    title: report.title || `AI Daily - ${report.date}`,
-    generatedAt: report.generatedAt || "",
-    sources: report.stats?.sources ?? 0,
-    selected: report.stats?.selected ?? itemCount,
-    failures: report.stats?.failures ?? report.failures?.length ?? 0
-  };
-}
-
 function renderIndexPage(reports) {
-  const rows = reports.map((report) => {
-    const summary = reportSummary(report);
-
-    return `
-      <article class="directory-item">
-        <div>
-          <p class="directory-date">${escapeHtml(summary.date)}</p>
-          <h2><a href="./${escapeHtml(summary.date)}.html">${escapeHtml(summary.title)}</a></h2>
-          <p class="directory-meta">${summary.selected} 条入选内容 · ${summary.sources} 个来源 · ${summary.failures} 个来源异常</p>
-        </div>
-        <a class="detail-link" href="./${escapeHtml(summary.date)}.html">查看详情</a>
-      </article>
-    `;
-  }).join("");
+  const rows = reports.map((report) => `
+    <article class="directory-item">
+      <a href="./${escapeHtml(report.date)}.html">
+        <time>${escapeHtml(report.date)}</time>
+        <strong>${escapeHtml(reportTitle(report))}</strong>
+        <span>${escapeHtml(sectionCounts(report))}</span>
+        <em>查看日报</em>
+      </a>
+    </article>
+  `).join("");
 
   return `<!doctype html>
 <html lang="zh-CN">
@@ -86,25 +84,16 @@ function renderIndexPage(reports) {
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header class="site-header compact">
-    <nav>
-      <a class="brand" href="./index.html">AI Daily</a>
-    </nav>
-    <div class="hero">
-      <p class="kicker">日报管理站点</p>
-      <h1>AI Daily 日报目录</h1>
-      <p class="lede">每天自动生成一个独立页面，点击日期即可查看当天详情。</p>
-      <div class="stats">
-        <span>${reports.length} 篇日报</span>
-      </div>
+  <header class="masthead">
+    <div class="paper">
+      <p class="eyebrow">Daily Archive</p>
+      <h1>AI Daily</h1>
+      <p class="subtitle">一份按日期归档的 AI 中文日报。</p>
     </div>
   </header>
-  <main>
-    <section class="report-section">
-      <div class="section-heading">
-        <h2>日报列表</h2>
-        <span>${reports.length} days</span>
-      </div>
+  <main class="paper">
+    <section class="directory">
+      <h2>日报目录</h2>
       <div class="directory-list">${rows}</div>
     </section>
   </main>
@@ -113,53 +102,41 @@ function renderIndexPage(reports) {
 }
 
 function renderPage(report, reports) {
-  const nav = reports.map((file) => {
+  const dateLinks = reports.map((file) => {
     const date = file.replace(".json", "");
     const active = date === report.date ? "active" : "";
     return `<a class="${active}" href="./${date}.html">${date}</a>`;
   }).join("");
+  const sectionLinks = (report.sections || [])
+    .map((section) => `<a href="#${escapeHtml(section.id)}">${escapeHtml(section.title)}</a>`)
+    .join("");
 
   return `<!doctype html>
 <html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHtml(report.title)}</title>
+  <title>${escapeHtml(reportTitle(report))}</title>
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <nav>
-      <a class="brand" href="./index.html">AI Daily 日报目录</a>
-      <div class="report-nav">${nav}</div>
+  <header class="masthead">
+    <nav class="topline">
+      <a href="./index.html">AI Daily</a>
+      <div>${dateLinks}</div>
     </nav>
-    <div class="hero">
-      <p class="kicker">每日详情</p>
-      <h1>${escapeHtml(report.title)}</h1>
-      <p class="lede">按产品更新、前沿研究、开源项目和社媒分享整理当天值得关注的 AI 信息。</p>
-      <div class="stats">
-        <span>${report.stats.sources} 个来源</span>
-        <span>${report.stats.selected} 条入选</span>
-        <span>${report.stats.failures} 个来源异常</span>
-      </div>
+    <div class="paper">
+      <p class="eyebrow">${escapeHtml(report.date)}</p>
+      <h1>${escapeHtml(reportTitle(report))}</h1>
+      <p class="subtitle">像读一份报纸一样，从上往下浏览今日值得关注的 AI 动向。</p>
+      <div class="section-nav">${sectionLinks}</div>
     </div>
   </header>
-  <main>
-    ${report.sections.map(renderSection).join("")}
-    ${report.failures.length > 0 ? `
-      <section class="report-section">
-        <div class="section-heading">
-          <h2>来源异常</h2>
-          <span>${report.failures.length}</span>
-        </div>
-        <div class="issues">
-          ${report.failures.map((failure) => `<p><strong>${escapeHtml(failure.source)}</strong>: ${escapeHtml(failure.error)}</p>`).join("")}
-        </div>
-      </section>
-    ` : ""}
+  <main class="paper report">
+    ${(report.sections || []).map(renderSection).join("")}
   </main>
-  <footer>
-    Generated at ${escapeHtml(report.generatedAt)}
+  <footer class="paper footer">
+    <span>Generated at ${escapeHtml(report.generatedAt)}</span>
   </footer>
 </body>
 </html>`;
@@ -168,321 +145,330 @@ function renderPage(report, reports) {
 const css = `
 :root {
   color-scheme: light;
-  --bg: #f6f7f9;
-  --panel: #ffffff;
-  --text: #17202a;
-  --muted: #5f6b7a;
-  --line: #d9dee7;
-  --accent: #0f766e;
-  --accent-2: #b45309;
+  --paper: #fbfaf5;
+  --ink: #171717;
+  --muted: #6d665c;
+  --line: #d8d0c0;
+  --soft-line: #ebe4d6;
+  --accent: #7c1f16;
 }
 
 * {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
-  background: var(--bg);
-  color: var(--text);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  line-height: 1.55;
+  background:
+    linear-gradient(rgba(23, 23, 23, .025) 1px, transparent 1px),
+    var(--paper);
+  background-size: 100% 28px;
+  color: var(--ink);
+  font-family: "Songti SC", "STSong", "Noto Serif CJK SC", "Source Han Serif SC", Georgia, serif;
+  line-height: 1.85;
 }
 
 a {
   color: inherit;
+  text-decoration-color: rgba(124, 31, 22, .38);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
 }
 
-.site-header {
-  background: #10231f;
-  color: #f8fafc;
-  border-bottom: 1px solid #0b1815;
+a:hover {
+  color: var(--accent);
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-  max-width: 1180px;
+.paper {
+  width: min(860px, calc(100vw - 40px));
   margin: 0 auto;
-  padding: 18px 24px;
 }
 
-.brand {
-  font-weight: 800;
+.masthead {
+  padding: 28px 0 18px;
+  border-bottom: 1px solid var(--line);
+}
+
+.topline {
+  width: min(1080px, calc(100vw - 40px));
+  margin: 0 auto 34px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 18px;
+  color: var(--muted);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  letter-spacing: .03em;
+}
+
+.topline > a {
+  color: var(--ink);
+  font-weight: 700;
   text-decoration: none;
 }
 
-.report-nav {
+.topline div {
   display: flex;
   gap: 10px;
+  max-width: 70vw;
   overflow-x: auto;
   white-space: nowrap;
 }
 
-.report-nav a {
-  border: 1px solid rgba(255,255,255,.24);
-  color: #dbeafe;
-  padding: 6px 10px;
-  border-radius: 6px;
-  text-decoration: none;
-  font-size: 13px;
+.topline a.active {
+  color: var(--accent);
 }
 
-.report-nav a.active {
-  background: #f8fafc;
-  color: #10231f;
-}
-
-.hero {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 64px 24px 72px;
-}
-
-.kicker {
-  margin: 0 0 12px;
-  color: #99f6e4;
-  font-size: 14px;
-  font-weight: 700;
+.eyebrow {
+  margin: 0 0 10px;
+  color: var(--accent);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .18em;
   text-transform: uppercase;
-  letter-spacing: .08em;
 }
 
 h1 {
   margin: 0;
-  max-width: 840px;
-  font-size: clamp(38px, 7vw, 82px);
-  line-height: .96;
+  font-size: clamp(48px, 10vw, 104px);
+  font-weight: 900;
+  line-height: .95;
   letter-spacing: 0;
 }
 
-.lede {
-  max-width: 760px;
-  margin: 24px 0 0;
-  color: #cbd5e1;
-  font-size: 19px;
+.subtitle {
+  max-width: 640px;
+  margin: 22px 0 0;
+  color: var(--muted);
+  font-size: 18px;
 }
 
-.stats {
+.section-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px 18px;
   margin-top: 28px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
 }
 
-.stats span {
-  border: 1px solid rgba(255,255,255,.24);
-  border-radius: 6px;
-  padding: 8px 12px;
-  color: #e2e8f0;
+.section-nav a {
+  text-decoration: none;
+  color: var(--accent);
 }
 
-main {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 34px 24px 64px;
+.report {
+  padding: 10px 0 58px;
 }
 
 .report-section {
-  margin-top: 38px;
+  padding-top: 54px;
 }
 
 .section-heading {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 16px;
-  border-bottom: 1px solid var(--line);
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 18px;
+  align-items: end;
+  margin-bottom: 26px;
   padding-bottom: 12px;
-  margin-bottom: 18px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.section-heading p {
+  margin: 0 0 4px;
+  color: var(--accent);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
 }
 
 .section-heading h2 {
   margin: 0;
-  font-size: 24px;
+  font-size: clamp(28px, 5vw, 48px);
+  line-height: 1.05;
 }
 
-.section-heading span {
-  color: var(--muted);
-  font-size: 14px;
-}
-
-.grid {
+.news-item {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 16px;
+  grid-template-columns: 58px 1fr;
+  gap: 18px;
+  padding: 28px 0;
+  border-bottom: 1px solid var(--soft-line);
 }
 
-.item {
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-.item > :not(.item-image) {
-  margin-left: 18px;
-  margin-right: 18px;
-}
-
-.item > :last-child {
-  margin-bottom: 18px;
-}
-
-.item-image {
-  display: block;
-  aspect-ratio: 16 / 9;
-  background: #e5e7eb;
-  overflow: hidden;
-}
-
-.item-image img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.item-meta {
-  display: flex;
-  justify-content: space-between;
-  gap: 12px;
-  margin-top: 18px;
-  color: var(--muted);
+.news-number {
+  color: var(--accent);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
   font-size: 12px;
-  text-transform: uppercase;
+  font-weight: 800;
   letter-spacing: .08em;
 }
 
-.item h3 {
-  margin: 12px 0 10px;
-  font-size: 18px;
-  line-height: 1.3;
+.news-body h3 {
+  margin: 0;
+  font-size: clamp(22px, 3vw, 32px);
+  line-height: 1.24;
+  letter-spacing: 0;
 }
 
-.item h3 a {
+.news-body h3 a {
   text-decoration: none;
 }
 
-.item h3 a:hover {
-  color: var(--accent);
+.news-meta {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
 }
 
-.item p {
-  margin: 0;
-  color: #344054;
+.news-figure {
+  margin: 18px 0 18px;
+}
+
+.news-figure img {
+  display: block;
+  width: 100%;
+  max-height: 440px;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  filter: saturate(.92) contrast(1.02);
+}
+
+.news-summary {
+  margin: 16px 0 0;
+  color: #24211d;
+  font-size: 18px;
+  line-height: 1.9;
 }
 
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 14px;
+  gap: 8px;
+  margin-top: 16px;
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
 }
 
 .tags span {
-  background: #ecfdf5;
-  color: #065f46;
-  border: 1px solid #a7f3d0;
-  border-radius: 999px;
-  padding: 3px 8px;
+  color: var(--muted);
   font-size: 12px;
 }
 
-.advantages {
-  margin: 14px 0 0;
-  padding-left: 18px;
-  color: #374151;
+.tags span::before {
+  content: "#";
+  color: var(--accent);
 }
 
-.advantages li + li {
-  margin-top: 4px;
-}
-
-.issues {
-  background: #fff7ed;
-  border: 1px solid #fed7aa;
-  border-radius: 8px;
-  padding: 14px 18px;
-  color: #7c2d12;
-}
-
-footer {
-  max-width: 1180px;
-  margin: 0 auto;
-  padding: 0 24px 34px;
+.empty-state {
   color: var(--muted);
-  font-size: 13px;
 }
 
-.site-header.compact .hero {
-  padding-bottom: 48px;
+.directory {
+  padding: 48px 0 70px;
+}
+
+.directory h2 {
+  margin: 0 0 26px;
+  padding-bottom: 12px;
+  border-bottom: 2px solid var(--ink);
+  font-size: clamp(30px, 6vw, 56px);
 }
 
 .directory-list {
   display: grid;
-  gap: 12px;
+  gap: 0;
 }
 
-.directory-item {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.directory-item a {
+  display: grid;
+  grid-template-columns: 132px 1fr;
   gap: 18px;
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 18px;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--soft-line);
+  text-decoration: none;
 }
 
-.directory-date {
-  margin: 0 0 6px;
+.directory-item time {
   color: var(--accent);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
   font-size: 13px;
   font-weight: 800;
 }
 
-.directory-item h2 {
-  margin: 0;
-  font-size: 20px;
+.directory-item strong {
+  display: block;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
-.directory-item h2 a,
-.detail-link {
-  text-decoration: none;
-}
-
-.directory-meta {
-  margin: 8px 0 0;
+.directory-item span {
+  grid-column: 2;
   color: var(--muted);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
 }
 
-.detail-link {
-  flex: 0 0 auto;
-  border: 1px solid var(--line);
-  border-radius: 6px;
-  padding: 8px 12px;
+.directory-item em {
+  grid-column: 2;
   color: var(--accent);
-  font-size: 14px;
-  font-weight: 700;
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
 }
 
-@media (max-width: 720px) {
-  nav {
-    align-items: flex-start;
-    flex-direction: column;
+.footer {
+  padding: 0 0 38px;
+  color: var(--muted);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 12px;
+}
+
+@media (max-width: 680px) {
+  .paper,
+  .topline {
+    width: min(100vw - 28px, 860px);
   }
 
-  .hero {
-    padding-top: 42px;
-    padding-bottom: 52px;
-  }
-
-  .directory-item {
+  .topline {
     align-items: flex-start;
     flex-direction: column;
+    margin-bottom: 26px;
+  }
+
+  .topline div {
+    max-width: 100%;
+  }
+
+  .section-heading,
+  .news-item,
+  .directory-item a {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .directory-item span {
+    grid-column: auto;
+  }
+
+  .directory-item em {
+    grid-column: auto;
+  }
+
+  .news-summary {
+    font-size: 17px;
   }
 }
 `;
@@ -502,8 +488,7 @@ async function main() {
 
   for (const file of files) {
     const report = JSON.parse(await readFile(path.join(reportsDir, file), "utf8"));
-    const html = renderPage(report, files);
-    await writeFile(path.join(distDir, file.replace(".json", ".html")), html);
+    await writeFile(path.join(distDir, file.replace(".json", ".html")), renderPage(report, files));
   }
 
   await writeFile(path.join(distDir, "index.html"), renderIndexPage(reports));
