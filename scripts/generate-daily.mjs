@@ -413,13 +413,17 @@ function isUsableNewsImage(size) {
 }
 
 function imageCandidateScore(candidate, size) {
-  if (!isUsableNewsImage(size) || isLikelyAvatarImage(candidate.url)) return -Infinity;
+  if (!isUsableNewsImage(size) || isLikelyAvatarImage(candidate.url) || isLikelyGenericEditorialImage(candidate.url)) return -Infinity;
   const area = size.width * size.height;
   const ratio = size.width / size.height;
   const ratioScore = ratio >= 1.2 && ratio <= 2.4 ? 8 : ratio >= .75 && ratio <= 3 ? 4 : 0;
   const sourceScore = candidate.source === "og:image" || candidate.source === "twitter:image" ? 18 : candidate.source === "media:content" ? 10 : candidate.source === "image" ? 8 : candidate.source === "html" ? 6 : candidate.source === "media:thumbnail" ? 3 : 2;
   const urlPenalty = /sprite|icon|favicon|logo|avatar|profile|placeholder/i.test(candidate.url) ? 20 : 0;
   return Math.log10(area) * 10 + ratioScore + sourceScore - urlPenalty;
+}
+
+function isLikelyGenericEditorialImage(url) {
+  return /BlogHeroFeature|TWLIFB|PressCoverage|ML-\d+-image/i.test(url);
 }
 
 async function enrichPageMediaCandidates(item) {

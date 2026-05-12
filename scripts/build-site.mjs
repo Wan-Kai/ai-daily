@@ -35,6 +35,7 @@ function renderItem(item, index) {
   const video = item.video ? `
     <figure class="news-figure">
       <video src="${escapeHtml(item.video)}" controls preload="metadata" playsinline${item.image ? ` poster="${escapeHtml(item.image)}"` : ""}></video>
+      <figcaption><a href="${escapeHtml(item.video)}" target="_blank" rel="noreferrer">查看视频</a> · <a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">查看原文</a></figcaption>
     </figure>
   ` : "";
   const image = item.image ? `
@@ -431,8 +432,7 @@ h1 {
 .news-figure img {
   display: block;
   width: 100%;
-  max-height: 440px;
-  object-fit: cover;
+  height: auto;
   border: 1px solid var(--line);
   filter: saturate(.92) contrast(1.02);
 }
@@ -443,6 +443,20 @@ h1 {
   max-height: 440px;
   border: 1px solid var(--line);
   background: #111;
+}
+
+.news-figure figcaption {
+  margin-top: 8px;
+  color: var(--muted);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.news-figure figcaption a {
+  color: var(--accent);
+  font-weight: 800;
+  text-decoration: none;
 }
 
 .news-summary {
