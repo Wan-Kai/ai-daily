@@ -45,6 +45,71 @@ function renderSection(section) {
   `;
 }
 
+function reportSummary(report) {
+  const sections = report.sections || [];
+  const itemCount = sections.reduce((total, section) => total + (section.items?.length || 0), 0);
+
+  return {
+    date: report.date,
+    title: report.title || `AI Daily - ${report.date}`,
+    generatedAt: report.generatedAt || "",
+    sources: report.stats?.sources ?? 0,
+    selected: report.stats?.selected ?? itemCount,
+    failures: report.stats?.failures ?? report.failures?.length ?? 0
+  };
+}
+
+function renderIndexPage(reports) {
+  const rows = reports.map((report) => {
+    const summary = reportSummary(report);
+
+    return `
+      <article class="directory-item">
+        <div>
+          <p class="directory-date">${escapeHtml(summary.date)}</p>
+          <h2><a href="./${escapeHtml(summary.date)}.html">${escapeHtml(summary.title)}</a></h2>
+          <p class="directory-meta">${summary.selected} 条入选内容 · ${summary.sources} 个来源 · ${summary.failures} 个来源异常</p>
+        </div>
+        <a class="detail-link" href="./${escapeHtml(summary.date)}.html">查看详情</a>
+      </article>
+    `;
+  }).join("");
+
+  return `<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Daily 日报目录</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header compact">
+    <nav>
+      <a class="brand" href="./index.html">AI Daily</a>
+    </nav>
+    <div class="hero">
+      <p class="kicker">日报管理站点</p>
+      <h1>AI Daily 日报目录</h1>
+      <p class="lede">每天自动生成一个独立页面，点击日期即可查看当天详情。</p>
+      <div class="stats">
+        <span>${reports.length} 篇日报</span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="report-section">
+      <div class="section-heading">
+        <h2>日报列表</h2>
+        <span>${reports.length} days</span>
+      </div>
+      <div class="directory-list">${rows}</div>
+    </section>
+  </main>
+</body>
+</html>`;
+}
+
 function renderPage(report, reports) {
   const nav = reports.map((file) => {
     const date = file.replace(".json", "");
@@ -53,7 +118,7 @@ function renderPage(report, reports) {
   }).join("");
 
   return `<!doctype html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -63,17 +128,17 @@ function renderPage(report, reports) {
 <body>
   <header class="site-header">
     <nav>
-      <a class="brand" href="./index.html">AI Daily</a>
+      <a class="brand" href="./index.html">AI Daily 日报目录</a>
       <div class="report-nav">${nav}</div>
     </nav>
     <div class="hero">
-      <p class="kicker">Daily AI signal brief</p>
+      <p class="kicker">每日详情</p>
       <h1>${escapeHtml(report.title)}</h1>
-      <p class="lede">Curated updates from AI labs, research feeds, papers, and major technology blogs, with advantage signals extracted for faster reading.</p>
+      <p class="lede">汇总当天入选内容、来源信息和抓取异常，便于快速浏览与后续编辑。</p>
       <div class="stats">
-        <span>${report.stats.sources} sources</span>
-        <span>${report.stats.selected} selected</span>
-        <span>${report.stats.failures} source issues</span>
+        <span>${report.stats.sources} 个来源</span>
+        <span>${report.stats.selected} 条入选</span>
+        <span>${report.stats.failures} 个来源异常</span>
       </div>
     </div>
   </header>
@@ -326,6 +391,58 @@ footer {
   font-size: 13px;
 }
 
+.site-header.compact .hero {
+  padding-bottom: 48px;
+}
+
+.directory-list {
+  display: grid;
+  gap: 12px;
+}
+
+.directory-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+}
+
+.directory-date {
+  margin: 0 0 6px;
+  color: var(--accent);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.directory-item h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.directory-item h2 a,
+.detail-link {
+  text-decoration: none;
+}
+
+.directory-meta {
+  margin: 8px 0 0;
+  color: var(--muted);
+}
+
+.detail-link {
+  flex: 0 0 auto;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 8px 12px;
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 700;
+}
+
 @media (max-width: 720px) {
   nav {
     align-items: flex-start;
@@ -335,6 +452,11 @@ footer {
   .hero {
     padding-top: 42px;
     padding-bottom: 52px;
+  }
+
+  .directory-item {
+    align-items: flex-start;
+    flex-direction: column;
   }
 }
 `;
@@ -350,15 +472,15 @@ async function main() {
     throw new Error("No reports found. Run npm run generate first.");
   }
 
-  const latestFile = files[0];
+  const reports = await Promise.all(files.map(async (file) => JSON.parse(await readFile(path.join(reportsDir, file), "utf8"))));
+
   for (const file of files) {
     const report = JSON.parse(await readFile(path.join(reportsDir, file), "utf8"));
     const html = renderPage(report, files);
     await writeFile(path.join(distDir, file.replace(".json", ".html")), html);
   }
 
-  const latestReport = JSON.parse(await readFile(path.join(reportsDir, latestFile), "utf8"));
-  await writeFile(path.join(distDir, "index.html"), renderPage(latestReport, files));
+  await writeFile(path.join(distDir, "index.html"), renderIndexPage(reports));
   await writeFile(path.join(distDir, "styles.css"), css);
   console.log(`Built ${files.length} report page(s)`);
 }

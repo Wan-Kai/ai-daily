@@ -4,7 +4,12 @@ import path from "node:path";
 const root = process.cwd();
 const sourcesPath = path.join(root, "data", "sources.json");
 const reportsDir = path.join(root, "data", "reports");
-const today = new Date().toISOString().slice(0, 10);
+const today = new Intl.DateTimeFormat("en-CA", {
+  timeZone: "Asia/Shanghai",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit"
+}).format(new Date());
 
 const KEYWORDS = [
   ["model", "Model release"],

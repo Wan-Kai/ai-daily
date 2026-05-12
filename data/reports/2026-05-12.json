@@ -1,0 +1,442 @@
+{
+  "date": "2026-05-12",
+  "generatedAt": "2026-05-12T08:40:21.106Z",
+  "title": "AI Daily - 2026-05-12",
+  "stats": {
+    "sources": 11,
+    "fetched": 3112,
+    "selected": 30,
+    "failures": 4
+  },
+  "sections": [
+    {
+      "id": "top",
+      "title": "Top Signals",
+      "items": [
+        {
+          "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
+          "link": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
+          "publishedAt": "Fri, 08 May 2026 02:00:00 -0700",
+          "source": "BAIR Blog",
+          "sourceType": "research",
+          "summary": "Overview of adaptive parallel reasoning. What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Potential speed or productivity advantage",
+            "Potential efficiency advantage",
+            "Useful for agentic workflows and automation",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 23
+        },
+        {
+          "title": "Scam2Prompt: A Scalable Framework for Auditing Malicious Scam Endpoints in Production LLMs",
+          "link": "https://arxiv.org/abs/2509.02372",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2509.02372v3 Announce Type: replace-cross Abstract: Large Language Models have become critical to modern software development, but their reliance on uncurated web-scale datasets for training introduces a signifi...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Safety",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Positions itself around state-of-the-art results",
+            "Includes safety or governance signal",
+            "Useful for agentic workflows and automation",
+            "Improves developer experience or integration path"
+          ],
+          "score": 22
+        },
+        {
+          "title": "Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning",
+          "link": "https://arxiv.org/abs/2605.08271",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.08271v1 Announce Type: cross Abstract: Understanding ultra-long videos such as egocentric recordings, live streams, or surveillance footage spanning days to weeks, remains a challenge. For current multimoda...",
+          "tags": [
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Multimodal",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Useful for agentic workflows and automation",
+            "Expands modality coverage",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 21
+        },
+        {
+          "title": "MicroWorld: Empowering Multimodal Large Language Models to Bridge the Microscopic Domain Gap with Multimodal Attribute Graph",
+          "link": "https://arxiv.org/abs/2605.10120",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.10120v1 Announce Type: cross Abstract: Multimodal large language models (MLLMs) show remarkable potential for scientific reasoning, yet their performance in specialized domains such as microscopy remains li...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Reasoning",
+            "Multimodal",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Positions itself around state-of-the-art results",
+            "Expands modality coverage",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 21
+        },
+        {
+          "title": "Measuring What Matters: Benchmarking Generative, Multimodal, and Agentic AI in Healthcare",
+          "link": "https://arxiv.org/abs/2605.08445",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.08445v1 Announce Type: new Abstract: AI models are increasingly deployed in live clinical environments where they must perform reliably across complex, high-stakes workflows that standard training and valid...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Multimodal",
+            "Safety"
+          ],
+          "advantages": [
+            "Includes safety or governance signal",
+            "Useful for agentic workflows and automation",
+            "Expands modality coverage"
+          ],
+          "score": 20
+        },
+        {
+          "title": "Empowering VLMs for Few-Shot Multimodal Time Series Classification via Tailored Agentic Reasoning",
+          "link": "https://arxiv.org/abs/2605.09395",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.09395v1 Announce Type: new Abstract: In this paper, we propose the first VL$\\underline{\\textbf{M}}$ $\\underline{\\textbf{a}}$gentic $\\underline{\\textbf{r}}$easoning framework for few-$\\underline{\\textbf{s}}$...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Multimodal"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Useful for agentic workflows and automation",
+            "Expands modality coverage",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 20
+        },
+        {
+          "title": "ViSRA: A Video-based Spatial Reasoning Agent for Multi-modal Large Language Models",
+          "link": "https://arxiv.org/abs/2605.10106",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.10106v1 Announce Type: cross Abstract: Recent advances in Multi-modal Large Language Models (MLLMs) target 3D spatial intelligence, yet the progress has been largely driven by post-training on curated bench...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Inference"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Useful for agentic workflows and automation",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 20
+        },
+        {
+          "title": "When Reviews Disagree: Fine-Grained Contradiction Analysis in Scientific Peer Reviews",
+          "link": "https://arxiv.org/abs/2605.10171",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.10171v1 Announce Type: cross Abstract: Scientific peer reviews frequently contain conflicting expert judgments, and the increasing scale of conference submissions makes it challenging for Area Chairs and ed...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Potential efficiency advantage",
+            "Useful for agentic workflows and automation",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 20
+        }
+      ]
+    },
+    {
+      "id": "papers",
+      "title": "Papers And Research",
+      "items": [
+        {
+          "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
+          "link": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
+          "publishedAt": "Fri, 08 May 2026 02:00:00 -0700",
+          "source": "BAIR Blog",
+          "sourceType": "research",
+          "summary": "Overview of adaptive parallel reasoning. What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Potential speed or productivity advantage",
+            "Potential efficiency advantage",
+            "Useful for agentic workflows and automation",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 23
+        },
+        {
+          "title": "Scam2Prompt: A Scalable Framework for Auditing Malicious Scam Endpoints in Production LLMs",
+          "link": "https://arxiv.org/abs/2509.02372",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2509.02372v3 Announce Type: replace-cross Abstract: Large Language Models have become critical to modern software development, but their reliance on uncurated web-scale datasets for training introduces a signifi...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Safety",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Positions itself around state-of-the-art results",
+            "Includes safety or governance signal",
+            "Useful for agentic workflows and automation",
+            "Improves developer experience or integration path"
+          ],
+          "score": 22
+        },
+        {
+          "title": "Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning",
+          "link": "https://arxiv.org/abs/2605.08271",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.08271v1 Announce Type: cross Abstract: Understanding ultra-long videos such as egocentric recordings, live streams, or surveillance footage spanning days to weeks, remains a challenge. For current multimoda...",
+          "tags": [
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Multimodal",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Useful for agentic workflows and automation",
+            "Expands modality coverage",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 21
+        },
+        {
+          "title": "MicroWorld: Empowering Multimodal Large Language Models to Bridge the Microscopic Domain Gap with Multimodal Attribute Graph",
+          "link": "https://arxiv.org/abs/2605.10120",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.10120v1 Announce Type: cross Abstract: Multimodal large language models (MLLMs) show remarkable potential for scientific reasoning, yet their performance in specialized domains such as microscopy remains li...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Reasoning",
+            "Multimodal",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Positions itself around state-of-the-art results",
+            "Expands modality coverage",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 21
+        },
+        {
+          "title": "Measuring What Matters: Benchmarking Generative, Multimodal, and Agentic AI in Healthcare",
+          "link": "https://arxiv.org/abs/2605.08445",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.08445v1 Announce Type: new Abstract: AI models are increasingly deployed in live clinical environments where they must perform reliably across complex, high-stakes workflows that standard training and valid...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Multimodal",
+            "Safety"
+          ],
+          "advantages": [
+            "Includes safety or governance signal",
+            "Useful for agentic workflows and automation",
+            "Expands modality coverage"
+          ],
+          "score": 20
+        },
+        {
+          "title": "Empowering VLMs for Few-Shot Multimodal Time Series Classification via Tailored Agentic Reasoning",
+          "link": "https://arxiv.org/abs/2605.09395",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.09395v1 Announce Type: new Abstract: In this paper, we propose the first VL$\\underline{\\textbf{M}}$ $\\underline{\\textbf{a}}$gentic $\\underline{\\textbf{r}}$easoning framework for few-$\\underline{\\textbf{s}}$...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Multimodal"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Useful for agentic workflows and automation",
+            "Expands modality coverage",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 20
+        },
+        {
+          "title": "ViSRA: A Video-based Spatial Reasoning Agent for Multi-modal Large Language Models",
+          "link": "https://arxiv.org/abs/2605.10106",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.10106v1 Announce Type: cross Abstract: Recent advances in Multi-modal Large Language Models (MLLMs) target 3D spatial intelligence, yet the progress has been largely driven by post-training on curated bench...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Inference"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Useful for agentic workflows and automation",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 20
+        },
+        {
+          "title": "When Reviews Disagree: Fine-Grained Contradiction Analysis in Scientific Peer Reviews",
+          "link": "https://arxiv.org/abs/2605.10171",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.10171v1 Announce Type: cross Abstract: Scientific peer reviews frequently contain conflicting expert judgments, and the increasing scale of conference submissions makes it challenging for Area Chairs and ed...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Potential efficiency advantage",
+            "Useful for agentic workflows and automation",
+            "Improves reasoning-oriented capability"
+          ],
+          "score": 20
+        },
+        {
+          "title": "Phoenix-VL 1.5 Medium Technical Report",
+          "link": "https://arxiv.org/abs/2605.10391",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2605.10391v1 Announce Type: cross Abstract: We introduce Phoenix-VL 1.5 Medium, a 123B-parameter natively multimodal and multilingual foundation model, adapted to regional languages and the Singapore context. De...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Multimodal",
+            "Safety",
+            "Evaluation"
+          ],
+          "advantages": [
+            "Positions itself around state-of-the-art results",
+            "Includes safety or governance signal",
+            "Expands modality coverage"
+          ],
+          "score": 20
+        },
+        {
+          "title": "Knowledge is Not Enough: Injecting RL Skills for Continual Adaptation",
+          "link": "https://arxiv.org/abs/2601.11258",
+          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
+          "source": "arXiv AI",
+          "sourceType": "paper",
+          "summary": "arXiv:2601.11258v2 Announce Type: replace-cross Abstract: Large Language Models (LLMs) face the \"knowledge cutoff\" challenge, where their frozen parametric memory prevents direct internalization of new information. Wh...",
+          "tags": [
+            "Model release",
+            "Benchmark",
+            "Agent workflow",
+            "Reasoning"
+          ],
+          "advantages": [
+            "Claims stronger benchmark performance",
+            "Positions itself around state-of-the-art results",
+            "Potential efficiency advantage",
+            "Useful for agentic workflows and automation"
+          ],
+          "score": 20
+        }
+      ]
+    },
+    {
+      "id": "industry",
+      "title": "Company And Product Updates",
+      "items": []
+    }
+  ],
+  "failures": [
+    {
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/discover/blog/rss.xml",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "Meta AI Blog",
+      "url": "https://ai.meta.com/blog/rss/",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Google Research Blog",
+      "url": "https://research.google/blog/rss/",
+      "error": "fetch failed"
+    }
+  ]
+}
