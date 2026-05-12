@@ -106,6 +106,33 @@ function htmlImageCandidates(html = "", base) {
     .filter((candidate) => candidate.url && isImageUrl(candidate.url));
 }
 
+function htmlVideoCandidates(html = "", base) {
+  return [
+    ...[...html.matchAll(/<video\b[^>]*>/gi)].map((match) => attrsFromTag(match[0])),
+    ...[...html.matchAll(/<source\b[^>]*>/gi)].map((match) => attrsFromTag(match[0]))
+  ]
+    .map((attrs) => ({
+      url: absoluteUrl(attrs.src, base),
+      type: attrs.type || "",
+      source: "html-video"
+    }))
+    .filter((candidate) => candidate.url && isVideoCandidate(candidate));
+}
+
+function metaMediaCandidates(html = "", base) {
+  return [...html.matchAll(/<meta\b[^>]*>/gi)]
+    .map((match) => attrsFromTag(match[0]))
+    .map((attrs) => ({
+      url: absoluteUrl(attrs.content, base),
+      key: (attrs.property || attrs.name || "").toLowerCase()
+    }))
+    .filter((candidate) => candidate.url)
+    .map((candidate) => ({
+      url: candidate.url,
+      source: candidate.key.includes("twitter:image") ? "twitter:image" : candidate.key.includes("og:image") ? "og:image" : candidate.key.includes("twitter:player") ? "twitter:player" : candidate.key.includes("og:video") ? "og:video" : "meta"
+    }));
+}
+
 function absoluteUrl(url, base) {
   if (!url) return "";
   try {
@@ -160,6 +187,7 @@ function extractMedia(block, sourceUrl) {
 
   const html = tagValue(block, "content:encoded") || tagValue(block, "description") || tagValue(block, "summary");
   candidates.push(...htmlImageCandidates(html, sourceUrl));
+  candidates.push(...htmlVideoCandidates(html, sourceUrl));
 
   const imageCandidates = uniqueCandidates(candidates.filter((candidate) => isImageCandidate(candidate)));
   const videoCandidates = uniqueCandidates(candidates.filter((candidate) => isVideoCandidate(candidate)));
@@ -389,15 +417,31 @@ function imageCandidateScore(candidate, size) {
   const area = size.width * size.height;
   const ratio = size.width / size.height;
   const ratioScore = ratio >= 1.2 && ratio <= 2.4 ? 8 : ratio >= .75 && ratio <= 3 ? 4 : 0;
-  const sourceScore = candidate.source === "media:content" ? 10 : candidate.source === "image" ? 8 : candidate.source === "html" ? 6 : candidate.source === "media:thumbnail" ? 3 : 2;
+  const sourceScore = candidate.source === "og:image" || candidate.source === "twitter:image" ? 18 : candidate.source === "media:content" ? 10 : candidate.source === "image" ? 8 : candidate.source === "html" ? 6 : candidate.source === "media:thumbnail" ? 3 : 2;
   const urlPenalty = /sprite|icon|favicon|logo|avatar|profile|placeholder/i.test(candidate.url) ? 20 : 0;
   return Math.log10(area) * 10 + ratioScore + sourceScore - urlPenalty;
 }
 
+async function enrichPageMediaCandidates(item) {
+  if (!/^https?:\/\//i.test(item.link) || /x\.com|twitter\.com|youtube\.com|youtu\.be/i.test(item.link)) return;
+  try {
+    const html = await fetchText(item.link, 10000);
+    const metaCandidates = metaMediaCandidates(html, item.link);
+    const imageCandidates = metaCandidates.filter((candidate) => isImageCandidate(candidate));
+    const videoCandidates = metaCandidates.filter((candidate) => isVideoCandidate(candidate));
+    item.imageCandidates = uniqueCandidates([...(item.imageCandidates || []), ...imageCandidates]);
+    item.videoCandidates = uniqueCandidates([...(item.videoCandidates || []), ...videoCandidates]);
+  } catch {
+    // 页面元信息抓取失败时保留 RSS 内的媒体候选。
+  }
+}
+
 async function chooseBestMedia(sections) {
+  const selectedItems = sections.flatMap((section) => section.items);
+  await runWithConcurrency(selectedItems, 4, enrichPageMediaCandidates);
+
   const imageCandidates = [...new Map(
-    sections
-      .flatMap((section) => section.items)
+    selectedItems
       .flatMap((item) => (item.imageCandidates?.length ? item.imageCandidates : item.image ? [{ url: item.image, source: "fallback" }] : []))
       .filter((candidate) => candidate.url)
       .map((candidate) => [candidate.url, candidate])

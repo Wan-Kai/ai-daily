@@ -114,7 +114,8 @@
             "智能体",
             "视频"
           ],
-          "score": 72
+          "score": 72,
+          "video": "https://video.twimg.com/amplify_video/2053935379166687232/vid/avc1/3840x2160/blJrzjlcZtyj_LfB.mp4?tag=27"
         },
         {
           "title": "Today we’re launching the OpenAI Deployment Company to help businesses build and deploy AI. It's ma...",
@@ -301,7 +302,7 @@
           "section": "research_frontier",
           "channel": "research_blog",
           "trust": "official",
-          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/SocialReasoningBench-BlogHeroFeature-1400x788-1.jpg",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/SocialReasoningBench-TWLIFB-1200x627-1.jpg",
           "summary": "Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests appeared first on Microsoft Research .",
           "summaryZh": "核心结论：当前 Agent 即使能完成任务，也不一定会稳定改善用户处境。Microsoft Research 用 SocialReasoning-Bench 观察到一个稳定模式：模型执行能力并不差，但即便被明确要求优化用户利益，也未必持续做出对用户更有利的行动。这个评测重要在于，它把“Agent 会不会做事”推进到“Agent 会不会站在用户长期利益一边”，更接近真实代理场景的风险。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
@@ -310,7 +311,8 @@
             "智能体",
             "推理能力"
           ],
-          "score": 42
+          "score": 42,
+          "video": ""
         },
         {
           "title": "Vibe coding and agentic engineering are getting closer than I'd like",
