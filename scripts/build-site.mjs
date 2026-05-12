@@ -18,9 +18,13 @@ function reportTitle(report) {
   return report.title?.replace("AI Daily", "AI 日报") || `AI 日报 - ${report.date}`;
 }
 
+function titleDate(report) {
+  return report.date || report.title?.match(/\d{4}-\d{2}-\d{2}/)?.[0] || "";
+}
+
 function sectionCounts(report) {
   return (report.sections || [])
-    .map((section) => `${section.title.replace(" TOP", "")} ${section.items?.length || 0}`)
+    .map((section) => `${section.title} ${section.items?.length || 0}`)
     .join(" / ");
 }
 
@@ -102,10 +106,10 @@ function renderIndexPage(reports) {
 }
 
 function renderPage(report, reports) {
-  const dateLinks = reports.map((file) => {
+  const dateOptions = reports.map((file) => {
     const date = file.replace(".json", "");
-    const active = date === report.date ? "active" : "";
-    return `<a class="${active}" href="./${date}.html">${date}</a>`;
+    const selected = date === report.date ? " selected" : "";
+    return `<option value="./${date}.html"${selected}>${date}</option>`;
   }).join("");
   const sectionLinks = (report.sections || [])
     .map((section) => `<a href="#${escapeHtml(section.id)}">${escapeHtml(section.title)}</a>`)
@@ -123,11 +127,15 @@ function renderPage(report, reports) {
   <header class="masthead">
     <nav class="topline">
       <a href="./index.html">AI Daily</a>
-      <div>${dateLinks}</div>
+      <label class="date-picker">
+        <span>选择日期</span>
+        <select onchange="if (this.value) window.location.href = this.value">${dateOptions}</select>
+      </label>
     </nav>
     <div class="paper">
       <p class="eyebrow">${escapeHtml(report.date)}</p>
-      <h1>${escapeHtml(reportTitle(report))}</h1>
+      <h1 class="report-title">AI 日报</h1>
+      <p class="issue-date">${escapeHtml(titleDate(report))}</p>
       <p class="subtitle">像读一份报纸一样，从上往下浏览今日值得关注的 AI 动向。</p>
       <div class="section-nav">${sectionLinks}</div>
     </div>
@@ -212,18 +220,6 @@ a:hover {
   text-decoration: none;
 }
 
-.topline div {
-  display: flex;
-  gap: 10px;
-  max-width: 70vw;
-  overflow-x: auto;
-  white-space: nowrap;
-}
-
-.topline a.active {
-  color: var(--accent);
-}
-
 .eyebrow {
   margin: 0 0 10px;
   color: var(--accent);
@@ -240,6 +236,43 @@ h1 {
   font-weight: 900;
   line-height: .95;
   letter-spacing: 0;
+}
+
+.report-title {
+  font-size: clamp(38px, 6.5vw, 72px);
+}
+
+.issue-date {
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+
+.date-picker {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.date-picker span {
+  color: var(--muted);
+}
+
+.date-picker select {
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  color: var(--ink);
+  font: inherit;
+  padding: 6px 30px 6px 10px;
+  background-image: linear-gradient(45deg, transparent 50%, var(--accent) 50%), linear-gradient(135deg, var(--accent) 50%, transparent 50%);
+  background-position: calc(100% - 15px) 50%, calc(100% - 10px) 50%;
+  background-repeat: no-repeat;
+  background-size: 5px 5px, 5px 5px;
 }
 
 .subtitle {

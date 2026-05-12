@@ -12,10 +12,10 @@ const today = new Intl.DateTimeFormat("en-CA", {
 }).format(new Date());
 
 const SECTION_CONFIG = [
-  { id: "product_updates", title: "AI 产品更新", limit: 8 },
-  { id: "research_frontier", title: "前沿研究", limit: 8 },
-  { id: "open_source_top", title: "开源项目 TOP", limit: 6 },
-  { id: "social_shares", title: "社媒分享", limit: 10 }
+  { id: "product_updates", title: "产品快讯", limit: 8 },
+  { id: "research_frontier", title: "研究前线", limit: 8 },
+  { id: "open_source_top", title: "开源项目", limit: 6 },
+  { id: "social_shares", title: "社媒观察", limit: 10 }
 ];
 
 const KEYWORDS = [
@@ -288,6 +288,8 @@ async function runWithConcurrency(items, limit, worker) {
 }
 
 function publicItem(item) {
+  const section = normalizedSection(item);
+
   return {
     title: item.title,
     titleZh: item.titleZh || item.title,
@@ -295,7 +297,7 @@ function publicItem(item) {
     publishedAt: item.publishedAt,
     source: item.source,
     sourceType: item.sourceType,
-    section: item.section,
+    section,
     channel: item.channel,
     trust: item.trust,
     image: item.image || "",
@@ -305,6 +307,22 @@ function publicItem(item) {
     tags: inferTags(item),
     score: scoreItem(item)
   };
+}
+
+function normalizedSection(item) {
+  if (item.section !== "product_updates") return item.section;
+  return isProductUpdate(item) ? "product_updates" : "social_shares";
+}
+
+function isProductUpdate(item) {
+  if (item.channel !== "social" || item.trust !== "official") return false;
+  const text = `${item.title} ${item.description}`.toLowerCase();
+  if (/agent view|claude code.*agent view|parallel agents|gemini api.*file search|webhooks?.*gemini api|notebooklm.*mind map|google health.*gemini/.test(text)) {
+    return true;
+  }
+  const positive = /new in|now available|available today|introducing|meet |launch(?:ed|es)?|release(?:d|s)?|roll(?:ed|ing)? out|adds?|announc(?:e|ed|es)|preview|beta|generally available|ga\b|codex|api|feature|plugin|integration|webhook|file search|notebooklm|gemini|cursor|teams|daybreak/.test(text);
+  const negative = /research|paper|benchmark|principle|constitution|misalignment|monitor|safety evaluation|we found|we observed|how to|why|thread|opinion|recap|roundup|blog goes through|infrastructure issues|patterns we’ve been using|patterns we've been using|problems pretty quickly/i.test(text);
+  return positive && !negative;
 }
 
 function isRelevantForSection(item, sectionId) {
