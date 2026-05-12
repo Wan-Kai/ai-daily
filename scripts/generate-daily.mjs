@@ -96,7 +96,13 @@ function extractImage(block, sourceUrl) {
   const enclosure = attrValue(block, "enclosure", "url");
   const imageTag = tagValue(block, "image") || tagValue(block, "itunes:image");
   const htmlImage = firstAttr(tagValue(block, "content:encoded") || tagValue(block, "description") || tagValue(block, "summary"), "src");
-  return absoluteUrl(mediaContent || mediaThumbnail || enclosure || imageTag || htmlImage, sourceUrl);
+  const image = absoluteUrl(mediaContent || mediaThumbnail || enclosure || imageTag || htmlImage, sourceUrl);
+  return isImageUrl(image) ? image : "";
+}
+
+function isImageUrl(url) {
+  if (!url) return false;
+  return !/\.(mp4|mov|webm|m3u8)(\?|$)/i.test(url);
 }
 
 function parseFeed(xml, source) {
@@ -145,7 +151,24 @@ function scoreItem(item) {
   const keywordScore = KEYWORDS.reduce((score, [keyword, , value]) => score + (text.includes(keyword.toLowerCase()) ? value : 0), 0);
   const trustScore = item.trust === "official" ? 8 : item.trust === "expert" ? 5 : item.trust === "rank" ? 6 : 2;
   const imageScore = item.image ? 1 : 0;
-  return item.sourceWeight * 3 + trustScore + keywordScore + imageScore;
+  const productSignalScore = item.channel === "social" && /new in|available today|introducing|launch|released|now available|agent view|claude code|codex/i.test(text) ? 8 : 0;
+  return item.sourceWeight * 3 + trustScore + keywordScore + imageScore + productSignalScore + socialEngagementScore(item);
+}
+
+function metricValue(text, marker) {
+  const match = text.match(new RegExp(`${marker}\\s*([\\d,]+)`, "u"));
+  return match ? Number(match[1].replaceAll(",", "")) : 0;
+}
+
+function socialEngagementScore(item) {
+  if (item.channel !== "social") return 0;
+  const text = `${item.title} ${item.description}`;
+  const replies = metricValue(text, "💬");
+  const reposts = metricValue(text, "🔄");
+  const likes = metricValue(text, "❤️");
+  const views = metricValue(text, "👀");
+  const raw = Math.log10(likes + 1) * 4 + Math.log10(reposts + 1) * 2 + Math.log10(replies + 1) + Math.log10(views + 1) * 1.5;
+  return Math.min(24, raw);
 }
 
 function summarize(item) {
@@ -273,6 +296,7 @@ function publicItem(item) {
     sourceType: item.sourceType,
     section: item.section,
     channel: item.channel,
+    trust: item.trust,
     image: item.image || "",
     summary: summarize(item),
     summaryZh: item.summaryZh || summaryZh(item),
@@ -283,6 +307,10 @@ function publicItem(item) {
 }
 
 function isRelevantForSection(item, sectionId) {
+  if (sectionId === "product_updates") {
+    return item.channel === "social" && item.trust === "official";
+  }
+
   if (sectionId !== "open_source_top") return true;
   const text = `${item.title} ${item.summary} ${item.summaryZh} ${item.tags.join(" ")}`.toLowerCase();
   if (item.source === "The GitHub Blog") {
