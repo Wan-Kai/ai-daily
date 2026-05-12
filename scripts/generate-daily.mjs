@@ -77,9 +77,33 @@ function attrValue(block, tag, attr) {
   return match ? decodeEntities(match[1]).trim() : "";
 }
 
-function firstAttr(block, attr) {
-  const match = block.match(new RegExp(`${attr}=["']([^"']+)["']`, "i"));
-  return match ? decodeEntities(match[1]).trim() : "";
+function attrValues(block, tag, attr) {
+  return [...block.matchAll(new RegExp(`<${tag}[^>]*${attr}=["']([^"']+)["'][^>]*>`, "gi"))]
+    .map((match) => decodeEntities(match[1]).trim())
+    .filter(Boolean);
+}
+
+function tagBlocks(block, tag) {
+  return [...block.matchAll(new RegExp(`<${tag}[^>]*>`, "gi"))].map((match) => match[0]);
+}
+
+function attrsFromTag(tag = "") {
+  return Object.fromEntries(
+    [...tag.matchAll(/([\w:-]+)=["']([^"']+)["']/g)]
+      .map(([, key, value]) => [key.toLowerCase(), decodeEntities(value).trim()])
+  );
+}
+
+function htmlImageCandidates(html = "", base) {
+  return [...html.matchAll(/<img\b[^>]*>/gi)]
+    .map((match) => attrsFromTag(match[0]))
+    .map((attrs) => ({
+      url: absoluteUrl(attrs.src || attrs["data-src"], base),
+      source: "html",
+      width: Number(attrs.width || 0),
+      height: Number(attrs.height || 0)
+    }))
+    .filter((candidate) => candidate.url && isImageUrl(candidate.url));
 }
 
 function absoluteUrl(url, base) {
@@ -91,14 +115,74 @@ function absoluteUrl(url, base) {
   }
 }
 
-function extractImage(block, sourceUrl) {
-  const mediaContent = attrValue(block, "media:content", "url");
-  const mediaThumbnail = attrValue(block, "media:thumbnail", "url");
-  const enclosure = attrValue(block, "enclosure", "url");
-  const imageTag = tagValue(block, "image") || tagValue(block, "itunes:image");
-  const htmlImage = firstAttr(tagValue(block, "content:encoded") || tagValue(block, "description") || tagValue(block, "summary"), "src");
-  const image = absoluteUrl(mediaContent || mediaThumbnail || enclosure || imageTag || htmlImage, sourceUrl);
-  return isImageUrl(image) ? image : "";
+function uniqueCandidates(candidates) {
+  const seen = new Set();
+  return candidates.filter((candidate) => {
+    if (!candidate.url || seen.has(candidate.url)) return false;
+    seen.add(candidate.url);
+    return true;
+  });
+}
+
+function extractMedia(block, sourceUrl) {
+  const candidates = [];
+  for (const tag of tagBlocks(block, "media:content")) {
+    const attrs = attrsFromTag(tag);
+    candidates.push({
+      url: absoluteUrl(attrs.url, sourceUrl),
+      type: attrs.type || "",
+      medium: attrs.medium || "",
+      width: Number(attrs.width || 0),
+      height: Number(attrs.height || 0),
+      source: "media:content"
+    });
+  }
+  for (const tag of tagBlocks(block, "media:thumbnail")) {
+    const attrs = attrsFromTag(tag);
+    candidates.push({
+      url: absoluteUrl(attrs.url, sourceUrl),
+      width: Number(attrs.width || 0),
+      height: Number(attrs.height || 0),
+      source: "media:thumbnail"
+    });
+  }
+  for (const tag of tagBlocks(block, "enclosure")) {
+    const attrs = attrsFromTag(tag);
+    candidates.push({
+      url: absoluteUrl(attrs.url, sourceUrl),
+      type: attrs.type || "",
+      source: "enclosure"
+    });
+  }
+
+  const imageTag = tagValue(block, "image") || attrValue(block, "itunes:image", "href");
+  if (imageTag) candidates.push({ url: absoluteUrl(imageTag, sourceUrl), source: "image" });
+
+  const html = tagValue(block, "content:encoded") || tagValue(block, "description") || tagValue(block, "summary");
+  candidates.push(...htmlImageCandidates(html, sourceUrl));
+
+  const imageCandidates = uniqueCandidates(candidates.filter((candidate) => isImageCandidate(candidate)));
+  const videoCandidates = uniqueCandidates(candidates.filter((candidate) => isVideoCandidate(candidate)));
+
+  return {
+    imageCandidates,
+    videoCandidates,
+    image: imageCandidates[0]?.url || "",
+    video: videoCandidates[0]?.url || ""
+  };
+}
+
+function isImageCandidate(candidate) {
+  if (!candidate?.url) return false;
+  const type = candidate.type || "";
+  if (/^image\//i.test(type) || candidate.medium === "image") return true;
+  return isImageUrl(candidate.url) && !isVideoCandidate(candidate);
+}
+
+function isVideoCandidate(candidate) {
+  if (!candidate?.url) return false;
+  const type = candidate.type || "";
+  return /^video\//i.test(type) || /\.(mp4|mov|webm|m3u8)(\?|$)/i.test(candidate.url);
 }
 
 function isImageUrl(url) {
@@ -116,13 +200,17 @@ function parseFeed(xml, source) {
     const link = tagValue(block, "link") || attrValue(block, "link", "href") || tagValue(block, "guid") || source.url;
     const description = stripHtml(tagValue(block, "description") || tagValue(block, "summary") || tagValue(block, "content") || tagValue(block, "content:encoded"));
     const publishedAt = tagValue(block, "pubDate") || tagValue(block, "published") || tagValue(block, "updated") || "";
+    const media = extractMedia(block, source.url);
 
     return {
       title,
       link: absoluteUrl(link, source.url) || link,
       description,
       publishedAt,
-      image: extractImage(block, source.url),
+      image: media.image,
+      imageCandidates: media.imageCandidates,
+      video: media.video,
+      videoCandidates: media.videoCandidates,
       source: source.name,
       sourceType: source.type,
       section: source.section,
@@ -151,7 +239,7 @@ function scoreItem(item) {
   const text = `${item.title} ${item.description}`.toLowerCase();
   const keywordScore = KEYWORDS.reduce((score, [keyword, , value]) => score + (text.includes(keyword.toLowerCase()) ? value : 0), 0);
   const trustScore = item.trust === "official" ? 8 : item.trust === "expert" ? 5 : item.trust === "rank" ? 6 : 2;
-  const imageScore = item.image ? 1 : 0;
+  const imageScore = item.image || item.video ? 1 : 0;
   const productSignalScore = item.channel === "social" && /new in|available today|introducing|launch|released|now available|agent view|claude code|codex/i.test(text) ? 8 : 0;
   return item.sourceWeight * 3 + trustScore + keywordScore + imageScore + productSignalScore + socialEngagementScore(item);
 }
@@ -281,14 +369,14 @@ function parseImageSize(bytes, contentType = "") {
     const text = new TextDecoder().decode(bytes.slice(0, Math.min(bytes.length, 2048)));
     const width = Number(text.match(/\bwidth=["']?([\d.]+)/i)?.[1] || 0);
     const height = Number(text.match(/\bheight=["']?([\d.]+)/i)?.[1] || 0);
-    const viewBox = text.match(/\bviewBox=["'][^"']*?([\d.]+)\s+([\d.]+)["']/i);
+    const viewBox = text.match(/\bviewBox=["']\s*[-\d.]+\s+[-\d.]+\s+([\d.]+)\s+([\d.]+)\s*["']/i);
     return { width: width || Number(viewBox?.[1] || 0), height: height || Number(viewBox?.[2] || 0) };
   }
   return null;
 }
 
 function isLikelyAvatarImage(url) {
-  return /profile_images\/|_normal\.(?:jpe?g|png|webp)(?:\?|$)|\/100x100\./i.test(url);
+  return /profile_images\/|_normal\.(?:jpe?g|png|webp)(?:\?|$)|\/(?:\d+x)?100x100\.|avatar|logo/i.test(url);
 }
 
 function isUsableNewsImage(size) {
@@ -296,26 +384,57 @@ function isUsableNewsImage(size) {
   return size.width >= 360 && size.height >= 180 && size.width * size.height >= 90000;
 }
 
-async function filterLowQualityImages(sections) {
-  const imageUrls = [...new Set(sections.flatMap((section) => section.items.map((item) => item.image).filter(Boolean)))];
-  const verdicts = new Map();
+function imageCandidateScore(candidate, size) {
+  if (!isUsableNewsImage(size) || isLikelyAvatarImage(candidate.url)) return -Infinity;
+  const area = size.width * size.height;
+  const ratio = size.width / size.height;
+  const ratioScore = ratio >= 1.2 && ratio <= 2.4 ? 8 : ratio >= .75 && ratio <= 3 ? 4 : 0;
+  const sourceScore = candidate.source === "media:content" ? 10 : candidate.source === "image" ? 8 : candidate.source === "html" ? 6 : candidate.source === "media:thumbnail" ? 3 : 2;
+  const urlPenalty = /sprite|icon|favicon|logo|avatar|profile|placeholder/i.test(candidate.url) ? 20 : 0;
+  return Math.log10(area) * 10 + ratioScore + sourceScore - urlPenalty;
+}
 
-  await runWithConcurrency(imageUrls, 5, async (url) => {
-    if (isLikelyAvatarImage(url)) {
-      verdicts.set(url, false);
+async function chooseBestMedia(sections) {
+  const imageCandidates = [...new Map(
+    sections
+      .flatMap((section) => section.items)
+      .flatMap((item) => (item.imageCandidates?.length ? item.imageCandidates : item.image ? [{ url: item.image, source: "fallback" }] : []))
+      .filter((candidate) => candidate.url)
+      .map((candidate) => [candidate.url, candidate])
+  ).values()];
+  const imageDetails = new Map();
+
+  await runWithConcurrency(imageCandidates, 5, async (candidate) => {
+    if (isLikelyAvatarImage(candidate.url)) {
+      imageDetails.set(candidate.url, null);
       return;
     }
     try {
-      const { bytes, contentType } = await fetchBinary(url);
-      verdicts.set(url, isUsableNewsImage(parseImageSize(bytes, contentType)));
+      const size = candidate.width && candidate.height
+        ? { width: candidate.width, height: candidate.height }
+        : await (async () => {
+          const { bytes, contentType } = await fetchBinary(candidate.url);
+          return parseImageSize(bytes, contentType);
+        })();
+      imageDetails.set(candidate.url, size);
     } catch {
-      verdicts.set(url, false);
+      imageDetails.set(candidate.url, null);
     }
   });
 
   for (const section of sections) {
     for (const item of section.items) {
-      if (item.image && verdicts.get(item.image) === false) item.image = "";
+      const candidates = item.imageCandidates?.length ? item.imageCandidates : item.image ? [{ url: item.image, source: "fallback" }] : [];
+      const best = candidates
+        .map((candidate) => ({
+          candidate,
+          score: imageCandidateScore(candidate, imageDetails.get(candidate.url))
+        }))
+        .sort((a, b) => b.score - a.score)[0];
+      item.image = best && best.score > -Infinity ? best.candidate.url : "";
+      item.video = item.videoCandidates?.find((candidate) => candidate.url)?.url || item.video || "";
+      delete item.imageCandidates;
+      delete item.videoCandidates;
     }
   }
 }
@@ -410,6 +529,9 @@ function publicItem(item) {
     channel: item.channel,
     trust: item.trust,
     image: item.image || "",
+    imageCandidates: item.imageCandidates || [],
+    video: item.video || "",
+    videoCandidates: item.videoCandidates || [],
     summary: summarize(item),
     summaryZh: item.summaryZh || summaryZh(item),
     whyItMatters: item.whyItMatters || whyItMatters(item),
@@ -515,7 +637,7 @@ async function main() {
       .slice(0, section.limit)
   }));
 
-  await filterLowQualityImages(sections);
+  await chooseBestMedia(sections);
 
   const selectedCount = sections.reduce((total, section) => total + section.items.length, 0);
   const report = {

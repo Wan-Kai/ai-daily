@@ -32,6 +32,11 @@ function renderItem(item, index) {
   const title = item.titleZh || item.title;
   const summary = item.summaryZh || item.summary;
   const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
+  const video = item.video ? `
+    <figure class="news-figure">
+      <video src="${escapeHtml(item.video)}" controls preload="metadata" playsinline${item.image ? ` poster="${escapeHtml(item.image)}"` : ""}></video>
+    </figure>
+  ` : "";
   const image = item.image ? `
     <figure class="news-figure">
       <a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">
@@ -46,7 +51,7 @@ function renderItem(item, index) {
       <div class="news-body">
         <h3><a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></h3>
         <p class="news-meta">${escapeHtml(item.source)} · <a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">原文</a></p>
-        ${image}
+        ${video || image}
         <p class="news-summary">${escapeHtml(summary)}</p>
         ${tags ? `<div class="tags">${tags}</div>` : ""}
       </div>
@@ -136,7 +141,7 @@ function renderPage(report, reports) {
       </details>
     </nav>
     <div class="paper">
-      <p class="eyebrow">${escapeHtml(report.date)}</p>
+      <p class="eyebrow">Daily Brief</p>
       <h1 class="report-title">AI 日报</h1>
       <p class="issue-date">${escapeHtml(titleDate(report))}</p>
       <p class="subtitle">像读一份报纸一样，从上往下浏览今日值得关注的 AI 动向。</p>
@@ -430,6 +435,14 @@ h1 {
   object-fit: cover;
   border: 1px solid var(--line);
   filter: saturate(.92) contrast(1.02);
+}
+
+.news-figure video {
+  display: block;
+  width: 100%;
+  max-height: 440px;
+  border: 1px solid var(--line);
+  background: #111;
 }
 
 .news-summary {
