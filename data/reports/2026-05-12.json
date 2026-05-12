@@ -1,431 +1,673 @@
 {
   "date": "2026-05-12",
-  "generatedAt": "2026-05-12T08:40:21.106Z",
-  "title": "AI Daily - 2026-05-12",
+  "generatedAt": "2026-05-12T13:25:25.204Z",
+  "title": "AI 日报 - 2026-05-12",
   "stats": {
-    "sources": 11,
-    "fetched": 3112,
-    "selected": 30,
-    "failures": 4
+    "sources": 137,
+    "fetched": 453,
+    "selected": 32,
+    "failures": 10
   },
   "sections": [
     {
-      "id": "top",
-      "title": "Top Signals",
+      "id": "product_updates",
+      "title": "AI 产品更新",
       "items": [
         {
-          "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
-          "link": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
-          "publishedAt": "Fri, 08 May 2026 02:00:00 -0700",
-          "source": "BAIR Blog",
-          "sourceType": "research",
-          "summary": "Overview of adaptive parallel reasoning. What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based...",
+          "title": "Agents for financial services and insurance",
+          "titleZh": "Anthropic 发布金融与保险行业智能体模板",
+          "link": "https://www.anthropic.com/news/finance-agents",
+          "publishedAt": "Mon, 04 May 2026 16:00:00 GMT",
+          "source": "Anthropic News",
+          "sourceType": "company",
+          "section": "product_updates",
+          "channel": "vendor_blog",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b9dd79810f74fbcc763cc89643d86cdea1439a26-1000x1000.svg",
+          "summary": "We’re releasing ten ready-to-run agent templates for the most time-consuming work in financial services: building pitchbooks, writing credit memos, screening KYC files, and closing the books at month-end. Each one shi...",
+          "summaryZh": "Anthropic 推出 10 个可直接运行的金融服务智能体模板，覆盖投行材料、授信备忘录、KYC 文件筛查和月末结账等高耗时流程。",
+          "whyItMatters": "Claude 正在从通用助手进入行业工作流模板，金融场景会成为企业 AI 落地的重要试金石。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Agent workflow",
-            "Reasoning",
-            "Evaluation"
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "推理能力"
           ],
-          "advantages": [
-            "Potential speed or productivity advantage",
-            "Potential efficiency advantage",
-            "Useful for agentic workflows and automation",
-            "Improves reasoning-oriented capability"
-          ],
-          "score": 23
+          "score": 55
         },
         {
-          "title": "Scam2Prompt: A Scalable Framework for Auditing Malicious Scam Endpoints in Production LLMs",
-          "link": "https://arxiv.org/abs/2509.02372",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2509.02372v3 Announce Type: replace-cross Abstract: Large Language Models have become critical to modern software development, but their reliance on uncurated web-scale datasets for training introduces a signifi...",
+          "title": "Building a new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs",
+          "titleZh": "Anthropic 联合 Blackstone 等成立企业 AI 服务公司",
+          "link": "https://www.anthropic.com/news/enterprise-ai-services-company",
+          "publishedAt": "",
+          "source": "Anthropic News",
+          "sourceType": "company",
+          "section": "product_updates",
+          "channel": "vendor_blog",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/1576ae23eaf481f33bd36ab468171cc69d12361a-1000x1000.svg",
+          "summary": "Anthropic, Blackstone, Hellman & Friedman, and Goldman Sachs announced the formation of a new AI services company. The organization will work with companies in the middle-market economy to bring Claude into their most...",
+          "summaryZh": "Anthropic 与 Blackstone、Hellman & Friedman、Goldman Sachs 共同成立新的企业 AI 服务公司，面向中型企业推动 Claude 在关键业务流程中的部署。",
+          "whyItMatters": "这说明大模型厂商正在用服务公司形态降低企业落地门槛，竞争焦点从模型能力延伸到交付能力。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Agent workflow",
-            "Safety",
-            "Evaluation"
+            "产品发布",
+            "模型",
+            "API"
           ],
-          "advantages": [
-            "Positions itself around state-of-the-art results",
-            "Includes safety or governance signal",
-            "Useful for agentic workflows and automation",
-            "Improves developer experience or integration path"
-          ],
-          "score": 22
+          "score": 43
         },
         {
-          "title": "Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning",
-          "link": "https://arxiv.org/abs/2605.08271",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2605.08271v1 Announce Type: cross Abstract: Understanding ultra-long videos such as egocentric recordings, live streams, or surveillance footage spanning days to weeks, remains a challenge. For current multimoda...",
+          "title": "Parloa builds service agents customers want to talk to",
+          "titleZh": "OpenAI 展示 Parloa 的语音客服智能体实践",
+          "link": "https://openai.com/index/parloa",
+          "publishedAt": "Thu, 07 May 2026 11:00:00 GMT",
+          "source": "OpenAI Blog",
+          "sourceType": "company",
+          "section": "product_updates",
+          "channel": "vendor_blog",
+          "image": "",
+          "summary": "Parloa leverages OpenAI models to power scalable, voice-driven AI customer service agents, enabling enterprises to design, simulate, and deploy reliable, real-time interactions.",
+          "summaryZh": "Parloa 使用 OpenAI 模型构建可扩展的语音客服智能体，支持企业设计、模拟并部署实时客户服务交互。",
+          "whyItMatters": "语音智能体正在进入真实客服场景，关键指标会从演示效果转向稳定性、延迟和用户体验。",
           "tags": [
-            "Benchmark",
-            "Agent workflow",
-            "Reasoning",
-            "Multimodal",
-            "Evaluation"
+            "模型",
+            "智能体",
+            "RAG",
+            "语音"
           ],
-          "advantages": [
-            "Claims stronger benchmark performance",
-            "Useful for agentic workflows and automation",
-            "Expands modality coverage",
-            "Improves reasoning-oriented capability"
-          ],
-          "score": 21
+          "score": 42
         },
         {
-          "title": "MicroWorld: Empowering Multimodal Large Language Models to Bridge the Microscopic Domain Gap with Multimodal Attribute Graph",
-          "link": "https://arxiv.org/abs/2605.10120",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2605.10120v1 Announce Type: cross Abstract: Multimodal large language models (MLLMs) show remarkable potential for scientific reasoning, yet their performance in specialized domains such as microscopy remains li...",
+          "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+          "titleZh": "Anthropic 提高 Claude 使用额度并获得 SpaceX 算力合作",
+          "link": "https://www.anthropic.com/news/higher-limits-spacex",
+          "publishedAt": "Tue, 05 May 2026 16:00:00 GMT",
+          "source": "Anthropic News",
+          "sourceType": "company",
+          "section": "product_updates",
+          "channel": "vendor_blog",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/5f455d24ea80569b34eb4347f06152d8a5508722-1000x1000.svg",
+          "summary": "We’ve agreed to a partnership with SpaceX that will substantially increase our compute capacity. This, along with our other recent compute deals, means that we’ve been able to increase our usage limits for Claude Code...",
+          "summaryZh": "Anthropic 宣布与 SpaceX 达成算力合作，并提高 Claude Code 等服务的使用额度。",
+          "whyItMatters": "算力供给会直接影响开发者产品体验，额度提升也说明 Claude Code 的需求正在快速增长。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Reasoning",
-            "Multimodal",
-            "Evaluation"
+            "模型",
+            "API",
+            "推理部署"
           ],
-          "advantages": [
-            "Claims stronger benchmark performance",
-            "Positions itself around state-of-the-art results",
-            "Expands modality coverage",
-            "Improves reasoning-oriented capability"
-          ],
-          "score": 21
+          "score": 41
         },
         {
-          "title": "Measuring What Matters: Benchmarking Generative, Multimodal, and Agentic AI in Healthcare",
-          "link": "https://arxiv.org/abs/2605.08445",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2605.08445v1 Announce Type: new Abstract: AI models are increasingly deployed in live clinical environments where they must perform reliably across complex, high-stakes workflows that standard training and valid...",
+          "title": "Advancing voice intelligence with new models in the API",
+          "titleZh": "OpenAI API 推出新的实时语音模型",
+          "link": "https://openai.com/index/advancing-voice-intelligence-with-new-models-in-the-api",
+          "publishedAt": "Thu, 07 May 2026 10:00:00 GMT",
+          "source": "OpenAI Blog",
+          "sourceType": "company",
+          "section": "product_updates",
+          "channel": "vendor_blog",
+          "image": "",
+          "summary": "Explore new realtime voice models in the OpenAI API that can reason, translate, and transcribe speech, enabling more natural and intelligent voice experiences.",
+          "summaryZh": "OpenAI 在 API 中推出新的实时语音模型，支持更自然的语音推理、翻译和转写体验。",
+          "whyItMatters": "语音交互可能成为 AI 应用的新入口，实时模型能力会影响客服、教育、会议和助手类产品。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Agent workflow",
-            "Multimodal",
-            "Safety"
+            "模型",
+            "API",
+            "语音"
           ],
-          "advantages": [
-            "Includes safety or governance signal",
-            "Useful for agentic workflows and automation",
-            "Expands modality coverage"
-          ],
-          "score": 20
+          "score": 40
         },
         {
-          "title": "Empowering VLMs for Few-Shot Multimodal Time Series Classification via Tailored Agentic Reasoning",
-          "link": "https://arxiv.org/abs/2605.09395",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2605.09395v1 Announce Type: new Abstract: In this paper, we propose the first VL$\\underline{\\textbf{M}}$ $\\underline{\\textbf{a}}$gentic $\\underline{\\textbf{r}}$easoning framework for few-$\\underline{\\textbf{s}}$...",
+          "title": "OpenAI launches DeployCo to help businesses build around intelligence",
+          "titleZh": "OpenAI 推出 DeployCo 帮助企业部署 AI",
+          "link": "https://openai.com/index/openai-launches-the-deployment-company",
+          "publishedAt": "Mon, 11 May 2026 06:00:00 GMT",
+          "source": "OpenAI Blog",
+          "sourceType": "company",
+          "section": "product_updates",
+          "channel": "vendor_blog",
+          "image": "",
+          "summary": "OpenAI launches DeployCo, a new enterprise deployment company built to help organizations bring frontier AI into production and turn it into measurable business impact.",
+          "summaryZh": "OpenAI 推出 DeployCo，面向企业提供前沿 AI 生产化部署服务，帮助组织把模型能力转化为业务影响。",
+          "whyItMatters": "这进一步强化了 OpenAI 的企业服务布局，也意味着 AI 项目交付会成为商业化重点。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Agent workflow",
-            "Reasoning",
-            "Multimodal"
+            "产品发布"
           ],
-          "advantages": [
-            "Claims stronger benchmark performance",
-            "Useful for agentic workflows and automation",
-            "Expands modality coverage",
-            "Improves reasoning-oriented capability"
-          ],
-          "score": 20
+          "score": 36
         },
         {
-          "title": "ViSRA: A Video-based Spatial Reasoning Agent for Multi-modal Large Language Models",
-          "link": "https://arxiv.org/abs/2605.10106",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2605.10106v1 Announce Type: cross Abstract: Recent advances in Multi-modal Large Language Models (MLLMs) target 3D spatial intelligence, yet the progress has been largely driven by post-training on curated bench...",
+          "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
+          "titleZh": "OpenAI 介绍大规模训练网络协议 MRC",
+          "link": "https://openai.com/index/mrc-supercomputer-networking",
+          "publishedAt": "Tue, 05 May 2026 10:00:00 GMT",
+          "source": "OpenAI Blog",
+          "sourceType": "company",
+          "section": "product_updates",
+          "channel": "vendor_blog",
+          "image": "",
+          "summary": "OpenAI introduces MRC (Multipath Reliable Connection), a new supercomputer networking protocol released via OCP to improve resilience and performance in large-scale AI training clusters.",
+          "summaryZh": "OpenAI 介绍 MRC（Multipath Reliable Connection），用于提升大规模 AI 训练集群网络的可靠性和性能，并通过 OCP 发布。",
+          "whyItMatters": "训练基础设施仍是模型竞争的底层变量，网络协议优化会影响大模型训练效率和稳定性。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Agent workflow",
-            "Reasoning",
-            "Inference"
+            "产品发布"
           ],
-          "advantages": [
-            "Claims stronger benchmark performance",
-            "Useful for agentic workflows and automation",
-            "Improves reasoning-oriented capability"
-          ],
-          "score": 20
+          "score": 36
         },
         {
-          "title": "When Reviews Disagree: Fine-Grained Contradiction Analysis in Scientific Peer Reviews",
-          "link": "https://arxiv.org/abs/2605.10171",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2605.10171v1 Announce Type: cross Abstract: Scientific peer reviews frequently contain conflicting expert judgments, and the increasing scale of conference submissions makes it challenging for Area Chairs and ed...",
+          "title": "Running Codex safely at OpenAI",
+          "titleZh": "OpenAI 介绍内部安全运行 Codex 的方法",
+          "link": "https://openai.com/index/running-codex-safely",
+          "publishedAt": "Fri, 08 May 2026 12:30:00 GMT",
+          "source": "OpenAI Blog",
+          "sourceType": "company",
+          "section": "product_updates",
+          "channel": "vendor_blog",
+          "image": "",
+          "summary": "How OpenAI runs Codex securely with sandboxing, approvals, network policies, and agent-native telemetry to support safe and compliant coding agent adoption.",
+          "summaryZh": "OpenAI 说明如何通过沙箱、审批、网络策略和智能体遥测来安全运行 Codex。",
+          "whyItMatters": "编码智能体进入企业后，安全边界、权限控制和审计能力会变得和模型能力同样重要。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Agent workflow",
-            "Reasoning",
-            "Evaluation"
+            "智能体"
           ],
-          "advantages": [
-            "Claims stronger benchmark performance",
-            "Potential efficiency advantage",
-            "Useful for agentic workflows and automation",
-            "Improves reasoning-oriented capability"
-          ],
-          "score": 20
+          "score": 35
         }
       ]
     },
     {
-      "id": "papers",
-      "title": "Papers And Research",
+      "id": "research_frontier",
+      "title": "前沿研究",
       "items": [
         {
-          "title": "Adaptive Parallel Reasoning: The Next Paradigm in Efficient Inference Scaling",
-          "link": "http://bair.berkeley.edu/blog/2026/05/08/adaptive-parallel-reasoning/",
-          "publishedAt": "Fri, 08 May 2026 02:00:00 -0700",
-          "source": "BAIR Blog",
+          "title": "Seedance Makes A Splash, Nvidia's AI-Guided Chip Designs, Helping Robots Not Forget",
+          "titleZh": "The Batch：Seedance、AI 芯片设计与机器人记忆",
+          "link": "https://www.deeplearning.ai/the-batch/issue-352",
+          "publishedAt": "Fri, 08 May 2026 17:53:08 GMT",
+          "source": "deeplearning.ai",
           "sourceType": "research",
-          "summary": "Overview of adaptive parallel reasoning. What if a reasoning model could decide for itself when to decompose and parallelize independent subtasks, how many concurrent threads to spawn, and how to coordinate them based...",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "image": "https://charonhub.deeplearning.ai/content/images/2026/05/AI-effect-on-workforce_PressCoverage3--1--1.webp",
+          "summary": "The Batch AI News and Insights: There will be no AI jobpocalypse.&nbsp; Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, There will be no AI jobpocalypse.&nbsp; The story that AI will lead to...",
+          "summaryZh": "DeepLearning.AI 本期 The Batch 汇总了 Seedance、NVIDIA AI 辅助芯片设计、机器人持续学习等方向，并讨论 AI 对就业的影响。",
+          "whyItMatters": "这类周报适合捕捉跨领域研究与产业动向，帮助判断哪些主题正在获得持续关注。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Agent workflow",
-            "Reasoning",
-            "Evaluation"
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "多模态"
           ],
-          "advantages": [
-            "Potential speed or productivity advantage",
-            "Potential efficiency advantage",
-            "Useful for agentic workflows and automation",
-            "Improves reasoning-oriented capability"
-          ],
-          "score": 23
+          "score": 58
         },
         {
-          "title": "Scam2Prompt: A Scalable Framework for Auditing Malicious Scam Endpoints in Production LLMs",
-          "link": "https://arxiv.org/abs/2509.02372",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2509.02372v3 Announce Type: replace-cross Abstract: Large Language Models have become critical to modern software development, but their reliance on uncurated web-scale datasets for training introduces a signifi...",
+          "title": "五一节爆了！DeepSeek 版 Claude Code开源了！",
+          "titleZh": "Datawhale 关注 DeepSeek 版 Claude Code 开源项目",
+          "link": "https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247722464&idx=1&sn=5aac3ba09295f8196465cd1b80e6908f",
+          "publishedAt": "Mon, 04 May 2026 22:01:00 +0800",
+          "source": "Datawhale",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "image": "https://wechat2rss.bestblogs.dev/img-proxy/?k=dc7416ca&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2FzW6S9vt0cSib8tibBaMETEUqnWEmOuRadn4QLQUMe8icAEhAvFLCgb694sQZicKksxnIXlsqGk8lRNmOLwmFItWUjgicACx4aQuPaOU3xY2R5998%2F0%3Fwx_fmt%3Djpeg",
+          "summary": "原创 Datawhale 2026-05-04 22:01 浙江 Datawhale干货 开源项目：DeepSeek-TUI 「鲸鱼兄弟们好」 这个五一假期，一个美国独立开发者发了张图，用中文写了一句： 鲸鱼兄弟们，谢谢你们。 「鲸鱼兄弟」是 DeepSeek 粉丝的自称。他用这个词，感谢了一群把他的开源项目推上 GitHub 热榜的中国开发者，现在已经星标 2.7k+ 。 他叫 Hunter Bown ，一个美国人，不是 Dee...",
+          "summaryZh": "Datawhale 介绍了 DeepSeek-TUI 等开源项目在假期走热的情况，反映中文开发者社区对命令行 AI 编程工具的兴趣。",
+          "whyItMatters": "中文社区正在围绕 DeepSeek 生态形成工具链创新，值得继续观察项目质量和开发者采用情况。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Agent workflow",
-            "Safety",
-            "Evaluation"
+            "产品发布",
+            "智能体",
+            "开源",
+            "模型"
           ],
-          "advantages": [
-            "Positions itself around state-of-the-art results",
-            "Includes safety or governance signal",
-            "Useful for agentic workflows and automation",
-            "Improves developer experience or integration path"
-          ],
-          "score": 22
+          "score": 43
         },
         {
-          "title": "Bridging Modalities, Spanning Time: Structured Memory for Ultra-Long Agentic Video Reasoning",
-          "link": "https://arxiv.org/abs/2605.08271",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2605.08271v1 Announce Type: cross Abstract: Understanding ultra-long videos such as egocentric recordings, live streams, or surveillance footage spanning days to weeks, remains a challenge. For current multimoda...",
+          "title": "SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests",
+          "titleZh": "微软发布 SocialReasoning-Bench 评测智能体是否维护用户利益",
+          "link": "https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/",
+          "publishedAt": "Mon, 11 May 2026 17:19:28 +0000",
+          "source": "Microsoft Research Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/SocialReasoningBench-BlogHeroFeature-1400x788-1.jpg",
+          "summary": "Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest....",
+          "summaryZh": "微软研究院提出 SocialReasoning-Bench，用于衡量 AI 智能体是否真正按照用户利益行动，而不只是完成任务。",
+          "whyItMatters": "智能体评测正在从“能不能做”转向“是否对用户有利”，这对代理式产品的安全和信任很关键。",
           "tags": [
-            "Benchmark",
-            "Agent workflow",
-            "Reasoning",
-            "Multimodal",
-            "Evaluation"
+            "模型",
+            "智能体",
+            "推理能力"
           ],
-          "advantages": [
-            "Claims stronger benchmark performance",
-            "Useful for agentic workflows and automation",
-            "Expands modality coverage",
-            "Improves reasoning-oriented capability"
-          ],
-          "score": 21
+          "score": 42
         },
         {
-          "title": "MicroWorld: Empowering Multimodal Large Language Models to Bridge the Microscopic Domain Gap with Multimodal Attribute Graph",
-          "link": "https://arxiv.org/abs/2605.10120",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2605.10120v1 Announce Type: cross Abstract: Multimodal large language models (MLLMs) show remarkable potential for scientific reasoning, yet their performance in specialized domains such as microscopy remains li...",
+          "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+          "titleZh": "Simon Willison 反思 vibe coding 与智能体工程的边界",
+          "link": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/#atom-everything",
+          "publishedAt": "2026-05-06T14:24:08+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "image": "",
+          "summary": "I recently talked with Joseph Ruscio about AI coding tools for Heavybit's High Leverage podcast: Ep. #9, The AI Coding Paradigm Shift with Simon Willison . Here are some of my highlights, including my disturbing reali...",
+          "summaryZh": "Simon Willison 讨论 AI 编程工具、vibe coding 和 agentic engineering 的距离正在变近，以及这带来的工程风险。",
+          "whyItMatters": "AI 编程的实践经验正在快速沉淀，这类反思有助于判断团队应如何设定审查、测试和责任边界。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Reasoning",
-            "Multimodal",
-            "Evaluation"
+            "模型",
+            "API",
+            "智能体",
+            "开源",
+            "RAG"
           ],
-          "advantages": [
-            "Claims stronger benchmark performance",
-            "Positions itself around state-of-the-art results",
-            "Expands modality coverage",
-            "Improves reasoning-oriented capability"
-          ],
-          "score": 21
+          "score": 41
         },
         {
-          "title": "Measuring What Matters: Benchmarking Generative, Multimodal, and Agentic AI in Healthcare",
-          "link": "https://arxiv.org/abs/2605.08445",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2605.08445v1 Announce Type: new Abstract: AI models are increasingly deployed in live clinical environments where they must perform reliably across complex, high-stakes workflows that standard training and valid...",
+          "title": "Building realistic electric transmission grid dataset at scale: a pipeline from open dataset",
+          "titleZh": "微软构建大规模真实电网传输数据集",
+          "link": "https://www.microsoft.com/en-us/research/blog/building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset/",
+          "publishedAt": "Fri, 08 May 2026 19:53:56 +0000",
+          "source": "Microsoft Research Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/GridSage-BlogHeroFeature-1400x788-1-scaled.jpg",
+          "summary": "Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is...",
+          "summaryZh": "微软研究院发布从开放数据构建美国电网近似传输拓扑的数据管线，用于研究传输级电网行为。",
+          "whyItMatters": "AI 与能源基础设施的结合需要高质量数据集，这类工作会支撑更现实的仿真和优化研究。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Agent workflow",
-            "Multimodal",
-            "Safety"
+            "产品发布",
+            "模型"
           ],
-          "advantages": [
-            "Includes safety or governance signal",
-            "Useful for agentic workflows and automation",
-            "Expands modality coverage"
-          ],
-          "score": 20
+          "score": 40
         },
         {
-          "title": "Empowering VLMs for Few-Shot Multimodal Time Series Classification via Tailored Agentic Reasoning",
-          "link": "https://arxiv.org/abs/2605.09395",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2605.09395v1 Announce Type: new Abstract: In this paper, we propose the first VL$\\underline{\\textbf{M}}$ $\\underline{\\textbf{a}}$gentic $\\underline{\\textbf{r}}$easoning framework for few-$\\underline{\\textbf{s}}$...",
+          "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
+          "titleZh": "Google DeepMind 介绍 Gemini 驱动的 AlphaEvolve 编码智能体",
+          "link": "https://deepmind.google/blog/alphaevolve-impact/",
+          "publishedAt": "Wed, 06 May 2026 10:43:49 +0000",
+          "source": "Google DeepMind Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "image": "https://lh3.googleusercontent.com/UNlyTVoqkmAoTzbbF4QRoPXr-X-QBkXeVpcHxIjte0y5mn_f6ZYHVsynQswOhGLJx-7hnbwt1NcTOQDQoCbum3-l8wPPP5dC6kw0tGmBQAw60nEHog=w528-h297-n-nu-rw-lo",
+          "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
+          "summaryZh": "Google DeepMind 介绍 AlphaEvolve 如何借助 Gemini 编码智能体扩展到多个领域，并提升问题求解效率。",
+          "whyItMatters": "编码智能体正在从软件开发扩展到科学和工程优化，是前沿 AI 应用的重要方向。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Agent workflow",
-            "Reasoning",
-            "Multimodal"
+            "智能体"
           ],
-          "advantages": [
-            "Claims stronger benchmark performance",
-            "Useful for agentic workflows and automation",
-            "Expands modality coverage",
-            "Improves reasoning-oriented capability"
-          ],
-          "score": 20
+          "score": 36
         },
         {
-          "title": "ViSRA: A Video-based Spatial Reasoning Agent for Multi-modal Large Language Models",
-          "link": "https://arxiv.org/abs/2605.10106",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2605.10106v1 Announce Type: cross Abstract: Recent advances in Multi-modal Large Language Models (MLLMs) target 3D spatial intelligence, yet the progress has been largely driven by post-training on curated bench...",
+          "title": "Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models",
+          "titleZh": "微软 MatterSim 推进 AI 材料科学模拟",
+          "link": "https://www.microsoft.com/en-us/research/blog/advancing-ai-for-materials-with-mattersim-experimental-synthesis-faster-simulation-and-multi-task-models/",
+          "publishedAt": "Tue, 12 May 2026 13:00:00 +0000",
+          "source": "Microsoft Research Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/MatterSimv1_5-BlogHeroFeature-1400x788-1-scaled.jpg",
+          "summary": "MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advanc...",
+          "summaryZh": "微软研究院介绍 MatterSim 的进展，包括更快的大规模模拟和面向多任务材料属性模拟的新模型 MatterSim-MT。",
+          "whyItMatters": "材料科学是 AI for Science 的核心场景之一，仿真速度和多属性建模会影响新材料发现效率。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Agent workflow",
-            "Reasoning",
-            "Inference"
+            "模型"
           ],
-          "advantages": [
-            "Claims stronger benchmark performance",
-            "Useful for agentic workflows and automation",
-            "Improves reasoning-oriented capability"
-          ],
-          "score": 20
+          "score": 36
         },
         {
-          "title": "When Reviews Disagree: Fine-Grained Contradiction Analysis in Scientific Peer Reviews",
-          "link": "https://arxiv.org/abs/2605.10171",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2605.10171v1 Announce Type: cross Abstract: Scientific peer reviews frequently contain conflicting expert judgments, and the increasing scale of conference submissions makes it challenging for Area Chairs and ed...",
+          "title": "Introducing agent quality optimization in AgentCore, now in preview",
+          "titleZh": "AWS AgentCore 推出智能体质量优化预览版",
+          "link": "https://aws.amazon.com/blogs/machine-learning/introducing-agent-quality-optimization-in-agentcore-now-in-preview/",
+          "publishedAt": "Mon, 04 May 2026 17:13:42 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/01/amansk-100x100.jpg",
+          "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavio...",
+          "summaryZh": "AWS 介绍 AgentCore 的智能体质量优化能力，可基于生产链路轨迹生成建议，并通过批量评测和 A/B 测试验证。",
+          "whyItMatters": "智能体上线后的持续评估和优化会成为企业级 Agent 平台的基础能力。",
           "tags": [
-            "Model release",
-            "Benchmark",
-            "Agent workflow",
-            "Reasoning",
-            "Evaluation"
+            "产品发布",
+            "模型",
+            "智能体"
           ],
-          "advantages": [
-            "Claims stronger benchmark performance",
-            "Potential efficiency advantage",
-            "Useful for agentic workflows and automation",
-            "Improves reasoning-oriented capability"
-          ],
-          "score": 20
-        },
-        {
-          "title": "Phoenix-VL 1.5 Medium Technical Report",
-          "link": "https://arxiv.org/abs/2605.10391",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2605.10391v1 Announce Type: cross Abstract: We introduce Phoenix-VL 1.5 Medium, a 123B-parameter natively multimodal and multilingual foundation model, adapted to regional languages and the Singapore context. De...",
-          "tags": [
-            "Model release",
-            "Benchmark",
-            "Multimodal",
-            "Safety",
-            "Evaluation"
-          ],
-          "advantages": [
-            "Positions itself around state-of-the-art results",
-            "Includes safety or governance signal",
-            "Expands modality coverage"
-          ],
-          "score": 20
-        },
-        {
-          "title": "Knowledge is Not Enough: Injecting RL Skills for Continual Adaptation",
-          "link": "https://arxiv.org/abs/2601.11258",
-          "publishedAt": "Tue, 12 May 2026 00:00:00 -0400",
-          "source": "arXiv AI",
-          "sourceType": "paper",
-          "summary": "arXiv:2601.11258v2 Announce Type: replace-cross Abstract: Large Language Models (LLMs) face the \"knowledge cutoff\" challenge, where their frozen parametric memory prevents direct internalization of new information. Wh...",
-          "tags": [
-            "Model release",
-            "Benchmark",
-            "Agent workflow",
-            "Reasoning"
-          ],
-          "advantages": [
-            "Claims stronger benchmark performance",
-            "Positions itself around state-of-the-art results",
-            "Potential efficiency advantage",
-            "Useful for agentic workflows and automation"
-          ],
-          "score": 20
+          "score": 34
         }
       ]
     },
     {
-      "id": "industry",
-      "title": "Company And Product Updates",
-      "items": []
+      "id": "open_source_top",
+      "title": "开源项目 TOP",
+      "items": [
+        {
+          "title": "datawhalechina/hello-agents",
+          "titleZh": "datawhalechina/hello-agents：中文智能体学习项目走热",
+          "link": "https://github.com/datawhalechina/hello-agents",
+          "publishedAt": "2026-05-12",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "image": "",
+          "summary": "Star datawhalechina / hello-agents 📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程",
+          "summaryZh": "GitHub Trending 中的 hello-agents 项目聚焦智能体学习与实践，适合关注中文 AI Agent 入门和案例沉淀。",
+          "whyItMatters": "Agent 学习项目持续走热，说明开发者对可复用教程、样例和工作流模板有强需求。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 33
+        },
+        {
+          "title": "rohitg00/agentmemory",
+          "titleZh": "rohitg00/agentmemory：智能体记忆项目进入趋势榜",
+          "link": "https://github.com/rohitg00/agentmemory",
+          "publishedAt": "2026-05-12",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "image": "",
+          "summary": "Sponsor Star rohitg00 / agentmemory #1 Persistent memory for AI coding agents based on real-world benchmarks",
+          "summaryZh": "agentmemory 项目出现在 GitHub Trending，主题聚焦智能体记忆能力。",
+          "whyItMatters": "记忆是长期智能体体验的关键模块，相关开源项目值得跟踪其设计和可用性。",
+          "tags": [
+            "智能体",
+            "评测"
+          ],
+          "score": 32
+        },
+        {
+          "title": "millionco/react-doctor",
+          "titleZh": "millionco/react-doctor：React 项目诊断工具上榜",
+          "link": "https://github.com/millionco/react-doctor",
+          "publishedAt": "2026-05-12",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "image": "",
+          "summary": "Star millionco / react-doctor Your agent writes bad React. This catches it",
+          "summaryZh": "react-doctor 出现在 GitHub Trending，面向 React 项目诊断和开发体验优化。",
+          "whyItMatters": "虽然不是纯 AI 项目，但开发者工具链的自动诊断能力与 AI 编程工作流高度相关。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Improving token efficiency in GitHub Agentic Workflows",
+          "titleZh": "GitHub 分享 Agentic Workflows 的 token 成本优化",
+          "link": "https://github.blog/ai-and-ml/github-copilot/improving-token-efficiency-in-github-agentic-workflows/",
+          "publishedAt": "Thu, 07 May 2026 23:00:00 +0000",
+          "source": "The GitHub Blog",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source",
+          "image": "https://github.blog/wp-content/uploads/2026/05/graph.png?resize=1024%2C504",
+          "summary": "Agentic workflows that run on every pull request can quietly accumulate large API bills. Here's how we instrumented our own production workflows, found the inefficiencies, and built agents to fix them. The post Improv...",
+          "summaryZh": "GitHub 介绍如何监控和优化每个 PR 上运行的智能体工作流，降低 API token 消耗。",
+          "whyItMatters": "智能体工作流规模化后，token 成本会变成真实工程问题，这篇文章给出了生产实践参考。",
+          "tags": [
+            "API",
+            "智能体",
+            "开源"
+          ],
+          "score": 30
+        },
+        {
+          "title": "tinyhumansai/openhuman",
+          "titleZh": "tinyhumansai/openhuman：开放人类/数字人相关项目上榜",
+          "link": "https://github.com/tinyhumansai/openhuman",
+          "publishedAt": "2026-05-12",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "image": "",
+          "summary": "Star tinyhumansai / openhuman Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+          "summaryZh": "openhuman 出现在 GitHub Trending，项目名称显示其关注开放数字人或人类模拟方向。",
+          "whyItMatters": "数字人和具身交互方向仍在持续吸引开源开发者，可作为多模态应用观察样本。",
+          "tags": [],
+          "score": 27
+        },
+        {
+          "title": "rasbt/LLMs-from-scratch",
+          "titleZh": "rasbt/LLMs-from-scratch：从零实现大模型教程持续热门",
+          "link": "https://github.com/rasbt/LLMs-from-scratch",
+          "publishedAt": "2026-05-12",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "image": "",
+          "summary": "Star rasbt / LLMs-from-scratch Implement a ChatGPT-like LLM in PyTorch from scratch, step by step",
+          "summaryZh": "LLMs-from-scratch 再次进入 GitHub Trending，提供从底层理解和实现大语言模型的学习路径。",
+          "whyItMatters": "底层原理型项目长期有价值，适合团队培养模型理解和工程判断。",
+          "tags": [],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒分享",
+      "items": [
+        {
+          "title": "@Mahindra_Auto, one of the world's largest automotive manufacturers operating across 100+ countries,...",
+          "titleZh": "ElevenLabs：Mahindra 使用 AI 语音智能体应对发布高峰",
+          "link": "https://x.com/ElevenLabs/status/2053765427239506432",
+          "publishedAt": "Mon, 11 May 2026 09:13:29 GMT",
+          "source": "ElevenLabs(@elevenlabsio)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "image": "https://video.twimg.com/amplify_video/2053763837115940864/vid/avc1/1920x1080/ChgH-WiGbHfS5TUP.mp4?tag=27",
+          "summary": "@Mahindra_Auto , one of the world's largest automotive manufacturers operating across 100+ countries, deployed AI voice agents powered by ElevenLabs to manage peak demand during the XUV 7XO launch - achieving higher c...",
+          "summaryZh": "ElevenLabs 分享 Mahindra 在 XUV 7XO 发布期间使用 AI 语音智能体管理高峰需求，并提升客户沟通效率。",
+          "whyItMatters": "车企客服和营销高峰是语音智能体的典型落地场景，能验证语音生成、稳定性和规模化。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "语音",
+            "视频"
+          ],
+          "score": 38
+        },
+        {
+          "title": "Codex can now help you build AI apps and agents faster with OpenAI APIs using the OpenAI Developers ...",
+          "titleZh": "OpenAI Developers：Codex 可借助 OpenAI Developers 插件构建 AI 应用",
+          "link": "https://x.com/OpenAIDevs/status/2053925962287583379",
+          "publishedAt": "Mon, 11 May 2026 19:51:24 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "image": "https://video.twimg.com/amplify_video/2053925899356327936/vid/avc1/1280x720/wZrx1bkRHlnjRS2x.mp4?tag=14",
+          "summary": "Codex can now help you build AI apps and agents faster with OpenAI APIs using the OpenAI Developers plugin. Your browser does not support the video tag. 🔗 View on Twitter 💬 89 🔄 170 ❤️ 2306 👀 216922 📊 503 ⚡ Power...",
+          "summaryZh": "OpenAI Developers 表示 Codex 现在可以通过 OpenAI Developers 插件更快构建 AI 应用和智能体。",
+          "whyItMatters": "这强化了 Codex 与 OpenAI API 开发流程的结合，开发者体验会继续成为竞争点。",
+          "tags": [
+            "API",
+            "智能体",
+            "开发者工具",
+            "视频"
+          ],
+          "score": 37
+        },
+        {
+          "title": "Ever wished your agent could read PDFs, images, and Office documents as easily as plain text? Or co...",
+          "titleZh": "LlamaIndex：推出面向文档读取与安全沙箱的 Agent 能力",
+          "link": "https://x.com/llama_index/status/2053928210862374980",
+          "publishedAt": "Mon, 11 May 2026 20:00:20 GMT",
+          "source": "LlamaIndex (@llama_index)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "image": "https://pbs.twimg.com/media/HIEE0rAaIAAL2R0.jpg",
+          "summary": "Ever wished your agent could read PDFs, images, and Office documents as easily as plain text? Or combine the safety of a secure sandbox with the full power of Bash access? We built exactly that. Meet 𝘀𝗮𝗻𝗱𝗯𝗼𝘅𝗲\ud835...",
+          "summaryZh": "LlamaIndex 分享新的 Agent 能力，支持读取 PDF、图片和 Office 文档，并结合安全沙箱与 Bash 访问。",
+          "whyItMatters": "企业知识工作流常常依赖复杂文档，多格式读取和沙箱执行是实用 Agent 的关键能力。",
+          "tags": [
+            "智能体",
+            "开源",
+            "开发者工具",
+            "图像"
+          ],
+          "score": 37
+        },
+        {
+          "title": "Qdrant 1.18 is out, featuring TurboQuant; a new quantization method developed by Google Research. O...",
+          "titleZh": "Qdrant：1.18 版本发布 TurboQuant",
+          "link": "https://x.com/qdrant_engine/status/2054166055417938266",
+          "publishedAt": "Tue, 12 May 2026 11:45:26 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "image": "https://pbs.twimg.com/media/HIHdIr1a4AASQUG.jpg",
+          "summary": "Qdrant 1.18 is out, featuring TurboQuant; a new quantization method developed by Google Research. Our TurboQuant implementation is an extended version of the algorithm with borrowed RaBitQ ideas. It offers: 1. Similar...",
+          "summaryZh": "Qdrant 宣布 1.18 版本发布，加入 TurboQuant 量化方法，目标是在更高压缩率下保持召回和速度。",
+          "whyItMatters": "向量数据库的性能和成本优化会直接影响 RAG 与语义检索系统的生产部署。",
+          "tags": [
+            "产品发布",
+            "开源",
+            "RAG"
+          ],
+          "score": 36
+        },
+        {
+          "title": "📣We're calling for ambassadors! Whether you're a developer with great technical taste or a local c...",
+          "titleZh": "Qwen：启动社区大使招募",
+          "link": "https://x.com/Alibaba_Qwen/status/2053835267061301316",
+          "publishedAt": "Mon, 11 May 2026 13:51:00 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "image": "https://pbs.twimg.com/media/HICwLY_aUAA63YL.jpg",
+          "summary": "📣We're calling for ambassadors! Whether you're a developer with great technical taste or a local community leader who loves bringing people together, we'd love to have you join us. Visit the website below for more de...",
+          "summaryZh": "Qwen 发布社区大使招募信息，面向有技术品味的开发者和本地社区组织者。",
+          "whyItMatters": "模型生态竞争不只在能力，也在开发者社区建设；社区运营会影响开源模型采用。",
+          "tags": [
+            "模型",
+            "API",
+            "开发者工具"
+          ],
+          "score": 35
+        },
+        {
+          "title": "OpenAI just launched a new cybersecurity product called 'Daybreak' that pairs GPT-5.5 with Codex to ...",
+          "titleZh": "The Rundown AI：关注 OpenAI Daybreak 网络安全产品",
+          "link": "https://x.com/TheRundownAI/status/2053945340592631843",
+          "publishedAt": "Mon, 11 May 2026 21:08:24 GMT",
+          "source": "The Rundown AI(@TheRundownAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "image": "https://video.twimg.com/amplify_video/2053945196329435136/vid/avc1/1302x846/vXXiBYtXeV3ezG3z.mp4?tag=27",
+          "summary": "OpenAI just launched a new cybersecurity product called 'Daybreak' that pairs GPT-5.5 with Codex to act as an agentic security team across a codebase. The product scans repositories, identifies vulnerabilities, genera...",
+          "summaryZh": "The Rundown AI 称 OpenAI 推出 Daybreak，将 GPT-5.5 与 Codex 结合，用于代码库安全扫描和漏洞修复。",
+          "whyItMatters": "安全场景天然适合智能体协作，但也要求高可靠性和可审计性，值得关注产品细节。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "推理能力",
+            "视频"
+          ],
+          "score": 33
+        },
+        {
+          "title": "Introducing Daybreak: frontier AI for cyber defenders. Daybreak brings together the most capable Op...",
+          "titleZh": "OpenAI：发布面向网络防御的 Daybreak",
+          "link": "https://x.com/OpenAI/status/2053939702110269822",
+          "publishedAt": "Mon, 11 May 2026 20:45:59 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "image": "https://video.twimg.com/amplify_video/2053933700275167232/vid/avc1/1302x846/gNyby3rlmdLE884B.mp4?tag=27",
+          "summary": "Introducing Daybreak: frontier AI for cyber defenders. Daybreak brings together the most capable OpenAI models, Codex, and our security partners to accelerate cyber defense and continuously secure software. A step tow...",
+          "summaryZh": "OpenAI 官方介绍 Daybreak，将前沿模型、Codex 和安全合作伙伴结合，用于加速网络防御和软件安全。",
+          "whyItMatters": "这是编码智能体进入安全运营场景的重要信号，可能影响企业安全工具链。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 32
+        },
+        {
+          "title": "Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmi...",
+          "titleZh": "Anthropic：Claude Constitution 有声书上线",
+          "link": "https://x.com/AnthropicAI/status/2053881827396653207",
+          "publishedAt": "Mon, 11 May 2026 16:56:01 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "image": "https://video.twimg.com/amplify_video/2053881023201783808/vid/avc1/1080x1350/9MJvwIWKqx-0l1Lq.mp4?tag=27",
+          "summary": "Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmith. It includes a Q&A on the writing process, the philosophies that shaped the document, and how it might change as m...",
+          "summaryZh": "Anthropic 表示 Claude Constitution 已推出有声书版本，并包含作者关于写作过程和理念的问答。",
+          "whyItMatters": "模型宪法和对齐原则正在被产品化传播，反映 Anthropic 对安全叙事和透明度的持续投入。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 32
+        },
+        {
+          "title": "Meet Replit Parallel Agents Build faster by running up to 10 agents in parallel Each agent gets it...",
+          "titleZh": "Replit：发布并行智能体能力",
+          "link": "https://x.com/Replit/status/2053891504989753817",
+          "publishedAt": "Mon, 11 May 2026 17:34:28 GMT",
+          "source": "Replit ⠕(@Replit)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "image": "https://video.twimg.com/amplify_video/2053891109718470656/vid/avc1/1920x1080/__H014SjIc5wX9uz.mp4?tag=27",
+          "summary": "Meet Replit Parallel Agents Build faster by running up to 10 agents in parallel Each agent gets its own copy of your app They work on their own computer Then merge their work agentically Your browser does not support...",
+          "summaryZh": "Replit 介绍 Parallel Agents，支持最多 10 个智能体并行处理同一个应用的不同副本，然后再合并工作结果。",
+          "whyItMatters": "并行智能体是 AI 编程效率提升的新方向，但合并、冲突处理和质量控制会是关键挑战。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 32
+        },
+        {
+          "title": "𝗠𝗲𝗺𝗼𝗿𝘆 𝗽𝗿𝗶𝗰𝗲𝘀 𝗵𝗮𝘃𝗲 𝘀𝗸𝘆𝗿𝗼𝗰𝗸𝗲𝘁𝗲𝗱, 𝘆𝗲𝘁 𝗺𝗼𝘀𝘁 𝘁𝗲𝗮𝗺𝘀 𝗮𝗿𝗲 ...",
+          "titleZh": "Milvus：讨论内存价格上涨下的向量检索成本",
+          "link": "https://x.com/milvusio/status/2053852633790652565",
+          "publishedAt": "Mon, 11 May 2026 15:00:01 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "image": "https://pbs.twimg.com/media/HICmbMnaUAARmvd.jpg",
+          "summary": "𝗠𝗲𝗺𝗼𝗿𝘆 𝗽𝗿𝗶𝗰𝗲𝘀 𝗵𝗮𝘃𝗲 𝘀𝗸𝘆𝗿𝗼𝗰𝗸𝗲𝘁𝗲𝗱, 𝘆𝗲𝘁 𝗺𝗼𝘀𝘁 𝘁𝗲𝗮𝗺𝘀 𝗮𝗿𝗲 𝘀𝘁𝗶𝗹𝗹 𝘀𝘁𝗼𝗿𝗶𝗻𝗴 𝗱𝗮𝘁𝗮 𝘁𝗵𝗲𝘆 𝗯𝗮𝗿𝗲𝗹𝘆 𝘁𝗼𝘂𝗰𝗵 𝗶𝗻 𝘁𝗵𝗲 𝗺𝗼𝘀𝘁 𝗲𝘅𝗽𝗲𝗻𝘀𝗶𝘃𝗲 𝗹𝗮𝘆𝗲𝗿 𝘁𝗵\ud835...",
+          "summaryZh": "Milvus 分享内存价格上涨背景下，向量检索系统需要更关注存储和内存效率。",
+          "whyItMatters": "向量数据库成本正在成为 RAG 规模化部署的重要变量，压缩和索引策略会越来越关键。",
+          "tags": [
+            "智能体",
+            "RAG"
+          ],
+          "score": 32
+        }
+      ]
     }
   ],
   "failures": [
     {
-      "source": "Google DeepMind Blog",
-      "url": "https://deepmind.google/discover/blog/rss.xml",
-      "error": "HTTP 404"
+      "source": "Hugging Face Daily Papers",
+      "url": "https://huggingface.co/papers/date/{date}",
+      "error": "fetch failed"
     },
     {
-      "source": "Meta AI Blog",
-      "url": "https://ai.meta.com/blog/rss/",
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.dev/rss/",
       "error": "fetch failed"
     },
     {
@@ -434,8 +676,38 @@
       "error": "fetch failed"
     },
     {
-      "source": "Google Research Blog",
-      "url": "https://research.google/blog/rss/",
+      "source": "Google Cloud Blog",
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Google Developers Blog",
+      "url": "https://developers.googleblog.com/feeds/posts/default",
+      "error": "fetch failed"
+    },
+    {
+      "source": "LlamaIndex Blog",
+      "url": "https://www.llamaindex.ai/blog/feed",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "大模型智能",
+      "url": "https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "AI Musings by Mu",
+      "url": "https://kelvinmu.substack.com/feed",
+      "error": "fetch failed"
+    },
+    {
+      "source": "AI at Meta Blog",
+      "url": "https://rsshub.app/meta/ai/blog",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Last Week in AI",
+      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKARTq-t5SPMzwtft8FWwnA",
       "error": "fetch failed"
     }
   ]

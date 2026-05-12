@@ -11,37 +11,36 @@ const today = new Intl.DateTimeFormat("en-CA", {
   day: "2-digit"
 }).format(new Date());
 
-const KEYWORDS = [
-  ["model", "Model release"],
-  ["benchmark", "Benchmark"],
-  ["agent", "Agent workflow"],
-  ["reasoning", "Reasoning"],
-  ["multimodal", "Multimodal"],
-  ["open source", "Open source"],
-  ["safety", "Safety"],
-  ["eval", "Evaluation"],
-  ["inference", "Inference"],
-  ["training", "Training"],
-  ["robot", "Robotics"],
-  ["enterprise", "Enterprise"],
-  ["developer", "Developer tooling"],
-  ["paper", "Paper"],
-  ["dataset", "Dataset"]
+const SECTION_CONFIG = [
+  { id: "product_updates", title: "AI 产品更新", limit: 8 },
+  { id: "research_frontier", title: "前沿研究", limit: 8 },
+  { id: "open_source_top", title: "开源项目 TOP", limit: 6 },
+  { id: "social_shares", title: "社媒分享", limit: 10 }
 ];
 
-const ADVANTAGE_RULES = [
-  ["outperform", "Claims stronger benchmark performance"],
-  ["state-of-the-art", "Positions itself around state-of-the-art results"],
-  ["open source", "May improve adoption through open source availability"],
-  ["faster", "Potential speed or productivity advantage"],
-  ["lower cost", "Potential cost advantage"],
-  ["efficient", "Potential efficiency advantage"],
-  ["safety", "Includes safety or governance signal"],
-  ["agent", "Useful for agentic workflows and automation"],
-  ["multimodal", "Expands modality coverage"],
-  ["developer", "Improves developer experience or integration path"],
-  ["enterprise", "Targets enterprise adoption"],
-  ["reasoning", "Improves reasoning-oriented capability"]
+const KEYWORDS = [
+  ["release", "产品发布", 4],
+  ["launch", "产品发布", 4],
+  ["model", "模型", 3],
+  ["api", "API", 3],
+  ["agent", "智能体", 3],
+  ["reasoning", "推理能力", 3],
+  ["multimodal", "多模态", 3],
+  ["benchmark", "评测", 2],
+  ["paper", "论文", 2],
+  ["open source", "开源", 3],
+  ["github", "开源", 3],
+  ["developer", "开发者工具", 2],
+  ["inference", "推理部署", 2],
+  ["rag", "RAG", 2],
+  ["voice", "语音", 2],
+  ["video", "视频", 2],
+  ["image", "图像", 2],
+  ["安全", "安全", 2],
+  ["开源", "开源", 3],
+  ["模型", "模型", 3],
+  ["智能体", "智能体", 3],
+  ["大模型", "大模型", 3]
 ];
 
 function decodeEntities(value = "") {
@@ -52,7 +51,10 @@ function decodeEntities(value = "") {
     .replaceAll("&lt;", "<")
     .replaceAll("&gt;", ">")
     .replaceAll("&quot;", "\"")
-    .replaceAll("&#39;", "'");
+    .replaceAll("&#39;", "'")
+    .replaceAll("&#x2F;", "/")
+    .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCodePoint(Number.parseInt(code, 16)))
+    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number.parseInt(code, 10)));
 }
 
 function stripHtml(value = "") {
@@ -74,6 +76,29 @@ function attrValue(block, tag, attr) {
   return match ? decodeEntities(match[1]).trim() : "";
 }
 
+function firstAttr(block, attr) {
+  const match = block.match(new RegExp(`${attr}=["']([^"']+)["']`, "i"));
+  return match ? decodeEntities(match[1]).trim() : "";
+}
+
+function absoluteUrl(url, base) {
+  if (!url) return "";
+  try {
+    return new URL(url, base).toString();
+  } catch {
+    return "";
+  }
+}
+
+function extractImage(block, sourceUrl) {
+  const mediaContent = attrValue(block, "media:content", "url");
+  const mediaThumbnail = attrValue(block, "media:thumbnail", "url");
+  const enclosure = attrValue(block, "enclosure", "url");
+  const imageTag = tagValue(block, "image") || tagValue(block, "itunes:image");
+  const htmlImage = firstAttr(tagValue(block, "content:encoded") || tagValue(block, "description") || tagValue(block, "summary"), "src");
+  return absoluteUrl(mediaContent || mediaThumbnail || enclosure || imageTag || htmlImage, sourceUrl);
+}
+
 function parseFeed(xml, source) {
   const itemBlocks = [...xml.matchAll(/<item[\s\S]*?<\/item>/gi)].map((match) => match[0]);
   const entryBlocks = [...xml.matchAll(/<entry[\s\S]*?<\/entry>/gi)].map((match) => match[0]);
@@ -82,45 +107,45 @@ function parseFeed(xml, source) {
   return blocks.map((block) => {
     const title = stripHtml(tagValue(block, "title"));
     const link = tagValue(block, "link") || attrValue(block, "link", "href") || tagValue(block, "guid") || source.url;
-    const description = stripHtml(tagValue(block, "description") || tagValue(block, "summary") || tagValue(block, "content"));
+    const description = stripHtml(tagValue(block, "description") || tagValue(block, "summary") || tagValue(block, "content") || tagValue(block, "content:encoded"));
     const publishedAt = tagValue(block, "pubDate") || tagValue(block, "published") || tagValue(block, "updated") || "";
 
     return {
       title,
-      link,
+      link: absoluteUrl(link, source.url) || link,
       description,
       publishedAt,
+      image: extractImage(block, source.url),
       source: source.name,
       sourceType: source.type,
+      section: source.section,
+      channel: source.channel,
+      trust: source.trust,
       sourceWeight: source.weight ?? 1
     };
   }).filter((item) => item.title && item.link);
 }
 
-function isRecent(item) {
+function isRecent(item, source) {
   if (!item.publishedAt) return true;
   const published = new Date(item.publishedAt);
   if (Number.isNaN(published.getTime())) return true;
   const ageMs = Date.now() - published.getTime();
-  return ageMs <= 1000 * 60 * 60 * 24 * 4;
+  const lookbackDays = source.lookbackDays ?? 7;
+  return ageMs <= 1000 * 60 * 60 * 24 * lookbackDays;
 }
 
 function inferTags(item) {
   const text = `${item.title} ${item.description}`.toLowerCase();
-  return KEYWORDS.filter(([keyword]) => text.includes(keyword)).map(([, label]) => label).slice(0, 5);
+  return [...new Set(KEYWORDS.filter(([keyword]) => text.includes(keyword.toLowerCase())).map(([, label]) => label))].slice(0, 5);
 }
 
-function inferAdvantages(item) {
+function scoreItem(item) {
   const text = `${item.title} ${item.description}`.toLowerCase();
-  const advantages = ADVANTAGE_RULES
-    .filter(([keyword]) => text.includes(keyword))
-    .map(([, label]) => label);
-
-  if (advantages.length === 0 && item.sourceType === "paper") {
-    advantages.push("Worth watching for research direction and method signal");
-  }
-
-  return [...new Set(advantages)].slice(0, 4);
+  const keywordScore = KEYWORDS.reduce((score, [keyword, , value]) => score + (text.includes(keyword.toLowerCase()) ? value : 0), 0);
+  const trustScore = item.trust === "official" ? 8 : item.trust === "expert" ? 5 : item.trust === "rank" ? 6 : 2;
+  const imageScore = item.image ? 1 : 0;
+  return item.sourceWeight * 3 + trustScore + keywordScore + imageScore;
 }
 
 function summarize(item) {
@@ -129,123 +154,206 @@ function summarize(item) {
   return `${text.slice(0, 217).trim()}...`;
 }
 
-function scoreItem(item) {
-  const text = `${item.title} ${item.description}`.toLowerCase();
-  const keywordScore = KEYWORDS.reduce((score, [keyword]) => score + (text.includes(keyword) ? 1 : 0), 0);
-  const advantageScore = ADVANTAGE_RULES.reduce((score, [keyword]) => score + (text.includes(keyword) ? 2 : 0), 0);
-  return item.sourceWeight * 2 + keywordScore + advantageScore;
+function summaryZh(item) {
+  const summary = summarize(item);
+  if (/[\u4e00-\u9fff]/.test(summary)) return summary;
+  const sourceLabel = item.channel === "social" ? "社媒" : item.channel === "paper_rank" ? "论文推荐" : "资讯";
+  return `来自 ${item.source} 的${sourceLabel}：${summary}`;
 }
 
-async function fetchSource(source) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 15000);
+function whyItMatters(item) {
+  const tags = inferTags(item);
+  if (item.section === "product_updates") return `这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。`;
+  if (item.section === "research_frontier") return `这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。`;
+  if (item.section === "open_source_top") return `这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。`;
+  if (item.section === "social_shares") return `这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。`;
+  return tags.length > 0 ? `相关标签：${tags.join("、")}。` : "这条内容可作为今日 AI 信息流的候选信号。";
+}
 
+async function fetchText(url, timeoutMs = 15000) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
   try {
-    const response = await fetch(source.url, {
+    const response = await fetch(url, {
       signal: controller.signal,
       headers: {
         "user-agent": "ai-daily/0.1 (+https://github.com/Wan-Kai/ai-daily)"
       }
     });
-
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
-    }
-
-    const xml = await response.text();
-    return parseFeed(xml, source);
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return await response.text();
   } finally {
     clearTimeout(timeout);
   }
 }
 
+async function fetchRssSource(source) {
+  const xml = await fetchText(source.url, source.timeoutMs ?? 15000);
+  return parseFeed(xml, source).filter((item) => isRecent(item, source));
+}
+
+async function fetchHuggingFacePapers(source) {
+  const url = source.url.replace("{date}", today);
+  const html = await fetchText(url, source.timeoutMs ?? 20000);
+  const paperLinks = [...html.matchAll(/<a[^>]+href=["'](\/papers\/[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
+    .map((match) => ({
+      link: absoluteUrl(match[1], "https://huggingface.co"),
+      title: stripHtml(match[2])
+    }))
+    .filter((item) => item.title && item.title.length > 8 && !item.title.includes("Daily Papers"));
+
+  const deduped = new Map();
+  for (const item of paperLinks) {
+    if (!deduped.has(item.link)) deduped.set(item.link, item);
+  }
+
+  return [...deduped.values()].slice(0, source.limit ?? 12).map((item, index) => ({
+    ...item,
+    description: `Hugging Face Papers ${today} 排名第 ${index + 1} 的论文候选。`,
+    publishedAt: today,
+    image: "",
+    source: source.name,
+    sourceType: source.type,
+    section: source.section,
+    channel: source.channel,
+    trust: source.trust,
+    sourceWeight: source.weight ?? 1
+  }));
+}
+
+async function fetchGitHubTrending(source) {
+  const html = await fetchText(source.url, source.timeoutMs ?? 20000);
+  const rows = [...html.matchAll(/<article[\s\S]*?Box-row[\s\S]*?<\/article>/gi)].map((match) => match[0]);
+  return rows.slice(0, source.limit ?? 12).map((row) => {
+    const repoPath = stripHtml(row.match(/<h2[\s\S]*?<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/i)?.[2] || "").replace(/\s+/g, "");
+    const href = row.match(/<h2[\s\S]*?<a[^>]+href=["']([^"']+)["']/i)?.[1] || "";
+    const description = stripHtml(row.match(/<p[^>]*>([\s\S]*?)<\/p>/i)?.[1] || "");
+    return {
+      title: repoPath,
+      link: absoluteUrl(href, "https://github.com"),
+      description,
+      publishedAt: today,
+      image: "",
+      source: source.name,
+      sourceType: source.type,
+      section: source.section,
+      channel: source.channel,
+      trust: source.trust,
+      sourceWeight: source.weight ?? 1
+    };
+  }).filter((item) => item.title && item.link);
+}
+
+async function fetchSource(source) {
+  if (source.kind === "huggingface_papers") return fetchHuggingFacePapers(source);
+  if (source.kind === "github_trending") return fetchGitHubTrending(source);
+  return fetchRssSource(source);
+}
+
+async function runWithConcurrency(items, limit, worker) {
+  const results = [];
+  let index = 0;
+  async function next() {
+    const current = index++;
+    if (current >= items.length) return;
+    results[current] = await worker(items[current], current);
+    await next();
+  }
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, next));
+  return results;
+}
+
 function publicItem(item) {
   return {
     title: item.title,
+    titleZh: item.titleZh || item.title,
     link: item.link,
     publishedAt: item.publishedAt,
     source: item.source,
     sourceType: item.sourceType,
+    section: item.section,
+    channel: item.channel,
+    image: item.image || "",
     summary: summarize(item),
+    summaryZh: item.summaryZh || summaryZh(item),
+    whyItMatters: item.whyItMatters || whyItMatters(item),
     tags: inferTags(item),
-    advantages: inferAdvantages(item),
     score: scoreItem(item)
   };
 }
 
+function isRelevantForSection(item, sectionId) {
+  if (sectionId !== "open_source_top") return true;
+  const text = `${item.title} ${item.summary} ${item.summaryZh} ${item.tags.join(" ")}`.toLowerCase();
+  if (item.source === "The GitHub Blog") {
+    return /\bai\b|agent|copilot|llm|model|token|generative|智能体|模型/.test(text);
+  }
+  return /\bai\b|agent|copilot|llm|model|vector|embedding|rag|inference|开源|模型|智能体|向量|检索|推理/.test(text);
+}
+
 async function main() {
-  const sources = JSON.parse(await readFile(sourcesPath, "utf8"));
-  const results = await Promise.allSettled(sources.map(async (source) => ({
-    source,
-    items: await fetchSource(source)
-  })));
+  const sources = JSON.parse(await readFile(sourcesPath, "utf8")).filter((source) => source.enabled !== false);
+  const results = await runWithConcurrency(sources, 8, async (source) => {
+    try {
+      return { status: "fulfilled", source, items: await fetchSource(source) };
+    } catch (error) {
+      return { status: "rejected", source, reason: error };
+    }
+  });
 
   const failures = [];
   const fetched = [];
 
   for (const result of results) {
     if (result.status === "fulfilled") {
-      fetched.push(...result.value.items);
+      fetched.push(...result.items);
     } else {
-      const source = sources[results.indexOf(result)];
       failures.push({
-        source: source.name,
-        url: source.url,
+        source: result.source.name,
+        url: result.source.url,
         error: result.reason?.message || "Unknown error"
       });
     }
   }
 
   const deduped = new Map();
-  for (const item of fetched.filter(isRecent)) {
-    const key = item.link.replace(/[#?].*$/, "");
+  for (const item of fetched) {
+    const key = item.link.replace(/[#?].*$/, "").toLowerCase();
     const enriched = publicItem(item);
     const existing = deduped.get(key);
-    if (!existing || enriched.score > existing.score) {
-      deduped.set(key, enriched);
-    }
+    if (!existing || enriched.score > existing.score) deduped.set(key, enriched);
   }
 
-  const items = [...deduped.values()]
-    .sort((a, b) => b.score - a.score)
-    .slice(0, 30);
+  const items = [...deduped.values()].sort((a, b) => b.score - a.score);
+  const sections = SECTION_CONFIG.map((section) => ({
+    id: section.id,
+    title: section.title,
+    items: items
+      .filter((item) => item.section === section.id)
+      .filter((item) => isRelevantForSection(item, section.id))
+      .sort((a, b) => b.score - a.score)
+      .slice(0, section.limit)
+  }));
 
+  const selectedCount = sections.reduce((total, section) => total + section.items.length, 0);
   const report = {
     date: today,
     generatedAt: new Date().toISOString(),
-    title: `AI Daily - ${today}`,
+    title: `AI 日报 - ${today}`,
     stats: {
       sources: sources.length,
       fetched: fetched.length,
-      selected: items.length,
+      selected: selectedCount,
       failures: failures.length
     },
-    sections: [
-      {
-        id: "top",
-        title: "Top Signals",
-        items: items.slice(0, 8)
-      },
-      {
-        id: "papers",
-        title: "Papers And Research",
-        items: items.filter((item) => item.sourceType === "paper" || item.sourceType === "research").slice(0, 10)
-      },
-      {
-        id: "industry",
-        title: "Company And Product Updates",
-        items: items.filter((item) => item.sourceType === "company" || item.sourceType === "blog").slice(0, 10)
-      }
-    ],
+    sections,
     failures
   };
 
   await mkdir(reportsDir, { recursive: true });
   await writeFile(path.join(reportsDir, `${today}.json`), `${JSON.stringify(report, null, 2)}\n`);
-  console.log(`Generated ${items.length} items for ${today}`);
-  if (failures.length > 0) {
-    console.warn(`Source failures: ${failures.length}`);
-  }
+  console.log(`Generated ${selectedCount} items for ${today}`);
+  if (failures.length > 0) console.warn(`Source failures: ${failures.length}`);
 }
 
 main().catch((error) => {

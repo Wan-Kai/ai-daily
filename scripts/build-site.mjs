@@ -16,18 +16,22 @@ function escapeHtml(value = "") {
 
 function renderItem(item) {
   const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
-  const advantages = (item.advantages || []).map((advantage) => `<li>${escapeHtml(advantage)}</li>`).join("");
+  const title = item.titleZh || item.title;
+  const summary = item.summaryZh || item.summary;
+  const image = item.image ? `<a class="item-image" href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer"><img src="${escapeHtml(item.image)}" alt="${escapeHtml(title)}" loading="lazy"></a>` : "";
+  const whyItMatters = item.whyItMatters ? `<p class="why"><strong>为什么重要：</strong>${escapeHtml(item.whyItMatters)}</p>` : "";
 
   return `
     <article class="item">
+      ${image}
       <div class="item-meta">
         <span>${escapeHtml(item.source)}</span>
-        <span>${escapeHtml(item.sourceType)}</span>
+        <span>${escapeHtml(item.channel || item.sourceType)}</span>
       </div>
-      <h3><a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">${escapeHtml(item.title)}</a></h3>
-      <p>${escapeHtml(item.summary)}</p>
+      <h3><a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></h3>
+      <p>${escapeHtml(summary)}</p>
+      ${whyItMatters}
       <div class="tags">${tags}</div>
-      ${advantages ? `<ul class="advantages">${advantages}</ul>` : ""}
     </article>
   `;
 }
@@ -38,9 +42,9 @@ function renderSection(section) {
     <section class="report-section" id="${escapeHtml(section.id)}">
       <div class="section-heading">
         <h2>${escapeHtml(section.title)}</h2>
-        <span>${section.items.length} items</span>
+        <span>${section.items.length} 条</span>
       </div>
-      <div class="grid">${items || "<p>No items selected for this section today.</p>"}</div>
+      <div class="grid">${items || "<p>今天这个栏目暂无入选内容。</p>"}</div>
     </section>
   `;
 }
@@ -134,7 +138,7 @@ function renderPage(report, reports) {
     <div class="hero">
       <p class="kicker">每日详情</p>
       <h1>${escapeHtml(report.title)}</h1>
-      <p class="lede">汇总当天入选内容、来源信息和抓取异常，便于快速浏览与后续编辑。</p>
+      <p class="lede">按产品更新、前沿研究、开源项目和社媒分享整理当天值得关注的 AI 信息。</p>
       <div class="stats">
         <span>${report.stats.sources} 个来源</span>
         <span>${report.stats.selected} 条入选</span>
@@ -147,7 +151,7 @@ function renderPage(report, reports) {
     ${report.failures.length > 0 ? `
       <section class="report-section">
         <div class="section-heading">
-          <h2>Source Issues</h2>
+          <h2>来源异常</h2>
           <span>${report.failures.length}</span>
         </div>
         <div class="issues">
@@ -317,13 +321,37 @@ main {
   background: var(--panel);
   border: 1px solid var(--line);
   border-radius: 8px;
-  padding: 18px;
+  overflow: hidden;
+}
+
+.item > :not(.item-image) {
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+.item > :last-child {
+  margin-bottom: 18px;
+}
+
+.item-image {
+  display: block;
+  aspect-ratio: 16 / 9;
+  background: #e5e7eb;
+  overflow: hidden;
+}
+
+.item-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .item-meta {
   display: flex;
   justify-content: space-between;
   gap: 12px;
+  margin-top: 18px;
   color: var(--muted);
   font-size: 12px;
   text-transform: uppercase;
@@ -347,6 +375,11 @@ main {
 .item p {
   margin: 0;
   color: #344054;
+}
+
+.item .why {
+  margin-top: 12px;
+  color: #1f2937;
 }
 
 .tags {
