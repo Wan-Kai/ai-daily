@@ -6,8 +6,9 @@
   "description": "Daily AI news, papers, and industry blog digest published with GitHub Pages.",
   "scripts": {
     "generate": "node scripts/generate-daily.mjs",
+    "review": "node scripts/review-report.mjs",
     "build": "node scripts/build-site.mjs",
-    "daily": "npm run generate && npm run build"
+    "daily": "npm run generate && npm run review && npm run build"
   },
   "engines": {
     "node": ">=20"

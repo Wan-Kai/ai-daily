@@ -36,6 +36,9 @@ jobs:
         with:
           node-version: 20
 
+      - name: Review latest report
+        run: npm run review
+
       - name: Build site
         run: npm run build
 
