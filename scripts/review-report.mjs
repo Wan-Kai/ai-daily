@@ -189,6 +189,7 @@ async function validateVideo(issues, item) {
 function reviewItem(issues, section, item) {
   const titleZh = item.titleZh || "";
   const summaryZh = item.summaryZh || "";
+  const isPaper = item.channel === "paper_feed" || /论文/.test(`${item.titleZh || ""} ${item.tags?.join(" ") || ""}`);
 
   if (!hasChinese(titleZh)) add(issues, item, "中文标题缺失或没有中文。");
   if (!hasChinese(summaryZh) || chineseRatio(summaryZh) < 0.35) add(issues, item, "中文摘要缺失、中文占比过低，疑似仍是原文。");
@@ -198,6 +199,14 @@ function reviewItem(issues, section, item) {
   }
   if ((section.id === "research_frontier" || section.id === "practice_cases") && !/核心结论|结论|要点|价值|支撑|结果|数据显示|案例/i.test(summaryZh)) {
     add(issues, item, "研究/实践类摘要需要按金字塔原理写出核心结论与支撑信息。");
+  }
+  if (isPaper) {
+    if (!/核心结论/.test(summaryZh) || !/支撑证据|支撑信息/.test(summaryZh)) {
+      add(issues, item, "论文解读需要结构化写出「核心结论」和「支撑证据」。");
+    }
+    if (/不是[^。！？\n]{0,80}而是/.test(summaryZh)) {
+      add(issues, item, "论文解读需要说人话，避免使用「不是……而是……」这类模板句式。");
+    }
   }
   if (section.id === "product_updates" && !isLikelyProductUpdate(item)) {
     add(issues, item, "产品快讯只允许来自官方社媒的明确产品/功能/API/模型/集成/可用性更新。");

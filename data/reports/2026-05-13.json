@@ -154,7 +154,7 @@
       "items": [
         {
           "title": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
-          "titleZh": "论文：SenseNova-U1 试图把多模态理解与生成统一到一个原生架构里",
+          "titleZh": "论文：SenseNova-U1 想把“看懂”和“生成”放进同一个多模态模型",
           "link": "https://arxiv.org/abs/2605.12500",
           "publishedAt": "Tue, 12 May 2026 17:59:58 GMT",
           "source": "Hugging Face Daily Papers",
@@ -165,7 +165,7 @@
           "image": "",
           "video": "",
           "summary": "arXiv:2605.12500v1 Announce Type: new Abstract: Recent large vision-language models (VLMs) remain fundamentally constrained by a persistent dichotomy: understanding and generation are treated as distinct problems, leading to fragmented architectures, cascaded pipelines, and misaligned representation spaces. We argue that this divide is not merely an engineering artifact, but a structural limitation that hinders the emergence of native multimodal intelligence. Hence, we introduce SenseNova-U1, a native unified mu...",
-          "summaryZh": "核心结论：SenseNova-U1 的目标不是把“理解模型”和“生成模型”用流水线拼起来，而是用 NEO-unify 架构把多模态理解、推理和生成视为同一过程的不同视角。支撑信息：论文发布了 SenseNova-U1-8B-MoT 和 SenseNova-U1-A3B-MoT 两个变体，分别基于 8B dense 和 30B-A3B MoE 理解基线；作者称它们在文本理解、视觉语言感知、知识推理、Agentic 决策和空间智能上能接近顶级理解型 VLM，同时在任意到图像生成、复杂文字信息图、交错图文生成上保持语义一致性与视觉质量。值得关注的不是单一榜单分数，而是它把“多模态模型如何从连接多个系统走向原生统一系统”这个路线讲得比较完整，并开放了模型设计、数据处理、训练和推理策略细节。",
+          "summaryZh": "核心结论：SenseNova-U1 想做一个原生多模态模型，同一个模型既能看懂图文、做推理，也能生成图片和交错图文内容。作者关心的问题是：现在很多 VLM 把理解、生成、空间推理拆成几套模块，系统能跑，但表示空间和训练目标容易割裂，复杂任务里会互相拖后腿。\n\n支撑证据：1. 作者做了两个版本，SenseNova-U1-8B-MoT 和 SenseNova-U1-A3B-MoT，分别基于 8B dense 和 30B-A3B MoE 理解基线。2. 评测覆盖文本理解、视觉语言感知、知识推理、Agentic 决策、空间智能，以及任意到图像生成、复杂文字信息图、交错图文生成。3. 论文还公开了模型设计、数据处理、训练和推理策略，方便别人复盘它为什么能同时做理解和生成。\n\n我的判断：这篇值得看，原因是它把“统一多模态模型”这条路线讲得比较完整。后续要看开源细节、真实生成质量，以及它在 VLA 和 world model 场景里的表现能不能被第三方复现。",
           "whyItMatters": "",
           "tags": [
             "论文",
@@ -176,7 +176,7 @@
         },
         {
           "title": "δ-mem: Efficient Online Memory for Large Language Models",
-          "titleZh": "论文：δ-mem 用 8×8 在线记忆状态提升 LLM 长程记忆，而不是继续堆上下文窗口",
+          "titleZh": "论文：δ-mem 给 LLM 加一个很小的在线记忆模块，改善长程任务表现",
           "link": "https://arxiv.org/abs/2605.12357",
           "publishedAt": "Tue, 12 May 2026 16:31:44 GMT",
           "source": "Hugging Face Daily Papers",
@@ -187,7 +187,7 @@
           "image": "",
           "video": "",
           "summary": "核心结论：δ-mem 认为长程助手和 Agent 不应只依赖更长上下文窗口，而可以给冻结的全注意力主干模型外挂一个很小的在线关联记忆状态。支撑信息：它把历史信息压缩到固定大小的状态矩阵中，用 delta-rule 在线更新，再在生成时把读出的记忆转化为对注意力计算的低秩修正。论文报告称，仅用 8×8 在线记忆状态，平均分达到冻结主干的 1.10 倍、最强非 δ-mem 记忆基线的 1.15 倍；在更依赖记忆的 MemoryAgentBench 上达到 1.31 倍，在 LoCoMo 上达到 1.20 倍，同时基本保留通用能力。这个方向适合关注个人长期记忆、Agent 工作记忆和低成本记忆增强的人继续跟进。",
-          "summaryZh": "核心结论：δ-mem 认为长程助手和 Agent 不应只依赖更长上下文窗口，而可以给冻结的全注意力主干模型外挂一个很小的在线关联记忆状态。支撑信息：它把历史信息压缩到固定大小的状态矩阵中，用 delta-rule 在线更新，再在生成时把读出的记忆转化为对注意力计算的低秩修正。论文报告称，仅用 8×8 在线记忆状态，平均分达到冻结主干的 1.10 倍、最强非 δ-mem 记忆基线的 1.15 倍；在更依赖记忆的 MemoryAgentBench 上达到 1.31 倍，在 LoCoMo 上达到 1.20 倍，同时基本保留通用能力。这个方向适合关注个人长期记忆、Agent 工作记忆和低成本记忆增强的人继续跟进。",
+          "summaryZh": "核心结论：δ-mem 给冻结的全注意力 LLM 加了一个轻量记忆模块，用固定大小的状态矩阵保存历史信息。它面向的是长期助手和 Agent：模型需要记住过去发生过什么，还要在后续生成时把这些信息用起来。\n\n支撑证据：1. 记忆状态用 delta-rule 在线更新，生成时读出记忆，并把它变成对注意力计算的低秩修正。主干模型不用替换，也不用完整微调。2. 论文报告称，只用 8×8 在线记忆状态，平均分达到冻结主干的 1.10 倍、最强非 δ-mem 记忆基线的 1.15 倍。3. 在更依赖记忆的任务上收益更明显：MemoryAgentBench 达到 1.31 倍，LoCoMo 达到 1.20 倍，同时通用能力基本保住。\n\n我的判断：这篇的好处是思路很工程化。它把问题拆成一个更小的工程模块：怎样用很小、可在线更新的状态，解决“记得住、用得上”的问题。真正要继续看的，是这个记忆状态在更长时间跨度、多用户隐私隔离和生产 Agent 场景里是否稳定。",
           "whyItMatters": "",
           "tags": [
             "论文",

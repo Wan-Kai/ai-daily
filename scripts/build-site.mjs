@@ -33,6 +33,12 @@ function renderItem(item, index) {
   const title = item.titleZh || item.title;
   const summary = item.summaryZh || item.summary;
   const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
+  const summaryHtml = String(summary || "")
+    .split(/\n{2,}/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean)
+    .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
+    .join("");
   // 给视频保留直达链接，避免浏览器播放器控件不可用时无法打开媒体。
   const video = item.video ? `
     <figure class="news-figure">
@@ -55,7 +61,7 @@ function renderItem(item, index) {
         <h3><a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></h3>
         <p class="news-meta">${escapeHtml(item.source)} · <a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">原文</a></p>
         ${video || image}
-        <p class="news-summary">${escapeHtml(summary)}</p>
+        <div class="news-summary">${summaryHtml}</div>
         ${tags ? `<div class="tags">${tags}</div>` : ""}
       </div>
     </article>
@@ -593,6 +599,14 @@ h1 {
   color: #24211d;
   font-size: 18px;
   line-height: 1.9;
+}
+
+.news-summary p {
+  margin: 0;
+}
+
+.news-summary p + p {
+  margin-top: 12px;
 }
 
 .tags {
