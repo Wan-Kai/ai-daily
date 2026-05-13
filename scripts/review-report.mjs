@@ -5,11 +5,13 @@ const root = process.cwd();
 const reportsDir = path.join(root, "data", "reports");
 const REQUIRED_SECTIONS = new Map([
   ["product_updates", "产品快讯"],
-  ["practice_cases", "实践案例"],
   ["research_frontier", "研究前线"],
   ["open_source_top", "开源项目"],
-  ["social_shares", "社媒观察"]
+  ["social_shares", "社媒观察"],
+  ["practice_cases", "实践案例"]
 ]);
+const REQUIRED_SECTION_ORDER = [...REQUIRED_SECTIONS.keys()];
+const LOOKBACK_HOURS = 24;
 
 function hasChinese(value = "") {
   return /[\u4e00-\u9fff]/.test(value);
@@ -60,6 +62,82 @@ async function latestReportPath() {
 function add(issues, item, message) {
   const label = item ? `${item.titleZh || item.title || "未命名条目"} (${item.link || "无链接"})` : "日报";
   issues.push(`${label}: ${message}`);
+}
+
+function normalizedLinkKey(link = "") {
+  try {
+    const url = new URL(link);
+    url.hash = "";
+    url.search = "";
+    url.hostname = url.hostname.toLowerCase();
+    return url.toString().replace(/\/$/, "").toLowerCase();
+  } catch {
+    return String(link).replace(/[#?].*$/, "").replace(/\/$/, "").toLowerCase();
+  }
+}
+
+function normalizedTitleKey(title = "") {
+  return String(title)
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+function previousDate(date) {
+  const parsed = new Date(`${date}T00:00:00+08:00`);
+  parsed.setDate(parsed.getDate() - 1);
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).format(parsed);
+}
+
+async function previousReportDuplicateKeys(date) {
+  const keys = {
+    links: new Set(),
+    titles: new Set()
+  };
+  if (!date) return keys;
+  try {
+    const report = JSON.parse(await readFile(path.join(reportsDir, `${previousDate(date)}.json`), "utf8"));
+    for (const item of (report.sections || []).flatMap((section) => section.items || [])) {
+      const linkKey = normalizedLinkKey(item.link);
+      const titleKeys = [item.title, item.titleZh].map(normalizedTitleKey).filter(Boolean);
+      if (linkKey) keys.links.add(linkKey);
+      for (const titleKey of titleKeys) keys.titles.add(titleKey);
+    }
+  } catch {
+    // 没有前一天日报时不做跨日去重审查。
+  }
+  return keys;
+}
+
+function validatePublishedWindow(issues, report, item) {
+  if (!item.publishedAt) {
+    add(issues, item, "缺少发布时间，无法确认是否属于生成时间前 24 小时内的资讯。");
+    return;
+  }
+  const generatedAt = new Date(report.generatedAt || `${report.date}T23:59:59+08:00`);
+  const publishedAt = new Date(item.publishedAt);
+  if (Number.isNaN(generatedAt.getTime()) || Number.isNaN(publishedAt.getTime())) {
+    add(issues, item, "发布时间或生成时间无法解析，无法做 24 小时窗口审查。");
+    return;
+  }
+  const ageMs = generatedAt.getTime() - publishedAt.getTime();
+  if (ageMs < 0 || ageMs > LOOKBACK_HOURS * 60 * 60 * 1000) {
+    add(issues, item, `发布时间不在生成时间前 ${LOOKBACK_HOURS} 小时内：${item.publishedAt}`);
+  }
+}
+
+function validateSectionOrder(issues, report) {
+  const sectionIds = (report.sections || []).map((section) => section.id);
+  const requiredInReport = REQUIRED_SECTION_ORDER.filter((id) => sectionIds.includes(id));
+  const actualRequiredOrder = sectionIds.filter((id) => REQUIRED_SECTIONS.has(id));
+  if (actualRequiredOrder.join("|") !== requiredInReport.join("|")) {
+    add(issues, null, "栏目顺序不符合要求，应为：产品快讯、研究前线、开源项目、社媒观察、实践案例。");
+  }
 }
 
 async function validateVideo(issues, item) {
@@ -113,15 +191,29 @@ async function main() {
   const reportPath = process.argv[2] || await latestReportPath();
   const report = JSON.parse(await readFile(reportPath, "utf8"));
   const issues = [];
+  const previousKeys = await previousReportDuplicateKeys(report.date);
+  const currentLinks = new Map();
+  const currentTitles = new Map();
 
   for (const [id, title] of REQUIRED_SECTIONS) {
     const section = report.sections?.find((candidate) => candidate.id === id);
     if (!section) add(issues, null, `缺少栏目：${title} (${id})`);
   }
+  validateSectionOrder(issues, report);
 
   for (const section of report.sections || []) {
     if (!REQUIRED_SECTIONS.has(section.id)) add(issues, null, `未知栏目：${section.id}`);
     for (const item of section.items || []) {
+      const linkKey = normalizedLinkKey(item.link);
+      const titleKey = normalizedTitleKey(item.titleZh || item.title);
+      if (currentLinks.has(linkKey)) add(issues, item, `与当前日报条目重复：${currentLinks.get(linkKey)}`);
+      if (currentTitles.has(titleKey)) add(issues, item, `与当前日报标题完全重复：${currentTitles.get(titleKey)}`);
+      if (previousKeys.links.has(linkKey) || previousKeys.titles.has(titleKey)) {
+        add(issues, item, "与前一天日报完全重复，需要从今日入选资讯中去掉。");
+      }
+      if (linkKey) currentLinks.set(linkKey, item.titleZh || item.title || item.link);
+      if (titleKey) currentTitles.set(titleKey, item.titleZh || item.title || item.link);
+      validatePublishedWindow(issues, report, item);
       reviewItem(issues, section, item);
       await validateVideo(issues, item);
     }

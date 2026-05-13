@@ -4,20 +4,23 @@ import path from "node:path";
 const root = process.cwd();
 const sourcesPath = path.join(root, "data", "sources.json");
 const reportsDir = path.join(root, "data", "reports");
+const runStartedAt = new Date();
 const today = new Intl.DateTimeFormat("en-CA", {
   timeZone: "Asia/Shanghai",
   year: "numeric",
   month: "2-digit",
   day: "2-digit"
-}).format(new Date());
+}).format(runStartedAt);
 
 const SECTION_CONFIG = [
   { id: "product_updates", title: "产品快讯", limit: 8 },
-  { id: "practice_cases", title: "实践案例", limit: 6 },
   { id: "research_frontier", title: "研究前线", limit: 8 },
   { id: "open_source_top", title: "开源项目", limit: 6 },
-  { id: "social_shares", title: "社媒观察", limit: 10 }
+  { id: "social_shares", title: "社媒观察", limit: 10 },
+  { id: "practice_cases", title: "实践案例", limit: 6 }
 ];
+
+const LOOKBACK_HOURS = 24;
 
 const KEYWORDS = [
   ["release", "产品发布", 4],
@@ -249,13 +252,12 @@ function parseFeed(xml, source) {
   }).filter((item) => item.title && item.link);
 }
 
-function isRecent(item, source) {
-  if (!item.publishedAt) return true;
+function isRecent(item) {
+  if (!item.publishedAt) return false;
   const published = new Date(item.publishedAt);
-  if (Number.isNaN(published.getTime())) return true;
-  const ageMs = Date.now() - published.getTime();
-  const lookbackDays = source.lookbackDays ?? 7;
-  return ageMs <= 1000 * 60 * 60 * 24 * lookbackDays;
+  if (Number.isNaN(published.getTime())) return false;
+  const ageMs = runStartedAt.getTime() - published.getTime();
+  return ageMs >= 0 && ageMs <= 1000 * 60 * 60 * LOOKBACK_HOURS;
 }
 
 function inferTags(item) {
@@ -495,7 +497,7 @@ async function chooseBestMedia(sections) {
 
 async function fetchRssSource(source) {
   const xml = await fetchText(source.url, source.timeoutMs ?? 15000);
-  return parseFeed(xml, source).filter((item) => isRecent(item, source));
+  return parseFeed(xml, source).filter((item) => isRecent(item));
 }
 
 async function fetchHuggingFacePapers(source) {
@@ -516,7 +518,7 @@ async function fetchHuggingFacePapers(source) {
   return [...deduped.values()].slice(0, source.limit ?? 12).map((item, index) => ({
     ...item,
     description: `Hugging Face Papers ${today} 排名第 ${index + 1} 的论文候选。`,
-    publishedAt: today,
+    publishedAt: runStartedAt.toISOString(),
     image: "",
     source: source.name,
     sourceType: source.type,
@@ -538,7 +540,7 @@ async function fetchGitHubTrending(source) {
       title: repoPath,
       link: absoluteUrl(href, "https://github.com"),
       description,
-      publishedAt: today,
+      publishedAt: runStartedAt.toISOString(),
       image: "",
       source: source.name,
       sourceType: source.type,
@@ -647,6 +649,55 @@ function isRelevantForSection(item, sectionId) {
   return /\bai\b|agent|copilot|llm|model|vector|embedding|rag|inference|开源|模型|智能体|向量|检索|推理/.test(text);
 }
 
+function previousDate(date) {
+  const parsed = new Date(`${date}T00:00:00+08:00`);
+  parsed.setDate(parsed.getDate() - 1);
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).format(parsed);
+}
+
+function normalizedLinkKey(link = "") {
+  try {
+    const url = new URL(link);
+    url.hash = "";
+    url.search = "";
+    url.hostname = url.hostname.toLowerCase();
+    return url.toString().replace(/\/$/, "").toLowerCase();
+  } catch {
+    return String(link).replace(/[#?].*$/, "").replace(/\/$/, "").toLowerCase();
+  }
+}
+
+function normalizedTitleKey(title = "") {
+  return String(title)
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+async function previousReportDuplicateKeys(date) {
+  const keys = {
+    links: new Set(),
+    titles: new Set()
+  };
+  try {
+    const report = JSON.parse(await readFile(path.join(reportsDir, `${previousDate(date)}.json`), "utf8"));
+    for (const item of (report.sections || []).flatMap((section) => section.items || [])) {
+      const linkKey = normalizedLinkKey(item.link);
+      const titleKeys = [item.title, item.titleZh].map(normalizedTitleKey).filter(Boolean);
+      if (linkKey) keys.links.add(linkKey);
+      for (const titleKey of titleKeys) keys.titles.add(titleKey);
+    }
+  } catch {
+    // 没有前一天日报时不做跨日去重。
+  }
+  return keys;
+}
+
 async function main() {
   const sources = JSON.parse(await readFile(sourcesPath, "utf8")).filter((source) => source.enabled !== false);
   const results = await runWithConcurrency(sources, 8, async (source) => {
@@ -672,9 +723,12 @@ async function main() {
     }
   }
 
+  const previousKeys = await previousReportDuplicateKeys(today);
   const deduped = new Map();
   for (const item of fetched) {
-    const key = item.link.replace(/[#?].*$/, "").toLowerCase();
+    const key = normalizedLinkKey(item.link);
+    const titleKey = normalizedTitleKey(item.title);
+    if (previousKeys.links.has(key) || previousKeys.titles.has(titleKey)) continue;
     const enriched = publicItem(item);
     const existing = deduped.get(key);
     if (!existing || enriched.score > existing.score) deduped.set(key, enriched);
@@ -696,7 +750,7 @@ async function main() {
   const selectedCount = sections.reduce((total, section) => total + section.items.length, 0);
   const report = {
     date: today,
-    generatedAt: new Date().toISOString(),
+    generatedAt: runStartedAt.toISOString(),
     title: `AI 日报 - ${today}`,
     stats: {
       sources: sources.length,

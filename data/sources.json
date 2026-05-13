@@ -1,18 +1,5 @@
 [
   {
-    "name": "Hugging Face Daily Papers",
-    "url": "https://huggingface.co/papers/date/{date}",
-    "kind": "huggingface_papers",
-    "type": "paper",
-    "section": "research_frontier",
-    "channel": "paper_rank",
-    "trust": "rank",
-    "weight": 10,
-    "limit": 12,
-    "lookbackDays": 2,
-    "enabled": true
-  },
-  {
     "name": "GitHub Trending Daily",
     "url": "https://github.com/trending?since=daily",
     "kind": "github_trending",
@@ -34,18 +21,6 @@
     "channel": "open_source",
     "trust": "official",
     "weight": 8,
-    "lookbackDays": 10,
-    "enabled": true
-  },
-  {
-    "name": "Hugging Face Blog",
-    "url": "https://huggingface.co/blog/feed.xml",
-    "kind": "rss",
-    "type": "company",
-    "section": "social_shares",
-    "channel": "vendor_blog",
-    "trust": "official",
-    "weight": 4,
     "lookbackDays": 10,
     "enabled": true
   },
@@ -86,18 +61,6 @@
     "enabled": true
   },
   {
-    "name": "Google Cloud Blog",
-    "url": "https://cloudblog.withgoogle.com/rss/",
-    "kind": "rss",
-    "type": "social",
-    "section": "social_shares",
-    "channel": "vendor_blog",
-    "trust": "official",
-    "weight": 6,
-    "lookbackDays": 3,
-    "enabled": true
-  },
-  {
     "name": "Last Week in AI",
     "url": "https://lastweekin.ai/feed/",
     "kind": "rss",
@@ -106,18 +69,6 @@
     "channel": "research_blog",
     "trust": "expert",
     "weight": 6,
-    "lookbackDays": 10,
-    "enabled": true
-  },
-  {
-    "name": "Google DeepMind Blog",
-    "url": "https://deepmind.com/blog/feed/basic/",
-    "kind": "rss",
-    "type": "research",
-    "section": "research_frontier",
-    "channel": "research_blog",
-    "trust": "official",
-    "weight": 8,
     "lookbackDays": 10,
     "enabled": true
   },
@@ -170,18 +121,6 @@
     "enabled": true
   },
   {
-    "name": "Google Developers Blog",
-    "url": "https://developers.googleblog.com/feeds/posts/default",
-    "kind": "rss",
-    "type": "social",
-    "section": "social_shares",
-    "channel": "vendor_blog",
-    "trust": "official",
-    "weight": 6,
-    "lookbackDays": 3,
-    "enabled": true
-  },
-  {
     "name": "ShowMeAI研究中心",
     "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
     "kind": "rss",
@@ -226,18 +165,6 @@
     "channel": "research_blog",
     "trust": "expert",
     "weight": 6,
-    "lookbackDays": 10,
-    "enabled": true
-  },
-  {
-    "name": "LlamaIndex Blog",
-    "url": "https://www.llamaindex.ai/blog/feed",
-    "kind": "rss",
-    "type": "open_source",
-    "section": "open_source_top",
-    "channel": "open_source",
-    "trust": "official",
-    "weight": 8,
     "lookbackDays": 10,
     "enabled": true
   },
@@ -482,18 +409,6 @@
     "enabled": true
   },
   {
-    "name": "AI Musings by Mu",
-    "url": "https://kelvinmu.substack.com/feed",
-    "kind": "rss",
-    "type": "research",
-    "section": "research_frontier",
-    "channel": "research_blog",
-    "trust": "expert",
-    "weight": 6,
-    "lookbackDays": 10,
-    "enabled": true
-  },
-  {
     "name": "Latent Space",
     "url": "https://www.latent.space/feed",
     "kind": "rss",
@@ -610,30 +525,6 @@
     "channel": "vendor_blog",
     "trust": "official",
     "weight": 4,
-    "lookbackDays": 10,
-    "enabled": true
-  },
-  {
-    "name": "AI at Meta Blog",
-    "url": "https://rsshub.app/meta/ai/blog",
-    "kind": "rss",
-    "type": "research",
-    "section": "research_frontier",
-    "channel": "research_blog",
-    "trust": "expert",
-    "weight": 6,
-    "lookbackDays": 10,
-    "enabled": true
-  },
-  {
-    "name": "Last Week in AI",
-    "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCKARTq-t5SPMzwtft8FWwnA",
-    "kind": "rss",
-    "type": "research",
-    "section": "research_frontier",
-    "channel": "research_blog",
-    "trust": "expert",
-    "weight": 6,
     "lookbackDays": 10,
     "enabled": true
   },
