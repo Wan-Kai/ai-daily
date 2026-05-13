@@ -32,6 +32,7 @@ function renderItem(item, index) {
   const title = item.titleZh || item.title;
   const summary = item.summaryZh || item.summary;
   const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
+  // 给视频保留直达链接，避免浏览器播放器控件不可用时无法打开媒体。
   const video = item.video ? `
     <figure class="news-figure">
       <video src="${escapeHtml(item.video)}" controls preload="metadata" playsinline${item.image ? ` poster="${escapeHtml(item.image)}"` : ""}></video>
