@@ -552,9 +552,70 @@ async function fetchGitHubTrending(source) {
   }).filter((item) => item.title && item.link);
 }
 
+async function fetchFoloSource(source) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), source.timeoutMs ?? 20000);
+  try {
+    const headers = {
+      "content-type": "application/json",
+      "origin": "https://app.folo.is",
+      "user-agent": "ai-daily/0.1 (+https://github.com/Wan-Kai/ai-daily)",
+      "x-app-name": "Folo Web",
+      "x-app-platform": "desktop/web",
+      "x-app-version": "1.4.0"
+    };
+    if (process.env.FOLO_COOKIE) headers.cookie = process.env.FOLO_COOKIE;
+
+    const body = {
+      view: source.view ?? 0,
+      withContent: true
+    };
+    if (source.listId) body.listId = source.listId;
+    if (source.feedId) body.feedId = source.feedId;
+
+    const response = await fetch(source.url || "https://api.folo.is/entries", {
+      method: "POST",
+      headers,
+      body: JSON.stringify(body),
+      signal: controller.signal
+    });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const json = await response.json();
+    if (json.code !== 0) throw new Error(json.message || `Folo API code ${json.code}`);
+
+    return (json.data || []).map((entry) => {
+      const feed = entry.feeds || {};
+      const item = entry.entries || {};
+      const content = stripHtml(item.content || item.description || "");
+      const sourceUrl = feed.url || source.url;
+      const imageCandidates = uniqueCandidates(htmlImageCandidates(item.content || "", sourceUrl));
+      const videoCandidates = uniqueCandidates(htmlVideoCandidates(item.content || "", sourceUrl));
+      return {
+        title: item.title,
+        link: item.url || sourceUrl,
+        description: content,
+        publishedAt: item.publishedAt,
+        image: imageCandidates[0]?.url || "",
+        imageCandidates,
+        video: videoCandidates[0]?.url || "",
+        videoCandidates,
+        source: feed.title || source.name,
+        sourceType: source.type,
+        section: source.section,
+        channel: source.channel,
+        trust: source.trust,
+        sourceWeight: source.weight ?? 1
+      };
+    }).filter((item) => item.title && item.link && isRecent(item)).slice(0, source.limit ?? 20);
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
 async function fetchSource(source) {
   if (source.kind === "huggingface_papers") return fetchHuggingFacePapers(source);
   if (source.kind === "github_trending") return fetchGitHubTrending(source);
+  if (source.kind === "folo") return fetchFoloSource(source);
   return fetchRssSource(source);
 }
 

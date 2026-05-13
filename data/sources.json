@@ -13,6 +13,18 @@
     "enabled": true
   },
   {
+    "name": "GitHub Trending Weekly",
+    "url": "https://github.com/trending?since=weekly",
+    "kind": "github_trending",
+    "type": "open_source",
+    "section": "open_source_top",
+    "channel": "open_source_rank",
+    "trust": "rank",
+    "weight": 5,
+    "limit": 10,
+    "enabled": true
+  },
+  {
     "name": "LangChain Blog",
     "url": "https://blog.langchain.dev/rss/",
     "kind": "rss",
@@ -1534,6 +1546,43 @@
     "trust": "official",
     "weight": 9,
     "lookbackDays": 4,
+    "enabled": true
+  },
+  {
+    "name": "arXiv cs.AI",
+    "url": "https://rss.arxiv.org/rss/cs.AI",
+    "kind": "rss",
+    "type": "research",
+    "section": "research_frontier",
+    "channel": "paper_feed",
+    "trust": "rank",
+    "weight": 5,
+    "limit": 12,
+    "enabled": true
+  },
+  {
+    "name": "arXiv cs.CV",
+    "url": "https://rss.arxiv.org/rss/cs.CV",
+    "kind": "rss",
+    "type": "research",
+    "section": "research_frontier",
+    "channel": "paper_feed",
+    "trust": "rank",
+    "weight": 4,
+    "limit": 12,
+    "enabled": true
+  },
+  {
+    "name": "Folo AI Community Discussions",
+    "url": "https://api.folo.is/entries",
+    "kind": "folo",
+    "listId": "167576006499975168",
+    "type": "social",
+    "section": "social_shares",
+    "channel": "community_discussion",
+    "trust": "community",
+    "weight": 3,
+    "limit": 20,
     "enabled": true
   }
 ]

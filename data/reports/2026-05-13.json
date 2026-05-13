@@ -15,7 +15,7 @@
       "items": [
         {
           "image": "",
-          "video": "",
+          "video": "./media/2026-05-13-qwen-nous-portal.mp4",
           "whyItMatters": "",
           "score": 92,
           "title": "Qwen3.6-Plus is on Nous Portal now and FREE for a limited time. Hermes Agent, here we go!!",
@@ -37,7 +37,7 @@
         },
         {
           "image": "",
-          "video": "",
+          "video": "./media/2026-05-13-v0-opus-fast-mode.mp4",
           "whyItMatters": "",
           "score": 90,
           "title": "You can now use fast mode for Claude Opus 4.7 in v0.",
@@ -102,7 +102,7 @@
           ]
         },
         {
-          "image": "",
+          "image": "https://pbs.twimg.com/media/HIISykMbwAA9t-B.jpg",
           "video": "",
           "whyItMatters": "",
           "score": 87,
@@ -124,7 +124,7 @@
           ]
         },
         {
-          "image": "",
+          "image": "https://pbs.twimg.com/media/HIIXgRNbsAAYLxX.jpg",
           "video": "",
           "whyItMatters": "",
           "score": 85,
@@ -147,7 +147,7 @@
         },
         {
           "image": "",
-          "video": "",
+          "video": "./media/2026-05-13-manus-preferred-browser.mp4",
           "whyItMatters": "",
           "score": 84,
           "title": "Introducing Preferred Browser. Manus already works in your browser. Now it can keep working through your preferred browser.",
@@ -341,7 +341,7 @@
       "items": [
         {
           "image": "",
-          "video": "",
+          "video": "./media/2026-05-13-claude-legal.mp4",
           "whyItMatters": "",
           "score": 84,
           "title": "Anthropic today launched Claude for Legal with 12 legal role plugins and 20+ MCP connectors.",
@@ -362,7 +362,7 @@
           ]
         },
         {
-          "image": "",
+          "image": "https://pbs.twimg.com/media/HIJcNxOXAAAABLf.jpg",
           "video": "",
           "whyItMatters": "",
           "score": 82,
@@ -406,7 +406,7 @@
           ]
         },
         {
-          "image": "",
+          "image": "https://pbs.twimg.com/media/HIIb1VGaUAAZoAB.jpg",
           "video": "",
           "whyItMatters": "",
           "score": 79,
@@ -458,5 +458,12 @@
       ]
     }
   ],
-  "failures": []
+  "failures": [],
+  "summaryBullets": [
+    "模型与开发者工具继续围绕“更快的智能体工作流”升级：Qwen3.6-Plus 接入 Nous Portal，v0/Cursor/Windsurf 等工具开始支持 Claude Opus 4.7 fast mode。",
+    "代码智能体正在从编辑器走向真实桌面和浏览器环境：OpenAI 展示 Codex Computer Use，Manus 推出 Preferred Browser，重点都在跨应用连续执行任务。",
+    "多模态与私有化基础设施有新进展：Jina v5-omni 统一文本、图像、音频、视频向量，LlamaIndex liteparse-server 强调本地私有文档解析。",
+    "研究与工程讨论集中在“微调之后”的适配方式，以及 LLM 微调、文档处理在合规和企业流程中的落地边界。",
+    "开源与社媒信号显示 Agent 生态继续分化：记忆层、技能/插件、行业工作流和企业采用指标，正在成为比单纯模型能力更重要的观察点。"
+  ]
 }

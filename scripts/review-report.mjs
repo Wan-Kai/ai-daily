@@ -140,6 +140,32 @@ function validateSectionOrder(issues, report) {
   }
 }
 
+function validateDailySummary(issues, report) {
+  const bullets = report.summaryBullets || [];
+  if (!Array.isArray(bullets) || bullets.length < 3 || bullets.length > 5) {
+    add(issues, null, "今日摘要需要提供 3-5 条中文要点。");
+    return;
+  }
+  for (const bullet of bullets) {
+    if (!hasChinese(bullet) || chineseRatio(bullet) < 0.25) {
+      add(issues, null, `今日摘要疑似不是中文或中文占比过低：${bullet}`);
+    }
+    if (String(bullet).length < 28) {
+      add(issues, null, `今日摘要过短，需要能概括当天主线：${bullet}`);
+    }
+  }
+}
+
+function validateMediaCoverage(issues, report) {
+  const items = (report.sections || []).flatMap((section) => section.items || []);
+  const mediaCount = items.filter((item) => item.image || item.video).length;
+  if (items.length >= 10 && mediaCount < 3) {
+    add(issues, null, `当前日报共 ${items.length} 条，但只有 ${mediaCount} 条有图片或视频；需要回看原文和源 RSS，补回适合展示的媒体。`);
+  } else if (items.length >= 5 && mediaCount === 0) {
+    add(issues, null, "当前日报没有任何图片或视频；需要确认是否真的所有原文都没有可用媒体。");
+  }
+}
+
 async function validateVideo(issues, item) {
   if (!item.video) return;
   if (/video\.twimg\.com/i.test(item.video)) {
@@ -200,6 +226,8 @@ async function main() {
     if (!section) add(issues, null, `缺少栏目：${title} (${id})`);
   }
   validateSectionOrder(issues, report);
+  validateDailySummary(issues, report);
+  validateMediaCoverage(issues, report);
 
   for (const section of report.sections || []) {
     if (!REQUIRED_SECTIONS.has(section.id)) add(issues, null, `未知栏目：${section.id}`);

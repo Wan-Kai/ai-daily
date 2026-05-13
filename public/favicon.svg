@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="AI Daily">
+  <rect width="64" height="64" rx="12" fill="#fbfaf5"/>
+  <path d="M14 11h30c3.3 0 6 2.7 6 6v36H20c-3.3 0-6-2.7-6-6V11Z" fill="#fffdf8" stroke="#171717" stroke-width="3"/>
+  <path d="M50 20h2c2.2 0 4 1.8 4 4v23c0 3.3-2.7 6-6 6V20Z" fill="#efe6d4" stroke="#171717" stroke-width="3"/>
+  <path d="M22 21h19M22 30h19M22 39h12" stroke="#7c1f16" stroke-width="4" stroke-linecap="round"/>
+  <path d="M20 50 33 15l13 35M25 38h16" fill="none" stroke="#171717" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

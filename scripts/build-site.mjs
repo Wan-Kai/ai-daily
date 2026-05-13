@@ -75,6 +75,52 @@ function renderSection(section) {
   `;
 }
 
+function renderDailySummary(report) {
+  const bullets = (report.summaryBullets || [])
+    .map((item) => `<li>${escapeHtml(item)}</li>`)
+    .join("");
+  if (!bullets) return "";
+
+  return `
+    <section class="daily-summary" aria-labelledby="daily-summary-title">
+      <div class="section-heading summary-heading">
+        <p>00</p>
+        <h2 id="daily-summary-title">今日摘要</h2>
+      </div>
+      <ol>${bullets}</ol>
+    </section>
+  `;
+}
+
+function renderDateMenu(files, currentDate) {
+  const years = new Map();
+  for (const file of files) {
+    const date = file.replace(".json", "");
+    const [year, month, day] = date.split("-");
+    if (!years.has(year)) years.set(year, new Map());
+    const months = years.get(year);
+    if (!months.has(month)) months.set(month, []);
+    months.get(month).push({ date, day });
+  }
+
+  return [...years.entries()].map(([year, months]) => `
+    <section class="date-year">
+      <h3>${escapeHtml(year)} 年</h3>
+      ${[...months.entries()].map(([month, days]) => `
+        <div class="date-month">
+          <h4>${escapeHtml(month)} 月</h4>
+          <div class="date-days">
+            ${days.map(({ date, day }) => {
+              const active = date === currentDate ? ` class="active"` : "";
+              return `<a${active} href="./${escapeHtml(date)}.html" aria-label="${escapeHtml(date)}">${escapeHtml(day)}</a>`;
+            }).join("")}
+          </div>
+        </div>
+      `).join("")}
+    </section>
+  `).join("");
+}
+
 function renderIndexPage(reports) {
   const rows = reports.map((report) => `
     <article class="directory-item">
@@ -93,6 +139,7 @@ function renderIndexPage(reports) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI Daily 日报目录</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -114,11 +161,7 @@ function renderIndexPage(reports) {
 }
 
 function renderPage(report, reports) {
-  const dateMenu = reports.map((file) => {
-    const date = file.replace(".json", "");
-    const active = date === report.date ? ` class="active"` : "";
-    return `<a${active} href="./${date}.html">${date}</a>`;
-  }).join("");
+  const dateMenu = renderDateMenu(reports, report.date);
   const sectionLinks = (report.sections || [])
     .map((section) => `<a href="#${escapeHtml(section.id)}">${escapeHtml(section.title)}</a>`)
     .join("");
@@ -129,6 +172,7 @@ function renderPage(report, reports) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${escapeHtml(reportTitle(report))}</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
@@ -152,6 +196,7 @@ function renderPage(report, reports) {
     </div>
   </header>
   <main class="paper report">
+    ${renderDailySummary(report)}
     ${(report.sections || []).map(renderSection).join("")}
   </main>
   <footer class="paper footer">
@@ -309,30 +354,71 @@ h1 {
   position: absolute;
   right: 0;
   top: calc(100% + 6px);
-  width: 210px;
+  width: min(360px, calc(100vw - 40px));
   max-height: 280px;
   overflow: auto;
   border: 1px solid var(--line);
   background: var(--paper);
   box-shadow: 0 18px 36px rgba(23, 23, 23, .12);
+  padding: 14px;
 }
 
-.date-menu-list a {
-  display: block;
-  padding: 9px 12px;
-  border-bottom: 1px solid var(--soft-line);
-  text-decoration: none;
+.date-year + .date-year {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--soft-line);
+}
+
+.date-year h3,
+.date-month h4 {
+  margin: 0;
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  line-height: 1;
+}
+
+.date-year h3 {
   color: var(--ink);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.date-month {
+  display: grid;
+  grid-template-columns: 54px 1fr;
+  gap: 10px;
+  align-items: start;
+  margin-top: 13px;
+}
+
+.date-month h4 {
+  padding-top: 7px;
+  color: var(--muted);
+  font-size: 12px;
   font-weight: 700;
 }
 
-.date-menu-list a:last-child {
-  border-bottom: 0;
+.date-days {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(30px, 1fr));
+  gap: 6px;
 }
 
-.date-menu-list a:hover,
-.date-menu-list a.active {
+.date-days a {
+  display: grid;
+  place-items: center;
+  min-height: 30px;
+  border: 1px solid var(--soft-line);
+  color: var(--ink);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.date-days a:hover,
+.date-days a.active {
   background: #f1eadb;
+  border-color: var(--accent);
   color: var(--accent);
 }
 
@@ -368,6 +454,10 @@ h1 {
   padding-top: 54px;
 }
 
+.daily-summary {
+  padding-top: 42px;
+}
+
 .section-heading {
   display: grid;
   grid-template-columns: 58px 1fr;
@@ -376,6 +466,23 @@ h1 {
   margin-bottom: 26px;
   padding-bottom: 12px;
   border-bottom: 2px solid var(--ink);
+}
+
+.summary-heading {
+  margin-bottom: 18px;
+}
+
+.daily-summary ol {
+  margin: 0;
+  padding: 0 0 18px 58px;
+  border-bottom: 1px solid var(--soft-line);
+  color: #24211d;
+  font-size: 19px;
+  line-height: 1.9;
+}
+
+.daily-summary li {
+  padding: 6px 0;
 }
 
 .section-heading p {
@@ -572,6 +679,10 @@ h1 {
   .directory-item a {
     grid-template-columns: 1fr;
     gap: 8px;
+  }
+
+  .daily-summary ol {
+    padding-left: 22px;
   }
 
   .directory-item span {
