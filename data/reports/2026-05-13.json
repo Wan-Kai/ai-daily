@@ -1,12 +1,13 @@
 {
   "date": "2026-05-13",
-  "generatedAt": "2026-05-13T06:14:45.054Z",
+  "generatedAt": "2026-05-13T15:37:00.960Z",
   "title": "AI 日报 - 2026-05-13",
   "stats": {
-    "sources": 127,
-    "fetched": 0,
-    "selected": 19,
-    "failures": 0
+    "sources": 133,
+    "fetched": 458,
+    "emailCandidates": 0,
+    "selected": 20,
+    "failures": 6
   },
   "sections": [
     {
@@ -14,55 +15,29 @@
       "title": "产品快讯",
       "items": [
         {
-          "image": "",
-          "video": "./media/2026-05-13-qwen-nous-portal.mp4",
-          "whyItMatters": "",
-          "score": 92,
-          "title": "Qwen3.6-Plus is on Nous Portal now and FREE for a limited time. Hermes Agent, here we go!!",
-          "titleZh": "Qwen3.6-Plus 接入 Nous Portal：限时免费并面向 Hermes Agent 使用",
-          "link": "https://x.com/Alibaba_Qwen/status/2054397617015271738",
-          "publishedAt": "Wed, 13 May 2026 03:05:35 GMT",
-          "source": "Qwen(@Alibaba_Qwen)",
+          "title": "Computer use lets Codex work across your apps without taking over your Mac. @AriX talks with @romai...",
+          "titleZh": "OpenAI Developers：Computer Use 让 Codex 跨应用操作，但不接管 Mac",
+          "link": "https://x.com/OpenAIDevs/status/2054298427245441141",
+          "publishedAt": "Tue, 12 May 2026 20:31:26 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
           "sourceType": "social",
           "section": "product_updates",
           "channel": "social",
           "trust": "official",
-          "summary": "Qwen3.6-Plus is on Nous Portal now and FREE for a limited time. Hermes Agent, here we go!!",
-          "summaryZh": "Qwen 官方宣布 Qwen3.6-Plus 已接入 Nous Portal，并在限时窗口内免费开放使用，帖子同时点名 Hermes Agent。对开发者来说，这意味着又一个主流模型进入可直接调用的第三方模型平台，短期内可以用更低成本测试 Qwen3.6-Plus 在智能体任务、工具调用和复杂推理链路中的表现。",
-          "tags": [
-            "模型",
-            "智能体",
-            "产品发布"
-          ]
-        },
-        {
-          "image": "",
-          "video": "./media/2026-05-13-v0-opus-fast-mode.mp4",
-          "whyItMatters": "",
-          "score": 90,
-          "title": "You can now use fast mode for Claude Opus 4.7 in v0.",
-          "titleZh": "v0 支持 Claude Opus 4.7 fast mode：更快生成与迭代前端代码",
-          "link": "https://x.com/v0/status/2054330622404067463",
-          "publishedAt": "Tue, 12 May 2026 22:39:22 GMT",
-          "source": "v0(@v0)",
-          "sourceType": "social",
-          "section": "product_updates",
-          "channel": "social",
-          "trust": "official",
-          "summary": "You can now use fast mode for Claude Opus 4.7 in v0.",
-          "summaryZh": "v0 官方宣布可使用 Claude Opus 4.7 fast mode。这个更新的重点不是新增一个独立工具，而是把更快的 Claude Opus 4.7 推理模式接入前端生成工作流，用户在 v0 中生成、修改和确认页面时可以获得更短等待时间。对高频迭代 UI、落地组件或原型的团队来说，模型速度直接影响人机协作节奏。",
-          "tags": [
-            "模型",
-            "开发者工具",
-            "产品更新"
-          ]
-        },
-        {
           "image": "",
           "video": "",
+          "summary": "Computer use lets Codex work across your apps without taking over your Mac. @AriX talks with @romainhuet about what changes when agents can click, type, and keep working in the background. Your browser does not support the video tag. 🔗 View on Twitter 💬 113 🔄 81 ❤️ 1110 👀 91689 📊 281 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Developers 展示 Codex 的 computer use 能力：Agent 可以在不同应用之间点击、输入并继续在后台工作，同时不需要完全接管用户的 Mac。这个更新值得关注，因为代码代理正在从“只读写仓库文件”扩展到“操作真实桌面工作流”，未来可能把浏览器、终端、编辑器、协作工具串成连续任务链；但它也会让权限边界、可见性和误操作防护变得更关键。",
           "whyItMatters": "",
-          "score": 89,
-          "title": "Fast mode for Claude Opus 4.7 is now available in Cursor! It is 2.5x the speed at 6x the cost.",
+          "tags": [
+            "Codex",
+            "桌面 Agent",
+            "视频"
+          ],
+          "score": 94
+        },
+        {
+          "title": "Fast mode for Claude Opus 4.7 is now available in Cursor! It's 2.5x the speed at 6x the cost. For m...",
           "titleZh": "Cursor 接入 Claude Opus 4.7 fast mode：速度约 2.5 倍，成本约 6 倍",
           "link": "https://x.com/cursor_ai/status/2054274305345618163",
           "publishedAt": "Tue, 12 May 2026 18:55:35 GMT",
@@ -71,43 +46,43 @@
           "section": "product_updates",
           "channel": "social",
           "trust": "official",
-          "summary": "Fast mode for Claude Opus 4.7 is now available in Cursor! It is 2.5x the speed at 6x the cost.",
-          "summaryZh": "Cursor 宣布 Claude Opus 4.7 fast mode 已在 Cursor 中可用，并明确给出取舍：速度约为普通模式的 2.5 倍，但成本约为 6 倍。这个细节很关键，因为它把“更快的代码代理体验”转化成可衡量的成本/时延选择，团队可以把 fast mode 用在高价值、强交互的编码任务，而不是默认用于所有请求。",
-          "tags": [
-            "模型",
-            "开发者工具",
-            "成本"
-          ]
-        },
-        {
           "image": "",
           "video": "",
+          "summary": "Fast mode for Claude Opus 4.7 is now available in Cursor! It's 2.5x the speed at 6x the cost. For most tasks, we recommend using the standard speed. 💬 198 🔄 81 ❤️ 2119 👀 803292 📊 421 ⚡ Powered by xgo.ing",
+          "summaryZh": "Cursor 宣布 Claude Opus 4.7 fast mode 已在 Cursor 中可用，并直接给出取舍：输出速度约为普通模式的 2.5 倍，但成本约为 6 倍。这个细节很实用，它把“更快的代码代理体验”变成可管理的成本/时延选择；团队可以把 fast mode 用在高价值、强交互、等待成本更高的编码任务，而不是默认用于所有请求。",
           "whyItMatters": "",
-          "score": 88,
-          "title": "Computer use lets Codex work across your apps without taking over your Mac.",
-          "titleZh": "OpenAI Developers：Computer Use 让 Codex 跨应用操作但不接管 Mac",
-          "link": "https://x.com/OpenAIDevs/status/2054298427245441141",
-          "publishedAt": "Tue, 12 May 2026 20:31:26 GMT",
-          "source": "OpenAI Developers(@OpenAIDevs)",
+          "tags": [
+            "Cursor",
+            "Claude Opus",
+            "成本"
+          ],
+          "score": 91
+        },
+        {
+          "title": "Claude Opus 4.7 (fast mode) is now available in Windsurf! Full Claude Opus 4.7 intelligence ~2.5x h...",
+          "titleZh": "Windsurf 接入 Claude Opus 4.7 fast mode：保留 Opus 智能水平并提升输出速度",
+          "link": "https://x.com/windsurf/status/2054268947705536705",
+          "publishedAt": "Tue, 12 May 2026 18:34:18 GMT",
+          "source": "Windsurf(@windsurf_ai)",
           "sourceType": "social",
           "section": "product_updates",
           "channel": "social",
           "trust": "official",
-          "summary": "Computer use lets Codex work across your apps without taking over your Mac. AriX talks with Romain Huet about agentic GUI workflows.",
-          "summaryZh": "OpenAI Developers 继续展示 Computer Use 能力：Codex 可以跨应用执行点击、输入和切换等 GUI 操作，同时不需要完全接管用户的 Mac。这个方向值得关注，是因为代码智能体正在从“只改仓库里的文件”扩展到“操作真实桌面工作流”，例如在浏览器、编辑器、终端和协作工具之间完成连续任务；但它也对权限边界、用户可见性和误操作防护提出更高要求。",
+          "image": "https://pbs.twimg.com/media/HII6pVUawAAXC5z.jpg",
+          "video": "",
+          "summary": "Claude Opus 4.7 (fast mode) is now available in Windsurf! Full Claude Opus 4.7 intelligence ~2.5x higher output speeds We can't wait to see what you'll build with it! 💬 18 🔄 20 ❤️ 195 👀 11955 📊 47 ⚡ Powered by xgo.ing",
+          "summaryZh": "Windsurf 也宣布 Claude Opus 4.7 fast mode 可用，官方强调可以获得完整的 Claude Opus 4.7 智能水平，同时输出速度约提升 2.5 倍。与 Cursor 的信息放在一起看，Anthropic 高端模型正在被主流 AI 编码工具快速接入“高价高速档”，开发者工具开始把模型速度作为一个可显式选择的产品层能力。",
+          "whyItMatters": "",
           "tags": [
-            "智能体",
-            "GUI",
-            "Codex"
-          ]
+            "Windsurf",
+            "Claude Opus",
+            "开发者工具"
+          ],
+          "score": 87
         },
         {
-          "image": "https://pbs.twimg.com/media/HIISykMbwAA9t-B.jpg",
-          "video": "",
-          "whyItMatters": "",
-          "score": 87,
-          "title": "jina-embeddings-v5-omni is here! Our first universal embedding model for text, images, audio, and video.",
-          "titleZh": "Jina 发布 jina-embeddings-v5-omni：统一处理文本、图像、音频和视频向量",
+          "title": "jina-embeddings-v5-omni is here! Our first universal embedding model for text, images, audio, and vi...",
+          "titleZh": "Jina 发布 jina-embeddings-v5-omni：统一支持文本、图像、音频和视频向量",
           "link": "https://x.com/JinaAI_/status/2054226262047301933",
           "publishedAt": "Tue, 12 May 2026 15:44:41 GMT",
           "source": "Jina AI(@JinaAI_)",
@@ -115,57 +90,61 @@
           "section": "product_updates",
           "channel": "social",
           "trust": "official",
-          "summary": "jina-embeddings-v5-omni is here, a universal embedding model for text, images, audio, and video.",
-          "summaryZh": "Jina AI 发布 `jina-embeddings-v5-omni`，定位为首个覆盖文本、图像、音频和视频的通用 embedding 模型。它的价值在于把多模态内容统一到同一类检索/排序基础设施里，降低跨模态搜索、RAG 和内容理解系统的工程复杂度。官方线程还提到 v5-omni 保持 v5-text backbone 冻结，并新增视觉与音频编码器，说明它试图兼顾既有文本索引兼容性和多模态扩展。",
+          "image": "",
+          "video": "./media/2026-05-13-2054226262047301933.mp4",
+          "summary": "jina-embeddings-v5-omni is here! Our first universal embedding model for text, images, audio, and video. Available in two sizes: small (1.57B, 1024-dim, 32K context) and nano (0.95B, 768-dim, 8K context). Both support Matryoshka truncation down to 32 dimensions. v5-omni is back-compatible: if you already use jina-embeddings-v5-text-small/nano, the existing text indexes work with v5-omni out of the box. Without reindexing the text, just index your multimodal content with v5-omni and start searching images, audio, and video. Your browser does not support the video tag. 🔗 View on Twitter 💬 10 🔄 71 ❤️ 490 👀 82397 📊 168 ⚡ Powered by xgo.ing",
+          "summaryZh": "Jina AI 发布 `jina-embeddings-v5-omni`，定位为覆盖文本、图像、音频和视频的通用 embedding 模型。官方给出两个尺寸：small 为 1.57B 参数、1024 维、32K 上下文，nano 为 0.95B 参数、768 维、8K 上下文；两者都支持 Matryoshka 截断到 32 维。更关键的是它与既有 v5-text-small/nano 向后兼容，已有文本索引无需重建即可叠加多模态内容索引，这会降低多模态检索、RAG 和内容搜索系统的迁移成本。",
+          "whyItMatters": "",
           "tags": [
             "多模态",
-            "向量检索",
-            "模型"
-          ]
+            "Embedding",
+            "向量检索"
+          ],
+          "score": 90
         },
         {
-          "image": "https://pbs.twimg.com/media/HIIXgRNbsAAYLxX.jpg",
-          "video": "",
-          "whyItMatters": "",
-          "score": 85,
-          "title": "Need document parsing that stays fully local and private? Meet liteparse-server.",
-          "titleZh": "LlamaIndex 发布 liteparse-server：面向本地私有部署的文档解析服务",
-          "link": "https://x.com/llama_index/status/2054230226096570492",
-          "publishedAt": "Tue, 12 May 2026 16:00:26 GMT",
-          "source": "LlamaIndex (@llama_index)",
+          "title": "🚀Qwen3.6-Plus is on Nous Portal now and FREE for a limited time. Hermes Agent, here we go!! ⚡️ @Nou...",
+          "titleZh": "Qwen3.6-Plus 接入 Nous Portal：限时免费，可用于 Hermes Agent 场景",
+          "link": "https://x.com/Alibaba_Qwen/status/2054397617015271738",
+          "publishedAt": "Wed, 13 May 2026 03:05:35 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
           "sourceType": "social",
           "section": "product_updates",
           "channel": "social",
           "trust": "official",
-          "summary": "Need document parsing that stays fully local and private? Meet liteparse-server, a self-hostable parser.",
-          "summaryZh": "LlamaIndex 官方介绍 `liteparse-server`：一个可自托管的文档解析服务，目标是在本地、私有环境中完成解析。对企业 RAG 和知识库系统来说，文档解析往往涉及合同、财务、研发资料等敏感内容；自托管版本可以减少把原始文件交给外部 API 的合规压力，同时让团队更容易把解析服务接入既有内网流程。",
-          "tags": [
-            "RAG",
-            "文档解析",
-            "私有化"
-          ]
-        },
-        {
           "image": "",
-          "video": "./media/2026-05-13-manus-preferred-browser.mp4",
+          "video": "./media/2026-05-13-2054397617015271738.mp4",
+          "summary": "🚀Qwen3.6-Plus is on Nous Portal now and FREE for a limited time. Hermes Agent, here we go!! ⚡️ @NousResearch Nous Research @NousResearch Qwen 3.6 Plus by @Alibaba_Qwen is now FREE for a limited time on Nous Portal! Nous Portal is one easy subscription that gives you access to 300+ models, exclusive discounts, and bundles your tokens and paid tools together for hassle-free setup and simple billing. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 42 🔄 90 ❤️ 924 👀 96008 📊 137 ⚡ Powered by xgo.ing",
+          "summaryZh": "Qwen 官方转发确认 Qwen3.6-Plus 已进入 Nous Portal，并在限时窗口内免费开放，帖子同时点名 Hermes Agent。对开发者来说，这意味着 Qwen3.6-Plus 又多了一个第三方模型平台入口，可以用更低试错成本测试它在 Agent、工具调用和复杂推理链路中的表现；对模型厂商来说，进入聚合平台也会影响模型分发和开发者采用速度。",
           "whyItMatters": "",
-          "score": 84,
-          "title": "Introducing Preferred Browser. Manus already works in your browser. Now it can keep working through your preferred browser.",
-          "titleZh": "Manus 推出 Preferred Browser：让浏览器智能体持续在指定浏览器中工作",
-          "link": "https://x.com/ManusAI/status/2054215684679168013",
-          "publishedAt": "Tue, 12 May 2026 15:02:39 GMT",
-          "source": "ManusAI(@ManusAI_HQ)",
+          "tags": [
+            "Qwen",
+            "模型平台",
+            "Agent"
+          ],
+          "score": 88
+        },
+        {
+          "title": "We’re reimagining a 50-year-old interface - the mouse pointer - with AI. 🖱️ These experimental dem...",
+          "titleZh": "Google DeepMind 探索 AI 鼠标指针：用动作、语音和屏幕语义指挥 Gemini",
+          "link": "https://x.com/GoogleDeepMind/status/2054246119635300451",
+          "publishedAt": "Tue, 12 May 2026 17:03:35 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
           "sourceType": "social",
           "section": "product_updates",
           "channel": "social",
           "trust": "official",
-          "summary": "Introducing Preferred Browser. Manus already works in your browser. Now it can keep working through your preferred browser.",
-          "summaryZh": "ManusAI 宣布 Preferred Browser：让 Manus 不只是“能在浏览器里工作”，而是可以持续使用用户指定的浏览器环境执行任务。这个更新反映了浏览器智能体产品的一个关键竞争点：能否稳定复用用户真实登录态、扩展、页面上下文和偏好设置。对需要处理 SaaS 后台、网页调研和跨站工作流的用户来说，指定浏览器能力会直接影响可用性。",
+          "image": "",
+          "video": "./media/2026-05-13-2054246119635300451.mp4",
+          "summary": "We’re reimagining a 50-year-old interface - the mouse pointer - with AI. 🖱️ These experimental demos show how people can intuitively direct Gemini on their screens using motion, speech, and natural shorthand to get things done 🧵 Your browser does not support the video tag. 🔗 View on Twitter 💬 356 🔄 906 ❤️ 7417 👀 1279245 📊 1499 ⚡ Powered by xgo.ing",
+          "summaryZh": "Google DeepMind 展示一组“重新想象鼠标指针”的实验：让指针不只记录用户指向哪里，还能理解屏幕上被指向的对象，并结合动作、语音和自然 shorthand 来指挥 Gemini 完成任务。线程举例包括把手写便签照片变成交互式待办，或从暂停的视频画面里生成餐厅预订入口。它还不是一个成熟产品发布，但清楚展示了多模态 Agent 从“看屏幕”走向“理解并操作屏幕”的交互方向。",
+          "whyItMatters": "",
           "tags": [
-            "浏览器智能体",
-            "产品更新",
-            "工作流"
-          ]
+            "Gemini",
+            "交互",
+            "视频"
+          ],
+          "score": 86
         }
       ]
     },
@@ -174,34 +153,52 @@
       "title": "研究前线",
       "items": [
         {
-          "image": "",
-          "video": "",
-          "whyItMatters": "",
-          "score": 87,
-          "title": "[AINews] The End of Finetuning",
-          "titleZh": "Latent Space：微调的终点，可能是更强的上下文工程与运行时适配",
-          "link": "https://www.latent.space/p/ainews-the-end-of-finetuning",
-          "publishedAt": "Wed, 13 May 2026 02:47:22 GMT",
-          "source": "Latent Space",
+          "title": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+          "titleZh": "论文：SenseNova-U1 试图把多模态理解与生成统一到一个原生架构里",
+          "link": "https://arxiv.org/abs/2605.12500",
+          "publishedAt": "Tue, 12 May 2026 17:59:58 GMT",
+          "source": "Hugging Face Daily Papers",
           "sourceType": "research",
           "section": "research_frontier",
-          "channel": "research_blog",
-          "trust": "expert",
-          "summary": "[AINews] The End of Finetuning",
-          "summaryZh": "核心结论：Latent Space 本期 AINews 把“微调是否正在退潮”作为主题，讨论更长上下文、更强基础模型、工具调用和运行时记忆正在替代一部分传统微调需求。支撑信息是：很多应用过去依赖微调来固化格式、领域知识或行为偏好，但现在可以通过检索、上下文缓存、结构化提示、模型路由和后处理来实现更灵活的适配。限制也很清楚：对强风格、专有能力或低延迟批量任务，微调仍可能有价值。",
-          "tags": [
-            "模型",
-            "微调",
-            "上下文工程"
-          ]
-        },
-        {
+          "channel": "paper_feed",
+          "trust": "rank",
           "image": "",
           "video": "",
+          "summary": "arXiv:2605.12500v1 Announce Type: new Abstract: Recent large vision-language models (VLMs) remain fundamentally constrained by a persistent dichotomy: understanding and generation are treated as distinct problems, leading to fragmented architectures, cascaded pipelines, and misaligned representation spaces. We argue that this divide is not merely an engineering artifact, but a structural limitation that hinders the emergence of native multimodal intelligence. Hence, we introduce SenseNova-U1, a native unified mu...",
+          "summaryZh": "核心结论：SenseNova-U1 的目标不是把“理解模型”和“生成模型”用流水线拼起来，而是用 NEO-unify 架构把多模态理解、推理和生成视为同一过程的不同视角。支撑信息：论文发布了 SenseNova-U1-8B-MoT 和 SenseNova-U1-A3B-MoT 两个变体，分别基于 8B dense 和 30B-A3B MoE 理解基线；作者称它们在文本理解、视觉语言感知、知识推理、Agentic 决策和空间智能上能接近顶级理解型 VLM，同时在任意到图像生成、复杂文字信息图、交错图文生成上保持语义一致性与视觉质量。值得关注的不是单一榜单分数，而是它把“多模态模型如何从连接多个系统走向原生统一系统”这个路线讲得比较完整，并开放了模型设计、数据处理、训练和推理策略细节。",
           "whyItMatters": "",
-          "score": 84,
+          "tags": [
+            "论文",
+            "多模态",
+            "VLM"
+          ],
+          "score": 96
+        },
+        {
+          "title": "δ-mem: Efficient Online Memory for Large Language Models",
+          "titleZh": "论文：δ-mem 用 8×8 在线记忆状态提升 LLM 长程记忆，而不是继续堆上下文窗口",
+          "link": "https://arxiv.org/abs/2605.12357",
+          "publishedAt": "Tue, 12 May 2026 16:31:44 GMT",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "核心结论：δ-mem 认为长程助手和 Agent 不应只依赖更长上下文窗口，而可以给冻结的全注意力主干模型外挂一个很小的在线关联记忆状态。支撑信息：它把历史信息压缩到固定大小的状态矩阵中，用 delta-rule 在线更新，再在生成时把读出的记忆转化为对注意力计算的低秩修正。论文报告称，仅用 8×8 在线记忆状态，平均分达到冻结主干的 1.10 倍、最强非 δ-mem 记忆基线的 1.15 倍；在更依赖记忆的 MemoryAgentBench 上达到 1.31 倍，在 LoCoMo 上达到 1.20 倍，同时基本保留通用能力。这个方向适合关注个人长期记忆、Agent 工作记忆和低成本记忆增强的人继续跟进。",
+          "summaryZh": "核心结论：δ-mem 认为长程助手和 Agent 不应只依赖更长上下文窗口，而可以给冻结的全注意力主干模型外挂一个很小的在线关联记忆状态。支撑信息：它把历史信息压缩到固定大小的状态矩阵中，用 delta-rule 在线更新，再在生成时把读出的记忆转化为对注意力计算的低秩修正。论文报告称，仅用 8×8 在线记忆状态，平均分达到冻结主干的 1.10 倍、最强非 δ-mem 记忆基线的 1.15 倍；在更依赖记忆的 MemoryAgentBench 上达到 1.31 倍，在 LoCoMo 上达到 1.20 倍，同时基本保留通用能力。这个方向适合关注个人长期记忆、Agent 工作记忆和低成本记忆增强的人继续跟进。",
+          "whyItMatters": "",
+          "tags": [
+            "论文",
+            "Agent 记忆",
+            "长上下文"
+          ],
+          "score": 94
+        },
+        {
           "title": "Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI",
-          "titleZh": "AWS：用 SageMaker 微调 LLM 时如何应对欧盟 AI Act 要求",
+          "titleZh": "AWS：在 SageMaker 微调 LLM 时跟踪 FLOPs，辅助满足欧盟 AI Act 文档要求",
           "link": "https://aws.amazon.com/blogs/machine-learning/navigating-eu-ai-act-requirements-for-llm-fine-tuning-on-amazon-sagemaker-ai/",
           "publishedAt": "Tue, 12 May 2026 15:48:52 +0000",
           "source": "AWS Machine Learning Blog",
@@ -209,35 +206,39 @@
           "section": "research_frontier",
           "channel": "research_blog",
           "trust": "expert",
-          "summary": "Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI",
-          "summaryZh": "核心结论：AWS 将 LLM 微调从纯工程问题扩展到合规治理问题，重点讨论团队在 SageMaker AI 上训练/微调模型时如何对齐欧盟 AI Act 的要求。支撑信息包括：微调数据、模型用途、风险分类、评测记录、可追溯性与部署控制都会影响合规成本。这个话题值得关注，因为企业把大模型用于生产时，模型效果之外的审计、文档和责任边界会越来越像基础设施要求。",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/12/ml-20303.png",
+          "video": "",
+          "summary": "In this post, we show you how to set up FLOPs tracking during LLM fine-tuning using the open source Fine-Tuning FLOPs Meter toolkit on Amazon SageMaker AI. You learn how to determine your compliance status with a single configuration flag and generate audit-ready documentation.",
+          "summaryZh": "核心结论：AWS 这篇文章把“合规”具体落到训练工程指标上：在 LLM 微调过程中记录 FLOPs，并生成可审计材料，以帮助团队判断欧盟 AI Act 下的义务。支撑信息：文章演示了如何在 Amazon SageMaker AI 中使用开源 Fine-Tuning FLOPs Meter 工具，通过配置开关判断合规状态并输出 audit-ready documentation。它不只是 SageMaker 教程，也反映出一个趋势：模型训练、微调和后训练流程需要把能耗、算力、数据来源、评测和文档沉淀成可追踪证据，而不是上线前临时补材料。",
+          "whyItMatters": "",
           "tags": [
             "合规",
-            "微调",
-            "SageMaker"
-          ]
+            "SageMaker",
+            "LLM 微调"
+          ],
+          "score": 84
         },
         {
+          "title": "llm 0.32a2",
+          "titleZh": "Simon Willison：LLM 0.32a2 改用 Responses API，让工具调用之间的推理可交错呈现",
+          "link": "https://simonwillison.net/2026/May/12/llm/#atom-everything",
+          "publishedAt": "2026-05-12T17:45:07+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "blog",
+          "section": "research_frontier",
+          "channel": "blog",
+          "trust": "expert",
           "image": "",
           "video": "",
+          "summary": "Release: llm 0.32a2 A bunch of useful stuff in this LLM alpha, but the most important detail is this one: Most reasoning-capable OpenAI models now use the /v1/responses endpoint instead of /v1/chat/completions . This enables interleaved reasoning across tool calls for GPT-5 class models. #1435 This means you can now see the summarized reasoning tokens when you run prompts against an OpenAI model, displayed in a different color to standard error. Use the -R or --hide-reasoning flags if you don't want to see that....",
+          "summaryZh": "核心结论：Simon Willison 在 LLM 0.32a2 中把多数具备推理能力的 OpenAI 模型从 `/v1/chat/completions` 切到 `/v1/responses`，关键收益是支持工具调用之间的 interleaved reasoning。支撑信息：这意味着在 GPT-5 级模型使用工具时，用户可以看到跨工具步骤的摘要推理 token，而不是把每次工具调用割裂成独立片段。对开发 Agent 调试工具链的人，这类底层 API 迁移很重要，因为它会影响可观测性、审计、错误定位和人类介入点的设计。",
           "whyItMatters": "",
-          "score": 83,
-          "title": "Automate schema generation for intelligent document processing",
-          "titleZh": "AWS：用生成式 AI 自动生成智能文档处理 schema",
-          "link": "https://aws.amazon.com/blogs/machine-learning/automate-schema-generation-for-intelligent-document-processing/",
-          "publishedAt": "Tue, 12 May 2026 15:54:08 +0000",
-          "source": "AWS Machine Learning Blog",
-          "sourceType": "research",
-          "section": "research_frontier",
-          "channel": "research_blog",
-          "trust": "expert",
-          "summary": "Automate schema generation for intelligent document processing",
-          "summaryZh": "核心结论：AWS 介绍了一种用生成式 AI 自动生成智能文档处理 schema 的方法，目标是减少从非结构化文档到结构化字段抽取之间的人工建模成本。支撑信息是：传统 IDP 项目往往需要领域专家预先定义字段、样例和规则，而 schema 生成自动化可以加快发票、合同、表单、监管材料等场景的上线。适用边界在于：schema 自动化不能替代业务校验，关键字段仍需要人工确认和抽样评估。",
           "tags": [
-            "文档处理",
-            "生成式 AI",
-            "结构化抽取"
-          ]
+            "Responses API",
+            "Agent 调试",
+            "工具调用"
+          ],
+          "score": 82
         }
       ]
     },
@@ -246,92 +247,92 @@
       "title": "开源项目",
       "items": [
         {
+          "title": "Symphony: every open task gets a running Codex agent",
+          "titleZh": "Symphony：把每个未完成任务变成一个持续运行的 Codex Agent",
+          "link": "https://x.com/OpenAIDevs/status/2054252221941121035",
+          "publishedAt": "Tue, 12 May 2026 17:27:50 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
           "image": "",
           "video": "",
+          "summary": "Symphony: every open task gets a running Codex agent George @odysseus0z x.com/i/article/2031… 🔗 View Quoted Tweet 💬 49 🔄 67 ❤️ 912 👀 127947 📊 228 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Developers 转发介绍 Symphony：一个面向 Codex 的开源 Agent 编排器，思路是让任务跟踪器里的每个 open issue 都有一个持续运行的 Codex Agent，人类主要负责方向设定和结果审查。它值得放在开源栏目，是因为它不是单纯的产品宣传，而是把“任务系统 + 常驻代码代理 + 人类审核”组织成可复用的方法论和工具形态。",
           "whyItMatters": "",
-          "score": 82,
+          "tags": [
+            "开源",
+            "Codex",
+            "Agent 编排"
+          ],
+          "score": 88
+        },
+        {
+          "title": "Chat LangChain is a great example of how to built a production agent. Checkout the newly revamped o...",
+          "titleZh": "Chat LangChain 重新开源：作为生产级 Agent 的参考实现",
+          "link": "https://x.com/LangChain/status/2054231566017314952",
+          "publishedAt": "Tue, 12 May 2026 16:05:45 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIILLpXagAAxqLJ.jpg",
+          "video": "",
+          "summary": "Chat LangChain is a great example of how to built a production agent. Checkout the newly revamped open source repo today: github.com/langchain-ai/c… Brace @BraceSproul Chat LangChain has been revamped, and re-open sourced We've been working on a few improvements for a while now, and are very excited to finally open source them again! Want to see how a production Q&A agent that handles nearly 2T tokens a week is built? Checkout the repo here: github.com/langchain-ai/c… 🔗 View Quoted Tweet 💬 3 🔄 5 ❤️ 43 👀 8292 📊 11 ⚡ Powered by xgo.ing",
+          "summaryZh": "LangChain 分享 Chat LangChain 已重新整理并再次开源，并把它称为生产级 Agent 的一个好例子。这个项目的价值不只在“能聊天”，而在于它可以作为 RAG/Agent 应用的工程参考：如何组织检索、对话、工具调用、评测和部署边界。对正在从 demo 走向生产的团队，比起零散教程，一个可运行的完整仓库更容易复盘架构取舍。",
+          "whyItMatters": "",
+          "tags": [
+            "开源",
+            "LangChain",
+            "生产 Agent"
+          ],
+          "score": 86
+        },
+        {
           "title": "rohitg00/agentmemory",
-          "titleZh": "agentmemory：面向智能体的记忆管理开源项目进入 GitHub Trending",
+          "titleZh": "GitHub Trending：agentmemory 为 AI 编码 Agent 提供持久记忆",
           "link": "https://github.com/rohitg00/agentmemory",
-          "publishedAt": "2026-05-13T06:14:45.054Z",
+          "publishedAt": "Wed, 13 May 2026 00:00:00 GMT",
           "source": "GitHub Trending Daily",
-          "sourceType": "open_source",
+          "sourceType": "github",
           "section": "open_source_top",
           "channel": "open_source_rank",
           "trust": "rank",
-          "summary": "GitHub Trending repository: rohitg00/agentmemory",
-          "summaryZh": "这个 GitHub Trending 项目聚焦智能体记忆管理，方向上契合当前 Agent 应用的核心痛点：如何在多轮任务中保存事实、偏好、历史操作和长期上下文。它值得纳入观察，不是因为单日热榜就代表成熟，而是因为“memory layer”正在成为智能体框架之外的独立工程层，后续需要看其接口设计、存储后端、检索策略和真实 demo 是否足够扎实。",
+          "image": "https://github.com/rohitg00/agentmemory/raw/main/assets/iii-console/traces-waterfall.png",
+          "video": "",
+          "summary": "Sponsor Star rohitg00 / agentmemory #1 Persistent memory for AI coding agents based on real-world benchmarks",
+          "summaryZh": "`rohitg00/agentmemory` 今日进入 GitHub Trending，项目定位是“基于真实世界基准的 AI 编码 Agent 持久记忆”。它值得关注，是因为代码代理的瓶颈正在从单次生成能力转向跨任务记忆、项目偏好沉淀和长期上下文复用；如果这类项目能给出可验证 benchmark，就有机会成为评估 Agent 记忆质量的参考工具。",
+          "whyItMatters": "",
           "tags": [
-            "GitHub",
-            "开源",
-            "智能体记忆"
-          ]
+            "GitHub Trending",
+            "Agent 记忆",
+            "开源"
+          ],
+          "score": 84
         },
         {
-          "image": "",
-          "video": "",
-          "whyItMatters": "",
-          "score": 81,
-          "title": "datawhalechina/hello-agents",
-          "titleZh": "hello-agents：Datawhale 的智能体学习/实践项目登上 GitHub Trending",
-          "link": "https://github.com/datawhalechina/hello-agents",
-          "publishedAt": "2026-05-13T06:14:45.054Z",
+          "title": "obra/superpowers",
+          "titleZh": "GitHub Trending：superpowers 把 Agent 技能框架和软件工程方法论打包到一起",
+          "link": "https://github.com/obra/superpowers",
+          "publishedAt": "Wed, 13 May 2026 00:00:00 GMT",
           "source": "GitHub Trending Daily",
-          "sourceType": "open_source",
+          "sourceType": "github",
           "section": "open_source_top",
           "channel": "open_source_rank",
           "trust": "rank",
-          "summary": "GitHub Trending repository: datawhalechina/hello-agents",
-          "summaryZh": "Datawhale 的 `hello-agents` 出现在 GitHub Trending，说明中文开发者社区对智能体教程、案例和工程模板仍有明显需求。这个项目的价值更偏学习入口和实践样板：如果它能把 Agent 基础概念、工具调用、工作流编排、评测和部署串起来，就适合作为团队内部培训或个人上手资料。后续可关注其示例是否持续更新、是否覆盖主流框架，以及是否有可运行项目。",
-          "tags": [
-            "GitHub",
-            "开源",
-            "智能体教程"
-          ]
-        },
-        {
-          "image": "",
+          "image": "https://opengraph.githubassets.com/de717ad6a167baabee34a78b26a1cd6ef996c191bcbcb91291015865cf071fa2/obra/superpowers",
           "video": "",
+          "summary": "Sponsor Star obra / superpowers An agentic skills framework & software development methodology that works.",
+          "summaryZh": "`obra/superpowers` 今日进入 GitHub Trending，项目描述是“agentic skills framework & software development methodology”。它的重点不只是提供脚本，而是试图把 Agent 可调用技能、工作方式和软件开发流程结合起来。对使用 Codex/Claude Code 一类工具的团队，这类仓库可以作为“把经验沉淀成技能”的参考。",
           "whyItMatters": "",
-          "score": 80,
-          "title": "rasbt/LLMs-from-scratch",
-          "titleZh": "LLMs-from-scratch：经典大模型学习项目继续出现在 GitHub Trending",
-          "link": "https://github.com/rasbt/LLMs-from-scratch",
-          "publishedAt": "2026-05-13T06:14:45.054Z",
-          "source": "GitHub Trending Daily",
-          "sourceType": "open_source",
-          "section": "open_source_top",
-          "channel": "open_source_rank",
-          "trust": "rank",
-          "summary": "GitHub Trending repository: rasbt/LLMs-from-scratch",
-          "summaryZh": "`LLMs-from-scratch` 再次进入 GitHub Trending，代表“从底层理解 LLM”的学习需求仍然很强。它不是一个新产品发布，而是一个长期有用的开源学习资源：通过从零实现大模型组件，帮助开发者理解 tokenization、attention、训练循环、微调和推理等关键机制。对只会调用 API 的团队来说，这类资源能补齐模型原理和调参判断力。",
           "tags": [
-            "GitHub",
-            "开源",
-            "大模型学习"
-          ]
-        },
-        {
-          "image": "",
-          "video": "",
-          "whyItMatters": "",
-          "score": 78,
-          "title": "GitHub Copilot individual plans: Introducing flex allotments in Pro and Pro+, and a new Max plan",
-          "titleZh": "GitHub Copilot 调整个人套餐：Pro/Pro+ 增加 flex allotments，并新增 Max 方案",
-          "link": "https://github.blog/news-insights/company-news/github-copilot-individual-plans-introducing-flex-allotments-in-pro-and-pro-and-a-new-max-plan/",
-          "publishedAt": "Tue, 12 May 2026 17:35:41 +0000",
-          "source": "The GitHub Blog",
-          "sourceType": "open_source",
-          "section": "open_source_top",
-          "channel": "open_source",
-          "trust": "expert",
-          "summary": "GitHub Copilot individual plans introduce flex allotments in Pro and Pro+, and a new Max plan.",
-          "summaryZh": "GitHub Blog 介绍 Copilot 个人套餐调整：Pro 与 Pro+ 引入 flex allotments，并新增 Max 方案。虽然这不是开源项目本身，但它直接影响开发者生态和 GitHub 上 AI 编程工具的使用门槛。对个人开发者和小团队来说，套餐结构决定了高级模型、代理式能力和高频使用的成本上限，也会影响他们是否继续把 Copilot 作为默认编码入口。",
-          "tags": [
-            "GitHub",
-            "Copilot",
-            "开发者生态"
-          ]
+            "GitHub Trending",
+            "技能框架",
+            "开源"
+          ],
+          "score": 80
         }
       ]
     },
@@ -340,92 +341,92 @@
       "title": "社媒观察",
       "items": [
         {
+          "title": "We gave people tiny computers at Code with Claude. Here are some of the small, delightful things the...",
+          "titleZh": "Claude 团队展示 Code with Claude 现场作品：社区活动正在验证代码代理的可玩性",
+          "link": "https://x.com/claudeai/status/2054257324278132893",
+          "publishedAt": "Tue, 12 May 2026 17:48:07 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
           "image": "",
-          "video": "./media/2026-05-13-claude-legal.mp4",
+          "video": "./media/2026-05-13-2054257324278132893.mp4",
+          "summary": "We gave people tiny computers at Code with Claude. Here are some of the small, delightful things they built: Your browser does not support the video tag. 🔗 View on Twitter 💬 269 🔄 233 ❤️ 3040 👀 302044 📊 553 ⚡ Powered by xgo.ing",
+          "summaryZh": "Claude 官方分享 Code with Claude 活动中参与者用“tiny computers”做出的若干小作品。它不是严格的产品发布，更像是生态观察信号：开发者正在用代码代理快速做游戏、交互装置和小工具，这类公开展示能帮助外部用户理解 Claude Code 的创作边界，也能反向推动社区学习提示词、工作流和项目组织方式。",
           "whyItMatters": "",
-          "score": 84,
-          "title": "Anthropic today launched Claude for Legal with 12 legal role plugins and 20+ MCP connectors.",
-          "titleZh": "宝玉：Claude for Legal 显示 Anthropic 正把行业工作流做成插件和 MCP 连接器",
-          "link": "https://x.com/dotey/status/2054330598596981218",
-          "publishedAt": "Tue, 12 May 2026 22:39:16 GMT",
-          "source": "宝玉(@dotey)",
+          "tags": [
+            "Claude Code",
+            "社区",
+            "视频"
+          ],
+          "score": 82
+        },
+        {
+          "title": "At @augmentcode , we took a counter-intuitive bet on our AI architecture. Instead of using the prim...",
+          "titleZh": "Augment Code 分享架构取舍：用 Mercury 2 子 Agent 做上下文压缩，降低成本并提速",
+          "link": "https://x.com/augmentcode/status/2054241239885844714",
+          "publishedAt": "Tue, 12 May 2026 16:44:12 GMT",
+          "source": "Augment Code(@augmentcode)",
           "sourceType": "social",
           "section": "social_shares",
           "channel": "social",
-          "trust": "expert",
-          "summary": "Anthropic today launched Claude for Legal with 12 legal role plugins and 20+ MCP connectors.",
-          "summaryZh": "宝玉转述 Anthropic 上线 Claude for Legal：一次性放出 12 个面向具体法律岗位的插件，以及 20 多个连接行业常用软件的 MCP 连接器。这个信号值得关注，因为 AI 产品正在从“通用聊天框”走向“行业角色 + 工作流 + 软件连接”的组合；法律场景尤其依赖文档、审阅、检索和合规留痕，如果插件与 MCP 连接器能覆盖真实工具链，就可能成为垂直行业 AI 落地的样板。",
-          "tags": [
-            "社媒",
-            "行业工作流",
-            "MCP"
-          ]
-        },
-        {
-          "image": "https://pbs.twimg.com/media/HIJcNxOXAAAABLf.jpg",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIIWzP-boAAqmx4.jpg",
           "video": "",
+          "summary": "At @augmentcode , we took a counter-intuitive bet on our AI architecture. Instead of using the primary coding model to preserve KV cache (the industry standard), we used Mercury 2 by @_inception_ai as a dedicated subagent. The payoff for our users: 82% faster context compaction, 90% lower summarization costs, 30% lower LLM spend via Prism routing Read the full story here: inceptionlabs.ai/blog/rise-of-r… Inception @_inception_ai @augmentcode rebuilt their context compaction layer around Mercury 2. 82% latency cut. 90% cost cut. Comparable quality to Opus 4.7. Running in production today. \"We took a counter-intuitive bet. We decoupled summarization entirely, offloading it to Mercury 2 as a dedicated subagent. Mercury 2 is the highly efficient engine powering our most critical workflows.\" - @RustagiAnkur & @jm1234567890 , Members of Technical Staff at Augment Code The subagent layer nee...",
+          "summaryZh": "Augment Code 透露一个反直觉架构选择：没有让主编码模型自己承担上下文压缩，而是用 Inception 的 Mercury 2 作为专门子 Agent。官方给出的收益包括上下文压缩速度提升 82%、摘要成本降低 90%、通过 Prism routing 让 LLM 总支出下降 30%。这条更适合放在社媒观察，因为它不是单一功能发布，而是一个值得借鉴的 Agent 系统架构经验：把低价值但高频的中间步骤交给更便宜/更快的模型。",
           "whyItMatters": "",
-          "score": 82,
-          "title": "Google just turned Android into an AI delivery vehicle at its Android Show event.",
-          "titleZh": "The Rundown AI：Android 正成为 Gemini 原生能力的分发入口",
-          "link": "https://x.com/TheRundownAI/status/2054306653302858207",
-          "publishedAt": "Tue, 12 May 2026 21:04:07 GMT",
-          "source": "The Rundown AI(@TheRundownAI)",
+          "tags": [
+            "Agent 架构",
+            "成本优化",
+            "上下文压缩"
+          ],
+          "score": 86
+        },
+        {
+          "title": "We’ve tested a lot of Avatar Shots workflows The biggest difference between average AI videos and g...",
+          "titleZh": "HeyGen 总结 Avatar Shots 工作流：优秀 AI 视频更依赖导演能力而不只是模型能力",
+          "link": "https://x.com/HeyGen/status/2054303584477688069",
+          "publishedAt": "Tue, 12 May 2026 20:51:56 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
           "sourceType": "social",
           "section": "social_shares",
           "channel": "social",
-          "trust": "expert",
-          "summary": "Google just turned Android into an AI delivery vehicle at its Android Show event.",
-          "summaryZh": "The Rundown AI 总结 Google 在 Android Show 上的方向：Android 正被改造成 Gemini 原生能力的分发入口。结合近期 Google 对移动端、系统级入口和多模态助手的密集预热，这意味着 AI 不只是独立 App，而会嵌入手机系统、输入、搜索、相册、设备操作等高频场景。对产品经理和开发者来说，移动操作系统层面的 AI 分发可能比单个模型发布更影响用户触达。",
-          "tags": [
-            "社媒",
-            "Android",
-            "Gemini"
-          ]
-        },
-        {
+          "trust": "official",
           "image": "",
           "video": "",
+          "summary": "We’ve tested a lot of Avatar Shots workflows The biggest difference between average AI videos and great ones usually comes down to direction • Scene structure • Camera movement • Environment prompting • Character behavior Here’s the workflow we keep coming back to ↓ Your browser does not support the video tag. 🔗 View on Twitter 💬 14 🔄 15 ❤️ 138 👀 7839 📊 42 ⚡ Powered by xgo.ing",
+          "summaryZh": "HeyGen 分享他们反复测试 Avatar Shots 后得到的经验：普通 AI 视频和好视频之间的差距，往往来自场景结构、镜头运动、环境提示词和角色行为等“导演层”设计。这个观点有参考价值，因为它提醒内容团队不要把视频生成看成一次性 prompt，而要把它拆成镜头语言、角色行为和环境控制的流程。",
           "whyItMatters": "",
-          "score": 81,
-          "title": "Amazon employees are tokenmaxxing: internal AI usage metrics created perverse incentives.",
-          "titleZh": "宝玉：Amazon 内部出现 tokenmaxxing，AI 使用率指标可能诱导刷量",
-          "link": "https://x.com/dotey/status/2054264925737083324",
-          "publishedAt": "Tue, 12 May 2026 18:18:19 GMT",
-          "source": "宝玉(@dotey)",
-          "sourceType": "social",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "expert",
-          "summary": "Amazon employees are tokenmaxxing after internal AI usage metrics became hard targets.",
-          "summaryZh": "宝玉提到 Amazon 内部出现 “tokenmaxxing”：为了满足 AI 使用率硬指标，员工开始刷 token 或刷 AI 使用量数据。这个观察重要之处不在八卦，而在组织管理：当企业把“AI 使用量”当作 KPI，容易把真正的生产力提升扭曲成工具使用率游戏。后续更合理的指标应关注交付质量、周期缩短、缺陷下降和知识复用，而不是单纯看 token 或调用次数。",
           "tags": [
-            "社媒",
-            "组织管理",
-            "AI 采用"
-          ]
+            "AI 视频",
+            "创作流程",
+            "提示词"
+          ],
+          "score": 78
         },
         {
-          "image": "https://pbs.twimg.com/media/HIIb1VGaUAAZoAB.jpg",
-          "video": "",
-          "whyItMatters": "",
-          "score": 79,
-          "title": "Andrew Ng says there will be no AI jobpocalypse.",
-          "titleZh": "宝玉转述吴恩达：AI 就业末日叙事被夸大，现实更像岗位结构调整",
-          "link": "https://x.com/dotey/status/2054256272740864294",
-          "publishedAt": "Tue, 12 May 2026 17:43:56 GMT",
-          "source": "宝玉(@dotey)",
+          "title": "Curious what people are running locally these days 👀",
+          "titleZh": "NVIDIA AI 转发本地大模型开发体验：手机触发 DGX Spark 上的 121B 模型自动跑完测试",
+          "link": "https://x.com/NVIDIAAI/status/2054555165706105278",
+          "publishedAt": "Wed, 13 May 2026 13:31:37 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
           "sourceType": "social",
           "section": "social_shares",
           "channel": "social",
-          "trust": "expert",
-          "summary": "Andrew Ng argues that the AI jobpocalypse narrative is irresponsible and not supported by employment data.",
-          "summaryZh": "宝玉转述吴恩达观点：所谓“AI 会引发大规模失业”的叙事过于恐慌，现实中软件工程师等岗位并没有立即崩盘，失业数据也没有显示就业末日已经到来。这条值得放在社媒观察中，因为它提醒我们区分两件事：AI 明显改变工作内容与技能结构，但这并不等于短期内所有岗位被整体替代。更有价值的问题是哪些任务被自动化、哪些岗位被重组，以及教育和企业培训如何跟上。",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIH8S_ha8AAvY_m.jpg",
+          "video": "",
+          "summary": "Curious what people are running locally these days 👀 Sudo su @sudoingX what a time to be alive. i asked my dgx spark for updates from my phone. hermes agent came back with all 8 tests passing across 3 test suites. all green. all done autonomously on a 121B model running locally. i didn't write a single test. i just asked. this is the future and it's already here. 🔗 View Quoted Tweet 💬 9 🔄 4 ❤️ 42 👀 5728 📊 10 ⚡ Powered by xgo.ing",
+          "summaryZh": "NVIDIA AI 转发了一个本地开发场景：用户从手机向 DGX Spark 请求更新，Hermes Agent 在本地运行的 121B 模型上完成任务，并让 3 个测试套件的 8 个测试全部通过。它更像是社媒案例而非正式产品发布，但方向很清楚：高性能本地设备 + 大参数本地模型 + Agent 工作流，正在让一部分编码任务不必完全依赖云端推理。",
+          "whyItMatters": "",
           "tags": [
-            "社媒",
-            "就业",
-            "观点"
-          ]
+            "本地模型",
+            "DGX Spark",
+            "Agent"
+          ],
+          "score": 76
         }
       ]
     },
@@ -434,36 +435,88 @@
       "title": "实践案例",
       "items": [
         {
+          "title": "PayPal runs 74,000 weekly tasks in Perplexity Enterprise. Teams use it for model validation, channe...",
+          "titleZh": "PayPal 每周在 Perplexity Enterprise 中运行 7.4 万个任务",
+          "link": "https://x.com/perplexity_ai/status/2054577555387371577",
+          "publishedAt": "Wed, 13 May 2026 15:00:36 GMT",
+          "source": "Perplexity(@perplexity_ai)",
+          "sourceType": "social",
+          "section": "practice_cases",
+          "channel": "social",
+          "trust": "official",
           "image": "",
           "video": "",
+          "summary": "PayPal runs 74,000 weekly tasks in Perplexity Enterprise. Teams use it for model validation, channel performance, market trend research, competitive intelligence, and product analysis. Read the customer story: perplexity.ai/enterprise/cus… 💬 11 🔄 8 ❤️ 56 👀 4919 📊 18 ⚡ Powered by xgo.ing",
+          "summaryZh": "核心结论：PayPal 已把 Perplexity Enterprise 用到较高频的企业知识与研究流程中，而不是只做零散试用。支撑信息：Perplexity 官方称 PayPal 每周运行 74,000 个任务，团队使用场景包括模型验证、渠道表现分析、市场趋势研究、竞争情报和产品分析。这个案例值得关注，是因为它给出了“企业搜索/研究工具”进入日常工作流后的量级信号：当任务数达到每周数万，价值不再只是单次问答质量，而是权限、来源可信度、复用模板和跨团队沉淀。",
           "whyItMatters": "",
-          "score": 85,
-          "title": "How Amazon Finance streamlines regulatory inquiries by using generative AI on AWS",
-          "titleZh": "Amazon Finance 用 AWS 生成式 AI 处理监管问询，提高资料检索和响应效率",
-          "link": "https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-streamlines-regulatory-inquiries-by-using-generative-ai-on-aws/",
-          "publishedAt": "Tue, 12 May 2026 16:41:33 +0000",
-          "source": "AWS Machine Learning Blog",
-          "sourceType": "research",
-          "section": "practice_cases",
-          "channel": "research_blog",
-          "trust": "expert",
-          "summary": "How Amazon Finance streamlines regulatory inquiries by using generative AI on AWS",
-          "summaryZh": "核心结论：Amazon Finance 将生成式 AI 用于监管问询响应，把原本依赖人工检索、汇总和解释的流程，改造成更自动化的知识检索与回答辅助系统。支撑信息是：监管问询通常涉及大量历史资料、政策口径和财务文档，AI 可以帮助定位相关材料、生成初稿并缩短响应周期。这个案例的价值在于它展示了金融后台场景的真实落地路径：先服务高频知识工作，再通过人工复核保证准确性和合规性。",
           "tags": [
-            "实践案例",
-            "金融",
-            "生成式 AI"
-          ]
+            "企业落地",
+            "Perplexity",
+            "PayPal"
+          ],
+          "score": 90
+        },
+        {
+          "title": "A nanomedicine startup developing treatments for hard-to-treat cancers needed its researchers to sea...",
+          "titleZh": "Sapu 用 Qdrant 索引 2800 万篇 PubMed 摘要，支撑纳米药物研发检索",
+          "link": "https://x.com/qdrant_engine/status/2054501915619385794",
+          "publishedAt": "Wed, 13 May 2026 10:00:02 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "section": "practice_cases",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HII39vdbUAA5FdZ.jpg",
+          "video": "",
+          "summary": "A nanomedicine startup developing treatments for hard-to-treat cancers needed its researchers to search the entire PubMed corpus, not filtered subsets. Sapu indexed all 28 million PubMed abstracts into a single Qdrant collection. Their AI platform now supports research paper authorship, SOP-aware chatbots, and full-corpus literature search across biomedical abstracts. Researchers query a small filtered slice using metadata or run vector search across the full 28 million records at once. Using this tool, they created seven peer-reviewed papers published using the AI tooling, seen daily adoption from the CEO to the lab floor, and inked a new robotics partnership extending the platform into physical lab workflows. Sapu moved from self-hosted Docker to Qdrant Cloud Premium, gaining SOC 2 compliance (critical for licensing the platform to other biotech companies) and the stability to stop...",
+          "summaryZh": "核心结论：Qdrant 分享的 Sapu 案例展示了向量数据库在科研知识检索中的真实落地：不是只检索过滤后的子集，而是把完整 PubMed 语料建成统一检索入口。支撑信息：Sapu 面向难治癌症纳米药物研发，把 2800 万篇 PubMed 摘要索引进一个 Qdrant collection，其 AI 平台用于论文写作辅助、遵循 SOP 的聊天机器人，以及跨生物医学文献库的全语料搜索。这个案例说明，科研 Agent 的基础设施瓶颈往往不在模型本身，而在大规模、高召回、可持续更新的知识底座。",
+          "whyItMatters": "",
+          "tags": [
+            "科研检索",
+            "Qdrant",
+            "生物医药"
+          ],
+          "score": 88
         }
       ]
     }
   ],
-  "failures": [],
+  "failures": [
+    {
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.dev/rss/",
+      "error": "fetch failed"
+    },
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "通义大模型",
+      "url": "https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "AI科技评论",
+      "url": "https://wechat2rss.bestblogs.dev/feed/789e5fefb9cc2646ba7b680cb7a88378a34eb7a4.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "arXiv cs.AI",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "error": "This operation was aborted"
+    }
+  ],
   "summaryBullets": [
-    "模型与开发者工具继续围绕“更快的智能体工作流”升级：Qwen3.6-Plus 接入 Nous Portal，v0/Cursor/Windsurf 等工具开始支持 Claude Opus 4.7 fast mode。",
-    "代码智能体正在从编辑器走向真实桌面和浏览器环境：OpenAI 展示 Codex Computer Use，Manus 推出 Preferred Browser，重点都在跨应用连续执行任务。",
-    "多模态与私有化基础设施有新进展：Jina v5-omni 统一文本、图像、音频、视频向量，LlamaIndex liteparse-server 强调本地私有文档解析。",
-    "研究与工程讨论集中在“微调之后”的适配方式，以及 LLM 微调、文档处理在合规和企业流程中的落地边界。",
-    "开源与社媒信号显示 Agent 生态继续分化：记忆层、技能/插件、行业工作流和企业采用指标，正在成为比单纯模型能力更重要的观察点。"
+    "产品侧的主线是“代码代理进入真实工作流”：Codex computer use、Cursor/Windsurf 的 Claude Opus fast mode，以及 Google DeepMind 对 AI 鼠标指针的探索，都在把模型从对话框推向桌面、IDE 和屏幕交互。",
+    "论文侧今天终于补进了两篇值得看的方向：SenseNova-U1 试图把多模态理解与生成统一到一个原生架构里，δ-mem 则用很小的在线记忆状态改善长程助手和 Agent 的记忆利用。",
+    "开源和基础设施内容集中在 Agent 工程化：Symphony 把任务跟踪器变成常驻 Codex Agent 编排系统，Chat LangChain 重新开源，向量数据库社区继续讨论成本、召回和多向量检索的生产问题。",
+    "实践案例里 PayPal 和 Sapu/Qdrant 都给出了更接近业务落地的信号：前者是企业搜索/研究任务规模化使用，后者是把 2800 万篇 PubMed 摘要建成可检索知识底座。"
   ]
 }

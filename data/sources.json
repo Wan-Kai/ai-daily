@@ -1549,6 +1549,19 @@
     "enabled": true
   },
   {
+    "name": "Hugging Face Daily Papers",
+    "url": "https://huggingface.co/papers/date/{date}",
+    "kind": "huggingface_papers",
+    "type": "research",
+    "section": "research_frontier",
+    "channel": "paper_feed",
+    "trust": "rank",
+    "weight": 8,
+    "limit": 8,
+    "timeoutMs": 30000,
+    "enabled": true
+  },
+  {
     "name": "arXiv cs.AI",
     "url": "https://rss.arxiv.org/rss/cs.AI",
     "kind": "rss",

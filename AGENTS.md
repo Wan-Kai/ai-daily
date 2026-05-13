@@ -15,7 +15,13 @@
 - 每次生成日报后必须运行 `npm run repair-media` 回源补齐入选资讯的图片/视频，再运行 `npm run review` 做质量审查；审查不通过时，需要根据问题回到日报 JSON、分类、摘要或媒体选择继续修订，直到审查通过后才能构建、提交和推送。
 - 每次生成日报只检索生成时间点往前 24 小时内的资讯；资讯入选后还需要和前一天日报做去重，链接或标题完全重复的内容必须剔除。
 - 每天 5 点定时任务生成日报时，必须从去重后的候选中宁缺毋滥地筛选高价值资讯；过滤低信息量线程回复、纯活动通知、单独链接、社媒噪音和重复碎片。若当天高质量候选不足，可以让栏目为空或减少条目，不要为了凑数放低价值内容。
+- AINews.com 通过邮件订阅接入时，只作为二级发现源和补充信息源，不直接当作产品快讯的一手来源；定时任务可先用 Gmail 检索 `daodi154@gmail.com` 最近 24 小时收到的 AINews 邮件，提取标题、正文要点、图片、视频和 Sources 中的一手链接，写入 `data/email-candidates/YYYY-MM-DD.json` 后再运行 `npm run daily`。如果邮件中的 Sources 指向官方原始链接，日报条目优先使用官方原始链接；若该官方链接已被当天或前一天日报收录，需要去重丢弃。若自动化上下文暂时无法使用 Gmail 插件，不要中断日报生成，记录邮件源不可用并继续执行 `npm run daily`。
+- Hugging Face Papers 在当前本地命令行环境直连可能超时，但 Chrome 可访问，原因通常是 Chrome 走系统代理而 Node/curl 直连不走系统代理；生成器已对 `huggingface.co` 文本抓取加入本机代理兜底，优先尝试 `AI_DAILY_HTTPS_PROXY`/`HTTPS_PROXY`/`HTTP_PROXY`，再尝试 `http://127.0.0.1:6789` 和 `http://127.0.0.1:7890`。
+- 本地抓取国外站点时要记住：浏览器能访问不代表 Node/curl 能直连访问。Chrome/Dia 往往走系统代理、浏览器缓存或不同 DNS/CDN 路径，而定时任务里的命令行请求默认可能不走系统代理。遇到 Hugging Face、GitHub、Google、arXiv 等站点超时、DNS 异常或连接失败时，优先尝试代理环境变量或本机代理 `127.0.0.1:6789`/`127.0.0.1:7890`，不要直接判定信息源无效。
+- 「研究前线」每天需要尽量保留高质量论文信号；`paper_feed` 来源只能归入「研究前线」，不能因为标题或摘要出现 `case study` 等词被自动归入「实践案例」。
 - 定时任务必须通过 `npm run daily` 执行完整链路；该链路包含生成、媒体修复、质量审查和构建。若 Twitter RSS 或原文中存在适合正文展示的图片/视频，不能让最终页面出现媒体全丢失；远程 `video.twimg.com` 视频需要在体积可控时缓存到 `public/media` 并使用本站相对路径。
 - 每份日报需要提供 3-5 条「今日摘要」，用中文概括当天最重要的产品、研究、开源、社媒或实践主线，让读者在进入正文前快速知道今天发生了什么。
 - 后续验证 Web 页面时优先使用 Chrome 插件进行真实浏览器检查；如果 Chrome 未启动，用户已授权可以自动启动 Chrome 后继续验证。
-- 本仓库推送 GitHub 时使用 HTTP/2；此前 `HTTP/1.1` 推送容易卡在 `github.com:443` 并报 `curl 28`，已通过 `git config http.version HTTP/2` 解决。后续若再次遇到 push 卡住，优先确认该配置。
+- 本仓库最稳妥的部署方式是：提交到 `main` 后推送到 GitHub，使用 GitHub Actions 的 `Deploy AI Daily` 工作流发布 GitHub Pages；不要手工改 `dist` 之外的线上内容，也不要绕过 Actions 部署。
+- 本仓库最稳妥的 push 方式是 SSH：`git push git@github.com:Wan-Kai/ai-daily.git main`。当前环境 HTTPS 访问 `github.com:443` 经常超时，`git push origin main` 可能失败；若必须使用 HTTPS，先保持 `git config http.version HTTP/2`，失败后优先改用 SSH 推送。
+- 推送后需要检查部署结果：`gh run list --repo Wan-Kai/ai-daily --limit 3` 查看最新 `Deploy AI Daily`，并用 `gh run watch --repo Wan-Kai/ai-daily <run-id> --exit-status` 等待成功；必要时再用 `curl` 或 Chrome 插件检查线上页面。

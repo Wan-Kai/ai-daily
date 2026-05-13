@@ -6,12 +6,12 @@
 
 ## 总览
 
-当前已启用信息源 132 个，无禁用源。
+当前已启用信息源 133 个，无禁用源。
 
 | 维度 | 数量 | 说明 |
 | --- | ---: | --- |
 | 产品快讯 | 45 | 主要来自 AI 厂商官方 Twitter RSS 网关，只放明确产品、模型、API、功能、可用性变化 |
-| 研究前线 | 18 | 研究博客、论文 RSS、技术分析和 AI 研究社区 |
+| 研究前线 | 19 | 研究博客、论文 RSS、技术分析和 AI 研究社区 |
 | 开源项目 | 8 | GitHub Trending、开源项目博客、开源社区源 |
 | 社媒观察 | 61 | 专家、从业者、社区讨论、厂商博客中偏观点和趋势的内容 |
 | 实践案例 | 0 | 暂无独立来源，后续需要重点补充 |
@@ -21,6 +21,7 @@
 | `rss` | 129 | 普通 RSS/Atom，包括博客、Twitter RSS 网关、微信 RSS 网关 |
 | `github_trending` | 2 | GitHub Trending daily/weekly 页面解析 |
 | `folo` | 1 | 通过 Folo list API 拉取社区聚合内容 |
+| `huggingface_papers` | 1 | Hugging Face Daily Papers 页面解析，直连失败时使用本机代理兜底 |
 
 ## 配置字段口径
 
@@ -57,6 +58,7 @@
 | --- | --- | --- |
 | arXiv cs.AI | `https://rss.arxiv.org/rss/cs.AI` | Folo Papers 中确认的 AI 论文 RSS |
 | arXiv cs.CV | `https://rss.arxiv.org/rss/cs.CV` | Folo Papers 中确认的视觉论文 RSS |
+| Hugging Face Daily Papers | `https://huggingface.co/papers/date/{date}` | 每日论文排名；当前命令行直连可能超时，生成器会尝试本机代理兜底 |
 | AWS Machine Learning Blog | `https://aws.amazon.com/blogs/amazon-ai/feed/` | 工程和企业 AI 落地文章较多 |
 | Microsoft Research Blog | `http://research.microsoft.com/rss/news.xml` | 官方研究动态 |
 | Latent Space | `https://www.latent.space/feed` | AI 工程与研究社区分析 |
@@ -131,6 +133,7 @@
 | --- | --- | --- |
 | AI资讯日报 RSS Feed | `https://justlovemaki.github.io/CloudFlare-AI-Insight-Daily/rss.xml` | 竞品二次聚合源，适合对比，不适合直接进入日报内容池 |
 | AI 开发者日报 | `https://ainews.liduos.com/rss.xml` | 二次聚合源，先不直接接入 |
+| AINews.com | `https://www.ainews.com/` | 本站无稳定公开 RSS，命令行抓取易触发 Cloudflare；如果用户通过 `daodi154@gmail.com` 邮件订阅，则作为 Gmail 二级发现源接入，并优先回指邮件 Sources 中的一手链接 |
 | Last Week in AI | `https://lastweekin.ai/feed` | 已有同类源，且更新频率偏周刊 |
 | Anthropic News | `https://rsshub.bestblogs.dev/anthropic/news` | 已在现有源中 |
 | Roo Code Blog | `https://blog.roocode.com/feed` | 最新内容较旧，暂不接入 |

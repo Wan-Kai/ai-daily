@@ -1,9 +1,13 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { execFile } from "node:child_process";
 import path from "node:path";
+import { promisify } from "node:util";
 
 const root = process.cwd();
 const sourcesPath = path.join(root, "data", "sources.json");
 const reportsDir = path.join(root, "data", "reports");
+const emailCandidatesDir = path.join(root, "data", "email-candidates");
+const execFileAsync = promisify(execFile);
 const runStartedAt = new Date();
 const today = new Intl.DateTimeFormat("en-CA", {
   timeZone: "Asia/Shanghai",
@@ -14,7 +18,7 @@ const today = new Intl.DateTimeFormat("en-CA", {
 
 const SECTION_CONFIG = [
   { id: "product_updates", title: "产品快讯", limit: 8 },
-  { id: "research_frontier", title: "研究前线", limit: 8 },
+  { id: "research_frontier", title: "研究前线", limit: 8, paperMin: 2, paperMax: 4 },
   { id: "open_source_top", title: "开源项目", limit: 6 },
   { id: "social_shares", title: "社媒观察", limit: 10 },
   { id: "practice_cases", title: "实践案例", limit: 6 }
@@ -330,6 +334,51 @@ async function fetchText(url, timeoutMs = 15000) {
   }
 }
 
+async function fetchTextWithProxyFallback(url, timeoutMs = 15000) {
+  try {
+    return await fetchText(url, timeoutMs);
+  } catch (error) {
+    if (!/huggingface\.co/i.test(url)) throw error;
+    return fetchTextViaCurlProxy(url, timeoutMs, error);
+  }
+}
+
+async function fetchTextViaCurlProxy(url, timeoutMs, originalError) {
+  const proxies = [
+    process.env.AI_DAILY_HTTPS_PROXY,
+    process.env.HTTPS_PROXY,
+    process.env.HTTP_PROXY,
+    "http://127.0.0.1:6789",
+    "http://127.0.0.1:7890"
+  ].filter(Boolean);
+  const uniqueProxies = [...new Set(proxies)];
+  const errors = [];
+
+  for (const proxy of uniqueProxies) {
+    try {
+      const { stdout } = await execFileAsync("curl", [
+        "-L",
+        "--silent",
+        "--show-error",
+        "--connect-timeout",
+        "10",
+        "--max-time",
+        String(Math.ceil(timeoutMs / 1000)),
+        "--proxy",
+        proxy,
+        url
+      ], {
+        maxBuffer: 8 * 1024 * 1024
+      });
+      if (stdout) return stdout;
+    } catch (error) {
+      errors.push(`${proxy}: ${error.message}`);
+    }
+  }
+
+  throw new Error(`Hugging Face 直连失败，代理兜底也失败：${originalError.message}; ${errors.join("; ")}`);
+}
+
 async function fetchBinary(url, timeoutMs = 8000) {
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
@@ -502,7 +551,7 @@ async function fetchRssSource(source) {
 
 async function fetchHuggingFacePapers(source) {
   const url = source.url.replace("{date}", today);
-  const html = await fetchText(url, source.timeoutMs ?? 20000);
+  const html = await fetchTextWithProxyFallback(url, source.timeoutMs ?? 30000);
   const paperLinks = [...html.matchAll(/<a[^>]+href=["'](\/papers\/[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)]
     .map((match) => ({
       link: absoluteUrl(match[1], "https://huggingface.co"),
@@ -619,6 +668,60 @@ async function fetchSource(source) {
   return fetchRssSource(source);
 }
 
+function normalizeEmailCandidate(candidate) {
+  const sourceName = candidate.source || "AINews.com 邮件订阅";
+  const sourceUrl = candidate.link || candidate.sourceUrl || "https://www.ainews.com/";
+  const imageCandidates = uniqueCandidates([
+    ...(candidate.imageCandidates || []),
+    ...(candidate.image ? [{ url: candidate.image, source: "email-image" }] : [])
+  ].map((item) => ({
+    ...item,
+    url: absoluteUrl(item.url, sourceUrl) || item.url,
+    source: item.source || "email-image"
+  })));
+  const videoCandidates = uniqueCandidates([
+    ...(candidate.videoCandidates || []),
+    ...(candidate.video ? [{ url: candidate.video, source: "email-video" }] : [])
+  ].map((item) => ({
+    ...item,
+    url: absoluteUrl(item.url, sourceUrl) || item.url,
+    source: item.source || "email-video"
+  })));
+
+  return {
+    title: candidate.title || candidate.titleZh || "",
+    titleZh: candidate.titleZh || candidate.title || "",
+    link: sourceUrl,
+    description: candidate.description || candidate.summary || candidate.summaryZh || "",
+    summaryZh: candidate.summaryZh || candidate.summary || candidate.description || "",
+    publishedAt: candidate.publishedAt || candidate.receivedAt || runStartedAt.toISOString(),
+    image: imageCandidates[0]?.url || "",
+    imageCandidates,
+    video: videoCandidates[0]?.url || "",
+    videoCandidates,
+    source: sourceName,
+    sourceType: candidate.sourceType || "social",
+    section: candidate.section || "social_shares",
+    channel: candidate.channel || "email_discovery",
+    trust: candidate.trust || "expert",
+    sourceWeight: candidate.sourceWeight ?? 5
+  };
+}
+
+async function readEmailCandidates(date) {
+  try {
+    const raw = await readFile(path.join(emailCandidatesDir, `${date}.json`), "utf8");
+    const parsed = JSON.parse(raw);
+    const candidates = Array.isArray(parsed) ? parsed : parsed.items || [];
+    return candidates
+      .map(normalizeEmailCandidate)
+      .filter((item) => item.title && item.link && isRecent(item));
+  } catch (error) {
+    if (error?.code === "ENOENT") return [];
+    throw error;
+  }
+}
+
 async function runWithConcurrency(items, limit, worker) {
   const results = [];
   let index = 0;
@@ -657,7 +760,12 @@ function publicItem(item) {
   };
 }
 
+function isPaperFeedItem(item) {
+  return item.channel === "paper_feed" || /arxiv|hugging face daily papers/i.test(`${item.source} ${item.link}`);
+}
+
 function normalizedSection(item) {
+  if (isPaperFeedItem(item)) return "research_frontier";
   if (isOpenSourceItem(item)) return "open_source_top";
   if (isStrongPracticeCase(item)) return "practice_cases";
   if (item.section === "product_updates") return isProductUpdate(item) ? "product_updates" : "social_shares";
@@ -666,11 +774,13 @@ function normalizedSection(item) {
 }
 
 function isStrongPracticeCase(item) {
+  if (isPaperFeedItem(item)) return false;
   const text = `${item.title} ${item.description}`.toLowerCase();
   return /shopify|mahindra|uber uses|parloa|case study|customer story|customers want|deployed .* ai|ai voice agents powered by|real-world deployment|真实客户|客户案例/.test(text);
 }
 
 function isPracticeCase(item) {
+  if (isPaperFeedItem(item)) return false;
   const text = `${item.title} ${item.description}`.toLowerCase();
   return /customer story|case study|enterprise adoption|production traces|a\/b testing|ship with confidence|real-world deployment|真实业务|客户案例|落地案例/.test(text);
 }
@@ -700,7 +810,7 @@ function isRelevantForSection(item, sectionId) {
     return item.channel === "social" && item.trust === "official";
   }
 
-  if (sectionId === "practice_cases") return true;
+  if (sectionId === "practice_cases") return !isPaperFeedItem(item);
 
   if (sectionId !== "open_source_top") return true;
   const text = `${item.title} ${item.summary} ${item.summaryZh} ${item.tags.join(" ")}`.toLowerCase();
@@ -708,6 +818,32 @@ function isRelevantForSection(item, sectionId) {
     return /\bai\b|agent|copilot|llm|model|token|generative|智能体|模型/.test(text);
   }
   return /\bai\b|agent|copilot|llm|model|vector|embedding|rag|inference|开源|模型|智能体|向量|检索|推理/.test(text);
+}
+
+function selectSectionItems(section, items) {
+  const candidates = items
+    .filter((item) => item.section === section.id)
+    .filter((item) => isRelevantForSection(item, section.id))
+    .sort((a, b) => b.score - a.score);
+
+  if (section.id !== "research_frontier") return candidates.slice(0, section.limit);
+
+  const papers = candidates.filter(isPaperFeedItem);
+  const nonPapers = candidates.filter((item) => !isPaperFeedItem(item));
+  const selected = [];
+  const paperCount = Math.min(section.paperMax ?? section.limit, Math.max(section.paperMin ?? 0, Math.min(papers.length, section.paperMin ?? 0)));
+  selected.push(...papers.slice(0, paperCount));
+
+  for (const item of nonPapers) {
+    if (selected.length >= section.limit) break;
+    selected.push(item);
+  }
+  for (const item of papers.slice(paperCount)) {
+    if (selected.length >= section.limit || selected.filter(isPaperFeedItem).length >= (section.paperMax ?? section.limit)) break;
+    selected.push(item);
+  }
+
+  return selected.sort((a, b) => b.score - a.score).slice(0, section.limit);
 }
 
 function previousDate(date) {
@@ -761,6 +897,7 @@ async function previousReportDuplicateKeys(date) {
 
 async function main() {
   const sources = JSON.parse(await readFile(sourcesPath, "utf8")).filter((source) => source.enabled !== false);
+  const emailCandidates = await readEmailCandidates(today);
   const results = await runWithConcurrency(sources, 8, async (source) => {
     try {
       return { status: "fulfilled", source, items: await fetchSource(source) };
@@ -783,6 +920,7 @@ async function main() {
       });
     }
   }
+  fetched.push(...emailCandidates);
 
   const previousKeys = await previousReportDuplicateKeys(today);
   const deduped = new Map();
@@ -799,11 +937,7 @@ async function main() {
   const sections = SECTION_CONFIG.map((section) => ({
     id: section.id,
     title: section.title,
-    items: items
-      .filter((item) => item.section === section.id)
-      .filter((item) => isRelevantForSection(item, section.id))
-      .sort((a, b) => b.score - a.score)
-      .slice(0, section.limit)
+    items: selectSectionItems(section, items)
   }));
 
   await chooseBestMedia(sections);
@@ -816,6 +950,7 @@ async function main() {
     stats: {
       sources: sources.length,
       fetched: fetched.length,
+      emailCandidates: emailCandidates.length,
       selected: selectedCount,
       failures: failures.length
     },
