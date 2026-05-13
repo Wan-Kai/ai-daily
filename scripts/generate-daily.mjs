@@ -98,7 +98,7 @@ function htmlImageCandidates(html = "", base) {
   return [...html.matchAll(/<img\b[^>]*>/gi)]
     .map((match) => attrsFromTag(match[0]))
     .map((attrs) => ({
-      url: absoluteUrl(attrs.src || attrs["data-src"], base),
+      url: absoluteUrl(attrs.src || attrs["data-src"] || attrs["data-original"], base),
       source: "html",
       width: Number(attrs.width || 0),
       height: Number(attrs.height || 0)
@@ -417,9 +417,10 @@ function imageCandidateScore(candidate, size) {
   const area = size.width * size.height;
   const ratio = size.width / size.height;
   const ratioScore = ratio >= 1.2 && ratio <= 2.4 ? 8 : ratio >= .75 && ratio <= 3 ? 4 : 0;
-  const sourceScore = candidate.source === "og:image" || candidate.source === "twitter:image" ? 18 : candidate.source === "media:content" ? 10 : candidate.source === "image" ? 8 : candidate.source === "html" ? 6 : candidate.source === "media:thumbnail" ? 3 : 2;
+  const sourceScore = candidate.source === "og:image" || candidate.source === "twitter:image" ? 18 : candidate.source === "page-image" ? 12 : candidate.source === "media:content" ? 10 : candidate.source === "image" ? 8 : candidate.source === "html" ? 6 : candidate.source === "media:thumbnail" ? 3 : 2;
   const urlPenalty = /sprite|icon|favicon|logo|avatar|profile|placeholder/i.test(candidate.url) ? 20 : 0;
-  return Math.log10(area) * 10 + ratioScore + sourceScore - urlPenalty;
+  const figureBoost = /figure|fig\d|benchmark|mattersim|speedup|multitask|circuit|density|grid|dataset|chart|diagram|architecture|workflow/i.test(candidate.url) ? 12 : 0;
+  return Math.log10(area) * 10 + ratioScore + sourceScore + figureBoost - urlPenalty;
 }
 
 function isLikelyGenericEditorialImage(url) {
@@ -431,7 +432,12 @@ async function enrichPageMediaCandidates(item) {
   try {
     const html = await fetchText(item.link, 10000);
     const metaCandidates = metaMediaCandidates(html, item.link);
-    const imageCandidates = metaCandidates.filter((candidate) => isImageCandidate(candidate));
+    const pageImageCandidates = htmlImageCandidates(html, item.link)
+      .map((candidate) => ({ ...candidate, source: "page-image" }));
+    const imageCandidates = [
+      ...metaCandidates.filter((candidate) => isImageCandidate(candidate)),
+      ...pageImageCandidates
+    ];
     const videoCandidates = metaCandidates.filter((candidate) => isVideoCandidate(candidate));
     item.imageCandidates = uniqueCandidates([...(item.imageCandidates || []), ...imageCandidates]);
     item.videoCandidates = uniqueCandidates([...(item.videoCandidates || []), ...videoCandidates]);

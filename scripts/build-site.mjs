@@ -1,9 +1,10 @@
-import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
+import { cp, mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const root = process.cwd();
 const reportsDir = path.join(root, "data", "reports");
 const distDir = path.join(root, "dist");
+const publicDir = path.join(root, "public");
 
 function escapeHtml(value = "") {
   return String(value)
@@ -589,6 +590,12 @@ h1 {
 
 async function main() {
   await mkdir(distDir, { recursive: true });
+  try {
+    await cp(publicDir, distDir, { recursive: true });
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
+
   const files = (await readdir(reportsDir))
     .filter((file) => file.endsWith(".json"))
     .sort()

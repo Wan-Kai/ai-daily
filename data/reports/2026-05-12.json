@@ -115,7 +115,7 @@
             "视频"
           ],
           "score": 72,
-          "video": "https://video.twimg.com/amplify_video/2053935379166687232/vid/avc1/3840x2160/blJrzjlcZtyj_LfB.mp4?tag=27"
+          "video": "./media/claude-code-agent-view.mp4"
         },
         {
           "title": "Today we’re launching the OpenAI Deployment Company to help businesses build and deploy AI. It's ma...",
@@ -302,7 +302,7 @@
           "section": "research_frontier",
           "channel": "research_blog",
           "trust": "official",
-          "image": "",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/figure2-fixed_Benchmark-scaled.png",
           "summary": "Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests appeared first on Microsoft Research .",
           "summaryZh": "核心结论：当前 Agent 即使能完成任务，也不一定会稳定改善用户处境。Microsoft Research 用 SocialReasoning-Bench 观察到一个稳定模式：模型执行能力并不差，但即便被明确要求优化用户利益，也未必持续做出对用户更有利的行动。这个评测重要在于，它把“Agent 会不会做事”推进到“Agent 会不会站在用户长期利益一边”，更接近真实代理场景的风险。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
@@ -347,7 +347,7 @@
           "section": "research_frontier",
           "channel": "research_blog",
           "trust": "official",
-          "image": "",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/fig1a_continental_us_circuit_density-1024x545.png",
           "summary": "Microsoft Research is excited to release an open dataset of approximate transmission topology of the U.S. power grid derived from publicly available data. The ability to study transmission-level power grid behavior is essential for modern power systems research. Analyses of congestion, transmission expansion, demand growth, and system resilience all depend on network models with realistic […] The post Building realistic electric transmission grid dataset at scale: a pipeline from open dataset appeared first on M...",
           "summaryZh": "核心结论：电网研究需要更现实的网络模型，Microsoft Research 因此发布了基于公开数据构建的美国输电网络近似拓扑数据集。它的支撑价值在于，拥塞分析、输电扩容、需求增长和韧性研究都依赖可信的网络结构数据。公开数据集可以降低电力系统研究门槛，也为 AI 在能源基础设施模拟中的应用提供更可靠底座。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
@@ -386,7 +386,7 @@
           "section": "research_frontier",
           "channel": "research_blog",
           "trust": "official",
-          "image": "",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/mattersim_mt_multitask.png",
           "summary": "MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models appeared first on Microsoft Research .",
           "summaryZh": "核心结论：MatterSim 正把 AI 材料科学从更快模拟推进到更广泛的性质预测。Microsoft Research 介绍了实验合成、更快的大规模模拟，以及 MatterSim-MT 多任务模型；后者不只模拟势能面，也能处理更多材料性质。支撑意义在于，材料研发的瓶颈常在昂贵实验和计算模拟，AI 模型如果能兼顾速度、精度和多任务性质，将显著缩短候选材料筛选周期。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
