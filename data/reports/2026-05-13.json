@@ -165,7 +165,7 @@
           "image": "",
           "video": "",
           "summary": "arXiv:2605.12500v1 Announce Type: new Abstract: Recent large vision-language models (VLMs) remain fundamentally constrained by a persistent dichotomy: understanding and generation are treated as distinct problems, leading to fragmented architectures, cascaded pipelines, and misaligned representation spaces. We argue that this divide is not merely an engineering artifact, but a structural limitation that hinders the emergence of native multimodal intelligence. Hence, we introduce SenseNova-U1, a native unified mu...",
-          "summaryZh": "核心结论：SenseNova-U1 想做一个原生多模态模型，同一个模型既能看懂图文、做推理，也能生成图片和交错图文内容。作者关心的问题是：现在很多 VLM 把理解、生成、空间推理拆成几套模块，系统能跑，但表示空间和训练目标容易割裂，复杂任务里会互相拖后腿。\n\n支撑证据：1. 作者做了两个版本，SenseNova-U1-8B-MoT 和 SenseNova-U1-A3B-MoT，分别基于 8B dense 和 30B-A3B MoE 理解基线。2. 评测覆盖文本理解、视觉语言感知、知识推理、Agentic 决策、空间智能，以及任意到图像生成、复杂文字信息图、交错图文生成。3. 论文还公开了模型设计、数据处理、训练和推理策略，方便别人复盘它为什么能同时做理解和生成。\n\n我的判断：这篇值得看，原因是它把“统一多模态模型”这条路线讲得比较完整。后续要看开源细节、真实生成质量，以及它在 VLA 和 world model 场景里的表现能不能被第三方复现。",
+          "summaryZh": "**核心结论**：**SenseNova-U1** 想做一个原生多模态模型，同一个模型既能看懂图文、做推理，也能生成图片和交错图文内容。作者关心的问题是：现在很多 VLM 把理解、生成、空间推理拆成几套模块，系统能跑，但表示空间和训练目标容易割裂，复杂任务里会互相拖后腿。\n\n**支撑证据**：1. 作者做了两个版本，**SenseNova-U1-8B-MoT** 和 **SenseNova-U1-A3B-MoT**，分别基于 **8B dense** 和 **30B-A3B MoE** 理解基线。2. 评测覆盖文本理解、视觉语言感知、知识推理、Agentic 决策、空间智能，以及任意到图像生成、复杂文字信息图、交错图文生成。3. 论文还公开了模型设计、数据处理、训练和推理策略，方便别人复盘它为什么能同时做理解和生成。\n\n**我的判断**：这篇值得看，原因是它把**统一多模态模型**这条路线讲得比较完整。后续要看开源细节、真实生成质量，以及它在 **VLA** 和 **world model** 场景里的表现能不能被第三方复现。",
           "whyItMatters": "",
           "tags": [
             "论文",
@@ -187,7 +187,7 @@
           "image": "",
           "video": "",
           "summary": "核心结论：δ-mem 认为长程助手和 Agent 不应只依赖更长上下文窗口，而可以给冻结的全注意力主干模型外挂一个很小的在线关联记忆状态。支撑信息：它把历史信息压缩到固定大小的状态矩阵中，用 delta-rule 在线更新，再在生成时把读出的记忆转化为对注意力计算的低秩修正。论文报告称，仅用 8×8 在线记忆状态，平均分达到冻结主干的 1.10 倍、最强非 δ-mem 记忆基线的 1.15 倍；在更依赖记忆的 MemoryAgentBench 上达到 1.31 倍，在 LoCoMo 上达到 1.20 倍，同时基本保留通用能力。这个方向适合关注个人长期记忆、Agent 工作记忆和低成本记忆增强的人继续跟进。",
-          "summaryZh": "核心结论：δ-mem 给冻结的全注意力 LLM 加了一个轻量记忆模块，用固定大小的状态矩阵保存历史信息。它面向的是长期助手和 Agent：模型需要记住过去发生过什么，还要在后续生成时把这些信息用起来。\n\n支撑证据：1. 记忆状态用 delta-rule 在线更新，生成时读出记忆，并把它变成对注意力计算的低秩修正。主干模型不用替换，也不用完整微调。2. 论文报告称，只用 8×8 在线记忆状态，平均分达到冻结主干的 1.10 倍、最强非 δ-mem 记忆基线的 1.15 倍。3. 在更依赖记忆的任务上收益更明显：MemoryAgentBench 达到 1.31 倍，LoCoMo 达到 1.20 倍，同时通用能力基本保住。\n\n我的判断：这篇的好处是思路很工程化。它把问题拆成一个更小的工程模块：怎样用很小、可在线更新的状态，解决“记得住、用得上”的问题。真正要继续看的，是这个记忆状态在更长时间跨度、多用户隐私隔离和生产 Agent 场景里是否稳定。",
+          "summaryZh": "**核心结论**：**δ-mem** 给冻结的全注意力 LLM 加了一个轻量记忆模块，用固定大小的状态矩阵保存历史信息。它面向的是长期助手和 Agent：模型需要记住过去发生过什么，还要在后续生成时把这些信息用起来。\n\n**支撑证据**：1. 记忆状态用 **delta-rule** 在线更新，生成时读出记忆，并把它变成对注意力计算的低秩修正。主干模型不用替换，也不用完整微调。2. 论文报告称，只用 **8×8 在线记忆状态**，平均分达到冻结主干的 **1.10 倍**、最强非 δ-mem 记忆基线的 **1.15 倍**。3. 在更依赖记忆的任务上收益更明显：**MemoryAgentBench 达到 1.31 倍**，**LoCoMo 达到 1.20 倍**，同时通用能力基本保住。\n\n**我的判断**：这篇的好处是思路很工程化。它把问题拆成一个更小的工程模块：怎样用很小、可在线更新的状态，解决**记得住、用得上**的问题。真正要继续看的，是这个记忆状态在更长时间跨度、多用户隐私隔离和生产 Agent 场景里是否稳定。",
           "whyItMatters": "",
           "tags": [
             "论文",
@@ -209,7 +209,7 @@
           "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/12/ml-20303.png",
           "video": "",
           "summary": "In this post, we show you how to set up FLOPs tracking during LLM fine-tuning using the open source Fine-Tuning FLOPs Meter toolkit on Amazon SageMaker AI. You learn how to determine your compliance status with a single configuration flag and generate audit-ready documentation.",
-          "summaryZh": "核心结论：AWS 这篇文章把“合规”具体落到训练工程指标上：在 LLM 微调过程中记录 FLOPs，并生成可审计材料，以帮助团队判断欧盟 AI Act 下的义务。支撑信息：文章演示了如何在 Amazon SageMaker AI 中使用开源 Fine-Tuning FLOPs Meter 工具，通过配置开关判断合规状态并输出 audit-ready documentation。它不只是 SageMaker 教程，也反映出一个趋势：模型训练、微调和后训练流程需要把能耗、算力、数据来源、评测和文档沉淀成可追踪证据，而不是上线前临时补材料。",
+          "summaryZh": "**核心结论**：AWS 这篇文章把“合规”具体落到训练工程指标上：在 LLM 微调过程中记录 **FLOPs**，并生成可审计材料，以帮助团队判断 **欧盟 AI Act** 下的义务。**支撑信息**：文章演示了如何在 Amazon SageMaker AI 中使用开源 **Fine-Tuning FLOPs Meter** 工具，通过配置开关判断合规状态并输出 audit-ready documentation。它不只是 SageMaker 教程，也反映出一个趋势：模型训练、微调和后训练流程需要把能耗、算力、数据来源、评测和文档沉淀成可追踪证据，而不是上线前临时补材料。",
           "whyItMatters": "",
           "tags": [
             "合规",
@@ -231,7 +231,7 @@
           "image": "",
           "video": "",
           "summary": "Release: llm 0.32a2 A bunch of useful stuff in this LLM alpha, but the most important detail is this one: Most reasoning-capable OpenAI models now use the /v1/responses endpoint instead of /v1/chat/completions . This enables interleaved reasoning across tool calls for GPT-5 class models. #1435 This means you can now see the summarized reasoning tokens when you run prompts against an OpenAI model, displayed in a different color to standard error. Use the -R or --hide-reasoning flags if you don't want to see that....",
-          "summaryZh": "核心结论：Simon Willison 在 LLM 0.32a2 中把多数具备推理能力的 OpenAI 模型从 `/v1/chat/completions` 切到 `/v1/responses`，关键收益是支持工具调用之间的 interleaved reasoning。支撑信息：这意味着在 GPT-5 级模型使用工具时，用户可以看到跨工具步骤的摘要推理 token，而不是把每次工具调用割裂成独立片段。对开发 Agent 调试工具链的人，这类底层 API 迁移很重要，因为它会影响可观测性、审计、错误定位和人类介入点的设计。",
+          "summaryZh": "**核心结论**：Simon Willison 在 **LLM 0.32a2** 中把多数具备推理能力的 OpenAI 模型从 `/v1/chat/completions` 切到 **`/v1/responses`**，关键收益是支持工具调用之间的 **interleaved reasoning**。**支撑信息**：这意味着在 GPT-5 级模型使用工具时，用户可以看到跨工具步骤的摘要推理 token，而不是把每次工具调用割裂成独立片段。对开发 Agent 调试工具链的人，这类底层 API 迁移很重要，因为它会影响可观测性、审计、错误定位和人类介入点的设计。",
           "whyItMatters": "",
           "tags": [
             "Responses API",
@@ -447,7 +447,7 @@
           "image": "",
           "video": "",
           "summary": "PayPal runs 74,000 weekly tasks in Perplexity Enterprise. Teams use it for model validation, channel performance, market trend research, competitive intelligence, and product analysis. Read the customer story: perplexity.ai/enterprise/cus… 💬 11 🔄 8 ❤️ 56 👀 4919 📊 18 ⚡ Powered by xgo.ing",
-          "summaryZh": "核心结论：PayPal 已把 Perplexity Enterprise 用到较高频的企业知识与研究流程中，而不是只做零散试用。支撑信息：Perplexity 官方称 PayPal 每周运行 74,000 个任务，团队使用场景包括模型验证、渠道表现分析、市场趋势研究、竞争情报和产品分析。这个案例值得关注，是因为它给出了“企业搜索/研究工具”进入日常工作流后的量级信号：当任务数达到每周数万，价值不再只是单次问答质量，而是权限、来源可信度、复用模板和跨团队沉淀。",
+          "summaryZh": "**核心结论**：PayPal 已把 **Perplexity Enterprise** 用到较高频的企业知识与研究流程中，而不是只做零散试用。**支撑信息**：Perplexity 官方称 PayPal 每周运行 **74,000 个任务**，团队使用场景包括模型验证、渠道表现分析、市场趋势研究、竞争情报和产品分析。这个案例值得关注，是因为它给出了“企业搜索/研究工具”进入日常工作流后的量级信号：当任务数达到每周数万，价值不再只是单次问答质量，而是权限、来源可信度、复用模板和跨团队沉淀。",
           "whyItMatters": "",
           "tags": [
             "企业落地",
@@ -469,7 +469,7 @@
           "image": "https://pbs.twimg.com/media/HII39vdbUAA5FdZ.jpg",
           "video": "",
           "summary": "A nanomedicine startup developing treatments for hard-to-treat cancers needed its researchers to search the entire PubMed corpus, not filtered subsets. Sapu indexed all 28 million PubMed abstracts into a single Qdrant collection. Their AI platform now supports research paper authorship, SOP-aware chatbots, and full-corpus literature search across biomedical abstracts. Researchers query a small filtered slice using metadata or run vector search across the full 28 million records at once. Using this tool, they created seven peer-reviewed papers published using the AI tooling, seen daily adoption from the CEO to the lab floor, and inked a new robotics partnership extending the platform into physical lab workflows. Sapu moved from self-hosted Docker to Qdrant Cloud Premium, gaining SOC 2 compliance (critical for licensing the platform to other biotech companies) and the stability to stop...",
-          "summaryZh": "核心结论：Qdrant 分享的 Sapu 案例展示了向量数据库在科研知识检索中的真实落地：不是只检索过滤后的子集，而是把完整 PubMed 语料建成统一检索入口。支撑信息：Sapu 面向难治癌症纳米药物研发，把 2800 万篇 PubMed 摘要索引进一个 Qdrant collection，其 AI 平台用于论文写作辅助、遵循 SOP 的聊天机器人，以及跨生物医学文献库的全语料搜索。这个案例说明，科研 Agent 的基础设施瓶颈往往不在模型本身，而在大规模、高召回、可持续更新的知识底座。",
+          "summaryZh": "**核心结论**：Qdrant 分享的 Sapu 案例展示了向量数据库在科研知识检索中的真实落地：把**完整 PubMed 语料**建成统一检索入口。**支撑信息**：Sapu 面向难治癌症纳米药物研发，把 **2800 万篇 PubMed 摘要**索引进一个 Qdrant collection，其 AI 平台用于论文写作辅助、遵循 SOP 的聊天机器人，以及跨生物医学文献库的全语料搜索。这个案例说明，科研 Agent 的基础设施瓶颈往往不在模型本身，而在大规模、高召回、可持续更新的知识底座。",
           "whyItMatters": "",
           "tags": [
             "科研检索",

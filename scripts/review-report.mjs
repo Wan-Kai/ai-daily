@@ -204,6 +204,9 @@ function reviewItem(issues, section, item) {
     if (!/核心结论/.test(summaryZh) || !/支撑证据|支撑信息/.test(summaryZh)) {
       add(issues, item, "论文解读需要结构化写出「核心结论」和「支撑证据」。");
     }
+    if (!/\*\*[^*]+\*\*/.test(summaryZh)) {
+      add(issues, item, "论文解读需要适度加粗核心结论、关键方法、重要数据或判断，方便读者扫读。");
+    }
     if (/不是[^。！？\n]{0,80}而是/.test(summaryZh)) {
       add(issues, item, "论文解读需要说人话，避免使用「不是……而是……」这类模板句式。");
     }

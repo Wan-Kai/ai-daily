@@ -15,6 +15,16 @@ function escapeHtml(value = "") {
     .replaceAll("'", "&#39;");
 }
 
+function renderInlineMarkdown(value = "") {
+  const parts = String(value).split(/(\*\*[^*\n][\s\S]*?[^*\n]\*\*)/g);
+  return parts.map((part) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return `<strong>${escapeHtml(part.slice(2, -2))}</strong>`;
+    }
+    return escapeHtml(part);
+  }).join("");
+}
+
 function reportTitle(report) {
   return report.title?.replace("AI Daily", "AI 日报") || `AI 日报 - ${report.date}`;
 }
@@ -37,7 +47,7 @@ function renderItem(item, index) {
     .split(/\n{2,}/)
     .map((paragraph) => paragraph.trim())
     .filter(Boolean)
-    .map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`)
+    .map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`)
     .join("");
   // 给视频保留直达链接，避免浏览器播放器控件不可用时无法打开媒体。
   const video = item.video ? `
