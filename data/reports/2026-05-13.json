@@ -1,12 +1,12 @@
 {
   "date": "2026-05-13",
-  "generatedAt": "2026-05-13T01:28:38.030Z",
+  "generatedAt": "2026-05-13T02:03:25.820Z",
   "title": "AI 日报 - 2026-05-13",
   "stats": {
     "sources": 137,
-    "fetched": 508,
+    "fetched": 452,
     "selected": 36,
-    "failures": 10
+    "failures": 33
   },
   "sections": [
     {
@@ -48,7 +48,7 @@
           "trust": "official",
           "image": "",
           "video": "https://video.twimg.com/amplify_video/2053933700275167232/vid/avc1/1302x846/gNyby3rlmdLE884B.mp4?tag=27",
-          "summary": "Introducing Daybreak: frontier AI for cyber defenders. Daybreak brings together the most capable OpenAI models, Codex, and our security partners to accelerate cyber defense and continuously secure software. A step toward a future where security teams can move at the speed defense demands. Your browser does not support the video tag. 🔗 View on Twitter 💬 572 🔄 1057 ❤️ 10749 👀 5185989 📊 2139 ⚡ Powered by xgo.ing",
+          "summary": "Introducing Daybreak: frontier AI for cyber defenders. Daybreak brings together the most capable OpenAI models, Codex, and our security partners to accelerate cyber defense and continuously secure software. A step toward a future where security teams can move at the speed defense demands. Your browser does not support the video tag. 🔗 View on Twitter 💬 577 🔄 1058 ❤️ 10774 👀 5197280 📊 2146 ⚡ Powered by xgo.ing",
           "summaryZh": "OpenAI 宣布推出 Daybreak，定位为“面向网络防御者的前沿 AI”。官方称其将最强 OpenAI 模型、Codex 以及安全合作伙伴能力结合起来，用于加速网络防御与持续加固软件安全，并强调让安全团队能以更接近攻击节奏的速度响应（附视频）。这类把代码代理与安全工作流深度融合的产品形态，可能会重塑企业安全运营与漏洞治理方式。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -90,7 +90,7 @@
           "trust": "official",
           "image": "",
           "video": "https://video.twimg.com/amplify_video/2053935379166687232/vid/avc1/3840x2160/blJrzjlcZtyj_LfB.mp4?tag=27",
-          "summary": "New in Claude Code: agent view. One list of all your sessions, available today as a research preview. Your browser does not support the video tag. 🔗 View on Twitter 💬 894 🔄 2029 ❤️ 25864 👀 4307950 📊 4470 ⚡ Powered by xgo.ing",
+          "summary": "New in Claude Code: agent view. One list of all your sessions, available today as a research preview. Your browser does not support the video tag. 🔗 View on Twitter 💬 899 🔄 2041 ❤️ 25963 👀 4357949 📊 4494 ⚡ Powered by xgo.ing",
           "summaryZh": "Anthropic 宣布 Claude Code 上线“Agent View”研究预览：把你所有会话集中在一个列表里，便于回溯与管理（附视频）。对重度使用代码代理的团队来说，统一的会话视图有助于提升可见性、复用有效策略并降低上下文丢失带来的返工成本。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -132,13 +132,33 @@
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "Today we’re launching the OpenAI Deployment Company to help businesses build and deploy AI. It's majority-owned and controlled by OpenAI. It brings together 19 leading investment firms, consultancies, and system integrators to help organizations deploy frontier AI to production for business impact. openai.com/index/openai-l… 💬 608 🔄 1461 ❤️ 11066 👀 7459568 📊 2632 ⚡ Powered by xgo.ing",
+          "summary": "Today we’re launching the OpenAI Deployment Company to help businesses build and deploy AI. It's majority-owned and controlled by OpenAI. It brings together 19 leading investment firms, consultancies, and system integrators to help organizations deploy frontier AI to production for business impact. openai.com/index/openai-l… 💬 609 🔄 1462 ❤️ 11077 👀 7468870 📊 2635 ⚡ Powered by xgo.ing",
           "summaryZh": "OpenAI 宣布成立 OpenAI Deployment Company，帮助企业“构建并部署 AI”。官方强调该公司由 OpenAI 控股并控制，并将 19 家领先投资机构、咨询公司与系统集成商聚合起来，协助组织把前沿 AI 部署到生产环境、产生业务影响。这意味着 OpenAI 正把“模型供给”进一步延伸到“落地交付能力”，对企业采购与实施路径可能带来变化。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "产品发布"
           ],
           "score": 71
+        },
+        {
+          "title": "Kimi K2.6 was a hit during the launch promotion - so it's staying free for Pro, Teams, and Max users...",
+          "titleZh": "Windsurf 延长 Kimi K2.6 免费期：Pro/Teams/Max 用户继续可用",
+          "link": "https://x.com/windsurf/status/2053924413192786163",
+          "publishedAt": "Mon, 11 May 2026 19:45:14 GMT",
+          "source": "Windsurf(@windsurf_ai)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Kimi K2.6 was a hit during the launch promotion - so it's staying free for Pro, Teams, and Max users for another month. Enjoy! Windsurf @windsurf Kimi K2.6 is now available in Windsurf! Available for free for the next 2 weeks for Pro, Teams, and Max users. 🔗 View Quoted Tweet 💬 17 🔄 31 ❤️ 688 👀 67521 📊 94 ⚡ Powered by xgo.ing",
+          "summaryZh": "Windsurf 表示 Kimi K2.6 在限时上线活动期间反响很好，因此将 Pro、Teams、Max 用户的免费可用期继续延长（帖子提到在原本“免费 2 周”的基础上继续延长一个月）。对经常在 IDE 内尝试不同模型的开发者来说，这类可用性/定价变化会直接影响模型选型与成本。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布"
+          ],
+          "score": 70.8626172957738
         },
         {
           "title": "Symphony: every open task gets a running Codex agent",
@@ -161,24 +181,26 @@
           "score": 70.85464300049833
         },
         {
-          "title": "Kimi K2.6 was a hit during the launch promotion - so it's staying free for Pro, Teams, and Max users...",
-          "titleZh": "Windsurf 延长 Kimi K2.6 免费期：Pro/Teams/Max 用户继续可用",
-          "link": "https://x.com/windsurf/status/2053924413192786163",
-          "publishedAt": "Mon, 11 May 2026 19:45:14 GMT",
-          "source": "Windsurf(@windsurf_ai)",
-          "sourceType": "social",
+          "title": "Introducing agent quality optimization in AgentCore, now in preview",
+          "titleZh": "AWS 预览 AgentCore 的 Agent 质量优化：基于线上轨迹给出改进建议并支持批量评测/A-B 测试",
+          "link": "https://aws.amazon.com/blogs/machine-learning/introducing-agent-quality-optimization-in-agentcore-now-in-preview/",
+          "publishedAt": "Mon, 04 May 2026 17:13:42 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
           "section": "product_updates",
-          "channel": "social",
-          "trust": "official",
-          "image": "",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/05/ml-20827-1.png",
           "video": "",
-          "summary": "Kimi K2.6 was a hit during the launch promotion - so it's staying free for Pro, Teams, and Max users for another month. Enjoy! Windsurf @windsurf Kimi K2.6 is now available in Windsurf! Available for free for the next 2 weeks for Pro, Teams, and Max users. 🔗 View Quoted Tweet 💬 17 🔄 31 ❤️ 684 👀 67202 📊 93 ⚡ Powered by xgo.ing",
-          "summaryZh": "Windsurf 表示 Kimi K2.6 在限时上线活动期间反响很好，因此将 Pro、Teams、Max 用户的免费可用期继续延长（帖子提到在原本“免费 2 周”的基础上继续延长一个月）。对经常在 IDE 内尝试不同模型的开发者来说，这类可用性/定价变化会直接影响模型选型与成本。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement […]",
+          "summaryZh": "AWS 发布预览功能：在 AgentCore 中做“agent quality optimization”。其思路是从生产环境的运行轨迹（production traces）生成改进建议，并通过批量评测（batch evaluation）与 A/B 测试验证后再发布，帮助应对“模型更新、用户行为变化、提示词复用到新场景”带来的智能体质量悄然下降问题。对正在把 Agent 上线到真实业务的团队，这类工具链有助于把迭代从“拍脑袋调提示词”升级为可度量、可回滚的工程流程。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
-            "产品发布"
+            "产品发布",
+            "模型",
+            "智能体"
           ],
-          "score": 70.84941773886419
+          "score": 34
         },
         {
           "title": "Available on all paid plans. Read more: https://t.co/nOrCwKwTwL",
@@ -242,7 +264,7 @@
           "image": "",
           "video": "",
           "summary": "Shopify's River agent system lives in Slack and can only be used in public so that other employees can learn from what you do with it Reminds me of how Midjourney's Discord-only launch helped people figure out the weird & complex craft of image prompting by watching each other tobi lutke @tobi x.com/i/article/2052… 🔗 View Quoted Tweet 💬 65 🔄 59 ❤️ 1030 👀 148250 📊 191 ⚡ Powered by xgo.ing",
-          "summaryZh": "核心结论：Shopify 的 River 智能体系统不只是内部工具，也是一种组织学习机制。它运行在 Slack 中，并要求员工在公开频道里使用，以便其他同事可以观察别人如何向 Agent 提问、拆任务和迭代结果。Simon Willison 将其类比为 Midjourney 早期依托 Discord 公开频道帮助用户学习复杂提示词技巧：当 AI 工具的最佳实践还不稳定时，可见的协作过程本身就是培训材料。",
+          "summaryZh": "Simon Willison 转述：Shopify 的 River 智能体系统运行在 Slack 中，并要求员工在公开频道里使用，以便其他同事可以观察学习。作者将其类比 Midjourney 早期“只在 Discord 内使用”的模式：通过围观他人提示词与用法，帮助团队更快掌握这种新工具的“手艺”。这提示了企业落地 Agent 时，工具形态与组织学习机制同样关键。",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "产品发布",
@@ -285,10 +307,10 @@
           "section": "research_frontier",
           "channel": "research_blog",
           "trust": "expert",
-          "image": "https://charonhub.deeplearning.ai/content/images/2026/05/unnamed.png",
+          "image": "https://www.deeplearning.ai/_next/image?url=https%3A%2F%2Fhome-wordpress.deeplearning.ai%2Fwp-content%2Fuploads%2F2023%2F03%2F4.png&w=3840&q=75",
           "video": "",
           "summary": "The Batch AI News and Insights: There will be no AI jobpocalypse.&nbsp; Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, There will be no AI jobpocalypse.&nbsp; The story that AI will lead to massive unemployment is stoking unnecessary fear. AI — like any other technology — does affect jobs, but telling overblown stories of large-scale unemployment is irresponsible and damaging. Let’s put a stop to it. I’ve expressed skepticism about the jobpocalypse in previous letters. I’m glad to see...",
-          "summaryZh": "核心结论：本期《The Batch》认为“AI 就业末日”叙事被夸大，AI 会改变岗位结构，但不应把讨论推向无证据的恐慌。支撑信息是，本期同时汇总了 Seedance、英伟达 AI 辅助芯片设计、机器人记忆等多条前沿动态，可作为观察模型、机器人和 AI 基础设施进展的一页式入口。",
+          "summaryZh": "deeplearning.ai 在本期《The Batch》中提出观点：AI 会改变岗位结构，但“AI 导致大规模失业”的叙事被夸大，持续渲染就业末日会制造不必要的恐慌；讨论应回到更负责任的证据与机制层面。本期同时在标题中点名了多条进展（如 Seedance、英伟达 AI 辅助芯片设计、以及帮助机器人避免遗忘等），适合作为一页式的前沿信息入口。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "产品发布",
@@ -312,7 +334,7 @@
           "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/figure9-fixed_Benchmark-scaled.png",
           "video": "",
           "summary": "Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests appeared first on Microsoft Research .",
-          "summaryZh": "核心结论：SocialReasoning-Bench 把 Agent 评测从“能不能完成任务”推进到“是否真正维护用户利益”。Microsoft Research 观察到，很多模型在执行层面很能干，但在权衡用户意图、长期利益与潜在风险时并不一致可靠。对金融、医疗、法律等高风险场景，这类评测有助于把信任与对齐问题转化为可测试的工程指标。",
+          "summaryZh": "Microsoft Research 发布 SocialReasoning-Bench，用于评测智能体在任务执行时是否会偏离“用户的最佳利益”。作者观察到一个相对稳定的模式：许多模型/智能体在执行层面很能干，但在权衡用户意图、长期利益与潜在风险时并不一致可靠。对正在把 Agent 用到金融、医疗、法律等高风险场景的团队，这类评测框架有助于把“对齐/信任”问题转化为可测试的工程指标。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "模型",
@@ -367,29 +389,6 @@
           "score": 40
         },
         {
-          "title": "The Batch: 954 | Kimi K2.6 挑战开源权重模型领先者",
-          "titleZh": "《The Batch》954：Kimi K2.6 挑战开源权重模型领先者（参数/上下文/智能体规模等细节）",
-          "link": "https://mp.weixin.qq.com/s?__biz=MzIxNzI0ODE4Nw==&mid=2247498555&idx=1&sn=a74928f1fc52a12e2d633863f928d2ea",
-          "publishedAt": "Thu, 07 May 2026 12:45:00 +0800",
-          "source": "DeeplearningAI",
-          "sourceType": "research",
-          "section": "research_frontier",
-          "channel": "research_blog",
-          "trust": "expert",
-          "image": "https://wechat2rss.bestblogs.dev/img-proxy/?k=5e27a1c4&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fmmbiz_jpg%2F48xwB6awqXv0Vgs9bVd23OW6KO98CzrXzDWnKC6K016JBjhch9iczLFic2xcXFM0rl6Ag0S9sBiaf61MthicJSQZkzn1kbb2TSyq97mnp1p8TCI%2F0%3Fwx_fmt%3Djpeg",
-          "video": "",
-          "summary": "原创 DeeplearningAI 2026-05-07 12:45 北京 Hi～新朋友，记得关注我们哟 Moonshot AI 升级后的 Kimi 模型相比前代，能够处理更长时间的自主编程任务，并在多智能体协同方面实现了更大规模的扩展。 ● 最新消息 ：Kimi K2.6 是一款拥有 1 万亿参数的视觉-语言模型，在性能上与 Qwen3.6 Max Preview 和新发布的 DeepSeek V4 不相上下，仅略逊于顶级闭源模型。该模型专为在“规划-编写-测试-调试”的循环中生成代码而设计，这一过程可以持续数天，并且可以实例化数百个协同工作的智能体来完成单一任务。此外，其幻觉率也低于前代。 ✴ 输入输出：文本、图像和视频输入（最多 256,000 tokens）；输出为文本（最多 98,000 tokens） ✴ 结构：混合专家架构（Mixture-of-experts），总参数 1 万亿，每 token 激活 320 亿参数，配备 MoonViT 视觉编码器 ✴ 功能：工具调用、网页搜索、原生 INT4 量化、“preserve thinking”（保留思考）模式、智能体群（agent swarm） ✴ 性能：在...",
-          "summaryZh": "文章整理了 Moonshot AI 更新后的 Kimi 系列要点，并重点介绍 Kimi K2.6：宣称为 1 万亿参数的视觉-语言模型，面向“规划-编写-测试-调试”循环的长周期代码生成任务，可持续运行数天并实例化数百个协同智能体完成单一任务。文中给出关键规格：支持文本/图像/视频输入（最多 256,000 tokens），文本输出（最多 98,000 tokens）；MoE 架构总参数 1T、每 token 激活约 320 亿参数，并配备 MoonViT 视觉编码器；能力包括工具调用、网页搜索、原生 INT4 量化、“preserve thinking”模式与 agent swarm。对评估开源权重模型与工程落地边界的人来说，这些规格与对比口径值得跟进。",
-          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
-          "tags": [
-            "API",
-            "智能体",
-            "开源",
-            "模型"
-          ],
-          "score": 39
-        },
-        {
           "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
           "titleZh": "DeepMind 介绍 AlphaEvolve：基于 Gemini 的编码智能体正在跨领域扩大影响",
           "link": "https://deepmind.google/blog/alphaevolve-impact/",
@@ -402,7 +401,7 @@
           "image": "",
           "video": "",
           "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
-          "summaryZh": "核心结论：AlphaEvolve 展示了 Gemini 驱动的编码智能体正在从软件开发扩展到业务、基础设施和科学研究。支撑逻辑是，模型不只生成代码，还参与提出、搜索、验证和迭代方案；这会把 coding agent 从“替人写代码”推向“帮助发现更好解法”的研究与工程基础设施。",
+          "summaryZh": "Google DeepMind 发布文章介绍 AlphaEvolve：由 Gemini 驱动的“编码智能体/算法”用于在业务、基础设施与科学研究等领域扩展影响。尽管摘要信息有限，但它体现了一个趋势：通用大模型正在被包装成更可复用的“工程化代理”，并被投放到更多非纯软件场景中。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "智能体"
@@ -422,7 +421,7 @@
           "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/mattersim_speedup.png",
           "video": "",
           "summary": "MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models appeared first on Microsoft Research .",
-          "summaryZh": "核心结论：MatterSim 正把 AI 材料科学从更快模拟推进到更广泛的性质预测。Microsoft Research 介绍了实验合成、更快的大规模模拟，以及 MatterSim-MT 多任务模型；后者不只模拟势能面，也能处理更多材料性质。支撑意义在于，材料研发的瓶颈常在昂贵实验和计算模拟，AI 模型如果能兼顾速度、精度和多任务性质，将显著缩短候选材料筛选周期。",
+          "summaryZh": "Microsoft Research 介绍 MatterSim 的新进展：一方面用于更快的大规模材料模拟，另一方面发布多任务模型 MatterSim-MT，用于模拟超越“势能面”之外的更多材料属性。对材料发现、实验合成与 AI-for-Science 团队，这类把模拟与多任务学习结合的路线可能降低试错成本并加速筛选。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "模型"
@@ -442,7 +441,7 @@
           "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/07/ml-20156.png",
           "video": "",
           "summary": "In this post, you will learn how to secure reserved GPU capacity for short-term workloads using Amazon Elastic Compute Cloud (Amazon EC2) Capacity Blocks for ML and Amazon SageMaker training plans. These solutions can address GPU availability challenges when you need short-term capacity for load testing, model validation, time-bound workshops, or preparing inference capacity ahead of a release.",
-          "summaryZh": "核心结论：短期 ML 任务也需要可计划的 GPU 产能，AWS 给出的方案是用 EC2 Capacity Blocks for ML 与 SageMaker Training Plans 提前锁定算力。支撑场景包括负载测试、模型验证、限时工作坊和发布前推理产能准备。对经常被 GPU 供给波动影响交付节奏的团队，这是一套偏工程化的资源管理参考。",
+          "summaryZh": "AWS 介绍如何为短期 ML 任务提前锁定 GPU：通过 EC2 Capacity Blocks for ML 与 SageMaker training plans 预留算力，缓解“临时需要 GPU 但抢不到”的问题。文中给出的典型场景包括负载测试、模型验证、限时工作坊，以及在发布前提前准备推理产能。对经常被 GPU 供给波动影响交付节奏的团队，这是偏工程化的资源管理参考。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "产品发布",
@@ -452,26 +451,22 @@
           "score": 33
         },
         {
-          "title": "Introducing agent quality optimization in AgentCore, now in preview",
-          "titleZh": "AWS 预览 AgentCore 的 Agent 质量优化：基于线上轨迹给出改进建议并支持批量评测/A-B 测试",
-          "link": "https://aws.amazon.com/blogs/machine-learning/introducing-agent-quality-optimization-in-agentcore-now-in-preview/",
-          "publishedAt": "Mon, 04 May 2026 17:13:42 +0000",
-          "source": "AWS Machine Learning Blog",
+          "title": "Microsoft at NSDI 2026: Advances in large-scale networked systems",
+          "titleZh": "微软在 NSDI 2026 分享大规模网络化系统进展：数据中心、网络与 AI 交叉",
+          "link": "https://www.microsoft.com/en-us/research/blog/microsoft-at-nsdi-2026-advances-in-large-scale-networked-systems/",
+          "publishedAt": "Tue, 05 May 2026 16:00:00 +0000",
+          "source": "Microsoft Research Blog",
           "sourceType": "research",
           "section": "research_frontier",
           "channel": "research_blog",
-          "trust": "expert",
-          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/05/ml-20827-1.png",
+          "trust": "official",
+          "image": "",
           "video": "",
-          "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement […]",
-          "summaryZh": "核心结论：AWS 在 AgentCore 中预览 Agent 质量优化能力，目标是让上线后的智能体持续保持质量。它会从生产环境运行轨迹生成改进建议，再用批量评测与 A/B 测试验证后发布，解决模型更新、用户行为变化、提示词复用到新场景后质量悄然下降的问题。对正在把 Agent 投入真实业务的团队，这类工具链能把迭代从“拍脑袋调提示词”升级为可度量、可回滚的工程流程。",
+          "summary": "Microsoft researchers share advances in building and operating large-scale distributed systems, spanning datacenters, networking, and the growing intersection with AI during NSDI ’26. The post Microsoft at NSDI 2026: Advances in large-scale networked systems appeared first on Microsoft Research .",
+          "summaryZh": "Microsoft Research 总结其在 NSDI 2026 的研究进展，聚焦如何构建与运营大规模分布式/网络化系统，覆盖数据中心基础设施、网络系统，以及与 AI 工作负载日益加深的交叉。对做推理集群、训练平台、分布式存储/网络与大规模系统优化的团队，这类系统论文与工程经验往往会直接影响成本、吞吐与可靠性上限。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
-          "tags": [
-            "产品发布",
-            "模型",
-            "智能体"
-          ],
-          "score": 34
+          "tags": [],
+          "score": 33
         }
       ]
     },
@@ -491,7 +486,7 @@
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "Qdrant 1.18 is out, featuring TurboQuant; a new quantization method developed by Google Research. Our TurboQuant implementation is an extended version of the algorithm with borrowed RaBitQ ideas. It offers: 1. Similar recall to Scalar Quantization (SQ), using 2x less memory. 2. Better recall than Binary Quantization (BQ), using a similar storage budget. Additionally, we released two other features: 1) Memory Monitoring 2) Adding and Removing Named Vectors Read more about 1.18 in our blog: qdrant.tech/blog/qdrant-1.… And release: github.com/qdrant/qdrant/… 💬 0 🔄 3 ❤️ 19 👀 537 📊 4 ⚡ Powered by xgo.ing",
+          "summary": "Qdrant 1.18 is out, featuring TurboQuant; a new quantization method developed by Google Research. Our TurboQuant implementation is an extended version of the algorithm with borrowed RaBitQ ideas. It offers: 1. Similar recall to Scalar Quantization (SQ), using 2x less memory. 2. Better recall than Binary Quantization (BQ), using a similar storage budget. Additionally, we released two other features: 1) Memory Monitoring 2) Adding and Removing Named Vectors Read more about 1.18 in our blog: qdrant.tech/blog/qdrant-1.… And release: github.com/qdrant/qdrant/… 💬 0 🔄 3 ❤️ 19 👀 541 📊 4 ⚡ Powered by xgo.ing",
           "summaryZh": "Qdrant 宣布 1.18 版本上线，重点是 TurboQuant 量化方法（由 Google Research 提出，Qdrant 实现并扩展了算法）：在与标量量化（SQ）相近召回率下内存占用可降到约 1/2；在与二值量化（BQ）相近存储预算下召回率更好。除此之外还新增两项能力：内存监控（Memory Monitoring）以及命名向量（Named Vectors）的添加与移除。对大规模向量检索的成本与效果权衡，这是一个非常直接的工程更新信号。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -499,7 +494,7 @@
             "开源",
             "RAG"
           ],
-          "score": 63.504413378811435
+          "score": 63.50923889511943
         },
         {
           "title": "Agent Skills for Qdrant Vector search ≠ just storage anymore → Structured retrieval workflows → Sm...",
@@ -513,14 +508,14 @@
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "Agent Skills for Qdrant Vector search ≠ just storage anymore → Structured retrieval workflows → Smarter AI agents → Better reliability in production Watch the session: youtu.be/vpbPhiXQ9Ks?si… Read the blog: qdrant.tech/blog/qdrant-sk… 💬 0 🔄 1 ❤️ 12 👀 414 📊 3 ⚡ Powered by xgo.ing",
+          "summary": "Agent Skills for Qdrant Vector search ≠ just storage anymore → Structured retrieval workflows → Smarter AI agents → Better reliability in production Watch the session: youtu.be/vpbPhiXQ9Ks?si… Read the blog: qdrant.tech/blog/qdrant-sk… 💬 0 🔄 1 ❤️ 13 👀 416 📊 3 ⚡ Powered by xgo.ing",
           "summaryZh": "Qdrant 分享了“Agent Skills for Qdrant”的话题与资料，强调向量检索不只是存储，还可以做结构化检索工作流，提升智能体在生产环境中的可靠性；同时给出了公开视频与博客链接，便于按步骤复现与落地。对在 RAG/Agent 体系里使用向量数据库的团队，这是偏实操的参考入口。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "智能体",
             "RAG"
           ],
-          "score": 49.98490554562345
+          "score": 50.11677621650155
         },
         {
           "title": "𝗠𝗲𝗺𝗼𝗿𝘆 𝗽𝗿𝗶𝗰𝗲𝘀 𝗵𝗮𝘃𝗲 𝘀𝗸𝘆𝗿𝗼𝗰𝗸𝗲𝘁𝗲𝗱, 𝘆𝗲𝘁 𝗺𝗼𝘀𝘁 𝘁𝗲𝗮𝗺𝘀 𝗮𝗿𝗲 ...",
@@ -599,7 +594,7 @@
           "trust": "official",
           "image": "",
           "video": "https://video.twimg.com/amplify_video/2054222712621690880/vid/avc1/1068x768/EAyMcfr0oCkNMgM1.mp4?tag=27",
-          "summary": "jina-embeddings-v5-omni is here! Our first universal embedding model for text, images, audio, and video. Available in two sizes: small (1.57B, 1024-dim, 32K context) and nano (0.95B, 768-dim, 8K context). Both support Matryoshka truncation down to 32 dimensions. v5-omni is back-compatible: if you already use jina-embeddings-v5-text-small/nano, the existing text indexes work with v5-omni out of the box. Without reindexing the text, just index your multimodal content with v5-omni and start searching images, audio, and video. Your browser does not support the video tag. 🔗 View on Twitter 💬 6 🔄 26 ❤️ 252 👀 16045 📊 81 ⚡ Powered by xgo.ing",
+          "summary": "jina-embeddings-v5-omni is here! Our first universal embedding model for text, images, audio, and video. Available in two sizes: small (1.57B, 1024-dim, 32K context) and nano (0.95B, 768-dim, 8K context). Both support Matryoshka truncation down to 32 dimensions. v5-omni is back-compatible: if you already use jina-embeddings-v5-text-small/nano, the existing text indexes work with v5-omni out of the box. Without reindexing the text, just index your multimodal content with v5-omni and start searching images, audio, and video. Your browser does not support the video tag. 🔗 View on Twitter 💬 6 🔄 29 ❤️ 274 👀 19147 📊 88 ⚡ Powered by xgo.ing",
           "summaryZh": "Jina AI 发布通用 embedding 模型 `jina-embeddings-v5-omni`，覆盖文本、图像、音频、视频四类输入，提供两个尺寸：small（1.57B、1024 维、32K 上下文）与 nano（0.95B、768 维、8K 上下文），并支持 Matryoshka 截断到 32 维。官方还强调与既有 `jina-embeddings-v5-text-small/nano` 向后兼容：现有文本索引无需重建即可与 v5-omni 配合，只需用 v5-omni 新增多模态内容索引即可开始跨模态检索。对多模态搜索/检索增强应用来说，这是非常直接的工程升级点。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -608,7 +603,7 @@
             "视频",
             "图像"
           ],
-          "score": 65.62835783483521
+          "score": 65.97985645298951
         },
         {
           "title": "Claude's Constitution is now an audiobook, read by two of its authors, Amanda Askell and Joe Carlsmi...",
@@ -685,14 +680,14 @@
           "trust": "official",
           "image": "",
           "video": "https://video.twimg.com/amplify_video/2054221274889502720/vid/avc1/1920x1080/r0wTcbuIDijRwdxE.mp4?tag=27",
-          "summary": "We've just hit 1M open datasets on the Hugging Face Hub 🎉 Open models need open data. Today we hit that milestone, together with the most incredible community in AI! 🤗 Onwards to the next million 🚀 Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 45 ❤️ 312 👀 32540 📊 62 ⚡ Powered by xgo.ing",
+          "summary": "We've just hit 1M open datasets on the Hugging Face Hub 🎉 Open models need open data. Today we hit that milestone, together with the most incredible community in AI! 🤗 Onwards to the next million 🚀 Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 45 ❤️ 315 👀 32770 📊 62 ⚡ Powered by xgo.ing",
           "summaryZh": "Hugging Face 宣布其 Hub 上的开放数据集数量已突破 100 万，并强调“开放模型需要开放数据”。在模型开源与合规要求日益提高的背景下，数据集供给的规模与可检索性会直接影响训练/微调与评测效率；这一里程碑也反映了社区在数据共享上的持续活跃。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型",
             "视频"
           ],
-          "score": 62.37736935152762
+          "score": 62.39852853048134
         },
         {
           "title": "What if your team gave standup updates, and GPT-Realtime-2 moved the tickets?",
@@ -726,7 +721,7 @@
           "trust": "official",
           "image": "",
           "video": "https://video.twimg.com/amplify_video/2053026418284457986/vid/avc1/2160x3838/CTcGOS_zQuPtsZEE.mp4?tag=27",
-          "summary": "We grew up. Then we grew apart. Growing up is a long goodbye. 👋 Your browser does not support the video tag. 🔗 View on Twitter 💬 21 🔄 62 ❤️ 657 👀 1152724 📊 105 ⚡ Powered by xgo.ing",
+          "summary": "We grew up. Then we grew apart. Growing up is a long goodbye. 👋 Your browser does not support the video tag. 🔗 View on Twitter 💬 21 🔄 62 ❤️ 671 👀 1182113 📊 106 ⚡ Powered by xgo.ing",
           "summaryZh": "Kling AI 在社媒发布了一段主题短片（附视频），用“成长与告别”的文案做情绪化表达，属于典型的生成式视频平台内容展示/营销素材。对关注视频生成产品内容风格与传播方式的人，可以作为观察样本。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -774,7 +769,7 @@
             "视频",
             "图像"
           ],
-          "score": 61.767128962672984
+          "score": 61.792572192677085
         },
         {
           "title": "Your multi-agent RAG system is 𝗰𝗼𝗻𝗳𝗶𝗱𝗲𝗻𝘁𝗹𝘆 𝘄𝗿𝗼𝗻𝗴. And you can't tell by looking at ...",
@@ -808,11 +803,6 @@
       "error": "fetch failed"
     },
     {
-      "source": "LangChain Blog",
-      "url": "https://blog.langchain.dev/rss/",
-      "error": "fetch failed"
-    },
-    {
       "source": "Hugging Face Blog",
       "url": "https://huggingface.co/blog/feed.xml",
       "error": "fetch failed"
@@ -828,9 +818,114 @@
       "error": "fetch failed"
     },
     {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "歸藏的AI工具箱",
+      "url": "https://wechat2rss.bestblogs.dev/feed/1c3e3571b1627d23ee9c64521a0b0a41d3fe2987.xml",
+      "error": "This operation was aborted"
+    },
+    {
       "source": "LlamaIndex Blog",
       "url": "https://www.llamaindex.ai/blog/feed",
       "error": "HTTP 404"
+    },
+    {
+      "source": "Dify",
+      "url": "https://wechat2rss.bestblogs.dev/feed/e46c03a4cb65509e22ab9a8507888a2096319d65.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "月之暗面 Kimi",
+      "url": "https://wechat2rss.bestblogs.dev/feed/c5c43d4bc17bae656763859ed0903bb6314ec6fe.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "通义大模型",
+      "url": "https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "百度AI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/d0767d885e6ba213344fb0c0408c51331e23a994.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "HelloGitHub",
+      "url": "https://wechat2rss.bestblogs.dev/feed/e6cc80b97bf64eeef61cc5927c78ba6ce3356422.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "腾讯混元",
+      "url": "https://wechat2rss.bestblogs.dev/feed/306ce19a1ca590c9c2df781789e828d1acfa1356.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "智东西",
+      "url": "https://wechat2rss.bestblogs.dev/feed/cfd52b4245ca6119b2fda4ef934832c689028927.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "大模型智能",
+      "url": "https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "AI炼金术",
+      "url": "https://wechat2rss.bestblogs.dev/feed/4915f3747653bbb9c7975323c11b768d2b9cd6c9.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "AI科技评论",
+      "url": "https://wechat2rss.bestblogs.dev/feed/789e5fefb9cc2646ba7b680cb7a88378a34eb7a4.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "山行AI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/98bc16b6f53902a2ab511b4faa3499e0a1c78eb1.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "魔搭ModelScope社区",
+      "url": "https://wechat2rss.bestblogs.dev/feed/d993a885260f96057b9a4c96212cb2c95bb5054b.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "夕小瑶科技说",
+      "url": "https://wechat2rss.bestblogs.dev/feed/64b57d666259aee6bd097e76164e4a8371f0ad04.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "DeeplearningAI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/9d094d066a5faacff0eb0a6b95efbba20d4f1fc9.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "机器之心SOTA模型",
+      "url": "https://wechat2rss.bestblogs.dev/feed/2f520471856d56c7b3a95cd09eb777149b32828a.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "阶跃星辰",
+      "url": "https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "DeepSeek",
+      "url": "https://wechat2rss.bestblogs.dev/feed/1709da4f538d4ce4fb6d7a8ba1a5a1c297919601.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "字节跳动Seed",
+      "url": "https://wechat2rss.bestblogs.dev/feed/6efd40bb335d2037f365d284cb5e00f0843e737e.xml",
+      "error": "This operation was aborted"
     },
     {
       "source": "AI Musings by Mu",
@@ -838,8 +933,23 @@
       "error": "fetch failed"
     },
     {
+      "source": "MiniMax 稀宇科技",
+      "url": "https://wechat2rss.bestblogs.dev/feed/00306b171f754d463b28cf83f3ba086ad009b430.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "Jina AI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/ff2c5468828ebe7236afd6c1d128e219774487c2.xml",
+      "error": "This operation was aborted"
+    },
+    {
       "source": "Datawhale",
       "url": "https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "AINLP",
+      "url": "https://wechat2rss.bestblogs.dev/feed/875df1d1a991bf9250ba9813e3148f58ef2240d4.xml",
       "error": "This operation was aborted"
     },
     {

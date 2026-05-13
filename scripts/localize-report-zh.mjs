@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 
 function mustGet(map, key) {
   const value = map.get(key);
-  if (!value) throw new Error(`Missing item for link: ${key}`);
+  if (!value) return null;
   return value;
 }
 
@@ -257,12 +257,24 @@ async function main() {
   for (const link of DELETES) deleteItem(report, link);
 
   // 归类调整
-  for (const [link, to] of Object.entries(MOVES)) moveItem(report, link, to);
+  for (const [link, to] of Object.entries(MOVES)) {
+    try {
+      moveItem(report, link, to);
+    } catch {
+      // item not in today's selection; skip
+    }
+  }
 
   // 更新中文标题/摘要
   const indexed = indexItems(report);
+  const missing = [];
   for (const [link, zh] of Object.entries(ZH)) {
-    const { item } = mustGet(indexed, link);
+    const hit = mustGet(indexed, link);
+    if (!hit) {
+      missing.push(link);
+      continue;
+    }
+    const { item } = hit;
     item.titleZh = zh.titleZh;
     item.summaryZh = zh.summaryZh;
   }
@@ -272,6 +284,7 @@ async function main() {
   report.stats.selected = selected;
 
   await fs.writeFile(reportPath, JSON.stringify(report, null, 2) + "\n", "utf8");
+  if (missing.length > 0) console.warn(`Skipped ${missing.length} missing link(s)`);
   console.log(`Localized ${selected} items -> ${reportPath}`);
 }
 
