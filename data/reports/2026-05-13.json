@@ -181,28 +181,6 @@
           "score": 70.84941773886419
         },
         {
-          "title": "Introducing agent quality optimization in AgentCore, now in preview",
-          "titleZh": "AWS 预览 AgentCore 的 Agent 质量优化：基于线上轨迹给出改进建议并支持批量评测/A-B 测试",
-          "link": "https://aws.amazon.com/blogs/machine-learning/introducing-agent-quality-optimization-in-agentcore-now-in-preview/",
-          "publishedAt": "Mon, 04 May 2026 17:13:42 +0000",
-          "source": "AWS Machine Learning Blog",
-          "sourceType": "research",
-          "section": "product_updates",
-          "channel": "research_blog",
-          "trust": "expert",
-          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/05/ml-20827-1.png",
-          "video": "",
-          "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement […]",
-          "summaryZh": "AWS 发布预览功能：在 AgentCore 中做“agent quality optimization”。其思路是从生产环境的运行轨迹（production traces）生成改进建议，并通过批量评测（batch evaluation）与 A/B 测试验证后再发布，帮助应对“模型更新、用户行为变化、提示词复用到新场景”带来的智能体质量悄然下降问题。对正在把 Agent 上线到真实业务的团队，这类工具链有助于把迭代从“拍脑袋调提示词”升级为可度量、可回滚的工程流程。",
-          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
-          "tags": [
-            "产品发布",
-            "模型",
-            "智能体"
-          ],
-          "score": 34
-        },
-        {
           "title": "Available on all paid plans. Read more: https://t.co/nOrCwKwTwL",
           "titleZh": "Claude Code 的 Agent View 已覆盖全部付费方案（附官方博客）",
           "link": "https://x.com/claudeai/status/2053940938666279028",
@@ -264,7 +242,7 @@
           "image": "",
           "video": "",
           "summary": "Shopify's River agent system lives in Slack and can only be used in public so that other employees can learn from what you do with it Reminds me of how Midjourney's Discord-only launch helped people figure out the weird & complex craft of image prompting by watching each other tobi lutke @tobi x.com/i/article/2052… 🔗 View Quoted Tweet 💬 65 🔄 59 ❤️ 1030 👀 148250 📊 191 ⚡ Powered by xgo.ing",
-          "summaryZh": "Simon Willison 转述：Shopify 的 River 智能体系统运行在 Slack 中，并要求员工在公开频道里使用，以便其他同事可以观察学习。作者将其类比 Midjourney 早期“只在 Discord 内使用”的模式：通过围观他人提示词与用法，帮助团队更快掌握这种新工具的“手艺”。这提示了企业落地 Agent 时，工具形态与组织学习机制同样关键。",
+          "summaryZh": "核心结论：Shopify 的 River 智能体系统不只是内部工具，也是一种组织学习机制。它运行在 Slack 中，并要求员工在公开频道里使用，以便其他同事可以观察别人如何向 Agent 提问、拆任务和迭代结果。Simon Willison 将其类比为 Midjourney 早期依托 Discord 公开频道帮助用户学习复杂提示词技巧：当 AI 工具的最佳实践还不稳定时，可见的协作过程本身就是培训材料。",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "产品发布",
@@ -310,7 +288,7 @@
           "image": "https://charonhub.deeplearning.ai/content/images/2026/05/unnamed.png",
           "video": "",
           "summary": "The Batch AI News and Insights: There will be no AI jobpocalypse.&nbsp; Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, There will be no AI jobpocalypse.&nbsp; The story that AI will lead to massive unemployment is stoking unnecessary fear. AI — like any other technology — does affect jobs, but telling overblown stories of large-scale unemployment is irresponsible and damaging. Let’s put a stop to it. I’ve expressed skepticism about the jobpocalypse in previous letters. I’m glad to see...",
-          "summaryZh": "deeplearning.ai 在本期《The Batch》中提出观点：AI 会改变岗位结构，但“AI 导致大规模失业”的叙事被夸大，持续渲染就业末日会制造不必要的恐慌；讨论应回到更负责任的证据与机制层面。本期同时在标题中点名了多条进展（如 Seedance、英伟达 AI 辅助芯片设计、以及帮助机器人避免遗忘等），适合作为一页式的前沿信息入口。",
+          "summaryZh": "核心结论：本期《The Batch》认为“AI 就业末日”叙事被夸大，AI 会改变岗位结构，但不应把讨论推向无证据的恐慌。支撑信息是，本期同时汇总了 Seedance、英伟达 AI 辅助芯片设计、机器人记忆等多条前沿动态，可作为观察模型、机器人和 AI 基础设施进展的一页式入口。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "产品发布",
@@ -334,7 +312,7 @@
           "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/figure9-fixed_Benchmark-scaled.png",
           "video": "",
           "summary": "Using SocialReasoning Bench, we observed a stable pattern across models—agents execute competently, but fail to consistently improve the user’s position, even with explicit instructions to optimize for user interest. The post SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests appeared first on Microsoft Research .",
-          "summaryZh": "Microsoft Research 发布 SocialReasoning-Bench，用于评测智能体在任务执行时是否会偏离“用户的最佳利益”。作者观察到一个相对稳定的模式：许多模型/智能体在执行层面很能干，但在权衡用户意图、长期利益与潜在风险时并不一致可靠。对正在把 Agent 用到金融、医疗、法律等高风险场景的团队，这类评测框架有助于把“对齐/信任”问题转化为可测试的工程指标。",
+          "summaryZh": "核心结论：SocialReasoning-Bench 把 Agent 评测从“能不能完成任务”推进到“是否真正维护用户利益”。Microsoft Research 观察到，很多模型在执行层面很能干，但在权衡用户意图、长期利益与潜在风险时并不一致可靠。对金融、医疗、法律等高风险场景，这类评测有助于把信任与对齐问题转化为可测试的工程指标。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "模型",
@@ -424,7 +402,7 @@
           "image": "",
           "video": "",
           "summary": "Explore how AlphaEvolve's Gemini-powered algorithms are driving impact across business, infrastructure, and science.",
-          "summaryZh": "Google DeepMind 发布文章介绍 AlphaEvolve：由 Gemini 驱动的“编码智能体/算法”用于在业务、基础设施与科学研究等领域扩展影响。尽管摘要信息有限，但它体现了一个趋势：通用大模型正在被包装成更可复用的“工程化代理”，并被投放到更多非纯软件场景中。",
+          "summaryZh": "核心结论：AlphaEvolve 展示了 Gemini 驱动的编码智能体正在从软件开发扩展到业务、基础设施和科学研究。支撑逻辑是，模型不只生成代码，还参与提出、搜索、验证和迭代方案；这会把 coding agent 从“替人写代码”推向“帮助发现更好解法”的研究与工程基础设施。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "智能体"
@@ -444,7 +422,7 @@
           "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/mattersim_speedup.png",
           "video": "",
           "summary": "MatterSim is expanding what AI can do for materials science—from faster large-scale simulations to MatterSim-MT, a new multi-task model for simulating properties beyond potential energy surfaces alone. The post Advancing AI for materials with MatterSim: experimental synthesis, faster simulation, and multi-task models appeared first on Microsoft Research .",
-          "summaryZh": "Microsoft Research 介绍 MatterSim 的新进展：一方面用于更快的大规模材料模拟，另一方面发布多任务模型 MatterSim-MT，用于模拟超越“势能面”之外的更多材料属性。对材料发现、实验合成与 AI-for-Science 团队，这类把模拟与多任务学习结合的路线可能降低试错成本并加速筛选。",
+          "summaryZh": "核心结论：MatterSim 正把 AI 材料科学从更快模拟推进到更广泛的性质预测。Microsoft Research 介绍了实验合成、更快的大规模模拟，以及 MatterSim-MT 多任务模型；后者不只模拟势能面，也能处理更多材料性质。支撑意义在于，材料研发的瓶颈常在昂贵实验和计算模拟，AI 模型如果能兼顾速度、精度和多任务性质，将显著缩短候选材料筛选周期。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "模型"
@@ -464,7 +442,7 @@
           "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/07/ml-20156.png",
           "video": "",
           "summary": "In this post, you will learn how to secure reserved GPU capacity for short-term workloads using Amazon Elastic Compute Cloud (Amazon EC2) Capacity Blocks for ML and Amazon SageMaker training plans. These solutions can address GPU availability challenges when you need short-term capacity for load testing, model validation, time-bound workshops, or preparing inference capacity ahead of a release.",
-          "summaryZh": "AWS 介绍如何为短期 ML 任务提前锁定 GPU：通过 EC2 Capacity Blocks for ML 与 SageMaker training plans 预留算力，缓解“临时需要 GPU 但抢不到”的问题。文中给出的典型场景包括负载测试、模型验证、限时工作坊，以及在发布前提前准备推理产能。对经常被 GPU 供给波动影响交付节奏的团队，这是偏工程化的资源管理参考。",
+          "summaryZh": "核心结论：短期 ML 任务也需要可计划的 GPU 产能，AWS 给出的方案是用 EC2 Capacity Blocks for ML 与 SageMaker Training Plans 提前锁定算力。支撑场景包括负载测试、模型验证、限时工作坊和发布前推理产能准备。对经常被 GPU 供给波动影响交付节奏的团队，这是一套偏工程化的资源管理参考。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "产品发布",
@@ -472,6 +450,28 @@
             "推理部署"
           ],
           "score": 33
+        },
+        {
+          "title": "Introducing agent quality optimization in AgentCore, now in preview",
+          "titleZh": "AWS 预览 AgentCore 的 Agent 质量优化：基于线上轨迹给出改进建议并支持批量评测/A-B 测试",
+          "link": "https://aws.amazon.com/blogs/machine-learning/introducing-agent-quality-optimization-in-agentcore-now-in-preview/",
+          "publishedAt": "Mon, 04 May 2026 17:13:42 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/05/ml-20827-1.png",
+          "video": "",
+          "summary": "Generate recommendations from production traces, validate them with batch evaluation and A/B testing, and ship with confidence. AI agents that perform well at launch don’t stay that way. As models evolve, user behavior shifts, and prompts get reused in new contexts they were never designed for. Agent quality quietly degrades. In most teams, the improvement […]",
+          "summaryZh": "核心结论：AWS 在 AgentCore 中预览 Agent 质量优化能力，目标是让上线后的智能体持续保持质量。它会从生产环境运行轨迹生成改进建议，再用批量评测与 A/B 测试验证后发布，解决模型更新、用户行为变化、提示词复用到新场景后质量悄然下降的问题。对正在把 Agent 投入真实业务的团队，这类工具链能把迭代从“拍脑袋调提示词”升级为可度量、可回滚的工程流程。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体"
+          ],
+          "score": 34
         }
       ]
     },
