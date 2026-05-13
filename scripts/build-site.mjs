@@ -202,6 +202,26 @@ function renderPage(report, reports) {
   <footer class="paper footer">
     <span>Generated at ${escapeHtml(report.generatedAt)}</span>
   </footer>
+  <script>
+    document.addEventListener("click", (event) => {
+      document.querySelectorAll(".date-menu[open]").forEach((menu) => {
+        if (!menu.contains(event.target)) menu.removeAttribute("open");
+      });
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape") return;
+      document.querySelectorAll(".date-menu[open]").forEach((menu) => {
+        menu.removeAttribute("open");
+      });
+    });
+
+    document.querySelectorAll(".date-menu-list a").forEach((link) => {
+      link.addEventListener("click", () => {
+        link.closest(".date-menu")?.removeAttribute("open");
+      });
+    });
+  </script>
 </body>
 </html>`;
 }
