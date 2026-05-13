@@ -64,6 +64,10 @@ function add(issues, item, message) {
 
 async function validateVideo(issues, item) {
   if (!item.video) return;
+  if (/video\.twimg\.com/i.test(item.video)) {
+    add(issues, item, "Twitter 远程视频在页面内播放不稳定，请缓存到 public/media 后使用本站相对路径。");
+    return;
+  }
   if (!/\.(mp4|webm|mov)(\?|$)/i.test(item.video)) {
     add(issues, item, "视频地址不是可直接播放的视频文件。");
     return;
