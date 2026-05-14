@@ -691,7 +691,7 @@ h1 {
   font-weight: 800;
 }
 
-.directory-item strong {
+.directory-content > strong {
   display: block;
   font-size: 26px;
   line-height: 1.2;
@@ -710,6 +710,9 @@ h1 {
 }
 
 .directory-summary strong {
+  display: inline;
+  font-size: inherit;
+  line-height: inherit;
   font-weight: 800;
 }
 
