@@ -138,16 +138,25 @@ function renderDateMenu(files, currentDate) {
 }
 
 function renderIndexPage(reports) {
-  const rows = reports.map((report) => `
-    <article class="directory-item">
-      <a href="./${escapeHtml(report.date)}.html">
-        <time>${escapeHtml(report.date)}</time>
-        <strong>${escapeHtml(reportTitle(report))}</strong>
-        <span>${escapeHtml(sectionCounts(report))}</span>
-        <em>查看日报</em>
-      </a>
-    </article>
-  `).join("");
+  const rows = reports.map((report) => {
+    const summary = (report.summaryBullets || [])
+      .map((item) => `<li>${renderInlineMarkdown(item)}</li>`)
+      .join("");
+
+    return `
+      <article class="directory-item">
+        <a href="./${escapeHtml(report.date)}.html">
+          <time>${escapeHtml(report.date)}</time>
+          <div class="directory-content">
+            <strong>${escapeHtml(reportTitle(report))}</strong>
+            ${summary ? `<ol class="directory-summary">${summary}</ol>` : ""}
+            <span>${escapeHtml(sectionCounts(report))}</span>
+            <em>查看日报</em>
+          </div>
+        </a>
+      </article>
+    `;
+  }).join("");
 
   return `<!doctype html>
 <html lang="zh-CN">
@@ -671,6 +680,10 @@ h1 {
   text-decoration: none;
 }
 
+.directory-content {
+  min-width: 0;
+}
+
 .directory-item time {
   color: var(--accent);
   font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
@@ -684,20 +697,37 @@ h1 {
   line-height: 1.2;
 }
 
+.directory-summary {
+  margin: 14px 0 12px;
+  padding-left: 20px;
+  color: #24211d;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.directory-summary li + li {
+  margin-top: 4px;
+}
+
+.directory-summary strong {
+  font-weight: 800;
+}
+
 .directory-item span {
-  grid-column: 2;
   color: var(--muted);
   font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
   font-size: 13px;
+  display: block;
 }
 
 .directory-item em {
-  grid-column: 2;
   color: var(--accent);
   font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
   font-size: 13px;
   font-style: normal;
   font-weight: 800;
+  display: inline-block;
+  margin-top: 8px;
 }
 
 .footer {
@@ -734,12 +764,9 @@ h1 {
     padding-left: 22px;
   }
 
-  .directory-item span {
-    grid-column: auto;
-  }
-
-  .directory-item em {
-    grid-column: auto;
+  .directory-summary {
+    padding-left: 20px;
+    font-size: 15px;
   }
 
   .news-summary {
