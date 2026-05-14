@@ -208,6 +208,8 @@ function renderCurationItems(items, type) {
 
   return items.map((item) => {
     const title = item.titleZh || item.title;
+    const titleHref = type === "podcasts" && item.transcriptPath ? `./${item.transcriptPath}` : (item.url || "#");
+    const titleTarget = type === "podcasts" && item.transcriptPath ? "" : ` target="_blank" rel="noreferrer"`;
     const takeaways = (item.takeaways || [])
       .map((takeaway) => `<li>${renderInlineMarkdown(takeaway)}</li>`)
       .join("");
@@ -217,7 +219,7 @@ function renderCurationItems(items, type) {
       <article class="curation-item">
         <time>${escapeHtml(curationDate(item))}</time>
         <div class="curation-content">
-          <h3><a href="${escapeHtml(item.url || "#")}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></h3>
+          <h3><a href="${escapeHtml(titleHref)}"${titleTarget}>${escapeHtml(title)}</a></h3>
           <p class="curation-meta">${escapeHtml(item.source || "待补充来源")}${item.author ? ` · ${escapeHtml(item.author)}` : ""}${item.duration ? ` · ${escapeHtml(item.duration)}` : ""}</p>
           ${item.summaryZh ? `<div class="curation-summary">${String(item.summaryZh).split(/\n+/).map((paragraph) => paragraph.trim()).filter(Boolean).map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`).join("")}</div>` : ""}
           ${takeaways ? `<ol class="curation-takeaways">${takeaways}</ol>` : ""}
