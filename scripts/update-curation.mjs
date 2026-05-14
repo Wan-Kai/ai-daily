@@ -334,10 +334,10 @@ function summaryFor(item, category, tags) {
   }
 
   if (category === "podcasts") {
-    return `**核心内容**：这一期来自 ${item.source}，主题与 ${tags.length ? tags.join("、") : "AI 趋势"} 相关。摘要需要讲清嘉宾/主持围绕什么问题展开，以及讨论了哪些关键观点。\n**内容线索**：${cleanSummary || "需要进一步查看节目简介、show notes 或转录文本来确认要点。"}\n**读者能获得什么**：说明这一期适合谁听、能补充哪些背景信息或实践经验。`;
+    return `**核心内容**：这一期来自 ${item.source}，主题与 ${tags.length ? tags.join("、") : "AI 趋势"} 相关。摘要需要讲清嘉宾/主持围绕什么问题展开，以及讨论了哪些关键观点。\n**内容线索**：${cleanSummary || "需要进一步查看节目简介、show notes 或转录文本来确认要点。"} 正式发布前需要继续补充讨论脉络、关键案例、嘉宾分歧或结论，让读者不用先听完整节目也能知道这一期在讲什么。`;
   }
 
-  return `**核心内容**：这篇文章来自 ${item.source}，主题与 ${tags.length ? tags.join("、") : "AI 技术与产业"} 相关。摘要需要讲清文章到底在解释什么问题、给出什么经验或结论。\n**展开方式**：${cleanSummary || "需要进一步阅读全文确认论证结构。"}\n**读者能获得什么**：说明读者读完能理解哪些背景、方法、案例或工程取舍。`;
+  return `**核心内容**：这篇文章来自 ${item.source}，主题与 ${tags.length ? tags.join("、") : "AI 技术与产业"} 相关。摘要需要讲清文章到底在解释什么问题、给出什么经验或结论。\n**展开方式**：${cleanSummary || "需要进一步阅读全文确认论证结构。"} 正式发布前需要继续补充文章的论证路径、关键案例、方法细节和工程取舍，只保留文章本身讲清楚的内容。`;
 }
 
 function toCurationItem(item, category) {
