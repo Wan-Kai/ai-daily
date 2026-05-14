@@ -25,6 +25,10 @@
 
 精选博客优先选择长期可回看的技术解释、工程复盘、研究解读和重要实践案例。普通产品公告、活动通知、speaker lineup、newsletter、变更日志不进入精选。
 
+精选博客的信息源优先级为：顶尖机构官方博客、核心研究者个人博客、开源社区深度文章、综合科技媒体深度报道。当前已接入 OpenAI、Google DeepMind、Google AI、Microsoft Research、NVIDIA、Hugging Face、LangChain、Qdrant、Databricks、Simon Willison、Latent Space、Andrej Karpathy、MIT Technology Review、TechCrunch AI 等候选源；如果后续补充 Anthropic、Meta AI、李沐、Yann LeCun、Geoffrey Hinton、36 氪或 Reddit，需要优先确认是否有稳定 RSS 或可自动抓取入口，再决定是否启用。
+
+精选博客每轮自动追加时，同一个来源最多入选 1 篇，避免 Simon Willison、OpenAI 或 Microsoft Research 这类高权重来源连续刷屏。自动入选后仍需要人工复核摘要质量，只有能讲清方法、案例、论证路径或工程取舍的文章才长期保留。
+
 精选播客分为中文播客和英文播客。只有主题清晰、能提供一手访谈、实践经验或趋势判断的单集才进入精选。
 
 ## 人工审查

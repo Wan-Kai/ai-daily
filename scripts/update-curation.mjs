@@ -21,6 +21,12 @@ const PUBLISH_LIMIT = {
   podcasts: 3
 };
 
+const SOURCE_PUBLISH_LIMIT = {
+  papers: 4,
+  blogs: 1,
+  podcasts: 1
+};
+
 const MIN_SCORE = {
   papers: 24,
   blogs: 22,
@@ -47,9 +53,21 @@ const KEYWORD_RULES = [
   [/模型|智能体|多模态|推理|评测|开源|安全|播客|论文/i, "AI", 3]
 ];
 
+const BLOG_DEPTH_RULES = [
+  [/research|paper|technical report|architecture|systems|benchmark|evaluation|eval|dataset|open source|case study|production|deployment|postmortem|deep dive|how we|engineering|security|alignment|safety|governance/i, 5],
+  [/研究|论文|技术报告|架构|系统|评测|数据集|开源|案例|生产|部署|复盘|深度|工程|安全|对齐|治理/i, 5],
+  [/tutorial|guide|lessons|analysis|explainer|understanding|指南|经验|分析|解释/i, 3]
+];
+
+const BLOG_NOISE_RULES = [
+  [/release notes|changelog|webinar|event|speaker lineup|conference|meetup|registration|agenda|newsletter|roundup/i, 12],
+  [/announcing|introducing|launching|now available|preview|beta|general availability|funding|raises|acquires/i, 7],
+  [/活动|报名|议程|周报|融资|收购|发布会|上线|正式推出/i, 7]
+];
+
 const PRESTIGE_RULES = [
   [/openai|anthropic|deepmind|google|microsoft research|meta ai|stanford|mit|berkeley|carnegie mellon|cmu|princeton|tsinghua|清华|北京大学|pku/i, 7],
-  [/hugging face|nvidia|databricks|simon willison|latent space|qdrant|langchain/i, 5],
+  [/hugging face|nvidia|databricks|simon willison|latent space|qdrant|langchain|andrej karpathy|technology review/i, 5],
   [/neurips|icml|iclr|acl|emnlp|cvpr|iccv|eccv|siggraph|nature|science/i, 6]
 ];
 
@@ -287,6 +305,14 @@ function qualityScore(item, category) {
   }
   if (item.rank) score += Math.max(0, 12 - item.rank);
   if (item.summary && item.summary.length > 220) score += 2;
+  if (category === "blogs") {
+    for (const [pattern, value] of BLOG_DEPTH_RULES) {
+      if (pattern.test(text)) score += value;
+    }
+    for (const [pattern, value] of BLOG_NOISE_RULES) {
+      if (pattern.test(text)) score -= value;
+    }
+  }
   if (category === "podcasts" && /interview|conversation|播客|访谈|episode/i.test(text)) score += 2;
   if (/release notes|changelog|webinar|event|speaker lineup|conference|meetup|招聘|活动|newsletter/i.test(text)) score -= 12;
 
@@ -304,6 +330,15 @@ function isEventOrAnnouncement(item) {
   return /speaker lineup|conference|webinar|meetup|event|registration|agenda|call for|newsletter|roundup|repo stats|statistics dashboard|周报|活动|报名|议程/i.test(`${item.title} ${item.summary}`);
 }
 
+function isProductAnnouncement(item) {
+  return /announcing|introducing|launching|now available|preview|beta|general availability|release|released|update|updates|new model|new feature|新功能|发布|推出|上线|预览版|正式可用/i.test(`${item.title} ${item.summary}`);
+}
+
+function hasBlogDepthSignal(item) {
+  const text = `${item.title} ${item.summary} ${item.source}`;
+  return BLOG_DEPTH_RULES.some(([pattern]) => pattern.test(text));
+}
+
 function hasPrestigeSignal(item) {
   const text = `${item.title} ${item.summary} ${item.source}`;
   return PRESTIGE_RULES.some(([pattern]) => pattern.test(text));
@@ -317,7 +352,9 @@ function isStrongCandidate(item, category, score) {
     return item.source === "Hugging Face Weekly Papers";
   }
   if (category === "blogs") {
-    return hasPrestigeSignal(item) && score >= MIN_SCORE[category];
+    if (!hasPrestigeSignal(item) || !hasBlogDepthSignal(item)) return false;
+    if (isProductAnnouncement(item) && !/research|technical|architecture|benchmark|case study|production|deployment|security|safety|alignment|研究|技术|架构|评测|案例|生产|部署|安全|对齐/i.test(`${item.title} ${item.summary}`)) return false;
+    return score >= MIN_SCORE[category];
   }
   if (category === "podcasts") {
     if (!item.summary || item.summary.length < 80) return false;
@@ -400,7 +437,6 @@ function mergeItems(existing, candidates, category, reportSeen) {
     .filter((item) => item.score >= MIN_SCORE[category])
     .filter((item) => isStrongCandidate(item, category, item.score))
     .sort((a, b) => b.score - a.score)
-    .slice(0, PUBLISH_LIMIT[category])
     .filter((item) => {
       const linkKey = normalizedLinkKey(item.url);
       const titleKey = normalizedTitleKey(item.titleZh || item.title);
@@ -408,7 +444,14 @@ function mergeItems(existing, candidates, category, reportSeen) {
       seen.add(linkKey);
       seen.add(titleKey);
       return true;
-    });
+    })
+    .reduce((selected, item) => {
+      const limit = SOURCE_PUBLISH_LIMIT[category] || PUBLISH_LIMIT[category];
+      const sourceCount = selected.filter((candidate) => candidate.source === item.source).length;
+      if (sourceCount >= limit) return selected;
+      if (selected.length >= PUBLISH_LIMIT[category]) return selected;
+      return [...selected, item];
+    }, []);
 
   return [...fresh, ...merged]
     .sort((a, b) => (b.selectedAt || "").localeCompare(a.selectedAt || "") || (b.score || 0) - (a.score || 0))
