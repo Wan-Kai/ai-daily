@@ -413,7 +413,6 @@ function renderTranscriptPage(item) {
         ${item.url ? ` · <a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">打开小宇宙</a>` : ""}
         ${item.audioUrl ? ` · <a href="${escapeHtml(item.audioUrl)}" target="_blank" rel="noreferrer">播放音频</a>` : ""}
       </p>
-      <p class="transcript-note">机器转写已做基础术语校准和繁简转换；说话人根据问答轮次自动推断，仅供快速阅读参考。</p>
     </div>
   </header>
   <main class="paper transcript-body">
@@ -495,7 +494,7 @@ function renderIndexPage(reports, curation) {
     <div class="paper">
       <p class="eyebrow">Daily Archive</p>
       <h1>AI Daily</h1>
-      <p class="subtitle">一份按日期归档的 AI 中文日报，也会沉淀值得长期回看的论文、播客和博客。</p>
+      <p class="subtitle">AI 正在持续改写知识与工具的边界，这里记录每天值得重新学习的线索。</p>
     </div>
   </header>
   <main class="paper">
