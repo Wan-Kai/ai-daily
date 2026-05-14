@@ -1,5 +1,6 @@
 import { cp, mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
+import * as OpenCC from "opencc-js";
 
 const root = process.cwd();
 const reportsDir = path.join(root, "data", "reports");
@@ -7,6 +8,7 @@ const curationDir = path.join(root, "data", "curation");
 const candidatesDir = path.join(root, "data", "curation-candidates");
 const distDir = path.join(root, "dist");
 const publicDir = path.join(root, "public");
+const simplifyChinese = OpenCC.Converter({ from: "tw", to: "cn" });
 
 function escapeHtml(value = "") {
   return String(value)
@@ -28,20 +30,13 @@ function renderInlineMarkdown(value = "") {
 }
 
 function toSimplifiedChinese(value = "") {
-  const map = new Map(Object.entries({
-    "這": "这", "個": "个", "們": "们", "說": "说", "對": "对", "為": "为", "與": "与", "還": "还",
-    "會": "会", "來": "来", "時": "时", "實": "实", "後": "后", "點": "点", "裡": "里", "讓": "让",
-    "無": "无", "過": "过", "從": "从", "當": "当", "問": "问", "麼": "么", "難": "难", "發": "发",
-    "學": "学", "業": "业", "聽": "听", "話": "话", "體": "体", "經": "经", "樣": "样", "覺": "觉",
-    "長": "长", "寫": "写", "關": "关", "係": "系", "選": "选", "讀": "读", "書": "书", "歡": "欢",
-    "貴": "贵", "雜": "杂", "變": "变", "氣": "气", "裡": "里", "燈": "灯", "閒": "闲", "壽": "寿",
-    "範": "范", "圍": "围", "視": "视", "覺": "觉", "載": "载", "檢": "检", "驗": "验", "義": "义",
-    "態": "态", "號": "号", "號": "号", "兒": "儿", "況": "况", "種": "种", "離": "离", "復": "复",
-    "單": "单", "雙": "双", "帶": "带", "網": "网", "態": "态", "壓": "压", "壞": "坏", "術": "术",
-    "層": "层", "歸": "归", "儲": "储", "釋": "释", "據": "据", "錄": "录", "薦": "荐", "識": "识",
-    "產": "产", "廣": "广", "國": "国", "這裡": "这里"
-  }));
-  return [...String(value)].map((char) => map.get(char) || char).join("");
+  return simplifyChinese(String(value || ""))
+    .replaceAll("什幺", "什么")
+    .replaceAll("怎幺", "怎么")
+    .replaceAll("这幺", "这么")
+    .replaceAll("那幺", "那么")
+    .replaceAll("多幺", "多么")
+    .replaceAll("幺样", "么样");
 }
 
 function reportTitle(report) {
