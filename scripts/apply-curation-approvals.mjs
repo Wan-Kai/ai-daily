@@ -147,6 +147,8 @@ async function transcribePodcastBeforePublish(stores, found) {
 
   const date = candidateDateFromFile(found.file);
   console.log(`播客通过审批，开始自动转写：${found.item.titleZh || found.item.title}`);
+  // 转写脚本会从磁盘读取候选文件；先落盘可避免覆盖本轮已处理的拒绝/待审变更。
+  await writeJson(path.join(candidatesDir, found.file), found.store);
   await execFileAsync("npm", [
     "run",
     "podcasts:transcribe",

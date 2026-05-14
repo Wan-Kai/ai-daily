@@ -146,7 +146,108 @@ async function transcribe(item, tools, modelPath) {
   ], { maxBuffer: 50 * 1024 * 1024 });
 
   const transcript = await readFile(outTextPath, "utf8");
-  return transcript.trim();
+  return calibrateTranscript(item, transcript.trim());
+}
+
+function replaceAllLiteral(text, replacements) {
+  return replacements.reduce((value, [from, to]) => {
+    return value.replaceAll(from, to);
+  }, text);
+}
+
+function calibrateTranscript(item, transcript) {
+  const title = `${item.titleZh || item.title || ""} ${item.source || ""}`;
+  let text = transcript
+    .replace(/\r\n/g, "\n")
+    .replace(/[ \t]+/g, " ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+
+  text = replaceAllLiteral(text, [
+    ["Open AI", "OpenAI"],
+    ["OpenEye", "OpenAI"],
+    ["open AI", "OpenAI"],
+    ["openai", "OpenAI"],
+    ["codex", "Codex"],
+    ["claude", "Claude"],
+    ["Cloud 3.7", "Claude 3.7"],
+    ["Cloud 4.5", "Claude 4.5"],
+    ["Cloud目前", "Claude 目前"],
+    ["Gemini", "Gemini"],
+    ["Gemina", "Gemini"],
+    ["Anthroic", "Anthropic"],
+    ["Authropic", "Anthropic"],
+    ["Anthorpec", "Anthropic"],
+    ["Anthropics", "Anthropic"],
+    ["Anthropics是", "Anthropic 是"],
+    ["Anthropics", "Anthropic"],
+    ["Ansorbit", "Anthropic"],
+    ["Ensorbit", "Anthropic"],
+    ["Anthropic", "Anthropic"],
+    ["Deepmind", "DeepMind"],
+    ["deepmind", "DeepMind"],
+    ["Google Deepmind", "Google DeepMind"],
+    ["Mita", "Meta"],
+    ["Minus", "Manus"],
+    ["XAI", "xAI"],
+    ["pre train", "pre-train"],
+    ["Pre train", "Pre-train"],
+    ["RL", "RL"]
+  ]);
+
+  if (/Vibe Coding|AI炼金术|Harness|公共厕所/i.test(title)) {
+    text = replaceAllLiteral(text, [
+      ["vibe calling", "Vibe Coding"],
+      ["vibe coding", "Vibe Coding"],
+      ["Vibe calling", "Vibe Coding"],
+      ["web coding", "Vibe Coding"],
+      ["Web coding", "Vibe Coding"],
+      ["疯狂web coding", "疯狂 Vibe Coding"],
+      ["疯狂 Vibe Coding", "疯狂 Vibe Coding"],
+      ["cloud code", "Claude Code"],
+      ["Cloud code", "Claude Code"],
+      ["Claude code", "Claude Code"],
+      ["overcloud", "OpenClaw"],
+      ["openclaw", "OpenClaw"],
+      ["AI令经树", "AI 炼金术"],
+      ["AI炼金术", "AI 炼金术"],
+      ["徐文昊", "徐文浩"],
+      ["徐永浩", "徐文浩"],
+      ["徐宏昊", "徐文浩"],
+      ["史山", "屎山"],
+      ["可扣格管理", "可控、可管理"],
+      ["可扣可管理", "可控、可管理"]
+    ]);
+  }
+
+  if (/姚顺宇|Anthropic|Gemini|张小珺/i.test(title)) {
+    text = replaceAllLiteral(text, [
+      ["姚顺雨", "姚顺宇"],
+      ["姚顺禹", "姚顺宇"],
+      ["姚舜宇", "姚顺宇"],
+      ["姚顺宇", "姚顺宇"],
+      ["硅谷AI业界有两位Yao Shunyu", "硅谷 AI 业界有两位 Yao Shunyu"],
+      ["非恶米", "非厄米"],
+      ["老邓", "老登"],
+      ["桂谷", "硅谷"],
+      ["宁太理论", "凝聚态理论"],
+      ["克劳德", "Claude"],
+      ["Claude 3.7", "Claude 3.7"],
+      ["Gemini 3", "Gemini 3"],
+      ["DeepSeek", "DeepSeek"],
+      ["Manus", "Manus"],
+      ["Cursor", "Cursor"],
+      ["Space X", "SpaceX"],
+      ["Space x", "SpaceX"],
+      ["SpaceXAI", "SpaceX AI"],
+      ["Underdog", "Underdog"],
+      ["Pre-train", "pre-train"],
+      ["post train", "post-train"],
+      ["Post train", "Post-train"]
+    ]);
+  }
+
+  return text;
 }
 
 async function main() {
@@ -185,6 +286,7 @@ async function main() {
     item.transcriptText = transcript;
     item.transcriptSource = "local-whisper-medium";
     item.transcriptGeneratedAt = new Date().toISOString();
+    item.transcriptCalibratedAt = new Date().toISOString();
     changed = true;
     console.log(`转写完成：${item.id}，${transcript.length} 字符。`);
   }
