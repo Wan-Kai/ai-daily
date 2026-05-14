@@ -27,6 +27,23 @@ function renderInlineMarkdown(value = "") {
   }).join("");
 }
 
+function toSimplifiedChinese(value = "") {
+  const map = new Map(Object.entries({
+    "這": "这", "個": "个", "們": "们", "說": "说", "對": "对", "為": "为", "與": "与", "還": "还",
+    "會": "会", "來": "来", "時": "时", "實": "实", "後": "后", "點": "点", "裡": "里", "讓": "让",
+    "無": "无", "過": "过", "從": "从", "當": "当", "問": "问", "麼": "么", "難": "难", "發": "发",
+    "學": "学", "業": "业", "聽": "听", "話": "话", "體": "体", "經": "经", "樣": "样", "覺": "觉",
+    "長": "长", "寫": "写", "關": "关", "係": "系", "選": "选", "讀": "读", "書": "书", "歡": "欢",
+    "貴": "贵", "雜": "杂", "變": "变", "氣": "气", "裡": "里", "燈": "灯", "閒": "闲", "壽": "寿",
+    "範": "范", "圍": "围", "視": "视", "覺": "觉", "載": "载", "檢": "检", "驗": "验", "義": "义",
+    "態": "态", "號": "号", "號": "号", "兒": "儿", "況": "况", "種": "种", "離": "离", "復": "复",
+    "單": "单", "雙": "双", "帶": "带", "網": "网", "態": "态", "壓": "压", "壞": "坏", "術": "术",
+    "層": "层", "歸": "归", "儲": "储", "釋": "释", "據": "据", "錄": "录", "薦": "荐", "識": "识",
+    "產": "产", "廣": "广", "國": "国", "這裡": "这里"
+  }));
+  return [...String(value)].map((char) => map.get(char) || char).join("");
+}
+
 function reportTitle(report) {
   return report.title?.replace("AI Daily", "AI 日报") || `AI 日报 - ${report.date}`;
 }
@@ -379,12 +396,7 @@ function renderReviewPage(candidateStores) {
 
 function renderTranscriptPage(item) {
   const title = item.titleZh || item.title || "播客全文稿";
-  const transcript = String(item.transcriptText || "")
-    .split(/\n{2,}/)
-    .map((paragraph) => paragraph.trim())
-    .filter(Boolean)
-    .map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`)
-    .join("");
+  const turns = renderTranscriptTurns(item);
 
   return `<!doctype html>
 <html lang="zh-CN">
@@ -406,13 +418,61 @@ function renderTranscriptPage(item) {
         ${item.url ? ` · <a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">打开小宇宙</a>` : ""}
         ${item.audioUrl ? ` · <a href="${escapeHtml(item.audioUrl)}" target="_blank" rel="noreferrer">播放音频</a>` : ""}
       </p>
+      <p class="transcript-note">机器转写已做基础术语校准和繁简转换；说话人根据问答轮次自动推断，仅供快速阅读参考。</p>
     </div>
   </header>
   <main class="paper transcript-body">
-    ${transcript || "<p>暂无全文稿。</p>"}
+    ${turns || "<p>暂无全文稿。</p>"}
   </main>
 </body>
 </html>`;
+}
+
+function transcriptLabels(item) {
+  const title = `${item.titleZh || item.title || ""} ${item.source || ""}`;
+  if (/姚顺宇|张小珺|商业访谈录/.test(title)) return { host: "张小珺", guest: "姚顺宇" };
+  if (/Vibe Coding|AI炼金术|徐文浩/.test(title)) return { host: "任鑫", guest: "徐文浩" };
+  return { host: "主持人", guest: "嘉宾" };
+}
+
+function inferTranscriptSpeaker(line, previous) {
+  const text = line.trim();
+  if (!text) return previous || "guest";
+  if (/^(Hello|欢迎大家|这里是|好了|今天的节目)/i.test(text)) return "host";
+  if (/[?？]$/.test(text)) return "host";
+  if (/^(你|那你|所以|为什么|什么|怎么|是不是|好|最近|一个|一個|基于|第一次|我们每个|我说你|你觉得|你看|那对于|这对于|如果是你|有没有|从什么|你的|你未来|你现在|你有|你最近|你心目中)/.test(text)) return "host";
+  if (/^(我觉得|对|可以|就是|因为|其实|可能|没有|真的|应该|反正|首先|这个|那时候|如果|但是)/.test(text)) return "guest";
+  return previous || "guest";
+}
+
+function renderTranscriptTurns(item) {
+  const labels = transcriptLabels(item);
+  const lines = toSimplifiedChinese(item.transcriptText || "")
+    .replace(/\r\n/g, "\n")
+    .split(/\n+/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+  const turns = [];
+
+  for (const line of lines) {
+    const speaker = inferTranscriptSpeaker(line, turns.at(-1)?.speaker);
+    const current = turns.at(-1);
+    const shouldAppend = current && current.speaker === speaker && current.lines.length < 4 && current.lines.join("").length < 260;
+    if (shouldAppend) current.lines.push(line);
+    else turns.push({ speaker, lines: [line] });
+  }
+
+  return turns.map((turn) => {
+    const label = turn.speaker === "host" ? labels.host : labels.guest;
+    return `
+      <article class="transcript-turn ${turn.speaker === "host" ? "host" : "guest"}">
+        <div class="transcript-speaker">${escapeHtml(label)}</div>
+        <div class="transcript-lines">
+          ${turn.lines.map((line) => `<p>${renderInlineMarkdown(line)}</p>`).join("")}
+        </div>
+      </article>
+    `;
+  }).join("");
 }
 
 async function writeTranscriptPages(podcasts) {
@@ -1325,12 +1385,51 @@ h1 {
 
 .transcript-body {
   padding: 36px 0 84px;
-  font-size: 19px;
-  line-height: 2;
+  max-width: 900px;
+  font-size: 18px;
+  line-height: 1.9;
 }
 
-.transcript-body p {
-  margin: 0 0 22px;
+.transcript-note {
+  max-width: 760px;
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.transcript-turn {
+  display: grid;
+  grid-template-columns: 88px minmax(0, 1fr);
+  gap: 22px;
+  padding: 20px 0;
+  border-top: 1px solid var(--soft-line);
+}
+
+.transcript-turn:first-child {
+  border-top-color: var(--line);
+}
+
+.transcript-speaker {
+  position: sticky;
+  top: 18px;
+  align-self: start;
+  color: var(--accent);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.transcript-turn.guest .transcript-speaker {
+  color: #5c554c;
+}
+
+.transcript-lines p {
+  margin: 0 0 10px;
+}
+
+.transcript-lines p:last-child {
+  margin-bottom: 0;
 }
 
 .review-controls {
@@ -1408,6 +1507,15 @@ h1 {
 
   .news-summary {
     font-size: 17px;
+  }
+
+  .transcript-turn {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .transcript-speaker {
+    position: static;
   }
 }
 `;
