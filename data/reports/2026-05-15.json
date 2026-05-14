@@ -1,0 +1,236 @@
+{
+  "date": "2026-05-15",
+  "generatedAt": "2026-05-14T23:44:09.819Z",
+  "title": "AI 日报 - 2026-05-15",
+  "stats": {
+    "sources": 133,
+    "fetched": 889,
+    "emailCandidates": 0,
+    "selected": 30,
+    "failures": 3,
+    "itemCount": 8
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Codex is getting easier to automate and customize around your code. 🪝 Hooks customize the Codex lo...",
+          "titleZh": "OpenAI 为 Codex 引入 Hooks 与可编程访问令牌（面向企业自动化）",
+          "link": "https://x.com/OpenAIDevs/status/2055032115964870838",
+          "publishedAt": "Thu, 14 May 2026 21:06:51 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-15-2055032115964870838.mp4",
+          "summary": "Codex is getting easier to automate and customize around your code. 🪝 Hooks customize the Codex loop with scripts that run at key points in a task: • Run validators before or after work • Scan prompts for secrets • Log conversations to internal systems • Create memories or customize behavior by repo or directory ⚙️ Programmatic access tokens provide scoped credentials for Business and Enterprise teams: • Create tokens from ChatGPT workspace settings • Use them in CI, release workflows, and internal automations • Set expirations or revoke access when needed • Keep usage tied back to the workspace Your browser does not support the video tag. 🔗 View on Twitter 💬 67 🔄 80 ❤️ 1081 👀 188117 📊 246 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Developers 介绍 Codex 新增两类“更易自动化”的能力：\n\n- **Hooks**：允许在任务关键节点运行脚本，把 Codex 工作流接入你自己的校验/安全/记录逻辑（例如：前后置校验、扫描提示词里的密钥、把对话/结果写回内部系统、按仓库或目录定制行为与记忆）。\n- **Programmatic access tokens**（Business/Enterprise）：可在 ChatGPT 工作区设置里创建 **带作用域** 的访问令牌，用于 CI、发布流程与内部自动化；支持设置过期与撤销，并把使用记录归属到工作区。",
+          "whyItMatters": "对团队来说，Codex 从“聊天工具”更进一步变成可嵌入工程流水线的组件：可控权限 + 可插拔钩子，能直接影响合规、可观测性与自动化落地成本。",
+          "tags": [
+            "产品发布",
+            "视频"
+          ],
+          "score": 74
+        },
+        {
+          "title": "An early beta of Grok Build, an agentic CLI for coding, building apps, and automating workflows is n...",
+          "titleZh": "xAI 推出 Grok Build 早期测试：面向编码与工作流自动化的智能体 CLI",
+          "link": "https://x.com/xai/status/2054993285152989373",
+          "publishedAt": "Thu, 14 May 2026 18:32:33 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HITLxwubYAASkW_.jpg",
+          "video": "",
+          "summary": "An early beta of Grok Build, an agentic CLI for coding, building apps, and automating workflows is now available for SuperGrok Heavy subscribers. Through this early beta, we will improve the model and product based on your feedback. Try it at x.ai/cli 💬 811 🔄 684 ❤️ 5336 👀 12746297 📊 1392 ⚡ Powered by xgo.ing",
+          "summaryZh": "xAI 宣布 **Grok Build**（智能体 CLI）开启早期 beta：主打“写代码、构建应用、自动化工作流”。\n\n当前版本面向 **SuperGrok Heavy 订阅用户**开放，并强调会基于早期用户反馈迭代模型与产品；入口在 x.ai/cli。",
+          "whyItMatters": "智能体式 CLI 赛道继续升温：订阅门槛、可用能力边界、以及与现有开发工具链的融合方式，都会直接影响开发者迁移成本与生态走向。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 74
+        },
+        {
+          "title": "You've been asking for this one... Now in preview: Codex in the ChatGPT mobile app. Start new work...",
+          "titleZh": "OpenAI 预览：在 ChatGPT 手机端使用 Codex，远程发起与审批编码任务",
+          "link": "https://x.com/OpenAI/status/2055016850849993072",
+          "publishedAt": "Thu, 14 May 2026 20:06:12 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-15-2055016850849993072.mp4",
+          "summary": "You've been asking for this one... Now in preview: Codex in the ChatGPT mobile app. Start new work, review outputs, steer execution, and approve next steps, all from the ChatGPT mobile app. Codex will keep running on your laptop, Mac mini, or devbox. Your browser does not support the video tag. 🔗 View on Twitter 💬 858 🔄 1294 ❤️ 11205 👀 1058517 📊 2276 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI 宣布在 **ChatGPT 移动端** 提供 Codex 预览版：你可以在手机上 **新建工作、查看输出、调整执行方向、批准下一步**。\n\n同时 Codex 会继续在你的笔记本、Mac mini 或开发机上运行任务，这意味着移动端更像是“远程控制台/审批入口”，适合在不方便坐回电脑时推进长任务与阶段性验收。",
+          "whyItMatters": "把“编程代理”从桌面延伸到移动端，会改变团队对任务等待、审阅节奏与异步协作的习惯（尤其是长任务与多轮批准链路）。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Seg-Agent: Test-Time Multimodal Reasoning for Training-Free Language-Guided Segmentation",
+          "titleZh": "Seg-Agent：无需训练的语言引导分割，用“显式多模态推理环”替代纯文本 CoT",
+          "link": "https://arxiv.org/abs/2605.12953",
+          "publishedAt": "Thu, 14 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.12953v1 Announce Type: cross Abstract: Language-guided segmentation transcends the scope limitations of traditional semantic segmentation, enabling models to segment arbitrary target regions based on natural language instructions. Existing approaches typically adopt a two-stage framework: employing Multimodal Large Language Models (MLLMs) to interpret instructions and generate visual prompts, followed by foundational segmentation models (e.g., SAM) to produce masks. However, due to the limited spatial...",
+          "summaryZh": "**核心结论**\n提出 Seg-Agent：一个 **完全免训练** 的语言引导分割框架，让多模态大模型在“视觉域”里做显式推理，而不是只在文本里做链式思考。\n\n**支撑证据**\n方法用三段循环（生成/选择/精炼）构建交互式推理流程：先用 **Set-of-Mark（SoM）** 把候选区域直接渲染到图像上，再让 MLLM “看见”候选并迭代判断空间关系；论文还提出 **Various-LangSeg** 基准覆盖显式语义、泛化目标与推理引导分割等场景，并声称在不做参数更新的前提下达到与训练式方法相近的效果。\n\n**我的判断**\n价值在于把“视觉反馈”纳入推理闭环，可能更适合零样本/跨域场景；但可复现性与对不同 MLLM/SAM 版本的敏感性仍需进一步验证，尤其是渲染提示与候选生成策略对结果的影响。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 41
+        },
+        {
+          "title": "PanoWorld: Towards Spatial Supersensing in 360$^\\circ$ Panorama World",
+          "titleZh": "PanoWorld：面向 360° 全景（ERP）的“原生空间推理”多模态模型与评测基准",
+          "link": "https://arxiv.org/abs/2605.13169",
+          "publishedAt": "Thu, 14 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.13169v1 Announce Type: cross Abstract: Multimodal large laboratory models (MLLMs) still struggle with spatial understanding under the dominant perspective-image paradigm, which inherits the narrow field of view of human-like perception. For navigation, robotic search, and 3D scene understanding, 360-degree panoramic sensing offers a form of supersensing by capturing the entire surrounding environment at once. However, existing MLLM pipelines typically decompose panoramas into multiple perspective view...",
+          "summaryZh": "**核心结论**\n作者提出 PanoWorld，试图让多模态大模型在 **360° equirectangular panorama（ERP）** 上进行“全景原生”空间理解，而不是把全景拆成多张透视图再拼。\n\n**支撑证据**\n论文定义全景原生理解的关键能力：语义锚定、球面定位、参考系变换、结合深度的 3D 空间推理；并构建数据流水线把多来源 ERP 全景转为几何/语言/深度对齐的监督信号。模型侧引入 **Spherical Spatial Cross-Attention** 把球面几何注入视觉流；评测侧提出 **PanoSpace-Bench**，并报告在 PanoSpace-Bench、H* Bench、R2R-CE Val-Unseen 等上优于若干专有/开源基线。作者称代码与数据将开源。\n\n**我的判断**\n全景输入对导航、机器人搜索、3D 场景理解有直接价值；但“全景原生”带来的收益是否能在通用 MLLM 上复用，以及训练/数据成本与下游收益的性价比，需要等开源与复现实验进一步确认。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 40
+        },
+        {
+          "title": "2028: Two scenarios for global AI leadership",
+          "titleZh": "Anthropic：2028 年全球 AI 领导力的两种情景推演（美中竞争观点文）",
+          "link": "https://www.anthropic.com/research/2028-ai-leadership",
+          "publishedAt": "2026-05-14T00:00:00Z",
+          "source": "Anthropic",
+          "sourceType": "website",
+          "section": "research_frontier",
+          "channel": "web",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Our views on the AI competition between the US and China.",
+          "summaryZh": "**核心结论**\nAnthropic 发布观点文《**2028：全球 AI 领导力的两种情景**》，讨论 **美国与中国在前沿 AI 上的竞争**，并以情景推演方式描述到 2028 年可能出现的两条路径。\n\n**支撑证据**\n官方页面摘要明确其主题是“我们对美中 AI 竞争的看法”（Our views on the AI competition between the US and China），并以“美国与民主盟友目前领先”为出发点，讨论维持领先所需的条件与策略。\n\n**我的判断**\n这类“情景推演 + 战略假设”会影响政策与企业叙事，但落地价值取决于它把关键变量说得多具体（算力与供应链、人才与组织能力、安全治理与部署节奏等）。建议结合原文细节再判断哪些假设最值得优先验证。",
+          "whyItMatters": "对政策与产业来说，情景推演常会变成共识框架并影响资源配置；对从业者来说，它提供了一份可用来审视自身短板的变量清单。",
+          "tags": [
+            "论文"
+          ],
+          "score": 60,
+          "sourceWeight": 5
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": []
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "JUST IN: We're launching LangChain Labs. A new applied research effort focused on Continual Learnin...",
+          "titleZh": "LangChain 宣布成立 LangChain Labs：聚焦“持续学习（Continual Learning）”的应用研究",
+          "link": "https://x.com/LangChain/status/2054971487694749898",
+          "publishedAt": "Thu, 14 May 2026 17:05:56 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "JUST IN: We're launching LangChain Labs. A new applied research effort focused on Continual Learning. Harrison Chase @hwchase17 x.com/i/article/2054… 🔗 View Quoted Tweet 💬 3 🔄 6 ❤️ 46 👀 5290 📊 9 ⚡ Powered by xgo.ing",
+          "summaryZh": "LangChain 在社媒宣布启动 **LangChain Labs**：定位为新的应用研究方向，重点探索 **持续学习（Continual Learning）** 相关能力与路线。\n\n就开发者而言，这类研究通常会沉淀成框架能力、参考实现或评测方法，值得关注后续是否会落到更可用的记忆/自我更新工作流。",
+          "whyItMatters": "持续学习是生产级智能体绕不开的难点：一旦框架侧给出可复用范式，可能显著降低团队“让代理记住并持续变好”的工程成本。",
+          "tags": [
+            "产品发布"
+          ],
+          "score": 62.56595414539743
+        },
+        {
+          "title": "We’re partnering with the Gates Foundation, committing $200 million in grants, Claude credits, and t...",
+          "titleZh": "Anthropic 与盖茨基金会合作：投入 2 亿美元资金/Claude 额度/技术支持做公益项目",
+          "link": "https://x.com/AnthropicAI/status/2054941901900611787",
+          "publishedAt": "Thu, 14 May 2026 15:08:23 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We’re partnering with the Gates Foundation, committing $200 million in grants, Claude credits, and technical support to programs in global health, life sciences, education, agriculture, and economic mobility. Read more: anthropic.com/news/gates-fou… 💬 318 🔄 188 ❤️ 2065 👀 156528 📊 479 ⚡ Powered by xgo.ing",
+          "summaryZh": "Anthropic 宣布与 **盖茨基金会** 合作，承诺投入 **2 亿美元**（资助 + Claude 额度 + 技术支持），面向 **全球健康、生命科学、教育、农业、经济流动性** 等方向推进公益项目。\n\n这类合作的关键看点是后续是否会公开：具体项目清单、受益机构/地区范围、以及 Claude 额度与技术支持如何落到可评估的效果指标上。\n\n官方新闻页：https://www.anthropic.com/news/gates-foundation-partnership",
+          "whyItMatters": "大额资金 + 模型额度 + 技术支持的组合，通常会推动一批真实落地项目出现，也会反向影响“AI for social good”在安全、评估与治理上的标准化实践。",
+          "tags": [],
+          "score": 59
+        }
+      ]
+    },
+    {
+      "id": "practice_cases",
+      "title": "实践案例",
+      "items": []
+    }
+  ],
+  "failures": [
+    {
+      "source": "GitHub Trending Daily",
+      "url": "https://github.com/trending?since=daily",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "GitHub Trending Weekly",
+      "url": "https://github.com/trending?since=weekly",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "AWS Machine Learning Blog",
+      "url": "https://aws.amazon.com/blogs/amazon-ai/feed/",
+      "error": "fetch failed"
+    }
+  ],
+  "summaryBullets": [
+    "OpenAI 为 Codex 增加 **Hooks** 与 **可编程访问令牌**，让企业把代理更深接入 CI、合规扫描与审计流水线。",
+    "Codex 在 **ChatGPT 手机端** 进入预览：可在手机上发起、审阅与批准任务，本地开发机继续执行不中断。",
+    "xAI 推出 **Grok Build** 早期 beta：智能体式 CLI，面向订阅用户覆盖写代码、构建应用与工作流自动化。",
+    "Perplexity **Computer** 接入 **Snowflake**，强调对实时数仓给出可追溯答案（SQL、源表、过滤条件与指标口径）。",
+    "研究侧：Seg-Agent 与 PanoWorld 两篇论文分别探索 **免训练视觉推理闭环** 与 **360° 全景原生空间推理**，值得跟进开源与复现。"
+  ]
+}
