@@ -26,6 +26,7 @@
 - 入口页除每日简报外，还有「精选论文」「精选播客」「精选博客」长期精选区；精选内容来源配置在 `data/curation-sources.json`，发布数据在 `data/curation/*.json`。定时任务通过 `npm run curate` 更新精选区，只在内容足够高质量时追加，不能为了填充而发布普通公告、活动通知、低信息量播客或未经判断的论文。
 - 精选内容必须先进入待审候选池，不能由自动抓取直接发布。`npm run curate` 只写入 `data/curation-candidates/YYYY-MM-DD.json`；`/curation-review.html` 是隐蔽审核页，用户在页面选择通过/拒绝/暂不处理后提交 GitHub Issue；下一次发布前运行 `npm run curate:apply`，读取标题包含「精选内容审批」的 open issue，将通过项写入 `data/curation/*.json`，拒绝项写入 `data/curation-rejections.json` 并从候选池移除，暂不处理项继续保留。
 - 每次执行完整日报链路时，`npm run daily` 必须先执行 `npm run curate:apply` 再执行 `npm run curate`，确保上一次用户审批的精选论文、播客和博客能在下一次发布前同步。
+- 精选内容候选页也是给用户做审批判断的页面，候选摘要不能展示「需要在摘要里讲清」「正式发布前需要补充」这类写作指令。`**核心结论**` / `**核心内容**` 必须直接说明这篇论文、文章或播客到底讲了什么；信息不足时可在 `**审核重点**` 中说明需要复核的点。
 - 精选论文优先使用 Hugging Face 周榜，并结合作者/机构/开源/评测等质量信号；精选博客优先保留能长期回看的技术解释、工程复盘、研究解读和重要实践案例；精选播客需要区分中文播客和英文播客，只有主题清晰且有一手访谈、实践经验或趋势判断的单集才发布。
 - 精选博客的信息源优先级是顶尖机构官方博客、核心研究者个人博客、开源社区深度文章、综合科技媒体深度报道；已接入候选源包括 OpenAI、Google DeepMind、Google AI、Microsoft Research、NVIDIA、Hugging Face、LangChain、Qdrant、Databricks、Simon Willison、Latent Space、Andrej Karpathy、MIT Technology Review、TechCrunch AI 等。后续补充 Anthropic、Meta AI、李沐、Yann LeCun、Geoffrey Hinton、36 氪或 Reddit 时，先确认稳定 RSS 或自动抓取入口再启用。
 - 精选博客每轮自动追加时，同一个来源最多入选 1 篇，避免单一高权重来源刷屏。普通产品发布、活动通知、speaker lineup、newsletter、变更日志不能进入精选；只有能讲清方法、案例、论证路径或工程取舍的文章才长期保留。

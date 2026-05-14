@@ -369,14 +369,14 @@ function isStrongCandidate(item, category, score) {
 function summaryFor(item, category, tags) {
   const cleanSummary = item.summary ? stripHtml(item.summary).slice(0, 260) : "";
   if (category === "papers") {
-    return `**核心结论**：这篇论文围绕 ${tags.length ? tags.join("、") : "AI 研究"} 展开，${item.rank ? `进入 **Hugging Face 周榜第 ${item.rank} 名**，说明社区关注度较高` : `具备较强候选信号`}。需要在摘要里讲清它解决的问题、提出的方法和适用场景，不能只写一句泛化概括。\n**如何论证**：来源为 ${item.source}${cleanSummary ? `，原始摘要线索是：${cleanSummary}` : ""}。正式发布前需要补充模型、数据、评测、实验结果、开源材料或案例，说明作者如何支撑核心结论。\n**阅读价值**：说明这篇论文适合谁读、能启发什么工程或研究判断，以及仍需要复核的限制条件。`;
+    return `**核心结论**：这篇论文是 ${item.source} 的高热候选${item.rank ? `，周榜排名第 ${item.rank}` : ""}，主题集中在 ${tags.length ? tags.join("、") : "AI 研究"}。当前自动摘要只能确认它具备社区关注度和主题相关性，正式通过前需要基于原文补充更完整的中文解读。\n**如何论证**：${cleanSummary || "当前源只提供标题和榜单信息，尚未抓到摘要。"}\n**审核重点**：请重点判断它是否有清晰问题定义、明确方法、可复核实验结果、开源代码或高质量机构/作者信号；如果这些信息不足，应先暂不通过或拒绝。`;
   }
 
   if (category === "podcasts") {
-    return `**核心内容**：这一期来自 ${item.source}，主题与 ${tags.length ? tags.join("、") : "AI 趋势"} 相关。摘要需要讲清嘉宾/主持围绕什么问题展开，以及讨论了哪些关键观点。\n**内容线索**：${cleanSummary || "需要进一步查看节目简介、show notes 或转录文本来确认要点。"} 正式发布前需要继续补充讨论脉络、关键案例、嘉宾分歧或结论，让读者不用先听完整节目也能知道这一期在讲什么。`;
+    return `**核心内容**：这一期来自 ${item.source}，主题与 ${tags.length ? tags.join("、") : "AI 趋势"} 相关。它进入候选池是因为标题、简介和来源显示出一定讨论价值。\n**内容线索**：${cleanSummary || "当前只抓到基础节目元信息，尚未获取完整 show notes 或转录文本。"}\n**审核重点**：请重点判断这一期是否有清晰主题、一手嘉宾信息、具体案例、实践经验或趋势判断；如果只是新闻串讲或泛泛聊天，不应通过。`;
   }
 
-  return `**核心内容**：这篇文章来自 ${item.source}，主题与 ${tags.length ? tags.join("、") : "AI 技术与产业"} 相关。摘要需要讲清文章到底在解释什么问题、给出什么经验或结论。\n**展开方式**：${cleanSummary || "需要进一步阅读全文确认论证结构。"} 正式发布前需要继续补充文章的论证路径、关键案例、方法细节和工程取舍，只保留文章本身讲清楚的内容。`;
+  return `**核心内容**：这篇文章来自 ${item.source}，主题与 ${tags.length ? tags.join("、") : "AI 技术与产业"} 相关。它进入候选池是因为来源、标题和摘要显示出一定的长期阅读价值。\n**展开方式**：${cleanSummary || "当前只抓到标题或简短摘要，尚未获取完整正文。"}\n**审核重点**：请重点判断文章是否讲清了具体问题、方法路径、案例细节、工程取舍或研究证据；如果只是普通发布、活动通知、浅层宣传或二手转述，不应通过。`;
 }
 
 function toCurationItem(item, category) {
