@@ -330,14 +330,14 @@ function isStrongCandidate(item, category, score) {
 function summaryFor(item, category, tags) {
   const cleanSummary = item.summary ? stripHtml(item.summary).slice(0, 260) : "";
   if (category === "papers") {
-    return `**核心结论**：这篇论文围绕 ${tags.length ? tags.join("、") : "AI 研究"} 展开，${item.rank ? `进入 **Hugging Face 周榜第 ${item.rank} 名**，说明社区关注度较高` : `具备较强候选信号`}。\n**支撑证据**：来源为 ${item.source}${cleanSummary ? `，摘要要点是：${cleanSummary}` : ""}。\n**我的判断**：后续需要结合作者、机构、实验结果和是否开源继续复核；确认足够有价值后，适合长期保留在精选论文里。`;
+    return `**核心结论**：这篇论文围绕 ${tags.length ? tags.join("、") : "AI 研究"} 展开，${item.rank ? `进入 **Hugging Face 周榜第 ${item.rank} 名**，说明社区关注度较高` : `具备较强候选信号`}。需要在摘要里讲清它解决的问题、提出的方法和适用场景，不能只写一句泛化概括。\n**如何论证**：来源为 ${item.source}${cleanSummary ? `，原始摘要线索是：${cleanSummary}` : ""}。正式发布前需要补充模型、数据、评测、实验结果、开源材料或案例，说明作者如何支撑核心结论。\n**阅读价值**：说明这篇论文适合谁读、能启发什么工程或研究判断，以及仍需要复核的限制条件。`;
   }
 
   if (category === "podcasts") {
-    return `**核心观点**：这一期来自 ${item.source}，主题与 ${tags.length ? tags.join("、") : "AI 趋势"} 相关，具备进入精选播客的候选价值。\n**内容线索**：${cleanSummary || "需要进一步查看节目简介、show notes 或转录文本来确认要点。"}\n**我的判断**：如果单集能提供一手访谈、实践经验或清晰趋势判断，适合沉淀为可回看的播客资料。`;
+    return `**核心内容**：这一期来自 ${item.source}，主题与 ${tags.length ? tags.join("、") : "AI 趋势"} 相关。摘要需要讲清嘉宾/主持围绕什么问题展开，以及讨论了哪些关键观点。\n**内容线索**：${cleanSummary || "需要进一步查看节目简介、show notes 或转录文本来确认要点。"}\n**读者能获得什么**：说明这一期适合谁听、能补充哪些背景信息或实践经验。`;
   }
 
-  return `**核心观点**：这篇文章来自 ${item.source}，主题与 ${tags.length ? tags.join("、") : "AI 技术与产业"} 相关，具备长期回看价值。\n**文章线索**：${cleanSummary || "需要进一步阅读全文确认论证结构。"}\n**我的判断**：优先保留能解释方法、架构、实践复盘或长期趋势的文章，普通公告不进入精选。`;
+  return `**核心内容**：这篇文章来自 ${item.source}，主题与 ${tags.length ? tags.join("、") : "AI 技术与产业"} 相关。摘要需要讲清文章到底在解释什么问题、给出什么经验或结论。\n**展开方式**：${cleanSummary || "需要进一步阅读全文确认论证结构。"}\n**读者能获得什么**：说明读者读完能理解哪些背景、方法、案例或工程取舍。`;
 }
 
 function toCurationItem(item, category) {
