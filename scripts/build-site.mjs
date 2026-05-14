@@ -3,6 +3,7 @@ import path from "node:path";
 
 const root = process.cwd();
 const reportsDir = path.join(root, "data", "reports");
+const curationDir = path.join(root, "data", "curation");
 const distDir = path.join(root, "dist");
 const publicDir = path.join(root, "public");
 
@@ -137,8 +138,8 @@ function renderDateMenu(files, currentDate) {
   `).join("");
 }
 
-function renderIndexPage(reports) {
-  const rows = reports.map((report) => {
+function renderDirectoryRows(reports) {
+  return reports.map((report) => {
     const summary = (report.summaryBullets || [])
       .map((item) => `<li>${renderInlineMarkdown(item)}</li>`)
       .join("");
@@ -157,7 +158,50 @@ function renderIndexPage(reports) {
       </article>
     `;
   }).join("");
+}
 
+function curationDate(item) {
+  return item.selectedAt || item.publishedAt || "待定";
+}
+
+function renderCurationItems(items, type) {
+  if (!items.length) {
+    const label = {
+      papers: "精选论文",
+      podcasts: "精选播客",
+      blogs: "精选博客"
+    }[type];
+
+    return `
+      <div class="curation-empty">
+        <p>${escapeHtml(label)}暂未发布。后续会在定时任务或手动补充时，只把足够有价值的内容放进来。</p>
+      </div>
+    `;
+  }
+
+  return items.map((item) => {
+    const title = item.titleZh || item.title;
+    const takeaways = (item.takeaways || [])
+      .map((takeaway) => `<li>${renderInlineMarkdown(takeaway)}</li>`)
+      .join("");
+    const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
+
+    return `
+      <article class="curation-item">
+        <time>${escapeHtml(curationDate(item))}</time>
+        <div class="curation-content">
+          <h3><a href="${escapeHtml(item.url || "#")}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></h3>
+          <p class="curation-meta">${escapeHtml(item.source || "待补充来源")}${item.author ? ` · ${escapeHtml(item.author)}` : ""}${item.duration ? ` · ${escapeHtml(item.duration)}` : ""}</p>
+          ${item.summaryZh ? `<div class="curation-summary">${String(item.summaryZh).split(/\n+/).map((paragraph) => paragraph.trim()).filter(Boolean).map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`).join("")}</div>` : ""}
+          ${takeaways ? `<ol class="curation-takeaways">${takeaways}</ol>` : ""}
+          ${tags ? `<div class="curation-tags">${tags}</div>` : ""}
+        </div>
+      </article>
+    `;
+  }).join("");
+}
+
+function renderIndexPage(reports, curation) {
   return `<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -172,15 +216,50 @@ function renderIndexPage(reports) {
     <div class="paper">
       <p class="eyebrow">Daily Archive</p>
       <h1>AI Daily</h1>
-      <p class="subtitle">一份按日期归档的 AI 中文日报。</p>
+      <p class="subtitle">一份按日期归档的 AI 中文日报，也会沉淀值得长期回看的论文、播客和博客。</p>
     </div>
   </header>
   <main class="paper">
-    <section class="directory">
-      <h2>日报目录</h2>
-      <div class="directory-list">${rows}</div>
+    <nav class="archive-tabs" aria-label="内容分类">
+      <button class="active" type="button" data-tab="daily">每日简报</button>
+      <button type="button" data-tab="papers">精选论文</button>
+      <button type="button" data-tab="podcasts">精选播客</button>
+      <button type="button" data-tab="blogs">精选博客</button>
+    </nav>
+    <section class="directory tab-panel active" id="tab-daily">
+      <h2>每日简报</h2>
+      <div class="directory-list">${renderDirectoryRows(reports)}</div>
+    </section>
+    <section class="directory tab-panel" id="tab-papers">
+      <h2>精选论文</h2>
+      <div class="curation-list">${renderCurationItems(curation.papers, "papers")}</div>
+    </section>
+    <section class="directory tab-panel" id="tab-podcasts">
+      <h2>精选播客</h2>
+      <div class="curation-list">${renderCurationItems(curation.podcasts, "podcasts")}</div>
+    </section>
+    <section class="directory tab-panel" id="tab-blogs">
+      <h2>精选博客</h2>
+      <div class="curation-list">${renderCurationItems(curation.blogs, "blogs")}</div>
     </section>
   </main>
+  <script>
+    const tabs = [...document.querySelectorAll(".archive-tabs button")];
+    const panels = [...document.querySelectorAll(".tab-panel")];
+
+    function activateTab(name) {
+      tabs.forEach((tab) => tab.classList.toggle("active", tab.dataset.tab === name));
+      panels.forEach((panel) => panel.classList.toggle("active", panel.id === "tab-" + name));
+      if (location.hash !== "#" + name) history.replaceState(null, "", "#" + name);
+    }
+
+    tabs.forEach((tab) => {
+      tab.addEventListener("click", () => activateTab(tab.dataset.tab));
+    });
+
+    const initialTab = location.hash.replace("#", "");
+    if (tabs.some((tab) => tab.dataset.tab === initialTab)) activateTab(initialTab);
+  </script>
 </body>
 </html>`;
 }
@@ -249,6 +328,15 @@ function renderPage(report, reports) {
   </script>
 </body>
 </html>`;
+}
+
+async function readJsonFile(filePath, fallback) {
+  try {
+    return JSON.parse(await readFile(filePath, "utf8"));
+  } catch (error) {
+    if (error.code === "ENOENT") return fallback;
+    throw error;
+  }
 }
 
 const css = `
@@ -659,6 +747,43 @@ h1 {
   padding: 48px 0 70px;
 }
 
+.archive-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 34px 0 0;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--line);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+}
+
+.archive-tabs button {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: rgba(251, 250, 245, .72);
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 800;
+  padding: 8px 13px;
+}
+
+.archive-tabs button:hover,
+.archive-tabs button.active {
+  border-color: var(--accent);
+  background: #f1eadb;
+  color: var(--accent);
+}
+
+.tab-panel {
+  display: none;
+}
+
+.tab-panel.active {
+  display: block;
+}
+
 .directory h2 {
   margin: 0 0 26px;
   padding-bottom: 12px;
@@ -733,6 +858,102 @@ h1 {
   margin-top: 8px;
 }
 
+.curation-list {
+  display: grid;
+  gap: 0;
+}
+
+.curation-item {
+  display: grid;
+  grid-template-columns: 132px 1fr;
+  gap: 18px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--soft-line);
+}
+
+.curation-item time {
+  color: var(--accent);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.curation-content h3 {
+  margin: 0;
+  font-size: 26px;
+  line-height: 1.24;
+}
+
+.curation-content h3 a {
+  text-decoration: none;
+}
+
+.curation-meta {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.curation-summary,
+.curation-takeaways {
+  color: #24211d;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.curation-summary {
+  margin-top: 12px;
+}
+
+.curation-summary p {
+  margin: 0;
+}
+
+.curation-summary p + p {
+  margin-top: 8px;
+}
+
+.curation-takeaways {
+  margin: 12px 0 0;
+  padding-left: 20px;
+}
+
+.curation-summary strong,
+.curation-takeaways strong {
+  font-weight: 800;
+}
+
+.curation-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+}
+
+.curation-tags span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.curation-tags span::before {
+  content: "#";
+  color: var(--accent);
+}
+
+.curation-empty {
+  padding: 28px 0;
+  border-bottom: 1px solid var(--soft-line);
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.curation-empty p {
+  margin: 0;
+}
+
 .footer {
   padding: 0 0 38px;
   color: var(--muted);
@@ -758,9 +979,14 @@ h1 {
 
   .section-heading,
   .news-item,
-  .directory-item a {
+  .directory-item a,
+  .curation-item {
     grid-template-columns: 1fr;
     gap: 8px;
+  }
+
+  .archive-tabs {
+    margin-top: 26px;
   }
 
   .daily-summary ol {
@@ -796,13 +1022,18 @@ async function main() {
   }
 
   const reports = await Promise.all(files.map(async (file) => JSON.parse(await readFile(path.join(reportsDir, file), "utf8"))));
+  const curation = {
+    papers: await readJsonFile(path.join(curationDir, "papers.json"), []),
+    podcasts: await readJsonFile(path.join(curationDir, "podcasts.json"), []),
+    blogs: await readJsonFile(path.join(curationDir, "blogs.json"), [])
+  };
 
   for (const file of files) {
     const report = JSON.parse(await readFile(path.join(reportsDir, file), "utf8"));
     await writeFile(path.join(distDir, file.replace(".json", ".html")), renderPage(report, files));
   }
 
-  await writeFile(path.join(distDir, "index.html"), renderIndexPage(reports));
+  await writeFile(path.join(distDir, "index.html"), renderIndexPage(reports, curation));
   await writeFile(path.join(distDir, "styles.css"), css);
   console.log(`Built ${files.length} report page(s)`);
 }
