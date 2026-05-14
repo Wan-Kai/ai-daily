@@ -44,7 +44,7 @@ function renderItem(item, index) {
   const summary = item.summaryZh || item.summary;
   const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
   const summaryHtml = String(summary || "")
-    .split(/\n{2,}/)
+    .split(/\n+/)
     .map((paragraph) => paragraph.trim())
     .filter(Boolean)
     .map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`)
@@ -93,7 +93,7 @@ function renderSection(section) {
 
 function renderDailySummary(report) {
   const bullets = (report.summaryBullets || [])
-    .map((item) => `<li>${escapeHtml(item)}</li>`)
+    .map((item) => `<li>${renderInlineMarkdown(item)}</li>`)
     .join("");
   if (!bullets) return "";
 
@@ -617,6 +617,11 @@ h1 {
 
 .news-summary p + p {
   margin-top: 12px;
+}
+
+.daily-summary strong,
+.news-summary strong {
+  font-weight: 800;
 }
 
 .tags {

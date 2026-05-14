@@ -201,8 +201,8 @@ function reviewItem(issues, section, item) {
     add(issues, item, "研究/实践类摘要需要按金字塔原理写出核心结论与支撑信息。");
   }
   if (isPaper) {
-    if (!/核心结论/.test(summaryZh) || !/支撑证据|支撑信息/.test(summaryZh)) {
-      add(issues, item, "论文解读需要结构化写出「核心结论」和「支撑证据」。");
+    if (!/\*\*核心结论\*\*/.test(summaryZh) || !/\*\*支撑证据\*\*/.test(summaryZh) || !/\*\*我的判断\*\*/.test(summaryZh)) {
+      add(issues, item, "论文解读需要用加粗标签结构化写出「核心结论」「支撑证据」「我的判断」。");
     }
     if (!/\*\*[^*]+\*\*/.test(summaryZh)) {
       add(issues, item, "论文解读需要适度加粗核心结论、关键方法、重要数据或判断，方便读者扫读。");

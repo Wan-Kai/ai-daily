@@ -182,7 +182,7 @@
           "image": "",
           "video": "",
           "summary": "arXiv:2605.10357v2 Announce Type: replace-cross Abstract: Multimodal misinformation increasingly leverages visual persuasion, where repurposed or manipulated images strengthen misleading text. We introduce \\textbf{RW-Post}, a post-aligned \\textbf{text--image benchmark} for real-world multimodal fact-checking with \\emph{auditable} annotations: each instance links the original social-media post with reasoning traces and explicitly linked evidence items derived from human fact-check articles via an LLM-assisted ext...",
-          "summaryZh": "核心结论：论文提出 **RW-Post**，用于真实世界 **图文事实核查**的 **text-image benchmark**，并强调注释具备**可审计性**（能复盘推理与证据）。\n支撑证据：每条样本对齐原始社媒帖，提供推理痕迹（reasoning traces）以及来自人工事实核查文章的**显式证据条目与链接**，并通过 LLM 辅助完成证据抽取/对齐，便于复核与误差分析。\n我的判断：如果你在做多模态核查或带检索的核查 Agent，这类“可回放证据链”的基准更利于定位系统短板；后续仍需关注证据抽取质量与跨领域泛化。",
+          "summaryZh": "**核心结论**：**RW-Post** 想解决的是多模态事实核查里一个很实际的问题：模型不只要判断图文内容真假，还要能说清楚它看了哪些证据、为什么这么判断。论文把真实社媒帖子做成 **text-image benchmark**，重点放在**证据链可审计**，方便研究者复盘模型错在哪里。\n**支撑证据**：数据集把每条样本对齐到原始社媒帖，并保留推理痕迹（reasoning traces）。它还从人工事实核查文章里抽取**显式证据条目与链接**，再用 LLM 辅助完成证据抽取和对齐。这样评测时不只看最终对错，也能检查证据是否找对、推理是否站得住。\n**我的判断**：如果你在做多模态核查、舆情核验或带检索的核查 Agent，RW-Post 的价值在于帮你定位系统短板：是图像理解错了、文本证据没找全，还是推理过程断了。后续需要继续看它的证据抽取质量，以及数据集换到其他语言和领域后是否仍然稳定。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "产品发布",
@@ -206,7 +206,7 @@
           "image": "",
           "video": "",
           "summary": "arXiv:2605.12495v1 Announce Type: cross Abstract: In this paper, we propose AlphaGRPO, a novel framework that applies Group Relative Policy Optimization (GRPO) to AR-Diffusion Unified Multimodal Models (UMMs) to enhance multimodal generation capabilities without an additional cold-start stage. Our approach unlocks the model's intrinsic potential to perform advanced reasoning tasks: Reasoning Text-to-Image Generation, where the model actively infers implicit user intents, and Self-Reflective Refinement, where it...",
-          "summaryZh": "核心结论：论文提出 **AlphaGRPO**，将 **GRPO（Group Relative Policy Optimization）**用于 **AR-Diffusion 统一多模态模型（UMM）**，通过**可分解、可验证的奖励**提升多模态生成能力，并尝试避免额外的冷启动阶段。\n支撑证据：作者强调两类能力：其一是“推理型文生图”，让模型主动推断用户隐含意图；其二是“自反式改写/修正”（self-reflective refinement），让模型在生成后自我检查并迭代改进。\n我的判断：如果你的应用需要把“生成质量”与“可验证约束”绑定，这条思路值得跟进；但仍要验证奖励可验证性的定义是否稳定、以及在不同任务/数据分布下的泛化表现。",
+          "summaryZh": "**核心结论**：**AlphaGRPO** 试图让统一多模态模型在生成图片时更会“按要求办事”。它把 **GRPO（Group Relative Policy Optimization）**放进 **AR-Diffusion 统一多模态模型（UMM）**训练里，用**可分解、可验证的奖励**来强化生成质量，并尽量省掉额外冷启动阶段。\n**支撑证据**：论文主要围绕两类能力做验证：一类是**推理型文生图**，模型要从提示词里补出隐含意图；另一类是**自反式改写/修正**，模型生成后能检查问题并继续迭代。作者用这些任务说明，奖励设计如果能拆成可验证目标，就能更直接地推动模型改善，而不只是靠人工偏好打分。\n**我的判断**：这篇值得关注的点在“奖励怎么设计”。多模态生成真正进生产后，用户更在意约束是否满足，例如文字、布局、对象关系和风格一致性。AlphaGRPO 给了一条可跟进路线，但还要看它在更复杂提示词、更多图像风格和真实业务约束下是否稳定。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "模型",
