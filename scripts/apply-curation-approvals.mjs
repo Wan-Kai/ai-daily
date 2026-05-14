@@ -126,13 +126,45 @@ async function closeIssue(number, message) {
 }
 
 function toPublishedItem(item, note = "") {
-  const { reviewStatus, reviewNote, selectionReason, category, ...rest } = item;
+  const { reviewStatus, reviewNote, selectionReason, auditNote, category, ...rest } = item;
   return {
     ...rest,
     selectedAt: rest.selectedAt || new Date().toISOString().slice(0, 10),
     reviewNote: note || reviewNote || "",
     status: "published"
   };
+}
+
+function candidateDateFromFile(file) {
+  return file.replace(/\.json$/, "");
+}
+
+async function transcribePodcastBeforePublish(stores, found) {
+  if (found.item.transcriptSource === "local-whisper-medium") return found;
+  if (!found.item.audioUrl) {
+    throw new Error("播客候选缺少音频链接，无法自动生成逐字稿。");
+  }
+
+  const date = candidateDateFromFile(found.file);
+  console.log(`播客通过审批，开始自动转写：${found.item.titleZh || found.item.title}`);
+  await execFileAsync("npm", [
+    "run",
+    "podcasts:transcribe",
+    "--",
+    date,
+    found.item.id
+  ], {
+    cwd: root,
+    maxBuffer: 80 * 1024 * 1024
+  });
+
+  const refreshedStore = await readJson(path.join(candidatesDir, found.file), found.store);
+  stores.set(found.file, refreshedStore);
+  const refreshedFound = findCandidate(stores, "podcasts", found.item.id);
+  if (!refreshedFound?.item?.transcriptSource) {
+    throw new Error("播客转写命令已结束，但候选内容中未写入转写结果。");
+  }
+  return refreshedFound;
 }
 
 async function main() {
@@ -167,13 +199,26 @@ async function main() {
       const action = decision.action;
       if (!["papers", "blogs", "podcasts"].includes(category) || !id) continue;
 
-      const found = findCandidate(stores, category, id);
+      let found = findCandidate(stores, category, id);
       if (!found) {
         messages.push(`未找到候选：${category}/${id}`);
         continue;
       }
 
       if (action === "approve") {
+        if (category === "podcasts") {
+          try {
+            found = await transcribePodcastBeforePublish(stores, found);
+          } catch (error) {
+            found.item.reviewStatus = "pending";
+            found.item.reviewNote = `已通过审核，但自动转写失败：${error.message}`;
+            changedStores.add(found.file);
+            kept += 1;
+            messages.push(`播客转写失败，保留待审：${found.item.titleZh || found.item.title} - ${error.message}`);
+            continue;
+          }
+        }
+
         const linkKey = normalizedLinkKey(found.item.url);
         const titleKey = normalizedTitleKey(found.item.titleZh || found.item.title);
         const exists = published[category].some((item) => normalizedLinkKey(item.url) === linkKey || normalizedTitleKey(item.titleZh || item.title) === titleKey);

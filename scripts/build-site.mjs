@@ -165,6 +165,20 @@ function curationDate(item) {
   return item.selectedAt || item.publishedAt || "待定";
 }
 
+function renderCurationLinks(item, type) {
+  const links = [];
+  if (type === "podcasts" && item.transcriptPath) {
+    links.push(`<a href="./${escapeHtml(item.transcriptPath)}">查看全文稿</a>`);
+  }
+  if (type === "podcasts" && item.audioUrl) {
+    links.push(`<a href="${escapeHtml(item.audioUrl)}" target="_blank" rel="noreferrer">播放音频</a>`);
+  }
+  if (item.url) {
+    links.push(`<a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">${type === "podcasts" ? "打开小宇宙" : "查看原文"}</a>`);
+  }
+  return links.length ? `<p class="curation-links">${links.join(" · ")}</p>` : "";
+}
+
 function renderCurationItems(items, type) {
   if (!items.length) {
     const label = {
@@ -195,6 +209,7 @@ function renderCurationItems(items, type) {
           <p class="curation-meta">${escapeHtml(item.source || "待补充来源")}${item.author ? ` · ${escapeHtml(item.author)}` : ""}${item.duration ? ` · ${escapeHtml(item.duration)}` : ""}</p>
           ${item.summaryZh ? `<div class="curation-summary">${String(item.summaryZh).split(/\n+/).map((paragraph) => paragraph.trim()).filter(Boolean).map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`).join("")}</div>` : ""}
           ${takeaways ? `<ol class="curation-takeaways">${takeaways}</ol>` : ""}
+          ${renderCurationLinks(item, type)}
           ${tags ? `<div class="curation-tags">${tags}</div>` : ""}
         </div>
       </article>
@@ -239,6 +254,7 @@ function flattenCandidates(candidateStores) {
 function renderReviewItem(item, index) {
   const title = item.titleZh || item.title;
   const summary = item.summaryZh ? String(item.summaryZh).split(/\n+/).map((paragraph) => paragraph.trim()).filter(Boolean).map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`).join("") : "";
+  const audit = [item.selectionReason, item.auditNote].filter(Boolean).map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`).join("");
   const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
 
   return `
@@ -252,8 +268,9 @@ function renderReviewItem(item, index) {
           <span>分数 ${escapeHtml(item.score || 0)}</span>
         </div>
         <h2><a href="${escapeHtml(item.url || "#")}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></h2>
-        ${item.selectionReason ? `<p class="review-reason">${escapeHtml(item.selectionReason)}</p>` : ""}
+        ${audit ? `<div class="review-audit">${audit}</div>` : ""}
         ${summary ? `<div class="curation-summary">${summary}</div>` : ""}
+        ${renderCurationLinks(item, item.category)}
         ${tags ? `<div class="curation-tags">${tags}</div>` : ""}
         <div class="review-controls">
           <label>
@@ -358,6 +375,54 @@ function renderReviewPage(candidateStores) {
   </script>
 </body>
 </html>`;
+}
+
+function renderTranscriptPage(item) {
+  const title = item.titleZh || item.title || "播客全文稿";
+  const transcript = String(item.transcriptText || "")
+    .split(/\n{2,}/)
+    .map((paragraph) => paragraph.trim())
+    .filter(Boolean)
+    .map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`)
+    .join("");
+
+  return `<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${escapeHtml(title)} - 全文稿</title>
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="masthead">
+    <div class="paper">
+      <p class="eyebrow">Podcast Transcript</p>
+      <h1 class="transcript-title">${escapeHtml(title)}</h1>
+      <p class="subtitle">${escapeHtml(item.source || "精选播客")} · ${escapeHtml(item.publishedAt || item.selectedAt || "")}</p>
+      <p class="curation-links">
+        <a href="../index.html#podcasts">返回精选播客</a>
+        ${item.url ? ` · <a href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">打开小宇宙</a>` : ""}
+        ${item.audioUrl ? ` · <a href="${escapeHtml(item.audioUrl)}" target="_blank" rel="noreferrer">播放音频</a>` : ""}
+      </p>
+    </div>
+  </header>
+  <main class="paper transcript-body">
+    ${transcript || "<p>暂无全文稿。</p>"}
+  </main>
+</body>
+</html>`;
+}
+
+async function writeTranscriptPages(podcasts) {
+  await mkdir(path.join(distDir, "transcripts"), { recursive: true });
+  for (const item of podcasts) {
+    if (!item.transcriptPath || !item.transcriptText) continue;
+    const transcriptFile = path.join(distDir, item.transcriptPath);
+    await mkdir(path.dirname(transcriptFile), { recursive: true });
+    await writeFile(transcriptFile, renderTranscriptPage(item));
+  }
 }
 
 function renderIndexPage(reports, curation) {
@@ -1074,6 +1139,14 @@ h1 {
   line-height: 1.5;
 }
 
+.curation-links {
+  margin: 12px 0 0;
+  color: var(--accent);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+}
+
 .curation-summary,
 .curation-takeaways {
   color: #24211d;
@@ -1228,10 +1301,36 @@ h1 {
   line-height: 1.2;
 }
 
-.review-reason {
+.review-audit {
   margin: 0 0 14px;
+  padding: 12px 14px;
+  border-left: 3px solid var(--accent);
+  background: rgba(124, 31, 22, .05);
   color: var(--muted);
   font-size: 16px;
+}
+
+.review-audit p {
+  margin: 0;
+}
+
+.review-audit p + p {
+  margin-top: 8px;
+}
+
+.transcript-title {
+  font-size: clamp(30px, 6vw, 60px);
+  line-height: 1.12;
+}
+
+.transcript-body {
+  padding: 36px 0 84px;
+  font-size: 19px;
+  line-height: 2;
+}
+
+.transcript-body p {
+  margin: 0 0 22px;
 }
 
 .review-controls {
@@ -1337,6 +1436,10 @@ async function main() {
     blogs: await readJsonFile(path.join(curationDir, "blogs.json"), [])
   };
   const candidateStores = await readCandidateStores();
+  const transcriptPodcasts = [
+    ...curation.podcasts,
+    ...flattenCandidates(candidateStores).filter((item) => item.category === "podcasts")
+  ];
 
   for (const file of files) {
     const report = JSON.parse(await readFile(path.join(reportsDir, file), "utf8"));
@@ -1345,6 +1448,7 @@ async function main() {
 
   await writeFile(path.join(distDir, "index.html"), renderIndexPage(reports, curation));
   await writeFile(path.join(distDir, "curation-review.html"), renderReviewPage(candidateStores));
+  await writeTranscriptPages(transcriptPodcasts);
   await writeFile(path.join(distDir, "styles.css"), css);
   console.log(`Built ${files.length} report page(s)`);
 }

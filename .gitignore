@@ -1,8 +1,10 @@
 node_modules/
 dist/
+.cache/
 .DS_Store
 .env
 .env.local
 npm-debug.log*
 data/email-candidates/*.json
 !data/email-candidates/.gitkeep
+data/podcast-transcripts/

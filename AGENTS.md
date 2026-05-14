@@ -32,6 +32,11 @@
 - 精选博客每轮自动追加时，同一个来源最多入选 1 篇，避免单一高权重来源刷屏。普通产品发布、活动通知、speaker lineup、newsletter、变更日志不能进入精选；只有能讲清方法、案例、论证路径或工程取舍的文章才长期保留。
 - 精选内容也必须中文化展示，摘要需要有清晰结构和适度加粗；自动抓取生成的候选如果只有英文标题或泛化摘要，后续审查时需要改成中文标题和面向读者的中文总结。
 - 精选论文摘要篇幅可以更长，优先把论文的核心观点和作者如何论证讲清楚，结构使用 `**核心结论**`、`**如何论证**`、`**阅读价值**`。精选博客和精选播客不要单独写「我的判断」或「读者能获得什么」，结构使用 `**核心内容**`、`**展开方式/内容线索**`，把文章或单集本身讲了什么、如何展开、关键案例和工程取舍讲清楚即可。
+- 精选播客展示给用户的摘要只写「讲了什么」和「关键点细节」，关键点可以分条详细说明；「适合审核的判断点」、质量分、是否有一手嘉宾/案例等审核判断只能展示在 `/curation-review.html` 审核页，不能进入正式精选页。
+- 精选播客如果能拿到节目稿、shownotes 或转写文本，需要生成 `transcripts/*.html` 全文稿页面，并在精选页和审核页提供「查看全文稿」「播放音频」「打开小宇宙」链接；候选内容也要生成对应全文稿页面，避免审核页链接失效。
+- 精选播客候选也必须走 Issue 审批流程，自动抓取只进入 `data/curation-candidates/YYYY-MM-DD.json`；只有通过 `npm run curate:apply` 读取审批 Issue 后，才可以写入 `data/curation/podcasts.json` 正式发布。
+- 本地播客逐字稿采用 Whisper medium 方案：模型缓存到 `.cache/whisper/ggml-medium.bin`，不提交 git；运行 `npm run whisper:download` 可下载或校验模型。真正转写使用 `npm run podcasts:transcribe`，需要本机安装 `whisper.cpp` 和 `ffmpeg`，例如 `brew install whisper-cpp ffmpeg`。转写结果仍需在对话里由 Codex 结合标题、节目稿和上下文校准后再发布。
+- 精选播客审批通过后，`npm run curate:apply` 需要先自动调用本地 Whisper medium 生成逐字稿，再写入 `data/curation/podcasts.json` 发布；如果转写失败，要把候选保留在待审池并记录失败原因，不要发布没有逐字稿的播客。
 - 后续验证 Web 页面时优先使用 Chrome 插件进行真实浏览器检查；如果 Chrome 未启动，用户已授权可以自动启动 Chrome 后继续验证。
 - 本仓库最稳妥的部署方式是：提交到 `main` 后推送到 GitHub，使用 GitHub Actions 的 `Deploy AI Daily` 工作流发布 GitHub Pages；不要手工改 `dist` 之外的线上内容，也不要绕过 Actions 部署。
 - 本仓库最稳妥的 push 方式是 SSH：`git push git@github.com:Wan-Kai/ai-daily.git main`。当前环境 HTTPS 访问 `github.com:443` 经常超时，`git push origin main` 可能失败；若必须使用 HTTPS，先保持 `git config http.version HTTP/2`，失败后优先改用 SSH 推送。

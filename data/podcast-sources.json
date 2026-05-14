@@ -1,0 +1,19 @@
+{
+  "collections": [
+    {
+      "name": "我也在听的品质播客",
+      "url": "https://www.xiaoyuzhoufm.com/collection/podcast/6a05bef03a94c24e73f8098f",
+      "language": "zh",
+      "enabled": true
+    }
+  ],
+  "lookbackDays": 14,
+  "maxCandidates": 6,
+  "transcribe": {
+    "enabled": true,
+    "provider": "local-whisper",
+    "model": "medium",
+    "modelPath": ".cache/whisper/ggml-medium.bin",
+    "maxEpisodesPerRun": 1
+  }
+}
