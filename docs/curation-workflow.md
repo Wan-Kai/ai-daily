@@ -9,15 +9,35 @@
 ## 数据文件
 
 - `data/curation-sources.json`：精选候选源配置。
+- `data/curation-candidates/YYYY-MM-DD.json`：自动抓取后等待人工审核的候选池。
+- `data/curation-rejections.json`：被拒绝的候选记录，用于后续去重和避免反复出现。
 - `data/curation/papers.json`：已发布精选论文。
 - `data/curation/podcasts.json`：已发布精选播客。
 - `data/curation/blogs.json`：已发布精选博客。
 
 ## 自动更新
 
-`npm run curate` 会抓取候选源、计算质量分、按链接和标题去重，并把高分内容追加到对应精选库。`npm run daily` 已包含 `npm run curate`，因此每天定时任务会自动尝试更新精选内容。
+`npm run curate` 会抓取候选源、计算质量分、按链接和标题去重，并把高分内容写入当天的待审核候选池。它不会直接写入正式发布库。
+
+`npm run curate:apply` 会读取标题包含「精选内容审批」的 GitHub Issue，解析其中的审批 JSON，把通过的候选写入 `data/curation/*.json`，把拒绝的候选写入 `data/curation-rejections.json` 并从待审库移除，暂不处理的候选继续保留。
+
+`npm run daily` 已包含 `npm run curate:apply` 和 `npm run curate`，因此每天定时任务会先处理已有审批 Issue，再生成新的待审核候选。
 
 精选内容不要求每天更新。没有足够好的内容时，应保持空缺或维持旧内容，不要为了填充而发布低质量条目。
+
+## 人工审批页面
+
+构建后会生成一个不放在公开导航里的页面：`/curation-review.html`。这个页面用于审核精选论文、精选播客和精选博客候选。
+
+页面操作流程：
+
+1. 为每条候选选择「通过」「拒绝」或「暂不处理」。
+2. 可在备注里写修改建议、拒绝原因或发布备注。
+3. 点击「提交到 GitHub Issue」，页面会打开预填好的 GitHub Issue。
+4. 在 GitHub 页面提交 Issue。
+5. 下一次执行 `npm run curate:apply` 或 `npm run daily` 时，脚本会读取 Issue 并同步审批结果。
+
+页面还保留「复制审批信息」作为兜底。如果 GitHub 页面无法打开，可以复制后发给 Codex 手动处理。
 
 ## 入选原则
 

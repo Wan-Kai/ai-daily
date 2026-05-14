@@ -6,7 +6,9 @@ import { promisify } from "node:util";
 const root = process.cwd();
 const sourcesPath = path.join(root, "data", "curation-sources.json");
 const curationDir = path.join(root, "data", "curation");
+const candidatesDir = path.join(root, "data", "curation-candidates");
 const reportsDir = path.join(root, "data", "reports");
+const rejectionsPath = path.join(root, "data", "curation-rejections.json");
 const execFileAsync = promisify(execFile);
 
 const MAX_ITEMS = {
@@ -390,6 +392,7 @@ function toCurationItem(item, category) {
 
   return {
     id,
+    category,
     titleZh: item.title,
     title: item.title,
     source: item.source,
@@ -402,8 +405,22 @@ function toCurationItem(item, category) {
     takeaways: [],
     tags,
     score,
-    status: "published"
+    selectionReason: selectionReasonFor(item, category, tags, score),
+    reviewStatus: "pending",
+    reviewNote: "",
+    status: "candidate"
   };
+}
+
+function selectionReasonFor(item, category, tags, score) {
+  const tagText = tags.length ? `，主题信号：${tags.join("、")}` : "";
+  if (category === "papers") {
+    return `Hugging Face 周榜候选${item.rank ? `，排名第 ${item.rank}` : ""}${tagText}，质量分 ${score}。`;
+  }
+  if (category === "podcasts") {
+    return `播客候选来自 ${item.source}${tagText}，质量分 ${score}；需要人工确认这一期是否有足够一手信息或深度讨论。`;
+  }
+  return `博客候选来自 ${item.source}${tagText}，质量分 ${score}；需要人工确认是否属于长期可回看的技术解释、工程复盘、研究解读或实践案例。`;
 }
 
 async function reportKeys() {
@@ -458,9 +475,45 @@ function mergeItems(existing, candidates, category, reportSeen) {
     .slice(0, MAX_ITEMS[category]);
 }
 
-async function updateCategory(category, sources, reportSeen) {
+function addItemKeys(keys, item) {
+  const linkKey = normalizedLinkKey(item.url || item.link);
+  const titleKey = normalizedTitleKey(item.titleZh || item.title);
+  if (linkKey) keys.add(linkKey);
+  if (titleKey) keys.add(titleKey);
+}
+
+function buildCandidateItems(existingPublished, existingCandidates, candidates, category, reportSeen, rejectedKeys) {
+  const seen = new Set();
+  for (const item of existingPublished) addItemKeys(seen, item);
+  for (const item of existingCandidates) addItemKeys(seen, item);
+  for (const key of rejectedKeys) seen.add(key);
+
+  return candidates
+    .map((item) => toCurationItem(item, category))
+    .filter((item) => item.score >= MIN_SCORE[category])
+    .filter((item) => isStrongCandidate(item, category, item.score))
+    .sort((a, b) => b.score - a.score)
+    .filter((item) => {
+      const linkKey = normalizedLinkKey(item.url);
+      const titleKey = normalizedTitleKey(item.titleZh || item.title);
+      if (seen.has(linkKey) || seen.has(titleKey) || reportSeen.has(linkKey) || reportSeen.has(titleKey)) return false;
+      seen.add(linkKey);
+      seen.add(titleKey);
+      return true;
+    })
+    .reduce((selected, item) => {
+      const limit = SOURCE_PUBLISH_LIMIT[category] || PUBLISH_LIMIT[category];
+      const sourceCount = selected.filter((candidate) => candidate.source === item.source).length;
+      if (sourceCount >= limit) return selected;
+      if (selected.length >= PUBLISH_LIMIT[category]) return selected;
+      return [...selected, item];
+    }, []);
+}
+
+async function updateCategory(category, sources, reportSeen, candidateStore, rejectedKeys) {
   const existingPath = path.join(curationDir, `${category}.json`);
-  const existing = await readJson(existingPath, []);
+  const existingPublished = await readJson(existingPath, []);
+  const existingCandidates = candidateStore[category] || [];
   const results = [];
 
   for (const source of sources || []) {
@@ -471,18 +524,40 @@ async function updateCategory(category, sources, reportSeen) {
     }
   }
 
-  const updated = mergeItems(existing, results, category, reportSeen);
-  await writeJson(existingPath, updated);
-  console.log(`${category}: 候选 ${results.length} 条，发布库 ${existing.length} -> ${updated.length}`);
+  const fresh = buildCandidateItems(existingPublished, existingCandidates, results, category, reportSeen, rejectedKeys);
+  candidateStore[category] = [...fresh, ...existingCandidates]
+    .sort((a, b) => (b.selectedAt || "").localeCompare(a.selectedAt || "") || (b.score || 0) - (a.score || 0))
+    .slice(0, MAX_ITEMS[category]);
+  console.log(`${category}: 抓取 ${results.length} 条，新待审 ${fresh.length} 条，待审库 ${existingCandidates.length} -> ${candidateStore[category].length}`);
 }
 
 async function main() {
   const sources = await readJson(sourcesPath, {});
   const reportSeen = await reportKeys();
   await mkdir(curationDir, { recursive: true });
-  await updateCategory("papers", sources.papers, reportSeen);
-  await updateCategory("blogs", sources.blogs, reportSeen);
-  await updateCategory("podcasts", sources.podcasts, reportSeen);
+  await mkdir(candidatesDir, { recursive: true });
+  const today = todayDate();
+  const candidatePath = path.join(candidatesDir, `${today}.json`);
+  const candidateStore = await readJson(candidatePath, {
+    date: today,
+    generatedAt: new Date().toISOString(),
+    papers: [],
+    blogs: [],
+    podcasts: []
+  });
+  candidateStore.date = candidateStore.date || today;
+  candidateStore.generatedAt = new Date().toISOString();
+  const rejections = await readJson(rejectionsPath, []);
+  const rejectedKeys = new Set();
+  for (const item of rejections) {
+    if (item.linkKey) rejectedKeys.add(item.linkKey);
+    if (item.titleKey) rejectedKeys.add(item.titleKey);
+  }
+  await updateCategory("papers", sources.papers, reportSeen, candidateStore, rejectedKeys);
+  await updateCategory("blogs", sources.blogs, reportSeen, candidateStore, rejectedKeys);
+  await updateCategory("podcasts", sources.podcasts, reportSeen, candidateStore, rejectedKeys);
+  await writeJson(candidatePath, candidateStore);
+  console.log(`待审候选已写入：${path.relative(root, candidatePath)}`);
 }
 
 main().catch((error) => {

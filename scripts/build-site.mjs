@@ -4,6 +4,7 @@ import path from "node:path";
 const root = process.cwd();
 const reportsDir = path.join(root, "data", "reports");
 const curationDir = path.join(root, "data", "curation");
+const candidatesDir = path.join(root, "data", "curation-candidates");
 const distDir = path.join(root, "dist");
 const publicDir = path.join(root, "public");
 
@@ -217,6 +218,148 @@ function renderPodcastItems(items) {
   `;
 }
 
+function candidateLabel(category) {
+  return {
+    papers: "精选论文",
+    blogs: "精选博客",
+    podcasts: "精选播客"
+  }[category] || category;
+}
+
+function flattenCandidates(candidateStores) {
+  return candidateStores.flatMap((store) => ["papers", "blogs", "podcasts"].flatMap((category) => {
+    return (store[category] || []).map((item) => ({
+      ...item,
+      category,
+      candidateDate: store.date || item.selectedAt || ""
+    }));
+  }));
+}
+
+function renderReviewItem(item, index) {
+  const title = item.titleZh || item.title;
+  const summary = item.summaryZh ? String(item.summaryZh).split(/\n+/).map((paragraph) => paragraph.trim()).filter(Boolean).map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`).join("") : "";
+  const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
+
+  return `
+    <article class="review-item" data-category="${escapeHtml(item.category)}" data-id="${escapeHtml(item.id)}">
+      <div class="review-rank">${String(index + 1).padStart(2, "0")}</div>
+      <div class="review-body">
+        <div class="review-head">
+          <time>${escapeHtml(item.candidateDate || item.selectedAt || "待定")}</time>
+          <span>${escapeHtml(candidateLabel(item.category))}</span>
+          <span>${escapeHtml(item.source || "未知来源")}</span>
+          <span>分数 ${escapeHtml(item.score || 0)}</span>
+        </div>
+        <h2><a href="${escapeHtml(item.url || "#")}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></h2>
+        ${item.selectionReason ? `<p class="review-reason">${escapeHtml(item.selectionReason)}</p>` : ""}
+        ${summary ? `<div class="curation-summary">${summary}</div>` : ""}
+        ${tags ? `<div class="curation-tags">${tags}</div>` : ""}
+        <div class="review-controls">
+          <label>
+            审批
+            <select data-field="action">
+              <option value="pending">暂不处理</option>
+              <option value="approve">通过</option>
+              <option value="reject">拒绝</option>
+            </select>
+          </label>
+          <label>
+            备注
+            <input data-field="note" type="text" placeholder="可选：修改建议、拒绝原因或发布备注">
+          </label>
+        </div>
+      </div>
+    </article>
+  `;
+}
+
+function renderReviewPage(candidateStores) {
+  const candidates = flattenCandidates(candidateStores);
+  const items = candidates.map(renderReviewItem).join("");
+
+  return `<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>精选内容审核</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="review-page">
+  <header class="masthead">
+    <div class="paper">
+      <p class="eyebrow">Private Review</p>
+      <h1 class="review-title">精选内容审核</h1>
+      <p class="subtitle">这个页面不会放在公开导航里。选择通过、拒绝或暂不处理后，可以打开预填好的 GitHub Issue，下一次发布流程会读取 Issue 并同步结果。</p>
+    </div>
+  </header>
+  <main class="paper review-main">
+    <div class="review-actions" aria-label="审批操作">
+      <button type="button" id="copy-review">复制审批信息</button>
+      <button type="button" id="open-issue">提交到 GitHub Issue</button>
+      <span id="review-status" aria-live="polite"></span>
+    </div>
+    ${items || "<p class=\"curation-empty-inline\">当前没有待审核精选内容。</p>"}
+  </main>
+  <script>
+    const issueRepo = "Wan-Kai/ai-daily";
+
+    function collectDecisions() {
+      const decisions = [...document.querySelectorAll(".review-item")].map((item) => {
+        return {
+          id: item.dataset.id,
+          category: item.dataset.category,
+          action: item.querySelector('[data-field="action"]').value,
+          note: item.querySelector('[data-field="note"]').value.trim()
+        };
+      }).filter((item) => item.action !== "pending" || item.note);
+
+      return {
+        type: "curation-approval",
+        generatedAt: new Date().toISOString(),
+        decisions
+      };
+    }
+
+    function issueBody() {
+      const payload = collectDecisions();
+      return [
+        "请同步以下精选内容审批结果。",
+        "",
+        "说明：approve 表示发布，reject 表示拒绝并从待审库移除，pending 表示继续保留待审。",
+        "",
+        "\`\`\`json",
+        JSON.stringify(payload, null, 2),
+        "\`\`\`"
+      ].join("\\n");
+    }
+
+    async function copyReview() {
+      const body = issueBody();
+      await navigator.clipboard.writeText(body);
+      document.querySelector("#review-status").textContent = "审批信息已复制。";
+    }
+
+    function openIssue() {
+      const payload = collectDecisions();
+      const title = "精选内容审批 " + new Date().toISOString().slice(0, 10);
+      const url = new URL("https://github.com/" + issueRepo + "/issues/new");
+      url.searchParams.set("title", title);
+      url.searchParams.set("labels", "curation-review");
+      url.searchParams.set("body", issueBody());
+      window.open(url.toString(), "_blank", "noopener,noreferrer");
+      document.querySelector("#review-status").textContent = "已打开 GitHub Issue，请在 GitHub 页面提交。";
+    }
+
+    document.querySelector("#copy-review").addEventListener("click", copyReview);
+    document.querySelector("#open-issue").addEventListener("click", openIssue);
+  </script>
+</body>
+</html>`;
+}
+
 function renderIndexPage(reports, curation) {
   return `<!doctype html>
 <html lang="zh-CN">
@@ -351,6 +494,25 @@ async function readJsonFile(filePath, fallback) {
     return JSON.parse(await readFile(filePath, "utf8"));
   } catch (error) {
     if (error.code === "ENOENT") return fallback;
+    throw error;
+  }
+}
+
+async function readCandidateStores() {
+  try {
+    const files = (await readdir(candidatesDir)).filter((name) => name.endsWith(".json")).sort().reverse();
+    const stores = [];
+    for (const file of files) {
+      stores.push(await readJsonFile(path.join(candidatesDir, file), {
+        date: file.replace(".json", ""),
+        papers: [],
+        blogs: [],
+        podcasts: []
+      }));
+    }
+    return stores;
+  } catch (error) {
+    if (error.code === "ENOENT") return [];
     throw error;
   }
 }
@@ -991,6 +1153,114 @@ h1 {
   font-size: 16px;
 }
 
+.review-title {
+  font-size: clamp(38px, 7vw, 78px);
+}
+
+.review-main {
+  padding: 32px 0 80px;
+}
+
+.review-actions {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 28px;
+  padding: 12px 0;
+  background: rgba(251, 250, 245, .94);
+  border-bottom: 1px solid var(--soft-line);
+}
+
+.review-actions button {
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: #fff;
+  padding: 8px 12px;
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.review-actions button:first-child {
+  background: transparent;
+  color: var(--accent);
+}
+
+#review-status {
+  color: var(--muted);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+}
+
+.review-item {
+  display: grid;
+  grid-template-columns: 58px 1fr;
+  gap: 22px;
+  padding: 28px 0;
+  border-top: 1px solid var(--line);
+}
+
+.review-rank {
+  color: var(--accent);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+}
+
+.review-head {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  color: var(--muted);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.review-body h2 {
+  margin: 8px 0 10px;
+  font-size: clamp(24px, 4vw, 38px);
+  line-height: 1.2;
+}
+
+.review-reason {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.review-controls {
+  display: grid;
+  grid-template-columns: minmax(140px, 180px) 1fr;
+  gap: 12px;
+  margin-top: 18px;
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+}
+
+.review-controls label {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.review-controls select,
+.review-controls input {
+  width: 100%;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, .42);
+  color: var(--ink);
+  padding: 9px 10px;
+  font: inherit;
+  font-size: 14px;
+}
+
 .footer {
   padding: 0 0 38px;
   color: var(--muted);
@@ -1017,7 +1287,9 @@ h1 {
   .section-heading,
   .news-item,
   .directory-item a,
-  .curation-item {
+  .curation-item,
+  .review-item,
+  .review-controls {
     grid-template-columns: 1fr;
     gap: 8px;
   }
@@ -1064,6 +1336,7 @@ async function main() {
     podcasts: await readJsonFile(path.join(curationDir, "podcasts.json"), []),
     blogs: await readJsonFile(path.join(curationDir, "blogs.json"), [])
   };
+  const candidateStores = await readCandidateStores();
 
   for (const file of files) {
     const report = JSON.parse(await readFile(path.join(reportsDir, file), "utf8"));
@@ -1071,6 +1344,7 @@ async function main() {
   }
 
   await writeFile(path.join(distDir, "index.html"), renderIndexPage(reports, curation));
+  await writeFile(path.join(distDir, "curation-review.html"), renderReviewPage(candidateStores));
   await writeFile(path.join(distDir, "styles.css"), css);
   console.log(`Built ${files.length} report page(s)`);
 }

@@ -6,6 +6,10 @@ on:
       - main
     paths:
       - "data/reports/**"
+      - "data/curation/**"
+      - "data/curation-candidates/**"
+      - "data/curation-sources.json"
+      - "data/curation-rejections.json"
       - "data/sources.json"
       - "scripts/**"
       - "package.json"

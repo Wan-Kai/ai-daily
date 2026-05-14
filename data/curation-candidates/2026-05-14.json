@@ -1,0 +1,167 @@
+{
+  "date": "2026-05-14",
+  "generatedAt": "2026-05-14T08:35:48.559Z",
+  "papers": [
+    {
+      "id": "huggingface-co-papers-2605-12357",
+      "category": "papers",
+      "titleZh": "δ-mem: Efficient Online Memory for Large Language Models",
+      "title": "δ-mem: Efficient Online Memory for Large Language Models",
+      "source": "Hugging Face Weekly Papers",
+      "url": "https://huggingface.co/papers/2605.12357",
+      "publishedAt": "",
+      "selectedAt": "2026-05-14",
+      "summaryZh": "**核心结论**：这篇论文围绕 LLM、研究、AI 展开，进入 **Hugging Face 周榜第 5 名**，说明社区关注度较高。需要在摘要里讲清它解决的问题、提出的方法和适用场景，不能只写一句泛化概括。\n**如何论证**：来源为 Hugging Face Weekly Papers，原始摘要线索是：Hugging Face Papers 2026-W20 周榜入选论文。。正式发布前需要补充模型、数据、评测、实验结果、开源材料或案例，说明作者如何支撑核心结论。\n**阅读价值**：说明这篇论文适合谁读、能启发什么工程或研究判断，以及仍需要复核的限制条件。",
+      "takeaways": [],
+      "tags": [
+        "LLM",
+        "研究",
+        "AI"
+      ],
+      "score": 31,
+      "selectionReason": "Hugging Face 周榜候选，排名第 5，主题信号：LLM、研究、AI，质量分 31。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "huggingface-co-papers-2605-08083",
+      "category": "papers",
+      "titleZh": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+      "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
+      "source": "Hugging Face Weekly Papers",
+      "url": "https://huggingface.co/papers/2605.08083",
+      "publishedAt": "",
+      "selectedAt": "2026-05-14",
+      "summaryZh": "**核心结论**：这篇论文围绕 Agent、LLM、研究、AI 展开，进入 **Hugging Face 周榜第 11 名**，说明社区关注度较高。需要在摘要里讲清它解决的问题、提出的方法和适用场景，不能只写一句泛化概括。\n**如何论证**：来源为 Hugging Face Weekly Papers，原始摘要线索是：Hugging Face Papers 2026-W20 周榜入选论文。。正式发布前需要补充模型、数据、评测、实验结果、开源材料或案例，说明作者如何支撑核心结论。\n**阅读价值**：说明这篇论文适合谁读、能启发什么工程或研究判断，以及仍需要复核的限制条件。",
+      "takeaways": [],
+      "tags": [
+        "Agent",
+        "LLM",
+        "研究",
+        "AI"
+      ],
+      "score": 30,
+      "selectionReason": "Hugging Face 周榜候选，排名第 11，主题信号：Agent、LLM、研究、AI，质量分 30。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "huggingface-co-papers-2605-06169",
+      "category": "papers",
+      "titleZh": "Mean Mode Screaming: Mean--Variance Split Residuals for 1000-Layer Diffusion Transformers",
+      "title": "Mean Mode Screaming: Mean--Variance Split Residuals for 1000-Layer Diffusion Transformers",
+      "source": "Hugging Face Weekly Papers",
+      "url": "https://huggingface.co/papers/2605.06169",
+      "publishedAt": "",
+      "selectedAt": "2026-05-14",
+      "summaryZh": "**核心结论**：这篇论文围绕 研究、AI 展开，进入 **Hugging Face 周榜第 3 名**，说明社区关注度较高。需要在摘要里讲清它解决的问题、提出的方法和适用场景，不能只写一句泛化概括。\n**如何论证**：来源为 Hugging Face Weekly Papers，原始摘要线索是：Hugging Face Papers 2026-W20 周榜入选论文。。正式发布前需要补充模型、数据、评测、实验结果、开源材料或案例，说明作者如何支撑核心结论。\n**阅读价值**：说明这篇论文适合谁读、能启发什么工程或研究判断，以及仍需要复核的限制条件。",
+      "takeaways": [],
+      "tags": [
+        "研究",
+        "AI"
+      ],
+      "score": 29,
+      "selectionReason": "Hugging Face 周榜候选，排名第 3，主题信号：研究、AI，质量分 29。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "huggingface-co-papers-2512-18181",
+      "category": "papers",
+      "titleZh": "MACE-Dance: Motion-Appearance Cascaded Experts for Music-Driven Dance Video Generation",
+      "title": "MACE-Dance: Motion-Appearance Cascaded Experts for Music-Driven Dance Video Generation",
+      "source": "Hugging Face Weekly Papers",
+      "url": "https://huggingface.co/papers/2512.18181",
+      "publishedAt": "",
+      "selectedAt": "2026-05-14",
+      "summaryZh": "**核心结论**：这篇论文围绕 多模态、研究、AI 展开，进入 **Hugging Face 周榜第 7 名**，说明社区关注度较高。需要在摘要里讲清它解决的问题、提出的方法和适用场景，不能只写一句泛化概括。\n**如何论证**：来源为 Hugging Face Weekly Papers，原始摘要线索是：Hugging Face Papers 2026-W20 周榜入选论文。。正式发布前需要补充模型、数据、评测、实验结果、开源材料或案例，说明作者如何支撑核心结论。\n**阅读价值**：说明这篇论文适合谁读、能启发什么工程或研究判断，以及仍需要复核的限制条件。",
+      "takeaways": [],
+      "tags": [
+        "多模态",
+        "研究",
+        "AI"
+      ],
+      "score": 29,
+      "selectionReason": "Hugging Face 周榜候选，排名第 7，主题信号：多模态、研究、AI，质量分 29。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "openai-com-index-nvidia",
+      "category": "blogs",
+      "titleZh": "How NVIDIA engineers and researchers build with Codex",
+      "title": "How NVIDIA engineers and researchers build with Codex",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/nvidia",
+      "publishedAt": "2026-05-12",
+      "selectedAt": "2026-05-14",
+      "duration": "",
+      "summaryZh": "**核心内容**：这篇文章来自 OpenAI News，主题与 RAG、开源、工程落地、研究 相关。摘要需要讲清文章到底在解释什么问题、给出什么经验或结论。\n**展开方式**：Teams use Codex with GPT-5.5 to ship production systems and turn research ideas into runnable experiments. 正式发布前需要继续补充文章的论证路径、关键案例、方法细节和工程取舍，只保留文章本身讲清楚的内容。",
+      "takeaways": [],
+      "tags": [
+        "RAG",
+        "开源",
+        "工程落地",
+        "研究"
+      ],
+      "score": 36,
+      "selectionReason": "博客候选来自 OpenAI News，主题信号：RAG、开源、工程落地、研究，质量分 36；需要人工确认是否属于长期可回看的技术解释、工程复盘、研究解读或实践案例。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "www-microsoft-com-en-us-research-blog-adele-predicting-and-explaining-ai-performance-acros",
+      "category": "blogs",
+      "titleZh": "ADeLe: Predicting and explaining AI performance across tasks",
+      "title": "ADeLe: Predicting and explaining AI performance across tasks",
+      "source": "Microsoft Research Blog",
+      "url": "https://www.microsoft.com/en-us/research/blog/adele-predicting-and-explaining-ai-performance-across-tasks/",
+      "publishedAt": "2026-04-01",
+      "selectedAt": "2026-05-14",
+      "duration": "",
+      "summaryZh": "**核心内容**：这篇文章来自 Microsoft Research Blog，主题与 LLM、评测、RAG、研究 相关。摘要需要讲清文章到底在解释什么问题、给出什么经验或结论。\n**展开方式**：AI benchmarks report how large language models (LLMs) perform on specific tasks but provide little insight into their underlying capabilities that drive their performance. They do not explain failures or reliably predict outcomes on new tasks. To address this, 正式发布前需要继续补充文章的论证路径、关键案例、方法细节和工程取舍，只保留文章本身讲清楚的内容。",
+      "takeaways": [],
+      "tags": [
+        "LLM",
+        "评测",
+        "RAG",
+        "研究"
+      ],
+      "score": 33,
+      "selectionReason": "博客候选来自 Microsoft Research Blog，主题信号：LLM、评测、RAG、研究，质量分 33；需要人工确认是否属于长期可回看的技术解释、工程复盘、研究解读或实践案例。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "simonwillison-net-2026-may-13-welcome-to-the-datasette-blog",
+      "category": "blogs",
+      "titleZh": "Welcome to the Datasette blog",
+      "title": "Welcome to the Datasette blog",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything",
+      "publishedAt": "2026-05-13",
+      "selectedAt": "2026-05-14",
+      "duration": "",
+      "summaryZh": "**核心内容**：这篇文章来自 Simon Willison，主题与 LLM、开源 相关。摘要需要讲清文章到底在解释什么问题、给出什么经验或结论。\n**展开方式**：Welcome to the Datasette blog We have a bunch of neat Datasette announcements in the pipeline so we decided it was time the project grew an official blog. I built this using OpenAI Codex desktop, which turns out to have the Markdown session transcript export f 正式发布前需要继续补充文章的论证路径、关键案例、方法细节和工程取舍，只保留文章本身讲清楚的内容。",
+      "takeaways": [],
+      "tags": [
+        "LLM",
+        "开源"
+      ],
+      "score": 31,
+      "selectionReason": "博客候选来自 Simon Willison，主题信号：LLM、开源，质量分 31；需要人工确认是否属于长期可回看的技术解释、工程复盘、研究解读或实践案例。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    }
+  ],
+  "podcasts": []
+}
