@@ -11,7 +11,7 @@
     "repair-media": "node scripts/repair-report-media.mjs",
     "review": "node scripts/review-report.mjs",
     "build": "node scripts/build-site.mjs",
-    "daily": "npm run generate && npm run repair-media && npm run review && npm run curate:apply && npm run curate && npm run build"
+    "daily": "npm run curate:apply && npm run generate && npm run repair-media && npm run review && npm run curate && npm run build"
   },
   "engines": {
     "node": ">=20"

@@ -1,102 +1,23 @@
 [
   {
-    "id": "openai-com-index-building-codex-windows-sandbox",
-    "titleZh": "OpenAI 如何为 Windows 上的 Codex 构建安全沙箱",
-    "title": "Building a safe, effective sandbox to enable Codex on Windows",
-    "source": "OpenAI News",
-    "url": "https://openai.com/index/building-codex-windows-sandbox",
-    "publishedAt": "2026-05-13",
+    "id": "www-microsoft-com-en-us-research-blog-adele-predicting-and-explaining-ai-performance-acros",
+    "titleZh": "ADeLe：用能力画像预测和解释 AI 在不同任务上的表现",
+    "title": "ADeLe: Predicting and explaining AI performance across tasks",
+    "source": "Microsoft Research Blog",
+    "url": "https://www.microsoft.com/en-us/research/blog/adele-predicting-and-explaining-ai-performance-across-tasks/",
+    "publishedAt": "2026-04-01",
     "selectedAt": "2026-05-14",
     "duration": "",
-    "summaryZh": "**核心内容**：这篇文章解释 **Codex 在 Windows 上运行时如何做安全隔离**。重点不是普通功能发布，而是 OpenAI 如何在本地开发环境里让 Agent 能执行代码、读写文件、运行命令，同时尽量控制它对系统、网络和用户数据的影响。\n**展开方式**：文章围绕沙箱边界展开：哪些操作可以放行，哪些能力需要限制，怎样在安全和可用性之间取舍。它把 Coding Agent 的一个核心难题讲清楚了：Agent 真正进入开发机后，风险不只来自模型回答是否正确，还来自文件系统、进程、网络访问、依赖执行和供应链行为。这个案例适合长期留存，因为后续所有本地编码 Agent 都会遇到类似的权限、隔离和审计问题。",
+    "summaryZh": "**核心内容**：Microsoft Research 这篇文章介绍 **ADeLe**，目标是弥补传统 benchmark 的缺口。普通榜单只告诉你模型在某个任务上得了多少分，但解释不了它为什么失败，也很难预测它在新任务上的表现。ADeLe 的做法是同时给任务和模型打 **18 个核心能力维度** 的分数，把“任务需要什么能力”和“模型具备什么能力”放到同一坐标系里比较。\n**展开方式**：文章先指出现有 LLM benchmark 的问题：结果碎片化、缺少能力解释、难以迁移到新任务。ADeLe 通过 ability profiles 描述模型强弱项，再用任务需求和模型能力之间的匹配来预测表现。文章给出的结果是，它能以约 **88% 准确率**预测 GPT-4o、Llama-3.1 等模型在新任务上的表现，并能指出模型在哪类能力上可能成功或失败。随着任务复杂度变化，ADeLe 也能解释不同模型表现差异如何变化。\n**审核重点**：这篇比较适合长期精选，因为它讨论的是“如何理解和预测模型能力”，而不是单次模型发布。需要复核的是：18 个能力维度如何定义、评分是否依赖人工标注，以及 88% 预测准确率是否在足够广泛的任务上成立。",
     "takeaways": [],
     "tags": [
-      "Coding Agent",
-      "安全沙箱",
-      "Windows",
-      "工程架构"
-    ],
-    "score": 42,
-    "status": "published"
-  },
-  {
-    "id": "openai-com-index-our-response-to-the-tanstack-npm-supply-chain-attack",
-    "titleZh": "OpenAI 对 TanStack npm 供应链攻击的响应复盘",
-    "title": "Our response to the TanStack npm supply chain attack",
-    "source": "OpenAI News",
-    "url": "https://openai.com/index/our-response-to-the-tanstack-npm-supply-chain-attack",
-    "publishedAt": "2026-05-13",
-    "selectedAt": "2026-05-14",
-    "duration": "",
-    "summaryZh": "**核心内容**：这是一篇供应链安全复盘，讲 OpenAI 如何处理 **TanStack npm 供应链攻击**。它的价值在于把 AI 工具链和传统软件安全问题放在一起看：当开发者越来越依赖自动化编码、包管理和 CI/CD，npm 依赖被污染会直接影响产品构建、代码生成和部署链路。\n**展开方式**：文章围绕事件发现、影响判断、处置动作和后续防护展开。它说明安全响应不能只靠事后删除恶意包，还需要梳理依赖来源、构建产物、访问凭据和自动化流程是否被波及。对于 AI 研发团队来说，这篇文章提醒了一件具体的事：Agent 和自动化工具越能写代码、装依赖、跑脚本，供应链防护、最小权限和可追溯日志就越重要。",
-    "takeaways": [],
-    "tags": [
-      "供应链安全",
-      "npm",
-      "工程治理",
-      "安全响应"
-    ],
-    "score": 40,
-    "status": "published"
-  },
-  {
-    "id": "deepmind-google-blog-alphaevolve-impact",
-    "titleZh": "DeepMind AlphaEvolve：Gemini 驱动的编码 Agent 如何扩展到多领域优化",
-    "title": "AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields",
-    "source": "Google DeepMind Blog",
-    "url": "https://deepmind.google/blog/alphaevolve-impact/",
-    "publishedAt": "2026-05-06",
-    "selectedAt": "2026-05-14",
-    "duration": "",
-    "summaryZh": "**核心内容**：这篇文章介绍 **AlphaEvolve**，一个由 Gemini 驱动的编码 Agent，用来发现、改写和优化算法。它不是把 Agent 当聊天助手，而是把模型放进“提出候选算法、运行评测、保留更优解、继续迭代”的循环里，让 AI 直接参与科学、基础设施和工程问题的优化。\n**展开方式**：文章通过跨领域案例说明 AlphaEvolve 的工作方式：模型先生成或修改代码，系统再用明确指标评估候选方案，把有效改进反馈到下一轮搜索。这个结构让文章比普通产品发布更有长期价值，因为它展示了一个可复用范式：让大模型通过代码和评测环境连接真实目标，而不是只生成一次性答案。它也提示了限制条件：这类系统特别依赖可验证目标、可靠评测和足够清晰的搜索空间。",
-    "takeaways": [],
-    "tags": [
-      "Agent",
-      "Gemini",
-      "算法优化",
-      "科学计算"
-    ],
-    "score": 43,
-    "status": "published"
-  },
-  {
-    "id": "microsoft-com-research-blog-socialreasoning-bench",
-    "titleZh": "Microsoft Research：SocialReasoning-Bench 衡量 Agent 是否维护用户利益",
-    "title": "SocialReasoning-Bench: Measuring whether AI agents act in users’ best interests",
-    "source": "Microsoft Research",
-    "url": "https://www.microsoft.com/en-us/research/blog/socialreasoning-bench-measuring-whether-ai-agents-act-in-users-best-interests/",
-    "publishedAt": "2026-05-11",
-    "selectedAt": "2026-05-14",
-    "duration": "",
-    "summaryZh": "**核心内容**：这篇文章提出 **SocialReasoning-Bench**，用来评估 AI Agent 在社交和利益冲突场景里是否真的站在用户一边。它关注的不是 Agent 会不会完成任务，而是当任务涉及隐私、偏好、他人请求、商业诱导或模糊目标时，Agent 是否能识别用户真实利益并做出合适选择。\n**展开方式**：文章通过一组社会推理任务观察模型行为：很多 Agent 在执行层面很强，却可能在维护用户利益时出现稳定偏差。这个结论对产品设计很关键，因为未来 Agent 会代替用户发邮件、订服务、改设置、做购买决策。文章的长期价值在于把“有用的 Agent”拆成了更细的评测问题：执行能力、社交判断、利益对齐和拒绝不合理请求需要分开测。",
-    "takeaways": [],
-    "tags": [
-      "Agent",
+      "LLM",
       "评测",
-      "用户利益",
-      "安全治理"
+      "能力画像",
+      "Microsoft Research"
     ],
-    "score": 41,
-    "status": "published"
-  },
-  {
-    "id": "microsoft-com-research-blog-red-teaming-a-network-of-agents",
-    "titleZh": "Microsoft Research：给多 Agent 网络做红队测试时会坏在哪里",
-    "title": "Red-teaming a network of agents: Understanding what breaks when AI agents interact at scale",
-    "source": "Microsoft Research",
-    "url": "https://www.microsoft.com/en-us/research/blog/red-teaming-a-network-of-agents-understanding-what-breaks-when-ai-agents-interact-at-scale/",
-    "publishedAt": "2026-04-30",
-    "selectedAt": "2026-05-14",
-    "duration": "",
-    "summaryZh": "**核心内容**：这篇文章讨论 **多个 AI Agent 互相连接后的系统性风险**。它的核心提醒是：单个 Agent 看起来安全，并不代表由它们组成的网络也安全；当 Agent 之间会传递信息、调用工具、委托任务或影响彼此决策时，风险会从单点错误变成网络级联问题。\n**展开方式**：文章用红队视角拆解多 Agent 系统可能出错的环节，包括错误信息在网络中传播、权限边界被间接绕过、任务委托导致责任不清，以及局部安全策略在复杂交互里失效。它适合长期留存，因为企业真正部署 Agent 时往往不是一个模型单独工作，而是多个工具、流程和子 Agent 串联起来。文章给出的重点方向是：安全评估需要从单体模型扩展到 Agent 网络、交互协议、权限传递和跨系统审计。",
-    "takeaways": [],
-    "tags": [
-      "Agent",
-      "红队测试",
-      "系统安全",
-      "治理"
-    ],
-    "score": 39,
-    "status": "published"
+    "score": 33,
+    "status": "published",
+    "reviewNote": ""
   }
 ]

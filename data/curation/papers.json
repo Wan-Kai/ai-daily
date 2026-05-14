@@ -1,90 +1,62 @@
 [
   {
-    "id": "huggingface-co-papers-2605-09530",
-    "titleZh": "MemPrivacy：让边云 Agent 的个性化记忆不暴露敏感信息",
-    "title": "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents",
+    "id": "huggingface-co-papers-2605-06169",
+    "titleZh": "MV-Split：让 1000 层 Diffusion Transformer 稳定训练",
+    "title": "Mean Mode Screaming: Mean--Variance Split Residuals for 1000-Layer Diffusion Transformers",
     "source": "Hugging Face Weekly Papers",
-    "url": "https://huggingface.co/papers/2605.09530",
+    "url": "https://huggingface.co/papers/2605.06169",
     "publishedAt": "",
     "selectedAt": "2026-05-14",
-    "summaryZh": "**核心结论**：**MemPrivacy** 讨论的是边云 Agent 的长期记忆怎么做隐私保护。它的出发点是：个性化 Agent 必须记住用户偏好、身份信息、历史任务和上下文，但这些记忆一旦全部交给云端管理，就会把敏感字段暴露给远端模型或服务。论文给出的方案是把记忆拆成“语义角色”和“真实取值”：本地先识别敏感字段，把它们替换成带类型的占位符，云端只处理占位符后的记忆结构；需要使用时，再在本地把真实值恢复回来。这样既保留了长期记忆的语义可用性，也降低了敏感信息外泄风险。\n**如何论证**：作者构建了 **MemPrivacy-Bench**，覆盖 200 个用户和 5.2 万多个隐私实例，并给出四级隐私分类，用来测试系统能否识别不同敏感程度的信息。实验部分分两步：先看隐私抽取能力，MemPrivacy 在多类隐私识别上超过 GPT-5.2、Gemini-3.1-Pro 等通用模型；再把它接入 Mem0、LangMem、Memobase 等记忆系统，看隐私保护会不会明显伤害记忆效用。结果显示，在严格保护下效用损失控制在 **0.71%–1.60%**，说明这条路线不是单纯“把信息全删掉”，而是在隐私和可用性之间做结构化折中。\n**阅读价值**：这篇适合关注 Agent 记忆、个人助手、企业数据合规和边云协同的人读。它把“长期记忆能不能用”和“敏感信息能不能不出本地”放在同一个系统里讨论，比只讲模型记忆能力更接近真实产品约束。",
-    "takeaways": [
-      "边云架构下，敏感字段在本地识别和替换，云端只处理语义占位符。",
-      "评测覆盖隐私抽取和记忆系统效用，重点不是单点模型能力，而是完整记忆链路。"
-    ],
+    "summaryZh": "**核心结论**：这篇论文研究超深 **Diffusion Transformer** 的训练崩溃问题。作者发现，当 DiT 扩展到数百层甚至上千层时，模型可能进入一种“均值主导”的静默崩溃状态，token 表示逐渐同质化，训练表面看起来还能跑，但很快会突然发散。论文把这个触发事件称为 **Mean Mode Screaming**。\n**如何论证**：作者通过机制审计分析残差分支中的梯度，把崩溃归因于 mean-coherent 与 centered components 的不平衡：当值向量同质化后，Softmax Jacobian 的零空间会抑制 attention-logit 梯度，模型被锁进均值主导状态。解决方案是 **Mean-Variance Split Residuals**，把 centered residual update 和 leaky trunk-mean replacement 分开调节，限制均值路径，同时不压制携带信号的 centered 模式。实验上，MV-Split 在 **400 层 single-stream DiT** 上避免了未稳定基线的发散，并优于 LayerScale；作者还给出 **1000 层 DiT** 的边界规模验证和可视化诊断工具。\n**审核重点**：这篇偏底层架构和训练稳定性，适合放进精选论文，但读者门槛较高。审核时要重点看它是否有足够清晰的可复现实验、项目页和模型权重，以及它对通用扩散模型训练是否有迁移价值。",
+    "takeaways": [],
     "tags": [
-      "Agent",
-      "记忆",
-      "隐私",
-      "边云协同"
+      "扩散模型",
+      "Transformer",
+      "训练稳定性",
+      "模型架构"
     ],
-    "score": 39,
-    "status": "published"
+    "score": 29,
+    "status": "published",
+    "reviewNote": ""
   },
   {
-    "id": "huggingface-co-papers-2605-09063",
-    "titleZh": "Soohak：由数学家构建的研究级数学能力评测",
-    "title": "Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs",
+    "id": "huggingface-co-papers-2605-08083",
+    "titleZh": "AutoTTS：让 Agent 自动发现测试时扩展策略",
+    "title": "LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling",
     "source": "Hugging Face Weekly Papers",
-    "url": "https://huggingface.co/papers/2605.09063",
+    "url": "https://huggingface.co/papers/2605.08083",
     "publishedAt": "",
     "selectedAt": "2026-05-14",
-    "summaryZh": "**核心结论**：**Soohak** 想解决的是 LLM 数学评测过于“考试化”的问题。很多现有基准偏奥赛或标准题，模型可以通过模板化推理和训练分布覆盖拿到高分，但这不等于它能处理研究级数学问题。Soohak 由数学家从零构建 439 道题，目标是考察模型能否理解更开放、更接近研究语境的数学任务，包括严谨推导、问题判断和对不适定问题的识别。\n**如何论证**：论文把评测拆成不同子集，其中 Challenge 子集考察高难研究级问题，Gemini-3-Pro、GPT-5、Claude Opus 4.5 分别达到 **30.4% / 26.4% / 10.4%**，开源权重模型大多低于 15%，说明即便是前沿模型也离“研究级数学能力”很远。它还设计 refusal 子集，专门测试模型能否发现题目本身不适定并停止作答，而不是强行给出漂亮但错误的证明；目前没有模型超过 50%。这个设计让评测不只看“会不会解题”，也看模型有没有数学研究中很重要的判断力。\n**阅读价值**：这篇适合跟踪推理模型、数学能力评测和 benchmark 设计的人读。它提醒我们，下一阶段数学能力不只是更长 CoT 或更高 pass@k，还包括识别坏问题、拒绝不可靠推导、理解研究语境这些更难量化的能力。",
-    "takeaways": [
-      "439 道题由数学家构建，目标是研究级数学能力。",
-      "拒答子集很关键，它测试模型能否识别不适定问题，而不是强行编答案。"
+    "summaryZh": "**核心结论**：这篇论文讨论 **test-time scaling** 的自动化设计。现在很多推理增强方法依赖人工设计策略，比如什么时候并行采样、什么时候继续推理、什么时候停止或剪枝。作者提出 **AutoTTS**，把这些策略发现变成一个 Agent 可搜索的控制问题，让模型在环境反馈中自动找到更好的计算分配方案。\n**如何论证**：论文把 width-depth test-time scaling 表述为对预收集推理轨迹和 probe 信号的控制器合成问题。控制器可以决定分支、继续、探测、剪枝或停止，而且可以便宜地评估，不需要每次都重新调用 LLM。作者引入 **β 参数化** 约束预算增长，并提供执行轨迹反馈，帮助 Agent 诊断策略为什么失败。数学推理实验显示，自动发现的策略在准确率和成本之间形成更好的 Pareto 前沿，并能泛化到留出基准和不同模型规模；一次发现成本约 **39.9 美元、160 分钟**。\n**审核重点**：这篇适合关注推理成本、数学推理和 Agent 自动优化的人。审核时要看它的策略是否只适用于数学题和预收集轨迹环境，以及开源代码是否足以复现实验。",
+    "takeaways": [],
+    "tags": [
+      "Agent",
+      "LLM",
+      "测试时扩展",
+      "推理成本"
     ],
+    "score": 30,
+    "status": "published",
+    "reviewNote": ""
+  },
+  {
+    "id": "huggingface-co-papers-2605-12357",
+    "titleZh": "δ-mem：给冻结 LLM 增加轻量在线记忆",
+    "title": "δ-mem: Efficient Online Memory for Large Language Models",
+    "source": "Hugging Face Weekly Papers",
+    "url": "https://huggingface.co/papers/2605.12357",
+    "publishedAt": "",
+    "selectedAt": "2026-05-14",
+    "summaryZh": "**核心结论**：**δ-mem** 试图解决长程助手和 Agent 的记忆问题：模型不必把所有历史都塞进上下文窗口，也不必依赖外部 RAG 管线，而是在冻结的注意力骨干旁边加一个很小的在线联想记忆状态。这个记忆状态会在生成过程中持续更新，并用读出的信号对注意力计算做低秩修正，让模型能更好地利用过去信息。\n**如何论证**：论文把过去信息压缩进固定大小的状态矩阵，用 delta-rule 学习更新记忆，并把记忆读出接入 query / output 等注意力路径。实验显示，只有 **8×8 在线记忆状态** 时，平均得分达到冻结骨干的 **1.10 倍**、最强非 δ-mem 记忆基线的 **1.15 倍**；在记忆密集任务上增益更明显，**MemoryAgentBench 为 1.31 倍**，**LoCoMo 为 1.20 倍**。作者还发布了代码和 Qwen3-4B-Instruct 适配模型，便于复现。\n**审核重点**：这篇值得重点看，因为它把“长期记忆”从文本检索问题推进到模型内部表示层面。需要复核的是：增益是否主要来自特定基准、在线记忆在真实多轮 Agent 中是否稳定，以及运行时读写路径是否容易接入现有推理服务。",
+    "takeaways": [],
     "tags": [
       "LLM",
-      "数学推理",
-      "评测",
-      "Frontier Model"
-    ],
-    "score": 34,
-    "status": "published"
-  },
-  {
-    "id": "huggingface-co-papers-2605-12500",
-    "titleZh": "SenseNova-U1：把多模态理解和生成放进统一架构",
-    "title": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
-    "source": "Hugging Face Weekly Papers",
-    "url": "https://huggingface.co/papers/2605.12500",
-    "publishedAt": "",
-    "selectedAt": "2026-05-14",
-    "summaryZh": "**核心结论**：**SenseNova-U1** 试图把多模态理解、推理和生成放进统一原生架构里。传统多模态系统常见做法是把视觉理解模型、语言模型和图像生成模型串起来，这会带来表示空间不一致、信息传递损失和流水线割裂。SenseNova-U1 的主张是：同一个模型应同时处理“看懂图像/视频”“用语言推理”“生成图像”等任务，让理解和生成共享更一致的内部表示。\n**如何论证**：论文发布了 **SenseNova-U1-8B-MoT** 和 **SenseNova-U1-A3B-MoT** 两个版本，覆盖 dense 与 MoE 结构，并在文本理解、视觉语言感知、知识推理、Agent 决策、空间智能以及任意到图像生成上给出结果。它的论证重点不是单一榜单，而是证明统一架构可以横跨多个能力面：既能做感知和问答，也能做图像生成，还能覆盖部分 Agent 决策与空间任务。项目同时开源 GitHub，便于后续复现和比较。\n**阅读价值**：这篇适合关注多模态 Agent、VLA、world model 和生成模型架构的人读。它代表一个趋势：多模态系统正在从“多个模型拼装”走向“理解与生成一体化”，后续要重点看它在真实复杂任务中是否比组合式系统更稳定。",
-    "takeaways": [
-      "统一理解与生成，目标是减少跨模态管线的割裂。",
-      "同时覆盖感知、推理、生成和初步行动能力，适合放进多模态 Agent 方向观察。"
-    ],
-    "tags": [
-      "多模态",
-      "生成模型",
+      "长期记忆",
       "Agent",
-      "VLA"
+      "模型架构"
     ],
-    "score": 33,
-    "status": "published"
-  },
-  {
-    "id": "huggingface-co-papers-2605-07177",
-    "titleZh": "HyperEyes：面向多模态搜索 Agent 的并行检索与效率优化",
-    "title": "HyperEyes: Dual-Grained Efficiency-Aware Reinforcement Learning for Parallel Multimodal Search Agents",
-    "source": "Hugging Face Weekly Papers",
-    "url": "https://huggingface.co/papers/2605.07177",
-    "publishedAt": "",
-    "selectedAt": "2026-05-14",
-    "summaryZh": "**核心结论**：**HyperEyes** 关注多模态搜索 Agent 的效率瓶颈。普通搜索 Agent 遇到多个目标实体时，往往按顺序一轮一轮看图、定位、检索、再推理，工具调用轮次多、延迟高、成本也高。HyperEyes 的核心做法是把视觉 grounding 和检索合成原子动作，并行发起多实体搜索，让 Agent 不只追求答对，还要减少工具调用成本。\n**如何论证**：论文设计了两阶段训练。第一阶段用并行友好的数据合成做冷启动，让模型学会把任务拆成可并行的搜索动作；第二阶段使用 **Dual-Grained Efficiency-Aware RL**，同时优化轨迹级工具调用成本和 token 级纠错信号。评测上，作者构建了 300 例人工评测集 IMEB，同时看准确率和推理成本。结果显示，HyperEyes-30B 相比最强开源同类 Agent 准确率高 **9.9%**，工具调用轮次平均少 **5.3 倍**。\n**阅读价值**：这篇适合做浏览型 Agent、多模态搜索、工具调用优化的人读。它的启发是：Agent 评测不能只看最终答案，还要把工具调用次数、延迟和成本纳入目标，否则离生产环境会很远。",
-    "takeaways": [
-      "把多实体搜索并行化，减少工具调用轮次。",
-      "评测同时看准确率和效率，比只看最终答案更贴近生产环境。"
-    ],
-    "tags": [
-      "多模态",
-      "搜索 Agent",
-      "强化学习",
-      "效率"
-    ],
-    "score": 32,
-    "status": "published"
+    "score": 31,
+    "status": "published",
+    "reviewNote": ""
   }
 ]

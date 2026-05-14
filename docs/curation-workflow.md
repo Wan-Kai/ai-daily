@@ -21,7 +21,7 @@
 
 `npm run curate:apply` 会读取标题包含「精选内容审批」的 GitHub Issue，解析其中的审批 JSON，把通过的候选写入 `data/curation/*.json`，把拒绝的候选写入 `data/curation-rejections.json` 并从待审库移除，暂不处理的候选继续保留。
 
-`npm run daily` 已包含 `npm run curate:apply` 和 `npm run curate`，因此每天定时任务会先处理已有审批 Issue，再生成新的待审核候选。
+`npm run daily` 必须把 `npm run curate:apply` 放在第一步，然后再生成日报、修复媒体、审查日报、生成新的待审核候选并构建页面。这样即使后续日报审查失败，上一轮精选审批结果也已经同步到发布库或拒绝库。
 
 精选内容不要求每天更新。没有足够好的内容时，应保持空缺或维持旧内容，不要为了填充而发布低质量条目。
 

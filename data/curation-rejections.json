@@ -1,0 +1,32 @@
+[
+  {
+    "id": "huggingface-co-papers-2512-18181",
+    "category": "papers",
+    "title": "MACE-Dance：音乐驱动舞蹈视频生成的级联专家框架",
+    "url": "https://huggingface.co/papers/2512.18181",
+    "linkKey": "https://huggingface.co/papers/2512.18181",
+    "titleKey": "mace dance 音乐驱动舞蹈视频生成的级联专家框架",
+    "reason": "",
+    "rejectedAt": "2026-05-14T09:08:21.197Z"
+  },
+  {
+    "id": "openai-com-index-nvidia",
+    "category": "blogs",
+    "title": "NVIDIA 工程师和研究员如何把 Codex 用进生产与研究",
+    "url": "https://openai.com/index/nvidia",
+    "linkKey": "https://openai.com/index/nvidia",
+    "titleKey": "nvidia 工程师和研究员如何把 codex 用进生产与研究",
+    "reason": "",
+    "rejectedAt": "2026-05-14T09:08:21.198Z"
+  },
+  {
+    "id": "simonwillison-net-2026-may-13-welcome-to-the-datasette-blog",
+    "category": "blogs",
+    "title": "Simon Willison：用 Codex desktop 搭建 Datasette 官方博客的工作记录",
+    "url": "https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything",
+    "linkKey": "https://simonwillison.net/2026/may/13/welcome-to-the-datasette-blog",
+    "titleKey": "simon willison 用 codex desktop 搭建 datasette 官方博客的工作记录",
+    "reason": "",
+    "rejectedAt": "2026-05-14T09:08:21.198Z"
+  }
+]
