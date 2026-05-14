@@ -201,6 +201,22 @@ function renderCurationItems(items, type) {
   }).join("");
 }
 
+function renderPodcastItems(items) {
+  const chinese = items.filter((item) => item.language !== "en");
+  const english = items.filter((item) => item.language === "en");
+
+  return `
+    <div class="podcast-group">
+      <h3>中文播客</h3>
+      ${chinese.length ? renderCurationItems(chinese, "podcasts") : "<p class=\"curation-empty-inline\">中文播客暂未发布。</p>"}
+    </div>
+    <div class="podcast-group">
+      <h3>英文播客</h3>
+      ${english.length ? renderCurationItems(english, "podcasts") : "<p class=\"curation-empty-inline\">英文播客暂未发布。</p>"}
+    </div>
+  `;
+}
+
 function renderIndexPage(reports, curation) {
   return `<!doctype html>
 <html lang="zh-CN">
@@ -236,7 +252,7 @@ function renderIndexPage(reports, curation) {
     </section>
     <section class="directory tab-panel" id="tab-podcasts">
       <h2>精选播客</h2>
-      <div class="curation-list">${renderCurationItems(curation.podcasts, "podcasts")}</div>
+      <div class="curation-list">${renderPodcastItems(curation.podcasts)}</div>
     </section>
     <section class="directory tab-panel" id="tab-blogs">
       <h2>精选博客</h2>
@@ -952,6 +968,27 @@ h1 {
 
 .curation-empty p {
   margin: 0;
+}
+
+.podcast-group + .podcast-group {
+  margin-top: 38px;
+}
+
+.podcast-group > h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+  color: var(--accent);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: .12em;
+}
+
+.curation-empty-inline {
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 16px;
 }
 
 .footer {

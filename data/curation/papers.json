@@ -1,1 +1,90 @@
-[]
+[
+  {
+    "id": "huggingface-co-papers-2605-09530",
+    "titleZh": "MemPrivacy：让边云 Agent 的个性化记忆不暴露敏感信息",
+    "title": "MemPrivacy: Privacy-Preserving Personalized Memory Management for Edge-Cloud Agents",
+    "source": "Hugging Face Weekly Papers",
+    "url": "https://huggingface.co/papers/2605.09530",
+    "publishedAt": "",
+    "selectedAt": "2026-05-14",
+    "summaryZh": "**核心结论**：**MemPrivacy** 解决的是边云 Agent 的记忆隐私问题：云端可以参与长期记忆管理，但不直接看到用户的真实敏感字段。它用带类型的占位符保留语义角色，同时把原始值留在本地恢复。\n**支撑证据**：论文构建了 **MemPrivacy-Bench**，覆盖 200 个用户和 5.2 万多个隐私实例，并给出四级隐私分类。实验显示，它在隐私抽取上超过 GPT-5.2、Gemini-3.1-Pro 等通用模型；在 Mem0、LangMem、Memobase 等记忆系统中，严格保护下的效用损失控制在 **0.71%–1.60%**。\n**我的判断**：Agent 长期记忆一旦进入真实产品，隐私会变成硬约束。MemPrivacy 的价值在于把“隐私保护”和“记忆可用性”同时放进系统设计，值得持续跟踪。",
+    "takeaways": [
+      "边云架构下，敏感字段在本地识别和替换，云端只处理语义占位符。",
+      "评测覆盖隐私抽取和记忆系统效用，重点不是单点模型能力，而是完整记忆链路。"
+    ],
+    "tags": [
+      "Agent",
+      "记忆",
+      "隐私",
+      "边云协同"
+    ],
+    "score": 39,
+    "status": "published"
+  },
+  {
+    "id": "huggingface-co-papers-2605-09063",
+    "titleZh": "Soohak：由数学家构建的研究级数学能力评测",
+    "title": "Soohak: A Mathematician-Curated Benchmark for Evaluating Research-level Math Capabilities of LLMs",
+    "source": "Hugging Face Weekly Papers",
+    "url": "https://huggingface.co/papers/2605.09063",
+    "publishedAt": "",
+    "selectedAt": "2026-05-14",
+    "summaryZh": "**核心结论**：**Soohak** 想把数学评测从奥赛题推进到“研究级问题”。它由数学家从零构建 439 道题，重点考察模型是否能处理更接近真实研究的问题，而不是只做标准推理题。\n**支撑证据**：在 Challenge 子集上，Gemini-3-Pro、GPT-5、Claude Opus 4.5 分别达到 **30.4% / 26.4% / 10.4%**；开源权重模型大多低于 15%。它还设计了 refusal 子集，测试模型能否识别题目本身不适定并停止作答，目前没有模型超过 50%。\n**我的判断**：这类评测的价值在于暴露 frontier model 的“研究判断力”短板，尤其是识别坏问题、拒绝不可靠推导的能力。适合跟踪下一阶段推理模型的真实边界。",
+    "takeaways": [
+      "439 道题由数学家构建，目标是研究级数学能力。",
+      "拒答子集很关键，它测试模型能否识别不适定问题，而不是强行编答案。"
+    ],
+    "tags": [
+      "LLM",
+      "数学推理",
+      "评测",
+      "Frontier Model"
+    ],
+    "score": 34,
+    "status": "published"
+  },
+  {
+    "id": "huggingface-co-papers-2605-12500",
+    "titleZh": "SenseNova-U1：把多模态理解和生成放进统一架构",
+    "title": "SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture",
+    "source": "Hugging Face Weekly Papers",
+    "url": "https://huggingface.co/papers/2605.12500",
+    "publishedAt": "",
+    "selectedAt": "2026-05-14",
+    "summaryZh": "**核心结论**：**SenseNova-U1** 试图把多模态理解、推理和生成统一到一个原生架构里，减少“理解模型 + 生成模型”拼接带来的表示错位和流水线割裂。\n**支撑证据**：论文发布了 **SenseNova-U1-8B-MoT** 和 **SenseNova-U1-A3B-MoT** 两个版本，覆盖 dense 与 MoE 结构；在文本理解、视觉语言感知、知识推理、Agent 决策、空间智能以及任意到图像生成上都给出结果，并开源 GitHub 项目。\n**我的判断**：多模态模型正在从“连接多个模块”走向“原生统一”。如果它在 VLA、world model 等场景继续成立，会是多模态 Agent 值得关注的路线。",
+    "takeaways": [
+      "统一理解与生成，目标是减少跨模态管线的割裂。",
+      "同时覆盖感知、推理、生成和初步行动能力，适合放进多模态 Agent 方向观察。"
+    ],
+    "tags": [
+      "多模态",
+      "生成模型",
+      "Agent",
+      "VLA"
+    ],
+    "score": 33,
+    "status": "published"
+  },
+  {
+    "id": "huggingface-co-papers-2605-07177",
+    "titleZh": "HyperEyes：面向多模态搜索 Agent 的并行检索与效率优化",
+    "title": "HyperEyes: Dual-Grained Efficiency-Aware Reinforcement Learning for Parallel Multimodal Search Agents",
+    "source": "Hugging Face Weekly Papers",
+    "url": "https://huggingface.co/papers/2605.07177",
+    "publishedAt": "",
+    "selectedAt": "2026-05-14",
+    "summaryZh": "**核心结论**：**HyperEyes** 关注多模态搜索 Agent 的效率问题：遇到多个目标实体时，不再一轮一轮顺序查，而是把视觉 grounding 和检索合成原子动作，并行发起搜索。\n**支撑证据**：论文提出两阶段训练：先用并行友好的数据合成做冷启动，再用 **Dual-Grained Efficiency-Aware RL** 优化轨迹级工具调用成本和 token 级纠错信号。它还构建了 300 例人工评测集 IMEB，同时评估准确率和推理成本；HyperEyes-30B 相比最强开源同类 Agent 准确率高 **9.9%**，工具调用轮次平均少 **5.3 倍**。\n**我的判断**：很多 Agent 评测只看做没做对，忽略工具调用成本。HyperEyes 把“准确率 + 调用轮次”一起优化，适合放进多模态搜索和浏览型 Agent 的技术储备。",
+    "takeaways": [
+      "把多实体搜索并行化，减少工具调用轮次。",
+      "评测同时看准确率和效率，比只看最终答案更贴近生产环境。"
+    ],
+    "tags": [
+      "多模态",
+      "搜索 Agent",
+      "强化学习",
+      "效率"
+    ],
+    "score": 32,
+    "status": "published"
+  }
+]

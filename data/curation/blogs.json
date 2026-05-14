@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "id": "simonwillison-net-2026-may-7-firefox-claude-mythos",
+    "titleZh": "Mozilla 如何用 Claude Mythos 预览版加固 Firefox",
+    "title": "Behind the Scenes Hardening Firefox with Claude Mythos Preview",
+    "source": "Simon Willison",
+    "url": "https://simonwillison.net/2026/May/7/firefox-claude-mythos/#atom-everything",
+    "publishedAt": "2026-05-07",
+    "selectedAt": "2026-05-14",
+    "duration": "",
+    "summaryZh": "**核心观点**：这篇文章记录 Mozilla 使用 **Claude Mythos** 预览版排查 Firefox 漏洞的过程，重点不是“AI 写代码”，而是模型如何帮助安全团队发现和修复大量真实漏洞。\n**文章线索**：Simon Willison 摘录并评论了 Mozilla 的内部实践细节：模型发现的 bug 质量突然变好，团队可以把 AI 作为安全审计流程的一部分，而不是只拿它写样例代码。\n**我的判断**：这类案例值得长期保留，因为它展示了大模型在成熟工程项目里的高价值用法：辅助安全审计、扩大排查面，并把专家注意力留给验证和修复。",
+    "takeaways": [],
+    "tags": [
+      "安全治理",
+      "Claude",
+      "工程实践",
+      "浏览器"
+    ],
+    "score": 39,
+    "status": "published"
+  },
+  {
+    "id": "simonwillison-net-2026-may-11-learning-on-the-shop-floor",
+    "titleZh": "Shopify 的内部 Coding Agent River 为什么只在公开频道工作",
+    "title": "Learning on the Shop floor",
+    "source": "Simon Willison",
+    "url": "https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything",
+    "publishedAt": "2026-05-11",
+    "selectedAt": "2026-05-14",
+    "duration": "",
+    "summaryZh": "**核心观点**：这篇文章讨论 Shopify 内部编码 Agent **River** 的协作规则：它不回复私信，而是要求用户在公开频道创建任务，让 Agent 的工作过程和上下文对团队可见。\n**文章线索**：文章重点在组织工作流，而不是单个模型能力。公开频道让需求、进展、失败和修复都沉淀在团队空间里，也减少“个人和 Agent 私聊导致知识消失”的问题。\n**我的判断**：这是 Agent 落地很重要的一类经验：真正可用的 Coding Agent 不只是会写代码，还要嵌入团队协作、权限、审计和知识沉淀机制。",
+    "takeaways": [],
+    "tags": [
+      "Coding Agent",
+      "团队协作",
+      "Shopify",
+      "工程实践"
+    ],
+    "score": 33,
+    "status": "published"
+  },
+  {
+    "id": "openai-com-index-nvidia",
+    "titleZh": "NVIDIA 工程师和研究员如何把 Codex 用进生产与研究",
+    "title": "How NVIDIA engineers and researchers build with Codex",
+    "source": "OpenAI News",
+    "url": "https://openai.com/index/nvidia",
+    "publishedAt": "2026-05-12",
+    "selectedAt": "2026-05-14",
+    "duration": "",
+    "summaryZh": "**核心观点**：OpenAI 这篇文章讲的是 NVIDIA 团队如何用 **Codex + GPT-5.5** 推进生产系统和研究实验，把“模型辅助编码”接到真实工程节奏里。\n**文章线索**：文章强调两个场景：一是工程团队用 Codex 更快交付生产系统；二是研究人员把想法变成可运行实验，缩短从假设到验证的周期。\n**我的判断**：这类厂商案例需要带着保留看，但它仍然有参考价值：大公司如何组织 AI 编码工具、如何把研究原型变成可跑系统，会影响后续企业采用路径。",
+    "takeaways": [],
+    "tags": [
+      "Codex",
+      "NVIDIA",
+      "工程实践",
+      "研究效率"
+    ],
+    "score": 31,
+    "status": "published"
+  }
+]

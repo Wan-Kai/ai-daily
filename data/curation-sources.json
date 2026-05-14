@@ -1,0 +1,160 @@
+{
+  "papers": [
+    {
+      "name": "Hugging Face Weekly Papers",
+      "kind": "huggingface_weekly",
+      "urlTemplate": "https://huggingface.co/papers/week/{isoWeek}",
+      "weight": 10,
+      "enabled": true
+    },
+    {
+      "name": "arXiv cs.AI",
+      "kind": "rss",
+      "url": "https://arxiv.org/rss/cs.AI",
+      "weight": 3,
+      "enabled": true
+    },
+    {
+      "name": "arXiv cs.CL",
+      "kind": "rss",
+      "url": "https://arxiv.org/rss/cs.CL",
+      "weight": 4,
+      "enabled": true
+    },
+    {
+      "name": "arXiv cs.LG",
+      "kind": "rss",
+      "url": "https://arxiv.org/rss/cs.LG",
+      "weight": 3,
+      "enabled": true
+    }
+  ],
+  "blogs": [
+    {
+      "name": "OpenAI News",
+      "kind": "rss",
+      "url": "https://openai.com/news/rss.xml",
+      "weight": 8,
+      "enabled": true
+    },
+    {
+      "name": "Google DeepMind Blog",
+      "kind": "rss",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "weight": 8,
+      "enabled": true
+    },
+    {
+      "name": "Google AI Blog",
+      "kind": "rss",
+      "url": "https://blog.google/technology/ai/rss/",
+      "weight": 6,
+      "enabled": true
+    },
+    {
+      "name": "Microsoft Research",
+      "kind": "rss",
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "weight": 7,
+      "enabled": true
+    },
+    {
+      "name": "Microsoft Research Blog",
+      "kind": "rss",
+      "url": "https://www.microsoft.com/en-us/research/blog/feed/",
+      "weight": 7,
+      "enabled": true
+    },
+    {
+      "name": "Meta Engineering",
+      "kind": "rss",
+      "url": "https://engineering.fb.com/feed/",
+      "weight": 5,
+      "enabled": true
+    },
+    {
+      "name": "Hugging Face Blog",
+      "kind": "rss",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "weight": 6,
+      "enabled": true
+    },
+    {
+      "name": "LangChain Blog",
+      "kind": "rss",
+      "url": "https://blog.langchain.dev/rss/",
+      "weight": 6,
+      "enabled": true
+    },
+    {
+      "name": "Qdrant Blog",
+      "kind": "rss",
+      "url": "https://qdrant.tech/index.xml",
+      "weight": 5,
+      "enabled": true
+    },
+    {
+      "name": "Databricks Blog",
+      "kind": "rss",
+      "url": "https://www.databricks.com/feed",
+      "weight": 5,
+      "enabled": true
+    },
+    {
+      "name": "Simon Willison",
+      "kind": "rss",
+      "url": "https://simonwillison.net/atom/everything/",
+      "weight": 7,
+      "enabled": true
+    },
+    {
+      "name": "Latent Space",
+      "kind": "rss",
+      "url": "https://www.latent.space/feed",
+      "weight": 6,
+      "enabled": true
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "人民公园说AI",
+      "kind": "rss",
+      "language": "zh",
+      "url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/65257ff6e8ce9deaf70a65e9",
+      "weight": 8,
+      "enabled": true
+    },
+    {
+      "name": "AI炼金术",
+      "kind": "rss",
+      "language": "zh",
+      "url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8",
+      "weight": 7,
+      "enabled": true
+    },
+    {
+      "name": "保持偏见",
+      "kind": "rss",
+      "language": "zh",
+      "url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/663e3c95af1e22bb157dcee3",
+      "weight": 6,
+      "enabled": true
+    },
+    {
+      "name": "硅谷101",
+      "kind": "rss",
+      "language": "zh",
+      "url": "https://sv101.fireside.fm/rss",
+      "weight": 6,
+      "enabled": true
+    },
+    {
+      "name": "Latent Space",
+      "kind": "rss",
+      "language": "en",
+      "url": "https://www.latent.space/feed",
+      "weight": 8,
+      "enabled": true
+    }
+  ]
+}
