@@ -29,6 +29,29 @@ function renderInlineMarkdown(value = "") {
   }).join("");
 }
 
+function renderSummaryBlocks(summary = "") {
+  const blocks = [];
+  let listItems = [];
+
+  function flushList() {
+    if (!listItems.length) return;
+    blocks.push(`<ul>${listItems.map((item) => `<li>${renderInlineMarkdown(item)}</li>`).join("")}</ul>`);
+    listItems = [];
+  }
+
+  for (const line of String(summary || "").split(/\n+/).map((item) => item.trim()).filter(Boolean)) {
+    const bullet = line.match(/^[-*]\s+(.+)$/);
+    if (bullet) {
+      listItems.push(bullet[1]);
+      continue;
+    }
+    flushList();
+    blocks.push(`<p>${renderInlineMarkdown(line)}</p>`);
+  }
+  flushList();
+  return blocks.join("");
+}
+
 function toSimplifiedChinese(value = "") {
   return simplifyChinese(String(value || ""))
     .replaceAll("什幺", "什么")
@@ -58,12 +81,7 @@ function renderItem(item, index) {
   const summary = item.summaryZh || item.summary;
   const sourceLinkLabel = item.sourceType === "podcast" ? "打开小宇宙" : "原文";
   const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
-  const summaryHtml = String(summary || "")
-    .split(/\n+/)
-    .map((paragraph) => paragraph.trim())
-    .filter(Boolean)
-    .map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`)
-    .join("");
+  const summaryHtml = renderSummaryBlocks(summary);
   // 给视频保留直达链接，避免浏览器播放器控件不可用时无法打开媒体。
   const video = item.video ? `
     <figure class="news-figure">
