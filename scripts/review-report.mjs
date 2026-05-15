@@ -178,6 +178,24 @@ function validateOpenSourceCoverage(issues, report) {
   }
 }
 
+function validateSocialCoverage(issues, report) {
+  const socialSection = report.sections?.find((section) => section.id === "social_shares");
+  if (!socialSection) return;
+
+  const failedSocialSources = (report.failures || [])
+    .filter((failure) => /xgo|twitter|x\.com|社媒|social/i.test(`${failure.source || ""} ${failure.url || ""}`));
+  const socialCount = (socialSection.items || []).length;
+
+  if (socialCount < 4 && failedSocialSources.length > 0) {
+    add(issues, null, `社媒观察只有 ${socialCount} 条，且社媒信息源抓取失败：${failedSocialSources.map((failure) => failure.source).join("、")}。需要先修复抓取/代理或人工确认后再发布。`);
+    return;
+  }
+
+  if (socialCount < 4 && (report.stats?.fetched || 0) >= 200) {
+    add(issues, null, `社媒观察只有 ${socialCount} 条，但本次共抓取 ${report.stats.fetched} 条候选；需要回看社媒候选池，确认不是后处理或人工筛选过度导致。`);
+  }
+}
+
 async function validateVideo(issues, item) {
   if (!item.video) return;
   if (/video\.twimg\.com/i.test(item.video)) {
@@ -253,6 +271,7 @@ async function main() {
   validateDailySummary(issues, report);
   validateMediaCoverage(issues, report);
   validateOpenSourceCoverage(issues, report);
+  validateSocialCoverage(issues, report);
 
   for (const section of report.sections || []) {
     if (!REQUIRED_SECTIONS.has(section.id)) add(issues, null, `未知栏目：${section.id}`);

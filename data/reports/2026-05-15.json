@@ -6,9 +6,9 @@
     "sources": 133,
     "fetched": 889,
     "emailCandidates": 0,
-    "selected": 12,
+    "selected": 16,
     "failures": 1,
-    "itemCount": 12
+    "itemCount": 16
   },
   "sections": [
     {
@@ -299,6 +299,98 @@
           "whyItMatters": "大额资金 + 模型额度 + 技术支持的组合，通常会推动一批真实落地项目出现，也会反向影响“AI for social good”在安全、评估与治理上的标准化实践。",
           "tags": [],
           "score": 59
+        },
+        {
+          "title": "How we built the Codex sandbox for Windows:",
+          "titleZh": "Greg Brockman：Codex Windows 沙箱的关键问题是“可用性”和“机器权限”之间的平衡",
+          "link": "https://x.com/gdb/status/2054744721570820444",
+          "publishedAt": "Thu, 14 May 2026 02:04:51 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "How we built the Codex sandbox for Windows: OpenAI Developers @OpenAIDevs To bring Codex to Windows, we had to answer a hard question: how do you let coding agents stay useful without forcing developers to choose between constant approval prompts and full machine access? Here’s how we built the Windows sandbox for Codex: openai.com/index/building…",
+          "summaryZh": "**Greg Brockman** 转发 OpenAI Developers 关于 **Codex Windows 沙箱**的说明，重点不是“Codex 支持 Windows”这一个功能点，而是代码代理上桌面系统后必须解决的权限问题：如果每一步都弹审批，代理会变得难用；如果直接给完整机器权限，安全边界又太大。Windows 沙箱的设计目标，是让代理能持续执行有用的开发任务，同时把文件系统、命令执行和潜在危险操作限制在可控范围内。\n\n这条值得放进社媒观察，因为它解释了代码代理从演示走向日常开发时真正会卡住的工程问题：**权限、沙箱、审批频率、开发体验**需要一起设计，不能只看模型是否会写代码。",
+          "whyItMatters": "这条社媒信号有助于理解代码代理产品背后的安全与工程取舍。",
+          "tags": [
+            "Codex",
+            "沙箱",
+            "Windows",
+            "开发者工具"
+          ],
+          "score": 53.8
+        },
+        {
+          "title": "Introducing the updated Token-Efficient Memory algorithm with Temporal Reasoning",
+          "titleZh": "mem0 更新 Token-Efficient Memory：加入时间推理与记忆衰减",
+          "link": "https://x.com/mem0ai/status/2054963921879245194",
+          "publishedAt": "Thu, 14 May 2026 16:35:53 GMT",
+          "source": "mem0(@mem0ai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HISwQSraUAA20jf.jpg",
+          "video": "",
+          "summary": "Introducing the updated Token-Efficient Memory algorithm with Temporal Reasoning. This release improves both temporal reasoning and multi-session reasoning: +3.8 pts on temporal reasoning and +1.5 pts on multi-session at top_200 with new features Temporal Reasoning and Memory Decay. Mem0 now reaches 92.5 on LoCoMo and 94.4 on LongMemEval.",
+          "summaryZh": "**mem0** 更新了 Token-Efficient Memory 算法，新增 **Temporal Reasoning** 和 **Memory Decay**，目标是让长期记忆系统更会处理“时间先后”和“多轮会话之间的状态变化”。官方给出的结果是：在 top_200 设置下，时间推理提升 **+3.8 分**，多会话推理提升 **+1.5 分**；并称 mem0 在 **LoCoMo 达到 92.5**、在 **LongMemEval 达到 94.4**。\n\n这条的价值在于，Agent 记忆不只是“把历史聊天存起来再检索”。真实使用里，旧信息会过期，用户偏好会变化，同一实体在不同时间点的状态可能冲突；如果记忆系统不理解时间，长周期 Agent 很容易把过时信息当成当前事实。",
+          "whyItMatters": "这条社媒信号体现了 Agent 记忆系统从简单检索走向时间建模。",
+          "tags": [
+            "Agent",
+            "记忆",
+            "时间推理",
+            "评测"
+          ],
+          "score": 52.3
+        },
+        {
+          "title": "OpenAI 把 Codex 搬进了 ChatGPT 手机 App，今天在 iOS 和安卓上同步开启 preview...",
+          "titleZh": "宝玉解读 Codex 手机端：手机不是写代码入口，而是长任务的远程审批台",
+          "link": "https://x.com/dotey/status/2055029251762422196",
+          "publishedAt": "Thu, 14 May 2026 20:55:28 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-05-15-2055029251762422196.mp4",
+          "summary": "OpenAI 把 Codex 搬进了 ChatGPT 手机 App，今天在 iOS 和安卓上同步开启 preview。手机端不是让你在手机上写代码，真正干活的 Codex 还是跑在笔记本、Mac mini 或 devbox 上，手机只是远程窗口：看进度、审 diff、跑测试结果、批准下一步操作。",
+          "summaryZh": "宝玉对 **Codex 进入 ChatGPT 手机端**做了一个更接近使用场景的解释：手机端不是让开发者在小屏幕上写代码，而是给长时间运行的 Codex 任务提供一个远程窗口。用户可以在地铁、路上或离开电脑时查看任务进度、审 diff、看测试结果、批准下一步操作，真正执行仍然发生在笔记本、Mac mini 或 devbox 上。\n\n这条补充了官方发布里容易被忽略的产品含义：当代码代理开始跑几十分钟甚至几小时的长任务，“随时看一眼并拍板”会变成关键交互。宝玉还提到当前限制是 **手机端目前只能连接 macOS 上的 Codex**，Windows 支持还要等待。",
+          "whyItMatters": "这条社媒解读补充了 Codex 手机端对长任务工作流的实际意义和限制。",
+          "tags": [
+            "Codex",
+            "移动端",
+            "代码代理",
+            "工作流"
+          ],
+          "score": 51.3
+        },
+        {
+          "title": "New course: Transformers in Practice. You'll get a practical view of how transformer-based LLMs work...",
+          "titleZh": "Andrew Ng 新课：从实践角度理解 Transformer、推理延迟与部署决策",
+          "link": "https://x.com/AndrewYNg/status/2054964560403300359",
+          "publishedAt": "Thu, 14 May 2026 16:38:25 GMT",
+          "source": "Andrew Ng(@AndrewYNg)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-05-15-2054964560403300359.mp4",
+          "summary": "New course: Transformers in Practice. You'll get a practical view of how transformer-based LLMs work, so you can reason about their behavior, diagnose problems like slow inference, and make smarter decisions about deployment. This course is built in partnership with AMD and taught by Sharon Zhou.",
+          "summaryZh": "**Andrew Ng** 发布新课 **Transformers in Practice**，定位不是从数学推导完整重讲 Transformer，而是帮助开发者从实践角度理解 LLM 如何逐 token 生成文本、注意力机制如何决定哪些上下文更重要，以及量化等技术为什么能提升 GPU 推理效率。课程由 DeepLearning.AI 与 **AMD** 合作，Sharon Zhou 授课。\n\n这条适合放在社媒观察，因为它反映了一个需求变化：很多团队已经不满足于“会调用模型 API”，而是需要理解模型行为、推理慢在哪里、部署时哪些技术会影响成本和延迟。",
+          "whyItMatters": "这条社媒信号说明 AI 工程学习正在从使用 API 转向理解模型部署机制。",
+          "tags": [
+            "Transformer",
+            "部署",
+            "推理性能",
+            "课程"
+          ],
+          "score": 49.8
         }
       ]
     },
@@ -316,10 +408,10 @@
     }
   ],
   "summaryBullets": [
-    "OpenAI 为 Codex 增加 **Hooks** 与 **可编程访问令牌**，让企业把代理接入 CI、合规扫描、审计记录和内部自动化。",
-    "Codex 在 **ChatGPT 手机端** 进入预览：可在手机上发起、审阅与批准任务，本地开发机继续执行不中断。",
-    "xAI 推出 **Grok Build** 早期 beta：智能体式 CLI，面向订阅用户覆盖写代码、构建应用与工作流自动化。",
-    "研究侧：**Seg-Agent** 与 **PanoWorld** 分别探索免训练视觉推理闭环与 360° 全景原生空间理解，重点看后续开源和复现。",
-    "开源侧：GitHub Trending 出现多个 **Agent 记忆/技能/科研技能包** 项目，说明开发者开始把工程经验沉淀成可加载的代理能力。"
+    "OpenAI 为 Codex 增加 **Hooks**、**可编程访问令牌**和手机端预览，代码代理正在从 IDE 工具变成可远程审批、可接入 CI/合规流程的工程基础设施。",
+    "xAI 推出 **Grok Build** 早期 beta，继续把智能体式 CLI 推向编码、应用构建和工作流自动化场景。",
+    "研究侧出现两条值得跟进的论文线索：**Seg-Agent** 用免训练视觉推理闭环处理语言引导分割，**PanoWorld** 面向 360° 全景做原生空间理解。",
+    "开源侧 GitHub Trending 出现多个 **Agent 记忆/技能/科研技能包**项目，说明开发者正在把经验沉淀成可加载、可复用的代理能力。",
+    "社媒侧的讨论集中在 **Agent 沙箱安全、长期记忆、移动端远程审批和 Transformer 部署理解**，这些都指向同一个趋势：AI 工具正在进入更长周期、更工程化的日常工作流。"
   ]
 }
