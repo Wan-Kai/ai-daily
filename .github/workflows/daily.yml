@@ -11,6 +11,7 @@ on:
       - "data/curation-sources.json"
       - "data/curation-rejections.json"
       - "data/sources.json"
+      - "public/media/**"
       - "scripts/**"
       - "package.json"
       - ".github/workflows/daily.yml"
