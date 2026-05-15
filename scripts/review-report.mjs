@@ -166,6 +166,18 @@ function validateMediaCoverage(issues, report) {
   }
 }
 
+function validateOpenSourceCoverage(issues, report) {
+  const openSourceSection = report.sections?.find((section) => section.id === "open_source_top");
+  if (!openSourceSection || (openSourceSection.items || []).length > 0) return;
+
+  const failedOpenSourceSources = (report.failures || [])
+    .filter((failure) => /github trending|hellogithub|逛逛github|开源/i.test(`${failure.source || ""} ${failure.url || ""}`));
+
+  if (failedOpenSourceSources.length > 0) {
+    add(issues, null, `开源项目为空，但开源信息源抓取失败：${failedOpenSourceSources.map((failure) => failure.source).join("、")}。需要先修复抓取/代理或人工确认后再发布。`);
+  }
+}
+
 async function validateVideo(issues, item) {
   if (!item.video) return;
   if (/video\.twimg\.com/i.test(item.video)) {
@@ -240,6 +252,7 @@ async function main() {
   validateSectionOrder(issues, report);
   validateDailySummary(issues, report);
   validateMediaCoverage(issues, report);
+  validateOpenSourceCoverage(issues, report);
 
   for (const section of report.sections || []) {
     if (!REQUIRED_SECTIONS.has(section.id)) add(issues, null, `未知栏目：${section.id}`);

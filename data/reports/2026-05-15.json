@@ -6,9 +6,9 @@
     "sources": 133,
     "fetched": 889,
     "emailCandidates": 0,
-    "selected": 30,
-    "failures": 3,
-    "itemCount": 8
+    "selected": 12,
+    "failures": 1,
+    "itemCount": 12
   },
   "sections": [
     {
@@ -96,7 +96,7 @@
           "image": "",
           "video": "",
           "summary": "arXiv:2605.12953v1 Announce Type: cross Abstract: Language-guided segmentation transcends the scope limitations of traditional semantic segmentation, enabling models to segment arbitrary target regions based on natural language instructions. Existing approaches typically adopt a two-stage framework: employing Multimodal Large Language Models (MLLMs) to interpret instructions and generate visual prompts, followed by foundational segmentation models (e.g., SAM) to produce masks. However, due to the limited spatial...",
-          "summaryZh": "**核心结论**\n提出 Seg-Agent：一个 **完全免训练** 的语言引导分割框架，让多模态大模型在“视觉域”里做显式推理，而不是只在文本里做链式思考。\n\n**支撑证据**\n方法用三段循环（生成/选择/精炼）构建交互式推理流程：先用 **Set-of-Mark（SoM）** 把候选区域直接渲染到图像上，再让 MLLM “看见”候选并迭代判断空间关系；论文还提出 **Various-LangSeg** 基准覆盖显式语义、泛化目标与推理引导分割等场景，并声称在不做参数更新的前提下达到与训练式方法相近的效果。\n\n**我的判断**\n价值在于把“视觉反馈”纳入推理闭环，可能更适合零样本/跨域场景；但可复现性与对不同 MLLM/SAM 版本的敏感性仍需进一步验证，尤其是渲染提示与候选生成策略对结果的影响。",
+          "summaryZh": "**核心结论**\nSeg-Agent 解决的是“语言指令分割”里一个很具体的问题：当用户说“左边穿红衣服的人”“离杯子最近的物体”这类带空间关系、语义约束或推理步骤的目标时，传统分割模型通常只把文字编码成条件，很难真的逐步检查候选区域。论文提出的办法是把候选区域直接标到图像上，让多模态大模型在图像里反复看、选、改，形成一个 **免训练的视觉推理闭环**。\n\n**支撑证据**\n方法分成 **生成、选择、精炼** 三步：先由分割/检测模块生成候选区域，再用 **Set-of-Mark（SoM）** 把候选编号画回图像，让 MLLM 根据语言指令和可见标记判断哪个区域更符合要求，最后继续细化掩码。论文还构建 **Various-LangSeg** 基准，覆盖显式语义、泛化目标、空间关系和推理引导分割等场景，并声称在不更新参数的前提下，可以接近或超过部分需要训练的分割方法。\n\n**我的判断**\n这篇论文值得关注的点不只是“又一个分割方法”，而是把 **视觉反馈** 放进推理循环：模型不再只输出一段解释，而是每一步都能看到候选区域和上一步结果。它可能适合零样本、跨域和数据不足的场景；需要继续验证的是，它对底层 MLLM、SAM/检测器和 SoM 标注策略有多敏感，以及真实复杂图像里迭代成本是否可接受。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "模型",
@@ -120,7 +120,7 @@
           "image": "",
           "video": "",
           "summary": "arXiv:2605.13169v1 Announce Type: cross Abstract: Multimodal large laboratory models (MLLMs) still struggle with spatial understanding under the dominant perspective-image paradigm, which inherits the narrow field of view of human-like perception. For navigation, robotic search, and 3D scene understanding, 360-degree panoramic sensing offers a form of supersensing by capturing the entire surrounding environment at once. However, existing MLLM pipelines typically decompose panoramas into multiple perspective view...",
-          "summaryZh": "**核心结论**\n作者提出 PanoWorld，试图让多模态大模型在 **360° equirectangular panorama（ERP）** 上进行“全景原生”空间理解，而不是把全景拆成多张透视图再拼。\n\n**支撑证据**\n论文定义全景原生理解的关键能力：语义锚定、球面定位、参考系变换、结合深度的 3D 空间推理；并构建数据流水线把多来源 ERP 全景转为几何/语言/深度对齐的监督信号。模型侧引入 **Spherical Spatial Cross-Attention** 把球面几何注入视觉流；评测侧提出 **PanoSpace-Bench**，并报告在 PanoSpace-Bench、H* Bench、R2R-CE Val-Unseen 等上优于若干专有/开源基线。作者称代码与数据将开源。\n\n**我的判断**\n全景输入对导航、机器人搜索、3D 场景理解有直接价值；但“全景原生”带来的收益是否能在通用 MLLM 上复用，以及训练/数据成本与下游收益的性价比，需要等开源与复现实验进一步确认。",
+          "summaryZh": "**核心结论**\nPanoWorld 面向的是 360° 全景图理解中的“空间原生”问题。普通多模态模型通常把全景图切成多张普通视角图，再分别理解和拼接，这会丢掉球面几何、方向连续性和跨视角空间关系。论文提出的目标是让模型直接在 **equirectangular panorama（ERP）** 上理解“物体在哪里、相对我是什么方向、跨视角如何对应、和深度/导航有什么关系”。\n\n**支撑证据**\n论文把全景空间理解拆成几类能力：**语义锚定**、**球面定位**、**参考系变换**、**结合深度的 3D 推理**。数据侧，它构建流水线，把多来源 ERP 全景处理成几何、语言和深度对齐的监督信号；模型侧，引入 **Spherical Spatial Cross-Attention**，把球面几何信息注入视觉特征；评测侧，提出 **PanoSpace-Bench**，并在 PanoSpace-Bench、H* Bench、R2R-CE Val-Unseen 等任务上和专有/开源基线比较。作者表示代码与数据会开源。\n\n**我的判断**\n这类工作对机器人导航、室内搜索、VR/AR 和 3D 场景问答很有价值，因为这些任务天然需要“环顾四周”的连续空间感。它的风险在于训练数据和评测是否足够真实：如果主要依赖合成/转换数据，模型可能学到的是全景格式技巧，而不是真正稳健的空间推理。后续应重点看开源数据质量、复现难度和下游机器人任务收益。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "产品发布",
@@ -144,10 +144,12 @@
           "image": "",
           "video": "",
           "summary": "Our views on the AI competition between the US and China.",
-          "summaryZh": "**核心结论**\nAnthropic 发布观点文《**2028：全球 AI 领导力的两种情景**》，讨论 **美国与中国在前沿 AI 上的竞争**，并以情景推演方式描述到 2028 年可能出现的两条路径。\n\n**支撑证据**\n官方页面摘要明确其主题是“我们对美中 AI 竞争的看法”（Our views on the AI competition between the US and China），并以“美国与民主盟友目前领先”为出发点，讨论维持领先所需的条件与策略。\n\n**我的判断**\n这类“情景推演 + 战略假设”会影响政策与企业叙事，但落地价值取决于它把关键变量说得多具体（算力与供应链、人才与组织能力、安全治理与部署节奏等）。建议结合原文细节再判断哪些假设最值得优先验证。",
+          "summaryZh": "**核心要点**\nAnthropic 这篇《**2028：全球 AI 领导力的两种情景**》不是论文，更像一份政策与产业观点文。它想回答的问题是：如果前沿 AI 能力继续快速上升，到 2028 年，美国及其盟友怎样维持领先；如果领先优势被削弱，全球 AI 竞争、安全治理和产业部署会走向什么结果。文章用“两种情景”来组织讨论，本质是在给政策制定者、企业和研究机构提供一套判断变量。\n\n**展开说明**\n文章的出发点是 **美国与民主盟友目前仍处于领先位置**，但这种领先并不会自动延续。它强调的变量包括：先进算力与供应链控制、前沿模型部署速度、人才和组织能力、安全评估与治理机制、以及盟友之间能否形成可信的 AI 基础设施与应用生态。两种情景的差异，主要不在于“谁发布一个更强模型”，而在于领先方能否把技术优势转化成可持续的产业、安全和制度优势。\n\n**我的判断**\n这类文章的价值不在单个事实，而在它会影响 Anthropic 以及相关政策圈如何讲述 AI 竞争。读它时不应只看结论，更要看它把哪些变量列为关键杠杆：算力、供应链、部署节奏、盟友生态、治理能力。对企业来说，这些变量也可以反过来检查自身战略：是否有稳定算力、是否能快速部署、是否有安全评估机制，以及是否能在政策变化中保持业务连续性。",
           "whyItMatters": "对政策与产业来说，情景推演常会变成共识框架并影响资源配置；对从业者来说，它提供了一份可用来审视自身短板的变量清单。",
           "tags": [
-            "论文"
+            "观点",
+            "AI治理",
+            "产业战略"
           ],
           "score": 60,
           "sourceWeight": 5
@@ -157,7 +159,104 @@
     {
       "id": "open_source_top",
       "title": "开源项目",
-      "items": []
+      "items": [
+        {
+          "title": "rohitg00/agentmemory",
+          "titleZh": "agentmemory：面向 AI 编码代理的持久记忆层",
+          "link": "https://github.com/rohitg00/agentmemory",
+          "publishedAt": "2026-05-14T23:44:09.819Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+          "summaryZh": "**agentmemory** 是 GitHub 今日趋势里的 AI 编码代理记忆项目，定位是给 coding agents 提供 **持久记忆**：把项目约定、历史决策、用户偏好、踩坑记录等沉淀下来，避免代理每次启动都像“失忆”。\n\n它值得关注的原因是，当前 Claude Code、Codex、Cursor 等工具的瓶颈越来越多地出现在长期上下文和跨任务连续性上。如果这个项目的 benchmark 和接入方式足够扎实，它可能成为“代理工程化”的基础组件，而不只是一个记事本式插件。",
+          "whyItMatters": "长期记忆是代码代理从一次性任务走向持续协作的关键能力。",
+          "tags": [
+            "GitHub Trending",
+            "Agent",
+            "记忆",
+            "开发者工具"
+          ],
+          "score": 66,
+          "sourceWeight": 7
+        },
+        {
+          "title": "obra/superpowers",
+          "titleZh": "superpowers：把 Agent Skills 组织成软件开发方法论",
+          "link": "https://github.com/obra/superpowers",
+          "publishedAt": "2026-05-14T23:44:09.819Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "An agentic skills framework & software development methodology that works.",
+          "summaryZh": "**superpowers** 不是单纯的 prompt 集合，而是把 **Agent Skills**、开发流程和项目方法论组织成一套可复用框架。它试图解决的问题是：AI 编码代理能力很强，但团队缺少稳定的“怎么让代理按同一套工程习惯工作”的方法。\n\n从趋势信号看，这类项目说明开发者正在从“让 AI 写代码”转向“给 AI 配工作制度”：技能、约束、检查清单、项目上下文和复盘机制都会变成仓库的一部分。后续需要看它的技能格式是否通用、是否能和 Claude Code/Codex 等主流工具自然协作。",
+          "whyItMatters": "Agent Skills 可能成为团队沉淀工程经验的新载体。",
+          "tags": [
+            "GitHub Trending",
+            "Agent Skills",
+            "软件工程",
+            "开发流程"
+          ],
+          "score": 64,
+          "sourceWeight": 7
+        },
+        {
+          "title": "K-Dense-AI/scientific-agent-skills",
+          "titleZh": "scientific-agent-skills：面向科研/工程分析的 Agent 技能包",
+          "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "publishedAt": "2026-05-14T23:44:09.819Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "A set of ready to use Agent Skills for research, science, engineering, analysis.",
+          "summaryZh": "**scientific-agent-skills** 提供一组面向研究、科学、工程和分析任务的现成 Agent Skills。相比通用聊天提示，它更强调把某类专业任务拆成可复用技能，让代理在查资料、做分析、写报告或处理工程问题时有固定工作方式。\n\n这个项目值得放进开源观察，是因为“专业技能包”可能是 Agent 落地的重要形态：团队不一定每次都训练模型，但可以持续积累任务流程、检查标准和领域知识。审核重点应放在技能是否具体、是否有真实案例、是否能直接被主流代理工具加载。",
+          "whyItMatters": "专业 Agent 技能包有机会把个人经验变成团队可共享的自动化资产。",
+          "tags": [
+            "GitHub Trending",
+            "Agent Skills",
+            "科研工具",
+            "工程分析"
+          ],
+          "score": 62,
+          "sourceWeight": 7
+        },
+        {
+          "title": "shiyu-coder/Kronos",
+          "titleZh": "Kronos：面向金融市场语言的基础模型",
+          "link": "https://github.com/shiyu-coder/Kronos",
+          "publishedAt": "2026-05-14T23:44:09.819Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Kronos: A Foundation Model for the Language of Financial Markets",
+          "summaryZh": "**Kronos** 把金融市场数据看成一种“语言”，尝试构建面向市场序列的基础模型。它在 GitHub Trending 出现，说明开发者对垂直领域 foundation model 仍有较强兴趣，尤其是金融这种高噪声、高时序性、强风险约束的场景。\n\n这类项目的关键不在标题里的“Foundation Model”，而在数据处理、评测口径和回测可靠性：如果只在历史数据上拟合，很容易产生看似有效但无法交易的结果。建议后续重点看是否提供清晰数据集、训练方式、评测基准和风险控制说明。",
+          "whyItMatters": "垂直领域基础模型会越来越多，但金融类项目尤其需要严格评测和风险边界。",
+          "tags": [
+            "GitHub Trending",
+            "金融模型",
+            "Foundation Model",
+            "时序数据"
+          ],
+          "score": 59,
+          "sourceWeight": 7
+        }
+      ]
     },
     {
       "id": "social_shares",
@@ -211,26 +310,16 @@
   ],
   "failures": [
     {
-      "source": "GitHub Trending Daily",
-      "url": "https://github.com/trending?since=daily",
-      "error": "This operation was aborted"
-    },
-    {
-      "source": "GitHub Trending Weekly",
-      "url": "https://github.com/trending?since=weekly",
-      "error": "This operation was aborted"
-    },
-    {
       "source": "AWS Machine Learning Blog",
       "url": "https://aws.amazon.com/blogs/amazon-ai/feed/",
       "error": "fetch failed"
     }
   ],
   "summaryBullets": [
-    "OpenAI 为 Codex 增加 **Hooks** 与 **可编程访问令牌**，让企业把代理更深接入 CI、合规扫描与审计流水线。",
+    "OpenAI 为 Codex 增加 **Hooks** 与 **可编程访问令牌**，让企业把代理接入 CI、合规扫描、审计记录和内部自动化。",
     "Codex 在 **ChatGPT 手机端** 进入预览：可在手机上发起、审阅与批准任务，本地开发机继续执行不中断。",
     "xAI 推出 **Grok Build** 早期 beta：智能体式 CLI，面向订阅用户覆盖写代码、构建应用与工作流自动化。",
-    "Perplexity **Computer** 接入 **Snowflake**，强调对实时数仓给出可追溯答案（SQL、源表、过滤条件与指标口径）。",
-    "研究侧：Seg-Agent 与 PanoWorld 两篇论文分别探索 **免训练视觉推理闭环** 与 **360° 全景原生空间推理**，值得跟进开源与复现。"
+    "研究侧：**Seg-Agent** 与 **PanoWorld** 分别探索免训练视觉推理闭环与 360° 全景原生空间理解，重点看后续开源和复现。",
+    "开源侧：GitHub Trending 出现多个 **Agent 记忆/技能/科研技能包** 项目，说明开发者开始把工程经验沉淀成可加载的代理能力。"
   ]
 }

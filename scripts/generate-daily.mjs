@@ -338,7 +338,7 @@ async function fetchTextWithProxyFallback(url, timeoutMs = 15000) {
   try {
     return await fetchText(url, timeoutMs);
   } catch (error) {
-    if (!/huggingface\.co/i.test(url)) throw error;
+    if (!/(huggingface\.co|github\.com|github\.blog|arxiv\.org|google|amazonaws\.com|aws\.amazon\.com)/i.test(url)) throw error;
     return fetchTextViaCurlProxy(url, timeoutMs, error);
   }
 }
@@ -376,7 +376,7 @@ async function fetchTextViaCurlProxy(url, timeoutMs, originalError) {
     }
   }
 
-  throw new Error(`Hugging Face 直连失败，代理兜底也失败：${originalError.message}; ${errors.join("; ")}`);
+  throw new Error(`直连失败，代理兜底也失败：${originalError.message}; ${errors.join("; ")}`);
 }
 
 async function fetchBinary(url, timeoutMs = 8000) {
@@ -545,7 +545,7 @@ async function chooseBestMedia(sections) {
 }
 
 async function fetchRssSource(source) {
-  const xml = await fetchText(source.url, source.timeoutMs ?? 15000);
+  const xml = await fetchTextWithProxyFallback(source.url, source.timeoutMs ?? 15000);
   return parseFeed(xml, source).filter((item) => isRecent(item));
 }
 
@@ -579,7 +579,7 @@ async function fetchHuggingFacePapers(source) {
 }
 
 async function fetchGitHubTrending(source) {
-  const html = await fetchText(source.url, source.timeoutMs ?? 20000);
+  const html = await fetchTextWithProxyFallback(source.url, source.timeoutMs ?? 20000);
   const rows = [...html.matchAll(/<article[\s\S]*?Box-row[\s\S]*?<\/article>/gi)].map((match) => match[0]);
   return rows.slice(0, source.limit ?? 12).map((row) => {
     const repoPath = stripHtml(row.match(/<h2[\s\S]*?<a[^>]+href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/i)?.[2] || "").replace(/\s+/g, "");
