@@ -76,6 +76,10 @@ function sectionCounts(report) {
     .join(" / ");
 }
 
+function searchText(value) {
+  return escapeHtml(String(value || "").replace(/\s+/g, " ").trim());
+}
+
 function renderItem(item, index) {
   const title = item.titleZh || item.title;
   const summary = item.summaryZh || item.summary;
@@ -175,9 +179,15 @@ function renderDirectoryRows(reports) {
     const summary = (report.summaryBullets || [])
       .map((item) => `<li>${renderInlineMarkdown(item)}</li>`)
       .join("");
+    const searchable = [
+      report.date,
+      reportTitle(report),
+      sectionCounts(report),
+      ...(report.summaryBullets || [])
+    ].join(" ");
 
     return `
-      <article class="directory-item">
+      <article class="directory-item archive-entry" data-search="${searchText(searchable)}">
         <a href="./${escapeHtml(report.date)}.html">
           <time>${escapeHtml(report.date)}</time>
           <div class="directory-content">
@@ -196,6 +206,10 @@ function curationDate(item) {
   return item.selectedAt || item.publishedAt || "待定";
 }
 
+function curationYear(item) {
+  return String(item.publishedAt || item.selectedAt || "").match(/\d{4}/)?.[0] || "待定";
+}
+
 function renderCurationLinks(item, type) {
   const links = [];
   if (type === "podcasts" && item.transcriptPath) {
@@ -210,7 +224,7 @@ function renderCurationLinks(item, type) {
   return links.length ? `<p class="curation-links">${links.join(" · ")}</p>` : "";
 }
 
-function renderCurationItems(items, type) {
+function renderCurationItems(items, type, options = {}) {
   if (!items.length) {
     const label = {
       papers: "精选论文",
@@ -233,9 +247,41 @@ function renderCurationItems(items, type) {
       .map((takeaway) => `<li>${renderInlineMarkdown(takeaway)}</li>`)
       .join("");
     const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
+    const tagText = (item.tags || []).join("、");
+    const searchable = [
+      title,
+      item.title,
+      item.source,
+      item.author,
+      item.publishedAt,
+      item.selectedAt,
+      item.duration,
+      item.summaryZh,
+      tagText
+    ].join(" ");
+
+    if (options.compactPapers) {
+      return `
+      <article class="curation-item paper-index-item archive-entry" data-search="${searchText(searchable)}">
+        <time>${escapeHtml(curationYear(item))}</time>
+        <div class="curation-content">
+          <details class="paper-details">
+            <summary>
+              <span class="paper-title">${escapeHtml(title)}</span>
+              <span class="paper-index-meta">${escapeHtml(curationYear(item))} / ${escapeHtml(item.source || "待补充来源")}${tagText ? ` / ${escapeHtml(tagText)}` : ""}</span>
+            </summary>
+            ${item.summaryZh ? `<div class="curation-summary">${String(item.summaryZh).split(/\n+/).map((paragraph) => paragraph.trim()).filter(Boolean).map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`).join("")}</div>` : ""}
+            ${takeaways ? `<ol class="curation-takeaways">${takeaways}</ol>` : ""}
+            ${renderCurationLinks(item, type)}
+            ${tags ? `<div class="curation-tags">${tags}</div>` : ""}
+          </details>
+        </div>
+      </article>
+    `;
+    }
 
     return `
-      <article class="curation-item">
+      <article class="curation-item archive-entry" data-search="${searchText(searchable)}">
         <time>${escapeHtml(curationDate(item))}</time>
         <div class="curation-content">
           <h3><a href="${escapeHtml(titleHref)}"${titleTarget}>${escapeHtml(title)}</a></h3>
@@ -525,39 +571,116 @@ function renderIndexPage(reports, curation) {
       <button type="button" data-tab="podcasts">精选播客</button>
       <button type="button" data-tab="blogs">精选博客</button>
     </nav>
-    <section class="directory tab-panel active" id="tab-daily">
+    <aside class="archive-tools" aria-label="筛选工具">
+      <label>
+        <span>搜索</span>
+        <input id="archive-search" type="search" placeholder="搜索标题、来源、摘要" autocomplete="off">
+      </label>
+      <div class="archive-status" id="archive-status">显示全部条目</div>
+    </aside>
+    <section class="directory tab-panel active" id="tab-daily" data-page-size="6">
       <h2>每日简报</h2>
       <div class="directory-list">${renderDirectoryRows(reports)}</div>
+      <nav class="archive-pagination" aria-label="每日简报分页"></nav>
     </section>
-    <section class="directory tab-panel" id="tab-papers">
+    <section class="directory tab-panel" id="tab-papers" data-page-size="8">
       <h2>精选论文</h2>
-      <div class="curation-list">${renderCurationItems(curation.papers, "papers")}</div>
+      <div class="curation-list">${renderCurationItems(curation.papers, "papers", { compactPapers: true })}</div>
+      <nav class="archive-pagination" aria-label="精选论文分页"></nav>
     </section>
-    <section class="directory tab-panel" id="tab-podcasts">
+    <section class="directory tab-panel" id="tab-podcasts" data-page-size="5">
       <h2>精选播客</h2>
       <div class="curation-list">${renderPodcastItems(curation.podcasts)}</div>
+      <nav class="archive-pagination" aria-label="精选播客分页"></nav>
     </section>
-    <section class="directory tab-panel" id="tab-blogs">
+    <section class="directory tab-panel" id="tab-blogs" data-page-size="5">
       <h2>精选博客</h2>
       <div class="curation-list">${renderCurationItems(curation.blogs, "blogs")}</div>
+      <nav class="archive-pagination" aria-label="精选博客分页"></nav>
     </section>
   </main>
   <script>
     const tabs = [...document.querySelectorAll(".archive-tabs button")];
     const panels = [...document.querySelectorAll(".tab-panel")];
+    const searchInput = document.getElementById("archive-search");
+    const archiveStatus = document.getElementById("archive-status");
+    const pageState = Object.fromEntries(panels.map((panel) => [panel.id, 1]));
 
     function activateTab(name) {
       tabs.forEach((tab) => tab.classList.toggle("active", tab.dataset.tab === name));
       panels.forEach((panel) => panel.classList.toggle("active", panel.id === "tab-" + name));
       if (location.hash !== "#" + name) history.replaceState(null, "", "#" + name);
+      renderArchivePanel();
+    }
+
+    function activePanel() {
+      return panels.find((panel) => panel.classList.contains("active")) || panels[0];
+    }
+
+    function normalizeText(value) {
+      return String(value || "").toLowerCase().replace(/\\s+/g, " ").trim();
+    }
+
+    function pageButton(label, page, active) {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = label;
+      button.className = active ? "active" : "";
+      button.addEventListener("click", () => {
+        pageState[activePanel().id] = page;
+        renderArchivePanel();
+      });
+      return button;
+    }
+
+    function renderArchivePanel() {
+      const panel = activePanel();
+      const query = normalizeText(searchInput.value);
+      const entries = [...panel.querySelectorAll(".archive-entry")];
+      const matched = entries.filter((entry) => normalizeText(entry.dataset.search).includes(query));
+      const pageSize = Number(panel.dataset.pageSize || 8);
+      const pageCount = Math.max(1, Math.ceil(matched.length / pageSize));
+      const currentPage = Math.min(pageState[panel.id] || 1, pageCount);
+      pageState[panel.id] = currentPage;
+      const start = (currentPage - 1) * pageSize;
+      const visible = new Set(matched.slice(start, start + pageSize));
+
+      entries.forEach((entry) => {
+        entry.hidden = !visible.has(entry);
+      });
+      panel.querySelectorAll(".podcast-group").forEach((group) => {
+        group.hidden = ![...group.querySelectorAll(".archive-entry")].some((entry) => !entry.hidden);
+      });
+
+      const pagination = panel.querySelector(".archive-pagination");
+      if (pagination) {
+        pagination.innerHTML = "";
+        if (pageCount > 1) {
+          pagination.append(pageButton("上一页", Math.max(1, currentPage - 1), false));
+          for (let page = 1; page <= pageCount; page += 1) {
+            pagination.append(pageButton(String(page), page, page === currentPage));
+          }
+          pagination.append(pageButton("下一页", Math.min(pageCount, currentPage + 1), false));
+        }
+      }
+
+      archiveStatus.textContent = query
+        ? "找到 " + matched.length + " 条，当前第 " + currentPage + " / " + pageCount + " 页"
+        : "共 " + matched.length + " 条，当前第 " + currentPage + " / " + pageCount + " 页";
     }
 
     tabs.forEach((tab) => {
       tab.addEventListener("click", () => activateTab(tab.dataset.tab));
     });
 
+    searchInput.addEventListener("input", () => {
+      pageState[activePanel().id] = 1;
+      renderArchivePanel();
+    });
+
     const initialTab = location.hash.replace("#", "");
     if (tabs.some((tab) => tab.dataset.tab === initialTab)) activateTab(initialTab);
+    renderArchivePanel();
   </script>
 </body>
 </html>`;
@@ -1066,12 +1189,17 @@ h1 {
 }
 
 .archive-tabs {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
   margin: 34px 0 0;
-  padding-bottom: 18px;
+  padding: 10px 0 18px;
   border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(251, 250, 245, .98), rgba(251, 250, 245, .92));
+  backdrop-filter: blur(8px);
   font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
 }
 
@@ -1100,6 +1228,56 @@ h1 {
 
 .tab-panel.active {
   display: block;
+}
+
+.archive-tools {
+  position: sticky;
+  top: 57px;
+  z-index: 19;
+  display: grid;
+  grid-template-columns: minmax(220px, 1fr) auto;
+  align-items: end;
+  gap: 18px;
+  margin: 0 0 30px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(251, 250, 245, .96), rgba(251, 250, 245, .9));
+  backdrop-filter: blur(8px);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+}
+
+.archive-tools label {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .04em;
+}
+
+.archive-tools input {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  background: rgba(255, 255, 255, .48);
+  color: var(--ink);
+  font: inherit;
+  font-size: 15px;
+  padding: 11px 12px;
+  outline: none;
+}
+
+.archive-tools input:focus {
+  border-color: var(--accent);
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+.archive-status {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  padding-bottom: 12px;
+  white-space: nowrap;
 }
 
 .directory h2 {
@@ -1206,6 +1384,54 @@ h1 {
   text-decoration: none;
 }
 
+.paper-details {
+  border: 0;
+}
+
+.paper-details summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.paper-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.paper-details summary::before {
+  content: "+";
+  display: inline-grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  margin-right: 10px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  vertical-align: 3px;
+}
+
+.paper-details[open] summary::before {
+  content: "-";
+}
+
+.paper-title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.25;
+}
+
+.paper-index-meta {
+  display: block;
+  margin: 9px 0 0 34px;
+  color: var(--muted);
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
 .curation-meta {
   margin: 8px 0 0;
   color: var(--muted);
@@ -1266,6 +1492,38 @@ h1 {
 
 .curation-tags span::before {
   content: "#";
+  color: var(--accent);
+}
+
+.archive-pagination {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-top: 28px;
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+}
+
+.archive-pagination:empty {
+  display: none;
+}
+
+.archive-pagination button {
+  border: 1px solid var(--line);
+  background: rgba(251, 250, 245, .78);
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 900;
+  min-width: 34px;
+  padding: 8px 10px;
+}
+
+.archive-pagination button:hover,
+.archive-pagination button.active {
+  border-color: var(--accent);
+  background: #f1eadb;
   color: var(--accent);
 }
 
@@ -1509,6 +1767,17 @@ h1 {
 
   .archive-tabs {
     margin-top: 26px;
+  }
+
+  .archive-tools {
+    top: 58px;
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .archive-status {
+    padding-bottom: 0;
+    white-space: normal;
   }
 
   .daily-summary ol {
