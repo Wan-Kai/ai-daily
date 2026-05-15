@@ -1285,7 +1285,7 @@ h1 {
 }
 
 .directory {
-  padding: 48px 0 70px;
+  padding: 26px 0 70px;
 }
 
 .archive-tabs {
@@ -1338,7 +1338,7 @@ h1 {
   grid-template-columns: minmax(280px, 1fr) auto auto;
   align-items: center;
   gap: 16px;
-  margin: 0 0 38px;
+  margin: 0 0 18px;
   padding: 16px 0 18px;
   border-bottom: 1px solid var(--line);
   background: linear-gradient(180deg, rgba(251, 250, 245, .96), rgba(251, 250, 245, .9));
