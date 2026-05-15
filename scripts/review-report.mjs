@@ -8,7 +8,7 @@ const REQUIRED_SECTIONS = new Map([
   ["research_frontier", "研究前线"],
   ["open_source_top", "开源项目"],
   ["social_shares", "社媒观察"],
-  ["practice_cases", "实践案例"]
+  ["extended_reading", "延伸阅读"]
 ]);
 const REQUIRED_SECTION_ORDER = [...REQUIRED_SECTIONS.keys()];
 const LOOKBACK_HOURS = 24;
@@ -114,7 +114,7 @@ async function previousReportDuplicateKeys(date) {
   return keys;
 }
 
-function validatePublishedWindow(issues, report, item) {
+function validatePublishedWindow(issues, report, section, item) {
   if (!item.publishedAt) {
     add(issues, item, "缺少发布时间，无法确认是否属于生成时间前 24 小时内的资讯。");
     return;
@@ -126,8 +126,9 @@ function validatePublishedWindow(issues, report, item) {
     return;
   }
   const ageMs = generatedAt.getTime() - publishedAt.getTime();
-  if (ageMs < 0 || ageMs > LOOKBACK_HOURS * 60 * 60 * 1000) {
-    add(issues, item, `发布时间不在生成时间前 ${LOOKBACK_HOURS} 小时内：${item.publishedAt}`);
+  const maxHours = section.id === "extended_reading" && item.sourceType === "podcast" ? 24 * 14 : LOOKBACK_HOURS;
+  if (ageMs < 0 || ageMs > maxHours * 60 * 60 * 1000) {
+    add(issues, item, `发布时间不在生成时间前 ${maxHours} 小时内：${item.publishedAt}`);
   }
 }
 
@@ -136,7 +137,7 @@ function validateSectionOrder(issues, report) {
   const requiredInReport = REQUIRED_SECTION_ORDER.filter((id) => sectionIds.includes(id));
   const actualRequiredOrder = sectionIds.filter((id) => REQUIRED_SECTIONS.has(id));
   if (actualRequiredOrder.join("|") !== requiredInReport.join("|")) {
-    add(issues, null, "栏目顺序不符合要求，应为：产品快讯、研究前线、开源项目、社媒观察、实践案例。");
+    add(issues, null, "栏目顺序不符合要求，应为：产品快讯、研究前线、开源项目、社媒观察、延伸阅读。");
   }
 }
 
@@ -227,8 +228,8 @@ function reviewItem(issues, section, item) {
   if (/Your browser does not support|View on Twitter|Powered by xgo\.ing|💬|🔄|❤️|👀|📊|来自.+的(?:资讯|社媒)/i.test(summaryZh)) {
     add(issues, item, "摘要包含播放器/社媒指标/模板前缀等不应展示给用户的噪音。");
   }
-  if ((section.id === "research_frontier" || section.id === "practice_cases") && !/核心结论|结论|要点|价值|支撑|结果|数据显示|案例/i.test(summaryZh)) {
-    add(issues, item, "研究/实践类摘要需要按金字塔原理写出核心结论与支撑信息。");
+  if (section.id === "research_frontier" && !/核心结论|结论|要点|价值|支撑|结果|数据显示|案例/i.test(summaryZh)) {
+    add(issues, item, "研究类摘要需要按金字塔原理写出核心结论与支撑信息。");
   }
   if (isPaper) {
     if (!/\*\*核心结论\*\*/.test(summaryZh) || !/\*\*支撑证据\*\*/.test(summaryZh) || !/\*\*我的判断\*\*/.test(summaryZh)) {
@@ -247,8 +248,8 @@ function reviewItem(issues, section, item) {
   if (section.id === "open_source_top" && !isLikelyOpenSource(item)) {
     add(issues, item, "开源项目栏目需要明确开源、GitHub、仓库、版本或项目教程信号。");
   }
-  if (section.id === "practice_cases" && !isLikelyPracticeCase(item)) {
-    add(issues, item, "实践案例栏目需要真实组织/客户/团队落地或生产采用信号。");
+  if (section.id === "extended_reading" && item.sourceType === "podcast" && !/小宇宙|播客|讲了什么|简介要点/i.test(summaryZh + " " + (item.tags || []).join(" "))) {
+    add(issues, item, "延伸阅读里的播客需要基于小宇宙简介写清楚这期讲了什么。");
   }
   if (item.image && isLikelyGenericImage(item.image)) {
     add(issues, item, `配图疑似头像、Logo、泛化头图或低质量图：${item.image}`);
@@ -285,7 +286,7 @@ async function main() {
       }
       if (linkKey) currentLinks.set(linkKey, item.titleZh || item.title || item.link);
       if (titleKey) currentTitles.set(titleKey, item.titleZh || item.title || item.link);
-      validatePublishedWindow(issues, report, item);
+      validatePublishedWindow(issues, report, section, item);
       reviewItem(issues, section, item);
       await validateVideo(issues, item);
     }

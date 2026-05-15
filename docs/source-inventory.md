@@ -14,7 +14,7 @@
 | 研究前线 | 19 | 研究博客、论文 RSS、技术分析和 AI 研究社区 |
 | 开源项目 | 8 | GitHub Trending、开源项目博客、开源社区源 |
 | 社媒观察 | 61 | 专家、从业者、社区讨论、厂商博客中偏观点和趋势的内容 |
-| 实践案例 | 0 | 暂无独立来源，后续需要重点补充 |
+| 延伸阅读 | 1 | 小宇宙播客集合，放 AI 相关且有价值的长内容 |
 
 | 抓取类型 | 数量 | 说明 |
 | --- | ---: | --- |
@@ -106,15 +106,19 @@
 - 社媒源高噪声，短回复、活动通知、表情包、无上下文链接要过滤。
 - 能补足官方发布之外的趋势判断，但不能替代一手事实。
 
-### 实践案例
+### 延伸阅读
 
-当前没有独立配置源。实践案例应该放真实组织、客户或团队如何使用 AI 的落地案例，例如企业部署、客户故事、生产工作流、A/B 测试、真实业务采用。
+日报不再单独生成「实践案例」栏目，详情页底部使用「延伸阅读」承接 AI 相关且有价值的长内容。当前延伸阅读主要来自小宇宙播客集合：
+
+| 来源 | URL | 备注 |
+| --- | --- | --- |
+| 我也在听的品质播客 | `https://www.xiaoyuzhoufm.com/collection/podcast/6a05bef03a94c24e73f8098f` | 每天抓取最新单集，使用小宇宙简介/show notes 总结，不做转写 |
 
 建议优先补充：
 
 | 类型 | 候选方向 | 说明 |
 | --- | --- | --- |
-| 厂商客户案例 | OpenAI Stories、Anthropic Customer Stories、AWS ML Case Studies、Google Cloud AI customer stories | 最适合补实践案例 |
+| 厂商客户案例 | OpenAI Stories、Anthropic Customer Stories、AWS ML Case Studies、Google Cloud AI customer stories | 可作为研究前线、社媒观察或延伸阅读补充，不再单独建实践案例栏目 |
 | 垂直行业博客 | 金融、医疗、制造、教育领域 AI 案例源 | 能让日报不只停留在模型和工具 |
 | 企业工程博客 | Stripe、Shopify、Uber、Netflix、Airbnb、Canva 等 | 关注真实生产系统和团队流程 |
 
@@ -144,7 +148,7 @@
 
 ## 后续补源优先级
 
-1. 实践案例源：这是当前最大缺口。
+1. 延伸阅读源：继续补充高质量播客、长访谈、深度博客和一手经验来源。
 2. 论文推荐源：需要比 arXiv RSS 更有筛选能力的来源，例如 Papers with Code、Semantic Scholar、AlphaXiv、Hugging Face Papers 的稳定替代方案。
 3. 开源项目源：可以补充 GitHub Topic、Hacker News Show HN、Product Hunt AI 工具，但要注意噪声。
 4. 产品官方源：优先补缺失的官方 Twitter/RSS，而不是媒体转述。

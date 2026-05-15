@@ -56,6 +56,7 @@ function sectionCounts(report) {
 function renderItem(item, index) {
   const title = item.titleZh || item.title;
   const summary = item.summaryZh || item.summary;
+  const sourceLinkLabel = item.sourceType === "podcast" ? "打开小宇宙" : "原文";
   const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
   const summaryHtml = String(summary || "")
     .split(/\n+/)
@@ -67,7 +68,7 @@ function renderItem(item, index) {
   const video = item.video ? `
     <figure class="news-figure">
       <video src="${escapeHtml(item.video)}" controls preload="metadata" playsinline${item.image ? ` poster="${escapeHtml(item.image)}"` : ""}></video>
-      <figcaption><a href="${escapeHtml(item.video)}" target="_blank" rel="noreferrer">查看视频</a> · <a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">查看原文</a></figcaption>
+      <figcaption><a href="${escapeHtml(item.video)}" target="_blank" rel="noreferrer">查看视频</a> · <a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">${sourceLinkLabel}</a></figcaption>
     </figure>
   ` : "";
   const image = item.image ? `
@@ -83,7 +84,7 @@ function renderItem(item, index) {
       <div class="news-number">${String(index + 1).padStart(2, "0")}</div>
       <div class="news-body">
         <h3><a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></h3>
-        <p class="news-meta">${escapeHtml(item.source)} · <a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">原文</a></p>
+        <p class="news-meta">${escapeHtml(item.source)} · <a href="${escapeHtml(item.link)}" target="_blank" rel="noreferrer">${sourceLinkLabel}</a></p>
         ${video || image}
         <div class="news-summary">${summaryHtml}</div>
         ${tags ? `<div class="tags">${tags}</div>` : ""}

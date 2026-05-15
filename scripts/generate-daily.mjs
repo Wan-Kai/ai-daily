@@ -5,6 +5,7 @@ import { promisify } from "node:util";
 
 const root = process.cwd();
 const sourcesPath = path.join(root, "data", "sources.json");
+const podcastSourcesPath = path.join(root, "data", "podcast-sources.json");
 const reportsDir = path.join(root, "data", "reports");
 const emailCandidatesDir = path.join(root, "data", "email-candidates");
 const execFileAsync = promisify(execFile);
@@ -21,7 +22,7 @@ const SECTION_CONFIG = [
   { id: "research_frontier", title: "研究前线", limit: 8, paperMin: 2, paperMax: 4 },
   { id: "open_source_top", title: "开源项目", limit: 6 },
   { id: "social_shares", title: "社媒观察", limit: 10 },
-  { id: "practice_cases", title: "实践案例", limit: 6 }
+  { id: "extended_reading", title: "延伸阅读", limit: 6 }
 ];
 
 const LOOKBACK_HOURS = 24;
@@ -72,6 +73,15 @@ function stripHtml(value = "") {
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+async function readJsonFile(filePath, fallback) {
+  try {
+    return JSON.parse(await readFile(filePath, "utf8"));
+  } catch (error) {
+    if (error?.code === "ENOENT") return fallback;
+    throw error;
+  }
 }
 
 function tagValue(block, tag) {
@@ -310,7 +320,7 @@ function summaryZh(item) {
 function whyItMatters(item) {
   const tags = inferTags(item);
   if (item.section === "product_updates") return `这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。`;
-  if (item.section === "practice_cases") return `这展示了 AI 在真实业务、团队流程或客户场景中的落地方式，适合观察采用路径。`;
+  if (item.section === "extended_reading") return `这提供了日报之外的长内容背景，适合延伸阅读。`;
   if (item.section === "research_frontier") return `这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。`;
   if (item.section === "open_source_top") return `这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。`;
   if (item.section === "social_shares") return `这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。`;
@@ -334,11 +344,181 @@ async function fetchText(url, timeoutMs = 15000) {
   }
 }
 
+function nextDataFromHtml(html) {
+  const match = html.match(/<script id="__NEXT_DATA__" type="application\/json">([\s\S]*?)<\/script>/);
+  if (!match) throw new Error("未找到页面结构化数据。");
+  return JSON.parse(match[1]);
+}
+
+async function podcastIdsFromCollection(collection) {
+  const html = await fetchTextWithProxyFallback(collection.url, collection.timeoutMs ?? 20000);
+  const data = nextDataFromHtml(html);
+  const targets = data.props?.pageProps?.collection?.target || [];
+  return targets
+    .filter((item) => item.pid && item.status !== "DELETED")
+    .map((item) => ({
+      pid: item.pid,
+      title: item.title,
+      language: collection.language || "zh"
+    }));
+}
+
+async function latestPodcastEpisodes(podcast) {
+  const html = await fetchTextWithProxyFallback(`https://www.xiaoyuzhoufm.com/podcast/${podcast.pid}`, 20000);
+  const data = nextDataFromHtml(html);
+  const detail = data.props?.pageProps?.podcast || {};
+  return (detail.episodes || []).slice(0, 4).map((episode) => ({
+    podcastTitle: detail.title || podcast.title,
+    language: podcast.language || "zh",
+    eid: episode.eid,
+    title: episode.title,
+    description: stripHtml(episode.description || episode.shownotes || ""),
+    shownotes: stripHtml(episode.shownotes || ""),
+    publishedAt: episode.pubDate || "",
+    durationSeconds: episode.duration || 0,
+    link: `https://www.xiaoyuzhoufm.com/episode/${episode.eid}`,
+    image: episode.image?.picUrl || detail.image?.picUrl || ""
+  }));
+}
+
+function ageInDays(dateValue = "") {
+  const date = new Date(dateValue);
+  if (Number.isNaN(date.getTime())) return Infinity;
+  return Math.floor((runStartedAt.getTime() - date.getTime()) / 86400000);
+}
+
+function scorePodcastEpisode(episode) {
+  const text = `${episode.podcastTitle} ${episode.title} ${episode.description}`;
+  let score = 0;
+  if (/AI|人工智能|大模型|模型|Agent|智能体|机器人|具身|科技|创业|产品|商业|开发|程序员|开源|芯片|硅谷|OpenAI|Anthropic|DeepMind|Claude|Codex/i.test(text)) score += 24;
+  if (/对话|访谈|观察|复盘|一手|创始人|CEO|CTO|研究员|投资|融资|商业|技术/i.test(text)) score += 8;
+  if (episode.description.length > 180) score += 6;
+  if (episode.durationSeconds > 1800) score += 3;
+  if (/新闻|串讲|速递|闲聊|随便聊|日更|早报/i.test(text)) score -= 8;
+  return score;
+}
+
+function formatDuration(seconds = 0) {
+  if (!seconds) return "";
+  return `${Math.round(seconds / 60)} 分钟`;
+}
+
+function cleanPodcastText(text = "") {
+  return String(text)
+    .replace(/https?:\/\/\S+/g, "")
+    .replace(/聊天讨论群[\s\S]*$/g, "")
+    .replace(/欢迎关注[\s\S]*$/g, "")
+    .replace(/商务合作[\s\S]*$/g, "")
+    .replace(/【本期内容】|【嘉宾】|【精彩时刻】|【你将听到】|【亮点】|时间轴/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function splitSentences(text = "") {
+  return String(text)
+    .replace(/\s+/g, " ")
+    .split(/(?<=[。！？!?])\s*/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function firstParagraph(text = "", maxLength = 320) {
+  const cleaned = cleanPodcastText(text);
+  if (!cleaned) return "当前只抓到标题，尚未获取单集简介。";
+  const sentences = splitSentences(cleaned);
+  let paragraph = "";
+  for (const sentence of sentences) {
+    const next = paragraph ? paragraph + sentence : sentence;
+    if (next.length > maxLength) break;
+    paragraph = next;
+  }
+  const value = paragraph || cleaned;
+  return value.length > maxLength ? `${value.slice(0, maxLength - 1)}…` : value;
+}
+
+function podcastSummaryZh(episode) {
+  const body = episode.shownotes || episode.description || "";
+  const intro = firstParagraph(body);
+  const points = splitSentences(cleanPodcastText(body))
+    .filter((sentence) => sentence.length >= 18 && sentence.length <= 120)
+    .filter((sentence) => /AI|大模型|智能体|Agent|模型|产品|创业|商业|技术|开发|开源|算力|机器人|具身|投资|组织/i.test(sentence))
+    .slice(0, 4);
+  const detail = points.length
+    ? `\n**简介要点**：\n${points.map((point) => `- ${point}`).join("\n")}`
+    : "";
+  return `**讲了什么**：这一期来自 **${episode.podcastTitle}**，主题是「${episode.title}」。${intro}${detail}`;
+}
+
+async function fetchPodcastExtendedReadings(previousKeys) {
+  const config = await readJsonFile(podcastSourcesPath, { collections: [], lookbackDays: 14, maxDailyItems: 3 });
+  const episodes = [];
+  const failures = [];
+
+  for (const collection of config.collections || []) {
+    if (!collection.enabled) continue;
+    try {
+      const podcasts = await podcastIdsFromCollection(collection);
+      for (const podcast of podcasts) {
+        try {
+          episodes.push(...await latestPodcastEpisodes(podcast));
+        } catch (error) {
+          failures.push({ source: podcast.title, url: `https://www.xiaoyuzhoufm.com/podcast/${podcast.pid}`, error: error.message });
+        }
+      }
+    } catch (error) {
+      failures.push({ source: collection.name, url: collection.url, error: error.message });
+    }
+  }
+
+  const lookbackDays = config.lookbackDays ?? 14;
+  const limit = config.maxDailyItems ?? 3;
+  const seen = new Set();
+  const items = episodes
+    .filter((episode) => ageInDays(episode.publishedAt) <= lookbackDays)
+    .map((episode) => ({
+      ...episode,
+      score: scorePodcastEpisode(episode)
+    }))
+    .filter((episode) => episode.score >= 24)
+    .sort((a, b) => b.score - a.score)
+    .filter((episode) => {
+      const linkKey = normalizedLinkKey(episode.link);
+      const titleKey = normalizedTitleKey(episode.title);
+      if (seen.has(linkKey) || seen.has(titleKey) || previousKeys.links.has(linkKey) || previousKeys.titles.has(titleKey)) return false;
+      seen.add(linkKey);
+      seen.add(titleKey);
+      return true;
+    })
+    .slice(0, limit)
+    .map((episode) => ({
+      title: episode.title,
+      titleZh: episode.title,
+      link: episode.link,
+      publishedAt: episode.publishedAt,
+      source: episode.podcastTitle,
+      sourceType: "podcast",
+      section: "extended_reading",
+      channel: "podcast",
+      trust: "expert",
+      image: episode.image,
+      imageCandidates: episode.image ? [{ url: episode.image, source: "podcast-cover" }] : [],
+      video: "",
+      videoCandidates: [],
+      summary: episode.description,
+      summaryZh: podcastSummaryZh(episode),
+      whyItMatters: "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+      tags: ["播客", "小宇宙", formatDuration(episode.durationSeconds)].filter(Boolean),
+      score: episode.score
+    }));
+
+  return { items, failures };
+}
+
 async function fetchTextWithProxyFallback(url, timeoutMs = 15000) {
   try {
     return await fetchText(url, timeoutMs);
   } catch (error) {
-    if (!/(huggingface\.co|github\.com|github\.blog|arxiv\.org|google|amazonaws\.com|aws\.amazon\.com)/i.test(url)) throw error;
+    if (!/(huggingface\.co|github\.com|github\.blog|arxiv\.org|google|amazonaws\.com|aws\.amazon\.com|xiaoyuzhoufm\.com)/i.test(url)) throw error;
     return fetchTextViaCurlProxy(url, timeoutMs, error);
   }
 }
@@ -766,10 +946,9 @@ function isPaperFeedItem(item) {
 
 function normalizedSection(item) {
   if (isPaperFeedItem(item)) return "research_frontier";
+  if (item.section === "extended_reading" || item.channel === "podcast") return "extended_reading";
   if (isOpenSourceItem(item)) return "open_source_top";
-  if (isStrongPracticeCase(item)) return "practice_cases";
   if (item.section === "product_updates") return isProductUpdate(item) ? "product_updates" : "social_shares";
-  if (isPracticeCase(item)) return "practice_cases";
   return item.section;
 }
 
@@ -810,8 +989,7 @@ function isRelevantForSection(item, sectionId) {
     return item.channel === "social" && item.trust === "official";
   }
 
-  if (sectionId === "practice_cases") return !isPaperFeedItem(item);
-
+  if (sectionId === "extended_reading") return true;
   if (sectionId !== "open_source_top") return true;
   const text = `${item.title} ${item.summary} ${item.summaryZh} ${item.tags.join(" ")}`.toLowerCase();
   if (item.source === "The GitHub Blog") {
@@ -923,6 +1101,14 @@ async function main() {
   fetched.push(...emailCandidates);
 
   const previousKeys = await previousReportDuplicateKeys(today);
+  const extendedReadings = await fetchPodcastExtendedReadings(previousKeys);
+  fetched.push(...extendedReadings.items);
+  failures.push(...extendedReadings.failures.map((failure) => ({
+    source: `播客延伸阅读 / ${failure.source}`,
+    url: failure.url,
+    error: failure.error
+  })));
+
   const deduped = new Map();
   for (const item of fetched) {
     const key = normalizedLinkKey(item.link);
