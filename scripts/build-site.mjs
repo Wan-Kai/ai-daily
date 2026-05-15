@@ -215,18 +215,18 @@ function renderArchiveDateFilters(reports) {
 
   return `
     <div class="daily-date-filter" aria-label="日报年月切换">
-      <label>
+      <div class="date-filter-group" id="daily-year-group">
         <span>年份</span>
-        <select id="daily-year">
-          ${years.map((year) => `<option value="${escapeHtml(year)}"${year === firstYear ? " selected" : ""}>${escapeHtml(year)}</option>`).join("")}
-        </select>
-      </label>
-      <label>
+        <div class="date-filter-options">
+          ${years.map((year) => `<button type="button" class="date-filter-option${year === firstYear ? " active" : ""}" data-value="${escapeHtml(year)}">${escapeHtml(year)}</button>`).join("")}
+        </div>
+      </div>
+      <div class="date-filter-group" id="daily-month-group">
         <span>月份</span>
-        <select id="daily-month">
-          ${months.map((month) => `<option value="${escapeHtml(month)}"${month === firstMonth ? " selected" : ""}>${escapeHtml(month)}</option>`).join("")}
-        </select>
-      </label>
+        <div class="date-filter-options">
+          ${months.map((month) => `<button type="button" class="date-filter-option${month === firstMonth ? " active" : ""}" data-value="${escapeHtml(month)}">${escapeHtml(month)}</button>`).join("")}
+        </div>
+      </div>
     </div>
   `;
 }
@@ -643,8 +643,8 @@ function renderIndexPage(reports, curation) {
     const searchInput = document.getElementById("archive-search");
     const archiveStatus = document.getElementById("archive-status");
     const archiveTools = document.querySelector(".archive-tools");
-    const dailyYear = document.getElementById("daily-year");
-    const dailyMonth = document.getElementById("daily-month");
+    const dailyYearGroup = document.getElementById("daily-year-group");
+    const dailyMonthGroup = document.getElementById("daily-month-group");
     const dailyEntries = [...document.querySelectorAll("#tab-daily .archive-entry")];
     const dailyMonthsByYear = [...new Set(dailyEntries.map((entry) => entry.dataset.year).filter(Boolean))]
       .reduce((map, year) => {
@@ -669,11 +669,33 @@ function renderIndexPage(reports, curation) {
       return String(value || "").toLowerCase().replace(/\\s+/g, " ").trim();
     }
 
+    function selectedDateValue(group) {
+      return group?.querySelector(".date-filter-option.active")?.dataset.value || "";
+    }
+
+    function setActiveDateValue(group, value) {
+      group?.querySelectorAll(".date-filter-option").forEach((button) => {
+        button.classList.toggle("active", button.dataset.value === value);
+      });
+    }
+
+    function bindMonthButtons() {
+      dailyMonthGroup.querySelectorAll(".date-filter-option").forEach((button) => {
+        button.addEventListener("click", () => {
+          setActiveDateValue(dailyMonthGroup, button.dataset.value);
+          pageState["tab-daily"] = 1;
+          renderArchivePanel();
+        });
+      });
+    }
+
     function updateDailyMonths() {
-      const year = dailyYear.value;
+      const year = selectedDateValue(dailyYearGroup);
       const months = dailyMonthsByYear[year] || [];
-      const current = months.includes(dailyMonth.value) ? dailyMonth.value : months[0] || "";
-      dailyMonth.innerHTML = months.map((month) => "<option value=\\"" + month + "\\" " + (month === current ? "selected" : "") + ">" + month + "</option>").join("");
+      const current = months.includes(selectedDateValue(dailyMonthGroup)) ? selectedDateValue(dailyMonthGroup) : months[0] || "";
+      const options = dailyMonthGroup.querySelector(".date-filter-options");
+      options.innerHTML = months.map((month) => "<button type=\\"button\\" class=\\"date-filter-option" + (month === current ? " active" : "") + "\\" data-value=\\"" + month + "\\">" + month + "</button>").join("");
+      bindMonthButtons();
     }
 
     function pageButton(label, page, active) {
@@ -693,8 +715,10 @@ function renderIndexPage(reports, curation) {
       const isDaily = panel.id === "tab-daily";
       const query = isDaily ? "" : normalizeText(searchInput.value);
       const entries = [...panel.querySelectorAll(".archive-entry")];
+      const selectedYear = selectedDateValue(dailyYearGroup);
+      const selectedMonth = selectedDateValue(dailyMonthGroup);
       const matched = entries.filter((entry) => {
-        if (isDaily) return entry.dataset.year === dailyYear.value && entry.dataset.month === dailyMonth.value;
+        if (isDaily) return entry.dataset.year === selectedYear && entry.dataset.month === selectedMonth;
         return normalizeText(entry.dataset.search).includes(query);
       });
       const pageSize = Number(panel.dataset.pageSize || 8);
@@ -724,7 +748,7 @@ function renderIndexPage(reports, curation) {
       }
 
       if (isDaily) {
-        archiveStatus.textContent = dailyYear.value + " 年 " + dailyMonth.value + " 月，共 " + matched.length + " 期";
+        archiveStatus.textContent = selectedYear + " 年 " + selectedMonth + " 月，共 " + matched.length + " 期";
       } else {
         archiveStatus.textContent = query
           ? "找到 " + matched.length + " 条，当前第 " + currentPage + " / " + pageCount + " 页"
@@ -740,14 +764,13 @@ function renderIndexPage(reports, curation) {
       pageState[activePanel().id] = 1;
       renderArchivePanel();
     });
-    dailyYear.addEventListener("change", () => {
-      updateDailyMonths();
-      pageState["tab-daily"] = 1;
-      renderArchivePanel();
-    });
-    dailyMonth.addEventListener("change", () => {
-      pageState["tab-daily"] = 1;
-      renderArchivePanel();
+    dailyYearGroup.querySelectorAll(".date-filter-option").forEach((button) => {
+      button.addEventListener("click", () => {
+        setActiveDateValue(dailyYearGroup, button.dataset.value);
+        updateDailyMonths();
+        pageState["tab-daily"] = 1;
+        renderArchivePanel();
+      });
     });
 
     const initialTab = location.hash.replace("#", "");
@@ -1314,9 +1337,9 @@ h1 {
   display: grid;
   grid-template-columns: minmax(280px, 1fr) auto auto;
   align-items: center;
-  gap: 14px;
-  margin: 0 0 30px;
-  padding: 14px 0 16px;
+  gap: 16px;
+  margin: 0 0 38px;
+  padding: 16px 0 18px;
   border-bottom: 1px solid var(--line);
   background: linear-gradient(180deg, rgba(251, 250, 245, .96), rgba(251, 250, 245, .9));
   backdrop-filter: blur(8px);
@@ -1329,7 +1352,7 @@ h1 {
 }
 
 .archive-search-wrap > label,
-.daily-date-filter label span {
+.date-filter-group > span {
   color: var(--accent);
   font-size: 11px;
   font-weight: 900;
@@ -1404,12 +1427,14 @@ h1 {
 
 .daily-date-filter {
   display: none;
-  grid-template-columns: repeat(2, minmax(92px, 124px));
-  gap: 10px;
+  grid-template-columns: repeat(2, auto);
+  align-items: end;
+  justify-content: start;
+  gap: 18px;
 }
 
 .archive-tools.daily-mode {
-  grid-template-columns: auto 1fr;
+  grid-template-columns: 1fr auto;
 }
 
 .archive-tools.daily-mode .archive-search-wrap {
@@ -1420,37 +1445,51 @@ h1 {
   display: grid;
 }
 
-.daily-date-filter label {
+.date-filter-group {
   display: grid;
+  gap: 8px;
+}
+
+.date-filter-options {
+  display: flex;
+  flex-wrap: wrap;
   gap: 6px;
 }
 
-.daily-date-filter select {
+.date-filter-option {
   appearance: none;
-  width: 100%;
   border: 1px solid var(--line);
   border-radius: 0;
-  background:
-    linear-gradient(45deg, transparent 50%, var(--accent) 50%) calc(100% - 17px) 50% / 7px 7px no-repeat,
-    linear-gradient(135deg, var(--accent) 50%, transparent 50%) calc(100% - 12px) 50% / 7px 7px no-repeat,
-    rgba(255, 255, 255, .58);
-  color: var(--ink);
+  background: rgba(255, 255, 255, .46);
+  color: var(--muted);
+  cursor: pointer;
   font: inherit;
-  font-size: 15px;
-  font-weight: 800;
-  padding: 11px 34px 11px 12px;
-  outline: none;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1;
+  min-width: 50px;
+  padding: 11px 13px;
+  transition: border-color .16s ease, background .16s ease, color .16s ease, box-shadow .16s ease;
 }
 
-.daily-date-filter select:focus {
+.date-filter-option:hover,
+.date-filter-option.active {
   border-color: var(--accent);
-  box-shadow: inset 0 -2px 0 var(--accent);
+  background: #f1eadb;
+  color: var(--accent);
+}
+
+.date-filter-option:focus-visible {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px rgba(124, 31, 22, .18);
 }
 
 .archive-status {
   color: var(--muted);
   font-size: 12px;
   font-weight: 800;
+  justify-self: end;
   white-space: nowrap;
 }
 
@@ -1564,6 +1603,10 @@ h1 {
 
 .paper-details summary {
   cursor: pointer;
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: start;
   list-style: none;
 }
 
@@ -1572,25 +1615,23 @@ h1 {
 }
 
 .paper-details summary::before {
-  content: "+";
-  display: inline-grid;
-  place-items: center;
-  width: 22px;
-  height: 22px;
-  margin-right: 10px;
-  border: 1px solid var(--accent);
-  color: var(--accent);
-  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
-  font-size: 14px;
-  font-weight: 900;
-  vertical-align: 3px;
+  content: "";
+  width: 0;
+  height: 0;
+  margin-top: 9px;
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  border-left: 9px solid var(--accent);
+  transition: transform .16s ease;
 }
 
 .paper-details[open] summary::before {
-  content: "-";
+  transform: rotate(90deg);
 }
 
 .paper-title {
+  display: block;
+  min-width: 0;
   font-size: 24px;
   font-weight: 800;
   line-height: 1.25;
@@ -1600,7 +1641,8 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 8px 12px;
-  margin: 10px 0 0 34px;
+  grid-column: 2;
+  margin: 10px 0 0;
   color: var(--muted);
   font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
   font-size: 13px;
@@ -1617,7 +1659,8 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
-  margin: 12px 0 0 34px;
+  grid-column: 2;
+  margin: 12px 0 0;
   font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
 }
 
@@ -1979,7 +2022,7 @@ h1 {
   .archive-tools {
     top: 58px;
     grid-template-columns: 1fr;
-    gap: 8px;
+    gap: 12px;
   }
 
   .archive-tools.daily-mode {
@@ -1987,10 +2030,17 @@ h1 {
   }
 
   .archive-tools.daily-mode .daily-date-filter {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .date-filter-option {
+    min-width: 46px;
+    padding: 10px 12px;
   }
 
   .archive-status {
+    justify-self: start;
     padding-bottom: 0;
     white-space: normal;
   }
@@ -2002,6 +2052,15 @@ h1 {
   .directory-summary {
     padding-left: 20px;
     font-size: 15px;
+  }
+
+  .paper-details summary {
+    grid-template-columns: 16px minmax(0, 1fr);
+    column-gap: 10px;
+  }
+
+  .paper-title {
+    font-size: 22px;
   }
 
   .news-summary {
