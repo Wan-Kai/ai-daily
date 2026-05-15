@@ -176,6 +176,7 @@ function renderDateMenu(files, currentDate) {
 
 function renderDirectoryRows(reports) {
   return reports.map((report) => {
+    const [year, month] = String(report.date || "").split("-");
     const summary = (report.summaryBullets || [])
       .map((item) => `<li>${renderInlineMarkdown(item)}</li>`)
       .join("");
@@ -187,7 +188,7 @@ function renderDirectoryRows(reports) {
     ].join(" ");
 
     return `
-      <article class="directory-item archive-entry" data-search="${searchText(searchable)}">
+      <article class="directory-item archive-entry" data-search="${searchText(searchable)}" data-year="${escapeHtml(year)}" data-month="${escapeHtml(month)}">
         <a href="./${escapeHtml(report.date)}.html">
           <time>${escapeHtml(report.date)}</time>
           <div class="directory-content">
@@ -200,6 +201,34 @@ function renderDirectoryRows(reports) {
       </article>
     `;
   }).join("");
+}
+
+function renderArchiveDateFilters(reports) {
+  const years = [...new Set(reports.map((report) => String(report.date || "").split("-")[0]).filter(Boolean))].sort().reverse();
+  const firstYear = years[0] || "";
+  const months = [...new Set(reports
+    .filter((report) => String(report.date || "").startsWith(`${firstYear}-`))
+    .map((report) => String(report.date || "").split("-")[1])
+    .filter(Boolean)
+  )].sort().reverse();
+  const firstMonth = months[0] || "";
+
+  return `
+    <div class="daily-date-filter" aria-label="日报年月切换">
+      <label>
+        <span>年份</span>
+        <select id="daily-year">
+          ${years.map((year) => `<option value="${escapeHtml(year)}"${year === firstYear ? " selected" : ""}>${escapeHtml(year)}</option>`).join("")}
+        </select>
+      </label>
+      <label>
+        <span>月份</span>
+        <select id="daily-month">
+          ${months.map((month) => `<option value="${escapeHtml(month)}"${month === firstMonth ? " selected" : ""}>${escapeHtml(month)}</option>`).join("")}
+        </select>
+      </label>
+    </div>
+  `;
 }
 
 function curationDate(item) {
@@ -261,6 +290,7 @@ function renderCurationItems(items, type, options = {}) {
     ].join(" ");
 
     if (options.compactPapers) {
+      const paperTags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
       return `
       <article class="curation-item paper-index-item archive-entry" data-search="${searchText(searchable)}">
         <time>${escapeHtml(curationYear(item))}</time>
@@ -268,7 +298,11 @@ function renderCurationItems(items, type, options = {}) {
           <details class="paper-details">
             <summary>
               <span class="paper-title">${escapeHtml(title)}</span>
-              <span class="paper-index-meta">${escapeHtml(curationYear(item))} / ${escapeHtml(item.source || "待补充来源")}${tagText ? ` / ${escapeHtml(tagText)}` : ""}</span>
+              <span class="paper-index-meta">
+                <span>${escapeHtml(curationYear(item))}</span>
+                <span>${escapeHtml(item.source || "待补充来源")}</span>
+              </span>
+              ${paperTags ? `<span class="paper-index-tags">${paperTags}</span>` : ""}
             </summary>
             ${item.summaryZh ? `<div class="curation-summary">${String(item.summaryZh).split(/\n+/).map((paragraph) => paragraph.trim()).filter(Boolean).map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`).join("")}</div>` : ""}
             ${takeaways ? `<ol class="curation-takeaways">${takeaways}</ol>` : ""}
@@ -572,10 +606,14 @@ function renderIndexPage(reports, curation) {
       <button type="button" data-tab="blogs">精选博客</button>
     </nav>
     <aside class="archive-tools" aria-label="筛选工具">
-      <label>
-        <span>搜索</span>
-        <input id="archive-search" type="search" placeholder="搜索标题、来源、摘要" autocomplete="off">
-      </label>
+      <div class="archive-search-wrap">
+        <label for="archive-search">站内搜索</label>
+        <div class="archive-search-box">
+          <span aria-hidden="true"></span>
+          <input id="archive-search" type="search" placeholder="搜索标题、来源、摘要" autocomplete="off">
+        </div>
+      </div>
+      ${renderArchiveDateFilters(reports)}
       <div class="archive-status" id="archive-status">显示全部条目</div>
     </aside>
     <section class="directory tab-panel active" id="tab-daily" data-page-size="6">
@@ -604,11 +642,21 @@ function renderIndexPage(reports, curation) {
     const panels = [...document.querySelectorAll(".tab-panel")];
     const searchInput = document.getElementById("archive-search");
     const archiveStatus = document.getElementById("archive-status");
+    const archiveTools = document.querySelector(".archive-tools");
+    const dailyYear = document.getElementById("daily-year");
+    const dailyMonth = document.getElementById("daily-month");
+    const dailyEntries = [...document.querySelectorAll("#tab-daily .archive-entry")];
+    const dailyMonthsByYear = [...new Set(dailyEntries.map((entry) => entry.dataset.year).filter(Boolean))]
+      .reduce((map, year) => {
+        map[year] = [...new Set(dailyEntries.filter((entry) => entry.dataset.year === year).map((entry) => entry.dataset.month).filter(Boolean))].sort().reverse();
+        return map;
+      }, {});
     const pageState = Object.fromEntries(panels.map((panel) => [panel.id, 1]));
 
     function activateTab(name) {
       tabs.forEach((tab) => tab.classList.toggle("active", tab.dataset.tab === name));
       panels.forEach((panel) => panel.classList.toggle("active", panel.id === "tab-" + name));
+      archiveTools.classList.toggle("daily-mode", name === "daily");
       if (location.hash !== "#" + name) history.replaceState(null, "", "#" + name);
       renderArchivePanel();
     }
@@ -619,6 +667,13 @@ function renderIndexPage(reports, curation) {
 
     function normalizeText(value) {
       return String(value || "").toLowerCase().replace(/\\s+/g, " ").trim();
+    }
+
+    function updateDailyMonths() {
+      const year = dailyYear.value;
+      const months = dailyMonthsByYear[year] || [];
+      const current = months.includes(dailyMonth.value) ? dailyMonth.value : months[0] || "";
+      dailyMonth.innerHTML = months.map((month) => "<option value=\\"" + month + "\\" " + (month === current ? "selected" : "") + ">" + month + "</option>").join("");
     }
 
     function pageButton(label, page, active) {
@@ -635,9 +690,13 @@ function renderIndexPage(reports, curation) {
 
     function renderArchivePanel() {
       const panel = activePanel();
-      const query = normalizeText(searchInput.value);
+      const isDaily = panel.id === "tab-daily";
+      const query = isDaily ? "" : normalizeText(searchInput.value);
       const entries = [...panel.querySelectorAll(".archive-entry")];
-      const matched = entries.filter((entry) => normalizeText(entry.dataset.search).includes(query));
+      const matched = entries.filter((entry) => {
+        if (isDaily) return entry.dataset.year === dailyYear.value && entry.dataset.month === dailyMonth.value;
+        return normalizeText(entry.dataset.search).includes(query);
+      });
       const pageSize = Number(panel.dataset.pageSize || 8);
       const pageCount = Math.max(1, Math.ceil(matched.length / pageSize));
       const currentPage = Math.min(pageState[panel.id] || 1, pageCount);
@@ -664,9 +723,13 @@ function renderIndexPage(reports, curation) {
         }
       }
 
-      archiveStatus.textContent = query
-        ? "找到 " + matched.length + " 条，当前第 " + currentPage + " / " + pageCount + " 页"
-        : "共 " + matched.length + " 条，当前第 " + currentPage + " / " + pageCount + " 页";
+      if (isDaily) {
+        archiveStatus.textContent = dailyYear.value + " 年 " + dailyMonth.value + " 月，共 " + matched.length + " 期";
+      } else {
+        archiveStatus.textContent = query
+          ? "找到 " + matched.length + " 条，当前第 " + currentPage + " / " + pageCount + " 页"
+          : "共 " + matched.length + " 条，当前第 " + currentPage + " / " + pageCount + " 页";
+      }
     }
 
     tabs.forEach((tab) => {
@@ -677,10 +740,20 @@ function renderIndexPage(reports, curation) {
       pageState[activePanel().id] = 1;
       renderArchivePanel();
     });
+    dailyYear.addEventListener("change", () => {
+      updateDailyMonths();
+      pageState["tab-daily"] = 1;
+      renderArchivePanel();
+    });
+    dailyMonth.addEventListener("change", () => {
+      pageState["tab-daily"] = 1;
+      renderArchivePanel();
+    });
 
     const initialTab = location.hash.replace("#", "");
+    updateDailyMonths();
     if (tabs.some((tab) => tab.dataset.tab === initialTab)) activateTab(initialTab);
-    renderArchivePanel();
+    else activateTab("daily");
   </script>
 </body>
 </html>`;
@@ -793,6 +866,10 @@ const css = `
 
 * {
   box-sizing: border-box;
+}
+
+[hidden] {
+  display: none !important;
 }
 
 html {
@@ -1235,39 +1312,137 @@ h1 {
   top: 57px;
   z-index: 19;
   display: grid;
-  grid-template-columns: minmax(220px, 1fr) auto;
-  align-items: end;
-  gap: 18px;
+  grid-template-columns: minmax(280px, 1fr) auto auto;
+  align-items: center;
+  gap: 14px;
   margin: 0 0 30px;
-  padding: 12px 0;
+  padding: 14px 0 16px;
   border-bottom: 1px solid var(--line);
   background: linear-gradient(180deg, rgba(251, 250, 245, .96), rgba(251, 250, 245, .9));
   backdrop-filter: blur(8px);
   font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
 }
 
-.archive-tools label {
+.archive-search-wrap {
   display: grid;
-  gap: 6px;
-  color: var(--muted);
-  font-size: 12px;
-  font-weight: 900;
-  letter-spacing: .04em;
+  gap: 7px;
 }
 
-.archive-tools input {
-  width: 100%;
+.archive-search-wrap > label,
+.daily-date-filter label span {
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: .12em;
+}
+
+.archive-search-box {
+  display: grid;
+  grid-template-columns: 36px 1fr;
+  align-items: center;
+  min-height: 46px;
   border: 1px solid var(--line);
-  border-radius: 0;
-  background: rgba(255, 255, 255, .48);
+  background: rgba(255, 255, 255, .58);
+  box-shadow: inset 0 -2px 0 rgba(124, 31, 22, .12);
+  transition: border-color .16s ease, box-shadow .16s ease, background .16s ease;
+}
+
+.archive-search-box:focus-within {
+  border-color: var(--accent);
+  background: rgba(255, 255, 255, .78);
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+.archive-search-box > span {
+  position: relative;
+  width: 36px;
+  height: 36px;
+}
+
+.archive-search-box > span::before,
+.archive-search-box > span::after {
+  content: "";
+  position: absolute;
+  display: block;
+}
+
+.archive-search-box > span::before {
+  width: 10px;
+  height: 10px;
+  left: 12px;
+  top: 11px;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+}
+
+.archive-search-box > span::after {
+  width: 9px;
+  height: 2px;
+  left: 22px;
+  top: 24px;
+  background: var(--accent);
+  transform: rotate(45deg);
+  transform-origin: left center;
+}
+
+.archive-search-box input {
+  width: 100%;
+  border: 0;
+  background: transparent;
   color: var(--ink);
   font: inherit;
   font-size: 15px;
-  padding: 11px 12px;
+  font-weight: 700;
+  padding: 11px 12px 11px 0;
   outline: none;
 }
 
-.archive-tools input:focus {
+.archive-search-box input::placeholder {
+  color: rgba(109, 102, 92, .72);
+  font-weight: 700;
+}
+
+.daily-date-filter {
+  display: none;
+  grid-template-columns: repeat(2, minmax(92px, 124px));
+  gap: 10px;
+}
+
+.archive-tools.daily-mode {
+  grid-template-columns: auto 1fr;
+}
+
+.archive-tools.daily-mode .archive-search-wrap {
+  display: none;
+}
+
+.archive-tools.daily-mode .daily-date-filter {
+  display: grid;
+}
+
+.daily-date-filter label {
+  display: grid;
+  gap: 6px;
+}
+
+.daily-date-filter select {
+  appearance: none;
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 0;
+  background:
+    linear-gradient(45deg, transparent 50%, var(--accent) 50%) calc(100% - 17px) 50% / 7px 7px no-repeat,
+    linear-gradient(135deg, var(--accent) 50%, transparent 50%) calc(100% - 12px) 50% / 7px 7px no-repeat,
+    rgba(255, 255, 255, .58);
+  color: var(--ink);
+  font: inherit;
+  font-size: 15px;
+  font-weight: 800;
+  padding: 11px 34px 11px 12px;
+  outline: none;
+}
+
+.daily-date-filter select:focus {
   border-color: var(--accent);
   box-shadow: inset 0 -2px 0 var(--accent);
 }
@@ -1276,7 +1451,6 @@ h1 {
   color: var(--muted);
   font-size: 12px;
   font-weight: 800;
-  padding-bottom: 12px;
   white-space: nowrap;
 }
 
@@ -1423,13 +1597,46 @@ h1 {
 }
 
 .paper-index-meta {
-  display: block;
-  margin: 9px 0 0 34px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin: 10px 0 0 34px;
   color: var(--muted);
   font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
   font-size: 13px;
   font-weight: 800;
   line-height: 1.5;
+}
+
+.paper-index-meta span {
+  padding-left: 9px;
+  border-left: 2px solid rgba(124, 31, 22, .42);
+}
+
+.paper-index-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 12px 0 0 34px;
+  font-family: "Avenir Next", "Gill Sans", "Trebuchet MS", sans-serif;
+}
+
+.paper-index-tags span {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  border: 1px solid var(--soft-line);
+  background: rgba(255, 255, 255, .38);
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1.4;
+  padding: 4px 8px;
+}
+
+.paper-index-tags span::before {
+  content: "#";
+  color: var(--accent);
 }
 
 .curation-meta {
@@ -1773,6 +1980,14 @@ h1 {
     top: 58px;
     grid-template-columns: 1fr;
     gap: 8px;
+  }
+
+  .archive-tools.daily-mode {
+    grid-template-columns: 1fr;
+  }
+
+  .archive-tools.daily-mode .daily-date-filter {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .archive-status {
