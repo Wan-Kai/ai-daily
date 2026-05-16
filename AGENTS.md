@@ -25,7 +25,7 @@
 - 每份日报需要提供 3-5 条「今日摘要」，用中文概括当天最重要的产品、研究、开源、社媒或实践主线，让读者在进入正文前快速知道今天发生了什么。
 - 入口页除每日简报外，还有「精选论文」「精选播客」「精选博客」长期精选区；精选内容来源配置在 `data/curation-sources.json`，发布数据在 `data/curation/*.json`。定时任务通过 `npm run curate` 更新精选区，只在内容足够高质量时追加，不能为了填充而发布普通公告、活动通知、低信息量播客或未经判断的论文。
 - 精选内容必须先进入待审候选池，不能由自动抓取直接发布。`npm run curate` 只写入 `data/curation-candidates/YYYY-MM-DD.json`；`/curation-review.html` 是隐蔽审核页，用户在页面选择通过/拒绝/暂不处理后提交 GitHub Issue；下一次发布前运行 `npm run curate:apply`，读取标题包含「精选内容审批」的 open issue，将通过项写入 `data/curation/*.json`，拒绝项写入 `data/curation-rejections.json` 并从候选池移除，暂不处理项继续保留。
-- 每次执行完整日报链路时，`npm run daily` 必须把 `npm run curate:apply` 放在第一步，再执行日报生成、媒体修复、日报审查、`npm run curate` 和构建，确保上一次用户审批的精选论文、播客和博客能在下一次发布前同步，即使后续日报审查失败也不会卡住审批结果落库。
+- 日报链路与精选审批发布链路需要分开。`npm run daily` 只负责日报生成、媒体修复、日报审查、`npm run curate`、`npm run podcasts:collect` 和构建，不再读取精选审批 Issue；精选审批改由独立链路 `npm run curation:publish` 负责执行 `npm run curate:apply`、更新精选发布库并构建站点。
 - 精选内容候选页也是给用户做审批判断的页面，候选摘要不能展示「需要在摘要里讲清」「正式发布前需要补充」这类写作指令。`**核心结论**` / `**核心内容**` 必须直接说明这篇论文、文章或播客到底讲了什么；信息不足时可在 `**审核重点**` 中说明需要复核的点。
 - 精选论文优先使用 Hugging Face 周榜，并结合作者/机构/开源/评测等质量信号；精选博客优先保留能长期回看的技术解释、工程复盘、研究解读和重要实践案例；精选播客需要区分中文播客和英文播客，只有主题清晰且有一手访谈、实践经验或趋势判断的单集才发布。
 - 精选博客的信息源优先级是顶尖机构官方博客、核心研究者个人博客、开源社区深度文章、综合科技媒体深度报道；已接入候选源包括 OpenAI、Google DeepMind、Google AI、Microsoft Research、NVIDIA、Hugging Face、LangChain、Qdrant、Databricks、Simon Willison、Latent Space、Andrej Karpathy、MIT Technology Review、TechCrunch AI 等。后续补充 Anthropic、Meta AI、李沐、Yann LeCun、Geoffrey Hinton、36 氪或 Reddit 时，先确认稳定 RSS 或自动抓取入口再启用。
@@ -37,6 +37,7 @@
 - 精选播客候选也必须走 Issue 审批流程，自动抓取只进入 `data/curation-candidates/YYYY-MM-DD.json`；只有通过 `npm run curate:apply` 读取审批 Issue 后，才可以写入 `data/curation/podcasts.json` 正式发布。
 - 本地播客逐字稿采用 Whisper medium 方案：模型缓存到 `.cache/whisper/ggml-medium.bin`，不提交 git；运行 `npm run whisper:download` 可下载或校验模型。真正转写使用 `npm run podcasts:transcribe`，需要本机安装 `whisper.cpp` 和 `ffmpeg`，例如 `brew install whisper-cpp ffmpeg`。转写结果仍需在对话里由 Codex 结合标题、节目稿和上下文校准后再发布。
 - 精选播客审批通过后，`npm run curate:apply` 需要先自动调用本地 Whisper medium 生成逐字稿，再写入 `data/curation/podcasts.json` 发布；如果转写失败，要把候选保留在待审池并记录失败原因，不要发布没有逐字稿的播客。
+- 精选审批发布自动化应独立于每日日报定时任务运行；它负责读取 open 的「精选内容审批」Issue、同步通过/拒绝结果、处理播客转写、提交推送，并触发站点重新部署。
 - 后续验证 Web 页面时优先使用 Chrome 插件进行真实浏览器检查；如果 Chrome 未启动，用户已授权可以自动启动 Chrome 后继续验证。
 - 本仓库最稳妥的部署方式是：提交到 `main` 后推送到 GitHub，使用 GitHub Actions 的 `Deploy AI Daily` 工作流发布 GitHub Pages；不要手工改 `dist` 之外的线上内容，也不要绕过 Actions 部署。
 - 本仓库最稳妥的 push 方式是 SSH：`git push git@github.com:Wan-Kai/ai-daily.git main`。当前环境 HTTPS 访问 `github.com:443` 经常超时，`git push origin main` 可能失败；若必须使用 HTTPS，先保持 `git config http.version HTTP/2`，失败后优先改用 SSH 推送。

@@ -8,13 +8,14 @@
     "generate": "node scripts/generate-daily.mjs",
     "curate": "node scripts/update-curation.mjs",
     "curate:apply": "node scripts/apply-curation-approvals.mjs",
+    "curation:publish": "npm run curate:apply && npm run build",
     "podcasts:collect": "node scripts/update-podcast-candidates.mjs",
     "whisper:download": "node scripts/download-whisper-medium.mjs",
     "podcasts:transcribe": "node scripts/transcribe-podcast-local.mjs",
     "repair-media": "node scripts/repair-report-media.mjs",
     "review": "node scripts/review-report.mjs",
     "build": "node scripts/build-site.mjs",
-    "daily": "npm run curate:apply && npm run generate && npm run repair-media && npm run review && npm run curate && npm run podcasts:collect && npm run build"
+    "daily": "npm run generate && npm run repair-media && npm run review && npm run curate && npm run podcasts:collect && npm run build"
   },
   "engines": {
     "node": ">=20"

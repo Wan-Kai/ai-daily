@@ -198,6 +198,12 @@ npm run build
 npm run daily
 ```
 
+精选审批发布命令：
+
+```bash
+npm run curation:publish
+```
+
 构建产物目录：
 
 ```text
@@ -231,6 +237,12 @@ dist/
 Deploy AI Daily
 ```
 
+新增精选审批工作流：
+
+```text
+Publish Curation Approvals
+```
+
 触发方式：
 
 - 推送到 `main` 分支。
@@ -258,6 +270,14 @@ GitHub Actions 不再做：
 - RSS 抓取。
 - 日报生成。
 - LLM 摘要。
+
+精选审批发布工作流的职责：
+
+1. Checkout 仓库。
+2. 安装依赖。
+3. 执行 `npm run curation:publish`，同步审批 Issue 并重建站点。
+4. 如果有精选内容变更，则自动提交并推回 `main`。
+5. 推回 `main` 后，由 `Deploy AI Daily` 继续完成 Pages 部署。
 - 自动提交日报。
 
 这样可以避免 GitHub 端依赖 OpenAI API Key。

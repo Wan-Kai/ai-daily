@@ -21,7 +21,9 @@
 
 `npm run curate:apply` 会读取标题包含「精选内容审批」的 GitHub Issue，解析其中的审批 JSON，把通过的候选写入 `data/curation/*.json`，把拒绝的候选写入 `data/curation-rejections.json` 并从待审库移除，暂不处理的候选继续保留。
 
-`npm run daily` 必须把 `npm run curate:apply` 放在第一步，然后再生成日报、修复媒体、审查日报、生成新的待审核候选并构建页面。这样即使后续日报审查失败，上一轮精选审批结果也已经同步到发布库或拒绝库。
+`npm run daily` 只负责生成日报、修复媒体、审查日报、生成新的待审核候选并构建页面，不再读取精选审批 Issue。
+
+精选审批发布改由独立命令 `npm run curation:publish` 负责。它会先执行 `npm run curate:apply` 读取标题包含「精选内容审批」的 GitHub Issue，把审批结果同步到正式发布库或拒绝库，再重新构建站点。
 
 精选内容不要求每天更新。没有足够好的内容时，应保持空缺或维持旧内容，不要为了填充而发布低质量条目。
 
@@ -35,7 +37,11 @@
 2. 可在备注里写修改建议、拒绝原因或发布备注。
 3. 点击「提交到 GitHub Issue」，页面会打开预填好的 GitHub Issue。
 4. 在 GitHub 页面提交 Issue。
-5. 下一次执行 `npm run curate:apply` 或 `npm run daily` 时，脚本会读取 Issue 并同步审批结果。
+5. 下一次执行 `npm run curation:publish` 时，脚本会读取 Issue 并同步审批结果。
+
+## 自动化建议
+
+建议为 `npm run curation:publish` 单独配置一个自动化任务或工作流，让它按固定频率轮询 open 的审批 Issue。这样精选播客的转写和发布就不会阻塞每日日报的固定时点任务。
 
 页面还保留「复制审批信息」作为兜底。如果 GitHub 页面无法打开，可以复制后发给 Codex 手动处理。
 
