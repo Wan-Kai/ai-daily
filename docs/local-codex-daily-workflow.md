@@ -4,7 +4,7 @@
 
 目标流程如下：
 
-1. 本地 Codex 自动任务每天 03:00（Asia/Shanghai）运行；精选审批发布任务每天 03:40 独立运行。
+1. 本地 Codex 自动任务每天 02:30（Asia/Shanghai）运行；精选审批发布任务每天 03:10 独立运行。
 2. Codex 拉取最新的 `main` 分支。
 3. Codex 先检查可用的补充发现源，例如 Gmail 中 `daodi154@gmail.com` 最近 24 小时收到的 AINews.com 邮件；如果有高价值邮件，提取标题、正文要点、图片、视频和 `Sources` 中的一手链接，写入 `data/email-candidates/YYYY-MM-DD.json`。
 4. Codex 执行 `npm run generate`，抓取 RSS/Atom/社媒 RSS 等信息源，并合并 `data/email-candidates/YYYY-MM-DD.json` 中的临时候选后生成日报 JSON。
