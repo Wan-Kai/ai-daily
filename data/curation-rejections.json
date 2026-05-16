@@ -68,5 +68,35 @@
     "titleKey": "李想 罗永浩 李想的理想 通过 ai 技术 让普通人也过上富豪的生活",
     "reason": "",
     "rejectedAt": "2026-05-14T14:30:41.657Z"
+  },
+  {
+    "id": "xiaoyuzhou-69d4faf24170c9cbbc824c34",
+    "category": "podcasts",
+    "title": "Botlearn.ai 李可佳：别自学了，送你的 Agent 去读书吧",
+    "url": "https://www.xiaoyuzhoufm.com/episode/69d4faf24170c9cbbc824c34",
+    "linkKey": "https://www.xiaoyuzhoufm.com/episode/69d4faf24170c9cbbc824c34",
+    "titleKey": "botlearn ai 李可佳 别自学了 送你的 agent 去读书吧",
+    "reason": "",
+    "rejectedAt": "2026-05-16T01:00:51.727Z"
+  },
+  {
+    "id": "xiaoyuzhou-6926c9a80084e2631dd8214b",
+    "category": "podcasts",
+    "title": "Ilya Sutskever 谈 AI 为何高分低能与终极智能形态",
+    "url": "https://www.xiaoyuzhoufm.com/episode/6926c9a80084e2631dd8214b",
+    "linkKey": "https://www.xiaoyuzhoufm.com/episode/6926c9a80084e2631dd8214b",
+    "titleKey": "ilya sutskever 谈 ai 为何高分低能与终极智能形态",
+    "reason": "",
+    "rejectedAt": "2026-05-16T01:00:51.728Z"
+  },
+  {
+    "id": "xiaoyuzhou-69ca3e32b977fb2c47a0457d",
+    "category": "podcasts",
+    "title": "Vol.110｜AI 同事 skill 上岗：你的工位，老板悄悄换成了一只「龙虾」",
+    "url": "https://www.xiaoyuzhoufm.com/episode/69ca3e32b977fb2c47a0457d",
+    "linkKey": "https://www.xiaoyuzhoufm.com/episode/69ca3e32b977fb2c47a0457d",
+    "titleKey": "vol 110 ai 同事 skill 上岗 你的工位 老板悄悄换成了一只 龙虾",
+    "reason": "",
+    "rejectedAt": "2026-05-16T01:00:51.728Z"
   }
 ]

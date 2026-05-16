@@ -9,6 +9,7 @@ const candidatesDir = path.join(root, "data", "curation-candidates");
 const rejectionsPath = path.join(root, "data", "curation-rejections.json");
 const repo = process.env.AI_DAILY_GITHUB_REPO || "Wan-Kai/ai-daily";
 const execFileAsync = promisify(execFile);
+const maxApprovedPodcastsPerRun = Math.max(0, Number(process.env.AI_DAILY_MAX_APPROVED_PODCASTS_PER_RUN || 0));
 
 function normalizedLinkKey(link = "") {
   try {
@@ -125,6 +126,22 @@ async function closeIssue(number, message) {
   }
 }
 
+async function commentIssue(number, message) {
+  try {
+    await execFileAsync("gh", [
+      "issue",
+      "comment",
+      String(number),
+      "--repo",
+      repo,
+      "--body",
+      message
+    ], { maxBuffer: 1024 * 1024 });
+  } catch (error) {
+    console.warn(`审批 Issue #${number} 已部分处理，但自动评论失败：${error.message}`);
+  }
+}
+
 function toPublishedItem(item, note = "") {
   const { reviewStatus, reviewNote, selectionReason, auditNote, category, ...rest } = item;
   return {
@@ -192,9 +209,11 @@ async function main() {
   let approved = 0;
   let rejected = 0;
   let kept = 0;
+  let processedApprovedPodcasts = 0;
 
   for (const { issue, payload } of payloads) {
     const messages = [];
+    let hasDeferredDecision = false;
     for (const decision of payload.decisions) {
       const category = decision.category;
       const id = decision.id;
@@ -203,14 +222,21 @@ async function main() {
 
       let found = findCandidate(stores, category, id);
       if (!found) {
-        messages.push(`未找到候选：${category}/${id}`);
         continue;
       }
 
       if (action === "approve") {
         if (category === "podcasts") {
+          const needsTranscription = found.item.transcriptSource !== "local-whisper-medium";
+          if (needsTranscription && processedApprovedPodcasts >= maxApprovedPodcastsPerRun) {
+            kept += 1;
+            hasDeferredDecision = true;
+            messages.push(`延后处理：${found.item.titleZh || found.item.title}（等待后续批次自动转写）`);
+            continue;
+          }
           try {
             found = await transcribePodcastBeforePublish(stores, found);
+            if (needsTranscription) processedApprovedPodcasts += 1;
           } catch (error) {
             found.item.reviewStatus = "pending";
             found.item.reviewNote = `已通过审核，但自动转写失败：${error.message}`;
@@ -258,7 +284,12 @@ async function main() {
       }
     }
 
-    await closeIssue(issue.number, `已同步精选内容审批。\n\n${messages.map((item) => `- ${item}`).join("\n") || "- 没有可同步的决策。"}`);
+    const summary = messages.map((item) => `- ${item}`).join("\n") || "- 没有可同步的决策。";
+    if (hasDeferredDecision) {
+      await commentIssue(issue.number, `本轮已部分同步精选内容审批。\n\n${summary}\n\n- 仍有播客待自动转写，Issue 保持打开，后续运行会继续处理。`);
+    } else {
+      await closeIssue(issue.number, `已同步精选内容审批。\n\n${summary}`);
+    }
   }
 
   await mkdir(curationDir, { recursive: true });

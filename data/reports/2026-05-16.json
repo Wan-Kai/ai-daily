@@ -1,0 +1,388 @@
+{
+  "date": "2026-05-16",
+  "generatedAt": "2026-05-16T01:00:53.744Z",
+  "title": "AI 日报 - 2026-05-16",
+  "stats": {
+    "sources": 133,
+    "fetched": 890,
+    "emailCandidates": 0,
+    "selected": 16,
+    "failures": 1
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Touch grass and leave your laptop—Codex is now on your phone. Now in preview on the ChatGPT mobile ...",
+          "titleZh": "ChatGPT 手机端预览上线 Codex",
+          "link": "https://x.com/ChatGPTapp/status/2055137596183831031",
+          "publishedAt": "Fri, 15 May 2026 04:06:00 GMT",
+          "source": "ChatGPT(@ChatGPTapp)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-16-2055137596183831031.mp4",
+          "summary": "Touch grass and leave your laptop—Codex is now on your phone. Now in preview on the ChatGPT mobile app. Your browser does not support the video tag. 🔗 View on Twitter 💬 162 🔄 146 ❤️ 2320 👀 130842 📊 401 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI 在 **ChatGPT 手机 App** 中预览上线 **Codex**，把原本偏桌面端的代码代理能力延伸到移动场景。官方放出的视频显示，用户可以直接在手机里发起任务、查看执行过程，并在离开电脑时继续跟进进度。对开发者来说，这意味着 **AI 编程代理** 开始从“坐在 IDE 前使用”扩展到“随时派活、随时查看结果”的工作流。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "Introducing v0 Browser Use. v0 can now open the apps it builds, use them, critique designs, debug c...",
+          "titleZh": "v0 发布 Browser Use 浏览器代理功能",
+          "link": "https://x.com/v0/status/2055402612791669061",
+          "publishedAt": "Fri, 15 May 2026 21:39:05 GMT",
+          "source": "v0(@v0)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-16-2055402612791669061.mp4",
+          "summary": "Introducing v0 Browser Use. v0 can now open the apps it builds, use them, critique designs, debug complex flows, and fix things proactively. While it's working, v0 will send you screenshots of what it sees. Your browser does not support the video tag. 🔗 View on Twitter 💬 13 🔄 14 ❤️ 216 👀 14205 📊 47 ⚡ Powered by xgo.ing",
+          "summaryZh": "**v0 Browser Use** 开始支持直接打开它生成的应用，在浏览器里自己点、自己试、自己做设计批评，并能顺手调试复杂流程。官方还强调它在执行时会回传 **截图**，让用户能看到代理实际看到了什么、做了什么。这个方向值得关注，因为它把 UI 生成进一步推进到 **“生成 + 操作 + 验证 + 修复”** 的闭环。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 65.07285720468778
+        },
+        {
+          "title": "A preview for Pro users: a new personal finance experience in ChatGPT. Pro users in the U.S. can se...",
+          "titleZh": "ChatGPT 为美国 Pro 用户预览个人财务能力",
+          "link": "https://x.com/ChatGPTapp/status/2055317612687675545",
+          "publishedAt": "Fri, 15 May 2026 16:01:19 GMT",
+          "source": "ChatGPT(@ChatGPTapp)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-16-2055317612687675545.mp4",
+          "summary": "A preview for Pro users: a new personal finance experience in ChatGPT. Pro users in the U.S. can securely connect financial accounts, see where their money is going, and ask questions based on the information they choose to connect. Your full financial picture, now in ChatGPT. Your browser does not support the video tag. 🔗 View on Twitter 💬 815 🔄 899 ❤️ 15972 👀 8035540 📊 3774 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI 面向 **美国 ChatGPT Pro 用户** 预览新的个人财务体验。用户可以在 ChatGPT 中 **安全连接金融账户**，查看钱花到哪里，并基于自己授权接入的信息继续追问。值得关注的是，这不只是“读文档”或“算账”，而是把 **账户级上下文** 接进对话，朝更强的个人助理形态迈了一步。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "190M+ people already create in @Canva Now they can generate videos there too HeyGen is officially ...",
+          "titleZh": "HeyGen 正式接入 Canva，把静态内容直接变成视频",
+          "link": "https://x.com/HeyGen/status/2055326468960587879",
+          "publishedAt": "Fri, 15 May 2026 16:36:30 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-16-2055326468960587879.mp4",
+          "summary": "190M+ people already create in @Canva Now they can generate videos there too HeyGen is officially built into Canva, letting you add AI avatars into decks, training docs, social posts, marketing assets, and more without leaving the canvas Static content just became video-first Your browser does not support the video tag. 🔗 View on Twitter 💬 17 🔄 14 ❤️ 152 👀 8013 📊 43 ⚡ Powered by xgo.ing",
+          "summaryZh": "**HeyGen** 宣布正式集成到 **Canva**。用户现在可以在 Canva 里直接把 **AI 数字人** 加进演示文稿、培训材料、社媒内容和营销素材，不用离开当前画布再切去别的工具。对内容团队来说，这个集成把“做静态素材”和“出视频版本”放进同一个工作流，明显降低了视频化门槛。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 56.20199475363009
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models",
+          "titleZh": "MemLens：给多模态长期记忆做系统体检的新基准",
+          "link": "https://huggingface.co/papers/2605.14906",
+          "publishedAt": "2026-05-16T01:00:53.744Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-05-16 排名第 4 的论文候选。",
+          "summaryZh": "**核心结论**：**MemLens** 想解决的是多模态大模型“看过很多图文以后，到底还能不能在更长时间跨度里稳定记住并调用信息”这个问题。它把关注点从单轮视觉问答，推进到 **长期、多轮、跨模态记忆** 的系统评估，核心价值在于先把问题量化清楚，再比较不同模型在长期记忆上的真实差距。\n\n**支撑证据**：从标题和 Hugging Face 论文榜信息可以明确看出，这是一篇面向 **大型视觉语言模型** 的 **benchmark** 工作，重点不在提出新生成模型，而在建立一套评测长期记忆能力的任务框架与比较方法。它能帮助研究者观察模型在图像、文本与历史上下文不断累积后，哪些能力会退化、哪些类型的记忆最容易出错。\n\n**我的判断**：长期记忆会直接影响 **多模态 Agent、个人助理、长流程视觉任务** 的可用性，所以这类评测基准很值得跟进。但在正式采用结论前，仍要看它覆盖了哪些任务、上下文长度、评价标准，以及是否公开了数据与复现实验。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "多模态",
+            "评测",
+            "论文"
+          ],
+          "score": 40
+        },
+        {
+          "title": "Kiwi-Edit: Versatile Video Editing via Instruction and Reference Guidance",
+          "titleZh": "Kiwi-Edit：把文本指令和参考素材结合起来做视频编辑",
+          "link": "https://arxiv.org/abs/2603.02175",
+          "publishedAt": "Fri, 15 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2603.02175v4 Announce Type: replace-cross Abstract: Instruction-based video editing has witnessed rapid progress, yet current methods often struggle with precise visual control, as natural language is inherently limited in describing complex visual nuances. Although reference-guided editing offers a robust solution, its potential is currently bottlenecked by the scarcity of high-quality paired training data. To bridge this gap, we introduce a scalable data generation pipeline that transforms existing video...",
+          "summaryZh": "**核心结论**：**Kiwi-Edit** 试图解决当前指令式视频编辑里“文字说不清楚细节、控制不够准”的老问题。论文的思路是把 **文本指令** 和 **参考引导** 结合起来，让模型既知道“要改什么”，也知道“应该改成什么视觉效果”，从而提升视频编辑的精度和可控性。\n\n**支撑证据**：论文摘要明确指出，作者先做了一套 **可扩展的数据生成流水线**，把现有视频编辑数据转换成更适合参考引导训练的高质量配对样本，再据此训练 **Kiwi-Edit**。从问题设定上看，它瞄准的是复杂视觉细节难以仅靠自然语言描述清楚的场景，因此更强调参考素材在风格、对象和编辑目标上的约束作用。\n\n**我的判断**：如果这套方法在真实案例里能稳定提升局部编辑、一致性和保真度，它会对 **广告制作、短视频改稿、素材复用** 很有价值。后续重点要看的是：作者有没有公开数据流程、是否覆盖长视频，以及在多轮编辑和复杂镜头切换下是否仍然可靠。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "开源",
+            "RAG"
+          ],
+          "score": 40
+        },
+        {
+          "title": "Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability",
+          "titleZh": "微软补充说明长周期 AI 委托任务的可靠性研究",
+          "link": "https://www.microsoft.com/en-us/research/blog/further-notes-on-our-recent-research-on-ai-delegation-and-long-horizon-reliability/",
+          "publishedAt": "Fri, 15 May 2026 18:06:57 +0000",
+          "source": "Microsoft Research Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "official",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/06/Episode7-PeterBillSebastien-AIRevolution_Hero_Feature_River_No_Text_1400x788.jpg",
+          "video": "",
+          "summary": "Our recent paper, “LLMs Corrupt Your Documents When You Delegate”, has generated discussion about the reliability of AI systems in delegated workflows. We appreciate the interest in this work and want to clarify several important points about what the paper does—and does not—claim. The research aims to develop robust evaluation methods for long-horizon delegated and […] The post Further Notes on Our Recent Research on AI Delegation and Long-Horizon Reliability appeared first on Microsoft Research .",
+          "summaryZh": "**核心结论**：微软研究院这篇后续说明，主要是在澄清他们关于 **AI delegation** 和 **long-horizon reliability** 的研究边界。作者想强调的是：当用户把长链路任务交给大模型时，系统在文档传递、状态保持和多步执行中仍然可能出现隐蔽的错误传播，所以需要用更贴近真实工作流的评测方式去观察风险。\n\n**支撑证据**：文中直接回应了外界对论文 **《LLMs Corrupt Your Documents When You Delegate》** 的讨论，解释这项研究关注的是长周期委托任务里哪些环节最容易失真、错误如何在多轮委托中累积，以及为什么单看单步任务表现不足以判断系统可靠性。微软把重点放在评测设计，而不是简单给出一个结论式判断。\n\n**我的判断**：这类研究的现实意义很强，因为越来越多产品都在宣传“帮你代办整条流程”。真正的分水岭在于 **连续几十步后还能不能保持语义、格式和目标不跑偏**。后续值得继续跟进它们公开的 benchmark、失败案例和缓解策略。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "论文"
+          ],
+          "score": 35
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "Ollama now supports Codex app! To try it, update to the latest Ollama 0.24, and run: ollama laun...",
+          "titleZh": "Ollama 0.24 支持 Codex App",
+          "link": "https://x.com/ollama/status/2055100589428658462",
+          "publishedAt": "Fri, 15 May 2026 01:38:57 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIUqWhfW8AAgdYk.jpg",
+          "video": "",
+          "summary": "Ollama now supports Codex app! To try it, update to the latest Ollama 0.24, and run: ollama launch codex-app Select an open model to use with Codex app! 🧵 💬 103 🔄 297 ❤️ 2654 👀 514640 📊 635 ⚡ Powered by xgo.ing",
+          "summaryZh": "**Ollama 0.24** 宣布支持 **Codex App**。官方给出的使用方式是升级到最新版本后执行 `ollama launch codex-app`，再选择一个开源模型接入 Codex。这个更新的意义不只是“多一个兼容项”，而是让本地或云端开源模型更容易进入 **Codex 式代理工作流**，降低开发者试用不同模型的切换成本。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型"
+          ],
+          "score": 75
+        },
+        {
+          "title": "We just added significantly more NVIDIA Blackwell GPUs to better serve GLM-5.1 model on Ollama's clo...",
+          "titleZh": "Ollama 为 GLM-5.1 云模型扩容 Blackwell GPU",
+          "link": "https://x.com/ollama/status/2055130395608248595",
+          "publishedAt": "Fri, 15 May 2026 03:37:23 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIVJes8WYAAtVK9.jpg",
+          "video": "",
+          "summary": "We just added significantly more NVIDIA Blackwell GPUs to better serve GLM-5.1 model on Ollama's cloud. We have been adding more GPUs daily for all the other models. Claude Code: ollama launch claude --model glm-5.1:cloud Codex App: ollama launch codex-app Hermes Agent: ollama launch hermes --model glm-5.1:cloud Run the model: ollama run glm-5.1:cloud 💬 64 🔄 58 ❤️ 727 👀 56880 📊 149 ⚡ Powered by xgo.ing",
+          "summaryZh": "Ollama 表示已经为 **GLM-5.1:cloud** 增加了更多 **NVIDIA Blackwell GPU**，并且仍在持续给其他模型补 GPU。它还给出了一组实际入口：既可以在 **Claude Code** 里用 `glm-5.1:cloud`，也可以在 **Codex App** 和 **Hermes Agent** 场景里调用。对依赖托管模型的开发者来说，这说明 Ollama 正把“模型目录”进一步做成可直接接进代理工具链的运行层。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体"
+          ],
+          "score": 77.93559373157473
+        },
+        {
+          "title": "If you’ve used Milvus, you probably know Attu. It’s the UI many developers open when they want to i...",
+          "titleZh": "Milvus 发布 Attu 3.0 Beta，加入多集群与 AI Agent 运维",
+          "link": "https://x.com/milvusio/status/2055309227430977796",
+          "publishedAt": "Fri, 15 May 2026 15:28:00 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIW16YKa4AAkoRx.jpg",
+          "video": "",
+          "summary": "If you’ve used Milvus, you probably know Attu. It’s the UI many developers open when they want to inspect collections, browse data, check schema, or run a quick search without going back to the CLI. But Milvus usage has moved beyond a single local cluster. Teams now manage dev, staging, and production environments, debug slow searches, check permissions, and jump between dashboards, terminals, and browser tabs just to understand what’s happening. So we rebuilt Attu for that reality. Attu 3.0 beta adds multi-cluster management, persistent workspaces, monitoring, slow query analysis, improved RBAC workflows, and a built-in AI Agent that can help diagnose and operate Milvus through natural language. Attu 3.0 beta is available now for Docker and desktop. Try it here: github.com/zilliztech/att… 💬 0 🔄 0 ❤️ 2 👀 99 📊 1 ⚡ Powered by xgo.ing",
+          "summaryZh": "**Attu 3.0 Beta** 是 Milvus 生态里一次比较实在的管理端升级。新版本加入了 **多集群管理**、**持久化工作区**、**监控**、**慢查询分析**、改进后的 **RBAC 流程**，以及一个能用自然语言协助诊断和操作 Milvus 的内置 **AI Agent**。这说明向量数据库周边工具正在从“单机调试面板”升级成更接近生产环境的运维工作台。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "开源",
+            "开发者工具"
+          ],
+          "score": 48.90848501887865
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "You can now use your @grok subscription inside @NousResearch Hermes Agent. https://t.co/UYKGws8zzH",
+          "titleZh": "xAI 让 Grok 订阅直接接入 Hermes Agent",
+          "link": "https://x.com/xai/status/2055375676656783733",
+          "publishedAt": "Fri, 15 May 2026 19:52:03 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIYoA4paEAA3-tL.png",
+          "video": "",
+          "summary": "You can now use your @grok subscription inside @NousResearch Hermes Agent. x.ai/news/grok-herm… 💬 292 🔄 249 ❤️ 2564 👀 173588 📊 581 ⚡ Powered by xgo.ing",
+          "summaryZh": "**xAI** 宣布用户现在可以把自己的 **Grok 订阅** 接到 **Nous Research 的 Hermes Agent** 里使用。这个信号的重点不在单一模型能力，而在 **订阅服务与第三方 Agent 容器** 开始打通，说明模型访问正从“官方 App 内使用”转向“进入外部代理框架复用”。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 63
+        },
+        {
+          "title": "Runway Agent lets you go from a product shot and an idea to a fully finished ad in a single session....",
+          "titleZh": "Runway Agent 想把商品图直接做成完整广告",
+          "link": "https://x.com/runwayml/status/2055364605979869229",
+          "publishedAt": "Fri, 15 May 2026 19:08:03 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-16-2055364605979869229.mp4",
+          "summary": "Runway Agent lets you go from a product shot and an idea to a fully finished ad in a single session. Get started today at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 9 ❤️ 57 👀 6916 📊 13 ⚡ Powered by xgo.ing",
+          "summaryZh": "**Runway Agent** 的定位很直接：给它一张 **产品图** 和一个想法，它就尝试在单次会话里产出一条完整广告。官方强调的是从素材到成片的端到端工作流，而不是单点的视频生成按钮。对品牌和内容团队来说，这代表 AI 视频工具正从“生成镜头”继续往 **完整创意执行链路** 延伸。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 56.41564862909773
+        },
+        {
+          "title": "We've created comprehensive documentation of the latest X algorithm via DeepWiki: https://t.co/Wlz9...",
+          "titleZh": "Cognition 用 DeepWiki 整理 X 最新推荐算法文档",
+          "link": "https://x.com/cognition/status/2055299791718867114",
+          "publishedAt": "Fri, 15 May 2026 14:50:30 GMT",
+          "source": "Cognition(@cognition_labs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIXjUbWWkAAqvmP.jpg",
+          "video": "",
+          "summary": "We've created comprehensive documentation of the latest X algorithm via DeepWiki: deepwiki.com/xai-org/x-algo… Engagement parameter weights are still private (so we don't know the relative value of a like or reply), but one takeaway: maximizing dwell time helps boost posts. Elon Musk @elonmusk The latest 𝕏 algorithm has been published to GitHub github.com/xai-org/x-algo… h 🔗 View Quoted Tweet 💬 3 🔄 4 ❤️ 55 👀 6463 📊 10 ⚡ Powered by xgo.ing",
+          "summaryZh": "**Cognition** 表示他们用 **DeepWiki** 为 X 最新公开的推荐算法做了一份更完整的文档化整理。帖文里提到，尽管互动权重等细节仍未公开，但其中一个可见结论是 **停留时长（dwell time）** 依然是重要信号。这类整理的价值在于把零散代码和公开信息变成更易读、可检索的知识层，方便团队研究推荐系统设计。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开源"
+          ],
+          "score": 53.708504129674594
+        },
+        {
+          "title": "codex for finding local businesses who may need help building a website:",
+          "titleZh": "Greg Brockman 转发用 Codex 做本地商家获客的实战工作流",
+          "link": "https://x.com/gdb/status/2055285857628676399",
+          "publishedAt": "Fri, 15 May 2026 13:55:08 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-05-16-2055285857628676399.mp4",
+          "summary": "codex for finding local businesses who may need help building a website: Kappaemme @Kappaemme1926 CODEX SKILL THAT TURNS LOCAL SEARCH INTO CLIENT LEADS! I made a Codex skill that helps find local businesses that may need a website. Search nearby shops, gyms, restaurants, salons, and local activities while Codex checks who has a real website and who only has socials. -> local business prospecting -> website vs social-only checks -> lead scoring -> phone/contact fields -> chat or CSV-style output -> one-command in...",
+          "summaryZh": "Greg Brockman 转发了一条社区工作流：有人把 **Codex** 做成一个面向本地商家的获客技能，用来搜索附近店铺、判断它们有没有正式网站、筛出只有社媒没有官网的对象，并输出 **线索评分、电话和联系人信息**。这类案例值得关注，因为它把 AI 编程代理从写代码本身，推进到了 **可直接带来销售线索的自动化业务流程**。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "视频"
+          ],
+          "score": 55
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "管 Vibe Coding 项目，就像管公共厕所",
+          "titleZh": "管 Vibe Coding 项目，就像管公共厕所",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69fc8a84c417dfd2311e4a4c",
+          "publishedAt": "2026-05-07T12:25:38.000Z",
+          "source": "AI炼金术",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9mNTFhLWF1ZGlvZnJlZWhpZ2hxcHMvQjkvNzAvR01Db09TSUh2N0JGQUFWZ1B3SDNSN2VoLmpwZWc=.jpeg",
+          "video": "",
+          "summary": "管 Vibe Coding 项目，就像管公共厕所",
+          "summaryZh": "**核心内容**：这期播客讨论的不是“Vibe Coding 能不能提速”，而是提速之后怎么收拾残局。徐文浩把这类项目比作“一个月就能堆出来的屎山”，重点讨论当团队已经享受过生成式开发的快感后，如何继续高速迭代、又不让系统迅速失控。\n\n**内容线索**：节目围绕真实团队里的治理难题展开，包括代码质量下滑、编排系统越来越脆、管理摩擦被 AI 消掉后反而少了必要的打磨过程，以及老板已经要求提效但工程体系还没跟上的矛盾。它适合作为今天日报外的一条延伸阅读，因为问题足够具体，讨论的也是很多 AI Agent 团队已经开始遇到的治理深水区。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "李想×罗永浩！李想的理想：通过 AI 技术，让普通人也过上富豪的生活",
+          "titleZh": "李想谈 AI、具身智能与理想汽车的新阶段",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a037114e1eb34a939471baf",
+          "publishedAt": "2026-05-13T04:00:00.000Z",
+          "source": "罗永浩的十字路口",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FvR7Od3_I3OQq0ac_8xMPc4zqdOt.png",
+          "video": "",
+          "summary": "李想×罗永浩！李想的理想：通过 AI 技术，让普通人也过上富豪的生活",
+          "summaryZh": "**讲了什么**：这期 **小宇宙播客**《罗永浩的十字路口》请来 **理想汽车创始人李想**，主线是回看他在过去两百多天里，怎样把理想汽车进一步推向 **AI 与具身智能公司** 的方向，以及这次发布的新一代旗舰 **L9 Livis** 到底代表了什么阶段性进展。\n\n**内容线索**：节目简介里点到的重点包括 **马赫 M100 芯片**、**2560 TOPS 算力**、全线控底盘、**800V 主动式悬架** 等具体产品能力，也展开聊了 **AI 学习、具身智能、无人驾驶会不会影响销量** 等问题。它适合作为延伸阅读，因为整集不是泛泛谈趋势，而是围绕一款新车、一家公司转型路径和创始人的长期目标往下展开。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.dev/rss/",
+      "error": "fetch failed"
+    }
+  ],
+  "summaryBullets": [
+    "OpenAI 同时把 **Codex 带到 ChatGPT 手机端**，并为 **美国 Pro 用户** 预览个人财务能力，说明消费级 AI 正从聊天工具继续走向“可携带的任务代理 + 账户级上下文助手”。",
+    "**Browser Use、广告代理、数字人视频集成**几条产品线今天明显加速：v0 开始自己打开和调试应用，Runway 想把商品图直接做成整条广告，HeyGen 则把视频生成嵌进 Canva 现成工作流。",
+    "**研究前线**里，两篇新工作分别瞄准 **多模态长期记忆评测** 和 **可控视频编辑**；微软则继续提醒市场，长周期 AI 委托任务的关键难点仍是可靠性，而不是单步演示效果。",
+    "**开源与基础设施**也在补齐代理时代的关键拼图：Ollama 0.24 接入 Codex App、为 GLM-5.1 云模型扩容 Blackwell GPU，Milvus 的 Attu 3.0 Beta 则把多集群、慢查询和 AI Agent 运维拉进同一个控制台。",
+    "社媒层面的高信号讨论集中在 **模型订阅接入第三方 Agent** 与 **Codex 实战用例**：Grok 订阅进入 Hermes Agent，社区已经开始把 Codex 用到本地商家获客这类直接面向业务结果的流程里。"
+  ]
+}
