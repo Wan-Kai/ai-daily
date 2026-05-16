@@ -164,6 +164,10 @@ function hasAiReviewedTranscript(item) {
   return item.transcriptAiReviewStatus === "approved" && Boolean(item.transcriptAiReviewedAt);
 }
 
+function isApprovedPodcastWaitingForPublish(item) {
+  return ["approved_needs_local_transcription", "approved_needs_ai_review"].includes(item.reviewStatus);
+}
+
 async function transcribePodcastBeforePublish(stores, found) {
   if (hasLocalWhisperTranscript(found.item)) return found;
   if (!found.item.audioUrl) {
@@ -195,9 +199,39 @@ async function transcribePodcastBeforePublish(stores, found) {
 }
 
 function markPodcastWaitingForAiReview(found, note) {
-  found.item.reviewStatus = "needs_ai_review";
+  found.item.reviewStatus = "approved_needs_ai_review";
   found.item.reviewNote = note;
   found.item.transcriptAiReviewStatus = found.item.transcriptAiReviewStatus || "needs_review";
+}
+
+function publishCandidate(found, published, changedPublished, changedStores, category, note = "") {
+  const linkKey = normalizedLinkKey(found.item.url);
+  const titleKey = normalizedTitleKey(found.item.titleZh || found.item.title);
+  const exists = published[category].some((item) => normalizedLinkKey(item.url) === linkKey || normalizedTitleKey(item.titleZh || item.title) === titleKey);
+  if (!exists) {
+    published[category].unshift(toPublishedItem(found.item, note));
+    changedPublished.add(category);
+  }
+  found.list.splice(found.index, 1);
+  changedStores.add(found.file);
+  return !exists;
+}
+
+function publishReadyApprovedPodcasts(stores, published, changedPublished, changedStores) {
+  const messages = [];
+  let publishedCount = 0;
+  for (const [file, store] of stores.entries()) {
+    const list = store.podcasts || [];
+    for (let index = list.length - 1; index >= 0; index -= 1) {
+      const item = list[index];
+      if (!isApprovedPodcastWaitingForPublish(item) || !hasLocalWhisperTranscript(item) || !hasAiReviewedTranscript(item)) continue;
+      const found = { file, store, list, index, item };
+      const didPublish = publishCandidate(found, published, changedPublished, changedStores, "podcasts", item.reviewNote || "");
+      if (didPublish) publishedCount += 1;
+      messages.push(`${didPublish ? "自动发布已校准播客" : "移除重复已校准播客"}：${item.titleZh || item.title}`);
+    }
+  }
+  return { messages, publishedCount };
 }
 
 async function main() {
@@ -205,11 +239,6 @@ async function main() {
   const payloads = issues
     .map((issue) => ({ issue, payload: parseApprovalPayload(issue.body || "") }))
     .filter((entry) => entry.payload);
-
-  if (!payloads.length) {
-    console.log("没有待处理的精选内容审批 Issue。");
-    return;
-  }
 
   const stores = await readCandidateStores();
   const published = {
@@ -224,6 +253,10 @@ async function main() {
   let rejected = 0;
   let kept = 0;
   let processedApprovedPodcasts = 0;
+
+  if (!payloads.length) {
+    console.log("没有待处理的精选内容审批 Issue。");
+  }
 
   for (const { issue, payload } of payloads) {
     const messages = [];
@@ -246,8 +279,8 @@ async function main() {
         if (category === "podcasts") {
           const needsTranscription = !hasLocalWhisperTranscript(found.item);
           if (needsTranscription && processedApprovedPodcasts >= maxApprovedPodcastsPerRun) {
-            found.item.reviewStatus = "needs_local_transcription";
-            found.item.reviewNote = "已通过内容审核，但当前发布环境不执行本地 Whisper 转写；请在本机 Codex 运行精选发布或转写后再校准。";
+            found.item.reviewStatus = "approved_needs_local_transcription";
+            found.item.reviewNote = "已通过内容审核，等待本机 Codex 执行 Whisper 转写和 AI 校准；校准完成后会自动发布，无需重新审批。";
             changedStores.add(found.file);
             kept += 1;
             hasDeferredDecision = true;
@@ -270,26 +303,19 @@ async function main() {
           if (!hasAiReviewedTranscript(found.item)) {
             markPodcastWaitingForAiReview(
               found,
-              "已通过内容审核并完成本地 Whisper 转写，但逐字稿仍需 Codex 结合标题、节目稿和上下文做 AI 校准；校准后再次提交通过，才会正式发布。"
+              "已通过内容审核并完成本地 Whisper 转写，但逐字稿仍需 Codex 结合标题、节目稿和上下文做 AI 校准；校准完成后会自动发布，无需重新审批。"
             );
             changedStores.add(found.file);
             kept += 1;
             hasDeferredDecision = true;
-            messages.push(`播客等待 AI 校准后再发布：${found.item.titleZh || found.item.title}`);
+            messages.push(`播客等待 AI 校准后自动发布：${found.item.titleZh || found.item.title}`);
             continue;
           }
         }
 
-        const linkKey = normalizedLinkKey(found.item.url);
-        const titleKey = normalizedTitleKey(found.item.titleZh || found.item.title);
-        const exists = published[category].some((item) => normalizedLinkKey(item.url) === linkKey || normalizedTitleKey(item.titleZh || item.title) === titleKey);
-        if (!exists) {
-          published[category].unshift(toPublishedItem(found.item, decision.note || ""));
-          changedPublished.add(category);
+        if (publishCandidate(found, published, changedPublished, changedStores, category, decision.note || "")) {
           approved += 1;
         }
-        found.list.splice(found.index, 1);
-        changedStores.add(found.file);
         messages.push(`通过：${found.item.titleZh || found.item.title}`);
       } else if (action === "reject") {
         const linkKey = normalizedLinkKey(found.item.url);
@@ -319,9 +345,15 @@ async function main() {
 
     const summary = messages.map((item) => `- ${item}`).join("\n") || "- 没有可同步的决策。";
     const suffix = hasDeferredDecision
-      ? "\n\n部分播客仍需本地转写或 Codex AI 校准，已继续保留在待审池；校准完成后请在审核页重新提交审批 Issue。"
+      ? "\n\n部分播客仍需本地转写或 Codex AI 校准，已继续保留在待审池；校准完成后会自动发布，无需重新审批。"
       : "";
     await closeIssue(issue.number, `已同步精选内容审批。\n\n${summary}${suffix}`);
+  }
+
+  const { messages: autoPublishedPodcastMessages, publishedCount: autoPublishedPodcastCount } = publishReadyApprovedPodcasts(stores, published, changedPublished, changedStores);
+  if (autoPublishedPodcastMessages.length) {
+    approved += autoPublishedPodcastCount;
+    console.log(autoPublishedPodcastMessages.join("\n"));
   }
 
   await mkdir(curationDir, { recursive: true });

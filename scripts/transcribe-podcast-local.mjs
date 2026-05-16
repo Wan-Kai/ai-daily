@@ -302,8 +302,10 @@ async function main() {
     item.transcriptGeneratedAt = new Date().toISOString();
     item.transcriptNormalizedAt = new Date().toISOString();
     item.transcriptAiReviewStatus = "needs_review";
-    item.reviewStatus = "needs_ai_review";
-    item.reviewNote = "已完成本地 Whisper medium 转写和脚本规则清洗，仍需 Codex 结合标题、节目稿和上下文校准后才能发布。";
+    item.reviewStatus = item.reviewStatus === "approved_needs_local_transcription" ? "approved_needs_ai_review" : "needs_ai_review";
+    item.reviewNote = item.reviewStatus === "approved_needs_ai_review"
+      ? "已通过内容审核，并完成本地 Whisper medium 转写和脚本规则清洗；仍需 Codex 校准，校准完成后会自动发布。"
+      : "已完成本地 Whisper medium 转写和脚本规则清洗，仍需 Codex 结合标题、节目稿和上下文校准后才能发布。";
     changed = true;
     console.log(`转写完成：${item.id}，${transcript.length} 字符。`);
   }

@@ -82,8 +82,8 @@
       "detailCount": 8,
       "selectionReason": "来自用户收藏的小宇宙高质量播客池，主题与 AI 产品、Agent、开源生态、组织转型或前沿研究强相关，适合作为历史精选候选。",
       "auditNote": "审核页可重点看：嘉宾是否一手、是否有长期价值、是否有具体案例和可复用判断。通过后流程会自动使用本地 Whisper 转写全文并发布到精选播客。",
-      "reviewStatus": "needs_ai_review",
-      "reviewNote": "已通过内容审核并完成本地 Whisper 转写，但逐字稿仍需 Codex 结合标题、节目稿和上下文做 AI 校准；校准后再次提交通过，才会正式发布。",
+      "reviewStatus": "approved_needs_ai_review",
+      "reviewNote": "已通过内容审核并完成本地 Whisper 转写，但逐字稿仍需 Codex 结合标题、节目稿和上下文做 AI 校准；校准完成后会自动发布，无需重新审批。",
       "status": "candidate",
       "transcriptSource": "local-whisper-medium",
       "transcriptGeneratedAt": "2026-05-16T07:37:54.319Z",
@@ -117,8 +117,8 @@
       "detailCount": 7,
       "selectionReason": "来自用户收藏的小宇宙高质量播客池，主题与 AI 产品、Agent、开源生态、组织转型或前沿研究强相关，适合作为历史精选候选。",
       "auditNote": "审核页可重点看：嘉宾是否一手、是否有长期价值、是否有具体案例和可复用判断。通过后流程会自动使用本地 Whisper 转写全文并发布到精选播客。",
-      "reviewStatus": "needs_local_transcription",
-      "reviewNote": "已通过内容审核，但当前发布环境不执行本地 Whisper 转写；请在本机 Codex 运行精选发布或转写后再校准。",
+      "reviewStatus": "approved_needs_local_transcription",
+      "reviewNote": "已通过内容审核，等待本机 Codex 执行 Whisper 转写和 AI 校准；校准完成后会自动发布，无需重新审批。",
       "status": "candidate"
     },
     {
@@ -148,8 +148,8 @@
       "detailCount": 1,
       "selectionReason": "来自用户收藏的小宇宙高质量播客池，主题与 AI 产品、Agent、开源生态、组织转型或前沿研究强相关，适合作为历史精选候选。",
       "auditNote": "审核页可重点看：嘉宾是否一手、是否有长期价值、是否有具体案例和可复用判断。通过后流程会自动使用本地 Whisper 转写全文并发布到精选播客。",
-      "reviewStatus": "needs_local_transcription",
-      "reviewNote": "已通过内容审核，但当前发布环境不执行本地 Whisper 转写；请在本机 Codex 运行精选发布或转写后再校准。",
+      "reviewStatus": "approved_needs_local_transcription",
+      "reviewNote": "已通过内容审核，等待本机 Codex 执行 Whisper 转写和 AI 校准；校准完成后会自动发布，无需重新审批。",
       "status": "candidate"
     },
     {
@@ -179,8 +179,8 @@
       "detailCount": 8,
       "selectionReason": "来自用户收藏的小宇宙高质量播客池，主题与 AI 产品、Agent、开源生态、组织转型或前沿研究强相关，适合作为历史精选候选。",
       "auditNote": "审核页可重点看：嘉宾是否一手、是否有长期价值、是否有具体案例和可复用判断。通过后流程会自动使用本地 Whisper 转写全文并发布到精选播客。",
-      "reviewStatus": "needs_local_transcription",
-      "reviewNote": "已通过内容审核，但候选曾被后续生成任务移除；已从历史候选恢复，等待本地 Whisper 转写和 Codex AI 校准。",
+      "reviewStatus": "approved_needs_local_transcription",
+      "reviewNote": "已通过内容审核，但候选曾被后续生成任务移除；已从历史候选恢复，等待本地 Whisper 转写和 Codex AI 校准，校准完成后会自动发布。",
       "status": "candidate"
     },
     {
@@ -210,8 +210,8 @@
       "detailCount": 8,
       "selectionReason": "来自用户收藏的小宇宙高质量播客池，主题与 AI 产品、Agent、开源生态、组织转型或前沿研究强相关，适合作为历史精选候选。",
       "auditNote": "审核页可重点看：嘉宾是否一手、是否有长期价值、是否有具体案例和可复用判断。通过后流程会自动使用本地 Whisper 转写全文并发布到精选播客。",
-      "reviewStatus": "needs_local_transcription",
-      "reviewNote": "已通过内容审核，但候选曾被后续生成任务移除；已从历史候选恢复，等待本地 Whisper 转写和 Codex AI 校准。",
+      "reviewStatus": "approved_needs_local_transcription",
+      "reviewNote": "已通过内容审核，但候选曾被后续生成任务移除；已从历史候选恢复，等待本地 Whisper 转写和 Codex AI 校准，校准完成后会自动发布。",
       "status": "candidate"
     }
   ]

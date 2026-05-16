@@ -374,9 +374,9 @@ function renderReviewItem(item, index) {
     ? (
       item.transcriptSource === "local-whisper-medium"
         ? (item.transcriptAiReviewStatus === "approved"
-          ? "已完成本地转写与 AI 校准；再次审批通过后可以正式发布。"
-          : "已完成本地转写，但还没有 AI 校准标记；即使选择通过，也会继续留在待审池。")
-        : "播客需要两阶段发布：先通过审批触发本地 Whisper 转写，再由 Codex 校准逐字稿；未完成 AI 校准前不会正式发布。"
+          ? "已完成本地转写与 AI 校准；如果此前已通过内容审核，下一次精选发布任务会自动上线。"
+          : "已完成本地转写，但还没有 AI 校准标记；如果已通过内容审核，会在校准完成后自动发布。")
+        : "播客通过审批后会触发本地 Whisper 转写，再由 Codex 校准逐字稿；校准完成后自动发布，无需重复审批。"
     )
     : "";
   const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");

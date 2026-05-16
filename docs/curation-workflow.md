@@ -21,11 +21,11 @@
 
 `npm run curate:apply` 会读取标题包含「精选内容审批」的 GitHub Issue，解析其中的审批 JSON，把通过的论文/博客候选写入 `data/curation/*.json`，把拒绝的候选写入 `data/curation-rejections.json` 并从待审库移除，暂不处理的候选继续保留。
 
-精选播客是两阶段发布：第一次审批通过只能触发或确认本地 Whisper medium 转写，脚本会把候选标记为 `reviewStatus: "needs_ai_review"`、`transcriptAiReviewStatus: "needs_review"` 并继续留在待审池。Codex 需要人工介入，结合标题、节目稿、上下文和转写文本校准明显错词、术语、人名、段落可读性与摘要质量；校准完成后写入 `transcriptAiReviewStatus: "approved"` 和 `transcriptAiReviewedAt`，再次审批通过时才允许写入 `data/curation/podcasts.json`。
+精选播客是两阶段发布：第一次审批通过代表内容授权，脚本只能触发或确认本地 Whisper medium 转写，并把候选标记为 `reviewStatus: "approved_needs_ai_review"`、`transcriptAiReviewStatus: "needs_review"` 继续留在待审池。Codex 需要人工介入，结合标题、节目稿、上下文和转写文本校准明显错词、术语、人名、段落可读性与摘要质量；校准不是第二次内容审批，校准完成后写入 `transcriptAiReviewStatus: "approved"` 和 `transcriptAiReviewedAt`，下一次精选发布任务会自动写入 `data/curation/podcasts.json`，不需要用户重复审批。
 
 `npm run daily` 只负责生成日报、修复媒体、审查日报、生成新的待审核候选并构建页面，不再读取精选审批 Issue。
 
-精选审批发布改由独立命令 `npm run curation:publish` 负责。它会先执行 `npm run curate:apply` 读取标题包含「精选内容审批」的 GitHub Issue，把审批结果同步到正式发布库或拒绝库，再重新构建站点。这个命令不能代替 Codex 对播客逐字稿的 AI 校准；未带 `transcriptAiReviewStatus: "approved"` 的播客会继续留在待审池。
+精选审批发布改由独立命令 `npm run curation:publish` 负责。它会先执行 `npm run curate:apply` 读取标题包含「精选内容审批」的 GitHub Issue，把审批结果同步到正式发布库或拒绝库，再重新构建站点。这个命令不能代替 Codex 对播客逐字稿的 AI 校准；未带 `transcriptAiReviewStatus: "approved"` 的播客会继续留在待审池，已通过内容审核且完成 AI 校准的播客会自动发布。
 
 精选内容不要求每天更新。没有足够好的内容时，应保持空缺或维持旧内容，不要为了填充而发布低质量条目。
 

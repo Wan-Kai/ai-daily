@@ -36,7 +36,7 @@
 - 精选播客如果能拿到节目稿、shownotes 或转写文本，需要生成 `transcripts/*.html` 全文稿页面，并在精选页和审核页提供「查看全文稿」「播放音频」「打开小宇宙」链接；候选内容也要生成对应全文稿页面，避免审核页链接失效。
 - 精选播客候选也必须走 Issue 审批流程，自动抓取只进入 `data/curation-candidates/YYYY-MM-DD.json`；只有通过 `npm run curate:apply` 读取审批 Issue 后，且候选已完成本地转写与 Codex AI 校准，才可以写入 `data/curation/podcasts.json` 正式发布。
 - 本地播客逐字稿采用 Whisper medium 方案：模型缓存到 `.cache/whisper/ggml-medium.bin`，不提交 git；运行 `npm run whisper:download` 可下载或校验模型。真正转写使用 `npm run podcasts:transcribe`，需要本机安装 `whisper.cpp` 和 `ffmpeg`，例如 `brew install whisper-cpp ffmpeg`。转写结果仍需在对话里由 Codex 结合标题、节目稿和上下文校准后再发布。
-- 精选播客审批通过后，`npm run curate:apply` 只能先自动调用本地 Whisper medium 生成逐字稿，并把候选标记为 `reviewStatus: "needs_ai_review"`、`transcriptAiReviewStatus: "needs_review"`；不能直接写入 `data/curation/podcasts.json`。Codex 需要结合标题、节目稿、上下文和转写文本校准明显错词、术语、人名、段落可读性与摘要质量，校准后写入 `transcriptAiReviewStatus: "approved"` 和 `transcriptAiReviewedAt`，再由下一次审批发布。转写失败时，要把候选保留在待审池并记录失败原因，不要发布没有逐字稿或未 AI 校准的播客。
+- 精选播客审批通过后，`npm run curate:apply` 只能先自动调用本地 Whisper medium 生成逐字稿，并把候选标记为 `reviewStatus: "approved_needs_ai_review"`、`transcriptAiReviewStatus: "needs_review"`；不能在未校准时写入 `data/curation/podcasts.json`。Codex 需要结合标题、节目稿、上下文和转写文本校准明显错词、术语、人名、段落可读性与摘要质量，校准不是第二次内容审批；校准后写入 `transcriptAiReviewStatus: "approved"` 和 `transcriptAiReviewedAt`，下一次精选发布任务会自动发布，无需用户重复审批。转写失败时，要把候选保留在待审池并记录失败原因，不要发布没有逐字稿或未 AI 校准的播客。
 - 精选审批发布自动化应独立于每日日报定时任务运行；它负责读取 open 的「精选内容审批」Issue、同步通过/拒绝结果、处理播客转写、提交推送，并触发站点重新部署。
 - 后续验证 Web 页面时优先使用 Chrome 插件进行真实浏览器检查；如果 Chrome 未启动，用户已授权可以自动启动 Chrome 后继续验证。
 - 本仓库最稳妥的部署方式是：提交到 `main` 后推送到 GitHub，使用 GitHub Actions 的 `Deploy AI Daily` 工作流发布 GitHub Pages；不要手工改 `dist` 之外的线上内容，也不要绕过 Actions 部署。
