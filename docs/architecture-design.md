@@ -285,7 +285,7 @@ GitHub Actions 不再做：
 
 ## 9. 本地定时任务设计
 
-预期每天北京时间 05:00 运行本地 Codex 定时任务。
+预期每天北京时间 03:00 运行本地 Codex 日报定时任务，并在 03:40 运行独立的精选审批发布任务。
 
 定时任务目标：
 
@@ -323,7 +323,7 @@ Codex 本地定时任务依赖本机处于可运行状态。
 建议设置系统级定时唤醒：
 
 ```bash
-sudo pmset repeat wakeorpoweron MTWRFSU 04:55:00
+sudo pmset repeat wakeorpoweron MTWRFSU 02:50:00
 ```
 
 检查唤醒计划：
@@ -334,8 +334,9 @@ pmset -g sched
 
 建议：
 
-- 05:00 跑 Codex 任务。
-- 04:55 唤醒电脑。
+- 03:00 跑每日日报 Codex 任务。
+- 03:40 跑精选审批发布 Codex 任务。
+- 02:50 唤醒电脑，并由 LaunchAgent 保活覆盖两个任务窗口。
 - Mac 尽量保持接电。
 - 保持网络可用。
 - 保持 Codex 登录状态正常。
