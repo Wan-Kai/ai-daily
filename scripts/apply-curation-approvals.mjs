@@ -9,7 +9,7 @@ const candidatesDir = path.join(root, "data", "curation-candidates");
 const rejectionsPath = path.join(root, "data", "curation-rejections.json");
 const repo = process.env.AI_DAILY_GITHUB_REPO || "Wan-Kai/ai-daily";
 const execFileAsync = promisify(execFile);
-const maxApprovedPodcastsPerRun = Math.max(0, Number(process.env.AI_DAILY_MAX_APPROVED_PODCASTS_PER_RUN || 0));
+const maxApprovedPodcastsPerRun = Math.max(0, Number(process.env.AI_DAILY_MAX_APPROVED_PODCASTS_PER_RUN || 1));
 
 function normalizedLinkKey(link = "") {
   try {
@@ -156,8 +156,16 @@ function candidateDateFromFile(file) {
   return file.replace(/\.json$/, "");
 }
 
+function hasLocalWhisperTranscript(item) {
+  return item.transcriptSource === "local-whisper-medium" && Boolean(item.transcriptText);
+}
+
+function hasAiReviewedTranscript(item) {
+  return item.transcriptAiReviewStatus === "approved" && Boolean(item.transcriptAiReviewedAt);
+}
+
 async function transcribePodcastBeforePublish(stores, found) {
-  if (found.item.transcriptSource === "local-whisper-medium") return found;
+  if (hasLocalWhisperTranscript(found.item)) return found;
   if (!found.item.audioUrl) {
     throw new Error("播客候选缺少音频链接，无法自动生成逐字稿。");
   }
@@ -180,10 +188,16 @@ async function transcribePodcastBeforePublish(stores, found) {
   const refreshedStore = await readJson(path.join(candidatesDir, found.file), found.store);
   stores.set(found.file, refreshedStore);
   const refreshedFound = findCandidate(stores, "podcasts", found.item.id);
-  if (!refreshedFound?.item?.transcriptSource) {
+  if (!refreshedFound || !hasLocalWhisperTranscript(refreshedFound.item)) {
     throw new Error("播客转写命令已结束，但候选内容中未写入转写结果。");
   }
   return refreshedFound;
+}
+
+function markPodcastWaitingForAiReview(found, note) {
+  found.item.reviewStatus = "needs_ai_review";
+  found.item.reviewNote = note;
+  found.item.transcriptAiReviewStatus = found.item.transcriptAiReviewStatus || "needs_review";
 }
 
 async function main() {
@@ -222,13 +236,19 @@ async function main() {
 
       let found = findCandidate(stores, category, id);
       if (!found) {
+        hasDeferredDecision = true;
+        kept += 1;
+        messages.push(`未找到候选，无法同步：${category}/${id}（可能候选池已被后续任务覆盖或清理）`);
         continue;
       }
 
       if (action === "approve") {
         if (category === "podcasts") {
-          const needsTranscription = found.item.transcriptSource !== "local-whisper-medium";
+          const needsTranscription = !hasLocalWhisperTranscript(found.item);
           if (needsTranscription && processedApprovedPodcasts >= maxApprovedPodcastsPerRun) {
+            found.item.reviewStatus = "needs_local_transcription";
+            found.item.reviewNote = "已通过内容审核，但当前发布环境不执行本地 Whisper 转写；请在本机 Codex 运行精选发布或转写后再校准。";
+            changedStores.add(found.file);
             kept += 1;
             hasDeferredDecision = true;
             messages.push(`延后处理：${found.item.titleZh || found.item.title}（等待后续批次自动转写）`);
@@ -242,7 +262,20 @@ async function main() {
             found.item.reviewNote = `已通过审核，但自动转写失败：${error.message}`;
             changedStores.add(found.file);
             kept += 1;
+            hasDeferredDecision = true;
             messages.push(`播客转写失败，保留待审：${found.item.titleZh || found.item.title} - ${error.message}`);
+            continue;
+          }
+
+          if (!hasAiReviewedTranscript(found.item)) {
+            markPodcastWaitingForAiReview(
+              found,
+              "已通过内容审核并完成本地 Whisper 转写，但逐字稿仍需 Codex 结合标题、节目稿和上下文做 AI 校准；校准后再次提交通过，才会正式发布。"
+            );
+            changedStores.add(found.file);
+            kept += 1;
+            hasDeferredDecision = true;
+            messages.push(`播客等待 AI 校准后再发布：${found.item.titleZh || found.item.title}`);
             continue;
           }
         }
@@ -285,11 +318,10 @@ async function main() {
     }
 
     const summary = messages.map((item) => `- ${item}`).join("\n") || "- 没有可同步的决策。";
-    if (hasDeferredDecision) {
-      await commentIssue(issue.number, `本轮已部分同步精选内容审批。\n\n${summary}\n\n- 仍有播客待自动转写，Issue 保持打开，后续运行会继续处理。`);
-    } else {
-      await closeIssue(issue.number, `已同步精选内容审批。\n\n${summary}`);
-    }
+    const suffix = hasDeferredDecision
+      ? "\n\n部分播客仍需本地转写或 Codex AI 校准，已继续保留在待审池；校准完成后请在审核页重新提交审批 Issue。"
+      : "";
+    await closeIssue(issue.number, `已同步精选内容审批。\n\n${summary}${suffix}`);
   }
 
   await mkdir(curationDir, { recursive: true });

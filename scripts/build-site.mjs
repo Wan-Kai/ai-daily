@@ -242,7 +242,8 @@ function curationYear(item) {
 function renderCurationLinks(item, type) {
   const links = [];
   if (type === "podcasts" && item.transcriptPath) {
-    links.push(`<a href="./${escapeHtml(item.transcriptPath)}">查看全文稿</a>`);
+    const transcriptLabel = item.transcriptSource === "local-whisper-medium" ? "查看逐字稿" : "查看节目稿";
+    links.push(`<a href="./${escapeHtml(item.transcriptPath)}">${transcriptLabel}</a>`);
   }
   if (type === "podcasts" && item.audioUrl) {
     links.push(`<a href="${escapeHtml(item.audioUrl)}" target="_blank" rel="noreferrer">播放音频</a>`);
@@ -368,6 +369,16 @@ function renderReviewItem(item, index) {
   const title = item.titleZh || item.title;
   const summary = item.summaryZh ? String(item.summaryZh).split(/\n+/).map((paragraph) => paragraph.trim()).filter(Boolean).map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`).join("") : "";
   const audit = [item.selectionReason, item.auditNote].filter(Boolean).map((paragraph) => `<p>${renderInlineMarkdown(paragraph)}</p>`).join("");
+  const reviewNote = [item.reviewStatus, item.reviewNote].filter(Boolean).join("：");
+  const podcastGate = item.category === "podcasts"
+    ? (
+      item.transcriptSource === "local-whisper-medium"
+        ? (item.transcriptAiReviewStatus === "approved"
+          ? "已完成本地转写与 AI 校准；再次审批通过后可以正式发布。"
+          : "已完成本地转写，但还没有 AI 校准标记；即使选择通过，也会继续留在待审池。")
+        : "播客需要两阶段发布：先通过审批触发本地 Whisper 转写，再由 Codex 校准逐字稿；未完成 AI 校准前不会正式发布。"
+    )
+    : "";
   const tags = (item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
 
   return `
@@ -382,6 +393,8 @@ function renderReviewItem(item, index) {
         </div>
         <h2><a href="${escapeHtml(item.url || "#")}" target="_blank" rel="noreferrer">${escapeHtml(title)}</a></h2>
         ${audit ? `<div class="review-audit">${audit}</div>` : ""}
+        ${reviewNote ? `<div class="review-audit"><p>${renderInlineMarkdown(reviewNote)}</p></div>` : ""}
+        ${podcastGate ? `<div class="review-audit"><p>${escapeHtml(podcastGate)}</p></div>` : ""}
         ${summary ? `<div class="curation-summary">${summary}</div>` : ""}
         ${renderCurationLinks(item, item.category)}
         ${tags ? `<div class="curation-tags">${tags}</div>` : ""}

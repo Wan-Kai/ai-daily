@@ -1,5 +1,110 @@
 [
   {
+    "id": "google-transformer-novel-neural-network",
+    "titleZh": "Google Research：Transformer 架构发布解读",
+    "title": "Transformer: A Novel Neural Network Architecture for Language Understanding",
+    "source": "Google Research Blog",
+    "url": "https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/",
+    "publishedAt": "2017-08-31",
+    "summaryZh": "**核心内容**：这篇 Google Research 博客是 Transformer 论文的官方通俗解读，解释为什么自注意力能替代循环网络，为什么它更适合并行训练和长距离依赖建模。对不想直接读论文的读者，它是进入 Transformer 的更低门槛入口。\n**展开方式**：文章介绍 encoder-decoder、attention、multi-head attention 和 position encoding 的基本直觉，并用机器翻译任务说明模型效果和训练效率。相比论文，它更适合做概念导读，但细节和实验仍需要回到原文。\n**审核重点**：适合和 Attention Is All You Need 论文配套发布。审核时可决定是否把它作为“辅助导读”而不是独立精选博客。",
+    "tags": [
+      "Transformer",
+      "Google Research",
+      "架构导读",
+      "基础概念"
+    ],
+    "score": 50,
+    "selectedAt": "2026-05-15",
+    "duration": "",
+    "takeaways": [],
+    "status": "published",
+    "reviewNote": ""
+  },
+  {
+    "id": "lilian-weng-llm-powered-autonomous-agents",
+    "titleZh": "Lilian Weng：LLM 驱动的自主 Agent",
+    "title": "LLM Powered Autonomous Agents",
+    "source": "Lilian Weng Blog",
+    "url": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+    "publishedAt": "2023-06-23",
+    "summaryZh": "**核心内容**：这篇长文系统梳理了 LLM Agent 的核心组件：规划、记忆、工具使用和行动反馈。它把 AutoGPT、ReAct、Reflexion、Toolformer 等工作放到一个框架里，适合做 Agent 入门和架构对照。\n**展开方式**：文章先解释任务分解和反思机制，再讨论短期/长期记忆、向量检索、外部工具调用，以及 Agent 在真实任务中的失败模式。它不是产品宣传，而是把早期 Agent 研究和工程实践串成一张地图。\n**审核重点**：适合作为 Agent 学习路径的第一篇博客。审核时可注意它写于 2023 年，部分案例已过时，但框架仍然有解释力。",
+    "tags": [
+      "Agent",
+      "LLM",
+      "工具调用",
+      "记忆"
+    ],
+    "score": 56,
+    "selectedAt": "2026-05-15",
+    "duration": "",
+    "takeaways": [],
+    "status": "published",
+    "reviewNote": ""
+  },
+  {
+    "id": "rich-sutton-bitter-lesson",
+    "titleZh": "Rich Sutton：苦涩的教训",
+    "title": "The Bitter Lesson",
+    "source": "Rich Sutton",
+    "url": "https://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+    "publishedAt": "2019-03-13",
+    "summaryZh": "**核心内容**：Sutton 的核心观点是，AI 历史上长期胜出的路线往往不是注入更多人类知识，而是利用通用方法吃下更多计算。搜索和学习这类可扩展方法，会在算力增长中持续超过人为设计的复杂特征和规则。\n**展开方式**：文章回顾了国际象棋、围棋、语音识别、计算机视觉等领域的历史，说明许多短期有效的专家知识系统最终被更通用、更可扩展的方法取代。它不是说知识无用，而是提醒研究者不要把人类对领域的理解硬编码成系统的上限。\n**审核重点**：这篇适合解释为什么 Scaling、端到端学习和通用模型如此重要。审核时也要保留反面问题：现实产品仍需要人类约束、数据治理和工程边界。",
+    "tags": [
+      "AI 史",
+      "Scaling",
+      "研究范式",
+      "经典文章"
+    ],
+    "score": 57,
+    "selectedAt": "2026-05-15",
+    "duration": "",
+    "takeaways": [],
+    "status": "published",
+    "reviewNote": ""
+  },
+  {
+    "id": "karpathy-recipe-training-neural-networks",
+    "titleZh": "Andrej Karpathy：训练神经网络的实用配方",
+    "title": "A Recipe for Training Neural Networks",
+    "source": "Andrej Karpathy",
+    "url": "https://karpathy.github.io/2019/04/25/recipe/",
+    "publishedAt": "2019-04-25",
+    "summaryZh": "**核心内容**：这篇文章把训练神经网络从“调参玄学”拆成一套工程流程：先确认数据和基线，再逐步扩大模型、正则化、调学习率、观察过拟合和误差模式。它的价值在于给出了非常朴素但有效的训练纪律。\n**展开方式**：Karpathy 强调不要一上来堆复杂模型，而是先让小模型过拟合一小批数据、检查数据加载和标签、确认 loss 能下降，再增加复杂度。文章还讨论学习率、初始化、归一化、正则化和可视化诊断，核心是把训练问题变成可排查的工程系统。\n**审核重点**：适合作为训练/调试基础读物。审核时可判断它是否对今天的 LLM 微调、Agent 评测和多模态训练仍有迁移价值。",
+    "tags": [
+      "训练方法",
+      "工程实践",
+      "深度学习",
+      "Karpathy"
+    ],
+    "score": 54,
+    "selectedAt": "2026-05-15",
+    "duration": "",
+    "takeaways": [],
+    "status": "published",
+    "reviewNote": ""
+  },
+  {
+    "id": "karpathy-software-2-0",
+    "titleZh": "Andrej Karpathy：Software 2.0",
+    "title": "Software 2.0",
+    "source": "Andrej Karpathy",
+    "url": "https://karpathy.medium.com/software-2-0-a64152b37c35",
+    "publishedAt": "2017-11-11",
+    "summaryZh": "**核心内容**：Karpathy 在这篇文章里提出 **Software 2.0**：很多程序不再由人手写规则，而是由神经网络参数表示，通过数据和优化过程“编译”出来。这个视角非常适合解释为什么 AI 时代的软件工程会从写逻辑转向管理数据、评测、训练和反馈。\n**展开方式**：文章把传统代码和神经网络权重放在同一个软件谱系里比较，指出神经网络在视觉、语音、翻译等任务中已经成为更有效的程序表示。它也提前提醒开发者：未来关键工作会转向数据集、损失函数、模型架构、训练基础设施和可解释调试。\n**审核重点**：这是理解 AI Native 软件观的经典文章，适合长期精选。审核时可判断是否需要配一段中文导读，帮助非工程读者理解“软件从代码变成权重”的意义。",
+    "tags": [
+      "Software 2.0",
+      "AI Native",
+      "软件工程",
+      "Karpathy"
+    ],
+    "score": 58,
+    "selectedAt": "2026-05-15",
+    "duration": "",
+    "takeaways": [],
+    "status": "published",
+    "reviewNote": ""
+  },
+  {
     "id": "www-microsoft-com-en-us-research-blog-adele-predicting-and-explaining-ai-performance-acros",
     "titleZh": "ADeLe：用能力画像预测和解释 AI 在不同任务上的表现",
     "title": "ADeLe: Predicting and explaining AI performance across tasks",

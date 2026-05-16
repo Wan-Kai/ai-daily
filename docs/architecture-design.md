@@ -276,8 +276,9 @@ GitHub Actions 不再做：
 1. Checkout 仓库。
 2. 安装依赖。
 3. 执行 `npm run curation:publish`，同步审批 Issue 并重建站点。
-4. 如果有精选内容变更，则自动提交并推回 `main`。
-5. 推回 `main` 后，由 `Deploy AI Daily` 继续完成 Pages 部署。
+4. 论文和博客可由脚本直接发布；播客如果未完成本地 Whisper 转写和 Codex AI 校准，只能留在待审池并记录状态，不能写入正式精选播客库。
+5. 如果有精选内容变更，则自动提交并推回 `main`。
+6. 推回 `main` 后，由 `Deploy AI Daily` 继续完成 Pages 部署。
 - 自动提交日报。
 
 这样可以避免 GitHub 端依赖 OpenAI API Key。

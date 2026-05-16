@@ -1,5 +1,145 @@
 [
   {
+    "id": "arxiv-2210-03629-react",
+    "titleZh": "ReAct：把推理和行动结合起来的 Agent 框架",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "publishedAt": "2022-10-06",
+    "summaryZh": "**核心结论**：ReAct 提出让语言模型交替生成 reasoning trace 和 action，使模型既能分析问题，也能调用外部工具、观察环境反馈并继续决策。它是后来工具调用、网页浏览 Agent 和代码 Agent 的重要思想来源。\n**如何论证**：论文在问答、事实验证、互动环境等任务中比较纯 CoT、纯 action 和 ReAct。ReAct 通过“思考-行动-观察”的循环减少幻觉，并让模型能在信息不足时主动检索或操作环境。\n**审核重点**：这篇适合进入 Agent 基础阅读列表。审核时可关注它与现代 function calling、MCP、Claude Code/Codex 类产品之间的连续性。",
+    "tags": [
+      "Agent",
+      "工具调用",
+      "推理",
+      "基础论文"
+    ],
+    "score": 55,
+    "selectedAt": "2026-05-15",
+    "takeaways": [],
+    "status": "published",
+    "reviewNote": ""
+  },
+  {
+    "id": "arxiv-2201-11903-chain-of-thought",
+    "titleZh": "Chain-of-Thought：让大模型显式写出推理过程",
+    "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "source": "arXiv / Google Research",
+    "url": "https://arxiv.org/abs/2201.11903",
+    "publishedAt": "2022-01-28",
+    "summaryZh": "**核心结论**：这篇论文证明，在足够大的语言模型上，只要给出带推理步骤的示例，模型就能显著提升数学、常识和符号推理任务表现。它让“让模型先想一想”成为提示工程和推理模型发展的关键线索。\n**如何论证**：作者在算术、GSM8K、常识推理等任务上比较普通 few-shot prompt 和 chain-of-thought prompt。结果显示 CoT 主要在大模型上涌现，小模型收益有限；推理步骤不仅提升正确率，也让错误更容易被分析。\n**审核重点**：这篇适合作为“推理能力”学习路径的入口。审核时可提醒读者：显示推理文本不一定等于真实内部推理，也可能带来幻觉式解释。",
+    "tags": [
+      "推理",
+      "Prompt",
+      "CoT",
+      "Google Research"
+    ],
+    "score": 54,
+    "selectedAt": "2026-05-15",
+    "takeaways": [],
+    "status": "published",
+    "reviewNote": ""
+  },
+  {
+    "id": "arxiv-2203-02155-instructgpt",
+    "titleZh": "InstructGPT：用人类反馈让语言模型听懂指令",
+    "title": "Training language models to follow instructions with human feedback",
+    "source": "arXiv / OpenAI",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "publishedAt": "2022-03-04",
+    "summaryZh": "**核心结论**：InstructGPT 让通用语言模型从“续写文本”走向“按照人类意图完成任务”。它使用监督微调和 **RLHF**，显著提升指令遵循、帮助性和用户偏好匹配，是 ChatGPT 产品形态的直接前身。\n**如何论证**：论文先收集人工示范数据训练 SFT 模型，再收集人类偏好比较训练 reward model，最后用 PPO 优化模型输出。结果显示，1.3B InstructGPT 在人工偏好上可以超过 175B GPT-3，说明对齐和后训练能极大改变用户体验。\n**审核重点**：这篇是理解“后训练为什么重要”的基础。审核时可关注它的局限：RLHF 会引入偏好偏差，且不等于真正可靠或安全。",
+    "tags": [
+      "RLHF",
+      "后训练",
+      "OpenAI",
+      "指令遵循"
+    ],
+    "score": 57,
+    "selectedAt": "2026-05-15",
+    "takeaways": [],
+    "status": "published",
+    "reviewNote": ""
+  },
+  {
+    "id": "arxiv-2203-15556-chinchilla",
+    "titleZh": "Chinchilla：重新校准大模型训练的算力最优配比",
+    "title": "Training Compute-Optimal Large Language Models",
+    "source": "arXiv / DeepMind",
+    "url": "https://arxiv.org/abs/2203.15556",
+    "publishedAt": "2022-03-29",
+    "summaryZh": "**核心结论**：Chinchilla 论文指出，很多早期大模型相对“参数太多、训练数据太少”。在给定计算预算下，更合理的做法是用更小模型训练更多 token。这个结论影响了后来一批高性价比模型的训练策略。\n**如何论证**：DeepMind 训练并比较了大量模型规模和数据规模组合，推导出参数量与训练 token 近似同等比例扩展的经验规则。70B 参数的 Chinchilla 在约 1.4T token 上训练后，表现超过更大的 Gopher，说明数据配比对性能非常关键。\n**审核重点**：这篇适合放在“大模型训练经济学”路径下。审核时可关注它的结论是否仍适用于今天的多模态、合成数据和后训练阶段。",
+    "tags": [
+      "Chinchilla",
+      "DeepMind",
+      "训练数据",
+      "算力效率"
+    ],
+    "score": 55,
+    "selectedAt": "2026-05-15",
+    "takeaways": [],
+    "status": "published",
+    "reviewNote": ""
+  },
+  {
+    "id": "arxiv-2001-08361-scaling-laws",
+    "titleZh": "Scaling Laws：语言模型性能如何随规模增长",
+    "title": "Scaling Laws for Neural Language Models",
+    "source": "arXiv / OpenAI",
+    "url": "https://arxiv.org/abs/2001.08361",
+    "publishedAt": "2020-01-23",
+    "summaryZh": "**核心结论**：这篇论文给出了语言模型损失随参数量、数据量、计算量变化的幂律关系，说明在一定范围内，扩大模型、数据和算力能稳定带来性能提升。它让“规模化”从经验判断变成可预算、可预测的工程策略。\n**如何论证**：作者训练了一系列不同规模的语言模型，分别控制模型参数、数据 token 和训练计算量，观察 loss 的变化。论文指出模型性能更多受总计算量约束，并给出在固定计算预算下分配模型规模和训练步数的经验规律。\n**审核重点**：这篇是理解大模型投资、算力竞赛和训练预算的基础。审核时可和 Chinchilla 论文一起看，因为后者修正了“参数多但数据不足”的最佳配比。",
+    "tags": [
+      "Scaling Laws",
+      "训练规模",
+      "OpenAI",
+      "基础论文"
+    ],
+    "score": 56,
+    "selectedAt": "2026-05-15",
+    "takeaways": [],
+    "status": "published",
+    "reviewNote": ""
+  },
+  {
+    "id": "arxiv-2005-14165-gpt3-few-shot",
+    "titleZh": "GPT-3：语言模型的少样本学习能力",
+    "title": "Language Models are Few-Shot Learners",
+    "source": "arXiv / OpenAI",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "publishedAt": "2020-05-28",
+    "summaryZh": "**核心结论**：GPT-3 证明了把语言模型规模扩大到 **175B 参数** 后，模型可以在没有任务专门微调的情况下，通过提示词和少量示例完成大量 NLP 任务。它把“预训练 + prompt”推到主流视野，也为后来的 ChatGPT 和通用助手产品铺路。\n**如何论证**：论文系统评测 zero-shot、one-shot、few-shot 三种设置，覆盖翻译、问答、完形填空、算术、阅读理解等任务。结果显示模型规模扩大后，少样本能力呈现持续提升，但也暴露出常识、推理、偏见和校准等问题。\n**审核重点**：这篇适合解释“为什么规模化预训练改变了 AI 产品形态”。审核时可重点看它是否与 Scaling Laws、InstructGPT 一起作为一个学习路径发布。",
+    "tags": [
+      "GPT-3",
+      "大模型",
+      "Few-shot",
+      "OpenAI"
+    ],
+    "score": 58,
+    "selectedAt": "2026-05-15",
+    "takeaways": [],
+    "status": "published",
+    "reviewNote": ""
+  },
+  {
+    "id": "arxiv-1706-03762-attention-is-all-you-need",
+    "titleZh": "Attention Is All You Need：Transformer 奠基论文",
+    "title": "Attention Is All You Need",
+    "source": "arXiv",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "publishedAt": "2017-06-12",
+    "summaryZh": "**核心结论**：这篇论文提出 **Transformer**，把序列建模从循环网络和卷积网络中解放出来，用自注意力机制直接建模 token 之间的依赖关系。它成为后续 BERT、GPT、T5、ViT 和几乎所有现代大模型架构的共同底座。\n**如何论证**：论文先指出 RNN 难以并行、长距离依赖训练效率低，再提出 multi-head self-attention、position encoding、encoder-decoder 堆叠等组件。机器翻译实验中，Transformer 在 WMT 2014 英德和英法任务上达到当时领先结果，同时训练成本显著低于强 RNN/CNN 基线。\n**审核重点**：这是 AI 史上的根论文之一，适合长期精选。审核时主要判断是否需要放进“必读基础论文”而不是普通每周精选。",
+    "tags": [
+      "Transformer",
+      "基础架构",
+      "NLP",
+      "必读论文"
+    ],
+    "score": 60,
+    "selectedAt": "2026-05-15",
+    "takeaways": [],
+    "status": "published",
+    "reviewNote": ""
+  },
+  {
     "id": "huggingface-co-papers-2605-06169",
     "titleZh": "MV-Split：让 1000 层 Diffusion Transformer 稳定训练",
     "title": "Mean Mode Screaming: Mean--Variance Split Residuals for 1000-Layer Diffusion Transformers",

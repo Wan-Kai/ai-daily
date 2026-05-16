@@ -98,5 +98,25 @@
     "titleKey": "vol 110 ai 同事 skill 上岗 你的工位 老板悄悄换成了一只 龙虾",
     "reason": "",
     "rejectedAt": "2026-05-16T01:00:51.728Z"
+  },
+  {
+    "id": "anthropic-building-effective-agents",
+    "category": "blogs",
+    "title": "Anthropic：如何构建有效的 Agent",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "linkKey": "https://www.anthropic.com/engineering/building-effective-agents",
+    "titleKey": "anthropic 如何构建有效的 agent",
+    "reason": "",
+    "rejectedAt": "2026-05-16T07:59:50.344Z"
+  },
+  {
+    "id": "anthropic-contextual-retrieval",
+    "category": "blogs",
+    "title": "Anthropic：Contextual Retrieval 如何改进 RAG",
+    "url": "https://www.anthropic.com/news/contextual-retrieval",
+    "linkKey": "https://www.anthropic.com/news/contextual-retrieval",
+    "titleKey": "anthropic contextual retrieval 如何改进 rag",
+    "reason": "",
+    "rejectedAt": "2026-05-16T07:59:50.345Z"
   }
 ]

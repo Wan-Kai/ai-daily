@@ -300,7 +300,10 @@ async function main() {
     item.transcriptText = transcript;
     item.transcriptSource = "local-whisper-medium";
     item.transcriptGeneratedAt = new Date().toISOString();
-    item.transcriptCalibratedAt = new Date().toISOString();
+    item.transcriptNormalizedAt = new Date().toISOString();
+    item.transcriptAiReviewStatus = "needs_review";
+    item.reviewStatus = "needs_ai_review";
+    item.reviewNote = "已完成本地 Whisper medium 转写和脚本规则清洗，仍需 Codex 结合标题、节目稿和上下文校准后才能发布。";
     changed = true;
     console.log(`转写完成：${item.id}，${transcript.length} 字符。`);
   }
