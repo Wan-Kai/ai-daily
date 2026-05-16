@@ -1,0 +1,542 @@
+{
+  "date": "2026-05-17",
+  "generatedAt": "2026-05-16T22:59:51.038Z",
+  "title": "AI 日报 - 2026-05-17",
+  "stats": {
+    "sources": 133,
+    "fetched": 558,
+    "emailCandidates": 0,
+    "selected": 31,
+    "failures": 0
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "We’re having way too much fun working through your feedback. (Please, keep it coming.) Keyboard sh...",
+          "titleZh": "Codex 新增：可自定义键盘快捷键",
+          "link": "https://x.com/OpenAIDevs/status/2055717793841221796",
+          "publishedAt": "Sat, 16 May 2026 18:31:30 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-17-2055717793841221796.mp4",
+          "summary": "We’re having way too much fun working through your feedback. (Please, keep it coming.) Keyboard shortcuts are now customizable. Set Codex up around how you actually work, then tweak shortcuts from settings instead of adapting to our defaults. Your browser does not support the video tag. 🔗 View on Twitter 💬 192 🔄 76 ❤️ 1383 👀 174782 📊 323 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Developers 宣布 Codex 已支持 **键盘快捷键自定义**：你可以在设置里按自己的工作流重映射常用操作，而不必适应默认快捷键。对高频编码会话而言，这类 **可定制交互** 能显著降低操作摩擦，尤其在多线程与大仓库之间来回切换时更明显。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "Weekends are for vibe coding. But are your vibes continuously improving? Fine-tune your own model →...",
+          "titleZh": "Fireworks Training 更新：Gemma 4 Dense 支持全参/LoRA + RL 训练",
+          "link": "https://x.com/FireworksAI_HQ/status/2055427432036065417",
+          "publishedAt": "Fri, 15 May 2026 23:17:42 GMT",
+          "source": "Fireworks AI(@FireworksAI_HQ)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Weekends are for vibe coding. But are your vibes continuously improving? Fine-tune your own model → stop waiting on someone else's release cycle. Today's training update: Gemma 4 Dense is now available for Full Param + LoRA RL. SFT, DPO, or RL on 256K context. Get started with the Fireworks Training Platform. fireworks.ai/train 💬 2 🔄 0 ❤️ 16 👀 3144 📊 5 ⚡ Powered by xgo.ing",
+          "summaryZh": "Fireworks 宣布在 Training Platform 上线 **Gemma 4 Dense** 的训练能力：同时支持 **全参数训练** 与 **LoRA + 强化学习（RL）**；训练方式覆盖 **SFT、DPO、RL**，并可在 **256K 上下文** 上进行微调/对齐。对需要快速迭代专用模型的团队，这意味着不用等待上游发布周期也能推进定制训练。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型"
+          ],
+          "score": 60.64534791490469
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Collider-Bench: Benchmarking AI Agents with Particle Physics Analysis Reproduction",
+          "titleZh": "论文：Collider-Bench——用 LHC 分析复现实验评测 AI 代理",
+          "link": "https://arxiv.org/abs/2605.13950",
+          "publishedAt": "Sat, 16 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.13950v1 Announce Type: cross Abstract: Autonomous language-model agents are increasingly evaluated on long-horizon tool-use tasks, but existing benchmarks rarely capture the complexity and nuance of real scientific work. To address this gap, we introduce Collider-Bench, a benchmark for evaluating whether LLM agents can reproduce experimental analyses from the Large Hadron Collider (LHC) using only public papers and open scientific software. Such analyses are often difficult to reproduce because the pu...",
+          "summaryZh": "**核心结论**：作者提出 **Collider-Bench**，用“复现大型强子对撞机（LHC）论文分析”这种贴近真实科研的任务来评测 **LLM 代理** 的长链路工具使用与复现实验能力。\n\n**支撑证据**：基准要求代理仅依赖 **公开论文与开源科研软件** 去复现分析流程；作者强调这类任务之所以难，是因为现实科研复现往往存在 **依赖链复杂、信息缺口与步骤细节隐含** 等问题。\n\n**我的判断**：如果你在做“自动化科研/数据分析代理”，Collider-Bench 比传统网页/编码小任务更接近真实痛点；但它也更依赖环境与数据可得性，适合用来暴露 **鲁棒性与复现性** 的短板。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "推理能力",
+            "评测"
+          ],
+          "score": 40
+        },
+        {
+          "title": "COTCAgent: Preventive Consultation via Probabilistic Chain-of-Thought Completion",
+          "titleZh": "论文：COTCAgent——用概率式思维链补全减少纵向 EHR 推理幻觉",
+          "link": "https://arxiv.org/abs/2605.15016",
+          "publishedAt": "Sat, 16 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.15016v1 Announce Type: cross Abstract: As large language models empower healthcare, intelligent clinical decision support has developed rapidly. Longitudinal electronic health records (EHR) provide essential temporal evidence for accurate clinical diagnosis and analysis. However, current large language models have critical flaws in longitudinal EHR reasoning. First, lacking fine-grained statistical reasoning, they often hallucinate clinical trends and metrics when quantitative evidence is textually im...",
+          "summaryZh": "**核心结论**：作者提出 **COTCAgent**，面向纵向电子病历（EHR）推理，引入 **概率式思维链补全** 的流程，目标是减少模型在时间序列病程分析中的 **趋势/指标幻觉**，让“预防性咨询”更可控。\n\n**支撑证据**：论文指出现有大模型在纵向 EHR 上常见问题包括 **缺少细粒度统计推理**、容易凭空生成趋势与量化结论；方法强调在生成链路中引入可验证/可约束的完成机制，而不是一次性给出最终结论。\n\n**我的判断**：对医疗类 Copilot 来说，能否把“不确定”说清楚比写得像真的更重要；这类思路值得迁移到金融/运营等 **纵向数据推理** 场景，但仍需要结合具体数据管线与评测体系验证落地效果。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "推理能力",
+            "开源"
+          ],
+          "score": 40
+        },
+        {
+          "title": "Unlocking Complex Visual Generation via Closed-Loop Verified Reasoning",
+          "titleZh": "论文：闭环验证式推理让复杂文本生成图像更可控",
+          "link": "https://arxiv.org/abs/2605.14876",
+          "publishedAt": "Sat, 16 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.14876v1 Announce Type: cross Abstract: Despite rapid advancements, current text-to-image (T2I) models predominantly rely on a single-step generation paradigm, which struggles with complex semantics and faces diminishing returns from parameter scaling. While recent multi-step reasoning approaches show promise, they are hindered by ungrounded planning hallucinations lacking verification, monolithic post-hoc reflection, long-context optimization instabilities, and prohibitive inference latency. To overco...",
+          "summaryZh": "**核心结论**：作者关注复杂语义下的 T2I 生成，提出一种 **闭环（closed-loop）且带验证（verified）的推理生成框架**，试图突破单步生成在复杂指令上的瓶颈，并降低“计划式推理”带来的幻觉。\n\n**支撑证据**：论文指出现有多步推理式生成常见问题包括 **无依据的规划幻觉**、事后反思过于整体化、长上下文优化不稳定以及推理成本过高；新框架强调在生成过程中引入 **可检查的中间环节** 来约束与修正。\n\n**我的判断**：如果你在做“复杂指令 + 可控视觉生成”，闭环验证的思路能直接对应线上失败模式；但真正的关键在于验证器/检查信号的可靠性与成本，值得重点关注其 **计算开销与失败回退策略**。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 39
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "Anil-matcha/Open-Generative-AI",
+          "titleZh": "开源：Open-Generative-AI（200+ 模型的图像/视频生成工作室）",
+          "link": "https://github.com/Anil-matcha/Open-Generative-AI",
+          "publishedAt": "2026-05-16T22:59:51.038Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star Anil-matcha / Open-Generative-AI Open-source alternative to AI video platforms — Free AI image & video generation studio with 200+ models (Flux, Midjourney, Kling, Sora, Veo). No content filters. Self-hosted, MIT licensed.",
+          "summaryZh": "这是一个号称“AI 图像/视频平台开源替代”的自托管项目，主打 **200+ 可选模型**（文中点名 Flux、Midjourney、Kling、Sora、Veo 等）与一站式生成工作流。项目声明 **MIT 许可证**，并强调“无内容过滤”。如果你需要可控的本地/私有化生成管线，可以先从安装与模型接入成本评估它的可用性与风险边界。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "模型",
+            "视频",
+            "图像"
+          ],
+          "score": 34
+        },
+        {
+          "title": "K-Dense-AI/scientific-agent-skills",
+          "titleZh": "开源：scientific-agent-skills（科研/工程/分析的即用型技能包）",
+          "link": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "publishedAt": "2026-05-16T22:59:51.038Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star K-Dense-AI / scientific-agent-skills A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+          "summaryZh": "该仓库整理了一组可直接复用的 **Agent Skills**，覆盖研究、科学、工程、分析、金融与写作等常见场景，适合作为“技能库/提示模板”的起点。对团队落地代理来说，这类集合的价值不在炫技，而在于把常用任务的 **输入输出格式、工具约束与边界条件** 固化下来，减少每次从零搭建的成本。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "obra/superpowers",
+          "titleZh": "开源：superpowers（面向软件开发的 Agent 技能框架与方法论）",
+          "link": "https://github.com/obra/superpowers",
+          "publishedAt": "2026-05-16T22:59:51.038Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Sponsor Star obra / superpowers An agentic skills framework & software development methodology that works.",
+          "summaryZh": "superpowers 试图把“代理式软件开发”做成一套可复用框架：既提供 **agentic skills** 的组织方式，也强调端到端的软件开发方法论。它更像是把实践沉淀成结构化流程，适合用来对照自家工程：哪些环节能交给代理、哪些必须保留人工审核，以及如何设计 **可回滚/可审计** 的执行链路。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "bytedance/UI-TARS-desktop",
+          "titleZh": "开源：UI-TARS Desktop（多模态桌面 Agent 栈）",
+          "link": "https://github.com/bytedance/UI-TARS-desktop",
+          "publishedAt": "2026-05-16T22:59:51.038Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star bytedance / UI-TARS-desktop The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+          "summaryZh": "ByteDance 开源的 UI-TARS Desktop 被描述为一套 **多模态 AI Agent Stack**：把前沿多模态模型与代理基础设施连接起来，面向桌面场景的交互与自动化。对想做“桌面助手/自动化工作台”的团队，它提供了从模型到 agent infra 的整体样板；评估时建议重点看 **可扩展的工具接口、权限边界与稳定性**。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "模型",
+            "智能体",
+            "多模态"
+          ],
+          "score": 30
+        },
+        {
+          "title": "tinyhumansai/openhuman",
+          "titleZh": "开源：openhuman（主打私有化的个人 AI 助手/工作台）",
+          "link": "https://github.com/tinyhumansai/openhuman",
+          "publishedAt": "2026-05-16T22:59:51.038Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star tinyhumansai / openhuman Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+          "summaryZh": "openhuman 将自己定位为“个人 AI super intelligence”，强调 **私有、简单、强大** 的个人助手体验。由于这类项目往往涉及本地数据与长时上下文，真正的门槛通常在数据接入与权限治理：建议从 **本地文件/浏览器/日历等连接器**、可否离线运行、以及数据默认上传策略等方面快速做可用性体检。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        },
+        {
+          "title": "Hmbown/DeepSeek-TUI",
+          "titleZh": "开源：DeepSeek-TUI（在终端里跑的 DeepSeek Coding Agent）",
+          "link": "https://github.com/Hmbown/DeepSeek-TUI",
+          "publishedAt": "2026-05-16T22:59:51.038Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Sponsor Star Hmbown / DeepSeek-TUI Coding agent for DeepSeek models that runs in your terminal",
+          "summaryZh": "DeepSeek-TUI 是一个面向 DeepSeek 模型的 **终端 Coding Agent**，把“对话式改代码/跑命令”的体验搬到 TUI 里。对需要在 SSH/服务器环境工作的人来说，终端形态更贴近真实工作流；试用时建议关注它对 **多文件改动、命令执行沙盒、以及失败回滚** 的处理方式。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "We’ve also been tightening Codex performance across the app, especially for large repos and active c...",
+          "titleZh": "Codex 性能优化：大仓库与长会话减少无效重渲染",
+          "link": "https://x.com/OpenAIDevs/status/2055718005309575431",
+          "publishedAt": "Sat, 16 May 2026 18:32:20 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We’ve also been tightening Codex performance across the app, especially for large repos and active coding sessions. • ~75% less re-rendering when switching threads • Some streaming paths dropped to 0 unnecessary re-renders • Expensive Git operations in large repos reduced by ~10-50x, depending on the operation • Less UI churn across streaming responses, thread switching, and sidebar interactions • Faster time to usefulness around startup and first interaction Less background churn. More responsive coding. 💬 19 🔄 17 ❤️ 656 👀 27026 📊 81 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Developers 分享了 Codex 的一组性能优化：针对 **大仓库** 与 **活跃编码会话**，在切换线程等场景里减少了大量无效 re-render；并提到部分流式渲染路径已做到 **0 次不必要重渲染**。对重度使用者而言，这类底层优化往往比单点新功能更直接影响“能不能一直开着用”。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 64.72953324656717
+        },
+        {
+          "title": "You can now use X Premium subscriptions in Hermes Agent, and Hermes Agent can now search X posts. h...",
+          "titleZh": "Hermes Agent 接入 X Premium：可用 Grok 订阅并搜索 X 帖子",
+          "link": "https://x.com/xai/status/2055745332919808181",
+          "publishedAt": "Sat, 16 May 2026 20:20:55 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIYoA4paEAA3-tL.png",
+          "video": "",
+          "summary": "You can now use X Premium subscriptions in Hermes Agent, and Hermes Agent can now search X posts. x.ai/news/grok-herm… xAI @xai You can now use your @grok subscription inside @NousResearch Hermes Agent. x.ai/news/grok-herm… 🔗 View Quoted Tweet 💬 187 🔄 146 ❤️ 1497 👀 158100 📊 282 ⚡ Powered by xgo.ing",
+          "summaryZh": "xAI 表示 **X Premium（Grok）订阅** 已可在 Nous Research 的 **Hermes Agent** 中使用，同时 Hermes Agent 也新增 **搜索 X 帖子** 的能力。对“多代理编排”生态来说，这类订阅接入意味着模型能力与分发渠道正在解绑：用户可能更关心 **在哪个 Agent 里用、能连哪些数据源**，而不只是单一应用内的订阅。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 63
+        },
+        {
+          "title": "Your finances. Your questions. Instant answers.",
+          "titleZh": "ChatGPT 预告个人财务问答能力（官方宣传）",
+          "link": "https://x.com/ChatGPTapp/status/2055467616718959074",
+          "publishedAt": "Sat, 16 May 2026 01:57:23 GMT",
+          "source": "ChatGPT(@ChatGPTapp)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIZ8xawbQAAFTYb.jpg",
+          "video": "",
+          "summary": "Your finances. Your questions. Instant answers. 💬 105 🔄 55 ❤️ 1494 👀 79614 📊 245 ⚡ Powered by xgo.ing",
+          "summaryZh": "ChatGPT 官方账号用“Your finances. Your questions. Instant answers.”做了能力预告，指向更贴近个人账户场景的财务问答/查询体验。虽然细节未披露，但信号是消费级 AI 继续向 **账户级上下文助手** 演进；如果后续落地到真实账单/银行连接器，隐私与权限设计会是关键关注点。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 60
+        },
+        {
+          "title": "Some open source projects don't just survive. They flat-out refuse to bite the dust. ⚔️ We looked a...",
+          "titleZh": "GitHub 盘点：10 个长期活跃的 Roguelike 开源项目能教我们什么",
+          "link": "https://x.com/github/status/2055714904015859974",
+          "publishedAt": "Sat, 16 May 2026 18:20:01 GMT",
+          "source": "GitHub(@github)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Some open source projects don't just survive. They flat-out refuse to bite the dust. ⚔️ We looked at 10 roguelikes still going strong years (sometimes decades) after launch. Here's what their maintainers and communities can teach the rest of open source about longevity. 💡 github.blog/open-source/ga… x 💬 1 🔄 7 ❤️ 56 👀 10867 📊 9 ⚡ Powered by xgo.ing",
+          "summaryZh": "GitHub 分享了一篇关于“长期不死的开源项目”的盘点：选取 **10 个仍在持续维护的 Roguelike**，从维护者与社区经验中总结可持续协作的要点。对开源/AI 工具链同样适用的启发是：真正决定寿命的往往是 **社区治理、贡献路径与维护节奏**，而不是一次性的爆火。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "产品发布",
+            "开源"
+          ],
+          "score": 59.18493383695662
+        },
+        {
+          "title": "Git actions are easier to reach. We moved key git controls back into the review flow, so common act...",
+          "titleZh": "Codex 交互调整：常用 Git 操作回到 Review 流程里",
+          "link": "https://x.com/OpenAIDevs/status/2055717859058495596",
+          "publishedAt": "Sat, 16 May 2026 18:31:45 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-17-2055717859058495596.mp4",
+          "summary": "Git actions are easier to reach. We moved key git controls back into the review flow, so common actions like commit, push, branch, PR creation, and PR status are closer to where you’re already working. Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 11 ❤️ 225 👀 11033 📊 29 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Developers 表示 Codex 把关键 **Git 控制** 移回到 Review 流程中：如 commit、push、分支操作、创建 PR 以及查看 PR 状态等，都会更靠近你正在工作的界面。对日常“写代码→提 PR→跟进状态”的闭环来说，这种位置调整能减少上下文切换，提升代理与工程流程的粘合度。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 56.54198570510938
+        },
+        {
+          "title": "run codex on every commit",
+          "titleZh": "Greg Brockman：把 Codex 跑在“每次 commit”上",
+          "link": "https://x.com/gdb/status/2055436684666274020",
+          "publishedAt": "Fri, 15 May 2026 23:54:28 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "run codex on every commit Peter Steinberger 🦞 @steipete People freaking out over my AI spend. What nobody sees: Part of what excites me so much about working on OpenClaw is that I'm trying to answer the question: How would we build software in the future if tokens don't matter? We constant run ~100 codex in the cloud, reviewing every PR, every issue. If a fix on main lands, @clawsweeper will eventually find that 6 month old issue and close it with an exact reference. We run codex on every commit to review for s...",
+          "summaryZh": "OpenAI 联合创始人 Greg Brockman 提到一个更激进的用法：让 Codex 参与到 **每次 commit** 的节奏中，把代理变成持续工作的“工程队友”。这类实践的关键不在于一次性生成代码，而在于能否建立 **可审计、可回滚、可自动验证** 的流水线，否则很容易在速度与可靠性之间失衡。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "评测",
+            "视频"
+          ],
+          "score": 56.11888015215432
+        },
+        {
+          "title": "Improved thread panel. Related context and controls now load and behave more cleanly from the threa...",
+          "titleZh": "Codex 线程面板改进：上下文与控制项更集中",
+          "link": "https://x.com/OpenAIDevs/status/2055717927064846802",
+          "publishedAt": "Sat, 16 May 2026 18:32:01 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-17-2055717927064846802.mp4",
+          "summary": "Improved thread panel. Related context and controls now load and behave more cleanly from the thread header: summaries, local state, Git context, sources, and more. Your browser does not support the video tag. 🔗 View on Twitter 💬 4 🔄 10 ❤️ 174 👀 12039 📊 21 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Developers 介绍 Codex 的线程面板改进：相关上下文与控制项会从线程头部更顺畅地加载与展示，包括 **摘要、局部状态、本地状态、Git 上下文、来源** 等信息。对多线程并行工作的场景，面板体验的提升能直接影响“你是否愿意把代理长期留在同一个任务里”。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 55.874847299780356
+        },
+        {
+          "title": "The local server list got a cleanup pass. Better filtering, remembered sort state, clearer empty st...",
+          "titleZh": "Codex 本地服务列表改版：过滤/排序记忆与自动刷新",
+          "link": "https://x.com/OpenAIDevs/status/2055717993460732191",
+          "publishedAt": "Sat, 16 May 2026 18:32:17 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-17-2055717993460732191.mp4",
+          "summary": "The local server list got a cleanup pass. Better filtering, remembered sort state, clearer empty states, connected route state, and refreshes for non-listed ports every 120 seconds. Your browser does not support the video tag. 🔗 View on Twitter 💬 4 🔄 6 ❤️ 179 👀 14763 📊 21 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Developers 表示 Codex 的本地服务列表做了清理：**更好的过滤**、记住排序状态、更清晰的空状态提示，并且会每 **120 秒** 对未列出的端口进行刷新。对本地多服务开发来说，这类“列表与路由状态打通”的优化能减少找服务、看端口、切环境的摩擦。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 55.66406215956319
+        },
+        {
+          "title": "We're still celebrating the moms who build, Mother's Day or not. Ruth is a designer who spent years...",
+          "titleZh": "Replit 讲述用户故事：设计师借助 AI 代理开始持续交付",
+          "link": "https://x.com/Replit/status/2055438113128755604",
+          "publishedAt": "Sat, 16 May 2026 00:00:09 GMT",
+          "source": "Replit ⠕(@Replit)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIZiEgqWIAAVCR8.jpg",
+          "video": "",
+          "summary": "We're still celebrating the moms who build, Mother's Day or not. Ruth is a designer who spent years making digital products without ever learning to code. The moment Replit's AI agent landed in the IDE, she was in. She's been shipping almost daily for 18 months. Recently, she built sheethappens.xyz with her son James, an aspiring game developer, from his concept and his prompts. She's also working on a book and game to teach her kids about compound investing, a GCSE revision app for her son, and an AR game that won the Mobile Buildathon. Potential, realized with the help of Replit. 💬 6 🔄 5 ❤️ 37 👀 3821 📊 10 ⚡ Powered by xgo.ing",
+          "summaryZh": "Replit 分享了一个用户故事：一位长期做数字产品设计、但几乎不写代码的设计师，在 IDE 里用上 Replit 的 AI agent 后开始持续产出与交付。它折射出一个趋势：当代理进入“编辑器内”并能打通工具链，非工程角色也可能获得 **端到端交付能力**，但同时更需要明确的质量门槛与审核流程。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "开发者工具"
+          ],
+          "score": 55.09397095132728
+        },
+        {
+          "title": "codex for improving computational complexity",
+          "titleZh": "社区分享：用 Codex 做“复杂度热点”扫描的技能/脚本",
+          "link": "https://x.com/gdb/status/2055646916499714488",
+          "publishedAt": "Sat, 16 May 2026 13:49:51 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-05-17-2055646916499714488.mp4",
+          "summary": "codex for improving computational complexity Kappaemme @Kappaemme1926 CODEX SKILL THAT FINDS COMPLEXITY HOTSPOTS IN YOUR CODEBASE! I made a Codex skill that analyzes your codebase and reports where performance can be improved safely. Scan your project while Codex checks loops, repeated lookups, render-heavy code, N+1 patterns, and places where complexity can potentially be reduced without breaking behavior. -> codebase complexity analysis -> O(n²), O(n*m), repeated scan detection -> before/after complexity estim...",
+          "summaryZh": "一位开发者分享了一个面向 Codex 的技能：扫描代码库并报告可能的 **计算复杂度热点**，提示哪些地方能在“安全前提下”做性能优化。对把代理用于重构/性能治理的人来说，这类工具更像是把经验型排查流程产品化；关键在于它是否能给出 **可复现的证据**（基准、路径、输入规模）而不仅是主观判断。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "视频"
+          ],
+          "score": 55
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "Vol.117｜对话维他动力余轶南：新融资 5 亿、机器狗量产，还有今年要出的人形机器人",
+          "titleZh": "Vol.117｜对话维他动力余轶南：新融资 5 亿、机器狗量产，还有今年要出的人形机器人",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a0142bae1eb34a9392549a1",
+          "publishedAt": "2026-05-11T02:58:49.472Z",
+          "source": "开始连接 LinkStart",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/Fkm-DmJ_lCbLxtekkyHx2McjuUUB.png",
+          "video": "",
+          "summary": "Vol.117｜对话维他动力余轶南：新融资 5 亿、机器狗量产，还有今年要出的人形机器人",
+          "summaryZh": "**讲了什么**：这一期来自 **开始连接 LinkStart**，主题是「Vol.117｜对话维他动力余轶南：新融资 5 亿、机器狗量产，还有今年要出的人形机器人」。过去一年，具身智能行业持续升温，资本追逐，行业热议。热闹之余，也有一个更贴近现实的问题：机器人究竟什么时候才能真正进入普通人的生活？Vbot 维他动力已经先一步开始面对一套具体的问题：供应链怎么搭、量产怎么爬坡、用户为什么愿意买、机器人进入家庭后到底会不会被持续使用。5 月 11 日，Vbot 宣布完成近 5 亿元 Pre-A 轮融资，刷新消费级具身智能赛道单笔融资纪录；与此同时，它的首款超能机器狗也正式开启规模化交付；接下来也将开启人形机器人的产品研发。从 Demo 到量产，从技术验证到真实用户，从四足到人形，这家公司正在尝试走出一条属于自己的路。\n**简介要点**：\n- 过去一年，具身智能行业持续升温，资本追逐，行业热议。\n- 热闹之余，也有一个更贴近现实的问题：机器人究竟什么时候才能真正进入普通人的生活？\n- Vbot 维他动力已经先一步开始面对一套具体的问题：供应链怎么搭、量产怎么爬坡、用户为什么愿意买、机器人进入家庭后到底会不会被持续使用。\n- 5 月 11 日，Vbot 宣布完成近 5 亿元 Pre-A 轮融资，刷新消费级具身智能赛道单笔融资纪录；与此同时，它的首款超能机器狗也正式开启规模化交付；接下来也将开启人形机器人的产品研发。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "Vol.116｜硅谷一手观察：Anthropic 一年 ARR 涨了三倍，但这里最火的根本不是「小龙虾」",
+          "titleZh": "Vol.116｜硅谷一手观察：Anthropic 一年 ARR 涨了三倍，但这里最火的根本不是「小龙虾」",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69fda951e1eb34a939fb0d88",
+          "publishedAt": "2026-05-09T01:30:00.000Z",
+          "source": "开始连接 LinkStart",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/Fkm-DmJ_lCbLxtekkyHx2McjuUUB.png",
+          "video": "",
+          "summary": "Vol.116｜硅谷一手观察：Anthropic 一年 ARR 涨了三倍，但这里最火的根本不是「小龙虾」",
+          "summaryZh": "**讲了什么**：这一期来自 **开始连接 LinkStart**，主题是「Vol.116｜硅谷一手观察：Anthropic 一年 ARR 涨了三倍，但这里最火的根本不是「小龙虾」」。最近，一个新的行业共识在硅谷形成：大模型已开启「左脚踩右脚」的自进化循环。这场底层突破，正在重构 AI 创业的战略选择、竞争格局与行业终局。汪华是创新工场联合首席执行官 / 管理合伙人，他完成与众多顶级研究者和模型公司创始人深度对话后，带回了硅谷 AI 圈的一手观察。胡渊鸣是 Meshy 创始人兼 CEO，身处硅谷创业一线，公司年化收入已突破 4000 万美金，亲历着 AI 变革的每一个浪潮。本期播客，极客公园创始人 & 总裁张鹏将与这两位硅谷一线观察者深度碰撞，希望可以帮创业者们看清 AI 自进化时代的企业布局方向，帮 OPC 们找到黑洞边缘的生存法则，也帮每个普通人理解这波技术跃迁对自己工作和未来的真实影响。\n**简介要点**：\n- 最近，一个新的行业共识在硅谷形成：大模型已开启「左脚踩右脚」的自进化循环。\n- 这场底层突破，正在重构 AI 创业的战略选择、竞争格局与行业终局。\n- 汪华是创新工场联合首席执行官 / 管理合伙人，他完成与众多顶级研究者和模型公司创始人深度对话后，带回了硅谷 AI 圈的一手观察。\n- 胡渊鸣是 Meshy 创始人兼 CEO，身处硅谷创业一线，公司年化收入已突破 4000 万美金，亲历着 AI 变革的每一个浪潮。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "Vol.115｜当我们在谈论冥想时，AI 能为我们做什么？",
+          "titleZh": "Vol.115｜当我们在谈论冥想时，AI 能为我们做什么？",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69fac203e05c0efcd6f3918c",
+          "publishedAt": "2026-05-06T04:38:16.461Z",
+          "source": "开始连接 LinkStart",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/Fkm-DmJ_lCbLxtekkyHx2McjuUUB.png",
+          "video": "",
+          "summary": "Vol.115｜当我们在谈论冥想时，AI 能为我们做什么？",
+          "summaryZh": "**讲了什么**：这一期来自 **开始连接 LinkStart**，主题是「Vol.115｜当我们在谈论冥想时，AI 能为我们做什么？」。这两年，如果你留意过 AI 硬件，会发现：几乎所有产品，都在试图「理解你」。从耳机、手表到各种桌面陪伴设备，它们开始谈情绪、谈陪伴、谈疗愈，仿佛只要接入大模型，就能更懂人一点。但问题是，这些东西真的在解决问题吗？还是只是换了一种更高级的讲故事方式？这一期，我们请来了一个有点「反共识」的创业者——他做过五年可穿戴情绪算法供应商，然后下场做了一款看起来有点反直觉的产品：一块智能冥想坐垫。在一个大家都在做「更轻、更小、更随身」的时代，他却选择让用户「坐下来」。在这期节目里，彼岸心智的创始人 & CEO 孙海洋会和我们完整拆解这款产品的逻辑与内核，聊聊从算法供应商转型做自有硬件，那些即便有行业积累也避不开的创业坑。\n**简介要点**：\n- 这两年，如果你留意过 AI 硬件，会发现：几乎所有产品，都在试图「理解你」。\n- 从耳机、手表到各种桌面陪伴设备，它们开始谈情绪、谈陪伴、谈疗愈，仿佛只要接入大模型，就能更懂人一点。\n- 这一期，我们请来了一个有点「反共识」的创业者——他做过五年可穿戴情绪算法供应商，然后下场做了一款看起来有点反直觉的产品：一块智能冥想坐垫。\n- 在这期节目里，彼岸心智的创始人 & CEO 孙海洋会和我们完整拆解这款产品的逻辑与内核，聊聊从算法供应商转型做自有硬件，那些即便有行业积累也避不开的创业坑。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "summaryBullets": [
+    "Codex 这一轮更新把“好用”落到细节：**快捷键可自定义**、线程面板与本地服务列表更顺手，同时还针对 **大仓库/长会话** 做了性能优化。",
+    "训练侧继续提速：Fireworks 在 Training Platform 上线 **Gemma 4 Dense** 的 **全参/LoRA + RL** 训练，并覆盖 **SFT、DPO、RL** 与 **256K 上下文**，更适合快速做垂直定制。",
+    "**研究前线**今天的主线是“让代理更可靠、让生成更可控”：Collider-Bench 用真实的 LHC 分析复现来测代理能力；另有工作聚焦 **纵向 EHR 推理防幻觉** 与 **闭环验证式视觉生成推理**。",
+    "**开源项目**出现多条“可直接上手”的代理/工作台：UI-TARS 桌面端多模态代理栈、DeepSeek 终端 Coding Agent，以及面向科研/写作的 agent skills 集合，值得快速试跑可用性。"
+  ]
+}
