@@ -1,0 +1,401 @@
+{
+  "date": "2026-05-18",
+  "generatedAt": "2026-05-17T18:34:17.748Z",
+  "title": "AI 日报 - 2026-05-18",
+  "summaryBullets": [
+    "多篇论文集中讨论 **多模态长期记忆**：从 **MEMLENS**（多轮多会话对话记忆基准）到 **MemEye**（更强调视觉证据粒度与状态演化推理），都在暴露“能记住文字但丢视觉细节”的短板。",
+    "训练与推理能力方向出现两条思路：一条是用 **SFT+两阶段 RL+测试时扩展** 把推理骨干推到 **奥赛级证明/解题**；另一条是 **无训练的模型权重进化合并**，尝试用“重组已有 checkpoint 能力”换取推理增益。",
+    "开源侧继续围绕 **智能体能力工程化**：语音智能体平台、面向 CLI 的“Agent-Native”形态、以及把 **持久化记忆/评测** 做成可复用组件的项目在同步增长。",
+    "延伸阅读聚焦两类一线经验：一类是 **vibe coding 项目治理** 的真实踩坑与修复；另一类是从创业者视角讨论 **AI 技术与商业/产品节奏** 的长期机会。"
+  ],
+  "stats": {
+    "sources": 133,
+    "fetched": 89,
+    "emailCandidates": 0,
+    "selected": 26,
+    "failures": 1
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": []
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models",
+          "titleZh": "MemLens：评测大模型“多模态长期记忆”的系统基准",
+          "link": "https://huggingface.co/papers/2605.14906",
+          "publishedAt": "2026-05-17T18:34:17.748Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-05-18 排名第 4 的论文候选。",
+          "summaryZh": "**核心结论**：论文提出 **MEMLENS**，用来系统对比两类路线在“长、多模态、多会话”场景下的记忆能力：一类是 **长上下文 LVLM**，另一类是 **带外部记忆的多模态智能体**。它的核心关注点是：问题是否真的需要依赖 **视觉证据**，以及随着对话变长系统会在哪些能力上掉队。\n\n**支撑证据**：MEMLENS 覆盖 **789 道题**、**5 类记忆能力**（信息抽取/多会话推理/时间推理/知识更新/拒答），并在 **32K–256K tokens** 的标准长度下评测。作者做了 **图片消融**：在 **80.4%** 需要图片证据的问题上，移除证据图片会让两款前沿 LVLM 的准确率跌到 **2% 以下**，证明“只看文字线索”无法通过。对 **27 个 LVLM** 与 **7 个记忆增强智能体** 的对比显示：长上下文模型在短上下文时依赖直接视觉对齐表现更好，但会随长度增长显著退化；记忆智能体更“长度稳定”，但在压缩存储时容易丢失 **细粒度视觉信息**。多数系统在 **多会话推理** 上被卡在 **30% 以下**。\n\n**我的判断**：这类基准能把“是否真的在用图”讲清楚，适合用来筛选 **多模态 RAG/记忆模块** 的真实增益。值得跟进的是它提出的“混合架构”方向：把 **长上下文注意力** 与 **结构化多模态检索** 结合，避免只靠其中一条路线带来的系统性短板。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "多模态",
+            "评测",
+            "论文"
+          ],
+          "score": 40
+        },
+        {
+          "title": "MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory",
+          "titleZh": "MemEye：以“视觉证据”为核心的多模态智能体记忆评测框架",
+          "link": "https://huggingface.co/papers/2605.15128",
+          "publishedAt": "2026-05-17T18:34:17.748Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-05-18 排名第 6 的论文候选。",
+          "summaryZh": "**核心结论**：论文提出 **MemEye**，专门检查多模态智能体的“长期记忆”是否真的保留了后续推理所需的 **关键视觉证据**，并补齐了以往评测中“看起来能答、其实靠文字/标题线索就能蒙对”的漏洞。\n\n**支撑证据**：作者把评测拆成两个维度：① 决定性视觉证据的粒度（从 **场景级** 到 **像素级**）；② 证据的使用方式（从 **单证据** 到需要跨时序的 **演化式综合**）。在这个框架下，他们构建了覆盖 **8 个生活场景任务** 的新基准，并设计了消融与验证门禁，用来检验样本是否 **可答**、是否能抵抗“走捷径”、是否必须依赖视觉、以及推理结构是否成立。对 **4 个 VLM 主干** 上的 **13 种记忆方法** 评测显示：当前架构仍难以长期保留 **细粒度视觉细节**，也不擅长在时间轴上跟踪 **视觉状态变化**。\n\n**我的判断**：如果你的产品依赖“图片/界面/现实场景”的长期任务（例如多轮视觉客服、设备/环境巡检、可视化数据助手），MemEye 这种强调 **证据路由、时间跟踪、细节抽取** 的评测维度更接近真实失败模式，值得用来补充传统的文本式记忆评测。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "多模态",
+            "论文"
+          ],
+          "score": 38
+        },
+        {
+          "title": "Darwin Family: MRI-Trust-Weighted Evolutionary Merging for Training-Free Scaling of Language-Model Reasoning",
+          "titleZh": "Darwin Family：用“无训练进化合并”提升语言模型推理能力",
+          "link": "https://huggingface.co/papers/2605.14386",
+          "publishedAt": "2026-05-17T18:34:17.748Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-05-18 排名第 7 的论文候选。",
+          "summaryZh": "**核心结论**：论文提出 **Darwin Family**：不做额外训练、只在 **权重空间** 里做“进化式重组/合并”，就尝试把现有 checkpoint 中的潜在能力重新排列组合，从而提升 **推理表现**。\n\n**支撑证据**：方法核心是三点：① 一个 **14 维** 的自适应“合并基因”，支持按组件/按 block 的细粒度重组；② **MRI-Trust Fusion**，在诊断出的层重要性信号与进化搜索之间做自适应平衡；③ **Architecture Mapper**，支持在不同架构家族之间“跨架构繁育”（例如把 **Transformer** 与 **Mamba** 组件组合）。作者报告旗舰 **Darwin-27B-Opus** 在 **GPQA Diamond** 上达到 **86.9%**，在 **1,252** 个评测模型中排到 **第 6**，并且在 4B–35B 的尺度上都能稳定超过“父代模型”，还能做多代递归进化。\n\n**我的判断**：这条路线如果可复现，对“后训练成本高、但手里有一堆 checkpoint”的团队很有吸引力：它把算力从长周期训练转移到更可控的 **搜索与合并**。需要重点验证的是：不同任务族（代码/数学/长上下文）的收益是否一致，以及它对安全对齐与幻觉的副作用是否可控。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "推理能力",
+            "论文"
+          ],
+          "score": 38
+        },
+        {
+          "title": "Achieving Gold-Medal-Level Olympiad Reasoning via Simple and Unified Scaling",
+          "titleZh": "用统一的“扩展配方”把推理模型推到奥赛金牌级解题",
+          "link": "https://huggingface.co/papers/2605.13301",
+          "publishedAt": "2026-05-17T18:34:17.748Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-05-18 排名第 1 的论文候选。",
+          "summaryZh": "**核心结论**：论文给出一套“简单且统一”的扩展配方，把一个后训练过的推理骨干进一步变成更严格的 **奥赛级（IMO/IPhO）解题器**：先用 SFT 把证明搜索与自检行为“打进去”，再用两阶段 RL 放大这些行为，最后用测试时扩展提升最终解题率。\n\n**支撑证据**：作者的配方包括：① 用 **reverse-perplexity curriculum** 做 SFT，让模型学会更严谨的证明搜索与自我校验；② 两阶段 RL：先做带 **可验证奖励** 的 RL，再进入更细的 **proof-level RL**；③ 配合 **test-time scaling**。在训练设置上，他们在一个 **30B-A3B** 推理骨干上，先用约 **34 万** 条（单条 <8K tokens）轨迹 SFT，然后做 **200 步** RL。得到的模型 **SU-01** 能在非常难的问题上保持稳定推理，轨迹长度可超过 **100K tokens**，并在 **IMO 2025 / USAMO 2026** 与 **IPhO 2024/2025** 等竞赛题上达到金牌级表现，同时对数学/物理之外的科学推理也显示出泛化。\n\n**我的判断**：这篇把“怎么把推理骨干推到更严格证明/长链路”拆成了可操作的训练配方，适合对标你自己的推理后训练管线。值得继续关注两点：一是 proof-level RL 对数据质量与奖励设计的敏感性；二是 **>100K tokens** 的长轨迹在真实产品里如何控时延与控成本。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "推理能力",
+            "论文"
+          ],
+          "score": 35
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "又一历史时刻，突破1w star了🎉",
+          "titleZh": "Easy-Vibe：面向 Vibe Coding 的交互式学习项目关注数破万",
+          "link": "https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247722807&idx=1&sn=519b984044e275d952fcb91e5d0dc4d7",
+          "publishedAt": "Sun, 17 May 2026 22:36:00 +0800",
+          "source": "Datawhale",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "expert",
+          "image": "https://wechat2rss.bestblogs.dev/img-proxy/?k=de117f3b&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FzW6S9vt0cSicxg3jgQlFX7rnRMlnnbrajaibcSibickLMYpuVX5xjLH40c3qxAibbEoGibIB9ajFYUKHV1OqhfqCQrTRvicDZBNmJPBVvD8yDIfk9U%2F0%3Fwx_fmt%3Dpng",
+          "video": "",
+          "summary": "首次突破万星🌟，Vibe Coding时代真的来了。 2026年1月1日，《Easy-Vibe》正式发布！ 2026年2月起，《Easy-Vibe》上线 Android/iOS 开发、交互式可视化教程、模拟编码环境等核心模块。 2026年3月2日，登上Github Trending 榜第一。 2026年3月25日，《Easy-Vibe》英文文档全面更新，多语言支持扩展到 9 种语言（中、英、日、西、法、韩、阿、越、德）。 2026年5月9日-5月12日，霸榜四天 Github Trending 榜第一。 2026年5月12日，《Easy-Vibe》GitHub 突破 1w star。",
+          "summaryZh": "《**Easy-Vibe**》是一个面向 **vibe coding** 的交互式学习与实践项目，近期在 GitHub 的关注度突破 **1 万**。它在 2026-02 起陆续上线了 **Android/iOS 开发**、**交互式可视化教程**、以及 **模拟编码环境** 等模块，并在 2026-03 与 2026-05 多次进入 GitHub Trending 前列。\n\n这类“把 vibe coding 拆成可练习模块”的开源项目值得持续跟踪：一方面它反映了开发者对 **AI 编程学习路径** 的真实需求；另一方面也能作为团队内部落地时的素材库（教程组织方式、练习题形态、工程化脚手架）。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "开源",
+            "开发者工具"
+          ],
+          "score": 27
+        },
+        {
+          "title": "dograh-hq/dograh",
+          "titleZh": "Dograh：开源语音智能体平台（Voice Agent）",
+          "link": "https://github.com/dograh-hq/dograh",
+          "publishedAt": "2026-05-17T18:34:17.748Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star dograh-hq / dograh Open Source Voice Agent Platform",
+          "summaryZh": "一个主打 **语音智能体** 的开源平台，目标是把语音交互（ASR/TTS/对话编排等）以更工程化的方式拼装起来，方便做客服、助手、呼叫类工作流的原型与落地。适合关注它的 **端到端链路**（语音输入→理解→工具调用→语音输出）如何封装，以及对延迟、打断、上下文记忆等问题的处理方式。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体",
+            "开源",
+            "语音"
+          ],
+          "score": 35
+        },
+        {
+          "title": "HKUDS/CLI-Anything",
+          "titleZh": "CLI-Anything：让软件“Agent-Native”的 CLI 智能体框架/集合",
+          "link": "https://github.com/HKUDS/CLI-Anything",
+          "publishedAt": "2026-05-17T18:34:17.748Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star HKUDS / CLI-Anything \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+          "summaryZh": "一个围绕 **CLI 场景** 的智能体项目，主张把各种软件与工具的能力以更统一的方式暴露给智能体使用（“让软件变得 agent-native”）。如果你在做本地自动化、运维脚本、研发工具链集成，这类项目的价值在于：它提供了更标准的“命令/工具→智能体可调用能力”组织方式，能减少大量胶水代码。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "BigBodyCobain/Shadowbroker",
+          "titleZh": "Shadowbroker：面向情报聚合的开源 OSINT 平台（可接入 AI 智能体）",
+          "link": "https://github.com/BigBodyCobain/Shadowbroker",
+          "publishedAt": "2026-05-17T18:34:17.748Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star BigBodyCobain / Shadowbroker Open-source intelligence for the global theater. Track everything from the corporate/private jets of the wealthy, and spy satellites, to seismic events in one unified interface. Hook an AI agent up to have it parse through data and find previously unseen correlations. The knowledge is available to all but rarely aggregated in the open, until now.",
+          "summaryZh": "一个把多类公开数据源汇聚到统一界面的 **OSINT（开源情报）平台**：从私人飞机/卫星到地震事件等都尝试做可视化与追踪。项目定位里明确提到可把 **AI 智能体** 接入，用来在多源数据中做解析与关联发现。适合关注它的数据源接入方式、查询/告警能力，以及智能体介入后的可解释性与误报控制。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "tech-leads-club/agent-skills",
+          "titleZh": "agent-skills：面向专业编码智能体的“技能注册表”",
+          "link": "https://github.com/tech-leads-club/agent-skills",
+          "publishedAt": "2026-05-17T18:34:17.748Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star tech-leads-club / agent-skills The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+          "summaryZh": "一个强调 **安全与可验证性** 的“技能注册表”，目标是让各类 **AI 编码智能体** 以更可信的方式复用外部技能/工具（项目描述中点名了多种编码助手生态）。对企业/团队用户来说，这类仓库的看点在于：是否提供清晰的权限边界、版本与审计机制，以及技能质量的验收方法。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "NirDiamant/agents-towards-production",
+          "titleZh": "agents-towards-production：从原型到上线的智能体工程教程集",
+          "link": "https://github.com/NirDiamant/agents-towards-production",
+          "publishedAt": "2026-05-17T18:34:17.748Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Sponsor Star NirDiamant / agents-towards-production End-to-end, code-first tutorials for building production-grade GenAI agents. From prototype to enterprise deployment.",
+          "summaryZh": "一组偏 **代码优先** 的端到端教程，主题是把生成式 AI 智能体从 demo 做到可上线的工程形态（例如部署、观测、可靠性与迭代）。如果你正在补齐“从 PoC 到生产”的最后一公里，这类教程往往比单点技巧更有参考价值：它能把工具选型、工程约束与落地步骤串起来。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "rohitg00/agentmemory",
+          "titleZh": "agentmemory：面向 AI 编码智能体的持久化记忆（含真实基准）",
+          "link": "https://github.com/rohitg00/agentmemory",
+          "publishedAt": "2026-05-17T18:34:17.748Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Sponsor Star rohitg00 / agentmemory #1 Persistent memory for AI coding agents based on real-world benchmarks",
+          "summaryZh": "一个为 **AI 编码智能体** 设计的持久化记忆项目，强调用 **真实世界基准** 来验证“记忆”是否带来可量化收益。对团队落地而言，记忆层经常是最容易“看起来有用、实际上引入噪音”的部分；这种带基准的实现更适合拿来做 A/B 评估与回归测试。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体",
+            "评测"
+          ],
+          "score": 26
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "keep the feedback coming, team will keep shipping",
+          "titleZh": "Codex 支持自定义快捷键：反馈驱动的高频迭代信号",
+          "link": "https://x.com/gdb/status/2055748633723576437",
+          "publishedAt": "Sat, 16 May 2026 20:34:02 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-05-18-2055748633723576437.mp4",
+          "summary": "keep the feedback coming, team will keep shipping OpenAI Developers @OpenAIDevs We’re having way too much fun working through your feedback. (Please, keep it coming.) Keyboard shortcuts are now customizable. Set Codex up around how you actually work, then tweak shortcuts from settings instead of adapting to our defaults. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 130 🔄 25 ❤️ 640 👀 54080 📊 134 ⚡ Powered by xgo.ing",
+          "summaryZh": "一条和 **OpenAI Developers / Codex** 相关的更新信号：作者表示团队会持续根据反馈“继续交付”，并提到 **键盘快捷键已经支持自定义**。对日常高频使用的人来说，这类“可配置化”能力通常比单点功能更能提升效率：你可以先按自己的工作流设置默认快捷键，再在设置里持续微调，而不是反过来适应工具的默认行为。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开发者工具",
+            "视频"
+          ],
+          "score": 53.27421717985151
+        },
+        {
+          "title": "link together your devices with Codex to develop from anywhere, anytime",
+          "titleZh": "多设备协作的 Codex 用法：把笔记本当“卫星机”，常驻主机负责长任务",
+          "link": "https://x.com/gdb/status/2056046844921172243",
+          "publishedAt": "Sun, 17 May 2026 16:19:01 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HIUQG4gWsAAGssJ.jpg",
+          "video": "",
+          "summary": "link together your devices with Codex to develop from anywhere, anytime Nick @nickbaumann_ My laptop has become a “satellite device” since I started using Codex from my phone. And my Mac mini has become the “home.” It’s clunky, but the end state feels more like how we’re going to be working in the near future: I’m currently running the Codex app on 2 devices: 1. my MacBook 2. my Mac mini My laptop isn’t reliably connected to Wi-Fi enough, so I keep a Mac mini on my desk that is always connected. When I kick off...",
+          "summaryZh": "一段真实使用体验：把笔记本当作不稳定的“**卫星设备**”，把一直联网的 **Mac mini** 当作“**常驻主机**”，用手机发起任务、由主机持续跑长任务，再在任意设备上接力查看与继续。它提示了一个趋势：当 AI 编码助手开始支持多端协同后，开发方式可能会更像“随时下发任务 + 后台持续执行 + 多端接力”。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型"
+          ],
+          "score": 51.41839501788309
+        },
+        {
+          "title": "chronicle makes you realize how quickly you forget what you’ve been doing all day",
+          "titleZh": "从日程/记录反推可复用技能：把重复工作自动化的提示词思路",
+          "link": "https://x.com/gdb/status/2055769256399114677",
+          "publishedAt": "Sat, 16 May 2026 21:55:59 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HIbC3iraUAASpxs.jpg",
+          "video": "",
+          "summary": "chronicle makes you realize how quickly you forget what you’ve been doing all day Anthony Kroeger @kr0der use this Codex prompt to automate things you do repetitively during the day: \"Look through my Chronicle memories and check for workflows that i'm repeating multiple times. Turn them into skills.\" 🔗 View Quoted Tweet 💬 34 🔄 35 ❤️ 816 👀 92810 📊 162 ⚡ Powered by xgo.ing",
+          "summaryZh": "一个关于 **Codex 工作流** 的小技巧：先让工具回看你一天的“Chronicle 记忆/记录”，找出你反复执行的工作流，然后把它们提炼成可复用的 **skills**。这里的关键点是“从事实日志反推自动化”，比凭感觉列 TODO 更容易发现真实的时间黑洞，也更适合持续迭代成团队的自动化资产。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 49.75696045007432
+        },
+        {
+          "title": "you can just build things from your phone, with Codex in the ChatGPT app",
+          "titleZh": "在 ChatGPT App 里用 Codex：移动端“随时发起开发任务”的体验信号",
+          "link": "https://x.com/gdb/status/2055882172884763012",
+          "publishedAt": "Sun, 17 May 2026 05:24:41 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "you can just build things from your phone, with Codex in the ChatGPT app 💬 272 🔄 61 ❤️ 1641 👀 92772 📊 392 ⚡ Powered by xgo.ing",
+          "summaryZh": "一条关于 **移动端** 的使用信号：作者表示可以在 **ChatGPT App** 里直接用 **Codex** 在手机上“动手做东西”。对团队而言，这意味着编程助手的入口可能从桌面 IDE 延伸到更碎片化的场景（随时发起任务、查看执行进度、做小范围修改），也会进一步放大“多端协同/长任务后台执行”的需求。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 49
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "管 Vibe Coding 项目，就像管公共厕所",
+          "titleZh": "管 Vibe Coding 项目，就像管公共厕所",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69fc8a84c417dfd2311e4a4c",
+          "publishedAt": "2026-05-07T12:25:38.000Z",
+          "source": "AI炼金术",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9mNTFhLWF1ZGlvZnJlZWhpZ2hxcHMvQjkvNzAvR01Db09TSUh2N0JGQUFWZ1B3SDNSN2VoLmpwZWc=.jpeg",
+          "video": "",
+          "summary": "管 Vibe Coding 项目，就像管公共厕所",
+          "summaryZh": "**讲了什么**：这一期来自 **AI炼金术**，主题是「管 Vibe Coding 项目，就像管公共厕所」。徐文浩说，管一个 vibe coding 项目，跟管一个公共厕所差不多。以前三五年才堆得出来的“屎山”，现在一个月就堆完了。但产品才刚跑没多久，还不能放弃，还想继续高速迭代——这就是这一期想聊的“治理深水区”。这一期都是徐文浩在自己公司里趟出来的实操，不是网上抄的二手梳理。如果你也在被 vibe coding 的烂摊子困扰、或者你正在搭一个 AI Agent 编排系统、或者你的老板最近问过你“AI 都用上了为什么没提效”——这一期值得听完。亮点 屎山一个月就堆完了 徐文浩说，以前三五年才堆得起来的屎山，现在一个月就堆完。但产品才刚跑没多久，你还想继续高速迭代——管一个 vibe coding 项目的难度，跟管一个公共厕所差不多。\n**简介要点**：\n- 但产品才刚跑没多久，还不能放弃，还想继续高速迭代——这就是这一期想聊的“治理深水区”。\n- 如果你也在被 vibe coding 的烂摊子困扰、或者你正在搭一个 AI Agent 编排系统、或者你的老板最近问过你“AI 都用上了为什么没提效”——这一期值得听完。\n- 但产品才刚跑没多久，你还想继续高速迭代——管一个 vibe coding 项目的难度，跟管一个公共厕所差不多。\n- 摩擦消失了，但摩擦本来在打磨产品 以前写代码有很多层摩擦，看似拖慢交付，其实像水流冲刷石头一样，把棱角打磨成了鹅卵石。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "李想×罗永浩！李想的理想：通过 AI 技术，让普通人也过上富豪的生活",
+          "titleZh": "李想×罗永浩！李想的理想：通过 AI 技术，让普通人也过上富豪的生活",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a037114e1eb34a939471baf",
+          "publishedAt": "2026-05-13T04:00:00.000Z",
+          "source": "罗永浩的十字路口",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FvR7Od3_I3OQq0ac_8xMPc4zqdOt.png",
+          "video": "",
+          "summary": "李想×罗永浩！李想的理想：通过 AI 技术，让普通人也过上富豪的生活",
+          "summaryZh": "**讲了什么**：这一期来自 **罗永浩的十字路口**，主题是「李想×罗永浩！李想的理想：通过 AI 技术，让普通人也过上富豪的生活」。《十字路口》播客节目简介 本节⽬是⼀档由罗永浩主持的深度播客类节⽬，每集长达三到五个小时。我们与时代浪潮中的⼈物展开对话，聚焦于科技与⼈⽂领域，讲述个体命运故事，探讨时代发展趋势。本期嘉宾：李想 今天请到的嘉宾是理想汽车的创始人——李想，我们“十字路口”开播的第一期嘉宾就是他。时隔两百多天，他完成了汽车公司转型走向 AI 和具身智能公司的阶段性工作，并带来了全新的智能产品：理想新一代的旗舰 SUV —— L9 Livis。L9 Livis 配备了理想自研的马赫 M100 芯片，还有“全球首个完全体全线控底盘”，以及 800V 主动式悬架系统。\n**简介要点**：\n- 时隔两百多天，他完成了汽车公司转型走向 AI 和具身智能公司的阶段性工作，并带来了全新的智能产品：理想新一代的旗舰 SUV —— L9 Livis。\n- 前者提供了目前量产的智能电动车当中最强的算力，算力达到了惊人的 2560 TOPS，后两者在五十万元左右的档位上，提供了百万甚至数百万元的豪车上才能享受的驾乘体验。\n- 《罗永浩的十字路口》第二十七期，我们和李想聊聊他的新旗舰 SUV，聊聊他逐渐成型的 AI + 具身智能公司，也聊聊他事业上的终极理想。\n- 00:01:48 学AI是当下最重要的 00:17:31 聊聊具身智能 00:31:46 无人驾驶会影响车的销量吗？",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.dev/rss/",
+      "error": "fetch failed"
+    }
+  ]
+}
