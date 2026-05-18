@@ -1,0 +1,655 @@
+{
+  "date": "2026-05-19",
+  "generatedAt": "2026-05-18T18:33:22.894Z",
+  "title": "AI 日报 - 2026-05-19",
+  "stats": {
+    "sources": 133,
+    "fetched": 714,
+    "emailCandidates": 0,
+    "selected": 34,
+    "failures": 0
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Next stop: London. Register to tune in tomorrow for deep dives, demos, and conversations with the t...",
+          "titleZh": "Claude 开发者大会 Code with Claude 伦敦站开启报名，并提供线上直播",
+          "link": "https://x.com/claudeai/status/2056328149940543808",
+          "publishedAt": "Mon, 18 May 2026 10:56:50 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-19-2056328149940543808.mp4",
+          "summary": "Next stop: London. Register to tune in tomorrow for deep dives, demos, and conversations with the teams behind Claude: claude.com/code-with-clau… Claude @claudeai Code with Claude, our developer conference, returns next week. Whether you're just getting started with Claude Code or you've been building for a while, there's a session for you. Register for the livestream: claude.com/code-with-clau… Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 217 🔄 168 ❤️ 2219 👀 328876 📊 308 ⚡ Powered by xgo.ing",
+          "summaryZh": "Anthropic 宣布 **Code with Claude** 开发者大会下周回归，伦敦站作为下一站并开放报名，同时提供 **直播**。官方强调会议会覆盖 Claude Code 的入门到进阶用法，包括深度解析、Demo 与与团队对谈；对在评估或已经使用 **Claude Code** 的团队来说，这是获取路线图与最佳实践细节的高密度窗口。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开发者工具",
+            "视频"
+          ],
+          "score": 72
+        },
+        {
+          "title": "Introducing Composer 2.5, our most powerful model yet. It's more intelligent, better at sustained w...",
+          "titleZh": "Cursor 发布 Composer 2.5，并在一周内把该模型的包含用量翻倍",
+          "link": "https://x.com/cursor_ai/status/2056415413077233983",
+          "publishedAt": "Mon, 18 May 2026 16:43:35 GMT",
+          "source": "Cursor(@cursor_ai)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HInYLGEbUAMPCxf.png",
+          "video": "",
+          "summary": "Introducing Composer 2.5, our most powerful model yet. It's more intelligent, better at sustained work on long-running tasks, and more reliable at following complex instructions. For the next week, we’re doubling the included usage of the model. 💬 371 🔄 405 ❤️ 4711 👀 2414255 📊 989 ⚡ Powered by xgo.ing",
+          "summaryZh": "Cursor 宣布推出 **Composer 2.5**，称其在长时间持续工作、复杂指令跟随与可靠性方面更强。官方同时给出短期政策：未来 **一周内**，把该模型的「包含用量」**翻倍**。如果你依赖 Cursor 做多文件重构、长链路任务或自动化工作流，这类模型/配额变动会直接影响吞吐与成本预期。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 71
+        },
+        {
+          "title": "🚀🚀Qwen3.7 Preview lands on Arena ！ Here come Qwen3.7-Max-Preview & Qwen3.7-Plus-Preview. Ali...",
+          "titleZh": "Qwen3.7 预览版登陆 Arena（文本/视觉双榜），官方披露榜单排名",
+          "link": "https://x.com/Alibaba_Qwen/status/2056403591464984753",
+          "publishedAt": "Mon, 18 May 2026 15:56:36 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HInMp7UbAAAxbek.png",
+          "video": "",
+          "summary": "🚀🚀Qwen3.7 Preview lands on Arena ！ Here come Qwen3.7-Max-Preview & Qwen3.7-Plus-Preview. Alibaba now #6 lab in Text, #5 in Vision.⚡️⚡️ Can't wait to release Qwen3.7 series models！Stay tuned! @arena Arena.ai @arena Qwen3.7 Preview By @Alibaba_Qwen lands on Arena for Text and Vision. In Text Arena, Qwen3.7 Max Preview ranks #13 overall. Alibaba is now the #6 lab in this arena. - #7 Math - #9 Expert - #9 Software & IT - #10 Coding In Vision Arena: Qwen3.7 Plus Preview ranks #16 overall, making Alibaba the #5 lab. Congrats to the @Alibaba_Qwen team on the latest progress! 🔗 View Quoted Tweet 💬 90 🔄 108 ❤️ 1108 👀 99446 📊 183 ⚡ Powered by xgo.ing",
+          "summaryZh": "阿里 Qwen 团队表示 **Qwen3.7-Max-Preview** 与 **Qwen3.7-Plus-Preview** 已上线 Arena 的文本与视觉排行榜，并给出当前名次：文本 Arena 中 Max Preview **总榜第 13**，同时披露数学/专家/软件与 IT/编码等分项排名；视觉 Arena 中 Plus Preview **总榜第 16**。这类「预览模型+公开榜单」信号通常意味着正式版发布临近，值得关注后续是否开放权重、API 或推理成本信息。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型"
+          ],
+          "score": 67
+        },
+        {
+          "title": "Introducing Scheduled Tasks 2.0 — a major upgrade to recurring work in Manus. Scheduling is no long...",
+          "titleZh": "Manus 发布 Scheduled Tasks 2.0，升级其循环/定时任务能力",
+          "link": "https://x.com/ManusAI/status/2056392345050927447",
+          "publishedAt": "Mon, 18 May 2026 15:11:55 GMT",
+          "source": "ManusAI(@ManusAI_HQ)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-19-2056392345050927447.mp4",
+          "summary": "Introducing Scheduled Tasks 2.0 — a major upgrade to recurring work in Manus. Scheduling is no longer just about running something at the right time. It is about running it in the right place, with the right context. Now scheduled work can continue in the same task, power background actions in Manus-built web apps, and give you clearer visibility into upcoming and past runs. Available now to all users. Your browser does not support the video tag. 🔗 View on Twitter 💬 13 🔄 24 ❤️ 300 👀 24220 📊 64 ⚡ Powered by xgo.ing",
+          "summaryZh": "Manus 宣布 **Scheduled Tasks 2.0**，把「重复性工作/定时触发」能力做了一次大升级，强调调度不再只是简单的 cron，而是更贴近真实业务的循环工作流。对依赖智能体做持续拉取数据、周期性生成报告或自动化运维的用户来说，调度能力升级会显著影响可用场景与稳定性，需要进一步确认其触发条件、失败重试、权限与可观测性支持。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 66.43256213990364
+        },
+        {
+          "title": "Introducing skills in Lovable.",
+          "titleZh": "Lovable 上线 skills：把可复用能力封装为可组合的“技能”",
+          "link": "https://x.com/Lovable/status/2056389414381879461",
+          "publishedAt": "Mon, 18 May 2026 15:00:16 GMT",
+          "source": "Lovable(@lovable_dev)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-19-2056389414381879461.mp4",
+          "summary": "Introducing skills in Lovable. 💬 34 🔄 30 ❤️ 461 👀 64938 📊 98 ⚡ Powered by xgo.ing",
+          "summaryZh": "Lovable 宣布引入 **skills** 概念，用于把可复用能力封装成模块并在不同任务中组合调用。对以「提示词+工具」驱动的应用来说，skills 形态通常意味着更标准的能力边界、可复用的参数接口以及更容易做权限/审计/版本管理的发布方式；后续值得关注它是否支持第三方技能市场、运行沙箱与团队级共享。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 66.40411772916092
+        },
+        {
+          "title": "Anthropic is acquiring @stainlessapi, an SDK and MCP server platform that has powered every Anthropi...",
+          "titleZh": "Anthropic 收购 Stainless，补齐 SDK 与 MCP 服务生态能力",
+          "link": "https://x.com/AnthropicAI/status/2056419620643541012",
+          "publishedAt": "Mon, 18 May 2026 17:00:18 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Anthropic is acquiring @stainlessapi , an SDK and MCP server platform that has powered every Anthropic SDK since the earliest days of our API. Read more: anthropic.com/news/anthropic… 💬 134 🔄 79 ❤️ 1151 👀 103787 📊 232 ⚡ Powered by xgo.ing",
+          "summaryZh": "Anthropic 宣布收购 **Stainless**（SDK 与 MCP server 平台），并强调 Stainless 已支撑了 Anthropic 生态中大量 SDK/集成的生成与维护工作。对开发者而言，这类收购往往会带来两类变化：一是官方 SDK 与多语言生态的迭代速度提升，二是围绕 **MCP** 的工具/服务接入更标准化。建议关注后续是否会发布统一的 SDK 生成规范、版本策略与兼容性承诺。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "API"
+          ],
+          "score": 62
+        },
+        {
+          "title": "Need more HappyHorse-1.0? We're offering $10 in credit to the first 100 people who claim below! ht...",
+          "titleZh": "Replicate 针对 HappyHorse-1.0 提供限量 $10 额度（前 100 名）",
+          "link": "https://x.com/replicate/status/2056397906643460488",
+          "publishedAt": "Mon, 18 May 2026 15:34:01 GMT",
+          "source": "Replicate(@replicate)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-19-2056397906643460488.mp4",
+          "summary": "Need more HappyHorse-1.0? We're offering $10 in credit to the first 100 people who claim below! replicate.fyi/happyhorse Replicate @replicate HappyHorse-1.0 from Alibaba is here. 🐎💨 This surprise 15B-parameter model has claimed the #1 spot on the @ArtificialAnlys Video Arena, outperforming every major lab in text-to-video and image-to-video quality. It features a unified pipeline for 1080p output with joint audio generation and native lip-sync across seven languages. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 13 🔄 4 ❤️ 29 👀 3936 📊 17 ⚡ Powered by xgo.ing",
+          "summaryZh": "Replicate 宣布为 **HappyHorse-1.0** 提供拉新额度：前 **100** 位领取者可获得 **$10** credit。它更像一次促销/增长动作，但也能侧面反映该模型近期在平台上的推广优先级；如果你在评估模型部署与成本，仍建议以模型质量、吞吐、配额与商用条款为主要依据。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频",
+            "图像"
+          ],
+          "score": 56.84530118541427
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "SaaS-Bench: Can Computer-Use Agents Leverage Real-World SaaS to Solve Professional Workflows?",
+          "titleZh": "SaaS-Bench：计算机使用代理能否在真实 SaaS 上完成专业工作流？",
+          "link": "https://arxiv.org/abs/2605.15777",
+          "publishedAt": "Mon, 18 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.15777v1 Announce Type: new Abstract: Computer-Using Agents (CUAs) are rapidly extending large language models (LLMs) beyond text-based reasoning toward action execution in more complex environments, such as web browsers and graphical user interfaces (GUIs). However, existing web and GUI agent benchmarks often rely on simplified settings, isolated tasks, or short-horizon interactions, making it difficult to assess capabilities of agents in realistic professional workflows. Software-as-a-Service (SaaS)...",
+          "summaryZh": "**核心结论**：论文提出 **SaaS-Bench**，用更贴近真实工作的方式评测“计算机使用（computer-use）代理”在 SaaS 产品中的端到端执行能力，问题不再是单步操作，而是能否把一整段专业工作流做完。\n\n**支撑证据**：作者把任务落到真实 SaaS 场景（如表单、协作、知识库等）并设计可复现的评测设置，通过对不同代理/配置的对比来衡量成功率与失败模式。\n\n**我的判断**：如果你在做“让代理去用现成的软件”的落地（企业办公、客服工单、知识库维护等），这类基准能帮你更快定位瓶颈在 **UI 识别、状态跟踪还是工具调用**；但仍需要关注任务覆盖面、数据/环境可获得性，以及是否能代表企业内网的真实复杂度。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "推理能力",
+            "多模态"
+          ],
+          "score": 43
+        },
+        {
+          "title": "AgentStop: Terminating Local AI Agents Early to Save Energy in Consumer Devices",
+          "titleZh": "AgentStop：让端侧 AI 代理更早终止以节能的早停方法",
+          "link": "https://arxiv.org/abs/2605.15206",
+          "publishedAt": "Mon, 18 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.15206v1 Announce Type: cross Abstract: Autonomous agents powered by large language models (LLMs) are increasingly used to automate complex, multi-step tasks such as coding or web-based question answering. While remote, cloud-based agents offer scalability and ease of deployment, they raise privacy concerns, depend on network connectivity, and incur recurring API costs. Deploying agents locally on user devices mitigates these issues by preserving data privacy and eliminating usage-based fees. However,...",
+          "summaryZh": "**核心结论**：论文提出 **AgentStop**，研究在消费级设备上运行本地 AI 代理时，如何在“已经足够好/无望改进”的情况下 **更早终止**，从而降低能耗与时延。\n\n**支撑证据**：作者围绕本地代理的执行过程构建早停信号（例如收益递减、重复动作、置信度变化等），并在端侧任务设定下对比能耗/完成率等指标，展示早停策略带来的节能效果。\n\n**我的判断**：端侧代理一旦普及，早停会成为和量化/缓存同等级别的重要工程手段；值得跟进的是它对不同任务形态（探索式 vs. 确定式）、以及对用户可接受失败率的敏感性。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "推理能力",
+            "评测"
+          ],
+          "score": 42
+        },
+        {
+          "title": "Build custom code-based evaluators in Amazon Bedrock AgentCore",
+          "titleZh": "Amazon Bedrock AgentCore：用代码自定义评估器（evaluators）",
+          "link": "https://aws.amazon.com/blogs/machine-learning/build-custom-code-based-evaluators-in-amazon-bedrock-agentcore/",
+          "publishedAt": "Mon, 18 May 2026 15:07:15 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/13/ML-207992.png",
+          "video": "",
+          "summary": "In this post, you will implement four Lambda-based custom code evaluators for a financial market-intelligence agent, register each with AgentCore, and run them in on-demand and online modes. You will also see how to combine custom code-based evaluators with built-in evaluators and how to call other AWS services for grounded fact-checking, PII detection, and real-time alerting.",
+          "summaryZh": "**核心要点**：AWS 介绍如何在 **Amazon Bedrock AgentCore** 中构建「基于代码的自定义评估器」，用于对智能体输出做更贴近业务的自动化评测。\n\n**展开说明**：相较只做简单的文本相似度或规则判断，代码评估器通常可接入业务约束（格式、字段一致性、权限、外部验证）并形成可复用的评测基建；这对把智能体接入生产流程（尤其是多步骤任务）很关键。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        },
+        {
+          "title": "Aderant transforms cloud operations with Amazon Quick",
+          "titleZh": "AWS 案例：Aderant 借助 Amazon Quick 改造云运维流程",
+          "link": "https://aws.amazon.com/blogs/machine-learning/aderant-transforms-cloud-operations-with-amazon-quick/",
+          "publishedAt": "Mon, 18 May 2026 17:26:40 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "In this post, we share how Aderant used the AI-powered capabilities of Amazon Quick to unify search across six vendor systems and automate documentation workflows, achieving 90 percent faster search times and 75 percent documentation acceleration, and how others can apply these approaches to their operations.",
+          "summaryZh": "**核心要点**：AWS 分享 Aderant 的实践案例，主题是如何用 **Amazon Quick** 改造/提效其云端运维与运营流程。\n\n**展开说明**：这类案例的可借鉴之处通常在于：选择哪些流程先自动化、如何接入现有系统、以及在上线后如何衡量效率提升与故障率变化；如果你在推进智能体/自动化运维，可把它当作流程拆解与落地路径的参考。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 24
+        },
+        {
+          "title": "Integrate Atlassian Confluence Cloud with Amazon Quick",
+          "titleZh": "AWS 指南：将 Confluence Cloud 接入 Amazon Quick（知识库/协作场景）",
+          "link": "https://aws.amazon.com/blogs/machine-learning/integrate-atlassian-confluence-cloud-with-amazon-quick/",
+          "publishedAt": "Mon, 18 May 2026 15:37:55 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/09/ML-1995139.gif",
+          "video": "",
+          "summary": "In this post, you will learn how to set up the Confluence Cloud integration with Quick. This includes creating a knowledge base for semantic search, setting up Actions to query and manage Confluence pages, and organizing resources in Quick Spaces. Quick integrates with your current enterprise technology stack, from internal knowledge repositories and corporate intranets to business-critical applications and AWS data services.",
+          "summaryZh": "**核心要点**：AWS 介绍如何把 **Atlassian Confluence Cloud** 与 **Amazon Quick** 集成，面向知识库与协作类场景打通数据与工作流。\n\n**展开说明**：对企业用户而言，把协作系统（文档/知识库）接入自动化与智能体，关键在权限继承、内容检索质量与审计；建议结合自身 Confluence 权限模型评估集成方式与风险控制。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 24
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "TurboQuant is now in Qdrant If you’re using SQ or BQ today, there may be a better option! → Simila...",
+          "titleZh": "Qdrant 引入 TurboQuant：向量量化（SQ/BQ）有了新选项",
+          "link": "https://x.com/qdrant_engine/status/2056321398193414391",
+          "publishedAt": "Mon, 18 May 2026 10:30:00 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIlejOQa0AEvvhz.jpg",
+          "video": "",
+          "summary": "TurboQuant is now in Qdrant If you’re using SQ or BQ today, there may be a better option! → Similar recall to SQ at ~2× compression → Better recall than BQ at the same storage budget Join our live technical session on May 26: • TurboQuant explained • Benchmarks + demos • When to use it in production luma.com/qdrant-turboqu… 💬 0 🔄 0 ❤️ 9 👀 308 📊 2 ⚡ Powered by xgo.ing",
+          "summaryZh": "Qdrant 宣布支持 **TurboQuant**，并指出如果你正在使用 **SQ** 或 **BQ**（向量量化方案）来降低存储/加速检索，现在可能有更好的替代选择。向量量化直接影响向量库的成本与召回质量；如果你在做大规模 RAG/检索系统，建议关注 TurboQuant 的压缩率、召回损失与在 Qdrant 中的启用门槛。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "评测",
+            "RAG"
+          ],
+          "score": 47.73493771913725
+        },
+        {
+          "title": "❓ 𝗛𝗼𝘄 𝗱𝗼 𝘆𝗼𝘂 𝗿𝗲𝗱𝘂𝗰𝗲 𝘀𝗲𝗿𝘃𝗶𝗻𝗴 𝗰𝗼𝘀𝘁𝘀 𝘄𝗶𝘁𝗵𝗼𝘂𝘁 𝗺𝗮𝗸𝗶𝗻𝗴 ...",
+          "titleZh": "Milvus 分享：在不牺牲质量的前提下降低向量检索服务成本的方法",
+          "link": "https://x.com/milvusio/status/2056393371145630076",
+          "publishedAt": "Mon, 18 May 2026 15:16:00 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-19-2056393371145630076.mp4",
+          "summary": "❓ 𝗛𝗼𝘄 𝗱𝗼 𝘆𝗼𝘂 𝗿𝗲𝗱𝘂𝗰𝗲 𝘀𝗲𝗿𝘃𝗶𝗻𝗴 𝗰𝗼𝘀𝘁𝘀 𝘄𝗶𝘁𝗵𝗼𝘂𝘁 𝗺𝗮𝗸𝗶𝗻𝗴 𝘀𝗲𝗮𝗿𝗰𝗵 𝗾𝘂𝗮𝗹𝗶𝘁𝘆 𝗰𝗼𝗹𝗹𝗮𝗽𝘀𝗲? Jiang Chen, our Head of Developer Relations at Zilliz, unpacked this practical vector database question at last month’s Unstructured Data Meetup London. He starts with the cost issue: vector search is expensive because serving the vector index consumes a lot of 𝗥𝗔𝗠 and NVME 𝗦𝗦𝗗. RaBitQ tackles this by compressing float32 vectors down to 1 bit per dimension, but the key reason it can achieve low quality loss is 𝗿𝗮𝗻𝗱𝗼𝗺 𝗿𝗼𝘁𝗮𝘁𝗶𝗼𝗻 𝗯𝗲𝗳𝗼𝗿𝗲 𝗾𝘂𝗮𝗻𝘁𝗶𝘇𝗮𝘁𝗶𝗼𝗻, making it encode more information than youtu.be/3mDFw933wdE?ut… ion algorithm. 👇 Watch this two-minute video to learn more. 🎬 Full video: https://t.co/rEabJnjjhJ --- #VectorSearch i #RaBitQ i #VectorDatabase r database and vector lakebase updates built for production AI....",
+          "summaryZh": "Milvus 团队发布了一条面向工程实践的讨论，主题是如何在 **不明显降低效果** 的前提下降低向量检索/服务成本。该类内容通常会涉及向量维度、量化/压缩、索引参数、冷热分层与并发/批处理策略等可调旋钮；对维护在线检索成本的人来说，值得对照自身负载与召回指标做系统性调参。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开发者工具",
+            "视频"
+          ],
+          "score": 47.5041739089473
+        },
+        {
+          "title": "ggml-org/llama.cpp",
+          "titleZh": "llama.cpp 登上 GitHub Trending：本地/边缘侧大模型推理的核心项目之一",
+          "link": "https://github.com/ggml-org/llama.cpp",
+          "publishedAt": "2026-05-18T18:33:22.894Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star ggml-org / llama.cpp LLM inference in C/C++",
+          "summaryZh": "**llama.cpp** 作为本地/边缘侧推理生态的关键开源项目，再次进入 GitHub Trending。它的价值在于用更轻量的方式在 CPU/GPU 上运行多种大模型，并带动了大量工具链与部署方案；如果你在做端侧推理、模型量化或离线应用，这是值得长期跟进的基础设施项目。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "推理部署"
+          ],
+          "score": 29
+        },
+        {
+          "title": "millionco/react-doctor",
+          "titleZh": "react-doctor 登上 GitHub Trending：面向 React 性能与问题诊断的工具",
+          "link": "https://github.com/millionco/react-doctor",
+          "publishedAt": "2026-05-18T18:33:22.894Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star millionco / react-doctor Your agent writes bad React. This catches it",
+          "summaryZh": "**react-doctor** 在 GitHub Trending 上升，提供对 React 应用的诊断/可视化能力，用于定位渲染与性能瓶颈。它不一定是 AI 项目，但对做 AI 应用前端的人同样实用：当界面与推理/流式输出耦合变复杂后，性能诊断工具能明显降低排查成本。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 24
+        },
+        {
+          "title": "Take your local GitHub sessions anywhere",
+          "titleZh": "GitHub Blog：把本地 GitHub 会话“带着走”（面向开发协作体验）",
+          "link": "https://github.blog/news-insights/product-news/take-your-local-github-sessions-anywhere/",
+          "publishedAt": "Mon, 18 May 2026 16:54:53 +0000",
+          "source": "The GitHub Blog",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source",
+          "trust": "expert",
+          "image": "https://github.blog/wp-content/uploads/2024/06/AI-DarkMode-4.png?resize=800%2C425",
+          "video": "",
+          "summary": "Kick off work in VS Code or the CLI, finish it from your phone. Remote control for GitHub Copilot sessions is now generally available on github.com and GitHub Mobile. The post Take your local GitHub sessions anywhere appeared first on The GitHub Blog .",
+          "summaryZh": "GitHub 在官方博客介绍了一项面向开发协作体验的更新：支持把「本地的 GitHub 会话」延展到更多场景中使用，减少在不同环境间切换时的上下文丢失。具体能力仍需结合原文确认支持范围与限制条件；但总体方向是把身份、会话与开发流更紧密地打通。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "开源"
+          ],
+          "score": 23
+        },
+        {
+          "title": "yikart/AiToEarn",
+          "titleZh": "AiToEarn 登上 GitHub Trending：围绕 AI 变现/工具集合的仓库",
+          "link": "https://github.com/yikart/AiToEarn",
+          "publishedAt": "2026-05-18T18:33:22.894Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star yikart / AiToEarn Let's use AI to Earn!",
+          "summaryZh": "**AiToEarn** 登上 GitHub Trending（周榜），从标题看更偏「AI 变现/工具与资源集合」类项目。此类仓库往往内容混杂，适合作为线索库快速浏览，但不建议不加甄别地照搬；可重点关注其中是否包含可复用的开源工具、可验证的案例与明确许可证。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 21
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Introducing Devin Auto-Triage: Your AI first-responder with long-term memory. Devin can monitor inc...",
+          "titleZh": "Cognition 推出 Devin Auto-Triage：带长期记忆的“事故首响应”",
+          "link": "https://x.com/cognition/status/2056396941181727210",
+          "publishedAt": "Mon, 18 May 2026 15:30:11 GMT",
+          "source": "Cognition(@cognition_labs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-19-2056396941181727210.mp4",
+          "summary": "Introducing Devin Auto-Triage: Your AI first-responder with long-term memory. Devin can monitor incoming bugs, alerts, and incidents, investigate them, and come back with context, next steps, or a PR. Your browser does not support the video tag. 🔗 View on Twitter 💬 9 🔄 23 ❤️ 192 👀 31711 📊 47 ⚡ Powered by xgo.ing",
+          "summaryZh": "Cognition 发布 **Devin Auto-Triage**，把 Devin 定位为「带长期记忆的第一响应者」：可持续监控事故/告警信号，自动汇总上下文并进行分流与初步处置。它值得关注的点不在“能不能写代码”，而在是否能在 **事件响应** 里稳定做：信号去噪、关联日志/变更、提出可执行的下一步动作，并把经验沉淀进记忆系统。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 65.65448716866209
+        },
+        {
+          "title": "Together with SpaceXAI, we’re training a significantly larger model from scratch, using 10x more tot...",
+          "titleZh": "Cursor 称将与 SpaceXAI 训练更大模型：总 token 规模提升 10 倍",
+          "link": "https://x.com/cursor_ai/status/2056415419536461836",
+          "publishedAt": "Mon, 18 May 2026 16:43:37 GMT",
+          "source": "Cursor(@cursor_ai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Together with SpaceXAI, we’re training a significantly larger model from scratch, using 10x more total compute. With Colossus 2’s million H100-equivalents and our combined data and training techniques, we expect this to be a major leap in model capability. 💬 14 🔄 26 ❤️ 739 👀 49673 📊 96 ⚡ Powered by xgo.ing",
+          "summaryZh": "Cursor 表示将与 SpaceXAI 合作，从零训练一个 **显著更大的模型**，并称训练将使用 **10 倍**的总 token 规模。对 Cursor 用户来说，这可能预示其在自研/联合训练模型上的投入升级；需要继续验证的是：该模型会以何种形态落地（IDE 内推理、API、或特定功能增强），以及成本、延迟与可控性会如何变化。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 60.55993936576239
+        },
+        {
+          "title": "🪩",
+          "titleZh": "v0 预告新动效/展示内容（原帖信息量较少）",
+          "link": "https://x.com/v0/status/2056156060981788780",
+          "publishedAt": "Sun, 17 May 2026 23:33:01 GMT",
+          "source": "v0(@v0)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIju82zWcAAms7J.jpg",
+          "video": "",
+          "summary": "🪩 💬 42 🔄 29 ❤️ 1353 👀 36880 📊 163 ⚡ Powered by xgo.ing",
+          "summaryZh": "v0 发布了一条以表情符号为主的预告式内容，未给出明确的功能说明或链接细节。当前更像是氛围预热/短预告，信息密度偏低；建议等待后续补充（例如功能清单、可用范围与示例）再判断是否属于实质更新。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59.964389654569445
+        },
+        {
+          "title": "Runway Characters can now take actions, not just speak. Tell the real-time video agent what you want...",
+          "titleZh": "Runway Characters 支持“行动指令”：不只说话，还能按指令做动作",
+          "link": "https://x.com/runwayml/status/2056375781765386350",
+          "publishedAt": "Mon, 18 May 2026 14:06:06 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-19-2056375781765386350.mp4",
+          "summary": "Runway Characters can now take actions, not just speak. Tell the real-time video agent what you want, and they can call tools for you. Learn more about how to integrate tool calling into your product at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 11 🔄 11 ❤️ 90 👀 10584 📊 27 ⚡ Powered by xgo.ing",
+          "summaryZh": "Runway 宣布 **Characters** 进入更“可控动作”的阶段：角色不仅能说话，还可以执行你给出的 **行动指令**（actions）。官方将其描述为实时视频智能体的一部分能力：你可以告诉角色要做什么，它会在生成的视频里体现动作与行为变化。对内容生产与互动体验来说，这意味着从「文本驱动口播」走向「意图驱动表演」，但仍需关注动作可控性、稳定性与安全边界。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 58.1107456009604
+        },
+        {
+          "title": "Hermes 目前值得配置的国内外模型： 1. 订阅ChatGPT plus或以上，用 OpenAI Codex 的Auth 配置 gpt-5.5 2. xAI如果买了Premium，可以配置 g...",
+          "titleZh": "向阳乔木整理：Hermes 当前可配置的国内外模型选择（含 Codex/gpt-5.5 等）",
+          "link": "https://x.com/vista8/status/2056170241147977741",
+          "publishedAt": "Mon, 18 May 2026 00:29:21 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HIj77PIa4AAHitj.jpg",
+          "video": "",
+          "summary": "Hermes 目前值得配置的国内外模型： 1. 订阅ChatGPT plus或以上，用 OpenAI Codex 的Auth 配置 gpt-5.5 2. xAI如果买了Premium，可以配置 grok-4.3 3. 谷歌 Gemini 订阅或免费账号，配置 gemini-3.1-pro-preview 和 gemini-3-flash-preview 4. DeepSeek 官网 API 配置 deepseek-v4-pro 和 deepseek-v4-flash 5. 智谱官网 API 配置 glm-5.1 和 glm-5-turbo 6. Kimi 官网 API 或开发套餐配置 kimi-k2.6 7. 小米官网 API或开发套餐，配置 mimo-v2.5-pro 配置后，Hermes可跟机器人对话切换模型，指令如下： /model gpt-5.5 --provider openai-codex /model grok-4.3 --provider xai-oauth /model gemini-3.1-pro-preview --provider google-gemini-cli /model kimi-k2...",
+          "summaryZh": "向阳乔木分享了一份面向 **Hermes** 配置的模型清单，覆盖国内外多种可选模型，并给出订阅与鉴权方式示例（例如通过 **OpenAI Codex Auth** 配置相关模型）。这类「一线使用者的配置清单」对新手快速对齐可用选项有帮助，但仍建议读者结合自己的预算、延迟、可用区与合规要求做二次核对，避免把个人配置经验当作通用最佳实践。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "API"
+          ],
+          "score": 56.05952496544037
+        },
+        {
+          "title": "World Cup countdown is on ⚽ Put on your team jersey and try the new effect on Kling AI, all in one c...",
+          "titleZh": "Kling AI 上线“世界杯倒计时”主题特效（偏活动/玩法向）",
+          "link": "https://x.com/Kling_ai/status/2056248849011011670",
+          "publishedAt": "Mon, 18 May 2026 05:41:43 GMT",
+          "source": "Kling AI(@Kling_ai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-19-2056248849011011670.mp4",
+          "summary": "World Cup countdown is on ⚽ Put on your team jersey and try the new effect on Kling AI, all in one click! Your browser does not support the video tag. 🔗 View on Twitter 💬 16 🔄 8 ❤️ 107 👀 10733 📊 29 ⚡ Powered by xgo.ing",
+          "summaryZh": "Kling AI 为世界杯倒计时推出了新的主题特效，主打在应用内一键体验与分享。该条更偏活动/玩法更新，未披露生成质量、模型能力或 API 侧变化；如果你关心的是视频生成能力本身，建议关注后续是否有与模型版本、控制参数或推理成本相关的更新。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 55.31877134863125
+        },
+        {
+          "title": "Avatar V now takes direction Custom Motion let you cue specific motions, expressions and gazes → A...",
+          "titleZh": "HeyGen Avatar V 新增 Custom Motion：可指挥动作/表情/视线",
+          "link": "https://x.com/HeyGen/status/2056416387757990032",
+          "publishedAt": "Mon, 18 May 2026 16:47:27 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-19-2056416387757990032.mp4",
+          "summary": "Avatar V now takes direction Custom Motion let you cue specific motions, expressions and gazes → A lean-in before a key point → A smile for emphasis → A thumbs up at the end Whatever the moment calls for, just type it Your browser does not support the video tag. 🔗 View on Twitter 💬 13 🔄 13 ❤️ 78 👀 5756 📊 26 ⚡ Powered by xgo.ing",
+          "summaryZh": "HeyGen 宣布 **Avatar V** 支持 **Custom Motion**，允许用户为虚拟人明确指定动作、表情与视线等方向（direction）。这类“动作可控”能力会直接影响虚拟人内容的可用性：从固定模板走向更细粒度的镜头调度与情绪表达；建议关注其动作库覆盖范围、可编辑粒度、以及与口型/语音同步的稳定性。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 54.66918681637918
+        },
+        {
+          "title": "POV: turning my friend into a video game loading screen ⌛️",
+          "titleZh": "Kling AI 展示：把朋友做成“游戏加载界面”风格短视频（示例向）",
+          "link": "https://x.com/Kling_ai/status/2056389354378154354",
+          "publishedAt": "Mon, 18 May 2026 15:00:02 GMT",
+          "source": "Kling AI(@Kling_ai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-19-2056389354378154354.mp4",
+          "summary": "POV: turning my friend into a video game loading screen ⌛️ Your browser does not support the video tag. 🔗 View on Twitter 💬 12 🔄 8 ❤️ 98 👀 4693 📊 22 ⚡ Powered by xgo.ing",
+          "summaryZh": "Kling AI 展示了一个示例效果：把真实人物转成「视频游戏加载界面」风格的短视频，并强调创作过程偏轻量。它更像能力展示/案例帖，能帮助你理解 Kling 在风格化与场景模板上的方向，但仍缺少可复现的参数与工作流细节；如果你计划用于生产，建议进一步验证一致性与版权/肖像合规问题。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 54.51228377746955
+        },
+        {
+          "title": "OpenShell v0.0.43 🛠️ bidirectional TTY streaming 🔒 OIDC auth in the TUI 🧩 HTTPS and mTLS decoupl...",
+          "titleZh": "OpenShell v0.0.43 发布：新增双向 TTY 流、TUI 的 OIDC 登录等",
+          "link": "https://x.com/NVIDIAAI/status/2056412084947366030",
+          "publishedAt": "Mon, 18 May 2026 16:30:21 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "OpenShell v0.0.43 🛠️ bidirectional TTY streaming 🔒 OIDC auth in the TUI 🧩 HTTPS and mTLS decoupled 📦 TOML gateway config (RFC 0003) 🖥️ sandboxes boot from ext4 disks 🛡️ DNS removed from sandbox mapper to block exfiltration Authentication, streaming, and sandbox isolation improveme github.com/NVIDIA/OpenShe… Z79Cwi 💬 5 🔄 8 ❤️ 65 👀 4284 📊 16 ⚡ Powered by xgo.ing",
+          "summaryZh": "NVIDIA AI 宣布 **OpenShell v0.0.43** 更新，亮点包括：**双向 TTY 流式传输**（便于在终端里更稳定地跑交互式任务）、在 TUI 中加入 **OIDC 认证**，以及对 HTTPS/mTLS 的能力拆分与调整。对需要把智能体/工具链接入企业身份体系、或在终端环境里跑长任务的团队来说，这类基础设施更新会直接影响可运维性与接入成本。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开源"
+          ],
+          "score": 53.41273825081859
+        },
+        {
+          "title": "You don't have to level up to contribute to open source. You level up by contributing to open source...",
+          "titleZh": "GitHub：通过贡献开源来成长（观点帖）",
+          "link": "https://x.com/github/status/2056367930477044188",
+          "publishedAt": "Mon, 18 May 2026 13:34:54 GMT",
+          "source": "GitHub(@github)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-19-2056367930477044188.mp4",
+          "summary": "You don't have to level up to contribute to open source. You level up by contributing to open source. Not sure how to get started? Check out our latest GitHub for Beginners episode. github.blog/developer-skil… Your browser does not support the video tag. 🔗 View on Twitter 💬 22 🔄 8 ❤️ 48 👀 14933 📊 24 ⚡ Powered by xgo.ing",
+          "summaryZh": "GitHub 发布观点：与其等“等级提升”再参与开源，不如通过贡献开源在实战中提升能力。它不是产品更新，但提醒了一个长期有效的路径：围绕真实问题提交 issue/PR、参与评审与维护，会比被动学习更快积累工程经验；对希望进入 AI/开源生态的人尤其适用。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "开发者工具",
+            "视频"
+          ],
+          "score": 53.292261395498656
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "世界蠢得不可思议，我也是 | 汪滔 | 大疆DJI | 少年时代 | 求学道路",
+          "titleZh": "世界蠢得不可思议，我也是 | 汪滔 | 大疆DJI | 少年时代 | 求学道路",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69f9bd11f93890ea81424c0f",
+          "publishedAt": "2026-05-13T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "世界蠢得不可思议，我也是 | 汪滔 | 大疆DJI | 少年时代 | 求学道路",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「世界蠢得不可思议，我也是 | 汪滔 | 大疆DJI | 少年时代 | 求学道路」。2026年4月，《晚点LatePost》发布了一篇与大疆创新的创始人兼董事长汪滔长达19小时访谈的深度稿件，在今天这期内容里，我们会来还原这场访谈的核心细节，带你看懂大疆如何从一个飞控爱好者的小团队，成长为定义全球无人机行业的巨头，看懂汪滔如何从一个年少轻狂、信奉产品至上的技术天才，蜕变为一个懂得组织、敬畏管理、追求真理的成熟企业家。更看懂这家公司在野蛮生长、礼崩乐坏、组织重构以及精神觉醒这四个阶段里，踩过的坑、交的学费和总结的规律。原视频来自：\n**简介要点**：\n- 更看懂这家公司在野蛮生长、礼崩乐坏、组织重构以及精神觉醒这四个阶段里，踩过的坑、交的学费和总结的规律。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "当软件容易被创作，新时代的产品长什么样？ | 对谈 Albert",
+          "titleZh": "当软件容易被创作，新时代的产品长什么样？ | 对谈 Albert",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a059d321b7bd50295257a5e",
+          "publishedAt": "2026-05-16T13:30:00.000Z",
+          "source": "42章经",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FiZZKf2-OlC5ZFzM8VLLmtz4P0ie.png",
+          "video": "",
+          "summary": "当软件容易被创作，新时代的产品长什么样？ | 对谈 Albert",
+          "summaryZh": "**讲了什么**：这一期来自 **42章经**，主题是「当软件容易被创作，新时代的产品长什么样？ | 对谈 Albert」。我们又又又请来了 Albert（笑）。前不久他刚刚来过，总结了一下他 AI 创业的阶段性思考（回顾：优化胜率而非赔率，把一件事做到理论上该有的样子｜对谈连续创业者 Albert）。之所以这么快又请他来，是因为过去两个月里，他们团队鼓捣了几十个新产品，但都没达到 Albert 心中的发布标准——直到这次的 merging.live。这个产品核心想做的事，是为新的 maker 群体提供「回响」。做这个产品的过程中，Albert 思考了很多问题。在这期节目里，我们就一一讨论了一下，包括： 1. Opus 4.6 之后，公司内部做几十个项目的积累； 2. 人人都能做自己产品的未来真的会到来吗？对软件行业会有什么影响？\n**简介要点**：\n- 前不久他刚刚来过，总结了一下他 AI 创业的阶段性思考（回顾：优化胜率而非赔率，把一件事做到理论上该有的样子｜对谈连续创业者 Albert）。\n- 之所以这么快又请他来，是因为过去两个月里，他们团队鼓捣了几十个新产品，但都没达到 Albert 心中的发布标准——直到这次的 merging.live。\n- 这个产品核心想做的事，是为新的 maker 群体提供「回响」。\n- 做这个产品的过程中，Albert 思考了很多问题。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "summaryBullets": [
+    "Cursor 发布 **Composer 2.5**，强调更适合长任务与复杂指令，并在接下来一周把该模型的包含用量 **翻倍**；开发者侧的「更长上下文/更稳执行」信号值得跟进。",
+    "**Qwen3.7 预览版**登陆 Arena（文本/视觉双榜），官方披露 Qwen3.7 Max/Plus Preview 的榜单名次与分项排名，表明其在通用能力与编码类任务上继续推进。",
+    "Cognition 推出 **Devin Auto-Triage**：让 Devin 作为「带长期记忆的首席值班员」监控告警并分流事故，说明 AI 工程化开始向 **持续运维/事件响应**渗透。",
+    "两篇新论文给出代理落地的两个方向：**SaaS-Bench** 用真实 SaaS 任务评测计算机使用代理；**AgentStop** 研究在端侧设备上如何更早终止代理以节能。"
+  ]
+}
