@@ -3,51 +3,47 @@
   "generatedAt": "2026-05-17T18:34:17.748Z",
   "title": "AI 日报 - 2026-05-18",
   "summaryBullets": [
-    "多篇论文集中讨论 **多模态长期记忆**：从 **MEMLENS**（多轮多会话对话记忆基准）到 **MemEye**（更强调视觉证据粒度与状态演化推理），都在暴露“能记住文字但丢视觉细节”的短板。",
-    "训练与推理能力方向出现两条思路：一条是用 **SFT+两阶段 RL+测试时扩展** 把推理骨干推到 **奥赛级证明/解题**；另一条是 **无训练的模型权重进化合并**，尝试用“重组已有 checkpoint 能力”换取推理增益。",
-    "开源侧继续围绕 **智能体能力工程化**：语音智能体平台、面向 CLI 的“Agent-Native”形态、以及把 **持久化记忆/评测** 做成可复用组件的项目在同步增长。",
-    "延伸阅读聚焦两类一线经验：一类是 **vibe coding 项目治理** 的真实踩坑与修复；另一类是从创业者视角讨论 **AI 技术与商业/产品节奏** 的长期机会。"
+    "今天的产品信号集中在 **Codex 移动端入口**：ChatGPT App 已经能直接发起开发任务，说明 AI 编程代理正在从桌面 IDE 扩展到手机、多设备接力和后台长任务场景。",
+    "研究前线继续关注 **多模态智能体记忆** 与 **推理能力扩展**：MemEye 强调视觉证据粒度，Darwin Family 探索无训练的权重进化合并，奥赛推理论文则展示统一扩展配方在高难度数学题上的潜力。",
+    "开源侧仍围绕 **智能体工程化** 展开：语音智能体平台、Agent-Native CLI、OSINT 平台、技能注册表和生产化教程都指向更可复用的 Agent 基础设施。",
+    "社媒观察里，Codex 多设备协作、从工作日志提炼 skills、以及国内外模型接入经验，反映出开发者开始把 AI 编码从“单次生成”推进到 **持续工作流管理**。"
   ],
   "stats": {
     "sources": 133,
     "fetched": 89,
     "emailCandidates": 0,
-    "selected": 26,
+    "selected": 12,
     "failures": 1
   },
   "sections": [
     {
       "id": "product_updates",
       "title": "产品快讯",
-      "items": []
+      "items": [
+        {
+          "title": "you can just build things from your phone, with Codex in the ChatGPT app",
+          "titleZh": "Codex 进入 ChatGPT App：移动端也能发起开发任务",
+          "link": "https://x.com/gdb/status/2055882172884763012",
+          "publishedAt": "Sun, 17 May 2026 05:24:41 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "you can just build things from your phone, with Codex in the ChatGPT app 💬 272 🔄 61 ❤️ 1641 👀 92772 📊 392 ⚡ Powered by xgo.ing",
+          "summaryZh": "Greg Brockman 展示了在 **ChatGPT App** 里直接使用 **Codex** 的移动端体验：用户不必坐在电脑前，也可以从手机发起开发任务、查看执行进度，并在碎片时间继续推进。它不是单纯的“手机看代码”，而是把 **AI 编程代理** 的入口从桌面扩展到随身设备，和此前的长任务后台执行、多设备接力形成同一条产品线索。对重度使用 Codex 的开发者来说，这会改变任务派发方式：一些小修、小验证、排队执行的工作，可以先从手机交给代理跑起来。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 49
+        }
+      ]
     },
     {
       "id": "research_frontier",
       "title": "研究前线",
       "items": [
-        {
-          "title": "MemLens: Benchmarking Multimodal Long-Term Memory in Large Vision-Language Models",
-          "titleZh": "MemLens：评测大模型“多模态长期记忆”的系统基准",
-          "link": "https://huggingface.co/papers/2605.14906",
-          "publishedAt": "2026-05-17T18:34:17.748Z",
-          "source": "Hugging Face Daily Papers",
-          "sourceType": "research",
-          "section": "research_frontier",
-          "channel": "paper_feed",
-          "trust": "rank",
-          "image": "",
-          "video": "",
-          "summary": "Hugging Face Papers 2026-05-18 排名第 4 的论文候选。",
-          "summaryZh": "**核心结论**：论文提出 **MEMLENS**，用来系统对比两类路线在“长、多模态、多会话”场景下的记忆能力：一类是 **长上下文 LVLM**，另一类是 **带外部记忆的多模态智能体**。它的核心关注点是：问题是否真的需要依赖 **视觉证据**，以及随着对话变长系统会在哪些能力上掉队。\n\n**支撑证据**：MEMLENS 覆盖 **789 道题**、**5 类记忆能力**（信息抽取/多会话推理/时间推理/知识更新/拒答），并在 **32K–256K tokens** 的标准长度下评测。作者做了 **图片消融**：在 **80.4%** 需要图片证据的问题上，移除证据图片会让两款前沿 LVLM 的准确率跌到 **2% 以下**，证明“只看文字线索”无法通过。对 **27 个 LVLM** 与 **7 个记忆增强智能体** 的对比显示：长上下文模型在短上下文时依赖直接视觉对齐表现更好，但会随长度增长显著退化；记忆智能体更“长度稳定”，但在压缩存储时容易丢失 **细粒度视觉信息**。多数系统在 **多会话推理** 上被卡在 **30% 以下**。\n\n**我的判断**：这类基准能把“是否真的在用图”讲清楚，适合用来筛选 **多模态 RAG/记忆模块** 的真实增益。值得跟进的是它提出的“混合架构”方向：把 **长上下文注意力** 与 **结构化多模态检索** 结合，避免只靠其中一条路线带来的系统性短板。",
-          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
-          "tags": [
-            "模型",
-            "多模态",
-            "评测",
-            "论文"
-          ],
-          "score": 40
-        },
         {
           "title": "MemEye: A Visual-Centric Evaluation Framework for Multimodal Agent Memory",
           "titleZh": "MemEye：以“视觉证据”为核心的多模态智能体记忆评测框架",
@@ -119,27 +115,6 @@
       "id": "open_source_top",
       "title": "开源项目",
       "items": [
-        {
-          "title": "又一历史时刻，突破1w star了🎉",
-          "titleZh": "Easy-Vibe：面向 Vibe Coding 的交互式学习项目关注数破万",
-          "link": "https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247722807&idx=1&sn=519b984044e275d952fcb91e5d0dc4d7",
-          "publishedAt": "Sun, 17 May 2026 22:36:00 +0800",
-          "source": "Datawhale",
-          "sourceType": "open_source",
-          "section": "open_source_top",
-          "channel": "open_source_rank",
-          "trust": "expert",
-          "image": "https://wechat2rss.bestblogs.dev/img-proxy/?k=de117f3b&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_png%2FzW6S9vt0cSicxg3jgQlFX7rnRMlnnbrajaibcSibickLMYpuVX5xjLH40c3qxAibbEoGibIB9ajFYUKHV1OqhfqCQrTRvicDZBNmJPBVvD8yDIfk9U%2F0%3Fwx_fmt%3Dpng",
-          "video": "",
-          "summary": "首次突破万星🌟，Vibe Coding时代真的来了。 2026年1月1日，《Easy-Vibe》正式发布！ 2026年2月起，《Easy-Vibe》上线 Android/iOS 开发、交互式可视化教程、模拟编码环境等核心模块。 2026年3月2日，登上Github Trending 榜第一。 2026年3月25日，《Easy-Vibe》英文文档全面更新，多语言支持扩展到 9 种语言（中、英、日、西、法、韩、阿、越、德）。 2026年5月9日-5月12日，霸榜四天 Github Trending 榜第一。 2026年5月12日，《Easy-Vibe》GitHub 突破 1w star。",
-          "summaryZh": "《**Easy-Vibe**》是一个面向 **vibe coding** 的交互式学习与实践项目，近期在 GitHub 的关注度突破 **1 万**。它在 2026-02 起陆续上线了 **Android/iOS 开发**、**交互式可视化教程**、以及 **模拟编码环境** 等模块，并在 2026-03 与 2026-05 多次进入 GitHub Trending 前列。\n\n这类“把 vibe coding 拆成可练习模块”的开源项目值得持续跟踪：一方面它反映了开发者对 **AI 编程学习路径** 的真实需求；另一方面也能作为团队内部落地时的素材库（教程组织方式、练习题形态、工程化脚手架）。",
-          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
-          "tags": [
-            "开源",
-            "开发者工具"
-          ],
-          "score": 27
-        },
         {
           "title": "dograh-hq/dograh",
           "titleZh": "Dograh：开源语音智能体平台（Voice Agent）",
@@ -241,27 +216,6 @@
             "智能体"
           ],
           "score": 30
-        },
-        {
-          "title": "rohitg00/agentmemory",
-          "titleZh": "agentmemory：面向 AI 编码智能体的持久化记忆（含真实基准）",
-          "link": "https://github.com/rohitg00/agentmemory",
-          "publishedAt": "2026-05-17T18:34:17.748Z",
-          "source": "GitHub Trending Weekly",
-          "sourceType": "open_source",
-          "section": "open_source_top",
-          "channel": "open_source_rank",
-          "trust": "rank",
-          "image": "",
-          "video": "",
-          "summary": "Sponsor Star rohitg00 / agentmemory #1 Persistent memory for AI coding agents based on real-world benchmarks",
-          "summaryZh": "一个为 **AI 编码智能体** 设计的持久化记忆项目，强调用 **真实世界基准** 来验证“记忆”是否带来可量化收益。对团队落地而言，记忆层经常是最容易“看起来有用、实际上引入噪音”的部分；这种带基准的实现更适合拿来做 A/B 评估与回归测试。",
-          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
-          "tags": [
-            "智能体",
-            "评测"
-          ],
-          "score": 26
         }
       ]
     },
@@ -327,68 +281,13 @@
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [],
           "score": 49.75696045007432
-        },
-        {
-          "title": "you can just build things from your phone, with Codex in the ChatGPT app",
-          "titleZh": "在 ChatGPT App 里用 Codex：移动端“随时发起开发任务”的体验信号",
-          "link": "https://x.com/gdb/status/2055882172884763012",
-          "publishedAt": "Sun, 17 May 2026 05:24:41 GMT",
-          "source": "Greg Brockman(@gdb)",
-          "sourceType": "social",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "expert",
-          "image": "",
-          "video": "",
-          "summary": "you can just build things from your phone, with Codex in the ChatGPT app 💬 272 🔄 61 ❤️ 1641 👀 92772 📊 392 ⚡ Powered by xgo.ing",
-          "summaryZh": "一条关于 **移动端** 的使用信号：作者表示可以在 **ChatGPT App** 里直接用 **Codex** 在手机上“动手做东西”。对团队而言，这意味着编程助手的入口可能从桌面 IDE 延伸到更碎片化的场景（随时发起任务、查看执行进度、做小范围修改），也会进一步放大“多端协同/长任务后台执行”的需求。",
-          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
-          "tags": [],
-          "score": 49
         }
       ]
     },
     {
       "id": "extended_reading",
       "title": "延伸阅读",
-      "items": [
-        {
-          "title": "管 Vibe Coding 项目，就像管公共厕所",
-          "titleZh": "管 Vibe Coding 项目，就像管公共厕所",
-          "link": "https://www.xiaoyuzhoufm.com/episode/69fc8a84c417dfd2311e4a4c",
-          "publishedAt": "2026-05-07T12:25:38.000Z",
-          "source": "AI炼金术",
-          "sourceType": "podcast",
-          "section": "extended_reading",
-          "channel": "podcast",
-          "trust": "expert",
-          "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9mNTFhLWF1ZGlvZnJlZWhpZ2hxcHMvQjkvNzAvR01Db09TSUh2N0JGQUFWZ1B3SDNSN2VoLmpwZWc=.jpeg",
-          "video": "",
-          "summary": "管 Vibe Coding 项目，就像管公共厕所",
-          "summaryZh": "**讲了什么**：这一期来自 **AI炼金术**，主题是「管 Vibe Coding 项目，就像管公共厕所」。徐文浩说，管一个 vibe coding 项目，跟管一个公共厕所差不多。以前三五年才堆得出来的“屎山”，现在一个月就堆完了。但产品才刚跑没多久，还不能放弃，还想继续高速迭代——这就是这一期想聊的“治理深水区”。这一期都是徐文浩在自己公司里趟出来的实操，不是网上抄的二手梳理。如果你也在被 vibe coding 的烂摊子困扰、或者你正在搭一个 AI Agent 编排系统、或者你的老板最近问过你“AI 都用上了为什么没提效”——这一期值得听完。亮点 屎山一个月就堆完了 徐文浩说，以前三五年才堆得起来的屎山，现在一个月就堆完。但产品才刚跑没多久，你还想继续高速迭代——管一个 vibe coding 项目的难度，跟管一个公共厕所差不多。\n**简介要点**：\n- 但产品才刚跑没多久，还不能放弃，还想继续高速迭代——这就是这一期想聊的“治理深水区”。\n- 如果你也在被 vibe coding 的烂摊子困扰、或者你正在搭一个 AI Agent 编排系统、或者你的老板最近问过你“AI 都用上了为什么没提效”——这一期值得听完。\n- 但产品才刚跑没多久，你还想继续高速迭代——管一个 vibe coding 项目的难度，跟管一个公共厕所差不多。\n- 摩擦消失了，但摩擦本来在打磨产品 以前写代码有很多层摩擦，看似拖慢交付，其实像水流冲刷石头一样，把棱角打磨成了鹅卵石。",
-          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
-          "tags": [],
-          "score": null
-        },
-        {
-          "title": "李想×罗永浩！李想的理想：通过 AI 技术，让普通人也过上富豪的生活",
-          "titleZh": "李想×罗永浩！李想的理想：通过 AI 技术，让普通人也过上富豪的生活",
-          "link": "https://www.xiaoyuzhoufm.com/episode/6a037114e1eb34a939471baf",
-          "publishedAt": "2026-05-13T04:00:00.000Z",
-          "source": "罗永浩的十字路口",
-          "sourceType": "podcast",
-          "section": "extended_reading",
-          "channel": "podcast",
-          "trust": "expert",
-          "image": "https://image.xyzcdn.net/FvR7Od3_I3OQq0ac_8xMPc4zqdOt.png",
-          "video": "",
-          "summary": "李想×罗永浩！李想的理想：通过 AI 技术，让普通人也过上富豪的生活",
-          "summaryZh": "**讲了什么**：这一期来自 **罗永浩的十字路口**，主题是「李想×罗永浩！李想的理想：通过 AI 技术，让普通人也过上富豪的生活」。《十字路口》播客节目简介 本节⽬是⼀档由罗永浩主持的深度播客类节⽬，每集长达三到五个小时。我们与时代浪潮中的⼈物展开对话，聚焦于科技与⼈⽂领域，讲述个体命运故事，探讨时代发展趋势。本期嘉宾：李想 今天请到的嘉宾是理想汽车的创始人——李想，我们“十字路口”开播的第一期嘉宾就是他。时隔两百多天，他完成了汽车公司转型走向 AI 和具身智能公司的阶段性工作，并带来了全新的智能产品：理想新一代的旗舰 SUV —— L9 Livis。L9 Livis 配备了理想自研的马赫 M100 芯片，还有“全球首个完全体全线控底盘”，以及 800V 主动式悬架系统。\n**简介要点**：\n- 时隔两百多天，他完成了汽车公司转型走向 AI 和具身智能公司的阶段性工作，并带来了全新的智能产品：理想新一代的旗舰 SUV —— L9 Livis。\n- 前者提供了目前量产的智能电动车当中最强的算力，算力达到了惊人的 2560 TOPS，后两者在五十万元左右的档位上，提供了百万甚至数百万元的豪车上才能享受的驾乘体验。\n- 《罗永浩的十字路口》第二十七期，我们和李想聊聊他的新旗舰 SUV，聊聊他逐渐成型的 AI + 具身智能公司，也聊聊他事业上的终极理想。\n- 00:01:48 学AI是当下最重要的 00:17:31 聊聊具身智能 00:31:46 无人驾驶会影响车的销量吗？",
-          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
-          "tags": [],
-          "score": null
-        }
-      ]
+      "items": []
     }
   ],
   "failures": [

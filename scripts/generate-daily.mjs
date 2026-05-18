@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import { execFile } from "node:child_process";
 import path from "node:path";
 import { promisify } from "node:util";
@@ -26,6 +26,7 @@ const SECTION_CONFIG = [
 ];
 
 const LOOKBACK_HOURS = 24;
+const RECENT_DEDUPE_DAYS = 7;
 
 const KEYWORDS = [
   ["release", "产品发布", 4],
@@ -948,6 +949,7 @@ function normalizedSection(item) {
   if (isPaperFeedItem(item)) return "research_frontier";
   if (item.section === "extended_reading" || item.channel === "podcast") return "extended_reading";
   if (isOpenSourceItem(item)) return "open_source_top";
+  if (isProductUpdate(item)) return "product_updates";
   if (item.section === "product_updates") return isProductUpdate(item) ? "product_updates" : "social_shares";
   return item.section;
 }
@@ -973,20 +975,26 @@ function isOpenSourceItem(item) {
   return false;
 }
 
+function isTrustedProductSignalSource(item) {
+  if (item.channel !== "social") return false;
+  if (item.trust === "official") return true;
+  return /Sam Altman|Greg Brockman|Dario Amodei|Alex Albert|Logan Kilpatrick|Demis Hassabis|Sundar Pichai|Satya Nadella|Aravind Srinivas|Harrison Chase|Jerry Liu|Guillermo Rauch|Arthur Mensch|李继刚|宝玉/i.test(item.source || "");
+}
+
 function isProductUpdate(item) {
-  if (item.channel !== "social" || item.trust !== "official") return false;
+  if (!isTrustedProductSignalSource(item)) return false;
   const text = `${item.title} ${item.description}`.toLowerCase();
   if (/agent view|claude code.*agent view|parallel agents|gemini api.*file search|webhooks?.*gemini api|notebooklm.*mind map|google health.*gemini/.test(text)) {
     return true;
   }
-  const positive = /new in|now available|available today|introducing|meet |launch(?:ed|es)?|release(?:d|s)?|roll(?:ed|ing)? out|adds?|announc(?:e|ed|es)|preview|beta|generally available|ga\b|codex|api|feature|plugin|integration|webhook|file search|notebooklm|gemini|cursor|teams|daybreak/.test(text);
+  const positive = /new in|now available|available today|introducing|meet |launch(?:ed|es)?|release(?:d|s)?|roll(?:ed|ing)? out|adds?|announc(?:e|ed|es)|preview|beta|generally available|ga\b|api|feature|plugin|integration|webhook|file search|notebooklm|gemini|cursor|teams|daybreak|codex.*(?:phone|mobile|app|keyboard|shortcut|device|anywhere)|(?:phone|mobile|app|keyboard|shortcut|device|anywhere).*codex/.test(text);
   const negative = /research|paper|benchmark|principle|constitution|misalignment|monitor|safety evaluation|we found|we observed|how to|why|thread|opinion|recap|roundup|blog goes through|infrastructure issues|patterns we’ve been using|patterns we've been using|problems pretty quickly/i.test(text);
   return positive && !negative;
 }
 
 function isRelevantForSection(item, sectionId) {
   if (sectionId === "product_updates") {
-    return item.channel === "social" && item.trust === "official";
+    return isTrustedProductSignalSource(item);
   }
 
   if (sectionId === "extended_reading") return true;
@@ -1073,6 +1081,46 @@ async function previousReportDuplicateKeys(date) {
   return keys;
 }
 
+async function historicalReportDuplicateKeys(date, options = {}) {
+  const keys = {
+    links: new Set(),
+    titles: new Set(),
+    podcastLinks: new Set(),
+    podcastTitles: new Set()
+  };
+  const maxDays = options.maxDays ?? RECENT_DEDUPE_DAYS;
+  let files = [];
+  try {
+    files = (await readdir(reportsDir)).filter((file) => file.endsWith(".json")).sort().reverse();
+  } catch {
+    return keys;
+  }
+
+  let readCount = 0;
+  for (const file of files) {
+    const reportDate = file.replace(/\.json$/, "");
+    if (date && reportDate >= date) continue;
+    if (maxDays !== Infinity && readCount >= maxDays) break;
+    try {
+      const report = JSON.parse(await readFile(path.join(reportsDir, file), "utf8"));
+      readCount += 1;
+      for (const item of (report.sections || []).flatMap((section) => section.items || [])) {
+        const linkKey = normalizedLinkKey(item.link);
+        const titleKeys = [item.title, item.titleZh].map(normalizedTitleKey).filter(Boolean);
+        if (linkKey) keys.links.add(linkKey);
+        for (const titleKey of titleKeys) keys.titles.add(titleKey);
+        if (item.sourceType === "podcast" || item.channel === "podcast") {
+          if (linkKey) keys.podcastLinks.add(linkKey);
+          for (const titleKey of titleKeys) keys.podcastTitles.add(titleKey);
+        }
+      }
+    } catch {
+      // 单个历史日报损坏时跳过，避免影响当天主流程。
+    }
+  }
+  return keys;
+}
+
 async function main() {
   const sources = JSON.parse(await readFile(sourcesPath, "utf8")).filter((source) => source.enabled !== false);
   const emailCandidates = await readEmailCandidates(today);
@@ -1100,8 +1148,13 @@ async function main() {
   }
   fetched.push(...emailCandidates);
 
-  const previousKeys = await previousReportDuplicateKeys(today);
-  const extendedReadings = await fetchPodcastExtendedReadings(previousKeys);
+  const recentKeys = await historicalReportDuplicateKeys(today, { maxDays: RECENT_DEDUPE_DAYS });
+  const podcastHistoryKeys = await historicalReportDuplicateKeys(today, { maxDays: Infinity });
+  const previousKeys = recentKeys;
+  const extendedReadings = await fetchPodcastExtendedReadings({
+    links: new Set([...recentKeys.links, ...podcastHistoryKeys.podcastLinks]),
+    titles: new Set([...recentKeys.titles, ...podcastHistoryKeys.podcastTitles])
+  });
   fetched.push(...extendedReadings.items);
   failures.push(...extendedReadings.failures.map((failure) => ({
     source: `播客延伸阅读 / ${failure.source}`,
@@ -1114,6 +1167,7 @@ async function main() {
     const key = normalizedLinkKey(item.link);
     const titleKey = normalizedTitleKey(item.title);
     if (previousKeys.links.has(key) || previousKeys.titles.has(titleKey)) continue;
+    if ((item.sourceType === "podcast" || item.channel === "podcast") && (podcastHistoryKeys.podcastLinks.has(key) || podcastHistoryKeys.podcastTitles.has(titleKey))) continue;
     const enriched = publicItem(item);
     const existing = deduped.get(key);
     if (!existing || enriched.score > existing.score) deduped.set(key, enriched);
@@ -1125,6 +1179,18 @@ async function main() {
     title: section.title,
     items: selectSectionItems(section, items)
   }));
+
+  const productSection = sections.find((section) => section.id === "product_updates");
+  if (!productSection?.items?.length) {
+    const trustedSocialCount = fetched.filter(isTrustedProductSignalSource).length;
+    const productLikeCount = fetched.filter(isProductUpdate).length;
+    failures.push({
+      source: "产品快讯候选诊断",
+      url: "",
+      error: `产品快讯为空：本次抓到高可信社媒 ${trustedSocialCount} 条，其中明确产品更新 ${productLikeCount} 条；可能是 24 小时窗口内无合格发布，或被历史去重剔除。`
+    });
+    console.warn(`产品快讯为空：高可信社媒 ${trustedSocialCount} 条，明确产品更新 ${productLikeCount} 条。`);
+  }
 
   await chooseBestMedia(sections);
 

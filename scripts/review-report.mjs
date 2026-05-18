@@ -12,6 +12,7 @@ const REQUIRED_SECTIONS = new Map([
 ]);
 const REQUIRED_SECTION_ORDER = [...REQUIRED_SECTIONS.keys()];
 const LOOKBACK_HOURS = 24;
+const RECENT_DEDUPE_DAYS = 7;
 
 function hasChinese(value = "") {
   return /[\u4e00-\u9fff]/.test(value);
@@ -31,9 +32,15 @@ function textOf(item) {
 function isLikelyProductUpdate(item) {
   const text = textOf(item);
   return item.channel === "social" &&
-    item.trust === "official" &&
-    /new in|now available|available today|introducing|launch|released|preview|beta|api|feature|plugin|integration|agent view|cursor|teams|gemini|codex|claude code|模型|发布|上线|接入|功能|预览|可用/.test(text) &&
+    isTrustedProductSignalSource(item) &&
+    /new in|now available|available today|introducing|launch|released|preview|beta|api|feature|plugin|integration|agent view|cursor|teams|gemini|claude code|模型|发布|上线|接入|功能|预览|可用|codex.*(?:phone|mobile|app|keyboard|shortcut|device|anywhere)|(?:phone|mobile|app|keyboard|shortcut|device|anywhere).*codex/.test(text) &&
     !/paper|benchmark|constitution|misalignment|we found|we observed|opinion|roundup|论文|评测|观点|原则|研究发现/.test(text);
+}
+
+function isTrustedProductSignalSource(item) {
+  if (item.channel !== "social") return false;
+  if (item.trust === "official") return true;
+  return /Sam Altman|Greg Brockman|Dario Amodei|Alex Albert|Logan Kilpatrick|Demis Hassabis|Sundar Pichai|Satya Nadella|Aravind Srinivas|Harrison Chase|Jerry Liu|Guillermo Rauch|Arthur Mensch|李继刚|宝玉/i.test(item.source || "");
 }
 
 function isLikelyOpenSource(item) {
@@ -110,6 +117,47 @@ async function previousReportDuplicateKeys(date) {
     }
   } catch {
     // 没有前一天日报时不做跨日去重审查。
+  }
+  return keys;
+}
+
+async function historicalReportDuplicateKeys(date, options = {}) {
+  const keys = {
+    links: new Set(),
+    titles: new Set(),
+    podcastLinks: new Set(),
+    podcastTitles: new Set()
+  };
+  const maxDays = options.maxDays ?? RECENT_DEDUPE_DAYS;
+  if (!date) return keys;
+  let files = [];
+  try {
+    files = (await readdir(reportsDir)).filter((file) => file.endsWith(".json")).sort().reverse();
+  } catch {
+    return keys;
+  }
+
+  let readCount = 0;
+  for (const file of files) {
+    const reportDate = file.replace(/\.json$/, "");
+    if (reportDate >= date) continue;
+    if (maxDays !== Infinity && readCount >= maxDays) break;
+    try {
+      const report = JSON.parse(await readFile(path.join(reportsDir, file), "utf8"));
+      readCount += 1;
+      for (const item of (report.sections || []).flatMap((section) => section.items || [])) {
+        const linkKey = normalizedLinkKey(item.link);
+        const titleKeys = [item.title, item.titleZh].map(normalizedTitleKey).filter(Boolean);
+        if (linkKey) keys.links.add(linkKey);
+        for (const titleKey of titleKeys) keys.titles.add(titleKey);
+        if (item.sourceType === "podcast" || item.channel === "podcast") {
+          if (linkKey) keys.podcastLinks.add(linkKey);
+          for (const titleKey of titleKeys) keys.podcastTitles.add(titleKey);
+        }
+      }
+    } catch {
+      // 单个历史日报损坏时跳过。
+    }
   }
   return keys;
 }
@@ -243,7 +291,7 @@ function reviewItem(issues, section, item) {
     }
   }
   if (section.id === "product_updates" && !isLikelyProductUpdate(item)) {
-    add(issues, item, "产品快讯只允许来自官方社媒的明确产品/功能/API/模型/集成/可用性更新。");
+    add(issues, item, "产品快讯只允许来自官方社媒或高可信产品相关个人号的明确产品/功能/API/模型/集成/可用性更新。");
   }
   if (section.id === "open_source_top" && !isLikelyOpenSource(item)) {
     add(issues, item, "开源项目栏目需要明确开源、GitHub、仓库、版本或项目教程信号。");
@@ -260,7 +308,8 @@ async function main() {
   const reportPath = process.argv[2] || await latestReportPath();
   const report = JSON.parse(await readFile(reportPath, "utf8"));
   const issues = [];
-  const previousKeys = await previousReportDuplicateKeys(report.date);
+  const previousKeys = await historicalReportDuplicateKeys(report.date, { maxDays: RECENT_DEDUPE_DAYS });
+  const podcastHistoryKeys = await historicalReportDuplicateKeys(report.date, { maxDays: Infinity });
   const currentLinks = new Map();
   const currentTitles = new Map();
 
@@ -282,7 +331,10 @@ async function main() {
       if (currentLinks.has(linkKey)) add(issues, item, `与当前日报条目重复：${currentLinks.get(linkKey)}`);
       if (currentTitles.has(titleKey)) add(issues, item, `与当前日报标题完全重复：${currentTitles.get(titleKey)}`);
       if (previousKeys.links.has(linkKey) || previousKeys.titles.has(titleKey)) {
-        add(issues, item, "与前一天日报完全重复，需要从今日入选资讯中去掉。");
+        add(issues, item, `与最近 ${RECENT_DEDUPE_DAYS} 天日报完全重复，需要从今日入选资讯中去掉。`);
+      }
+      if (item.sourceType === "podcast" && (podcastHistoryKeys.podcastLinks.has(linkKey) || podcastHistoryKeys.podcastTitles.has(titleKey))) {
+        add(issues, item, "播客延伸阅读不允许重复；该播客已在历史日报中出现过。");
       }
       if (linkKey) currentLinks.set(linkKey, item.titleZh || item.title || item.link);
       if (titleKey) currentTitles.set(titleKey, item.titleZh || item.title || item.link);
