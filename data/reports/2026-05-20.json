@@ -1,0 +1,779 @@
+{
+  "date": "2026-05-20",
+  "generatedAt": "2026-05-19T18:34:28.120Z",
+  "title": "AI 日报 - 2026-05-20",
+  "stats": {
+    "sources": 133,
+    "fetched": 1145,
+    "emailCandidates": 0,
+    "selected": 35,
+    "failures": 0
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Introducing Gemini 3.5: our newest family of models combining frontier intelligence with real-world ...",
+          "titleZh": "Google DeepMind 推出 Gemini 3.5 系列，首发 3.5 Flash（智能体/编程主打）",
+          "link": "https://x.com/GoogleDeepMind/status/2056787987774816525",
+          "publishedAt": "Tue, 19 May 2026 17:24:04 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIstKWYboAAf-wH.jpg",
+          "video": "",
+          "summary": "Introducing Gemini 3.5: our newest family of models combining frontier intelligence with real-world action. The first release is 3.5 Flash, our strongest model yet for agents and coding 🧵 💬 60 🔄 196 ❤️ 1723 👀 115112 📊 249 ⚡ Powered by xgo.ing",
+          "summaryZh": "Google DeepMind 宣布发布 **Gemini 3.5** 新模型家族，强调把“前沿智能”与“现实世界行动能力”结合。首个公开版本是 **Gemini 3.5 Flash**，官方定位为目前最强的 **agent** 与 **coding** 向模型之一，并以线程形式说明后续细节与能力侧重点。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体"
+          ],
+          "score": 78
+        },
+        {
+          "title": "Voice agents add a new dimension to learning. Today, we're introducing Albert Einstein's voice to E...",
+          "titleZh": "ElevenLabs 上线 爱因斯坦 声线，并推出 Einstein 语音代理",
+          "link": "https://x.com/ElevenLabs/status/2056724239797944618",
+          "publishedAt": "Tue, 19 May 2026 13:10:45 GMT",
+          "source": "ElevenLabs(@elevenlabsio)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Voice agents add a new dimension to learning. Today, we're introducing Albert Einstein's voice to ElevenLabs, and launching an Einstein agent, to bring his written archives to life in his iconic voice. Your browser does not support the video tag. 🔗 View on Twitter 💬 29 🔄 33 ❤️ 331 👀 28988 📊 77 ⚡ Powered by xgo.ing",
+          "summaryZh": "ElevenLabs 将 **阿尔伯特·爱因斯坦** 的声音引入平台，同时上线一个 **Einstein agent**：把他的文字档案“用他的声音讲出来”，用于学习/对话式探索等场景。对语音智能体产品来说，这类“名人/人物声线 + 可对话代理”的组合，会直接影响内容教育、互动体验与版权合规的讨论方向。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "语音",
+            "视频"
+          ],
+          "score": 76.31798127500883
+        },
+        {
+          "title": "You can now use @higgsfield_ai on Manus! We're giving professional creators more ways to create, r...",
+          "titleZh": "Manus 集成 Higgsfield，把视觉生成接入“生成→审核→交付”工作流",
+          "link": "https://x.com/ManusAI/status/2056752548875235605",
+          "publishedAt": "Tue, 19 May 2026 15:03:14 GMT",
+          "source": "ManusAI(@ManusAI_HQ)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-20-2056752548875235605.mp4",
+          "summary": "You can now use @higgsfield_ai on Manus! We're giving professional creators more ways to create, refine, and ship visual work inside Manus. > Use your preferred models and controls > Turn generated visuals into websites, launch assets, and motion concepts > Move outputs into Manus workflows for review, iteration, and handoff Let agents handle the heavy lifting. Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 29 ❤️ 236 👀 14593 📊 57 ⚡ Powered by xgo.ing",
+          "summaryZh": "Manus 宣布可在其产品内调用 **Higgsfield**，面向专业创作者提供更完整的视觉生产链路：选择偏好的模型与控制项，生成/细化视觉后可直接转成 **网站、发布物料、动效概念** 等交付件，并把产出流转到 Manus 的评审、迭代与交接流程里，让 agent 负责更多重复性重活。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "视频"
+          ],
+          "score": 76.00052740201869
+        },
+        {
+          "title": "We’re dropping Gemini Omni: our first step towards a model that can create anything from anything - ...",
+          "titleZh": "Google DeepMind 发布 Gemini Omni：先从“视频生成/编辑”迈出第一步",
+          "link": "https://x.com/GoogleDeepMind/status/2056786446636212467",
+          "publishedAt": "Tue, 19 May 2026 17:17:56 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-20-2056786446636212467.mp4",
+          "summary": "We’re dropping Gemini Omni: our first step towards a model that can create anything from anything - starting with video. It combines Gemini’s intelligence with our generative media systems - representing a leap forward in world understanding, multimodality, and editing 🧵 Your browser does not support the video tag. 🔗 View on Twitter 💬 58 🔄 282 ❤️ 1793 👀 101627 📊 317 ⚡ Powered by xgo.ing",
+          "summaryZh": "Google DeepMind 宣布推出 **Gemini Omni**，目标是迈向“**anything → anything**”的生成式模型能力，首个落点是 **视频**。官方说法是把 Gemini 的理解/推理能力与自家的生成媒体系统结合，用于提升对世界的理解、多模态融合与编辑能力，并以线程方式展开更多细节。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "多模态",
+            "视频"
+          ],
+          "score": 68
+        },
+        {
+          "title": "We're reducing the price of our top-tier Google AI Ultra plan from $250 to $200/mo AND introducing a...",
+          "titleZh": "Google 调整订阅：AI Ultra 降至 $200/月，新增 $100/月 Ultra 档",
+          "link": "https://x.com/GeminiApp/status/2056792679607103626",
+          "publishedAt": "Tue, 19 May 2026 17:42:42 GMT",
+          "source": "Google Gemini App(@GeminiApp)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIr5ITNaoAAIiNV.jpg",
+          "video": "",
+          "summary": "We're reducing the price of our top-tier Google AI Ultra plan from $250 to $200/mo AND introducing a new $100/mo Ultra plan tier. This new plan unlocks 5x higher usage limits to Gemini app than the Pro plan so you can accelerate your coding and creativity. It also includes early access to new features, 20 TB storage, @YouTube Premium, and more. Terms Apply. goo.gle/4wEuFGK #GoogleIO 💬 28 🔄 42 ❤️ 414 👀 20598 📊 79 ⚡ Powered by xgo.ing",
+          "summaryZh": "Google 宣布调整 Gemini 订阅：顶配 **Google AI Ultra** 从 **每月 250 美元** 下调到 **每月 200 美元**，同时新增 **每月 100 美元** 的 Ultra 档位。官方称该档位在 Gemini App 的使用额度相对 **Pro 计划提升 5 倍**，并包含 **新功能抢先体验、20TB 存储、YouTube Premium** 等权益（以具体条款为准）。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "RAG"
+          ],
+          "score": 67.67229650230804
+        },
+        {
+          "title": "It’s time for Google I/O! ✧ 10:00AM - Keynote ✧ 1:30PM - Developer Keynote ✧ 3:30PM - What’s new i...",
+          "titleZh": "Google I/O 2026 直播日程公布：Keynote、开发者主旨、Google AI 更新",
+          "link": "https://x.com/googleaidevs/status/2056767412255805521",
+          "publishedAt": "Tue, 19 May 2026 16:02:18 GMT",
+          "source": "Google AI Developers(@googleaidevs)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "It’s time for Google I/O! ✧ 10:00AM - Keynote ✧ 1:30PM - Developer Keynote ✧ 3:30PM - What’s new in Google AI ✧ 4:30PM - Scale the builder ecosystem with @GoogleDeepMind and @Antigravity Times in PT. x.com/i/events/20532… 💬 3 🔄 25 ❤️ 213 👀 17641 📊 32 ⚡ Powered by xgo.ing",
+          "summaryZh": "Google AI Developers 公布 Google I/O 当天直播日程（**太平洋时间 PT**）：**10:00 主旨演讲**、**13:30 开发者主旨演讲**、**15:30 Google AI 最新进展**、**16:30 构建者生态相关分享（含 Google DeepMind 等）**。如果你要跟进模型、开发者平台和工具链的“官宣级更新”，可以把这几个时间点当作信息发布窗口。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开发者工具"
+          ],
+          "score": 64.12348350727909
+        },
+        {
+          "title": "The stage is set. The tech is ready. Are you? 🚀 Join us tomorrow for #GoogleIO as we unveil the br...",
+          "titleZh": "Google DeepMind 预告将于 Google I/O 直播发布 AI 新突破与工具",
+          "link": "https://x.com/GoogleDeepMind/status/2056475403926028455",
+          "publishedAt": "Mon, 18 May 2026 20:41:58 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-20-2056475403926028455.mp4",
+          "summary": "The stage is set. The tech is ready. Are you? 🚀 Join us tomorrow for #GoogleIO O as we unveil the breakthroughs, tools, and innovations shaping the future of AI. Tune in live right here on @X from 10am PT: goo.gle/499OxaJ T 💬 59 🔄 117 ❤️ 959 👀 91717 📊 153 ⚡ Powered by xgo.ing",
+          "summaryZh": "Google DeepMind 在 Google I/O 前夕预告：将在 **10:00 PT** 的直播中展示面向未来 AI 的新突破、工具与创新，并引导用户关注官方直播入口。对研发团队来说，这类预告通常意味着短期内会有 **模型/工具链/平台策略** 的集中发布，适合提前准备评估与试用清单。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "API"
+          ],
+          "score": 63
+        },
+        {
+          "title": "New model loading 💪",
+          "titleZh": "NVIDIA 转发称 Cursor/SpaceXAI 正训练“更大模型”，计算量提升 10×",
+          "link": "https://x.com/NVIDIAAI/status/2056728451898564883",
+          "publishedAt": "Tue, 19 May 2026 13:27:29 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "New model loading 💪 Cursor @cursor_ai Together with SpaceXAI, we’re training a significantly larger model from scratch, using 10x more total compute. With Colossus 2’s million H100-equivalents and our combined data and training techniques, we expect this to be a major leap in model capability. 🔗 View Quoted Tweet 💬 29 🔄 67 ❤️ 1542 👀 107344 📊 142 ⚡ Powered by xgo.ing",
+          "summaryZh": "NVIDIAAI 转发相关信息称：Cursor 团队与 SpaceXAI 正从零训练一个“显著更大”的模型，使用 **10×** 更多的总计算量；并提到 Colossus 2 级别的算力规模（“百万 H100 等效”）与数据/训练技术组合，预期会带来一次能力跃迁。该类训练规模与合作信号，往往会影响后续 **IDE/编码助手** 的能力演进与算力供给叙事。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 63
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "$\\textit{Don't Guess, Just Ask}$: Resolving Ambiguity in Referring Segmentation via Multi-turn Clarification",
+          "titleZh": "论文：在指代分割里别“猜用户想要什么”，先用多轮对话把意图问清楚",
+          "link": "https://arxiv.org/abs/2605.17531",
+          "publishedAt": "Tue, 19 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.CV",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.17531v1 Announce Type: new Abstract: Referring segmentation aims to segment the target objects in images or videos based on the textual query. Despite remarkable progress over the past years, existing works always assume that the user-provided queries are already precise and clear. However, this assumption is impractical. In real-world scenarios, it is unrealistic to expect all users to thoroughly review their visual content and carefully ensure their queries are unique and unambiguous. When encounter...",
+          "summaryZh": "**核心结论**：作者指出现实场景里用户给出的指代文本经常 **不唯一/有歧义**，现有指代分割模型往往会“硬猜”，导致分割结果偏离用户预期。论文提出 **IC-Seg**：在真正执行分割前，先以 **多轮对话** 主动澄清用户意图。\n\n**支撑证据**：为训练/激励“澄清”能力，作者提出 **Hi-GRPO** 分层优化策略，在 **trajectory / turn / step** 多层级注入更密集的监督信号，减少无效追问并提升对话质量；并构建 **Ambi-RVOS**（带歧义查询的指代视频目标分割基准）。实验显示 IC-Seg 在解决歧义查询上显著领先，同时在标准指代分割基准上保持 SOTA 水平。\n\n**我的判断**：这条思路对“人机协作式标注/检索/编辑”很关键：当输入天然含糊时，先把不确定性暴露出来、用少量提问换取确定性，往往比一次性输出更可靠。后续值得验证的是：多轮澄清在真实产品里对 **交互成本** 的影响，以及对不同用户（新手/专家）是否需要自适应提问策略。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "推理能力",
+            "评测"
+          ],
+          "score": 42
+        },
+        {
+          "title": "MARS: Technical Report for the CASTLE Challenge at EgoVis 2026",
+          "titleZh": "技术报告：MARS 在 CASTLE 挑战中把长时序多模态问答做成“证据选择型智能体”",
+          "link": "https://arxiv.org/abs/2605.18176",
+          "publishedAt": "Tue, 19 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.CV",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.18176v1 Announce Type: new Abstract: This report presents MARS, short for Multimodal Agentic Reasoning with Source selection, our system for the CASTLE Challenge at EgoVis 2026. Participants must answer 185 closed-form questions over the CASTLE 2024 dataset. In contrast to prior single-video egocentric benchmarks, CASTLE requires reasoning over four days of activity, 15 synchronized perspectives, official transcripts, and multiple auxiliary modalities, including personal photos, auxiliary videos, gaze...",
+          "summaryZh": "**核心结论**：报告介绍 MARS（**Multimodal Agentic Reasoning with Source selection**）系统，用于 EgoVis 2026 的 CASTLE Challenge：在 CASTLE 2024 数据集上回答 **185 个封闭式问题**。任务难点是需要跨 **4 天活动**、**15 个同步视角**、官方转写，以及照片/辅助视频/凝视/热成像/心率等多模态证据进行推理。\n\n**支撑证据**：MARS 将任务建模为“多源证据选择”而非纯文本流水线：先按官方目录组织，分别构建来自 **视频、转写** 两个主源与 **凝视、心率、照片、热成像** 四类辅源的证据记忆；由于视频过长无法每题都塞入上下文，系统先把长视频转成 caption 并用 **DeepSeek** 生成摘要以压缩时间证据。推理时使用决策型 agent 反复选择：继续推理、请求缺失模态、产出答案，或在证据不足时回退。最终该系统在榜单中获得 **第二名**。\n\n**我的判断**：这份报告的可借鉴点不在“用哪个大模型”，而在工程化的 **证据记忆组织 + 逐步请求模态** 的策略：当上下文装不下全量多模态时，把“选什么证据、何时补证据”显式化，会比一次性拼 prompt 更稳。后续落地要关注：不同模态的索引/摘要误差如何累积，以及证据请求策略是否可学习/可控。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 41
+        },
+        {
+          "title": "The last six months in LLMs in five minutes",
+          "titleZh": "Simon Willison：用 5 分钟回顾最近半年 LLM 进展（附可追溯的注释幻灯）",
+          "link": "https://simonwillison.net/2026/May/19/5-minute-llms/#atom-everything",
+          "publishedAt": "2026-05-19T01:09:44+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://static.simonwillison.net/static/2026/5-minutes-llms/5-minutes-llms.001.jpeg",
+          "video": "",
+          "summary": "I put together these annotated slides from my five minute lightning talk at PyCon US 2026, using the latest iteration of my annotated presentation tool . # I presented this lightning talk at PyCon US 2026, attempting to summarize the last six months of developments in LLMs in five minutes. # Six months is a pretty convenient time period to cover, because it captures what I've been calling the November 2025 inflection point . November was a critical month in LLMs, especially for coding. # For one thing, the suppo...",
+          "summaryZh": "Simon Willison 分享他在 PyCon US 2026 的 **5 分钟闪电演讲**幻灯，并用自己的“**带注释的演示工具**”把每页要点、背景链接与补充材料串起来。内容目标是用极短时间梳理最近半年大模型领域的关键变化（模型、工具链、产品化与生态信号），适合作为快速复盘入口；对需要写周报/月报的人来说，这种“每页一条结论 + 可追溯来源”的呈现方式也很值得借鉴。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "评测",
+            "开源"
+          ],
+          "score": 41
+        },
+        {
+          "title": "Extending conversational memory in Kiro CLI using Amazon Bedrock AgentCore Memory",
+          "titleZh": "AWS：用 Bedrock AgentCore Memory 给 Kiro CLI 扩展“可插拔对话记忆”（MCP 示例）",
+          "link": "https://aws.amazon.com/blogs/machine-learning/extending-conversational-memory-in-kiro-cli-using-amazon-bedrock-agentcore-memory/",
+          "publishedAt": "Tue, 19 May 2026 15:23:22 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-19844/ml_19844_blog_video_final.mp4",
+          "summary": "In this post, we demonstrate how you can extend the conversational memory of Kiro CLI by implementing a custom Model Context Protocol (MCP) server that integrates with Amazon Bedrock AgentCore Memory. You can use Kiro CLI to interact with AI agents of Kiro directly from your terminal. Amazon Bedrock AgentCore Memory is a fully managed service that allows AI agents to retain information from past interactions, creating more intelligent and context-aware conversations. By implementing a custom MCP server, you can...",
+          "summaryZh": "**核心要点**：文章演示如何通过自定义 **Model Context Protocol（MCP）** 服务器，把 **Amazon Bedrock AgentCore Memory** 接入到 Kiro CLI，从而扩展 AI 代理的对话记忆能力。\n\n**展开说明**：作者给出一个“外部记忆服务”的实现思路：Kiro CLI 与代理交互时，把需要长期保留的上下文写入 AgentCore Memory，再在后续对话中按需检索回填，从而解决“上下文窗口有限/跨会话难以延续”的问题。对在本地 CLI 或企业内网环境做 agent 的团队，这类 MCP 形态的集成示例更接近可复制的工程落地路径。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Scalable voice agent design with Amazon Nova Sonic: multi-agent, tools, and session segmentation",
+          "titleZh": "AWS：用 Nova Sonic + 多智能体 + 会话分段 设计可扩展语音客服代理",
+          "link": "https://aws.amazon.com/blogs/machine-learning/scalable-voice-agent-design-with-amazon-nova-sonic-multi-agent-tools-and-session-segmentation/",
+          "publishedAt": "Tue, 19 May 2026 15:26:37 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/08/ML-20826-2.png",
+          "video": "",
+          "summary": "In this post, you’ll learn how to use Amazon Nova Sonic, Amazon Bedrock AgentCore, and Strands BidiAgent to build scalable, maintainable voice agents that handle these challenges efficiently, resulting in more responsive and intelligent customer interactions. We’ll explore three popular architectural patterns for voice agents, highlighting their trade-offs and best practices for minimizing latency.",
+          "summaryZh": "**核心要点**：AWS 介绍如何结合 **Amazon Nova Sonic**、**Bedrock AgentCore** 与 Strands 的 **BidiAgent**，构建更可扩展、可维护的语音代理，并重点讨论多智能体协作、工具调用与 **session segmentation（会话分段）**。\n\n**展开说明**：文章定位在“生产可用的语音系统设计”而不是单点模型能力：通过分段管理长对话，把不同职责（理解、检索、执行、对话管理等）拆成多个 agent，并用工具把业务系统接进来，以提升响应速度与稳定性。对想把语音从 demo 做到可运营服务的团队，这类架构拆分与边界定义值得参考。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "语音"
+          ],
+          "score": 29
+        },
+        {
+          "title": "Implementing programmatic tool calling on Amazon Bedrock",
+          "titleZh": "AWS：在 Bedrock 上实现 Programmatic Tool Calling（PTC） 的 3 种路径",
+          "link": "https://aws.amazon.com/blogs/machine-learning/implementing-programmatic-tool-calling-on-amazon-bedrock/",
+          "publishedAt": "Tue, 19 May 2026 15:17:00 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/04/30/ML20707-image-4.png",
+          "video": "",
+          "summary": "In this post, we show three ways to implement Programmatic tool calling (PTC) on Amazon Bedrock: a self-hosted Docker sandbox on ECS for maximum control, a managed solution using Amazon Bedrock AgentCore Code Interpreter, and an Anthropic SDK-compatible path through a proxy for teams that prefer that developer experience.",
+          "summaryZh": "**核心要点**：AWS 总结了在 **Amazon Bedrock** 上实现程序化工具调用（PTC）的三种方案：\n- **自托管 Docker 沙盒（ECS）**：控制力最强，适合高安全/高定制需求\n- **Bedrock AgentCore Code Interpreter（托管）**：更省运维，适合快速上线\n- **兼容 Anthropic SDK 的接入方式**：便于复用既有工具调用生态\n\n**展开说明**：文章强调“工具调用的执行环境”与“安全边界”是关键工程点：无论是沙盒隔离、权限最小化，还是对外部依赖与网络访问的控制，都决定了 PTC 能否在企业环境落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "开发者工具"
+          ],
+          "score": 29
+        },
+        {
+          "title": "Prompting Amazon Nova 2 for content moderation",
+          "titleZh": "AWS：用 Amazon Nova 2 Lite 做内容审核的提示词方法（对齐 MLCommons AILuminate 标准）",
+          "link": "https://aws.amazon.com/blogs/machine-learning/prompting-amazon-nova-2-for-content-moderation/",
+          "publishedAt": "Mon, 18 May 2026 18:56:36 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "In this post, you learn how to prompt Amazon Nova 2 Lite for content moderation using structured and free-form approaches, grounded in the MLCommons AILuminate Assessment Standard. The prompting techniques use the AILuminate taxonomy as an example, but they work equally well with your own custom moderation policy. You can swap in your own category definitions and the prompt structure stays the same. We also benchmark the content moderation capabilities of Amazon Nova 2 Lite against several foundation models (FMs...",
+          "summaryZh": "**核心要点**：AWS 讲解如何通过提示词让 **Amazon Nova 2 Lite** 执行内容审核，示例对齐 **MLCommons AILuminate Assessment Standard**，并同时覆盖 **结构化** 与 **自由文本** 两种提示方式。\n\n**展开说明**：文章把 AILuminate 的分类法（taxonomy）当作可复用的审核标签体系：用更明确的输出结构约束模型回答，降低“审核口径漂移”，也便于后续做自动化评测与回归。对需要在多语言/多场景下统一审核标准的团队，这种“标准化标签 + 可评测提示模板”的思路更容易工程化。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "评测"
+          ],
+          "score": 29
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "Stop treating video like text. You don’t need transcripts. You don’t need metadata. You can now em...",
+          "titleZh": "Weaviate：用 Gemini Embedding 2（多模态） 直接做“视频片段检索”示例（含 Notebook）",
+          "link": "https://x.com/weaviate_io/status/2056751772937474092",
+          "publishedAt": "Tue, 19 May 2026 15:00:09 GMT",
+          "source": "Weaviate • vector database(@weaviate_io)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIsM1lPWIAA5K6n.jpg",
+          "video": "",
+          "summary": "Stop treating video like text. You don’t need transcripts. You don’t need metadata. You can now embed the videos directly for search. The pipeline goes very simple: → Split raw video into overlapping clips → Embed with Gemini embedding 2 multimodal → Store in Weaviate → Retrieve the exact moments that matter → Generate answers grounded in real video No preprocessing hacks. You ask a question, it just finds the right moments and answers from them. Notebook link: github.com/weaviate/recip… Full multimodal guide: weaviate.io/blog/multimoda… 💬 2 🔄 3 ❤️ 15 👀 629 📊 6 ⚡ Powered by xgo.ing",
+          "summaryZh": "Weaviate 给出一个“把视频当视频搜”的最小流水线：把原始视频切成重叠片段 → 用 **Gemini Embedding 2 多模态**对片段做 embedding → 写入 Weaviate → 检索命中“关键时刻”的片段 → 基于真实视频片段生成答案。作者强调不需要先做转写/元数据等前处理，并提供可复现的 **Notebook** 与更完整的多模态指南链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "多模态",
+            "开源",
+            "视频"
+          ],
+          "score": 54.69673199217966
+        },
+        {
+          "title": "Vector search with Qdrant ≠ just embeddings Real retrieval systems combine: → semantic search → met...",
+          "titleZh": "Qdrant：真实检索系统不只“向量相似度”，还要深度过滤与结构约束",
+          "link": "https://x.com/qdrant_engine/status/2056641498364711243",
+          "publishedAt": "Tue, 19 May 2026 07:41:58 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIqoiK3bsAA5AXR.jpg",
+          "video": "",
+          "summary": "Vector search with Qdrant ≠ just embeddings Real retrieval systems combine: → semantic search → metadata filtering → structured constraints → fast query execution This deep dive explores how deep query filtering in Qdrant works in production pub.towardsai.net/how-to-use-dee… #Qdrant #VectorSearch #RAG 💬 0 🔄 0 ❤️ 5 👀 317 📊 1 ⚡ Powered by xgo.ing",
+          "summaryZh": "Qdrant 官方强调生产级检索通常是组合拳：**语义检索 + 元数据过滤 + 结构化约束 + 快速查询执行**。这条分享链接到一篇“深度查询过滤（deep query filtering）”的实践解析，重点在如何把过滤条件与向量检索融合，避免仅靠 embedding 相似度导致结果不符合业务约束。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "RAG"
+          ],
+          "score": 44.866245681511224
+        },
+        {
+          "title": "𝗙𝗼𝗿 𝗮 𝘄𝗵𝗶𝗹𝗲, 𝘄𝗲 𝗸𝗲𝗽𝘁 𝗵𝗲𝗮𝗿𝗶𝗻𝗴 𝘁𝗵𝗲 𝘀𝗮𝗺𝗲 𝗰𝗼𝗺𝗽𝗹𝗮𝗶𝗻𝘁 𝗳𝗿𝗼𝗺 𝗲-...",
+          "titleZh": "Milvus：为向量检索加 Boost Ranker（2.6.2），把“业务排序需求”融进检索流程",
+          "link": "https://x.com/milvusio/status/2056759030769652070",
+          "publishedAt": "Tue, 19 May 2026 15:29:00 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIrVmAAaQAANtwi.jpg",
+          "video": "",
+          "summary": "𝗙𝗼𝗿 𝗮 𝘄𝗵𝗶𝗹𝗲, 𝘄𝗲 𝗸𝗲𝗽𝘁 𝗵𝗲𝗮𝗿𝗶𝗻𝗴 𝘁𝗵𝗲 𝘀𝗮𝗺𝗲 𝗰𝗼𝗺𝗽𝗹𝗮𝗶𝗻𝘁 𝗳𝗿𝗼𝗺 𝗲-𝗰𝗼𝗺𝗺𝗲𝗿𝗰𝗲 𝗮𝗻𝗱 𝗲𝗻𝘁𝗲𝗿𝗽𝗿𝗶𝘀𝗲 𝘁𝗲𝗮𝗺𝘀 𝘂𝘀𝗶𝗻𝗴 𝘃𝗲𝗰𝘁𝗼𝗿 𝘀𝗲𝗮𝗿𝗰𝗵 𝗮𝗻𝗱 𝗿𝗮𝗻𝗸𝗶𝗻𝗴 𝗶𝗻 𝗽𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻: \"Vector search gives us great semantic results, but they're not what our users need.\" For instance, they need items in stock on the top of results instead of perfect matches that are sold out. 𝗧𝗵𝗲𝗶𝗿 𝗳𝗶𝘅? 𝗕𝘂𝗶𝗹𝗱𝗶𝗻𝗴 𝗮 𝘀𝗲𝗰𝗼𝗻𝗱 𝘀𝘆𝘀𝘁𝗲𝗺 𝗼𝗻 𝘁𝗼𝗽 𝗼𝗳 𝘁𝗵𝗲𝗶𝗿 𝘃𝗲𝗰𝘁𝗼𝗿 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲. They would build custom post-processing logic, its own rules, its own tests, its own ops overhead — all just to get results sorted in a certain way. 𝗧𝗵𝗮𝘁'𝘀 𝘁𝗵𝗲 𝗽𝗿𝗼𝗯𝗹𝗲𝗺 𝘄𝗲 𝘀𝗲𝘁 𝗼𝘂𝘁 𝘁𝗼 𝘀𝗼𝗹𝘃𝗲 𝘄𝗵𝗲𝗻 𝘄𝗲 𝘀𝗵𝗶𝗽𝗽𝗲𝗱 𝗕𝗼𝗼𝘀𝘁 𝗥𝗮𝗻𝗸𝗲𝗿 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝟮.𝟲.𝟮. Instead of a separate reranking layer bol...",
+          "summaryZh": "Milvus 团队提到一个常见痛点：向量检索语义匹配很好，但用户更在意“**有货优先/可用优先**”等业务排序；很多团队被迫在向量库之上再搭一套后处理/重排系统，带来额外规则、测试与运维负担。Milvus 表示在 **Milvus 2.6.2** 中推出 **Boost Ranker**，希望用更原生的方式把这类排序偏好融入检索结果，而不是另起一层系统。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 41.053850038390735
+        },
+        {
+          "title": "How GoPerfect Built an Agentic Recruiting Workforce with Qdrant Cloud",
+          "titleZh": "案例：GoPerfect 用 Qdrant Cloud 搭建“招聘智能体工作队”，覆盖筛选到外联全流程",
+          "link": "https://qdrant.tech/blog/case-study-go-perfect/",
+          "publishedAt": "Tue, 19 May 2026 00:00:00 +0000",
+          "source": "Qdrant",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source",
+          "trust": "official",
+          "image": "https://qdrant.tech/blog/case-study-goperfect/social_preview_goperfect.png",
+          "video": "",
+          "summary": "GoPerfect mission is to use an AI recruiting workforce that replaces the manual, low-leverage parts of recruiting. Instead, an agent decomposes recruiter intent and runs the work end to end to find top talent. Their agentic platform handles sourcing, scanning, reviewing, outreach, admin work as well as candidate conversations for recruiters, hiring managers, agencies, and CEOs who hire at volume. Recruiting is a needle-in-a-haystack problem with two complications: the haystack is massive (200M+ profiles enriched...",
+          "summaryZh": "Qdrant 发布 GoPerfect 案例：其目标是用“**招聘智能体工作队**”替代招聘中低杠杆、重复的人力环节——从候选人搜寻、扫描/评审、外联、行政工作，到与候选人的对话沟通都尽量自动化。文章把招聘描述为“**大海捞针**”问题：候选池规模可达 **2 亿+**（含增强信息），且需求侧对匹配、优先级与流程协作要求很高；因此他们用向量检索/记忆能力来支撑多角色（招聘方、用人经理、猎头、CEO）的并行工作流。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体",
+            "RAG"
+          ],
+          "score": 38
+        },
+        {
+          "title": "msitarzewski/agency-agents",
+          "titleZh": "开源项目：`agency-agents` —— 一组“角色化分工”的 AI 代理（前端/社区/质检等）",
+          "link": "https://github.com/msitarzewski/agency-agents",
+          "publishedAt": "2026-05-19T18:34:28.120Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/454315904e004d57628ad830893a4b1e535bfb6ce6d9b6527c67decc3bda4aed/msitarzewski/agency-agents",
+          "video": "",
+          "summary": "Sponsor Star msitarzewski / agency-agents A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+          "summaryZh": "`agency-agents` 提供一个“AI agency”式的代理集合：把不同工作拆成带角色与交付物定义的 agent（例如前端实现、Reddit 社区运营、创意注入、现实校验等），强调每个 agent 都有各自的流程与可复用产出。适合把多代理协作当作工程项目来搭脚手架的人参考其角色设计与任务拆分方式。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "rtk-ai/rtk",
+          "titleZh": "开源项目：`rtk` —— 用 CLI 代理减少大模型开发指令的 token 消耗（宣称省 60%–90%）",
+          "link": "https://github.com/rtk-ai/rtk",
+          "publishedAt": "2026-05-19T18:34:28.120Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/2ff55b99a6322e676b9f1ed3bee0923f8a1a82cb5d9cb903e6178913de1282af/rtk-ai/rtk",
+          "video": "",
+          "summary": "Star rtk-ai / rtk CLI proxy that reduces LLM token consumption by 60-90% on common dev commands. Single Rust binary, zero dependencies",
+          "summaryZh": "`rtk` 是一个面向开发者的 CLI 代理/代理层，项目宣称可在常见开发命令场景中把大模型 token 消耗降低 **60%–90%**。仓库描述强调它是单个 **Rust** 二进制、零依赖，适合想在本地工具链里加一层“省 token/控成本”的人进一步评估可用性与适配范围。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        },
+        {
+          "title": "今日开源（2026-5-19）：字节跳动发布Lance，轻量级原生统一多模态模型，3B激活参数单框架支持图像视频理解生成编辑全链路",
+          "titleZh": "今日开源汇总（5/19）：字节跳动发布多模态模型 Lance 等项目速览",
+          "link": "https://mp.weixin.qq.com/s?__biz=MzkyMzcwMDIyMQ==&mid=2247502339&idx=1&sn=376d5e32e11418229d890dee4e00f216",
+          "publishedAt": "Tue, 19 May 2026 18:30:00 +0800",
+          "source": "机器之心SOTA模型",
+          "sourceType": "research",
+          "section": "open_source_top",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://wechat2rss.bestblogs.dev/img-proxy/?k=7128fe23&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FUibyxhuYSuFZTKGy2Fj3cAtomjOMShRTHqGiaeH6Ol4IEKvSmgDvGxlKxicxnf4ZVMtgszDP4SToIaHkktN7jD48W2Hoxd9lHic1sFsoMwDzmoE%2F0%3Fwx_fmt%3Djpeg",
+          "video": "",
+          "summary": "轻量级原生统一多模态模型Lance，无审查视频生成模型Sulphur-2-base，原生并行推理模型构建框架Native Parallel Reasoner，隐藏式高效多模态推理项目Heima，视觉强化学习自蒸馏算法RLSD，AI Agent与软件交互桥梁项目CLI-Anything。",
+          "summaryZh": "这篇“今日开源”汇总梳理了多项 AI 开源更新：其中包括字节跳动发布 **Lance**（轻量级原生统一多模态模型，宣称 **3B 激活参数**，在单一框架内覆盖图像/视频的理解、生成与编辑全链路）。文内还提到 **Sulphur-2-base**（无审查视频生成模型）、**Native Parallel Reasoner**（原生并行推理模型构建框架）、**Heima**（隐藏式高效多模态推理项目）、**RLSD**（视觉强化学习自蒸馏算法）、**CLI-Anything**（AI Agent 与软件交互桥梁）等条目。适合作为“项目清单入口”快速筛选，再按需进入仓库验证活跃度与可用性。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "开源",
+            "模型"
+          ],
+          "score": 33
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Live from Code with Claude London: we're launching self-hosted sandboxes (public beta) and MCP tunne...",
+          "titleZh": "Claude Managed Agents 新功能：自托管沙盒（公测） 与 MCP 隧道（预览）",
+          "link": "https://x.com/claudeai/status/2056645485696315581",
+          "publishedAt": "Tue, 19 May 2026 07:57:49 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-20-2056645485696315581.mp4",
+          "summary": "Live from Code with Claude London: we're launching self-hosted sandboxes (public beta) and MCP tunnels (research preview) in Claude Managed Agents. Run agents inside your own perimeter, with your security controls applied by default. Your browser does not support the video tag. 🔗 View on Twitter 💬 328 🔄 427 ❤️ 5612 👀 945627 📊 1074 ⚡ Powered by xgo.ing",
+          "summaryZh": "Anthropic 在 Code with Claude London 宣布：在 **Claude Managed Agents** 中推出 **self-hosted sandboxes（public beta）** 与 **MCP tunnels（research preview）**。核心卖点是让 agent 在你自己的安全边界内运行，并默认套用组织的安全控制（而不是把执行环境外包到不透明的云沙盒）。对企业场景而言，这类“执行环境可控 + 私网资源可达”的组合，直接影响 agent 的可落地性与合规路径。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "视频"
+          ],
+          "score": 77
+        },
+        {
+          "title": "Avatar V API is live at $0.05/sec The highest-quality AI avatar model for developers Benchmarked a...",
+          "titleZh": "HeyGen 发布 Avatar V API：$0.05/秒的对口型数字人生成接口（含研究报告）",
+          "link": "https://x.com/HeyGen/status/2056781720842899794",
+          "publishedAt": "Tue, 19 May 2026 16:59:10 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-20-2056781720842899794.mp4",
+          "summary": "Avatar V API is live at $0.05/sec The highest-quality AI avatar model for developers Benchmarked against Veo 3.1, Kling O3 Pro, OmniHuman 1.5, and Seedance 2.0 on cross-scene talking-head generation Avatar V won every category Research report + API ↓ Your browser does not support the video tag. 🔗 View on Twitter 💬 50 🔄 49 ❤️ 160 👀 23504 📊 102 ⚡ Powered by xgo.ing",
+          "summaryZh": "HeyGen 宣布 **Avatar V API** 上线，定价 **$0.05/秒**，主打开发者可用的高质量数字人/说话头像生成。官方声称其在跨场景 talking-head 生成评测中，对比 Veo 3.1、Kling O3 Pro、OmniHuman 1.5、Seedance 2.0 等模型“在各项指标均胜出”，并附带研究报告与 API 入口。对做虚拟人客服、内容生成与多语言口型一致性的团队，这是一个值得跟进的可商用接口信号。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "评测",
+            "开发者工具",
+            "视频"
+          ],
+          "score": 68.48955407218378
+        },
+        {
+          "title": "The @cursor_ai team shipped Composer 2 and now Composer 2.5 on the same Kimi K2.5 base model. Perfor...",
+          "titleZh": "FireworksAI：Cursor Composer 2/2.5 背后训练与 RL 计算占比细节曝光",
+          "link": "https://x.com/FireworksAI_HQ/status/2056463097909629223",
+          "publishedAt": "Mon, 18 May 2026 19:53:04 GMT",
+          "source": "Fireworks AI(@FireworksAI_HQ)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIoEfS0bYAAhU-S.jpg",
+          "video": "",
+          "summary": "The @cursor_ai team shipped Composer 2 and now Composer 2.5 on the same Kimi K2.5 base model. Performance benchmarks are📈. Frontier quality and open-source economics. 85% of the compute powering these gains came from RL. Fireworks powers the RL rollouts. Learn more about rollouts here: fireworks.ai/training-rl-ro… T Cursor @cursor_ai Introducing Composer 2.5, our most powerful model yet. It's more intelligent, better at sustained work on long-running tasks, and more reliable at following complex instructions. For the next week, we’re doubling the included usage of the model. 🔗 View Quoted Tweet 💬 4 🔄 7 ❤️ 129 👀 9873 📊 19 ⚡ Powered by xgo.ing",
+          "summaryZh": "FireworksAI 分享 Cursor **Composer 2/2.5** 的一些训练侧信号：称能力提升中约 **85% 计算量来自强化学习（RL）**，Fireworks 为 RL rollouts 提供算力/基础设施支持；并引用 Cursor 的说法称 **Composer 2.5** 更适合长任务持续工作、复杂指令跟随更可靠，且短期内“包含用量”翻倍。对关注编码助手进化路径的人，这条信息提示 RL 与 rollout 基建可能在产品迭代中占比上升。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "评测"
+          ],
+          "score": 65.95266307187252
+        },
+        {
+          "title": "Scientific data is often multimodal and complex. @altaratech is using OpenAI models to help scienti...",
+          "titleZh": "OpenAI 开发者案例：Altaratech 用 OpenAI 模型加速“AI for Science”多步研发流程",
+          "link": "https://x.com/OpenAIDevs/status/2056489138799681900",
+          "publishedAt": "Mon, 18 May 2026 21:36:33 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-20-2056489138799681900.mp4",
+          "summary": "Scientific data is often multimodal and complex. @altaratech is using OpenAI models to help scientists and engineers move through multi-step R&D workflows with more transparency. Catherine Yeo @catherinehyeo At the recent @OpenAIDevs Founder Day, I had fun chatting about how we use OpenAI's capabilities to scale scientific intelligence at @altaratech : - Helping scientists and engineers reason across complex, multimodal data - Parallelizing long-running workflows - Building trust through greater transparency If you're interested in tackling challenges in AI for science, we're hiring! (Link below) Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 19 🔄 34 ❤️ 338 👀 53162 📊 53 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Developers 分享 Altaratech 的实践：用 OpenAI 模型帮助科学家/工程师在多步 R&D 工作流里更透明地推进研究，包括跨复杂多模态数据的推理、并行化长耗时流程，以及用更高透明度建立信任。该案例来自 OpenAI Devs 的 Founder Day 分享，对做“科研助手/工程仿真/多模态实验记录”的团队提供了一个产品化切入点参考。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "多模态",
+            "视频"
+          ],
+          "score": 65.59837909762251
+        },
+        {
+          "title": "Thanks for the invite @Dell and @MichaelDell 🤝",
+          "titleZh": "NVIDIA 在 Dell Technologies World 活动露出（Jensen 签名/合照）",
+          "link": "https://x.com/NVIDIAAI/status/2056452261308694528",
+          "publishedAt": "Mon, 18 May 2026 19:10:00 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIn8C9TbQAAHqZU.jpg",
+          "video": "",
+          "summary": "Thanks for the invite @Dell and @MichaelDell 🤝 Dell Technologies @Dell Signed by Jensen at Dell Technologies World. Built for the future of agentic AI. 🚀 🔗 View Quoted Tweet 💬 19 🔄 60 ❤️ 931 👀 41073 📊 89 ⚡ Powered by xgo.ing",
+          "summaryZh": "NVIDIAAI 分享参加 Dell Technologies World 的活动动态，并展示 CEO Jensen 的签名/合照等现场信息。这类“合作伙伴活动信号”往往是后续联合发布、硬件/软件生态合作的前奏之一，但单条信息量有限，更适合与后续正式发布一起跟进。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 62.669703813258366
+        },
+        {
+          "title": "We’re also launching the Build with Gemini XPRIZE Hackathon. With a $2M prize pool, developers are ...",
+          "titleZh": "Google DeepMind 启动 Build with Gemini XPRIZE 黑客松：奖池 $200 万",
+          "link": "https://x.com/GoogleDeepMind/status/2056794085680468294",
+          "publishedAt": "Tue, 19 May 2026 17:48:18 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIsyqZUaYAA8GF2.jpg",
+          "video": "",
+          "summary": "We’re also launching the Build with Gemini XPRIZE Hackathon. With a $2M prize pool, developers are invited to use these tools to build real-world applications that tackle major global challenges, from reducing food waste to helping scientific research. Find out more → goo.gle/4nG9AHZ 💬 0 🔄 1 ❤️ 17 👀 2559 📊 3 ⚡ Powered by xgo.ing",
+          "summaryZh": "Google DeepMind 宣布推出 **Build with Gemini XPRIZE Hackathon**，设置 **$200 万** 奖金池，邀请开发者使用相关工具构建面向真实世界问题的应用（官方举例包括减少食物浪费、辅助科学研究等）。对想验证 Gemini 工具链与生态支持力度的团队，这类赛事信息可以用来判断“是否值得投入时间做 demo/原型”。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "开发者工具"
+          ],
+          "score": 60.73550995970896
+        },
+        {
+          "title": "With MCP tunnels, your agents reach MCP servers inside your private network without exposing them to...",
+          "titleZh": "Anthropic：通过 MCP tunnels 让 agent 访问私网 MCP 服务而无需暴露公网",
+          "link": "https://x.com/claudeai/status/2056645491207655584",
+          "publishedAt": "Tue, 19 May 2026 07:57:50 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIqrvdVXkAAWu9y.png",
+          "video": "",
+          "summary": "With MCP tunnels, your agents reach MCP servers inside your private network without exposing them to the public internet. 💬 9 🔄 20 ❤️ 464 👀 81554 📊 56 ⚡ Powered by xgo.ing",
+          "summaryZh": "Anthropic 进一步解释 **MCP tunnels** 的用途：让 agent 能够连接你私有网络里的 MCP server，但不需要把这些服务暴露到公网。对有内网数据源/工具链的团队，这种“私网可达”的机制能减少自建网关与暴露面，同时也更便于权限与审计体系对齐。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 60.681426289113745
+        },
+        {
+          "title": "You can now create more with Claude Design. We've doubled token limits across every plan.",
+          "titleZh": "Anthropic：Claude Design 可用；各订阅计划 token 上限翻倍",
+          "link": "https://x.com/claudeai/status/2056460045756309820",
+          "publishedAt": "Mon, 18 May 2026 19:40:56 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIoCL0qWYAAoF1E.jpg",
+          "video": "",
+          "summary": "You can now create more with Claude Design. We've doubled token limits across every plan. 💬 786 🔄 1115 ❤️ 18045 👀 1370078 📊 2608 ⚡ Powered by xgo.ing",
+          "summaryZh": "Anthropic 宣布上线 **Claude Design**，并表示所有订阅计划的 **token 限额翻倍**。对把 Claude 当作长任务编排/多轮设计协作工具的团队来说，额度上调通常会直接改善“长上下文 + 多轮迭代”的可用性与成本曲线，值得结合自身工作负载重新估算。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 60
+        },
+        {
+          "title": "Sorry we're late to the party, we brought a gift: 🪩 https://t.co/9OXD7i2ObF",
+          "titleZh": "Lovable 放出 “Discomorphism” 主题站点示例（偏复古霓虹 UI 风格）",
+          "link": "https://x.com/Lovable/status/2056510199691923890",
+          "publishedAt": "Mon, 18 May 2026 23:00:14 GMT",
+          "source": "Lovable(@lovable_dev)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HIoxCXqasAARBnE.jpg",
+          "video": "",
+          "summary": "Sorry we're late to the party, we brought a gift: 🪩 discomorphism.lovable.app F 💬 70 🔄 44 ❤️ 878 👀 48430 📊 169 ⚡ Powered by xgo.ing",
+          "summaryZh": "Lovable 分享一个名为 **discomorphism** 的站点示例（偏复古霓虹/迪斯科风 UI），作为其产品/模板生态的“礼物式”发布。这类可直接体验的主题示例对做产品原型与前端落地的人更有价值：可以快速评估风格一致性、组件完整度与可改造空间。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59.961324031198
+        },
+        {
+          "title": "Our biggest event of the year is almost here and we've got a virtual front-row seat saved just for y...",
+          "titleZh": "Google Gemini 提醒观看 Google I/O 直播（2026/5/19 10:00 PT）",
+          "link": "https://x.com/GeminiApp/status/2056536822986281012",
+          "publishedAt": "Tue, 19 May 2026 00:46:01 GMT",
+          "source": "Google Gemini App(@GeminiApp)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Our biggest event of the year is almost here and we've got a virtual front-row seat saved just for you. Join us to watch the 2026 #GoogleIO livestream tomorrow (5/19) at 10am PT: x.com/i/events/20532… 💬 108 🔄 234 ❤️ 1953 👀 216084 📊 355 ⚡ Powered by xgo.ing",
+          "summaryZh": "Google Gemini App 提醒用户观看 2026 年 Google I/O 的直播（**5/19 10:00 PT**）。这类官方“直播召集”通常意味着当天会有一批面向开发者与产品的集中发布；如果你需要第一时间评估新模型/新功能，建议关注直播窗口与后续官方博文/文档更新。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "云九资本沈文杰：VC 别把自己当 Nature 审稿人",
+          "titleZh": "云九资本沈文杰：VC 别把自己当 Nature 审稿人",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a0a92cde9161a38ce431464",
+          "publishedAt": "2026-05-18T03:59:15.000Z",
+          "source": "AI炼金术",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9mNTFhLWF1ZGlvZnJlZWhpZ2hxcHMvQjkvNzAvR01Db09TSUh2N0JGQUFWZ1B3SDNSN2VoLmpwZWc=.jpeg",
+          "video": "",
+          "summary": "云九资本沈文杰：VC 别把自己当 Nature 审稿人",
+          "summaryZh": "**讲了什么**：这一期来自 **AI炼金术**，主题是「云九资本沈文杰：VC 别把自己当 Nature 审稿人」。“科技大神们自己还在吵，VC 怎么判断哪条路对？” 我把这个一直困扰我的问题，抛给了沈文杰。沈文杰是老同事，云九资本董事总经理。2020 年，他打了一通 cold call，联合领投了壁仞科技——六年后的 2026 年 1 月，壁仞港股上市，成为“港股 GPU 第一股”。他的回答很直接：VC 别把自己当 Nature 审稿人，不要去做最牛的人都判断不了的事情。“投资里最重要的东西是共识。先把共识搞明白，而不是钻牛角尖说这个架构比那个架构好。” “知道哪些事情你没资格判断，才是最重要的判断。\n**简介要点**：\n- 这就是他为什么最近会去投一家做睡眠的公司：医生看睡眠会问你的所有问题，AI 都能答；再把判断主动反馈回温度、灯光、降噪，物理世界的闭环就闭合了。\n- 大模型让常识变得没有成本，这件事会重塑营销、零售、产品，甚至家纺店。\n- 如果你在投资或创业，正在被“半年翻一次天”的节奏拖着跑、不知道哪些事该自己想清楚、哪些事根本不该自己下判断——这一期值得听完。\n- OpenAI 出现之前，没人能从宏观推理出“应该投一个像 Transformer 这样的东西”。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "141. Freda的投资札记第2集：Tokenmaxxing、把电机塞进蒸汽机、接力赛变篮球赛、孤独、人的连接",
+          "titleZh": "141. Freda的投资札记第2集：Tokenmaxxing、把电机塞进蒸汽机、接力赛变篮球赛、孤独、人的连接",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a09d58b1b7bd502955258ab",
+          "publishedAt": "2026-05-18T00:00:00.000Z",
+          "source": "张小珺Jùn｜商业访谈录",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/nuzHJVCagytHsVtjj4x0zsuw2C9l.png",
+          "video": "",
+          "summary": "141. Freda的投资札记第2集：Tokenmaxxing、把电机塞进蒸汽机、接力赛变篮球赛、孤独、人的连接",
+          "summaryZh": "**讲了什么**：这一期来自 **张小珺Jùn｜商业访谈录**，主题是「141. Freda的投资札记第2集：Tokenmaxxing、把电机塞进蒸汽机、接力赛变篮球赛、孤独、人的连接」。今天是我们的系列节目《Freda的投资札记》第2集。可能有听众是第一次听我们的节目，那还是先介绍一下——Freda Duan在湾区做投资，是Altimeter Capital的合伙人。Altimeter是一个硅谷科技基金，横跨一二级。在一级市场投资案例有OpenAI、Anthropic、字节跳动等，在二级市场投资案例有英伟达、存储芯片、Snowflake、Robinhood等。在《Freda的投资札记》第1集，也就是我们的125集节目中，Freda深入分析了当下美国的明星公司，给他们的巨额投入算了算账；也探讨了美国资本新秩序，以及当时大家很关心的泡沫。\n**简介要点**：\n- 今天是我们的系列节目《Freda的投资札记》第2集。\n- 可能有听众是第一次听我们的节目，那还是先介绍一下——Freda Duan在湾区做投资，是Altimeter Capital的合伙人。\n- 在一级市场投资案例有OpenAI、Anthropic、字节跳动等，在二级市场投资案例有英伟达、存储芯片、Snowflake、Robinhood等。\n- 在《Freda的投资札记》第1集，也就是我们的125集节目中，Freda深入分析了当下美国的明星公司，给他们的巨额投入算了算账；也探讨了美国资本新秩序，以及当时大家很关心的泡沫。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "140. 对姚顺宇的4小时访谈：请允许我小疯一下！在Anthropic和Gemini训模型、技术预测、英雄主义已过去",
+          "titleZh": "140. 对姚顺宇的4小时访谈：请允许我小疯一下！在Anthropic和Gemini训模型、技术预测、英雄主义已过去",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a00aa051b7bd50295dfe41d",
+          "publishedAt": "2026-05-11T00:00:00.000Z",
+          "source": "张小珺Jùn｜商业访谈录",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/nuzHJVCagytHsVtjj4x0zsuw2C9l.png",
+          "video": "",
+          "summary": "140. 对姚顺宇的4小时访谈：请允许我小疯一下！在Anthropic和Gemini训模型、技术预测、英雄主义已过去",
+          "summaryZh": "**讲了什么**：这一期来自 **张小珺Jùn｜商业访谈录**，主题是「140. 对姚顺宇的4小时访谈：请允许我小疯一下！在Anthropic和Gemini训模型、技术预测、英雄主义已过去」。姚顺宇戴了一副茶色眼镜走过来，这副眼镜会随光线变化而改变颜色。硅谷AI业界有两位Yao Shunyu，他们曾是清华同一届毕业生，这让姚顺雨与姚顺宇时常成为话题人物。前一位姚顺雨2025年从OpenAI跳槽到腾讯，他去年来过我们节目（第115集）；后一位姚顺宇也于同年跳槽，从Anthropic来到Google DeepMind。今天的嘉宾姚顺宇，毕业于清华和斯坦福大学，曾经的研究方向是理论物理——非厄米系统、量子物理与高能物理。他的人生奋斗姿态是——“总想挑战一些自己不太会的事”。他人生最大的一次跨步是博士毕业，毅然决然离开深造9年的物理，来到崭新的AI行业。\n**简介要点**：\n- 硅谷AI业界有两位Yao Shunyu，他们曾是清华同一届毕业生，这让姚顺雨与姚顺宇时常成为话题人物。\n- 前一位姚顺雨2025年从OpenAI跳槽到腾讯，他去年来过我们节目（第115集）；后一位姚顺宇也于同年跳槽，从Anthropic来到Google DeepMind。\n- 他人生最大的一次跨步是博士毕业，毅然决然离开深造9年的物理，来到崭新的AI行业。\n- 过去两年，他先后在Anthropic和Google DeepMind出任研究科学家，参与了Claude 3.7、4.5、Gemini 3等关键模型的开发过程。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "模型"
+          ],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "summaryBullets": [
+    "Google DeepMind 发布 **Gemini 3.5** 系列，首发 **3.5 Flash** 主打智能体与编程。",
+    "DeepMind 推出 **Gemini Omni**，把“多模态生成”先落到 **视频生成/编辑**。",
+    "Google 调整订阅价格：**AI Ultra** 降至 **200 美元/月**，新增 **100 美元/月** Ultra 档，并称 Gemini App 额度提升 **5 倍**（对比 Pro）。",
+    "Anthropic 为 Claude Managed Agents 上线 **自托管沙盒（公测）** 与 **MCP tunnels（预览）**，强调私网可达与安全边界可控。",
+    "Weaviate、Milvus、Qdrant 围绕 **多模态检索/重排/过滤** 给出可复现示例与工程化路线。"
+  ]
+}
