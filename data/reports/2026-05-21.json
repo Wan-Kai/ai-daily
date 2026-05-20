@@ -1,0 +1,670 @@
+{
+  "date": "2026-05-21",
+  "generatedAt": "2026-05-20T18:34:12.071Z",
+  "title": "AI 日报 - 2026-05-21",
+  "stats": {
+    "sources": 133,
+    "fetched": 1019,
+    "emailCandidates": 0,
+    "selected": 34,
+    "failures": 1
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Today, we launched a brand-new intelligent Search box. Here's what that means: An upgrade to the ...",
+          "titleZh": "Google 上线智能 Search 入口：Gemini 3.5 驱动的对话式 AI 搜索",
+          "link": "https://x.com/GoogleAI/status/2056845506601718271",
+          "publishedAt": "Tue, 19 May 2026 21:12:37 GMT",
+          "source": "Google AI(@GoogleAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-21-2056845506601718271.mp4",
+          "summary": "Google 宣布上线新的智能 Search 输入框/体验：基于 Gemini 3.5，引入更强的 agentic 能力。支持 文本/图片/文件/视频 多模态混合提问，Search 会在同一条对话里跨模态推理，并支持持续追问与上下文累积。 官方还表示将 AI Overviews 与 AI Mode 合并成一套更“连续”的 AI 搜索体验，已在 桌面端与移动端全球 推出。对内容分发与搜索入口形态的变化值得持续关注。",
+          "summaryZh": "Google 宣布上线新的智能 Search 输入框/体验：基于 **Gemini 3.5**，引入更强的 **agentic** 能力。支持 **文本/图片/文件/视频** 多模态混合提问，Search 会在同一条对话里跨模态推理，并支持持续追问与上下文累积。 官方还表示将 **AI Overviews** 与 **AI Mode** 合并成一套更“连续”的 AI 搜索体验，已在 **桌面端与移动端全球** 推出。对内容分发与搜索入口形态的变化值得持续关注。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "视频",
+            "图像"
+          ],
+          "score": 80.094369812715
+        },
+        {
+          "title": "Most language models only generate one token at a time. We just released Nemotron-Labs-Diffusion, a...",
+          "titleZh": "NVIDIA 发布 Nemotron-Labs-Diffusion：扩散式语言模型（3B–14B，含视觉语言版本）",
+          "link": "https://x.com/NVIDIAAI/status/2056887241432014959",
+          "publishedAt": "Tue, 19 May 2026 23:58:28 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-21-2056887241432014959.mp4",
+          "summary": "NVIDIA 发布 Nemotron-Labs-Diffusion 扩散式语言模型家族：与逐 token 自回归不同，它在单次迭代里 并行生成多个 token，并允许在生成过程中“回看并修正”，以更好利用现代 GPU、提升推理吞吐。 官方披露该家族覆盖 3B–14B，并包含 vision-language 变体；面向需要更高吞吐/更低延迟的部署场景，值得关注其质量-速度权衡与推理成本表现。",
+          "summaryZh": "NVIDIA 发布 **Nemotron-Labs-Diffusion** 扩散式语言模型家族：与逐 token 自回归不同，它在单次迭代里 **并行生成多个 token**，并允许在生成过程中“回看并修正”，以更好利用现代 GPU、提升推理吞吐。 官方披露该家族覆盖 **3B–14B**，并包含 **vision-language** 变体；面向需要更高吞吐/更低延迟的部署场景，值得关注其质量-速度权衡与推理成本表现。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "推理部署"
+          ],
+          "score": 77
+        },
+        {
+          "title": "🚀 The team at @Google just released the Agents API, a service for building and running custom agent...",
+          "titleZh": "LlamaIndex 基于 Google Agents API 发布模板：让 Agent 直接用 LlamaParse/LiteParse 处理文档",
+          "link": "https://x.com/llama_index/status/2056843639196700729",
+          "publishedAt": "Tue, 19 May 2026 21:05:12 GMT",
+          "source": "LlamaIndex (@llama_index)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-21-2056843639196700729.mp4",
+          "summary": "LlamaIndex 围绕 Google 新发布的 Agents API（在沙箱化 Linux 环境中运行自定义 agent）给出一套模板，让 agent 具备 LlamaParse / LiteParse 能力，用于自动处理“脏乱真实”的非结构化文档。 模板流程包括：配置用于存放数据/产出的 Git 仓库 → 在 agent 沙箱中 clone → 安装 LiteParse CLI、LlamaParse SDK 与相关技能 → 直接用自然语言下达任务，让 agent 自主解析并产出结果。适合想把文档解析能力接入 agent runtime 的团队参考。",
+          "summaryZh": "LlamaIndex 围绕 Google 新发布的 **Agents API**（在沙箱化 Linux 环境中运行自定义 agent）给出一套模板，让 agent 具备 **LlamaParse / LiteParse** 能力，用于自动处理“脏乱真实”的非结构化文档。 模板流程包括：配置用于存放数据/产出的 Git 仓库 → 在 agent 沙箱中 clone → 安装 LiteParse CLI、LlamaParse SDK 与相关技能 → 直接用自然语言下达任务，让 agent 自主解析并产出结果。适合想把文档解析能力接入 agent runtime 的团队参考。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "API",
+            "智能体",
+            "开源",
+            "视频"
+          ],
+          "score": 73.91340508999379
+        },
+        {
+          "title": "We partnered with artists, designers, and builders to create new AI tools that solve real problems i...",
+          "titleZh": "Google 创作类 AI 工具更新：Workspace 图片编辑、Flow Agent、Stitch 语音改版等",
+          "link": "https://x.com/GoogleAI/status/2057128296538861943",
+          "publishedAt": "Wed, 20 May 2026 15:56:20 GMT",
+          "source": "Google AI(@GoogleAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-21-2057128296538861943.mp4",
+          "summary": "Google 宣布面向创作工作流的一组 AI 更新，重点包括： - Google Workspace「Google Pics」：图片创建与编辑（移动/缩放对象、加文字、翻译等交互） - Google Flow：新增支持 Gemini Omni Flash；推出 Flow Agent 作为多步创作伙伴；并提供可“vibe code”的 Flow Tools 用于动画、视频特效、文字层等 - Stitch：支持用 文字或语音 实时编辑布局，并可导出为代码 - Flow Music：更细粒度的音乐编辑（分段编辑、整曲风格 remix 等） 如果你在做生成式创作产品/工作流工具，这类“多步协作 + 可编程工具”的组合值得跟进。",
+          "summaryZh": "Google 宣布面向创作工作流的一组 AI 更新，重点包括： - **Google Workspace「Google Pics」**：图片创建与编辑（移动/缩放对象、加文字、翻译等交互） - **Google Flow**：新增支持 **Gemini Omni Flash**；推出 **Flow Agent** 作为多步创作伙伴；并提供可“vibe code”的 **Flow Tools** 用于动画、视频特效、文字层等 - **Stitch**：支持用 **文字或语音** 实时编辑布局，并可导出为代码 - **Flow Music**：更细粒度的音乐编辑（分段编辑、整曲风格 remix 等） 如果你在做生成式创作产品/工作流工具，这类“多步协作 + 可编程工具”的组合值得跟进。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "语音",
+            "视频",
+            "图像"
+          ],
+          "score": 71.69205131404158
+        },
+        {
+          "title": "Introducing: Cohere Command A+ We’ve created our most powerful LLM yet, optimized it to run on as l...",
+          "titleZh": "Cohere 发布并开源 Command A+：强调更省硬件的高性能 LLM",
+          "link": "https://x.com/cohere/status/2057120818551734589",
+          "publishedAt": "Wed, 20 May 2026 15:26:37 GMT",
+          "source": "cohere(@cohere)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-21-2057120818551734589.mp4",
+          "summary": "Cohere 发布 Command A+，并表示这是其“最强”的大模型版本之一，同时重点优化为 更少硬件即可运行，并以 开源 形式提供。 对企业/开发者来说，这类“高性能 + 更低硬件门槛”的 LLM 方向，可能会直接影响自建推理与本地/私有化部署的成本曲线。",
+          "summaryZh": "Cohere 发布 **Command A+**，并表示这是其“最强”的大模型版本之一，同时重点优化为 **更少硬件即可运行**，并以 **开源** 形式提供。 对企业/开发者来说，这类“高性能 + 更低硬件门槛”的 LLM 方向，可能会直接影响自建推理与本地/私有化部署的成本曲线。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "视频"
+          ],
+          "score": 70.06131715445937
+        },
+        {
+          "title": "Gemini 3.5 Flash 🤝 @Antigravity Watch how the model deploys multiple subagents to design and build...",
+          "titleZh": "Gemini 3.5 Flash 多智能体演示：子代理协作完成城市设计/搭建",
+          "link": "https://x.com/GoogleDeepMind/status/2056826903957504136",
+          "publishedAt": "Tue, 19 May 2026 19:58:42 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-21-2056826903957504136.mp4",
+          "summary": "Google DeepMind 展示 Gemini 3.5 Flash 的多智能体能力：模型在视频 demo 中调度多个子代理（subagents），协作完成一座“城市”的设计与搭建。 这类演示本身不等同于产品能力落地，但能帮助理解 Google 在“agent-first”交互与多步骤任务编排上的方向。",
+          "summaryZh": "Google DeepMind 展示 **Gemini 3.5 Flash** 的多智能体能力：模型在视频 demo 中调度多个子代理（subagents），协作完成一座“城市”的设计与搭建。 这类演示本身不等同于产品能力落地，但能帮助理解 Google 在“agent-first”交互与多步骤任务编排上的方向。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "视频"
+          ],
+          "score": 68
+        },
+        {
+          "title": "Introducing OpenAI Guaranteed Capacity: a new offering that enables customers to guarantee long-term...",
+          "titleZh": "OpenAI 推出 Guaranteed Capacity：企业可预留的长期算力供给方案",
+          "link": "https://x.com/OpenAI/status/2056823271774101907",
+          "publishedAt": "Tue, 19 May 2026 19:44:16 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "OpenAI 发布 Guaranteed Capacity：面向需要长期稳定供给的客户，提供可用于 保障长期访问 OpenAI 计算资源 的新方案。官方强调其建立在基础设施投入、合作伙伴关系与容量规划之上，帮助客户在“算力受限”的环境里为关键工作负载提前做计划。 对大规模上线/峰值业务（尤其是推理与批处理并存的场景）而言，“可预留容量”会直接影响可用性与成本可预测性。",
+          "summaryZh": "OpenAI 发布 **Guaranteed Capacity**：面向需要长期稳定供给的客户，提供可用于 **保障长期访问 OpenAI 计算资源** 的新方案。官方强调其建立在基础设施投入、合作伙伴关系与容量规划之上，帮助客户在“算力受限”的环境里为关键工作负载提前做计划。 对大规模上线/峰值业务（尤其是推理与批处理并存的场景）而言，“可预留容量”会直接影响可用性与成本可预测性。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 67
+        },
+        {
+          "title": "By now, you've probably heard about Gemini Omni, our new model designed to create anything from any ...",
+          "titleZh": "Google 解释 Gemini Omni：从视频起步的多模态“任意输入生成任意内容”模型",
+          "link": "https://x.com/GoogleAI/status/2056816653770625406",
+          "publishedAt": "Tue, 19 May 2026 19:17:58 GMT",
+          "source": "Google AI(@GoogleAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-21-2056816653770625406.mp4",
+          "summary": "Google 用一条线程解释 Gemini Omni：官方将其定位为“从任何输入生成任何内容”的多模态模型，并从 视频 作为起点展开说明。 如果 Gemini Omni 的能力与成本能够在更多产品线落地，它可能会影响创作工具、搜索与生产力套件对多模态生成/编辑的默认交互方式。",
+          "summaryZh": "Google 用一条线程解释 **Gemini Omni**：官方将其定位为“从任何输入生成任何内容”的多模态模型，并从 **视频** 作为起点展开说明。 如果 Gemini Omni 的能力与成本能够在更多产品线落地，它可能会影响创作工具、搜索与生产力套件对多模态生成/编辑的默认交互方式。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 65
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Gemini 3.5 Flash: more expensive, but Google plan to use it for everything",
+          "titleZh": "Simon Willison 解读 Gemini 3.5 Flash：更贵，但 Google 打算“到处用”",
+          "link": "https://simonwillison.net/2026/May/19/gemini-35-flash/#atom-everything",
+          "publishedAt": "2026-05-19T22:40:25+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://static.simonwillison.net/static/2026/gemini-3.5-flash.png",
+          "video": "",
+          "summary": "核心要点：Simon Willison 认为，Google 在 I/O 上把 Gemini 3.5 Flash 直接推到通用可用（不再是 preview），并计划把它作为多个关键产品的默认底座；与此同时，它的定价也更偏“高配”。 展开说明：文章梳理了 Google 宣称的覆盖面（面向消费者的 Gemini App、Search 的 AI Mode、以及面向开发者的 agent-first 平台等），并强调他更倾向只讨论“已经能亲自试到”的 GA 能力，以避免预览版与最终发布不一致。 我的判断：当一个模型被官方定位为“主力通用底座”时，它对生态的影响往往不来自单点能力，而来自默认分发与成本曲线；建议同时关注价格、速率限制与与现有 3.5 系列的差异。",
+          "summaryZh": "**核心要点**：Simon Willison 认为，Google 在 I/O 上把 **Gemini 3.5 Flash** 直接推到通用可用（不再是 preview），并计划把它作为多个关键产品的默认底座；与此同时，它的定价也更偏“高配”。 **展开说明**：文章梳理了 Google 宣称的覆盖面（面向消费者的 Gemini App、Search 的 AI Mode、以及面向开发者的 agent-first 平台等），并强调他更倾向只讨论“已经能亲自试到”的 GA 能力，以避免预览版与最终发布不一致。 **我的判断**：当一个模型被官方定位为“主力通用底座”时，它对生态的影响往往不来自单点能力，而来自默认分发与成本曲线；建议同时关注价格、速率限制与与现有 3.5 系列的差异。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "推理能力"
+          ],
+          "score": 44
+        },
+        {
+          "title": "TwinRouterBench: Fast Static and Live Dynamic Evaluation for Realistic Agentic LLM Routing",
+          "titleZh": "论文：TwinRouterBench——更贴近真实 Agent 的 LLM 路由评测基准",
+          "link": "https://arxiv.org/abs/2605.18859",
+          "publishedAt": "Wed, 20 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "核心结论：论文提出 TwinRouterBench，用于评测“给长链路 Agent 做 LLM 路由（routing）”的策略：在编码代理、深度研究、电脑操作等场景里，一次用户请求会触发多次模型调用，若能把每一步路由到“最便宜但仍足够好”的模型，就可能在不显著降质的前提下降低成本。作者指出，现有路由基准大多只测 单轮提示词，很难覆盖真实 Agent 的中间步骤与上下文前缀。 支撑证据：基准包含 静态（static） 与 在线动态（live dynamic） 两类评测设置，强调在“中间步骤”暴露路由器可见的前缀信息（router-visible prefix），并检查在多步链路里替换为更便宜模型是否会破坏最终任务质量。 我的判断：对做 多模型编排/成本优化 的团队很实用——路由策略在单轮上看起来有效，并不代表在多步链路里不会放大误差；建议进一步关注其任务覆盖面（代码、工具调用、浏览器使用等）与可复现性。",
+          "summaryZh": "**核心结论**：论文提出 **TwinRouterBench**，用于评测“给长链路 Agent 做 LLM 路由（routing）”的策略：在编码代理、深度研究、电脑操作等场景里，一次用户请求会触发多次模型调用，若能把每一步路由到“最便宜但仍足够好”的模型，就可能在不显著降质的前提下降低成本。作者指出，现有路由基准大多只测 **单轮提示词**，很难覆盖真实 Agent 的中间步骤与上下文前缀。 **支撑证据**：基准包含 **静态（static）** 与 **在线动态（live dynamic）** 两类评测设置，强调在“中间步骤”暴露路由器可见的前缀信息（router-visible prefix），并检查在多步链路里替换为更便宜模型是否会破坏最终任务质量。 **我的判断**：对做 **多模型编排/成本优化** 的团队很实用——路由策略在单轮上看起来有效，并不代表在多步链路里不会放大误差；建议进一步关注其任务覆盖面（代码、工具调用、浏览器使用等）与可复现性。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "评测"
+          ],
+          "score": 43
+        },
+        {
+          "title": "STAR-P\\'olyaMath: Multi-Agent Reasoning under Persistent Meta-Strategic Supervision",
+          "titleZh": "论文：STAR-P'olyaMath——用持续“元策略监督”提升多智能体长链路数学推理可靠性",
+          "link": "https://arxiv.org/abs/2605.19338",
+          "publishedAt": "Wed, 20 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "核心结论：论文提出 STAR-P'olyaMath，一种面向长链路数学推理的多智能体框架，目标是缓解三类常见可靠性问题：幻觉累积、记忆碎片化、以及推理与工具使用之间的失衡。作者的核心思路是引入“持续的 meta-strategic supervision（元策略监督）”，让多 agent 在长推理轨迹中更稳定地保持策略与分工。 支撑证据：论文将该框架用于需要更长推理过程的数学问题，并以实验结果说明其在长程推理稳定性方面相对既有多智能体系统有提升（摘要层面给出了问题与方法主张）。 我的判断：如果你在做“多 agent + 工具”的数学/证明/求解类系统，这个“元控制层”思路值得借鉴；但工程落地要重点核对：监督信号如何产生、额外算力/调用开销多大、以及在更开放的真实题型中是否仍稳。",
+          "summaryZh": "**核心结论**：论文提出 **STAR-P'olyaMath**，一种面向长链路数学推理的多智能体框架，目标是缓解三类常见可靠性问题：**幻觉累积**、**记忆碎片化**、以及推理与工具使用之间的失衡。作者的核心思路是引入“持续的 **meta-strategic supervision（元策略监督）**”，让多 agent 在长推理轨迹中更稳定地保持策略与分工。 **支撑证据**：论文将该框架用于需要更长推理过程的数学问题，并以实验结果说明其在长程推理稳定性方面相对既有多智能体系统有提升（摘要层面给出了问题与方法主张）。 **我的判断**：如果你在做“多 agent + 工具”的数学/证明/求解类系统，这个“元控制层”思路值得借鉴；但工程落地要重点核对：监督信号如何产生、额外算力/调用开销多大、以及在更开放的真实题型中是否仍稳。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "评测",
+            "论文"
+          ],
+          "score": 41
+        },
+        {
+          "title": "Google I/O, Gemini Spark, Antigravity",
+          "titleZh": "Simon Willison 复盘 Google I/O：更关注 GA 落地，点名 Gemini Spark 等“coming soon”信号",
+          "link": "https://simonwillison.net/2026/May/20/google-io/#atom-everything",
+          "publishedAt": "2026-05-20T15:32:17+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "核心要点：Simon Willison 表示他很难为今年的 Google I/O 写太多，因为很多内容仍是“coming soon”，而他更愿意讨论自己能实际试到的 GA 能力。 展开说明：文章在回看 Gemini 3.5 Flash 之外，也提到他更感兴趣的方向之一是 Google 计划推出的 Gemini Spark（被他类比为 OpenClaw 的竞品方向）以及与 “Antigravity” 等相关的 agent/工具生态信号。 我的判断：这类“发布会密集预告”更适合作为路线图线索；真正评估产品与技术价值，仍要等到可用性、定价与限制条件明确后再下结论。",
+          "summaryZh": "**核心要点**：Simon Willison 表示他很难为今年的 Google I/O 写太多，因为很多内容仍是“coming soon”，而他更愿意讨论自己能实际试到的 GA 能力。 **展开说明**：文章在回看 Gemini 3.5 Flash 之外，也提到他更感兴趣的方向之一是 Google 计划推出的 **Gemini Spark**（被他类比为 OpenClaw 的竞品方向）以及与 “Antigravity” 等相关的 agent/工具生态信号。 **我的判断**：这类“发布会密集预告”更适合作为路线图线索；真正评估产品与技术价值，仍要等到可用性、定价与限制条件明确后再下结论。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "开源"
+          ],
+          "score": 36
+        },
+        {
+          "title": "Multimodal evaluators: MLLM-as-a-judge for image-to-text tasks in Strands Evals",
+          "titleZh": "AWS：用 MLLM-as-a-judge 做图文任务评测（Strands Evals 的多模态 evaluator）",
+          "link": "https://aws.amazon.com/blogs/machine-learning/multimodal-evaluators-mllm-as-a-judge-for-image-to-text-tasks-in-strands-evals/",
+          "publishedAt": "Wed, 20 May 2026 18:01:29 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/19/ML-21039-1.jpg",
+          "video": "",
+          "summary": "核心要点：AWS 讨论了在视觉电商、图片/文档理解、图表分析等任务里，如何验证模型回答是否真的“基于输入图像/文档”而不是胡编。 展开说明：文章指出文本 evaluator 很难判断图片描述是否忠实、发票金额是否与原文一致、屏幕摘要是否遗漏关键信息；因此介绍在 Strands Evals 中使用 多模态大模型作为 judge（MLLM-as-a-judge） 的评测思路，用于图像到文本类任务的自动化质量检查。 我的判断：多模态应用走向生产后，评测/回归测试会变成“隐形成本中心”；尽早把 judge-eval 体系工程化，能显著降低线上质量波动的排查成本。",
+          "summaryZh": "**核心要点**：AWS 讨论了在视觉电商、图片/文档理解、图表分析等任务里，如何验证模型回答是否真的“基于输入图像/文档”而不是胡编。 **展开说明**：文章指出文本 evaluator 很难判断图片描述是否忠实、发票金额是否与原文一致、屏幕摘要是否遗漏关键信息；因此介绍在 **Strands Evals** 中使用 **多模态大模型作为 judge（MLLM-as-a-judge）** 的评测思路，用于图像到文本类任务的自动化质量检查。 **我的判断**：多模态应用走向生产后，评测/回归测试会变成“隐形成本中心”；尽早把 judge-eval 体系工程化，能显著降低线上质量波动的排查成本。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "多模态",
+            "语音",
+            "图像"
+          ],
+          "score": 34
+        },
+        {
+          "title": "Build real-time voice applications with Amazon SageMaker AI and vLLM",
+          "titleZh": "AWS：用 SageMaker AI + vLLM 搭建实时语音应用（流式 STT/低延迟推理）",
+          "link": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-amazon-sagemaker-ai-and-vllm/",
+          "publishedAt": "Wed, 20 May 2026 17:10:17 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/08/ML-20779-2.jpg",
+          "video": "",
+          "summary": "核心要点：AWS 介绍如何构建实时语音场景（语音 agent、直播字幕、呼叫中心分析、无障碍工具等）所需的 流式语音转文字（STT） 能力。 展开说明：文章强调传统“请求-响应”推理会因为必须等完整音频上传而引入高延迟，不适合实时交互；因此以 单条持久连接 的方式实现音频流入、文本流出，并给出基于 Amazon SageMaker AI 与 vLLM 的实现思路与工程要点。 我的判断：实时语音系统的瓶颈往往不在模型本身，而在端到端链路（连接、分片、队列、回压与稳定性）；这类工程化方案对想落地语音 agent 的团队更有参考价值。",
+          "summaryZh": "**核心要点**：AWS 介绍如何构建实时语音场景（语音 agent、直播字幕、呼叫中心分析、无障碍工具等）所需的 **流式语音转文字（STT）** 能力。 **展开说明**：文章强调传统“请求-响应”推理会因为必须等完整音频上传而引入高延迟，不适合实时交互；因此以 **单条持久连接** 的方式实现音频流入、文本流出，并给出基于 **Amazon SageMaker AI** 与 **vLLM** 的实现思路与工程要点。 **我的判断**：实时语音系统的瓶颈往往不在模型本身，而在端到端链路（连接、分片、队列、回压与稳定性）；这类工程化方案对想落地语音 agent 的团队更有参考价值。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "推理部署",
+            "语音"
+          ],
+          "score": 31
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "can1357/oh-my-pi",
+          "titleZh": "开源：oh-my-pi——面向终端的 AI 编程代理（hash 锚点编辑、LSP 等）",
+          "link": "https://github.com/can1357/oh-my-pi",
+          "publishedAt": "2026-05-20T18:34:12.071Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://camo.githubusercontent.com/3dbe99b01a010edabf6de5364489a1c61bbb4cb59a689748fc4906c3243f8604/68747470733a2f2f6f6d702e73682f63617074757265732f6c73702e77656270",
+          "video": "",
+          "summary": "开源项目 oh-my-pi：定位为终端里的 AI Coding agent，强调 hash-anchored edits（基于哈希锚点的稳定编辑） 与更高效的工具编排。 简介中提到支持 LSP、Python、浏览器能力与子代理等组件；如果你在评估“终端式编程代理/Claude Code 类工作流”，可以把它当作实现参考或对照样本。",
+          "summaryZh": "开源项目 **oh-my-pi**：定位为终端里的 AI Coding agent，强调 **hash-anchored edits（基于哈希锚点的稳定编辑）** 与更高效的工具编排。 简介中提到支持 **LSP**、Python、浏览器能力与子代理等组件；如果你在评估“终端式编程代理/Claude Code 类工作流”，可以把它当作实现参考或对照样本。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "multica-ai/andrej-karpathy-skills",
+          "titleZh": "开源：andrej-karpathy-skills——把 Karpathy 的编程建议整理成一份 CLAUDE.md 提示词",
+          "link": "https://github.com/multica-ai/andrej-karpathy-skills",
+          "publishedAt": "2026-05-20T18:34:12.071Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/f28d7265a1c28a2a9c514ea9b108e8ab5d05e776e856a68fb0b7fb3ca3f0ff1c/multica-ai/andrej-karpathy-skills",
+          "video": "",
+          "summary": "这个仓库提供一份可直接复用的 CLAUDE.md：把 Andrej Karpathy 对“LLM 写代码常见坑”的观察整理成规则与提示，用于改善 Claude Code 一类编程助手的行为（例如减少跑偏、提高改动可控性）。 适合团队把它当作“工程协作规范 + LLM 指令模板”进行二次裁剪。",
+          "summaryZh": "这个仓库提供一份可直接复用的 **CLAUDE.md**：把 Andrej Karpathy 对“LLM 写代码常见坑”的观察整理成规则与提示，用于改善 Claude Code 一类编程助手的行为（例如减少跑偏、提高改动可控性）。 适合团队把它当作“工程协作规范 + LLM 指令模板”进行二次裁剪。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "One image + text + camera trajectory = controllable worlds. All on a single GPU. Our research team...",
+          "titleZh": "NVIDIA 开源 SANA-WM：2.6B 世界模型，单 GPU 生成 60 秒可控镜头视频",
+          "link": "https://x.com/NVIDIAAI/status/2056806466317701446",
+          "publishedAt": "Tue, 19 May 2026 18:37:29 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-21-2056806466317701446.mp4",
+          "summary": "NVIDIA 团队发布并开源 SANA-WM：一个 2.6B 参数的世界模型，主打在 单张图片 + 文本 + 相机运动轨迹 条件下生成“可控世界”，并支持 60 秒 视频生成与更精确的镜头控制。 如果你在做视频生成或可控镜头/3D 场景相关方向，这类“显式相机轨迹条件 + 长时长生成”的路线值得关注其质量、速度与算力门槛。",
+          "summaryZh": "NVIDIA 团队发布并开源 **SANA-WM**：一个 **2.6B** 参数的世界模型，主打在 **单张图片 + 文本 + 相机运动轨迹** 条件下生成“可控世界”，并支持 **60 秒** 视频生成与更精确的镜头控制。 如果你在做视频生成或可控镜头/3D 场景相关方向，这类“显式相机轨迹条件 + 长时长生成”的路线值得关注其质量、速度与算力门槛。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "开源",
+            "视频",
+            "图像"
+          ],
+          "score": 82
+        },
+        {
+          "title": "People are generating over 1.5 billion images a week in ChatGPT. Researcher @kenjihata joins Produc...",
+          "titleZh": "OpenAI：ChatGPT 每周生成超 15 亿张图片，团队聊 Images 2.0 新用例与趋势",
+          "link": "https://x.com/OpenAI/status/2056849157860831239",
+          "publishedAt": "Tue, 19 May 2026 21:27:08 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "OpenAI 提到：用户在 ChatGPT 中每周生成 超过 15 亿张图片。同时官方发布一段对谈视频，由研究员 Kenji Hata 与产品负责人 Adele Li、主持人 Andrew Mayne 一起讨论 Images 2.0 上线后的新用例与趋势。 “生成规模”本身也在提示：图像生成正在从小众能力转向高频基础能力，后续更值得看的是工作流整合、质量评测与商业化路径。",
+          "summaryZh": "OpenAI 提到：用户在 ChatGPT 中每周生成 **超过 15 亿张图片**。同时官方发布一段对谈视频，由研究员 **Kenji Hata** 与产品负责人 **Adele Li**、主持人 **Andrew Mayne** 一起讨论 **Images 2.0** 上线后的新用例与趋势。 “生成规模”本身也在提示：图像生成正在从小众能力转向高频基础能力，后续更值得看的是工作流整合、质量评测与商业化路径。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "视频",
+            "图像"
+          ],
+          "score": 76
+        },
+        {
+          "title": "Starting today, use your Grok or X Premium subscription in @openclaw. Chat with your agent, genera...",
+          "titleZh": "xAI：OpenClaw 支持 Grok / X Premium 订阅接入（聊天、图像/视频生成、搜索 X）",
+          "link": "https://x.com/xai/status/2056826183745253663",
+          "publishedAt": "Tue, 19 May 2026 19:55:50 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HItPgbDbUAAh-2G.jpg",
+          "video": "",
+          "summary": "xAI 宣布：从今天起，可以在 openclaw 中直接使用 Grok 或 X Premium 订阅。官方描述的能力包括：与 agent 对话、生成图片与视频，以及搜索 X 平台帖子。 对第三方 agent 产品来说，订阅体系与模型/数据源的“可迁移性”会直接影响获客与留存，这类接入值得关注其功能边界与计费策略。",
+          "summaryZh": "xAI 宣布：从今天起，可以在 **openclaw** 中直接使用 **Grok** 或 **X Premium** 订阅。官方描述的能力包括：与 agent 对话、生成图片与视频，以及搜索 X 平台帖子。 对第三方 agent 产品来说，订阅体系与模型/数据源的“可迁移性”会直接影响获客与留存，这类接入值得关注其功能边界与计费策略。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频",
+            "图像"
+          ],
+          "score": 67
+        },
+        {
+          "title": "Your laptop can stay home. Work with Codex from the ChatGPT mobile app, answer questions on the go,...",
+          "titleZh": "OpenAI Devs：ChatGPT 手机 App 可用 Codex，支持移动端接续桌面线程",
+          "link": "https://x.com/OpenAIDevs/status/2057142816497906045",
+          "publishedAt": "Wed, 20 May 2026 16:54:01 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-21-2057142816497906045.mp4",
+          "summary": "OpenAI Devs 表示：现在可以在 ChatGPT 手机 App 里使用 Codex，在移动端处理问题/继续对话，并在电脑端无缝接续同一条线程。 对需要随时随地跟进代码审查、排障或任务拆解的开发者来说，“跨端连续上下文”会显著降低碎片时间使用门槛。",
+          "summaryZh": "OpenAI Devs 表示：现在可以在 **ChatGPT 手机 App** 里使用 **Codex**，在移动端处理问题/继续对话，并在电脑端无缝接续同一条线程。 对需要随时随地跟进代码审查、排障或任务拆解的开发者来说，“跨端连续上下文”会显著降低碎片时间使用门槛。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 64.45280739716961
+        },
+        {
+          "title": "Avatar V from @HeyGen is now on Replicate Create realistic, studio-quality videos with preserved id...",
+          "titleZh": "Replicate 上线 HeyGen Avatar V：强调身份一致与长脚本表情/动作质量",
+          "link": "https://x.com/replicate/status/2056813468909474249",
+          "publishedAt": "Tue, 19 May 2026 19:05:19 GMT",
+          "source": "Replicate(@replicate)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-21-2056813468909474249.mp4",
+          "summary": "Replicate 宣布上线 HeyGen Avatar V：主打生成“更真实、棚拍质感”的数字人视频，并强调 身份保持、更好的动作质量与更连贯的表情（尤其是更长脚本），以及多机位能力下的角色一致性。 数字人视频正在从 Demo 走向可批量生产的“内容资产”，这类 API 的稳定性、成本与合规边界会成为关键差异点。",
+          "summaryZh": "Replicate 宣布上线 **HeyGen Avatar V**：主打生成“更真实、棚拍质感”的数字人视频，并强调 **身份保持**、更好的动作质量与更连贯的表情（尤其是更长脚本），以及多机位能力下的角色一致性。 数字人视频正在从 Demo 走向可批量生产的“内容资产”，这类 API 的稳定性、成本与合规边界会成为关键差异点。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "评测",
+            "开发者工具",
+            "视频"
+          ],
+          "score": 63.40841811689181
+        },
+        {
+          "title": "Scott Wu (@ScottWu46) runs @cognition, the team behind Devin, an AI software engineer built on Claud...",
+          "titleZh": "Cognition CEO Scott Wu 谈 Devin：希望让团队写软件提速 10 倍",
+          "link": "https://x.com/claudeai/status/2056805728774402428",
+          "publishedAt": "Tue, 19 May 2026 18:34:33 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-21-2056805728774402428.mp4",
+          "summary": "Claude 官方账号转发/发布了一段对谈：Scott Wu（@ScottWu46）是 Cognition 的负责人，团队推出基于 Claude 的 AI 软件工程师 Devin。他在视频中提到目标是让每个工程团队“写软件的效率提升 10 倍”。 对编程代理赛道来说，关键不只在模型能力，而在任务分解、环境/权限、安全与可验证性（能否让团队放心把更多工作交给代理）。",
+          "summaryZh": "Claude 官方账号转发/发布了一段对谈：**Scott Wu**（@ScottWu46）是 **Cognition** 的负责人，团队推出基于 Claude 的 AI 软件工程师 **Devin**。他在视频中提到目标是让每个工程团队“写软件的效率提升 **10 倍**”。 对编程代理赛道来说，关键不只在模型能力，而在任务分解、环境/权限、安全与可验证性（能否让团队放心把更多工作交给代理）。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "3️⃣ Computational Discovery An agentic prototype built with AlphaEvolve and Empirical Research Assi...",
+          "titleZh": "Google DeepMind：AlphaEvolve + 研究助理的 agent 原型，用于并行探索代码变体",
+          "link": "https://x.com/GoogleDeepMind/status/2056808892575932630",
+          "publishedAt": "Tue, 19 May 2026 18:47:08 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-21-2056808892575932630.mp4",
+          "summary": "Google DeepMind 分享“Computational Discovery”方向的一个 agent 原型：结合 AlphaEvolve 与 Empirical Research Assistance，在并行生成/打分大量代码变体的过程中寻找更优方案。官方提到这可能让流行病学等复杂领域的新建模思路测试周期显著缩短。 这类“并行探索 + 自动打分”的形态，是把 agent 从执行者推向“研究与发现”的关键一步，但也更依赖高质量的评估函数与可控的实验闭环。",
+          "summaryZh": "Google DeepMind 分享“Computational Discovery”方向的一个 agent 原型：结合 **AlphaEvolve** 与 **Empirical Research Assistance**，在并行生成/打分大量代码变体的过程中寻找更优方案。官方提到这可能让流行病学等复杂领域的新建模思路测试周期显著缩短。 这类“并行探索 + 自动打分”的形态，是把 agent 从执行者推向“研究与发现”的关键一步，但也更依赖高质量的评估函数与可控的实验闭环。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "视频"
+          ],
+          "score": 61.75112237652873
+        },
+        {
+          "title": "Read more on what we've learned while developing long-horizon agent evals:",
+          "titleZh": "LangChain：做 100+ 轮长链路 Agent 评测的一个反直觉发现——换开源模型未必立刻省钱",
+          "link": "https://x.com/LangChain/status/2056825473108418993",
+          "publishedAt": "Tue, 19 May 2026 19:53:01 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "LangChain 团队分享了一点在构建 100+ 轮长链路 agent 评测/基准时的发现：他们观察到，“直接把闭源模型换成开源模型”并不一定会立刻带来成本节省，至少在一开始并非如此；成本差异背后有两个关键因素在起作用。 对工程团队来说，这提醒我们评估成本不能只看单次调用价格，还要看长任务链路里的失败率、重试、上下文长度与吞吐等系统性因素。",
+          "summaryZh": "LangChain 团队分享了一点在构建 **100+ 轮长链路 agent** 评测/基准时的发现：他们观察到，“直接把闭源模型换成开源模型”并不一定会立刻带来成本节省，至少在一开始并非如此；成本差异背后有两个关键因素在起作用。 对工程团队来说，这提醒我们评估成本不能只看单次调用价格，还要看长任务链路里的失败率、重试、上下文长度与吞吐等系统性因素。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "评测",
+            "开源"
+          ],
+          "score": 59.79248657544531
+        },
+        {
+          "title": "2️⃣ Hypothesis Generation Built with Co-Scientist, this system can help brainstorm and evaluate nov...",
+          "titleZh": "Google DeepMind：Co-Scientist 多智能体“想法锦标赛”用于生成与筛选科研假设",
+          "link": "https://x.com/GoogleDeepMind/status/2056808885709602855",
+          "publishedAt": "Tue, 19 May 2026 18:47:06 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-21-2056808885709602855.mp4",
+          "summary": "Google DeepMind 展示 Co-Scientist 的一个能力点：在开放研究挑战上，用多智能体进行“idea tournament（想法锦标赛）”——生成、辩论并评估大量假设，以展示哪些思路有效、哪些无效以及原因。 这类“多 agent 对抗式筛选”适合用在假设空间巨大、需要快速收敛方向的研究/产品探索阶段，但仍需要外部可验证的评估标准来避免自嗨式循环。",
+          "summaryZh": "Google DeepMind 展示 **Co-Scientist** 的一个能力点：在开放研究挑战上，用多智能体进行“**idea tournament（想法锦标赛）**”——生成、辩论并评估大量假设，以展示哪些思路有效、哪些无效以及原因。 这类“多 agent 对抗式筛选”适合用在假设空间巨大、需要快速收敛方向的研究/产品探索阶段，但仍需要外部可验证的评估标准来避免自嗨式循环。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 59.47415902645502
+        },
+        {
+          "title": "Over the past few months, we've been holding dialogues with scholars, philosophers, clergy, and ethi...",
+          "titleZh": "Anthropic：与学者/宗教人士/伦理学者对话 AI 议题，从“品格如何形成”切入",
+          "link": "https://x.com/AnthropicAI/status/2056880308851708233",
+          "publishedAt": "Tue, 19 May 2026 23:30:55 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Anthropic 表示他们在过去几个月与学者、哲学家、宗教人士与伦理学者持续对话“前沿 AI 带来的问题”，并从“良好品格如何形成”这一话题切入，介绍了他们在扩大相关讨论范围的工作。 随着模型能力逼近更强自治与更广泛应用，企业如何把价值观与制度性约束落到产品与流程里，会逐渐从公关议题变成硬工程问题。",
+          "summaryZh": "Anthropic 表示他们在过去几个月与学者、哲学家、宗教人士与伦理学者持续对话“前沿 AI 带来的问题”，并从“良好品格如何形成”这一话题切入，介绍了他们在扩大相关讨论范围的工作。 随着模型能力逼近更强自治与更广泛应用，企业如何把价值观与制度性约束落到产品与流程里，会逐渐从公关议题变成硬工程问题。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "OceanBase 封仲淹：Vibe Coding 只是开始，下一站是软件工厂",
+          "titleZh": "OceanBase 封仲淹：Vibe Coding 只是开始，下一站是“软件工厂”",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a0daa4bfe904f387327354e",
+          "publishedAt": "Wed, 20 May 2026 12:30:00 GMT",
+          "source": "AI炼金术",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9mNTFhLWF1ZGlvZnJlZWhpZ2hxcHMvQjkvNzAvR01Db09TSUh2N0JGQUFWZ1B3SDNSN2VoLmpwZWc=.jpeg",
+          "video": "",
+          "summary": "讲了什么：对谈 OceanBase 开源负责人封仲淹，围绕「Vibe Coding 只是开始，下一站是软件工厂」展开：他认为 vibe coding 正在改变软件生产方式，但今天看到的只是开端；下一阶段更像“software factory”——多个 agent 像数字员工组队协作，并配合 software correctness benchmark 持续验证每一次产出。\n\n简介要点：\n- 串台播客【赛博赶海】，把上一期关于“vibe coding 与工程治理”的争论继续往下推：既然它不是终点，工程体系该怎么搭？\n- 三种立场碰撞：激进乐观派认为“工厂很快到来”；务实派强调落地必然伴随大量工程收尾与验证；绕道派质疑是否应放弃工业化路径。\n- 三人没有互相说服，但达成一个共识：新的协作单位可能不再是“代码”，而是更高层的产出与验证闭环。",
+          "summaryZh": "**讲了什么**：对谈 OceanBase 开源负责人封仲淹，围绕「**Vibe Coding 只是开始，下一站是软件工厂**」展开：他认为 vibe coding 正在改变软件生产方式，但今天看到的只是开端；下一阶段更像“software factory”——多个 agent 像数字员工组队协作，并配合 **software correctness benchmark** 持续验证每一次产出。\n\n**简介要点**：\n- 串台播客【赛博赶海】，把上一期关于“vibe coding 与工程治理”的争论继续往下推：既然它不是终点，工程体系该怎么搭？\n- 三种立场碰撞：激进乐观派认为“工厂很快到来”；务实派强调落地必然伴随大量工程收尾与验证；绕道派质疑是否应放弃工业化路径。\n- 三人没有互相说服，但达成一个共识：新的协作单位可能不再是“代码”，而是更高层的产出与验证闭环。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "工程实践"
+          ],
+          "score": 32
+        },
+        {
+          "title": "人类和 AI Agent 的最佳配合方式，还没被发明｜对谈 Paperboy",
+          "titleZh": "人类和 AI Agent 的最佳配合方式，还没被发明｜对谈 Paperboy",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a0be0cfe1eb34a939abced5",
+          "publishedAt": "2026-05-20T16:00:00.000Z",
+          "source": "十字路口Crossing",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/nrlAcfOvO4ReC3jLrU6fyta6nOQ_.png",
+          "video": "",
+          "summary": "讲了什么：对谈 Paperboy 团队，讨论一个判断：人类与 AI Agent 的最佳配合方式可能还没被发明出来。他们认为当下主流工具多是“session + prompt”的一次性工作模式——打开窗口下指令、等待完成、关掉，下次又从零开始；而更自然的协作形态应当更连续、更主动、更可协作。\n\n简介要点：\n- Paperboy 认为 agent 更像长期协作伙伴：能通过观察你真实使用电脑来学习，并把对话与工作组织成更接近 IM 的持续互动，而不是一次性 session。\n- 他们希望 agent 能主动找你、持续积累记忆与状态，而不是完全依赖你反复写 prompt。\n- 适合正在做 AI 产品/AI infra，或在思考 agent 如何进入团队工作流的人参考。",
+          "summaryZh": "**讲了什么**：对谈 Paperboy 团队，讨论一个判断：**人类与 AI Agent 的最佳配合方式可能还没被发明出来**。他们认为当下主流工具多是“session + prompt”的一次性工作模式——打开窗口下指令、等待完成、关掉，下次又从零开始；而更自然的协作形态应当更连续、更主动、更可协作。\n\n**简介要点**：\n- Paperboy 认为 agent 更像长期协作伙伴：能通过观察你真实使用电脑来学习，并把对话与工作组织成更接近 **IM** 的持续互动，而不是一次性 session。\n- 他们希望 agent 能主动找你、持续积累记忆与状态，而不是完全依赖你反复写 prompt。\n- 适合正在做 AI 产品/AI infra，或在思考 agent 如何进入团队工作流的人参考。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "智能体",
+            "产品设计"
+          ],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.dev/rss/",
+      "error": "fetch failed"
+    }
+  ],
+  "summaryBullets": [
+    "Google 将 **AI Overviews** 与 **AI Mode** 合并为新的智能搜索体验，基于 **Gemini 3.5**，支持文本/图片/文件/视频混合提问并可持续追问。",
+    "**NVIDIA Nemotron-Labs-Diffusion** 扩散式语言模型家族发布（**3B–14B**，含视觉语言版本），主打并行生成多 token 以提升推理吞吐。",
+    "OpenAI 推出 **Guaranteed Capacity**：面向企业的“可预留”长期算力供给方案，用于关键负载的容量规划。",
+    "**Cohere Command A+** 发布并开源，强调在更少硬件上运行的高性能 LLM。",
+    "两篇论文分别聚焦 **Agent 场景的 LLM 路由评测**（TwinRouterBench）与 **长链路数学推理的多智能体框架**（STAR-P'olyaMath）。"
+  ]
+}
