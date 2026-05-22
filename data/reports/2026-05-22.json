@@ -1,0 +1,630 @@
+{
+  "date": "2026-05-22",
+  "generatedAt": "2026-05-22T01:41:49.781Z",
+  "title": "AI 日报 - 2026-05-22",
+  "stats": {
+    "sources": 133,
+    "fetched": 978,
+    "emailCandidates": 0,
+    "selected": 35,
+    "failures": 2
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "📣Meet Qwen3.7-Max — our latest flagship, made for the Agent Era. A versatile foundation for agents...",
+          "titleZh": "Qwen 发布旗舰模型 Qwen3.7-Max，主打 Agent 时代能力",
+          "link": "https://x.com/Alibaba_Qwen/status/2057450220708147250",
+          "publishedAt": "Thu, 21 May 2026 13:15:32 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HI17-l3bwAArUeM.jpg",
+          "video": "",
+          "summary": "📣Meet Qwen3.7-Max — our latest flagship, made for the Agent Era. A versatile foundation for agents that actually get things done: 🧑‍💻 Coding agent, end to end. Frontend prototypes, multi-file refactors, real debugging — nails it. 🗂️ A reliable office and productivity assistant. Get your work done through MCP integrations and multi-agent orchestration. ⏱️ Long-horizon autonomy. 35 hours straight on a kernel optimization task — 1,000+ tool calls, zero hand-holding. 🔌 Scaffold-agnostic. Claude Code, OpenClaw, Qwen Code, or your own stack. Consistent reliability everywhere. API's up on Alibaba Model Studio. You can also take it for a spin on Qwen Studio. Go build something wild!🏃🏃‍♂️ � qwen.ai/blog?id=qwen3.7 AupX3Pa0 ✅ Qwen chat.qwen.ai/?models=qwen3.… TnrCBjWt modelstudio.console.alibabacloud.com/ap-southeast-1… ys00osKn 💬 192 🔄 428 ❤️ 3297 👀 449570 📊 685 ⚡ Powered by xgo.ing",
+          "summaryZh": "阿里 Qwen 发布最新旗舰 **Qwen3.7-Max**，强调面向 Agent 的实战能力：支持端到端**编码代理**（多文件改动/调试）、通过 **MCP 集成**做办公与生产力助手、并展示了 **35 小时连续自主执行**（上千次工具调用）等长任务稳定性。官方称该模型对不同开发栈更“脚手架无关”，并已在 **Alibaba Model Studio** 提供 API，可在 Qwen Studio 体验。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体"
+          ],
+          "score": 77
+        },
+        {
+          "title": "Highlights from today’s Codex Thursday launches: 1️⃣ Codex can now securely use apps on your Mac fr...",
+          "titleZh": "OpenAI：Codex 现在可以从手机安全操作 Mac（锁屏、熄屏也可）",
+          "link": "https://x.com/OpenAI/status/2057617844800794878",
+          "publishedAt": "Fri, 22 May 2026 00:21:37 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HI4YkiCbUAA0DM6.jpg",
+          "video": "",
+          "summary": "Highlights from today’s Codex Thursday launches: 1️⃣ Codex can now securely use apps on your Mac from your phone, even when your Mac is locked and the screen is off. developers.openai.com/codex/app/comp… 💬 65 🔄 66 ❤️ 832 👀 75057 📊 155 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI 在 Codex Thursday 更新中介绍：**即使 Mac 处于锁定且屏幕关闭**，也可以从手机端让 Codex 安全地使用 Mac 上的应用完成任务；相关能力与 Codex App 的远程计算/权限模型绑定。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "开发者工具"
+          ],
+          "score": 74
+        },
+        {
+          "title": "🥅 /goal has graduated from an experiment—for tasks big and small, Codex gets your work done. Use ...",
+          "titleZh": "OpenAI Codex：`/goal` 从实验转正，用一句话定义目标让它推进任务",
+          "link": "https://x.com/OpenAIDevs/status/2057530209470210453",
+          "publishedAt": "Thu, 21 May 2026 18:33:23 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "/media/2026-05-22-2057530209470210453.mp4",
+          "summary": "🥅 /goal has graduated from an experiment—for tasks big and small, Codex gets your work done. Use goal mode in the Codex app, IDE Extension, or CLI to give Codex a specific milestone, and it will keep working until it gets there, even across hours or days. You can check in and steer, and even pause Codex along the way. Pro tip: start side chats to understand the work that has been done so far without having to interrupt the main task. developers.openai.com/codex/promptin… M Your browser does not support the video tag. 🔗 View on Twitter 💬 34 🔄 51 ❤️ 1011 👀 129775 📊 177 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Devs 宣布 Codex 的 **`/goal`** 从实验功能升级为正式能力：用一句话给出目标（大任务/小任务都行），Codex 会据此规划并推进执行；该条目包含演示视频（已缓存为站内媒体）。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开发者工具",
+            "视频"
+          ],
+          "score": 72
+        },
+        {
+          "title": "We just shipped NVIDIA-Verified Agent Skills 🔐 Skills make your agent more capable, but can also i...",
+          "titleZh": "NVIDIA 发布 NVIDIA-Verified Agent Skills，为 Agent 技能做安全与可信校验",
+          "link": "https://x.com/NVIDIAAI/status/2057496919425900834",
+          "publishedAt": "Thu, 21 May 2026 16:21:06 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HI2yi2gXcAE59GV.jpg",
+          "video": "",
+          "summary": "We just shipped NVIDIA-Verified Agent Skills 🔐 Skills make your agent more capable, but can also introduce vulnerabilities. Verified skills give you transparency into what a skill does, where it came from, what risks it carries, and whether it's been modified. Every verified skill carries a skill card and is built on the agentskills.io h open specification to work reliably across @claudeai Code, @openai Codex, and @cursor_ai . 💬 48 🔄 136 ❤️ 1105 👀 72773 📊 301 ⚡ Powered by xgo.ing",
+          "summaryZh": "NVIDIA 宣布上线 **NVIDIA-Verified Agent Skills**：把“技能/工具调用”作为 Agent 能力扩展的同时，引入更严格的**来源与安全校验**思路，降低技能供应链风险，并便于团队在生产环境复用经过验证的能力组件。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 71
+        },
+        {
+          "title": "Iterating in the Codex in-app browser is getting faster and more precise. Advanced annotation mode ...",
+          "titleZh": "Codex in-app browser 新增高级标注：可直接调整页面元素并批量反馈",
+          "link": "https://x.com/OpenAIDevs/status/2057530210967523399",
+          "publishedAt": "Thu, 21 May 2026 18:33:24 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-22-2057530210967523399.mp4",
+          "summary": "Iterating in the Codex in-app browser is getting faster and more precise. Advanced annotation mode lets you directly adjust page elements while leaving feedback, preview changes instantly, and batch comments for Codex, so designers and developers can show exactly what they want changed without waiting for a full turn. Your browser does not support the video tag. 🔗 View on Twitter 💬 24 🔄 28 ❤️ 757 👀 50373 📊 121 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Devs 介绍 Codex in-app browser 的 **Advanced annotation mode**：在页面上直接调整元素样式/位置并即时预览，同时把多处修改意见**批量整理成反馈**交给 Codex 执行，让设计与开发沟通更具体、回合更少。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开发者工具",
+            "视频"
+          ],
+          "score": 70.89472248374794
+        },
+        {
+          "title": "Codex anywhere and everywhere, all the time. Now your Mac doesn’t have to be unlocked for Codex to ...",
+          "titleZh": "Codex 加强远程计算：Mac 不用解锁也能让 Codex 继续操作应用",
+          "link": "https://x.com/OpenAIDevs/status/2057536706778378692",
+          "publishedAt": "Thu, 21 May 2026 18:59:12 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HI3Wilra8AAKpov.jpg",
+          "video": "",
+          "summary": "Codex anywhere and everywhere, all the time. Now your Mac doesn’t have to be unlocked for Codex to use your computer. From your phone, Codex can securely use apps on your Mac, even when the screen is off and locked. developers.openai.com/codex/app/comp… 💬 235 🔄 172 ❤️ 3562 👀 193978 📊 689 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Devs 更新：Codex 现在支持在 **Mac 锁定、屏幕关闭**的情况下继续安全地使用 Mac 上的应用；同时支持从手机端发起操作与跟进执行进度，面向需要长时间跑任务的场景更友好。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开发者工具"
+          ],
+          "score": 70
+        },
+        {
+          "title": "Command A+ is available on @huggingface with W4A4 quantization 🤗 Cut your serving footprint dramat...",
+          "titleZh": "Cohere Command A+ 上线 Hugging Face，并提供 W4A4 量化版本",
+          "link": "https://x.com/cohere/status/2057530075914912249",
+          "publishedAt": "Thu, 21 May 2026 18:32:51 GMT",
+          "source": "cohere(@cohere)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "/media/2026-05-22-2057530075914912249.mp4",
+          "summary": "Command A+ is available on @huggingface with W4A4 quantization 🤗 Cut your serving footprint dramatically with virtually zero performance degradation. Try it now: huggingface.co/CohereLabs/com… 1 Cohere @cohere Introducing: Cohere Command A+ We’ve created our most powerful LLM yet, optimized it to run on as little hardware as possible, and released it open-source for all. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 7 🔄 13 ❤️ 98 👀 19689 📊 16 ⚡ Powered by xgo.ing",
+          "summaryZh": "Cohere 宣布 **Command A+** 已在 Hugging Face 提供，并给出 **W4A4 量化**以降低推理显存/算力开销，方便更小成本地部署与试用。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "视频"
+          ],
+          "score": 67.6192554109458
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence",
+          "titleZh": "Spatial-MLLM：只用 2D 图像/视频也能做更强的空间推理",
+          "link": "https://arxiv.org/abs/2505.23747",
+          "publishedAt": "Thu, 21 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2505.23747v2 Announce Type: replace-cross Abstract: Recent advancements in Multimodal Large Language Models (MLLMs) have significantly enhanced performance on 2D visual tasks. However, improving their spatial intelligence remains a challenge. Existing 3D MLLMs always rely on additional 3D or 2.5D data to incorporate spatial awareness, restricting their utility in scenarios with only 2D inputs, such as images or videos. In this paper, we present Spatial-MLLM, a novel framework for visual-based spatial reaso...",
+          "summaryZh": "**核心结论**：论文提出 **Spatial-MLLM**，目标是在只有 **2D 观测（图像/视频）**的情况下，提升多模态大模型的**空间理解与空间推理**能力，避免 3D/2.5D 额外数据依赖。\n\n**支撑证据**：方法上用 **双编码器架构**把“语义”和“结构”拆开建模：一条是预训练 **2D 视觉编码器**提取语义特征，另一条是从前馈式**视觉几何基础模型**骨干初始化的 **3D 空间编码器**提取结构特征；再用 connector 把两路特征融合成统一视觉 token。推理阶段引入 **space-aware 帧采样**，在 token 长度受限时优先挑选对空间推理更关键的帧。训练上构建了多源数据集，并用 **SFT + GRPO** 进行训练。\n\n**我的判断**：这条路线的看点在于把“空间结构先验”显式注入到 MLLM 的视觉表示里，并且把 token 预算约束纳入推理策略。后续更需要关注：在不同视频分布/运动模式下帧采样是否稳健，以及双编码器带来的计算开销与落地成本。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "推理能力",
+            "多模态",
+            "论文",
+            "开源"
+          ],
+          "score": 41
+        },
+        {
+          "title": "ORCA: An Agentic Reasoning Framework for Hallucination and Adversarial Robustness in Vision-Language Models",
+          "titleZh": "ORCA：用“观察-推理-批判-行动”回路，提升视觉语言模型抗幻觉与抗攻击能力",
+          "link": "https://arxiv.org/abs/2509.15435",
+          "publishedAt": "Thu, 21 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2509.15435v3 Announce Type: replace-cross Abstract: Large Vision-Language Models (LVLMs) exhibit strong multimodal capabilities but remain vulnerable to hallucinations from intrinsic errors and adversarial attacks from external exploitations, limiting their reliability in real-world applications. We present ORCA, an agentic reasoning framework that improves the factual accuracy and adversarial robustness of pretrained LVLMs through inference-time structured inference reasoning with a suite of small vision...",
+          "summaryZh": "**核心结论**：论文提出 **ORCA**，在不改模型参数、也不需要重训练的前提下，通过推理时的 **Observe-Reason-Critique-Act** 结构化回路，提升预训练视觉语言模型（LVLM）的**事实准确性**与**对抗鲁棒性**。\n\n**支撑证据**：ORCA 通过一组 **<3B 参数的小型视觉模型**作为“工具”，围绕证据提出问题、交叉验证模型间不一致，并迭代修正输出；同时保存中间推理轨迹以便审计。评测覆盖三类场景：干净图片的幻觉基准、无防御的对抗扰动图片、以及结合防御技术的对抗样本。论文报告在 **POPE** 幻觉基准上可带来 **+3.64% 到 +40.67%** 的提升；在 POPE 的对抗扰动下平均提升 **+20.11%**；在 AMBER 对抗样本结合防御时，各指标增益范围为 **+1.20% 到 +48.00%**。\n\n**我的判断**：它把“多模型交叉质检”做成可复用的推理框架，对现有 LVLM 的可靠性补强很实用。落地时需要重点核对：工具模型集合的选择策略、额外推理成本、以及在真实复杂场景（非物体级问题）上的收益边界。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 41
+        },
+        {
+          "title": "Datasette Agent",
+          "titleZh": "Datasette Agent：给 Datasette 加一个可扩展的 AI 助手，用对话问数据",
+          "link": "https://simonwillison.net/2026/May/21/datasette-agent/#atom-everything",
+          "publishedAt": "2026-05-21T19:52:19+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://static.simonwillison.net/static/2026/datasette-agent.jpg",
+          "video": "",
+          "summary": "We just announced the first release of Datasette Agent , a new extensible AI assistant for Datasette. I've been working on my LLM Python library for just over three years now, and Datasette Agent represents the moment that LLM and Datasette finally come together. I'm really excited about it! Datasette Agent provides a conversational interface for asking questions of the data you have stored in Datasette. Add the datasette-agent-charts plugin and it can generate charts of your data as well. The demo The announcem...",
+          "summaryZh": "**核心要点**：Simon Willison 发布了 **Datasette Agent** 的首个版本，把他维护多年的 Python 库 **LLM** 与数据探索工具 **Datasette** 结合起来，提供一个“对话式”界面来查询 Datasette 里的数据。\n\n**展开说明**：它面向的主要场景是“把数据放进 Datasette 后，用自然语言提问、得到可执行的查询/解释”。文章还提到配合 `datasette-agent-charts` 插件时，可以在对话过程中直接**生成数据图表**，把分析结果可视化。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "视频"
+          ],
+          "score": 40
+        },
+        {
+          "title": "MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models",
+          "titleZh": "微软研究：MagenticLite + MagenticBrain + Fara1.5，让小模型也能跑“可用的”Agent 工作流",
+          "link": "https://www.microsoft.com/en-us/research/blog/magenticlite-magenticbrain-fara1-5-an-agentic-experience-optimized-for-small-models/",
+          "publishedAt": "Thu, 21 May 2026 17:00:00 +0000",
+          "source": "Microsoft Research Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "official",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/Figure4-high-res_magenticlite-scaled.png",
+          "video": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/05/MagenticLite-Fill-Expenses-Forms-Final-Demo.mp4",
+          "summary": "MagenticLite is an agentic system for small models that works across the browser and local file system in a single workflow. It combines specialized models and orchestration to support efficient agentic performance on everyday tasks. The post MagenticLite, MagenticBrain, Fara1.5: An agentic experience optimized for small models appeared first on Microsoft Research .",
+          "summaryZh": "**核心要点**：Microsoft Research 介绍 **MagenticLite**，希望用“更小的模型 + 更强的编排”覆盖日常 Agent 任务，并同时打通**浏览器操作**与**本地文件系统**的一体化工作流。\n\n**展开说明**：文章给出了两个关键组件。其一是 **Fara1.5**（计算机使用/浏览器代理方向）：除了点击与键盘动作，还内置了跨数百步任务的“信息存储”等工具，并会在需要权限或偏好时向用户提问；同时对登录、交易、不可逆提交等 **critical points** 做了再校准，既保证该停就停，又尽量不阻塞有用任务。其二是 **MagenticBrain**：一个 **14B** 的“编排模型”（planner/coder/delegator 三合一），论文称其基于 **Qwen 3 14B** 微调，并在与真实工具 schema/执行环境一致的 harness 中端到端训练，从而减少训练-推理落差；它也会把 UI 类任务结构化地委派给 Fara1.5。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 39
+        },
+        {
+          "title": "Integrating AWS API MCP Server with Amazon Quick using Amazon Bedrock AgentCore Runtime",
+          "titleZh": "AWS：用 Bedrock AgentCore Runtime + MCP，把 Amazon Q 和 AWS 服务“连起来”",
+          "link": "https://aws.amazon.com/blogs/machine-learning/integrating-aws-api-mcp-server-with-amazon-quick-suite-using-amazon-bedrock-agentcore-runtime/",
+          "publishedAt": "Thu, 21 May 2026 16:32:09 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "This post shows you how to use Amazon Bedrock AgentCore Runtime with Model Context Protocol (MCP) support to connect Amazon Quick with AWS services through the AWS API MCP Server, creating a conversational AI assistant that translates natural language into AWS Command Line Interface (AWS CLI) commands, without the need to switch between tools during critical moments.",
+          "summaryZh": "**核心要点**：AWS 演示如何在 **Bedrock AgentCore Runtime** 上接入 **模型上下文协议（MCP）**，把“可调用的 AWS 能力”整理成一组工具，让助手能在对话里直接完成云资源操作（文章用 Amazon Q/Quick Suite 的场景做示例）。\n\n**展开说明**：实现路径是把 AWS API 以 MCP 工具的形式暴露出来，然后由 AgentCore 在推理时按需调用；助手可以把自然语言请求转换为 **AWS 命令行（AWS CLI）**操作并执行，减少在控制台与多工具之间来回切换。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体"
+          ],
+          "score": 33
+        },
+        {
+          "title": "Vega: Zero-knowledge proofs for digital identity in the age of AI",
+          "titleZh": "微软研究：Vega 用低延迟零知识证明做数字身份校验，只证明“必要字段”",
+          "link": "https://www.microsoft.com/en-us/research/blog/vega-zero-knowledge-proofs-for-digital-identity-in-the-age-of-ai/",
+          "publishedAt": "Thu, 21 May 2026 13:48:40 +0000",
+          "source": "Microsoft Research Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "official",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/01/MFST_feature_SecondThought_1400x788.jpg",
+          "video": "",
+          "summary": "Vega turns a full credential into a single proof, sharing only what is needed and nothing more, with performance that works in real apps. The post Vega: Zero-knowledge proofs for digital identity in the age of AI appeared first on Microsoft Research .",
+          "summaryZh": "**核心要点**：Microsoft Research 介绍 **Vega**：把一整份数字凭证“压缩”为一次零知识证明，只披露**需要的字段**、不泄露其他信息，并强调性能已达到可在真实应用中使用的水平。\n\n**展开说明**：文章提到 Vega 的效率来自多项工程选择，例如每次证明前刷新承诺的随机性以避免可链接性；对移动驾照等 **CBOR** 编码凭证不做完整解析电路，而是利用“凭证由可信发行方签名、格式可假定正确”的前提直接定位字段；并要求持有者设备用安全硬件中的私钥对会话 nonce 签名，以避免“只拿到签名凭证”就能生成有效证明。文中还称 Vega 以 **Rust** 实现，计划后续开源；其底层证明系统已在开源项目 **spartan2** 提供，相关论文也将登上 IEEE S&P。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 33
+        },
+        {
+          "title": "datasette-agent 0.1a3",
+          "titleZh": "datasette-agent 0.1a3 更新：可查看 SQL、改进推理展示与截断结果处理",
+          "link": "https://simonwillison.net/2026/May/21/datasette-agent-2/#atom-everything",
+          "publishedAt": "2026-05-21T15:04:09+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Release: datasette-agent 0.1a3 \"View SQL query\" buttons for both visible tables and collapsed SQL result tool calls. Don't display empty reasoning chunks Improved handling of truncated responses - table still displays to the user even if the SQL results were truncated when showing the agent. See Datasette Agent, an extensible AI assistant for Datasette . Tags: datasette , datasette-agent",
+          "summaryZh": "**核心要点**：`datasette-agent` 发布 **0.1a3**，主要围绕可解释性与交互细节做增强。\n\n**展开说明**：更新点包括：为可见表格和折叠的 SQL 结果工具调用提供 **“View SQL query”** 按钮；不再展示空的 reasoning 片段；以及改进对“模型输出被截断”的处理，即使 SQL 结果被截断也尽量保证表格仍能展示给用户。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "推理能力"
+          ],
+          "score": 33
+        },
+        {
+          "title": "Break the context window barrier with Amazon Bedrock AgentCore",
+          "titleZh": "AWS：用 Bedrock AgentCore 实现“无限上下文”式文档分析（RLM + Code Interpreter）",
+          "link": "https://aws.amazon.com/blogs/machine-learning/break-the-context-window-barrier-with-amazon-bedrock-agentcore/",
+          "publishedAt": "Thu, 21 May 2026 16:08:54 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "In this post, you will learn how to implement Recursive Language Models (RLM) using Amazon Bedrock AgentCore Code Interpreter and the Strands Agents SDK. By the end, you will know how to process documents of varying lengths, with no upper bound on context size, use Bedrock AgentCore Code Interpreter as persistent working memory for iterative document analysis, and orchestrate sub-large language model (sub-LLM) calls from within a sandboxed Python environment to analyze specific document sections.",
+          "summaryZh": "**核心要点**：AWS 这篇文章给出一种用 **Recursive Language Models（RLM）** 处理超长文档的实现路径，目标是在“没有固定上限的上下文长度”下做迭代分析。\n\n**展开说明**：方案组合了 **Bedrock AgentCore Code Interpreter**（作为持久工作记忆/沙箱执行环境）与 **Strands Agents SDK**；通过把长文档拆成分段任务，在沙箱 Python 环境里运行分析，并由 orchestrator 在需要时发起多次 **sub-LLM** 调用来聚焦特定章节，从而逐步完成全局理解。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 30
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "rmyndharis/OpenWA",
+          "titleZh": "OpenWA：自托管的 WhatsApp API 网关（GitHub Trending）",
+          "link": "https://github.com/rmyndharis/OpenWA",
+          "publishedAt": "2026-05-22T01:41:49.781Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/3af01afe3df8957627b08ff141387314df51668bfa7f12a526ed668e0039ae14/rmyndharis/OpenWA",
+          "video": "",
+          "summary": "Star rmyndharis / OpenWA Free, Open Source, Self-Hosted WhatsApp API Gateway",
+          "summaryZh": "**核心内容**：`OpenWA` 是一个 **免费、开源、可自托管**的 WhatsApp API Gateway，面向需要在自有环境中对接 WhatsApp 消息能力的开发场景。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "API",
+            "开源"
+          ],
+          "score": 33
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "🚀Qwen3.7-Max just landed at 56.6 on the Artificial Analysis Intelligence Index — a solid 4.8pt jump...",
+          "titleZh": "Qwen：Qwen3.7-Max 在 Artificial Analysis 指数升至 56.6（官方口径）",
+          "link": "https://x.com/Alibaba_Qwen/status/2057451488587423830",
+          "publishedAt": "Thu, 21 May 2026 13:20:35 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HI0_LfobwAEzEHi.jpg",
+          "video": "",
+          "summary": "🚀Qwen3.7-Max just landed at 56.6 on the Artificial Analysis Intelligence Index — a solid 4.8pt jump over Qwen3.6-Max-Preview. @ArtificialAnlys ⚡️Sharper sci reasoning, stronger agentic chops, better coding, and it hallucinates less. Artificial Analysis @ArtificialAnlys Alibaba’s new Qwen3.7 Max model scores 56.6 on the Artificial Analysis Intelligence Index, 4.8 points higher than Qwen3.6 Max Preview (51.8). While Alibaba still trails models from OpenAI, Anthropic and Google, Qwen3.7 Max is the closest they have been to the frontier Qwen3.7 Max is @Alibaba_Qwen 's latest proprietary flagship, scoring 56.6 on the Intelligence Index, a 4.8 point gain over Qwen3.6 Max Preview (51.8) released in April. Qwen3.7 Max continues Alibaba's pattern, in place since Qwen2.5 Max (January 2025), of releasing Max and Plus models as closed weights while the rest of the Qwen line remains open weights....",
+          "summaryZh": "Qwen 官方发帖称 **Qwen3.7-Max** 在第三方机构 Artificial Analysis 的综合 **AI 指数**中得分 **56.6**，相比此前版本提升 **4.8** 分；官方把这一分数变化作为“旗舰模型整体能力上升”的外部参考信号。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "推理能力"
+          ],
+          "score": 88.42495172733283
+        },
+        {
+          "title": "It’s Codex Thursday, and yes, we have updates for you. First up: Appshots, a new way to bring the c...",
+          "titleZh": "Codex 新增 Appshots：把应用窗口的截图和文本一起带进线程",
+          "link": "https://x.com/OpenAIDevs/status/2057530207976989179",
+          "publishedAt": "Thu, 21 May 2026 18:33:23 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-22-2057530207976989179.mp4",
+          "summary": "It’s Codex Thursday, and yes, we have updates for you. First up: Appshots, a new way to bring the context of what you’re working on into Codex. On your Mac, press Command-Command to attach your app window to a Codex thread. Codex gets both a screenshot and text from the window, including content beyond what’s visible onscreen. Appshots are available across plans on Mac, with enterprise access coming soon. Your browser does not support the video tag. 🔗 View on Twitter 💬 356 🔄 334 ❤️ 4674 👀 759304 📊 1067 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Devs 发布 **Appshots**：在 Mac 上按 **Command-Command** 可把当前应用窗口“挂到”某个 Codex 线程里，Codex 会同时获得**截图 + 窗口文本**（包括屏幕未完全可见的内容），用于更准确地理解你在做什么。官方称该功能已在 Mac 上对各类订阅计划开放，企业版将随后支持。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "Performance：Qwen3.7-Max performs strongly across benchmarks in coding agents , and improves massivel...",
+          "titleZh": "Qwen 分享 Qwen3.7-Max 的基准与编码代理表现（官方口径）",
+          "link": "https://x.com/Alibaba_Qwen/status/2057450224294261051",
+          "publishedAt": "Thu, 21 May 2026 13:15:33 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HI2DvS7bMAAyBux.jpg",
+          "video": "",
+          "summary": "Performance：Qwen3.7-Max performs strongly across benchmarks in coding agents , and improves massively in general-purpose agents. Qwen3.7-Max also demonstrates exceptional strength on the hardest reasoning benchmarks, and stands out in general capabilities and multilingualism. 💬 6 🔄 10 ❤️ 268 👀 51431 📊 36 ⚡ Powered by xgo.ing",
+          "summaryZh": "Qwen 官方补充了 **Qwen3.7-Max** 的性能描述，强调其在多项基准上提升，并把重点放在 **coding agent** 场景的稳定性与综合表现（以官方帖子为准，具体评测仍需结合第三方复核）。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "推理能力",
+            "评测"
+          ],
+          "score": 63.71374264947049
+        },
+        {
+          "title": "4️⃣ Advanced annotation mode lets you directly adjust the way web pages look while leaving feedback,...",
+          "titleZh": "OpenAI：高级标注模式支持边改页面边留反馈，让 Codex 协作更顺",
+          "link": "https://x.com/OpenAI/status/2057617862479708650",
+          "publishedAt": "Fri, 22 May 2026 00:21:41 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-22-2057617862479708650.mp4",
+          "summary": "4️⃣ Advanced annotation mode lets you directly adjust the way web pages look while leaving feedback, making it even easier to work together with Codex. Your browser does not support the video tag. 🔗 View on Twitter 💬 8 🔄 5 ❤️ 103 👀 20248 📊 18 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI 介绍 Codex Thursday 的一项能力：**Advanced annotation mode** 允许在网页上直接调整呈现效果并同步留下反馈，减少“描述-理解”偏差，提升与 Codex 协作改页面的效率。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 63.038283737971796
+        },
+        {
+          "title": "You can now use your @grok or X Premium subscription in @opencode. Use the model powering Grok Buil...",
+          "titleZh": "xAI：`opencode` 现支持使用 Grok / X Premium 订阅（官方口径）",
+          "link": "https://x.com/xai/status/2057522050923929948",
+          "publishedAt": "Thu, 21 May 2026 18:00:58 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HI3IJlHbAAAWWYL.png",
+          "video": "",
+          "summary": "You can now use your @grok or X Premium subscription in @opencode . Use the model powering Grok Build for high speed and codebase intelligence. x.ai/news/grok-open… 💬 288 🔄 321 ❤️ 2964 👀 453896 📊 596 ⚡ Powered by xgo.ing",
+          "summaryZh": "xAI 宣布 `opencode` 现在可以使用 **Grok 或 X Premium** 订阅进行调用，降低接入门槛，并把订阅体系与开发/编码场景的模型使用打通。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 63
+        },
+        {
+          "title": "Your best HyperFrames composition is now a template swap the text, the colors, the clips render do...",
+          "titleZh": "HeyGen 推出 HyperFrames 模板化能力：换文案/颜色/片段即可生成",
+          "link": "https://x.com/HeyGen/status/2057516301757932020",
+          "publishedAt": "Thu, 21 May 2026 17:38:07 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-22-2057516301757932020.mp4",
+          "summary": "Your best HyperFrames composition is now a template swap the text, the colors, the clips render dozens of versions in parallel on AWS Lambda build once, scale forever setup docs in the thread ↓ Your browser does not support the video tag. 🔗 View on Twitter 💬 46 🔄 53 ❤️ 221 👀 135223 📊 112 ⚡ Powered by xgo.ing",
+          "summaryZh": "HeyGen 宣传其 HyperFrames 方向的“模板化复用”能力：用户可以在现有作品上快速替换**文本、颜色和素材片段**来产出新版本，面向营销物料的批量生成与变体制作场景。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 60.218877943072414
+        },
+        {
+          "title": "Devin is getting a Windows PC. Devin can now natively run in a Windows VM, so it can build, run, an...",
+          "titleZh": "Cognition：Devin 将支持在 Windows VM 中原生运行",
+          "link": "https://x.com/cognition/status/2057496130225668360",
+          "publishedAt": "Thu, 21 May 2026 16:17:58 GMT",
+          "source": "Cognition(@cognition_labs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-22-2057496130225668360.mp4",
+          "summary": "Devin is getting a Windows PC. Devin can now natively run in a Windows VM, so it can build, run, and test native Windows applications. Your browser does not support the video tag. 🔗 View on Twitter 💬 14 🔄 32 ❤️ 266 👀 74000 📊 58 ⚡ Powered by xgo.ing",
+          "summaryZh": "Cognition 宣布 **Devin** 正在扩展到 Windows：将可在 **Windows 虚拟机**里原生运行，从而支持在 Windows 环境完成构建、运行与调试等开发闭环。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 59.22302056707326
+        },
+        {
+          "title": "Tinkering, prototyping, and seeing what happens with Claude Design:",
+          "titleZh": "Claude 分享设计原型尝试（偏展示向）",
+          "link": "https://x.com/claudeai/status/2057487463518548073",
+          "publishedAt": "Thu, 21 May 2026 15:43:32 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Tinkering, prototyping, and seeing what happens with Claude Design: 💬 291 🔄 184 ❤️ 6181 👀 589592 📊 955 ⚡ Powered by xgo.ing",
+          "summaryZh": "Claude 团队分享了一段“Claude Design”原型/尝试的展示内容，主要体现其在交互设计与原型迭代中的探索方向（信息量有限，更多是示例展示）。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        },
+        {
+          "title": "Replit Enterprise is now self-serve! In minutes you can: - Buy Replit Enterprise - Configure SS...",
+          "titleZh": "Replit：Enterprise 现支持自助开通（购买、SSO、权限配置等）",
+          "link": "https://x.com/Replit/status/2057491954825674942",
+          "publishedAt": "Thu, 21 May 2026 16:01:23 GMT",
+          "source": "Replit ⠕(@Replit)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-22-2057491954825674942.mp4",
+          "summary": "Replit Enterprise is now self-serve! In minutes you can: - Buy Replit Enterprise - Configure SSO + SCIM - Start building with your team No contract negotiations. No waiting. Your browser does not support the video tag. 🔗 View on Twitter 💬 22 🔄 15 ❤️ 139 👀 75402 📊 44 ⚡ Powered by xgo.ing",
+          "summaryZh": "Replit 宣布 **Replit Enterprise** 进入自助开通模式：可在数分钟内完成购买、配置 **SSO**、以及权限/组织相关设置，降低企业试用与落地成本。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 57.670562881763374
+        },
+        {
+          "title": "Self-Evolving in the Wild：Over the course of ~35 hours of continuous autonomous execution, the model...",
+          "titleZh": "Qwen 分享“野外自演化”长任务实验（官方口径）",
+          "link": "https://x.com/Alibaba_Qwen/status/2057450236180935056",
+          "publishedAt": "Thu, 21 May 2026 13:15:36 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HI19ymXbcAIpcL-.jpg",
+          "video": "",
+          "summary": "Self-Evolving in the Wild：Over the course of ~35 hours of continuous autonomous execution, the model performed 432 kernel evaluations across 1,158 tool calls. It wrote, compiled, profiled, and iteratively improved the Extend Attention Kernel entirely on its own — 10.0x geometric mean speedup over the Triton reference, measured across multiple workloads. More details on blog: qwen.ai/blog?id=qwen3.7 💬 2 🔄 7 ❤️ 159 👀 22092 📊 25 ⚡ Powered by xgo.ing",
+          "summaryZh": "Qwen 官方描述了一次长时自主执行实验：模型在约 **35 小时**的连续运行中完成多个步骤并持续调用工具；官方用它来证明在长任务中保持目标一致性与执行稳定性的重要性（具体实验设置与可复现性仍需进一步信息）。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 56.61616319816265
+        },
+        {
+          "title": "Nathan's @cursor_ai team didn't prompt-engineer their way to Composer 2.5. They trained it. The mass...",
+          "titleZh": "Fireworks：Cursor Composer 2.5 背后是大规模 RL 训练，而非“提示词工程”",
+          "link": "https://x.com/FireworksAI_HQ/status/2057335146278490370",
+          "publishedAt": "Thu, 21 May 2026 05:38:16 GMT",
+          "source": "Fireworks AI(@FireworksAI_HQ)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Nathan's @cursor_ai team didn't prompt-engineer their way to Composer 2.5. They trained it. The massive RL program runs RL rollouts on Fireworks, alongside production inference. \"Comment 🔥 to see my prompt\" → may work for influencers (in 2025) Training your own model → the only way to sustain a competitive moat in 2027+ Learn more → fireworks.ai/training-rl-ro… S Nathan Tindall @ntindall_ Excited to launch Composer 2.5 today! Huge shoutout to the team at @FireworksAI_HQ for being a fantastic partner throughout the process. 🔗 View Quoted Tweet 💬 3 🔄 3 ❤️ 78 👀 8838 📊 13 ⚡ Powered by xgo.ing",
+          "summaryZh": "FireworksAI 分享称 Cursor 团队为了做出 Composer 2.5，并不是靠提示词堆叠，而是进行了更系统的 **RL 训练**：在 Fireworks 上跑 RL rollouts，并结合生产推理一起迭代。这类表态反映了编码代理竞赛从“产品包装”转向更重的训练与数据投入。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "推理部署"
+          ],
+          "score": 68.31629303999424
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": []
+    }
+  ],
+  "failures": [
+    {
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.dev/rss/",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Hugging Face Daily Papers",
+      "url": "https://huggingface.co/papers/date/{date}",
+      "error": "直连失败，代理兜底也失败：fetch failed; http://127.0.0.1:6789: Command failed: curl -L --silent --show-error --connect-timeout 10 --max-time 30 --proxy http://127.0.0.1:6789 https://huggingface.co/papers/date/2026-05-22\ncurl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to huggingface.co:443 \n; http://127.0.0.1:7890: Command failed: curl -L --silent --show-error --connect-timeout 10 --max-time 30 --proxy http://127.0.0.1:7890 https://huggingface.co/papers/date/2026-05-22\ncurl: (7) Failed to connect to 127.0.0.1 port 7890 after 0 ms: Couldn't connect to server\n"
+    }
+  ],
+  "summaryBullets": [
+    "**Qwen 发布旗舰模型 Qwen3.7-Max**，主打面向 Agent 的端到端编码与长时自主执行能力，并已在阿里云 Model Studio 提供 API。",
+    "OpenAI 在 Codex Thursday 更新中强化 **Mac 远程/锁屏可用** 能力：手机端也能安全操作 Mac（屏幕关闭也可）。",
+    "Codex 新增/升级多项交互：**Appshots**（把应用窗口截图+文本带进线程）与 **高级标注模式**（直接改页面元素并批量反馈）。",
+    "多家厂商同步更新：NVIDIA 推出‘已验证’的 Agent Skills 机制、Cohere 的 **Command A+** 登陆 Hugging Face（**W4A4 量化**）、以及 Devin 宣布将可在 **Windows 虚拟机**中原生运行。"
+  ]
+}
