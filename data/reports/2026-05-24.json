@@ -1,0 +1,401 @@
+{
+  "date": "2026-05-24",
+  "generatedAt": "2026-05-24T09:25:21.756Z",
+  "title": "AI 日报 - 2026-05-24",
+  "stats": {
+    "sources": 133,
+    "fetched": 131,
+    "emailCandidates": 0,
+    "selected": 28,
+    "failures": 2
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "under appreciated that codex is open source",
+          "titleZh": "Greg Brockman：Codex 已开源，很多人仍不知道",
+          "link": "https://x.com/gdb/status/2058381548383096994",
+          "publishedAt": "Sun, 24 May 2026 02:56:18 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "under appreciated that codex is open source Ahmed @ah20im Lots of people get surprised when I tell them that Codex is open source 🔗 View Quoted Tweet 💬 117 🔄 87 ❤️ 2592 👀 267297 📊 296 ⚡ Powered by xgo.ing",
+          "summaryZh": "他在转推讨论时提到：不少人听到 **Codex 是开源的** 会很惊讶。这类信息对评估 **可自建/可审计的编码 Agent** 生态很关键：一旦工具链可开源，企业内落地的合规与可控性会明显提升。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源"
+          ],
+          "score": 53
+        },
+        {
+          "title": "Codex for building and debugging an iPhone simulator end to end:",
+          "titleZh": "Codex 计算机使用：端到端驱动 iPhone 模拟器做“自测+改 bug”",
+          "link": "https://x.com/gdb/status/2058232892266836141",
+          "publishedAt": "Sat, 23 May 2026 17:05:36 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-05-24-2058232892266836141.mp4",
+          "summary": "Codex for building and debugging an iPhone simulator end to end: Justin @JustinBleuel Codex computer use entirely driving iphone simulator to bug bash a feature it just built Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 79 🔄 48 ❤️ 909 👀 126324 📊 162 ⚡ Powered by xgo.ing",
+          "summaryZh": "演示展示了 **Codex computer use** 直接操作 **iPhone Simulator**：先搭建/实现功能，再在模拟器里像真人一样点点点进行 bug bash，并把问题回流给 Agent 继续修复。对“写完就能自测”的 **端到端闭环** 很有参考价值。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "视频"
+          ],
+          "score": 52
+        },
+        {
+          "title": "@garrytan great to hear that Gemini Live is working so well for you! Awesome to see what you are doi...",
+          "titleZh": "GBrain v0.40.0：给 OpenClaw/Hermes Agent 加上语音能力（基于 Gemini Live）",
+          "link": "https://x.com/demishassabis/status/2058137765284557092",
+          "publishedAt": "Sat, 23 May 2026 10:47:36 GMT",
+          "source": "Demis Hassabis(@demishassabis)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HI-r-ekawAEiOJ9.jpg",
+          "video": "",
+          "summary": "@garrytan great to hear that Gemini Live is working so well for you! Awesome to see what you are doing with it! cc @joshwoodward Garry Tan @garrytan GBrain just shipped v0.40.0 gives your OpenClaw/Hermes Agent + GBrain a voice agent. It's based on Gemini Live. (Thanks @demishassabis it's amazing) Large context, great tool use, full brain access. Mars is a friend, Venus is your EA. My open source gift to you. 🔗 View Quoted Tweet 💬 19 🔄 24 ❤️ 300 👀 60448 📊 47 ⚡ Powered by xgo.ing",
+          "summaryZh": "这条互动里提到：**GBrain v0.40.0** 已上线，为 **OpenClaw/Hermes Agent + GBrain** 增加 **语音 Agent** 能力，底层基于 **Gemini Live**；并强调大上下文、工具调用与“全脑访问”等特性。对想把编码/执行 Agent 进一步扩展到 **语音交互** 的团队是个落地信号。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "开源",
+            "语音"
+          ],
+          "score": 47.183259676551465
+        },
+        {
+          "title": "Replit Agent builds your app. Squidler tests it like a real user. Replit Agent fixes what's broken. ...",
+          "titleZh": "Replit 将 Squidler 上线到 MCP 库：用“真实用户流”自动做 QA 并回写修复",
+          "link": "https://x.com/Replit/status/2058261705998602548",
+          "publishedAt": "Sat, 23 May 2026 19:00:06 GMT",
+          "source": "Replit ⠕(@Replit)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Replit Agent builds your app. Squidler tests it like a real user. Replit Agent fixes what's broken. That's the full AI QA loop, and it's now live in Replit's MCP library. You describe what your app should do in plain English. Squidler navigates it the way a real person would. Issues flow back automatically and get fixed. No test-writing skills required. Build with Replit. Test with Squidler. Ship with confidence. Squidler @SquidlerIO Official today: Squidler is in @Replit MCP library. Build with #Replit . Test with Squidler. Replit Agent builds, Squidler runs real user flows against the live URL, results loop back to the agent. No selectors, no scripts. replit.com/partners/squid… 🔗 View Quoted Tweet 💬 17 🔄 8 ❤️ 120 👀 22217 📊 30 ⚡ Powered by xgo.ing",
+          "summaryZh": "Replit 宣布 **Squidler** 已进入 **Replit 的 MCP library**：你用自然语言描述应用应有的行为，Squidler 按真实用户方式在在线 URL 上跑流程，把问题回流给 **Replit Agent** 自动修复；主打“不写测试脚本、不要选择器”。这类“**生成 → 验证 → 修复**”闭环是 Agent 工程化的关键拼图。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 57.01495644889739
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "π-Bench: Evaluating Proactive Personal Assistant Agents in Long-Horizon Workflows",
+          "titleZh": "π-Bench：评测“主动型个人助理 Agent”的长程多轮任务基准",
+          "link": "https://huggingface.co/papers/2605.14678",
+          "publishedAt": "2026-05-24T09:25:21.756Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.14678/gradient.png",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-05-24 排名第 4 的论文候选。",
+          "summaryZh": "**核心结论**：论文提出 **π-Bench**，专门评测个人助理 Agent 在长程工作流里能否“主动补全需求”——用户往往只给出不完整指令，关键约束与偏好是隐藏的，Agent 需要在多轮对话中提前识别并采取行动。 **支撑证据**：π-Bench 包含 **100** 个多轮任务、覆盖 **5** 类用户 persona，并引入 **隐藏意图**、任务间依赖与跨会话连续性，用长轨迹同时衡量 **任务完成度** 与 **主动性**。作者实验指出：主动协助依然很难；“完成任务”和“足够主动”是两件事；并且先前交互历史有助于后续更好地推断隐含意图。 **我的判断**：如果你的产品形态是“对话式助理/办公自动化/个人工作流”，π-Bench 的设定更接近真实用户场景；但它也提示了一个工程风险：只优化“完成率”可能会牺牲主动性，评测指标需要拆开看。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "论文"
+          ],
+          "score": 35
+        },
+        {
+          "title": "ACC: Compiling Agent Trajectories for Long-Context Training",
+          "titleZh": "ACC：把 Agent 轨迹“编译”为长上下文训练数据，用于提升长程推理",
+          "link": "https://huggingface.co/papers/2605.21850",
+          "publishedAt": "2026-05-24T09:25:21.756Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.21850/gradient.png",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-05-24 排名第 6 的论文候选。",
+          "summaryZh": "**核心结论**：论文提出 **ACC**，主张利用 Agent 在解题时产生的大量多轮轨迹（工具调用 + 环境观测）来构造训练材料，从而提升 LLM 的 **长上下文推理** 能力，避免昂贵的长文档标注/合成。 **支撑证据**：作者观察到：在真实 Agent 任务里，回答问题所需证据往往分散在许多回合中，模型必须跨很远的上下文片段进行整合；ACC 的思路是把这些轨迹加工成适合长上下文训练的样本，让模型学习如何在长轨迹里“找证据、做归纳”。 **我的判断**：这类方法对“工具型 Agent”很友好：你已经在生产里积累了大量交互日志，理论上能变成训练/对齐材料；但需要额外关注隐私脱敏、轨迹质量控制，以及不同工具调用预算差异带来的分布偏移。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "论文"
+          ],
+          "score": 35
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "mukul975/Anthropic-Cybersecurity-Skills",
+          "titleZh": "Anthropic-Cybersecurity-Skills：面向 AI Agent 的 754 条网络安全技能库",
+          "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "publishedAt": "2026-05-24T09:25:21.756Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://repository-images.githubusercontent.com/1166506614/38d9aad0-5e51-43d0-8567-21443768d1be",
+          "video": "",
+          "summary": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+          "summaryZh": "这个仓库把网络安全能力整理成可复用的“技能清单”，面向 **AI Agent / 编码 Agent** 的安全测试与红蓝对抗场景。简介里称共 **754** 条技能，覆盖从资产识别、漏洞利用到防护响应等多个方向，并尝试对齐主流安全知识体系（如 **MITRE ATT&CK**、**NIST CSF 2.0**、**MITRE ATLAS**、**D3FEND**、**NIST AI RMF** 等）。它还强调可在多种工具链中复用（例如 **Claude Code / Copilot / Codex CLI / Cursor / Gemini CLI**）。如果你在做“让 Agent 更安全地用工具/写代码”，这类结构化技能库可以直接变成 **评测题库、对齐数据或安全回归测试用例**。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体",
+            "开源"
+          ],
+          "score": 33
+        },
+        {
+          "title": "presenton/presenton",
+          "titleZh": "presenton：开源 AI 做 PPT 生成器与 API（Gamma/Beautiful.ai 替代）",
+          "link": "https://github.com/presenton/presenton",
+          "publishedAt": "2026-05-24T09:25:21.756Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/8238055a240a99291282752b1f23549c634d74ece4f1ae87d05a42fb8d2b4b42/presenton/presenton",
+          "video": "",
+          "summary": "Sponsor Star presenton / presenton Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
+          "summaryZh": "一个主打“从内容到演示文稿”的开源项目，定位为 **AI PPT 生成器**，并提供可集成的 **API**。如果你需要在内部系统里自动生成汇报材料，这类项目值得关注其模板能力、可控性与导出格式。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "API"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Lum1104/Understand-Anything",
+          "titleZh": "Understand-Anything：把任意代码库变成交互式知识图谱，可搜索/可提问",
+          "link": "https://github.com/Lum1104/Understand-Anything",
+          "publishedAt": "2026-05-24T09:25:21.756Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/e173dc64dd1ab0fc81017d9db95361078604f51eebc646cf61051649fcee23f6/Lum1104/Understand-Anything",
+          "video": "",
+          "summary": "Star Lum1104 / Understand-Anything Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+          "summaryZh": "项目主张“教会人的知识图谱比炫技的图更重要”：把代码解析成可探索的 **交互式知识图谱**，支持搜索与问答，并宣称可配合 **Claude Code/Codex/Cursor/Copilot/Gemini CLI** 等使用。适合评估“代码理解 + 结构化导航”的体验。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        },
+        {
+          "title": "rohitg00/ai-engineering-from-scratch",
+          "titleZh": "ai-engineering-from-scratch：从零学习并动手搭建 AI 工程能力",
+          "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
+          "publishedAt": "2026-05-24T09:25:21.756Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/2d03ce9e059cbf94b2658051365b8bb18d428aec9e9ed893b97046a00d827d66/rohitg00/ai-engineering-from-scratch",
+          "video": "",
+          "summary": "Sponsor Star rohitg00 / ai-engineering-from-scratch Learn it. Build it. Ship it for others.",
+          "summaryZh": "一个偏学习/实践路线的仓库，口号是“Learn it. Build it. Ship it.”。如果你在搭建团队内的 AI 工程化能力栈，这类从零到一的项目目录可作为训练材料或 onboarding 参考。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        },
+        {
+          "title": "rohitg00/agentmemory",
+          "titleZh": "agentmemory：面向编码 Agent 的“持久记忆”实现，基于真实世界基准",
+          "link": "https://github.com/rohitg00/agentmemory",
+          "publishedAt": "2026-05-24T09:25:21.756Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/rohitg00/agentmemory/raw/main/assets/iii-console/traces-waterfall.png",
+          "video": "",
+          "summary": "Sponsor Star rohitg00 / agentmemory #1 Persistent memory for AI coding agents based on real-world benchmarks",
+          "summaryZh": "一个聚焦 **AI 编码 Agent 持久记忆** 的项目，简介强调基于 **real-world benchmarks** 做评测与设计。对需要“跨会话记忆/长期任务上下文”的工程团队来说，这是值得对照的实现与评测信号。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体",
+            "评测"
+          ],
+          "score": 26
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "最近最火的Codex优化网络速度Use Case，写了个提示词，亲测效果不错： 1. 在Codex中输入 “/goal” ，如果中文版输入 “/目标”，如果不用，直接发提示词也行。 2. 提示词如...",
+          "titleZh": "最近最火的Codex优化网络速度Use Case，写了个提示词，亲测效果不错： 1. 在Codex中输入 “/goal” ，如果中文版输入 “/目标”，如果不用，直接发提示词也行。 2. 提示词如...",
+          "link": "https://x.com/vista8/status/2058231846081843402",
+          "publishedAt": "Sat, 23 May 2026 17:01:26 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HJBOmKeaoAAoCwJ.jpg",
+          "video": "",
+          "summary": "最近最火的Codex优化网络速度Use Case，写了个提示词，亲测效果不错： 1. 在Codex中输入 “/goal” ，如果中文版输入 “/目标”，如果不用，直接发提示词也行。 2. 提示词如下： 优化当前电脑的网络速度和稳定性。 请按“先诊断、再最小可逆修改、最后复测”的方式执行，不要直接破坏性重置网络。 诊断要求： 1. 先跑 before 基准：networkQuality、DNS 查询耗时、到路由器的 ping、到公网 DNS 的 ping。 2. 区分真实公网链路和本机代理/VPN/TUN：检查 scutil --nwi、route get default、scutil --dns、scutil --proxy。 3. 检查 Wi‑Fi 质量：频段、信道、带宽、RSSI、噪声、Tx Rate、周边干扰。 4. 检查 MTU、丢包、mDNS/DNS 缓存、网络服务顺序。 5. 找出高流量或会接管路由的后台进程，如 VPN、Tailscale、Shadowrocket、Stash、iCloud、Dropbox、网盘、下载器。 优化要求： 1. 只做安全、可逆、低风险修改。 2. 把真实使用的 Wi‑Fi/以太...",
+          "summaryZh": "最近最火的Codex优化网络速度Use Case，写了个提示词，亲测效果不错： 1. 在Codex中输入 “/goal” ，如果中文版输入 “/目标”，如果不用，直接发提示词也行。 2. 提示词如下： 优化当前电脑的网络速度和稳定性。 请按“先诊断、再最小可逆修改、最后复测”的方式执行，不要直接破坏性重置网络。 诊断要求： 1. 先跑 before 基准：networkQuality、DNS 查询耗时、到路由器的 ping、到公网 DNS 的 ping。 2. 区分真实公网链路和本机代理/VPN/TUN：检查 scutil --nwi、route get default、scutil --dns、scutil --proxy。 3. 检查 Wi‑Fi 质量：频段、信道、带宽、RSSI、噪声、Tx Rate、周边干扰。 4. 检查 MTU、丢包、mDNS/DNS 缓存、网络服务顺序。 5. 找出高流量或会接管路由的后台进程，如 VPN、Tailscale、Shadowrocket、Stash、iCloud、Dropbox、网盘、下载器。 优化要求： 1. 只做安全、可逆、低风险修改。 2. 把真实使用的 Wi‑Fi/以太...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "安全"
+          ],
+          "score": 52
+        },
+        {
+          "title": "根据神佬 @berryxia 的截图，丢给Codex复刻的微信消息驾驶舱。 底层是卡比的wx-cli，等完善后看好不好开源。",
+          "titleZh": "用 Codex 复刻“微信消息驾驶舱”的想法（底层 wx-cli）",
+          "link": "https://x.com/vista8/status/2058238932190642345",
+          "publishedAt": "Sat, 23 May 2026 17:29:36 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HJBVEfgaMAAVDI-.jpg",
+          "video": "",
+          "summary": "根据神佬 @berryxia 的截图，丢给Codex复刻的微信消息驾驶舱。 底层是卡比的wx-cli，等完善后看好不好开源。 💬 41 🔄 20 ❤️ 263 👀 33874 📊 114 ⚡ Powered by xgo.ing",
+          "summaryZh": "他分享了一个用 **Codex** 复刻的“微信消息驾驶舱”想法：根据他人截图，让 Codex 快速搭出类似的消息看板/工作台；底层依赖 **wx-cli**（文中称后续可能开源）。对“把日常沟通流变成可编排工作流”的方向有启发。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源"
+          ],
+          "score": 49.74892254316876
+        },
+        {
+          "title": "Codex 交互做的真的挺好的，你可以方便的看当前运行的 SubAgents，以及每个 SubAgent 在做的事、用的提示词",
+          "titleZh": "Codex 的 SubAgents 可视化：更容易观测每个子任务在做什么",
+          "link": "https://x.com/dotey/status/2058330410107449401",
+          "publishedAt": "Sat, 23 May 2026 23:33:06 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HJCn6fOXoAAILcf.jpg",
+          "video": "",
+          "summary": "Codex 交互做的真的挺好的，你可以方便的看当前运行的 SubAgents，以及每个 SubAgent 在做的事、用的提示词 💬 22 🔄 4 ❤️ 70 👀 15586 📊 32 ⚡ Powered by xgo.ing",
+          "summaryZh": "他提到 Codex 的交互设计做得不错：可以直观看到当前运行的 **SubAgents**、每个子任务在做什么、以及所用提示词等信息。这类“可观测性”对于多人协作、审计与复盘 Agent 行为很重要。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 45.45384504267446
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "一个 AI 创始人的虚荣心、装，和愚昧之巅｜对谈 invoko.ai 创始人梦琪",
+          "titleZh": "一个 AI 创始人的虚荣心、装，和愚昧之巅｜对谈 invoko.ai 创始人梦琪",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a100e7da7621e15d0c88337",
+          "publishedAt": "2026-05-23T13:30:00.000Z",
+          "source": "42章经",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FiZZKf2-OlC5ZFzM8VLLmtz4P0ie.png",
+          "video": "",
+          "summary": "一个 AI 创始人的虚荣心、装，和愚昧之巅｜对谈 invoko.ai 创始人梦琪",
+          "summaryZh": "**讲了什么**：这一期来自 **42章经**，主题是「一个 AI 创始人的虚荣心、装，和愚昧之巅｜对谈 invoko.ai 创始人梦琪」。梦琪是过去几年里最受欢迎的一类创始人的典型代表：字节背景、组了一个华丽的团队、借 Agent 势能讲一个不错的故事、连续拿钱融资，然后跟着技术和热点 pivot。当然，在 AI Coding 指数级进步之后，她也和很多创始人一样，因为模型太强而一度陷入低谷。但难得的是，在经历了大量反思、复盘和学习之后，梦琪又从「绝望之谷」里爬了出来，重新变得乐观，并再次相信：软件依然大有可为。节目里，梦琪非常坦诚地分享了这一年里的思考与心态变化。她复盘了自己的几次 pivot：为什么那些一开始听起来非常自洽的决策，最后大多都错了？为什么她后来意识到，to B 对自己来说并不是一个值得创业的方向？ **简介要点**： - 梦琪是过去几年里最受欢迎的一类创始人的典型代表：字节背景、组了一个华丽的团队、借 Agent 势能讲一个不错的故事、连续拿钱融资，然后跟着技术和热点 pivot。 - 当然，在 AI Coding 指数级进步之后，她也和很多创始人一样，因为模型太强而一度陷入低谷。 - 为什么她后来意识到，to B 对自己来说并不是一个值得创业的方向？ - 她还进行了很多尖锐的自我批评：刚开始创业时，人很容易被虚荣心和性感叙事牵着走，而忽略业务和用户真正需要的东西；而刚拿到融资的时候，往往也是创始人最接近「愚昧之巅」的时刻。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "大型角色表演模型LPM1.0 | 米哈游 | 蔡浩宇 | 表演三难困境",
+          "titleZh": "大型角色表演模型LPM1.0 | 米哈游 | 蔡浩宇 | 表演三难困境",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69ffc7af1b7bd50295d38b69",
+          "publishedAt": "2026-05-23T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "大型角色表演模型LPM1.0 | 米哈游 | 蔡浩宇 | 表演三难困境",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「大型角色表演模型LPM1.0 | 米哈游 | 蔡浩宇 | 表演三难困境」。AI会倾听和表演吗？如何让AI来替你直播呢？今天咱们来聊一项在AI虚拟角色交互体验领域里的突破技术，LPM 1.0，它的全称是Large Performance Model，也就是大型表演模型。它是全球第一个从系统层面，彻底破解表演三难困境的生成模型，是由米哈游创始人蔡浩宇旗下AI公司 Anuttacon研发，专注于单人全双工音对话表演生成。原视频来自： **简介要点**： - 今天咱们来聊一项在AI虚拟角色交互体验领域里的突破技术，LPM 1.0，它的全称是Large Performance Model，也就是大型表演模型。 - 它是全球第一个从系统层面，彻底破解表演三难困境的生成模型，是由米哈游创始人蔡浩宇旗下AI公司 Anuttacon研发，专注于单人全双工音对话表演生成。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "模型"
+          ],
+          "score": null
+        },
+        {
+          "title": "硅谷21家顶级VC为何错过了Anthropic | Anj Midha",
+          "titleZh": "硅谷21家顶级VC为何错过了Anthropic | Anj Midha",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69ffc53e1b7bd50295d37ea8",
+          "publishedAt": "2026-05-20T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "硅谷21家顶级VC为何错过了Anthropic | Anj Midha",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「硅谷21家顶级VC为何错过了Anthropic | Anj Midha」。在过去四年里，Anthropic从一家无人问津的初创团队，一路成长为估值很可能要逼近8000亿美元的超级巨头，估值暴涨了将近380倍。而创造这个神话的关键人物，除了Anthropic的创始团队，还有一位最早的天使投资人，安杰·米达（Anj Midha）。他不仅从种子轮一路跟投到最新一轮，累计投入数亿美元，更在近期的知名播客《20VC》中，爆出了一段硅谷创投史上堪称荒诞的黑历史，当年他带着Anthropic的项目跑遍硅谷沙丘路，对接了22家全球顶级风投机构，其中21家全都毫不犹豫地说了一个字，“不”。今天，咱们就结合安杰·米达的独家爆料，完整还原这段被尘封的历史。原视频来自： **简介要点**： - 而创造这个神话的关键人物，除了Anthropic的创始团队，还有一位最早的天使投资人，安杰·米达（Anj Midha）。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.dev/rss/",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Databricks",
+      "url": "https://www.databricks.com/feed",
+      "error": "fetch failed"
+    }
+  ],
+  "summaryBullets": [
+    "Codex 场景展示进一步变成「**生成 → 自测 → 修复**」闭环：Agent 可以直接操作 **iPhone Simulator** 做端到端 bug bash。",
+    "Replit 把 **Squidler** 上线到 **MCP library**，主打用“真实用户流”自动做 QA 并把问题回流给 Agent 修复。",
+    "研究侧出现更贴近真实助理场景的评测：**π-Bench** 用 100 个多轮任务拆分衡量“完成度”与“主动性”。",
+    "另一个研究方向是用生产式 Agent 轨迹反哺训练：**ACC** 试图把多轮工具调用轨迹加工成长上下文训练数据。",
+    "开源侧值得跟进 **agentmemory** 等“持久记忆”项目，讨论点从“能不能写代码”转向“能不能跨会话持续做事”。"
+  ]
+}

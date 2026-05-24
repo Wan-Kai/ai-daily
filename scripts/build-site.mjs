@@ -20,13 +20,36 @@ function escapeHtml(value = "") {
 }
 
 function renderInlineMarkdown(value = "") {
-  const parts = String(value).split(/(\*\*[^*\n][\s\S]*?[^*\n]\*\*)/g);
-  return parts.map((part) => {
-    if (part.startsWith("**") && part.endsWith("**")) {
-      return `<strong>${escapeHtml(part.slice(2, -2))}</strong>`;
+  const text = String(value || "");
+  let output = "";
+  let cursor = 0;
+
+  while (cursor < text.length) {
+    const start = text.indexOf("**", cursor);
+    if (start === -1) {
+      output += escapeHtml(text.slice(cursor));
+      break;
     }
-    return escapeHtml(part);
-  }).join("");
+
+    output += escapeHtml(text.slice(cursor, start));
+    const end = text.indexOf("**", start + 2);
+    if (end === -1) {
+      output += escapeHtml(text.slice(start));
+      break;
+    }
+
+    const inner = text.slice(start + 2, end);
+    if (!inner || inner.includes("\n")) {
+      output += escapeHtml(text.slice(start, end + 2));
+      cursor = end + 2;
+      continue;
+    }
+
+    output += `<strong>${escapeHtml(inner)}</strong>`;
+    cursor = end + 2;
+  }
+
+  return output;
 }
 
 function renderSummaryBlocks(summary = "") {
