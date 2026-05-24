@@ -1,12 +1,15 @@
 import { access, mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import crypto from "node:crypto";
+import { execFile } from "node:child_process";
 import path from "node:path";
+import { promisify } from "node:util";
 
 const root = process.cwd();
 const reportsDir = path.join(root, "data", "reports");
 const sourcesPath = path.join(root, "data", "sources.json");
 const mediaDir = path.join(root, "public", "media");
-const MAX_CACHE_VIDEO_BYTES = 15 * 1024 * 1024;
+const MAX_CACHE_VIDEO_BYTES = 32 * 1024 * 1024;
+const execFileAsync = promisify(execFile);
 
 function decodeEntities(value = "") {
   return value
@@ -147,16 +150,7 @@ function stableMediaId(item, videoUrl) {
 async function localVideoPath(report, item, videoUrl) {
   if (!/video\.twimg\.com/i.test(videoUrl)) return videoUrl;
 
-  const head = await fetch(videoUrl, {
-    method: "HEAD",
-    signal: AbortSignal.timeout(15000),
-    headers: {
-      "user-agent": "ai-daily/0.1 (+https://github.com/Wan-Kai/ai-daily)"
-    }
-  });
-  if (!head.ok) throw new Error(`HTTP ${head.status}`);
-
-  const bytes = Number(head.headers.get("content-length") || 0);
+  const bytes = await contentLengthWithProxyFallback(videoUrl, 15000);
   if (!bytes || bytes > MAX_CACHE_VIDEO_BYTES) return "";
 
   const filename = `${report.date}-${stableMediaId(item, videoUrl)}.mp4`;
@@ -164,18 +158,131 @@ async function localVideoPath(report, item, videoUrl) {
   try {
     await access(target);
   } catch {
-    const response = await fetch(videoUrl, {
-      signal: AbortSignal.timeout(120000),
+    await mkdir(mediaDir, { recursive: true });
+    await downloadWithProxyFallback(videoUrl, target, 120000);
+  }
+
+  return `./media/${filename}`;
+}
+
+function proxyCandidates() {
+  return [
+    process.env.AI_DAILY_HTTPS_PROXY,
+    process.env.HTTPS_PROXY,
+    process.env.HTTP_PROXY,
+    "http://127.0.0.1:6789",
+    "http://127.0.0.1:7890"
+  ].filter(Boolean);
+}
+
+async function contentLengthWithProxyFallback(url, timeoutMs) {
+  try {
+    const head = await fetch(url, {
+      method: "HEAD",
+      signal: AbortSignal.timeout(timeoutMs),
       headers: {
         "user-agent": "ai-daily/0.1 (+https://github.com/Wan-Kai/ai-daily)"
       }
     });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    await mkdir(mediaDir, { recursive: true });
-    await writeFile(target, new Uint8Array(await response.arrayBuffer()));
+    if (!head.ok) throw new Error(`HTTP ${head.status}`);
+    const bytes = Number(head.headers.get("content-length") || 0);
+    if (bytes) return bytes;
+  } catch {
+    // fallthrough
   }
 
-  return `./media/${filename}`;
+  const proxies = [...new Set(proxyCandidates())];
+  const errors = [];
+
+  try {
+    const { stdout } = await execFileAsync("curl", [
+      "-I",
+      "-L",
+      "--silent",
+      "--show-error",
+      "--connect-timeout",
+      "10",
+      "--max-time",
+      String(Math.ceil(timeoutMs / 1000)),
+      url
+    ], { maxBuffer: 512 * 1024 });
+    const match = stdout.match(/content-length:\\s*(\\d+)/i);
+    const bytes = match ? Number(match[1]) : 0;
+    if (bytes) return bytes;
+  } catch (error) {
+    errors.push(`direct: ${error.message}`);
+  }
+
+  for (const proxy of proxies) {
+    try {
+      const { stdout } = await execFileAsync("curl", [
+        "-I",
+        "-L",
+        "--silent",
+        "--show-error",
+        "--connect-timeout",
+        "10",
+        "--max-time",
+        String(Math.ceil(timeoutMs / 1000)),
+        "--proxy",
+        proxy,
+        url
+      ], { maxBuffer: 512 * 1024 });
+      const match = stdout.match(/content-length:\\s*(\\d+)/i);
+      const bytes = match ? Number(match[1]) : 0;
+      if (bytes) return bytes;
+    } catch (error) {
+      errors.push(`${proxy}: ${error.message}`);
+    }
+  }
+  throw new Error(`无法获取视频大小：${errors.join("; ")}`);
+}
+
+async function downloadWithProxyFallback(url, target, timeoutMs) {
+  const proxies = [...new Set(proxyCandidates())];
+  const errors = [];
+
+  try {
+    await execFileAsync("curl", [
+      "-L",
+      "--silent",
+      "--show-error",
+      "--connect-timeout",
+      "10",
+      "--max-time",
+      String(Math.ceil(timeoutMs / 1000)),
+      "-o",
+      target,
+      url
+    ], { maxBuffer: 1024 * 1024 });
+    return;
+  } catch (error) {
+    errors.push(`direct: ${error.message}`);
+  }
+
+  for (const proxy of proxies) {
+    try {
+      await execFileAsync("curl", [
+        "-L",
+        "--silent",
+        "--show-error",
+        "--connect-timeout",
+        "10",
+        "--max-time",
+        String(Math.ceil(timeoutMs / 1000)),
+        "--proxy",
+        proxy,
+        "-o",
+        target,
+        url
+      ], { maxBuffer: 1024 * 1024 });
+      return;
+    } catch (error) {
+      errors.push(`${proxy}: ${error.message}`);
+    }
+  }
+
+  throw new Error(`视频下载失败：${errors.join("; ")}`);
 }
 
 async function buildSourceMediaIndex(sources, report) {

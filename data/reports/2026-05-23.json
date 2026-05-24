@@ -1,0 +1,705 @@
+{
+  "date": "2026-05-23",
+  "generatedAt": "2026-05-23T10:07:37.214Z",
+  "title": "AI 日报 - 2026-05-23",
+  "stats": {
+    "sources": 133,
+    "fetched": 564,
+    "emailCandidates": 0,
+    "selected": 33,
+    "failures": 6
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "With the Cursor SDK, you can build your own agents with Composer 2.5. It's now available in Python a...",
+          "titleZh": "Cursor 发布 Cursor SDK：Composer 2.5 可用 Python/TypeScript 调用",
+          "link": "https://x.com/cursor_ai/status/2057913121558413770",
+          "publishedAt": "Fri, 22 May 2026 19:54:57 GMT",
+          "source": "Cursor(@cursor_ai)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-23-2057913121558413770.mp4",
+          "summary": "With the Cursor SDK, you can build your own agents with Composer 2.5. It's now available in Python and TypeScript. This long weekend, Composer usage is 90% off in the SDK. We're excited to see what you build! Your browser does not support the video tag. 🔗 View on Twitter 💬 102 🔄 140 ❤️ 2061 👀 238857 📊 414 ⚡ Powered by xgo.ing",
+          "summaryZh": "Cursor 宣布推出 **Cursor SDK**，把 **Composer 2.5** 的 Agent 编排能力开放为 **Python** 与 **TypeScript** SDK，开发者可以在自己的应用/工作流里直接调用。官方同时提到假期期间 SDK 侧 **Composer 使用费 90% 折扣**，降低试用成本，适合团队快速把编辑器内的工具链迁移到自建 Agent 服务。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 73
+        },
+        {
+          "title": "Last month we launched Project Glasswing, our collaborative AI cybersecurity initiative. Since then,...",
+          "titleZh": "Anthropic：Project Glasswing 已协作发现逾万处高危/致命漏洞",
+          "link": "https://x.com/AnthropicAI/status/2057909102542549503",
+          "publishedAt": "Fri, 22 May 2026 19:38:58 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Last month we launched Project Glasswing, our collaborative AI cybersecurity initiative. Since then, we and our partners have found more than ten thousand high- or critical-severity vulnerabilities in essential software. 💬 330 🔄 440 ❤️ 5999 👀 1411551 📊 914 ⚡ Powered by xgo.ing",
+          "summaryZh": "Anthropic 更新其 AI 网络安全合作计划 **Project Glasswing**：与合作伙伴在关键基础软件中累计发现 **超过 1 万处高危或严重级漏洞**。这类“模型辅助漏洞挖掘”正在把传统审计的规模推高到新量级，后续如何把发现—修复—披露流程产品化、以及如何降低误报/重复工作量，都会直接影响开源与企业软件的安全成本。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布"
+          ],
+          "score": 71
+        },
+        {
+          "title": "The success of the Voice Marketplace inspired us to bring the same model to music. The Music Marketp...",
+          "titleZh": "ElevenLabs 扩展“市场分成”模式：Music Marketplace 复用 Voice Marketplace 架构",
+          "link": "https://x.com/ElevenLabs/status/2057840641522999308",
+          "publishedAt": "Fri, 22 May 2026 15:06:56 GMT",
+          "source": "ElevenLabs(@elevenlabsio)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-23-2057840641522999308.mp4",
+          "summary": "The success of the Voice Marketplace inspired us to bring the same model to music. The Music Marketplace launched in March with the same architecture. We are exploring ways to expand this model further. Your browser does not support the video tag. 🔗 View on Twitter 💬 1 🔄 0 ❤️ 6 👀 2319 📊 2 ⚡ Powered by xgo.ing",
+          "summaryZh": "ElevenLabs 表示其 **Voice Marketplace** 的分成/激励机制带来增长，因此把同一套架构扩展到音乐领域：**Music Marketplace** 已在 **3 月**上线并沿用相同架构。官方称正在探索把这种“创作者市场 + 交易/分成”的模式进一步扩展到更多生成式内容方向，值得关注其版权、结算与供给侧生态如何演进。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "语音",
+            "视频"
+          ],
+          "score": 63.72965413305736
+        },
+        {
+          "title": "Creating with HyperFrames just got faster Drag elements in the studio to fix placement instead of p...",
+          "titleZh": "HeyGen：HyperFrames 编辑体验提速，支持拖拽微调与内置组件目录",
+          "link": "https://x.com/HeyGen/status/2057863946691133481",
+          "publishedAt": "Fri, 22 May 2026 16:39:32 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-23-2057863946691133481.mp4",
+          "summary": "Creating with HyperFrames just got faster Drag elements in the studio to fix placement instead of prompting We also built the full component catalog right into the studio. Browse and add $ npx hyperframes @latest preview Follow @hyperframes_ for updates Your browser does not support the video tag. 🔗 View on Twitter 💬 64 🔄 56 ❤️ 299 👀 119130 📊 132 ⚡ Powered by xgo.ing",
+          "summaryZh": "HeyGen 宣布 **HyperFrames** 的创建流程提速：在 Studio 里可以直接 **拖拽元素** 做布局修正，而不必反复用提示词“试错摆放”；同时把 **完整组件目录** 内置到 Studio，便于浏览与插入。对需要高频迭代的视频/动效生成团队而言，这类“所见即所得 + 可复用组件库”的改进能明显减少提示词成本与返工。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "RAG",
+            "视频"
+          ],
+          "score": 62.84718526784525
+        },
+        {
+          "title": "You can do this without voice, too. Upload a form image, add the details you want included, and Ch...",
+          "titleZh": "ChatGPT 支持“看图填表单”：上传表单图片并指定要填的字段",
+          "link": "https://x.com/ChatGPTapp/status/2057908057917763988",
+          "publishedAt": "Fri, 22 May 2026 19:34:49 GMT",
+          "source": "ChatGPT(@ChatGPTapp)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HI8oeOxb0AAvx8r.jpg",
+          "video": "",
+          "summary": "You can do this without voice, too. Upload a form image, add the details you want included, and ChatGPT can fill it out for you. 💬 24 🔄 27 ❤️ 510 👀 53475 📊 88 ⚡ Powered by xgo.ing",
+          "summaryZh": "ChatGPT 官方演示了“**上传表单图片 → 指定需要填写的内容 → 生成已填好的版本**”的流程；并强调即使不使用语音也可以完成。对日常行政/报销/注册类流程，这类 **图片理解 + 结构化填充** 的能力如果稳定可用，会把“从文档里提取信息再填回去”的重复劳动大幅自动化；但仍需要关注隐私、字段校验与格式兼容性。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "语音",
+            "图像"
+          ],
+          "score": 62.218178043820174
+        },
+        {
+          "title": "SynthID, our imperceptible watermark for AI-generated content, is expanding to more partners. We’re...",
+          "titleZh": "Google DeepMind 扩大 SynthID 合作方，并新增“询问是否 AI 生成”的检测入口",
+          "link": "https://x.com/GoogleDeepMind/status/2057898089621459434",
+          "publishedAt": "Fri, 22 May 2026 18:55:13 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-23-2057898089621459434.mp4",
+          "summary": "SynthID, our imperceptible watermark for AI-generated content, is expanding to more partners. We’re also adding new ways to find out if content was generated using AI - just ask in the @GeminiApp or in @Google Search. Your browser does not support the video tag. 🔗 View on Twitter 💬 50 🔄 57 ❤️ 409 👀 61925 📊 90 ⚡ Powered by xgo.ing",
+          "summaryZh": "Google DeepMind 表示其不可见水印方案 **SynthID** 将扩展到更多合作伙伴；同时在 **Gemini App** 与 **Google 搜索**里新增了查询入口：用户可以直接询问内容是否由 AI 生成。水印覆盖范围扩大 + 识别入口下沉到搜索/助手产品，意味着“内容溯源”正在从研究能力走向面向大众的产品功能。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 60.87337113275481
+        },
+        {
+          "title": "Built for the AI era. ✨ Meet Neural Expressive, Gemini’s new design language featuring fluid animati...",
+          "titleZh": "Gemini 推出新设计语言 Neural Expressive：动效、配色与触觉反馈升级",
+          "link": "https://x.com/GeminiApp/status/2057868874134241574",
+          "publishedAt": "Fri, 22 May 2026 16:59:07 GMT",
+          "source": "Google Gemini App(@GeminiApp)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Built for the AI era. ✨ Meet Neural Expressive, Gemini’s new design language featuring fluid animations, vibrant colors, updated typography, haptic feedback, and visual responses. 💬 58 🔄 91 ❤️ 782 👀 51235 📊 154 ⚡ Powered by xgo.ing",
+          "summaryZh": "Gemini 介绍其面向 AI 时代的新设计语言 **Neural Expressive**：包含更流畅的动画、更鲜明的配色、更新的字体排版，并加入 **触觉反馈** 与更丰富的视觉响应。对多模态助手类产品而言，交互反馈的可感知性往往决定“是否愿意常用”，这类系统级视觉/动效规范升级，可能会影响后续 Gemini 系列产品的一致性体验与开发成本。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Perception or Prejudice: Can MLLMs Go Beyond First Impressions of Personality?",
+          "titleZh": "论文：多模态大模型能否超越对人格的“第一印象”？",
+          "link": "https://arxiv.org/abs/2605.22109",
+          "publishedAt": "Sat, 23 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.22109v1 Announce Type: new Abstract: Multimodal Large Language Models (MLLMs) are increasingly deployed in human-facing roles where personality perception is critical, yet existing benchmarks evaluate this capability solely on numerical Big Five score prediction, leaving open whether models truly perceive personality through behavioral understanding or merely prejudge through superficial pattern matching. We address this gap with three contributions. (i) A new task: we formalize Grounded Personality R...",
+          "summaryZh": "**核心结论**：作者讨论多模态大模型（MLLM）在“人格判断”任务上是否会被首帧/首张图的表面线索误导，并尝试区分模型是在做稳定特质推断，还是在复述对外观与上下文的刻板映射。该工作把人格感知从“看一眼就下结论”的直觉判断，推进到可评测的系统问题。\n\n**支撑证据**：论文构建了围绕多模态输入的人格评测设置，强调控制视觉/文本线索带来的偏置；并通过对比不同输入条件下的输出一致性与可解释性，检验模型是否能在更多证据出现后修正初始判断。\n\n**我的判断**：这类研究对“面试/画像/陪伴”等高风险场景很关键：如果模型容易被外观或第一句话牵着走，产品层需要更强的校准与可追溯机制。后续值得关注数据构造是否足够真实、以及评测是否能覆盖跨文化/跨语境的偏见来源。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "推理能力",
+            "多模态"
+          ],
+          "score": 41
+        },
+        {
+          "title": "VGenST-Bench: A Benchmark for Spatio-Temporal Reasoning via Active Video Synthesis",
+          "titleZh": "论文：VGenST-Bench——用“主动视频合成”评测时空推理能力",
+          "link": "https://arxiv.org/abs/2605.22570",
+          "publishedAt": "Sat, 23 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.22570v1 Announce Type: cross Abstract: Spatio-temporal reasoning is a core capability for Multimodal Large Language Models (MLLMs) operating in the real world. As such, evaluating it precisely has become an essential challenge. However, existing spatio-temporal reasoning benchmark datasets primarily rely on static image sets or passively curated video data, which limits the evaluation of fine-grained reasoning capabilities. In this paper, we introduce VGenST-Bench, a video benchmark that employs gener...",
+          "summaryZh": "**核心结论**：VGenST-Bench 提出一种新基准：不只让模型回答视频里的时空关系问题，而是要求模型通过“**主动生成视频**”来体现其对时空因果与动态过程的理解，从而把评测从静态问答推进到可操作的生成任务。\n\n**支撑证据**：论文设计了围绕时空推理的任务集合，并把评测输出落在可验证的合成视频结果上；同时讨论了多模态模型在时序一致性、动作关系与物体交互上的薄弱点，并用对比实验展示不同模型/设置在该基准上的差异。\n\n**我的判断**：把“推理”绑定到“生成可验结果”是个有价值的方向，能减少只靠语言描述的主观性。值得进一步验证的是：合成视频的评测指标是否能稳定反映推理质量，以及该基准与真实视频编辑/仿真需求的相关性。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 41
+        },
+        {
+          "title": "AtelierEval: Agentic Evaluation of Humans & LLMs as Text-to-Image Prompters",
+          "titleZh": "论文：AtelierEval——用 Agent 式流程评测人类与 LLM 的文生图提示能力",
+          "link": "https://arxiv.org/abs/2605.22645",
+          "publishedAt": "Sat, 23 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.22645v1 Announce Type: new Abstract: Text-to-image (T2I) systems increasingly rely on upstream prompters, either humans or multimodal large language models (MLLMs), to translate user intent into detailed prompts. Yet current benchmarks fix the prompt and only evaluate T2I models, leaving the prompting proficiency of this upstream component entirely unmeasured. We introduce AtelierEval, the first unified benchmark that quantifies prompting proficiency across 360 expert-crafted tasks. Grounded in a cogn...",
+          "summaryZh": "**核心结论**：AtelierEval 关注一个常被忽视的环节：文生图系统的效果很大程度取决于“提示词编写者”。论文提出用 **Agentic evaluation** 的方式，系统评测人类与大模型在“提出/迭代提示词”上的能力与差异。\n\n**支撑证据**：论文把提示词创作拆成可重复的评测流程（理解目标—生成提示—根据反馈迭代等），并在统一的文生图设置下对比不同提示策略带来的图像质量变化；同时给出指标与案例来展示哪些类型的目标最依赖高质量提示。\n\n**我的判断**：如果你在做图像生成产品或内部创意流水线，这类基准能帮助回答“是模型不行，还是提示链路不行”。后续更值得看的点是：评测是否覆盖真实工作流（多轮沟通/风格约束/品牌规范），以及能否沉淀成可复用的提示工程工具。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "多模态",
+            "评测"
+          ],
+          "score": 38
+        },
+        {
+          "title": "Circle-RoPE: Cone-like Decoupled Rotary Positional Embedding for Large Vision-Language Models",
+          "titleZh": "论文：Circle-RoPE——为视觉语言模型改进旋转位置编码的解耦方式",
+          "link": "https://arxiv.org/abs/2505.16416",
+          "publishedAt": "Sat, 23 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2505.16416v3 Announce Type: replace-cross Abstract: Rotary Position Embedding (RoPE) is widely adopted in large language models, but when applied to vision-language models (VLMs) it couples text and image position indices and can introduce spurious cross-modal relative-position bias. We propose Per-Token Distance (PTD) to quantify cross-modal positional disentanglement, and prove that PTD = 0 is a sufficient condition to eliminate the geometric attention bias induced by RoPE. Guided by this criterion, we i...",
+          "summaryZh": "**核心结论**：Circle-RoPE 提出一种“锥形/圆锥式”的解耦旋转位置编码，用于大型视觉语言模型（VLM）。目标是在保持 RoPE 优点的同时，更好地处理不同模态与长上下文下的位置关系表示。\n\n**支撑证据**：论文从现有 RoPE 在 VLM 场景中的局限出发，给出新的位置编码构造，并在多组 VLM/多模态任务与长上下文设置上进行对比实验，展示其在精度与稳定性上的改进（以论文给出的基准结果为准）。\n\n**我的判断**：位置编码改进往往是“看起来很底层，但影响很广”的工程点：一旦对长上下文与多模态对齐更友好，可能直接提升推理与生成质量。建议关注作者是否提供实现细节/开源，以及在主流 VLM 架构上的可迁移性。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "推理能力",
+            "多模态",
+            "评测",
+            "开源"
+          ],
+          "score": 37
+        },
+        {
+          "title": "[AINews] All Model Labs are now Agent Labs",
+          "titleZh": "Latent Space 观察：模型实验室正在集体转向“Agent Lab”叙事",
+          "link": "https://www.latent.space/p/ainews-all-model-labs-are-now-agent",
+          "publishedAt": "Sat, 23 May 2026 04:21:17 GMT",
+          "source": "Latent Space",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://substackcdn.com/image/fetch/$s_!TLyU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F348d0573-16b0-46d0-a852-ccaae2b6ff4f_1122x534.png",
+          "video": "",
+          "summary": "a quiet day lets us tie together a few quotes as all model labs become agent labs",
+          "summaryZh": "**核心要点**：Latent Space 讨论一个近期开启的行业叙事变化：越来越多“模型实验室”开始把重点从单点模型能力，转向端到端 **Agent**（工具调用、任务分解、长时执行）体系，并据此调整产品发布与研发叙事。\n\n**展开说明**：文章通过串联多家机构近期公开表态/发布节奏，说明“Agent 化”不仅是功能层面的包装，而是会影响评测指标、产品交付形态以及团队的工程投入方向（例如对工具生态、运行时、可观测性与安全机制的强调）。\n\n**我的判断**：把“模型 → Agent”作为主线有助于理解接下来一年产品形态的竞争点：谁能把复杂任务稳定跑通、把工具生态打磨成可复用组件，谁就更可能获得企业采购与开发者采用。值得持续追踪其引用的具体发布与后续落地案例。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "The memory shortage is causing a repricing of consumer electronics",
+          "titleZh": "行业信号：内存供需与价格波动，可能正在重定价消费电子与 AI 相关硬件",
+          "link": "https://simonwillison.net/2026/May/22/memory-shortage/#atom-everything",
+          "publishedAt": "2026-05-22T22:01:31+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "The memory shortage is causing a repricing of consumer electronics David Oks provides the clearest explanation I've seen yet of why consumer products that use memory are likely to get significantly more expensive over the next few years. The short version is that memory manufacturers - of which there are just three remaining large companies - have a fixed capacity in terms of how many wafers they can process at any one time. This fixed wafer capacity is then split between DDR - used in desktops and servers, LPDD...",
+          "summaryZh": "**核心要点**：Simon Willison 转述并整理了关于“内存短缺/价格变化”如何影响消费电子定价与供应链的分析，强调内存类器件的供需波动会向下游传导。\n\n**展开说明**：在 AI 相关硬件（含高并发检索、推理服务与端侧设备）持续拉动带宽/容量需求的背景下，内存与存储的成本变化往往会间接影响设备成本结构与服务单价。文章提供了一个相对清晰的解释框架，帮助理解为何部分品类会在短期出现异常涨价。\n\n**我的判断**：这不是“直接的 AI 论文/产品发布”，但对做 RAG/向量检索与推理部署的团队是现实成本变量：当 embedding 规模增长到十亿级，内存/存储价格会被放大成核心预算项，建议结合自身规模做成本敏感性评估。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 23
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "colbymchenry/codegraph",
+          "titleZh": "开源：codegraph——为 Claude Code/Codex 等准备的本地代码知识图谱（预索引降 token）",
+          "link": "https://github.com/colbymchenry/codegraph",
+          "publishedAt": "2026-05-23T10:07:37.214Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star colbymchenry / codegraph Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+          "summaryZh": "GitHub Trending 项目 **codegraph** 主打“预索引的代码知识图谱”：面向 **Claude Code、Codex、Cursor** 等编码 Agent，提前把仓库结构与关系信息做本地索引，从而减少运行时的 **token 消耗**与工具调用次数。对大仓库/多语言项目，这类本地索引思路有机会显著降低 Agent 成本，但也需要评估索引构建耗时、增量更新与隐私边界。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "ChromeDevTools/chrome-devtools-mcp",
+          "titleZh": "开源：chrome-devtools-mcp——把 Chrome DevTools 接入编码 Agent",
+          "link": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+          "publishedAt": "2026-05-23T10:07:37.214Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star ChromeDevTools / chrome-devtools-mcp Chrome DevTools for coding agents",
+          "summaryZh": "GitHub Trending 项目 **chrome-devtools-mcp** 提供把 **Chrome DevTools** 能力接入编码 Agent 的方式，便于在自动化调试/性能分析/前端排障时通过统一协议调用浏览器工具链。对需要“让 Agent 真正能看见与验证页面”的工程团队，这类桥接工具能补齐传统 CLI 工具做不到的可视化调试环节。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "dotnet/skills",
+          "titleZh": "开源：dotnet/skills——为 .NET/C# 编码 Agent 准备的技能仓库",
+          "link": "https://github.com/dotnet/skills",
+          "publishedAt": "2026-05-23T10:07:37.214Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star dotnet / skills Repository for skills to assist AI coding agents with .NET and C#",
+          "summaryZh": "GitHub Trending 项目 **dotnet/skills** 聚焦为 **.NET 与 C#** 场景的编码 Agent 提供可复用技能/工具封装，帮助 Agent 更稳定地完成脚手架、依赖管理、调试与常见工程任务。对企业内大量 .NET 代码库而言，技能化沉淀有助于把“偶发能用的生成”变成更可控的工程生产力。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "odoo/odoo",
+          "titleZh": "开源：Odoo（odoo/odoo）——面向企业的开源业务应用套件",
+          "link": "https://github.com/odoo/odoo",
+          "publishedAt": "2026-05-23T10:07:37.214Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star odoo / odoo Odoo. Open Source Apps To Grow Your Business.",
+          "summaryZh": "GitHub Trending 项目 **Odoo** 是覆盖 ERP/CRM 等多类业务场景的开源应用套件。它未必是纯 AI 项目，但对做企业数字化与集成的团队来说属于长期高活跃度的基础软件；若你在关注“AI 如何嵌入业务系统”，可以把它视为一个潜在的集成/插件生态载体。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "开源"
+          ],
+          "score": 30
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Say hello to open source deep research for your favorite agent harness. Our AI-Q agent skill packag...",
+          "titleZh": "NVIDIA 开源 AI-Q “Deep Research”技能包：把研究流水线封装成可移植技能",
+          "link": "https://x.com/NVIDIAAI/status/2057855521193881773",
+          "publishedAt": "Fri, 22 May 2026 16:06:04 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-23-2057855521193881773.mp4",
+          "summary": "Say hello to open source deep research for your favorite agent harness. Our AI-Q agent skill packages the work of building a research pipeline into a portable skill. Drop it into your harness, and the agent delegates a research task to a local or hosted AI-Q server and gets back a detailed report with citations. See it in Codex below 👇 Your browser does not support the video tag. 🔗 View on Twitter 💬 37 🔄 98 ❤️ 874 👀 60564 📊 246 ⚡ Powered by xgo.ing",
+          "summaryZh": "NVIDIA 介绍其开源的 **AI-Q agent skill**：把“Deep Research”研究流水线封装为可移植技能，接入任意 Agent harness 后，Agent 可把研究任务委派给本地或托管的 **AI-Q server**，并返回带引用的详细报告。对在企业内做情报/调研自动化的团队而言，这种“技能化封装 + 结果带引用”的模式更容易落地到现有工作流。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "开源",
+            "视频"
+          ],
+          "score": 76
+        },
+        {
+          "title": "Long video generation is a systems problem. Introducing LongLive-2.0 from NVIDIA Research: an end-t...",
+          "titleZh": "NVIDIA Research 发布 LongLive-2.0：面向长视频生成的端到端训练/推理系统",
+          "link": "https://x.com/NVIDIAAI/status/2057919769165107314",
+          "publishedAt": "Fri, 22 May 2026 20:21:21 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-23-2057919769165107314.mp4",
+          "summary": "Long video generation is a systems problem. Introducing LongLive-2.0 from NVIDIA Research: an end-to-end NVFP4 training and inference system for long video generation. Low-precision deployment often relies on post-training quantization, creating a gap between how models are trained and how they run. LongLive-2.0 aligns NVFP4-aware training, distillation, and W4A4 inference, maintaining strong benchmark quality while improving speed and memory efficiency. Your browser does not support the video tag. 🔗 View on Twitter 💬 10 🔄 40 ❤️ 336 👀 24058 📊 69 ⚡ Powered by xgo.ing",
+          "summaryZh": "NVIDIA Research 提出 **LongLive-2.0**，把长视频生成视为系统工程：通过 **NVFP4-aware 训练**、蒸馏与 **W4A4 推理**对齐训练与部署精度，避免“训练高精度、部署靠后量化”带来的落差。官方称在维持基准质量的同时提升 **速度与显存效率**，对需要长时序视频生成/编辑的团队是值得跟进的工程信号。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "评测",
+            "推理部署",
+            "视频"
+          ],
+          "score": 73.94939636031027
+        },
+        {
+          "title": "Yesterday we released Aleph 2.0, our upgraded video editing model that lets you change exactly what ...",
+          "titleZh": "Runway 发布 Aleph 2.0：视频编辑模型升级，支持 1080p/30 秒多镜头序列",
+          "link": "https://x.com/runwayml/status/2057826728769134599",
+          "publishedAt": "Fri, 22 May 2026 14:11:39 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-23-2057826728769134599.mp4",
+          "summary": "Yesterday we released Aleph 2.0, our upgraded video editing model that lets you change exactly what you want while keeping everything else the same. Available inside our new Edit Studio, you can work with multishot sequences up to 30 seconds long at 1080p. Learn how to get started today with Runway Academy. Your browser does not support the video tag. 🔗 View on Twitter 💬 25 🔄 31 ❤️ 201 👀 16688 📊 58 ⚡ Powered by xgo.ing",
+          "summaryZh": "Runway 宣布发布视频编辑模型 **Aleph 2.0**：主打“只改你想改的部分，其余保持不变”，并在新的 **Edit Studio** 中提供；支持最长 **30 秒**、**1080p** 的多镜头序列编辑。对内容制作团队而言，多镜头一致性与局部可控编辑是生产力关键，后续可关注其可控区域、时序一致性与编辑稳定性。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "视频"
+          ],
+          "score": 72.98032425438787
+        },
+        {
+          "title": "Today we're open-sourcing Bumblebee, a read-only scanner for macOS and Linux. It checks developer m...",
+          "titleZh": "Perplexity 开源 Bumblebee：macOS/Linux 只读扫描器，可检查高风险包与 AI 工具配置",
+          "link": "https://x.com/perplexity_ai/status/2057869990536360334",
+          "publishedAt": "Fri, 22 May 2026 17:03:33 GMT",
+          "source": "Perplexity(@perplexity_ai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HI8F2dhbMAAYU42.png",
+          "video": "",
+          "summary": "Today we're open-sourcing Bumblebee, a read-only scanner for macOS and Linux. It checks developer machines for risky packages, extensions, and AI tool configs. Connected to Computer, it can trigger deeper scans whenever a new supply-chain risk emerges. github.com/perplexityai/b… 💬 106 🔄 204 ❤️ 1863 👀 195499 📊 512 ⚡ Powered by xgo.ing",
+          "summaryZh": "Perplexity 宣布开源 **Bumblebee**：一个面向 **macOS 与 Linux** 的只读扫描器，用于检查开发机上的高风险 **软件包**、浏览器/IDE **扩展**以及 **AI 工具配置**。其设计还支持与“Connected to Computer”联动，在检测到新的供应链风险触发条件时自动发起更深度扫描，适合把开发环境安全检查纳入日常工程流程。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开源",
+            "开发者工具"
+          ],
+          "score": 65
+        },
+        {
+          "title": "Shipped papercut: new diff markers setting in Appearance. Prefer classic + / - markers when reviewi...",
+          "titleZh": "OpenAI Developers：新增 diff 标记样式开关，可用经典 + / - 取代色条",
+          "link": "https://x.com/OpenAIDevs/status/2057918624841728349",
+          "publishedAt": "Fri, 22 May 2026 20:16:49 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-23-2057918624841728349.mp4",
+          "summary": "Shipped papercut: new diff markers setting in Appearance. Prefer classic + / - markers when reviewing diffs? You can now use those instead of only color-coded diff bars. Default stays the same unless you opt in. Your browser does not support the video tag. 🔗 View on Twitter 💬 33 🔄 32 ❤️ 825 👀 69214 📊 127 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI Developers 表示他们上线了一个小改进：在外观设置里新增 **diff 标记样式**开关，喜欢经典 **“+ / -”** 标记的用户可以选择它，而不必只依赖颜色条；默认样式不变，需手动开启。对高频审阅代码改动的团队来说，这类可读性“纸割”优化能减少误读与审阅疲劳。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 63.49672732092846
+        },
+        {
+          "title": "Voice creators on ElevenLabs have now earned over $22 million. We announced $11 million in earnings...",
+          "titleZh": "ElevenLabs：创作者累计分成已超 2200 万美元（半年翻倍）",
+          "link": "https://x.com/ElevenLabs/status/2057840637504885216",
+          "publishedAt": "Fri, 22 May 2026 15:06:55 GMT",
+          "source": "ElevenLabs(@elevenlabsio)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-23-2057840637504885216.mp4",
+          "summary": "Voice creators on ElevenLabs have now earned over $22 million. We announced $11 million in earnings in November. Six months later, that number has doubled. Your browser does not support the video tag. 🔗 View on Twitter 💬 31 🔄 37 ❤️ 319 👀 454850 📊 77 ⚡ Powered by xgo.ing",
+          "summaryZh": "ElevenLabs 披露其平台创作者累计收入已超过 **2200 万美元**：此前在 **2025 年 11 月**公布为 **1100 万美元**，约半年后翻倍。对语音/音乐等生成式内容平台而言，这类“可量化的创作者收入”是供给侧能否持续增长的关键指标，也有助于判断其市场分成模式是否正在形成正反馈。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "语音",
+            "视频"
+          ],
+          "score": 63.172120815613965
+        },
+        {
+          "title": "⚡️⚡️",
+          "titleZh": "Qwen3.7-Max 上线 OpenRouter：面向 Agent 的编码/办公与长时自主执行",
+          "link": "https://x.com/Alibaba_Qwen/status/2057767604048240987",
+          "publishedAt": "Fri, 22 May 2026 10:16:42 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HI21bqVbcAArMLz.jpg",
+          "video": "",
+          "summary": "⚡️⚡️ OpenRouter @OpenRouter The new Qwen3.7-Max from @Alibaba_Qwen is live on OpenRouter. The flagship of the Qwen3.7 series, built for agent-centric work: coding, office and productivity tasks, and long-horizon autonomous execution. Big jumps in coding and agent benchmarks over Qwen3.6, with explicit prompt caching for repeated context. 🔗 View Quoted Tweet 💬 21 🔄 21 ❤️ 484 👀 35636 📊 52 ⚡ Powered by xgo.ing",
+          "summaryZh": "Qwen 官方称其旗舰模型 **Qwen3.7-Max** 已在 **OpenRouter** 上线，并强调其面向 **Agent-centric** 工作负载：包括编码、办公与生产力任务，以及更长时程的自主执行。对需要快速对比不同闭源/开源模型 API 成本与效果的团队，这类聚合平台的可用性更新能降低试用与切换成本。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "评测"
+          ],
+          "score": 62.59808670245307
+        },
+        {
+          "title": "Patching these vulnerabilities will make us safer. But the software industry will need to adapt to t...",
+          "titleZh": "Anthropic：模型会把漏洞发现规模推到新量级，软件行业需适应“高产出”修复压力",
+          "link": "https://x.com/AnthropicAI/status/2057909104090169464",
+          "publishedAt": "Fri, 22 May 2026 19:38:59 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Patching these vulnerabilities will make us safer. But the software industry will need to adapt to the volume of vulnerabilities that models like Claude Mythos Preview will be able to find. We discuss this in our initial update on Project Glasswing: anthropic.com/research/glass… 💬 50 🔄 81 ❤️ 1135 👀 195540 📊 187 ⚡ Powered by xgo.ing",
+          "summaryZh": "Anthropic 在 Project Glasswing 的后续更新中强调：模型能力提升（文中提到 **Claude Mythos Preview**）可能让漏洞发现数量大幅增加，虽然补丁能提升整体安全性，但软件行业需要适应这种“更高产出”的审计与修复节奏。对安全团队而言，接下来更关键的问题可能不是“能否找到漏洞”，而是如何在规模化发现下做好分级、复现、修复与披露的流水线。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 62
+        },
+        {
+          "title": "Project Genie 🤝 @GoogleMaps Street View You can now take real U.S. places and transform them into ...",
+          "titleZh": "Google DeepMind Project Genie × Street View：把真实地点生成可交互的虚拟世界",
+          "link": "https://x.com/GoogleDeepMind/status/2057842131142590512",
+          "publishedAt": "Fri, 22 May 2026 15:12:51 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-23-2057842131142590512.mp4",
+          "summary": "Project Genie 🤝 @GoogleMaps Street View You can now take real U.S. places and transform them into new, interactive worlds. 🌍 Your browser does not support the video tag. 🔗 View on Twitter 💬 51 🔄 139 ❤️ 987 👀 144009 📊 183 ⚡ Powered by xgo.ing",
+          "summaryZh": "Google DeepMind 展示 **Project Genie** 与 **Google Maps Street View** 的结合：可以把真实世界地点转换为新的、可交互的虚拟环境。对游戏/交互式内容生成而言，这类“从现实场景到可探索世界”的能力如果可控性与一致性足够强，可能显著降低原型制作成本；但仍需观察其可编辑性、风格控制与版权/数据来源边界。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "Kay Zhu is the co-founder and CTO of @genspark_ai, the all-in-one AI workspace built on Claude. In ...",
+          "titleZh": "Claude 访谈 Genspark CTO：在快速变化的市场里，“团队”才是持续竞争力",
+          "link": "https://x.com/claudeai/status/2057854403558653983",
+          "publishedAt": "Fri, 22 May 2026 16:01:37 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-23-2057854403558653983.mp4",
+          "summary": "Kay Zhu is the co-founder and CTO of @genspark_ai , the all-in-one AI workspace built on Claude. In a market moving this fast, where anyone can build, he thinks the team is what makes the difference: Your browser does not support the video tag. 🔗 View on Twitter 💬 152 🔄 100 ❤️ 1613 👀 205021 📊 307 ⚡ Powered by xgo.ing",
+          "summaryZh": "Claude 官方分享对 **Genspark** 联合创始人兼 CTO **Kay Zhu** 的访谈片段：Genspark 将自己定位为基于 Claude 的“一体化 AI 工作台”。他指出在“任何人都能很快做出产品”的市场里，真正拉开差距的是 **团队能力与执行速度**。这类来自一线产品团队的观点对判断 Agent 工具赛道的护城河（产品功能 vs. 工程/组织能力）很有参考价值。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "郑执×罗永浩！总是赶末班车的人，可以改进时间管理......也可以拥有一辆属于自己的车",
+          "titleZh": "郑执×罗永浩！总是赶末班车的人，可以改进时间管理......也可以拥有一辆属于自己的车",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a0e83fa1b7bd502958f347d",
+          "publishedAt": "2026-05-21T04:51:54.216Z",
+          "source": "罗永浩的十字路口",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FvR7Od3_I3OQq0ac_8xMPc4zqdOt.png",
+          "video": "",
+          "summary": "郑执×罗永浩！总是赶末班车的人，可以改进时间管理......也可以拥有一辆属于自己的车",
+          "summaryZh": "**讲了什么**：这一期来自 **罗永浩的十字路口**，主题是「郑执×罗永浩！总是赶末班车的人，可以改进时间管理......也可以拥有一辆属于自己的车」。《十字路口》播客节目简介 本节⽬是⼀档由罗永浩主持的深度播客类节⽬，每集长达三到五个小时。我们与时代浪潮中的⼈物展开对话，聚焦于科技与⼈⽂领域，讲述个体命运故事，探讨时代发展趋势。本期嘉宾：郑执 作为“东北文艺复兴三杰”之一的郑执，毫不掩饰自己的“邪路子”出身。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "E26.失踪人口回归，还是少年！",
+          "titleZh": "E26.失踪人口回归，还是少年！",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a0d889ee1eb34a939c3fe31",
+          "publishedAt": "2026-05-20T10:43:16.508Z",
+          "source": "价投夹到头",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/Fpvx_IqdqqV4ULONfr3gQafBmrqr.png",
+          "video": "",
+          "summary": "E26.失踪人口回归，还是少年！",
+          "summaryZh": "**讲了什么**：这一期来自 **价投夹到头**，主题是「E26.失踪人口回归，还是少年！」。本次播客复盘了AI行情下的市场分化，讨论了港股流动性困境与美股趋势策略的博弈，并对未来软件应用层的机会进行了前瞻性探讨。一、市场复盘与持仓表现 针对过去半年的市场分化行情，两位嘉宾复盘了各自的持仓表现及操作逻辑： 1. Peter的持仓复盘 持仓结构：主要持有京东、美团、腾讯、泡泡玛特等老牌资产，同时配置了恒玄科技（可穿戴）、软银、高通、微软、亚马逊及台积电等AI相关标的，A股压仓底为紫金矿业和招商银行。操作反思：虽然在电力股（如东方电气）上获得翻倍收益并已获利了结，但整体收益勉强为正。主要反思在于“买得不够多”，且在AI行情中过早卖出了芯片、科创等趋势性资产，反而补仓了下跌中的腾讯、美团等，导致未能充分享受牛市红利。\n**简介要点**：\n- 本次播客复盘了AI行情下的市场分化，讨论了港股流动性困境与美股趋势策略的博弈，并对未来软件应用层的机会进行了前瞻性探讨。\n- 主要反思在于“买得不够多”，且在AI行情中过早卖出了芯片、科创等趋势性资产，反而补仓了下跌中的腾讯、美团等，导致未能充分享受牛市红利。\n- 趋势策略执行：承认对美股AI产业链（光、存、CPU）缺乏深度研究，但坚持“趋势派”打法，半仓配置在趋势上，只要图形未走坏即持有，避免了过早下车。\n- 宏观吸水效应：未来OpenAI、Sora等巨头上市将形成巨大的资金虹吸效应，进一步抽走港股的流动性。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "AI不会消灭人类的工作 | BOX创始人Aaron Levie | AI竞争本质",
+          "titleZh": "AI不会消灭人类的工作 | BOX创始人Aaron Levie | AI竞争本质",
+          "link": "https://www.xiaoyuzhoufm.com/episode/69ffc6cd1b7bd50295d387f2",
+          "publishedAt": "2026-05-22T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "AI不会消灭人类的工作 | BOX创始人Aaron Levie | AI竞争本质",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「AI不会消灭人类的工作 | BOX创始人Aaron Levie | AI竞争本质」。2026年4月20日，企业云服务巨头Box的联合创始人、首席执行官亚伦·利维（Aaron Levie），在全球顶级科技播客20VC中，做了一场接近一个小时的专访。在这期专访里，他直接抛出了一系列颠覆认知的判断，包括AI不会消灭工作，反而会催生数百万新的岗位。软件不再拼界面体验，而是价值全面转移到API。算力预算彻底将从IT支出转向运营支出。智能体既是安全噩梦也是破局答案。未来企业一定是多模型并存，绝不会被单一厂商绑定等等。接下来，我们就详细梳理一下他的具体观点。原视频来自：\n**简介要点**：\n- 在这期专访里，他直接抛出了一系列颠覆认知的判断，包括AI不会消灭工作，反而会催生数百万新的岗位。\n- 算力预算彻底将从IT支出转向运营支出。\n- 未来企业一定是多模型并存，绝不会被单一厂商绑定等等。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.dev/rss/",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "宝玉的分享",
+      "url": "https://baoyu.io/feed.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "deeplearning.ai",
+      "url": "https://rsshub.bestblogs.dev/deeplearning/the-batch",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "Last Week in AI",
+      "url": "https://lastweekin.ai/feed/",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "Microsoft Research Blog",
+      "url": "http://research.microsoft.com/rss/news.xml",
+      "error": "This operation was aborted"
+    },
+    {
+      "source": "阶跃星辰",
+      "url": "https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml",
+      "error": "This operation was aborted"
+    }
+  ],
+  "summaryBullets": [
+    "**Cursor** 发布 **Cursor SDK**：将 Composer 2.5 能力开放为 **Python/TypeScript** SDK，并在假期提供 **90% 折扣**，便于把编辑器内的编排与工具调用嵌入自家 Agent 流程。",
+    "**Google DeepMind** 扩大 **SynthID** 水印合作方，并在 **Gemini App** 与 **Google 搜索**里新增“询问内容是否由 AI 生成”的识别入口，让内容溯源/检测从研究能力走向更可用的产品形态。",
+    "**Perplexity** 开源 **Bumblebee**（macOS/Linux 只读扫描器），可检查开发机上的高风险包、浏览器扩展与 **AI 工具配置**，并支持与安全工作流联动触发更深度扫描。",
+    "研究前线集中在 **多模态/视频推理与生成**：包括“主动视频合成评测”“文本到图像提示工程评测”以及面向视觉语言模型的位置编码改进等方向，值得关注后续开源与基准结果。"
+  ]
+}
