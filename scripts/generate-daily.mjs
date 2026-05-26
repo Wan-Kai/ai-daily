@@ -329,9 +329,18 @@ function whyItMatters(item) {
 }
 
 async function fetchText(url, timeoutMs = 15000) {
+  let timeoutId;
+  let didTimeout = false;
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), timeoutMs);
-  try {
+  const hardTimeout = new Promise((_, reject) => {
+    timeoutId = setTimeout(() => {
+      didTimeout = true;
+      controller.abort();
+      reject(new Error(`请求超时（${timeoutMs}ms）：${url}`));
+    }, timeoutMs);
+  });
+
+  const task = (async () => {
     const response = await fetch(url, {
       signal: controller.signal,
       headers: {
@@ -340,8 +349,15 @@ async function fetchText(url, timeoutMs = 15000) {
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return await response.text();
+  })();
+
+  try {
+    return await Promise.race([task, hardTimeout]);
+  } catch (error) {
+    if (didTimeout) task.catch(() => {});
+    throw error;
   } finally {
-    clearTimeout(timeout);
+    clearTimeout(timeoutId);
   }
 }
 
@@ -385,7 +401,7 @@ async function latestPodcastEpisodes(podcast) {
 function ageInDays(dateValue = "") {
   const date = new Date(dateValue);
   if (Number.isNaN(date.getTime())) return Infinity;
-  return Math.floor((runStartedAt.getTime() - date.getTime()) / 86400000);
+  return (runStartedAt.getTime() - date.getTime()) / 86400000;
 }
 
 function scorePodcastEpisode(episode) {
@@ -561,9 +577,18 @@ async function fetchTextViaCurlProxy(url, timeoutMs, originalError) {
 }
 
 async function fetchBinary(url, timeoutMs = 8000) {
+  let timeoutId;
+  let didTimeout = false;
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), timeoutMs);
-  try {
+  const hardTimeout = new Promise((_, reject) => {
+    timeoutId = setTimeout(() => {
+      didTimeout = true;
+      controller.abort();
+      reject(new Error(`请求超时（${timeoutMs}ms）：${url}`));
+    }, timeoutMs);
+  });
+
+  const task = (async () => {
     const response = await fetch(url, {
       signal: controller.signal,
       headers: {
@@ -575,8 +600,15 @@ async function fetchBinary(url, timeoutMs = 8000) {
       bytes: new Uint8Array(await response.arrayBuffer()),
       contentType: response.headers.get("content-type") || ""
     };
+  })();
+
+  try {
+    return await Promise.race([task, hardTimeout]);
+  } catch (error) {
+    if (didTimeout) task.catch(() => {});
+    throw error;
   } finally {
-    clearTimeout(timeout);
+    clearTimeout(timeoutId);
   }
 }
 
@@ -1012,10 +1044,19 @@ function selectSectionItems(section, items) {
     .filter((item) => isRelevantForSection(item, section.id))
     .sort((a, b) => b.score - a.score);
 
-  if (section.id !== "research_frontier") return candidates.slice(0, section.limit);
+  const deduped = [];
+  const seenTitles = new Set();
+  for (const item of candidates) {
+    const titleKey = normalizedTitleKey(item.titleZh || item.title);
+    if (titleKey && seenTitles.has(titleKey)) continue;
+    if (titleKey) seenTitles.add(titleKey);
+    deduped.push(item);
+  }
 
-  const papers = candidates.filter(isPaperFeedItem);
-  const nonPapers = candidates.filter((item) => !isPaperFeedItem(item));
+  if (section.id !== "research_frontier") return deduped.slice(0, section.limit);
+
+  const papers = deduped.filter(isPaperFeedItem);
+  const nonPapers = deduped.filter((item) => !isPaperFeedItem(item));
   const selected = [];
   const paperCount = Math.min(section.paperMax ?? section.limit, Math.max(section.paperMin ?? 0, Math.min(papers.length, section.paperMin ?? 0)));
   selected.push(...papers.slice(0, paperCount));
@@ -1060,6 +1101,191 @@ function normalizedTitleKey(title = "") {
     .replace(/\s+/g, " ")
     .trim()
     .toLowerCase();
+}
+
+async function anthropicJson({ system, prompt, timeoutMs = 120000 }) {
+  const apiKey = process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_AUTH_TOKEN;
+  if (!apiKey) throw new Error("缺少 ANTHROPIC_API_KEY/ANTHROPIC_AUTH_TOKEN，无法生成中文标题与摘要。");
+  const baseUrl = (process.env.ANTHROPIC_BASE_URL || "https://api.anthropic.com").replace(/\/$/, "");
+  const endpoint = `${baseUrl}/v1/messages`;
+
+  const models = [
+    process.env.AI_DAILY_ANTHROPIC_MODEL,
+    "claude-3-5-sonnet-latest",
+    "claude-3-5-sonnet-20241022",
+    "claude-3-5-sonnet-20240620"
+  ].filter(Boolean);
+
+  const errors = [];
+
+  for (const model of models) {
+    try {
+      const body = JSON.stringify({
+        model,
+        max_tokens: 3000,
+        temperature: 0.2,
+        system,
+        messages: [{ role: "user", content: prompt }]
+      });
+
+      let payload;
+      try {
+        const res = await fetch(endpoint, {
+          method: "POST",
+          signal: AbortSignal.timeout(timeoutMs),
+          headers: {
+            "content-type": "application/json",
+            "anthropic-version": "2023-06-01",
+            "x-api-key": apiKey,
+            authorization: `Bearer ${apiKey}`
+          },
+          body
+        });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        payload = await res.json();
+      } catch (fetchError) {
+        const proxies = [
+          process.env.AI_DAILY_HTTPS_PROXY,
+          process.env.HTTPS_PROXY,
+          process.env.HTTP_PROXY,
+          process.env.ALL_PROXY,
+          "http://127.0.0.1:6789",
+          "socks5h://127.0.0.1:6789"
+        ].filter(Boolean).map((proxy) => String(proxy).replace(/^socks5:\/\//i, "socks5h://"));
+        const tried = [];
+        for (const proxy of [...new Set(proxies)]) {
+          tried.push(proxy);
+          try {
+            const { stdout } = await execFileAsync("curl", [
+              "-L",
+              "--silent",
+              "--show-error",
+              "--connect-timeout",
+              "10",
+              "--max-time",
+              String(Math.ceil(timeoutMs / 1000)),
+              "--proxy",
+              proxy,
+              "-H",
+              "content-type: application/json",
+              "-H",
+              "anthropic-version: 2023-06-01",
+              "-H",
+              `x-api-key: ${apiKey}`,
+              "-d",
+              body,
+              endpoint
+            ], { maxBuffer: 12 * 1024 * 1024 });
+            payload = JSON.parse(stdout);
+            break;
+          } catch (curlError) {
+            // keep trying
+          }
+        }
+        if (!payload) throw new Error(`请求失败且代理兜底也失败：${fetchError.message}; proxies=${tried.join(",")}`);
+      }
+
+      const text = (payload.content || [])
+        .filter((block) => block.type === "text")
+        .map((block) => block.text)
+        .join("")
+        .trim();
+      if (payload?.type === "error" || payload?.error) {
+        const message = payload?.error?.message || payload?.message || "Unknown error";
+        throw new Error(`Anthropic 返回错误：${message}`);
+      }
+      if (!text) throw new Error("Anthropic 未返回可解析文本内容。");
+      const cleaned = text.replace(/^```json\\s*/i, "").replace(/```\\s*$/i, "").trim();
+      if (!cleaned) throw new Error(`Anthropic 输出为空，无法解析 JSON。raw=${text.slice(0, 120)}`);
+      try {
+        return JSON.parse(cleaned);
+      } catch {
+        const start = cleaned.indexOf("{");
+        const end = cleaned.lastIndexOf("}");
+        if (start >= 0 && end > start) {
+          return JSON.parse(cleaned.slice(start, end + 1));
+        }
+        throw new Error(`无法从输出中提取 JSON。raw=${cleaned.slice(0, 200)}`);
+      }
+    } catch (error) {
+      errors.push(`${model}: ${error.message}`);
+    }
+  }
+
+  throw new Error(`调用 Anthropic 生成中文摘要失败：${errors.join("; ")}`);
+}
+
+function isChineseEnough(text = "") {
+  const value = String(text || "");
+  const cn = (value.match(/[\\u4e00-\\u9fff]/g) || []).length;
+  return cn >= 6;
+}
+
+async function localizeSectionsZh(sections) {
+  const candidates = sections
+    .flatMap((section) => section.items.map((item) => ({ sectionId: section.id, item })))
+    .filter(({ item }) => !(isChineseEnough(item.titleZh) && isChineseEnough(item.summaryZh)));
+
+  if (candidates.length === 0) return { summaryBullets: [] };
+
+  const inputItems = candidates.map(({ sectionId, item }) => ({
+    link: item.link,
+    sectionId,
+    title: item.title,
+    summary: item.summary,
+    source: item.source,
+    publishedAt: item.publishedAt,
+    isPaper: sectionId === "research_frontier" && isPaperFeedItem(item)
+  }));
+
+  const system = [
+    "你是中文 AI 日报编辑。你的任务是把英文/噪音较多的资讯改写成可直接展示给读者的中文标题与中文摘要。",
+    "要求：",
+    "1) 标题与摘要必须是中文为主，保留关键专有名词（模型名/产品名/机构名/指标/版本号/日期）。",
+    "2) 摘要要交代“发生了什么”和“关键细节”，不要写空泛评价；不要出现“来自XX”这类模板前缀；不要包含播放器、转发/点赞等社媒指标噪音。",
+    "3) 研究前线（论文）必须用结构化小段落：`**核心结论**`、`**支撑证据**`、`**我的判断**`；核心结论通常 2-4 句，让读者真正看懂方法与问题。",
+    "4) 非论文的研究类内容可用：`**核心要点**`、`**展开说明**`、`**我的判断**`（不强制“支撑证据”）。",
+    "5) 适度加粗关键概念/模型名/重要数字/限制条件，避免整句大面积加粗。",
+    "6) 如果某条信息量极低、纯营销或纯活动通知，可标记 drop=true（但尽量保留开源项目、论文等高价值信号）。",
+    "只输出严格 JSON，不要输出额外解释。"
+  ].join("\\n");
+
+  const prompt = JSON.stringify({
+    items: inputItems,
+    outputSchema: {
+      items: {
+        "link": {
+          titleZh: "string",
+          summaryZh: "string",
+          drop: "boolean?"
+        }
+      },
+      summaryBullets: ["string (3-5 bullets, 中文)"]
+    },
+    instructions: {
+      summaryBullets: "从当日最重要的产品/研究/开源/社媒主线提炼 3-5 条“今日摘要”，每条 18-40 字左右，中文为主，适度加粗关键名词。"
+    }
+  }, null, 2);
+
+  const result = await anthropicJson({ system, prompt });
+  const mapping = result?.items || {};
+  const drops = new Set();
+
+  for (const section of sections) {
+    section.items = section.items.filter((item) => {
+      const localized = mapping[item.link];
+      if (!localized) return true;
+      if (localized.drop) {
+        drops.add(item.link);
+        return false;
+      }
+      if (localized.titleZh) item.titleZh = localized.titleZh;
+      if (localized.summaryZh) item.summaryZh = localized.summaryZh;
+      return true;
+    });
+  }
+
+  return { summaryBullets: Array.isArray(result?.summaryBullets) ? result.summaryBullets : [], drops: [...drops] };
 }
 
 async function previousReportDuplicateKeys(date) {
@@ -1194,6 +1420,17 @@ async function main() {
 
   await chooseBestMedia(sections);
 
+  let localized = { summaryBullets: [] };
+  try {
+    localized = await localizeSectionsZh(sections);
+  } catch (error) {
+    failures.push({
+      source: "中文化处理",
+      url: "",
+      error: error?.message || "Unknown error"
+    });
+    console.warn(`中文化处理失败，将保留原文标题/摘要：${error?.message || error}`);
+  }
   const selectedCount = sections.reduce((total, section) => total + section.items.length, 0);
   const report = {
     date: today,
@@ -1207,7 +1444,8 @@ async function main() {
       failures: failures.length
     },
     sections,
-    failures
+    failures,
+    summaryBullets: (localized.summaryBullets || []).slice(0, 5)
   };
 
   await mkdir(reportsDir, { recursive: true });

@@ -164,13 +164,17 @@ async function localVideoPath(report, item, videoUrl) {
 }
 
 function proxyCandidates() {
-  return [
+  const candidates = [
     process.env.AI_DAILY_HTTPS_PROXY,
     process.env.HTTPS_PROXY,
     process.env.HTTP_PROXY,
+    process.env.ALL_PROXY,
     "http://127.0.0.1:6789",
-    "http://127.0.0.1:7890"
+    "socks5h://127.0.0.1:6789",
+    "http://127.0.0.1:7890",
+    "socks5h://127.0.0.1:7890"
   ].filter(Boolean);
+  return candidates.map((proxy) => String(proxy).replace(/^socks5:\/\//i, "socks5h://"));
 }
 
 async function contentLengthWithProxyFallback(url, timeoutMs) {
