@@ -1,4 +1,4 @@
-import { access, mkdir, readFile, readdir, writeFile } from "node:fs/promises";
+import { access, mkdir, readFile, readdir, stat, unlink, writeFile } from "node:fs/promises";
 import crypto from "node:crypto";
 import { execFile } from "node:child_process";
 import path from "node:path";
@@ -150,16 +150,14 @@ function stableMediaId(item, videoUrl) {
 async function localVideoPath(report, item, videoUrl) {
   if (!/video\.twimg\.com/i.test(videoUrl)) return videoUrl;
 
-  const bytes = await contentLengthWithProxyFallback(videoUrl, 15000);
-  if (!bytes || bytes > MAX_CACHE_VIDEO_BYTES) return "";
-
   const filename = `${report.date}-${stableMediaId(item, videoUrl)}.mp4`;
   const target = path.join(mediaDir, filename);
   try {
     await access(target);
   } catch {
     await mkdir(mediaDir, { recursive: true });
-    await downloadWithProxyFallback(videoUrl, target, 120000);
+    const ok = await downloadWithProxyFallbackLimited(videoUrl, target, 120000, MAX_CACHE_VIDEO_BYTES);
+    if (!ok) return "";
   }
 
   return `./media/${filename}`;
@@ -280,6 +278,72 @@ async function downloadWithProxyFallback(url, target, timeoutMs) {
     } catch (error) {
       errors.push(`${proxy}: ${error.message}`);
     }
+  }
+
+  throw new Error(`视频下载失败：${errors.join("; ")}`);
+}
+
+async function downloadWithProxyFallbackLimited(url, target, timeoutMs, maxBytes) {
+  const proxies = [...new Set(proxyCandidates())];
+  const errors = [];
+
+  async function attempt(args, label) {
+    try {
+      await execFileAsync("curl", args, { maxBuffer: 1024 * 1024 });
+      const info = await stat(target);
+      if (info.size > maxBytes) {
+        await unlink(target).catch(() => {});
+        return false;
+      }
+      return true;
+    } catch (error) {
+      if (error?.code === 63) {
+        // curl: Maximum file size exceeded
+        await unlink(target).catch(() => {});
+        return false;
+      }
+      errors.push(`${label}: ${error.message}`);
+      await unlink(target).catch(() => {});
+      return null;
+    }
+  }
+
+  const base = [
+    "-L",
+    "--silent",
+    "--show-error",
+    "--connect-timeout",
+    "10",
+    "--max-time",
+    String(Math.ceil(timeoutMs / 1000)),
+    "--max-filesize",
+    String(maxBytes),
+    "-o",
+    target,
+    url
+  ];
+
+  const direct = await attempt(base, "direct");
+  if (direct !== null) return direct;
+
+  for (const proxy of proxies) {
+    const out = await attempt([
+      "-L",
+      "--silent",
+      "--show-error",
+      "--connect-timeout",
+      "10",
+      "--max-time",
+      String(Math.ceil(timeoutMs / 1000)),
+      "--max-filesize",
+      String(maxBytes),
+      "--proxy",
+      proxy,
+      "-o",
+      target,
+      url
+    ], proxy);
+    if (out !== null) return out;
   }
 
   throw new Error(`视频下载失败：${errors.join("; ")}`);

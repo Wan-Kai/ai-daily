@@ -1,0 +1,455 @@
+{
+  "date": "2026-05-26",
+  "generatedAt": "2026-05-26T01:16:11.193Z",
+  "title": "AI 日报 - 2026-05-26",
+  "stats": {
+    "sources": 133,
+    "fetched": 621,
+    "emailCandidates": 0,
+    "selected": 29,
+    "failures": 0
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "xAI 开放 Grok Build Beta：Plan Mode + Imagine（图像/视频）+ CLI 自动化",
+          "titleZh": "xAI 开放 Grok Build Beta：Plan Mode + Imagine（图像/视频）+ CLI 自动化",
+          "link": "https://x.com/xai/status/2058973760708091907",
+          "publishedAt": "Mon, 25 May 2026 18:09:33 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-26-2058973760708091907.mp4",
+          "summary": "xAI 宣布 **Grok Build** 面向 **SuperGrok** 与 **X Premium+** 用户开放 Beta。官方给出的功能点包括：通过 **Plan Mode** 组织任务、用 **Imagine** 生成 **图片/视频**，以及使用 **CLI** 搭建自动化或“编排器（orchestrator）”。入口指向 `x.ai/cli`。\n\n对开发者来说，这是把“对话式模型”进一步产品化为 **可执行工作流** 的信号：从生成内容到调度脚本与自动化链路，逐步靠近真实生产流程。",
+          "summaryZh": "xAI 宣布 **Grok Build** 面向 **SuperGrok** 与 **X Premium+** 用户开放 Beta。官方给出的功能点包括：通过 **Plan Mode** 组织任务、用 **Imagine** 生成 **图片/视频**，以及使用 **CLI** 搭建自动化或“编排器（orchestrator）”。入口指向 `x.ai/cli`。\n\n对开发者来说，这是把“对话式模型”进一步产品化为 **可执行工作流** 的信号：从生成内容到调度脚本与自动化链路，逐步靠近真实生产流程。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频",
+            "图像"
+          ],
+          "score": 72
+        },
+        {
+          "title": "Manus「Projects」移动端上线：在手机上组织与管理项目",
+          "titleZh": "Manus「Projects」移动端上线：在手机上组织与管理项目",
+          "link": "https://x.com/ManusAI/status/2058929042758480346",
+          "publishedAt": "Mon, 25 May 2026 15:11:51 GMT",
+          "source": "ManusAI(@ManusAI_HQ)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-26-2058929042758480346.mp4",
+          "summary": "Manus 宣布 **Projects** 已在 **移动端** 可用，并更新了移动端体验，目标是让用户在手机上也能更方便地组织项目内容与上下文。\n\n对移动端使用场景（随手记录、任务跟进、跨设备协作）来说，Projects 这种“项目级上下文容器”如果与智能体工作流结合得足够顺滑，可能会显著提升连续性与复用效率。",
+          "summaryZh": "Manus 宣布 **Projects** 已在 **移动端** 可用，并更新了移动端体验，目标是让用户在手机上也能更方便地组织项目内容与上下文。\n\n对移动端使用场景（随手记录、任务跟进、跨设备协作）来说，Projects 这种“项目级上下文容器”如果与智能体工作流结合得足够顺滑，可能会显著提升连续性与复用效率。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 67.53238135963485
+        },
+        {
+          "title": "Google AI Studio 支持直接构建原生 Android App（免费）",
+          "titleZh": "Google AI Studio 支持直接构建原生 Android App（免费）",
+          "link": "https://x.com/OfficialLoganK/status/2058997700218294564",
+          "publishedAt": "Mon, 25 May 2026 19:44:40 GMT",
+          "source": "Logan Kilpatrick(@OfficialLoganK)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HJMEV2faIAAm3Wi.jpg",
+          "video": "",
+          "summary": "开发者在社媒上分享：**Google AI Studio** 现已支持 **直接构建原生 Android 应用**，并强调该能力对用户 **免费** 开放。\n\n如果该能力在更多账号/区域稳定可用，它相当于把“用模型生成代码→打包运行→迭代调试”的门槛进一步降低，适合做快速原型与个人开发者的小型应用试验。",
+          "summaryZh": "开发者在社媒上分享：**Google AI Studio** 现已支持 **直接构建原生 Android 应用**，并强调该能力对用户 **免费** 开放。\n\n如果该能力在更多账号/区域稳定可用，它相当于把“用模型生成代码→打包运行→迭代调试”的门槛进一步降低，适合做快速原型与个人开发者的小型应用试验。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "产品发布"
+          ],
+          "score": 54
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "论文综述：表格数据的扩散模型与 Flow Matching（arXiv:2502.17119）",
+          "titleZh": "论文综述：表格数据的扩散模型与 Flow Matching（arXiv:2502.17119）",
+          "link": "https://arxiv.org/abs/2502.17119",
+          "publishedAt": "Mon, 25 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "**核心结论**：这篇综述系统梳理了把 **扩散模型** 与 **Flow Matching** 用在 **表格数据（tabular）** 生成/补全等任务上的方法谱系，并指出表格数据的“数值+类别混合、缺失值、敏感字段、不均衡类别、特征依赖、领域约束”等特性，使得直接迁移图像/文本生成范式并不顺滑。作者强调当前文献横向比较困难，需要按任务与评测维度重新对齐。\n\n**支撑证据**：文章回顾了从 **2015/06 到 2026/05** 的相关工作，讨论扩散/Flow Matching 在 **数据合成、缺失值填补、可信数据生成、异常检测** 等方向的设计选择与评测协议差异，并给出可持续更新的 **GitHub 维护仓库**。\n\n**我的判断**：如果你在做表格数据合成（隐私数据替代/仿真）、表格缺失值修复或结构化风控数据建模，这篇综述适合作为“路线图”。真正落地仍要重点验证：不同约束/字段类型下的 **可控性**、**隐私与公平性指标**、以及在真实业务数据上的 **可迁移性**。",
+          "summaryZh": "**核心结论**：这篇综述系统梳理了把 **扩散模型** 与 **Flow Matching** 用在 **表格数据（tabular）** 生成/补全等任务上的方法谱系，并指出表格数据的“数值+类别混合、缺失值、敏感字段、不均衡类别、特征依赖、领域约束”等特性，使得直接迁移图像/文本生成范式并不顺滑。作者强调当前文献横向比较困难，需要按任务与评测维度重新对齐。\n\n**支撑证据**：文章回顾了从 **2015/06 到 2026/05** 的相关工作，讨论扩散/Flow Matching 在 **数据合成、缺失值填补、可信数据生成、异常检测** 等方向的设计选择与评测协议差异，并给出可持续更新的 **GitHub 维护仓库**。\n\n**我的判断**：如果你在做表格数据合成（隐私数据替代/仿真）、表格缺失值修复或结构化风控数据建模，这篇综述适合作为“路线图”。真正落地仍要重点验证：不同约束/字段类型下的 **可控性**、**隐私与公平性指标**、以及在真实业务数据上的 **可迁移性**。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "多模态",
+            "评测",
+            "开源"
+          ],
+          "score": 41
+        },
+        {
+          "title": "SciAtlas：为自动化科研构建的大规模异构学术知识图谱（arXiv:2605.22878）",
+          "titleZh": "SciAtlas：为自动化科研构建的大规模异构学术知识图谱（arXiv:2605.22878）",
+          "link": "https://arxiv.org/abs/2605.22878",
+          "publishedAt": "Mon, 25 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "**核心结论**：作者提出 **SciAtlas**——一个跨学科的大规模异构学术资源 **知识图谱**，试图用结构化的拓扑关系来缓解“信息爆炸”下的碎片化检索问题，为 AI Agent 的深度研究提供更可靠的“可推理底座”。\n\n**支撑证据**：论文描述其整合了 **26 个学科、超过 4300 万篇论文**，构建出约 **1.57 亿实体** 与约 **30 亿三元组**；并提出一种 **神经-符号检索**思路（多路径召回 + 图重排）以降低纯语义检索的盲点与 agentic deep research 的幻觉/推理成本问题。\n\n**我的判断**：如果数据规模与图质量可信，SciAtlas 这类“图谱 + 多路径检索/重排”对高风险研究任务（跨领域引用、概念溯源、证据链组装）可能更稳。需要进一步关注：图谱构建的噪声、跨学科实体对齐质量、以及检索/重排带来的真实成本收益。",
+          "summaryZh": "**核心结论**：作者提出 **SciAtlas**——一个跨学科的大规模异构学术资源 **知识图谱**，试图用结构化的拓扑关系来缓解“信息爆炸”下的碎片化检索问题，为 AI Agent 的深度研究提供更可靠的“可推理底座”。\n\n**支撑证据**：论文描述其整合了 **26 个学科、超过 4300 万篇论文**，构建出约 **1.57 亿实体** 与约 **30 亿三元组**；并提出一种 **神经-符号检索**思路（多路径召回 + 图重排）以降低纯语义检索的盲点与 agentic deep research 的幻觉/推理成本问题。\n\n**我的判断**：如果数据规模与图质量可信，SciAtlas 这类“图谱 + 多路径检索/重排”对高风险研究任务（跨领域引用、概念溯源、证据链组装）可能更稳。需要进一步关注：图谱构建的噪声、跨学科实体对齐质量、以及检索/重排带来的真实成本收益。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "推理能力",
+            "论文",
+            "开源"
+          ],
+          "score": 40
+        },
+        {
+          "title": "PathNavigate：无需训练的病理切片 VQA Agent（先扫片找异常，再问答）（arXiv:2605.23559）",
+          "titleZh": "PathNavigate：无需训练的病理切片 VQA Agent（先扫片找异常，再问答）（arXiv:2605.23559）",
+          "link": "https://arxiv.org/abs/2605.23559",
+          "publishedAt": "Mon, 25 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "**核心结论**：作者提出 **PathNavigate**，把病理全切片图（WSI）问答视作“极端上下文下的证据搜索”问题，并给出一个 **training-free** 的 agent 设计：先在低倍率下扫描整张切片，用共享在线记忆得到“异常/意外度（surprise）”区域池；再在候选池内结合问题相关性选择高倍率观察点；最后基于局部证据完成回答。\n\n**支撑证据**：论文强调相比“先按问题找区域”的训练免方案，这种 **scan → search → readout** 流程能减少因为问题表述未覆盖关键形态而漏检的风险；作者在 **WSI-VQA** 与 **SlideBench-BCNB** 上报告了更高准确率与更可解释的证据选择轨迹，并表示代码已公开。\n\n**我的判断**：对医学影像这类“预算受限的超大图”任务，这个先验扫描+共享记忆的思路很值得迁移到其他超分辨率场景（遥感、工业质检）。落地时仍需验证：异常度场的稳定性、不同病种/染色/扫描仪分布下的泛化，以及推理成本是否可控。",
+          "summaryZh": "**核心结论**：作者提出 **PathNavigate**，把病理全切片图（WSI）问答视作“极端上下文下的证据搜索”问题，并给出一个 **training-free** 的 agent 设计：先在低倍率下扫描整张切片，用共享在线记忆得到“异常/意外度（surprise）”区域池；再在候选池内结合问题相关性选择高倍率观察点；最后基于局部证据完成回答。\n\n**支撑证据**：论文强调相比“先按问题找区域”的训练免方案，这种 **scan → search → readout** 流程能减少因为问题表述未覆盖关键形态而漏检的风险；作者在 **WSI-VQA** 与 **SlideBench-BCNB** 上报告了更高准确率与更可解释的证据选择轨迹，并表示代码已公开。\n\n**我的判断**：对医学影像这类“预算受限的超大图”任务，这个先验扫描+共享记忆的思路很值得迁移到其他超分辨率场景（遥感、工业质检）。落地时仍需验证：异常度场的稳定性、不同病种/染色/扫描仪分布下的泛化，以及推理成本是否可控。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "推理能力",
+            "多模态"
+          ],
+          "score": 40
+        },
+        {
+          "title": "CVSearch：用“先评估再搜索”的认知式视觉搜索提升高分辨率感知（arXiv:2605.23655）",
+          "titleZh": "CVSearch：用“先评估再搜索”的认知式视觉搜索提升高分辨率感知（arXiv:2605.23655）",
+          "link": "https://arxiv.org/abs/2605.23655",
+          "publishedAt": "Mon, 25 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "**核心结论**：高分辨率图像会让多模态大模型（MLLM）面临“覆盖 vs 成本”的矛盾。作者提出 **CVSearch**（training-free）框架，用 **Assess-then-Search** 的流程动态选择搜索策略：先尝试专家提案式搜索，失败时再触发语义感知的扫描机制，尽量在保证覆盖的同时减少冗余计算。\n\n**支撑证据**：方法包含 **Semantic Guided Adaptive Patching**（按语义一致区域切块，减少目标被硬网格切碎）以及基于视觉复杂度先验的 **Dynamic Bottom-Up Search**（迭代探索细节）。论文在多项高分辨率基准上报告了更优准确率与更高搜索效率，并给出开源代码链接。\n\n**我的判断**：对需要在“超大图/长图”上做精细理解的应用（图表理解、文档截图、遥感、医学影像），这类可插拔的搜索调度器很有工程价值。后续值得验证其在不同 MLLM/视觉 backbone 下的稳健性，以及对极端长宽比与密集小目标场景的收益上限。",
+          "summaryZh": "**核心结论**：高分辨率图像会让多模态大模型（MLLM）面临“覆盖 vs 成本”的矛盾。作者提出 **CVSearch**（training-free）框架，用 **Assess-then-Search** 的流程动态选择搜索策略：先尝试专家提案式搜索，失败时再触发语义感知的扫描机制，尽量在保证覆盖的同时减少冗余计算。\n\n**支撑证据**：方法包含 **Semantic Guided Adaptive Patching**（按语义一致区域切块，减少目标被硬网格切碎）以及基于视觉复杂度先验的 **Dynamic Bottom-Up Search**（迭代探索细节）。论文在多项高分辨率基准上报告了更优准确率与更高搜索效率，并给出开源代码链接。\n\n**我的判断**：对需要在“超大图/长图”上做精细理解的应用（图表理解、文档截图、遥感、医学影像），这类可插拔的搜索调度器很有工程价值。后续值得验证其在不同 MLLM/视觉 backbone 下的稳健性，以及对极端长宽比与密集小目标场景的收益上限。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "多模态",
+            "评测",
+            "开源"
+          ],
+          "score": 40
+        },
+        {
+          "title": "Simon Willison：读教宗 Leo XIV 关于 AI 的通谕（与技术治理的张力）",
+          "titleZh": "Simon Willison：读教宗 Leo XIV 关于 AI 的通谕（与技术治理的张力）",
+          "link": "https://simonwillison.net/2026/May/25/encyclical-on-ai/#atom-everything",
+          "publishedAt": "2026-05-25T23:58:17+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "**Simon Willison** 讨论了教宗 **Leo XIV** 关于 AI 的通谕内容与相关评论，并把它放到“技术治理/价值观/社会影响”的语境里解读。\n\n这类长文的价值在于：它不只谈工具层面的能力，还会触及 **权力结构、责任归属与制度反应**——对理解未来 AI 规范化与社会接受度的走向很有参考意义。",
+          "summaryZh": "**Simon Willison** 讨论了教宗 **Leo XIV** 关于 AI 的通谕内容与相关评论，并把它放到“技术治理/价值观/社会影响”的语境里解读。\n\n这类长文的价值在于：它不只谈工具层面的能力，还会触及 **权力结构、责任归属与制度反应**——对理解未来 AI 规范化与社会接受度的走向很有参考意义。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "开发者工具",
+            "RAG"
+          ],
+          "score": 37
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "开源：ECC — 面向 AI 编码代理的性能优化与工具化「Agent Harness」",
+          "titleZh": "开源：ECC — 面向 AI 编码代理的性能优化与工具化「Agent Harness」",
+          "link": "https://github.com/affaan-m/ECC",
+          "publishedAt": "2026-05-26T01:16:11.193Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "GitHub Trending 收录的开源项目 **ECC**，定位为面向 AI 编码代理（如 **Claude Code / Codex / Cursor** 等）的“**agent harness**”：作者强调覆盖 **Skills/Instincts/Memory/Security** 等能力模块，并把重点放在 **性能优化** 与更工程化的工作流组织上。\n\n适合关注点：如果你的团队正在把代码代理接入真实仓库/CI，这类“统一脚手架”项目能提供可复用的实践，但仍需要自行评估其默认策略是否符合你的安全与权限边界。",
+          "summaryZh": "GitHub Trending 收录的开源项目 **ECC**，定位为面向 AI 编码代理（如 **Claude Code / Codex / Cursor** 等）的“**agent harness**”：作者强调覆盖 **Skills/Instincts/Memory/Security** 等能力模块，并把重点放在 **性能优化** 与更工程化的工作流组织上。\n\n适合关注点：如果你的团队正在把代码代理接入真实仓库/CI，这类“统一脚手架”项目能提供可复用的实践，但仍需要自行评估其默认策略是否符合你的安全与权限边界。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "开源：cmux — 基于 Ghostty 的 macOS 终端（垂直标签页 + Agent 通知）",
+          "titleZh": "开源：cmux — 基于 Ghostty 的 macOS 终端（垂直标签页 + Agent 通知）",
+          "link": "https://github.com/manaflow-ai/cmux",
+          "publishedAt": "2026-05-26T01:16:11.193Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "GitHub Trending 收录的开源项目 **cmux**：一个基于 **Ghostty** 的 macOS 终端，主打 **垂直标签页** 与面向 AI 编码代理的 **通知** 能力。\n\n对重度使用多会话/多 agent 的开发者来说，终端侧的会话组织与状态提示属于高频刚需；但是否能真正提升效率，取决于它与现有编辑器/代理工具链的集成深度。",
+          "summaryZh": "GitHub Trending 收录的开源项目 **cmux**：一个基于 **Ghostty** 的 macOS 终端，主打 **垂直标签页** 与面向 AI 编码代理的 **通知** 能力。\n\n对重度使用多会话/多 agent 的开发者来说，终端侧的会话组织与状态提示属于高频刚需；但是否能真正提升效率，取决于它与现有编辑器/代理工具链的集成深度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "开源：openhuman — 主打「私有化」的个人 AI 助手/智能体项目",
+          "titleZh": "开源：openhuman — 主打「私有化」的个人 AI 助手/智能体项目",
+          "link": "https://github.com/tinyhumansai/openhuman",
+          "publishedAt": "2026-05-26T01:16:11.193Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "GitHub Trending Weekly 收录的开源项目 **openhuman**，主打“**个人 AI 超级智能**”，并强调 **私有（Private）** 与易用性。\n\n这类个人助手项目的关键不在口号，而在落地细节：数据是否本地化、权限如何隔离、插件/工具调用是否可控。若你在评估自托管个人助理，这是一个可对比的开源样本。",
+          "summaryZh": "GitHub Trending Weekly 收录的开源项目 **openhuman**，主打“**个人 AI 超级智能**”，并强调 **私有（Private）** 与易用性。\n\n这类个人助手项目的关键不在口号，而在落地细节：数据是否本地化、权限如何隔离、插件/工具调用是否可控。若你在评估自托管个人助理，这是一个可对比的开源样本。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 21
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Qwen3.7-Max 上线隐式缓存（implicit caching）：无需配置自动生效",
+          "titleZh": "Qwen3.7-Max 上线隐式缓存（implicit caching）：无需配置自动生效",
+          "link": "https://x.com/Alibaba_Qwen/status/2058932656797368619",
+          "publishedAt": "Mon, 25 May 2026 15:26:13 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "阿里 Qwen 团队表示 **Qwen3.7-Max** 已上线 **隐式缓存（implicit caching）**：功能会自动启用，无需额外设置，目标是让推理 **更快**、**更省**。\n\n这是推理侧工程优化的典型方向：在不改变应用调用方式的前提下，通过缓存/复用降低重复计算成本；后续值得继续观察其对不同上下文长度与并发负载下的实际收益。",
+          "summaryZh": "阿里 Qwen 团队表示 **Qwen3.7-Max** 已上线 **隐式缓存（implicit caching）**：功能会自动启用，无需额外设置，目标是让推理 **更快**、**更省**。\n\n这是推理侧工程优化的典型方向：在不改变应用调用方式的前提下，通过缓存/复用降低重复计算成本；后续值得继续观察其对不同上下文长度与并发负载下的实际收益。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 62
+        },
+        {
+          "title": "Anthropic：Chris Olah 受邀参与教宗 Leo XIV 关于 AI 的公开演讲",
+          "titleZh": "Anthropic：Chris Olah 受邀参与教宗 Leo XIV 关于 AI 的公开演讲",
+          "link": "https://x.com/AnthropicAI/status/2058983299092009421",
+          "publishedAt": "Mon, 25 May 2026 18:47:27 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Anthropic 发帖称，其联合创始人 **Chris Olah** 受邀出席并发言于教宗 **Leo XIV** 当天关于 AI 的公开演讲活动。\n\n这一类“宗教/公共治理机构”对 AI 的表态与讨论，往往会影响社会对风险、伦理与监管边界的共识形成；同时也反映了前沿 AI 研究者正在更频繁地进入公共议程。",
+          "summaryZh": "Anthropic 发帖称，其联合创始人 **Chris Olah** 受邀出席并发言于教宗 **Leo XIV** 当天关于 AI 的公开演讲活动。\n\n这一类“宗教/公共治理机构”对 AI 的表态与讨论，往往会影响社会对风险、伦理与监管边界的共识形成；同时也反映了前沿 AI 研究者正在更频繁地进入公共议程。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        },
+        {
+          "title": "Greg Brockman：用 Codex 在笔记本上定位并清理占用空间",
+          "titleZh": "Greg Brockman：用 Codex 在笔记本上定位并清理占用空间",
+          "link": "https://x.com/gdb/status/2059034161739182453",
+          "publishedAt": "Mon, 25 May 2026 22:09:33 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HJLUSHRagAAV4Gv.jpg",
+          "video": "",
+          "summary": "OpenAI 总裁 Greg Brockman 分享了一个 Codex 的日常用例：让它帮忙在电脑上 **查找占用空间最大的内容** 并给出清理建议。\n\n这类“面向普通用户的系统维护任务”虽然不炫技，但很能检验智能体在 **跨工具操作**、**安全边界** 与 **可控性** 之间的平衡，也更接近真实高频需求。",
+          "summaryZh": "OpenAI 总裁 Greg Brockman 分享了一个 Codex 的日常用例：让它帮忙在电脑上 **查找占用空间最大的内容** 并给出清理建议。\n\n这类“面向普通用户的系统维护任务”虽然不炫技，但很能检验智能体在 **跨工具操作**、**安全边界** 与 **可控性** 之间的平衡，也更接近真实高频需求。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "RAG"
+          ],
+          "score": 50.877124050607925
+        },
+        {
+          "title": "dotey：Hermes Agent 内置 baoyu-infographic 生成信息图，效果不错",
+          "titleZh": "dotey：Hermes Agent 内置 baoyu-infographic 生成信息图，效果不错",
+          "link": "https://x.com/dotey/status/2059063249753043358",
+          "publishedAt": "Tue, 26 May 2026 00:05:08 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HJKhXZFa8AA7Tg4.jpg",
+          "video": "",
+          "summary": "dotey 分享了一张由 **Hermes Agent** 内置的 **baoyu-infographic** skill 生成的信息图，并评价“效果不错”。\n\n这类把“结构化信息→自动排版成图”封装为 skill 的形态，适合用在日报、汇报、知识库卡片等场景：关键在于模板可复用、输出可控，以及是否能把数据来源/引用保留下来。",
+          "summaryZh": "dotey 分享了一张由 **Hermes Agent** 内置的 **baoyu-infographic** skill 生成的信息图，并评价“效果不错”。\n\n这类把“结构化信息→自动排版成图”封装为 skill 的形态，适合用在日报、汇报、知识库卡片等场景：关键在于模板可复用、输出可控，以及是否能把数据来源/引用保留下来。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "评测",
+            "开源"
+          ],
+          "score": 48.9708709713831
+        },
+        {
+          "title": "Milvus：RAG 的盲点是把“相似度”当“相关性”，CRAG 用检索链路补洞",
+          "titleZh": "Milvus：RAG 的盲点是把“相似度”当“相关性”，CRAG 用检索链路补洞",
+          "link": "https://x.com/milvusio/status/2058933612657971696",
+          "publishedAt": "Mon, 25 May 2026 15:30:01 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJKyI8-b0AA3uHh.jpg",
+          "video": "",
+          "summary": "Milvus 团队指出一个常见问题：向量检索返回的是“语义相近”，但不一定能回答问题；例如你问 Nginx 的 HTTPS 配置，检索可能返回一篇讲 Apache 的 HTTPS 指南——关键词相似但答案错位。\n\n帖子用 **CRAG（Corrective RAG）** 作为解决方向：当检索结果可能不可靠时，通过调整管线本身来识别错配并纠偏，而不是把所有希望都压在后续 rerank/生成阶段。对做 RAG 的团队，这是一条很实用的“先把检索对齐问题，再谈生成”的提醒。",
+          "summaryZh": "Milvus 团队指出一个常见问题：向量检索返回的是“语义相近”，但不一定能回答问题；例如你问 Nginx 的 HTTPS 配置，检索可能返回一篇讲 Apache 的 HTTPS 指南——关键词相似但答案错位。\n\n帖子用 **CRAG（Corrective RAG）** 作为解决方向：当检索结果可能不可靠时，通过调整管线本身来识别错配并纠偏，而不是把所有希望都压在后续 rerank/生成阶段。对做 RAG 的团队，这是一条很实用的“先把检索对齐问题，再谈生成”的提醒。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "RAG"
+          ],
+          "score": 46.69310675185838
+        },
+        {
+          "title": "NVIDIA：2×DGX Spark + MiniMax M2.7 NVFP4，本地同时跑 16 个 AI Agents",
+          "titleZh": "NVIDIA：2×DGX Spark + MiniMax M2.7 NVFP4，本地同时跑 16 个 AI Agents",
+          "link": "https://x.com/NVIDIAAI/status/2058921531481510074",
+          "publishedAt": "Mon, 25 May 2026 14:42:00 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-26-2058921531481510074.mp4",
+          "summary": "NVIDIA 展示了一个面向多智能体并发的本地方案：使用 **2×DGX Spark** 搭配 **MiniMax M2.7（NVFP4）**，可同时运行 **16 个本地 AI Agents**。\n\n这类“端侧/本地多 Agent 并发”演示值得关注两点：一是 **本地算力与推理优化** 是否足以支撑复杂工作流；二是对企业/个人开发者而言，本地化部署能否在 **成本、隐私与响应时延** 上带来更可控的体验。",
+          "summaryZh": "NVIDIA 展示了一个面向多智能体并发的本地方案：使用 **2×DGX Spark** 搭配 **MiniMax M2.7（NVFP4）**，可同时运行 **16 个本地 AI Agents**。\n\n这类“端侧/本地多 Agent 并发”演示值得关注两点：一是 **本地算力与推理优化** 是否足以支撑复杂工作流；二是对企业/个人开发者而言，本地化部署能否在 **成本、隐私与响应时延** 上带来更可控的体验。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "API",
+            "智能体",
+            "视频"
+          ],
+          "score": 68
+        },
+        {
+          "title": "LlamaParse 原生支持解析 HEIC：覆盖 iPhone 默认图片格式",
+          "titleZh": "LlamaParse 原生支持解析 HEIC：覆盖 iPhone 默认图片格式",
+          "link": "https://x.com/llama_index/status/2058910711728771476",
+          "publishedAt": "Mon, 25 May 2026 13:59:01 GMT",
+          "source": "LlamaIndex (@llama_index)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJK4Ya9XMAAHRDP.jpg",
+          "video": "",
+          "summary": "**LlamaParse** 宣布已 **原生支持 HEIC** 文件解析。HEIC 是 Apple 生态（尤其 iPhone）常见/默认的图片格式，因此在文档处理、票据/截图解析与知识库导入场景里很常见。\n\n对做 RAG/文档管线的团队来说，这类“输入格式补齐”看似小，但能直接减少预处理成本与失败率，尤其在用户上传内容高度来自移动端时。",
+          "summaryZh": "**LlamaParse** 宣布已 **原生支持 HEIC** 文件解析。HEIC 是 Apple 生态（尤其 iPhone）常见/默认的图片格式，因此在文档处理、票据/截图解析与知识库导入场景里很常见。\n\n对做 RAG/文档管线的团队来说，这类“输入格式补齐”看似小，但能直接减少预处理成本与失败率，尤其在用户上传内容高度来自移动端时。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "图像"
+          ],
+          "score": 49.5771784111043
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "播客：王建硕谈「Markdown 是新时代的编程语言」与 AI 时代的软件形态",
+          "titleZh": "播客：王建硕谈「Markdown 是新时代的编程语言」与 AI 时代的软件形态",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a145491fe904f387314d866",
+          "publishedAt": "Mon, 25 May 2026 13:02:07 GMT",
+          "source": "AI炼金术",
+          "sourceType": "research",
+          "section": "extended_reading",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9mNTFhLWF1ZGlvZnJlZWhpZ2hxcHMvQjkvNzAvR01Db09TSUh2N0JGQUFWZ1B3SDNSN2VoLmpwZWc=.jpeg",
+          "video": "",
+          "summary": "**核心内容**：这期播客围绕“在 AI 时代，软件的可维护性与迭代方式会如何变化”展开。嘉宾提出一个主张：很多所谓“屎山代码”问题，其实不该只在源代码层面修修补补，更应该把表达意图的 **自然语言层** 做好，让系统能更直接地把意图转译为实现。\n\n**展开方式/内容线索**：讨论包含一个具体例子：用户提交类似“字体大一点/加一个功能”的反馈后，系统能在很短时间内完成代码修改、构建与交付；并进一步延伸到“加入 PM Agent 让系统自己决定下一版做什么”的设想。整体更像是对 **AI 驱动持续交付** 与 **意图驱动编程** 的一组实践观察与观点梳理。",
+          "summaryZh": "**核心内容**：这期播客围绕“在 AI 时代，软件的可维护性与迭代方式会如何变化”展开。嘉宾提出一个主张：很多所谓“屎山代码”问题，其实不该只在源代码层面修修补补，更应该把表达意图的 **自然语言层** 做好，让系统能更直接地把意图转译为实现。\n\n**展开方式/内容线索**：讨论包含一个具体例子：用户提交类似“字体大一点/加一个功能”的反馈后，系统能在很短时间内完成代码修改、构建与交付；并进一步延伸到“加入 PM Agent 让系统自己决定下一版做什么”的设想。整体更像是对 **AI 驱动持续交付** 与 **意图驱动编程** 的一组实践观察与观点梳理。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "开源",
+            "大模型"
+          ],
+          "score": 39
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "summaryBullets": [
+    "xAI 在 X 上宣布 **Grok Build** 开放 Beta：面向 **SuperGrok** 与 **X Premium+** 用户，支持 **Plan Mode**、用 **Imagine** 生成图片/视频，并可用 **CLI** 搭建自动化与编排器。",
+    "**Google AI Studio** 被曝可在网页端 **免费** 直接构建 **原生 Android App**，把“用模型生成代码→打包运行”的原型链路进一步压短。",
+    "**Qwen3.7-Max** 上线 **隐式缓存（implicit caching）**：无需配置自动生效，主打推理更快、更省。",
+    "多篇新论文聚焦“超大输入”场景：从 **高分辨率图像/病理全切片** 的搜索式感知，到为 **自动化科研** 搭建的大规模知识图谱。"
+  ]
+}
