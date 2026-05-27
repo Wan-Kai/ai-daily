@@ -2,6 +2,10 @@
 
 AI Daily is a lightweight static site for publishing a daily digest of AI news, papers, and major lab or vendor blog updates.
 
+## 在线访问
+
+- [AI Daily 日报目录](https://wan-kai.github.io/ai-daily/index.html#daily)
+
 ## What It Does
 
 - Tracks configured AI information sources in `data/sources.json`
@@ -54,7 +58,7 @@ After the repository is pushed to GitHub:
 1. Open repository settings.
 2. Go to **Pages**.
 3. Set source to **GitHub Actions**.
-4. The `Daily AI Digest` workflow will generate and deploy the site every day.
+4. The `Deploy AI Daily` workflow will generate and deploy the site every day.
 
 ## Notes
 
