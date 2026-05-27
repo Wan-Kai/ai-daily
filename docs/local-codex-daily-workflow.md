@@ -7,32 +7,47 @@
 1. 本地 Codex 自动任务每天 02:30（Asia/Shanghai）运行；精选审批发布任务每天 03:10 独立运行。
 2. Codex 拉取最新的 `main` 分支。
 3. Codex 先检查可用的补充发现源，例如 Gmail 中 `daodi154@gmail.com` 最近 24 小时收到的 AINews.com 邮件；如果有高价值邮件，提取标题、正文要点、图片、视频和 `Sources` 中的一手链接，写入 `data/email-candidates/YYYY-MM-DD.json`。
-4. Codex 执行 `npm run generate`，抓取 RSS/Atom/社媒 RSS 等信息源，并合并 `data/email-candidates/YYYY-MM-DD.json` 中的临时候选后生成日报 JSON。
-5. Codex 使用本地会话模型编辑生成后的日报：
+4. Codex 执行 `npm run generate`，抓取 RSS/Atom/社媒 RSS 等信息源，并合并 `data/email-candidates/YYYY-MM-DD.json` 中的临时候选后生成日报 JSON（默认禁用自动中文化，如需试验才设置 `AI_DAILY_DISABLE_LLM_LOCALIZE=0`）。
+5. Codex 直接人工修订生成后的日报 JSON（这是发布前的必经步骤）：
    - 将标题和摘要改写为中文，摘要需要完整交代发生了什么、为什么值得关注。
    - `whyItMatters` 只作为内部判断信号，不在页面上单独展示。
    - 研究、延伸阅读等长内容按金字塔原理总结：先写核心结论或内容主线，再写支撑证据、关键数据、适用场景、限制条件或简介要点。
    - 日报不再生成「实践案例」栏目，详情页最后使用「延伸阅读」栏目。延伸阅读主要抓取 AI 相关且有价值的小宇宙播客最新单集，只使用小宇宙简介/show notes，不做 Whisper 转写，也不走精选播客审批链路。
    - 论文解读需要先按 `shuorenhua` 方法改写，保留技术事实，删掉模板腔、空泛判断和二元对比句式；必须用 `**核心结论**`、`**支撑证据**`、`**我的判断**` 三段回答两个问题：论文阐述的是什么，以及它用哪些证据解释/证明。
-   - 摘要中需要适度加粗关键概念、核心结论、重要数据、模型名、产品名、限制条件和行动判断，方便扫读；不要整句大面积加粗。
+   - 摘要中需要适度加粗关键概念、核心结论、重要数据、模型名、产品名、限制条件和行动判断，方便扫读；不要整句大面积加粗；**标题与「今日摘要」条目不要包含 `**`**，避免页面残留裸 Markdown。
    - 保留来源链接和基础元数据。
    - 不编造来源标题或摘要里没有支撑的信息。
    - 图片需要从候选图片中按尺寸、横纵比、来源类型和清晰度选择更适合正文展示的一张；头像、小缩略图、低清图片或无法确认尺寸的图片不要展示。
    - 如果来源提供可直接播放的视频地址，可以在日报详情页展示视频；如果只提供普通页面链接，则保留原文链接。
-6. Codex 执行 `npm run build` 验证静态站点构建。
-7. Codex 提交 `data/reports/*.json` 以及相关页面生成结果。
-8. Codex 推送到 `origin/main`。
-9. GitHub Actions 在推送后部署静态站点到 GitHub Pages。
+6. Codex 执行 `npm run repair-media` 回源补齐入选资讯的图片/视频（优先缓存 `video.twimg.com` 到 `public/media`，但要控制体积；过大的视频可直接清空 `video` 字段避免推送不稳定）。
+7. Codex 执行 `npm run review`，审查不通过就回到日报 JSON 继续修订，直到通过。
+8. Codex 执行 `npm run build` 构建静态站点，并检查 `dist/YYYY-MM-DD.html` 不应残留裸 `**`。
+9. Codex 提交 `data/reports/YYYY-MM-DD.json` 与新增 `public/media/*`（若有）。
+10. Codex 推送到 `main`：优先 SSH；若 SSH 频繁断开，使用带代理的 HTTPS 推送。
+11. 推送后检查 `Deploy AI Daily` Actions 成功，再用 Chrome 验证线上页面已更新。
 
 ## 本地命令
 
 ```bash
-git pull --ff-only
+export AI_DAILY_HTTPS_PROXY=http://127.0.0.1:6789 HTTPS_PROXY=http://127.0.0.1:6789 HTTP_PROXY=http://127.0.0.1:6789 ALL_PROXY=socks5://127.0.0.1:6789
+
+git pull --rebase origin main
 npm run generate
+
+# 人工编辑：data/reports/YYYY-MM-DD.json（中文化、去重、栏目调整、今日摘要）
+
+npm run repair-media
+npm run review
 npm run build
-git add data/reports
-git commit -m "更新 AI 日报"
-git push
+
+git add data/reports public/media
+git commit -m "生成并中文化 YYYY-MM-DD 日报"
+
+# 优先 SSH；不稳定时改用 HTTPS（带代理更稳）
+git push git@github.com:Wan-Kai/ai-daily.git main || git push https://github.com/Wan-Kai/ai-daily.git main
+
+gh run list --repo Wan-Kai/ai-daily --limit 3
+gh run watch --repo Wan-Kai/ai-daily <run-id> --exit-status
 ```
 
 Codex 自动任务只在日报内容或站点构建结果变化时提交。

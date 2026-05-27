@@ -13,10 +13,18 @@ AI Daily is a lightweight static site for publishing a daily digest of AI news, 
 ## Local Usage
 
 ```bash
-npm run daily
+npm run generate
 ```
 
-The built site is written to `dist/`.
+生成后需要先人工中文化并修订当天报告（见 `docs/local-codex-daily-workflow.md`），再依次执行：
+
+```bash
+npm run repair-media
+npm run review
+npm run build
+```
+
+构建产物写入 `dist/`。
 
 ## Add Or Edit Sources
 
@@ -50,4 +58,4 @@ After the repository is pushed to GitHub:
 
 ## Notes
 
-This first version intentionally avoids runtime dependencies. It uses Node.js built-ins so the scheduled workflow stays easy to operate. A future version can add LLM-based summarization by using an API key in GitHub Actions secrets.
+This project intentionally avoids heavy runtime dependencies. Daily reports are edited and localized to Chinese manually before publishing.

@@ -1222,7 +1222,9 @@ function isChineseEnough(text = "") {
 }
 
 async function localizeSectionsZh(sections) {
-  if (process.env.AI_DAILY_DISABLE_LLM_LOCALIZE === "1") {
+  // 默认禁用 LLM 自动中文化：后续由本地人工编辑 `data/reports/YYYY-MM-DD.json` 完成中文化与栏目修订。
+  // 如需临时启用，可显式设置 `AI_DAILY_DISABLE_LLM_LOCALIZE=0`。
+  if (process.env.AI_DAILY_DISABLE_LLM_LOCALIZE !== "0") {
     return { summaryBullets: [] };
   }
   const candidates = sections
