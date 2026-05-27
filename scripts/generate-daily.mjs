@@ -1222,6 +1222,9 @@ function isChineseEnough(text = "") {
 }
 
 async function localizeSectionsZh(sections) {
+  if (process.env.AI_DAILY_DISABLE_LLM_LOCALIZE === "1") {
+    return { summaryBullets: [] };
+  }
   const candidates = sections
     .flatMap((section) => section.items.map((item) => ({ sectionId: section.id, item })))
     .filter(({ item }) => !(isChineseEnough(item.titleZh) && isChineseEnough(item.summaryZh)));

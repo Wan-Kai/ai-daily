@@ -1,0 +1,714 @@
+{
+  "date": "2026-05-27",
+  "generatedAt": "2026-05-27T01:46:39.060Z",
+  "title": "AI 日报 - 2026-05-27",
+  "stats": {
+    "sources": 133,
+    "fetched": 1073,
+    "emailCandidates": 0,
+    "selected": 32,
+    "failures": 0
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "🤳",
+          "titleZh": "开发者反馈：Codex Mobile 让人更敢下“更大指令”，减少盯屏式微操",
+          "link": "https://x.com/OpenAIDevs/status/2059354472791646354",
+          "publishedAt": "Tue, 26 May 2026 19:22:21 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Matt Shumer @mattshumer_ Codex Mobile is making me a better developer in a way I didn’t expect: I step away from my laptop and stop micromanaging. I give it much more ambitious prompts (the way models work best). And I get space to think instead of sitting there with burning eyes spamming prompts.",
+          "summaryZh": "OpenAI Developers 转发开发者体验：使用 **Codex Mobile** 之后，人会更愿意离开电脑、少做“提示词微操”，反而更敢给出 **更宏观/更有野心的任务描述**，把时间留给思考与决策。对团队落地代码代理，这类“移动端随时下单 + 异步回收结果”的工作方式，可能比纯 IDE 插件更能降低上下文切换成本。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "开发者工具"
+          ],
+          "score": 68.9188775133887
+        },
+        {
+          "title": "Introducing Project Luxo: a new initiative exploring how AI-generated video has crossed the uncanny ...",
+          "titleZh": "Runway 启动 Project Luxo：用全 AI 生成短片向好莱坞验证“技术已能隐身于故事”",
+          "link": "https://x.com/runwayml/status/2059279505009615293",
+          "publishedAt": "Tue, 26 May 2026 14:24:28 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Introducing Project Luxo: a new initiative exploring how AI-generated video has crossed the uncanny valley. Over the past few weeks, we’ve shared a series of short films with Hollywood executives, producers, directors, writers, actors and reporters. The response has been unanimous: the technology is finally good enough to disappear behind the story. One of those films is The Rogue — a fully AI-generated, ten-minute film that spent over a decade unproduced in the traditional system: too expensive, too difficult, too risky. Created with Runway in under a month by a single person. Learn more about The Rogue and Project Luxo at the link below.",
+          "summaryZh": "Runway 介绍 **Project Luxo**：过去数周向好莱坞的高管/制片/导演/编剧/演员/记者展示一系列短片后，得到的反馈是“技术终于足够好，可以消失在叙事背后”。其中一部示例《**The Rogue**》据称是 **10 分钟**的全 AI 生成影片：传统制作体系里因为 **成本高/难度大/风险高** 而十多年未能开拍的项目，被“单人”在 **不到一个月**内用 Runway 完成。对视频生成赛道而言，这是把“演示”推进到“工业化叙事样片”的一个信号，但仍需持续观察其成本、流程可复现性与版权合规边界。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 67.45994449712292,
+          "videoCandidates": []
+        },
+        {
+          "title": "Thank you so much for all the feedback on the Grok Build Beta. Some of you reported hitting limits ...",
+          "titleZh": "xAI：已为所有账号重置 Grok Build Beta 使用上限（修复缓存相关问题）",
+          "link": "https://x.com/xai/status/2059375342683636066",
+          "publishedAt": "Tue, 26 May 2026 20:45:17 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Thank you so much for all the feedback on the Grok Build Beta. Some of you reported hitting limits quickly. Our team found areas to improve caching, so we've reset Grok Build usage limits for all accounts. Please keep sharing feedback - the team is here to help.  465  393 ❤️ 3937  337838  716",
+          "summaryZh": "xAI 表示收到大量关于 **Grok Build Beta** 的反馈，其中包括“很快触达使用上限”。团队称已找到并改进 **缓存（caching）** 相关环节，因此对 **所有账号** 重置了 Grok Build 的 usage limits，并继续征集反馈。对做 Agent/IDE 类产品的团队，这是一个典型提醒：**缓存/配额/限流** 的细节很容易成为“体感可用性”的主要瓶颈。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        },
+        {
+          "title": "Music v2 is available now across ElevenMusic, ElevenCreative and coming soon to ElevenAPI. The mode...",
+          "titleZh": "ElevenLabs 上线 Music v2：将登陆 ElevenAPI，并声明 授权数据训练 + 可商用",
+          "link": "https://x.com/ElevenLabs/status/2059312440924426573",
+          "publishedAt": "Tue, 26 May 2026 16:35:20 GMT",
+          "source": "ElevenLabs(@elevenlabsio)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Music v2 is available now across ElevenMusic, ElevenCreative and coming soon to ElevenAPI. The model is trained on licensed data and cleared for commercial use. Try it today: elevenlabs.io/music",
+          "summaryZh": "ElevenLabs 宣布 **Music v2** 已在 **ElevenMusic** 与 **ElevenCreative** 可用，并将“很快”覆盖到 **ElevenAPI**。官方强调该模型基于 **licensed data（授权数据）** 训练，已 **cleared for commercial use（可用于商业用途）**，并给出试用入口。对做音频生成产品/创作工具的团队，这意味着“可商用数据口径 + API 可用性”正在成为主流竞争点。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "视频"
+          ],
+          "score": 55.6440269470136,
+          "videoCandidates": []
+        },
+        {
+          "title": "To date, SynthID verification in Gemini has been used 50+ million times to see if media was AI-gener...",
+          "titleZh": "DeepMind：Gemini 的 SynthID 验证已被使用 5000 万+ 次，并扩展到 Search/Chrome",
+          "link": "https://x.com/GoogleDeepMind/status/2059235184130535436",
+          "publishedAt": "Tue, 26 May 2026 11:28:21 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/tweet_video_thumb/HJPfKEMWsAA1A39.jpg",
+          "video": "",
+          "summary": "To date, SynthID verification in Gemini has been used 50+ million times to see if media was AI-generated. We’re now scaling this further by expanding content authentication directly into more everyday tools: Search and @GoogleChrome . So you can just ask: \"Is this made with AI?\"  5  7 ❤️ 138  28662  18",
+          "summaryZh": "Google DeepMind 披露：截至目前，Gemini 中的 **SynthID verification** 已被使用 **5000 万+** 次，用来判断媒体是否由 AI 生成。团队称正在把内容验证能力扩展到更多日常工具，包括 **Google Search** 与 **Google Chrome**，让用户可以直接询问“**这是否由 AI 生成？**”。这类把“水印/验证”放到分发与浏览入口的做法，可能会影响内容平台的鉴别链路与合规要求。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 53.84237289089916,
+          "videoCandidates": []
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "SaaS-Bench: Can Computer-Use Agents Leverage Real-World SaaS to Solve Professional Workflows?",
+          "titleZh": "论文：SaaS-Bench——Computer-use Agents 能否在真实 SaaS 上完成专业工作流？",
+          "link": "https://arxiv.org/abs/2605.15777",
+          "publishedAt": "Tue, 26 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.15777v2 Announce Type: replace Abstract: Computer-Using Agents (CUAs) are rapidly extending large language models (LLMs) beyond text-based reasoning toward action execution in more complex environments, such as web browsers and graphical user interfaces (GUIs). However, existing web and GUI agent benchmarks often rely on simplified settings, isolated tasks, or short-horizon interactions, making it difficult to assess capabilities of agents in realistic professional workflows. Software-as-a-Service (Sa...",
+          "summaryZh": "**核心结论**：作者提出 **SaaS-Bench**，用一组“贴近真实办公/业务”的 **SaaS 工作流任务** 来评测 **computer-use agents（能操作网页/界面的代理）**，重点看它们能否在真实系统的约束下完成端到端流程，而不只是回答问题。\n\n**支撑证据**：基准围绕真实 SaaS 场景设计多步骤任务与交互回合，强调这类任务会暴露代理在 **界面理解、状态追踪、错误恢复、权限/上下文限制** 等方面的短板（而这些往往是线上落地的主要失败点）。\n\n**我的判断**：如果你在做“能操作 SaaS 的工作流 Agent”，SaaS-Bench 更像一次 **可用性体检**：它能把“看起来会用”与“稳定完成流程”区分开来；但真正可迁移的价值取决于任务覆盖的 SaaS 类型、失败归因粒度，以及是否能形成可复现的回归评测。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "推理能力",
+            "多模态"
+          ],
+          "score": 43
+        },
+        {
+          "title": "LLM Agent Based Renewable Energy Forecasting Using Edge and IoT Data A Review of Solar Wind Weather and Grid Aware Decision Support",
+          "titleZh": "综述：用 LLM Agent + 边缘/IoT 数据 做可再生能源发电预测与电网决策支持",
+          "link": "https://arxiv.org/abs/2605.25141",
+          "publishedAt": "Tue, 26 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.25141v1 Announce Type: cross Abstract: Reliable forecasting of renewable energy generation is a foundational requirement for grid stability energy trading battery scheduling and carbon aware operational planning Solar and wind resources are inherently intermittent their output fluctuates with cloud cover wind speed atmospheric turbulence seasonal patterns and local terrain The proliferation of IoT and edge devices spanning smart meters inverters anemometers pyranometers weather stations and grid inter...",
+          "summaryZh": "**核心结论**：这篇综述围绕“可再生能源发电预测”梳理 **LLM/Agent** 结合 **边缘计算与 IoT 数据** 的研究路线，关注太阳能/风能/天气与电网约束下的预测与决策支持。\n\n**支撑证据**：文章强调电网稳定、能量交易、储能调度与低碳运营都依赖更可靠的预测；讨论了在数据来源（传感器/边缘节点）、建模目标（短期/中长期）、以及决策约束（电网可用容量、风险与不确定性）上的典型挑战。\n\n**我的判断**：对能源与工业场景的 AI 团队，这类综述更适合作为“需求与变量清单”：真正难点通常不在模型结构本身，而在 **数据质量、异常/缺测、时序漂移、评测口径与可解释性** 的工程化闭环。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "推理能力",
+            "评测"
+          ],
+          "score": 39
+        },
+        {
+          "title": "LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős",
+          "titleZh": "播客/周报：Last Week in AI #246 讨论 Gemini 3.5、多模态视频生成与 OpenAI 相关诉讼动态",
+          "link": "https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni",
+          "publishedAt": "Tue, 26 May 2026 05:10:23 GMT",
+          "source": "Last Week in AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://substackcdn.com/image/fetch/$s_!tSMZ!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Flastweekinai.substack.com%2Fapi%2Fv1%2Fpost_preview%2F199282643%2Ftwitter.jpg%3Fversion%3D4",
+          "video": "",
+          "summary": "Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle",
+          "summaryZh": "**核心要点**：Last Week in AI 在第 246 期里汇总并讨论了近期的多条 AI 事件，包括 Google 发布/更新的 **Gemini 3.5** 与相关 Agent、以及将图像/音频/文本转成视频的多模态进展等。\n\n**展开说明**：该类周报型内容适合用来快速补齐“行业信息差”，但细节与口径仍需要回到原始发布与文档核对。\n\n**我的判断**：如果你需要把“产品发布/研究信号/监管与诉讼”放在同一张时间线上追踪，这类周报可以作为入口；但对关键条目建议再跟进一手链接。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "视频",
+            "图像"
+          ],
+          "score": 34
+        },
+        {
+          "title": "Build high-performance generative AI systems with Strands Agents, NVIDIA NIM, and Amazon Bedrock AgentCore",
+          "titleZh": "AWS：用 Strands Agents + NVIDIA NIM + Bedrock AgentCore 组装高性能生成式 AI 系统",
+          "link": "https://aws.amazon.com/blogs/machine-learning/build-high-performance-generative-ai-systems-with-strands-agents-nvidia-nim-and-amazon-bedrock-agentcore/",
+          "publishedAt": "Tue, 26 May 2026 17:39:46 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/02/image-ml-20164-2.png",
+          "video": "",
+          "summary": "In this post you'll learn how to build a multi-agent campaign review system that demonstrates parallel reasoning, context persistence, and traceable execution paths using an integrated architecture that combines NVIDIA NIM for GPU-accelerated inference. Amazon Bedrock AgentCore provides managed runtime, shared memory and built-in observability and Strands Agents provide serverless multi-agent orchestration. This approach supports performance, scalability, and operational insight in production environments. While...",
+          "summaryZh": "**核心要点**：AWS 介绍如何把 **Strands Agents** 与 **NVIDIA NIM**、以及 **Amazon Bedrock AgentCore** 组合起来，搭建面向生产的生成式 AI/Agent 系统，并讨论性能与工程化要点。\n\n**展开说明**：文章更偏“参考架构/组件拼装”，适合对照你自己的推理服务、工具调用与权限隔离设计，找出可替换的模块。\n\n**我的判断**：如果你在 AWS 上做 Agent 落地，这类文章的价值在于把“模型/推理/编排/运维”拆成可组合部件；但需要结合你所用模型与实际负载做基准测试，避免被示例配置误导成本。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "推理能力",
+            "推理部署"
+          ],
+          "score": 32
+        },
+        {
+          "title": "From idea to AI app: Creating intelligent research assistants with Strands",
+          "titleZh": "AWS：从想法到应用——用 Strands 搭建“研究助理”类智能应用",
+          "link": "https://aws.amazon.com/blogs/machine-learning/from-idea-to-ai-app-creating-intelligent-research-assistants-with-strands/",
+          "publishedAt": "Tue, 26 May 2026 16:28:08 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/14/image-ML-196843.png",
+          "video": "",
+          "summary": "Building an AI app shouldn’t require a PhD in machine learning (ML) or months of wrestling with complex architectures. Yet that’s exactly what happens when you try to orchestrate multiple API calls, manage conversation state, and create agents that can reason on their own. I’ve seen straightforward AI ideas balloon into sprawling projects that demand […]",
+          "summaryZh": "**核心要点**：AWS 给出一条用 **Strands** 构建“研究助理（research assistant）”的实现路径，强调把检索、工具调用与任务分解组织成可复用的工作流。\n\n**展开说明**：这类教程通常覆盖从数据接入、提示模板到工具接口的串联方式，适合用来对照你自己的 RAG/Agent 框架。\n\n**我的判断**：对想快速落地“内部研究助手/知识助理”的团队，教程最大的帮助是把端到端链路跑通；但线上效果仍取决于知识库质量、权限边界与失败回退策略。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "API",
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Microsoft Copilot Cowork Exfiltrates Files",
+          "titleZh": "Simon Willison：Copilot Cowork 可能把本地文件“外带”出去的一个案例与启示",
+          "link": "https://simonwillison.net/2026/May/26/copilot-cowork-exfiltrates-files/#atom-everything",
+          "publishedAt": "2026-05-26T15:36:48+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Microsoft Copilot Cowork Exfiltrates Files The biggest challenge in designing agentic systems continues to be preventing them from enabling attackers to exfiltrate data. In this case Microsoft Copilot Cowork (yes, that's a real product name ) was allowing agents to send emails to the user's own inbox without approval... but those messages were then displayed in a way that could leak data to an attacker via rendered images: Because these messages can contain external images that trigger network requests to extern...",
+          "summaryZh": "**核心要点**：Simon Willison 记录并分析了一个与 **Microsoft Copilot Cowork** 相关的案例：当代理被授予过大的访问权限时，存在把文件内容带出（exfiltrate）的风险。\n\n**展开说明**：文章强调“代理权限与访问控制”需要随能力演进：不仅要限制能读什么/写什么，还要约束能把什么内容发送到哪里，并提供可审计的日志。\n\n**我的判断**：对企业内落地 Agent，这是必须前置的安全题：默认最小权限、沙箱隔离、敏感数据脱敏/阻断、以及可回放的审计链路，往往比模型再强更重要。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "图像"
+          ],
+          "score": 28
+        },
+        {
+          "title": "Technical deep dive: AgentCore payments and innovation in agentic commerce",
+          "titleZh": "AWS 技术深挖：AgentCore Payments 与“Agentic Commerce”的支付/结算设计",
+          "link": "https://aws.amazon.com/blogs/machine-learning/technical-deep-dive-agentcore-payments-and-innovation-in-agentic-commerce/",
+          "publishedAt": "Tue, 26 May 2026 17:57:18 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Amazon Bedrock AgentCore payments is now available in preview, it provides instant payments to paid external services with no manual billing setup per provider, stablecoin support for cost-effective microtransactions that make sub-cent transactions economically viable, and configurable spending guardrails that give you fine-grained control over agent budgets and transaction limits. In this post, we walk you through a technical deep dive of AgentCore payments.",
+          "summaryZh": "**核心要点**：AWS 在 AgentCore 体系下讨论“Agentic Commerce（代理驱动的商业流程）”的支付与结算能力，并从工程角度拆解相关组件与集成方式。\n\n**展开说明**：当 Agent 需要代表用户或企业执行交易时，关键问题通常集中在 **授权、审计、风控、回滚** 与 **欺诈防护**。\n\n**我的判断**：对做电商/支付/企业采购自动化的团队，这类内容值得关注的不是概念，而是它是否提供可落地的权限与审计接口；否则很难进入生产。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        },
+        {
+          "title": "Build highly scalable serverless LangGraph multi-agent systems in AWS with Amazon Bedrock AgentCore",
+          "titleZh": "AWS：在 Bedrock AgentCore 上构建 Serverless LangGraph 多智能体系统（可扩展架构）",
+          "link": "https://aws.amazon.com/blogs/machine-learning/build-highly-scalable-serverless-langgraph-multi-agent-systems-in-aws-with-amazon-bedrock-agentcore/",
+          "publishedAt": "Tue, 26 May 2026 17:41:26 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/02/image-ml-201651.png",
+          "video": "",
+          "summary": "In this post, we provide a solution to build highly scalable, serverless multi-agent generative AI systems on AWS using LangGraph Agents as orchestrators integrated with Amazon Bedrock AgentCore Memory and Amazon Bedrock AgentCore Observability.",
+          "summaryZh": "**核心要点**：AWS 介绍如何用 **LangGraph** 在 AWS 上搭建可横向扩展的多智能体系统，并与 **Amazon Bedrock AgentCore** 结合。\n\n**展开说明**：面向生产的多智能体系统往往会被并发、状态管理与失败重试“拖死”，Serverless 形态试图把扩缩容与部分运维复杂度交给平台。\n\n**我的判断**：如果你的瓶颈在“并发与编排可靠性”，这条路线值得对照参考；但要注意 Serverless 在冷启动、状态持久化与成本结构上的取舍。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "hardikpandya/stop-slop",
+          "titleZh": "开源：`stop-slop`——用“技能文件”减少文案里的 AI 味（AI tells）",
+          "link": "https://github.com/hardikpandya/stop-slop",
+          "publishedAt": "2026-05-27T01:46:39.060Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://private-user-images.githubusercontent.com/591262/534376264-902afc15-1f40-4a9d-af24-8cd67afb8ebf.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Nzk4NDY3MzgsIm5iZiI6MTc3OTg0NjQzOCwicGF0aCI6Ii81OTEyNjIvNTM0Mzc2MjY0LTkwMmFmYzE1LTFmNDAtNGE5ZC1hZjI0LThjZDY3YWZiOGViZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwNTI3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDUyN1QwMTQ3MThaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lM2UzMGJjMmYzNzdiMDZiNDcyMjUzZTJhYjhkZGYxMjQ3NmM0NjFhZTlhNmM5NDIzNjA2ZTAxNTIwMTkwMTdlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZyZXNwb25zZS1jb250ZW50LXR5cGU9aW1hZ2UlMkZwbmcifQ.wOoZWCNpTx_gIe0WTZvW1rk6VccBvu4PW2VUU1XlKX8",
+          "video": "",
+          "summary": "Star hardikpandya / stop-slop A skill file for removing AI tells from prose",
+          "summaryZh": "这是一个小型开源仓库，提供一份可复用的 **skill file**，目标是让写作/改写时更少出现常见的“AI 味道”（例如过度模板化的措辞、泛化形容词等）。适合把它当作写作工具链里的“后处理规则集”起点，但是否有效取决于你接入的写作模型与具体风格约束。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        },
+        {
+          "title": "Leonxlnx/taste-skill",
+          "titleZh": "开源：`taste-skill`——给生成式写作加“品味约束”，减少模板化输出",
+          "link": "https://github.com/Leonxlnx/taste-skill",
+          "publishedAt": "2026-05-27T01:46:39.060Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Sponsor Star Leonxlnx / taste-skill Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+          "summaryZh": "该仓库以 **Taste-Skill** 的形式提供一套提示/约束，用来让模型少写“泛泛而谈、千篇一律”的内容。它更像是可直接复用的写作偏好配置：你可以基于自己的品牌语气与文风继续收敛规则，并在不同任务（博客、营销、技术解释）里分别调参。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "GPT-5.5 in Codex helps @databricks parse complex customer documents more reliably.",
+          "titleZh": "OpenAI Developers：Codex 中的 GPT‑5.5 帮 Databricks 更稳定解析复杂客户文档",
+          "link": "https://x.com/OpenAIDevs/status/2059353117934899289",
+          "publishedAt": "Tue, 26 May 2026 19:16:58 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-27-2059353117934899289.mp4",
+          "summary": "GPT-5.5 in Codex helps @databricks parse complex customer documents more reliably.",
+          "summaryZh": "OpenAI Developers 提到：在 Codex 里使用 **GPT‑5.5** 能帮助 Databricks 更可靠地解析复杂客户文档（配演示视频）。这类“代码代理 + 文档理解/结构化抽取”如果能稳定工作，会直接影响企业对合同、需求与支持工单的自动化处理效率，但仍需要在长文档、噪声格式与权限边界上做系统性验证。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 66.44168269945304,
+          "videoCandidates": []
+        },
+        {
+          "title": "Good explainer on world models - well done @juliarturc",
+          "titleZh": "NVIDIA AI 转发“World Models”科普视频：澄清概念、差异与常见误解",
+          "link": "https://x.com/NVIDIAAI/status/2059273634083213521",
+          "publishedAt": "Tue, 26 May 2026 14:01:08 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Good explainer on world models - well done @juliarturc Julia Turc @juliarturc \"World models\" is one of the buzziest yet ambiguous terms in AI right now. I started this video with many questions: - How are they different from video generation? - Can they do more than AI slop? - Can LeCun be trusted given that he wears knee-high white socks? Many thanks to @tjgalda and @NVIDIAAI for helping me answer (most) of these questions!",
+          "summaryZh": "NVIDIA AI 转发并推荐一段关于 **World Models（世界模型）** 的解释视频，作者试图回答：它与传统生成模型/视频模型有什么区别、为什么近期变得热门、以及在评测与应用上有哪些容易混淆的点。对在做具身智能、视频理解与长期规划的团队，这类梳理有助于统一术语，但关键仍要回到可复现的基准与任务定义。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 63.89875770730761,
+          "videoCandidates": []
+        },
+        {
+          "title": "SynthID has already watermarked over 100 billion pieces of content, but transparency is a team sport...",
+          "titleZh": "DeepMind：SynthID 已为 1000 亿+ 内容加水印，并与 OpenAI / ElevenLabs / Kakao 扩大接入",
+          "link": "https://x.com/GoogleDeepMind/status/2059235181274202500",
+          "publishedAt": "Tue, 26 May 2026 11:28:20 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJPfCTpWUAE2qx0.jpg",
+          "video": "",
+          "summary": "SynthID has already watermarked over 100 billion pieces of content, but transparency is a team sport. That’s why we’re partnering with @OpenAI , @ElevenLabs and Kakao to add SynthID watermarking to their models – accelerating the industry-wide momentum we started with @NVIDIA .  78  110 ❤️ 1069  86136  185",
+          "summaryZh": "Google DeepMind 表示 **SynthID** 已为 **1000 亿+** 内容生成并嵌入水印，同时宣布与 **OpenAI、ElevenLabs、Kakao** 等合作伙伴一起扩展 SynthID 水印接入，加速内容透明与可验证性建设。对内容平台与模型提供方来说，这意味着“可验证水印”正从单点能力走向生态协作，但也需要关注跨平台验证一致性与误判成本。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 63
+        },
+        {
+          "title": "New on the Engineering Blog: The access and permissions we grant agents should evolve with their cap...",
+          "titleZh": "Anthropic 工程博客：Agent 的 访问权限 应随能力演进，核心靠 沙箱（sandboxing）",
+          "link": "https://x.com/AnthropicAI/status/2059351260243919269",
+          "publishedAt": "Tue, 26 May 2026 19:09:35 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "New on the Engineering Blog: The access and permissions we grant agents should evolve with their capabilities. In our own products, we set these parameters through sandboxing, which limits the scope of any potentially destructive actions. Read more: anthropic.com/engineering/ho…  159  140 ❤️ 1100  91551  299",
+          "summaryZh": "Anthropic 在工程博客讨论：随着 agent 能力增强，授予它的 **访问与权限（access/permissions）** 也需要动态调整；在自家产品中，他们通过 **sandboxing** 来限制潜在危险操作的作用域。对企业内部 Agent，这条原则的落地形态通常是：最小权限、可审计、可回滚，以及对外发数据的严格出口控制。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 62
+        },
+        {
+          "title": "Today, we’re sharing the first of what we’re calling Pika Experiments 🧪 - rough ideas we’ve been pl...",
+          "titleZh": "Pika 发布 Pika Experiments：展示“Generative UI（语音驱动的生成式界面）”原型",
+          "link": "https://x.com/pika_labs/status/2059341240655814993",
+          "publishedAt": "Tue, 26 May 2026 18:29:47 GMT",
+          "source": "Pika(@pika_labs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-27-2059341240655814993.mp4",
+          "summary": "Today, we’re sharing the first of what we’re calling Pika Experiments  - rough ideas we’ve been playing with behind the scenes. ”Generative UI” is a voice-controlled interface where the agent listens, analyzes the context, and determines the most appropriate visual composition for each response. No rigid templates. The system dynamically generates HTML layouts every time.",
+          "summaryZh": "Pika 公开了一组内部实验（Pika Experiments），其中一个概念是 **Generative UI**：用户用语音描述目标，agent 监听并理解上下文，然后生成可操作的界面/步骤来完成任务。对创作者工具而言，这类交互的价值在于把“提示词”变成“可执行界面”，但也更依赖权限控制与错误纠正机制。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "语音",
+            "视频"
+          ],
+          "score": 61.80385841022687,
+          "videoCandidates": []
+        },
+        {
+          "title": "https://t.co/3zGmkffKOx",
+          "titleZh": "Claude 转发：开发者称“Claude 产出的 artifact 很有趣”，并预告将开源仓库",
+          "link": "https://x.com/claudeai/status/2059292343723819160",
+          "publishedAt": "Tue, 26 May 2026 15:15:29 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "x.com/jasonkneen/sta… Jason Kneen @jasonkneen Fun artifact from Claude -- repo coming.",
+          "summaryZh": "Claude 转发开发者贴文：对方展示了一个由 Claude 生成/辅助的 artifact，并表示“repo coming（仓库将开源）”。目前信息较少，更多是早期预告信号；如果后续仓库公开，值得再回看其实现细节与可复现性。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 59.297067577183896,
+          "videoCandidates": []
+        },
+        {
+          "title": "Six Claude projects that all came from the same question: “why not?”",
+          "titleZh": "Claude：6 个“Why not?” 出发做出来的项目示例（开发者创作集锦）",
+          "link": "https://x.com/claudeai/status/2059292334714466595",
+          "publishedAt": "Tue, 26 May 2026 15:15:27 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Six Claude projects that all came from the same question: “why not?”  452  260 ❤️ 7576  802403  1287",
+          "summaryZh": "Claude 官方汇总了 6 个由同一个问题“**why not?**”引发的项目案例，属于开发者创作/实验集锦类内容。它更适合用来观察“用户到底拿模型做什么”，以及哪些交互/工具链组合更容易产生作品；具体实现与可复现性仍需回到项目源码或教程。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        },
+        {
+          "title": "https://t.co/mZdWx3DhAO",
+          "titleZh": "Claude 转发：做了一个“日落时间预测”小工具（输入坐标或用当前位置）",
+          "link": "https://x.com/claudeai/status/2059292345800048714",
+          "publishedAt": "Tue, 26 May 2026 15:15:29 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-27-2059292345800048714.mp4",
+          "summary": "x.com/kathytzhou/sta… kathy zhou @kathytzhou by popular demand, you can now see sunset predictions for any location! just enter coordinates or use your current location thank you for all the love on this project :) i hope it helps you catch a sunset no matter where you are",
+          "summaryZh": "Claude 转发开发者作品：一个可查询 **任意地点日落预测** 的小工具，支持输入经纬度或直接使用当前位置。作为轻量应用案例，它展示了“自然语言 + 少量工具/数据”就能快速做出可用产品原型，但仍要关注数据来源、时区/地理边界与稳定性。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 58.12667202079068,
+          "videoCandidates": []
+        },
+        {
+          "title": "Jon Erwin - Founder & CCO of Wonder Project, CEO of Innovative Dreams, Creator of Amazon Prime hit s...",
+          "titleZh": "Kling AI 转发创作者证言：称其在《House of David》制作中是“关键生成工具”",
+          "link": "https://x.com/Kling_ai/status/2059121691385622761",
+          "publishedAt": "Tue, 26 May 2026 03:57:22 GMT",
+          "source": "Kling AI(@Kling_ai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Jon Erwin - Founder & CCO of Wonder Project, CEO of Innovative Dreams, Creator of Amazon Prime hit series House of David： “Kling AI was the dominant force behind Seasons 1 & 2 of House of David. What excites me most is it delivered multiple industry firsts: the first AI-generated scenes in a finished series, the first native 4K model. The motion control fucntion also enables us to maintain the true emotions and feelings of the actors in AI generation. ”",
+          "summaryZh": "Kling AI 转发一段来自影视从业者的评价：对方称 Kling AI 在 Amazon Prime 剧集《**House of David**》的制作中扮演了重要角色，并强调其在特定制作环节的效率与效果。此类“案例背书”信息含量有限，但可作为观察生成式视频工具在影视工业链条中渗透的一个侧面信号。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 56.820820726875986,
+          "videoCandidates": []
+        },
+        {
+          "title": "Make the process lovable.",
+          "titleZh": "Lovable 发布产品宣传短视频：强调“让流程更顺滑”（信息偏营销）",
+          "link": "https://x.com/Lovable/status/2059290171254976530",
+          "publishedAt": "Tue, 26 May 2026 15:06:51 GMT",
+          "source": "Lovable(@lovable_dev)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Make the process lovable.",
+          "summaryZh": "Lovable 发布一段产品宣传短视频，核心表达是“Make the process lovable（让流程更顺滑/更愉悦）”。当前信息更偏品牌与营销表达，缺少明确的新功能细节；可作为观察其定位与叙事风格的样本。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 56.59774479299859,
+          "videoCandidates": []
+        },
+        {
+          "title": "Vectors tell you what's similar. They don't tell you what's connected. Stephen Chin (VP of Developer...",
+          "titleZh": "Qdrant：向量只回答“相似”，不回答“连接”——关于图/关系检索的讨论",
+          "link": "https://x.com/qdrant_engine/status/2059228059501522952",
+          "publishedAt": "Tue, 26 May 2026 11:00:02 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJGKUF2aIAA7QQ6.jpg",
+          "video": "",
+          "summary": "Vectors tell you what's similar. They don't tell you what's connected. Stephen Chin (VP of Developer Relations, @neo4j ) is coming to Vector Space Day to talk about how context graphs give agents the relational understanding they need to actually reason, not just retrieve. Join 300+ AI builders for a full day on agents and memory in production, retrieval from cloud to edge, and multimodal AI. Join us June 11 at The Midway, SF. Get your ticket at luma.com/vsd-sf  2  1 ❤️ 7  291  3",
+          "summaryZh": "Qdrant 转发观点：向量检索擅长找“语义相近”，但不等于能表达“实体之间的连接关系”。对在做知识图谱、关系推理或多跳检索的人，这类讨论常对应一个工程选择：什么时候该上图结构/关系约束，而不是继续堆 embedding。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "多模态",
+            "开发者工具"
+          ],
+          "score": 52.38961547118802
+        },
+        {
+          "title": "Most companies talk about vector search. Few share what it actually takes to scale to 100M+ embeddi...",
+          "titleZh": "Weaviate：分享“把向量检索规模做到 1 亿+ embeddings”的经验话题",
+          "link": "https://x.com/weaviate_io/status/2059227285639581729",
+          "publishedAt": "Tue, 26 May 2026 10:56:58 GMT",
+          "source": "Weaviate • vector database(@weaviate_io)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJPX-qRWgAEN88e.jpg",
+          "video": "",
+          "summary": "Most companies talk about vector search. Few share what it actually takes to scale to 100M+ embeddings in production. Başak Eskili from @bookingcom joined the Weaviate Podcast to break down their AI journey, and it's packed with insights about what building production systems at massive scale actually looks like. 𝗧𝗵𝗲 𝗘𝘃𝗼𝗹𝘂𝘁𝗶𝗼𝗻: • Started with keyword matching → semantic retrieval with 𝗢𝗽𝗲𝗻𝗦𝗲𝗮𝗿𝗰𝗵 on AWS • Scaled to hundreds of millions of embeddings with strict latency requirements • Migrated to 𝗪𝗲𝗮𝘃𝗶𝗮𝘁𝗲 to handle complex filtering, rising concurrency, and production-scale demands 𝗣𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻 𝗚𝗲𝗻𝗔𝗜 𝗶𝗻 𝗔𝗰𝘁𝗶𝗼𝗻: Their partner-to-guest messaging agent is a real-world example of 𝗮𝗴𝗲𝗻𝘁𝗶𝗰 𝗔𝗜: • 𝗪𝗲𝗮𝘃𝗶𝗮𝘁𝗲 retrieves relevant response templates • 𝗔𝗣𝗜𝘀 fetch property and booking context • The agent suggests templates, crafts...",
+          "summaryZh": "Weaviate 提到：很多公司谈向量检索，但很少公开“做到 **1 亿级 embedding 规模**”需要什么。对做向量数据库/检索基础设施的团队，真正决定可用性的往往是索引策略、压缩与分片、冷/热数据分层、以及端到端延迟与成本。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 50.13556517194131
+        },
+        {
+          "title": "Today we're announcing Aman as our exclusive partner in Israel. Israeli enterprise teams (in bankin...",
+          "titleZh": "Qdrant 宣布与以色列 Aman 达成合作（面向企业落地）",
+          "link": "https://x.com/qdrant_engine/status/2059395736396276031",
+          "publishedAt": "Tue, 26 May 2026 22:06:19 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJRxB6MbkAAd-mR.jpg",
+          "video": "",
+          "summary": "Today we're announcing Aman as our exclusive partner in Israel. Israeli enterprise teams (in banking, insurance, manufacturing, gaming, and beyond) are building production AI on top of search infrastructure that wasn't designed for it. Qdrant is purpose-built for that next stage: a composable vector search engine written in Rust, with predictable low-tail latency at billion-scale across cloud, on-prem, hybrid, and edge. Java-based engines, Postgres solutions, and vector add-ons can't deliver the latency or accuracy that modern agentic and RAG workloads need. Aman brings 25+ years of experience modernizing data infrastructure for Israeli enterprises. Pairing their reach and local expertise with Qdrant's engine gives Israeli teams a faster path from \"this isn't working\" to production AI that performs. If you're evaluating vector search in Israel, talk to Aman: aman.co.il/contact-us/ ...",
+          "summaryZh": "Qdrant 宣布与以色列企业服务商 **Aman** 达成合作，面向本地企业团队（例如银行等）推进向量检索/AI 应用落地。对开源基础设施公司而言，这类区域合作通常意味着“交付与集成能力”在商业化中越来越重要。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "RAG"
+          ],
+          "score": 47.77444600864355
+        },
+        {
+          "title": "𝗖𝗥𝗔𝗚 𝗰𝗮𝗻 𝗺𝗮𝗸𝗲 𝘆𝗼𝘂𝗿 𝗥𝗔𝗚 𝘀𝘂𝗿𝗳𝗮𝗰𝗲 𝘁𝗵𝗲 𝗮𝗻𝘀𝘄𝗲𝗿 𝘆𝗼𝘂 𝗮𝗰𝘁𝘂𝗮𝗹𝗹𝘆 ...",
+          "titleZh": "Milvus：介绍用 CRAG 改善 RAG，把答案从“最相近”变成“真正需要的那条”",
+          "link": "https://x.com/milvusio/status/2059293984204443939",
+          "publishedAt": "Tue, 26 May 2026 15:22:00 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJPQSI9bAAAd6cO.jpg",
+          "video": "",
+          "summary": "𝗖𝗥𝗔𝗚 𝗰𝗮𝗻 𝗺𝗮𝗸𝗲 𝘆𝗼𝘂𝗿 𝗥𝗔𝗚 𝘀𝘂𝗿𝗳𝗮𝗰𝗲 𝘁𝗵𝗲 𝗮𝗻𝘀𝘄𝗲𝗿 𝘆𝗼𝘂 𝗮𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗻𝗲𝗲𝗱 — 𝘁𝗵𝗲 𝗰𝘂𝗿𝗿𝗲𝗻𝘁 𝗼𝗻𝗲, 𝗻𝗼𝘁 𝗷𝘂𝘀𝘁 𝘁𝗵𝗲 𝗰𝗹𝗼𝘀𝗲𝘀𝘁 𝗺𝗮𝘁𝗰𝗵 𝗶𝗻 𝗺𝗲𝗮𝗻𝗶𝗻𝗴. 𝗕𝘆 𝗱𝗲𝗳𝗮𝘂𝗹𝘁, 𝘆𝗼𝘂𝗿 𝗥𝗔𝗚 𝗽𝗶𝗽𝗲𝗹𝗶𝗻𝗲 𝗽𝗿𝗼𝗯𝗮𝗯𝗹𝘆 𝗱𝗼𝗲𝘀𝗻'𝘁 𝗸𝗻𝗼𝘄 𝘄𝗵𝗮𝘁 𝘆𝗲𝗮𝗿 𝗶𝘁 𝗶𝘀: 𝗶𝘁 𝗰𝗮𝗻'𝘁 𝘁𝗲𝗹𝗹 𝗮 𝟮𝟬𝟭𝟵 𝗮𝗻𝘀𝘄𝗲𝗿 𝗳𝗿𝗼𝗺 𝗮 𝟮𝟬𝟮𝟰 𝗼𝗻𝗲. Vector search ranks by meaning, not time, and two documents from different years can read as almost the same. Search \"Python async best practices,\" for example, and the outdated docs come back alongside the current ones. 𝗬𝗼𝘂 𝗰𝗮𝗻'𝘁 𝗿𝗲𝗹𝗶𝗮𝗯𝗹𝘆 𝗳𝗶𝘅 𝗶𝘁 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗾𝘂𝗲𝗿𝘆 𝘀𝗶𝗱𝗲 𝗲𝗶𝘁𝗵𝗲𝗿. Embedding models have a weak sense of time, so dropping \"2024\" into the query nudges the ranking but doesn't actually sort by recency. 𝗖𝗥𝗔𝗚 (𝗖𝗼𝗿𝗿𝗲𝗰𝘁𝗶𝘃𝗲 𝗥...",
+          "summaryZh": "Milvus 发布内容讨论 **CRAG**（一种用来提升检索增强生成质量的思路），强调不要只拿“最相近”的检索结果，而要更贴近“当前问题真正需要的证据”。对 RAG 应用，这类方法通常会引入重写、验证或二次检索等环节，用更高计算成本换取更稳的事实命中率。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "RAG"
+          ],
+          "score": 44.00648206067396
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "142. 雨森的创投观察第2集：Harness、下一个字节、2026大机会和Stanley Druckenmiller",
+          "titleZh": "142. 雨森的创投观察第2集：Harness、下一个字节、2026大机会和Stanley Druckenmiller",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a15a2cbff7b9a8c0a5b953f",
+          "publishedAt": "2026-05-27T00:00:00.000Z",
+          "source": "张小珺Jùn｜商业访谈录",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/nsLTK_gpweH8qfLfmNbmc8TjpYEh.png",
+          "video": "",
+          "summary": "142. 雨森的创投观察第2集：Harness、下一个字节、2026大机会和Stanley Druckenmiller",
+          "summaryZh": "**讲了什么**：这一期来自 **张小珺Jùn｜商业访谈录**，主题是「142. 雨森的创投观察第2集：Harness、下一个字节、2026大机会和Stanley Druckenmiller」。今天是我们的系列节目《雨森的创投观察》第2集。在《雨森的创投观察》第1集（我们节目124集）中，真格基金管理合伙人戴雨森预言称，2026年的关键词是“The Year of R”，他彼时较为谨慎，觉得2026年将是一个现实与回调之年。并在过年前清空了所有二级市场股票。现在过去了小半年，很多人说他的一部分观点有点打脸。雨森经过了短暂的内心挣扎，决定还是继续录制我们的系列节目。他将持续分享自己的投资思考。\n**简介要点**：\n- 00:13:06 理解Anthropic的选择、组织和价值观（Dario的memo和对齐） 00:18:57 Harness由模型公司第一方地来做，更有优势吗？\n- Chatbot没有数据飞轮，是因为普通人的聊天很难给模型带来新的知识。\n- 但Agentic模型要的就是帮用户解决真实问题，用户真实使用产品的轨迹是很好的训练资料 00:44:45 之前节目中罗福莉和姚顺宇的观点差异（关于Harness重要性），其实不矛盾 00:46:26 一个好的Harness是很有生命力的。\n- DISCLAIMER: 本内容不作为投资建议。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "王自如：如果我是程序员我会淘汰我自己",
+          "titleZh": "王自如：如果我是程序员我会淘汰我自己",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a0f107ce1eb34a939d8edc0",
+          "publishedAt": "2026-05-21T14:22:14.582Z",
+          "source": "代码之外 Beyond Code",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "王自如：如果我是程序员我会淘汰我自己",
+          "summaryZh": "**讲了什么**：这一期来自 **代码之外 Beyond Code**，主题是「王自如：如果我是程序员我会淘汰我自己」。十二年前我看王自如的 ZEALER 评测长大，十二年后我来试图让大家看到不一样的王自如。本期简介 本期邀请到连续创业者王自如，聊他的成长经历、ZEALER 的创业起落、加入格力后的外界认知差异，以及最近重新投入 AI 和 vibe coding 之后，对产品、程序员与创业机会的判断。从齐齐哈尔的工厂大院，到西安求学；从英语专业、数码内容创业，到 ZEALER、格力，再到今天重新用 AI 做产品。王自如也分享了他对 builder、程序员价值、AI 产品公司和新一代创业机会的理解。\n**简介要点**：\n- 本期简介 本期邀请到连续创业者王自如，聊他的成长经历、ZEALER 的创业起落、加入格力后的外界认知差异，以及最近重新投入 AI 和 vibe coding 之后，对产品、程序员与创业机会的判断。\n- 从齐齐哈尔的工厂大院，到西安求学；从英语专业、数码内容创业，到 ZEALER、格力，再到今天重新用 AI 做产品。\n- 王自如也分享了他对 builder、程序员价值、AI 产品公司和新一代创业机会的理解。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "大型角色表演模型LPM 1.0 演示视频集锦 | 对话 | 倾听 | 表情",
+          "titleZh": "大型角色表演模型LPM 1.0 演示视频集锦 | 对话 | 倾听 | 表情",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a10684c8b5c94538e8fa58b",
+          "publishedAt": "2026-05-26T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "大型角色表演模型LPM 1.0 演示视频集锦 | 对话 | 倾听 | 表情",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「大型角色表演模型LPM 1.0 演示视频集锦 | 对话 | 倾听 | 表情」。原视频来自：",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "模型"
+          ],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "summaryBullets": [
+    "ElevenLabs 发布 Music v2：强调 授权数据训练、可 商用，并将覆盖到 ElevenAPI。",
+    "Runway 推出 Project Luxo：用“10 分钟全 AI 生成短片”验证视频生成已能“隐身于叙事”。",
+    "DeepMind 将 SynthID 内容验证扩展到 谷歌搜索 与 Chrome，并披露已被使用 5000 万+ 次。",
+    "SaaS-Bench 提供真实 SaaS 工作流基准，用来衡量 computer-use agent 的可用性与稳定性。",
+    "xAI 表示已重置 Grok Build Beta 使用上限，背后是对 缓存/限流 的改进。"
+  ]
+}
