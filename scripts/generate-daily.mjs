@@ -1305,11 +1305,13 @@ async function localizeSectionsZh(sections) {
         item.titleZh = normalizeZhTitle(`${repo}：${shortHint || "开源项目更新"}`);
       }
 
-      if (chineseRatio(item.titleZh || "") < 0.25 && hasChinese(item.summaryZh || "")) {
+      if (item.channel !== "podcast" && chineseRatio(item.titleZh || "") < 0.25 && hasChinese(item.summaryZh || "")) {
         const candidate = normalizeZhTitle(
           String(item.summaryZh)
+            .replace(/\*\*[^*]+\*\*/g, "")
             .replace(/^Star\s+\S+\s*\/\s*/i, "")
             .replace(/^\S+\s*\/\s*\S+\s*/i, "")
+            .replace(/^核心结论|^核心要点|^支撑证据|^我的判断|^简介要点/g, "")
             .trim()
             .slice(0, 20)
         );
