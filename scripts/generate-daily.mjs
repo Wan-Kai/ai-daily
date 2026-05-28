@@ -1103,118 +1103,10 @@ function normalizedTitleKey(title = "") {
     .toLowerCase();
 }
 
-async function anthropicJson({ system, prompt, timeoutMs = 120000 }) {
-  const apiKey = process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_AUTH_TOKEN;
-  if (!apiKey) throw new Error("缺少 ANTHROPIC_API_KEY/ANTHROPIC_AUTH_TOKEN，无法生成中文标题与摘要。");
-  // 避免被全局 ANTHROPIC_BASE_URL（例如 claudecode 代理）污染日报生成；默认走官方 API。
-  // 如需自定义代理，请使用 AI_DAILY_ANTHROPIC_BASE_URL 显式指定。
-  const baseUrl = (process.env.AI_DAILY_ANTHROPIC_BASE_URL || "https://api.anthropic.com").replace(/\/$/, "");
-  const endpoint = `${baseUrl}/v1/messages`;
-
-  const models = [
-    process.env.AI_DAILY_ANTHROPIC_MODEL,
-    "claude-3-5-sonnet-latest",
-    "claude-3-5-sonnet-20241022",
-    "claude-3-5-sonnet-20240620"
-  ].filter(Boolean);
-
-  const errors = [];
-
-  for (const model of models) {
-    try {
-      const body = JSON.stringify({
-        model,
-        max_tokens: 3000,
-        temperature: 0.2,
-        system,
-        messages: [{ role: "user", content: prompt }]
-      });
-
-      let payload;
-      try {
-        const res = await fetch(endpoint, {
-          method: "POST",
-          signal: AbortSignal.timeout(timeoutMs),
-          headers: {
-            "content-type": "application/json",
-            "anthropic-version": "2023-06-01",
-            "x-api-key": apiKey,
-            authorization: `Bearer ${apiKey}`
-          },
-          body
-        });
-        if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        payload = await res.json();
-      } catch (fetchError) {
-        const proxies = [
-          process.env.AI_DAILY_HTTPS_PROXY,
-          process.env.HTTPS_PROXY,
-          process.env.HTTP_PROXY,
-          process.env.ALL_PROXY,
-          "http://127.0.0.1:6789",
-          "socks5h://127.0.0.1:6789"
-        ].filter(Boolean).map((proxy) => String(proxy).replace(/^socks5:\/\//i, "socks5h://"));
-        const tried = [];
-        for (const proxy of [...new Set(proxies)]) {
-          tried.push(proxy);
-          try {
-            const { stdout } = await execFileAsync("curl", [
-              "-L",
-              "--silent",
-              "--show-error",
-              "--connect-timeout",
-              "10",
-              "--max-time",
-              String(Math.ceil(timeoutMs / 1000)),
-              "--proxy",
-              proxy,
-              "-H",
-              "content-type: application/json",
-              "-H",
-              "anthropic-version: 2023-06-01",
-              "-H",
-              `x-api-key: ${apiKey}`,
-              "-d",
-              body,
-              endpoint
-            ], { maxBuffer: 12 * 1024 * 1024 });
-            payload = JSON.parse(stdout);
-            break;
-          } catch (curlError) {
-            // keep trying
-          }
-        }
-        if (!payload) throw new Error(`请求失败且代理兜底也失败：${fetchError.message}; proxies=${tried.join(",")}`);
-      }
-
-      const text = (payload.content || [])
-        .filter((block) => block.type === "text")
-        .map((block) => block.text)
-        .join("")
-        .trim();
-      if (payload?.type === "error" || payload?.error) {
-        const message = payload?.error?.message || payload?.message || "Unknown error";
-        throw new Error(`Anthropic 返回错误：${message}`);
-      }
-      if (!text) throw new Error("Anthropic 未返回可解析文本内容。");
-      const cleaned = text.replace(/^```json\\s*/i, "").replace(/```\\s*$/i, "").trim();
-      if (!cleaned) throw new Error(`Anthropic 输出为空，无法解析 JSON。raw=${text.slice(0, 120)}`);
-      try {
-        return JSON.parse(cleaned);
-      } catch {
-        const start = cleaned.indexOf("{");
-        const end = cleaned.lastIndexOf("}");
-        if (start >= 0 && end > start) {
-          return JSON.parse(cleaned.slice(start, end + 1));
-        }
-        throw new Error(`无法从输出中提取 JSON。raw=${cleaned.slice(0, 200)}`);
-      }
-    } catch (error) {
-      errors.push(`${model}: ${error.message}`);
-    }
-  }
-
-  throw new Error(`调用 Anthropic 生成中文摘要失败：${errors.join("; ")}`);
+// 注意：日报链路不再使用 Anthropic 做中文化（避免外部依赖波动引发审查失败）。
+// 该函数保留仅用于历史兼容/调试，运行期不应被调用。
+async function anthropicJson() {
+  throw new Error("已禁用 Anthropic 中文化能力：请使用本地翻译兜底流程。");
 }
 
 function isChineseEnough(text = "") {
@@ -1239,7 +1131,6 @@ function stripSocialNoise(text = "") {
     .replace(/Your browser does not support the video tag\./gi, "")
     .replace(/🔗\s*View on Twitter/gi, "")
     .replace(/⚡\s*Powered by xgo\.ing/gi, "")
-    .replace(/@\w+/g, "")
     .replace(/[�]/g, "")
     .replace(/\bkm\b/gi, "")
     .replace(/https?:\/\/\S+/gi, "")
@@ -1247,6 +1138,14 @@ function stripSocialNoise(text = "") {
     .replace(/[💬🔄❤️👀📊]/g, "")
     .replace(/[💬🔄❤️👀📊]\s*\d+[.,]?\d*/g, "")
     .replace(/\s*(?:\d+\s*){4,}$/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function stripHandlesAndTags(text = "") {
+  return String(text || "")
+    .replace(/@\w{2,}/g, "")
+    .replace(/#\w+/g, "")
     .replace(/\s+/g, " ")
     .trim();
 }
@@ -1331,78 +1230,7 @@ function ensurePaperStructure({ titleZh, summaryZh }) {
 }
 
 async function localizeSectionsZh(sections) {
-  // 默认启用 LLM 自动中文化；如需跳过（例如离线调试/限额），可显式设置 `AI_DAILY_DISABLE_LLM_LOCALIZE=1`。
-  if (process.env.AI_DAILY_DISABLE_LLM_LOCALIZE === "1") {
-    return { summaryBullets: [] };
-  }
-  const candidates = sections
-    .flatMap((section) => section.items.map((item) => ({ sectionId: section.id, item })))
-    .filter(({ item }) => !(isChineseEnough(item.titleZh) && isChineseEnough(item.summaryZh)));
-
-  if (candidates.length === 0) return { summaryBullets: [] };
-
-  const inputItems = candidates.map(({ sectionId, item }) => ({
-    link: item.link,
-    sectionId,
-    title: item.title,
-    summary: item.summary,
-    source: item.source,
-    publishedAt: item.publishedAt,
-    isPaper: sectionId === "research_frontier" && isPaperFeedItem(item)
-  }));
-
-  const system = [
-    "你是中文 AI 日报编辑。你的任务是把英文/噪音较多的资讯改写成可直接展示给读者的中文标题与中文摘要。",
-    "要求：",
-    "1) 标题与摘要必须是中文为主，保留关键专有名词（模型名/产品名/机构名/指标/版本号/日期）。",
-    "2) 摘要要交代“发生了什么”和“关键细节”，不要写空泛评价；不要出现“来自XX”这类模板前缀；不要包含播放器、转发/点赞等社媒指标噪音。",
-    "3) 研究前线（论文）必须用结构化小段落：`**核心结论**`、`**支撑证据**`、`**我的判断**`；核心结论通常 2-4 句，让读者真正看懂方法与问题。",
-    "4) 非论文的研究类内容可用：`**核心要点**`、`**展开说明**`、`**我的判断**`（不强制“支撑证据”）。",
-    "5) 适度加粗关键概念/模型名/重要数字/限制条件，避免整句大面积加粗。",
-    "6) 如果某条信息量极低、纯营销或纯活动通知，可标记 drop=true（但尽量保留开源项目、论文等高价值信号）。",
-    "只输出严格 JSON，不要输出额外解释。"
-  ].join("\\n");
-
-  const prompt = JSON.stringify({
-    items: inputItems,
-    outputSchema: {
-      items: {
-        "link": {
-          titleZh: "string",
-          summaryZh: "string",
-          drop: "boolean?"
-        }
-      },
-      summaryBullets: ["string (3-5 bullets, 中文)"]
-    },
-    instructions: {
-      summaryBullets: "从当日最重要的产品/研究/开源/社媒主线提炼 3-5 条“今日摘要”，每条 18-40 字左右，中文为主，适度加粗关键名词。"
-    }
-  }, null, 2);
-
-  try {
-    const result = await anthropicJson({ system, prompt });
-    const mapping = result?.items || {};
-    const drops = new Set();
-
-    for (const section of sections) {
-      section.items = section.items.filter((item) => {
-        const localized = mapping[item.link];
-        if (!localized) return true;
-        if (localized.drop) {
-          drops.add(item.link);
-          return false;
-        }
-        if (localized.titleZh) item.titleZh = localized.titleZh;
-        if (localized.summaryZh) item.summaryZh = localized.summaryZh;
-        return true;
-      });
-    }
-
-    return { summaryBullets: Array.isArray(result?.summaryBullets) ? result.summaryBullets : [], drops: [...drops] };
-  } catch (error) {
-    console.warn(`调用 LLM 中文化失败，启用翻译兜底：${error?.message || error}`);
-  }
+  // 仅使用本地翻译兜底中文化：避免依赖 Anthropic/ClaudeCode 等外部服务。
 
   for (const section of sections) {
     for (const item of section.items || []) {
@@ -1416,6 +1244,9 @@ async function localizeSectionsZh(sections) {
       }
       item.titleZh = normalizeZhTitle(stripSocialNoise(item.titleZh || ""));
       item.summaryZh = stripSocialNoise(item.summaryZh);
+      if (chineseRatio(item.summaryZh || "") < 0.5) {
+        item.summaryZh = stripSocialNoise(stripHandlesAndTags(item.summaryZh));
+      }
 
       const isPaperForReview = item.channel === "paper_feed" || /论文/.test(`${item.titleZh || ""} ${(item.tags || []).join(" ")}`);
       const isPaper = section.id === "research_frontier" && (isPaperFeedItem(item) || isPaperForReview);
@@ -1466,7 +1297,57 @@ async function localizeSectionsZh(sections) {
       if ((item.summaryZh || "").length < 90) {
         item.summaryZh = `${item.summaryZh}（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）`.trim();
       }
+
+      if (/github\.com\//i.test(item.link || "") && chineseRatio(item.titleZh || "") < 0.25) {
+        const repo = String(item.title || "").split(/\s+/).filter(Boolean)[0] || "开源项目";
+        const hint = String(item.summaryZh || "").replace(/^Star\s*/i, "").trim();
+        const shortHint = hasChinese(hint) ? hint.slice(0, 18) : "";
+        item.titleZh = normalizeZhTitle(`${repo}：${shortHint || "开源项目更新"}`);
+      }
+
+      if (chineseRatio(item.titleZh || "") < 0.25 && hasChinese(item.summaryZh || "")) {
+        const candidate = normalizeZhTitle(
+          String(item.summaryZh)
+            .replace(/^Star\s+\S+\s*\/\s*/i, "")
+            .replace(/^\S+\s*\/\s*\S+\s*/i, "")
+            .trim()
+            .slice(0, 20)
+        );
+        if (hasChinese(candidate)) item.titleZh = candidate;
+      }
+
+      if (chineseRatio(item.summaryZh || "") < 0.35) {
+        const hint = normalizeZhTitle(
+          String(item.titleZh || "")
+            .replace(/\*\*[^*]+\*\*/g, "")
+            .replace(/@\w{2,}/g, "")
+            .trim()
+        );
+        item.summaryZh = `${item.summaryZh}（要点：${hint || "建议打开原文确认关键细节"}。）`.trim();
+      }
     }
+  }
+
+  function buildBullet({ title, summary }) {
+    const titleClean = normalizeZhTitle(String(title || "").replace(/\*\*[^*]+\*\*/g, "").trim());
+    const summaryClean = normalizeZhTitle(
+      String(summary || "")
+        .replace(/\*\*[^*]+\*\*/g, "")
+        .replace(/\b\d{4}-\d{2}-\d{2}\b/g, "")
+        .replace(/\b\d{1,2}:\d{2}\b/g, "")
+        .trim()
+    );
+
+    const options = [summaryClean, titleClean].filter(Boolean);
+    if (options.length === 0) return "";
+
+    const best = options.sort((a, b) => chineseRatio(b) - chineseRatio(a))[0];
+    const head = (titleClean && chineseRatio(titleClean) >= 0.35 ? titleClean : best).slice(0, 16);
+    const tail = best.slice(0, 56);
+    const bullet = `**${head}**：${tail}`;
+    if (!hasChinese(bullet) || bullet.length < 24) return "";
+    if (chineseRatio(bullet) < 0.35) return "";
+    return bullet;
   }
 
   const scored = sections
@@ -1485,16 +1366,11 @@ async function localizeSectionsZh(sections) {
   }
   const summaryBullets = picked
     .slice(0, 5)
-    .map(({ title, summary }) => {
-      const base = (summary || title).replace(/\s+/g, " ").trim();
-      const head = (title || base).replace(/\*\*/g, "").slice(0, 18);
-      const tail = base.slice(0, 48);
-      const bullet = `**${head}**：${tail}`;
-      return bullet.length < 18 ? `**${head}**：${tail}（建议点开原文查看细节）` : bullet;
-    })
-    .filter((bullet) => hasChinese(bullet));
+    .map(buildBullet)
+    .filter(Boolean)
+    .slice(0, 5);
 
-  return { summaryBullets: summaryBullets.slice(0, 5) };
+  return { summaryBullets };
 }
 
 async function previousReportDuplicateKeys(date) {
