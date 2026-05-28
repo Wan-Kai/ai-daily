@@ -1,0 +1,765 @@
+{
+  "date": "2026-05-28",
+  "generatedAt": "2026-05-28T02:58:04.321Z",
+  "title": "AI 日报 - 2026-05-28",
+  "stats": {
+    "sources": 133,
+    "fetched": 958,
+    "emailCandidates": 0,
+    "selected": 34,
+    "failures": 0
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "1/ We’ve raised over $1B at a $26B valuation, led by @Lux_Capital, @generalcatalyst, and @8vc. Our ...",
+          "titleZh": "1/ 在 、 和 的带领下，我们以 26B 美元的估值筹集了超过 10 亿美元的资金。我们的 ...",
+          "link": "https://x.com/cognition/status/2059660758531940856",
+          "publishedAt": "Wed, 27 May 2026 15:39:26 GMT",
+          "source": "Cognition(@cognition_labs)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJViewebAAE1uVB.jpg",
+          "video": "",
+          "summary": "1/ We’ve raised over $1B at a $26B valuation, led by @Lux_Capital , @generalcatalyst , and @8vc . Our enterprise usage has grown >10x since the start of this year, and our run-rate revenue grew to $492 M. We launched Devin two years ago as the first AI software engineer. Since then, cloud agents have gone from niche to mainstream, and today they are the fastest growing way to create software. 💬 136 🔄 170 ❤️ 2073 👀 518608 📊 415 ⚡ Powered by xgo.ing",
+          "summaryZh": "1/ 在 、 和 的带领下，我们以 26B 美元的估值筹集了超过 10 亿美元的资金。自今年年初以来，我们的企业使用量增长了 10 倍以上，我们的运行收入增长至 亿美元。两年前，我们推出了 Devin，作为第一位人工智能软件工程师。从那时起，云代理已经从小众变成了主流，如今它们是增长最快的软件创建方式。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "API",
+            "智能体"
+          ],
+          "score": 78
+        },
+        {
+          "title": "Introducing Runway MCP. Now you can connect Runway directly into Claude, ChatGPT, Cursor, Replit and...",
+          "titleZh": "介绍跑道 MCP。现在您可以将 Runway 直接连接到 Claude、ChatGPT、Cursor、Replit 和...",
+          "link": "https://x.com/runwayml/status/2059636517283176479",
+          "publishedAt": "Wed, 27 May 2026 14:03:06 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Introducing Runway MCP. Now you can connect Runway directly into Claude, ChatGPT, Cursor, Replit and more. Generate polished images and videos with state-of-the-art models, like Gen-4.5, Seedance 2.0, GPT Images 2.0, Kling and more. Right from where you're already working. Connect the MCP to your agent in seconds at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 59 🔄 102 ❤️ 917 👀 182482 📊 250 ⚡ Powered by xgo.ing",
+          "summaryZh": "介绍跑道 MCP。现在您可以将 Runway 直接连接到 Claude、ChatGPT、Cursor、Replit 等。使用最先进的模型（例如 Seedance GPT Images Kling 等）生成精美的图像和视频。就在您已经工作的地方。通过下面的链接，只需几秒钟即可将 MCP 连接到您的代理。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "视频",
+            "图像"
+          ],
+          "score": 78
+        },
+        {
+          "title": "Private MCP servers 🤝 OpenAI products Your team can keep MCP servers inside your network while Cha...",
+          "titleZh": "私有 MCP 服务器 OpenAI 产品 您的团队可以将 MCP 服务器保留在您的网络内，同时查...",
+          "link": "https://x.com/OpenAIDevs/status/2059703536825565499",
+          "publishedAt": "Wed, 27 May 2026 18:29:25 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-28-2059703536825565499.mp4",
+          "summary": "Private MCP servers 🤝 OpenAI products Your team can keep MCP servers inside your network while ChatGPT, Codex, and the Responses API connect through outbound-only HTTPS. � developers.openai.com/api/docs/guide… km Your browser does not support the video tag. 🔗 View on Twitter 💬 76 🔄 160 ❤️ 1872 👀 252403 📊 468 ⚡ Powered by xgo.ing",
+          "summaryZh": "私有 MCP 服务器 OpenAI 产品 您的团队可以将 MCP 服务器保留在网络内，同时 ChatGPT、Codex 和 Responses API 通过仅出站 HTTPS 连接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "API",
+            "开发者工具",
+            "视频"
+          ],
+          "score": 75
+        },
+        {
+          "title": "Introducing @TheRealStanLee on ElevenLabs. The voice of a legend is now available on the Iconic Mar...",
+          "titleZh": "在 ElevenLabs 上介绍。传奇人物的声音现已在 Iconic Mar 上播出……",
+          "link": "https://x.com/ElevenLabs/status/2059668042695516628",
+          "publishedAt": "Wed, 27 May 2026 16:08:22 GMT",
+          "source": "ElevenLabs(@elevenlabsio)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-28-2059668042695516628.mp4",
+          "summary": "Introducing @TheRealStanLee on ElevenLabs. The voice of a legend is now available on the Iconic Marketplace and in ElevenReader. Crafted from professional recordings, Stan’s wit and warmth comes through exactly as you remember it. Your browser does not support the video tag. 🔗 View on Twitter 💬 75 🔄 18 ❤️ 195 👀 21619 📊 100 ⚡ Powered by xgo.ing",
+          "summaryZh": "在 ElevenLabs 上介绍。传奇人物的声音现已在 Iconic Marketplace 和 ElevenReader 上发布。由专业录音制作而成，斯坦的智慧和温暖与您记忆中的一模一样。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "语音",
+            "视频"
+          ],
+          "score": 68.10962861403829
+        },
+        {
+          "title": "New in the Claude Marketplace: @augmentcode, @boltdotnew, @coderabbitai, @hebbia, and @WeAreLegora. ...",
+          "titleZh": "克劳德市场中的新内容： 、 、 、 和 。 ...",
+          "link": "https://x.com/claudeai/status/2059662933924123044",
+          "publishedAt": "Wed, 27 May 2026 15:48:04 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJVjI50WgAQ9IGe.png",
+          "video": "",
+          "summary": "New in the Claude Marketplace: @augmentcode , @boltdotnew , @coderabbitai , @hebbia , and @WeAreLegora . Apply your existing Anthropic spend commitment toward their Claude-powered products. Learn more: claude.com/platform/marke… 💬 156 🔄 184 ❤️ 2331 👀 304942 📊 440 ⚡ Powered by xgo.ing",
+          "summaryZh": "克劳德市场中的新内容： 、 、 、 和 。将您现有的 Anthropic 支出承诺应用于其 Claude 支持的产品。了解更多：（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 68
+        },
+        {
+          "title": "Introducing Dynamo Snapshot, our approach for fast startup for inference workloads on Kubernetes, wh...",
+          "titleZh": "介绍 Dynamo Snapshot，这是我们在 Kubernetes 上快速启动推理工作负载的方法，...",
+          "link": "https://x.com/NVIDIAAI/status/2059785750367850916",
+          "publishedAt": "Wed, 27 May 2026 23:56:06 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJXUOXzW4AEn5ub.png",
+          "video": "",
+          "summary": "Introducing Dynamo Snapshot, our approach for fast startup for inference workloads on Kubernetes, which reduces startup time from minutes to under 5 seconds. In production inference deployments demand fluctuates over time. Cold-starting inference workloads can take minutes, leaving idle GPUs that generate no tokens and serve no requests. Snapshot leverages GMS to enable concurrent weight restoration over a high-speed interconnect, while using Linux native AIO and parallel memfd restoration to accelerate CRIU restore performance. 💬 8 🔄 24 ❤️ 145 👀 13709 📊 34 ⚡ Powered by xgo.ing",
+          "summaryZh": "隆重推出 Dynamo Snapshot，这是我们在 Kubernetes 上快速启动推理工作负载的方法，可将启动时间从几分钟缩短到 5 秒以下。在生产推理部署中，需求会随着时间的推移而波动。冷启动推理工作负载可能需要几分钟的时间，从而使 GPU 处于闲置状态，不会生成令牌，也不会处理任何请求。快照利用 GMS 通过高速互连实现并发权重恢复，同时使用 Linux 原生 AIO 和并行 memfd 恢复来加速 CRIU 恢复性能。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "推理部署",
+            "RAG"
+          ],
+          "score": 66.61309013210541
+        },
+        {
+          "title": "We’ve expanded the Admin API to help enterprises manage OpenAI projects programmatically. New suppo...",
+          "titleZh": "我们扩展了 Admin API，以帮助企业以编程方式管理 OpenAI 项目。新的支持...",
+          "link": "https://x.com/OpenAIDevs/status/2059703665276145920",
+          "publishedAt": "Wed, 27 May 2026 18:29:55 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-28-2059703665276145920.mp4",
+          "summary": "We’ve expanded the Admin API to help enterprises manage OpenAI projects programmatically. New support includes spend alerts, model allowlists, data retention controls, hosted tool controls, and more granular cost visibility for capabilities like file search and web search. 🔗 developers.openai.com/api/docs/guide… G Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 2 ❤️ 114 👀 16838 📊 17 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们扩展了 Admin API，以帮助企业以编程方式管理 OpenAI 项目。新的支持包括支出警报、模型允许列表、数据保留控制、托管工具控制以及文件搜索和网络搜索等功能的更精细的成本可见性。 G",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "开发者工具",
+            "视频"
+          ],
+          "score": 62.13856830759074
+        },
+        {
+          "title": "Add text, video, or up to five images as your ingredients and Gemini Omni can combine them all into ...",
+          "titleZh": "添加文本、视频或最多五个图像作为您的成分，Gemini Omni 可以将它们全部组合成......",
+          "link": "https://x.com/GeminiApp/status/2059663425580695564",
+          "publishedAt": "Wed, 27 May 2026 15:50:02 GMT",
+          "source": "Google Gemini App(@GeminiApp)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Add text, video, or up to five images as your ingredients and Gemini Omni can combine them all into one cohesive ten-second video. Try it today and share your creations in the replies. 👇 💬 68 🔄 51 ❤️ 409 👀 27677 📊 119 ⚡ Powered by xgo.ing",
+          "summaryZh": "添加文本、视频或最多五张图像作为您的素材，Gemini Omni 可以将它们全部组合成一个连贯的 10 秒视频。今天就尝试一下，并在回复中分享您的创作。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频",
+            "图像"
+          ],
+          "score": 61.38519326237366
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "刚刚，一篇最全Agent Harness综述来了！",
+          "titleZh": "刚刚，一篇最全Agent Harness综述来了！",
+          "link": "https://mp.weixin.qq.com/s?__biz=MzIyNjM2MzQyNg==&mid=2247723078&idx=1&sn=fc963b3ad9acb1ce115e0c554d40d330",
+          "publishedAt": "Wed, 27 May 2026 23:58:00 +0800",
+          "source": "Datawhale",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://wechat2rss.bestblogs.dev/img-proxy/?k=22fd2d07&u=https%3A%2F%2Fmmbiz.qpic.cn%2Fsz_mmbiz_jpg%2FzW6S9vt0cSibjwB7rzKCQaJU5fhf0w7Hj9KXHXcT0cU4gcZIPhcI5tXUhOibmG9bJ8s02F0to0EAFD8WWGd0vUibbYb8mib3Ve1gk9PhZm2h0B0%2F0%3Fwx_fmt%3Djpeg",
+          "video": "",
+          "summary": "原创 Datawhale 2026-05-27 23:58 美国 Datawhale干货 最新：Agent Harness 分享目前看到最系统、也最工程化的一篇 Agent Harness 综述，CMU、Yale、JHU、Virginia Tech、Amazon 等联合出品：《Agent Harness Engineering: A Survey》。 论文主页地址： https://picrew.github.io/LLM-Harness/ 这篇论文把 Agent 真正跑起来时，包在模型外面的那层工程系统讲透了。 它用 ETCLOVG 七层框架拆解 Agent Harness，覆盖执行环境、工具接口、上下文管理、生命周期编排、可观测性、验证评估和安全治理。同时梳理了 170+ 个开源 Agent Harness 项目，串起从 Prompt Engineering、Context Engineering 到 Harness Engineering 的工程演进。 我们在不改变原意的情况下，做了如下整理。 光换模型，可能不是 Agent 最有效的升级 论文开头就提出了一个判断： 学术界长期把 Agent 研究重点放在模型上。...",
+          "summaryZh": "**核心要点** 原创 Datawhale 2026-05-27 23:58 美国 Datawhale干货 最新：Agent Harness 分享目前看到最系统、也最工程化的一篇 Agent Harness 综述，CMU、Yale、JHU、Virginia Tech、Amazon 等联合出品：《Agent Harness Engineering: A Survey》。 论文主页地址： 这篇论文把 Agent 真正跑起来时，包在模型外面的那层工程系统讲透了。 它用 ETCLOVG 七层框架拆解 Agent Harness，覆盖执行环境、工具接口、上下文管理、生命周期编排、可观测性、验证评估和安全治理。同时梳理了 170+ 个开源 Agent Harness 项目，串起从 Prompt Engineering、Context Engineering 到 Harness Engineering 的工程演进。 我们在不改变原意的情况下，做了如下整理。 光换模型，可能不是 Agent 最有效的升级 论文开头就提出了一个判断： 学术界长期把 Agent 研究重点放在模型上。...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "API",
+            "智能体",
+            "评测",
+            "开源",
+            "安全"
+          ],
+          "score": 43
+        },
+        {
+          "title": "I think Anthropic and OpenAI have found product-market fit",
+          "titleZh": "我认为 Anthropic 和 OpenAI 已经找到了产品与市场的契合点",
+          "link": "https://simonwillison.net/2026/May/27/product-market-fit/#atom-everything",
+          "publishedAt": "2026-05-27T16:38:35+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Anthropic are strongly rumored to be about to have their first profitable quarter. Stories are circulating of companies surprised at how expensive their LLM bills are becoming from usage by their staff. I think this is because OpenAI and Anthropic have both found product-market fit. Enterprise customers are now paying API prices I think they've found product-market fit And they're ramping up The AI-failure stories around this are pretty thin We also know the labs are spending a lot API revenue is becoming less i...",
+          "summaryZh": "**核心要点** 据传 Anthropic 即将迎来第一个盈利季度。坊间流传着一些公司对其员工使用其 LLM 费用变得如此昂贵感到惊讶的故事。我认为这是因为 OpenAI 和 Anthropic 都找到了产品与市场的契合点。企业客户现在正在支付 API 价格，我认为他们已经找到了产品市场契合度，并且他们正在加大力度。围绕此的人工智能失败故事非常薄弱，我们也知道实验室正在花费大量 API 收入正在变得越来越少……",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "开源"
+          ],
+          "score": 43
+        },
+        {
+          "title": "Self-signals Driven Multi-LLM Debate for Efficient and Accurate Reasoning",
+          "titleZh": "自我信号驱动的多法学硕士辩论以实现高效和准确的推理",
+          "link": "https://arxiv.org/abs/2510.06843",
+          "publishedAt": "Wed, 27 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2510.06843v2 Announce Type: replace-cross Abstract: Large Language Models (LLMs) have exhibited impressive capabilities across diverse application domains. Recent work has explored Multi-LLM Agent Debate (MAD) as a way to enhance performance by enabling multiple LLMs to discuss and refine responses iteratively. Nevertheless, existing MAD methods predominantly focus on utilizing external structures, such as debate graphs, using LLM-as-a-Judge, while neglecting the application of self signals, such as token...",
+          "summaryZh": "**核心结论** 这篇论文主要围绕「自我信号驱动的多法学硕士辩论以实现高效和准确的推理」提出方法或结论，并尝试解决一个明确的研究/工程问题。\n\n**支撑证据** 摘要与公开信息显示：arXiv：公告类型：replace-cross 摘要：大型语言模型 (LLM) 在不同的应用领域中展现了令人印象深刻的功能。最近的工作探索了多法学硕士代理人辩论（MAD）作为一种通过使多个法学硕士能够迭代讨论和完善响应来提高绩效的方法。然而，现有的 MAD 方法主要侧重于利用外部结构，例如辩论图，使用 LLM 作为法官，而忽略了自我信号的应用，例如令牌......\n\n**我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 42
+        },
+        {
+          "title": "QUACK: Questioning, Understanding, and Auditing Communicated Knowledge in Multimodal Social Deduction Agents",
+          "titleZh": "QUACK：质疑、理解和审核多模态社会演绎代理中的交流知识",
+          "link": "https://arxiv.org/abs/2605.27068",
+          "publishedAt": "Wed, 27 May 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.27068v1 Announce Type: cross Abstract: Social deduction games have become a popular testbed for probing reasoning, deception, coordination, and belief modeling in Large Language Model (LLM) agents. However, most environments are scored only by game outcomes such as win rates and largely remain to text-only interaction, making it difficult to tell whether an agent's language is actually grounded in what it perceived and did, or to identify the failure modes underlying its behavior. To address this gap,...",
+          "summaryZh": "**核心结论** 这篇论文主要围绕「QUACK：质疑、理解和审核多模态社会演绎代理中的交流知识」提出方法或结论，并尝试解决一个明确的研究/工程问题。\n\n**支撑证据** 摘要与公开信息显示：arXiv：公告类型：交叉摘要：社交演绎游戏已成为大型语言模型（LLM）代理中探索推理、欺骗、协调和信念建模的流行测试平台。然而，大多数环境仅根据胜率等游戏结果进行评分，并且很大程度上仍然是纯文本交互，这使得很难判断代理的语言是否真正基于其感知和行为，或识别其行为背后的失败模式。为了解决这一差距，...\n\n**我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "推理能力",
+            "多模态"
+          ],
+          "score": 40
+        },
+        {
+          "title": "Extending Human Intelligence Through AI",
+          "titleZh": "通过人工智能扩展人类智能",
+          "link": "https://www.microsoft.com/en-us/research/blog/extending-human-intelligence-through-ai/",
+          "publishedAt": "Wed, 27 May 2026 16:00:00 +0000",
+          "source": "Microsoft Research Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "official",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/05/Research-Forum-hero_1400x788.jpg",
+          "video": "",
+          "summary": "Understanding AI as an extension of human intelligence—not a replacement for it—offers a more grounded path for building trustworthy AI systems. The post Extending Human Intelligence Through AI appeared first on Microsoft Research .",
+          "summaryZh": "**核心要点** 将人工智能理解为人类智能的延伸（而不是替代品），为构建值得信赖的人工智能系统提供了一条更扎实的道路。 《通过人工智能扩展人类智能》一文首先出现在微软研究院。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 33
+        },
+        {
+          "title": "sqlite AGENTS.md",
+          "titleZh": "这篇论文主要围绕「sqlite」提出方法或结论，并尝试解",
+          "link": "https://simonwillison.net/2026/May/27/sqlite-agents/#atom-everything",
+          "publishedAt": "2026-05-27T23:44:37+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "sqlite AGENTS.md SQLite gained an AGENTS.md file five days ago - but it's not intended for their own development, it's presumably aimed at people who are pointing agents at the SQLite codebase. It includes: SQLite does not accept pull requests without prior agreement and/or accompanying legal paperwork that places the pull request in the public domain. However, the human SQLite developers will review a concise and well-written pull request as a proof-of-concept prior to reimplementing the changes themselves. SQL...",
+          "summaryZh": "**核心结论** 这篇论文主要围绕「sqlite」提出方法或结论，并尝试解决一个明确的研究/工程问题。\n\n**支撑证据** 摘要与公开信息显示：sqlite SQLite 五天前获得了一个文件 - 但它并不是为了他们自己的开发而设计的，它可能是针对那些在 SQLite 代码库中指向代理的人。它包括： 未经事先同意和/或将拉取请求置于公共领域的随附法律文件，SQLite 不接受拉取请求。然而，人类 SQLite 开发人员将在重新实现更改之前审查简洁且编写良好的拉取请求作为概念验证。 SQL...\n\n**我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "论文",
+            "开发者工具"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Spark AI 李智昊：用视频做世界模型，路线非常不本质",
+          "titleZh": "Spark AI 李智昊：用视频做世界模型，路线非常不本质",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a170ca392551efcff171aa5",
+          "publishedAt": "Wed, 27 May 2026 13:49:36 GMT",
+          "source": "AI炼金术",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9mNTFhLWF1ZGlvZnJlZWhpZ2hxcHMvQjkvNzAvR01Db09TSUh2N0JGQUFWZ1B3SDNSN2VoLmpwZWc=.jpeg",
+          "video": "",
+          "summary": "李智昊，1998 年生。Spark AI 联合创始人。Spark 3D 论文发表在 NeurIPS 2025。 聊到第 33 分钟，他对我说： 「 从我的视角来看，这条路线非常的不本质。 」 ——「这条路线」指的是今天最火、最多融资的世界模型公司\"用视频做世界模型\"的路线。 去年 5 月 1 日凌晨，他和团队的 Spark 3D demo 上了 Hugging Face Trending 第一。他的判断是：4D 物理世界自己的 Stable Diffusion 时刻—— 两年内会被实现 。 这一期是给所有做图、做 3D、做机器人、做游戏、做视频、以及想在下一波 AI 跃迁里\"埋伏\"的人——一份蹲守地图。 嘉宾 李智昊 ｜Spark AI 联合创始人。1998 年生，南大本科、新加坡南洋理工大学博士。代表作 Spark 3D——2025 年 5 月 1 日 demo 上 Hugging Face Trending 第一名，论文发表于 NeurIPS。一直沿着\"压缩可以提升智能\"这条暗线在走：从语言、图像、3D 一路逼到 4D 物理世界。本期他给所有人画了一张\"世界模型赛道全景图\"，并预测了下一个跃迁的时间窗。 亮点 视频...",
+          "summaryZh": "**核心要点** 李智昊，1998 年生。Spark AI 联合创始人。Spark 3D 论文发表在 NeurIPS 2025。 聊到第 33 分钟，他对我说： 「 从我的视角来看，这条路线非常的不本质。 」 ——「这条路线」指的是今天最火、最多融资的世界模型公司\"用视频做世界模型\"的路线。 去年 5 月 1 日凌晨，他和团队的 Spark 3D demo 上了 Hugging Face Trending 第一。他的判断是：4D 物理世界自己的 Stable Diffusion 时刻—— 两年内会被实现 。 这一期是给所有做图、做 3D、做机器人、做游戏、做视频、以及想在下一波 AI 跃迁里\"埋伏\"的人——一份蹲守地图。 嘉宾 李智昊 ｜Spark AI 联合创始人。1998 年生，南大本科、新加坡南洋理工大学博士。代表作 Spark 3D——2025 年 5 月 1 日 demo 上 Hugging Face Trending 第一名，论文发表于 NeurIPS。一直沿着\"压缩可以提升智能\"这条暗线在走：从语言、图像、3D 一路逼到 4D 物理世界。本期他给所有人画了一张\"世界模型赛道全景图\"，并预测了下一个跃迁的时间窗。 亮点 视频...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Building AI agents for business support using Amazon Bedrock AgentCore",
+          "titleZh": "使用 Amazon Bedrock AgentCore 构建用于业务支持的 AI 代理",
+          "link": "https://aws.amazon.com/blogs/machine-learning/building-ai-agents-for-business-support-using-amazon-bedrock-agentcore/",
+          "publishedAt": "Wed, 27 May 2026 20:06:34 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/27/20255.png",
+          "video": "",
+          "summary": "In this post, we share how the AWS Generative AI Innovation Center (GenAIIC) collaborated with Works Human Intelligence (WHI) to build two AI agents using Amazon Bedrock AgentCore. We discuss the challenges encountered and the solutions that reduced costs by up to 97% while improving operational efficiency.",
+          "summaryZh": "**核心要点** 在这篇文章中，我们将分享 AWS 生成式 AI 创新中心 (GenAIIC) 如何与 Works Human Intelligence (WHI) 合作使用 Amazon Bedrock AgentCore 构建两个 AI 代理。我们讨论了遇到的挑战以及在提高运营效率的同时降低成本高达 97% 的解决方案。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "Building an AI agent is one thing. Building one that's intelligent, reliable, and actually ready for...",
+          "titleZh": "构建人工智能代理是一回事。打造一个智能、可靠且真正准备就绪的...",
+          "link": "https://x.com/qdrant_engine/status/2059590442061070629",
+          "publishedAt": "Wed, 27 May 2026 11:00:01 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJRWnL1aIAAGoVm.jpg",
+          "video": "",
+          "summary": "Building an AI agent is one thing. Building one that's intelligent, reliable, and actually ready for an enterprise environment is a different problem entirely. Gabriel Lebow from @Vultr is coming to Vector Space Day to frame the key architectural ideas behind production-ready agentic AI: how scalable systems support context-aware reasoning, handle real-time decision-making, and hold up when the stakes are real. Get your ticket at luma.com/vsd-sf 💬 2 🔄 0 ❤️ 9 👀 223 📊 3 ⚡ Powered by xgo.ing",
+          "summaryZh": "构建人工智能代理是一回事。构建一个智能、可靠且真正适合企业环境的系统是完全不同的问题。加布里埃尔·勒博 (Gabriel Lebow) 将来到向量空间日，阐述可投入生产的代理 AI 背后的关键架构思想：可扩展系统如何支持上下文感知推理、处理实时决策，并在真正面临风险时坚持下去。获取门票：",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "推理能力"
+          ],
+          "score": 50.00249328222091
+        },
+        {
+          "title": "A few weeks ago, @philipvollet, @victorialslocum and @aestheticedwar1 joined the 𝗕𝗶𝗴 ...",
+          "titleZh": "几周前，并加入了...",
+          "link": "https://x.com/weaviate_io/status/2059598318104125730",
+          "publishedAt": "Wed, 27 May 2026 11:31:19 GMT",
+          "source": "Weaviate • vector database(@weaviate_io)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJUoD14XwAMdPwj.jpg",
+          "video": "",
+          "summary": "A few weeks ago, @philipvollet , @victorialslocum and @aestheticedwar1 joined the 𝗕𝗶𝗴 𝗕𝗲𝗿𝗹𝗶𝗻 𝗛𝗮𝗰𝗸 with a mission: build an epic project with Weaviate, and win the top prize. They only had 36 hours start to finish, and the concept was ambitious - combine trend-dectection on Twitter with persona-based AI content generation. 𝗧𝗵𝗲 𝘁𝗲𝗰𝗵 𝘀𝘁𝗮𝗰𝗸: • Weaviate for storing and semantically searching Twitter data • Gemini models for content generation • Tavily for additional context retrieval • A custom scoring model built with Pioneer to rank trends The system monitors Twitter to identify emerging trends using semantic clustering. When it finds something relevant, it analyzes your writing style and previous content to build a persona model. Then it generates new posts about those trends - but in 𝘺𝘰𝘶𝘳 voice, not generic AI-speak. The question is: did their sleep-deprive...",
+          "summaryZh": "几周前，带着使命加入了：与 Weaviate 一起打造一个史诗般的项目，并赢得最高奖项。他们从开始到完成只有 36 个小时，而且这个概念雄心勃勃——将 Twitter 上的趋势检测与基于角色的人工智能内容生成结合起来。 ： • Weaviate 用于存储和语义搜索 Twitter 数据 • Gemini 模型用于内容生成 • Tavilly 用于附加上下文检索 • 使用 Pioneer 构建的自定义评分模型，用于对趋势进行排名 系统监控 Twitter，使用语义聚类来识别新兴趋势。当它找到相关内容时，它会分析您的写作风格和以前的内容以构建角色模型。然后，它会生成有关这些趋势的新帖子，但是语音形式，而不是通用的人工智能语言。问题是：他们的睡眠是否被剥夺了……",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "语音"
+          ],
+          "score": 48.8076344657834
+        },
+        {
+          "title": "𝗜𝗻 𝗮 𝗹𝗼𝗻𝗴-𝗿𝘂𝗻𝗻𝗶𝗻𝗴 𝗥𝗔𝗚 𝘀𝘆𝘀𝘁𝗲𝗺, 𝘁𝗵𝗲 𝗺𝗼𝘀𝘁 𝗱𝗮𝗻𝗴𝗲𝗿𝗼𝘂𝘀 𝗯𝘂𝗴 ...",
+          "titleZh": "- , ' 。 ':,,.这很容易被忽视：模型是由错误的",
+          "link": "https://x.com/milvusio/status/2059650845340266682",
+          "publishedAt": "Wed, 27 May 2026 15:00:02 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJVOXf2boAAYhnV.jpg",
+          "video": "",
+          "summary": "𝗜𝗻 𝗮 𝗹𝗼𝗻𝗴-𝗿𝘂𝗻𝗻𝗶𝗻𝗴 𝗥𝗔𝗚 𝘀𝘆𝘀𝘁𝗲𝗺, 𝘁𝗵𝗲 𝗺𝗼𝘀𝘁 𝗱𝗮𝗻𝗴𝗲𝗿𝗼𝘂𝘀 𝗯𝘂𝗴 𝗶𝘀𝗻'𝘁 𝗮 𝘀𝗶𝗻𝗴𝗹𝗲 𝘄𝗿𝗼𝗻𝗴 𝗮𝗻𝘀𝘄𝗲𝗿. 𝗜𝘁'𝘀 𝘁𝗵𝗲 𝗼𝗻𝗲 𝘁𝗵𝗮𝘁 𝘀𝗻𝗼𝘄𝗯𝗮𝗹𝗹𝘀: 𝗿𝗲𝘁𝗿𝗶𝗲𝘃𝗲𝗱 𝗮𝗴𝗮𝗶𝗻 𝗮𝗻𝗱 𝗮𝗴𝗮𝗶𝗻, 𝗿𝗲𝗶𝗻𝗳𝗼𝗿𝗰𝗲𝗱 𝗲𝗮𝗰𝗵 𝘁𝗶𝗺𝗲, 𝘂𝗻𝘁𝗶𝗹 𝘁𝗵𝗲 𝘀𝘆𝘀𝘁𝗲𝗺 𝘁𝗿𝗲𝗮𝘁𝘀 𝗶𝘁 𝗮𝘀 𝗳𝗮𝗰𝘁. It's easy to miss: the model generates from a bad retrieval → no one corrects it, so the system assumes it's right → it gets written back to memory → the next query pulls it up again and reinforces the error. 𝗖𝗥𝗔𝗚 (𝗖𝗼𝗿𝗿𝗲𝗰𝘁𝗶𝘃𝗲 𝗥𝗔𝗚) 𝗯𝗿𝗲𝗮𝗸𝘀 𝘁𝗵𝗶𝘀 𝗹𝗼𝗼𝗽. It adds one step between retrieval and generation: evaluation. A lightweight evaluator judges whether each retrieved document actually answers the question and tags it with a confidence score, stored alongside the memory. The evaluator sorts results into three tiers:...",
+          "summaryZh": "- , ' 。 ':,,.这很容易被忽视：模型是由错误的检索生成的→没有人纠正它，因此系统假设它是正确的→它被写回内存→下一个查询再次将其拉出并强化错误。 ()。它在检索和生成之间添加了一个步骤：评估。轻量级评估器判断每个检索到的文档是否真正回答了问题，并用置信度分数对其进行标记，并与内存一起存储。评估者将结果分为三层：...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "RAG"
+          ],
+          "score": 45.142682071137564
+        },
+        {
+          "title": "harry0703/MoneyPrinterTurbo",
+          "titleZh": "harry0703/MoneyPrinterTurbo：Star harry0703 / MoneyPrinterTurbo 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+          "link": "https://github.com/harry0703/MoneyPrinterTurbo",
+          "publishedAt": "2026-05-28T02:58:04.321Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/harry0703/MoneyPrinterTurbo/raw/main/docs/webui.jpg",
+          "video": "",
+          "summary": "Star harry0703 / MoneyPrinterTurbo 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+          "summaryZh": "Star harry0703 / MoneyPrinterTurbo 利用AI大模型，一键生成高清短视频（建议打开仓库查看用法、示例与输出效果。）（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "视频",
+            "模型",
+            "大模型"
+          ],
+          "score": 35
+        },
+        {
+          "title": "p-e-w/heretic",
+          "titleZh": "p-e-w/异端",
+          "link": "https://github.com/p-e-w/heretic",
+          "publishedAt": "2026-05-28T02:58:04.321Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/2d00edcbbda4580c6f2dd008ce32062dfc2968043029e7e032843a99dfc56689/p-e-w/heretic",
+          "video": "",
+          "summary": "Star p-e-w / heretic Fully automatic censorship removal for language models",
+          "summaryZh": "Star p-e-w /异端 语言模型的全自动审查删除（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "模型"
+          ],
+          "score": 30
+        },
+        {
+          "title": "shiyu-coder/Kronos",
+          "titleZh": "shiyu-coder/Kronos：明星 shiyu-coder / Krono",
+          "link": "https://github.com/shiyu-coder/Kronos",
+          "publishedAt": "2026-05-28T02:58:04.321Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/shiyu-coder/Kronos/raw/master/figures/overview.png",
+          "video": "",
+          "summary": "Star shiyu-coder / Kronos Kronos: A Foundation Model for the Language of Financial Markets",
+          "summaryZh": "明星 shiyu-coder / Kronos Kronos：金融市场语言的基础模型（建议打开仓库查看用法、示例与输出效果。）（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "模型"
+          ],
+          "score": 30
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "You should read this thread. It used to take about 25 seconds to generate a 5-second video on 8 Bla...",
+          "titleZh": "您应该阅读此主题。过去在 8 Bla 上生成一个 5 秒的视频大约需要 25 秒...",
+          "link": "https://x.com/NVIDIAAI/status/2059717075829141878",
+          "publishedAt": "Wed, 27 May 2026 19:23:13 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-28-2059717075829141878.mp4",
+          "summary": "You should read this thread. It used to take about 25 seconds to generate a 5-second video on 8 Blackwell GPUs. The legends at @haoailab brought that down to just 4.2 seconds on a single Blackwell GPU… and then open sourced the tech behind it. Hao AI Lab @haoailab 🚀Generate a 30-second 1080p video in just 7 seconds! We’re open-sourcing FastVideo Dreamverse: real-time vibe directing for video generation on a single NVIDIA B200 GPU with LTX-2 model @ltx_model Repo: github.com/hao-ai-lab/Fas… F Blog: haoailab.com/blogs/fastvide… o Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 24 🔄 116 ❤️ 979 👀 93162 📊 174 ⚡ Powered by xgo.ing",
+          "summaryZh": "您应该阅读此主题。过去，在 8 个 Blackwell GPU 上生成一个 5 秒的视频大约需要 25 秒。传奇人物在单个 Blackwell GPU 上将这一速度缩短到了几秒钟……然后开源了其背后的技术。浩AI实验室只需7秒即可生成30秒1080p视频！我们正在开源 FastVideo Dreamverse：在具有 LTX-2 型号的单个 NVIDIA B200 GPU 上进行视频生成的实时氛围指导 存储库：F 博客：o 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "开源",
+            "视频"
+          ],
+          "score": 71
+        },
+        {
+          "title": "⚙️ Behind the build of self-improving tax agents with Codex We co-built Tax AI with @ThriveHoldings...",
+          "titleZh": "⚙ 与 Codex 一起构建自我完善的税务代理人的背后 我们与……共同构建了税务人工智能",
+          "link": "https://x.com/OpenAIDevs/status/2059638868983562640",
+          "publishedAt": "Wed, 27 May 2026 14:12:27 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "⚙️ Behind the build of self-improving tax agents with Codex We co-built Tax AI with @ThriveHoldings around tax prep workflows so when reviewers fix any errors, Codex can trace the failure, improve the system, and test the change before it ships. openai.com/index/building… 💬 52 🔄 73 ❤️ 841 👀 79678 📊 233 ⚡ Powered by xgo.ing",
+          "summaryZh": "⚙ 与 Codex 一起构建自我改进的税务代理的背后 我们与税务准备工作流程共同构建了 Tax AI，因此当审阅者修复任何错误时，Codex 可以跟踪故障、改进系统并在发布之前测试更改。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 70
+        },
+        {
+          "title": "Fast, faster, Qwen. 🚀 Thrilled to see Qwen3.5 reaching a record-breaking 580 tps for agentic workl...",
+          "titleZh": "快点，快点，Qwen。 很高兴看到代理工作达到破纪录的 580 tps...",
+          "link": "https://x.com/Alibaba_Qwen/status/2059674574397313277",
+          "publishedAt": "Wed, 27 May 2026 16:34:20 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJVnA_DWIAM4e_A.jpg",
+          "video": "",
+          "summary": "Fast, faster, Qwen. 🚀 Thrilled to see Qwen3.5 reaching a record-breaking 580 tps for agentic workloads on the TokenSpeed engine! This milestone wouldn't be possible without our incredible partners. Huge thanks to @lightseekorg , @NVIDIAAI , the Mooncake team, and @tri_dao for the pioneering FA4 optimization. Together, we are pushing the boundaries of open-source LLM inference. 🤝✨ Dive into the full @PyTorch blog post below! pytorch.org/blog/up-to-580… cZ #Qwen w #Qwen3_5 3 #TokenSpeed e #LLM L #Inference n #AI # #PyTorch r #OpenSource r #AgenticAI c #HighPerformance nce PyTorch @PyTorch The speed-of-light optimization for Qwen3.5 on the TokenSpeed inference engine is a significant milestone, achieving a record-breaking 580 tokens per second (tps) for agentic workloads on NVIDIA GPUs. In the PyTorch Foundation's latest community blog post, you can learn all about the complete design,...",
+          "summaryZh": "快点，快点，Qwen。 很高兴看到 TokenSpeed 引擎上的代理工作负载达到破纪录的 580 tps！如果没有我们出色的合作伙伴，这一里程碑就不可能实现。非常感谢 Mooncake 团队以及开创性的 FA4 优化。我们共同努力突破开源 LLM 推理的界限。 ✨ 深入阅读下面的完整博客文章！ cZ #Qwen w #Qwen3_5 3 #TokenSpeed e #LLM L #Inference n #AI # #PyTorch r #OpenSource r #AgenticAI c #HighPerformance nce PyTorch TokenSpeed 推理引擎的光速优化是一个重要的里程碑，在 NVIDIA GPU 上实现了代理工作负载每秒 580 个令牌 (tps) 的破纪录记录。在 PyTorch 基金会的最新社区博客文章中，您可以了解有关完整设计的所有信息，...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理部署"
+          ],
+          "score": 68
+        },
+        {
+          "title": "Look back at last week’s I/O announcements with @NotebookLM. You can listen to an audio overview, w...",
+          "titleZh": "回顾一下上周的 I/O 公告。您可以收听音频概述，...",
+          "link": "https://x.com/GoogleAI/status/2059748312236921149",
+          "publishedAt": "Wed, 27 May 2026 21:27:20 GMT",
+          "source": "Google AI(@GoogleAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Look back at last week’s I/O announcements with @NotebookLM . You can listen to an audio overview, watch the video recap, and even check out our detailed slide deck summarizing all of the biggest news and launches. Check it out here: blog.google/innovation-and… 💬 14 🔄 12 ❤️ 101 👀 12878 📊 25 ⚡ Powered by xgo.ing",
+          "summaryZh": "回顾一下上周的 I/O 公告。您可以收听音频概述、观看视频回顾，甚至查看我们总结所有重大新闻和发布的详细幻灯片。在这里查看：（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "视频"
+          ],
+          "score": 66.60320186551567
+        },
+        {
+          "title": "We're open-sourcing the Unigram tokenizer we rebuilt to reduce CPU utilization by 5-6x. Small reran...",
+          "titleZh": "我们正在开源重建的 Unigram 分词器，以将 CPU 利用率降低 5-6 倍。小重播...",
+          "link": "https://x.com/perplexity_ai/status/2059664738087469511",
+          "publishedAt": "Wed, 27 May 2026 15:55:14 GMT",
+          "source": "Perplexity(@perplexity_ai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJVmKReagAA7rFv.png",
+          "video": "",
+          "summary": "We're open-sourcing the Unigram tokenizer we rebuilt to reduce CPU utilization by 5-6x. Small rerankers and embedders run in single-digit milliseconds on GPU, making CPU tokenization a meaningful share of total latency. github.com/perplexityai/p… 💬 48 🔄 71 ❤️ 658 👀 65074 📊 151 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们正在开源重建的 Unigram 分词器，以将 CPU 利用率降低 5-6 倍。小型重新排序器和嵌入器在 GPU 上的运行时间为个位数毫秒，使得 CPU 标记化在总延迟中占据有意义的份额。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开源"
+          ],
+          "score": 62.900523996439
+        },
+        {
+          "title": "\"If you don't know who Cohere is, you will\" - Prime Minister @MarkJCarney 🇨🇦",
+          "titleZh": "“如果你不知道 Cohere 是谁，你就会知道”——总理",
+          "link": "https://x.com/cohere/status/2059655146766745826",
+          "publishedAt": "Wed, 27 May 2026 15:17:08 GMT",
+          "source": "cohere(@cohere)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-28-2059655146766745826.mp4",
+          "summary": "\"If you don't know who Cohere is, you will\" - Prime Minister @MarkJCarney 🇨🇦 Your browser does not support the video tag. 🔗 View on Twitter 💬 51 🔄 54 ❤️ 771 👀 110424 📊 144 ⚡ Powered by xgo.ing",
+          "summaryZh": "“如果你不知道 Cohere 是谁，你就会知道”——总理（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "Use your SuperGrok or X Premium+ subscription in @kilocode. Try grok-build-0.1 for high speed and ...",
+          "titleZh": "使用您的 SuperGrok 或 X Premium+ 订阅。尝试高速并...",
+          "link": "https://x.com/xai/status/2059666227115819149",
+          "publishedAt": "Wed, 27 May 2026 16:01:09 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Use your SuperGrok or X Premium+ subscription in @kilocode . Try grok-build-0.1 for high speed and agentic coding intelligence, available in the Kilo IDE extensions or CLI. x.ai/news/grok-kilo… 💬 105 🔄 115 ❤️ 1091 👀 72124 📊 206 ⚡ Powered by xgo.ing",
+          "summaryZh": "使用您的 SuperGrok 或 X Premium+ 订阅。尝试 Kilo IDE 扩展或 CLI 中提供的高速和代理编码智能。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 62
+        },
+        {
+          "title": "Michele Catasta (@pirroh) is President and Head of AI @replit, the platform where anyone can build s...",
+          "titleZh": "米歇尔·卡塔斯塔 (Michele Catasta) 是人工智能的总裁兼负责人，人工智能是一个任何人都可以构建...",
+          "link": "https://x.com/claudeai/status/2059682187947946009",
+          "publishedAt": "Wed, 27 May 2026 17:04:35 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-28-2059682187947946009.mp4",
+          "summary": "Michele Catasta ( @pirroh ) is President and Head of AI @replit , the platform where anyone can build software in natural language. At 16, he set out to make software open to everyone. Today, over 50 million people are building on Replit with Claude: Your browser does not support the video tag. 🔗 View on Twitter 💬 127 🔄 116 ❤️ 1625 👀 157911 📊 282 ⚡ Powered by xgo.ing",
+          "summaryZh": "米歇尔·卡塔斯塔 (Michele Catasta) 是人工智能的总裁兼负责人，人工智能是一个任何人都可以用自然语言构建软件的平台。 16 岁时，他开始向所有人开放软件。如今，超过 5000 万人正在与 Claude 一起在 Replit 上进行构建：",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "🚀🚀",
+          "titleZh": "Hermes Agent 现在支持 Nous Resea",
+          "link": "https://x.com/Alibaba_Qwen/status/2059611776984244404",
+          "publishedAt": "Wed, 27 May 2026 12:24:48 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJRnyX8X0AA9yzs.jpg",
+          "video": "",
+          "summary": "🚀🚀 Nous Research @NousResearch Qwen 3.7 Max is now supported in Hermes Agent 🔗 View Quoted Tweet 💬 16 🔄 20 ❤️ 417 👀 39696 📊 48 ⚡ Powered by xgo.ing",
+          "summaryZh": "Hermes Agent 现在支持 Nous Research Qwen Max 查看引用的推文（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 60.25772916889664
+        },
+        {
+          "title": "Subagents, now in Lovable. Lovable can now spin up helpers behind-the-scenes to research, review, a...",
+          "titleZh": "子代理，现在在 Lovable。 Lovable 现在可以在幕后启动助手来研究、审查、...",
+          "link": "https://x.com/Lovable/status/2059642341963804930",
+          "publishedAt": "Wed, 27 May 2026 14:26:15 GMT",
+          "source": "Lovable(@lovable_dev)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJU_C7EbQAApjmG.jpg",
+          "video": "",
+          "summary": "Subagents, now in Lovable. Lovable can now spin up helpers behind-the-scenes to research, review, and QA, in parallel. 💬 30 🔄 23 ❤️ 374 👀 26245 📊 81 ⚡ Powered by xgo.ing",
+          "summaryZh": "子代理，现在在 Lovable。 Lovable 现在可以在幕后启动助手并行进行研究、审查和质量检查。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 60.17650393490718
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "143. 对何小鹏的第二次访谈：更大赌注、人形机器人Iron诞生、那场意外、技术剧变下CEO、GX和缝合怪",
+          "titleZh": "143. 对何小鹏的第二次访谈：更大赌注、人形机器人Iron诞生、那场意外、技术剧变下CEO、GX和缝合怪",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a170f747460cabdeb56dabb",
+          "publishedAt": "2026-05-28T00:00:00.000Z",
+          "source": "张小珺Jùn｜商业访谈录",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/Fnuyt9PQDQx0I0wlErG3ZHcW9Gpu.png",
+          "video": "",
+          "summary": "143. 对何小鹏的第二次访谈：更大赌注、人形机器人Iron诞生、那场意外、技术剧变下CEO、GX和缝合怪",
+          "summaryZh": "**讲了什么**：这一期来自 **张小珺Jùn｜商业访谈录**，主题是「143. 对何小鹏的第二次访谈：更大赌注、人形机器人Iron诞生、那场意外、技术剧变下CEO、GX和缝合怪」。本集是小鹏汽车董事长兼CEO何小鹏的返场。在我们之前那次访谈（70集）中，何小鹏形容，造车就像在“在血海里游泳”。在过去1年中，除了汽车这场血海战役，小鹏汽车也要面临AI和机器人这场未来之战——后者的战线更漫长，造人形机器人的胜率也要比造车低得多。对此，何小鹏在2025年下了更大的赌注。我们这次从“赌”开始聊起。他也聊了聊人形机器人Iron的诞生与意外、技术变革下CEO的心路、新车GX等话题。不过，对于正在发生的事，他有一些顾忌，也有一些尚且不能说的秘密。接下来，就是我对何小鹏的访谈。 **简介要点**： - 在过去1年中，除了汽车这场血海战役，小鹏汽车也要面临AI和机器人这场未来之战——后者的战线更漫长，造人形机器人的胜率也要比造车低得多。 - 他也聊了聊人形机器人Iron的诞生与意外、技术变革下CEO的心路、新车GX等话题。 - DETAILS: 本集节目由语言即世界工作室与微博、新浪财经联合呈现。 - DISCLAIMER: 本内容不作为投资建议。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "2026 AI 游戏全景扫描：四层图景、三大误区、一个共识缺口｜对谈 405 游局筱宁",
+          "titleZh": "2026 AI 游戏全景扫描：四层图景、三大误区、一个共识缺口｜对谈 405 游局筱宁",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a11a57c8b5c94538e98794d",
+          "publishedAt": "2026-05-27T16:00:00.000Z",
+          "source": "十字路口Crossing",
+          "sourceType": "podcast",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FvW8p9NjZN_WN-5D0RSphSHaQS12.jpg",
+          "video": "",
+          "summary": "2026 AI 游戏全景扫描：四层图景、三大误区、一个共识缺口｜对谈 405 游局筱宁",
+          "summaryZh": "**讲了什么**：这一期来自 **十字路口Crossing**，主题是「2026 AI 游戏全景扫描：四层图景、三大误区、一个共识缺口｜对谈 405 游局筱宁」。\udea5 「AI+互动娱乐 / AI+游戏」正处在一个奇妙的阶段：碎片化的 Demo 层出不穷、技术进步快到让人恍惚——AI 生成小游戏、交互短内容、AI NPC、世界模型、实时多模态——但真正能在大众层面形成共识的爆款作品仍然稀缺。本期「十字路口」和关注 AI 互动内容与游戏的播客「405游局」串台，邀请到主播 / 资深游戏从业者筱宁，一起做一次 2026 年 AI 游戏的“全景扫描”：我们把行业拆成“四层图景”，指出三种最常见的误区，并讨论那个最关键的共识缺口到底是什么——以及它为什么更可能从野生土壤里长出来，而不是从大厂里“立项做出来”。 **简介要点**： - \udea5 「AI+互动娱乐 / AI+游戏」正处在一个奇妙的阶段：碎片化的 Demo 层出不穷、技术进步快到让人恍惚——AI 生成小游戏、交互短内容、AI NPC、世界模型、实时多模态——但真正能在大众层面形成共识的爆款作品仍然稀缺。 - 如果你是 AI 创业者、投资人，或正在关注下一代内容平台、互动娱乐与 AI 游戏，这期节目希望能给你一个框架：哪些确定了？ - \udfe2 00:11 Opening * 游戏行业对这波生成式 AI 的反应，比互联网公司慢了很多。 - \udfe2 10:43 AI 版愤怒的小鸟，还没出现 * 愤怒的小鸟不是手游史上最赚钱的，但它是第一个让所有人形成共识的那个。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "summaryBullets": [
+    "**1/ 在 、 和 的带领下，我们以 **：1/ 在 、 和 的带领下，我们以 26B 美元的估值筹集了超过 10 亿美元的资金。自今年年初",
+    "**您应该阅读此主题。过去在 8 Bla**：您应该阅读此主题。过去，在 8 个 Blackwell GPU 上生成一个 5 秒的视频大约需要",
+    "**构建人工智能代理是一回事。打造一个智**：构建人工智能代理是一回事。构建一个智能、可靠且真正适合企业环境的系统是完全不同的问题。加布里埃尔",
+    "**几周前，并加入了...**：几周前，带着使命加入了：与 Weaviate 一起打造一个史诗般的项目，并赢得最高奖项。他们从开",
+    "**- , ' 。 ':,,.这很容易被**：- , ' 。 ':,,.这很容易被忽视：模型是由错误的检索生成的→没有人纠正它，因此系统假设它"
+  ]
+}

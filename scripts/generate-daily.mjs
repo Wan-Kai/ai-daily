@@ -1106,7 +1106,9 @@ function normalizedTitleKey(title = "") {
 async function anthropicJson({ system, prompt, timeoutMs = 120000 }) {
   const apiKey = process.env.ANTHROPIC_API_KEY || process.env.ANTHROPIC_AUTH_TOKEN;
   if (!apiKey) throw new Error("缺少 ANTHROPIC_API_KEY/ANTHROPIC_AUTH_TOKEN，无法生成中文标题与摘要。");
-  const baseUrl = (process.env.ANTHROPIC_BASE_URL || "https://api.anthropic.com").replace(/\/$/, "");
+  // 避免被全局 ANTHROPIC_BASE_URL（例如 claudecode 代理）污染日报生成；默认走官方 API。
+  // 如需自定义代理，请使用 AI_DAILY_ANTHROPIC_BASE_URL 显式指定。
+  const baseUrl = (process.env.AI_DAILY_ANTHROPIC_BASE_URL || "https://api.anthropic.com").replace(/\/$/, "");
   const endpoint = `${baseUrl}/v1/messages`;
 
   const models = [
@@ -1217,14 +1219,120 @@ async function anthropicJson({ system, prompt, timeoutMs = 120000 }) {
 
 function isChineseEnough(text = "") {
   const value = String(text || "");
-  const cn = (value.match(/[\\u4e00-\\u9fff]/g) || []).length;
+  const cn = (value.match(/[\u4e00-\u9fff]/g) || []).length;
   return cn >= 6;
 }
 
+function hasChinese(text = "") {
+  return /[\u4e00-\u9fff]/.test(String(text || ""));
+}
+
+function chineseRatio(text = "") {
+  const value = String(text || "");
+  if (!value) return 0;
+  const cn = (value.match(/[\u4e00-\u9fff]/g) || []).length;
+  return cn / value.length;
+}
+
+function stripSocialNoise(text = "") {
+  return String(text || "")
+    .replace(/Your browser does not support the video tag\./gi, "")
+    .replace(/🔗\s*View on Twitter/gi, "")
+    .replace(/⚡\s*Powered by xgo\.ing/gi, "")
+    .replace(/@\w+/g, "")
+    .replace(/[�]/g, "")
+    .replace(/\bkm\b/gi, "")
+    .replace(/https?:\/\/\S+/gi, "")
+    .replace(/\b[\w-]+(?:\.[\w-]+)+\/?\S*/gi, "")
+    .replace(/[💬🔄❤️👀📊]/g, "")
+    .replace(/[💬🔄❤️👀📊]\s*\d+[.,]?\d*/g, "")
+    .replace(/\s*(?:\d+\s*){4,}$/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+async function translateToZh(text, { timeoutMs = 60000 } = {}) {
+  const safe = stripSocialNoise(text).replace(/[\uD800-\uDFFF]/g, "").slice(0, 900);
+  if (!safe) return "";
+  let url;
+  try {
+    url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=zh-CN&dt=t&q=${encodeURIComponent(safe)}`;
+  } catch {
+    return "";
+  }
+
+  try {
+    const res = await fetch(url, {
+      signal: AbortSignal.timeout(timeoutMs),
+      headers: {
+        "user-agent": "ai-daily/0.1 (+https://github.com/Wan-Kai/ai-daily)"
+      }
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const payload = await res.json();
+    const parts = (payload?.[0] || []).map((chunk) => chunk?.[0]).filter(Boolean);
+    return parts.join("").trim();
+  } catch (fetchError) {
+    const proxies = [
+      process.env.AI_DAILY_HTTPS_PROXY,
+      process.env.HTTPS_PROXY,
+      process.env.HTTP_PROXY,
+      process.env.ALL_PROXY,
+      "http://127.0.0.1:6789",
+      "socks5h://127.0.0.1:6789"
+    ].filter(Boolean).map((proxy) => String(proxy).replace(/^socks5:\/\//i, "socks5h://"));
+    const tried = [];
+    for (const proxy of [...new Set(proxies)]) {
+      tried.push(proxy);
+      try {
+        const { stdout } = await execFileAsync("curl", [
+          "-L",
+          "--silent",
+          "--show-error",
+          "--connect-timeout",
+          "10",
+          "--max-time",
+          String(Math.ceil(timeoutMs / 1000)),
+          "--proxy",
+          proxy,
+          url
+        ], { maxBuffer: 2 * 1024 * 1024 });
+        const payload = JSON.parse(stdout);
+        const parts = (payload?.[0] || []).map((chunk) => chunk?.[0]).filter(Boolean);
+        return parts.join("").trim();
+      } catch {
+        // keep trying
+      }
+    }
+    throw new Error(`翻译请求失败且代理兜底也失败：${fetchError.message}; proxies=${tried.join(",")}`);
+  }
+}
+
+function normalizeZhTitle(text = "") {
+  return String(text || "").replace(/\s+/g, " ").trim();
+}
+
+function ensureResearchPyramidSummary(summaryZh = "") {
+  const value = String(summaryZh || "").trim();
+  if (!value) return value;
+  if (/核心结论|结论|要点|价值|支撑|结果|数据显示|案例/i.test(value)) return value;
+  return `**核心要点** ${value}`;
+}
+
+function ensurePaperStructure({ titleZh, summaryZh }) {
+  const title = normalizeZhTitle(titleZh);
+  const body = String(summaryZh || "").trim();
+  const core = body ? body : "（摘要信息有限，建议打开原文确认关键方法与实验设置。）";
+  return [
+    `**核心结论** 这篇论文主要围绕「${title}」提出方法或结论，并尝试解决一个明确的研究/工程问题。`,
+    `**支撑证据** 摘要与公开信息显示：${core}`,
+    `**我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。`
+  ].join("\n\n");
+}
+
 async function localizeSectionsZh(sections) {
-  // 默认禁用 LLM 自动中文化：后续由本地人工编辑 `data/reports/YYYY-MM-DD.json` 完成中文化与栏目修订。
-  // 如需临时启用，可显式设置 `AI_DAILY_DISABLE_LLM_LOCALIZE=0`。
-  if (process.env.AI_DAILY_DISABLE_LLM_LOCALIZE !== "0") {
+  // 默认启用 LLM 自动中文化；如需跳过（例如离线调试/限额），可显式设置 `AI_DAILY_DISABLE_LLM_LOCALIZE=1`。
+  if (process.env.AI_DAILY_DISABLE_LLM_LOCALIZE === "1") {
     return { summaryBullets: [] };
   }
   const candidates = sections
@@ -1272,25 +1380,121 @@ async function localizeSectionsZh(sections) {
     }
   }, null, 2);
 
-  const result = await anthropicJson({ system, prompt });
-  const mapping = result?.items || {};
-  const drops = new Set();
+  try {
+    const result = await anthropicJson({ system, prompt });
+    const mapping = result?.items || {};
+    const drops = new Set();
 
-  for (const section of sections) {
-    section.items = section.items.filter((item) => {
-      const localized = mapping[item.link];
-      if (!localized) return true;
-      if (localized.drop) {
-        drops.add(item.link);
-        return false;
-      }
-      if (localized.titleZh) item.titleZh = localized.titleZh;
-      if (localized.summaryZh) item.summaryZh = localized.summaryZh;
-      return true;
-    });
+    for (const section of sections) {
+      section.items = section.items.filter((item) => {
+        const localized = mapping[item.link];
+        if (!localized) return true;
+        if (localized.drop) {
+          drops.add(item.link);
+          return false;
+        }
+        if (localized.titleZh) item.titleZh = localized.titleZh;
+        if (localized.summaryZh) item.summaryZh = localized.summaryZh;
+        return true;
+      });
+    }
+
+    return { summaryBullets: Array.isArray(result?.summaryBullets) ? result.summaryBullets : [], drops: [...drops] };
+  } catch (error) {
+    console.warn(`调用 LLM 中文化失败，启用翻译兜底：${error?.message || error}`);
   }
 
-  return { summaryBullets: Array.isArray(result?.summaryBullets) ? result.summaryBullets : [], drops: [...drops] };
+  for (const section of sections) {
+    for (const item of section.items || []) {
+      if (!isChineseEnough(item.titleZh)) {
+        const titleZh = await translateToZh(item.title, { timeoutMs: 45000 }).catch(() => "");
+        if (titleZh) item.titleZh = normalizeZhTitle(titleZh);
+      }
+      if (!isChineseEnough(item.summaryZh)) {
+        const summaryZh = await translateToZh(item.summary, { timeoutMs: 60000 }).catch(() => "");
+        if (summaryZh) item.summaryZh = summaryZh;
+      }
+      item.titleZh = normalizeZhTitle(stripSocialNoise(item.titleZh || ""));
+      item.summaryZh = stripSocialNoise(item.summaryZh);
+
+      const isPaperForReview = item.channel === "paper_feed" || /论文/.test(`${item.titleZh || ""} ${(item.tags || []).join(" ")}`);
+      const isPaper = section.id === "research_frontier" && (isPaperFeedItem(item) || isPaperForReview);
+      if (isPaper) {
+        item.summaryZh = ensurePaperStructure({ titleZh: item.titleZh || item.title, summaryZh: item.summaryZh || "" });
+      } else if (section.id === "research_frontier") {
+        item.summaryZh = ensureResearchPyramidSummary(item.summaryZh || "");
+      }
+
+      if (chineseRatio(item.summaryZh || "") < 0.35) {
+        const retr = await translateToZh(item.summary || item.summaryZh || "", { timeoutMs: 60000 }).catch(() => "");
+        if (retr && chineseRatio(retr) > chineseRatio(item.summaryZh || "")) item.summaryZh = stripSocialNoise(retr);
+      }
+
+      if (!hasChinese(item.titleZh)) {
+        if (/github\.com\//i.test(item.link || "")) {
+          const repo = String(item.title || "").split(/\s+/).filter(Boolean)[0] || "开源项目";
+          const snippet = String(item.summaryZh || "").replace(/^Star\s*/i, "").slice(0, 22);
+          const translated = snippet && hasChinese(snippet) ? snippet : await translateToZh(item.summary || item.title, { timeoutMs: 45000 }).catch(() => "");
+          item.titleZh = normalizeZhTitle(`${repo}：${translated || "开源项目更新"}`);
+        } else {
+          const fallback = await translateToZh(item.title || item.summary || "", { timeoutMs: 45000 }).catch(() => "");
+          if (fallback) item.titleZh = normalizeZhTitle(fallback);
+        }
+      }
+
+      if (!hasChinese(item.titleZh) || (item.titleZh || "").length < 4) {
+        const fromSummary = normalizeZhTitle(
+          String(item.summaryZh || "")
+            .replace(/\*\*[^*]+\*\*/g, "")
+            .replace(/^核心结论|^核心要点|^支撑证据|^我的判断/g, "")
+            .trim()
+            .slice(0, 28)
+        );
+        if (hasChinese(fromSummary)) item.titleZh = fromSummary;
+      }
+
+      if (/github\.com\//i.test(item.link || "") && chineseRatio(item.summaryZh || "") < 0.45) {
+        // 翻译接口在中英混排时可能不做翻译，先尝试清理英文尾句再补中文说明。
+        item.summaryZh = String(item.summaryZh || "").replace(/[A-Za-z][A-Za-z0-9 ,.'“”"():;+-]*$/g, "").trim();
+        const retr = await translateToZh(item.summary || item.title || "", { timeoutMs: 60000 }).catch(() => "");
+        if (retr && chineseRatio(retr) > chineseRatio(item.summaryZh || "")) item.summaryZh = stripSocialNoise(retr);
+        if (chineseRatio(item.summaryZh || "") < 0.35) {
+          item.summaryZh = `${item.summaryZh}（建议打开仓库查看用法、示例与输出效果。）`.trim();
+        }
+      }
+
+      if ((item.summaryZh || "").length < 90) {
+        item.summaryZh = `${item.summaryZh}（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）`.trim();
+      }
+    }
+  }
+
+  const scored = sections
+    .flatMap((section) => (section.items || []).map((item) => ({ sectionId: section.id, item })))
+    .sort((a, b) => (b.item.score || 0) - (a.item.score || 0));
+  const picked = [];
+  const used = new Set();
+  for (const entry of scored) {
+    if (picked.length >= 5) break;
+    if (used.has(entry.sectionId) && picked.length < 3) continue;
+    const summary = normalizeZhTitle(entry.item.summaryZh || "");
+    const title = normalizeZhTitle(entry.item.titleZh || entry.item.title || "");
+    if (!summary && !title) continue;
+    used.add(entry.sectionId);
+    picked.push({ title, summary });
+  }
+  const summaryBullets = picked
+    .slice(0, 5)
+    .map(({ title, summary }) => {
+      const base = (summary || title).replace(/\s+/g, " ").trim();
+      const head = (title || base).replace(/\*\*/g, "").slice(0, 18);
+      const tail = base.slice(0, 48);
+      const bullet = `**${head}**：${tail}`;
+      return bullet.length < 18 ? `**${head}**：${tail}（建议点开原文查看细节）` : bullet;
+    })
+    .filter((bullet) => hasChinese(bullet));
+
+  return { summaryBullets: summaryBullets.slice(0, 5) };
 }
 
 async function previousReportDuplicateKeys(date) {

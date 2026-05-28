@@ -301,8 +301,9 @@ async function downloadWithProxyFallbackLimited(url, target, timeoutMs, maxBytes
       }
       return true;
     } catch (error) {
-      if (error?.code === 63) {
-        // curl: Maximum file size exceeded
+      const message = String(error?.message || "");
+      if (error?.code === 63 || /Maximum file size exceeded/i.test(message)) {
+        // curl: Maximum file size exceeded（不同平台/版本可能返回不同退出码）
         await unlink(target).catch(() => {});
         return false;
       }
@@ -397,8 +398,18 @@ async function repairReportMedia(reportPath) {
             changed += 1;
             continue;
           }
+          // 视频过大或无法缓存时，清空远程视频，避免页面内播放不稳定与审查失败。
+          if (item.video) {
+            item.video = "";
+            changed += 1;
+          }
         } catch (error) {
           console.warn(`视频缓存失败：${item.titleZh || item.title} - ${error.message}`);
+          // 缓存失败也不要保留远程视频，避免后续审查拦截。
+          if (item.video) {
+            item.video = "";
+            changed += 1;
+          }
         }
       }
 
