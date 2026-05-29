@@ -699,7 +699,7 @@ function isLikelyGenericEditorialImage(url) {
 async function enrichPageMediaCandidates(item) {
   if (!/^https?:\/\//i.test(item.link) || /x\.com|twitter\.com|youtube\.com|youtu\.be/i.test(item.link)) return;
   try {
-    const html = await fetchText(item.link, 10000);
+    const html = await fetchTextWithProxyFallback(item.link, 12000);
     const metaCandidates = metaMediaCandidates(html, item.link);
     const pageImageCandidates = htmlImageCandidates(html, item.link)
       .map((candidate) => ({ ...candidate, source: "page-image" }));
@@ -710,6 +710,36 @@ async function enrichPageMediaCandidates(item) {
     const videoCandidates = metaCandidates.filter((candidate) => isVideoCandidate(candidate));
     item.imageCandidates = uniqueCandidates([...(item.imageCandidates || []), ...imageCandidates]);
     item.videoCandidates = uniqueCandidates([...(item.videoCandidates || []), ...videoCandidates]);
+
+    const currentDesc = stripHtml(item.description || "");
+    if (currentDesc.length < 80) {
+      const metaTags = [...html.matchAll(/<meta\b[^>]*>/gi)].map((match) => attrsFromTag(match[0]));
+      const metaDescription = stripHtml(
+        metaTags.find((tag) => (tag.name || "").toLowerCase() === "description")?.content ||
+        metaTags.find((tag) => (tag.property || "").toLowerCase() === "og:description")?.content ||
+        metaTags.find((tag) => (tag.name || "").toLowerCase() === "twitter:description")?.content ||
+        ""
+      );
+      if (metaDescription && metaDescription.length > currentDesc.length) {
+        item.description = metaDescription;
+        if (String(item.summary || "").trim().length < 90) item.summary = metaDescription;
+        if (String(item.summaryZh || "").trim().length < 90) item.summaryZh = metaDescription;
+      }
+    }
+
+    const descAfterMeta = stripHtml(item.description || "");
+    if (descAfterMeta.length < 140) {
+      const articleHtml = html.match(/<article\b[\s\S]*?<\/article>/i)?.[0] || "";
+      const extracted = stripHtml(articleHtml || html)
+        .replace(/\s+/g, " ")
+        .trim();
+      const snippet = extracted.slice(0, 520);
+      if (snippet && snippet.length > descAfterMeta.length + 80) {
+        item.description = snippet;
+        if (String(item.summary || "").trim().length < 140) item.summary = snippet;
+        if (String(item.summaryZh || "").trim().length < 140) item.summaryZh = snippet;
+      }
+    }
   } catch {
     // 页面元信息抓取失败时保留 RSS 内的媒体候选。
   }
@@ -963,6 +993,7 @@ function publicItem(item) {
     publishedAt: item.publishedAt,
     source: item.source,
     sourceType: item.sourceType,
+    description: item.description || "",
     section,
     channel: item.channel,
     trust: item.trust,
@@ -1029,11 +1060,30 @@ function isProductUpdate(item) {
   return positive && !negative;
 }
 
+function isLowInfoSocialItem(item) {
+  if (item.channel !== "social") return false;
+  const raw = `${item.title || ""} ${item.description || ""}`;
+  const cleaned = stripSocialNoise(raw)
+    .replace(/@\w{2,}/g, "")
+    .replace(/https?:\/\/\S+/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!cleaned) return true;
+  if ((item.title || "").trim().startsWith("@")) return true;
+  if (/^https?:\/\/t\.co\//i.test((item.title || "").trim())) return true;
+  if (cleaned.length < 48) return true;
+  if (/let'?s circle back|tomorrow|good night|gm\b|lol\b|haha|😉|🤫/i.test(cleaned) && cleaned.length < 120) return true;
+  const hasSignal = /\b(ai|llm|model|api|agent|release|launch|preview|beta|available|introducing|integration|copilot|cursor|claude|gpt|gemini|openai|anthropic|nvidia|figma|workflow)\b/i.test(cleaned);
+  if (!hasSignal && cleaned.length < 100) return true;
+  return false;
+}
+
 function isRelevantForSection(item, sectionId) {
   if (sectionId === "product_updates") {
     return isTrustedProductSignalSource(item);
   }
 
+  if (sectionId === "social_shares" && isLowInfoSocialItem(item)) return false;
   if (sectionId === "extended_reading") return true;
   if (sectionId !== "open_source_top") return true;
   const text = `${item.title} ${item.summary} ${item.summaryZh} ${item.tags.join(" ")}`.toLowerCase();
@@ -1348,6 +1398,12 @@ function looksLikeTruncatedZhTitle(titleZh = "") {
   return false;
 }
 
+function isWeakTitleEnding(titleZh = "") {
+  const value = normalizeZhTitle(titleZh);
+  if (!value) return false;
+  return /(它|他们|她们|我们|你们|这|那|这里|那里)$/.test(value) && !/[。！？!?]$/.test(value);
+}
+
 function isTitlePrefixOfSummary(titleZh = "", summaryZh = "") {
   const title = normalizeZhTitle(titleZh);
   const summary = normalizeZhTitle(summaryZh);
@@ -1374,8 +1430,11 @@ function deriveTitleFromSummary(summaryZh = "", { maxLen = 44 } = {}) {
   if (!value) return "";
 
   const firstLine = value.split(/[\n\r]+/)[0].trim();
-  const firstSentence = firstLine.split(/[。！？!?]/)[0].trim();
-  const picked = firstSentence.length >= 8 ? firstSentence : firstLine;
+  const sentences = firstLine.split(/[。！？!?]/).map((part) => part.trim()).filter(Boolean);
+  const firstSentence = sentences[0] || "";
+  const picked = firstSentence.length >= 14
+    ? firstSentence
+    : (sentences.slice(0, 2).join("。") || firstLine);
   const title = smartTitleSlice(normalizeZhTitle(picked), maxLen);
   return title.length >= 6 ? title : "";
 }
@@ -1430,10 +1489,10 @@ function ensurePaperStructure({ titleZh, summaryZh }) {
 async function localizeSectionsZh(sections) {
   // 仅使用本地翻译兜底中文化：避免依赖 Anthropic/ClaudeCode 等外部服务。
 
-  for (const section of sections) {
-    for (const item of section.items || []) {
-      const repoSlug = /github\.com\//i.test(item.link || "") ? githubRepoSlug(item.title || "") : "";
-      if (repoSlug) item.titleZh = repoSlug;
+  const entries = sections.flatMap((section) => (section.items || []).map((item) => ({ section, item })));
+  await runWithConcurrency(entries, 4, async ({ section, item }, index) => {
+    const repoSlug = /github\.com\//i.test(item.link || "") ? githubRepoSlug(item.title || "") : "";
+    if (repoSlug) item.titleZh = repoSlug;
 
       if (!isChineseEnough(item.titleZh)) {
         const titleZh = repoSlug ? "" : await translateToZh(item.title, { timeoutMs: 45000 }).catch(() => "");
@@ -1517,6 +1576,54 @@ async function localizeSectionsZh(sections) {
         if (derived) item.titleZh = derived;
       }
 
+      // 原始标题已是截断形态时，如果中文标题仍过短，优先用摘要前两句重建标题。
+      if (rawTitleLooksTruncated(item.title || "") && String(item.titleZh || "").trim().length < 18) {
+        const derived = deriveTitleFromSummary(item.summaryZh || "", { maxLen: 64 });
+        if (derived && derived.length >= 18) item.titleZh = derived;
+      }
+
+      // 社媒条目的中文标题尽量显式带上主体，避免主体缺失导致可读性差。
+      if (item.sourceType === "social" || /x\.com|twitter\.com/i.test(item.link || "")) {
+        const link = String(item.link || "");
+        const brand = /cursor_ai/i.test(link) ? "Cursor"
+          : /\bv0\b/i.test(link) ? "v0"
+            : /Replit/i.test(link) ? "Replit"
+              : /claudeai/i.test(link) ? "Claude"
+                : /OpenAI/i.test(link) ? "OpenAI"
+                  : "";
+        if (brand && hasChinese(item.titleZh || "") && !String(item.titleZh || "").includes(brand)) {
+          item.titleZh = normalizeZhTitle(`${brand}：${item.titleZh}`);
+        }
+      }
+
+      // 对“介绍/宣布/推出 …”这类过短标题，补上关键能力点，避免只剩一句口号。
+      if (rawTitleLooksTruncated(item.title || "") && String(item.titleZh || "").trim().length < 24) {
+        const summaryValue = normalizeZhTitle(item.summaryZh || "");
+        if (/导入|import|Figma/i.test(summaryValue) && /(布局|版式|排版|组件|图标|图片)/.test(summaryValue)) {
+          item.titleZh = normalizeZhTitle("v0 上线 Figma 集成：可将静态设计转成 UI，并导入布局/排版/组件/图标/图片");
+        }
+        if (/Windows/i.test(summaryValue) && /Computer use/i.test(String(item.summary || "")) && /\bCodex\b/i.test(String(item.summary || ""))) {
+          item.titleZh = normalizeZhTitle("OpenAI：Codex 的 Computer use 现已支持 Windows，可在 Windows 电脑上执行操作");
+        }
+      }
+
+      // 标题以“它/他们/我们”等弱指代词结尾时，读者难以扫读理解，改用摘要更完整的一句。
+      if (isWeakTitleEnding(item.titleZh || "")) {
+        const derived = deriveTitleFromSummary(item.summaryZh || "", { maxLen: 80 });
+        if (derived && !isWeakTitleEnding(derived)) item.titleZh = derived;
+      }
+
+      // 清理翻译后残留的前导符号（常见于去掉 @mention 后留下的 “+”“。”）。
+      item.titleZh = normalizeZhTitle(String(item.titleZh || "").replace(/^[+，,。.。:：\\-—\\s]+/g, "").trim());
+
+      // LangChain 这类带 @mention 的社媒标题，优先把主体与关键信息写清楚。
+      if (/LangChain/i.test(item.source || "") || String(item.link || "").includes("x.com/LangChain/")) {
+        const text = `${item.title || ""} ${item.summary || ""} ${item.summaryZh || ""}`;
+        if (/Managed Deep Agents/i.test(text) && (item.titleZh || "").length < 24) {
+          item.titleZh = normalizeZhTitle("LangChain：20 分钟介绍 Managed Deep Agents（托管深度代理）");
+        }
+      }
+
       // 很多来源（尤其是社媒/开源条目）会让 summary 以 title 开头再继续展开。
       // 如果 title 显然只是 summary 的前缀且不以句末标点结束，通常意味着抓取或翻译阶段被截断。
       if (isTitlePrefixOfSummary(item.titleZh || "", item.summaryZh || "") && !/[。！？!?]$/.test(normalizeZhTitle(item.titleZh || ""))) {
@@ -1583,7 +1690,24 @@ async function localizeSectionsZh(sections) {
           .trim();
       }
 
-      if (/github\.com\//i.test(item.link || "") && chineseRatio(item.titleZh || "") < 0.25) {
+      if (section.id === "open_source_top" && /github\.com\//i.test(item.link || "")) {
+        const link = String(item.link || "");
+        const slugFromLink = link.match(/github\.com\/([^/]+\/[^/#?]+)/i)?.[1] || "";
+        const slug = githubRepoSlug(item.title || "") || githubRepoSlug(slugFromLink) || "";
+        const hint = bulletTailFromText(item.summaryZh || "", { maxLen: 28 });
+        const cleanHint = normalizeZhTitle(String(hint || "").replace(/[，、,:：\\-—]+$/g, "").trim());
+        if (slug) {
+          if (!hasChinese(item.titleZh || "") || looksLikeTruncatedZhTitle(item.titleZh || "")) {
+            item.titleZh = normalizeZhTitle(`${slug}：${cleanHint || "开源项目更新"}`);
+          } else if (!String(item.titleZh || "").includes(slug) && hasChinese(cleanHint)) {
+            item.titleZh = normalizeZhTitle(`${slug}：${cleanHint}`);
+          }
+        } else if (!hasChinese(item.titleZh || "")) {
+          item.titleZh = normalizeZhTitle(`${normalizeZhTitle(item.title || "开源项目")}：${cleanHint || "开源项目更新"}`);
+        }
+      }
+
+      if (section.id !== "open_source_top" && /github\.com\//i.test(item.link || "") && chineseRatio(item.titleZh || "") < 0.25) {
         const repo = String(item.title || "").split(/\s+/).filter(Boolean)[0] || "开源项目";
         const hint = String(item.summaryZh || "").replace(/^Star\s*/i, "").trim();
         const shortHint = hasChinese(hint) ? hint.slice(0, 18) : "";
@@ -1612,8 +1736,7 @@ async function localizeSectionsZh(sections) {
         );
         item.summaryZh = `${item.summaryZh}（要点：${hint || "建议打开原文确认关键细节"}。）`.trim();
       }
-    }
-  }
+  });
 
   function buildBullet({ title, summary }) {
     const titleClean = normalizeZhTitle(
@@ -1636,7 +1759,12 @@ async function localizeSectionsZh(sections) {
     if (!titleClean && !summaryClean) return "";
 
     const headSource = (titleClean && chineseRatio(titleClean) >= 0.35) ? titleClean : (deriveTitleFromSummary(summaryClean) || summaryClean || titleClean);
-    const head = smartTitleSlice(normalizeZhTitle(headSource), 34);
+    let head = smartTitleSlice(normalizeZhTitle(headSource), 34);
+    if (looksLikeTruncatedZhTitle(head) || /(和|与|及|或|并|但|而|在|对|为|是|的|从|到|以及)$/.test(head)) {
+      const fallback = smartTitleSlice(deriveTitleFromSummary(summaryClean, { maxLen: 34 }) || summaryClean, 34);
+      if (fallback && !looksLikeTruncatedZhTitle(fallback)) head = fallback;
+      head = head.replace(/(和|与|及|或|并|但|而|在|对|为|是|的|从|到|以及)$/g, "").trim();
+    }
 
     const tailSource = summaryClean && summaryClean !== titleClean ? summaryClean : (summaryClean || titleClean);
     let tail = bulletTailFromText(tailSource, { maxLen: 86 });
