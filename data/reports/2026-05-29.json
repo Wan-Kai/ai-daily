@@ -1,13 +1,13 @@
 {
   "date": "2026-05-29",
-  "generatedAt": "2026-05-29T05:44:09.831Z",
+  "generatedAt": "2026-05-29T05:54:23.203Z",
   "title": "AI 日报 - 2026-05-29",
   "stats": {
-    "sources": 133,
-    "fetched": 1067,
+    "sources": 134,
+    "fetched": 1035,
     "emailCandidates": 0,
     "selected": 35,
-    "failures": 1
+    "failures": 14
   },
   "sections": [
     {
@@ -16,7 +16,7 @@
       "items": [
         {
           "title": "Introducing the Cursor Developer Habits Report. We’re sharing some of our findings on how software ...",
-          "titleZh": "介绍游标开发者习惯报告。我们正在分享一些关于软件如何......的发现",
+          "titleZh": "介绍游标开发者习惯报告。我们正在分享一些关于软件如何…的发现",
           "link": "https://x.com/cursor_ai/status/2060025063899058458",
           "publishedAt": "Thu, 28 May 2026 15:47:03 GMT",
           "source": "Cursor(@cursor_ai)",
@@ -26,7 +26,7 @@
           "trust": "official",
           "image": "",
           "video": "./media/2026-05-29-2060025063899058458.mp4",
-          "summary": "Introducing the Cursor Developer Habits Report. We’re sharing some of our findings on how software development is changing. It’s based on the most comprehensive dataset on AI coding in the world, across all model families. Your browser does not support the video tag. 🔗 View on Twitter 💬 52 🔄 137 ❤️ 1527 👀 111125 📊 304 ⚡ Powered by xgo.ing",
+          "summary": "Introducing the Cursor Developer Habits Report. We’re sharing some of our findings on how software development is changing. It’s based on the most comprehensive dataset on AI coding in the world, across all model families. Your browser does not support the video tag. 🔗 View on Twitter 💬 50 🔄 140 ❤️ 1542 👀 113299 📊 305 ⚡ Powered by xgo.ing",
           "summaryZh": "介绍游标开发者习惯报告。我们正在分享一些关于软件开发如何变化的发现。它基于世界上最全面的人工智能编码数据集，涵盖所有模型系列。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -48,7 +48,7 @@
           "trust": "official",
           "image": "",
           "video": "./media/2026-05-29-2060053796001399035.mp4",
-          "summary": "Attention, all you geniuses with products, but no marketing skills. Today we’re launching the Founder Starter Kit—4 skills that will help you look and sound like a legit company, including: > Build-a-Brand > App Screens > Product Sizzle > Founder Video Available for Claude via the Pika MCP. Your browser does not support the video tag. 🔗 View on Twitter 💬 49 🔄 81 ❤️ 825 👀 548284 📊 331 ⚡ Powered by xgo.ing",
+          "summary": "Attention, all you geniuses with products, but no marketing skills. Today we’re launching the Founder Starter Kit—4 skills that will help you look and sound like a legit company, including: > Build-a-Brand > App Screens > Product Sizzle > Founder Video Available for Claude via the Pika MCP. Your browser does not support the video tag. 🔗 View on Twitter 💬 50 🔄 82 ❤️ 846 👀 560359 📊 342 ⚡ Powered by xgo.ing",
           "summaryZh": "注意，你们都是产品天才，但没有营销技巧。今天，我们推出 Founder Starter Kit — 4 项技能，帮助您看起来和听起来像一家合法公司，包括： > 打造品牌 > 应用程序屏幕 > 产品热度 > 通过 Pika MCP 为 Claude 提供创始人视频。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -152,7 +152,7 @@
           "trust": "official",
           "image": "",
           "video": "./media/2026-05-29-2060042709209928018.mp4",
-          "summary": "In Claude Code, Opus 4.8 makes calls like an experienced engineer without needing constant check-ins. It stays on track across long-running sessions and follows work through in your repo, so you can hand off a feature or a bug sweep while you focus on what's next. Your browser does not support the video tag. 🔗 View on Twitter 💬 27 🔄 144 ❤️ 3147 👀 385753 📊 334 ⚡ Powered by xgo.ing",
+          "summary": "In Claude Code, Opus 4.8 makes calls like an experienced engineer without needing constant check-ins. It stays on track across long-running sessions and follows work through in your repo, so you can hand off a feature or a bug sweep while you focus on what's next. Your browser does not support the video tag. 🔗 View on Twitter 💬 28 🔄 151 ❤️ 3239 👀 402536 📊 344 ⚡ Powered by xgo.ing",
           "summaryZh": "在 Claude Code 中，Opus 4.8 像经验丰富的工程师一样进行调用，而无需不断签入。它在长时间运行的会话中保持正轨，并跟踪您的存储库中的工作，因此您可以在专注于下一步的同时交付功能或错误清除。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -172,7 +172,7 @@
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HJa4OYgWwAAlfWX.png",
           "video": "",
-          "summary": "Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more honesty about its own progress, and the ability to work independently for longer than its predecessors. Available today at the same price. 💬 3036 🔄 7779 ❤️ 60586 👀 10672346 📊 10350 ⚡ Powered by xgo.ing",
+          "summary": "Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more honesty about its own progress, and the ability to work independently for longer than its predecessors. Available today at the same price. 💬 3049 🔄 7809 ❤️ 60772 👀 10742266 📊 10386 ⚡ Powered by xgo.ing",
           "summaryZh": "隆重推出 Claude Opus 4.8：它建立在 Opus 4.7 的基础上，具有更敏锐的判断力、对自身进展更加诚实、以及比其前辈更长时间独立工作的能力。今天可以以同样的价格购买。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [],
@@ -399,7 +399,7 @@
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HJViBLWa4AAbIB-.jpg",
           "video": "",
-          "summary": "We’re hosting Vector Space Meetup: Retrieval in the Age of Agents on June 11. RAG is the architectural foundation of production AI, and retrieval has fundamentally changed over time. Agents don’t just retrieve anymore - they decide when to search, what to search for, and whether results are good enough to act on. We’re gathering builders shaping this shift: @cognee_ , @n8n_io , @deepset_ai , and @llama_index for a panel driven entirely by YOUR questions. You’ll also hear from Qdrant’s Co-Founder & CTO, @generall931 , who will join for open discussions and networking with attendees. Join us! Register (approval required): luma.com/vsm-berlin 💬 2 🔄 1 ❤️ 9 👀 387 📊 4 ⚡ Powered by xgo.ing",
+          "summary": "We’re hosting Vector Space Meetup: Retrieval in the Age of Agents on June 11. RAG is the architectural foundation of production AI, and retrieval has fundamentally changed over time. Agents don’t just retrieve anymore - they decide when to search, what to search for, and whether results are good enough to act on. We’re gathering builders shaping this shift: @cognee_ , @n8n_io , @deepset_ai , and @llama_index for a panel driven entirely by YOUR questions. You’ll also hear from Qdrant’s Co-Founder & CTO, @generall931 , who will join for open discussions and networking with attendees. Join us! Register (approval required): luma.com/vsm-berlin 💬 2 🔄 1 ❤️ 9 👀 391 📊 4 ⚡ Powered by xgo.ing",
           "summaryZh": "我们将于 6 月 11 日举办向量空间聚会：代理时代的检索。RAG 是生产 AI 的架构基础，随着时间的推移，检索已经发生了根本性的变化。代理不再只是检索 - 他们决定何时搜索、搜索什么以及结果是否足够好以采取行动。我们正在聚集塑造这一转变的建设者：@cognee_、@n8n_io、@deepset_ai 和 @llama_index ，组成一个完全由您的问题驱动的小组。您还将听到 Qdrant 联合创始人兼首席技术官 @generall931 的发言，他将参加公开讨论并与与会者建立联系。加入我们！注册（需要批准）：luma.com/vsm-berlin",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -407,7 +407,7 @@
             "智能体",
             "RAG"
           ],
-          "score": 52.96242883443894
+          "score": 52.96911034657831
         },
         {
           "title": "About 90% of enterprise data is unstructured, and most of it lives in documents. PDFs, spreadsheets,...",
@@ -421,14 +421,14 @@
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HJVimwdbEAAF3U_.jpg",
           "video": "",
-          "summary": "About 90% of enterprise data is unstructured, and most of it lives in documents. PDFs, spreadsheets, Word files, the stuff that runs businesses. Preston Carlson from @llama_index is coming to Vector Space Day to talk about why even frontier models struggle with real-world documents, and what better OCR and agent harnesses actually unlock. Vector Space Day is a full-day conference for engineers building the next generation of retrieval systems. Get your ticket for June 11 at The Midway, SF: luma.com/vsd-sf 💬 0 🔄 1 ❤️ 3 👀 153 📊 1 ⚡ Powered by xgo.ing",
+          "summary": "About 90% of enterprise data is unstructured, and most of it lives in documents. PDFs, spreadsheets, Word files, the stuff that runs businesses. Preston Carlson from @llama_index is coming to Vector Space Day to talk about why even frontier models struggle with real-world documents, and what better OCR and agent harnesses actually unlock. Vector Space Day is a full-day conference for engineers building the next generation of retrieval systems. Get your ticket for June 11 at The Midway, SF: luma.com/vsd-sf 💬 0 🔄 1 ❤️ 3 👀 157 📊 1 ⚡ Powered by xgo.ing",
           "summaryZh": "大约 90% 的企业数据是非结构化的，其中大部分存储在文档中。 PDF、电子表格、Word 文件，这些是经营业务的东西。来自 @llama_index 的 Preston Carlson 将出席向量空间日，讨论为什么即使是前沿模型也难以处理现实世界的文档，以及更好的 OCR 和代理工具实际上可以解锁什么。矢量空间日是为构建下一代检索系统的工程师举办的全天会议。获取 6 月 11 日在旧金山中途岛的门票：luma.com/vsd-sf",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型",
             "智能体"
           ],
-          "score": 48.2915810378945
+          "score": 48.308285587071445
         },
         {
           "title": "When RAG gives a wrong answer, the team's first move is usually a bigger model or more prompt tweaki...",
@@ -450,19 +450,19 @@
             "API",
             "RAG"
           ],
-          "score": 46.719370034964285
+          "score": 46.73911220405124
         },
         {
           "title": "obra/superpowers",
           "titleZh": "奥布拉/超级大国",
           "link": "https://github.com/obra/superpowers",
-          "publishedAt": "2026-05-29T05:44:09.831Z",
+          "publishedAt": "2026-05-29T05:54:23.203Z",
           "source": "GitHub Trending Daily",
           "sourceType": "open_source",
           "section": "open_source_top",
           "channel": "open_source_rank",
           "trust": "rank",
-          "image": "https://opengraph.githubassets.com/92ec72b396714eb79a8f99b8faf251b13122abf49ea04c6c198a01d68d5d9208/obra/superpowers",
+          "image": "",
           "video": "",
           "summary": "Sponsor Star obra / superpowers An agentic skills framework & software development methodology that works.",
           "summaryZh": "赞助商 Star obra / superpower 有效的代理技能框架和软件开发方法。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
@@ -476,13 +476,13 @@
           "title": "revfactory/harness",
           "titleZh": "改装厂/线束",
           "link": "https://github.com/revfactory/harness",
-          "publishedAt": "2026-05-29T05:44:09.831Z",
+          "publishedAt": "2026-05-29T05:54:23.203Z",
           "source": "GitHub Trending Daily",
           "sourceType": "open_source",
           "section": "open_source_top",
           "channel": "open_source_rank",
           "trust": "rank",
-          "image": "https://github.com/revfactory/harness/raw/main/harness_banner.png",
+          "image": "",
           "video": "",
           "summary": "Star revfactory / harness A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
           "summaryZh": "Star revfactory/harness 一种元技能，用于设计特定领域的代理团队、定义专业代理并生成他们使用的技能。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
@@ -520,7 +520,7 @@
             "推理能力",
             "评测"
           ],
-          "score": 84.66614979444626
+          "score": 84.70066428850976
         },
         {
           "title": "This #CVPR2026 paper from our research team is trending #1 on @HuggingFace 🤗 Meet LocateAnything: ...",
@@ -534,7 +534,7 @@
           "trust": "official",
           "image": "",
           "video": "./media/2026-05-29-2060058563544801787.mp4",
-          "summary": "This #CVPR2026 paper from our research team is trending #1 on @HuggingFace 🤗 Meet LocateAnything: a vision-language detection model that rethinks bounding box prediction. For AI agents and robots, “seeing” is only useful if a model can pinpoint where something is fast enough to act. Trained on 138M high-quality samples, LocateAnything decodes bounding boxes in parallel instead of one coordinate at a time, improving localization accuracy while dramatically increasing throughput for visual grounding and detection. Project page: nvda.ws/4dKSohb M Your browser does not support the video tag. 🔗 View on Twitter 💬 36 🔄 188 ❤️ 1187 👀 83577 📊 313 ⚡ Powered by xgo.ing",
+          "summary": "This #CVPR2026 paper from our research team is trending #1 on @HuggingFace 🤗 Meet LocateAnything: a vision-language detection model that rethinks bounding box prediction. For AI agents and robots, “seeing” is only useful if a model can pinpoint where something is fast enough to act. Trained on 138M high-quality samples, LocateAnything decodes bounding boxes in parallel instead of one coordinate at a time, improving localization accuracy while dramatically increasing throughput for visual grounding and detection. Project page: nvda.ws/4dKSohb M Your browser does not support the video tag. 🔗 View on Twitter 💬 37 🔄 190 ❤️ 1220 👀 87064 📊 322 ⚡ Powered by xgo.ing",
           "summaryZh": "**核心结论** 这篇论文围绕「我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：」提出了一个更具体的方向：我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：重新思考边界框预测的视觉语言检测模型。对于人工智能代理和机器人来说，只有当模型能够精确定位某事物的速度足以采取行动时，“看到”才有用。LocateAnything 经过 138M 高质量样本的训练，并行解码边界框而不是一次解码一个坐标，从而提高定位精度，同时显着提高视觉接地和检测的吞吐量。\n\n**支撑证据** 摘要与公开信息显示：我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：重新思考边界框预测的视觉语言检测模型。对于人工智能代理和机器人来说，只有当模型能够精确定位某事物的速度足以采取行动时，“看到”才有用。 LocateAnything 经过 138M 高质量样本的训练，并行解码边界框而不是一次解码一个坐标，从而提高定位精度，同时显着提高视觉接地和检测的吞吐量。项目页面：nvda.ws/4dKSohb M\n\n**我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -557,7 +557,7 @@
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "Also new in Claude Code: dynamic workflows (research preview). For the hardest tasks, Claude makes a plan, runs hundreds of parallel subagents, and verifies its work before reporting back. Think a migration touching hundreds of files. Read more: claude.com/blog/introduci… 💬 62 🔄 162 ❤️ 2787 👀 640052 📊 435 ⚡ Powered by xgo.ing",
+          "summary": "Also new in Claude Code: dynamic workflows (research preview). For the hardest tasks, Claude makes a plan, runs hundreds of parallel subagents, and verifies its work before reporting back. Think a migration touching hundreds of files. Read more: claude.com/blog/introduci… 💬 62 🔄 164 ❤️ 2814 👀 654112 📊 439 ⚡ Powered by xgo.ing",
           "summaryZh": "Claude Code 中的另一个新功能：动态工作流程（研究预览）。对于最困难的任务，克劳德制定计划，运行数百个并行子代理，并在返回报告之前验证其工作。想象一下涉及数百个文件的迁移。阅读更多：claude.com/blog/introduci...",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -577,7 +577,7 @@
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HJb0Vw0bUAAMTfW.png",
           "video": "",
-          "summary": "Grok Build 0.2.7 is now out, with /usage, /login, shared terminals across subagents, and improved image understanding See all updates at x.ai/build/changelog 💬 136 🔄 115 ❤️ 1118 👀 70400 📊 220 ⚡ Powered by xgo.ing",
+          "summary": "Grok Build 0.2.7 is now out, with /usage, /login, shared terminals across subagents, and improved image understanding See all updates at x.ai/build/changelog 💬 139 🔄 122 ❤️ 1152 👀 73376 📊 225 ⚡ Powered by xgo.ing",
           "summaryZh": "Grok Build 0.2.7 现已发布，具有 /usage、/login、跨子代理的共享终端以及改进的图像理解 查看所有更新 x.ai/build/changelog。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -620,7 +620,7 @@
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "R&D Part 1: Here to Win Your browser does not support the video tag. 🔗 View on Twitter 💬 145 🔄 110 ❤️ 2023 👀 271811 📊 351 ⚡ Powered by xgo.ing",
+          "summary": "R&D Part 1: Here to Win Your browser does not support the video tag. 🔗 View on Twitter 💬 145 🔄 111 ❤️ 2039 👀 276260 📊 353 ⚡ Powered by xgo.ing",
           "summaryZh": "研发第 1 部分：在这里获胜。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。这条内容属于系列化的研发叙事（视频/文章），通常会透露研发优先级、组织方式或下一步产品方向；即便当下文本信息有限，也值得打开原文确认关键信号与后续链接。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -662,7 +662,7 @@
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by @AltimeterCap , Dragoneer, @Greenoaks , and @sequoia . This investment will help us advance our research and expand our capacity to meet growing demand for Claude. 💬 910 🔄 1341 ❤️ 18236 👀 4301548 📊 2841 ⚡ Powered by xgo.ing",
+          "summary": "We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by @AltimeterCap , Dragoneer, @Greenoaks , and @sequoia . This investment will help us advance our research and expand our capacity to meet growing demand for Claude. 💬 914 🔄 1345 ❤️ 18343 👀 4355377 📊 2856 ⚡ Powered by xgo.ing",
           "summaryZh": "我们在 H 轮融资中筹集了 650 亿美元，投后估值为 9650 亿美元，由 、Dragoneer 、 和 领投。这项投资将帮助我们推进研究并扩大我们的能力，以满足对克劳德不断增长的需求。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -682,8 +682,8 @@
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "Earlier this month, our run-rate revenue crossed $47 billion. This growth has been driven by organizations across many industries deploying Claude in their core operations, and by a growing number of people using it for their everyday work. Read more: anthropic.com/news/series-h 💬 40 🔄 85 ❤️ 1276 👀 361988 📊 168 ⚡ Powered by xgo.ing",
-          "summaryZh": "本月早些时候，我们的运行收入突破了 470 亿美元。这种增长是由许多行业的组织在其核心运营中部署 Claude 以及越来越多的人在日常工作中使用 Claude 所推动的。阅读更多：anthropic.com/news/series-h。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "summary": "Earlier this month, our run-rate revenue crossed $47 billion. This growth has been driven by organizations across many industries deploying Claude in their core operations, and by a growing number of people using it for their everyday work. Read more: anthropic.com/news/series-h 💬 41 🔄 88 ❤️ 1317 👀 381262 📊 173 ⚡ Powered by xgo.ing",
+          "summaryZh": "本月早些时候，我们的运行收入突破了 470 亿美元。这种增长是由许多行业的组织在其核心运营中部署 Claude 以及越来越多的人在日常工作中使用 Claude 所推动的。了解更多：anthropic.com/news/series-h。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [],
           "score": 59
@@ -771,16 +771,81 @@
   ],
   "failures": [
     {
+      "source": "Anthropic News",
+      "url": "https://rsshub.bestblogs.dev/anthropic/news",
+      "error": "fetch failed"
+    },
+    {
+      "source": "OpenAI Developers(@OpenAIDevs)",
+      "url": "https://api.xgo.ing/rss/user/971dc1fc90da449bac23e5fad8a33d55",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Greg Brockman(@gdb)",
+      "url": "https://api.xgo.ing/rss/user/af19d054e26a49129f23abfa82d9e268",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Yann LeCun(@ylecun)",
+      "url": "https://api.xgo.ing/rss/user/f5f4f928dede472ea55053672ad27ab6",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Thomas Wolf(@Thom_Wolf)",
+      "url": "https://api.xgo.ing/rss/user/4918efb13c47459b8dcaa79cfdf72d09",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Logan Kilpatrick(@OfficialLoganK)",
+      "url": "https://api.xgo.ing/rss/user/4f63d960de644aeebd0aa97e4994dafe",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Rowan Cheung(@rowancheung)",
+      "url": "https://api.xgo.ing/rss/user/a636de3cbda0495daabd15b9fd298614",
+      "error": "fetch failed"
+    },
+    {
+      "source": "李继刚(@lijigang_com)",
+      "url": "https://api.xgo.ing/rss/user/ca2fa444b6ea4b8b974fe148056e497a",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Demis Hassabis(@demishassabis)",
+      "url": "https://api.xgo.ing/rss/user/4a884d5e2f3740c5a26c9c093de6388a",
+      "error": "fetch failed"
+    },
+    {
+      "source": "bolt.new(@boltdotnew)",
+      "url": "https://api.xgo.ing/rss/user/760ab7cd9708452c9ce1f9144b92a430",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Google DeepMind(@GoogleDeepMind)",
+      "url": "https://api.xgo.ing/rss/user/a99538443a484fcc846bdcc8f50745ec",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Fireworks AI(@FireworksAI_HQ)",
+      "url": "https://api.xgo.ing/rss/user/9f35c76341554bd78c2b9e63dc4fa5d8",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Gary Marcus(@GaryMarcus)",
+      "url": "https://api.xgo.ing/rss/user/35a38c5646d946fb894d8c30c1d9629e",
+      "error": "fetch failed"
+    },
+    {
       "source": "Folo AI Community Discussions",
       "url": "https://api.folo.is/entries",
       "error": "fetch failed"
     }
   ],
   "summaryBullets": [
-    "**Qwen3.7-Max 刚刚在 ITbe**：nch-AA 上排名第三，这是一个新的基准测试，测试模型如何以代理方式处理现实世界的企业 IT 任务。代理时代，跟Qwen一起吧",
-    "**介绍游标开发者习惯报告。我们正在分享一些**：关于软件开发如何变化的发现",
-    "**无需 45 分钟的 YouTube 视频**：即可解释 AI 代理的词汇。不客气",
-    "**我们将于 6 月 11 日举办向量空间聚**：会：代理时代的检索。RAG 是生产 AI 的架构基础，随着时间的推移，检索已经发生了根本性的变化",
-    "**大约 90% 的企业数据是非结构化的，其**：中大部分存储在文档中。PDF、电子表格、Word 文件，这些是经营业务的东西"
+    "**Qwen3.7-Max 刚刚在 ITbench-AA 上**：排名第三，这是一个新的基准测试，测试模型如何以代理方式处理现实世界的企业 IT 任务。代理时代，跟Qwen一起吧",
+    "**介绍游标开发者习惯报告。我们正在分享一些关于软件如何…的**：介绍游标开发者习惯报告。我们正在分享一些关于软件开发如何变化的发现",
+    "**无需 45 分钟的 YouTube 视频即可解释 AI**：代理的词汇。不客气",
+    "**我们将于 6 月 11 日举办向量空间聚会：代理时代的检**：索。RAG 是生产 AI 的架构基础，随着时间的推移，检索已经发生了根本性的变化",
+    "**大约 90% 的企业数据是非结构化的，其中大部分存储在文**：档中。PDF、电子表格、Word 文件，这些是经营业务的东西"
   ]
 }

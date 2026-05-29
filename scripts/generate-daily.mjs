@@ -1483,7 +1483,7 @@ async function localizeSectionsZh(sections) {
     if (!titleClean && !summaryClean) return "";
 
     const headSource = (titleClean && chineseRatio(titleClean) >= 0.35) ? titleClean : (deriveTitleFromSummary(summaryClean) || summaryClean || titleClean);
-    const head = normalizeZhTitle(headSource).slice(0, 20);
+    const head = smartSlice(normalizeZhTitle(headSource), 28);
 
     const tailSource = summaryClean && summaryClean !== titleClean ? summaryClean : (summaryClean || titleClean);
     let tail = bulletTailFromText(tailSource, { maxLen: 86 });
