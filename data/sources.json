@@ -1549,6 +1549,19 @@
     "enabled": true
   },
   {
+    "name": "meng shao(@shao__meng)",
+    "url": "https://nitter.net/shao__meng/rss",
+    "kind": "rss",
+    "type": "social",
+    "section": "social_shares",
+    "channel": "social",
+    "trust": "expert",
+    "weight": 5,
+    "lookbackDays": 3,
+    "timeoutMs": 20000,
+    "enabled": true
+  },
+  {
     "name": "Hugging Face Daily Papers",
     "url": "https://huggingface.co/papers/date/{date}",
     "kind": "huggingface_papers",

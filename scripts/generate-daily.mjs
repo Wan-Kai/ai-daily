@@ -348,7 +348,9 @@ async function fetchText(url, timeoutMs = 15000) {
       }
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    return await response.text();
+    const text = await response.text();
+    if (!text && /nitter\.net/i.test(url)) throw new Error(`Empty response: ${url}`);
+    return text;
   })();
 
   try {
@@ -535,7 +537,7 @@ async function fetchTextWithProxyFallback(url, timeoutMs = 15000) {
   try {
     return await fetchText(url, timeoutMs);
   } catch (error) {
-    if (!/(huggingface\.co|github\.com|github\.blog|arxiv\.org|google|amazonaws\.com|aws\.amazon\.com|xiaoyuzhoufm\.com)/i.test(url)) throw error;
+    if (!/(huggingface\.co|github\.com|github\.blog|arxiv\.org|google|amazonaws\.com|aws\.amazon\.com|xiaoyuzhoufm\.com|nitter\.net)/i.test(url)) throw error;
     return fetchTextViaCurlProxy(url, timeoutMs, error);
   }
 }
@@ -561,6 +563,8 @@ async function fetchTextViaCurlProxy(url, timeoutMs, originalError) {
         "10",
         "--max-time",
         String(Math.ceil(timeoutMs / 1000)),
+        "-A",
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125 Safari/537.36",
         "--proxy",
         proxy,
         url
@@ -1226,10 +1230,24 @@ async function translateToZh(text, { timeoutMs = 60000 } = {}) {
 function normalizeZhTitle(text = "") {
   return String(text || "")
     .replace(/\s+/g, " ")
+    .replace(/\.{4,}/g, "…")
+    .replace(/\.{3}/g, "…")
     .replace(/[。．]\s*\.{3,}$/g, "。")
     .replace(/\s*\.{3,}\s*$/g, "")
     .replace(/\s*…\s*$/g, "")
     .trim();
+}
+
+function smartSlice(text = "", maxLen = 44) {
+  const value = String(text || "");
+  if (value.length <= maxLen) return value;
+  let cut = value.slice(0, maxLen);
+  const next = value[maxLen] || "";
+  if (/[A-Za-z0-9]/.test(cut[cut.length - 1] || "") && /[A-Za-z0-9]/.test(next)) {
+    const backtrack = cut.lastIndexOf(" ");
+    if (backtrack >= Math.max(0, maxLen - 12)) cut = cut.slice(0, backtrack);
+  }
+  return cut.trim();
 }
 
 function chineseSentenceCount(text = "") {
@@ -1251,7 +1269,7 @@ function deriveTitleFromSummary(summaryZh = "", { maxLen = 44 } = {}) {
   const firstLine = value.split(/[\n\r]+/)[0].trim();
   const firstSentence = firstLine.split(/[。！？!?]/)[0].trim();
   const picked = firstSentence.length >= 8 ? firstSentence : firstLine;
-  const title = normalizeZhTitle(picked).slice(0, maxLen);
+  const title = smartSlice(normalizeZhTitle(picked), maxLen);
   return title.length >= 6 ? title : "";
 }
 
@@ -1270,7 +1288,7 @@ function bulletTailFromText(text = "", { maxLen = 86 } = {}) {
     .map((part) => part.trim())
     .filter(Boolean);
   const picked = sentences.slice(0, 2).join("。") || firstLine;
-  return normalizeZhTitle(picked).slice(0, maxLen);
+  return smartSlice(normalizeZhTitle(picked), maxLen);
 }
 
 function ensureResearchPyramidSummary(summaryZh = "") {
