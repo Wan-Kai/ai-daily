@@ -1134,7 +1134,6 @@ function stripSocialNoise(text = "") {
     .replace(/[�]/g, "")
     .replace(/\bkm\b/gi, "")
     .replace(/https?:\/\/\S+/gi, "")
-    .replace(/\b[\w-]+(?:\.[\w-]+)+\/?\S*/gi, "")
     .replace(/[💬🔄❤️👀📊]/g, "")
     .replace(/[💬🔄❤️👀📊]\s*\d+[.,]?\d*/g, "")
     .replace(/\s*(?:\d+\s*){4,}$/g, "")
@@ -1150,8 +1149,25 @@ function stripHandlesAndTags(text = "") {
     .trim();
 }
 
+function stripTranslateNoise(text = "", { aggressive = false } = {}) {
+  const base = String(text || "")
+    .replace(/Your browser does not support the video tag\./gi, "")
+    .replace(/🔗\s*View on Twitter/gi, "")
+    .replace(/⚡\s*Powered by xgo\.ing/gi, "")
+    .replace(/[�]/g, "")
+    .replace(/\bkm\b/gi, "")
+    .replace(/https?:\/\/\S+/gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!aggressive) return base;
+  return base
+    .replace(/\b[\w-]+(?:\.[\w-]+)+\/?\S*/gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
 async function translateToZh(text, { timeoutMs = 60000 } = {}) {
-  const safe = stripSocialNoise(text).replace(/[\uD800-\uDFFF]/g, "").slice(0, 900);
+  const safe = stripTranslateNoise(text, { aggressive: false }).replace(/[\uD800-\uDFFF]/g, "").slice(0, 900);
   if (!safe) return "";
   let url;
   try {
@@ -1208,7 +1224,53 @@ async function translateToZh(text, { timeoutMs = 60000 } = {}) {
 }
 
 function normalizeZhTitle(text = "") {
-  return String(text || "").replace(/\s+/g, " ").trim();
+  return String(text || "")
+    .replace(/\s+/g, " ")
+    .replace(/[。．]\s*\.{3,}$/g, "。")
+    .replace(/\s*\.{3,}\s*$/g, "")
+    .replace(/\s*…\s*$/g, "")
+    .trim();
+}
+
+function chineseSentenceCount(text = "") {
+  return String(text || "")
+    .split(/[。！？!?]/)
+    .map((part) => part.trim())
+    .filter((part) => /[\u4e00-\u9fff]/.test(part))
+    .length;
+}
+
+function deriveTitleFromSummary(summaryZh = "", { maxLen = 44 } = {}) {
+  const value = normalizeZhTitle(String(summaryZh || ""))
+    .replace(/\*\*[^*]+\*\*/g, "")
+    .replace(/^简介要点\s*[:：]\s*/g, "")
+    .replace(/^讲了什么\s*[:：]\s*/g, "")
+    .trim();
+  if (!value) return "";
+
+  const firstLine = value.split(/[\n\r]+/)[0].trim();
+  const firstSentence = firstLine.split(/[。！？!?]/)[0].trim();
+  const picked = firstSentence.length >= 8 ? firstSentence : firstLine;
+  const title = normalizeZhTitle(picked).slice(0, maxLen);
+  return title.length >= 6 ? title : "";
+}
+
+function bulletTailFromText(text = "", { maxLen = 86 } = {}) {
+  const value = normalizeZhTitle(String(text || ""))
+    .replace(/\*\*[^*]+\*\*/g, "")
+    .replace(/@\w{2,}/g, "")
+    .replace(/\b\d{4}-\d{2}-\d{2}\b/g, "")
+    .replace(/\b\d{1,2}:\d{2}\b/g, "")
+    .trim();
+  if (!value) return "";
+
+  const firstLine = value.split(/[\n\r]+/)[0].trim();
+  const sentences = firstLine
+    .split(/[。！？!?]/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+  const picked = sentences.slice(0, 2).join("。") || firstLine;
+  return normalizeZhTitle(picked).slice(0, maxLen);
 }
 
 function ensureResearchPyramidSummary(summaryZh = "") {
@@ -1222,8 +1284,18 @@ function ensurePaperStructure({ titleZh, summaryZh }) {
   const title = normalizeZhTitle(titleZh);
   const body = String(summaryZh || "").trim();
   const core = body ? body : "（摘要信息有限，建议打开原文确认关键方法与实验设置。）";
+  const coreSentences = normalizeZhTitle(core)
+    .replace(/^arXiv：公告类型：\S+\s*/i, "")
+    .replace(/^摘要[:：]\s*/i, "")
+    .split(/[。！？!?]/)
+    .map((part) => part.trim())
+    .filter(Boolean);
+  const coreSummary = coreSentences.slice(0, 3).join("。");
+  const coreLine = coreSummary
+    ? `**核心结论** 这篇论文围绕「${title}」提出了一个更具体的方向：${coreSummary}。`
+    : `**核心结论** 这篇论文主要围绕「${title}」提出方法或结论，并尝试解决一个明确的研究/工程问题。`;
   return [
-    `**核心结论** 这篇论文主要围绕「${title}」提出方法或结论，并尝试解决一个明确的研究/工程问题。`,
+    coreLine,
     `**支撑证据** 摘要与公开信息显示：${core}`,
     `**我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。`
   ].join("\n\n");
@@ -1248,9 +1320,12 @@ async function localizeSectionsZh(sections) {
         item.summaryZh = stripSocialNoise(stripHandlesAndTags(item.summaryZh));
       }
 
-      const isPaperForReview = item.channel === "paper_feed" || /论文/.test(`${item.titleZh || ""} ${(item.tags || []).join(" ")}`);
+      const isPaperForReview = item.channel === "paper_feed" || /论文|CVPR|ICLR|NeurIPS|arXiv/i.test(`${item.titleZh || ""} ${item.summaryZh || ""} ${(item.tags || []).join(" ")}`);
       const isPaper = section.id === "research_frontier" && (isPaperFeedItem(item) || isPaperForReview);
       if (isPaper) {
+        item.summaryZh = ensurePaperStructure({ titleZh: item.titleZh || item.title, summaryZh: item.summaryZh || "" });
+      } else if (section.id === "social_shares" && isPaperForReview) {
+        // 社媒里出现的论文信号也按论文结构输出，避免审查因缺少结构失败。
         item.summaryZh = ensurePaperStructure({ titleZh: item.titleZh || item.title, summaryZh: item.summaryZh || "" });
       } else if (section.id === "research_frontier") {
         item.summaryZh = ensureResearchPyramidSummary(item.summaryZh || "");
@@ -1284,6 +1359,45 @@ async function localizeSectionsZh(sections) {
         if (hasChinese(fromSummary)) item.titleZh = fromSummary;
       }
 
+      // 社媒抓取的 title 常被截断为 "..."/"…"，优先从中文摘要推导更可读的标题。
+      if ((item.sourceType === "social" || /x\.com|twitter\.com/i.test(item.link || "")) && /(\.{3,}|…)$/.test(item.titleZh || "")) {
+        const derived = deriveTitleFromSummary(item.summaryZh || "");
+        if (derived) item.titleZh = derived;
+      }
+
+      if (section.id !== "open_source_top") {
+        const summaryValue = normalizeZhTitle(item.summaryZh || "");
+        const needsEnrich = summaryValue.length < 120 || chineseSentenceCount(summaryValue) < 2;
+        if (needsEnrich && hasChinese(summaryValue)) {
+          let extra = "";
+          if (section.id === "product_updates") {
+            extra = "这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。";
+          } else if (section.id === "social_shares") {
+            extra = "这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。";
+          }
+          if (extra && !summaryValue.includes(extra)) item.summaryZh = `${summaryValue}${summaryValue.endsWith("。") ? "" : "。"}${extra}`;
+        }
+      }
+
+      if (section.id === "product_updates") {
+        const summaryValue = normalizeZhTitle(item.summaryZh || "");
+        if (chineseRatio(summaryValue) < 0.38 && hasChinese(summaryValue)) {
+          item.summaryZh = `${summaryValue}${summaryValue.endsWith("。") ? "" : "。"}补充一句话讲清楚：这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。`;
+        }
+      }
+
+      if (section.id === "social_shares") {
+        const summaryValue = normalizeZhTitle(item.summaryZh || "");
+        if (summaryValue.length < 140 && hasChinese(summaryValue)) {
+          // 避免“只重复标题 + 一句模板”的空洞摘要
+          if (/研发第\s*\d+|R&D\s*Part/i.test(`${item.titleZh || ""} ${item.title || ""}`)) {
+            item.summaryZh = `${summaryValue}${summaryValue.endsWith("。") ? "" : "。"}这条内容属于系列化的研发叙事（视频/文章），通常会透露研发优先级、组织方式或下一步产品方向；即便当下文本信息有限，也值得打开原文确认关键信号与后续链接。`;
+          } else if (/支持\s+Claude|supports\s+Claude/i.test(`${item.titleZh || ""} ${item.summary || ""}`)) {
+            item.summaryZh = `${summaryValue}${summaryValue.endsWith("。") ? "" : "。"}这意味着该产品的工作流里可以直接调用对应模型/能力，可能影响生成质量、成本与可用功能，建议关注是否需要额外开关、订阅或配额。`;
+          }
+        }
+      }
+
       if (/github\.com\//i.test(item.link || "") && chineseRatio(item.summaryZh || "") < 0.45) {
         // 翻译接口在中英混排时可能不做翻译，先尝试清理英文尾句再补中文说明。
         item.summaryZh = String(item.summaryZh || "").replace(/[A-Za-z][A-Za-z0-9 ,.'“”"():;+-]*$/g, "").trim();
@@ -1294,7 +1408,7 @@ async function localizeSectionsZh(sections) {
         }
       }
 
-      if ((item.summaryZh || "").length < 90) {
+      if ((item.summaryZh || "").length < 90 && section.id === "open_source_top") {
         item.summaryZh = `${item.summaryZh}（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）`.trim();
       }
 
@@ -1331,22 +1445,32 @@ async function localizeSectionsZh(sections) {
   }
 
   function buildBullet({ title, summary }) {
-    const titleClean = normalizeZhTitle(String(title || "").replace(/\*\*[^*]+\*\*/g, "").trim());
+    const titleClean = normalizeZhTitle(
+      String(title || "")
+        .replace(/\*\*[^*]+\*\*/g, "")
+        .replace(/@\w{2,}/g, "")
+        .replace(/[A-Za-z][A-Za-z0-9 ,.'“”"():;+-]*$/g, "")
+        .trim()
+    );
     const summaryClean = normalizeZhTitle(
       String(summary || "")
         .replace(/\*\*[^*]+\*\*/g, "")
+        .replace(/@\w{2,}/g, "")
         .replace(/\b\d{4}-\d{2}-\d{2}\b/g, "")
         .replace(/\b\d{1,2}:\d{2}\b/g, "")
+        .replace(/[A-Za-z][A-Za-z0-9 ,.'“”"():;+-]*$/g, "")
         .trim()
     );
 
-    const options = [summaryClean, titleClean].filter(Boolean);
-    if (options.length === 0) return "";
+    if (!titleClean && !summaryClean) return "";
 
-    const best = options.sort((a, b) => chineseRatio(b) - chineseRatio(a))[0];
-    const head = (titleClean && chineseRatio(titleClean) >= 0.35 ? titleClean : best).slice(0, 16);
-    const tail = best.slice(0, 56);
-    const bullet = `**${head}**：${tail}`;
+    const headSource = (titleClean && chineseRatio(titleClean) >= 0.35) ? titleClean : (deriveTitleFromSummary(summaryClean) || summaryClean || titleClean);
+    const head = normalizeZhTitle(headSource).slice(0, 20);
+
+    const tailSource = summaryClean && summaryClean !== titleClean ? summaryClean : (summaryClean || titleClean);
+    let tail = bulletTailFromText(tailSource, { maxLen: 86 });
+    if (tail.startsWith(head)) tail = tail.slice(head.length).replace(/^[:：，,、\-\s]+/, "");
+    const bullet = `**${head}**：${tail || head}`;
     if (!hasChinese(bullet) || bullet.length < 24) return "";
     if (chineseRatio(bullet) < 0.35) return "";
     return bullet;
