@@ -1266,6 +1266,9 @@ function looksLikeTruncatedZhTitle(titleZh = "") {
   if (/(\.{3,}|…)$/.test(value)) return true;
   if (/(和|与|及|或|并|但|而|在|对|为|是|的|从|到|以及)$/.test(value)) return true;
   if (value.includes("…") && value.length > 14) return true;
+  if (!/[。！？!?]$/.test(value) && /[A-Za-z]$/.test(value)) return true;
+  if (!/[。！？!?]$/.test(value) && /(我|你|他|她|它|们|了|着|把|将|让|给|为|在|对)$/.test(value)) return true;
+  if (/我们已经让.{0,2}$/.test(value)) return true;
   // 句号后紧跟短残句（常见于抓取/翻译的截断）
   if (value.includes("。")) {
     const parts = value.split("。").map((part) => part.trim()).filter(Boolean);
@@ -1410,7 +1413,7 @@ async function localizeSectionsZh(sections) {
 
       // 标题虽然没有以省略号结尾，但语义上明显是“半句被截断”（例如以“和/与/并/在/的”结尾）。
       if (item.sourceType === "social" && looksLikeTruncatedZhTitle(item.titleZh || "")) {
-        const derived = deriveTitleFromSummary(item.summaryZh || "", { maxLen: 36 });
+        const derived = deriveTitleFromSummary(item.summaryZh || "", { maxLen: 80 });
         if (derived) item.titleZh = derived;
       }
 
@@ -1431,7 +1434,7 @@ async function localizeSectionsZh(sections) {
       if (section.id === "product_updates") {
         const summaryValue = normalizeZhTitle(item.summaryZh || "");
         if (chineseRatio(summaryValue) < 0.38 && hasChinese(summaryValue)) {
-          item.summaryZh = `${summaryValue}${summaryValue.endsWith("。") ? "" : "。"}补充一句话讲清楚：这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。`;
+          item.summaryZh = `${summaryValue}${summaryValue.endsWith("。") ? "" : "。"}这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。`;
         }
       }
 
