@@ -557,6 +557,7 @@ async function fetchTextViaCurlProxy(url, timeoutMs, originalError) {
     try {
       const { stdout } = await execFileAsync("curl", [
         "-L",
+        "--http1.1",
         "--silent",
         "--show-error",
         "--connect-timeout",
@@ -1382,6 +1383,13 @@ async function localizeSectionsZh(sections) {
       if ((item.sourceType === "social" || /x\.com|twitter\.com/i.test(item.link || "")) && /(\.{3,}|…)$/.test(item.titleZh || "")) {
         const derived = deriveTitleFromSummary(item.summaryZh || "");
         if (derived) item.titleZh = derived;
+      }
+
+      // 翻译后的标题有时会把被截断位置翻成“……/…”（例如“软件如何…的发现”），但摘要里是完整句子。
+      // 这种情况下直接用摘要首句生成标题，可显著改善可读性。
+      if ((item.titleZh || "").includes("…") && !(item.summaryZh || "").includes("…")) {
+        const derived = deriveTitleFromSummary(item.summaryZh || "");
+        if (derived && !derived.includes("…")) item.titleZh = derived;
       }
 
       if (section.id !== "open_source_top") {
