@@ -90,6 +90,58 @@ function normalizedTitleKey(title = "") {
     .toLowerCase();
 }
 
+function rawTitleLooksTruncated(title = "") {
+  const value = String(title || "").trim();
+  if (!value) return false;
+  return /(\.{3,}|…)\s*$/.test(value) || /\b(?:and|or|with|for|to|from|in|on|at|by|of|the|a|an)\s*$/i.test(value);
+}
+
+function zhTitleLooksTruncated(title = "") {
+  const value = String(title || "").trim();
+  if (!value) return false;
+  if (/(\.{3,}|…)$/.test(value)) return true;
+  if (/[，、,:：\-—]$/.test(value)) return true;
+  if (/(和|与|及|或|并|但|而|在|对|为|是|的|从|到|以及|定义|用于|包括|例如|比如|可供|可以|如何)$/.test(value)) return true;
+  if (/[→>]\s*[\u4e00-\u9fffA-Za-z0-9]{1,3}$/.test(value) && !/[。！？!?]$/.test(value)) return true;
+  if (!/[。！？!?]$/.test(value) && /(我|你|他|她|它|们|了|着|把|将|让|给|为|在|对)$/.test(value)) return true;
+  if (/^这篇论文围绕「.+」提出了一个更具体的$/.test(value)) return true;
+  return false;
+}
+
+function translationQualityIssues(item, section) {
+  const context = `${item.title || ""} ${item.titleZh || ""} ${item.summary || ""} ${item.summaryZh || ""} ${item.source || ""}`;
+  const displayText = `${item.titleZh || ""} ${item.summaryZh || ""}`;
+  const issues = [];
+  const checks = [
+    [/法学硕士/, "LLM 被误译为「法学硕士」。"],
+    [/游标/, "Cursor 被误译为「游标」。"],
+    [/克劳德/, "Claude 被误译为「克劳德」。"],
+    [/浪链/, "LangChain 被误译为「浪链」。"],
+    [/公告类型[:：]|Announce Type|摘要[:：]\s*arXiv|\\textbf|\\[a-zA-Z]+/, "摘要包含论文抓取/LaTeX 噪音。"],
+    [/步骤\s*3\.7/, "Step 3.7 被误译为「步骤 3.7」。"],
+    [/签入/, "check-in 被误译为「签入」。"],
+    [/更及时的调整/, "prompt tweaking 被误译为「更及时的调整」。"],
+    [/同一型号/, "model 被误译为「型号」。"],
+    [/活动参数/, "active params 被误译为「活动参数」。"],
+    [/这跟踪/, "This tracks 被直译为「这跟踪」。"],
+    [/数据集\s*1\.0a/i, "Datasette 被误译为「数据集」。"]
+  ];
+  for (const [pattern, message] of checks) {
+    if (pattern.test(displayText)) issues.push(message);
+  }
+  if (rawTitleLooksTruncated(item.title || "") && zhTitleLooksTruncated(item.titleZh || "")) {
+    issues.push("原始标题已被截断，中文标题仍像半句话，需要从摘要或原文重写。");
+  } else if (rawTitleLooksTruncated(item.title || "") && String(item.titleZh || "").length < 18) {
+    issues.push("原始标题已被截断，中文标题过短，可能只翻译了半截标题。");
+  } else if (zhTitleLooksTruncated(item.titleZh || "")) {
+    issues.push("中文标题疑似被截断或停在半句话。");
+  }
+  if (section.id === "research_frontier" && /^(\*\*核心结论\*\*\s*)?这篇论文围绕「.+」提出了一个更具体的方向/.test(item.summaryZh || "")) {
+    issues.push("研究/论文摘要仍是模板句式，没有直接说清论文或文章的核心结论。");
+  }
+  return issues;
+}
+
 function previousDate(date) {
   const parsed = new Date(`${date}T00:00:00+08:00`);
   parsed.setDate(parsed.getDate() - 1);
@@ -202,6 +254,13 @@ function validateDailySummary(issues, report) {
     if (String(bullet).length < 28) {
       add(issues, null, `今日摘要过短，需要能概括当天主线：${bullet}`);
     }
+    if (/法学硕士|游标|克劳德|浪链|步骤\s*3\.7|签入|更及时的调整|同一型号|活动参数|这跟踪|数据集\s*1\.0a/i.test(bullet)) {
+      add(issues, null, `今日摘要包含常见误译或直译痕迹：${bullet}`);
+    }
+    const boldHead = String(bullet).match(/\*\*([^*]+)\*\*/)?.[1] || "";
+    if (zhTitleLooksTruncated(boldHead)) {
+      add(issues, null, `今日摘要标题疑似被截断：${bullet}`);
+    }
   }
 }
 
@@ -275,6 +334,9 @@ function reviewItem(issues, section, item) {
   if (summaryZh.length < 70) add(issues, item, "摘要过短，需要讲清楚发生了什么以及为什么值得关注。");
   if (/Your browser does not support|View on Twitter|Powered by xgo\.ing|💬|🔄|❤️|👀|📊|来自.+的(?:资讯|社媒)/i.test(summaryZh)) {
     add(issues, item, "摘要包含播放器/社媒指标/模板前缀等不应展示给用户的噪音。");
+  }
+  for (const message of translationQualityIssues(item, section)) {
+    add(issues, item, message);
   }
   if (section.id === "research_frontier" && !/核心结论|结论|要点|价值|支撑|结果|数据显示|案例/i.test(summaryZh)) {
     add(issues, item, "研究类摘要需要按金字塔原理写出核心结论与支撑信息。");

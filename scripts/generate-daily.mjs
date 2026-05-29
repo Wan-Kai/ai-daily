@@ -1239,6 +1239,51 @@ function normalizeZhTitle(text = "") {
     .trim();
 }
 
+function rawTitleLooksTruncated(title = "") {
+  const value = String(title || "").trim();
+  if (!value) return false;
+  return /(\.{3,}|…)\s*$/.test(value) || /\b(?:and|or|with|for|to|from|in|on|at|by|of|the|a|an)\s*$/i.test(value);
+}
+
+function repairCommonTranslationErrors(text = "", item = {}) {
+  let value = String(text || "");
+  if (!value) return value;
+  const context = `${item.title || ""} ${item.titleZh || ""} ${item.summary || ""} ${item.source || ""} ${item.link || ""}`;
+
+  value = value
+    .replace(/法学硕士/g, "LLM")
+    .replace(/大型语言模型\s*\(MLLM\)/g, "多模态大语言模型（MLLM）")
+    .replace(/大型语言模型/g, "大语言模型")
+    .replace(/克劳德/g, "Claude")
+    .replace(/代币/g, "token")
+    .replace(/同一型号/g, "同一个模型")
+    .replace(/活动参数/g, "活跃参数")
+    .replace(/更及时的调整/g, "调 prompt")
+    .replace(/提示调整/g, "prompt 调整")
+    .replace(/签入/g, "确认")
+    .replace(/应用程序/g, "应用")
+    .replace(/运行收入/g, "收入运行率")
+    .replace(/这跟踪/g, "这说得通")
+    .replace(/公告类型[:：]\s*\S+\s*/g, "")
+    .replace(/摘要[:：]\s*/g, "")
+    .replace(/\\textbf\{([^}]+)\}/g, "$1")
+    .replace(/\\[a-zA-Z]+\*?(?:\[[^\]]*\])?(?:\{([^}]*)\})?/g, "$1")
+    .replace(/\s+([，。；：！？、])/g, "$1")
+    .replace(/([（(])\s+/g, "$1")
+    .replace(/\s+([）)])/g, "$1")
+    .replace(/。。+/g, "。")
+    .replace(/\s+/g, " ")
+    .trim();
+
+  if (/Cursor/i.test(context)) value = value.replace(/游标/g, "Cursor");
+  if (/LangChain/i.test(context)) value = value.replace(/浪链/g, "LangChain").replace(/LangChain 学院/g, "LangChain Academy");
+  if (/Datasette/i.test(context)) value = value.replace(/^数据集(\s*\d)/, "Datasette$1").replace(/版本[:：]\s*datasette/i, "Datasette");
+  if (/Step(?:Fun)?|Step\s*3\.7/i.test(context)) value = value.replace(/步骤\s*3\.7/g, "Step 3.7").replace(/StepFun\s*⚡\s*步骤/g, "StepFun：Step");
+  if (/Claude Code|Claude/i.test(context)) value = value.replace(/无需不断确认/g, "不需要频繁人工确认");
+
+  return value.trim();
+}
+
 function smartSlice(text = "", maxLen = 44) {
   const value = String(text || "");
   if (value.length <= maxLen) return value;
@@ -1250,6 +1295,28 @@ function smartSlice(text = "", maxLen = 44) {
     if (backtrack >= Math.max(0, maxLen - 20)) cut = cut.slice(0, backtrack);
   }
   return cut.trim();
+}
+
+function smartTitleSlice(text = "", maxLen = 44) {
+  const value = String(text || "").trim();
+  if (!value) return "";
+  if (value.length <= maxLen) return value;
+  let cut = smartSlice(value, maxLen);
+  // 尽量不要把中文标题截断在“半句/半个并列结构”上：回退到最近的停顿符号。
+  const badTail = /(和|与|及|或|并|但|而|在|对|为|是|的|从|到|以及|定义|用于|包括|例如|比如|以及)$/.test(cut);
+  if (badTail || /[，、,:：\-—]$/.test(cut)) {
+    const back = Math.max(
+      cut.lastIndexOf("。"),
+      cut.lastIndexOf("，"),
+      cut.lastIndexOf("、"),
+      cut.lastIndexOf("："),
+      cut.lastIndexOf(":"),
+      cut.lastIndexOf("—"),
+      cut.lastIndexOf("-")
+    );
+    if (back >= 12) cut = cut.slice(0, back).trim();
+  }
+  return cut.replace(/[，、,:：\-—]+$/g, "").trim();
 }
 
 function chineseSentenceCount(text = "") {
@@ -1266,6 +1333,7 @@ function looksLikeTruncatedZhTitle(titleZh = "") {
   if (/(\.{3,}|…)$/.test(value)) return true;
   if (/[，、,:：\-—]$/.test(value)) return true;
   if (/(和|与|及|或|并|但|而|在|对|为|是|的|从|到|以及)$/.test(value)) return true;
+  if (/[→>]\s*[\u4e00-\u9fffA-Za-z0-9]{1,3}$/.test(value) && !/[。！？!?]$/.test(value)) return true;
   if (value.includes("…") && value.length > 14) return true;
   if (!/[。！？!?]$/.test(value) && /[A-Za-z]$/.test(value)) return true;
   if (!/[。！？!?]$/.test(value) && /(我|你|他|她|它|们|了|着|把|将|让|给|为|在|对)$/.test(value)) return true;
@@ -1278,6 +1346,16 @@ function looksLikeTruncatedZhTitle(titleZh = "") {
     if (/(和|与|及|或|并|但|而)$/.test(last)) return true;
   }
   return false;
+}
+
+function isTitlePrefixOfSummary(titleZh = "", summaryZh = "") {
+  const title = normalizeZhTitle(titleZh);
+  const summary = normalizeZhTitle(summaryZh);
+  if (!title || !summary) return false;
+  const a = title.replace(/\s+/g, "");
+  const b = summary.replace(/\s+/g, "");
+  if (!b.startsWith(a)) return false;
+  return b.length - a.length >= 8;
 }
 
 function githubRepoSlug(text = "") {
@@ -1298,7 +1376,7 @@ function deriveTitleFromSummary(summaryZh = "", { maxLen = 44 } = {}) {
   const firstLine = value.split(/[\n\r]+/)[0].trim();
   const firstSentence = firstLine.split(/[。！？!?]/)[0].trim();
   const picked = firstSentence.length >= 8 ? firstSentence : firstLine;
-  const title = smartSlice(normalizeZhTitle(picked), maxLen);
+  const title = smartTitleSlice(normalizeZhTitle(picked), maxLen);
   return title.length >= 6 ? title : "";
 }
 
@@ -1329,17 +1407,18 @@ function ensureResearchPyramidSummary(summaryZh = "") {
 
 function ensurePaperStructure({ titleZh, summaryZh }) {
   const title = normalizeZhTitle(titleZh);
-  const body = String(summaryZh || "").trim();
+  const body = repairCommonTranslationErrors(String(summaryZh || "").trim());
   const core = body ? body : "（摘要信息有限，建议打开原文确认关键方法与实验设置。）";
   const coreSentences = normalizeZhTitle(core)
-    .replace(/^arXiv：公告类型：\S+\s*/i, "")
+    .replace(/^arXiv[:：]\S+\s*/i, "")
+    .replace(/^公告类型[:：]\S+\s*/i, "")
     .replace(/^摘要[:：]\s*/i, "")
     .split(/[。！？!?]/)
     .map((part) => part.trim())
     .filter(Boolean);
   const coreSummary = coreSentences.slice(0, 3).join("。");
   const coreLine = coreSummary
-    ? `**核心结论** 这篇论文围绕「${title}」提出了一个更具体的方向：${coreSummary}。`
+    ? `**核心结论** 「${title}」要解决的问题是：${coreSummary}。`
     : `**核心结论** 这篇论文主要围绕「${title}」提出方法或结论，并尝试解决一个明确的研究/工程问题。`;
   return [
     coreLine,
@@ -1373,8 +1452,11 @@ async function localizeSectionsZh(sections) {
       }
       item.titleZh = normalizeZhTitle(stripSocialNoise(item.titleZh || ""));
       item.summaryZh = stripSocialNoise(item.summaryZh);
+      item.titleZh = normalizeZhTitle(repairCommonTranslationErrors(item.titleZh || "", item));
+      item.summaryZh = repairCommonTranslationErrors(item.summaryZh || "", item);
       if (chineseRatio(item.summaryZh || "") < 0.5) {
         item.summaryZh = stripSocialNoise(stripHandlesAndTags(item.summaryZh));
+        item.summaryZh = repairCommonTranslationErrors(item.summaryZh || "", item);
       }
 
       const isPaperForReview = item.channel === "paper_feed" || /论文|CVPR|ICLR|NeurIPS|arXiv/i.test(`${item.titleZh || ""} ${item.summaryZh || ""} ${(item.tags || []).join(" ")}`);
@@ -1390,7 +1472,7 @@ async function localizeSectionsZh(sections) {
 
       if (chineseRatio(item.summaryZh || "") < 0.35) {
         const retr = await translateToZh(item.summary || item.summaryZh || "", { timeoutMs: 60000 }).catch(() => "");
-        if (retr && chineseRatio(retr) > chineseRatio(item.summaryZh || "")) item.summaryZh = stripSocialNoise(retr);
+        if (retr && chineseRatio(retr) > chineseRatio(item.summaryZh || "")) item.summaryZh = repairCommonTranslationErrors(stripSocialNoise(retr), item);
       }
 
       if (!hasChinese(item.titleZh)) {
@@ -1424,7 +1506,7 @@ async function localizeSectionsZh(sections) {
 
       // 翻译后的标题有时会把被截断位置翻成“……/…”（例如“软件如何…的发现”），但摘要里是完整句子。
       // 这种情况下直接用摘要首句生成标题，可显著改善可读性。
-      if ((item.titleZh || "").includes("…") && !(item.summaryZh || "").includes("…")) {
+      if (((item.titleZh || "").includes("…") || rawTitleLooksTruncated(item.title || "")) && !(item.summaryZh || "").includes("…")) {
         const derived = deriveTitleFromSummary(item.summaryZh || "");
         if (derived && !derived.includes("…")) item.titleZh = derived;
       }
@@ -1433,6 +1515,16 @@ async function localizeSectionsZh(sections) {
       if (item.sourceType === "social" && looksLikeTruncatedZhTitle(item.titleZh || "")) {
         const derived = deriveTitleFromSummary(item.summaryZh || "", { maxLen: 80 });
         if (derived) item.titleZh = derived;
+      }
+
+      // 很多来源（尤其是社媒/开源条目）会让 summary 以 title 开头再继续展开。
+      // 如果 title 显然只是 summary 的前缀且不以句末标点结束，通常意味着抓取或翻译阶段被截断。
+      if (isTitlePrefixOfSummary(item.titleZh || "", item.summaryZh || "") && !/[。！？!?]$/.test(normalizeZhTitle(item.titleZh || ""))) {
+        const maxLen = section.id === "open_source_top" ? 80 : 80;
+        const derived = deriveTitleFromSummary(item.summaryZh || "", { maxLen });
+        if (derived && derived.length >= (normalizeZhTitle(item.titleZh || "").length + 4) && derived !== normalizeZhTitle(item.titleZh || "")) {
+          item.titleZh = derived;
+        }
       }
 
       if (section.id !== "open_source_top") {
@@ -1472,11 +1564,14 @@ async function localizeSectionsZh(sections) {
         // 翻译接口在中英混排时可能不做翻译，先尝试清理英文尾句再补中文说明。
         item.summaryZh = String(item.summaryZh || "").replace(/[A-Za-z][A-Za-z0-9 ,.'“”"():;+-]*$/g, "").trim();
         const retr = await translateToZh(item.summary || item.title || "", { timeoutMs: 60000 }).catch(() => "");
-        if (retr && chineseRatio(retr) > chineseRatio(item.summaryZh || "")) item.summaryZh = stripSocialNoise(retr);
+        if (retr && chineseRatio(retr) > chineseRatio(item.summaryZh || "")) item.summaryZh = repairCommonTranslationErrors(stripSocialNoise(retr), item);
         if (chineseRatio(item.summaryZh || "") < 0.35) {
           item.summaryZh = `${item.summaryZh}（建议打开仓库查看用法、示例与输出效果。）`.trim();
         }
       }
+
+      item.titleZh = normalizeZhTitle(repairCommonTranslationErrors(item.titleZh || "", item));
+      item.summaryZh = repairCommonTranslationErrors(item.summaryZh || "", item);
 
       if ((item.summaryZh || "").length < 90 && section.id === "open_source_top") {
         item.summaryZh = `${item.summaryZh}（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）`.trim();
@@ -1522,14 +1617,14 @@ async function localizeSectionsZh(sections) {
 
   function buildBullet({ title, summary }) {
     const titleClean = normalizeZhTitle(
-      String(title || "")
+      repairCommonTranslationErrors(String(title || ""))
         .replace(/\*\*[^*]+\*\*/g, "")
         .replace(/@\w{2,}/g, "")
         .replace(/[A-Za-z][A-Za-z0-9 ,.'“”"():;+-]*$/g, "")
         .trim()
     );
     const summaryClean = normalizeZhTitle(
-      String(summary || "")
+      repairCommonTranslationErrors(String(summary || ""))
         .replace(/\*\*[^*]+\*\*/g, "")
         .replace(/@\w{2,}/g, "")
         .replace(/\b\d{4}-\d{2}-\d{2}\b/g, "")
@@ -1541,7 +1636,7 @@ async function localizeSectionsZh(sections) {
     if (!titleClean && !summaryClean) return "";
 
     const headSource = (titleClean && chineseRatio(titleClean) >= 0.35) ? titleClean : (deriveTitleFromSummary(summaryClean) || summaryClean || titleClean);
-    const head = smartSlice(normalizeZhTitle(headSource), 28);
+    const head = smartTitleSlice(normalizeZhTitle(headSource), 34);
 
     const tailSource = summaryClean && summaryClean !== titleClean ? summaryClean : (summaryClean || titleClean);
     let tail = bulletTailFromText(tailSource, { maxLen: 86 });

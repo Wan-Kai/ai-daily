@@ -16,7 +16,7 @@
       "items": [
         {
           "title": "Introducing the Cursor Developer Habits Report. We’re sharing some of our findings on how software ...",
-          "titleZh": "介绍游标开发者习惯报告",
+          "titleZh": "Cursor 发布《Developer Habits Report》，用大规模 AI 编码数据观察软件开发变化",
           "link": "https://x.com/cursor_ai/status/2060025063899058458",
           "publishedAt": "Thu, 28 May 2026 15:47:03 GMT",
           "source": "Cursor(@cursor_ai)",
@@ -27,7 +27,7 @@
           "image": "",
           "video": "./media/2026-05-29-2060025063899058458.mp4",
           "summary": "Introducing the Cursor Developer Habits Report. We’re sharing some of our findings on how software development is changing. It’s based on the most comprehensive dataset on AI coding in the world, across all model families. Your browser does not support the video tag. 🔗 View on Twitter 💬 52 🔄 141 ❤️ 1564 👀 115839 📊 310 ⚡ Powered by xgo.ing",
-          "summaryZh": "介绍游标开发者习惯报告。我们正在分享一些关于软件开发如何变化的发现。它基于世界上最全面的人工智能编码数据集，涵盖所有模型系列。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "summaryZh": "Cursor 发布《Developer Habits Report》，基于覆盖多个模型系列的大规模 AI 编码数据，整理软件开发方式正在怎样变化。它值得关注的点在于：这不是单个产品功能更新，而是 Cursor 用真实使用数据解释开发者如何把 AI 编码工具纳入日常工作流，可用于观察 IDE、Agent 编程和模型选择的长期趋势。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型",
@@ -102,7 +102,7 @@
         },
         {
           "title": "Fast mode is available for Opus 4.8. It's the same model at roughly 2.5x the speed, and we've made i...",
-          "titleZh": "Opus 4.8 提供快速模式",
+          "titleZh": "Claude Opus 4.8 Fast Mode：同一模型约 2.5 倍速度，价格降到此前三分之一",
           "link": "https://x.com/claudeai/status/2060042706844315866",
           "publishedAt": "Thu, 28 May 2026 16:57:09 GMT",
           "source": "Claude(@claudeai)",
@@ -113,7 +113,7 @@
           "image": "",
           "video": "",
           "summary": "Fast mode is available for Opus 4.8. It's the same model at roughly 2.5x the speed, and we've made it three times cheaper than before. Turn it on with /fast in Claude Code. On the API, contact your account manager to request access or join the waitlist: claude.com/fast-mode 💬 58 🔄 128 ❤️ 3328 👀 510045 📊 353 ⚡ Powered by xgo.ing",
-          "summaryZh": "Opus 4.8 提供快速模式。它是同一型号，速度大约提高了 2.5 倍，而且我们的价格比以前便宜了三倍。在 Claude Code 中使用 /fast 将其打开。在 API 上，联系您的客户经理请求访问或加入候补名单：claude.com/fast-mode",
+          "summaryZh": "Claude Opus 4.8 推出 Fast Mode。Anthropic 表示这是同一个模型，但推理速度约提升到 **2.5 倍**，价格约为此前的 **三分之一**。Claude Code 用户可以用 `/fast` 开启；API 侧需要联系客户经理申请访问或加入候补名单。这会直接影响长任务编码、Agent 调用和批量推理的成本与等待时间。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型",
@@ -144,7 +144,7 @@
         },
         {
           "title": "Claude Opus 4.8 is now available for Max subscribers on Perplexity and Computer.",
-          "titleZh": "Claude Opus 4.8 现已可供",
+          "titleZh": "Claude Opus 4.8 已面向 Perplexity Max 订阅者开放",
           "link": "https://x.com/perplexity_ai/status/2060049662044962858",
           "publishedAt": "Thu, 28 May 2026 17:24:47 GMT",
           "source": "Perplexity(@perplexity_ai)",
@@ -155,7 +155,7 @@
           "image": "",
           "video": "./media/2026-05-29-2060049662044962858.mp4",
           "summary": "Claude Opus 4.8 is now available for Max subscribers on Perplexity and Computer. Your browser does not support the video tag. 🔗 View on Twitter 💬 35 🔄 59 ❤️ 871 👀 170152 📊 123 ⚡ Powered by xgo.ing",
-          "summaryZh": "Claude Opus 4.8 现已可供 Perplexity 和 Computer 上的 Max 订阅者使用。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "summaryZh": "Perplexity 宣布 **Claude Opus 4.8** 已可供 Perplexity Max 订阅者在 Perplexity 和 Computer 产品中使用。对用户来说，这意味着可以在搜索、写作、研究和自动化任务中直接调用 Anthropic 最新 Opus 模型；需要关注的是具体入口、额度、价格以及是否支持 Fast Mode 等能力。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "视频"
@@ -164,7 +164,7 @@
         },
         {
           "title": "In Claude Code, Opus 4.8 makes calls like an experienced engineer without needing constant check-ins...",
-          "titleZh": "在 Claude Code 中，Opus 4.8 像经验丰富的工程师一样进行调用，而无需不断地签入",
+          "titleZh": "Claude Code 使用 Opus 4.8 时可更自主地推进长任务",
           "link": "https://x.com/claudeai/status/2060042709209928018",
           "publishedAt": "Thu, 28 May 2026 16:57:10 GMT",
           "source": "Claude(@claudeai)",
@@ -175,7 +175,7 @@
           "image": "",
           "video": "./media/2026-05-29-2060042709209928018.mp4",
           "summary": "In Claude Code, Opus 4.8 makes calls like an experienced engineer without needing constant check-ins. It stays on track across long-running sessions and follows work through in your repo, so you can hand off a feature or a bug sweep while you focus on what's next. Your browser does not support the video tag. 🔗 View on Twitter 💬 28 🔄 151 ❤️ 3239 👀 402536 📊 344 ⚡ Powered by xgo.ing",
-          "summaryZh": "在 Claude Code 中，Opus 4.8 像经验丰富的工程师一样进行调用，而无需不断签入。它在长时间运行的会话中保持正轨，并跟踪您的存储库中的工作，因此您可以在专注于下一步的同时交付功能或错误清除。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "summaryZh": "Anthropic 表示，在 **Claude Code** 中使用 **Opus 4.8** 时，模型更像有经验的工程师：能在长时间运行的会话里保持任务方向，跟踪代码库中的工作进展，减少频繁人工确认。它适合功能交付、缺陷清理和跨文件修改等场景；真正要验证的是长会话稳定性、仓库上下文跟踪能力和失败时的可恢复性。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "视频"
@@ -201,7 +201,7 @@
           "image": "",
           "video": "",
           "summary": "arXiv:2605.29796v1 Announce Type: new Abstract: Agentic search enables LLMs to solve complex multi-hop questions through iterative reasoning and external search. Despite the effectiveness, these systems often suffer from a critical limitation in practice: agents fail to recognize their own knowledge boundaries, blindly triggering searches when internal knowledge suffices and failing to terminate search even when adequate evidence has been collected. The lack of self-awareness leads to severe \\textbf{over-search}...",
-          "summaryZh": "**核心结论** 这篇论文围绕「SAAS：用于缓解代理搜索中过度搜索的自我意识强化学习」提出了一个更具体的方向：arXiv:2605.29796v1 公告类型：新 摘要：代理搜索使法学硕士能够通过迭代推理和外部搜索来解决复杂的多跳问题。尽管有效，但这些系统在实践中常常受到严重限制：智能体无法识别自己的知识边界，在内部知识足够的情况下盲目触发搜索，即使收集到足够的证据也无法终止搜索。缺乏自我意识会导致严重的\\textbf{过度搜索}。\n\n**支撑证据** 摘要与公开信息显示：arXiv:2605.29796v1 公告类型：新 摘要：代理搜索使法学硕士能够通过迭代推理和外部搜索来解决复杂的多跳问题。尽管有效，但这些系统在实践中常常受到严重限制：智能体无法识别自己的知识边界，在内部知识足够的情况下盲目触发搜索，即使收集到足够的证据也无法终止搜索。缺乏自我意识会导致严重的\\textbf{过度搜索}......\n\n**我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "summaryZh": "**核心结论** SAAS 关注 Agentic Search 里的一个实际问题：智能体经常分不清“我已经知道答案”和“我必须继续搜索”，于是触发过多外部检索，增加延迟、成本和噪音。论文提出用**自我意识强化学习**训练智能体判断自己的知识边界，让它在内部知识足够时少搜，在证据不足时再搜。\n\n**支撑证据** 论文把问题定义为 over-search mitigation，并围绕多跳问答、外部搜索触发、搜索收益判断等场景设计训练与评测。它的目标是让搜索动作更有选择性：在内部知识可回答时减少无效检索，在需要新证据时保留外部搜索能力。作者用强化学习信号约束搜索决策，希望降低无效工具调用，同时保持复杂问题上的回答质量。\n\n**我的判断** 这类方法适合关注 Agent 成本和响应速度的团队跟进，尤其是 RAG、Web Agent、研究助手等会频繁调用外部工具的系统。落地前需要验证它在真实业务查询中的误判风险：少搜会不会漏掉新知识，多搜减少后答案可信度是否仍然稳定。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "产品发布",
@@ -225,7 +225,7 @@
           "image": "",
           "video": "",
           "summary": "arXiv:2605.29643v1 Announce Type: new Abstract: Cross-Video Reasoning (CVR) has emerged as a critical frontier in multimodal intelligence, requiring models to retrieve, align, and aggregate evidence distributed across multiple videos. Current Multimodal Large Language Models (MLLMs) often struggle with CVR, as simple single-pass strategies encode multiple videos into a shared compressed context, potentially obscuring rare but critical evidence. In this paper, we propose AgentCVR, a multi-agent framework that tre...",
-          "summaryZh": "**核心结论** 这篇论文围绕「AgentCVR：通过脚本模拟强化学习进行主动多智能体跨视频推理」提出了一个更具体的方向：arXiv:2605.29643v1 公告类型：新 摘要：跨视频推理 (CVR) 已成为多模态智能的关键前沿，要求模型检索、对齐和聚合分布在多个视频中的证据。当前的多模态大型语言模型 (MLLM) 常常难以应对 CVR，因为简单的单通道策略将多个视频编码到共享的压缩上下文中，可能会掩盖罕见但关键的证据。在本文中，我们提出了 AgentCVR，一个多代理框架，可以。\n\n**支撑证据** 摘要与公开信息显示：arXiv:2605.29643v1 公告类型：新 摘要：跨视频推理 (CVR) 已成为多模态智能的关键前沿，要求模型检索、对齐和聚合分布在多个视频中的证据。当前的多模态大型语言模型 (MLLM) 常常难以应对 CVR，因为简单的单通道策略将多个视频编码到共享的压缩上下文中，可能会掩盖罕见但关键的证据。在本文中，我们提出了 AgentCVR，一个多代理框架，可以...\n\n**我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "summaryZh": "**核心结论** AgentCVR 要解决的是跨多个视频推理时的证据组织问题。普通多模态模型面对多个视频片段时，容易只看局部线索，难以主动检索、对齐和汇总分散证据；论文提出一个**多智能体跨视频推理框架**，用脚本模拟的强化学习训练模型学会分工、查找证据和整合结论。\n\n**支撑证据** 论文把跨视频推理拆成检索、对齐、聚合几个步骤，并用 script-simulated reinforcement learning 构造训练信号，让不同智能体围绕视频内容进行协作。它的核心论证是：跨视频任务需要主动规划和证据链，而不是把所有视频一次性塞进上下文窗口。\n\n**我的判断** 这篇适合关注长视频理解、安防/教育/会议视频分析的人跟进。真正值得复核的是评测集是否足够接近真实场景、强化学习带来的收益是否稳定，以及多智能体协作增加的推理成本能不能被准确率提升抵消。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "模型",
@@ -303,7 +303,7 @@
         },
         {
           "title": "datasette 1.0a31",
-          "titleZh": "数据集 1.0a31",
+          "titleZh": "Datasette 1.0a31：支持写入查询和私有保存查询",
           "link": "https://simonwillison.net/2026/May/29/datasette/#atom-everything",
           "publishedAt": "2026-05-29T03:32:02+00:00",
           "source": "Simon Willison's Weblog",
@@ -314,7 +314,7 @@
           "image": "https://datasette.io/static/blog/2026/sql-write-ui.gif",
           "video": "",
           "summary": "Release: datasette 1.0a31 Another significant alpha release, with two new headline features. Datasette now offers users with the necessary permissions the ability to both execute write queries against their database and to save stored queries (renamed from \"canned queries\") both privately and for use by other members of their Datasette instance. There's more detail in SQL write queries and stored queries in Datasette 1.0a31 on the Datasette blog, which now has three posts introducing new features since the blog...",
-          "summaryZh": "**核心要点** 版本：datasette 1.0a31 另一个重要的 alpha 版本，具有两个新的标题功能。 Datasette 现在为具有必要权限的用户提供了对数据库执行写入查询的能力，以及私下保存存储的查询（从“预设查询”重命名）以供其 Datasette 实例的其他成员使用的能力。 Datasette 博客上的 Datasette 1.0a31 中有关于 SQL 写入查询和存储查询的更多详细信息，自该博客发布以来，该博客现在有三篇文章介绍了新功能...",
+          "summaryZh": "**核心要点** Simon Willison 发布 **Datasette 1.0a31**。这个 alpha 版本加入两个关键能力：有权限的用户可以对数据库执行写入查询；保存查询从“预设查询”改名，并支持私下保存后再分享给同一 Datasette 实例的其他成员。对把 Datasette 当轻量数据发布、内部数据探索工具的团队来说，这意味着它不再只是只读浏览器，而是在权限控制下向协作分析和轻量编辑迈进一步。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "产品发布"
@@ -323,7 +323,7 @@
         },
         {
           "title": "llm-anthropic 0.25.1",
-          "titleZh": "版本：llm-anthropic 0.2",
+          "titleZh": "llm-anthropic 0.25.1：加入 Claude Opus 4.8 与 Fast Mode 参数",
           "link": "https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything",
           "publishedAt": "2026-05-28T23:54:56+00:00",
           "source": "Simon Willison's Weblog",
@@ -334,7 +334,7 @@
           "image": "",
           "video": "",
           "summary": "Release: llm-anthropic 0.25.1 New model: Claude Opus 4.8 ( claude-opus-4.8 ). New -o fast 1 option for fast mode , for organizations with that feature enabled on their account. Default max_tokens for each model now defaults to that model's maximum output rather than 8,192. #72 See also my notes on Opus 4.8 - I used this new release of llm-anthropic to generate the pelicans.",
-          "summaryZh": "**核心要点** 版本：llm-anthropic 0.25.1 新模型：Claude Opus 4.8 ( claude-opus-4.8 )。用于快速模式的新 -o fast 1 选项，适用于在其帐户上启用该功能的组织。每个模型的默认 max_tokens 现在默认为该模型的最大输出，而不是 8,192。 另请参阅我关于 Opus 4.8 的笔记 - 我使用这个新版本的 llm-anthropic 来生成鹈鹕。",
+          "summaryZh": "**核心要点** `llm-anthropic 0.25.1` 加入 **Claude Opus 4.8** 模型支持，并提供新的 `-o fast 1` 选项，用于在已开通 Fast Mode 的组织中调用快速模式。默认 `max_tokens` 也改为各模型允许的最大输出，而不是固定 8,192。对使用 Simon Willison `llm` CLI 的开发者来说，这次更新主要影响模型选择、长输出默认行为和快速模式接入。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "产品发布",
@@ -371,7 +371,7 @@
       "items": [
         {
           "title": "AI agents' vocabulary explained without a 45-minute YouTube video. You're welcome. → MCP → Single ...",
-          "titleZh": "无需 45 分钟的 YouTube 视频即可解释 AI 代理的词汇。不客气。 → MCP → 单",
+          "titleZh": "Weaviate：用 Engram 为 AI Agent 提供记忆与上下文管理",
           "link": "https://x.com/weaviate_io/status/2060013223533789648",
           "publishedAt": "Thu, 28 May 2026 15:00:00 GMT",
           "source": "Weaviate • vector database(@weaviate_io)",
@@ -382,7 +382,7 @@
           "image": "https://pbs.twimg.com/media/HJZntPvWkAAsp2a.jpg",
           "video": "",
           "summary": "AI agents' vocabulary explained without a 45-minute YouTube video. You're welcome. → MCP → Single vs. Multi-gent Architecture → Skills → Agentic RAG → Memory That last one - Memory is a hard one. It's also very easy to get wrong. So, we've been working on this problem, and it's called Engram - memory and context management built for agents. Learn more: weaviate.io/blog/engram-de… 💬 3 🔄 5 ❤️ 60 👀 1423 📊 20 ⚡ Powered by xgo.ing",
-          "summaryZh": "无需 45 分钟的 YouTube 视频即可解释 AI 代理的词汇。不客气。 → MCP → 单智能体架构与多智能体架构 → 技能 → 代理 RAG → 记忆 最后一项 - 记忆是一项艰巨的任务。也很容易出错。所以，我们一直在研究这个问题，它被称为 Engram——为代理构建的内存和上下文管理。了解更多：weaviate.io/blog/engram-de...",
+          "summaryZh": "Weaviate 用一组概念解释 AI Agent 工程里的关键词：MCP、单智能体/多智能体架构、技能、Agent RAG 和记忆。重点落在 **Engram**：它是面向 Agent 的记忆与上下文管理方案，试图解决长期记忆难维护、容易出错、上下文难复用的问题。这个条目值得放在开源/基础设施里看，因为它指向的是 Agent 系统里的底层能力，而不是单纯的观点分享。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "智能体",
@@ -436,7 +436,7 @@
         },
         {
           "title": "When RAG gives a wrong answer, the team's first move is usually a bigger model or more prompt tweaki...",
-          "titleZh": "当 RAG 给出错误答案时，团队的第一步通常是更大的模型或更及时的调整",
+          "titleZh": "Milvus：RAG 错误排查应先拆分测试集，而不是只换更大模型",
           "link": "https://x.com/milvusio/status/2060013232564408376",
           "publishedAt": "Thu, 28 May 2026 15:00:02 GMT",
           "source": "Milvus(@milvusio)",
@@ -447,7 +447,7 @@
           "image": "https://pbs.twimg.com/media/HJaMPUsbEAAOFH8.jpg",
           "video": "",
           "summary": "When RAG gives a wrong answer, the team's first move is usually a bigger model or more prompt tweaking. 𝗕𝘂𝘁 𝘁𝗵𝗲 𝗳𝗶𝗿𝘀𝘁 𝘁𝗵𝗶𝗻𝗴 𝘁𝗼 𝗳𝗶𝘅 𝗶𝘀 𝘂𝘀𝘂𝗮𝗹𝗹𝘆 𝗿𝗲𝘁𝗿𝗶𝗲𝘃𝗮𝗹. 𝗛𝗲𝗿𝗲'𝘀 𝗮 𝘁𝗵𝗿𝗲𝗲-𝘀𝘁𝗲𝗽 𝘄𝗮𝘆 𝘁𝗼 𝗺𝗲𝗮𝘀𝘂𝗿𝗲 𝘄𝗵𝗲𝗿𝗲 𝗶𝘁'𝘀 𝗮𝗰𝘁𝘂𝗮𝗹𝗹𝘆 𝗯𝗿𝗲𝗮𝗸𝗶𝗻𝗴: 1️⃣ 𝗕𝘂𝗶𝗹𝗱 𝗮 𝘀𝗲𝘁 𝗼𝗳 𝗴𝗼𝗹𝗱𝗲𝗻 𝗾𝘂𝗲𝗿𝗶𝗲𝘀, 𝗯𝘂𝗰𝗸𝗲𝘁𝗲𝗱 𝗯𝘆 𝗾𝘂𝗲𝗿𝘆 𝘁𝘆𝗽𝗲. 5–10 per bucket: exact terms (model numbers, API names, error codes), multi-hop, long-tail, and unanswerable. 2️⃣ 𝗥𝘂𝗻 𝘁𝗵𝗲𝗺 𝗮𝗻𝗱 𝗰𝗵𝗲𝗰𝗸 𝗥𝗲𝗰𝗮𝗹𝗹@𝗸 𝗽𝗲𝗿 𝗯𝘂𝗰𝗸𝗲𝘁. Don't look at the overall average. It hides the weak bucket. 3️⃣ 𝗧𝗵𝗲 𝘄𝗲𝗮𝗸 𝗯𝘂𝗰𝗸𝗲𝘁 𝘂𝘀𝘂𝗮𝗹𝗹𝘆 𝘁𝗲𝗹𝗹𝘀 𝘆𝗼𝘂 𝘄𝗵𝗲𝗿𝗲 𝘁𝗼 𝗹𝗼𝗼𝗸 𝗳𝗶𝗿𝘀𝘁: 📦 𝗘𝘅𝗮𝗰𝘁-𝘁𝗲𝗿𝗺 𝗯𝘂𝗰𝗸𝗲𝘁 𝗹𝗼𝘄 → dense retrieval's blind spot for exact strings. Model numbers and error codes often do not la...",
-          "summaryZh": "当 RAG 给出错误答案时，团队的第一步通常是使用更大的模型或更及时的调整。 。 '-'：1⃣，.每个桶 5-10 个：精确术语（型号、API 名称、错误代码）、多跳、长尾和无法回答。 2⃣@。不要看整体平均数。它隐藏了弱桶。 3⃣ : - → 密集检索对于精确字符串的盲点。型号和错误代码通常不...",
+          "summaryZh": "Milvus 提醒团队：当 RAG 给出错误答案时，不要第一反应就是换更大的模型或继续调 prompt。更可靠的做法是先把问题拆成测试桶，例如精确术语、型号/API 名称、错误代码、多跳问题、长尾问题和无法回答问题，每类保留 5-10 个样本，再分别看检索、重排、生成哪个环节失效。它的价值在于把 RAG 调优从“凭感觉改提示词”拉回可诊断的评测流程。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型",
@@ -478,7 +478,7 @@
         },
         {
           "title": "revfactory/harness",
-          "titleZh": "revfactory/harness：一种元技能，用于设计特定领域的代理团队、定义",
+          "titleZh": "revfactory/harness：用于设计领域专属 Agent 团队的元技能框架",
           "link": "https://github.com/revfactory/harness",
           "publishedAt": "2026-05-29T07:23:25.080Z",
           "source": "GitHub Trending Daily",
@@ -489,7 +489,7 @@
           "image": "https://github.com/revfactory/harness/raw/main/harness_banner.png",
           "video": "",
           "summary": "Star revfactory / harness A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-          "summaryZh": "一种元技能，用于设计特定领域的代理团队、定义专业代理并生成他们使用的技能。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "summaryZh": "revfactory/harness 是一个用于设计领域专属 Agent 团队的元技能框架：它帮助定义不同专业智能体的职责，并生成这些智能体会使用的技能。适合关注多智能体工作流、技能编排和领域化 Agent 生产方式的人跟进。评估时建议重点看 README 中的适用场景、技能生成方式、示例团队结构、许可证和近期维护活跃度。",
           "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
           "tags": [
             "智能体"
@@ -504,7 +504,7 @@
       "items": [
         {
           "title": "This #CVPR2026 paper from our research team is trending #1 on @HuggingFace 🤗 Meet LocateAnything: ...",
-          "titleZh": "这篇论文围绕「我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：」提出了一个更具体的",
+          "titleZh": "NVIDIA：LocateAnything 在 Hugging Face 趋势榜登顶，重新思考视觉定位的框预测",
           "link": "https://x.com/NVIDIAAI/status/2060058563544801787",
           "publishedAt": "Thu, 28 May 2026 18:00:10 GMT",
           "source": "NVIDIA AI(@NVIDIAAI)",
@@ -515,7 +515,7 @@
           "image": "",
           "video": "./media/2026-05-29-2060058563544801787.mp4",
           "summary": "This #CVPR2026 paper from our research team is trending #1 on @HuggingFace 🤗 Meet LocateAnything: a vision-language detection model that rethinks bounding box prediction. For AI agents and robots, “seeing” is only useful if a model can pinpoint where something is fast enough to act. Trained on 138M high-quality samples, LocateAnything decodes bounding boxes in parallel instead of one coordinate at a time, improving localization accuracy while dramatically increasing throughput for visual grounding and detection. Project page: nvda.ws/4dKSohb M Your browser does not support the video tag. 🔗 View on Twitter 💬 37 🔄 201 ❤️ 1294 👀 95603 📊 340 ⚡ Powered by xgo.ing",
-          "summaryZh": "**核心结论** 这篇论文围绕「我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：」提出了一个更具体的方向：我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：重新思考边界框预测的视觉语言检测模型。对于人工智能代理和机器人来说，只有当模型能够精确定位某事物的速度足以采取行动时，“看到”才有用。LocateAnything 经过 138M 高质量样本的训练，并行解码边界框而不是一次解码一个坐标，从而提高定位精度，同时显着提高视觉接地和检测的吞吐量。\n\n**支撑证据** 摘要与公开信息显示：我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：重新思考边界框预测的视觉语言检测模型。对于人工智能代理和机器人来说，只有当模型能够精确定位某事物的速度足以采取行动时，“看到”才有用。 LocateAnything 经过 138M 高质量样本的训练，并行解码边界框而不是一次解码一个坐标，从而提高定位精度，同时显着提高视觉接地和检测的吞吐量。项目页面：nvda.ws/4dKSohb M\n\n**我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "summaryZh": "**核心结论** NVIDIA 研究团队的 **LocateAnything** 登上 Hugging Face 趋势榜，主题是重新思考视觉语言检测模型中的边界框预测。它关注的问题是：当模型需要根据文本指令在图像里定位任意目标时，传统检测方式是否足够稳定、可泛化。\n\n**支撑证据** 推文给出的信号包括 CVPR 2026 论文、Hugging Face 趋势排名，以及“Meet LocateAnything”项目页。完整方法、数据集和实验结果仍需要打开论文或项目页核对。\n\n**我的判断** 这条更像研究信号，值得后续看论文细节：尤其是它如何定义“anything”、与现有 grounding/detection 方法的对比、是否开放模型或数据。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型",
@@ -527,7 +527,7 @@
         },
         {
           "title": "Also new in Claude Code: dynamic workflows (research preview). For the hardest tasks, Claude makes ...",
-          "titleZh": "Claude Code 中的另一个新功能：动态工作流程（研究预览）。对于最艰巨的任务，克劳德",
+          "titleZh": "Claude Code 新增动态工作流研究预览，可并行调度大量子智能体",
           "link": "https://x.com/claudeai/status/2060042710753382816",
           "publishedAt": "Thu, 28 May 2026 16:57:10 GMT",
           "source": "Claude(@claudeai)",
@@ -538,7 +538,7 @@
           "image": "",
           "video": "",
           "summary": "Also new in Claude Code: dynamic workflows (research preview). For the hardest tasks, Claude makes a plan, runs hundreds of parallel subagents, and verifies its work before reporting back. Think a migration touching hundreds of files. Read more: claude.com/blog/introduci… 💬 65 🔄 167 ❤️ 2836 👀 667528 📊 444 ⚡ Powered by xgo.ing",
-          "summaryZh": "Claude Code 中的另一个新功能：动态工作流程（研究预览）。对于最困难的任务，克劳德制定计划，运行数百个并行子代理，并在返回报告之前验证其工作。想象一下涉及数百个文件的迁移。阅读更多：claude.com/blog/introduci...",
+          "summaryZh": "Claude Code 新增 **dynamic workflows** 研究预览。Anthropic 描述的工作方式是：面对最困难的任务，Claude 会先制定计划，再运行数百个并行子智能体，最后在返回报告前验证它们的工作。典型场景是涉及数百个文件的迁移或大型重构。这个能力值得关注，因为它把 Claude Code 从“单轮代码助手”推进到更接近可规划、可分工、可验证的工程执行系统。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "智能体"
@@ -567,7 +567,7 @@
         },
         {
           "title": "Step 3.7 Flash is here ICYMI: 198B MoE with 11B active params, 256K context, native image + video ...",
-          "titleZh": "步骤 3.7 Flash 在这里 ICYMI：198B MoE，具有 11B 活动参数、256K 上下文、本机图像 + 视频",
+          "titleZh": "Step 3.7 Flash：198B MoE、11B 活跃参数、256K 上下文，NVIDIA Day 0 支持",
           "link": "https://x.com/NVIDIAAI/status/2060158596730482985",
           "publishedAt": "Fri, 29 May 2026 00:37:40 GMT",
           "source": "NVIDIA AI(@NVIDIAAI)",
@@ -578,7 +578,7 @@
           "image": "https://pbs.twimg.com/media/HJcnU6CXoAU-tUa.jpg",
           "video": "",
           "summary": "Step 3.7 Flash is here ICYMI: 198B MoE with 11B active params, 256K context, native image + video support. Day 0 support is live on build.nvidia.com with GPU-accelerated endpoints, deploy with NVIDIA NIM inference microservices, and fine-tune with the NVIDIA NeMo framework. Congrats to the @stepfun_ai team! 💬 11 🔄 22 ❤️ 228 👀 16871 📊 41 ⚡ Powered by xgo.ing",
-          "summaryZh": "步骤 3.7 Flash 在这里 ICYMI：198B MoE，具有 11B 活动参数、256K 上下文、原生图像 + 视频支持。 build.nvidia.com 上已提供 Day 0 支持，包括 GPU 加速端点、使用 NVIDIA NIM 推理微服务进行部署，以及使用 NVIDIA NeMo 框架进行微调。恭喜 团队！",
+          "summaryZh": "**Step 3.7 Flash** 已上线。关键信息包括：**198B MoE**、**11B 活跃参数**、**256K 上下文**、原生图像和视频支持；NVIDIA 在 build.nvidia.com 提供 Day 0 支持，包括 GPU 加速端点、NVIDIA NIM 推理微服务部署，以及通过 NVIDIA NeMo 框架微调。它值得关注的点是开放/商业模型正在同时追求多模态、长上下文和 Agent 效率。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "推理部署",
@@ -600,7 +600,7 @@
           "image": "",
           "video": "",
           "summary": "We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by @AltimeterCap , Dragoneer, @Greenoaks , and @sequoia . This investment will help us advance our research and expand our capacity to meet growing demand for Claude. 💬 934 🔄 1376 ❤️ 18701 👀 4605392 📊 2919 ⚡ Powered by xgo.ing",
-          "summaryZh": "我们在 H 轮融资中筹集了 650 亿美元，投后估值为 9650 亿美元，由 、Dragoneer 、 和 领投。这项投资将帮助我们推进研究并扩大我们的能力，以满足对克劳德不断增长的需求。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "summaryZh": "Anthropic 宣布完成 **H 轮融资 650 亿美元**，投后估值 **9650 亿美元**，由 Altimeter、Dragoneer 等机构领投。公司表示这笔资金将用于推进研究，并扩展能力以满足 Claude 需求增长。这个信号更多反映资本市场对前沿模型公司基础设施、算力和企业需求的长期押注。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "RAG"
@@ -645,7 +645,7 @@
         },
         {
           "title": "New LangChain Academy Course: Intro to LangSmith Deployment In this course, you’ll learn how to sca...",
-          "titleZh": "浪链学院新课程：LangSmith 部署简介在本课程中，您将学习如何",
+          "titleZh": "LangChain Academy 新课：从桌面 Deep Agent 扩展到托管多租户部署",
           "link": "https://x.com/LangChain/status/2060039108328865897",
           "publishedAt": "Thu, 28 May 2026 16:42:51 GMT",
           "source": "LangChain(@LangChainAI)",
@@ -656,7 +656,7 @@
           "image": "",
           "video": "./media/2026-05-29-2060039108328865897.mp4",
           "summary": "New LangChain Academy Course: Intro to LangSmith Deployment In this course, you’ll learn how to scale a single-user desktop Deep Agent all the way to a multi-tenant deployment running on managed, elastic infrastructure. Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 11 ❤️ 82 👀 5292 📊 21 ⚡ Powered by xgo.ing",
-          "summaryZh": "LangChain 学院新课程：LangSmith 部署简介 在本课程中，您将学习如何将单用户桌面深度代理一直扩展到在托管、弹性基础设施上运行的多租户部署。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "summaryZh": "LangChain Academy 推出 **Intro to LangSmith Deployment** 课程，主题是如何把单用户桌面 Deep Agent 扩展到运行在托管、弹性基础设施上的多租户部署。它的重点不是单个 demo，而是 Agent 应用进入生产后的部署、扩缩容、隔离和运维问题，适合正在把 LangSmith/LangGraph 工作流推向团队或企业环境的开发者关注。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "智能体",
@@ -666,7 +666,7 @@
         },
         {
           "title": "Read more in @StepFun_ai’s launch post:",
-          "titleZh": "请阅读 的发布文章了解更多信息：StepFun ⚡ 步骤 3.7 Flash 就在这里：新前沿是智能体效率",
+          "titleZh": "StepFun 发布 Step 3.7 Flash，主打 Agent、编码、搜索和多模态效率",
           "link": "https://x.com/OpenRouter/status/2060195234756370768",
           "publishedAt": "Fri, 29 May 2026 03:03:15 GMT",
           "source": "OpenRouter(@OpenRouterAI)",
@@ -677,7 +677,7 @@
           "image": "https://pbs.twimg.com/media/HJcdzQdbcAAcQki.jpg",
           "video": "",
           "summary": "Read more in @StepFun_ai ’s launch post: StepFun @StepFun_ai ⚡️ Step 3.7 Flash is here: The new frontier is agent efficiency. #1 ClawEval-1.1 (67.1), #1 SimpleVQA Search (79.2), #2 SWE-PRO (56.3), 95.3 on V* Python. Open weights under Apache 2.0. Built for agentic, coding, search, and multimodal workflows — balancing speed, cost, and reliable execution. - 400 TPS. 198B sparse MoE, ~11B active. 256K context, 3 reasoning levels. - Understands UIs, charts, docs, images — then writes code or calls tools to act on wh...",
-          "summaryZh": "请阅读 的发布文章了解更多信息：StepFun ⚡ 步骤 3.7 Flash 就在这里：新前沿是智能体效率。 ClawEval-1.1 (67.1)、 SimpleVQA 搜索 (79.2)、 SWE-PRO (56.3)、V* Python 上的 95.3。 Apache 2.0 下开放权重。专为代理、编码、搜索和多模式工作流程而构建 - 平衡速度、成本和可靠的执行。 - 400 每秒处理量。 198B 稀疏 MoE，~11B 活跃。 256K 上下文，3 个推理级别。 - 理解用户界面、图表、文档、图像——然后编写代码或调用工具来执行操作...",
+          "summaryZh": "StepFun 发布 **Step 3.7 Flash**，定位是面向 Agent、编码、搜索和多模态工作流的高效率模型。推文列出若干评测信号：ClawEval-1.1 为 **67.1**、SimpleVQA Search 为 **79.2**、SWE-PRO 为 **56.3**、V* Python 为 **95.3**；权重以 **Apache 2.0** 开放。后续需要打开发布文确认模型尺寸、训练数据、使用限制和与同级模型的可复现实测差异。",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "产品发布",
@@ -690,7 +690,7 @@
         },
         {
           "title": "This tracks. 30 trillion tokens a day on our end, and open model share keeps climbing. Our partner...",
-          "titleZh": "这跟踪。我们这边每天有 30 万亿个代币，开放模型份额不断攀升。我们的合作伙伴@FactoryAI 正在看到我们所看到的。 Matan Grinberg",
+          "titleZh": "Fireworks AI：开放模型使用份额继续上升，日处理约 30 万亿 token",
           "link": "https://x.com/FireworksAI_HQ/status/2060103886028046739",
           "publishedAt": "Thu, 28 May 2026 21:00:15 GMT",
           "source": "Fireworks AI(@FireworksAI_HQ)",
@@ -701,7 +701,7 @@
           "image": "",
           "video": "",
           "summary": "This tracks. 30 trillion tokens a day on our end, and open model share keeps climbing. Our partners @FactoryAI are seeing what we're seeing. Matan Grinberg @matanSF Narrative violation: Open model use in Factory has more than 3x’d in the last month relative to closed models. By both total consumption and event count. Will be interesting to see what open vs closed token-share looks like at EOY 🔗 View Quoted Tweet 💬 6 🔄 5 ❤️ 110 👀 29937 📊 20 ⚡ Powered by xgo.ing",
-          "summaryZh": "这跟踪。我们这边每天有 30 万亿个代币，开放模型份额不断攀升。我们的合作伙伴@FactoryAI 正在看到我们所看到的。 Matan Grinberg @matanSF 叙事违规：上个月，Factory 中开放模型的使用量相对于封闭模型增加了 3 倍多。按总消耗量和事件计数。在 EOY 查看引用的推文 6 5 110 29937 20 看看开放式与封闭式代币份额是什么样子将会很有趣",
+          "summaryZh": "Fireworks AI 表示他们这边每天处理约 **30 万亿 token**，并观察到开放模型份额持续上升。其合作伙伴 FactoryAI 也提到，上个月 Factory 中开放模型相对封闭模型的使用量增长超过 **3 倍**。这条信息的价值在于观察企业和开发工具场景里开放模型的实际消费趋势，但具体口径仍需要结合原始数据、业务类型和计费方式理解。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型"
@@ -799,9 +799,9 @@
     }
   ],
   "summaryBullets": [
-    "**介绍游标开发者习惯报告**：我们正在分享一些关于软件开发如何变化的发现",
-    "**这篇论文围绕「我们研究团队的这篇 #CVPR2026 论**：文在 Meet LocateAnything 上排名第一：」提出了一个更具体的方向：我们研究团队的这篇",
-    "**无需 45 分钟的 YouTube 视频即可解释 AI**：代理的词汇。不客气",
-    "**这跟踪。我们这边每天有 30 万亿个代币，开放模型份额不**：断攀升"
+    "**Claude Opus 4.8 与 Fast Mode**：Anthropic 继续把 Opus 4.8 推向 Claude Code、Perplexity 和 API 场景，重点是更快推理、更低成本和更自主的长任务编码。",
+    "**Agent 搜索与多视频推理成为研究重点**：SAAS 试图减少智能体过度搜索，AgentCVR 则用多智能体协作处理跨视频证据组织问题。",
+    "**Agent 基础设施继续补齐**：Weaviate 关注记忆与上下文管理，Milvus 强调 RAG 错误排查要先拆分测试集，revfactory/harness 则面向领域专属 Agent 团队设计。",
+    "**开放模型与多模态模型信号增强**：Step 3.7 Flash 强调 198B MoE、11B 活跃参数和 256K 上下文，Fireworks AI 也观察到开放模型使用份额继续上升。"
   ]
 }
