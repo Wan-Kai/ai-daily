@@ -1,13 +1,13 @@
 {
   "date": "2026-05-29",
-  "generatedAt": "2026-05-29T06:55:00.760Z",
+  "generatedAt": "2026-05-29T07:23:25.080Z",
   "title": "AI 日报 - 2026-05-29",
   "stats": {
     "sources": 134,
-    "fetched": 1094,
+    "fetched": 1085,
     "emailCandidates": 0,
     "selected": 35,
-    "failures": 2
+    "failures": 5
   },
   "sections": [
     {
@@ -26,7 +26,7 @@
           "trust": "official",
           "image": "",
           "video": "./media/2026-05-29-2060025063899058458.mp4",
-          "summary": "Introducing the Cursor Developer Habits Report. We’re sharing some of our findings on how software development is changing. It’s based on the most comprehensive dataset on AI coding in the world, across all model families. Your browser does not support the video tag. 🔗 View on Twitter 💬 51 🔄 141 ❤️ 1562 👀 115442 📊 309 ⚡ Powered by xgo.ing",
+          "summary": "Introducing the Cursor Developer Habits Report. We’re sharing some of our findings on how software development is changing. It’s based on the most comprehensive dataset on AI coding in the world, across all model families. Your browser does not support the video tag. 🔗 View on Twitter 💬 52 🔄 141 ❤️ 1564 👀 115839 📊 310 ⚡ Powered by xgo.ing",
           "summaryZh": "介绍游标开发者习惯报告。我们正在分享一些关于软件开发如何变化的发现。它基于世界上最全面的人工智能编码数据集，涵盖所有模型系列。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -48,7 +48,7 @@
           "trust": "official",
           "image": "",
           "video": "./media/2026-05-29-2060053796001399035.mp4",
-          "summary": "Attention, all you geniuses with products, but no marketing skills. Today we’re launching the Founder Starter Kit—4 skills that will help you look and sound like a legit company, including: > Build-a-Brand > App Screens > Product Sizzle > Founder Video Available for Claude via the Pika MCP. Your browser does not support the video tag. 🔗 View on Twitter 💬 55 🔄 87 ❤️ 905 👀 584553 📊 367 ⚡ Powered by xgo.ing",
+          "summary": "Attention, all you geniuses with products, but no marketing skills. Today we’re launching the Founder Starter Kit—4 skills that will help you look and sound like a legit company, including: > Build-a-Brand > App Screens > Product Sizzle > Founder Video Available for Claude via the Pika MCP. Your browser does not support the video tag. 🔗 View on Twitter 💬 55 🔄 87 ❤️ 918 👀 590863 📊 370 ⚡ Powered by xgo.ing",
           "summaryZh": "注意，你们都是产品天才，但没有营销技巧。今天，我们推出 Founder Starter Kit — 4 项技能，帮助您看起来和听起来像一家合法公司，包括： > 打造品牌 > 应用程序屏幕 > 产品热度 > 通过 Pika MCP 为 Claude 提供创始人视频。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -56,6 +56,28 @@
             "视频"
           ],
           "score": 74
+        },
+        {
+          "title": "We're adopting the Linux Foundation’s OpenMDW framework across our open model families. This helps ...",
+          "titleZh": "我们正在我们的开放模型系列中采用 Linux 基金会的 OpenMDW 框架",
+          "link": "https://x.com/NVIDIAAI/status/2060035668655677804",
+          "publishedAt": "Thu, 28 May 2026 16:29:11 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJazf5KaAAACfbN.jpg",
+          "video": "",
+          "summary": "We're adopting the Linux Foundation’s OpenMDW framework across our open model families. This helps make open model licensing simpler and more consistent at scale. A single legal framework across models, code, documentation, and data helps reduce friction for developers and enterprises building with open source. The Linux Foundation @linuxfoundation OpenMDW-1.1 is now available — and @NVIDIAAI is adopting it across Cosmos, Isaac GR00T, Ising, and Nemotron model families. A permissive, unified legal framework purpose-built for AI models. Learn more at openmdw.ai 🔗 View Quoted Tweet 💬 15 🔄 41 ❤️ 339 👀 64100 📊 52 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们正在我们的开放模型系列中采用 Linux 基金会的 OpenMDW 框架。这有助于使开放模型许可在规模上更简单、更一致。跨模型、代码、文档和数据的单一法律框架有助于减少开发人员和企业使用开源构建的摩擦。 Linux 基金会 @linuxfoundation OpenMDW-1.1 现已推出，@NVIDIAAI 正在 Cosmos、Isaac GR00T、Ising 和 Nemotron 模型系列中采用它。专为人工智能模型构建的宽松、统一的法律框架。了解更多信息，请访问 openmdw.ai 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "开源",
+            "开发者工具"
+          ],
+          "score": 73.78683143871709
         },
         {
           "title": "Introducing Dubbing v2, our revolutionary new dubbing model. For the first time, the emotion and p...",
@@ -90,7 +112,7 @@
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "Fast mode is available for Opus 4.8. It's the same model at roughly 2.5x the speed, and we've made it three times cheaper than before. Turn it on with /fast in Claude Code. On the API, contact your account manager to request access or join the waitlist: claude.com/fast-mode 💬 57 🔄 128 ❤️ 3298 👀 502812 📊 350 ⚡ Powered by xgo.ing",
+          "summary": "Fast mode is available for Opus 4.8. It's the same model at roughly 2.5x the speed, and we've made it three times cheaper than before. Turn it on with /fast in Claude Code. On the API, contact your account manager to request access or join the waitlist: claude.com/fast-mode 💬 58 🔄 128 ❤️ 3328 👀 510045 📊 353 ⚡ Powered by xgo.ing",
           "summaryZh": "Opus 4.8 提供快速模式。它是同一型号，速度大约提高了 2.5 倍，而且我们的价格比以前便宜了三倍。在 Claude Code 中使用 /fast 将其打开。在 API 上，联系您的客户经理请求访问或加入候补名单：claude.com/fast-mode",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -111,14 +133,14 @@
           "trust": "official",
           "image": "",
           "video": "./media/2026-05-29-2060013442720010598.mp4",
-          "summary": "Perplexity Computer is now available inside Microsoft Excel, Word, PowerPoint, and Outlook. Orchestrate across work with Computer directly in the side panel of your app to draft documents, model, build decks, and handle email. Available now: perplexity.ai/hub/products/i… Your browser does not support the video tag. 🔗 View on Twitter 💬 40 🔄 70 ❤️ 611 👀 73717 📊 127 ⚡ Powered by xgo.ing",
+          "summary": "Perplexity Computer is now available inside Microsoft Excel, Word, PowerPoint, and Outlook. Orchestrate across work with Computer directly in the side panel of your app to draft documents, model, build decks, and handle email. Available now: perplexity.ai/hub/products/i… Your browser does not support the video tag. 🔗 View on Twitter 💬 40 🔄 72 ❤️ 616 👀 74216 📊 128 ⚡ Powered by xgo.ing",
           "summaryZh": "Perplexity Computer 现在可在 Microsoft Excel、Word、PowerPoint 和 Outlook 中使用。直接在应用程序的侧面板中使用计算机来协调工作，以起草文档、建模、构建平台和处理电子邮件。现已推出：perplexity.ai/hub/products/i。这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型",
             "视频"
           ],
-          "score": 72.76366655891556
+          "score": 72.8063253260639
         },
         {
           "title": "Claude Opus 4.8 is now available for Max subscribers on Perplexity and Computer.",
@@ -132,7 +154,7 @@
           "trust": "official",
           "image": "",
           "video": "./media/2026-05-29-2060049662044962858.mp4",
-          "summary": "Claude Opus 4.8 is now available for Max subscribers on Perplexity and Computer. Your browser does not support the video tag. 🔗 View on Twitter 💬 34 🔄 58 ❤️ 868 👀 158297 📊 121 ⚡ Powered by xgo.ing",
+          "summary": "Claude Opus 4.8 is now available for Max subscribers on Perplexity and Computer. Your browser does not support the video tag. 🔗 View on Twitter 💬 35 🔄 59 ❤️ 871 👀 170152 📊 123 ⚡ Powered by xgo.ing",
           "summaryZh": "Claude Opus 4.8 现已可供 Perplexity 和 Computer 上的 Max 订阅者使用。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -159,24 +181,6 @@
             "视频"
           ],
           "score": 70
-        },
-        {
-          "title": "Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more honesty about its own...",
-          "titleZh": "隆重推出 Claude Opus 4.8：它建立在 Opus 4.7 的基础上，具有更敏锐的判断力，对自己的产品更加诚实",
-          "link": "https://x.com/claudeai/status/2060042702150930686",
-          "publishedAt": "Thu, 28 May 2026 16:57:08 GMT",
-          "source": "Claude(@claudeai)",
-          "sourceType": "social",
-          "section": "product_updates",
-          "channel": "social",
-          "trust": "official",
-          "image": "https://pbs.twimg.com/media/HJa4OYgWwAAlfWX.png",
-          "video": "",
-          "summary": "Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more honesty about its own progress, and the ability to work independently for longer than its predecessors. Available today at the same price. 💬 3096 🔄 7893 ❤️ 61423 👀 11046821 📊 10500 ⚡ Powered by xgo.ing",
-          "summaryZh": "隆重推出 Claude Opus 4.8：它建立在 Opus 4.7 的基础上，具有更敏锐的判断力、对自身进展更加诚实、以及比其前辈更长时间独立工作的能力。今天可以以同样的价格购买。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [],
-          "score": 68
         }
       ]
     },
@@ -377,15 +381,15 @@
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HJZntPvWkAAsp2a.jpg",
           "video": "",
-          "summary": "AI agents' vocabulary explained without a 45-minute YouTube video. You're welcome. → MCP → Single vs. Multi-gent Architecture → Skills → Agentic RAG → Memory That last one - Memory is a hard one. It's also very easy to get wrong. So, we've been working on this problem, and it's called Engram - memory and context management built for agents. Learn more: weaviate.io/blog/engram-de… 💬 2 🔄 5 ❤️ 55 👀 1319 📊 18 ⚡ Powered by xgo.ing",
-          "summaryZh": "无需 45 分钟的 YouTube 视频即可解释 AI 代理的词汇。不客气。 → MCP → 单智能体架构与多智能体架构 → 技能 → 代理 RAG → 记忆 最后一项 - 记忆是一项艰巨的任务。也很容易出错。所以，我们一直在研究这个问题，它被称为 Engram——为代理构建的内存和上下文管理。了解更多：weaviate.io/blog/engram-de…",
+          "summary": "AI agents' vocabulary explained without a 45-minute YouTube video. You're welcome. → MCP → Single vs. Multi-gent Architecture → Skills → Agentic RAG → Memory That last one - Memory is a hard one. It's also very easy to get wrong. So, we've been working on this problem, and it's called Engram - memory and context management built for agents. Learn more: weaviate.io/blog/engram-de… 💬 3 🔄 5 ❤️ 60 👀 1423 📊 20 ⚡ Powered by xgo.ing",
+          "summaryZh": "无需 45 分钟的 YouTube 视频即可解释 AI 代理的词汇。不客气。 → MCP → 单智能体架构与多智能体架构 → 技能 → 代理 RAG → 记忆 最后一项 - 记忆是一项艰巨的任务。也很容易出错。所以，我们一直在研究这个问题，它被称为 Engram——为代理构建的内存和上下文管理。了解更多：weaviate.io/blog/engram-de...",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "智能体",
             "RAG",
             "视频"
           ],
-          "score": 56.70703676032053
+          "score": 57.02994681608958
         },
         {
           "title": "We’re hosting Vector Space Meetup: Retrieval in the Age of Agents on June 11. RAG is the architectu...",
@@ -411,7 +415,7 @@
         },
         {
           "title": "About 90% of enterprise data is unstructured, and most of it lives in documents. PDFs, spreadsheets,...",
-          "titleZh": "大约 90% 的企业数据是非结构化的，其中大部分存储在文档中。 PDF、电子表格、",
+          "titleZh": "大约 90% 的企业数据是非结构化的，其中大部分存储在文档中",
           "link": "https://x.com/qdrant_engine/status/2060013233453617166",
           "publishedAt": "Thu, 28 May 2026 15:00:02 GMT",
           "source": "Qdrant(@qdrant_engine)",
@@ -454,18 +458,18 @@
         },
         {
           "title": "obra/superpowers",
-          "titleZh": "奥布拉/超级大国",
+          "titleZh": "obra/superpowers：有效的代理技能框架和软件开发方法。",
           "link": "https://github.com/obra/superpowers",
-          "publishedAt": "2026-05-29T06:55:00.760Z",
+          "publishedAt": "2026-05-29T07:23:25.080Z",
           "source": "GitHub Trending Daily",
           "sourceType": "open_source",
           "section": "open_source_top",
           "channel": "open_source_rank",
           "trust": "rank",
-          "image": "https://opengraph.githubassets.com/8e1608395a80e80bc94019a0de69938850770ed2cfa5a749484e2519c5d93069/obra/superpowers",
+          "image": "https://opengraph.githubassets.com/d238999839d114cf7f3301e19fab4160acee866f67e7a89726c68882eca3dff0/obra/superpowers",
           "video": "",
           "summary": "Sponsor Star obra / superpowers An agentic skills framework & software development methodology that works.",
-          "summaryZh": "赞助商 Star obra / superpower 有效的代理技能框架和软件开发方法。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "summaryZh": "有效的代理技能框架和软件开发方法。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
           "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
           "tags": [
             "智能体"
@@ -474,9 +478,9 @@
         },
         {
           "title": "revfactory/harness",
-          "titleZh": "改装厂/线束",
+          "titleZh": "revfactory/harness：一种元技能，用于设计特定领域的代理团队、定义",
           "link": "https://github.com/revfactory/harness",
-          "publishedAt": "2026-05-29T06:55:00.760Z",
+          "publishedAt": "2026-05-29T07:23:25.080Z",
           "source": "GitHub Trending Daily",
           "sourceType": "open_source",
           "section": "open_source_top",
@@ -485,7 +489,7 @@
           "image": "https://github.com/revfactory/harness/raw/main/harness_banner.png",
           "video": "",
           "summary": "Star revfactory / harness A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-          "summaryZh": "Star revfactory/harness 一种元技能，用于设计特定领域的代理团队、定义专业代理并生成他们使用的技能。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "summaryZh": "一种元技能，用于设计特定领域的代理团队、定义专业代理并生成他们使用的技能。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
           "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
           "tags": [
             "智能体"
@@ -500,7 +504,7 @@
       "items": [
         {
           "title": "This #CVPR2026 paper from our research team is trending #1 on @HuggingFace 🤗 Meet LocateAnything: ...",
-          "titleZh": "我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：",
+          "titleZh": "这篇论文围绕「我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：」提出了一个更具体的",
           "link": "https://x.com/NVIDIAAI/status/2060058563544801787",
           "publishedAt": "Thu, 28 May 2026 18:00:10 GMT",
           "source": "NVIDIA AI(@NVIDIAAI)",
@@ -510,7 +514,7 @@
           "trust": "official",
           "image": "",
           "video": "./media/2026-05-29-2060058563544801787.mp4",
-          "summary": "This #CVPR2026 paper from our research team is trending #1 on @HuggingFace 🤗 Meet LocateAnything: a vision-language detection model that rethinks bounding box prediction. For AI agents and robots, “seeing” is only useful if a model can pinpoint where something is fast enough to act. Trained on 138M high-quality samples, LocateAnything decodes bounding boxes in parallel instead of one coordinate at a time, improving localization accuracy while dramatically increasing throughput for visual grounding and detection. Project page: nvda.ws/4dKSohb M Your browser does not support the video tag. 🔗 View on Twitter 💬 37 🔄 200 ❤️ 1287 👀 94870 📊 338 ⚡ Powered by xgo.ing",
+          "summary": "This #CVPR2026 paper from our research team is trending #1 on @HuggingFace 🤗 Meet LocateAnything: a vision-language detection model that rethinks bounding box prediction. For AI agents and robots, “seeing” is only useful if a model can pinpoint where something is fast enough to act. Trained on 138M high-quality samples, LocateAnything decodes bounding boxes in parallel instead of one coordinate at a time, improving localization accuracy while dramatically increasing throughput for visual grounding and detection. Project page: nvda.ws/4dKSohb M Your browser does not support the video tag. 🔗 View on Twitter 💬 37 🔄 201 ❤️ 1294 👀 95603 📊 340 ⚡ Powered by xgo.ing",
           "summaryZh": "**核心结论** 这篇论文围绕「我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：」提出了一个更具体的方向：我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：重新思考边界框预测的视觉语言检测模型。对于人工智能代理和机器人来说，只有当模型能够精确定位某事物的速度足以采取行动时，“看到”才有用。LocateAnything 经过 138M 高质量样本的训练，并行解码边界框而不是一次解码一个坐标，从而提高定位精度，同时显着提高视觉接地和检测的吞吐量。\n\n**支撑证据** 摘要与公开信息显示：我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：重新思考边界框预测的视觉语言检测模型。对于人工智能代理和机器人来说，只有当模型能够精确定位某事物的速度足以采取行动时，“看到”才有用。 LocateAnything 经过 138M 高质量样本的训练，并行解码边界框而不是一次解码一个坐标，从而提高定位精度，同时显着提高视觉接地和检测的吞吐量。项目页面：nvda.ws/4dKSohb M\n\n**我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -542,49 +546,6 @@
           "score": 70
         },
         {
-          "title": "Grok Build 0.2.7 is now out, with /usage, /login, shared terminals across subagents, and improved im...",
-          "titleZh": "Grok Build 0.2.7 现已发布，具有 /usage、/login、跨子代理的共享终端以及改进的图像理解 查看所有更新",
-          "link": "https://x.com/xai/status/2060102590122385460",
-          "publishedAt": "Thu, 28 May 2026 20:55:06 GMT",
-          "source": "xAI(@xai)",
-          "sourceType": "social",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "official",
-          "image": "https://pbs.twimg.com/media/HJb0Vw0bUAAMTfW.png",
-          "video": "",
-          "summary": "Grok Build 0.2.7 is now out, with /usage, /login, shared terminals across subagents, and improved image understanding See all updates at x.ai/build/changelog 💬 140 🔄 123 ❤️ 1173 👀 75904 📊 228 ⚡ Powered by xgo.ing",
-          "summaryZh": "Grok Build 0.2.7 现已发布，具有 /usage、/login、跨子代理的共享终端以及改进的图像理解 查看所有更新 x.ai/build/changelog。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "智能体",
-            "图像"
-          ],
-          "score": 65
-        },
-        {
-          "title": "We're adopting the Linux Foundation’s OpenMDW framework across our open model families. This helps ...",
-          "titleZh": "我们正在我们的开放模型系列中采用 Linux 基金会的 OpenMDW 框架",
-          "link": "https://x.com/NVIDIAAI/status/2060035668655677804",
-          "publishedAt": "Thu, 28 May 2026 16:29:11 GMT",
-          "source": "NVIDIA AI(@NVIDIAAI)",
-          "sourceType": "social",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "official",
-          "image": "https://pbs.twimg.com/media/HJazf5KaAAACfbN.jpg",
-          "video": "",
-          "summary": "We're adopting the Linux Foundation’s OpenMDW framework across our open model families. This helps make open model licensing simpler and more consistent at scale. A single legal framework across models, code, documentation, and data helps reduce friction for developers and enterprises building with open source. 💬 15 🔄 40 ❤️ 336 👀 63363 📊 65 ⚡ Powered by xgo.ing",
-          "summaryZh": "我们正在我们的开放模型系列中采用 Linux 基金会的 OpenMDW 框架。这有助于使开放模型许可在规模上更简单、更一致。跨模型、代码、文档和数据的单一法律框架有助于减少开发人员和企业使用开源构建的摩擦。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "模型",
-            "开源",
-            "开发者工具"
-          ],
-          "score": 64.74297117752617
-        },
-        {
           "title": "R&D Part 1: Here to Win",
           "titleZh": "研发第 1 部分：致胜之道",
           "link": "https://x.com/OpenAI/status/2060032839991914619",
@@ -596,7 +557,7 @@
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "R&D Part 1: Here to Win Your browser does not support the video tag. 🔗 View on Twitter 💬 147 🔄 114 ❤️ 2064 👀 281674 📊 358 ⚡ Powered by xgo.ing",
+          "summary": "R&D Part 1: Here to Win Your browser does not support the video tag. 🔗 View on Twitter 💬 147 🔄 114 ❤️ 2066 👀 282626 📊 358 ⚡ Powered by xgo.ing",
           "summaryZh": "研发第 1 部分：在这里获胜。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。这条内容属于系列化的研发叙事（视频/文章），通常会透露研发优先级、组织方式或下一步产品方向；即便当下文本信息有限，也值得打开原文确认关键信号与后续链接。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -616,7 +577,7 @@
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HJcnU6CXoAU-tUa.jpg",
           "video": "",
-          "summary": "Step 3.7 Flash is here ICYMI: 198B MoE with 11B active params, 256K context, native image + video support. Day 0 support is live on build.nvidia.com with GPU-accelerated endpoints, deploy with NVIDIA NIM inference microservices, and fine-tune with the NVIDIA NeMo framework. Congrats to the @stepfun_ai team! 💬 10 🔄 21 ❤️ 214 👀 15555 📊 38 ⚡ Powered by xgo.ing",
+          "summary": "Step 3.7 Flash is here ICYMI: 198B MoE with 11B active params, 256K context, native image + video support. Day 0 support is live on build.nvidia.com with GPU-accelerated endpoints, deploy with NVIDIA NIM inference microservices, and fine-tune with the NVIDIA NeMo framework. Congrats to the @stepfun_ai team! 💬 11 🔄 22 ❤️ 228 👀 16871 📊 41 ⚡ Powered by xgo.ing",
           "summaryZh": "步骤 3.7 Flash 在这里 ICYMI：198B MoE，具有 11B 活动参数、256K 上下文、原生图像 + 视频支持。 build.nvidia.com 上已提供 Day 0 支持，包括 GPU 加速端点、使用 NVIDIA NIM 推理微服务进行部署，以及使用 NVIDIA NeMo 框架进行微调。恭喜 团队！",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -624,7 +585,7 @@
             "视频",
             "图像"
           ],
-          "score": 61.34383878817819
+          "score": 61.58272869753951
         },
         {
           "title": "We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by @Altimet...",
@@ -638,7 +599,7 @@
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by @AltimeterCap , Dragoneer, @Greenoaks , and @sequoia . This investment will help us advance our research and expand our capacity to meet growing demand for Claude. 💬 934 🔄 1375 ❤️ 18697 👀 4601989 📊 2919 ⚡ Powered by xgo.ing",
+          "summary": "We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by @AltimeterCap , Dragoneer, @Greenoaks , and @sequoia . This investment will help us advance our research and expand our capacity to meet growing demand for Claude. 💬 934 🔄 1376 ❤️ 18701 👀 4605392 📊 2919 ⚡ Powered by xgo.ing",
           "summaryZh": "我们在 H 轮融资中筹集了 650 亿美元，投后估值为 9650 亿美元，由 、Dragoneer 、 和 领投。这项投资将帮助我们推进研究并扩大我们的能力，以满足对克劳德不断增长的需求。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -676,11 +637,11 @@
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HJa_YI4akAA9mfm.jpg",
           "video": "",
-          "summary": "Lovable now supports Claude Opus 4.8. 💬 38 🔄 41 ❤️ 663 👀 15023 📊 100 ⚡ Powered by xgo.ing",
+          "summary": "Lovable now supports Claude Opus 4.8. 💬 43 🔄 41 ❤️ 671 👀 15354 📊 105 ⚡ Powered by xgo.ing",
           "summaryZh": "Lovable 现在支持 Claude Opus 4.8。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。这意味着该产品的工作流里可以直接调用对应模型/能力，可能影响生成质量、成本与可用功能，建议关注是否需要额外开关、订阅或配额。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [],
-          "score": 58.39141386767743
+          "score": 58.47880308066592
         },
         {
           "title": "New LangChain Academy Course: Intro to LangSmith Deployment In this course, you’ll learn how to sca...",
@@ -694,14 +655,58 @@
           "trust": "official",
           "image": "",
           "video": "./media/2026-05-29-2060039108328865897.mp4",
-          "summary": "New LangChain Academy Course: Intro to LangSmith Deployment In this course, you’ll learn how to scale a single-user desktop Deep Agent all the way to a multi-tenant deployment running on managed, elastic infrastructure. Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 11 ❤️ 81 👀 5139 📊 21 ⚡ Powered by xgo.ing",
+          "summary": "New LangChain Academy Course: Intro to LangSmith Deployment In this course, you’ll learn how to scale a single-user desktop Deep Agent all the way to a multi-tenant deployment running on managed, elastic infrastructure. Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 11 ❤️ 82 👀 5292 📊 21 ⚡ Powered by xgo.ing",
           "summaryZh": "LangChain 学院新课程：LangSmith 部署简介 在本课程中，您将学习如何将单用户桌面深度代理一直扩展到在托管、弹性基础设施上运行的多租户部署。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "智能体",
             "视频"
           ],
-          "score": 57.283152567114975
+          "score": 57.32331768957839
+        },
+        {
+          "title": "Read more in @StepFun_ai’s launch post:",
+          "titleZh": "请阅读 的发布文章了解更多信息：StepFun ⚡ 步骤 3.7 Flash 就在这里：新前沿是智能体效率",
+          "link": "https://x.com/OpenRouter/status/2060195234756370768",
+          "publishedAt": "Fri, 29 May 2026 03:03:15 GMT",
+          "source": "OpenRouter(@OpenRouterAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HJcdzQdbcAAcQki.jpg",
+          "video": "",
+          "summary": "Read more in @StepFun_ai ’s launch post: StepFun @StepFun_ai ⚡️ Step 3.7 Flash is here: The new frontier is agent efficiency. #1 ClawEval-1.1 (67.1), #1 SimpleVQA Search (79.2), #2 SWE-PRO (56.3), 95.3 on V* Python. Open weights under Apache 2.0. Built for agentic, coding, search, and multimodal workflows — balancing speed, cost, and reliable execution. - 400 TPS. 198B sparse MoE, ~11B active. 256K context, 3 reasoning levels. - Understands UIs, charts, docs, images — then writes code or calls tools to act on wh...",
+          "summaryZh": "请阅读 的发布文章了解更多信息：StepFun ⚡ 步骤 3.7 Flash 就在这里：新前沿是智能体效率。 ClawEval-1.1 (67.1)、 SimpleVQA 搜索 (79.2)、 SWE-PRO (56.3)、V* Python 上的 95.3。 Apache 2.0 下开放权重。专为代理、编码、搜索和多模式工作流程而构建 - 平衡速度、成本和可靠的执行。 - 400 每秒处理量。 198B 稀疏 MoE，~11B 活跃。 256K 上下文，3 个推理级别。 - 理解用户界面、图表、文档、图像——然后编写代码或调用工具来执行操作...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "推理能力"
+          ],
+          "score": 56.73568090209315
+        },
+        {
+          "title": "This tracks. 30 trillion tokens a day on our end, and open model share keeps climbing. Our partner...",
+          "titleZh": "这跟踪。我们这边每天有 30 万亿个代币，开放模型份额不断攀升。我们的合作伙伴@FactoryAI 正在看到我们所看到的。 Matan Grinberg",
+          "link": "https://x.com/FireworksAI_HQ/status/2060103886028046739",
+          "publishedAt": "Thu, 28 May 2026 21:00:15 GMT",
+          "source": "Fireworks AI(@FireworksAI_HQ)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "This tracks. 30 trillion tokens a day on our end, and open model share keeps climbing. Our partners @FactoryAI are seeing what we're seeing. Matan Grinberg @matanSF Narrative violation: Open model use in Factory has more than 3x’d in the last month relative to closed models. By both total consumption and event count. Will be interesting to see what open vs closed token-share looks like at EOY 🔗 View Quoted Tweet 💬 6 🔄 5 ❤️ 110 👀 29937 📊 20 ⚡ Powered by xgo.ing",
+          "summaryZh": "这跟踪。我们这边每天有 30 万亿个代币，开放模型份额不断攀升。我们的合作伙伴@FactoryAI 正在看到我们所看到的。 Matan Grinberg @matanSF 叙事违规：上个月，Factory 中开放模型的使用量相对于封闭模型增加了 3 倍多。按总消耗量和事件计数。在 EOY 查看引用的推文 6 5 110 29937 20 看看开放式与封闭式代币份额是什么样子将会很有趣",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 56.29702663200405
         }
       ]
     },
@@ -773,16 +778,30 @@
       "error": "fetch failed"
     },
     {
-      "source": "Jeff Dean(@JeffDean)",
-      "url": "https://api.xgo.ing/rss/user/b1013166769c49f8aa3fbdc222867054",
-      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/b1013166769c49f8aa3fbdc222867054"
+      "source": "Demis Hassabis(@demishassabis)",
+      "url": "https://api.xgo.ing/rss/user/4a884d5e2f3740c5a26c9c093de6388a",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/4a884d5e2f3740c5a26c9c093de6388a"
+    },
+    {
+      "source": "Qwen(@Alibaba_Qwen)",
+      "url": "https://api.xgo.ing/rss/user/80032d016d654eb4afe741ff34b7643d",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/80032d016d654eb4afe741ff34b7643d"
+    },
+    {
+      "source": "xAI(@xai)",
+      "url": "https://api.xgo.ing/rss/user/3953aa71e87a422eb9d7bf6ff1c7c43e",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/3953aa71e87a422eb9d7bf6ff1c7c43e"
+    },
+    {
+      "source": "meng shao(@shao__meng)",
+      "url": "https://nitter.net/shao__meng/rss",
+      "error": "直连失败，代理兜底也失败：fetch failed; http://127.0.0.1:6789: Command failed: curl -L --http1.1 --silent --show-error --connect-timeout 10 --max-time 20 -A Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125 Safari/537.36 --proxy http://127.0.0.1:6789 https://nitter.net/shao__meng/rss\ncurl: (52) Empty reply from server\n; http://127.0.0.1:7890: Command failed: curl -L --http1.1 --silent --show-error --connect-timeout 10 --max-time 20 -A Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125 Safari/537.36 --proxy http://127.0.0.1:7890 https://nitter.net/shao__meng/rss\ncurl: (7) Failed to connect to 127.0.0.1 port 7890 after 0 ms: Couldn't connect to server\n"
     }
   ],
   "summaryBullets": [
     "**介绍游标开发者习惯报告**：我们正在分享一些关于软件开发如何变化的发现",
     "**这篇论文围绕「我们研究团队的这篇 #CVPR2026 论**：文在 Meet LocateAnything 上排名第一：」提出了一个更具体的方向：我们研究团队的这篇",
     "**无需 45 分钟的 YouTube 视频即可解释 AI**：代理的词汇。不客气",
-    "**我们将于 6 月 11 日举办向量空间聚会：代理时代的检**：索。RAG 是生产 AI 的架构基础，随着时间的推移，检索已经发生了根本性的变化",
-    "**大约 90% 的企业数据是非结构化的，其中大部分存储在文**：档中。PDF、电子表格、Word 文件，这些是经营业务的东西"
+    "**这跟踪。我们这边每天有 30 万亿个代币，开放模型份额不**：断攀升"
   ]
 }

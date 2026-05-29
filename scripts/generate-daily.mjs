@@ -1264,6 +1264,7 @@ function looksLikeTruncatedZhTitle(titleZh = "") {
   const value = normalizeZhTitle(titleZh);
   if (!value) return false;
   if (/(\.{3,}|…)$/.test(value)) return true;
+  if (/[，、,:：\-—]$/.test(value)) return true;
   if (/(和|与|及|或|并|但|而|在|对|为|是|的|从|到|以及)$/.test(value)) return true;
   if (value.includes("…") && value.length > 14) return true;
   if (!/[。！？!?]$/.test(value) && /[A-Za-z]$/.test(value)) return true;
@@ -1277,6 +1278,13 @@ function looksLikeTruncatedZhTitle(titleZh = "") {
     if (/(和|与|及|或|并|但|而)$/.test(last)) return true;
   }
   return false;
+}
+
+function githubRepoSlug(text = "") {
+  const value = String(text || "").trim();
+  if (!value) return "";
+  if (/^[A-Za-z0-9][A-Za-z0-9_.-]{0,80}\/[A-Za-z0-9][A-Za-z0-9_.-]{0,120}$/.test(value)) return value;
+  return "";
 }
 
 function deriveTitleFromSummary(summaryZh = "", { maxLen = 44 } = {}) {
@@ -1345,12 +1353,22 @@ async function localizeSectionsZh(sections) {
 
   for (const section of sections) {
     for (const item of section.items || []) {
+      const repoSlug = /github\.com\//i.test(item.link || "") ? githubRepoSlug(item.title || "") : "";
+      if (repoSlug) item.titleZh = repoSlug;
+
       if (!isChineseEnough(item.titleZh)) {
-        const titleZh = await translateToZh(item.title, { timeoutMs: 45000 }).catch(() => "");
+        const titleZh = repoSlug ? "" : await translateToZh(item.title, { timeoutMs: 45000 }).catch(() => "");
         if (titleZh) item.titleZh = normalizeZhTitle(titleZh);
       }
       if (!isChineseEnough(item.summaryZh)) {
-        const summaryZh = await translateToZh(item.summary, { timeoutMs: 60000 }).catch(() => "");
+        let summarySource = item.summary;
+        if (/github\.com\//i.test(item.link || "")) {
+          summarySource = String(summarySource || "")
+            .replace(/^Sponsor\s+Star\s+\S+\s*\/\s*\S+\s*/i, "")
+            .replace(/^Star\s+\S+\s*\/\s*\S+\s*/i, "")
+            .trim();
+        }
+        const summaryZh = await translateToZh(summarySource, { timeoutMs: 60000 }).catch(() => "");
         if (summaryZh) item.summaryZh = summaryZh;
       }
       item.titleZh = normalizeZhTitle(stripSocialNoise(item.titleZh || ""));
@@ -1377,7 +1395,7 @@ async function localizeSectionsZh(sections) {
 
       if (!hasChinese(item.titleZh)) {
         if (/github\.com\//i.test(item.link || "")) {
-          const repo = String(item.title || "").split(/\s+/).filter(Boolean)[0] || "开源项目";
+          const repo = repoSlug || String(item.title || "").split(/\s+/).filter(Boolean)[0] || "开源项目";
           const snippet = String(item.summaryZh || "").replace(/^Star\s*/i, "").slice(0, 22);
           const translated = snippet && hasChinese(snippet) ? snippet : await translateToZh(item.summary || item.title, { timeoutMs: 45000 }).catch(() => "");
           item.titleZh = normalizeZhTitle(`${repo}：${translated || "开源项目更新"}`);
@@ -1464,6 +1482,12 @@ async function localizeSectionsZh(sections) {
         item.summaryZh = `${item.summaryZh}（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）`.trim();
       }
 
+      if (section.id === "open_source_top" && /github\.com\//i.test(item.link || "") && (item.summaryZh || "").length < 140) {
+        item.summaryZh = `${String(item.summaryZh || "").trim()}。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。`
+          .replace(/。。+/g, "。")
+          .trim();
+      }
+
       if (/github\.com\//i.test(item.link || "") && chineseRatio(item.titleZh || "") < 0.25) {
         const repo = String(item.title || "").split(/\s+/).filter(Boolean)[0] || "开源项目";
         const hint = String(item.summaryZh || "").replace(/^Star\s*/i, "").trim();
@@ -1471,7 +1495,7 @@ async function localizeSectionsZh(sections) {
         item.titleZh = normalizeZhTitle(`${repo}：${shortHint || "开源项目更新"}`);
       }
 
-      if (item.channel !== "podcast" && chineseRatio(item.titleZh || "") < 0.25 && hasChinese(item.summaryZh || "")) {
+      if (item.channel !== "podcast" && !/github\.com\//i.test(item.link || "") && chineseRatio(item.titleZh || "") < 0.25 && hasChinese(item.summaryZh || "")) {
         const candidate = normalizeZhTitle(
           String(item.summaryZh)
             .replace(/\*\*[^*]+\*\*/g, "")
