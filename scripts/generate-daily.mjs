@@ -1245,7 +1245,8 @@ function smartSlice(text = "", maxLen = 44) {
   const next = value[maxLen] || "";
   if (/[A-Za-z0-9]/.test(cut[cut.length - 1] || "") && /[A-Za-z0-9]/.test(next)) {
     const backtrack = cut.lastIndexOf(" ");
-    if (backtrack >= Math.max(0, maxLen - 12)) cut = cut.slice(0, backtrack);
+    // 避免把英文单词切成两半：尽量回退到最近的空格，即使回退幅度稍大也优先保证可读性。
+    if (backtrack >= Math.max(0, maxLen - 20)) cut = cut.slice(0, backtrack);
   }
   return cut.trim();
 }

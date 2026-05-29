@@ -1,13 +1,13 @@
 {
   "date": "2026-05-29",
-  "generatedAt": "2026-05-29T05:54:23.203Z",
+  "generatedAt": "2026-05-29T05:57:39.664Z",
   "title": "AI 日报 - 2026-05-29",
   "stats": {
     "sources": 134,
-    "fetched": 1035,
+    "fetched": 1086,
     "emailCandidates": 0,
     "selected": 35,
-    "failures": 14
+    "failures": 6
   },
   "sections": [
     {
@@ -56,6 +56,28 @@
             "视频"
           ],
           "score": 74
+        },
+        {
+          "title": "We're adopting the Linux Foundation’s OpenMDW framework across our open model families. This helps ...",
+          "titleZh": "我们正在我们的开放模型系列中采用 Linux 基金会的 OpenMDW 框架。这有助于",
+          "link": "https://x.com/NVIDIAAI/status/2060035668655677804",
+          "publishedAt": "Thu, 28 May 2026 16:29:11 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJazf5KaAAACfbN.jpg",
+          "video": "",
+          "summary": "We're adopting the Linux Foundation’s OpenMDW framework across our open model families. This helps make open model licensing simpler and more consistent at scale. A single legal framework across models, code, documentation, and data helps reduce friction for developers and enterprises building with open source. The Linux Foundation @linuxfoundation OpenMDW-1.1 is now available — and @NVIDIAAI is adopting it across Cosmos, Isaac GR00T, Ising, and Nemotron model families. A permissive, unified legal framework purpose-built for AI models. Learn more at openmdw.ai 🔗 View Quoted Tweet 💬 15 🔄 39 ❤️ 334 👀 62600 📊 51 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们正在我们的开放模型系列中采用 Linux 基金会的 OpenMDW 框架。这有助于使开放模型许可在规模上更简单、更一致。跨模型、代码、文档和数据的单一法律框架有助于减少开发人员和企业使用开源构建的摩擦。 Linux 基金会 @linuxfoundation OpenMDW-1.1 现已推出，@NVIDIAAI 正在 Cosmos、Isaac GR00T、Ising 和 Nemotron 模型系列中采用它。专为人工智能模型构建的宽松、统一的法律框架。了解更多信息，请访问 openmdw.ai 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "开源",
+            "开发者工具"
+          ],
+          "score": 73.70329109960906
         },
         {
           "title": "Introducing Dubbing v2, our revolutionary new dubbing model. For the first time, the emotion and p...",
@@ -159,24 +181,6 @@
             "视频"
           ],
           "score": 70
-        },
-        {
-          "title": "Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more honesty about its own...",
-          "titleZh": "隆重推出 Claude Opus 4.8：它建立在 Opus 4.7 的基础上，具有更敏锐的判断力，对自己的产品更加诚实",
-          "link": "https://x.com/claudeai/status/2060042702150930686",
-          "publishedAt": "Thu, 28 May 2026 16:57:08 GMT",
-          "source": "Claude(@claudeai)",
-          "sourceType": "social",
-          "section": "product_updates",
-          "channel": "social",
-          "trust": "official",
-          "image": "https://pbs.twimg.com/media/HJa4OYgWwAAlfWX.png",
-          "video": "",
-          "summary": "Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more honesty about its own progress, and the ability to work independently for longer than its predecessors. Available today at the same price. 💬 3049 🔄 7809 ❤️ 60772 👀 10742266 📊 10386 ⚡ Powered by xgo.ing",
-          "summaryZh": "隆重推出 Claude Opus 4.8：它建立在 Opus 4.7 的基础上，具有更敏锐的判断力、对自身进展更加诚实、以及比其前辈更长时间独立工作的能力。今天可以以同样的价格购买。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [],
-          "score": 68
         }
       ]
     },
@@ -253,29 +257,6 @@
           "score": 36
         },
         {
-          "title": "Claude Opus 4.8: \"a modest but tangible improvement\"",
-          "titleZh": "Claude Opus 4.8：“适度但切实的改进”",
-          "link": "https://simonwillison.net/2026/May/28/claude-opus-4-8/#atom-everything",
-          "publishedAt": "2026-05-28T23:59:50+00:00",
-          "source": "Simon Willison's Weblog",
-          "sourceType": "research",
-          "section": "research_frontier",
-          "channel": "research_blog",
-          "trust": "expert",
-          "image": "https://static.simonwillison.net/static/2026/claude-opus-4.8-low.png",
-          "video": "",
-          "summary": "Anthropic shipped Claude Opus 4.8 today. My favourite thing about it is this note in the release announcement: Users will find Opus 4.8 to be a modest but tangible improvement on its predecessor. There’s still more to be done: we’re working on developing and releasing models that provide many of the same capabilities as Opus at a lower cost. It's so refreshing to see an AI lab honestly describe a release as a minor incremental improvement over the previous model! Honesty seems to be a theme. Here's my other favo...",
-          "summaryZh": "**核心要点** Anthropic 今天发布了 Claude Opus 4.8。我最喜欢的一点是发布公告中的注释：用户会发现 Opus 4.8 对其前身进行了适度但切实的改进。还有更多工作要做：我们正在开发和发布模型，以更低的成本提供许多与 Opus 相同的功能。看到人工智能实验室诚实地将一个版本描述为对之前模型的微小增量改进，真是令人耳目一新！诚实似乎是一个主题。这是我的另一个最爱...",
-          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
-          "tags": [
-            "产品发布",
-            "模型",
-            "智能体",
-            "评测"
-          ],
-          "score": 36
-        },
-        {
           "title": "Claude Opus 4.8 is now available on AWS",
           "titleZh": "这篇文章介绍了 Opus 4.8 的改进",
           "link": "https://aws.amazon.com/blogs/machine-learning/claude-opus-4-8-is-now-available-on-aws/",
@@ -298,47 +279,6 @@
           "score": 32
         },
         {
-          "title": "datasette 1.0a31",
-          "titleZh": "数据集 1.0a31",
-          "link": "https://simonwillison.net/2026/May/29/datasette/#atom-everything",
-          "publishedAt": "2026-05-29T03:32:02+00:00",
-          "source": "Simon Willison's Weblog",
-          "sourceType": "research",
-          "section": "research_frontier",
-          "channel": "research_blog",
-          "trust": "expert",
-          "image": "https://datasette.io/static/blog/2026/sql-write-ui.gif",
-          "video": "",
-          "summary": "Release: datasette 1.0a31 Another significant alpha release, with two new headline features. Datasette now offers users with the necessary permissions the ability to both execute write queries against their database and to save stored queries (renamed from \"canned queries\") both privately and for use by other members of their Datasette instance. There's more detail in SQL write queries and stored queries in Datasette 1.0a31 on the Datasette blog, which now has three posts introducing new features since the blog...",
-          "summaryZh": "**核心要点** 版本：datasette 1.0a31 另一个重要的 alpha 版本，具有两个新的标题功能。 Datasette 现在为具有必要权限的用户提供了对数据库执行写入查询的能力，以及私下保存存储的查询（从“预设查询”重命名）以供其 Datasette 实例的其他成员使用的能力。 Datasette 博客上的 Datasette 1.0a31 中有关于 SQL 写入查询和存储查询的更多详细信息，自该博客发布以来，该博客现在有三篇文章介绍了新功能...",
-          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
-          "tags": [
-            "产品发布"
-          ],
-          "score": 32
-        },
-        {
-          "title": "llm-anthropic 0.25.1",
-          "titleZh": "版本：llm-anthropic 0.2",
-          "link": "https://simonwillison.net/2026/May/28/llm-anthropic/#atom-everything",
-          "publishedAt": "2026-05-28T23:54:56+00:00",
-          "source": "Simon Willison's Weblog",
-          "sourceType": "research",
-          "section": "research_frontier",
-          "channel": "research_blog",
-          "trust": "expert",
-          "image": "",
-          "video": "",
-          "summary": "Release: llm-anthropic 0.25.1 New model: Claude Opus 4.8 ( claude-opus-4.8 ). New -o fast 1 option for fast mode , for organizations with that feature enabled on their account. Default max_tokens for each model now defaults to that model's maximum output rather than 8,192. #72 See also my notes on Opus 4.8 - I used this new release of llm-anthropic to generate the pelicans.",
-          "summaryZh": "**核心要点** 版本：llm-anthropic 0.25.1 新模型：Claude Opus 4.8 ( claude-opus-4.8 )。用于快速模式的新 -o fast 1 选项，适用于在其帐户上启用该功能的组织。每个模型的默认 max_tokens 现在默认为该模型的最大输出，而不是 8,192。 另请参阅我关于 Opus 4.8 的笔记 - 我使用这个新版本的 llm-anthropic 来生成鹈鹕。",
-          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
-          "tags": [
-            "产品发布",
-            "模型"
-          ],
-          "score": 30
-        },
-        {
           "title": "Build a test suite that grows with your agent with dataset management in Amazon Bedrock AgentCore",
           "titleZh": "通过 Amazon Bedrock AgentCore 中的数据集管理构建可与您的代理一起成长的测试套件",
           "link": "https://aws.amazon.com/blogs/machine-learning/build-a-test-suite-that-grows-with-your-agent-with-dataset-management-in-amazon-bedrock-agentcore/",
@@ -358,6 +298,66 @@
             "评测"
           ],
           "score": 29
+        },
+        {
+          "title": "Training Azerbaijani language models on Amazon SageMaker AI",
+          "titleZh": "在 Amazon SageMaker AI 上训练阿塞拜疆语语言模型",
+          "link": "https://aws.amazon.com/blogs/machine-learning/training-azerbaijani-language-models-on-amazon-sagemaker-ai/",
+          "publishedAt": "Thu, 28 May 2026 21:54:06 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Azercell Telecom LLC, Azerbaijan's leading telecommunications provider, wanted to build an Azerbaijani large language model (LLM) on Amazon SageMaker AI for telecom use cases and a customer-facing chatbot. The challenge: adapting foundation models (FMs) to a morphologically rich language with limited training data and no existing blueprint for efficient LLM training in Azerbaijani. In a six-week collaboration, Azercell worked with the AWS Generative AI Innovation Center to establish a production-ready framework...",
+          "summaryZh": "**核心要点** 阿塞拜疆领先的电信提供商 Azercell Telecom LLC 希望在 Amazon SageMaker AI 上针对电信用例和面向客户的聊天机器人构建阿塞拜疆大语言模型 (LLM)。挑战：使基础模型 (FM) 适应形态丰富的语言，但训练数据有限，而且阿塞拜疆没有现有的高效法学硕士培训蓝图。在为期六周的合作中，Azercell 与 AWS Generative AI 创新中心合作建立了一个可投入生产的框架......",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型"
+          ],
+          "score": 27
+        },
+        {
+          "title": "Streamline external access to Amazon SageMaker MLflow using a REST API proxy",
+          "titleZh": "使用 REST API 代理简化对 Amazon SageMaker MLflow 的外部访问",
+          "link": "https://aws.amazon.com/blogs/machine-learning/streamline-external-access-to-amazon-sagemaker-mlflow-using-a-rest-api-proxy/",
+          "publishedAt": "Thu, 28 May 2026 20:35:44 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/21/ML-19491-1.png",
+          "video": "",
+          "summary": "In this post, we demonstrate how to build a secure Flask-based MLflow proxy service that provides HTTPS access to Amazon SageMaker MLflow without requiring the MLflow SDK. This solution is for organizations undergoing cloud transformation who want to preserve their existing ML workflows while adopting cloud-native services.",
+          "summaryZh": "**核心要点** 在本文中，我们演示如何构建基于 Flask 的安全 MLflow 代理服务，该服务提供对 Amazon SageMaker MLflow 的 HTTPS 访问，而无需 MLflow SDK。该解决方案适用于正在进行云转型、希望在采用云原生服务的同时保留现有机器学习工作流程的组织。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "API"
+          ],
+          "score": 27
+        },
+        {
+          "title": "Evaluating Deep Agents using LangSmith on AWS",
+          "titleZh": "在 AWS 上使用 LangSmith 评估深度代理",
+          "link": "https://aws.amazon.com/blogs/machine-learning/evaluating-deep-agents-using-langsmith-on-aws/",
+          "publishedAt": "Thu, 28 May 2026 20:32:23 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/18/Anuj.png",
+          "video": "",
+          "summary": "This post combines learnings from LangChain’s work on evaluating deep agents and Anthropic’s guide to demystifying evals for AI agents into a practical guide. In this post, you will learn how to: 1) apply five evaluation patterns for deep agents, 2) build offline evaluations using pytest and LangSmith, and 3) configure online monitoring for production. The walkthrough uses a text-to-SQL deep agent with Amazon Bedrock for the full development to production lifecycle.",
+          "summaryZh": "**核心要点** 这篇文章结合了 LangChain 在评估深度代理方面的工作经验和 Anthropic 的揭秘人工智能代理评估指南，将其转化为实用指南。在这篇文章中，您将学习如何：1）为深度代理应用五种评估模式，2）使用 pytest 和 LangSmith 构建离线评估，以及 3）配置生产的在线监控。本演练使用文本到 SQL 深度代理和 Amazon Bedrock 来实现从开发到生产的整个生命周期。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
         }
       ]
     },
@@ -456,13 +456,13 @@
           "title": "obra/superpowers",
           "titleZh": "奥布拉/超级大国",
           "link": "https://github.com/obra/superpowers",
-          "publishedAt": "2026-05-29T05:54:23.203Z",
+          "publishedAt": "2026-05-29T05:57:39.664Z",
           "source": "GitHub Trending Daily",
           "sourceType": "open_source",
           "section": "open_source_top",
           "channel": "open_source_rank",
           "trust": "rank",
-          "image": "",
+          "image": "https://opengraph.githubassets.com/3e18a8d1ffcc98858ed7a5b881002add8649429521b71cca947845282e30e2be/obra/superpowers",
           "video": "",
           "summary": "Sponsor Star obra / superpowers An agentic skills framework & software development methodology that works.",
           "summaryZh": "赞助商 Star obra / superpower 有效的代理技能框架和软件开发方法。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
@@ -476,13 +476,13 @@
           "title": "revfactory/harness",
           "titleZh": "改装厂/线束",
           "link": "https://github.com/revfactory/harness",
-          "publishedAt": "2026-05-29T05:54:23.203Z",
+          "publishedAt": "2026-05-29T05:57:39.664Z",
           "source": "GitHub Trending Daily",
           "sourceType": "open_source",
           "section": "open_source_top",
           "channel": "open_source_rank",
           "trust": "rank",
-          "image": "",
+          "image": "https://github.com/revfactory/harness/raw/main/harness_banner.png",
           "video": "",
           "summary": "Star revfactory / harness A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
           "summaryZh": "Star revfactory/harness 一种元技能，用于设计特定领域的代理团队、定义专业代理并生成他们使用的技能。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
@@ -534,7 +534,7 @@
           "trust": "official",
           "image": "",
           "video": "./media/2026-05-29-2060058563544801787.mp4",
-          "summary": "This #CVPR2026 paper from our research team is trending #1 on @HuggingFace 🤗 Meet LocateAnything: a vision-language detection model that rethinks bounding box prediction. For AI agents and robots, “seeing” is only useful if a model can pinpoint where something is fast enough to act. Trained on 138M high-quality samples, LocateAnything decodes bounding boxes in parallel instead of one coordinate at a time, improving localization accuracy while dramatically increasing throughput for visual grounding and detection. Project page: nvda.ws/4dKSohb M Your browser does not support the video tag. 🔗 View on Twitter 💬 37 🔄 190 ❤️ 1220 👀 87064 📊 322 ⚡ Powered by xgo.ing",
+          "summary": "This #CVPR2026 paper from our research team is trending #1 on @HuggingFace 🤗 Meet LocateAnything: a vision-language detection model that rethinks bounding box prediction. For AI agents and robots, “seeing” is only useful if a model can pinpoint where something is fast enough to act. Trained on 138M high-quality samples, LocateAnything decodes bounding boxes in parallel instead of one coordinate at a time, improving localization accuracy while dramatically increasing throughput for visual grounding and detection. Project page: nvda.ws/4dKSohb M Your browser does not support the video tag. 🔗 View on Twitter 💬 37 🔄 192 ❤️ 1226 👀 88334 📊 324 ⚡ Powered by xgo.ing",
           "summaryZh": "**核心结论** 这篇论文围绕「我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：」提出了一个更具体的方向：我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：重新思考边界框预测的视觉语言检测模型。对于人工智能代理和机器人来说，只有当模型能够精确定位某事物的速度足以采取行动时，“看到”才有用。LocateAnything 经过 138M 高质量样本的训练，并行解码边界框而不是一次解码一个坐标，从而提高定位精度，同时显着提高视觉接地和检测的吞吐量。\n\n**支撑证据** 摘要与公开信息显示：我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：重新思考边界框预测的视觉语言检测模型。对于人工智能代理和机器人来说，只有当模型能够精确定位某事物的速度足以采取行动时，“看到”才有用。 LocateAnything 经过 138M 高质量样本的训练，并行解码边界框而不是一次解码一个坐标，从而提高定位精度，同时显着提高视觉接地和检测的吞吐量。项目页面：nvda.ws/4dKSohb M\n\n**我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -587,28 +587,6 @@
           "score": 65
         },
         {
-          "title": "We're adopting the Linux Foundation’s OpenMDW framework across our open model families. This helps ...",
-          "titleZh": "我们正在我们的开放模型系列中采用 Linux 基金会的 OpenMDW 框架。这有助于",
-          "link": "https://x.com/NVIDIAAI/status/2060035668655677804",
-          "publishedAt": "Thu, 28 May 2026 16:29:11 GMT",
-          "source": "NVIDIA AI(@NVIDIAAI)",
-          "sourceType": "social",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "official",
-          "image": "",
-          "video": "",
-          "summary": "We're adopting the Linux Foundation’s OpenMDW framework across our open model families. This helps make open model licensing simpler and more consistent at scale. A single legal framework across models, code, documentation, and data helps reduce friction for developers and enterprises building with open source. 💬 13 🔄 39 ❤️ 332 👀 61216 📊 62 ⚡ Powered by xgo.ing",
-          "summaryZh": "我们正在我们的开放模型系列中采用 Linux 基金会的 OpenMDW 框架。这有助于使开放模型许可在规模上更简单、更一致。跨模型、代码、文档和数据的单一法律框架有助于减少开发人员和企业使用开源构建的摩擦。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "模型",
-            "开源",
-            "开发者工具"
-          ],
-          "score": 64.62033301648378
-        },
-        {
           "title": "R&D Part 1: Here to Win",
           "titleZh": "研发第 1 部分：致胜之道",
           "link": "https://x.com/OpenAI/status/2060032839991914619",
@@ -640,7 +618,7 @@
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HJcnU6CXoAU-tUa.jpg",
           "video": "",
-          "summary": "Step 3.7 Flash is here ICYMI: 198B MoE with 11B active params, 256K context, native image + video support. Day 0 support is live on build.nvidia.com with GPU-accelerated endpoints, deploy with NVIDIA NIM inference microservices, and fine-tune with the NVIDIA NeMo framework. Congrats to the @stepfun_ai team! 💬 9 🔄 21 ❤️ 198 👀 13742 📊 35 ⚡ Powered by xgo.ing",
+          "summary": "Step 3.7 Flash is here ICYMI: 198B MoE with 11B active params, 256K context, native image + video support. Day 0 support is live on build.nvidia.com with GPU-accelerated endpoints, deploy with NVIDIA NIM inference microservices, and fine-tune with the NVIDIA NeMo framework. Congrats to the @stepfun_ai team! 💬 10 🔄 21 ❤️ 214 👀 15555 📊 38 ⚡ Powered by xgo.ing",
           "summaryZh": "步骤 3.7 Flash 在这里 ICYMI：198B MoE，具有 11B 活动参数、256K 上下文、原生图像 + 视频支持。 build.nvidia.com 上已提供 Day 0 支持，包括 GPU 加速端点、使用 NVIDIA NIM 推理微服务进行部署，以及使用 NVIDIA NeMo 框架进行微调。恭喜 团队！",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -648,7 +626,7 @@
             "视频",
             "图像"
           ],
-          "score": 61.08737998702686
+          "score": 61.34383878817819
         },
         {
           "title": "We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by @Altimet...",
@@ -662,7 +640,7 @@
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by @AltimeterCap , Dragoneer, @Greenoaks , and @sequoia . This investment will help us advance our research and expand our capacity to meet growing demand for Claude. 💬 914 🔄 1345 ❤️ 18343 👀 4355377 📊 2856 ⚡ Powered by xgo.ing",
+          "summary": "We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by @AltimeterCap , Dragoneer, @Greenoaks , and @sequoia . This investment will help us advance our research and expand our capacity to meet growing demand for Claude. 💬 919 🔄 1348 ❤️ 18393 👀 4384470 📊 2866 ⚡ Powered by xgo.ing",
           "summaryZh": "我们在 H 轮融资中筹集了 650 亿美元，投后估值为 9650 亿美元，由 、Dragoneer 、 和 领投。这项投资将帮助我们推进研究并扩大我们的能力，以满足对克劳德不断增长的需求。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -705,6 +683,27 @@
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [],
           "score": 58.30922817730246
+        },
+        {
+          "title": "New LangChain Academy Course: Intro to LangSmith Deployment In this course, you’ll learn how to sca...",
+          "titleZh": "浪链学院新课程：LangSmith 部署简介在本课程中，您将学习如何",
+          "link": "https://x.com/LangChain/status/2060039108328865897",
+          "publishedAt": "Thu, 28 May 2026 16:42:51 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-29-2060039108328865897.mp4",
+          "summary": "New LangChain Academy Course: Intro to LangSmith Deployment In this course, you’ll learn how to scale a single-user desktop Deep Agent all the way to a multi-tenant deployment running on managed, elastic infrastructure. Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 11 ❤️ 81 👀 5139 📊 21 ⚡ Powered by xgo.ing",
+          "summaryZh": "LangChain 学院新课程：LangSmith 部署简介 在本课程中，您将学习如何将单用户桌面深度代理一直扩展到在托管、弹性基础设施上运行的多租户部署。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 57.283152567114975
         }
       ]
     },
@@ -758,7 +757,7 @@
           "section": "extended_reading",
           "channel": "podcast",
           "trust": "expert",
-          "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9tZWRpYS53YXZwdWIuY29tLzQ4L2Y3L2ZlLzIwMjQxMjAzMjMxNzU0LUR2ZUhiTFBkVHVqQ3pBY1IucG5n.png",
+          "image": "https://image.xyzcdn.net/6717d7bc0d2f24f289165dff/FtBvk9mcKknFVtvo-NSryHSQUN_9.png",
           "video": "",
           "summary": "线下聚会后，我们聊了聊这届开发者的 AI 焦虑",
           "summaryZh": "**讲了什么**：这一期来自 **浪说播客**，主题是「线下聚会后，我们聊了聊这届开发者的 AI 焦虑」。本期概要 本期节目是一场线下活动结束后的即兴对谈。主持人新宝与船长、建超，以及现场偶遇的嘉宾大圣，围绕 AI 工具普及、独立开发者商业化、国内外付费环境差异，以及个人 AI 实践展开讨论。节目核心讨论： AI 已经从程序员群体扩展到学生、运营、创作者等更广泛的人群； 工具本身的重要性正在下降，真正重要的是能否用 AI 解决问题、提升效率、创造收入； 国内独立开发面临支付、注册、合规和付费意愿等门槛，而出海因为海外付费习惯和汇率优势，成为更现实的商业化方向。 **简介要点**： - 主持人新宝与船长、建超，以及现场偶遇的嘉宾大圣，围绕 AI 工具普及、独立开发者商业化、国内外付费环境差异，以及个人 AI 实践展开讨论。 - 无论你是什么脑力工作者，你是什么类型的，你是学生，以后都跟 AI 脱离不了关系。 - 00:02:20 在 AI 时代，边际成本基本上没有任何降低。 - 00:09:00 【后期制作】 后期 / Captain 运营 / Captain 监制 / Captain 【听友社群】 微信听友群：希望大家在听友群和评论区多多反馈收听感受，这对我们来说十分重要。",
@@ -771,73 +770,33 @@
   ],
   "failures": [
     {
-      "source": "Anthropic News",
-      "url": "https://rsshub.bestblogs.dev/anthropic/news",
+      "source": "宝玉的分享",
+      "url": "https://baoyu.io/feed.xml",
       "error": "fetch failed"
     },
     {
-      "source": "OpenAI Developers(@OpenAIDevs)",
-      "url": "https://api.xgo.ing/rss/user/971dc1fc90da449bac23e5fad8a33d55",
+      "source": "Last Week in AI",
+      "url": "https://lastweekin.ai/feed/",
       "error": "fetch failed"
     },
     {
-      "source": "Greg Brockman(@gdb)",
-      "url": "https://api.xgo.ing/rss/user/af19d054e26a49129f23abfa82d9e268",
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
       "error": "fetch failed"
     },
     {
-      "source": "Yann LeCun(@ylecun)",
-      "url": "https://api.xgo.ing/rss/user/f5f4f928dede472ea55053672ad27ab6",
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
       "error": "fetch failed"
     },
     {
-      "source": "Thomas Wolf(@Thom_Wolf)",
-      "url": "https://api.xgo.ing/rss/user/4918efb13c47459b8dcaa79cfdf72d09",
+      "source": "Latent Space",
+      "url": "https://www.latent.space/feed",
       "error": "fetch failed"
     },
     {
-      "source": "Logan Kilpatrick(@OfficialLoganK)",
-      "url": "https://api.xgo.ing/rss/user/4f63d960de644aeebd0aa97e4994dafe",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Rowan Cheung(@rowancheung)",
-      "url": "https://api.xgo.ing/rss/user/a636de3cbda0495daabd15b9fd298614",
-      "error": "fetch failed"
-    },
-    {
-      "source": "李继刚(@lijigang_com)",
-      "url": "https://api.xgo.ing/rss/user/ca2fa444b6ea4b8b974fe148056e497a",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Demis Hassabis(@demishassabis)",
-      "url": "https://api.xgo.ing/rss/user/4a884d5e2f3740c5a26c9c093de6388a",
-      "error": "fetch failed"
-    },
-    {
-      "source": "bolt.new(@boltdotnew)",
-      "url": "https://api.xgo.ing/rss/user/760ab7cd9708452c9ce1f9144b92a430",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Google DeepMind(@GoogleDeepMind)",
-      "url": "https://api.xgo.ing/rss/user/a99538443a484fcc846bdcc8f50745ec",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Fireworks AI(@FireworksAI_HQ)",
-      "url": "https://api.xgo.ing/rss/user/9f35c76341554bd78c2b9e63dc4fa5d8",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Gary Marcus(@GaryMarcus)",
-      "url": "https://api.xgo.ing/rss/user/35a38c5646d946fb894d8c30c1d9629e",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Folo AI Community Discussions",
-      "url": "https://api.folo.is/entries",
+      "source": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/atom/everything/",
       "error": "fetch failed"
     }
   ],
