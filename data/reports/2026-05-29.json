@@ -1,13 +1,13 @@
 {
   "date": "2026-05-29",
-  "generatedAt": "2026-05-29T06:12:40.772Z",
+  "generatedAt": "2026-05-29T06:28:16.980Z",
   "title": "AI 日报 - 2026-05-29",
   "stats": {
     "sources": 134,
-    "fetched": 1030,
+    "fetched": 1093,
     "emailCandidates": 0,
     "selected": 35,
-    "failures": 18
+    "failures": 2
   },
   "sections": [
     {
@@ -48,7 +48,7 @@
           "trust": "official",
           "image": "",
           "video": "./media/2026-05-29-2060053796001399035.mp4",
-          "summary": "Attention, all you geniuses with products, but no marketing skills. Today we’re launching the Founder Starter Kit—4 skills that will help you look and sound like a legit company, including: > Build-a-Brand > App Screens > Product Sizzle > Founder Video Available for Claude via the Pika MCP. Your browser does not support the video tag. 🔗 View on Twitter 💬 51 🔄 82 ❤️ 857 👀 567370 📊 347 ⚡ Powered by xgo.ing",
+          "summary": "Attention, all you geniuses with products, but no marketing skills. Today we’re launching the Founder Starter Kit—4 skills that will help you look and sound like a legit company, including: > Build-a-Brand > App Screens > Product Sizzle > Founder Video Available for Claude via the Pika MCP. Your browser does not support the video tag. 🔗 View on Twitter 💬 53 🔄 83 ❤️ 875 👀 575187 📊 355 ⚡ Powered by xgo.ing",
           "summaryZh": "注意，你们都是产品天才，但没有营销技巧。今天，我们推出 Founder Starter Kit — 4 项技能，帮助您看起来和听起来像一家合法公司，包括： > 打造品牌 > 应用程序屏幕 > 产品热度 > 通过 Pika MCP 为 Claude 提供创始人视频。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -59,7 +59,7 @@
         },
         {
           "title": "Introducing Dubbing v2, our revolutionary new dubbing model. For the first time, the emotion and p...",
-          "titleZh": "隆重推出 Dubbing v2，这是我们革命性的全新配音模型。第一次感受到这样的情感和",
+          "titleZh": "隆重推出 Dubbing v2，这是我们革命性的全新配音模型",
           "link": "https://x.com/ElevenLabs/status/2060024691444617418",
           "publishedAt": "Thu, 28 May 2026 15:45:34 GMT",
           "source": "ElevenLabs(@elevenlabsio)",
@@ -101,7 +101,7 @@
         },
         {
           "title": "Perplexity Computer is now available inside Microsoft Excel, Word, PowerPoint, and Outlook. Orchest...",
-          "titleZh": "Perplexity Computer 现在可在 Microsoft Excel、Word、PowerPoint 和 Outlook 中使用。管弦乐",
+          "titleZh": "Perplexity Computer 现在可在 Microsoft",
           "link": "https://x.com/perplexity_ai/status/2060013442720010598",
           "publishedAt": "Thu, 28 May 2026 15:00:52 GMT",
           "source": "Perplexity(@perplexity_ai)",
@@ -172,7 +172,7 @@
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HJa4OYgWwAAlfWX.png",
           "video": "",
-          "summary": "Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more honesty about its own progress, and the ability to work independently for longer than its predecessors. Available today at the same price. 💬 3059 🔄 7828 ❤️ 60878 👀 10798653 📊 10408 ⚡ Powered by xgo.ing",
+          "summary": "Introducing Claude Opus 4.8: it builds on Opus 4.7 with sharper judgment, more honesty about its own progress, and the ability to work independently for longer than its predecessors. Available today at the same price. 💬 3075 🔄 7859 ❤️ 61129 👀 10912041 📊 10452 ⚡ Powered by xgo.ing",
           "summaryZh": "隆重推出 Claude Opus 4.8：它建立在 Opus 4.7 的基础上，具有更敏锐的判断力、对自身进展更加诚实、以及比其前辈更长时间独立工作的能力。今天可以以同样的价格购买。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [],
@@ -348,7 +348,7 @@
           "section": "research_frontier",
           "channel": "research_blog",
           "trust": "expert",
-          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/28/ML-21133-2.png",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/28/21133.png",
           "video": "",
           "summary": "Agent evaluation is most powerful when you combine fast-moving online signals with stable offline baselines. To understand whether your agent is truly improving over time, you need a fixed benchmark alongside your changing real-world traffic. Managing test cases for evaluation baselines as a dataset in Amazon Bedrock AgentCore brings the discipline of versioned test fixtures […]",
           "summaryZh": "**核心要点** 当您将快速移动的在线信号与稳定的离线基线结合起来时，代理评估最为强大。要了解您的代理是否真正随着时间的推移而改进，您需要一个固定的基准以及不断变化的现实世界流量。将评估基线的测试用例作为 Amazon Bedrock AgentCore 中的数据集进行管理，带来了版本化测试装置的规范 [...]",
@@ -366,8 +366,30 @@
       "title": "开源项目",
       "items": [
         {
+          "title": "AI agents' vocabulary explained without a 45-minute YouTube video. You're welcome. → MCP → Single ...",
+          "titleZh": "无需 45 分钟的 YouTube 视频即可解释 AI 代理的词汇。不客气。 → MCP → 单",
+          "link": "https://x.com/weaviate_io/status/2060013223533789648",
+          "publishedAt": "Thu, 28 May 2026 15:00:00 GMT",
+          "source": "Weaviate • vector database(@weaviate_io)",
+          "sourceType": "social",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJZntPvWkAAsp2a.jpg",
+          "video": "",
+          "summary": "AI agents' vocabulary explained without a 45-minute YouTube video. You're welcome. → MCP → Single vs. Multi-gent Architecture → Skills → Agentic RAG → Memory That last one - Memory is a hard one. It's also very easy to get wrong. So, we've been working on this problem, and it's called Engram - memory and context management built for agents. Learn more: weaviate.io/blog/engram-de… 💬 2 🔄 5 ❤️ 55 👀 1319 📊 18 ⚡ Powered by xgo.ing",
+          "summaryZh": "无需 45 分钟的 YouTube 视频即可解释 AI 代理的词汇。不客气。 → MCP → 单智能体架构与多智能体架构 → 技能 → 代理 RAG → 记忆 最后一项 - 记忆是一项艰巨的任务。也很容易出错。所以，我们一直在研究这个问题，它被称为 Engram——为代理构建的内存和上下文管理。了解更多：weaviate.io/blog/engram-de…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "RAG",
+            "视频"
+          ],
+          "score": 56.70703676032053
+        },
+        {
           "title": "We’re hosting Vector Space Meetup: Retrieval in the Age of Agents on June 11. RAG is the architectu...",
-          "titleZh": "我们将于 6 月 11 日举办向量空间聚会：代理时代的检索。RAG 是",
+          "titleZh": "我们将于 6 月 11 日举办向量空间聚会：代理时代的检索",
           "link": "https://x.com/qdrant_engine/status/2059937726930337915",
           "publishedAt": "Thu, 28 May 2026 10:00:00 GMT",
           "source": "Qdrant(@qdrant_engine)",
@@ -434,13 +456,13 @@
           "title": "obra/superpowers",
           "titleZh": "奥布拉/超级大国",
           "link": "https://github.com/obra/superpowers",
-          "publishedAt": "2026-05-29T06:12:40.772Z",
+          "publishedAt": "2026-05-29T06:28:16.980Z",
           "source": "GitHub Trending Daily",
           "sourceType": "open_source",
           "section": "open_source_top",
           "channel": "open_source_rank",
           "trust": "rank",
-          "image": "https://opengraph.githubassets.com/e86def1aac79e1136d5f30fb5a6f04706be6e2b60b15050d9e1ccee7dd125eac/obra/superpowers",
+          "image": "https://opengraph.githubassets.com/a1b693495562b6e0c19c288473395b3f12ea2ea1d6c09caf5f9ea7d57c1702ef/obra/superpowers",
           "video": "",
           "summary": "Sponsor Star obra / superpowers An agentic skills framework & software development methodology that works.",
           "summaryZh": "赞助商 Star obra / superpower 有效的代理技能框架和软件开发方法。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
@@ -454,13 +476,13 @@
           "title": "revfactory/harness",
           "titleZh": "改装厂/线束",
           "link": "https://github.com/revfactory/harness",
-          "publishedAt": "2026-05-29T06:12:40.772Z",
+          "publishedAt": "2026-05-29T06:28:16.980Z",
           "source": "GitHub Trending Daily",
           "sourceType": "open_source",
           "section": "open_source_top",
           "channel": "open_source_rank",
           "trust": "rank",
-          "image": "https://github.com/revfactory/harness/raw/main/harness_banner.png",
+          "image": "https://github.com/revfactory/harness/raw/main/harness_team.png",
           "video": "",
           "summary": "Star revfactory / harness A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
           "summaryZh": "Star revfactory/harness 一种元技能，用于设计特定领域的代理团队、定义专业代理并生成他们使用的技能。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
@@ -469,24 +491,6 @@
             "智能体"
           ],
           "score": 30
-        },
-        {
-          "title": "twentyhq/twenty",
-          "titleZh": "二十总部/二十",
-          "link": "https://github.com/twentyhq/twenty",
-          "publishedAt": "2026-05-29T06:12:40.772Z",
-          "source": "GitHub Trending Daily",
-          "sourceType": "open_source",
-          "section": "open_source_top",
-          "channel": "open_source_rank",
-          "trust": "rank",
-          "image": "https://repository-images.githubusercontent.com/572984571/ef151ee9-3060-418b-bf88-cb689ab78c7b",
-          "video": "",
-          "summary": "Star twentyhq / twenty The open alternative to Salesforce, designed for AI.",
-          "summaryZh": "Startxtyhq /二十 Salesforce 的开放替代方案，专为 AI 设计。（建议打开仓库查看用法、示例与输出效果。）（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
-          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
-          "tags": [],
-          "score": 27
         }
       ]
     },
@@ -494,6 +498,53 @@
       "id": "social_shares",
       "title": "社媒观察",
       "items": [
+        {
+          "title": "📢Qwen3.7-Max just hit #3 on ITbench-AA — a fresh benchmark testing how well models handle real-worl...",
+          "titleZh": "Qwen3.7-Max 刚刚在 ITbench-AA 上排名第三——这是一个新的基准测试，测试模型处理现实世界的能力",
+          "link": "https://x.com/Alibaba_Qwen/status/2059891171405787169",
+          "publishedAt": "Thu, 28 May 2026 06:55:00 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJWB_nJaIAA6MUJ.jpg",
+          "video": "",
+          "summary": "📢Qwen3.7-Max just hit #3 on ITbench-AA — a fresh benchmark testing how well models handle real-world enterprise IT tasks, agentic-style. 🔧Agentic era, go with Qwen.🏃🏃 Artificial Analysis @ArtificialAnlys Artificial Analysis and IBM Research are launching ITBench-AA, the first in a new series of benchmarks evaluating models on agentic enterprise IT tasks, starting with Site Reliability Engineering tasks where frontier models score below 50% ITBench-AA’s SRE tasks benchmark model performance on Kubernetes incident response, where models must diagnose live systems by reading logs, tracing dependencies, and identifying root-cause entities across complex infrastructure. The underlying ITBench dataset has been developed by @IBM 's Software Innovation Lab, leveraging IBM’s deep expertise in enterprise IT operations Artificial Analysis has worked closely with IBM over the last 6 months to...",
+          "summaryZh": "Qwen3.7-Max 刚刚在 ITbench-AA 上排名第三，这是一个新的基准测试，测试模型如何以代理方式处理现实世界的企业 IT 任务。代理时代，跟Qwen一起吧。 Artificial Analysis @ArtificialAnlys Artificial Analysis 和 IBM Research 正在推出 ITBench-AA，这是评估代理企业 IT 任务模型的新系列基准测试中的第一个，首先是站点可靠性工程任务，其中前沿模型得分低于 50% ITBench-AA 的 SRE 任务基准模型在 Kubernetes 事件响应上的性能，其中模型必须通过读取日志、跟踪依赖关系并识别复杂基础设施中的根本原因实体来诊断实时系统。底层 ITBench 数据集由 @IBM 的软件创新实验室开发，利用 IBM 在企业 IT 运营方面的深厚专业知识人工分析在过去 6 个月中与 IBM 密切合作，以...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "推理能力",
+            "评测"
+          ],
+          "score": 84.70066428850976
+        },
+        {
+          "title": "This #CVPR2026 paper from our research team is trending #1 on @HuggingFace 🤗 Meet LocateAnything: ...",
+          "titleZh": "我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：",
+          "link": "https://x.com/NVIDIAAI/status/2060058563544801787",
+          "publishedAt": "Thu, 28 May 2026 18:00:10 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-29-2060058563544801787.mp4",
+          "summary": "This #CVPR2026 paper from our research team is trending #1 on @HuggingFace 🤗 Meet LocateAnything: a vision-language detection model that rethinks bounding box prediction. For AI agents and robots, “seeing” is only useful if a model can pinpoint where something is fast enough to act. Trained on 138M high-quality samples, LocateAnything decodes bounding boxes in parallel instead of one coordinate at a time, improving localization accuracy while dramatically increasing throughput for visual grounding and detection. Project page: nvda.ws/4dKSohb M Your browser does not support the video tag. 🔗 View on Twitter 💬 37 🔄 196 ❤️ 1259 👀 92094 📊 331 ⚡ Powered by xgo.ing",
+          "summaryZh": "**核心结论** 这篇论文围绕「我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：」提出了一个更具体的方向：我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：重新思考边界框预测的视觉语言检测模型。对于人工智能代理和机器人来说，只有当模型能够精确定位某事物的速度足以采取行动时，“看到”才有用。LocateAnything 经过 138M 高质量样本的训练，并行解码边界框而不是一次解码一个坐标，从而提高定位精度，同时显着提高视觉接地和检测的吞吐量。\n\n**支撑证据** 摘要与公开信息显示：我们研究团队的这篇 #CVPR2026 论文在 @HuggingFace Meet LocateAnything 上排名第一：重新思考边界框预测的视觉语言检测模型。对于人工智能代理和机器人来说，只有当模型能够精确定位某事物的速度足以采取行动时，“看到”才有用。 LocateAnything 经过 138M 高质量样本的训练，并行解码边界框而不是一次解码一个坐标，从而提高定位精度，同时显着提高视觉接地和检测的吞吐量。项目页面：nvda.ws/4dKSohb M\n\n**我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "论文",
+            "视频"
+          ],
+          "score": 70
+        },
         {
           "title": "Also new in Claude Code: dynamic workflows (research preview). For the hardest tasks, Claude makes ...",
           "titleZh": "Claude Code 中的另一个新功能：动态工作流程（研究预览）。对于最艰巨的任务，克劳德",
@@ -536,6 +587,28 @@
           "score": 65
         },
         {
+          "title": "We're adopting the Linux Foundation’s OpenMDW framework across our open model families. This helps ...",
+          "titleZh": "我们正在我们的开放模型系列中采用 Linux 基金会的 OpenMDW",
+          "link": "https://x.com/NVIDIAAI/status/2060035668655677804",
+          "publishedAt": "Thu, 28 May 2026 16:29:11 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We're adopting the Linux Foundation’s OpenMDW framework across our open model families. This helps make open model licensing simpler and more consistent at scale. A single legal framework across models, code, documentation, and data helps reduce friction for developers and enterprises building with open source. 💬 15 🔄 40 ❤️ 336 👀 63363 📊 65 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们正在我们的开放模型系列中采用 Linux 基金会的 OpenMDW 框架。这有助于使开放模型许可在规模上更简单、更一致。跨模型、代码、文档和数据的单一法律框架有助于减少开发人员和企业使用开源构建的摩擦。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "开源",
+            "开发者工具"
+          ],
+          "score": 64.74297117752617
+        },
+        {
           "title": "R&D Part 1: Here to Win",
           "titleZh": "研发第 1 部分：致胜之道",
           "link": "https://x.com/OpenAI/status/2060032839991914619",
@@ -556,6 +629,28 @@
           "score": 62
         },
         {
+          "title": "Step 3.7 Flash is here ICYMI: 198B MoE with 11B active params, 256K context, native image + video ...",
+          "titleZh": "步骤 3.7 Flash 在这里 ICYMI：198B MoE，具有 11B 活动参数、256K 上下文、本机图像 + 视频",
+          "link": "https://x.com/NVIDIAAI/status/2060158596730482985",
+          "publishedAt": "Fri, 29 May 2026 00:37:40 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJcnU6CXoAU-tUa.jpg",
+          "video": "",
+          "summary": "Step 3.7 Flash is here ICYMI: 198B MoE with 11B active params, 256K context, native image + video support. Day 0 support is live on build.nvidia.com with GPU-accelerated endpoints, deploy with NVIDIA NIM inference microservices, and fine-tune with the NVIDIA NeMo framework. Congrats to the @stepfun_ai team! 💬 10 🔄 21 ❤️ 214 👀 15555 📊 38 ⚡ Powered by xgo.ing",
+          "summaryZh": "步骤 3.7 Flash 在这里 ICYMI：198B MoE，具有 11B 活动参数、256K 上下文、原生图像 + 视频支持。 build.nvidia.com 上已提供 Day 0 支持，包括 GPU 加速端点、使用 NVIDIA NIM 推理微服务进行部署，以及使用 NVIDIA NeMo 框架进行微调。恭喜 团队！",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "推理部署",
+            "视频",
+            "图像"
+          ],
+          "score": 61.34383878817819
+        },
+        {
           "title": "We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by @Altimet...",
           "titleZh": "我们在 H 轮融资中筹集了 650 亿美元，投后估值为 9650 亿美元，由@Altimet 领投",
           "link": "https://x.com/AnthropicAI/status/2060061347522433422",
@@ -567,7 +662,7 @@
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by @AltimeterCap , Dragoneer, @Greenoaks , and @sequoia . This investment will help us advance our research and expand our capacity to meet growing demand for Claude. 💬 919 🔄 1348 ❤️ 18393 👀 4384470 📊 2866 ⚡ Powered by xgo.ing",
+          "summary": "We've raised $65 billion in Series H funding at a $965 billion post-money valuation, led by @AltimeterCap , Dragoneer, @Greenoaks , and @sequoia . This investment will help us advance our research and expand our capacity to meet growing demand for Claude. 💬 928 🔄 1359 ❤️ 18569 👀 4506768 📊 2895 ⚡ Powered by xgo.ing",
           "summaryZh": "我们在 H 轮融资中筹集了 650 亿美元，投后估值为 9650 亿美元，由 、Dragoneer 、 和 领投。这项投资将帮助我们推进研究并扩大我们的能力，以满足对克劳德不断增长的需求。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -577,7 +672,7 @@
         },
         {
           "title": "Earlier this month, our run-rate revenue crossed $47 billion. This growth has been driven by organ...",
-          "titleZh": "本月早些时候，我们的运行收入突破了 470 亿美元。这种增长是由器官驱动的",
+          "titleZh": "本月早些时候，我们的运行收入突破了 470 亿美元",
           "link": "https://x.com/AnthropicAI/status/2060061348818518493",
           "publishedAt": "Thu, 28 May 2026 18:11:14 GMT",
           "source": "Anthropic(@AnthropicAI)",
@@ -610,91 +705,6 @@
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [],
           "score": 58.39141386767743
-        },
-        {
-          "title": "New LangChain Academy Course: Intro to LangSmith Deployment In this course, you’ll learn how to sca...",
-          "titleZh": "浪链学院新课程：LangSmith 部署简介在本课程中，您将学习如何",
-          "link": "https://x.com/LangChain/status/2060039108328865897",
-          "publishedAt": "Thu, 28 May 2026 16:42:51 GMT",
-          "source": "LangChain(@LangChainAI)",
-          "sourceType": "social",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "official",
-          "image": "",
-          "video": "./media/2026-05-29-2060039108328865897.mp4",
-          "summary": "New LangChain Academy Course: Intro to LangSmith Deployment In this course, you’ll learn how to scale a single-user desktop Deep Agent all the way to a multi-tenant deployment running on managed, elastic infrastructure. Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 11 ❤️ 81 👀 5139 📊 21 ⚡ Powered by xgo.ing",
-          "summaryZh": "LangChain 学院新课程：LangSmith 部署简介 在本课程中，您将学习如何将单用户桌面深度代理一直扩展到在托管、弹性基础设施上运行的多租户部署。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "智能体",
-            "视频"
-          ],
-          "score": 57.283152567114975
-        },
-        {
-          "title": "Read more in @StepFun_ai’s launch post:",
-          "titleZh": "阅读@StepFun_ai 的发布文章了解更多信息：",
-          "link": "https://x.com/OpenRouter/status/2060195234756370768",
-          "publishedAt": "Fri, 29 May 2026 03:03:15 GMT",
-          "source": "OpenRouter(@OpenRouterAI)",
-          "sourceType": "social",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "expert",
-          "image": "https://pbs.twimg.com/media/HJcdzQdbcAAcQki.jpg",
-          "video": "",
-          "summary": "Read more in @StepFun_ai ’s launch post: StepFun @StepFun_ai ⚡️ Step 3.7 Flash is here: The new frontier is agent efficiency. #1 ClawEval-1.1 (67.1), #1 SimpleVQA Search (79.2), #2 SWE-PRO (56.3), 95.3 on V* Python. Open weights under Apache 2.0. Built for agentic, coding, search, and multimodal workflows — balancing speed, cost, and reliable execution. - 400 TPS. 198B sparse MoE, ~11B active. 256K context, 3 reasoning levels. - Understands UIs, charts, docs, images — then writes code or calls tools to act on wh...",
-          "summaryZh": "请阅读 的发布文章了解更多信息：StepFun ⚡ 步骤 3.7 Flash 就在这里：新前沿是智能体效率。 ClawEval-1.1 (67.1)、 SimpleVQA 搜索 (79.2)、 SWE-PRO (56.3)、V* Python 上的 95.3。 Apache 2.0 下开放权重。专为代理、编码、搜索和多模式工作流程而构建 - 平衡速度、成本和可靠的执行。 - 400 每秒处理量。 198B 稀疏 MoE，~11B 活跃。 256K 上下文，3 个推理级别。 - 理解用户界面、图表、文档、图像——然后编写代码或调用工具来执行操作...",
-          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
-          "tags": [
-            "产品发布",
-            "模型",
-            "API",
-            "智能体",
-            "推理能力"
-          ],
-          "score": 56.65975389295142
-        },
-        {
-          "title": "You can now use Claude Opus 4.8 in v0. Try it at https://t.co/QOp8bfPLjW",
-          "titleZh": "您现在可以在 v0 中使用 Claude Opus 4.8。尝试一下",
-          "link": "https://x.com/v0/status/2060046416387657757",
-          "publishedAt": "Thu, 28 May 2026 17:11:54 GMT",
-          "source": "v0(@v0)",
-          "sourceType": "social",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "official",
-          "image": "",
-          "video": "./media/2026-05-29-2060046416387657757.mp4",
-          "summary": "You can now use Claude Opus 4.8 in v0. Try it at v0.app Your browser does not support the video tag. 🔗 View on Twitter 💬 9 🔄 11 ❤️ 115 👀 32441 📊 23 ⚡ Powered by xgo.ing",
-          "summaryZh": "您现在可以在 v0 中使用 Claude Opus 4.8。请在 v0.app 9 11 115 32441 23 尝试一下。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "视频"
-          ],
-          "score": 56.18285587894182
-        },
-        {
-          "title": "We’re partnering with the Government of Greece to reimagine public services. Today, we signed an MOU...",
-          "titleZh": "我们正在与希腊政府合作，重新构想公共服务。今天，我们签署了一份谅解备忘录",
-          "link": "https://x.com/ElevenLabs/status/2059942694982484427",
-          "publishedAt": "Thu, 28 May 2026 10:19:45 GMT",
-          "source": "ElevenLabs(@elevenlabsio)",
-          "sourceType": "social",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "official",
-          "image": "https://pbs.twimg.com/media/HJZikf0WoAU7udB.jpg",
-          "video": "",
-          "summary": "We’re partnering with the Government of Greece to reimagine public services. Today, we signed an MOU with @PrimeministerGR and @papastergiougr to use voice AI to improve public services, promote tourism, and preserve Greek linguistic heritage. 💬 9 🔄 12 ❤️ 110 👀 8649 📊 22 ⚡ Powered by xgo.ing",
-          "summaryZh": "我们正在与希腊政府合作，重新构想公共服务。今天，我们与 @PrimeministerGR 和 @papastergiougr 签署了一份谅解备忘录，利用语音 AI 改善公共服务、促进旅游业并保护希腊语言遗产。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "语音"
-          ],
-          "score": 55.314702780957525
         }
       ]
     },
@@ -761,101 +771,21 @@
   ],
   "failures": [
     {
-      "source": "FireCrawl Blog",
-      "url": "https://api.bestblogs.dev/feed/fireCrawlBlog",
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.dev/rss/",
       "error": "fetch failed"
     },
     {
-      "source": "Alex Albert(@alexalbert__)",
-      "url": "https://api.xgo.ing/rss/user/524525de0d69407b80f0a7d891fdc8df",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Thomas Wolf(@Thom_Wolf)",
-      "url": "https://api.xgo.ing/rss/user/4918efb13c47459b8dcaa79cfdf72d09",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Demis Hassabis(@demishassabis)",
-      "url": "https://api.xgo.ing/rss/user/4a884d5e2f3740c5a26c9c093de6388a",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Qwen(@Alibaba_Qwen)",
-      "url": "https://api.xgo.ing/rss/user/80032d016d654eb4afe741ff34b7643d",
-      "error": "fetch failed"
-    },
-    {
-      "source": "NVIDIA AI(@NVIDIAAI)",
-      "url": "https://api.xgo.ing/rss/user/05f1492e43514dc3862a076d3697c390",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Groq Inc(@GroqInc)",
-      "url": "https://api.xgo.ing/rss/user/771b32075fe54a83bdb6966de9647b4f",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Jeff Dean(@JeffDean)",
-      "url": "https://api.xgo.ing/rss/user/b1013166769c49f8aa3fbdc222867054",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Cognition(@cognition_labs)",
-      "url": "https://api.xgo.ing/rss/user/4cc14cbd15c74e189d537c415369e1a7",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Weaviate • vector database(@weaviate_io)",
-      "url": "https://api.xgo.ing/rss/user/2f1035ec6b28475987af06b600e1d04c",
-      "error": "fetch failed"
-    },
-    {
-      "source": "歸藏(guizang.ai)(@op7418)",
-      "url": "https://api.xgo.ing/rss/user/831fac36aa0a49a9af79f35dc1c9b5d9",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Simon Willison(@simonw)",
-      "url": "https://api.xgo.ing/rss/user/30ad80be93c84e44acc37d5ddf31db57",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Browser Use(@browser_use)",
-      "url": "https://api.xgo.ing/rss/user/b8d7530f0b294405825013bbc1cc198f",
-      "error": "fetch failed"
-    },
-    {
-      "source": "The Rundown AI(@TheRundownAI)",
-      "url": "https://api.xgo.ing/rss/user/83b1ea38940b4a1d81ea57d1ffb12ad7",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Fireworks AI(@FireworksAI_HQ)",
-      "url": "https://api.xgo.ing/rss/user/9f35c76341554bd78c2b9e63dc4fa5d8",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Jan Leike(@janleike)",
-      "url": "https://api.xgo.ing/rss/user/dceb5cd131b34c72a8376cba8ea5d864",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Richard Socher(@RichardSocher)",
-      "url": "https://api.xgo.ing/rss/user/4d2d4165a7524217a08d3f57f27fa190",
-      "error": "fetch failed"
-    },
-    {
-      "source": "Gary Marcus(@GaryMarcus)",
-      "url": "https://api.xgo.ing/rss/user/35a38c5646d946fb894d8c30c1d9629e",
-      "error": "fetch failed"
+      "source": "Datawhale",
+      "url": "https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml"
     }
   ],
   "summaryBullets": [
-    "**介绍游标开发者习惯报告**：。我们正在分享一些关于软件开发如何变化的发现",
-    "**Claude Code 中的另一个新功能：动态工作流程（**：研究预览）。对于最困难的任务，克劳德制定计划，运行数百个并行子代理，并在返回报告之前验证其工作",
+    "**Qwen3.7-Max 刚刚在 ITbench-AA 上**：排名第三，这是一个新的基准测试，测试模型如何以代理方式处理现实世界的企业 IT 任务。代理时代，跟Qwen一起吧",
+    "**介绍游标开发者习惯报告**：我们正在分享一些关于软件开发如何变化的发现",
+    "**无需 45 分钟的 YouTube 视频即可解释 AI**：代理的词汇。不客气",
     "**我们将于 6 月 11 日举办向量空间聚会：代理时代的检**：索。RAG 是生产 AI 的架构基础，随着时间的推移，检索已经发生了根本性的变化",
-    "**大约 90% 的企业数据是非结构化的，其中大部分存储在文**：档中。PDF、电子表格、Word 文件，这些是经营业务的东西",
-    "**当 RAG 给出错误答案时，团队的第一步通常是更大的模型**：当 RAG 给出错误答案时，团队的第一步通常是使用更大的模型或更及时的调整。'-'：1⃣，.每个桶 5-10 个：精确术语（型号、API 名称、错误代码）、多跳、长尾和无法"
+    "**大约 90% 的企业数据是非结构化的，其中大部分存储在文**：档中。PDF、电子表格、Word 文件，这些是经营业务的东西"
   ]
 }

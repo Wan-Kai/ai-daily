@@ -1260,6 +1260,22 @@ function chineseSentenceCount(text = "") {
     .length;
 }
 
+function looksLikeTruncatedZhTitle(titleZh = "") {
+  const value = normalizeZhTitle(titleZh);
+  if (!value) return false;
+  if (/(\.{3,}|…)$/.test(value)) return true;
+  if (/(和|与|及|或|并|但|而|在|对|为|是|的|从|到|以及)$/.test(value)) return true;
+  if (value.includes("…") && value.length > 14) return true;
+  // 句号后紧跟短残句（常见于抓取/翻译的截断）
+  if (value.includes("。")) {
+    const parts = value.split("。").map((part) => part.trim()).filter(Boolean);
+    const last = parts[parts.length - 1] || "";
+    if (last.length > 0 && last.length < 8 && !/[。！？!?]$/.test(value)) return true;
+    if (/(和|与|及|或|并|但|而)$/.test(last)) return true;
+  }
+  return false;
+}
+
 function deriveTitleFromSummary(summaryZh = "", { maxLen = 44 } = {}) {
   const value = normalizeZhTitle(String(summaryZh || ""))
     .replace(/\*\*[^*]+\*\*/g, "")
@@ -1392,6 +1408,12 @@ async function localizeSectionsZh(sections) {
         if (derived && !derived.includes("…")) item.titleZh = derived;
       }
 
+      // 标题虽然没有以省略号结尾，但语义上明显是“半句被截断”（例如以“和/与/并/在/的”结尾）。
+      if (item.sourceType === "social" && looksLikeTruncatedZhTitle(item.titleZh || "")) {
+        const derived = deriveTitleFromSummary(item.summaryZh || "", { maxLen: 36 });
+        if (derived) item.titleZh = derived;
+      }
+
       if (section.id !== "open_source_top") {
         const summaryValue = normalizeZhTitle(item.summaryZh || "");
         const needsEnrich = summaryValue.length < 120 || chineseSentenceCount(summaryValue) < 2;
@@ -1496,7 +1518,7 @@ async function localizeSectionsZh(sections) {
 
     const tailSource = summaryClean && summaryClean !== titleClean ? summaryClean : (summaryClean || titleClean);
     let tail = bulletTailFromText(tailSource, { maxLen: 86 });
-    if (tail.startsWith(head)) tail = tail.slice(head.length).replace(/^[:：，,、\-\s]+/, "");
+    if (tail.startsWith(head)) tail = tail.slice(head.length).replace(/^[。\.、,:：，\-\s]+/, "");
     const bullet = `**${head}**：${tail || head}`;
     if (!hasChinese(bullet) || bullet.length < 24) return "";
     if (chineseRatio(bullet) < 0.35) return "";
