@@ -1886,12 +1886,24 @@ async function historicalReportDuplicateKeys(date, options = {}) {
 }
 
 async function main() {
+  const startedAtMs = Date.now();
+  const logProgress = (message) => {
+    const elapsed = `${Math.round((Date.now() - startedAtMs) / 1000)}s`;
+    console.log(`[${new Date().toISOString()}][+${elapsed}] ${message}`);
+  };
+
   const sources = JSON.parse(await readFile(sourcesPath, "utf8")).filter((source) => source.enabled !== false);
   const emailCandidates = await readEmailCandidates(today);
+  logProgress(`开始抓取资讯源：sources=${sources.length} emailCandidates=${emailCandidates.length}`);
   const results = await runWithConcurrency(sources, 8, async (source) => {
+    const sourceStartedAtMs = Date.now();
+    logProgress(`抓取中：${source.name}`);
     try {
-      return { status: "fulfilled", source, items: await fetchSource(source) };
+      const items = await fetchSource(source);
+      logProgress(`抓取完成：${source.name} items=${items.length} cost=${Math.round((Date.now() - sourceStartedAtMs) / 1000)}s`);
+      return { status: "fulfilled", source, items };
     } catch (error) {
+      logProgress(`抓取失败：${source.name} cost=${Math.round((Date.now() - sourceStartedAtMs) / 1000)}s error=${error?.message || error}`);
       return { status: "rejected", source, reason: error };
     }
   });
@@ -1915,10 +1927,12 @@ async function main() {
   const recentKeys = await historicalReportDuplicateKeys(today, { maxDays: RECENT_DEDUPE_DAYS });
   const podcastHistoryKeys = await historicalReportDuplicateKeys(today, { maxDays: Infinity });
   const previousKeys = recentKeys;
+  logProgress("抓取延伸阅读（播客）中…");
   const extendedReadings = await fetchPodcastExtendedReadings({
     links: new Set([...recentKeys.links, ...podcastHistoryKeys.podcastLinks]),
     titles: new Set([...recentKeys.titles, ...podcastHistoryKeys.podcastTitles])
   });
+  logProgress(`抓取延伸阅读（播客）完成：items=${extendedReadings.items.length} failures=${extendedReadings.failures.length}`);
   fetched.push(...extendedReadings.items);
   failures.push(...extendedReadings.failures.map((failure) => ({
     source: `播客延伸阅读 / ${failure.source}`,

@@ -1,0 +1,803 @@
+{
+  "date": "2026-06-02",
+  "generatedAt": "2026-06-01T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-02",
+  "stats": {
+    "sources": 134,
+    "fetched": 812,
+    "emailCandidates": 0,
+    "selected": 34,
+    "failures": 1
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "👏👏 Introducing Qwen3.7-Plus — a multimodal agent model that unifies vision and language into one v...",
+          "titleZh": "隆重推出 Qwen3.7-Plus — 一种多模式代理模型，将视觉和语言统一到一个多功能代理基础中",
+          "link": "https://x.com/Alibaba_Qwen/status/2061506641120641494",
+          "publishedAt": "Mon, 01 Jun 2026 17:54:18 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "description": "👏👏 Introducing Qwen3.7-Plus — a multimodal agent model that unifies vision and language into one versatile agent foundation. ✅ Multimodal interactive hybrid agent: unified GUI & CLI operation across visual and text tasks ✅ Versatile coding agent & productivity assistant with full-modality input ✅ Visual Agent: perception, reasoning, grounding, and search-augmented QA ✅ Cross-harness generalization across diverse agent frameworks One model. Sees, thinks, codes, acts.🙌🙌 Now available via API on Alibaba Cloud Model Studio. Try it — let us know what you build.😎 🔗🔗⬇️⬇ qwen.ai/blog?id=qwen3.… f0h3NNa Qwen chat.qwen.ai/?models=qwen3.… gFW4c modelstudio.console.alibabacloud.com/ap-southeast-1… 0cXrMzW 💬 51 🔄 69 ❤️ 566 👀 15189 📊 124 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJvxXDCbsAAUdpK.jpg",
+          "video": "",
+          "summary": "👏👏 Introducing Qwen3.7-Plus — a multimodal agent model that unifies vision and language into one versatile agent foundation. ✅ Multimodal interactive hybrid agent: unified GUI & CLI operation across visual and text tasks ✅ Versatile coding agent & productivity assistant with full-modality input ✅ Visual Agent: perception, reasoning, grounding, and search-augmented QA ✅ Cross-harness generalization across diverse agent frameworks One model. Sees, thinks, codes, acts.🙌🙌 Now available via API on Alibaba Cloud Model Studio. Try it — let us know what you build.😎 🔗🔗⬇️⬇ qwen.ai/blog?id=qwen3.… f0h3NNa Qwen chat.qwen.ai/?models=qwen3.… gFW4c modelstudio.console.alibabacloud.com/ap-southeast-1… 0cXrMzW 💬 51 🔄 69 ❤️ 566 👀 15189 📊 124 ⚡ Powered by xgo.ing",
+          "summaryZh": "隆重推出 Qwen3.7-Plus — 一种多模式代理模型，将视觉和语言统一到一个多功能代理基础中。 ✅ 多模态交互式混合代理：跨视觉和文本任务的统一 GUI 和 CLI 操作 ✅ 具有全模态输入的多功能编码代理和生产力助手 ✅ 视觉代理：感知、推理、基础和搜索增强 QA ✅ 跨不同代理框架的交叉利用泛化 一种模型。观察、思考、编码、行动。现已通过阿里云模型工作室上的 API 提供。尝试一下 - 让我们知道您构建了什么。 ⬇⬇ qwen.ai/blog?id=qwen3.... f0h3NNa Qwen chat.qwen.ai/?models=qwen3.... gFW4c modelstudio.console.alibabacloud.com/ap-southeast-1... 0cXrMzW",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "推理能力",
+            "多模态"
+          ],
+          "score": 81.69286832002912
+        },
+        {
+          "title": "Introducing Cosmos 3: Our latest frontier model for Physical AI Cosmos 3 is the world’s first fully...",
+          "titleZh": "Cosmos 3 简介：我们最新的物理 AI Cosmos 3 前沿模型是世界上第一个完全开放的全模型，具有原生视觉推理、世界和动作生成功能",
+          "link": "https://x.com/NVIDIAAI/status/2061308434629132553",
+          "publishedAt": "Mon, 01 Jun 2026 04:46:42 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "Introducing Cosmos 3: Our latest frontier model for Physical AI Cosmos 3 is the world’s first fully open omnimodel with native vision reasoning, world and action generation. Today we’re releasing Super (32B) and Nano (8B) variants. Your browser does not support the video tag. 🔗 View on Twitter 💬 64 🔄 318 ❤️ 2098 👀 219694 📊 460 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-02-2061308434629132553.mp4",
+          "summary": "Introducing Cosmos 3: Our latest frontier model for Physical AI Cosmos 3 is the world’s first fully open omnimodel with native vision reasoning, world and action generation. Today we’re releasing Super (32B) and Nano (8B) variants. Your browser does not support the video tag. 🔗 View on Twitter 💬 64 🔄 318 ❤️ 2098 👀 219694 📊 460 ⚡ Powered by xgo.ing",
+          "summaryZh": "Cosmos 3 简介：我们最新的物理 AI Cosmos 3 前沿模型是世界上第一个完全开放的全模型，具有原生视觉推理、世界和动作生成功能。今天我们发布了 Super (32B) 和 Nano (8B) 变体。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "推理能力",
+            "视频"
+          ],
+          "score": 76
+        },
+        {
+          "title": "Composer 2.5 is now available inside Grok Build. Composer 2.5 is a fast, highly intelligent model ...",
+          "titleZh": "Composer 2.5 现已在 Gro",
+          "link": "https://x.com/xai/status/2061510464325206163",
+          "publishedAt": "Mon, 01 Jun 2026 18:09:30 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "description": "Composer 2.5 is now available inside Grok Build. Composer 2.5 is a fast, highly intelligent model that excels on long-running tasks and following complex instructions. Your browser does not support the video tag. 🔗 View on Twitter 💬 117 🔄 103 ❤️ 740 👀 42246 📊 179 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-02-2061510464325206163.mp4",
+          "summary": "Composer 2.5 is now available inside Grok Build. Composer 2.5 is a fast, highly intelligent model that excels on long-running tasks and following complex instructions. Your browser does not support the video tag. 🔗 View on Twitter 💬 117 🔄 103 ❤️ 740 👀 42246 📊 179 ⚡ Powered by xgo.ing",
+          "summaryZh": "Composer 2.5 现已在 Grok Build 中提供。 Composer 2.5 是一种快速、高度智能的模型，擅长执行长时间运行的任务并遵循复杂的指令。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 73
+        },
+        {
+          "title": "We 💚 open source",
+          "titleZh": "我们开源 clem 最近来自“美国开源 AI 之王”Nvidia 的出色工作",
+          "link": "https://x.com/NVIDIAAI/status/2061498958283968735",
+          "publishedAt": "Mon, 01 Jun 2026 17:23:47 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "We 💚 open source clem 🤗 @ClementDelangue So much great work lately from Nvidia, the \"King of American Open-source AI\"! - Crossed 1,000 total public repositories on @huggingface (820 models, 249 datasets & 57 spaces) & almost 60,000 followers - Current #1 trending model on HF with LocateAnything and #5 trending with PiD - Announced that they're adopting the @linuxfoundation OpenMDW framework - Released Cosmos 3, Omnimodal World Models for Physical AI & Alphamayo 2 Super, an open model for autonomous driving - Announced the release soon of Nemotron 3 & work on Nemotron 4 Thank you @nvidia for all the work you're doing for the ecosystem and open-source AI. Can't wait for the next few months! 🔗 View Quoted Tweet 💬 5 🔄 10 ❤️ 128 👀 8882 📊 16 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJvfQ2xWQAAlie7.jpg",
+          "video": "",
+          "summary": "We 💚 open source clem 🤗 @ClementDelangue So much great work lately from Nvidia, the \"King of American Open-source AI\"! - Crossed 1,000 total public repositories on @huggingface (820 models, 249 datasets & 57 spaces) & almost 60,000 followers - Current #1 trending model on HF with LocateAnything and #5 trending with PiD - Announced that they're adopting the @linuxfoundation OpenMDW framework - Released Cosmos 3, Omnimodal World Models for Physical AI & Alphamayo 2 Super, an open model for autonomous driving - Announced the release soon of Nemotron 3 & work on Nemotron 4 Thank you @nvidia for all the work you're doing for the ecosystem and open-source AI. Can't wait for the next few months! 🔗 View Quoted Tweet 💬 5 🔄 10 ❤️ 128 👀 8882 📊 16 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们开源 clem 最近来自“美国开源 AI 之王”Nvidia 的出色工作！ - 跨越了 上的 1,000 个公共存储库（820 个模型、249 个数据集和 57 个空间）和近 60,000 名关注者 - 目前 HF 上的 LocateAnything 趋势模型排名第一，PiD 趋势排名第五 - 宣布他们正在采用 OpenMDW 框架 - 发布了 Cosmos 3、物理 AI 的全模态世界模型和 Alphamayo 2 Super，这是一个开放的模型自动驾驶模型 - 宣布即将发布 Nemotron 3 并致力于 Nemotron 4 感谢 为生态系统和开源 AI 所做的所有工作。等不及接下来的几个月了！ 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "开源"
+          ],
+          "score": 71.22613495506053
+        },
+        {
+          "title": "PaddleOCR and ERNIE-Image are now live on Dify Marketplace 🎉 Thanks to the @PaddlePaddle team for ...",
+          "titleZh": "PaddleOCR 与 ERNIE-Image 上线 Dify Marketplace（官方插件）",
+          "link": "https://x.com/dify_ai/status/2061426521709916270",
+          "publishedAt": "Mon, 01 Jun 2026 12:35:56 GMT",
+          "source": "Dify(@dify_ai)",
+          "sourceType": "social",
+          "description": "PaddleOCR and ERNIE-Image are now live on Dify Marketplace 🎉 Thanks to the @PaddlePaddle team for the collaboration. You can now call document parsing and image generation directly inside Dify workflows, turning scanned files, PDFs, and multilingual documents into structured data for RAG, and producing posters or creative assets in the same flow. Try it now: marketplace.dify.ai/plugins/langge… 4 marketplace.dify.ai/plugin/langgen… z PaddlePaddle @PaddlePaddle 🔥 Official Launch: PaddleOCR & ERNIE Image Are Now Available as Dify Plugins — Powering the Next Wave of AI Agents We’re excited to see PaddleOCR and ERNIE Image now available as official Dify plugins — bringing document intelligence and image generation directly into Dify’s agentic AI workflows. A big thank you to @dify_ai , our valued PaddleOCR OCEAN Alliance member, for the continued ecosystem collaboration. 🤝 1️⃣ PaddleOCR — Document AI for agent workflows Turn images, scanned PDFs, and multilingual documents into clean structured data. 🔹 Powered by PP-OCRv5, PP-StructureV3 & PaddleOCR-VL 🔹 High-precision OCR and document parsing 🔹 Structured outputs for downstream chunking, vectorization, and RAG 🔹 Supports private/on-prem deployment for enterprise scenari marketplace.dify.ai/plugins/langge… FGXAjfD 2️⃣ ERNIE-Image — Image generation inside Dify Generate visual assets directly in your Dify workflows. 🔹 Free image generation 🔹 Turbo mode with 8-step inference 🔹 OpenAI-style API for easy integration 🔹 Built for posters, social media visuals, and creative pro marketplace.dify.ai/plugin/langgen… o/LWAcCDux1U No extra deployment. Add the plugin node, connect your workflow, and start building. ✨ 💻 Learn more: github.com/PaddlePaddle/P… .co/oNOfB6hbSY aistudio.baidu.com/ernieimage t.co/oVU github.com/langgenius/dify /t #PaddleOCR I #ERNIEImage e #Dify E #DocumentAI D #AIGC D #AgenticAI # #OpenSource icAI #OpenSource 🔗 View Quoted Tweet 💬 0 🔄 0 ❤️ 4 👀 756 📊 1 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJuOKN6bgAAq729.jpg",
+          "video": "",
+          "summary": "PaddleOCR and ERNIE-Image are now live on Dify Marketplace 🎉 Thanks to the @PaddlePaddle team for the collaboration. You can now call document parsing and image generation directly inside Dify workflows, turning scanned files, PDFs, and multilingual documents into structured data for RAG, and producing posters or creative assets in the same flow. Try it now: marketplace.dify.ai/plugins/langge… 4 marketplace.dify.ai/plugin/langgen… z PaddlePaddle @PaddlePaddle 🔥 Official Launch: PaddleOCR & ERNIE Image Are Now Available as Dify Plugins — Powering the Next Wave of AI Agents We’re excited to see PaddleOCR and ERNIE Image now available as official Dify plugins — bringing document intelligence and image generation directly into Dify’s agentic AI workflows. A big thank you to @dify_ai , our valued PaddleOCR OCEAN Alliance member, for the continued ecosystem collaboration. 🤝 1️⃣ PaddleOCR...",
+          "summaryZh": "**发生了什么** Dify Marketplace 上线两款官方插件：**PaddleOCR**（文档解析/OCR）与 **ERNIE-Image**（图像生成）。\n\n**能做什么** 在 Dify 工作流里可直接把**扫描件、PDF、多语言文档**解析成结构化数据，用于后续 **chunking / 向量化 / RAG**；同一流程里也能生成海报、社媒配图等视觉素材。\n\n**关键细节** PaddleOCR 侧强调基于 **PP-OCRv5、PP-StructureV3、PaddleOCR-VL**，并支持企业私有化/本地部署；ERNIE-Image 提供**免费图像生成**、**8-step Turbo**，以及 **OpenAI 风格 API** 便于集成。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "API",
+            "智能体",
+            "开源",
+            "推理部署"
+          ],
+          "score": 70.11452383659419
+        },
+        {
+          "title": "Tweet",
+          "titleZh": "“美国开源人工智能之王”Nvidia 最近做了很多出色的工作",
+          "link": "https://x.com/huggingface/status/2061495792246915131",
+          "publishedAt": "Mon, 01 Jun 2026 17:11:12 GMT",
+          "source": "Hugging Face(@huggingface)",
+          "sourceType": "social",
+          "description": "clem 🤗 @ClementDelangue So much great work lately from Nvidia, the \"King of American Open-source AI\"! - Crossed 1,000 total public repositories on @huggingface (820 models, 249 datasets & 57 spaces) & almost 60,000 followers - Current #1 trending model on HF with LocateAnything and #5 trending with PiD - Announced that they're adopting the @linuxfoundation OpenMDW framework - Released Cosmos 3, Omnimodal World Models for Physical AI & Alphamayo 2 Super, an open model for autonomous driving - Announced the release soon of Nemotron 3 & work on Nemotron 4 Thank you @nvidia for all the work you're doing for the ecosystem and open-source AI. Can't wait for the next few months! 🔗 View Quoted Tweet 💬 5 🔄 2 ❤️ 50 👀 6228 📊 8 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJvncibXMAAoDY-.jpg",
+          "video": "",
+          "summary": "clem 🤗 @ClementDelangue So much great work lately from Nvidia, the \"King of American Open-source AI\"! - Crossed 1,000 total public repositories on @huggingface (820 models, 249 datasets & 57 spaces) & almost 60,000 followers - Current #1 trending model on HF with LocateAnything and #5 trending with PiD - Announced that they're adopting the @linuxfoundation OpenMDW framework - Released Cosmos 3, Omnimodal World Models for Physical AI & Alphamayo 2 Super, an open model for autonomous driving - Announced the release soon of Nemotron 3 & work on Nemotron 4 Thank you @nvidia for all the work you're doing for the ecosystem and open-source AI. Can't wait for the next few months! 🔗 View Quoted Tweet 💬 5 🔄 2 ❤️ 50 👀 6228 📊 8 ⚡ Powered by xgo.ing",
+          "summaryZh": "clem “美国开源人工智能之王”Nvidia 最近做了很多出色的工作！ - 跨越了 上的 1,000 个公共存储库（820 个模型、249 个数据集和 57 个空间）和近 60,000 名关注者 - 目前 HF 上的 LocateAnything 趋势模型排名第一，PiD 趋势排名第五 - 宣布他们正在采用 OpenMDW 框架 - 发布了 Cosmos 3、物理 AI 的全模态世界模型和 Alphamayo 2 Super，这是一个开放的模型自动驾驶模型 - 宣布即将发布 Nemotron 3 并致力于 Nemotron 4 感谢 为生态系统和开源 AI 所做的所有工作。等不及接下来的几个月了！ 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型"
+          ],
+          "score": 65.25430196052592
+        },
+        {
+          "title": "Natural, human-like communication will be critical to unlock the benefits of AI. At the ElevenLabs S...",
+          "titleZh": "自然的、类人的沟通对于发挥人工智能的优势至关重要",
+          "link": "https://x.com/ElevenLabs/status/2061484236570280143",
+          "publishedAt": "Mon, 01 Jun 2026 16:25:17 GMT",
+          "source": "ElevenLabs(@elevenlabsio)",
+          "sourceType": "social",
+          "description": "Natural, human-like communication will be critical to unlock the benefits of AI. At the ElevenLabs Summit in Warsaw, @mati shared a preview of our most expressive AI model yet and demoed the future of customer experience with voice agents. Your browser does not support the video tag. 🔗 View on Twitter 💬 9 🔄 11 ❤️ 104 👀 6637 📊 24 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-02-2061484236570280143.mp4",
+          "summary": "Natural, human-like communication will be critical to unlock the benefits of AI. At the ElevenLabs Summit in Warsaw, @mati shared a preview of our most expressive AI model yet and demoed the future of customer experience with voice agents. Your browser does not support the video tag. 🔗 View on Twitter 💬 9 🔄 11 ❤️ 104 👀 6637 📊 24 ⚡ Powered by xgo.ing",
+          "summaryZh": "自然的、类人的沟通对于发挥人工智能的优势至关重要。在华沙举行的 ElevenLabs 峰会上，@mati 分享了我们迄今为止最具表现力的 AI 模型的预览，并演示了语音代理的客户体验的未来。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "语音",
+            "视频"
+          ],
+          "score": 62.97617556048388
+        },
+        {
+          "title": "Fleet APAC agents just unlocked a new major capability: computer use!",
+          "titleZh": "亚太地区舰队特工刚刚解锁了一项新的主要功能：计算机使用！",
+          "link": "https://x.com/LangChain/status/2061497270345028048",
+          "publishedAt": "Mon, 01 Jun 2026 17:17:04 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": "Fleet APAC agents just unlocked a new major capability: computer use! Brace @BraceSproul Fleet computer use is now available in LangSmith's APAC instance! You can now give your Fleet agents access to a virtual computer if you're an APAC user: 🔗 View Quoted Tweet 💬 5 🔄 2 ❤️ 11 👀 1733 📊 5 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJvn4ZSaEAAIXXW.jpg",
+          "video": "",
+          "summary": "Fleet APAC agents just unlocked a new major capability: computer use! Brace @BraceSproul Fleet computer use is now available in LangSmith's APAC instance! You can now give your Fleet agents access to a virtual computer if you're an APAC user: 🔗 View Quoted Tweet 💬 5 🔄 2 ❤️ 11 👀 1733 📊 5 ⚡ Powered by xgo.ing",
+          "summaryZh": "亚太地区舰队特工刚刚解锁了一项新的主要功能：计算机使用！ Brace @BraceSproul Fleet 计算机现在可以在 LangSmith 的亚太地区实例中使用！如果您是亚太地区用户，您现在可以授予您的舰队代理访问虚拟计算机的权限：查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 57.907692383723756
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "ConSensus: Multi-Agent Collaboration for Multimodal Sensing",
+          "titleZh": "ConSensus：多模式传感的多智能体协作",
+          "link": "https://arxiv.org/abs/2601.06453",
+          "publishedAt": "Mon, 01 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2601.06453v2 Announce Type: replace Abstract: Large language models (LLMs) are increasingly grounded in sensor data to perceive and reason about human physiology and the physical world. However, accurately interpreting heterogeneous multimodal sensor data remains a fundamental challenge. We show that a single monolithic LLM often fails to reason coherently across modalities, leading to incomplete interpretations and prior-knowledge bias. We introduce ConSensus, a training-free multi-agent collaboration framework that decomposes multimodal sensing tasks into specialized, modality-aware agents. To aggregate agent-level interpretations, we propose a hybrid fusion mechanism that balances semantic aggregation, which enables cross-modal reasoning and contextual understanding, with statistical consensus, which provides robustness through agreement across modalities. While each approach has complementary failure modes, their combination enables reliable inference under sensor noise and missing data. We evaluate ConSensus on five diverse multimodal sensing benchmarks, demonstrating an average accuracy improvement of 7.1% over the single-agent baseline. Furthermore, ConSensus matches or exceeds the performance of iterative multi-agent debate methods while achieving a 12.7 times reduction in average fusion token cost through a single-round hybrid fusion protocol, yielding a robust and efficient solution for real-world multimodal sensing tasks. The source code is available at https://github.com/nokia/multi-agent-collaboration-for-multimodal-sensing.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2601.06453v2 Announce Type: replace Abstract: Large language models (LLMs) are increasingly grounded in sensor data to perceive and reason about human physiology and the physical world. However, accurately interpreting heterogeneous multimodal sensor data remains a fundamental challenge. We show that a single monolithic LLM often fails to reason coherently across modalities, leading to incomplete interpretations and prior-knowledge bias. We introduce ConSensus, a training-free multi-agent collaboration fra...",
+          "summaryZh": "**核心结论** 「ConSensus：多模式传感的多智能体协作」要解决的问题是：大语言模型 (LLM) 越来越基于传感器数据来感知和推理人类生理学和物理世界。然而，准确解释异构多模态传感器数据仍然是一个基本挑战。我们表明，单一的LLM通常无法跨模式进行连贯的推理，从而导致不完整的解释和先验知识偏差。 **支撑证据** 摘要与公开信息显示：arXiv:2601.06453v2 大语言模型 (LLM) 越来越基于传感器数据来感知和推理人类生理学和物理世界。然而，准确解释异构多模态传感器数据仍然是一个基本挑战。我们表明，单一的LLM通常无法跨模式进行连贯的推理，从而导致不完整的解释和先验知识偏差。我们推出 ConSensus，一种免培训的多智能体协作框架... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 42
+        },
+        {
+          "title": "Inference-Free Multimodal Learned Sparse Retrieval for Production-Scale Visual Document Search",
+          "titleZh": "用于生产规模视觉文档搜索的无推理多模态学习稀疏检索",
+          "link": "https://arxiv.org/abs/2605.30917",
+          "publishedAt": "Mon, 01 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.CV",
+          "sourceType": "research",
+          "description": "arXiv:2605.30917v1 Announce Type: cross Abstract: As large-scale visual-document corpora such as arXiv papers and enterprise PDFs continue to grow, visual-document retrieval has gained increasing attention; yet it still lacks a deployable system that lexically indexes visual documents to serve queries without neural encoding at scale. Existing methods either achieve strong retrieval quality with VLM-based dense or multi-vector models but require neural query encoding at serving time, or avoid query encoding with OCR- or caption-based BM25 at the cost of time-consuming text extraction or generation. To fill this missing serving regime, we present V-SPLADE, an inference-free sparse retriever for visual-document retrieval. However, such inference-free multimodal learned sparse retrieval systems remain underexplored and have not yet shown dense-level effectiveness under high sparsity. We attribute this limitation to a lexical grounding problem: visual sparse representations often fail to capture the lexical content embedded in document images. To address this problem, we introduce caption-gated token supervision, a training-only signal that uses VLM-generated captions as lexical cues to activate retrieval-relevant vocabulary dimensions. With this supervision, V-SPLADE improves average NDCG@5 across six visual-document retrieval benchmarks by +13.8pp over the same-scale dense baseline and by up to +6.3pp over OCR- or caption-based BM25 baselines. On an 18.7M-document corpus, it more than doubles R@5 over the same-scale dense baseline and further improves competing retrievers through score fusion by up to +2.4pp R@5. Code will be released soon at https://github.com/naver/v-splade.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.30917v1 Announce Type: cross Abstract: As large-scale visual-document corpora such as arXiv papers and enterprise PDFs continue to grow, visual-document retrieval has gained increasing attention; yet it still lacks a deployable system that lexically indexes visual documents to serve queries without neural encoding at scale. Existing methods either achieve strong retrieval quality with VLM-based dense or multi-vector models but require neural query encoding at serving time, or avoid query encoding with...",
+          "summaryZh": "**核心结论** 「用于生产规模视觉文档搜索的无推理多模态学习稀疏检索」要解决的问题是：发布类型：交叉 随着 arXiv 论文和企业 PDF 等大规模视觉文档语料库的不断增长，视觉文档检索越来越受到关注；然而，它仍然缺乏一个可部署的系统，可以对视觉文档进行词法索引，以在没有大规模神经编码的情况下提供查询服务。现有方法要么使用基于 VLM 的密集或多向量模型实现强大的检索质量，但需要在服务时进行神经查询编码，要么避免使用。 **支撑证据** 摘要与公开信息显示：arXiv:2605.30917v1 发布类型：交叉 随着 arXiv 论文和企业 PDF 等大规模视觉文档语料库的不断增长，视觉文档检索越来越受到关注；然而，它仍然缺乏一个可部署的系统，可以对视觉文档进行词法索引，以在没有大规模神经编码的情况下提供查询服务。现有方法要么使用基于 VLM 的密集或多向量模型实现强大的检索质量，但需要在服务时进行神经查询编码，要么避免使用...... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "多模态",
+            "评测",
+            "论文"
+          ],
+          "score": 41
+        },
+        {
+          "title": "May 2026 newsletter",
+          "titleZh": "2026 年 5 月通讯",
+          "link": "https://simonwillison.net/2026/Jun/1/may-newsletter/#atom-everything",
+          "publishedAt": "2026-06-01T04:45:00+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "I just sent out the May edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Al got expensive, and Anthropic had a really good month The model releases were a little disappointing Conferences and podcasts I launched Datasette Agent and made a lot of progress on Datasette What I'm using, May 2026 edition Miscellaneous extras Here's a copy of the April newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "I just sent out the May edition of my sponsors-only monthly newsletter . If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: Al got expensive, and Anthropic had a really good month The model releases were a little disappointing Conferences and podcasts I launched Datasette Agent and made a lot of progress on Datasette What I'm using, May 2026 edition Miscellaneous extras Here's a copy of the April newsletter as a preview of what you'll get. Pay $10/month to stay a month...",
+          "summaryZh": "**核心要点** 我刚刚发出了五月版的仅限赞助商的每月通讯。如果您是赞助商（或者如果您现在开始赞助），您可以在此处访问它。本月：Al 变得昂贵，而 Anthropic 度过了一个非常美好的月份 模型发布有点令人失望 会议和播客 我推出了 Datasette Agent，并在 Datasette 上取得了很多进展 我正在使用的，2026 年 5 月版 杂项附加内容 这是 4 月份时事通讯的副本，作为您将获得的内容的预览。每月支付 10 美元即可停留一个月...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体"
+          ],
+          "score": 37
+        },
+        {
+          "title": "Why Video Agent models are next — Ethan He, xAI Grok Imagine",
+          "titleZh": "为什么视频代理模型是下一个 - Ethan He，xAI Grok Imagine",
+          "link": "https://www.latent.space/p/video-agents",
+          "publishedAt": "Mon, 01 Jun 2026 15:41:48 GMT",
+          "source": "Latent Space",
+          "sourceType": "research",
+          "description": "Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and why Grok Imagine is so underrated. For the first time, we do a deep dive with the guy who led it!",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://substackcdn.com/image/fetch/$s_!gZ8N!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fswyx.substack.com%2Fapi%2Fv1%2Fpost_preview%2F200078058%2Ftwitter.jpg%3Fversion%3D4",
+          "video": "",
+          "summary": "Inside xAI: Building Grok Imagine in 3 Months, Videogen vs World Models, and why Grok Imagine is so underrated. For the first time, we do a deep dive with the guy who led it!",
+          "summaryZh": "**核心要点** xAI 内部：在 3 个月内构建 Grok Imagine、Videogen 与 World Models，以及为什么 Grok Imagine 被如此低估。这是我们第一次与领导者进行深入探讨！",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "视频"
+          ],
+          "score": 32
+        },
+        {
+          "title": "Accelerate LLM model loading and increase context windows with GPUDirect on Amazon FSx for Lustre and TurboQuant",
+          "titleZh": "使用 Amazon FSx for Lustre 和 TurboQuant 上的 GPUDirect 加速 LLM 模型加载并增加上下文窗口",
+          "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-llm-model-loading-and-increase-context-windows-with-gpudirect-on-amazon-fsx-for-lustre-and-turboquant/",
+          "publishedAt": "Mon, 01 Jun 2026 16:07:19 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "If you’re iterating on deploying large language models (LLMs) on AWS GPU instances, you’ve probably noticed the larger the model to be loaded into GPU High Bandwidth Memory (HBM), the longer the painful wait until the GPUs are ready for inference. As models grow to hundreds of billions of parameters and GPU environments grow ever […]",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/20/ML-20909.png",
+          "video": "",
+          "summary": "If you’re iterating on deploying large language models (LLMs) on AWS GPU instances, you’ve probably noticed the larger the model to be loaded into GPU High Bandwidth Memory (HBM), the longer the painful wait until the GPUs are ready for inference. As models grow to hundreds of billions of parameters and GPU environments grow ever […]",
+          "summaryZh": "**核心要点** 如果您正在 AWS GPU 实例上迭代部署大语言模型 (LLM)，您可能已经注意到要加载到 GPU 高带宽内存 (HBM) 中的模型越大，GPU 准备好进行推理之前的痛苦等待时间就越长。随着模型增长到数千亿个参数，GPU 环境不断增长 [...]",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "推理部署"
+          ],
+          "score": 29
+        },
+        {
+          "title": "Secure AI agents with Policy and Lambda interceptors in Amazon Bedrock AgentCore gateway",
+          "titleZh": "使用 Amazon Bedrock AgentCore 网关中的策略和 Lambda 拦截器保护 AI 代理",
+          "link": "https://aws.amazon.com/blogs/machine-learning/secure-ai-agents-with-policy-and-lambda-interceptors-in-amazon-bedrock-agentcore-gateway/",
+          "publishedAt": "Mon, 01 Jun 2026 17:54:22 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, we use a lakehouse data agent to demonstrate how you can use Policy for deterministic access control and Lambda interceptors for dynamic validation. We then show how to combine Lambda interceptors and Policy to implement a geography-based access control which requires both dynamic validation and deterministic access control.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/01/20712.png",
+          "video": "",
+          "summary": "In this post, we use a lakehouse data agent to demonstrate how you can use Policy for deterministic access control and Lambda interceptors for dynamic validation. We then show how to combine Lambda interceptors and Policy to implement a geography-based access control which requires both dynamic validation and deterministic access control.",
+          "summaryZh": "**核心要点** 在这篇文章中，我们使用 Lakehouse 数据代理来演示如何使用策略进行确定性访问控制和 Lambda 拦截器进行动态验证。然后，我们展示如何结合 Lambda 拦截器和策略来实现基于地理的访问控制，这需要动态验证和确定性访问控制。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        },
+        {
+          "title": "Enable safe agentic payments with built-in guardrails using Amazon Bedrock AgentCore payments",
+          "titleZh": "使用 Amazon Bedrock AgentCore 付款通过内置护栏实现安全代理付款",
+          "link": "https://aws.amazon.com/blogs/machine-learning/enable-safe-agentic-payments-with-built-in-guardrails-using-amazon-bedrock-agentcore-payments/",
+          "publishedAt": "Mon, 01 Jun 2026 17:30:12 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, we address several key risks that surface when designing an agentic payment system, and how to address them with the capabilities of AgentCore payments.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/01/21076.png",
+          "video": "",
+          "summary": "In this post, we address several key risks that surface when designing an agentic payment system, and how to address them with the capabilities of AgentCore payments.",
+          "summaryZh": "**核心要点** AWS 介绍 **Amazon Bedrock AgentCore payments**：在让智能体发起支付时，把关键约束放到**模型之外的基础设施层**来做“硬护栏”。\n\n**风险与护栏** 文章指出 LLM 的非确定性可能导致**误解授权**或在异常重试下**重复支付**，因此必须在外部强制执行**额度上限**。每次交易运行在一个 payment session 中，包含两类可配置限制：**预算上限（币种/金额）**与**会话过期时间（TTL）**；请求一旦会把会话推过上限会被拒绝，签名失败后还会**回滚扣减**，避免失败交易消耗预算。\n\n**配套控制** 文中建议将付费工具经由 AgentCore Gateway 暴露，并用 **Cedar** 语法的 Policy 做工具级授权（谁能调用哪个工具、带什么参数）；再由 AgentCore payments 负责“能花多少钱、能花多久”。同时通过 **IAM/SigV4** 与控制面/数据面角色隔离、以及短时 scoped token 与可观测性/审计记录，降低凭证泄露与事后追溯成本。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        },
+        {
+          "title": "AgentOps: Operationalize agentic AI at scale with Amazon Bedrock AgentCore",
+          "titleZh": "当您构建代理 AI 解决方案时，您会面临",
+          "link": "https://aws.amazon.com/blogs/machine-learning/agentops-operationalize-agentic-ai-at-scale-with-amazon-bedrock-agentcore/",
+          "publishedAt": "Mon, 01 Jun 2026 16:12:18 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "When you build agentic AI solutions, you face unique operational challenges. Agents make unpredictable decisions, costs spiral unexpectedly, and debugging non-deterministic failures seems impossible. Agentic AI applications don't just execute predetermined workflows. They reason, adapt, and make autonomous decisions, and DevOps practices need to be adapted. That's where AgentOps comes in, the operational discipline for deploying, managing, and continuously improving AI agents in production.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/01/19465.png",
+          "video": "",
+          "summary": "When you build agentic AI solutions, you face unique operational challenges. Agents make unpredictable decisions, costs spiral unexpectedly, and debugging non-deterministic failures seems impossible. Agentic AI applications don't just execute predetermined workflows. They reason, adapt, and make autonomous decisions, and DevOps practices need to be adapted. That's where AgentOps comes in, the operational discipline for deploying, managing, and continuously improving AI agents in production.",
+          "summaryZh": "**核心要点** 当您构建代理 AI 解决方案时，您会面临独特的运营挑战。代理会做出不可预测的决策，成本会意外上升，并且调试非确定性故障似乎是不可能的。代理人工智能应用不仅仅执行预定的工作流程。他们推理、适应并做出自主决策，并且 DevOps 实践需要进行调整。这就是 AgentOps 的用武之地，它是在生产中部署、管理和持续改进 AI 代理的操作规程。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": ".@MiniMax_AI M3 model is available on Ollama's Cloud! In partnership with MiniMax, the M3 model on...",
+          "titleZh": "MiniMax M3 上线 Ollama Cloud（US、零数据保留）",
+          "link": "https://x.com/ollama/status/2061268256569360620",
+          "publishedAt": "Mon, 01 Jun 2026 02:07:03 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "description": ". @MiniMax_AI M3 model is available on Ollama's Cloud! In partnership with MiniMax, the M3 model on Ollama's Cloud is US-based with zero data retention. Try M3 on coding and agentic tasks: Claude Code: ollama launch claude --model minimax-m3:cloud Codex: ollama launch codex --model minimax-m3:cloud Chat: ollama run minimax-m3:cloud and more! 👇👇👇 MiniMax (official) @MiniMax_AI Introducing MiniMax M3: The First Open-Weights Model to Combine Three Frontier Capabilities - Coding & Agentic Frontier: 59.0% SWE-Bench Pro, 66.0% Terminal Bench 2.1, 34.8% SWE-fficiency, 28.8% KernelBench Hard, 74.2% MCP Atlas - MiniMax Sparse Attention scales context to 1M - Natively Multimodal from Step Zero API: platform.minimax.io Token Plan: platform.minimax.io/subscribe/toke… 🚀New! MiniMax Code: code.minimax.io l Weights & Tech Report in ~10 Days 🔗 View Quoted Tweet 💬 33 🔄 37 ❤️ 453 👀 37026 📊 68 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJsWydIbIAAFAZL.jpg",
+          "video": "",
+          "summary": ". @MiniMax_AI M3 model is available on Ollama's Cloud! In partnership with MiniMax, the M3 model on Ollama's Cloud is US-based with zero data retention. Try M3 on coding and agentic tasks: Claude Code: ollama launch claude --model minimax-m3:cloud Codex: ollama launch codex --model minimax-m3:cloud Chat: ollama run minimax-m3:cloud and more! 👇👇👇 MiniMax (official) @MiniMax_AI Introducing MiniMax M3: The First Open-Weights Model to Combine Three Frontier Capabilities - Coding & Agentic Frontier: 59.0% SWE-Bench Pro, 66.0% Terminal Bench 2.1, 34.8% SWE-fficiency, 28.8% KernelBench Hard, 74.2% MCP Atlas - MiniMax Sparse Attention scales context to 1M - Natively Multimodal from Step Zero API: platform.minimax.io Token Plan: platform.minimax.io/subscribe/toke… 🚀New! MiniMax Code: code.minimax.io l Weights & Tech Report in ~10 Days 🔗 View Quoted Tweet 💬 33 🔄 37 ❤️ 453 👀 37026 📊 68...",
+          "summaryZh": "**发生了什么** Ollama 宣布与 MiniMax 合作，把 **MiniMax M3** 上线到 **Ollama Cloud**；并称该服务部署在**美国**且采用**零数据保留**策略。\n\n**能带来什么** 对希望在云端直接使用 M3 做**编码/智能体任务**的开发者来说，这是一个更“开箱即用”的接入方式；官方同时给出了在 Claude Code、Codex、聊天等场景的调用示例。\n\n**补充信息** MiniMax 侧宣称 M3 具备三类前沿能力：面向编码与智能体的基准成绩（例如 **SWE-Bench Pro 59.0%** 等）、通过稀疏注意力将上下文扩展到 **1M**，以及原生多模态；并表示约 **10 天**内发布权重与技术报告。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "多模态"
+          ],
+          "score": 82.17204731083334
+        },
+        {
+          "title": "Model page: https://t.co/2LHU4ZG39o",
+          "titleZh": "模型页面：ollama.com/library/minima",
+          "link": "https://x.com/ollama/status/2061268258540658809",
+          "publishedAt": "Mon, 01 Jun 2026 02:07:04 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "description": "Model page: ollama.com/library/minima… 💬 0 🔄 5 ❤️ 10 👀 4211 📊 3 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJsYYl6bAAA9ONo.jpg",
+          "video": "",
+          "summary": "Model page: ollama.com/library/minima… 💬 0 🔄 5 ❤️ 10 👀 4211 📊 3 ⚡ Powered by xgo.ing",
+          "summaryZh": "模型页面：ollama.com/library/minima…（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 50.15860578517036
+        },
+        {
+          "title": "Video is the most information-dense modality we have, and most retrieval pipelines treat it like tex...",
+          "titleZh": "视频是我们拥有的信息最密集的形式，大多数检索管道将其视为带有图片的文本",
+          "link": "https://x.com/qdrant_engine/status/2061462775923372239",
+          "publishedAt": "Mon, 01 Jun 2026 15:00:00 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "description": "Video is the most information-dense modality we have, and most retrieval pipelines treat it like text with pictures. James Le from @twelve_labs is coming to Vector Space Day to show what's actually possible when you build multimodal retrieval right, from semantic search across sports and audio to agentic workflows that handle object tracking and highlight generation at scale. If you're curious where vector search is heading, this is a session worth being in the room for. Join us at The Midway: luma.com/vsd-sf 💬 1 🔄 0 ❤️ 4 👀 107 📊 2 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJg1GOHagAEOrFX.jpg",
+          "video": "",
+          "summary": "Video is the most information-dense modality we have, and most retrieval pipelines treat it like text with pictures. James Le from @twelve_labs is coming to Vector Space Day to show what's actually possible when you build multimodal retrieval right, from semantic search across sports and audio to agentic workflows that handle object tracking and highlight generation at scale. If you're curious where vector search is heading, this is a session worth being in the room for. Join us at The Midway: luma.com/vsd-sf 💬 1 🔄 0 ❤️ 4 👀 107 📊 2 ⚡ Powered by xgo.ing",
+          "summaryZh": "视频是我们拥有的信息最密集的形式，大多数检索管道将其视为带有图片的文本。 @twelve_labs 的 James Le 将在 Vector Space Day 上展示当您正确构建多模态检索时实际可能实现的功能，从跨体育和音频的语义搜索到大规模处理对象跟踪和突出显示生成的代理工作流程。如果您对矢量搜索的发展方向感到好奇，那么这是一个值得参加的会议。加入我们的中途岛：luma.com/vsd-sf",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "多模态",
+            "视频"
+          ],
+          "score": 50.14704564623848
+        },
+        {
+          "title": "Vector search works well when semantic meaning matters, but it can be unreliable with exact terms. S...",
+          "titleZh": "当语义意义很重要时，矢量搜索效果很好，但对于精确的术语来说，它可能不可靠",
+          "link": "https://x.com/milvusio/status/2061462781430259747",
+          "publishedAt": "Mon, 01 Jun 2026 15:00:01 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "description": "Vector search works well when semantic meaning matters, but it can be unreliable with exact terms. Search for \"XR-2048\" using vector search alone, and you may get specs for a similar product, but not the exact model you asked for. BM25 is better at the thing vector search often misses: exact terms. Search for “refund policy” when the document says “return process,” though, and BM25 may miss it. 𝗧𝗵𝗮𝘁'𝘀 𝘄𝗵𝘆 𝗵𝘆𝗯𝗿𝗶𝗱 𝘀𝗲𝗮𝗿𝗰𝗵 𝗲𝘅𝗶𝘀𝘁𝘀. 𝗩𝗲𝗰𝘁𝗼𝗿 𝘀𝗲𝗮𝗿𝗰𝗵 𝗰𝗼𝘃𝗲𝗿𝘀 𝘀𝗲𝗺𝗮𝗻𝘁𝗶𝗰 𝗺𝗮𝘁𝗰𝗵𝗲𝘀, 𝗕𝗠𝟮𝟱 𝗰𝗮𝘁𝗰𝗵𝗲𝘀 𝗲𝘅𝗮𝗰𝘁 𝘁𝗲𝗿𝗺𝘀, 𝗮𝗻𝗱 𝗥𝗥𝗙 (𝗥𝗲𝗰𝗶𝗽𝗿𝗼𝗰𝗮𝗹 𝗥𝗮𝗻𝗸 𝗙𝘂𝘀𝗶𝗼𝗻) 𝗺𝗲𝗿𝗴𝗲𝘀 𝗯𝗼𝘁𝗵 𝗶𝗻𝘁𝗼 𝗼𝗻𝗲 𝗿𝗮𝗻𝗸𝗲𝗱 𝗹𝗶𝘀𝘁. 𝗜𝗻 𝗠𝗶𝗹𝘃𝘂𝘀, 𝘆𝗼𝘂 𝗰𝗮𝗻 𝘀𝗲𝘁 𝘁𝗵𝗶𝘀 𝘂𝗽 𝗶𝗻 𝘁𝗵𝗿𝗲𝗲 𝘀𝘁𝗲𝗽𝘀: 1️⃣ Add both dense and sparse vector fields to the same collection 2️⃣ Enable the built-in BM25 Function so Milvus can generate sparse vectors from raw text 3️⃣ Use RRFRanker to fuse the vector and BM25 results ⚠️ 𝗢𝗻𝗲 𝗶𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝘁 𝗻𝗼𝘁𝗲: 𝗜𝗳 𝘆𝗼𝘂 𝘂𝘀𝗲 𝘁𝗵𝗲 𝗯𝘂𝗶𝗹𝘁-𝗶𝗻 𝗕𝗠𝟮𝟱 𝗙𝘂𝗻𝗰𝘁𝗶𝗼𝗻, 𝗱𝗼 𝗻𝗼𝘁 𝗺𝗮𝗻𝘂𝗮𝗹𝗹𝘆 𝗶𝗻𝘀𝗲𝗿𝘁 𝘀𝗽𝗮𝗿𝘀𝗲 𝘃𝗲𝗰𝘁𝗼𝗿𝘀. Milvus generates them for you. You only provide your own sparse vectors when using an external sparse embedding model, such as BGE-M3. 𝗜𝗳 𝘆𝗼𝘂𝗿 𝗾𝘂𝗲𝗿𝗶𝗲𝘀 𝗶𝗻𝗰𝗹𝘂𝗱𝗲 𝗽𝗿𝗼𝗱𝘂𝗰𝘁 𝗻𝗮𝗺𝗲𝘀, 𝗲𝗿𝗿𝗼𝗿 𝗰𝗼𝗱𝗲𝘀, 𝗔𝗣𝗜 𝗲𝗻𝗱𝗽𝗼𝗶𝗻𝘁𝘀, 𝗼𝗿 𝗼𝘁𝗵𝗲𝗿 𝗲𝘅𝗮𝗰𝘁 𝗶𝗱𝗲𝗻𝘁𝗶𝗳𝗶𝗲𝗿𝘀, 𝘃𝗲𝗰𝘁𝗼𝗿 𝘀𝗲𝗮𝗿𝗰𝗵 𝗮𝗹𝗼𝗻𝗲 𝗶𝘀 𝗽𝗿𝗼𝗯𝗮𝗯𝗹𝘆 𝗻𝗼𝘁 𝗲𝗻𝗼𝘂𝗴𝗵. 𝗧𝗿𝘆 𝗵𝘆𝗯𝗿𝗶𝗱 𝘀𝗲𝗮𝗿𝗰𝗵. 💬 0 🔄 0 ❤️ 3 👀 55 📊 1 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJuj_unagAA5vzu.jpg",
+          "video": "",
+          "summary": "Vector search works well when semantic meaning matters, but it can be unreliable with exact terms. Search for \"XR-2048\" using vector search alone, and you may get specs for a similar product, but not the exact model you asked for. BM25 is better at the thing vector search often misses: exact terms. Search for “refund policy” when the document says “return process,” though, and BM25 may miss it. 𝗧𝗵𝗮𝘁'𝘀 𝘄𝗵𝘆 𝗵𝘆𝗯𝗿𝗶𝗱 𝘀𝗲𝗮𝗿𝗰𝗵 𝗲𝘅𝗶𝘀𝘁𝘀. 𝗩𝗲𝗰𝘁𝗼𝗿 𝘀𝗲𝗮𝗿𝗰𝗵 𝗰𝗼𝘃𝗲𝗿𝘀 𝘀𝗲𝗺𝗮𝗻𝘁𝗶𝗰 𝗺𝗮𝘁𝗰𝗵𝗲𝘀, 𝗕𝗠𝟮𝟱 𝗰𝗮𝘁𝗰𝗵𝗲𝘀 𝗲𝘅𝗮𝗰𝘁 𝘁𝗲𝗿𝗺𝘀, 𝗮𝗻𝗱 𝗥𝗥𝗙 (𝗥𝗲𝗰𝗶𝗽𝗿𝗼𝗰𝗮𝗹 𝗥𝗮𝗻𝗸 𝗙𝘂𝘀𝗶𝗼𝗻) 𝗺𝗲𝗿𝗴𝗲𝘀 𝗯𝗼𝘁𝗵 𝗶𝗻𝘁𝗼 𝗼𝗻𝗲 𝗿𝗮𝗻𝗸𝗲𝗱 𝗹𝗶𝘀𝘁. 𝗜𝗻 𝗠𝗶𝗹𝘃𝘂𝘀, 𝘆𝗼𝘂 𝗰𝗮𝗻 𝘀𝗲𝘁 𝘁𝗵𝗶𝘀 𝘂𝗽 𝗶𝗻 𝘁𝗵𝗿𝗲𝗲 𝘀𝘁𝗲𝗽𝘀: 1️⃣ Add both dense and sparse vector fields to the same collection 2️⃣ Enable the built-in BM25 Function so Milvus can...",
+          "summaryZh": "当语义意义很重要时，矢量搜索效果很好，但对于精确的术语来说，它可能不可靠。仅使用矢量搜索搜索“XR-2048”，您可能会获得类似产品的规格，但不是您要求的确切型号。 BM25 更擅长矢量搜索经常忽略的事情：精确术语。然而，当文件显示“退货流程”时，搜索“退款政策”，BM25 可能会错过它。 '。 , , ()。 , : 1⃣ 将稠密向量场和稀疏向量场添加到同一个集合中 2⃣ 启用内置 BM25 函数，以便 Milvus 可以...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 44.03052200582115
+        },
+        {
+          "title": "TauricResearch/TradingAgents",
+          "titleZh": "TauricResearch/TradingAgents：德语 |西班牙语 |法语 | 日本语 | 한",
+          "link": "https://github.com/TauricResearch/TradingAgents",
+          "publishedAt": "2026-06-01T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Deutsch | Español | français | 日本語 | 한국어 | Português | Русский | 中文 TradingAgents: Multi-Agents LLM Financial Trading Framework News [2026-05] TradingAgents v0.2.5 released with the grounded Sentiment Analyst, GPT-5.5 etc. model coverage, Qwen/GLM/MiniMax dual-region support, TRADINGAGENTS_* env-var configurability with API-key auto-detection, remote Ollama support, non-US alpha benchmarks, and ticker path-traversal hardening. See CHANGELOG.md for the full list. [2026-04] TradingAgents v0.2.4 released with structur",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/TauricResearch/TradingAgents/raw/main/assets/cli/cli_init.png",
+          "video": "",
+          "summary": "Deutsch | Español | français | 日本語 | 한국어 | Português | Русский | 中文 TradingAgents: Multi-Agents LLM Financial Trading Framework News [2026-05] TradingAgents v0.2.5 released with the grounded Sentiment Analyst, GPT-5.5 etc. model coverage, Qwen/GLM/MiniMax dual-region support, TRADINGAGENTS_* env-var configurability with API-key auto-detection, remote Ollama support, non-US alpha benchmarks, and ticker path-traversal hardening. See CHANGELOG.md for the full list. [2026-04] TradingAgents v0.2.4 released with structur",
+          "summaryZh": "德语 |西班牙语 |法语 | 日本语 | 한국어 |葡萄牙语 | Русский | 俄罗斯 TradingAgents：多代理 LLM 金融交易框架新闻 [2026-05] TradingAgents v0.2.5 发布，包含接地情绪分析师、GPT-5.5 等模型覆盖、Qwen/GLM/MiniMax 双区域支持、TRADINGAGENTS_* env-var 可配置性（带 API 密钥自动检测）、远程 Ollama 支持、非美国 alpha 基准测试和股票代码路径遍历强化。完整列表请参见 CHANGELOG.md。 [2026-04] TradingAgents v0.2.4 发布，结构如下（建议打开仓库查看用法、示例与输出效果。）",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "pbakaus/impeccable",
+          "titleZh": "Impeccable：面向前端设计的反套路技能包（1 个 skill、23 条命令）",
+          "link": "https://github.com/pbakaus/impeccable",
+          "publishedAt": "2026-06-01T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Impeccable The vocabulary you didn't know you needed. 1 skill, 23 commands, and curated anti-patterns for impeccable frontend design. Quick start: Visit impeccable.style to download ready-to-use bundles. Why Impeccable? Anthropic's frontend-design was the first widely-used design skill for Claude. Impeccable started from there. Every model trained on the same SaaS templates. Skip the guidance and you get the same handful of tells on every project: Inter for everything, purple-to-blue gradients, cards nested in card",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/249979e8e9c046d66d572ffb90e8cac4fedbd4f4209fb64a0a58bce724b6f1a5/pbakaus/impeccable",
+          "video": "",
+          "summary": "Impeccable The vocabulary you didn't know you needed. 1 skill, 23 commands, and curated anti-patterns for impeccable frontend design. Quick start: Visit impeccable.style to download ready-to-use bundles. Why Impeccable? Anthropic's frontend-design was the first widely-used design skill for Claude. Impeccable started from there. Every model trained on the same SaaS templates. Skip the guidance and you get the same handful of tells on every project: Inter for everything, purple-to-blue gradients, cards nested in card",
+          "summaryZh": "**它是什么** Impeccable 是一个面向“前端设计产出”的开源技能包：提供 **1 个 skill**、**23 条命令**，并整理了大量常见的「AI 生成 SaaS 模板化审美」反模式清单，帮助你把界面做得更有辨识度。\n\n**怎么用** 项目给了快速开始路径：到 **impeccable.style** 下载可直接复用的 bundles/模板化提示词组合。\n\n**为什么值得看** 项目明确参考了 Anthropic 的 `frontend-design` 方向，希望解决“不同模型都容易产出同质化 UI（统一字体、紫蓝渐变、卡片套卡片等）”的问题，适合需要稳定 UI 质量输出的团队/智能体工作流做一轮试用评估。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Introducing the Cosmos Coalition A new global initiative with NVIDIA and leading AI labs to build a...",
+          "titleZh": "Cosmos 联盟简介 这是一项与 NVIDIA 和领先的 AI 实验室合作的新全球计划，旨在构建并开源物理 AI 的前沿世界模型",
+          "link": "https://x.com/runwayml/status/2061315089869721682",
+          "publishedAt": "Mon, 01 Jun 2026 05:13:09 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "description": "Introducing the Cosmos Coalition A new global initiative with NVIDIA and leading AI labs to build and open-source frontier world models for physical AI. Runway joins as a founding member, working alongside NVIDIA and a set of leading AI labs to build, share and accelerate world model research and development through a common open ecosystem. 💬 31 🔄 35 ❤️ 305 👀 33573 📊 69 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJtBg7YXUAE4ei6.jpg",
+          "video": "",
+          "summary": "Introducing the Cosmos Coalition A new global initiative with NVIDIA and leading AI labs to build and open-source frontier world models for physical AI. Runway joins as a founding member, working alongside NVIDIA and a set of leading AI labs to build, share and accelerate world model research and development through a common open ecosystem. 💬 31 🔄 35 ❤️ 305 👀 33573 📊 69 ⚡ Powered by xgo.ing",
+          "summaryZh": "Cosmos 联盟简介 这是一项与 NVIDIA 和领先的 AI 实验室合作的新全球计划，旨在构建并开源物理 AI 的前沿世界模型。 Runway 作为创始成员加入，与 NVIDIA 和一系列领先的 AI 实验室合作，通过共同的开放生态系统构建、共享和加速世界模型的研究和开发。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 68.34964531492002
+        },
+        {
+          "title": "Easily add yourself to your video creations in Gemini. Here’s how to create your own digital avatar...",
+          "titleZh": "轻松将自己添加到 Gemini 的视频创作中",
+          "link": "https://x.com/GeminiApp/status/2061480944905982276",
+          "publishedAt": "Mon, 01 Jun 2026 16:12:12 GMT",
+          "source": "Google Gemini App(@GeminiApp)",
+          "sourceType": "social",
+          "description": "Easily add yourself to your video creations in Gemini. Here’s how to create your own digital avatar that looks and sounds like you with Gemini Omni. 🧵 💬 42 🔄 83 ❤️ 514 👀 33521 📊 149 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Easily add yourself to your video creations in Gemini. Here’s how to create your own digital avatar that looks and sounds like you with Gemini Omni. 🧵 💬 42 🔄 83 ❤️ 514 👀 33521 📊 149 ⚡ Powered by xgo.ing",
+          "summaryZh": "轻松将自己添加到 Gemini 的视频创作中。以下是如何使用 Gemini Omni 创建看起来和听起来都像您的自己的数字化身。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 60.117250826483826
+        },
+        {
+          "title": "Welcome @NVIDIARTXSpark & a new era of PC 🤝",
+          "titleZh": "欢迎 & PC 新时代 NVIDIA R",
+          "link": "https://x.com/NVIDIAAI/status/2061304565837017589",
+          "publishedAt": "Mon, 01 Jun 2026 04:31:20 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "Welcome @NVIDIARTXSpark & a new era of PC 🤝 NVIDIA RTX Spark @NVIDIARTXSpark Welcome to the NVIDIA RTX Spark channel. A new superchip for the age of personal AI. Don't worry, your favorite NVIDIA local AI content continues on right here, just with a new headliner. Let's get started... 🔗 View Quoted Tweet 💬 25 🔄 61 ❤️ 1424 👀 245726 📊 139 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Welcome @NVIDIARTXSpark & a new era of PC 🤝 NVIDIA RTX Spark @NVIDIARTXSpark Welcome to the NVIDIA RTX Spark channel. A new superchip for the age of personal AI. Don't worry, your favorite NVIDIA local AI content continues on right here, just with a new headliner. Let's get started... 🔗 View Quoted Tweet 💬 25 🔄 61 ❤️ 1424 👀 245726 📊 139 ⚡ Powered by xgo.ing",
+          "summaryZh": "欢迎 & PC 新时代 NVIDIA RTX Spark 欢迎来到 NVIDIA RTX Spark 频道。个人人工智能时代的新型超级芯片。别担心，您最喜爱的 NVIDIA 本地 AI 内容将继续在这里播放，只是有了新的头条新闻。让我们开始吧...查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 60
+        },
+        {
+          "title": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exch...",
+          "titleZh": "Anthropic 已秘密向美国证券交易委员会提交了一份 S-1 注册声明草案",
+          "link": "https://x.com/AnthropicAI/status/2061478052257841495",
+          "publishedAt": "Mon, 01 Jun 2026 16:00:42 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "description": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission. Pending completion of SEC review, this gives us the option to pursue an initial public offering. Read more: anthropic.com/news/confident… 💬 514 🔄 1209 ❤️ 11741 👀 2071477 📊 1821 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Anthropic has confidentially submitted a draft S-1 registration statement to the Securities and Exchange Commission. Pending completion of SEC review, this gives us the option to pursue an initial public offering. Read more: anthropic.com/news/confident… 💬 514 🔄 1209 ❤️ 11741 👀 2071477 📊 1821 ⚡ Powered by xgo.ing",
+          "summaryZh": "Anthropic 已秘密向美国证券交易委员会提交了一份 S-1 注册声明草案。在 SEC 审查完成之前，我们可以选择进行首次公开​​募股。阅读更多：anthropic.com/news/confident。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        },
+        {
+          "title": "Starting today, Lovable automatically runs a security scan before you publish. In about 10–15 secon...",
+          "titleZh": "从今天开始，Lovable 在您发布之前会自动运行安全扫描",
+          "link": "https://x.com/Lovable/status/2061456346537710062",
+          "publishedAt": "Mon, 01 Jun 2026 14:34:27 GMT",
+          "source": "Lovable(@lovable_dev)",
+          "sourceType": "social",
+          "description": "Starting today, Lovable automatically runs a security scan before you publish. In about 10–15 seconds, it checks for the most common and impactful issues, database misconfigurations, missing RLS policies, and authorization gaps. Your browser does not support the video tag. 🔗 View on Twitter 💬 14 🔄 15 ❤️ 164 👀 10927 📊 36 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-02-2061456346537710062.mp4",
+          "summary": "Starting today, Lovable automatically runs a security scan before you publish. In about 10–15 seconds, it checks for the most common and impactful issues, database misconfigurations, missing RLS policies, and authorization gaps. Your browser does not support the video tag. 🔗 View on Twitter 💬 14 🔄 15 ❤️ 164 👀 10927 📊 36 ⚡ Powered by xgo.ing",
+          "summaryZh": "从今天开始，Lovable 在您发布之前会自动运行安全扫描。它会在大约 10-15 秒内检查最常见和最有影响的问题、数据库配置错误、缺少 RLS 策略和授权差距。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 56.51207803072934
+        },
+        {
+          "title": ".@MukilLoganathan’s Interrupt keynote on Sandboxes. https://t.co/oddQOs0Q6O In 20 minutes, you’ll ...",
+          "titleZh": "@MukilLoganathan 关于沙箱的中断主题演讲",
+          "link": "https://x.com/LangChain/status/2061448130806116827",
+          "publishedAt": "Mon, 01 Jun 2026 14:01:48 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": ". @MukilLoganathan ’s Interrupt keynote on Sandboxes. youtu.be/IIchUA5T3gs In 20 minutes, you’ll learn how to run agent code safely. Isolated from your runtime, with network controls, persistent state, and snapshot/restore when things go wrong. Your browser does not support the video tag. 🔗 View on Twitter 💬 5 🔄 13 ❤️ 42 👀 7911 📊 16 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-02-2061448130806116827.mp4",
+          "summary": ". @MukilLoganathan ’s Interrupt keynote on Sandboxes. youtu.be/IIchUA5T3gs In 20 minutes, you’ll learn how to run agent code safely. Isolated from your runtime, with network controls, persistent state, and snapshot/restore when things go wrong. Your browser does not support the video tag. 🔗 View on Twitter 💬 5 🔄 13 ❤️ 42 👀 7911 📊 16 ⚡ Powered by xgo.ing",
+          "summaryZh": "。 @MukilLoganathan 关于沙箱的中断主题演讲。 youtu.be/IIchUA5T3gs 在 20 分钟内，您将学习如何安全地运行代理代码。与运行时隔离，具有网络控制、持久状态以及出现问题时的快照/恢复。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 56.45171056194215
+        },
+        {
+          "title": "Thursday.",
+          "titleZh": "周四。Bryan Catanzaro Nemotron 3 Ultra 现在是pinchbench.com 上最好的开放重量模型 查看引用的推文",
+          "link": "https://x.com/NVIDIAAI/status/2061495149872771568",
+          "publishedAt": "Mon, 01 Jun 2026 17:08:39 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "Thursday. Bryan Catanzaro @ctnzr Nemotron 3 Ultra is now the best open weight model on pinchbench.com 💚 🔗 View Quoted Tweet 💬 7 🔄 8 ❤️ 131 👀 9225 📊 17 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJvmTDRaUAAUZzo.jpg",
+          "video": "",
+          "summary": "Thursday. Bryan Catanzaro @ctnzr Nemotron 3 Ultra is now the best open weight model on pinchbench.com 💚 🔗 View Quoted Tweet 💬 7 🔄 8 ❤️ 131 👀 9225 📊 17 ⚡ Powered by xgo.ing",
+          "summaryZh": "周四。 Bryan Catanzaro Nemotron 3 Ultra 现在是pinchbench.com 上最好的开放重量模型 查看引用的推文。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 56.24139090610237
+        },
+        {
+          "title": "Today we're announcing London as Runway's new European headquarters and our newest research hub focu...",
+          "titleZh": "今天，我们宣布伦敦成为 Runway 的新欧洲总部和我们专注于通用世界模型的最新研究中心",
+          "link": "https://x.com/runwayml/status/2061450141614145621",
+          "publishedAt": "Mon, 01 Jun 2026 14:09:48 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "description": "Today we're announcing London as Runway's new European headquarters and our newest research hub focused on general world models. Over the next 18 months, we plan to invest $100M into the UK AI ecosystem, and that figure will more than double through 2028 as we scale our European operations. Learn more and explore open roles at the link below. 💬 11 🔄 9 ❤️ 108 👀 8203 📊 24 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJu96PeXkAANk83.jpg",
+          "video": "",
+          "summary": "Today we're announcing London as Runway's new European headquarters and our newest research hub focused on general world models. Over the next 18 months, we plan to invest $100M into the UK AI ecosystem, and that figure will more than double through 2028 as we scale our European operations. Learn more and explore open roles at the link below. 💬 11 🔄 9 ❤️ 108 👀 8203 📊 24 ⚡ Powered by xgo.ing",
+          "summaryZh": "今天，我们宣布伦敦成为 Runway 的新欧洲总部和我们专注于通用世界模型的最新研究中心。在接下来的 18 个月内，我们计划向英国人工智能生态系统投资 1 亿美元，随着我们扩大欧洲业务规模，到 2028 年，这一数字将增加一倍以上。通过下面的链接了解更多信息并探索空缺职位。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 56.099925715354615
+        },
+        {
+          "title": "MiniMax 这次终于发布了他们的大版本号模型升级 MiniMax M3。 主要是三个核心能力： 1. 标配了 1M 的超长上下文 2. 采用新的 MSA（MoE with Segment-w...",
+          "titleZh": "MiniMax 这次终于发布了他们的大版本号模型升级 MiniMax M3",
+          "link": "https://x.com/op7418/status/2061327301644861608",
+          "publishedAt": "Mon, 01 Jun 2026 06:01:40 GMT",
+          "source": "歸藏(guizang.ai)(@op7418)",
+          "sourceType": "social",
+          "description": "MiniMax 这次终于发布了他们的大版本号模型升级 MiniMax M3。 主要是三个核心能力： 1. 标配了 1M 的超长上下文 2. 采用新的 MSA（MoE with Segment-wise Attention）稀疏注意力架构 3. 从训练起就融合了原生多模态能力，包括强化了文本、图片、视频和桌面操作这些多模态的训练。 MSA 超上下文在算力和速度上更可落地，在 100 万上下文下每 token 计算量只有上一代的约 1/20。。 所以他们这一次的价格也比较给力，Token Plan 更新了新的价格。 在 API 上，小于512k 的 API 现在有为期 7 天的限时五折。 MiniMax (official) @MiniMax_AI Introducing MiniMax M3: The First Open-Weights Model to Combine Three Frontier Capabilities - Coding & Agentic Frontier: 59.0% SWE-Bench Pro, 66.0% Terminal Bench 2.1, 34.8% SWE-fficiency, 28.8% KernelBench Hard, 74.2% MCP Atlas - MiniMax Sparse Attention scales context to 1M - Natively Multimodal from Step Zero API: platform.minimax.io Token Plan: platform.minimax.io/subscribe/toke… 🚀New! MiniMax Code: code.minimax.io l Weights & Tech Report in ~10 Days 🔗 View Quoted Tweet 💬 41 🔄 0 ❤️ 36 👀 18504 📊 31 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HJtNlTBaoAAYFaz.jpg",
+          "video": "",
+          "summary": "MiniMax 这次终于发布了他们的大版本号模型升级 MiniMax M3。 主要是三个核心能力： 1. 标配了 1M 的超长上下文 2. 采用新的 MSA（MoE with Segment-wise Attention）稀疏注意力架构 3. 从训练起就融合了原生多模态能力，包括强化了文本、图片、视频和桌面操作这些多模态的训练。 MSA 超上下文在算力和速度上更可落地，在 100 万上下文下每 token 计算量只有上一代的约 1/20。。 所以他们这一次的价格也比较给力，Token Plan 更新了新的价格。 在 API 上，小于512k 的 API 现在有为期 7 天的限时五折。 MiniMax (official) @MiniMax_AI Introducing MiniMax M3: The First Open-Weights Model to Combine Three Frontier Capabilities - Coding & Agentic Frontier: 59.0% SWE-Bench Pro, 66.0% Terminal Bench 2.1, 34.8% SWE-fficiency, 2...",
+          "summaryZh": "MiniMax 这次终于发布了他们的大版本号模型升级 MiniMax M3。 主要是三个核心能力： 1. 标配了 1M 的超长上下文 2. 采用新的 MSA（MoE with Segment-wise Attention）稀疏注意力架构 3. 从训练起就融合了原生多模态能力，包括强化了文本、图片、视频和桌面操作这些多模态的训练。 MSA 超上下文在算力和速度上更可落地，在 100 万上下文下每 token 计算量只有上一代的约 1/20。 所以他们这一次的价格也比较给力，Token Plan 更新了新的价格。 在 API 上，小于512k 的 API 现在有为期 7 天的限时五折。 MiniMax (official) Introducing MiniMax M3: The First Open-Weights Model to Combine Three Frontier Capabilities - Coding & Agentic Frontier: 59.0% SWE-Bench Pro, 66.0% Terminal Bench 2.1, 34.8% SWE-fficiency, 2...（要点：MiniMax 这次终于发布了他们的大版本号模型升级 MiniMax M3。）",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "多模态"
+          ],
+          "score": 55.29698982081258
+        },
+        {
+          "title": "Stop manually triaging agent failures. Let LangSmith Engine fix it.",
+          "titleZh": "停止手动对代理故障进行分类。让 LangSmith 引擎修复它。",
+          "link": "https://x.com/LangChain/status/2061492038722294027",
+          "publishedAt": "Mon, 01 Jun 2026 16:56:17 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": "Stop manually triaging agent failures. Let LangSmith Engine fix it. Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 5 ❤️ 28 👀 8687 📊 9 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-02-2061492038722294027.mp4",
+          "summary": "Stop manually triaging agent failures. Let LangSmith Engine fix it. Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 5 ❤️ 28 👀 8687 📊 9 ⚡ Powered by xgo.ing",
+          "summaryZh": "**发生了什么** LangChain 官方在推文中宣传 **LangSmith Engine**：希望把原本需要人工处理的 agent 失败排查/分流（triage）交给平台“自动修复”，并附带视频演示。\n\n**为什么值得关注** 这类能力一旦落地，通常会直接影响智能体系统的**线上可用性**与**运维成本**：从“失败了再人工找原因”转向“平台自动兜底 + 复现/回溯”，更适合规模化跑代理工作流的团队持续关注后续细节与可用范围。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 54.91633420205823
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "267.3000块成本，3.5亿次播放，AI短剧怎么在抖音挣钱？",
+          "titleZh": "267.3000块成本，3.5亿次播放，AI短剧怎么在抖音挣钱？",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a1d9e487460cabdeb597a29",
+          "publishedAt": "2026-06-01T15:14:35.698Z",
+          "source": "乱翻书",
+          "sourceType": "podcast",
+          "description": "听《乱翻书》上小宇宙。 乱翻书是一档关注商业、科技和历史的对话节目，关心How和Why，以及少有人注意到的What。内容主要方向是科技考古、行业观察和前沿思考，研究明星公司的创新、竞争和兴衰循环，希望能够为你提供信息增量。 「乱翻书」主理人是潘乱，科技评论作者，单列双列产品概念提出人，代表作《腾讯没有梦想》。",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FqqQkG2Api63iYHz38DWlnFdR-1y.jpg",
+          "video": "",
+          "summary": "听《乱翻书》上小宇宙。 乱翻书是一档关注商业、科技和历史的对话节目，关心How和Why，以及少有人注意到的What。内容主要方向是科技考古、行业观察和前沿思考，研究明星公司的创新、竞争和兴衰循环，希望能够为你提供信息增量。 「乱翻书」主理人是潘乱，科技评论作者，单列双列产品概念提出人，代表作《腾讯没有梦想》。",
+          "summaryZh": "**讲了什么**：这一期来自 **乱翻书**，主题是「267.3000块成本，3.5亿次播放，AI短剧怎么在抖音挣钱？」。🎙【本期嘉宾】小果哥哥 小果哥哥（AI短剧《安徽小木匠》作者，潘乱亲弟弟） 主播：潘乱（「乱翻书」主理人） 🎬 本期视频播客已同步上线于 @潘乱的视频号、哔哩哔哩、微博、小红书、Youtube 等平台。⏰【时间线】 一、IP筛选策略 03:28 现在做短剧的和当年做公众号的，是同一群人 05:45 是什么让你下定决心做短剧？08:16 3000块钱不到的成本，3.5亿播放，50多万的收益 09:06 从番茄小说里听到的《安徽小木匠》原始小说 10:09 为什么选《安徽小木匠》这个作品改编做短剧？ **简介要点**： - 🎙【本期嘉宾】小果哥哥 小果哥哥（AI短剧《安徽小木匠》作者，潘乱亲弟弟） 主播：潘乱（「乱翻书」主理人） 🎬 本期视频播客已同步上线于 @潘乱的视频号、哔哩哔哩、微博、小红书、Youtube 等平台。 - 24:39 从我学习AI，到《安徽小木匠》上线，一共 19 天。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "编程问题已经100%被解决了 | Boris Cherny",
+          "titleZh": "编程问题已经100%被解决了 | Boris Cherny",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a106fb38b5c94538e90085b",
+          "publishedAt": "2026-05-31T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「编程问题已经100%被解决了 | Boris Cherny」。今天我们继续来分享红杉资本2026AI峰会的内容，这次被采访的嘉宾是Anthropic公司的资深工程专家、Claude Code的缔造者，鲍里斯·切尔尼（Boris Cherny）。这场对话中，鲍里斯公开了一个可能会让全场开发者都感到震惊的事实，2026年至今，他一行代码都没有手写过。注意，是完全没写过。但是与此同时，他的开发效率却高到离谱，每天仅凭一部手机，就能提交几十个代码合并请求，甚至创下过一天提交150个PR的个人纪录。这在几年前，是任何一个资深工程师都不敢想象的效率。而支撑这一切的，正是他亲手打造的Claude Code。原视频来自： **简介要点**： - 今天我们继续来分享红杉资本2026AI峰会的内容，这次被采访的嘉宾是Anthropic公司的资深工程专家、Claude Code的缔造者，鲍里斯·切尔尼（Boris Cherny）。 - 这场对话中，鲍里斯公开了一个可能会让全场开发者都感到震惊的事实，2026年至今，他一行代码都没有手写过。 - 但是与此同时，他的开发效率却高到离谱，每天仅凭一部手机，就能提交几十个代码合并请求，甚至创下过一天提交150个PR的个人纪录。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "AI SDK(@aisdk)",
+      "url": "https://api.xgo.ing/rss/user/22af005b21ec45b1a4503acca777b7f0",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/22af005b21ec45b1a4503acca777b7f0"
+    }
+  ],
+  "summaryBullets": [
+    "**M3模型已在Ollama云上可用！与 MiniMax 合作，M3 型**：M3 模型已在 Ollama 云上提供。Ollama 云上的 M3 模型与 MiniMax 合作，基于美国，零数据保留",
+    "**隆重推出 Qwen3.7-Plus — 一种多模式代理模型**：将视觉和语言统一到一个多功能代理基础中。✅ 多模态交互式混合代理：跨视觉和文本任务的统一 GUI 和 CLI 操",
+    "**Cosmos 联盟简介 这是一项与 NVIDIA 和领先的 AI 实**：验室合作的新全球计划，旨在构建并开源物理 AI 的前沿世界模型。Runway 作为创始成员加入，与",
+    "**“美国开源人工智能之王”Nvidia 最近做了很多出色的工作**：clem “美国开源人工智能之王”Nvidia 最近做了很多出色的工作。- 跨越了 上的 1,000 个公共存储库（820 个模型、249 个数据集和 57 个空间）和近",
+    "**自然的、类人的沟通对于发挥人工智能的优势至关重要**：在华沙举行的 ElevenLabs 峰会上， 分享了我们迄今为止最具表现力的 AI 模型的预览，并演示了语音代理的客户体验"
+  ]
+}
