@@ -1,0 +1,520 @@
+{
+  "date": "2026-06-01",
+  "generatedAt": "2026-06-01T01:27:42.421Z",
+  "title": "AI 日报 - 2026-06-01",
+  "stats": {
+    "sources": 134,
+    "fetched": 92,
+    "emailCandidates": 0,
+    "selected": 14,
+    "failures": 36
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": []
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "datasette 1.0a32",
+          "titleZh": "Datasette 1.0a32 一个小",
+          "link": "https://simonwillison.net/2026/May/31/datasette/#atom-everything",
+          "publishedAt": "2026-05-31T23:23:38+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Release: datasette 1.0a32 A minor bugfix release. Fixes a bug with INSERT ... RETURNING queries via the new /db/-/execute-write endpoint and a bunch of base_url issues which showed up when I was experimenting with Service Workers yesterday. Tags: datasette , annotated-release-notes",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Release: datasette 1.0a32 A minor bugfix release. Fixes a bug with INSERT ... RETURNING queries via the new /db/-/execute-write endpoint and a bunch of base_url issues which showed up when I was experimenting with Service Workers yesterday. Tags: datasette , annotated-release-notes",
+          "summaryZh": "**核心要点** Datasette 1.0a32 一个小错误修复版本。修复了通过新的 /db/-/execute-write 端点进行 INSERT ... RETURNING 查询的错误，以及我昨天尝试 Service Workers 时出现的一系列 base_url 问题。标签： 数据集 , 带注释的发行说明",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布"
+          ],
+          "score": 27
+        },
+        {
+          "title": "The solution might be cancelling my AI subscription",
+          "titleZh": "解决方案可能是取消我的 AI 订阅",
+          "link": "https://simonwillison.net/2026/May/31/the-solution-might-be-cancelling-my-ai-subscription/#atom-everything",
+          "publishedAt": "2026-05-31T16:31:32+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "The solution might be cancelling my AI subscription I find this post by David Wilson very relatable. David lists 16+ projects he's spun up with AI tooling, and concludes: I didn't mean to build most of these things. Usually the Claude session started with something like \" write a quick script for X \", and one hour later the result is not a quick script for X , nor in the usual case is my problem solved, whatever the original itch happened to be. On that last point, this technology is horrific for attention. It's a thermonuclear ADHD amplifier and I have seen the same effect in every single one of my adult friends. Folk running 3 screens simultaneously working on totally unrelated \"projects\" they have little hope of maintaining, and such little commitment to the outcome that the time is obviously wasted. This is a very real problem. I'm finding that coding agents can take me from a vague idea to a working solution, one with tests and documentation and that looks like a carefully considered project evolved over the course of many weeks... in less than an hour. Even if the code is rock solid, there's a limit to how many projects like that I can sensibly care for - and if they're instantly abandoned, what value was there from creating them in the first place? David doesn't think this is sustainable at all: I have no idea how to manage AI at present except by curtailing use, because a tool producing a cheap reward with minimal input and no friction can only be a liability, and achieving that realisation is probably the only real contribution of AI to date. I'm hopeful that the critical skill to develop here is discipline . That’s not great news for me: I’ve been trying to figure that one out for decades! Interestingly, the Hacker News thread has gathered a number of comments from people with ADHD who are finding agents help them achieve the focus they've been missing: \"... for me (also ADHD) it's kind of the opposite. I'm finishing side projects for the first time ever because I can actually get them working before I get bored of them\" \"As someone with ADHD I feel like AI is a salve for my mind. I used to listen to intense EDM while working. Now I sit in silence and talk to my agents. I maintain inbox zero. I absorb and comment across all relevant projects, even outside my team. I literally feel like I have a support team for the first time.\" \"For those of us prone to hyperfocus, working with AI can provide the kinds of stimulation we crave. I can hardly remember a time when I've felt more engaged with my work, more productive, and more badass.\" Via Hacker News Tags: productivity , ai , generative-ai , llms , coding-agents , ai-misuse",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "The solution might be cancelling my AI subscription I find this post by David Wilson very relatable. David lists 16+ projects he's spun up with AI tooling, and concludes: I didn't mean to build most of these things. Usually the Claude session started with something like \" write a quick script for X \", and one hour later the result is not a quick script for X , nor in the usual case is my problem solved, whatever the original itch happened to be. On that last point, this technology is horrific for attention. It's...",
+          "summaryZh": "解决方案可能是取消我的人工智能订阅，我发现大卫·威尔逊的这篇文章非常相关。 David 列出了他使用 AI 工具启动的 16 个以上项目，并得出结论：我并不是有意构建其中大部分东西的。通常，Claude会议以“为 X 编写一个快速脚本”之类的内容开始，一小时后，结果不是 X 的快速脚本，通常情况下我的问题也没有得到解决，无论最初的渴望是什么。关于最后一点，这项技术非常引人注目。它是...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 26
+        },
+        {
+          "title": "Quoting Karen Kwok for Reuters Breakingviews",
+          "titleZh": "引用路透社 Breakingviews 郭凯伦的话",
+          "link": "https://simonwillison.net/2026/May/31/anthropic-run-rate/#atom-everything",
+          "publishedAt": "2026-05-31T01:48:12+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Anthropic defines “run-rate revenue” in two parts. Use the last 28 days of sales ⁠from customers charged on a consumption basis and multiply it by 13. Then, multiply the monthly subscription take by 12, ​and add the two together. &mdash; Karen Kwok for Reuters Breakingviews , citing \"a person familiar with the matter\" Tags: anthropic , ai",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Anthropic defines “run-rate revenue” in two parts. Use the last 28 days of sales ⁠from customers charged on a consumption basis and multiply it by 13. Then, multiply the monthly subscription take by 12, ​and add the two together. &mdash; Karen Kwok for Reuters Breakingviews , citing \"a person familiar with the matter\" Tags: anthropic , ai",
+          "summaryZh": "**核心要点** Anthropic 将“运行率收入”定义为两部分。使用按消费收费的客户最近 28 天的销售额，并将其乘以 13。然后，将每月订阅费用乘以 12，​并将两者相加。 — 路透社 Breakingviews 的郭凯伦 (Karen Kwok)，引用“一位知情人士”的话 标签：人类、人工智能",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 23
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "colbymchenry/codegraph",
+          "titleZh": "colbymchenry/codegraph：为 Claude Code/Codex 等预索引的本地代码知识图",
+          "link": "https://github.com/colbymchenry/codegraph",
+          "publishedAt": "2026-06-01T01:27:42.421Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "description": "Star colbymchenry / codegraph Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/c48eecc977dd6ff40b1ffd7aef8258b19011750b0bd36ab63caec8012ee9b5ba/colbymchenry/codegraph",
+          "video": "",
+          "summary": "Star colbymchenry / codegraph Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+          "summaryZh": "该项目把代码库预处理成可检索的“**代码知识图**”，面向 **Claude Code、Codex、Gemini、Cursor** 等工具，主打更少 token、更少工具调用、100% 本地。适合在大型仓库里做快速导航、跨文件关联与上下文压缩；是否值得引入主要看：支持的语言/构建速度、增量更新能力，以及与现有检索/索引方案的兼容度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 24
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "codex computer use is viscerally compelling",
+          "titleZh": "Codex 计算机的使用具有本质上的吸引力",
+          "link": "https://x.com/gdb/status/2060978248792907818",
+          "publishedAt": "Sun, 31 May 2026 06:54:40 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "description": "codex computer use is viscerally compelling Nick Prince🛡 @Nick_Prince12 watching codex control my browser to do things it can't do in the harness is a holy shit experience Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 82 🔄 46 ❤️ 935 👀 107507 📊 155 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-06-01-2060978248792907818.mp4",
+          "summary": "codex computer use is viscerally compelling Nick Prince🛡 @Nick_Prince12 watching codex control my browser to do things it can't do in the harness is a holy shit experience Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 82 🔄 46 ❤️ 935 👀 107507 📊 155 ⚡ Powered by xgo.ing",
+          "summaryZh": "codex 计算机的使用非常引人注目 Nick Prince @Nick_Prince12 观看 codex 控制我的浏览器做它在安全带中无法做的事情是一种神圣的体验 查看引用的推文。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "视频"
+          ],
+          "score": 52
+        },
+        {
+          "title": "I'm really upset about this: OpenAI's Codex Desktop had a \"Copy as Markdown\" option for exporting fu...",
+          "titleZh": "我对此感到非常沮丧：OpenAI 的 Codex 桌面有一个用于导出完整聊天记录的“复制为 Markdown”选项",
+          "link": "https://x.com/simonw/status/2061158636311958005",
+          "publishedAt": "Sun, 31 May 2026 18:51:28 GMT",
+          "source": "Simon Willison(@simonw)",
+          "sourceType": "social",
+          "description": "I'm really upset about this: OpenAI's Codex Desktop had a \"Copy as Markdown\" option for exporting full chat transcripts, but the feature vanished in an update a couple of days ago Genuinely my single favorite feature of Codex compared to Claude Code github.com/openai/codex/i… 💬 98 🔄 41 ❤️ 877 👀 123427 📊 190 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "I'm really upset about this: OpenAI's Codex Desktop had a \"Copy as Markdown\" option for exporting full chat transcripts, but the feature vanished in an update a couple of days ago Genuinely my single favorite feature of Codex compared to Claude Code github.com/openai/codex/i… 💬 98 🔄 41 ❤️ 877 👀 123427 📊 190 ⚡ Powered by xgo.ing",
+          "summaryZh": "我对此感到非常沮丧：OpenAI 的 Codex 桌面有一个用于导出完整聊天记录的“复制为 Markdown”选项，但该功能在几天前​​的更新中消失了与 Claude Code 相比，真正是我最喜欢的 Codex 功能 github.com/openai/codex/i。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源"
+          ],
+          "score": 52
+        },
+        {
+          "title": "只需提供一个Suno歌曲的URL，用Codex自动生成音乐MTV。 Codex自动调用生图、组织画面、生成对齐的歌词。 Skill等继续完善后就可以开源了。",
+          "titleZh": "只需提供一个Suno歌曲的URL，用Codex自动生成音乐MTV。 Codex自动调用生图、组织画面、生成对齐的歌词。 Skill等继续完善后就可以开源了。",
+          "link": "https://x.com/vista8/status/2060902037081165996",
+          "publishedAt": "Sun, 31 May 2026 01:51:50 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "description": "只需提供一个Suno歌曲的URL，用Codex自动生成音乐MTV。 Codex自动调用生图、组织画面、生成对齐的歌词。 Skill等继续完善后就可以开源了。 Your browser does not support the video tag. 🔗 View on Twitter 💬 77 🔄 8 ❤️ 66 👀 9677 📊 80 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-06-01-2060902037081165996.mp4",
+          "summary": "只需提供一个Suno歌曲的URL，用Codex自动生成音乐MTV。 Codex自动调用生图、组织画面、生成对齐的歌词。 Skill等继续完善后就可以开源了。 Your browser does not support the video tag. 🔗 View on Twitter 💬 77 🔄 8 ❤️ 66 👀 9677 📊 80 ⚡ Powered by xgo.ing",
+          "summaryZh": "只需提供一个Suno歌曲的URL，用Codex自动生成音乐MTV。 Codex自动调用生图、组织画面、生成对齐的歌词。 Skill等继续完善后就可以开源了。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "视频",
+            "开源"
+          ],
+          "score": 48.083557259031345
+        },
+        {
+          "title": "OpenAI Robotics is making rapid progress towards building AI that can help people in the physical wo...",
+          "titleZh": "OpenAI Robotics 在构建能够为现实世界中的人们提供帮助的人工智能方面取得了快速进展",
+          "link": "https://x.com/gdb/status/2061145994121871656",
+          "publishedAt": "Sun, 31 May 2026 18:01:13 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "description": "OpenAI Robotics is making rapid progress towards building AI that can help people in the physical world. Apply now to join the team: Sam Altman @sama OpenAI Robotics is hiring, looking for exceptional full-stack hardware, ops, systems, and ML engineers to help us program and manufacture robots that are useful for society. AI should be able to help people in the physical world. In the short term, we are focused on robots to support skilled workers to build our future infrastructure; in the long term, we imagine everyone having a personal robot doing anything they need. Our world simulation research program, led by Aditya Ramesh ( @model_mechanic ), has evolved over the past year into OpenAI Robotics. Progress is rapid, and based on a foundation of co-design between robotics hardware and ML research. If you love working hands-on across the robotics stack and want to build the future, please consider joining us. Send an email with your background and evidence of exceptional accomplishment to: robotics-recruiting @openai .com 🔗 View Quoted Tweet 💬 91 🔄 53 ❤️ 1229 👀 116137 📊 168 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "OpenAI Robotics is making rapid progress towards building AI that can help people in the physical world. Apply now to join the team: Sam Altman @sama OpenAI Robotics is hiring, looking for exceptional full-stack hardware, ops, systems, and ML engineers to help us program and manufacture robots that are useful for society. AI should be able to help people in the physical world. In the short term, we are focused on robots to support skilled workers to build our future infrastructure; in the long term, we imagine e...",
+          "summaryZh": "OpenAI Robotics 在构建能够为现实世界中的人们提供帮助的人工智能方面取得了快速进展。立即申请加入团队：Sam Altman @sama OpenAI Robotics 正在招聘，寻找出色的全栈硬件、操作、系统和机器学习工程师来帮助我们编程和制造对社会有用的机器人。人工智能应该能够帮助现实世界中的人们。短期内，我们的重点是机器人来支持技术工人建设我们未来的基础设施；从长远来看，我们想象...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "API"
+          ],
+          "score": 48
+        },
+        {
+          "title": "OpenAI Robotics is hiring, looking for exceptional full-stack hardware, ops, systems, and ML enginee...",
+          "titleZh": "OpenAI Robotics 正在招聘优秀的全栈硬件、操作、系统和机器学习工程师，以帮助我们编程和制造对社会有用的机器人",
+          "link": "https://x.com/sama/status/2061117302528188712",
+          "publishedAt": "Sun, 31 May 2026 16:07:13 GMT",
+          "source": "Sam Altman(@sama)",
+          "sourceType": "social",
+          "description": "OpenAI Robotics is hiring, looking for exceptional full-stack hardware, ops, systems, and ML engineers to help us program and manufacture robots that are useful for society. AI should be able to help people in the physical world. In the short term, we are focused on robots to support skilled workers to build our future infrastructure; in the long term, we imagine everyone having a personal robot doing anything they need. Our world simulation research program, led by Aditya Ramesh ( @model_mechanic ), has evolved over the past year into OpenAI Robotics. Progress is rapid, and based on a foundation of co-design between robotics hardware and ML research. If you love working hands-on across the robotics stack and want to build the future, please consider joining us. Send an email with your background and evidence of exceptional accomplishment to: robotics-recruiting @openai .com 💬 785 🔄 653 ❤️ 8846 👀 1357620 📊 1775 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "OpenAI Robotics is hiring, looking for exceptional full-stack hardware, ops, systems, and ML engineers to help us program and manufacture robots that are useful for society. AI should be able to help people in the physical world. In the short term, we are focused on robots to support skilled workers to build our future infrastructure; in the long term, we imagine everyone having a personal robot doing anything they need. Our world simulation research program, led by Aditya Ramesh ( @model_mechanic ), has evolved...",
+          "summaryZh": "OpenAI Robotics 正在招聘优秀的全栈硬件、操作、系统和机器学习工程师，以帮助我们编程和制造对社会有用的机器人。人工智能应该能够帮助现实世界中的人们。短期内，我们的重点是机器人来支持技术工人建设我们未来的基础设施；从长远来看，我们想象每个人都有一个个人机器人来做他们需要做的任何事情。我们的世界模拟研究计划由 Aditya Ramesh (@model_mechanic) 领导，已经发展...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "API"
+          ],
+          "score": 47
+        },
+        {
+          "title": "GPT Realtime 2 unlocks some real magic:",
+          "titleZh": "GPT Realtime 2 解锁了一些真正的魔力：Farza 看我仅用我的声音控制我的计算机",
+          "link": "https://x.com/gdb/status/2060955146952077653",
+          "publishedAt": "Sun, 31 May 2026 05:22:52 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "description": "GPT Realtime 2 unlocks some real magic: Farza 🇵🇰🇺🇸 @FarzaTV Watch me control my computer with just my voice. This is the future of operating systems. No hands. GPT-Realtime 2.0 is very, very underrated. Demo: Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 111 🔄 97 ❤️ 2333 👀 284842 📊 370 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-06-01-2060955146952077653.mp4",
+          "summary": "GPT Realtime 2 unlocks some real magic: Farza 🇵🇰🇺🇸 @FarzaTV Watch me control my computer with just my voice. This is the future of operating systems. No hands. GPT-Realtime 2.0 is very, very underrated. Demo: Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 111 🔄 97 ❤️ 2333 👀 284842 📊 370 ⚡ Powered by xgo.ing",
+          "summaryZh": "GPT Realtime 2 解锁了一些真正的魔力：Farza 看我仅用我的声音控制我的计算机。这是操作系统的未来。没有手。 GPT-Realtime 2.0 被非常非常低估。演示：查看引用的推文。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "语音",
+            "视频"
+          ],
+          "score": 46
+        },
+        {
+          "title": "基于开源的沉浸式翻译插件 read-frog。 让Codex开发了一套单词学习系统。 每天阅读英文网页收藏的单词，变成闪卡可复习，基于艾宾浩斯曲线遗忘曲线。 此单词学习模式，根据单词难度（如CE...",
+          "titleZh": "基于开源的沉浸式翻译插件 read-frog",
+          "link": "https://x.com/vista8/status/2061126489048039724",
+          "publishedAt": "Sun, 31 May 2026 16:43:43 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "description": "基于开源的沉浸式翻译插件 read-frog。 让Codex开发了一套单词学习系统。 每天阅读英文网页收藏的单词，变成闪卡可复习，基于艾宾浩斯曲线遗忘曲线。 此单词学习模式，根据单词难度（如CET6+）旁边加上中文翻译，标记掌握情况。 如果一篇文章没生词翻译，说明掌握火候差不多了 原始Github见评论 💬 11 🔄 3 ❤️ 35 👀 3868 📊 20 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HJqWQmsaUAAtsan.jpg",
+          "video": "",
+          "summary": "基于开源的沉浸式翻译插件 read-frog。 让Codex开发了一套单词学习系统。 每天阅读英文网页收藏的单词，变成闪卡可复习，基于艾宾浩斯曲线遗忘曲线。 此单词学习模式，根据单词难度（如CET6+）旁边加上中文翻译，标记掌握情况。 如果一篇文章没生词翻译，说明掌握火候差不多了 原始Github见评论 💬 11 🔄 3 ❤️ 35 👀 3868 📊 20 ⚡ Powered by xgo.ing",
+          "summaryZh": "基于开源的沉浸式翻译插件 read-frog。 让Codex开发了一套单词学习系统。 每天阅读英文网页收藏的单词，变成闪卡可复习，基于艾宾浩斯曲线遗忘曲线。 此单词学习模式，根据单词难度（如CET6+）旁边加上中文翻译，标记掌握情况。 如果一篇文章没生词翻译，说明掌握火候差不多了 原始Github见评论",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源"
+          ],
+          "score": 45.88990932635457
+        },
+        {
+          "title": "ChatGPT 的 Translate 功能做的不像是一个前沿 AI 团队的作品，像 10 年前的互联网产品经理设计的水平，ChatGPT 团队会被 Codex 团队合并不是没有理由的。 https...",
+          "titleZh": "宝玉点评 ChatGPT 翻译：体验像“十年前产品”引发讨论",
+          "link": "https://x.com/dotey/status/2060936552977400219",
+          "publishedAt": "Sun, 31 May 2026 04:08:59 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "ChatGPT 的 Translate 功能做的不像是一个前沿 AI 团队的作品，像 10 年前的互联网产品经理设计的水平，ChatGPT 团队会被 Codex 团队合并不是没有理由的。 chatgpt.com/translate Tibor Blaho @btibor91 OpenAI is working on a new \"Translation Block\" widget in ChatGPT Fun fact - one of the supported languages is \"High Valyrian\", a fictional language created for Game of Thrones 🔗 View Quoted Tweet 💬 63 🔄 1 ❤️ 47 👀 27754 📊 45 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HJl5f6IboAAXT0k.jpg",
+          "video": "",
+          "summary": "ChatGPT 的 Translate 功能做的不像是一个前沿 AI 团队的作品，像 10 年前的互联网产品经理设计的水平，ChatGPT 团队会被 Codex 团队合并不是没有理由的。 chatgpt.com/translate Tibor Blaho @btibor91 OpenAI is working on a new \"Translation Block\" widget in ChatGPT Fun fact - one of the supported languages is \"High Valyrian\", a fictional language created for Game of Thrones 🔗 View Quoted Tweet 💬 63 🔄 1 ❤️ 47 👀 27754 📊 45 ⚡ Powered by xgo.ing",
+          "summaryZh": "宝玉在推文里吐槽 **ChatGPT 的 Translate/翻译体验**：交互与细节打磨不像一家“前沿 AI 团队”的产物，更像传统互联网时代的产品设计，因此引发了对 **翻译功能定位、交互流程、质量控制** 的讨论。对关注 ChatGPT 功能演进的人来说，这类反馈能提示：即便底层模型能力强，**产品化体验** 仍可能成为影响用户留存与口碑的关键短板。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 41.79821676231602
+        },
+        {
+          "title": "用飞书+AI读书，划线就能对话！这个阅读法太上头了 测试了一种另类AI阅读方法，结合飞书CLI，相当有趣！ 1. 让 Codex或CC 把Epub电子书按章节写入飞书文档。 2. 人肉阅读，有感...",
+          "titleZh": "用飞书 + AI 读书：划线即可对话式提问与总结",
+          "link": "https://x.com/vista8/status/2061118430305210492",
+          "publishedAt": "Sun, 31 May 2026 16:11:42 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "description": "用飞书+AI读书，划线就能对话！这个阅读法太上头了 测试了一种另类AI阅读方法，结合飞书CLI，相当有趣！ 1. 让 Codex或CC 把Epub电子书按章节写入飞书文档。 2. 人肉阅读，有感触的地方划线、加粗，最好评论。 3. 让 Codex 读飞书文档中的标记和评论，让AI解释回复你。 探索差不多了，写个Skill 💬 23 🔄 7 ❤️ 49 👀 4341 📊 32 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HJqOpoeawAA_LCP.jpg",
+          "video": "",
+          "summary": "用飞书+AI读书，划线就能对话！这个阅读法太上头了 测试了一种另类AI阅读方法，结合飞书CLI，相当有趣！ 1. 让 Codex或CC 把Epub电子书按章节写入飞书文档。 2. 人肉阅读，有感触的地方划线、加粗，最好评论。 3. 让 Codex 读飞书文档中的标记和评论，让AI解释回复你。 探索差不多了，写个Skill 💬 23 🔄 7 ❤️ 49 👀 4341 📊 32 ⚡ Powered by xgo.ing",
+          "summaryZh": "向阳乔木分享了一个“**飞书 + AI 读书**”的用法：在文档/书籍内容里 **划线标注** 后，直接发起对话式提问、要点总结或解释。它把阅读中的“摘录—提问—复盘”链路做得更顺滑，适合团队共读、知识库沉淀与个人快速消化长文。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 41.43880596171717
+        },
+        {
+          "title": "We want to help the world get a head start on biodefense: https://t.co/gDQfOZrLA4",
+          "titleZh": "我们希望帮助世界在生物防御方面取得领先地位：openai.com/index/strength",
+          "link": "https://x.com/sama/status/2061101875303530871",
+          "publishedAt": "Sun, 31 May 2026 15:05:55 GMT",
+          "source": "Sam Altman(@sama)",
+          "sourceType": "social",
+          "description": "We want to help the world get a head start on biodefense: openai.com/index/strength… 💬 258 🔄 142 ❤️ 1283 👀 166095 📊 356 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "We want to help the world get a head start on biodefense: openai.com/index/strength… 💬 258 🔄 142 ❤️ 1283 👀 166095 📊 356 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们希望帮助世界在生物防御方面取得领先地位：openai.com/index/strength。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 41
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": []
+    }
+  ],
+  "failures": [
+    {
+      "source": "deeplearning.ai",
+      "url": "https://rsshub.bestblogs.dev/deeplearning/the-batch",
+      "error": "请求超时（15000ms）：https://rsshub.bestblogs.dev/deeplearning/the-batch"
+    },
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml"
+    },
+    {
+      "source": "硅谷科技评论",
+      "url": "https://wechat2rss.bestblogs.dev/feed/4515ee058133ff68570ad586abdd81f54f2b6ee3.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/4515ee058133ff68570ad586abdd81f54f2b6ee3.xml"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml"
+    },
+    {
+      "source": "歸藏的AI工具箱",
+      "url": "https://wechat2rss.bestblogs.dev/feed/1c3e3571b1627d23ee9c64521a0b0a41d3fe2987.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/1c3e3571b1627d23ee9c64521a0b0a41d3fe2987.xml"
+    },
+    {
+      "source": "Dify",
+      "url": "https://wechat2rss.bestblogs.dev/feed/e46c03a4cb65509e22ab9a8507888a2096319d65.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/e46c03a4cb65509e22ab9a8507888a2096319d65.xml"
+    },
+    {
+      "source": "智谱",
+      "url": "https://wechat2rss.bestblogs.dev/feed/433d2134dca54d80804daf32e8be546155be3300.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/433d2134dca54d80804daf32e8be546155be3300.xml"
+    },
+    {
+      "source": "月之暗面 Kimi",
+      "url": "https://wechat2rss.bestblogs.dev/feed/c5c43d4bc17bae656763859ed0903bb6314ec6fe.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/c5c43d4bc17bae656763859ed0903bb6314ec6fe.xml"
+    },
+    {
+      "source": "通义大模型",
+      "url": "https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml"
+    },
+    {
+      "source": "百度AI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/d0767d885e6ba213344fb0c0408c51331e23a994.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/d0767d885e6ba213344fb0c0408c51331e23a994.xml"
+    },
+    {
+      "source": "HelloGitHub",
+      "url": "https://wechat2rss.bestblogs.dev/feed/e6cc80b97bf64eeef61cc5927c78ba6ce3356422.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/e6cc80b97bf64eeef61cc5927c78ba6ce3356422.xml"
+    },
+    {
+      "source": "腾讯混元",
+      "url": "https://wechat2rss.bestblogs.dev/feed/306ce19a1ca590c9c2df781789e828d1acfa1356.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/306ce19a1ca590c9c2df781789e828d1acfa1356.xml"
+    },
+    {
+      "source": "智东西",
+      "url": "https://wechat2rss.bestblogs.dev/feed/cfd52b4245ca6119b2fda4ef934832c689028927.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/cfd52b4245ca6119b2fda4ef934832c689028927.xml"
+    },
+    {
+      "source": "大模型智能",
+      "url": "https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml"
+    },
+    {
+      "source": "AI炼金术",
+      "url": "https://wechat2rss.bestblogs.dev/feed/4915f3747653bbb9c7975323c11b768d2b9cd6c9.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/4915f3747653bbb9c7975323c11b768d2b9cd6c9.xml"
+    },
+    {
+      "source": "AI科技评论",
+      "url": "https://wechat2rss.bestblogs.dev/feed/789e5fefb9cc2646ba7b680cb7a88378a34eb7a4.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/789e5fefb9cc2646ba7b680cb7a88378a34eb7a4.xml"
+    },
+    {
+      "source": "山行AI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/98bc16b6f53902a2ab511b4faa3499e0a1c78eb1.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/98bc16b6f53902a2ab511b4faa3499e0a1c78eb1.xml"
+    },
+    {
+      "source": "魔搭ModelScope社区",
+      "url": "https://wechat2rss.bestblogs.dev/feed/d993a885260f96057b9a4c96212cb2c95bb5054b.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/d993a885260f96057b9a4c96212cb2c95bb5054b.xml"
+    },
+    {
+      "source": "夕小瑶科技说",
+      "url": "https://wechat2rss.bestblogs.dev/feed/64b57d666259aee6bd097e76164e4a8371f0ad04.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/64b57d666259aee6bd097e76164e4a8371f0ad04.xml"
+    },
+    {
+      "source": "DeeplearningAI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/9d094d066a5faacff0eb0a6b95efbba20d4f1fc9.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/9d094d066a5faacff0eb0a6b95efbba20d4f1fc9.xml"
+    },
+    {
+      "source": "机器之心SOTA模型",
+      "url": "https://wechat2rss.bestblogs.dev/feed/2f520471856d56c7b3a95cd09eb777149b32828a.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/2f520471856d56c7b3a95cd09eb777149b32828a.xml"
+    },
+    {
+      "source": "阶跃星辰",
+      "url": "https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml"
+    },
+    {
+      "source": "DeepSeek",
+      "url": "https://wechat2rss.bestblogs.dev/feed/1709da4f538d4ce4fb6d7a8ba1a5a1c297919601.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/1709da4f538d4ce4fb6d7a8ba1a5a1c297919601.xml"
+    },
+    {
+      "source": "字节跳动Seed",
+      "url": "https://wechat2rss.bestblogs.dev/feed/6efd40bb335d2037f365d284cb5e00f0843e737e.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/6efd40bb335d2037f365d284cb5e00f0843e737e.xml"
+    },
+    {
+      "source": "MiniMax 稀宇科技",
+      "url": "https://wechat2rss.bestblogs.dev/feed/00306b171f754d463b28cf83f3ba086ad009b430.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/00306b171f754d463b28cf83f3ba086ad009b430.xml"
+    },
+    {
+      "source": "Jina AI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/ff2c5468828ebe7236afd6c1d128e219774487c2.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/ff2c5468828ebe7236afd6c1d128e219774487c2.xml"
+    },
+    {
+      "source": "Datawhale",
+      "url": "https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml"
+    },
+    {
+      "source": "AINLP",
+      "url": "https://wechat2rss.bestblogs.dev/feed/875df1d1a991bf9250ba9813e3148f58ef2240d4.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/875df1d1a991bf9250ba9813e3148f58ef2240d4.xml"
+    },
+    {
+      "source": "Groq",
+      "url": "https://api.bestblogs.dev/feed/groqBlog",
+      "error": "fetch failed"
+    },
+    {
+      "source": "ElevenLabs Blog",
+      "url": "https://api.bestblogs.dev/feed/elevenLabsBlog",
+      "error": "fetch failed"
+    },
+    {
+      "source": "FireCrawl Blog",
+      "url": "https://api.bestblogs.dev/feed/fireCrawlBlog",
+      "error": "fetch failed"
+    },
+    {
+      "source": "Anthropic News",
+      "url": "https://rsshub.bestblogs.dev/anthropic/news",
+      "error": "请求超时（15000ms）：https://rsshub.bestblogs.dev/anthropic/news"
+    },
+    {
+      "source": "AI炼金术",
+      "url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8",
+      "error": "请求超时（15000ms）：https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8"
+    },
+    {
+      "source": "OpenAI(@OpenAI)",
+      "url": "https://api.xgo.ing/rss/user/0c0856a69f9f49cf961018c32a0b0049",
+      "error": "fetch failed"
+    },
+    {
+      "source": "OpenAI Developers(@OpenAIDevs)",
+      "url": "https://api.xgo.ing/rss/user/971dc1fc90da449bac23e5fad8a33d55",
+      "error": "fetch failed"
+    },
+    {
+      "source": "产品快讯候选诊断",
+      "url": "",
+      "error": "产品快讯为空：本次抓到高可信社媒 13 条，其中明确产品更新 0 条；可能是 24 小时窗口内无合格发布，或被历史去重剔除。"
+    }
+  ],
+  "summaryBullets": [
+    "开源侧出现面向编程助手的“上下文压缩”工具：**codegraph** 把代码库预索引为本地代码知识图，面向 **Claude Code/Codex/Gemini/Cursor** 等减少 token 与工具调用。",
+    "**Datasette 1.0a32** 继续推进 1.0 版本路线，适合关注“可查询数据发布/数据产品化”工具链的人跟进。",
+    "社媒热议 **ChatGPT 翻译体验**：即便模型能力强，产品交互与质量控制仍可能成为用户口碑的短板。",
+    "“飞书 + AI 读书”工作流被讨论：通过 **划线标注** 直接对话式提问/总结，让共读与知识沉淀更顺滑。"
+  ]
+}
