@@ -9,13 +9,38 @@ const podcastSourcesPath = path.join(root, "data", "podcast-sources.json");
 const reportsDir = path.join(root, "data", "reports");
 const emailCandidatesDir = path.join(root, "data", "email-candidates");
 const execFileAsync = promisify(execFile);
-const runStartedAt = new Date();
-const today = new Intl.DateTimeFormat("en-CA", {
-  timeZone: "Asia/Shanghai",
-  year: "numeric",
-  month: "2-digit",
-  day: "2-digit"
-}).format(runStartedAt);
+
+function parseReportDate(value) {
+  const date = String(value || "").trim();
+  if (!date) return "";
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return "";
+  return date;
+}
+
+function resolveReportDate() {
+  const override = parseReportDate(process.env.AI_DAILY_DATE);
+  if (override) return override;
+  const now = new Date();
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).format(now);
+}
+
+function resolveRunStartedAt(reportDate) {
+  const explicit = String(process.env.AI_DAILY_RUN_AT || "").trim();
+  if (explicit) {
+    const parsed = new Date(explicit);
+    if (!Number.isNaN(parsed.getTime())) return parsed;
+    throw new Error(`AI_DAILY_RUN_AT 无法解析：${explicit}`);
+  }
+  return new Date(`${reportDate}T02:30:00+08:00`);
+}
+
+const today = resolveReportDate();
+const runStartedAt = resolveRunStartedAt(today);
 
 const SECTION_CONFIG = [
   { id: "product_updates", title: "产品快讯", limit: 8 },
@@ -493,7 +518,10 @@ async function fetchPodcastExtendedReadings(previousKeys) {
   const limit = config.maxDailyItems ?? 3;
   const seen = new Set();
   const items = episodes
-    .filter((episode) => ageInDays(episode.publishedAt) <= lookbackDays)
+    .filter((episode) => {
+      const age = ageInDays(episode.publishedAt);
+      return age >= 0 && age <= lookbackDays;
+    })
     .map((episode) => ({
       ...episode,
       score: scorePodcastEpisode(episode)

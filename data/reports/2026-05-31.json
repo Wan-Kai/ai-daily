@@ -1,0 +1,893 @@
+{
+  "date": "2026-05-31",
+  "generatedAt": "2026-05-30T18:30:00.000Z",
+  "title": "AI 日报 - 2026-05-31",
+  "stats": {
+    "sources": 134,
+    "fetched": 156,
+    "emailCandidates": 0,
+    "selected": 33,
+    "failures": 30
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Hours of video, now searchable by your agent. We just released a new set of agent skills and modula...",
+          "titleZh": "几个小时的视频，现在可供您的代理搜索",
+          "link": "https://x.com/NVIDIAAI/status/2060481312511623513",
+          "publishedAt": "Fri, 29 May 2026 22:00:01 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "Hours of video, now searchable by your agent. We just released a new set of agent skills and modular architecture for the Metropolis Blueprint for Video Search and Summarization, eliminating the need for manual configuration of multiple microservices. Load the skills into a compatible coding agent and it deploys the stack, turning hours of footage into searchable, actionable intelligence through a chat interface. Ask in plain language and get back clips, summaries, and answers. 💬 33 🔄 78 ❤️ 677 👀 44823 📊 184 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJgTZhzWMAQl_O-.jpg",
+          "video": "",
+          "summary": "Hours of video, now searchable by your agent. We just released a new set of agent skills and modular architecture for the Metropolis Blueprint for Video Search and Summarization, eliminating the need for manual configuration of multiple microservices. Load the skills into a compatible coding agent and it deploys the stack, turning hours of footage into searchable, actionable intelligence through a chat interface. Ask in plain language and get back clips, summaries, and answers. 💬 33 🔄 78 ❤️ 677 👀 44823 📊 184 ⚡ Powered by xgo.ing",
+          "summaryZh": "几个小时的视频，现在可供您的代理搜索。我们刚刚为 Metropolis Blueprint for Video Search and Summarization 发布了一套新的代理技能和模块化架构，无需手动配置多个微服务。将技能加载到兼容的编码代理中，然后它会部署堆栈，通过聊天界面将数小时的镜头转化为可搜索、可操作的情报。用通俗易懂的语言提问并获得剪辑、摘要和答案。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "视频"
+          ],
+          "score": 76.62891778928065
+        },
+        {
+          "title": "Builders Unscripted with @0xmts Matias talked to @romainhuet about bringing Codex to work and into ...",
+          "titleZh": "OpenAI：Builders Unscripted with Matias 与 讨论了如何将 Codex 投入工作并纳入副项目工作流程",
+          "link": "https://x.com/OpenAIDevs/status/2060459409659375804",
+          "publishedAt": "Fri, 29 May 2026 20:32:59 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Builders Unscripted with @0xmts Matias talked to @romainhuet about bringing Codex to work and into side-project workflows. 00:58 Codex at Alchemy 01:51 Code review catches bugs 08:04 Side projects with Codex 18:51 Codex App Server projects 24:01 Computer use, GPT-5.5, SnapCat Your browser does not support the video tag. 🔗 View on Twitter 💬 23 🔄 27 ❤️ 318 👀 36385 📊 81 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Builders Unscripted with @0xmts Matias talked to @romainhuet about bringing Codex to work and into side-project workflows. 00:58 Codex at Alchemy 01:51 Code review catches bugs 08:04 Side projects with Codex 18:51 Codex App Server projects 24:01 Computer use, GPT-5.5, SnapCat Your browser does not support the video tag. 🔗 View on Twitter 💬 23 🔄 27 ❤️ 318 👀 36385 📊 81 ⚡ Powered by xgo.ing",
+          "summaryZh": "Builders Unscripted with Matias 与 讨论了如何将 Codex 投入工作并纳入副项目工作流程。 00:58 Alchemy 的 Codex 01:51 代码审查捕获错误 08:04 Codex 的副项目 18:51 Codex 应用服务器项目 24:01 计算机使用、GPT-5.5、SnapCat。这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 67.13109150939364
+        },
+        {
+          "title": "We are continually adding new models and endpoints to the Runway API so you can build the best gener...",
+          "titleZh": "我们不断向 Runway API 添加新的模型和端点，以便您可以将最佳的生成功能直接构建到您的应用、产品和平台中",
+          "link": "https://x.com/runwayml/status/2060453805519765548",
+          "publishedAt": "Fri, 29 May 2026 20:10:43 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "description": "We are continually adding new models and endpoints to the Runway API so you can build the best generative capabilities directly into your apps, products and platforms. With the Runway API, you get all of the models you need, all in one place. Including Seedance 2.0, GPT Image 2, HappyHorse 1.0, Nano Banana Pro, Magnific Precision Upscaler V2 and more. Get started at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 16 🔄 17 ❤️ 146 👀 13758 📊 38 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-31-2060453805519765548.mp4",
+          "summary": "We are continually adding new models and endpoints to the Runway API so you can build the best generative capabilities directly into your apps, products and platforms. With the Runway API, you get all of the models you need, all in one place. Including Seedance 2.0, GPT Image 2, HappyHorse 1.0, Nano Banana Pro, Magnific Precision Upscaler V2 and more. Get started at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 16 🔄 17 ❤️ 146 👀 13758 📊 38 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们不断向 Runway API 添加新的模型和端点，以便您可以将最佳的生成功能直接构建到您的应用、产品和平台中。借助 Runway API，您可以在一处获得所需的所有模型。包括 Seedance 2.0、GPT Image 2、HappyHorse 1.0、Nano Banana Pro、Magnific Precision Upscaler V2 等。请从下面的链接开始。这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "视频",
+            "图像"
+          ],
+          "score": 64.61814357655797
+        },
+        {
+          "title": "Good implementation of Managed Agents in the Gemini API by our friends at @Eigent_AI! Root causing C...",
+          "titleZh": "我们 的朋友在 Gemini API 中很好地实现了托管代理",
+          "link": "https://x.com/googleaidevs/status/2060476641688842424",
+          "publishedAt": "Fri, 29 May 2026 21:41:27 GMT",
+          "source": "Google AI Developers(@googleaidevs)",
+          "sourceType": "social",
+          "description": "Good implementation of Managed Agents in the Gemini API by our friends at @Eigent_AI ! Root causing CI failures at lightning speed. ⚡ Eigent AI @Eigent_AI Gemini 3.5 flash + Gemini managed agents api just audited a real megatron-lm ci failure inside Eigent. root cause in minutes! watch the handoff: coordinator agent plans the audit, developer agent loads the ml-failure-audit skill and gathers the evidence, then gemini agent steps in as a remote sub-agent for the heavy reasoning. gemini managed agents api and gemini 3.5 flash now live on our open-source cowork Eigent! @googleaidevs @GoogleAIStudio Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 7 🔄 2 ❤️ 64 👀 11653 📊 11 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-31-2060476641688842424.mp4",
+          "summary": "Good implementation of Managed Agents in the Gemini API by our friends at @Eigent_AI ! Root causing CI failures at lightning speed. ⚡ Eigent AI @Eigent_AI Gemini 3.5 flash + Gemini managed agents api just audited a real megatron-lm ci failure inside Eigent. root cause in minutes! watch the handoff: coordinator agent plans the audit, developer agent loads the ml-failure-audit skill and gathers the evidence, then gemini agent steps in as a remote sub-agent for the heavy reasoning. gemini managed agents api and gemini 3.5 flash now live on our open-source cowork Eigent! @googleaidevs @GoogleAIStudio Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 7 🔄 2 ❤️ 64 👀 11653 📊 11 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们 的朋友在 Gemini API 中很好地实现了托管代理！以闪电般的速度造成 CI 故障的根本原因。 ⚡ Eigent AI Gemini 3.5 flash + Gemini 托管代理 api 刚刚审核了 Eigent 内部真正的 megatron-lm ci 故障。根本原因在几分钟内！观察交接：协调员代理计划审核，开发人员代理加载机器学习失败审核技能并收集证据，然后 Gemini 代理作为远程子代理介入进行繁重推理。 Gemini 托管代理 api 和 Gemini 3.5 flash 现已在我们的开源合作项目 Eigent 上上线！ 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "API",
+            "智能体",
+            "推理能力",
+            "开发者工具",
+            "视频"
+          ],
+          "score": 64.20869844363389
+        },
+        {
+          "title": "🧵 Our Voice Hack Night finalists are here. 4 projects. 6 hours. Realtime voice agents in real-worl...",
+          "titleZh": "OpenAI：我们的语音黑客之夜决赛入围者就在这里。 4个项目。 6小时。现实世界中的实时语音代理",
+          "link": "https://x.com/OpenAIDevs/status/2060768476386689253",
+          "publishedAt": "Sat, 30 May 2026 17:01:06 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "🧵 Our Voice Hack Night finalists are here. 4 projects. 6 hours. Realtime voice agents in real-world builds. Now it’s your turn to vote for your favorite. We’ll announce the winner on Monday. cerebralvalley.ai/e/openai-voice… j 💬 47 🔄 47 ❤️ 435 👀 66434 📊 114 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJlR_HFbQAAaA9y.jpg",
+          "video": "",
+          "summary": "🧵 Our Voice Hack Night finalists are here. 4 projects. 6 hours. Realtime voice agents in real-world builds. Now it’s your turn to vote for your favorite. We’ll announce the winner on Monday. cerebralvalley.ai/e/openai-voice… j 💬 47 🔄 47 ❤️ 435 👀 66434 📊 114 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们的语音黑客之夜决赛入围者就在这里。 4个项目。 6小时。现实世界中的实时语音代理构建。现在轮到你为你最喜欢的人投票了。我们将在周一宣布获胜者。 Brainvalley.ai/e/openai-voice…j。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "语音"
+          ],
+          "score": 63.83526507821176
+        },
+        {
+          "title": "There's a better way to serve your inference stack, you just haven't found it yet. DynoSim is a wor...",
+          "titleZh": "NVIDIA 推出 DynoSim：用高保真模拟加速推理部署配置搜索（宣称比实时快 1500 倍）",
+          "link": "https://x.com/NVIDIAAI/status/2060781385686659416",
+          "publishedAt": "Sat, 30 May 2026 17:52:24 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "There's a better way to serve your inference stack, you just haven't found it yet. DynoSim is a workload-driven simulation of the Dynamo serving stack that turns exhaustive deployment search into a simulate-then-verify loop. Instead of testing every deployment choice, teams can model the whole stack on one virtual timeline, screen thousands of configurations in high fidelity simulation, then validate only the best candidates on real hardware. And because it's a full Rust implementation, it runs extremely fast. In our testing, 1,500x faster than real time. 💬 20 🔄 40 ❤️ 357 👀 51545 📊 85 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJldv9UXYAMFubg.jpg",
+          "video": "",
+          "summary": "There's a better way to serve your inference stack, you just haven't found it yet. DynoSim is a workload-driven simulation of the Dynamo serving stack that turns exhaustive deployment search into a simulate-then-verify loop. Instead of testing every deployment choice, teams can model the whole stack on one virtual timeline, screen thousands of configurations in high fidelity simulation, then validate only the best candidates on real hardware. And because it's a full Rust implementation, it runs extremely fast. In our testing, 1,500x faster than real time. 💬 20 🔄 40 ❤️ 357 👀 51545 📊 85 ⚡ Powered by xgo.ing",
+          "summaryZh": "有一种更好的方法来为您的推理堆栈提供服务，只是您还没有找到它。 DynoSim 是 Dynamo 服务堆栈的工作负载驱动模拟，可将详尽的部署搜索转变为模拟然后验证循环。团队可以在一个虚拟时间线上对整个堆栈进行建模，在高保真模拟中筛选数千种配置，然后仅在真实硬件上验证最佳候选配置，而不是测试每个部署选择。而且因为它是一个完整的 Rust 实现，所以运行速度非常快。在我们的测试中，比实时快 1,500 倍。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "推理部署"
+          ],
+          "score": 62.83161156887764
+        },
+        {
+          "title": "ICYMI: Nano Banana Pro [gemini-3-pro-image] and Nano Banana 2 [gemini-3.1-flash-image] are now GA an...",
+          "titleZh": "ICYMI：Nano Banana Pro [gemini-3-pro-image] 和 Nano Banana 2 [gemini-3.1-flash-ima",
+          "link": "https://x.com/googleaidevs/status/2060685345738375640",
+          "publishedAt": "Sat, 30 May 2026 11:30:46 GMT",
+          "source": "Google AI Developers(@googleaidevs)",
+          "sourceType": "social",
+          "description": "ICYMI: Nano Banana Pro [gemini-3-pro-image] and Nano Banana 2 [gemini-3.1-flash-image] are now GA and ready for production via the Gemini API. Check out these great community examples to see the capabilities of both models in action 🧵 💬 13 🔄 12 ❤️ 169 👀 12904 📊 33 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJkE9WvWcAIywZJ.jpg",
+          "video": "",
+          "summary": "ICYMI: Nano Banana Pro [gemini-3-pro-image] and Nano Banana 2 [gemini-3.1-flash-image] are now GA and ready for production via the Gemini API. Check out these great community examples to see the capabilities of both models in action 🧵 💬 13 🔄 12 ❤️ 169 👀 12904 📊 33 ⚡ Powered by xgo.ing",
+          "summaryZh": "ICYMI：Nano Banana Pro [gemini-3-pro-image] 和 Nano Banana 2 [gemini-3.1-flash-image] 现已正式发布，可通过 Gemini API 进行生产。查看这些精彩的社区示例，了解两种模型的实际功能。这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "图像"
+          ],
+          "score": 62.46194743912484
+        },
+        {
+          "title": "For every ChatGPT conversation that started as “one quick thing” and became a full on saga: table of...",
+          "titleZh": "对于每次 ChatGPT 对话，从“快速的事情”开始，变成一个完整的传奇：目录在这里",
+          "link": "https://x.com/ChatGPTapp/status/2060467129066070182",
+          "publishedAt": "Fri, 29 May 2026 21:03:39 GMT",
+          "source": "ChatGPT(@ChatGPTapp)",
+          "sourceType": "social",
+          "description": "For every ChatGPT conversation that started as “one quick thing” and became a full on saga: table of contents is here. Available now for chats with 5+ responses. Your browser does not support the video tag. 🔗 View on Twitter 💬 177 🔄 172 ❤️ 2975 👀 283739 📊 515 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-31-2060467129066070182.mp4",
+          "summary": "For every ChatGPT conversation that started as “one quick thing” and became a full on saga: table of contents is here. Available now for chats with 5+ responses. Your browser does not support the video tag. 🔗 View on Twitter 💬 177 🔄 172 ❤️ 2975 👀 283739 📊 515 ⚡ Powered by xgo.ing",
+          "summaryZh": "对于每次 ChatGPT 对话，从“快速的事情”开始，变成一个完整的传奇：目录在这里。现在可用于有 5 个以上回复的聊天。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "minWM: A Full-Stack Open-Source Framework for Real-Time Interactive Video World Models",
+          "titleZh": "WM：实时交互式视频世界模型的全栈开源框架",
+          "link": "https://huggingface.co/papers/2605.30263",
+          "publishedAt": "2026-05-30T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Hugging Face Papers 2026-05-31 排名第 5 的论文候选。",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.30263/gradient.png",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-05-31 排名第 5 的论文候选。",
+          "summaryZh": "**核心结论** 「minWM：实时交互式视频世界模型的全栈开源框架」要解决的问题是：Hugging Face Papers 2026-05-31 排名第 5 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-05-31 排名第 5 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "论文",
+            "视频"
+          ],
+          "score": 37
+        },
+        {
+          "title": "YoCausal: How Far is Video Generation from World Model? A Causality Perspective",
+          "titleZh": "YoCausal：视频生成距离世界模型还有多远？因果关系的观点",
+          "link": "https://huggingface.co/papers/2605.30346",
+          "publishedAt": "2026-05-30T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Hugging Face Papers 2026-05-31 排名第 6 的论文候选。",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6459d5da3b6fafd9664807ab/2k03UStSCXlYg29KS07LE.jpeg",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-05-31 排名第 6 的论文候选。",
+          "summaryZh": "**核心结论** 「YoCausal：视频生成距离世界模型还有多远？因果关系的观点」要解决的问题是：Hugging Face Papers 2026-05-31 排名第 6 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-05-31 排名第 6 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "论文",
+            "视频"
+          ],
+          "score": 37
+        },
+        {
+          "title": "GenClaw: Code-Driven Agentic Image Generation",
+          "titleZh": "GenClaw：代码驱动的代理图像生成",
+          "link": "https://huggingface.co/papers/2605.30248",
+          "publishedAt": "2026-05-30T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Hugging Face Papers 2026-05-31 排名第 8 的论文候选。",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6487e158f675b4a7867f45fa/O3MdUoGQPhR0-wdKTj9mb.jpeg",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-05-31 排名第 8 的论文候选。",
+          "summaryZh": "**核心结论** 「GenClaw：代码驱动的代理图像生成」要解决的问题是：Hugging Face Papers 2026-05-31 排名第 8 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-05-31 排名第 8 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "论文",
+            "图像"
+          ],
+          "score": 37
+        },
+        {
+          "title": "AgentDoG 1.5: A Lightweight and Scalable Alignment Framework for AI Agent Safety and Security",
+          "titleZh": "AgentDoG 1.5：用于 AI 代理安全的轻量级、可扩展的对齐框架",
+          "link": "https://huggingface.co/papers/2605.29801",
+          "publishedAt": "2026-05-30T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Hugging Face Papers 2026-05-31 排名第 1 的论文候选。",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2605.29801/gradient.png",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-05-31 排名第 1 的论文候选。",
+          "summaryZh": "**核心结论** 「AgentDoG 1.5：用于 AI 代理安全的轻量级、可扩展的对齐框架」要解决的问题是：Hugging Face Papers 2026-05-31 排名第 1 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-05-31 排名第 1 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "论文"
+          ],
+          "score": 35
+        },
+        {
+          "title": "Comprehensive observability for Amazon SageMaker AI LLM inference: From GPU utilization to LLM quality",
+          "titleZh": "Amazon SageMaker AI LLM 推理的全面可观察性：从 GPU 利用率到 LLM 质量",
+          "link": "https://aws.amazon.com/blogs/machine-learning/comprehensive-observability-for-amazon-sagemaker-ai-llm-inference-from-gpu-utilization-to-llm-quality/",
+          "publishedAt": "Fri, 29 May 2026 23:36:58 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "This post demonstrates a comprehensive observability solution using Amazon Managed Grafana dashboards that provides a holistic view of both quality and quantity for LLMs served on Amazon SageMaker AI endpoints with inference components.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/29/21002.png",
+          "video": "",
+          "summary": "This post demonstrates a comprehensive observability solution using Amazon Managed Grafana dashboards that provides a holistic view of both quality and quantity for LLMs served on Amazon SageMaker AI endpoints with inference components.",
+          "summaryZh": "**核心要点** 本文演示了使用 Amazon Managed Grafana 仪表板的综合可观测性解决方案，该仪表板通过推理组件为 Amazon SageMaker AI 终端节点上服务的 LLM 提供质量和数量的整体视图。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "推理部署"
+          ],
+          "score": 26
+        },
+        {
+          "title": "[AINews] Founders and Forward Deployed Engineers",
+          "titleZh": "[AINews] 创始人和前沿部署工程师",
+          "link": "https://www.latent.space/p/ainews-founders-and-forward-deployed",
+          "publishedAt": "Sat, 30 May 2026 01:57:15 GMT",
+          "source": "Latent Space",
+          "sourceType": "research",
+          "description": "AINews: Weekday Roundups [AINews] Founders and Forward Deployed Engineers a quiet day lets us highlight the new AIE WF focuses May 30, 2026 ∙ Paid 34 1 Share Most people are still digesting the massive Anthropic news from yesterday. We’re taking the opportunity to solicit the leading AI FDE’s in the world for AIE’s new Forward Deployed Engineer track, mirroring similar pushes from both OpenAI DeployCo and Anthropic DeployCo : as well as AIE’s new Founders program, where we are doing our version of the Startup Battl",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://substackcdn.com/image/fetch/$s_!mb2x!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fswyx.substack.com%2Fapi%2Fv1%2Fpost_preview%2F199815243%2Ftwitter.jpg%3Fversion%3D4",
+          "video": "",
+          "summary": "AINews: Weekday Roundups [AINews] Founders and Forward Deployed Engineers a quiet day lets us highlight the new AIE WF focuses May 30, 2026 ∙ Paid 34 1 Share Most people are still digesting the massive Anthropic news from yesterday. We’re taking the opportunity to solicit the leading AI FDE’s in the world for AIE’s new Forward Deployed Engineer track, mirroring similar pushes from both OpenAI DeployCo and Anthropic DeployCo : as well as AIE’s new Founders program, where we are doing our version of the Startup Battl",
+          "summaryZh": "**核心要点** AINews：工作日综述 [AINews] 创始人和前沿部署工程师 安静的一天让我们重点关注新的 AIE WF 焦点 2026 年 5 月 30 日 ∙ 付费 34 1 分享 大多数人仍在消化昨天的大量 Anthropic 新闻。我们正在借此机会为 AIE 的新前向部署工程师轨道征集世界领先的 AI FDE，这反映了 OpenAI DeployCo 和 Anthropic DeployCo 的类似推动：以及 AIE 的新创始人计划，我们正在其中进行我们版本的 Startup Battl",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 24
+        },
+        {
+          "title": "Quoting Daniel Jalkut",
+          "titleZh": "引用丹尼尔·贾尔库特的话",
+          "link": "https://simonwillison.net/2026/May/30/daniel-jalkut/#atom-everything",
+          "publishedAt": "2026-05-30T17:29:55+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "My take on AI is, essentially, everybody who’s against it is too against it and everybody who’s for it is too for it. &mdash; Daniel Jalkut , via John Gruber Tags: ai , john-gruber",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "My take on AI is, essentially, everybody who’s against it is too against it and everybody who’s for it is too for it. &mdash; Daniel Jalkut , via John Gruber Tags: ai , john-gruber",
+          "summaryZh": "**核心要点** 我对人工智能的看法本质上是，每个反对它的人都太反对它，每个支持它的人也太支持它。 — Daniel Jalkut，来自 John Gruber 标签： ai、 john-gruber",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 23
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "Most in-car media systems still expect you to search with keywords. But when you’re driving, you do...",
+          "titleZh": "大多数车载媒体系统仍然希望您使用关键字进行搜索。但当你开车的时候，你会",
+          "link": "https://x.com/qdrant_engine/status/2060632303999570171",
+          "publishedAt": "Sat, 30 May 2026 08:00:00 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "description": "Most in-car media systems still expect you to search with keywords. But when you’re driving, you don’t think in keywords - you think in moods, vibes, and intent. This project by Sarvesh Talele, built with Qdrant Edge, creates a fully local AI-powered media discovery system that lets users search music semantically through voice, text, and mood-based queries. What’s interesting: → Local voice transcription with Whisper → Semantic retrieval with vector embeddings → On-device vector search using Qdrant Edge → No cloud dependency required A great example of how vector search can power privacy-first, real-time experiences directly on-device. Read here: levelup.gitconnected.com/how-i-built-a-… 💬 5 🔄 0 ❤️ 10 👀 407 📊 7 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJgvR4HbcAA8N1A.jpg",
+          "video": "",
+          "summary": "Most in-car media systems still expect you to search with keywords. But when you’re driving, you don’t think in keywords - you think in moods, vibes, and intent. This project by Sarvesh Talele, built with Qdrant Edge, creates a fully local AI-powered media discovery system that lets users search music semantically through voice, text, and mood-based queries. What’s interesting: → Local voice transcription with Whisper → Semantic retrieval with vector embeddings → On-device vector search using Qdrant Edge → No cloud dependency required A great example of how vector search can power privacy-first, real-time experiences directly on-device. Read here: levelup.gitconnected.com/how-i-built-a-… 💬 5 🔄 0 ❤️ 10 👀 407 📊 7 ⚡ Powered by xgo.ing",
+          "summaryZh": "大多数车载媒体系统仍然希望您使用关键字进行搜索。但当你开车时，你不会用关键词来思考，而是用心情、氛围和意图来思考。 Sarvesh Talele 的这个项目使用 Qdrant Edge 构建，创建了一个完全本地人工智能驱动的媒体发现系统，让用户可以通过语音、文本和基于情绪的查询来语义搜索音乐。有趣的是： → 使用 Whisper 进行本地语音转录 → 通过矢量嵌入进行语义检索 → 使用 Qdrant Edge 进行设备上矢量搜索 → 无需依赖云 这是一个很好的示例，说明矢量搜索如何直接在设备上提供隐私优先的实时体验。阅读此处：levelup.gitconnected.com/how-i-built-a-…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "语音"
+          ],
+          "score": 46.859712235651365
+        },
+        {
+          "title": "🌐 𝗪𝗲𝗯𝗶𝗻𝗮𝗿 | 𝗪𝗵𝗮𝘁’𝘀 𝗡𝗲𝘄 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬: 𝗟𝗶𝘃𝗲 𝗪𝗮𝗹𝗸𝘁𝗵𝗿𝗼𝘂𝗴𝗵 & ...",
+          "titleZh": "’ .: &，Milvus 3.0 beta 是项目",
+          "link": "https://x.com/milvusio/status/2060741259732676904",
+          "publishedAt": "Sat, 30 May 2026 15:12:57 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "description": "🌐 𝗪𝗲𝗯𝗶𝗻𝗮𝗿 | 𝗪𝗵𝗮𝘁’𝘀 𝗡𝗲𝘄 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬: 𝗟𝗶𝘃𝗲 𝗪𝗮𝗹𝗸𝘁𝗵𝗿𝗼𝘂𝗴𝗵 & 𝗔𝗠𝗔, 𝗝𝘂𝗻𝗲 𝟴 𝗼𝗻𝗹𝗶𝗻𝗲 Milvus 3.0 beta is the biggest architectural upgrade since the project began. It brings native support for indexing and querying vectors directly on your data lake, along with a query engine that goes beyond top-K search. In this live session, core maintainers Li Liu and Jiang Chen will walk through what shipped, the design choices behind it, and how Milvus 3.0 powers 𝗭𝗶𝗹𝗹𝗶𝘇 𝗩𝗲𝗰𝘁𝗼𝗿 𝗟𝗮𝗸𝗲𝗯𝗮𝘀𝗲. 🎤 𝗧𝗼𝗽𝗶𝗰𝘀 • What changed in Milvus 3.0 beta • Why data lake-native vector search matters • What’s in beta now and what’s coming in GA • How Milvus 3.0 powers Zilliz Vector Lakebase • 15–20 zilliz.com/event/whats-ne… maintainers 📅 𝗝𝘂𝗻𝗲 𝟴, 𝟮𝟬𝟮𝟲, 𝟰:𝟬𝟬 𝗽𝗺 𝗣𝗗𝗧 🔗 Register here: https://t.co/ccpclyAQa8 Bring your questions about migration, performance, arc #Milvus r #VectorDatabase e #Zilliz ’d like to ask the maintainers. Looking forward to the conversation! #Milvus #VectorDatabase #Zilliz 💬 0 🔄 0 ❤️ 0 👀 123 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJk4wpUaMAALaGa.jpg",
+          "video": "",
+          "summary": "🌐 𝗪𝗲𝗯𝗶𝗻𝗮𝗿 | 𝗪𝗵𝗮𝘁’𝘀 𝗡𝗲𝘄 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬: 𝗟𝗶𝘃𝗲 𝗪𝗮𝗹𝗸𝘁𝗵𝗿𝗼𝘂𝗴𝗵 & 𝗔𝗠𝗔, 𝗝𝘂𝗻𝗲 𝟴 𝗼𝗻𝗹𝗶𝗻𝗲 Milvus 3.0 beta is the biggest architectural upgrade since the project began. It brings native support for indexing and querying vectors directly on your data lake, along with a query engine that goes beyond top-K search. In this live session, core maintainers Li Liu and Jiang Chen will walk through what shipped, the design choices behind it, and how Milvus 3.0 powers 𝗭𝗶𝗹𝗹𝗶𝘇 𝗩𝗲𝗰𝘁𝗼𝗿 𝗟𝗮𝗸𝗲𝗯𝗮𝘀𝗲. 🎤 𝗧𝗼𝗽𝗶𝗰𝘀 • What changed in Milvus 3.0 beta • Why data lake-native vector search matters • What’s in beta now and what’s coming in GA • How Milvus 3.0 powers Zilliz Vector Lakebase • 15–20 zilliz.com/event/whats-ne… maintainers 📅 𝗝𝘂𝗻𝗲 𝟴, 𝟮𝟬𝟮𝟲, 𝟰:𝟬𝟬 𝗽𝗺 𝗣𝗗𝗧 🔗 Register here: https://t.co/ccpclyAQa8 Bring your questions about mi...",
+          "summaryZh": "| ’ .: &，Milvus 3.0 beta 是项目启动以来最大的架构升级。它直接在数据湖上提供对向量索引和查询的本机支持，以及超越前 K 搜索的查询引擎。在本次直播会议中，核心维护人员 Li Liu 和 Jiang Chen 将介绍 Milvus 3.0 的发布内容、背后的设计选择以及 Milvus 3.0 的强大功能。 • Milvus 3.0 beta 中的变化 • 为什么数据湖原生向量搜索很重要 • 现在 beta 版中的内容以及 GA 中即将推出的内容 • Milvus 3.0 如何为 Zilliz Vector Lakebase 提供支持 • 15–20 zilliz.com/event/whats-ne… 维护者 , , : 在此注册：提出有关 mi 的问题...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 39.140132527743354
+        },
+        {
+          "title": "nesquena/hermes-webui",
+          "titleZh": "nesquena/hermes-webui：Hermes WebUI（Hermes Agent 的轻量 Web 界面，三面板布局，纯 Python+原生 JS，无构建步骤）",
+          "link": "https://github.com/nesquena/hermes-webui",
+          "publishedAt": "2026-05-30T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Hermes Web UI Hermes Agent is a sophisticated autonomous agent that lives on your server, accessed via a terminal or messaging apps, that remembers what it learns and gets more capable the longer it runs. Hermes WebUI is a lightweight, dark-themed web app interface in your browser for Hermes Agent . Full parity with the CLI experience - everything you can do from a terminal, you can do from this UI. No build step, no framework, no bundler. Just Python and vanilla JS. Layout: three-panel. Left sidebar for sessions a",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/nesquena/hermes-webui/raw/master/docs/images/ui-workspace.png",
+          "video": "",
+          "summary": "Hermes Web UI Hermes Agent is a sophisticated autonomous agent that lives on your server, accessed via a terminal or messaging apps, that remembers what it learns and gets more capable the longer it runs. Hermes WebUI is a lightweight, dark-themed web app interface in your browser for Hermes Agent . Full parity with the CLI experience - everything you can do from a terminal, you can do from this UI. No build step, no framework, no bundler. Just Python and vanilla JS. Layout: three-panel. Left sidebar for sessions a",
+          "summaryZh": "Hermes Web UI Hermes Agent 是一个复杂的自主代理，位于您的服务器上，可通过终端或消息应用访问，它会记住它所学到的内容，并且运行时间越长，其能力就越强。 Hermes WebUI 是 Hermes Agent 浏览器中的一个轻量级、深色主题的 Web 应用界面。与 CLI 体验完全一致 - 您可以从终端执行的所有操作，都可以通过此 UI 执行。没有构建步骤，没有框架，没有捆绑器。只有 Python 和普通 JS。布局：三面板。会话 a 的左侧边栏",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "github/docs",
+          "titleZh": "github/docs：GitHub 文档 欢迎使用 GitH",
+          "link": "https://github.com/github/docs",
+          "publishedAt": "2026-05-30T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "GitHub Docs Welcome to GitHub Docs! GitHub’s documentation is open source, meaning anyone from inside or outside the company can contribute. For full contributing guidelines, visit our contributing guide . Quick links by contributor type Hubbers (GitHub employees): See CONTRIBUTING.md in the docs-content repository for GitHub-specific processes. Open source contributors: See CONTRIBUTING.md in the docs repository for a quick-start summary. How we sync changes across Docs repositories There are two GitHub Docs repos",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://repository-images.githubusercontent.com/189621607/68da3472-d88f-43b8-adf0-fc60cbd6f203",
+          "video": "",
+          "summary": "GitHub Docs Welcome to GitHub Docs! GitHub’s documentation is open source, meaning anyone from inside or outside the company can contribute. For full contributing guidelines, visit our contributing guide . Quick links by contributor type Hubbers (GitHub employees): See CONTRIBUTING.md in the docs-content repository for GitHub-specific processes. Open source contributors: See CONTRIBUTING.md in the docs repository for a quick-start summary. How we sync changes across Docs repositories There are two GitHub Docs repos",
+          "summaryZh": "GitHub 文档 欢迎使用 GitHub 文档！ GitHub 的文档是开源的，这意味着公司内部或外部的任何人都可以做出贡献。有关完整的贡献指南，请访问我们的贡献指南。按贡献者类型 Hubbers（GitHub 员工）划分的快速链接：请参阅 docs-content 存储库中的 CONTRIBUTING.md，了解 GitHub 特定的流程。开源贡献者：请参阅文档存储库中的 CONTRIBUTING.md 以获取快速入门摘要。我们如何跨 Docs 存储库同步更改 有两个 GitHub Docs 存储库",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "开源"
+          ],
+          "score": 30
+        },
+        {
+          "title": "supermemoryai/supermemory",
+          "titleZh": "supermemoryai/supermemory：最先进的人工智能记忆和上下文引擎。是的 - 您可以将其用",
+          "link": "https://github.com/supermemoryai/supermemory",
+          "publishedAt": "2026-05-30T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "State-of-the-art memory and context engine for AI. And yes - you can use it as a company/personal brain. Docs · Quickstart · Dashboard · Discord Supermemory is the memory and context layer for AI. #1 on LongMemEval , LoCoMo , and ConvoMem — the three major benchmarks for AI memory. We are a research lab building the engine, plugins and tools around it. Your AI forgets everything between conversations. Supermemory fixes that. It automatically learns from conversations, extracts facts, builds user profiles, handles k",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/adb357c76b09e896688ef925f47f3c32691072cd3bd9571079cb624f08e55a10/supermemoryai/supermemory",
+          "video": "",
+          "summary": "State-of-the-art memory and context engine for AI. And yes - you can use it as a company/personal brain. Docs · Quickstart · Dashboard · Discord Supermemory is the memory and context layer for AI. #1 on LongMemEval , LoCoMo , and ConvoMem — the three major benchmarks for AI memory. We are a research lab building the engine, plugins and tools around it. Your AI forgets everything between conversations. Supermemory fixes that. It automatically learns from conversations, extracts facts, builds user profiles, handles k",
+          "summaryZh": "最先进的人工智能记忆和上下文引擎。是的 - 您可以将其用作公司/个人的大脑。文档·快速入门·仪表板·Discord 超级内存是人工智能的内存和上下文层。 LongMemEval、LoCoMo 和 ConvoMem 排名第一——人工智能内存的三大基准。我们是一个研究实验室，围绕它构建引擎、插件和工具。你的人工智能会忘记对话之间的一切。超级记忆解决了这个问题。它自动从对话中学习、提取事实、构建用户档案、处理 k",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "API"
+          ],
+          "score": 30
+        },
+        {
+          "title": "FareedKhan-dev/train-llm-from-scratch",
+          "titleZh": "FareedKhan-dev/train-llm-from-scratch：从头开始培养LLM",
+          "link": "https://github.com/FareedKhan-dev/train-llm-from-scratch",
+          "publishedAt": "2026-05-30T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Train LLM From Scratch I am Looking for a PhD position in AI . GitHub I implemented a transformer model from scratch using PyTorch, based on the paper Attention is All You Need . You can use my scripts to train your own billion or million parameter LLM using a single GPU. Below is the output of the trained 13 million parameter LLM: In ***1978, The park was returned to the factory-plate that the public share to the lower of the electronic fence that follow from the Station's cities. The Canal of ancient Western nati",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://camo.githubusercontent.com/8d8964528036ccaa683fa7166e1e5e80e26c7b664577f5c3b45d0834e77a9e9c/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f363836342f312a66612d596a725a6474627075434c7037416e393964672e706e67",
+          "video": "",
+          "summary": "Train LLM From Scratch I am Looking for a PhD position in AI . GitHub I implemented a transformer model from scratch using PyTorch, based on the paper Attention is All You Need . You can use my scripts to train your own billion or million parameter LLM using a single GPU. Below is the output of the trained 13 million parameter LLM: In ***1978, The park was returned to the factory-plate that the public share to the lower of the electronic fence that follow from the Station's cities. The Canal of ancient Western nati",
+          "summaryZh": "从头开始培养LLM 我正在寻找人工智能领域的博士学位。GitHub 我根据论文《Attention is All You Need》，使用 PyTorch 从头开始实现了一个 Transformer 模型。你可以用这些脚本在单张 GPU 上训练「十亿/百万参数级」LLM。下面是作者给出的 1300 万参数 LLM 输出片段（节选）：1978 年，公园被归还给公众共享的工厂板，位于从车站城市延伸的电子围栏的下部……",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "2 quality-of-life improvements for developers working with Codex today: Codex background agents now...",
+          "titleZh": "OpenAI：如今使用 Codex 的开发人员的生活质量有 2 项改进：Codex 后台代理现在拥有稳",
+          "link": "https://x.com/OpenAIDevs/status/2060478367921831936",
+          "publishedAt": "Fri, 29 May 2026 21:48:19 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "2 quality-of-life improvements for developers working with Codex today: Codex background agents now have stable pixel identicons. When the same agent shows up across tabs, mentions, transcripts, and the thread panel, it’s easier to recognize at a glance. Your browser does not support the video tag. 🔗 View on Twitter 💬 111 🔄 97 ❤️ 1995 👀 165715 📊 364 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-31-2060478367921831936.mp4",
+          "summary": "2 quality-of-life improvements for developers working with Codex today: Codex background agents now have stable pixel identicons. When the same agent shows up across tabs, mentions, transcripts, and the thread panel, it’s easier to recognize at a glance. Your browser does not support the video tag. 🔗 View on Twitter 💬 111 🔄 97 ❤️ 1995 👀 165715 📊 364 ⚡ Powered by xgo.ing",
+          "summaryZh": "如今使用 Codex 的开发人员的生活质量有 2 项改进：Codex 后台代理现在拥有稳定的像素标识符。当同一个代理出现在选项卡、提及、文字记录和线程面板中时，一目了然更容易识别。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "开发者工具",
+            "视频"
+          ],
+          "score": 75
+        },
+        {
+          "title": "Search through all prior chat content to find past threads:",
+          "titleZh": "OpenAI：搜索所有先前的聊天内容以查找过去的线程：Francis Chalissery @fchalissery 今天的 Codex 应用更新中的小生活质量改进：您现在可",
+          "link": "https://x.com/OpenAIDevs/status/2060478379619676330",
+          "publishedAt": "Fri, 29 May 2026 21:48:22 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Search through all prior chat content to find past threads: Francis Chalissery @fchalissery Small QoL improvement in today’s Codex App update: you can now search through all prior chat content to find past threads!✨ Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 25 🔄 14 ❤️ 274 👀 48403 📊 42 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-31-2060478379619676330.mp4",
+          "summary": "Search through all prior chat content to find past threads: Francis Chalissery @fchalissery Small QoL improvement in today’s Codex App update: you can now search through all prior chat content to find past threads!✨ Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 25 🔄 14 ❤️ 274 👀 48403 📊 42 ⚡ Powered by xgo.ing",
+          "summaryZh": "搜索所有先前的聊天内容以查找过去的线程：Francis Chalissery @fchalissery 今天的 Codex 应用更新中的小生活质量改进：您现在可以搜索所有先前的聊天内容以查找过去的线程！✨ 查看引用的推文。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 66.55180851980417
+        },
+        {
+          "title": "This is a great read on post-training and open models. @harvey & @trajectorylabs post-trained N...",
+          "titleZh": "这是一本关于训练后和开放模型的好读物",
+          "link": "https://x.com/NVIDIAAI/status/2060461130452234606",
+          "publishedAt": "Fri, 29 May 2026 20:39:49 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "This is a great read on post-training and open models. @harvey & @trajectorylabs post-trained Nemotron 3 Super on complex legal tasks with some very impressive initial results. All with auditable weights, real security, and clear provenance. Harvey @harvey We're partnering with @trajectorylabs to bring sovereign continual learning to legal AI with NVIDIA Nemotron models. Continual learning allows agents to improve over time from feedback on their work: every redline refines the next draft. Open-weight models offer full auditability and data sovereignty over legal agents. Using Trajectory's platform, we post-trained NVIDIA Nemotron 3 Super on our Legal Agent Benchmark (LAB), measuring performance on 1,200+ complex end-to-end legal tasks across 24 practice areas. Initial results show that a post-trained Nemotron 3 Super can match performance of closed-source frontier models. This is just the start: we'll keep pushing the frontier with the more powerful Nemotron 3 Ultra when available. 🔗 View Quoted Tweet 💬 16 🔄 35 ❤️ 254 👀 27288 📊 47 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJgMjdYbgAAtjJY.jpg",
+          "video": "",
+          "summary": "This is a great read on post-training and open models. @harvey & @trajectorylabs post-trained Nemotron 3 Super on complex legal tasks with some very impressive initial results. All with auditable weights, real security, and clear provenance. Harvey @harvey We're partnering with @trajectorylabs to bring sovereign continual learning to legal AI with NVIDIA Nemotron models. Continual learning allows agents to improve over time from feedback on their work: every redline refines the next draft. Open-weight models offer full auditability and data sovereignty over legal agents. Using Trajectory's platform, we post-trained NVIDIA Nemotron 3 Super on our Legal Agent Benchmark (LAB), measuring performance on 1,200+ complex end-to-end legal tasks across 24 practice areas. Initial results show that a post-trained Nemotron 3 Super can match performance of closed-source frontier models. This is jus...",
+          "summaryZh": "这是一本关于训练后和开放模型的好读物。 @harvey 和 @trajectorylabs 对 Nemotron 3 Super 进行了复杂法律任务的后期培训，并取得了一些非常令人印象深刻的初步结果。所有这些都具有可审计的权重、真正的安全性和明确的出处。 Harvey @harvey 我们正在与 @trajectorylabs 合作，通过 NVIDIA Nemotron 模型将主权持续学习引入合法 AI。持续学习使代理能够随着时间的推移从工作反馈中不断改进：每条红线都会完善下一个草案。开放权重模型为法律代理人提供全面的可审计性和数据主权。使用 Trajectory 的平台，我们在法律代理基准 (LAB) 上对 NVIDIA Nemotron 3 Super 进行了后期培训，测量了 24 个实践领域 1,200 多个复杂的端到端法律任务的性能。初步结果表明，经过训练的 Nemotron 3 Super 可以与闭源前沿模型的性能相媲美。这只是...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "评测"
+          ],
+          "score": 64.62319607663798
+        },
+        {
+          "title": "AI can give researchers the freedom to pursue “crazier” ideas. For Terence Tao, AI creates more roo...",
+          "titleZh": "OpenAI：人工智能可以让研究人员自由地追求“更疯狂”的想法",
+          "link": "https://x.com/OpenAI/status/2060451757818601808",
+          "publishedAt": "Fri, 29 May 2026 20:02:35 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "AI can give researchers the freedom to pursue “crazier” ideas. For Terence Tao, AI creates more room to experiment, test unexpected paths, and discover what might otherwise stay out of reach. Your browser does not support the video tag. 🔗 View on Twitter 💬 286 🔄 618 ❤️ 5763 👀 1278695 📊 979 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-31-2060451757818601808.mp4",
+          "summary": "AI can give researchers the freedom to pursue “crazier” ideas. For Terence Tao, AI creates more room to experiment, test unexpected paths, and discover what might otherwise stay out of reach. Your browser does not support the video tag. 🔗 View on Twitter 💬 286 🔄 618 ❤️ 5763 👀 1278695 📊 979 ⚡ Powered by xgo.ing",
+          "summaryZh": "人工智能可以让研究人员自由地追求“更疯狂”的想法。对于陶哲轩来说，人工智能创造了更多的实验空间，测试意想不到的路径，并发现原本无法触及的东西。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "🤳 Agentic OS for a Phone A voice-first mobile OS. Users talk, agents answer, and they can take act...",
+          "titleZh": "OpenAI：电话代理操作系统 语音优先的移动操作系统。用户说话，代理回答，然后他们就可以采取行动",
+          "link": "https://x.com/OpenAIDevs/status/2060768896580452841",
+          "publishedAt": "Sat, 30 May 2026 17:02:46 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "🤳 Agentic OS for a Phone A voice-first mobile OS. Users talk, agents answer, and they can take action across the phone. cerebralvalley.ai/e/openai-voice… l Your browser does not support the video tag. 🔗 View on Twitter 💬 13 🔄 12 ❤️ 150 👀 28717 📊 33 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-31-2060768896580452841.mp4",
+          "summary": "🤳 Agentic OS for a Phone A voice-first mobile OS. Users talk, agents answer, and they can take action across the phone. cerebralvalley.ai/e/openai-voice… l Your browser does not support the video tag. 🔗 View on Twitter 💬 13 🔄 12 ❤️ 150 👀 28717 📊 33 ⚡ Powered by xgo.ing",
+          "summaryZh": "电话代理操作系统 语音优先的移动操作系统。用户交谈，客服人员应答，他们可以通过电话采取行动。 Brainvalley.ai/e/openai-voice…l。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "语音",
+            "视频"
+          ],
+          "score": 61.77715381621786
+        },
+        {
+          "title": "In conversation with OpenAI’s @markchen90, Terence reflects on a future where AI reduces the cogniti...",
+          "titleZh": "在与 OpenAI 的 @markchen90 的对话中，Terence 反思了人工智能减少认知的未来",
+          "link": "https://x.com/OpenAI/status/2060451760033214653",
+          "publishedAt": "Fri, 29 May 2026 20:02:35 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "In conversation with OpenAI’s @markchen90 , Terence reflects on a future where AI reduces the cognitive friction of research, helps preserve the paths behind discovery, and expands what mathematicians and scientists can attempt. forum.openai.com/public/videos/… 💬 41 🔄 34 ❤️ 373 👀 104585 📊 79 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "In conversation with OpenAI’s @markchen90 , Terence reflects on a future where AI reduces the cognitive friction of research, helps preserve the paths behind discovery, and expands what mathematicians and scientists can attempt. forum.openai.com/public/videos/… 💬 41 🔄 34 ❤️ 373 👀 104585 📊 79 ⚡ Powered by xgo.ing",
+          "summaryZh": "在与 OpenAI 的 的对话中，Terence 思考了未来的情况：人工智能将减少研究的认知摩擦，帮助保留发现背后的路径，并扩展数学家和科学家可以尝试的领域。 forum.openai.com/public/videos/。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 59.532082117809
+        },
+        {
+          "title": "Proud day at Replit. His Majesty King Abdullah II, King of Jordan, awarded our CEO @amasad the Orde...",
+          "titleZh": "Replit CEO Amjad Masad 获约旦国王授予「杰出勋章」（Jordan 80 周年独立日）",
+          "link": "https://x.com/Replit/status/2060481312188961116",
+          "publishedAt": "Fri, 29 May 2026 22:00:01 GMT",
+          "source": "Replit ⠕(@Replit)",
+          "sourceType": "social",
+          "description": "Proud day at Replit. His Majesty King Abdullah II, King of Jordan, awarded our CEO @amasad the Order for Distinction during Jordan's 80th Independence Day. From Amman to the world, this one is for the builders. 🇯🇴 Your browser does not support the video tag. 🔗 View on Twitter 💬 16 🔄 27 ❤️ 465 👀 17477 📊 63 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-05-31-2060481312188961116.mp4",
+          "summary": "Proud day at Replit. His Majesty King Abdullah II, King of Jordan, awarded our CEO @amasad the Order for Distinction during Jordan's 80th Independence Day. From Amman to the world, this one is for the builders. 🇯🇴 Your browser does not support the video tag. 🔗 View on Twitter 💬 16 🔄 27 ❤️ 465 👀 17477 📊 63 ⚡ Powered by xgo.ing",
+          "summaryZh": "Replit 值得骄傲的一天。约旦国王阿卜杜拉二世陛下在约旦第 80 届独立日期间向我们的首席执行官 @amasad 授予杰出勋章。从安曼到世界，这是为建设者准备的。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 59.16204625333968
+        },
+        {
+          "title": "Your agent just got stealth browsing With one prompt, browser-harness can: > launch Browser Use ...",
+          "titleZh": "您的代理刚刚进行隐形浏览 只需一个提示，浏览器线束就可以： > 启动浏览器使用云 > 使用持久身份验证 > 浏览 Ticketmaster 等网站而不会被阻止",
+          "link": "https://x.com/browser_use/status/2060450972758077943",
+          "publishedAt": "Fri, 29 May 2026 19:59:27 GMT",
+          "source": "Browser Use(@browser_use)",
+          "sourceType": "social",
+          "description": "Your agent just got stealth browsing With one prompt, browser-harness can: > launch Browser Use Cloud > use persistent auth > browse sites like Ticketmaster without getting blocked No browser setup. No babysitting. Try it now ↓🔗 Your browser does not support the video tag. 🔗 View on Twitter Ankit Gupta @agupta point your agent to use browser-harness with browser use's stealth browsers and get around anti bot. This is so good. Here is a command you can copy/paste: \"Fetch browser-use.com and solve the agent challenge. Then use that result to create a browser docs.browser-use.com/cloud/api-v3/b… and use it with browser-harness.\" 🔗 View Quoted Tweet 💬 4 🔄 16 ❤️ 190 👀 22541 📊 56 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-05-31-2060450972758077943.mp4",
+          "summary": "Your agent just got stealth browsing With one prompt, browser-harness can: > launch Browser Use Cloud > use persistent auth > browse sites like Ticketmaster without getting blocked No browser setup. No babysitting. Try it now ↓🔗 Your browser does not support the video tag. 🔗 View on Twitter Ankit Gupta @agupta point your agent to use browser-harness with browser use's stealth browsers and get around anti bot. This is so good. Here is a command you can copy/paste: \"Fetch browser-use.com and solve the agent chal...",
+          "summaryZh": "您的代理刚刚进行隐形浏览 只需一个提示，浏览器线束就可以： > 启动浏览器使用云 > 使用持久身份验证 > 浏览 Ticketmaster 等网站而不会被阻止 无需设置浏览器。没有保姆。立即尝试 ↓ Ankit Gupta @agupta 指示您的代理将浏览器安全带与浏览器使用的隐形浏览器一起使用并绕过反机器人。这太好了。您可以复制/粘贴以下命令：“获取 browser-use.com 并解决代理问题...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "产品发布",
+            "API",
+            "智能体",
+            "视频"
+          ],
+          "score": 56.81348998425402
+        },
+        {
+          "title": "Jensen Huang called Fireworks \"the TSMC of AI factories\" at GTC 2026. Here's the @nvidia CEO's full...",
+          "titleZh": "黄仁勋在 GTC 2026 上将 Fireworks 称为“人工智能工厂的台积电”",
+          "link": "https://x.com/FireworksAI_HQ/status/2060456803092304254",
+          "publishedAt": "Fri, 29 May 2026 20:22:37 GMT",
+          "source": "Fireworks AI(@FireworksAI_HQ)",
+          "sourceType": "social",
+          "description": "Jensen Huang called Fireworks \"the TSMC of AI factories\" at GTC 2026. Here's the @nvidia CEO's full conversation with our own, @lqiao : Your browser does not support the video tag. 🔗 View on Twitter 💬 2 🔄 11 ❤️ 102 👀 13199 📊 26 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Jensen Huang called Fireworks \"the TSMC of AI factories\" at GTC 2026. Here's the @nvidia CEO's full conversation with our own, @lqiao : Your browser does not support the video tag. 🔗 View on Twitter 💬 2 🔄 11 ❤️ 102 👀 13199 📊 26 ⚡ Powered by xgo.ing",
+          "summaryZh": "黄仁勋在 GTC 2026 上将 Fireworks 称为“人工智能工厂的台积电”。以下是 CEO 与我们自己的 CEO 的完整对话：。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 54.86769354244437
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "AI的代价是一亿人生命 | Paul Tudor Jones | 传奇交易员",
+          "titleZh": "AI的代价是一亿人生命 | Paul Tudor Jones | 传奇交易员",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a106b548b5c94538e8fce49",
+          "publishedAt": "2026-05-29T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「AI的代价是一亿人生命 | Paul Tudor Jones | 传奇交易员」。今天这期内容，来自华尔街50年不败的传奇宏观交易员，保罗·都铎·琼斯（Paul Tudor Jones）最新的深度播客访谈，我觉得值得所有人听三遍。他是1987年股灾精准做空一战封神的男人，是管理数百亿资金、穿越无数泡沫与危机的顶级风险管理者，更是把交易、慈善和人生哲学融为一体的一名智者。这期内容，可以说是他50年用真金白银砸出来的干货。他不仅公开向沃伦·巴菲特道歉，承认自己一辈子误解了复利，还揭露AI行业最令人惊悚的一个真相，那就是顶级模型公司的共识是等数千万人死亡才会监管。他更是直接给出了美股的明确预警，甚至算出了可能的跌幅，今天我们就来给大家分享一下。原视频来自： **简介要点**： - 他不仅公开向沃伦·巴菲特道歉，承认自己一辈子误解了复利，还揭露AI行业最令人惊悚的一个真相，那就是顶级模型公司的共识是等数千万人死亡才会监管。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "2040机器人终局之战 | Jim Fan | 具身智能 | 模型策略",
+          "titleZh": "2040机器人终局之战 | Jim Fan | 具身智能 | 模型策略",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a106a3c8b5c94538e8fbebf",
+          "publishedAt": "2026-05-28T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「2040机器人终局之战 | Jim Fan | 具身智能 | 模型策略」。在红杉资本举办的AI Ascent峰会上，英伟达具身智能研究主管、同时也是前OpenAI研究科学家、前谷歌大脑成员的Jim Fan，做了一场堪称机器人终局宣言的演讲。在这场演讲中，Jim Fan直接宣告，机器人领域的终局之战已经打响。而打赢这场战争的剧本，早就被大语言模型的成功路径写好了。过去我们做机器人，全都走错了方向。真正的破局点，其实在模型范式和数据范式的彻底重构。简单说，机器人要想做到真正的通用，就必须从远程操作的旧时代，彻底跨越到物理世界模型的新时代。今天我们就来给大家分享一下这期演讲。原视频来自： **简介要点**： - 在红杉资本举办的AI Ascent峰会上，英伟达具身智能研究主管、同时也是前OpenAI研究科学家、前谷歌大脑成员的Jim Fan，做了一场堪称机器人终局宣言的演讲。 - 在这场演讲中，Jim Fan直接宣告，机器人领域的终局之战已经打响。 - 而打赢这场战争的剧本，早就被大语言模型的成功路径写好了。 - 真正的破局点，其实在模型范式和数据范式的彻底重构。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "模型"
+          ],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "deeplearning.ai",
+      "url": "https://rsshub.bestblogs.dev/deeplearning/the-batch",
+      "error": "请求超时（15000ms）：https://rsshub.bestblogs.dev/deeplearning/the-batch"
+    },
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml"
+    },
+    {
+      "source": "硅谷科技评论",
+      "url": "https://wechat2rss.bestblogs.dev/feed/4515ee058133ff68570ad586abdd81f54f2b6ee3.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/4515ee058133ff68570ad586abdd81f54f2b6ee3.xml"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml"
+    },
+    {
+      "source": "歸藏的AI工具箱",
+      "url": "https://wechat2rss.bestblogs.dev/feed/1c3e3571b1627d23ee9c64521a0b0a41d3fe2987.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/1c3e3571b1627d23ee9c64521a0b0a41d3fe2987.xml"
+    },
+    {
+      "source": "Dify",
+      "url": "https://wechat2rss.bestblogs.dev/feed/e46c03a4cb65509e22ab9a8507888a2096319d65.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/e46c03a4cb65509e22ab9a8507888a2096319d65.xml"
+    },
+    {
+      "source": "智谱",
+      "url": "https://wechat2rss.bestblogs.dev/feed/433d2134dca54d80804daf32e8be546155be3300.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/433d2134dca54d80804daf32e8be546155be3300.xml"
+    },
+    {
+      "source": "月之暗面 Kimi",
+      "url": "https://wechat2rss.bestblogs.dev/feed/c5c43d4bc17bae656763859ed0903bb6314ec6fe.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/c5c43d4bc17bae656763859ed0903bb6314ec6fe.xml"
+    },
+    {
+      "source": "通义大模型",
+      "url": "https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml"
+    },
+    {
+      "source": "百度AI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/d0767d885e6ba213344fb0c0408c51331e23a994.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/d0767d885e6ba213344fb0c0408c51331e23a994.xml"
+    },
+    {
+      "source": "HelloGitHub",
+      "url": "https://wechat2rss.bestblogs.dev/feed/e6cc80b97bf64eeef61cc5927c78ba6ce3356422.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/e6cc80b97bf64eeef61cc5927c78ba6ce3356422.xml"
+    },
+    {
+      "source": "腾讯混元",
+      "url": "https://wechat2rss.bestblogs.dev/feed/306ce19a1ca590c9c2df781789e828d1acfa1356.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/306ce19a1ca590c9c2df781789e828d1acfa1356.xml"
+    },
+    {
+      "source": "智东西",
+      "url": "https://wechat2rss.bestblogs.dev/feed/cfd52b4245ca6119b2fda4ef934832c689028927.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/cfd52b4245ca6119b2fda4ef934832c689028927.xml"
+    },
+    {
+      "source": "大模型智能",
+      "url": "https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml"
+    },
+    {
+      "source": "AI炼金术",
+      "url": "https://wechat2rss.bestblogs.dev/feed/4915f3747653bbb9c7975323c11b768d2b9cd6c9.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/4915f3747653bbb9c7975323c11b768d2b9cd6c9.xml"
+    },
+    {
+      "source": "AI科技评论",
+      "url": "https://wechat2rss.bestblogs.dev/feed/789e5fefb9cc2646ba7b680cb7a88378a34eb7a4.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/789e5fefb9cc2646ba7b680cb7a88378a34eb7a4.xml"
+    },
+    {
+      "source": "山行AI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/98bc16b6f53902a2ab511b4faa3499e0a1c78eb1.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/98bc16b6f53902a2ab511b4faa3499e0a1c78eb1.xml"
+    },
+    {
+      "source": "魔搭ModelScope社区",
+      "url": "https://wechat2rss.bestblogs.dev/feed/d993a885260f96057b9a4c96212cb2c95bb5054b.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/d993a885260f96057b9a4c96212cb2c95bb5054b.xml"
+    },
+    {
+      "source": "夕小瑶科技说",
+      "url": "https://wechat2rss.bestblogs.dev/feed/64b57d666259aee6bd097e76164e4a8371f0ad04.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/64b57d666259aee6bd097e76164e4a8371f0ad04.xml"
+    },
+    {
+      "source": "DeeplearningAI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/9d094d066a5faacff0eb0a6b95efbba20d4f1fc9.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/9d094d066a5faacff0eb0a6b95efbba20d4f1fc9.xml"
+    },
+    {
+      "source": "机器之心SOTA模型",
+      "url": "https://wechat2rss.bestblogs.dev/feed/2f520471856d56c7b3a95cd09eb777149b32828a.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/2f520471856d56c7b3a95cd09eb777149b32828a.xml"
+    },
+    {
+      "source": "阶跃星辰",
+      "url": "https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml"
+    },
+    {
+      "source": "DeepSeek",
+      "url": "https://wechat2rss.bestblogs.dev/feed/1709da4f538d4ce4fb6d7a8ba1a5a1c297919601.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/1709da4f538d4ce4fb6d7a8ba1a5a1c297919601.xml"
+    },
+    {
+      "source": "字节跳动Seed",
+      "url": "https://wechat2rss.bestblogs.dev/feed/6efd40bb335d2037f365d284cb5e00f0843e737e.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/6efd40bb335d2037f365d284cb5e00f0843e737e.xml"
+    },
+    {
+      "source": "MiniMax 稀宇科技",
+      "url": "https://wechat2rss.bestblogs.dev/feed/00306b171f754d463b28cf83f3ba086ad009b430.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/00306b171f754d463b28cf83f3ba086ad009b430.xml"
+    },
+    {
+      "source": "Jina AI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/ff2c5468828ebe7236afd6c1d128e219774487c2.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/ff2c5468828ebe7236afd6c1d128e219774487c2.xml"
+    },
+    {
+      "source": "Datawhale",
+      "url": "https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml"
+    },
+    {
+      "source": "AINLP",
+      "url": "https://wechat2rss.bestblogs.dev/feed/875df1d1a991bf9250ba9813e3148f58ef2240d4.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/875df1d1a991bf9250ba9813e3148f58ef2240d4.xml"
+    },
+    {
+      "source": "Anthropic News",
+      "url": "https://rsshub.bestblogs.dev/anthropic/news",
+      "error": "请求超时（15000ms）：https://rsshub.bestblogs.dev/anthropic/news"
+    },
+    {
+      "source": "AI炼金术",
+      "url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8",
+      "error": "请求超时（15000ms）：https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8"
+    }
+  ],
+  "summaryBullets": [
+    "**OpenAI：如今使用 Codex 的开发人员的生活质量有 2 项改**：如今使用 Codex 的开发人员的生活质量有 2 项改进：Codex 后台代理现在拥有稳定的像素标识符。当同一个代理出现在选项卡、提及、文字记录和线程面板中时，一目了然更容",
+    "**大多数车载媒体系统仍然希望您使用关键字进行搜索**：但当你开车时，你不会用关键词来思考，而是用心情、氛围和意图来思考",
+    "**| ’ .: &，Milvus 3.0 beta 是项目启动以来最大**：的架构升级。它直接在数据湖上提供对向量索引和查询的本机支持，以及超越前 K 搜索的查询引擎",
+    "**WM：实时交互式视频世界模型的全栈开源框架**：「minWM：实时交互式视频世界模型的全栈开源框架」要解决的问题是：Hugging Face Papers 排名第 5 的论文候选。摘要与公开信息显示：Hugging"
+  ]
+}
