@@ -16,7 +16,7 @@
       "items": [
         {
           "title": "Try Grok models on @Cloudflare's AI Gateway!",
-          "titleZh": "在 的 AI Gateway 上尝试 G",
+          "titleZh": "Cloudflare AI Gateway 已接入 xAI Grok",
           "link": "https://x.com/xai/status/2062294202625696081",
           "publishedAt": "Wed, 03 Jun 2026 22:03:48 GMT",
           "source": "xAI(@xai)",
@@ -28,7 +28,7 @@
           "image": "",
           "video": "./media/2026-06-05-2062294202625696081.mp4",
           "summary": "Try Grok models on @Cloudflare 's AI Gateway! Cloudflare Developers @CloudflareDev We're partnering with @xai to bring Grok to @Cloudflare AI Gateway. • Grok LLMs, audio, image, and video models are now available through AI Gateway • Billed directly through Cloudflare • No additional auth, env, API keys needed 𝚎𝚗𝚟.𝙰𝙸.𝚛𝚞𝚗(\"𝚡𝚊𝚒/𝚐𝚛𝚘𝚔-𝚒𝚖𝚊𝚐𝚒𝚗𝚎-𝚟𝚒𝚍𝚎𝚘-𝟷.𝟻-𝚙𝚛𝚎𝚟𝚒𝚎𝚠\") Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 78 🔄 121 ❤️ 1005 👀 104210 📊 129 ⚡ Powered by xgo.ing",
-          "summaryZh": "在 的 AI Gateway 上尝试 Grok 模型！ Cloudflare 开发人员 我们正在与 合作，将 Grok 引入 AI Gateway。 • Grok LLM、音频、图像和视频模型现已通过 AI Gateway 提供 • 直接通过 Cloudflare 计费 • 无需额外的身份验证、环境、API 密钥 ..(\"/---.-\") 查看引用的推文。这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。",
+          "summaryZh": "**Cloudflare** 宣布把 **xAI Grok** 接入 **AI Gateway**，开发者现在可以通过同一个网关入口调用 **Grok LLM** 以及其 **音频、图像、视频模型**。计费直接走 Cloudflare，不需要再单独处理新的身份认证、环境变量或额外 API key，明显降低了多模型接入和运维复杂度。\n\n这条更新值得关注，因为它不只是“多上一个模型”，而是把 **Grok 多模态能力** 放进了很多企业已经在用的网关层。对需要做模型路由、限流、审计和统一计费的团队来说，接入成本会比直连新模型服务低很多。 ",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型",
@@ -41,7 +41,7 @@
         },
         {
           "title": "Introducing Flows Agent in ElevenCreative. Describe what you want to create and the agent builds y...",
-          "titleZh": "在 ElevenCreative 中引入",
+          "titleZh": "ElevenLabs 在 ElevenCreative 推出 Flows Agent",
           "link": "https://x.com/ElevenLabs/status/2062563982452408526",
           "publishedAt": "Thu, 04 Jun 2026 15:55:48 GMT",
           "source": "ElevenLabs(@elevenlabsio)",
@@ -53,7 +53,7 @@
           "image": "",
           "video": "./media/2026-06-05-2062563982452408526.mp4",
           "summary": "Introducing Flows Agent in ElevenCreative. Describe what you want to create and the agent builds your entire workflow - selecting models, creating nodes, wiring connections, and running the generations. Your browser does not support the video tag. 🔗 View on Twitter 💬 6 🔄 19 ❤️ 155 👀 10334 📊 39 ⚡ Powered by xgo.ing",
-          "summaryZh": "在 ElevenCreative 中引入 Flows Agent。描述您想要创建的内容，代理将构建您的整个工作流程 - 选择模型、创建节点、布线连接和运行生成。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "summaryZh": "**ElevenLabs** 在 **ElevenCreative** 里上线了 **Flows Agent**。用户只需要描述想做什么，这个代理就会自动帮你选择模型、创建节点、连接工作流并直接运行生成任务，把原本偏手工的创作编排流程进一步产品化。\n\n它值得关注的点在于，创意工作流工具正在从“提供模块”转向“直接代你搭好流程”。如果后续支持范围足够广，这类代理式编排会明显降低视频、音频或多模态内容团队的工作流门槛。 ",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型",
@@ -64,7 +64,7 @@
         },
         {
           "title": "Introducing @Shopify on Manus. Launch a store, manage your catalog, and run campaigns — all from o...",
-          "titleZh": "在 Manus 上介绍@Shopify。",
+          "titleZh": "Manus 接入 Shopify，一次聊天可完成开店与运营",
           "link": "https://x.com/ManusAI/status/2062551159030649103",
           "publishedAt": "Thu, 04 Jun 2026 15:04:51 GMT",
           "source": "ManusAI(@ManusAI_HQ)",
@@ -76,7 +76,7 @@
           "image": "",
           "video": "./media/2026-06-05-2062551159030649103.mp4",
           "summary": "Introducing @Shopify on Manus. Launch a store, manage your catalog, and run campaigns — all from one chat. Manus builds the storefront. Shopify handles checkout, payments, and fulfillment. Your browser does not support the video tag. 🔗 View on Twitter 💬 14 🔄 16 ❤️ 169 👀 13114 📊 43 ⚡ Powered by xgo.ing",
-          "summaryZh": "在 Manus 上介绍@Shopify。开设商店、管理目录并开展营销活动 — 全部通过一次聊天即可完成。马努斯建造店面。 Shopify 处理结帐、付款和履行。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "summaryZh": "**Manus** 宣布接入 **Shopify**，把开店、管理商品目录、发起营销活动等动作收进同一个聊天界面。产品描述里明确分工为：**Manus 负责生成店铺前台与操作流程，Shopify 继续负责结账、支付和履约**，也就是把对话式智能体直接接到了成熟电商基础设施上。\n\n这值得关注，因为它展示了 AI agent 不再只做客服或推荐，而是开始承担更完整的电商运营入口。后续可以重点看它支持哪些店铺配置、营销动作和权限边界。 ",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "产品发布",
@@ -86,7 +86,7 @@
         },
         {
           "title": "Today we're launching the Main Street AI Accelerator with the U.S. Small Business Administration. W...",
-          "titleZh": "今天，我们将与美国小企业管理局一起推出 Main Street AI Accelerator",
+          "titleZh": "Perplexity 联合美国小企业管理局推出 AI Accelerator",
           "link": "https://x.com/perplexity_ai/status/2062556000394379710",
           "publishedAt": "Thu, 04 Jun 2026 15:24:05 GMT",
           "source": "Perplexity(@perplexity_ai)",
@@ -98,7 +98,7 @@
           "image": "https://pbs.twimg.com/media/HJ-rv96b0AAXk0d.jpg",
           "video": "",
           "summary": "Today we're launching the Main Street AI Accelerator with the U.S. Small Business Administration. We're committing $25M in Computer credits, $250 each for up to 100,000 eligible companies, in honor of America's 250th anniversary. Learn more: main-street-ai-accelerator.pplx.app 💬 33 🔄 12 ❤️ 236 👀 22544 📊 56 ⚡ Powered by xgo.ing",
-          "summaryZh": "今天，我们将与美国小企业管理局一起推出 Main Street AI Accelerator。我们承诺为最多 100,000 家符合条件的公司提供 2500 万美元的计算机信贷，每家 250 美元，以纪念美国成立 250 周年。了解更多：main-street-ai-accelerator.pplx.app",
+          "summaryZh": "**Perplexity** 与 **美国小企业管理局（SBA）** 联合推出 **Main Street AI Accelerator**，计划提供总计 **2500 万美元** 的计算额度，面向 **最多 10 万家** 符合条件的企业发放，每家可获得 **250 美元**。这是一条很典型的“把 AI 产品直接推向中小企业普及”信号。\n\n它值得关注，不只是因为补贴规模，而是因为 AI 厂商正在通过政策合作和低门槛额度，把搜索/问答能力转化成更大规模的企业触达渠道。后续可以重点看 eligibility、使用限制和是否会把更多企业工作流接进来。 ",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "产品发布"
@@ -152,7 +152,7 @@
         },
         {
           "title": "More of the iOS app loop, now inside Codex. The Build iOS Apps plugin lets Codex view and test your...",
-          "titleZh": "OpenAI：更多 iOS 应用循环的内容，现在位于 Codex 中",
+          "titleZh": "Codex 新增 Build iOS Apps 插件",
           "link": "https://x.com/OpenAIDevs/status/2062599291479478275",
           "publishedAt": "Thu, 04 Jun 2026 18:16:06 GMT",
           "source": "OpenAI Developers(@OpenAIDevs)",
@@ -164,7 +164,7 @@
           "image": "",
           "video": "./media/2026-06-05-2062599291479478275.mp4",
           "summary": "More of the iOS app loop, now inside Codex. The Build iOS Apps plugin lets Codex view and test your iOS app in the in-app browser, open SwiftUI previews, and hot reload edits without leaving Codex. Your browser does not support the video tag. 🔗 View on Twitter 💬 15 🔄 7 ❤️ 141 👀 2449 📊 35 ⚡ Powered by xgo.ing",
-          "summaryZh": "更多 iOS 应用循环的内容，现在位于 Codex 中。构建 iOS 应用插件可让 Codex 在应用内浏览器中查看和测试您的 iOS 应用、打开 SwiftUI 预览以及热重载编辑，而无需离开 Codex。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "summaryZh": "**Codex** 新增 **Build iOS Apps** 插件，把 iOS 开发里的“写代码-看预览-跑测试-热更新”循环尽量收进同一个工作界面。官方给出的能力包括：在应用内浏览器查看和测试 iOS 应用、打开 **SwiftUI 预览**，以及在不离开 Codex 的情况下做 **hot reload**。\n\n这条更新的意义在于，Codex 开始把“写代码”继续向“带着运行态一起调试”延伸。对做 iOS 原型、UI 调整和快速迭代的团队来说，工作流切换成本会明显下降。 ",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "视频"
@@ -549,7 +549,7 @@
         },
         {
           "title": "P-Video-Replace from @PrunaAI is up on Replicate! This is the fastest model for character replaceme...",
-          "titleZh": "来自 @PrunaAI 的 P-Video-Replace 已在 Replicate 上上线！这是最快的角色替换模型",
+          "titleZh": "Replicate 上线 P-Video-Replace，主打低价高速角色替换",
           "link": "https://x.com/replicate/status/2062539790726181334",
           "publishedAt": "Thu, 04 Jun 2026 14:19:40 GMT",
           "source": "Replicate(@replicate)",
@@ -574,7 +574,7 @@
         },
         {
           "title": "Today we're shipping Nemotron 3 Ultra. A 550B MoE frontier-intelligence open model built for long-r...",
-          "titleZh": "今天我们将发货 Nemotron 3 Ultra",
+          "titleZh": "NVIDIA 正式发布 Nemotron 3 Ultra",
           "link": "https://x.com/NVIDIAAI/status/2062521325076299981",
           "publishedAt": "Thu, 04 Jun 2026 13:06:18 GMT",
           "source": "NVIDIA AI(@NVIDIAAI)",
@@ -598,7 +598,7 @@
         },
         {
           "title": "The chat is about to pop off. Today, we’re launching the first in-app Group Chat with an agent. Hav...",
-          "titleZh": "聊天即将结束。今天，我们将推出第一个与客服人员进行应用内的群聊",
+          "titleZh": "Pika 推出首个支持客服介入的应用内群聊",
           "link": "https://x.com/pika_labs/status/2062586258849980506",
           "publishedAt": "Thu, 04 Jun 2026 17:24:19 GMT",
           "source": "Pika(@pika_labs)",
@@ -711,7 +711,7 @@
         },
         {
           "title": "Anton Osika (@antonosika) is the co-founder and CEO of @lovable, where anyone can build software thr...",
-          "titleZh": "Claude：Anton Osika (@antonosika) 是 @lovable 的联合创始人兼",
+          "titleZh": "Claude 转发 Lovable CEO 关于 AI 产品信任壁垒的判断",
           "link": "https://x.com/claudeai/status/2062558332695556378",
           "publishedAt": "Thu, 04 Jun 2026 15:33:21 GMT",
           "source": "Claude(@claudeai)",
@@ -732,7 +732,7 @@
         },
         {
           "title": "Check out our Gemma 4 12B model: it's a super capable open weights model that can run directly on yo...",
-          "titleZh": "查看我们的 Gemma 4 12B 型号：它是一款功能强大的开放式重量型号，可以直接在您的笔记本电脑上运行",
+          "titleZh": "Jeff Dean 强调 Gemma 4 12B 可在笔记本本地运行",
           "link": "https://x.com/JeffDean/status/2062353800657342903",
           "publishedAt": "Thu, 04 Jun 2026 02:00:37 GMT",
           "source": "Jeff Dean(@JeffDean)",
