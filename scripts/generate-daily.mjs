@@ -1259,29 +1259,19 @@ async function translateToZh(text, { timeoutMs = 60000 } = {}) {
     return "";
   }
 
-  try {
-    const res = await fetch(url, {
-      signal: AbortSignal.timeout(timeoutMs),
-      headers: {
-        "user-agent": "ai-daily/0.1 (+https://github.com/Wan-Kai/ai-daily)"
-      }
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    const payload = await res.json();
-    const parts = (payload?.[0] || []).map((chunk) => chunk?.[0]).filter(Boolean);
-    return parts.join("").trim();
-  } catch (fetchError) {
-    const proxies = [
-      process.env.AI_DAILY_HTTPS_PROXY,
-      process.env.HTTPS_PROXY,
-      process.env.HTTP_PROXY,
-      process.env.ALL_PROXY,
-      "http://127.0.0.1:6789",
-      "socks5h://127.0.0.1:6789"
-    ].filter(Boolean).map((proxy) => String(proxy).replace(/^socks5:\/\//i, "socks5h://"));
-    const tried = [];
-    for (const proxy of [...new Set(proxies)]) {
-      tried.push(proxy);
+  const proxies = [
+    process.env.AI_DAILY_HTTPS_PROXY,
+    process.env.HTTPS_PROXY,
+    process.env.HTTP_PROXY,
+    process.env.ALL_PROXY,
+    "http://127.0.0.1:6789",
+    "socks5h://127.0.0.1:6789"
+  ].filter(Boolean).map((proxy) => String(proxy).replace(/^socks5:\/\//i, "socks5h://"));
+
+  const uniqueProxies = [...new Set(proxies)];
+  if (uniqueProxies.length > 0) {
+    const errors = [];
+    for (const proxy of uniqueProxies) {
       try {
         const { stdout } = await execFileAsync("curl", [
           "-L",
@@ -1298,11 +1288,26 @@ async function translateToZh(text, { timeoutMs = 60000 } = {}) {
         const payload = JSON.parse(stdout);
         const parts = (payload?.[0] || []).map((chunk) => chunk?.[0]).filter(Boolean);
         return parts.join("").trim();
-      } catch {
-        // keep trying
+      } catch (error) {
+        errors.push(`${proxy}: ${error.message}`);
       }
     }
-    throw new Error(`翻译请求失败且代理兜底也失败：${fetchError.message}; proxies=${tried.join(",")}`);
+    throw new Error(`翻译请求失败：代理兜底全部失败；${errors.join("; ")}`);
+  }
+
+  try {
+    const res = await fetch(url, {
+      signal: AbortSignal.timeout(timeoutMs),
+      headers: {
+        "user-agent": "ai-daily/0.1 (+https://github.com/Wan-Kai/ai-daily)"
+      }
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const payload = await res.json();
+    const parts = (payload?.[0] || []).map((chunk) => chunk?.[0]).filter(Boolean);
+    return parts.join("").trim();
+  } catch (fetchError) {
+    throw new Error(`翻译请求失败：${fetchError.message}`);
   }
 }
 

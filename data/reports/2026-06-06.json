@@ -4,10 +4,10 @@
   "title": "AI 日报 - 2026-06-06",
   "stats": {
     "sources": 134,
-    "fetched": 844,
+    "fetched": 833,
     "emailCandidates": 0,
     "selected": 35,
-    "failures": 2
+    "failures": 3
   },
   "sections": [
     {
@@ -15,42 +15,20 @@
       "title": "产品快讯",
       "items": [
         {
-          "title": "Today we’re launching another highly requested feature: Source Attribution! 🥳 No more guessing. No...",
-          "titleZh": "今天，我们推出了另一个备受期待的功能：来源归属",
-          "link": "https://x.com/NotebookLM/status/2062653124326863077",
-          "publishedAt": "Thu, 04 Jun 2026 21:50:01 GMT",
-          "source": "NotebookLM(@NotebookLM)",
-          "sourceType": "social",
-          "description": "Today we’re launching another highly requested feature: Source Attribution! 🥳 No more guessing. Now you can see the exact formula (prompts + sources) used to make each of your artifacts. Want to make an adjustment? Just tap \"Iterate\" and customize to your heart’s content 💖 Your browser does not support the video tag. 🔗 View on Twitter 💬 36 🔄 98 ❤️ 801 👀 33835 📊 161 ⚡ Powered by xgo.ing",
-          "section": "product_updates",
-          "channel": "social",
-          "trust": "official",
-          "image": "",
-          "video": "./media/2026-06-06-2062653124326863077.mp4",
-          "summary": "Today we’re launching another highly requested feature: Source Attribution! 🥳 No more guessing. Now you can see the exact formula (prompts + sources) used to make each of your artifacts. Want to make an adjustment? Just tap \"Iterate\" and customize to your heart’s content 💖 Your browser does not support the video tag. 🔗 View on Twitter 💬 36 🔄 98 ❤️ 801 👀 33835 📊 161 ⚡ Powered by xgo.ing",
-          "summaryZh": "今天，我们推出了另一个备受期待的功能：来源归属！ 不用再猜测了。现在您可以看到用于制作每个工件的确切公式（提示+来源）。想做出调整吗？只需点击“迭代”即可根据您的喜好进行定制。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "产品发布",
-            "视频"
-          ],
-          "score": 73.97023811083018
-        },
-        {
           "title": "Play our new open-weights music model, @GoogleMagenta RealTime 2, using a MIDI keyboard, live text p...",
           "titleZh": "使用 MIDI 键盘、实时文本播放我们新的开放权重音乐模型 @GoogleMagenta RealTime 2",
           "link": "https://x.com/googleaidevs/status/2062603374789263646",
           "publishedAt": "Thu, 04 Jun 2026 18:32:20 GMT",
           "source": "Google AI Developers(@googleaidevs)",
           "sourceType": "social",
-          "description": "Play our new open-weights music model, @GoogleMagenta RealTime 2, using a MIDI keyboard, live text prompts, and even hand gestures ✌️ x.com/GoogleMagenta/… Google Magenta Project @GoogleMagenta Introducing Magenta RealTime 2 (MRT2): the live music model you can play as an instrument. MRT2 offers MIDI and prompt controls, and runs natively on a MacBook with Open weights. Open source inference engine. Suite of apps and plugins. Hear what it can do and try it out for yourself below 🧵 Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 8 🔄 7 ❤️ 102 👀 11628 📊 18 ⚡ Powered by xgo.ing",
+          "description": "Play our new open-weights music model, @GoogleMagenta RealTime 2, using a MIDI keyboard, live text prompts, and even hand gestures ✌️ x.com/GoogleMagenta/… Google Magenta Project @GoogleMagenta Introducing Magenta RealTime 2 (MRT2): the live music model you can play as an instrument. MRT2 offers MIDI and prompt controls, and runs natively on a MacBook with Open weights. Open source inference engine. Suite of apps and plugins. Hear what it can do and try it out for yourself below 🧵 Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 10 🔄 7 ❤️ 108 👀 11944 📊 20 ⚡ Powered by xgo.ing",
           "section": "product_updates",
           "channel": "social",
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "Play our new open-weights music model, @GoogleMagenta RealTime 2, using a MIDI keyboard, live text prompts, and even hand gestures ✌️ x.com/GoogleMagenta/… Google Magenta Project @GoogleMagenta Introducing Magenta RealTime 2 (MRT2): the live music model you can play as an instrument. MRT2 offers MIDI and prompt controls, and runs natively on a MacBook with Open weights. Open source inference engine. Suite of apps and plugins. Hear what it can do and try it out for yourself below 🧵 Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 8 🔄 7 ❤️ 102 👀 11628 📊 18 ⚡ Powered by xgo.ing",
-          "summaryZh": "使用 MIDI 键盘、实时文本提示甚至手势来演奏我们新的开放权重音乐模型 RealTime 2 ✌ x.com/GoogleMagenta/… Google Magenta 项目 介绍 Magenta RealTime 2 (MRT2)：可以作为乐器演奏的现场音乐模型。 MRT2 提供 MIDI 和提示控制，并在具有开放权重的 MacBook 上本地运行。开源推理引擎。应用和插件套件。听听它能做什么，并在下面亲自尝试一下 查看引用的推文",
+          "summary": "Play our new open-weights music model, @GoogleMagenta RealTime 2, using a MIDI keyboard, live text prompts, and even hand gestures ✌️ x.com/GoogleMagenta/… Google Magenta Project @GoogleMagenta Introducing Magenta RealTime 2 (MRT2): the live music model you can play as an instrument. MRT2 offers MIDI and prompt controls, and runs natively on a MacBook with Open weights. Open source inference engine. Suite of apps and plugins. Hear what it can do and try it out for yourself below 🧵 Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 10 🔄 7 ❤️ 108 👀 11944 📊 20 ⚡ Powered by xgo.ing",
+          "summaryZh": "使用 MIDI 键盘、实时文本提示甚至手势来演奏我们新的开放权重音乐模型 RealTime 2 ✌ x.com/GoogleMagenta/… Google Magenta 项目 介绍 Magenta RealTime 2 (MRT2)：可以作为乐器演奏的现场音乐模型。 MRT2 提供 MIDI 和提示控制，并在具有开放权重的 MacBook 上本地运行。开源推理引擎。应用和插件套件。听听它的功能并亲自尝试一下，查看引用的推文",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型",
@@ -59,7 +37,29 @@
             "推理部署",
             "视频"
           ],
-          "score": 73.9100849380226
+          "score": 74.11305788203344
+        },
+        {
+          "title": "Today we’re launching another highly requested feature: Source Attribution! 🥳 No more guessing. No...",
+          "titleZh": "今天，我们推出了另一个备受期待的功能：来源归属",
+          "link": "https://x.com/NotebookLM/status/2062653124326863077",
+          "publishedAt": "Thu, 04 Jun 2026 21:50:01 GMT",
+          "source": "NotebookLM(@NotebookLM)",
+          "sourceType": "social",
+          "description": "Today we’re launching another highly requested feature: Source Attribution! 🥳 No more guessing. Now you can see the exact formula (prompts + sources) used to make each of your artifacts. Want to make an adjustment? Just tap \"Iterate\" and customize to your heart’s content 💖 Your browser does not support the video tag. 🔗 View on Twitter 💬 45 🔄 139 ❤️ 1152 👀 56979 📊 225 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-06-2062653124326863077.mp4",
+          "summary": "Today we’re launching another highly requested feature: Source Attribution! 🥳 No more guessing. Now you can see the exact formula (prompts + sources) used to make each of your artifacts. Want to make an adjustment? Just tap \"Iterate\" and customize to your heart’s content 💖 Your browser does not support the video tag. 🔗 View on Twitter 💬 45 🔄 139 ❤️ 1152 👀 56979 📊 225 ⚡ Powered by xgo.ing",
+          "summaryZh": "今天，我们推出了另一个备受期待的功能：来源归属！ 不用再猜测了。现在您可以看到用于制作每个工件的确切公式（提示+来源）。想做出调整吗？只需点击“迭代”即可根据您的喜好进行定制。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "视频"
+          ],
+          "score": 74
         },
         {
           "title": "Your Codex activity now has a home, and an easier way to share it. Codex profiles show your activit...",
@@ -68,13 +68,13 @@
           "publishedAt": "Thu, 04 Jun 2026 23:16:03 GMT",
           "source": "OpenAI Developers(@OpenAIDevs)",
           "sourceType": "social",
-          "description": "Your Codex activity now has a home, and an easier way to share it. Codex profiles show your activity graph, streaks, lifetime tokens, peak daily tokens, and top features like plugins and /fast mode. Private by default. Share a card when you want to. Your browser does not support the video tag. 🔗 View on Twitter 💬 147 🔄 143 ❤️ 2628 👀 229662 📊 479 ⚡ Powered by xgo.ing",
+          "description": "Your Codex activity now has a home, and an easier way to share it. Codex profiles show your activity graph, streaks, lifetime tokens, peak daily tokens, and top features like plugins and /fast mode. Private by default. Share a card when you want to. Your browser does not support the video tag. 🔗 View on Twitter 💬 153 🔄 158 ❤️ 2853 👀 267310 📊 517 ⚡ Powered by xgo.ing",
           "section": "product_updates",
           "channel": "social",
           "trust": "official",
           "image": "",
           "video": "./media/2026-06-06-2062674774644687268.mp4",
-          "summary": "Your Codex activity now has a home, and an easier way to share it. Codex profiles show your activity graph, streaks, lifetime tokens, peak daily tokens, and top features like plugins and /fast mode. Private by default. Share a card when you want to. Your browser does not support the video tag. 🔗 View on Twitter 💬 147 🔄 143 ❤️ 2628 👀 229662 📊 479 ⚡ Powered by xgo.ing",
+          "summary": "Your Codex activity now has a home, and an easier way to share it. Codex profiles show your activity graph, streaks, lifetime tokens, peak daily tokens, and top features like plugins and /fast mode. Private by default. Share a card when you want to. Your browser does not support the video tag. 🔗 View on Twitter 💬 153 🔄 158 ❤️ 2853 👀 267310 📊 517 ⚡ Powered by xgo.ing",
           "summaryZh": "您的 Codex 活动现在有了一个家，并且有了更简单的共享方式。 Codex 配置文件显示您的活动图、条纹、生命周期令牌、每日峰值令牌以及插件和/快速模式等顶级功能。默认为私有。当你愿意的时候分享一张卡片。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -89,42 +89,20 @@
           "publishedAt": "Thu, 04 Jun 2026 19:36:39 GMT",
           "source": "OpenAI Developers(@OpenAIDevs)",
           "sourceType": "social",
-          "description": "Moderation scores are now available in the Responses API and Completions API. Return moderation signals in the same request flow as generation, then decide how your app uses them for logging, routing, review, or blocking. developers.openai.com/api/docs/guide… 💬 46 🔄 17 ❤️ 333 👀 36926 📊 81 ⚡ Powered by xgo.ing",
+          "description": "Moderation scores are now available in the Responses API and Completions API. Return moderation signals in the same request flow as generation, then decide how your app uses them for logging, routing, review, or blocking. developers.openai.com/api/docs/guide… 💬 47 🔄 18 ❤️ 339 👀 38083 📊 83 ⚡ Powered by xgo.ing",
           "section": "product_updates",
           "channel": "social",
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "Moderation scores are now available in the Responses API and Completions API. Return moderation signals in the same request flow as generation, then decide how your app uses them for logging, routing, review, or blocking. developers.openai.com/api/docs/guide… 💬 46 🔄 17 ❤️ 333 👀 36926 📊 81 ⚡ Powered by xgo.ing",
+          "summary": "Moderation scores are now available in the Responses API and Completions API. Return moderation signals in the same request flow as generation, then decide how your app uses them for logging, routing, review, or blocking. developers.openai.com/api/docs/guide… 💬 47 🔄 18 ❤️ 339 👀 38083 📊 83 ⚡ Powered by xgo.ing",
           "summaryZh": "审核分数现已在 Responses API 和 Completions API 中提供。在与生成相同的请求流中返回审核信号，然后决定应用如何使用它们进行日志记录、路由、审查或阻止。 Developers.openai.com/api/docs/guide…",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "API",
             "开发者工具"
           ],
-          "score": 69.12864477499795
-        },
-        {
-          "title": "You can now launch production-ready Shopify storefronts without leaving v0. No setup needed, just i...",
-          "titleZh": "您现在可以启动生产就绪的 Shopify 店面，而无需离开 v0.1 版本",
-          "link": "https://x.com/v0/status/2062859311869497355",
-          "publishedAt": "Fri, 05 Jun 2026 11:29:20 GMT",
-          "source": "v0(@v0)",
-          "sourceType": "social",
-          "description": "You can now launch production-ready Shopify storefronts without leaving v0. No setup needed, just install the integration and start prompting. Shopify @Shopify three new places to spin up a Shopify store: @v0 @Replit @ManusAI build with your favorite. sell with Shopify. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 6 🔄 6 ❤️ 56 👀 36964 📊 13 ⚡ Powered by xgo.ing",
-          "section": "product_updates",
-          "channel": "social",
-          "trust": "official",
-          "image": "",
-          "video": "./media/2026-06-06-2062859311869497355.mp4",
-          "summary": "You can now launch production-ready Shopify storefronts without leaving v0. No setup needed, just install the integration and start prompting. Shopify @Shopify three new places to spin up a Shopify store: @v0 @Replit @ManusAI build with your favorite. sell with Shopify. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 6 🔄 6 ❤️ 56 👀 36964 📊 13 ⚡ Powered by xgo.ing",
-          "summaryZh": "您现在可以启动生产就绪的 Shopify 店面，而无需离开 v0.1 版本。无需设置，只需安装集成并开始提示即可。 Shopify 三个用于开设 Shopify 商店的新位置： 使用您最喜欢的构建。通过 Shopify 进行销售。 查看引用的推文",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "产品发布",
-            "视频"
-          ],
-          "score": 66.41047960853304
+          "score": 69.23577794217763
         },
         {
           "title": "Have you tried the new Replit Canvas? - Create beautiful UI designs with AI - Generate assets with ...",
@@ -133,13 +111,13 @@
           "publishedAt": "Fri, 05 Jun 2026 17:04:11 GMT",
           "source": "Replit ⠕(@Replit)",
           "sourceType": "social",
-          "description": "Have you tried the new Replit Canvas? - Create beautiful UI designs with AI - Generate assets with GPT-Image 2 & Seedance - Turn your designs into launch-ready apps in minutes Your browser does not support the video tag. 🔗 View on Twitter 💬 1 🔄 3 ❤️ 38 👀 2912 📊 7 ⚡ Powered by xgo.ing",
+          "description": "Have you tried the new Replit Canvas? - Create beautiful UI designs with AI - Generate assets with GPT-Image 2 & Seedance - Turn your designs into launch-ready apps in minutes Your browser does not support the video tag. 🔗 View on Twitter 💬 8 🔄 6 ❤️ 97 👀 7769 📊 24 ⚡ Powered by xgo.ing",
           "section": "product_updates",
           "channel": "social",
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "Have you tried the new Replit Canvas? - Create beautiful UI designs with AI - Generate assets with GPT-Image 2 & Seedance - Turn your designs into launch-ready apps in minutes Your browser does not support the video tag. 🔗 View on Twitter 💬 1 🔄 3 ❤️ 38 👀 2912 📊 7 ⚡ Powered by xgo.ing",
+          "summary": "Have you tried the new Replit Canvas? - Create beautiful UI designs with AI - Generate assets with GPT-Image 2 & Seedance - Turn your designs into launch-ready apps in minutes Your browser does not support the video tag. 🔗 View on Twitter 💬 8 🔄 6 ❤️ 97 👀 7769 📊 24 ⚡ Powered by xgo.ing",
           "summaryZh": "您尝试过新的 Replit Canvas 吗？ - 使用 AI 创建精美的 UI 设计 - 使用 GPT-Image 2 和 Seedance 生成资产 - 在几分钟内将您的设计转变为可立即发布的应用。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -147,7 +125,29 @@
             "视频",
             "图像"
           ],
-          "score": 65.0659191333674
+          "score": 68.4449744204392
+        },
+        {
+          "title": "You can now launch production-ready Shopify storefronts without leaving v0. No setup needed, just i...",
+          "titleZh": "您现在可以启动生产就绪的 Shopify 店面，而无需离开 v0.1 版本",
+          "link": "https://x.com/v0/status/2062859311869497355",
+          "publishedAt": "Fri, 05 Jun 2026 11:29:20 GMT",
+          "source": "v0(@v0)",
+          "sourceType": "social",
+          "description": "You can now launch production-ready Shopify storefronts without leaving v0. No setup needed, just install the integration and start prompting. Shopify @Shopify three new places to spin up a Shopify store: @v0 @Replit @ManusAI build with your favorite. sell with Shopify. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 7 🔄 10 ❤️ 86 👀 98162 📊 20 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-06-2062859311869497355.mp4",
+          "summary": "You can now launch production-ready Shopify storefronts without leaving v0. No setup needed, just install the integration and start prompting. Shopify @Shopify three new places to spin up a Shopify store: @v0 @Replit @ManusAI build with your favorite. sell with Shopify. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 7 🔄 10 ❤️ 86 👀 98162 📊 20 ⚡ Powered by xgo.ing",
+          "summaryZh": "您现在可以启动生产就绪的 Shopify 店面，而无需离开 v0.1 版本。无需设置，只需安装集成并开始提示即可。 Shopify 三个用于开设 Shopify 商店的新位置： 使用您最喜欢的构建。通过 Shopify 进行销售。 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "视频"
+          ],
+          "score": 68.23187410164516
         },
         {
           "title": "Design Mode is now available in canvases. Select and annotate UI elements directly in a canvas to g...",
@@ -177,13 +177,13 @@
           "publishedAt": "Thu, 04 Jun 2026 19:06:09 GMT",
           "source": "Cursor(@cursor_ai)",
           "sourceType": "social",
-          "description": "With canvases, Cursor can create apps like dashboards, reports, and internal tools. Now you can publish a canvas and share it with your team via URL. Your browser does not support the video tag. 🔗 View on Twitter 💬 88 🔄 92 ❤️ 1748 👀 132209 📊 325 ⚡ Powered by xgo.ing",
+          "description": "With canvases, Cursor can create apps like dashboards, reports, and internal tools. Now you can publish a canvas and share it with your team via URL. Your browser does not support the video tag. 🔗 View on Twitter 💬 93 🔄 94 ❤️ 1844 👀 140296 📊 343 ⚡ Powered by xgo.ing",
           "section": "product_updates",
           "channel": "social",
           "trust": "official",
           "image": "",
           "video": "./media/2026-06-06-2062611883249783083.mp4",
-          "summary": "With canvases, Cursor can create apps like dashboards, reports, and internal tools. Now you can publish a canvas and share it with your team via URL. Your browser does not support the video tag. 🔗 View on Twitter 💬 88 🔄 92 ❤️ 1748 👀 132209 📊 325 ⚡ Powered by xgo.ing",
+          "summary": "With canvases, Cursor can create apps like dashboards, reports, and internal tools. Now you can publish a canvas and share it with your team via URL. Your browser does not support the video tag. 🔗 View on Twitter 💬 93 🔄 94 ❤️ 1844 👀 140296 📊 343 ⚡ Powered by xgo.ing",
           "summaryZh": "通过画布，Cursor 可以创建仪表板、报告和内部工具等应用。现在您可以发布画布并通过 URL 与您的团队共享。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -325,14 +325,14 @@
           "publishedAt": "Fri, 05 Jun 2026 06:44:49 GMT",
           "source": "Latent Space",
           "sourceType": "research",
-          "description": "AINews: Weekday Roundups [AINews] not much happened today a quiet day Jun 05, 2026 46 Share Anthropic is seeing Sparks of RSI , OpenAI’s ChatGPT has finally crossed 1B MAU ~5 months behind schedule and improved memory , and SpaceXAI is explaining its IPO to people who might not know they will be forced into buying it . None of which are as important as getting your AIEWF tickets and hotels and tuning in to the latest pod with Andon Labs ! Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs Jun",
+          "description": "AINews: Weekday Roundups [AINews] not much happened today a quiet day Jun 05, 2026 49 Share Anthropic is seeing Sparks of RSI , OpenAI’s ChatGPT has finally crossed 1B MAU ~5 months behind schedule and improved memory , and SpaceXAI is explaining its IPO to people who might not know they will be forced into buying it . None of which are as important as getting your AIEWF tickets and hotels and tuning in to the latest pod with Andon Labs ! Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs Jun",
           "section": "research_frontier",
           "channel": "research_blog",
           "trust": "expert",
           "image": "https://substackcdn.com/image/fetch/$s_!2Y6l!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fswyx.substack.com%2Ftwitter%2Fsubscribe-card.jpg%3Fv%3D-602510947%26version%3D9",
           "video": "",
-          "summary": "AINews: Weekday Roundups [AINews] not much happened today a quiet day Jun 05, 2026 46 Share Anthropic is seeing Sparks of RSI , OpenAI’s ChatGPT has finally crossed 1B MAU ~5 months behind schedule and improved memory , and SpaceXAI is explaining its IPO to people who might not know they will be forced into buying it . None of which are as important as getting your AIEWF tickets and hotels and tuning in to the latest pod with Andon Labs ! Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs Jun",
-          "summaryZh": "**核心要点** AINews：平日综述 [AINews] 今天没有发生太多事情，安静的一天 2026 年 6 月 5 日 46 Share Anthropic 看到了 RSI 的火花，OpenAI 的 ChatGPT 终于超过了 1B MAU 比计划晚了约 5 个月，并且内存有所改善，SpaceXAI 正在向那些可能不知道自己将被迫购买它的人解释其 IPO。这些都比获得 AIEWF 门票和酒店以及收听 Andon Labs 的最新播客更重要！现实：最终评估 — Andon Labs Jun 的 Lukas Petersson 和 Axel Backlund",
+          "summary": "AINews: Weekday Roundups [AINews] not much happened today a quiet day Jun 05, 2026 49 Share Anthropic is seeing Sparks of RSI , OpenAI’s ChatGPT has finally crossed 1B MAU ~5 months behind schedule and improved memory , and SpaceXAI is explaining its IPO to people who might not know they will be forced into buying it . None of which are as important as getting your AIEWF tickets and hotels and tuning in to the latest pod with Andon Labs ! Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs Jun",
+          "summaryZh": "**核心要点** AINews：工作日综述 [AINews] 今天没有发生太多事情，安静的一天 2026 年 6 月 5 日 49 Share Anthropic 看到了 RSI 的火花，OpenAI 的 ChatGPT 终于超过了 1B MAU 比计划晚了约 5 个月，并且内存有所改善，SpaceXAI 正在向那些可能不知道自己将被迫购买它的人解释其 IPO。这些都比获得 AIEWF 门票和酒店以及收听 Andon Labs 的最新播客更重要！现实：最终评估 — Andon Labs Jun 的 Lukas Petersson 和 Axel Backlund",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [],
           "score": 24
@@ -383,19 +383,19 @@
       "items": [
         {
           "title": "ollama run gemma4:12b Gemma 4 12B is updated on Ollama, and available across all platforms! Try i...",
-          "titleZh": "Ollama 上线 Gemma 4 12B：全平台可用，并开放 Claude Code、Codex 等本地调用",
+          "titleZh": "Ollama 上线 Gemma 4 12B：全平台可用，可直接在本地接入 Claude Code、Codex 等工具",
           "link": "https://x.com/ollama/status/2062679473443725736",
           "publishedAt": "Thu, 04 Jun 2026 23:34:43 GMT",
           "source": "ollama(@ollama)",
           "sourceType": "social",
-          "description": "ollama run gemma4:12b Gemma 4 12B is updated on Ollama, and available across all platforms! Try it on: Claude Code ollama launch claude --model gemma4:12b Hermes Agent ollama launch hermes --model gemma4:12b OpenClaw ollama launch openclaw --model gemma4:12b Codex ollama launch codex --model gemma4:12b Codex App ollama launch codex-app --model gemma4:12b Let's go @googlegemma & @GoogleDeepMind ! Google Gemma @googlegemma Meet Gemma 4 12B! A unified, encoder-free multimodal model designed to bring high-performance intelligence directly to your laptop, and released under an Apache 2.0 license. Bridging the gap between edge efficiency and advanced reasoning. Here is what’s new with Gemma 4 12B: 👇 🔗 View Quoted Tweet 💬 44 🔄 97 ❤️ 1035 👀 63006 📊 163 ⚡ Powered by xgo.ing",
+          "description": "ollama run gemma4:12b Gemma 4 12B is updated on Ollama, and available across all platforms! Try it on: Claude Code ollama launch claude --model gemma4:12b Hermes Agent ollama launch hermes --model gemma4:12b OpenClaw ollama launch openclaw --model gemma4:12b Codex ollama launch codex --model gemma4:12b Codex App ollama launch codex-app --model gemma4:12b Let's go @googlegemma & @GoogleDeepMind ! Google Gemma @googlegemma Meet Gemma 4 12B! A unified, encoder-free multimodal model designed to bring high-performance intelligence directly to your laptop, and released under an Apache 2.0 license. Bridging the gap between edge efficiency and advanced reasoning. Here is what’s new with Gemma 4 12B: 👇 🔗 View Quoted Tweet 💬 50 🔄 109 ❤️ 1111 👀 67176 📊 178 ⚡ Powered by xgo.ing",
           "section": "open_source_top",
           "channel": "social",
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HJ5oo_8bcAA9D-A.jpg",
           "video": "",
-          "summary": "ollama run gemma4:12b Gemma 4 12B is updated on Ollama, and available across all platforms! Try it on: Claude Code ollama launch claude --model gemma4:12b Hermes Agent ollama launch hermes --model gemma4:12b OpenClaw ollama launch openclaw --model gemma4:12b Codex ollama launch codex --model gemma4:12b Codex App ollama launch codex-app --model gemma4:12b Let's go @googlegemma & @GoogleDeepMind ! Google Gemma @googlegemma Meet Gemma 4 12B! A unified, encoder-free multimodal model designed to bring high-performance intelligence directly to your laptop, and released under an Apache 2.0 license. Bridging the gap between edge efficiency and advanced reasoning. Here is what’s new with Gemma 4 12B: 👇 🔗 View Quoted Tweet 💬 44 🔄 97 ❤️ 1035 👀 63006 📊 163 ⚡ Powered by xgo.ing",
-          "summaryZh": "**核心要点** **Ollama** 宣布 **Gemma 4 12B** 已在平台上更新，并且可在 **所有支持的平台** 上直接运行。官方同时给出了多种接入方式，包括 **Claude Code**、**Hermes Agent**、**OpenClaw**、**Codex** 和 **Codex App**，说明它已经被纳入主流本地 AI 编码/代理工作流。**展开说明** Google 将 **Gemma 4 12B** 定位为一款 **统一的、无 encoder 的多模态模型**，强调能把较强的多模态理解与推理能力直接带到笔记本端侧，并以 **Apache 2.0** 许可证发布。对开发者来说，值得关注的不只是模型本身更新，还包括它已经能被现成的本地工具链直接调用，这会明显降低试用和集成门槛。",
+          "summary": "ollama run gemma4:12b Gemma 4 12B is updated on Ollama, and available across all platforms! Try it on: Claude Code ollama launch claude --model gemma4:12b Hermes Agent ollama launch hermes --model gemma4:12b OpenClaw ollama launch openclaw --model gemma4:12b Codex ollama launch codex --model gemma4:12b Codex App ollama launch codex-app --model gemma4:12b Let's go @googlegemma & @GoogleDeepMind ! Google Gemma @googlegemma Meet Gemma 4 12B! A unified, encoder-free multimodal model designed to bring high-performance intelligence directly to your laptop, and released under an Apache 2.0 license. Bridging the gap between edge efficiency and advanced reasoning. Here is what’s new with Gemma 4 12B: 👇 🔗 View Quoted Tweet 💬 50 🔄 109 ❤️ 1111 👀 67176 📊 178 ⚡ Powered by xgo.ing",
+          "summaryZh": "**Gemma 4 12B** 已在 **Ollama** 上更新并开放给所有平台使用，开发者现在可以直接通过 `ollama run gemma4:12b` 本地启动，也能在 **Claude Code、Hermes Agent、OpenClaw、Codex、Codex App** 这些工作流里切换到同一模型。原始介绍强调它是一个 **统一的无编码器多模态模型**，目标是在笔记本本地提供更强的推理与多模态能力，同时采用 **Apache 2.0** 许可证发布。对本地 AI 开发来说，这条更新的价值在于它把一款较新的 **Gemma 4 12B** 直接带进现成工具链，评估门槛明显降低，也更方便比较离线运行时的性能、显存占用和代理编排效果。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "产品发布",
@@ -413,7 +413,7 @@
           "publishedAt": "Fri, 05 Jun 2026 15:01:00 GMT",
           "source": "Milvus(@milvusio)",
           "sourceType": "social",
-          "description": "𝗪𝗲𝗯𝗶𝗻𝗮𝗿 𝗥𝗲𝗺𝗶𝗻𝗱𝗲𝗿 | 𝗪𝗵𝗮𝘁’𝘀 𝗡𝗲𝘄 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬: 𝗟𝗶𝘃𝗲 𝗪𝗮𝗹𝗸𝘁𝗵𝗿𝗼𝘂𝗴𝗵 & 𝗔𝗠𝗔, 𝗵𝗮𝗽𝗽𝗲𝗻𝗶𝗻𝗴 𝗻𝗲𝘅𝘁 𝗠𝗼𝗻𝗱𝗮𝘆 Milvus 3.0 marks one of the most important architectural updates since the project began. If you’re using Milvus to build RAG, multimodal search, recommendation systems, and AI agent memory, or if you’re dealing with data silos, top-K limits, schema evolution, and hybrid search pipelines, this webinar is for you. Core Milvus maintainers Li Liu and Jiang Chen will walk you through the key design decisions behind Milvus 3.0 and why they matter for your stack. We’ll also set aside 15–20 minutes for an AMA, so you can ask your questions directly. Can’t join live? Register now and we’ll send you the recording and demo after the session. Milvus @milvusio 🌐 𝗪𝗲𝗯𝗶𝗻𝗮𝗿 | 𝗪𝗵𝗮𝘁’𝘀 𝗡𝗲𝘄 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬: 𝗟𝗶𝘃𝗲 𝗪𝗮𝗹𝗸𝘁𝗵𝗿𝗼𝘂𝗴𝗵 & 𝗔𝗠𝗔, 𝗝𝘂𝗻𝗲 𝟴 𝗼𝗻𝗹𝗶𝗻𝗲 Milvus 3.0 beta is the biggest architectural upgrade since the project began. It brings native support for indexing and querying vectors directly on your data lake, along with a query engine that goes beyond top-K search. In this live session, core maintainers Li Liu and Jiang Chen will walk through what shipped, the design choices behind it, and how Milvus 3.0 powers 𝗭𝗶𝗹𝗹𝗶𝘇 𝗩𝗲𝗰𝘁𝗼𝗿 𝗟𝗮𝗸𝗲𝗯𝗮𝘀𝗲. 🎤 𝗧𝗼𝗽𝗶𝗰𝘀 • What changed in Milvus 3.0 beta • Why data lake-native vector search matters • What’s in beta now and what’s coming in GA • How Milvus 3.0 powers Zilliz Vector Lakebase • 15–20 zilliz.com/event/whats-ne… maintainers 📅 𝗝𝘂𝗻𝗲 𝟴, 𝟮𝟬𝟮𝟲, 𝟰:𝟬𝟬 𝗽𝗺 𝗣𝗗𝗧 🔗 Register here: https://t.co/ccpclyAQa8 Bring your questions about migration, performance, arc #Milvus r #VectorDatabase e #Zilliz ’d like to ask the maintainers. Looking forward to the conversation! #Milvus #VectorDatabase #Zilliz 🔗 View Quoted Tweet 💬 0 🔄 0 ❤️ 0 👀 82 ⚡ Powered by xgo.ing",
+          "description": "𝗪𝗲𝗯𝗶𝗻𝗮𝗿 𝗥𝗲𝗺𝗶𝗻𝗱𝗲𝗿 | 𝗪𝗵𝗮𝘁’𝘀 𝗡𝗲𝘄 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬: 𝗟𝗶𝘃𝗲 𝗪𝗮𝗹𝗸𝘁𝗵𝗿𝗼𝘂𝗴𝗵 & 𝗔𝗠𝗔, 𝗵𝗮𝗽𝗽𝗲𝗻𝗶𝗻𝗴 𝗻𝗲𝘅𝘁 𝗠𝗼𝗻𝗱𝗮𝘆 Milvus 3.0 marks one of the most important architectural updates since the project began. If you’re using Milvus to build RAG, multimodal search, recommendation systems, and AI agent memory, or if you’re dealing with data silos, top-K limits, schema evolution, and hybrid search pipelines, this webinar is for you. Core Milvus maintainers Li Liu and Jiang Chen will walk you through the key design decisions behind Milvus 3.0 and why they matter for your stack. We’ll also set aside 15–20 minutes for an AMA, so you can ask your questions directly. Can’t join live? Register now and we’ll send you the recording and demo after the session. Milvus @milvusio 🌐 𝗪𝗲𝗯𝗶𝗻𝗮𝗿 | 𝗪𝗵𝗮𝘁’𝘀 𝗡𝗲𝘄 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬: 𝗟𝗶𝘃𝗲 𝗪𝗮𝗹𝗸𝘁𝗵𝗿𝗼𝘂𝗴𝗵 & 𝗔𝗠𝗔, 𝗝𝘂𝗻𝗲 𝟴 𝗼𝗻𝗹𝗶𝗻𝗲 Milvus 3.0 beta is the biggest architectural upgrade since the project began. It brings native support for indexing and querying vectors directly on your data lake, along with a query engine that goes beyond top-K search. In this live session, core maintainers Li Liu and Jiang Chen will walk through what shipped, the design choices behind it, and how Milvus 3.0 powers 𝗭𝗶𝗹𝗹𝗶𝘇 𝗩𝗲𝗰𝘁𝗼𝗿 𝗟𝗮𝗸𝗲𝗯𝗮𝘀𝗲. 🎤 𝗧𝗼𝗽𝗶𝗰𝘀 • What changed in Milvus 3.0 beta • Why data lake-native vector search matters • What’s in beta now and what’s coming in GA • How Milvus 3.0 powers Zilliz Vector Lakebase • 15–20 zilliz.com/event/whats-ne… maintainers 📅 𝗝𝘂𝗻𝗲 𝟴, 𝟮𝟬𝟮𝟲, 𝟰:𝟬𝟬 𝗽𝗺 𝗣𝗗𝗧 🔗 Register here: https://t.co/ccpclyAQa8 Bring your questions about migration, performance, arc #Milvus r #VectorDatabase e #Zilliz ’d like to ask the maintainers. Looking forward to the conversation! #Milvus #VectorDatabase #Zilliz 🔗 View Quoted Tweet 💬 0 🔄 0 ❤️ 0 👀 106 ⚡ Powered by xgo.ing",
           "section": "open_source_top",
           "channel": "social",
           "trust": "official",
@@ -427,7 +427,7 @@
             "多模态",
             "RAG"
           ],
-          "score": 46.87861713856411
+          "score": 47.04407566652782
         },
         {
           "title": "Fast retrieval is table stakes. Retrieval that respects who's asking, what they're allowed to see, a...",
@@ -436,23 +436,46 @@
           "publishedAt": "Fri, 05 Jun 2026 15:00:02 GMT",
           "source": "Qdrant(@qdrant_engine)",
           "sourceType": "social",
-          "description": "Fast retrieval is table stakes. Retrieval that respects who's asking, what they're allowed to see, and what policies apply is a much harder problem. Murthy Chandrapaty and Ankush Gumber from @Adobe are coming to Vector Space Day to show a concrete architecture that solves it: Qdrant's vector search combined with a @neo4j graph governance layer, so agents retrieve fast and stay policy-compliant. They'll demo it live, showing how the same query returns different results for different users based on governance, not just relevance. If you're building enterprise AI, this is the architecture talk you've been waiting for. Get your ticket at luma.com/vsd-sf 💬 4 🔄 1 ❤️ 4 👀 130 📊 5 ⚡ Powered by xgo.ing",
+          "description": "Fast retrieval is table stakes. Retrieval that respects who's asking, what they're allowed to see, and what policies apply is a much harder problem. Murthy Chandrapaty and Ankush Gumber from @Adobe are coming to Vector Space Day to show a concrete architecture that solves it: Qdrant's vector search combined with a @neo4j graph governance layer, so agents retrieve fast and stay policy-compliant. They'll demo it live, showing how the same query returns different results for different users based on governance, not just relevance. If you're building enterprise AI, this is the architecture talk you've been waiting for. Get your ticket at luma.com/vsd-sf 💬 4 🔄 1 ❤️ 4 👀 182 📊 5 ⚡ Powered by xgo.ing",
           "section": "open_source_top",
           "channel": "social",
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HJk_R-SbgAAeoKQ.jpg",
           "video": "",
-          "summary": "Fast retrieval is table stakes. Retrieval that respects who's asking, what they're allowed to see, and what policies apply is a much harder problem. Murthy Chandrapaty and Ankush Gumber from @Adobe are coming to Vector Space Day to show a concrete architecture that solves it: Qdrant's vector search combined with a @neo4j graph governance layer, so agents retrieve fast and stay policy-compliant. They'll demo it live, showing how the same query returns different results for different users based on governance, not just relevance. If you're building enterprise AI, this is the architecture talk you've been waiting for. Get your ticket at luma.com/vsd-sf 💬 4 🔄 1 ❤️ 4 👀 130 📊 5 ⚡ Powered by xgo.ing",
+          "summary": "Fast retrieval is table stakes. Retrieval that respects who's asking, what they're allowed to see, and what policies apply is a much harder problem. Murthy Chandrapaty and Ankush Gumber from @Adobe are coming to Vector Space Day to show a concrete architecture that solves it: Qdrant's vector search combined with a @neo4j graph governance layer, so agents retrieve fast and stay policy-compliant. They'll demo it live, showing how the same query returns different results for different users based on governance, not just relevance. If you're building enterprise AI, this is the architecture talk you've been waiting for. Get your ticket at luma.com/vsd-sf 💬 4 🔄 1 ❤️ 4 👀 182 📊 5 ⚡ Powered by xgo.ing",
           "summaryZh": "快速检索是赌注。尊重谁在询问、他们可以看到什么以及适用什么政策的检索是一个更困难的问题。来自 @Adobe 的 Murthy Chandrapaty 和 Ankush Gumber 将在向量空间日展示解决该问题的具体架构：Qdrant 的向量搜索与 @neo4j 图形治理层相结合，因此代理可以快速检索并保持策略合规。他们将现场演示，展示相同的查询如何根据治理（而不仅仅是相关性）为不同的用户返回不同的结果。如果您正在构建企业人工智能，那么这就是您一直在等待的架构演讲。请访问 luma.com/vsd-sf 获取门票",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "智能体"
           ],
-          "score": 46.2728169564917
+          "score": 46.4905866476037
+        },
+        {
+          "title": "𝗬𝗼𝘂 𝗰𝗮𝗻 𝗿𝘂𝗻 𝟮𝟱 𝗺𝗶𝗹𝗹𝗶𝗼𝗻 𝘃𝗲𝗰𝘁𝗼𝗿𝘀 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝘂𝘀𝗶𝗻𝗴 𝘂𝗻𝗱𝗲𝗿 ...",
+          "titleZh": "某用户有 25M 个图像向量，每个图像向量有 1280 个维度",
+          "link": "https://x.com/milvusio/status/2062957121457856541",
+          "publishedAt": "Fri, 05 Jun 2026 17:58:00 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "description": "𝗬𝗼𝘂 𝗰𝗮𝗻 𝗿𝘂𝗻 𝟮𝟱 𝗺𝗶𝗹𝗹𝗶𝗼𝗻 𝘃𝗲𝗰𝘁𝗼𝗿𝘀 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝘂𝘀𝗶𝗻𝗴 𝘂𝗻𝗱𝗲𝗿 𝟭𝗚𝗕 𝗼𝗳 𝗺𝗲𝗺𝗼𝗿𝘆. A user had 25M image vectors, each with 1280 dimensions, and only 32GB of memory available for Milvus on a single machine. The default FP32 sizing estimate was 139GB. They first tried more advanced indexes, but neither worked out: • 𝗔𝗜𝗦𝗔𝗤 looked right for constrained hardware, but the build path was too heavy for the machine. • 𝗜𝗩𝗙_𝗙𝗟𝗔𝗧 built successfully, but the collection load hung at 14% and never finished. After working with our developers, the user switched to 𝗙𝗟𝗔𝗧, the simplest index in Milvus. FLAT avoided extra ANN structures and build/load complexity, while Milvus provided the pieces that made the setup practical: • 𝗙𝗣𝟭𝟲 storage cut each vector dimension from 4 bytes to 2 bytes, reducing raw vector data by half. • 𝗺𝗺𝗮𝗽 let Milvus access raw vector data through memory-mapped files instead of loading it all into process memory. • 𝗦𝗰𝗮𝗹𝗮𝗿 𝗳𝗶𝗹𝘁𝗲𝗿𝗶𝗻𝗴 narrowed each query first using fields like dataid and classid, so Milvus compared only a few thousand vectors instead of 25 million. 𝗧𝗵𝗲 𝗿𝗲𝘀𝘂𝗹𝘁: 𝗮𝗿𝗼𝘂𝗻𝗱 𝟲𝟬𝟬𝗠𝗕 𝗼𝗳 𝗿𝗲𝘀𝗶𝗱𝗲𝗻𝘁 𝗺𝗲𝗺𝗼𝗿𝘆 𝗮𝗻𝗱 𝘄𝗮𝗿𝗺 𝗾𝘂𝗲𝗿𝗶𝗲𝘀 𝘂𝗻𝗱𝗲𝗿 𝟭𝟬𝟬𝗺𝘀. When the real search space is much smaller than the full co milvus.io/blog/25-millio… enant RAG, labeled image search, or e-commerce search, FLAT + FP16 + mmap can be a practical option. Full breakdown in the blog: https://t.co/1aBXgMhf2l 💬 0 🔄 0 ❤️ 1 👀 108 📊 1 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKCq0EhbYAAGwZk.jpg",
+          "video": "",
+          "summary": "𝗬𝗼𝘂 𝗰𝗮𝗻 𝗿𝘂𝗻 𝟮𝟱 𝗺𝗶𝗹𝗹𝗶𝗼𝗻 𝘃𝗲𝗰𝘁𝗼𝗿𝘀 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝘂𝘀𝗶𝗻𝗴 𝘂𝗻𝗱𝗲𝗿 𝟭𝗚𝗕 𝗼𝗳 𝗺𝗲𝗺𝗼𝗿𝘆. A user had 25M image vectors, each with 1280 dimensions, and only 32GB of memory available for Milvus on a single machine. The default FP32 sizing estimate was 139GB. They first tried more advanced indexes, but neither worked out: • 𝗔𝗜𝗦𝗔𝗤 looked right for constrained hardware, but the build path was too heavy for the machine. • 𝗜𝗩𝗙_𝗙𝗟𝗔𝗧 built successfully, but the collection load hung at 14% and never finished. After working with our developers, the user switched to 𝗙𝗟𝗔𝗧, the simplest index in Milvus. FLAT avoided extra ANN structures and build/load complexity, while Milvus provided the pieces that made the setup practical: • 𝗙𝗣𝟭𝟲 storage cut each vector dimension from 4 bytes to 2 bytes, reducing raw vector data by half. • 𝗺𝗺𝗮𝗽 let Milvus a...",
+          "summaryZh": "。某用户有 25M 个图像向量，每个图像向量有 1280 个维度，单机上 Milvus 的可用内存只有 32GB。默认 FP32 大小估计为 139GB。他们首先尝试了更高级的索引，但都没有成功： • 看起来适合受限硬件，但构建路径对于机器来说太繁重。 • _ 构建成功，但收集负载挂在 14% 且从未完成。在与我们的开发人员合作后，用户切换到了 Milvus 中最简单的索引。 FLAT 避免了额外的 ANN 结构和构建/加载复杂性，而 Milvus 提供了使设置实用的部分： • 存储将每个向量维度从 4 字节减少到 2 字节，将原始向量数据减少一半。 • 让 Milvus...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开发者工具",
+            "RAG",
+            "图像"
+          ],
+          "score": 46.26025972956686
         },
         {
           "title": "Panniantong/Agent-Reach",
-          "titleZh": "Panniantong/Agent-Reach：一个可读写多平台内容的 AI Agent CLI",
+          "titleZh": "Panniantong/Agent-Reach：一个让 AI 代理跨平台读写与搜索互联网的 CLI",
           "link": "https://github.com/Panniantong/Agent-Reach",
           "publishedAt": "2026-06-05T18:30:00.000Z",
           "source": "GitHub Trending Daily",
@@ -461,7 +484,7 @@
           "section": "open_source_top",
           "channel": "open_source_rank",
           "trust": "rank",
-          "image": "https://opengraph.githubassets.com/bde8260028666eac58750987473e0be5b905162c2cc651249344bdc3a524934f/Panniantong/Agent-Reach",
+          "image": "https://opengraph.githubassets.com/f1f881066df9e3723796ee89bb209cec0dca21abf7defdd4ffdcad8a31e3be0a/Panniantong/Agent-Reach",
           "video": "",
           "summary": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
           "summaryZh": "让您的人工智能代理有一双能够看到整个互联网的眼睛。阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书 — 一个 CLI，零 API 费用。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
@@ -494,27 +517,6 @@
             "开发者工具"
           ],
           "score": 32
-        },
-        {
-          "title": "CopilotKit/CopilotKit",
-          "titleZh": "CopilotKit/CopilotKit：CopilotKit 文档 · 示例 · 企",
-          "link": "https://github.com/CopilotKit/CopilotKit",
-          "publishedAt": "2026-06-05T18:30:00.000Z",
-          "source": "GitHub Trending Daily",
-          "sourceType": "open_source",
-          "description": "CopilotKit Docs · Examples · Enterprise Intelligence Platform · Discord Build agent-native applications — on any framework, on any surface. Generative UI, shared state, and human-in-the-loop workflows for React, Angular, Vue, React Native — and beyond the browser. What is CopilotKit CopilotKit is a best-in-class SDK for building full-stack agentic applications, Generative UI, and chat applications. What started as a React library is now a multi-platform agentic framework : the same agent can power your web app, you",
-          "section": "open_source_top",
-          "channel": "open_source_rank",
-          "trust": "rank",
-          "image": "https://private-user-images.githubusercontent.com/66887028/545840497-6f175d86-bd22-4c26-a13a-6013654ed542.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA2ODQ2NjMsIm5iZiI6MTc4MDY4NDM2MywicGF0aCI6Ii82Njg4NzAyOC81NDU4NDA0OTctNmYxNzVkODYtYmQyMi00YzI2LWExM2EtNjAxMzY1NGVkNTQyLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDUlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA1VDE4MzI0M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTkyY2ZkNTMwYmE2ZjA3MDZlNWU2ODhlM2Y1Y2Q2ODVkMWEzZjg5YWExMGIwZTgyNzUzYzhiMzk1MjBlN2NlNzImWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmdpZiJ9.Q6cLDlWVxpYbD_E_Ca7C1SspWR75lZlbvrenml7NpqI",
-          "video": "",
-          "summary": "CopilotKit Docs · Examples · Enterprise Intelligence Platform · Discord Build agent-native applications — on any framework, on any surface. Generative UI, shared state, and human-in-the-loop workflows for React, Angular, Vue, React Native — and beyond the browser. What is CopilotKit CopilotKit is a best-in-class SDK for building full-stack agentic applications, Generative UI, and chat applications. What started as a React library is now a multi-platform agentic framework : the same agent can power your web app, you",
-          "summaryZh": "CopilotKit 文档 · 示例 · 企业智能平台 · Discord 在任何框架、任何表面上构建代理本机应用。适用于 React、Angular、Vue、React Native 以及浏览器之外的生成式 UI、共享状态和人机交互工作流程。什么是 CopilotKit CopilotKit 是一款一流的 SDK，用于构建全栈代理应用、生成式 UI 和聊天应用。最初是一个 React 库，现在是一个多平台代理框架：同一个代理可以为您的 Web 应用提供支持，您",
-          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
-          "tags": [
-            "智能体"
-          ],
-          "score": 30
         }
       ]
     },
@@ -529,13 +531,13 @@
           "publishedAt": "Fri, 05 Jun 2026 16:43:51 GMT",
           "source": "HeyGen(@HeyGen_Official)",
           "sourceType": "social",
-          "description": "May was packed with updates. HyperFrames got upgrades. Avatar V now takes direction in plain English, and is available via API and Live. We launched integrations with Superhuman, Codex, Canva, and Lovable, plus HeyGen on Android, and more. Full recap: heygen.com/blog/heygen-ma… Your browser does not support the video tag. 🔗 View on Twitter 💬 14 🔄 7 ❤️ 60 👀 2346 📊 22 ⚡ Powered by xgo.ing",
+          "description": "May was packed with updates. HyperFrames got upgrades. Avatar V now takes direction in plain English, and is available via API and Live. We launched integrations with Superhuman, Codex, Canva, and Lovable, plus HeyGen on Android, and more. Full recap: heygen.com/blog/heygen-ma… Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 11 ❤️ 96 👀 5688 📊 33 ⚡ Powered by xgo.ing",
           "section": "social_shares",
           "channel": "social",
           "trust": "official",
           "image": "",
           "video": "./media/2026-06-06-2062938461477515761.mp4",
-          "summary": "May was packed with updates. HyperFrames got upgrades. Avatar V now takes direction in plain English, and is available via API and Live. We launched integrations with Superhuman, Codex, Canva, and Lovable, plus HeyGen on Android, and more. Full recap: heygen.com/blog/heygen-ma… Your browser does not support the video tag. 🔗 View on Twitter 💬 14 🔄 7 ❤️ 60 👀 2346 📊 22 ⚡ Powered by xgo.ing",
+          "summary": "May was packed with updates. HyperFrames got upgrades. Avatar V now takes direction in plain English, and is available via API and Live. We launched integrations with Superhuman, Codex, Canva, and Lovable, plus HeyGen on Android, and more. Full recap: heygen.com/blog/heygen-ma… Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 11 ❤️ 96 👀 5688 📊 33 ⚡ Powered by xgo.ing",
           "summaryZh": "五月充满了更新。 HyperFrames 得到了升级。 《阿凡达 V》现在以简单的英语进行指导，并可通过 API 和 Live 获取。我们推出了与 Super human、Codex、Canva 和 Lovable 以及 Android 上的 HeyGen 等的集成。完整回顾：heygen.com/blog/heygen-ma…（要点：五月充满了更新。 HyperFrames 得到了升级。 《阿凡达 V》现在以简单的英语进行指导。）",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -543,29 +545,7 @@
             "API",
             "视频"
           ],
-          "score": 68.17936020748053
-        },
-        {
-          "title": "What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture? Res...",
-          "titleZh": "OpenAI：当我们的一个模型发现 80 年前的埃尔多斯猜想的反例时，发生了什么",
-          "link": "https://x.com/OpenAI/status/2062630454537424930",
-          "publishedAt": "Thu, 04 Jun 2026 20:19:56 GMT",
-          "source": "OpenAI(@OpenAI)",
-          "sourceType": "social",
-          "description": "What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture? Researchers @alexwei_ , @HongxunWu , and @wjmzbmr1 shared the story on the OpenAI Podcast with @AndrewMayne and explained how mathematicians and models can work together to make new discoveries. Your browser does not support the video tag. 🔗 View on Twitter 💬 130 🔄 102 ❤️ 1167 👀 184816 📊 243 ⚡ Powered by xgo.ing",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "official",
-          "image": "",
-          "video": "",
-          "summary": "What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture? Researchers @alexwei_ , @HongxunWu , and @wjmzbmr1 shared the story on the OpenAI Podcast with @AndrewMayne and explained how mathematicians and models can work together to make new discoveries. Your browser does not support the video tag. 🔗 View on Twitter 💬 130 🔄 102 ❤️ 1167 👀 184816 📊 243 ⚡ Powered by xgo.ing",
-          "summaryZh": "当我们的一个模型发现 80 年前的埃尔多斯猜想的反例时，发生了什么？研究人员 @alexwei_、@hongxunWu 和 @wjmzbmr1 在 OpenAI 播客上与 @AndrewMayne 分享了这个故事，并解释了数学家和模型如何共同努力以取得新发现。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "模型",
-            "视频"
-          ],
-          "score": 65
+          "score": 70.03903332547587
         },
         {
           "title": "Here’s this week’s shipping recap 👇 — Nano Banana 2 & Nano Banana Pro are now GA and available via...",
@@ -574,7 +554,7 @@
           "publishedAt": "Fri, 05 Jun 2026 17:01:21 GMT",
           "source": "Google AI(@GoogleAI)",
           "sourceType": "social",
-          "description": "Here’s this week’s shipping recap 👇 — Nano Banana 2 & Nano Banana Pro are now GA and available via the Gemini Enterprise Agent Platform, Gemini API, and in @GoogleAIStudio —Co-Scientist, our new multi-agent system for structured scientific thinking, generates and refines novel hypotheses to solve complex scientific problems — dreambeans from @GoogleLabs works overnight to curate a personalized daily collection of topics that are relevant to you based on your connected Google apps — @GoogleGemma 4 12B, our unified encoder-free model, brings powerful multimodal intelligence straight to your laptop fully offline — Gemma 4 models and their drafters are now optimized with Quantization-Aware Training (QAT) to cut memory requirements and maximize on-device performance — @GoogleMagenta RealTime 2 is our open-weights live music model that you can play like an instrument using a MIDI keyboard, text prompts, and gestures 💬 19 🔄 5 ❤️ 56 👀 6960 📊 21 ⚡ Powered by xgo.ing",
+          "description": "Here’s this week’s shipping recap 👇 — Nano Banana 2 & Nano Banana Pro are now GA and available via the Gemini Enterprise Agent Platform, Gemini API, and in @GoogleAIStudio —Co-Scientist, our new multi-agent system for structured scientific thinking, generates and refines novel hypotheses to solve complex scientific problems — dreambeans from @GoogleLabs works overnight to curate a personalized daily collection of topics that are relevant to you based on your connected Google apps — @GoogleGemma 4 12B, our unified encoder-free model, brings powerful multimodal intelligence straight to your laptop fully offline — Gemma 4 models and their drafters are now optimized with Quantization-Aware Training (QAT) to cut memory requirements and maximize on-device performance — @GoogleMagenta RealTime 2 is our open-weights live music model that you can play like an instrument using a MIDI keyboard, text prompts, and gestures 💬 33 🔄 22 ❤️ 177 👀 18144 📊 46 ⚡ Powered by xgo.ing",
           "section": "social_shares",
           "channel": "social",
           "trust": "official",
@@ -589,23 +569,68 @@
             "智能体",
             "多模态"
           ],
-          "score": 62.644839369762416
+          "score": 66.64475005711788
+        },
+        {
+          "title": "The NVIDIA Nemotron Coalition continues to grow. We're excited to welcome new members: @hcompany_ai...",
+          "titleZh": "NVIDIA Nemotron 联盟不断发展壮大",
+          "link": "https://x.com/NVIDIAAI/status/2062961026409333232",
+          "publishedAt": "Fri, 05 Jun 2026 18:13:31 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "The NVIDIA Nemotron Coalition continues to grow. We're excited to welcome new members: @hcompany_ai , @NousResearch , and @PrimeIntellect . And a big thank you to our existing members: @bfl_ai , @cursor_ai , @LangChain , @MistralAI , NAVER Cloud, @perplexity_ai , @ReflectionAI_ , @SarvamAI , and @thinkymachines . Nemotron 3 Ultra was developed with contributions from Coalition members, and we're excited to keep building with them on future model releases. We're just getting started! Prime Intellect @PrimeIntellect We're excited to join the NVIDIA Nemotron Coalition 💚 Frontier open models matter for the whole ecosystem. We're bringing the RL infrastructure and environments we've built over the last year to help scale agentic capabilities. primeintellect.ai/blog/nemotron-… H 🔗 View Quoted Tweet 💬 27 🔄 30 ❤️ 245 👀 25268 📊 45 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKAJ0gAbUAELwnJ.jpg",
+          "video": "",
+          "summary": "The NVIDIA Nemotron Coalition continues to grow. We're excited to welcome new members: @hcompany_ai , @NousResearch , and @PrimeIntellect . And a big thank you to our existing members: @bfl_ai , @cursor_ai , @LangChain , @MistralAI , NAVER Cloud, @perplexity_ai , @ReflectionAI_ , @SarvamAI , and @thinkymachines . Nemotron 3 Ultra was developed with contributions from Coalition members, and we're excited to keep building with them on future model releases. We're just getting started! Prime Intellect @PrimeIntellect We're excited to join the NVIDIA Nemotron Coalition 💚 Frontier open models matter for the whole ecosystem. We're bringing the RL infrastructure and environments we've built over the last year to help scale agentic capabilities. primeintellect.ai/blog/nemotron-… H 🔗 View Quoted Tweet 💬 27 🔄 30 ❤️ 245 👀 25268 📊 45 ⚡ Powered by xgo.ing",
+          "summaryZh": "NVIDIA Nemotron 联盟不断发展壮大。我们很高兴欢迎新成员：、 和。非常感谢我们现有的成员：、、、、NAVER Cloud、、、 和。 Nemotron 3 Ultra 的开发得到了联盟成员的贡献，我们很高兴能继续与他们一起开发未来的模型版本。我们才刚刚开始！ Prime Intellect 我们很高兴加入 NVIDIA Nemotron 联盟 Frontier 开放模型对整个生态系统至关重要。我们将引入去年构建的强化学习基础设施和环境来帮助扩展代理能力。 primeintellect.ai/blog/nemotron-… H 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体"
+          ],
+          "score": 66.59750393054108
+        },
+        {
+          "title": "What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture? Res...",
+          "titleZh": "OpenAI：当我们的一个模型发现 80 年前的埃尔多斯猜想的反例时，发生了什么",
+          "link": "https://x.com/OpenAI/status/2062630454537424930",
+          "publishedAt": "Thu, 04 Jun 2026 20:19:56 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture? Researchers @alexwei_ , @HongxunWu , and @wjmzbmr1 shared the story on the OpenAI Podcast with @AndrewMayne and explained how mathematicians and models can work together to make new discoveries. Your browser does not support the video tag. 🔗 View on Twitter 💬 136 🔄 108 ❤️ 1211 👀 199303 📊 253 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "What happened when one of our models found a counterexample to an 80-year-old Erdős conjecture? Researchers @alexwei_ , @HongxunWu , and @wjmzbmr1 shared the story on the OpenAI Podcast with @AndrewMayne and explained how mathematicians and models can work together to make new discoveries. Your browser does not support the video tag. 🔗 View on Twitter 💬 136 🔄 108 ❤️ 1211 👀 199303 📊 253 ⚡ Powered by xgo.ing",
+          "summaryZh": "当我们的一个模型发现 80 年前的埃尔多斯猜想的反例时，发生了什么？研究人员 @alexwei_、@hongxunWu 和 @wjmzbmr1 在 OpenAI 播客上与 @AndrewMayne 分享了这个故事，并解释了数学家和模型如何共同努力以取得新发现。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 65
         },
         {
           "title": "Draft it. Tweak it. Send it. You can now send emails directly from writing blocks in ChatGPT on the...",
-          "titleZh": "ChatGPT 网页版写作块现已支持直接发邮件",
+          "titleZh": "ChatGPT 网页端可直接从写作区发送邮件，无需离开当前对话",
           "link": "https://x.com/ChatGPTapp/status/2062944254591430917",
           "publishedAt": "Fri, 05 Jun 2026 17:06:52 GMT",
           "source": "ChatGPT(@ChatGPTapp)",
           "sourceType": "social",
-          "description": "Draft it. Tweak it. Send it. You can now send emails directly from writing blocks in ChatGPT on the web, without leaving the conversation. Your browser does not support the video tag. 🔗 View on Twitter 💬 75 🔄 71 ❤️ 988 👀 50412 📊 190 ⚡ Powered by xgo.ing",
+          "description": "Draft it. Tweak it. Send it. You can now send emails directly from writing blocks in ChatGPT on the web, without leaving the conversation. Your browser does not support the video tag. 🔗 View on Twitter 💬 120 🔄 135 ❤️ 2129 👀 205797 📊 376 ⚡ Powered by xgo.ing",
           "section": "social_shares",
           "channel": "social",
           "trust": "official",
           "image": "",
           "video": "./media/2026-06-06-2062944254591430917.mp4",
-          "summary": "Draft it. Tweak it. Send it. You can now send emails directly from writing blocks in ChatGPT on the web, without leaving the conversation. Your browser does not support the video tag. 🔗 View on Twitter 💬 75 🔄 71 ❤️ 988 👀 50412 📊 190 ⚡ Powered by xgo.ing",
-          "summaryZh": "ChatGPT 官方宣布，网页版里的 **writing blocks** 现在可以 **直接发送邮件**，用户不需要离开当前对话，就能在起草、修改后把内容发出去。这个变化看起来不大，但它把 ChatGPT 从“帮你写一段文案”往“直接完成一个动作”又推进了一步，尤其适合邮件草拟、客服回复、销售跟进这类高频文本工作流。",
+          "summary": "Draft it. Tweak it. Send it. You can now send emails directly from writing blocks in ChatGPT on the web, without leaving the conversation. Your browser does not support the video tag. 🔗 View on Twitter 💬 120 🔄 135 ❤️ 2129 👀 205797 📊 376 ⚡ Powered by xgo.ing",
+          "summaryZh": "ChatGPT 宣布网页端的 **writing blocks** 新增直接发邮件能力，用户可以在对话里先起草、再修改，然后直接把内容作为邮件发送出去，不用切到外部邮箱页面。这个动作虽然不属于底层模型升级，但它把 **写作生成** 和 **外发执行** 串进同一条工作流，说明 ChatGPT 正在把内容创作场景继续往可执行工具推进。值得关注的是后续它会不会继续扩展到更多发送渠道、企业权限控制和审核能力。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "视频"
@@ -619,13 +644,13 @@
           "publishedAt": "Thu, 04 Jun 2026 21:52:32 GMT",
           "source": "ChatGPT(@ChatGPTapp)",
           "sourceType": "social",
-          "description": "ChatGPT is getting better at remembering what matters: your preferences, constraints, and the context that helps you pick things up where you left off. And with memory summaries, you can review and steer what it remembers. Rolling to all users over the next few weeks, starting today with Plus and Pro users in the US. Your browser does not support the video tag. 🔗 View on Twitter 💬 113 🔄 156 ❤️ 1834 👀 104974 📊 324 ⚡ Powered by xgo.ing",
+          "description": "ChatGPT is getting better at remembering what matters: your preferences, constraints, and the context that helps you pick things up where you left off. And with memory summaries, you can review and steer what it remembers. Rolling to all users over the next few weeks, starting today with Plus and Pro users in the US. Your browser does not support the video tag. 🔗 View on Twitter 💬 121 🔄 161 ❤️ 1940 👀 111708 📊 343 ⚡ Powered by xgo.ing",
           "section": "social_shares",
           "channel": "social",
           "trust": "official",
           "image": "",
           "video": "./media/2026-06-06-2062653758178549798.mp4",
-          "summary": "ChatGPT is getting better at remembering what matters: your preferences, constraints, and the context that helps you pick things up where you left off. And with memory summaries, you can review and steer what it remembers. Rolling to all users over the next few weeks, starting today with Plus and Pro users in the US. Your browser does not support the video tag. 🔗 View on Twitter 💬 113 🔄 156 ❤️ 1834 👀 104974 📊 324 ⚡ Powered by xgo.ing",
+          "summary": "ChatGPT is getting better at remembering what matters: your preferences, constraints, and the context that helps you pick things up where you left off. And with memory summaries, you can review and steer what it remembers. Rolling to all users over the next few weeks, starting today with Plus and Pro users in the US. Your browser does not support the video tag. 🔗 View on Twitter 💬 121 🔄 161 ❤️ 1940 👀 111708 📊 343 ⚡ Powered by xgo.ing",
           "summaryZh": "ChatGPT 越来越擅长记住重要的事情：您的偏好、限制以及帮助您从上次停下的地方继续操作的上下文。通过记忆摘要，您可以查看和引导它记住的内容。从今天开始，美国的 Plus 和 Pro 用户将在接下来的几周内向所有用户推出。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
@@ -640,19 +665,63 @@
           "publishedAt": "Fri, 05 Jun 2026 17:31:04 GMT",
           "source": "Cursor(@cursor_ai)",
           "sourceType": "social",
-          "description": "With Design Mode, you can now point, draw, or talk to update your UI. Your browser does not support the video tag. 🔗 View on Twitter 💬 36 🔄 31 ❤️ 495 👀 189878 📊 101 ⚡ Powered by xgo.ing",
+          "description": "With Design Mode, you can now point, draw, or talk to update your UI. Your browser does not support the video tag. 🔗 View on Twitter 💬 82 🔄 98 ❤️ 1554 👀 687203 📊 306 ⚡ Powered by xgo.ing",
           "section": "social_shares",
           "channel": "social",
           "trust": "official",
           "image": "",
           "video": "./media/2026-06-06-2062950344687272144.mp4",
-          "summary": "With Design Mode, you can now point, draw, or talk to update your UI. Your browser does not support the video tag. 🔗 View on Twitter 💬 36 🔄 31 ❤️ 495 👀 189878 📊 101 ⚡ Powered by xgo.ing",
-          "summaryZh": "Cursor 发布 **Design Mode**，用户现在可以直接通过 **指一下界面、在界面上画出来，或者直接说出修改要求** 来更新 UI，而不必先把视觉改动翻译成代码描述。对前端和产品协作来说，这意味着 UI 调整的输入方式更接近设计评审或口头反馈场景，后续值得关注它对复杂组件、布局细节和真实项目代码的理解精度。 ",
+          "summary": "With Design Mode, you can now point, draw, or talk to update your UI. Your browser does not support the video tag. 🔗 View on Twitter 💬 82 🔄 98 ❤️ 1554 👀 687203 📊 306 ⚡ Powered by xgo.ing",
+          "summaryZh": "Cursor 进一步扩展了 **Design Mode** 的交互方式：现在除了文字描述，用户还可以直接在界面上 **指一指、画一画，或者用语音说出修改要求**，让系统据此更新 UI。它传递的信号很明确：代码生成工具正在把“描述需求”升级为“直接在界面上改设计”，从而缩短产品、设计和前端之间的往返成本。对团队实践来说，后续值得观察它在复杂布局、组件约束和多人协作场景下的稳定性。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "视频"
           ],
-          "score": 61.27814379042057
+          "score": 62
+        },
+        {
+          "title": "Celebrating two years of Kling AI on June 6, 2026! This year, we iterated our models 26 times, expa...",
+          "titleZh": "2026 年 6 月 6 日庆祝 Kling AI 成立两周年",
+          "link": "https://x.com/Kling_ai/status/2062912327385575895",
+          "publishedAt": "Fri, 05 Jun 2026 15:00:00 GMT",
+          "source": "Kling AI(@Kling_ai)",
+          "sourceType": "social",
+          "description": "Celebrating two years of Kling AI on June 6, 2026! This year, we iterated our models 26 times, expanded our global reach, and continued to empower creators across industries. With over 100 million users and nearly 50,000 enterprise customers, countless stories have come to life, and many more await to be told. Evolving, excelling, expanding, creating, enabling — Kling. Imagination never stops. Creativity never ends. Thank you for being part of this journey. Your browser does not support the video tag. 🔗 View on Twitter 💬 39 🔄 29 ❤️ 249 👀 10070 📊 65 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Celebrating two years of Kling AI on June 6, 2026! This year, we iterated our models 26 times, expanded our global reach, and continued to empower creators across industries. With over 100 million users and nearly 50,000 enterprise customers, countless stories have come to life, and many more await to be told. Evolving, excelling, expanding, creating, enabling — Kling. Imagination never stops. Creativity never ends. Thank you for being part of this journey. Your browser does not support the video tag. 🔗 View on Twitter 💬 39 🔄 29 ❤️ 249 👀 10070 📊 65 ⚡ Powered by xgo.ing",
+          "summaryZh": "2026 年 6 月 6 日庆祝 Kling AI 成立两周年！今年，我们对模型进行了26次迭代，扩大了全球影响力，持续为各行业的创作者赋能。拥有超过1亿的用户和近5万的企业客户，无数的故事已经发生，还有更多的故事等待讲述。不断发展、超越、扩展、创造、赋能——Kling。想象力永远不会停止。创造力永无止境。感谢您参与这次旅程。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 61.15267142940695
+        },
+        {
+          "title": "New @GoogleGemma 4 QAT (Quantization-Aware Training) checkpoints are here, so you can run models loc...",
+          "titleZh": "新的@GoogleGemma 4 QAT（量化感知训练）检查点在这里，因此您可以运行模型",
+          "link": "https://x.com/googleaidevs/status/2062941872599847268",
+          "publishedAt": "Fri, 05 Jun 2026 16:57:24 GMT",
+          "source": "Google AI Developers(@googleaidevs)",
+          "sourceType": "social",
+          "description": "New @GoogleGemma 4 QAT (Quantization-Aware Training) checkpoints are here, so you can run models locally on consumer GPUs and mobile devices with minimal quality loss. What’s new: 🔹 GGUF (Q4_0): Checkpoints: Max local performance across all sizes and drafter models 🔹 Custom Mobile Schema: We shrunk Gemma 4 down to less than 1GB for mobile devices by using a custom mixed precision schema designed for edge hardware (featuring targeted 2-bit decoding layers, optimized KV caches, and static activations) By simulating compression during training rather than after (Post-Training Quantization), we've drastically reduced the memory footprint and accelerated decode speeds while preserving reasoning quality blog.google/innovation-and… PF 💬 12 🔄 24 ❤️ 243 👀 9460 📊 45 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "New @GoogleGemma 4 QAT (Quantization-Aware Training) checkpoints are here, so you can run models locally on consumer GPUs and mobile devices with minimal quality loss. What’s new: 🔹 GGUF (Q4_0): Checkpoints: Max local performance across all sizes and drafter models 🔹 Custom Mobile Schema: We shrunk Gemma 4 down to less than 1GB for mobile devices by using a custom mixed precision schema designed for edge hardware (featuring targeted 2-bit decoding layers, optimized KV caches, and static activations) By simulating compression during training rather than after (Post-Training Quantization), we've drastically reduced the memory footprint and accelerated decode speeds while preserving reasoning quality blog.google/innovation-and… PF 💬 12 🔄 24 ❤️ 243 👀 9460 📊 45 ⚡ Powered by xgo.ing",
+          "summaryZh": "新的@GoogleGemma 4 QAT（量化感知训练）检查点现已推出，因此您可以在消费级 GPU 和移动设备上本地运行模型，同时将质量损失降至最低。新功能：GGUF (Q4_0)：检查点：所有尺寸和绘图模型的最大本地性能自定义移动模式：通过使用专为边缘硬件设计的自定义混合精度模式（具有目标 2 位解码层、优化的 KV 缓存和静态激活），我们将移动设备的 Gemma 4 缩小到 1GB 以下。通过在训练期间而不是之后（训练后量化）模拟压缩，我们大大减少了内存占用并加快解码速度，同时保持推理质量 blog.google/innovation-and… PF",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "推理能力"
+          ],
+          "score": 60.42328823873049
         },
         {
           "title": "Correction: Claude Opus 4's ~3x average speedup dates to May 2025, not May 2024. This evaluation h...",
@@ -661,83 +730,20 @@
           "publishedAt": "Thu, 04 Jun 2026 20:34:38 GMT",
           "source": "Anthropic(@AnthropicAI)",
           "sourceType": "social",
-          "description": "Correction: Claude Opus 4's ~3x average speedup dates to May 2025, not May 2024. This evaluation has only existed since September 2024, but we backtested it on earlier models: those from May 2024 showed no speedup whatsoever. 💬 20 🔄 7 ❤️ 257 👀 81926 📊 38 ⚡ Powered by xgo.ing",
+          "description": "Correction: Claude Opus 4's ~3x average speedup dates to May 2025, not May 2024. This evaluation has only existed since September 2024, but we backtested it on earlier models: those from May 2024 showed no speedup whatsoever. 💬 20 🔄 7 ❤️ 271 👀 86188 📊 39 ⚡ Powered by xgo.ing",
           "section": "social_shares",
           "channel": "social",
           "trust": "official",
           "image": "",
           "video": "",
-          "summary": "Correction: Claude Opus 4's ~3x average speedup dates to May 2025, not May 2024. This evaluation has only existed since September 2024, but we backtested it on earlier models: those from May 2024 showed no speedup whatsoever. 💬 20 🔄 7 ❤️ 257 👀 81926 📊 38 ⚡ Powered by xgo.ing",
+          "summary": "Correction: Claude Opus 4's ~3x average speedup dates to May 2025, not May 2024. This evaluation has only existed since September 2024, but we backtested it on earlier models: those from May 2024 showed no speedup whatsoever. 💬 20 🔄 7 ❤️ 271 👀 86188 📊 39 ⚡ Powered by xgo.ing",
           "summaryZh": "更正：Claude Opus 4 约 3 倍的平均加速可追溯到 2025 年 5 月，而不是 2024 年 5 月。此评估自 2024 年 9 月以来才存在，但我们在早期模型上进行了回溯测试：2024 年 5 月的模型没有显示任何加速。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型",
             "RAG"
           ],
-          "score": 60.1450186708265
-        },
-        {
-          "title": "The NVIDIA Nemotron Coalition continues to grow. We're excited to welcome new members: @hcompany_ai...",
-          "titleZh": "NVIDIA Nemotron 联盟不断发展壮大",
-          "link": "https://x.com/NVIDIAAI/status/2062961026409333232",
-          "publishedAt": "Fri, 05 Jun 2026 18:13:31 GMT",
-          "source": "NVIDIA AI(@NVIDIAAI)",
-          "sourceType": "social",
-          "description": "The NVIDIA Nemotron Coalition continues to grow. We're excited to welcome new members: @hcompany_ai , @NousResearch , and @PrimeIntellect . And a big thank you to our existing members: @bfl_ai , @cursor_ai , @LangChain , @MistralAI , NAVER Cloud, @perplexity_ai , @ReflectionAI_ , @SarvamAI , and @thinkymachines . Nemotron 3 Ultra was developed with contributions from Coalition members, and we're excited to keep building with them on future model releases. We're just getting started! Prime Intellect @PrimeIntellect We're excited to join the NVIDIA Nemotron Coalition 💚 Frontier open models matter for the whole ecosystem. We're bringing the RL infrastructure and environments we've built over the last year to help scale agentic capabilities. primeintellect.ai/blog/nemotron-… H 🔗 View Quoted Tweet 💬 13 🔄 3 ❤️ 42 👀 2501 📊 13 ⚡ Powered by xgo.ing",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "official",
-          "image": "https://pbs.twimg.com/media/HKAJ0gAbUAELwnJ.jpg",
-          "video": "",
-          "summary": "The NVIDIA Nemotron Coalition continues to grow. We're excited to welcome new members: @hcompany_ai , @NousResearch , and @PrimeIntellect . And a big thank you to our existing members: @bfl_ai , @cursor_ai , @LangChain , @MistralAI , NAVER Cloud, @perplexity_ai , @ReflectionAI_ , @SarvamAI , and @thinkymachines . Nemotron 3 Ultra was developed with contributions from Coalition members, and we're excited to keep building with them on future model releases. We're just getting started! Prime Intellect @PrimeIntellect We're excited to join the NVIDIA Nemotron Coalition 💚 Frontier open models matter for the whole ecosystem. We're bringing the RL infrastructure and environments we've built over the last year to help scale agentic capabilities. primeintellect.ai/blog/nemotron-… H 🔗 View Quoted Tweet 💬 13 🔄 3 ❤️ 42 👀 2501 📊 13 ⚡ Powered by xgo.ing",
-          "summaryZh": "NVIDIA Nemotron 联盟不断发展壮大。我们很高兴欢迎新成员：、 和。非常感谢我们现有的成员：、、、、NAVER Cloud、、、 和。 Nemotron 3 Ultra 的开发得到了联盟成员的贡献，我们很高兴能继续与他们一起开发未来的模型版本。我们才刚刚开始！ Prime Intellect 我们很高兴加入 NVIDIA Nemotron 联盟 Frontier 开放模型对整个生态系统至关重要。我们将引入去年构建的强化学习基础设施和环境来帮助扩展代理能力。 primeintellect.ai/blog/nemotron-… H 查看引用的推文",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "产品发布",
-            "模型",
-            "智能体"
-          ],
-          "score": 59.98155279868861
-        },
-        {
-          "title": "An issue caused some user accounts to be incorrectly suspended. We’re restoring access and working...",
-          "titleZh": "OpenAI：一个问题导致一些用户帐户被错误地暂停。我们正在恢复访问并工作",
-          "link": "https://x.com/OpenAI/status/2062927046448431587",
-          "publishedAt": "Fri, 05 Jun 2026 15:58:29 GMT",
-          "source": "OpenAI(@OpenAI)",
-          "sourceType": "social",
-          "description": "An issue caused some user accounts to be incorrectly suspended. We’re restoring access and working through related subscription and credit issues. status.openai.com/incidents/ejj4… 💬 250 🔄 165 ❤️ 1640 👀 168123 📊 379 ⚡ Powered by xgo.ing",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "official",
-          "image": "",
-          "video": "",
-          "summary": "An issue caused some user accounts to be incorrectly suspended. We’re restoring access and working through related subscription and credit issues. status.openai.com/incidents/ejj4… 💬 250 🔄 165 ❤️ 1640 👀 168123 📊 379 ⚡ Powered by xgo.ing",
-          "summaryZh": "一个问题导致一些用户帐户被错误地暂停。我们正在恢复访问并解决相关的订阅和信用问题。 status.openai.com/incidents/ejj4。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [],
-          "score": 59
-        },
-        {
-          "title": "We put an AI avatar on Twitch and asked it to roast 24/7 People send GitHub repos in chat and it op...",
-          "titleZh": "我们在 Twitch 上放置了一个 AI 化身，并要求它进行 24/7 的审核 人们在聊天中发送 GitHub 存储库，它会打开它们、审查代码、审核糟糕的设计决",
-          "link": "https://x.com/HeyGen/status/2062647419163296165",
-          "publishedAt": "Thu, 04 Jun 2026 21:27:21 GMT",
-          "source": "HeyGen(@HeyGen_Official)",
-          "sourceType": "social",
-          "description": "We put an AI avatar on Twitch and asked it to roast 24/7 People send GitHub repos in chat and it opens them, reviews the code, roasts bad design decisions, and navigates the browser by itself in real time twitch.tv/heygendev 💬 25 🔄 53 ❤️ 108 👀 12508 📊 55 ⚡ Powered by xgo.ing",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "official",
-          "image": "https://pbs.twimg.com/media/HJ_-5TMacAAH_9V.jpg",
-          "video": "",
-          "summary": "We put an AI avatar on Twitch and asked it to roast 24/7 People send GitHub repos in chat and it opens them, reviews the code, roasts bad design decisions, and navigates the browser by itself in real time twitch.tv/heygendev 💬 25 🔄 53 ❤️ 108 👀 12508 📊 55 ⚡ Powered by xgo.ing",
-          "summaryZh": "我们在 Twitch 上放置了一个 AI 化身，并要求它进行 24/7 的审核 人们在聊天中发送 GitHub 存储库，它会打开它们、审查代码、审核糟糕的设计决策，并自行实时导航浏览器 twitch.tv/heygendev。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "开源"
-          ],
-          "score": 58.1753007481591
+          "score": 60.26985264767278
         }
       ]
     },
@@ -815,12 +821,17 @@
       "source": "Hugging Face",
       "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
       "error": "HTTP 500"
+    },
+    {
+      "source": "DeeplearningAI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/9d094d066a5faacff0eb0a6b95efbba20d4f1fc9.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/9d094d066a5faacff0eb0a6b95efbba20d4f1fc9.xml"
     }
   ],
   "summaryBullets": [
-    "**NotebookLM** 上线 **来源归属** 功能，生成内容时会直接展示所用提示词与资料来源，用户还能点按继续迭代，AI 内容可追溯性开始进入面向普通用户的工作流。",
-    "**OpenAI** 持续补全 **Codex** 的产品形态：一边把活动记录集中到统一入口并简化分享，一边继续强化开发者工作流，说明它正从单点能力走向更完整的协作产品。",
-    "**Ollama** 把 **Gemma 4 12B** 推到全平台，并给出 **Claude Code、Codex、Hermes Agent** 等现成调用方式；本地多模态模型不只是能跑起来，而是越来越容易接进真实工具链。",
-    "**Cursor、ChatGPT、v0、Replit** 今天的更新都指向同一件事：AI 正在把“写提示词”扩展成“直接改界面、发邮件、搭站点、做设计”，产品边界继续向执行层前移。"
+    "**使用 MIDI 键盘、实时文本播放我们新的开放权重音乐模型**：使用 MIDI 键盘、实时文本提示甚至手势来演奏我们新的开放权重音乐模型 RealTime 2 ✌ x.com/GoogleMagenta/… Google Magenta",
+    "**五月充满了更新。HyperFrames 得到了升级**：五月充满了更新。HyperFrames 得到了升级",
+    "**OpenAI：您的 Codex 活动现在有了一个家**：您的 Codex 活动现在有了一个家，并且有了更简单的共享方式。Codex 配置文件显示您的活动图、条纹、生命周期令牌、每日峰值令牌以及插件和/快速模式等顶级功能",
+    "**审核分数现已**：在 Responses API 和 Completions API 中提供。在与生成相同的请求流中返回审核信号，然后决定应用如何使用它们进行日志记录、路由、审查"
   ]
 }
