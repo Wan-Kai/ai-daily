@@ -1,0 +1,776 @@
+{
+  "date": "2026-06-07",
+  "generatedAt": "2026-06-06T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-07",
+  "stats": {
+    "sources": 134,
+    "fetched": 567,
+    "emailCandidates": 0,
+    "selected": 30,
+    "failures": 24
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Nemotron 3 Ultra is now available for Pro and Max subscribers on Perplexity and Computer. It's @nvi...",
+          "titleZh": "Nemotron 3 Ultra 现已可",
+          "link": "https://x.com/perplexity_ai/status/2062976272436002825",
+          "publishedAt": "Fri, 05 Jun 2026 19:14:06 GMT",
+          "source": "Perplexity(@perplexity_ai)",
+          "sourceType": "social",
+          "description": "Nemotron 3 Ultra is now available for Pro and Max subscribers on Perplexity and Computer. It's @nvidia 's new open model built for long-running agents. Your browser does not support the video tag. 🔗 View on Twitter 💬 77 🔄 64 ❤️ 948 👀 110150 📊 184 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-07-2062976272436002825.mp4",
+          "summary": "Nemotron 3 Ultra is now available for Pro and Max subscribers on Perplexity and Computer. It's @nvidia 's new open model built for long-running agents. Your browser does not support the video tag. 🔗 View on Twitter 💬 77 🔄 64 ❤️ 948 👀 110150 📊 184 ⚡ Powered by xgo.ing",
+          "summaryZh": "Nemotron 3 Ultra 现已可供 Perplexity 和 Computer 上的 Pro 和 Max 订阅者使用。这是 为长期运行的代理构建的新开放模型。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "视频"
+          ],
+          "score": 76
+        },
+        {
+          "title": "Side chats now stay visible when you go full screen in the Codex app. Notifications and unread badg...",
+          "titleZh": "OpenAI：现在，当您在 Codex 应用中全屏显示时，侧边聊天仍然可见",
+          "link": "https://x.com/OpenAIDevs/status/2062987718221861205",
+          "publishedAt": "Fri, 05 Jun 2026 19:59:35 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Side chats now stay visible when you go full screen in the Codex app. Notifications and unread badges route with the right context, AppShots and voice mode use the active composer, and Escape stops the chat you meant to stop. Your browser does not support the video tag. 🔗 View on Twitter 💬 12 🔄 13 ❤️ 431 👀 26486 📊 54 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-07-2062987718221861205.mp4",
+          "summary": "Side chats now stay visible when you go full screen in the Codex app. Notifications and unread badges route with the right context, AppShots and voice mode use the active composer, and Escape stops the chat you meant to stop. Your browser does not support the video tag. 🔗 View on Twitter 💬 12 🔄 13 ❤️ 431 👀 26486 📊 54 ⚡ Powered by xgo.ing",
+          "summaryZh": "现在，当您在 Codex 应用中全屏显示时，侧边聊天仍然可见。通知和未读徽章会根据正确的上下文进行路由，AppShots 和语音模式使用活动的编辑器，Escape 会停止您想要停止的聊天。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "语音",
+            "视频"
+          ],
+          "score": 68.58268356823137
+        },
+        {
+          "title": "Meet Hiroki-san (@tomiyasu16) who is running his farm in Japan with ChatGPT and Codex: https://t.co/...",
+          "titleZh": "认识一下 Hiroki-san (@to",
+          "link": "https://x.com/ChatGPTapp/status/2062973447635095682",
+          "publishedAt": "Fri, 05 Jun 2026 19:02:52 GMT",
+          "source": "ChatGPT(@ChatGPTapp)",
+          "sourceType": "social",
+          "description": "Meet Hiroki-san ( @tomiyasu16 ) who is running his farm in Japan with ChatGPT and Codex: chatgptpro.substack.com/p/hiroki-tomiy… Ole Lehmann @itsolelehmann i'm obsessed with AI DIY projects. my favorite one right now is this broccoli farmer in hokkaido, japan using Codex to run his 100-hectare farm this guy never studied agriculture, never inherited land, started out as a civil servant. but he wanted his farm to run better, and instead of paying an engineering firm he couldn't afford, he just built the tools himself. here's what he's built on his own: > remote control of his greenhouse vents from a chat app, wired up with an esp32 board, a motor driver, and cloudflare workers > a bot that checks each greenhouse's temperature and opens the vents when it gets too hot > satellite crop-health data laid over a map of his own fields > an airtable base linking his plots, tasks, materials, and sensors > wiring diagrams of his electrical panels, generated from a photo stuff like this used to be locked behind machinery and engineers only the big agribusinesses could pay for. but this legend just breezed past all of it with a laptop and Codex lol 🔗 View Quoted Tweet 💬 53 🔄 161 ❤️ 1346 👀 158934 📊 204 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKCurGJaoAAqJR7.jpg",
+          "video": "",
+          "summary": "Meet Hiroki-san ( @tomiyasu16 ) who is running his farm in Japan with ChatGPT and Codex: chatgptpro.substack.com/p/hiroki-tomiy… Ole Lehmann @itsolelehmann i'm obsessed with AI DIY projects. my favorite one right now is this broccoli farmer in hokkaido, japan using Codex to run his 100-hectare farm this guy never studied agriculture, never inherited land, started out as a civil servant. but he wanted his farm to run better, and instead of paying an engineering firm he couldn't afford, he just built the tools himself. here's what he's built on his own: > remote control of his greenhouse vents from a chat app, wired up with an esp32 board, a motor driver, and cloudflare workers > a bot that checks each greenhouse's temperature and opens the vents when it gets too hot > satellite crop-health data laid over a map of his own fields > an airtable base linking his plots, tasks, materials, an...",
+          "summaryZh": "认识一下 Hiroki-san (@tomiyasu16)，他在日本使用 ChatGPT 和 Codex 经营他的农场：chatgptpro.substack.com/p/hiroki-tomiy… Ole Lehmann @itsolelehmann 我痴迷于 AI DIY 项目。我现在最喜欢的一个是日本北海道的一位西兰花农民，他使用 Codex 来经营他的 100 公顷农场，这个人从未学过农业，也从未继承过土地，一开始是一名公务员。但他希望他的农场运转得更好，所以他没有向他负担不起的工程公司付款，而是自己建造了工具。这是他自己构建的： > 通过聊天应用远程控制他的温室通风口，连接了 esp32 板、电机驱动器和 cloudflare 工作人员 > 一个检查每个温室温度并在天气太热时打开通风口的机器人 > 卫星作物健康数据覆盖在他自己的田地地图上 > 一个连接他的地块、任务、材料和……的空中基地",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 68
+        },
+        {
+          "title": "More Codex app polish: — Settings are easier to scan — App chrome and sidebars behave more cleanly ...",
+          "titleZh": "OpenAI：更多 Codex 应用改进： — 设置更容易扫描 — 应用镶边和侧边栏表现得更加干净",
+          "link": "https://x.com/OpenAIDevs/status/2062987742506872918",
+          "publishedAt": "Fri, 05 Jun 2026 19:59:40 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "More Codex app polish: — Settings are easier to scan — App chrome and sidebars behave more cleanly — Dock badges point to the right place — Prompt links paste back as structured pills — The composer behaves better in tight panels 💬 4 🔄 3 ❤️ 183 👀 18250 📊 21 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "More Codex app polish: — Settings are easier to scan — App chrome and sidebars behave more cleanly — Dock badges point to the right place — Prompt links paste back as structured pills — The composer behaves better in tight panels 💬 4 🔄 3 ❤️ 183 👀 18250 📊 21 ⚡ Powered by xgo.ing",
+          "summaryZh": "更多 Codex 应用改进： — 设置更容易扫描 — 应用镶边和侧边栏表现得更加干净 — Dock 徽章指向正确的位置 — 提示链接作为结构化药片粘贴回 — 作曲家在紧凑的面板中表现更好。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 60.35429127667778
+        },
+        {
+          "title": "email integration with chatgpt",
+          "titleZh": "电子邮件与 chatgpt 集成",
+          "link": "https://x.com/gdb/status/2063056196735504796",
+          "publishedAt": "Sat, 06 Jun 2026 00:31:41 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "description": "email integration with chatgpt ChatGPT @ChatGPTapp Draft it. Tweak it. Send it. You can now send emails directly from writing blocks in ChatGPT on the web, without leaving the conversation. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 86 🔄 65 ❤️ 1046 👀 117836 📊 154 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-06-07-2063056196735504796.mp4",
+          "summary": "email integration with chatgpt ChatGPT @ChatGPTapp Draft it. Tweak it. Send it. You can now send emails directly from writing blocks in ChatGPT on the web, without leaving the conversation. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 86 🔄 65 ❤️ 1046 👀 117836 📊 154 ⚡ Powered by xgo.ing",
+          "summaryZh": "与 chatgpt 的电子邮件集成 ChatGPT @ChatGPTapp 起草它。调整一下。发送它。现在，您可以直接从网络上 ChatGPT 中的写入块发送电子邮件，而无需离开对话。 查看引用的推文。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "视频"
+          ],
+          "score": 44
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Running Python code in a sandbox with MicroPython and WASM",
+          "titleZh": "使用 MicroPython 和 WASM 在沙箱中运行 Python 代码",
+          "link": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything",
+          "publishedAt": "2026-06-06T03:53:34+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "I've been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I've been looking for. I've released it as an alpha package called micropython-wasm , and I'm using it for a code execution sandbox plugin for Datasette Agent called datasette-agent-micropython . Why do I want a sandbox? What I want from a sandbox WebAssembly looks really promising here MicroPython in WebAssembly Building the first version Try it yourself Should you trust my vibe-coded sandbox? Why do I want a sandbox? My key open source projects - Datasette , LLM , even sqlite-utils - all support plugins. I absolutely love plugins as a mechanism for extending software. A carefully designed plugin system reduces the risk involved in trying new things to almost nothing - even the wildest ideas won't leave a lasting influence on the core application itself. My software can grow a new feature overnight and I don't even have to review a pull request! There's one major drawback: my plugin systems all use Python and Pluggy , and plugin code executes with full privileges within my applications. A buggy or malicious plugin could break everything or leak private data. I'd love to be able to run plugin-style code in an environment where it is unable to read unapproved files, connect to a network, or generally operate in a way that's risky or harmful to the rest of the application or the user's computer. My interest covers more than just plugins. For Datasette in particular there are many features I'd like to support where arbitrary code execution would be useful. I've already experimented with this for Datasette Enrichments , where code can be used to transform values stored in a table. I'd love to build a mechanism where you can run code on a schedule that fetches JSON from an approved location, runs a tiny bit of code to reformat it into a list of dictionaries, then inserts those as rows in a SQLite database table. What I want from a sandbox My goal is to execute code safely within my own Python applications. Here's what I need: Dependencies that cleanly install from PyPI , including binary wheels across multiple platforms if necessary. I don't want people using my software to have to take any extra steps beyond directly installing my Python package. Executed code must be subject to both memory and CPU limits. I don't want while True: s += \"longer string\" to crash my application or the user's computer. File access must be strictly controlled . Either no filesystem access at all or I get to define exactly which files can be read and which files can be written to. Network access is controlled as well . Sandboxed code should not be able to communicate with anything without going through a layer I fully control. Support for interaction with host functions . A sandbox isn't much use if I can't carefully expose selected platform features to the code that it's running. It has to be robust, supported, and clearly documented . I've lost count of the number of sandbox projects I've seen in repos with warnings that they aren't actively maintained! WebAssembly looks really promising here Web browsers operate in the most hostile environment imaginable when it comes to malicious code. Their job is to download and execute untrusted code from the web on almost every page load. Given this, JavaScript engines should be excellent candidates for sandboxes. Sadly those engines are also extremely complicated, and are not designed for easy embedding in other projects. Most of the V8-in-Python projects I've seen are infrequently maintained and come with warnings not to use them with completely untrusted code. WebAssembly is a much better candidate. It was designed from the start to support all of the characteristics I care about and has been tested in browsers for nearly a decade. The wasmtime Python library brings WASM to Python, is actively maintained, and has binary wheels. MicroPython in WebAssembly WebAssembly engines like wasmtime run WebAssembly binaries. Some programming languages like Rust are easy to compile directly to WebAssembly. Dynamic languages like JavaScript and Python are harder - they support language primitives like eval() , which means they need a full interpreter available at runtime. To run Python we need a full Python interpreter compiled to WebAssembly, wired up in a way that makes it easy to feed it code, hook up host functions and access the results. Pyodide offers an outstanding package for running Python using WebAssembly in the browser, but using Pyodide in server-side Python isn't supported. The most recent advice I could find was from October 2024 stating \"Pyodide is built by the Emscripten toolchain and can only run in a browser or Node.js\". The other day I decided to take a look at MicroPython as an option for this. The MicroPython site says: MicroPython is a lean and efficient implementation of the Python 3 programming language that includes a small subset of the Python standard library and is optimised to run on microcontrollers and in constrained environments. WebAssembly sure feels like a constrained environment to me! Building the first version I had GPT-5.5 Pro do some research for me , which turned up this PR against MicroPython by Yamamoto Takahashi titled \"Experimental WASI support for ports/unix\". It then produced this research.md document , so I let Codex Desktop and GPT-5.5 high loose on it to see what would happen: read the research.md document and build this. You will probably need to write a script that compiles a custom WASM version of MicroPython as part of this project - fetch the MicroPython code to a /tmp directory for this as part of that script. It worked. I now had a prototype Python library that could execute Python code inside a WebAssembly sandbox! The trickiest piece to solve was persistent interpreter state. The WASM build we are using here exposes a single entry point which starts the interpreter, runs the code and then stops the interpreter at the end. This works fine for one-off scripts, but for Datasette Agent I want variables and functions to stay resident in memory so I can reuse them across multiple code execution calls. A neat thing about working with coding agents is that you can get from an idea to a proof of concept quickly. I prompted: For keeping variables resident: what if we ran code inside micropython itself which called a host function get_next_python_code() and then passed that to eval() - and that host function blocked until new code was available, maybe by running in a thread with a queue? Could that or a similar idea help here? After some iteration we got to a version of this that works! In Python code you can now do this: from micropython_wasm import MicroPythonSession with MicroPythonSession () as session : print ( session . run ( \"x = 10 \\n print(x)\" ). stdout ) print ( session . run ( \"x += 5 \\n print(x)\" ). stdout ) print ( session . run ( \"print(x * 2)\" ). stdout ) Under the hood this starts a thread, sets up a request queue and then sends messages to that queue for the session.run() command, each time waiting on a reply queue for the result of that execution. Inside WASM the MicroPython interpreter blocks waiting for a __session_next__() host function to return the next line of code, which it runs eval() on before calling __session_result__({\"id\": request_id, \"ok\": True}) when each block has been successfully executed. The other piece of complexity was supporting host functions, so my Python library could selectively expose functions that could then be called by code running in MicroPython. Codex ended up solving this with 78 lines of C , which ends up compiled into the 362KB WebAssembly blob I'm distributing with the package. I am by no means a C programmer, but I've read the C and had two different models explain it to me (here's Claude's explanation ) and I've subjected it to a barrage of tests. The great thing about working with WebAssembly is that if the C turns out to be fatally flawed the worst that can happen is the WebAssembly execution will fail with an exception. I can live with that risk. Memory limits are directly supported by wasmtime. CPU limits are a little harder: wasmtime offers a \"fuel\" concept to limit how many operations a WebAssembly call can execute, and that's the correct fit for this problem, but the units are hard to reason about. I'm experimenting with a 20 million default \"fuel\" setting now but I'm not confident that it's the most appropriate value. Try it yourself The micropython-wasm alpha is now live on PyPI . You can try it from your own Python code as described in the README . I've also added a simple CLI mode in version 0.1a2 which means you can try it using uvx without first installing it like so: uvx micropython-wasm -c ' print(\"Hello world\") ' # To see it run out of fuel: uvx micropython-wasm -c ' s = \"\"; while True: s += \"longer\" ' # Outputs: micropython-wasm: guest exited with code 1 You can also try it in Datasette Agent like this: uvx llm keys set openai # Paste in an OpenAI key, then: uvx --with datasette-agent \\ --with datasette-agent-micropython \\ --prerelease allow \\ datasette --internal internal.db \\ -s plugins.datasette-llm.default_model gpt-5.5 \\ --root -o Then navigate to http://127.0.0.1:8001/-/agent and run the prompt: show me some micropython You can try a live demo of that plugin running in Datasette Agent by signing into agent.datasette.io with your GitHub account. Should you trust my vibe-coded sandbox? Having complained about immature, loosely-maintained sandboxing libraries, it's deeply ironic that I've now built my own! I deliberately slapped an alpha release version on it, and I'm not ready to recommend it to anyone who isn't willing to take a significant risk. I've put it through enough testing that I'm OK using it myself. I've shipped my first plugin that uses it, datasette-agent-micropython . I've also locked GPT-5.5 xhigh in that Datasette Agent plugin and challenged it to break out of the sandbox and so far it has not managed to. I'm hoping this implementation can convince some companies with professional security teams and high-stakes problems to commit to using Python in WebAssembly as a sandboxing approach and open source their own solutions. Tags: python , sandboxing , ai , datasette , webassembly , generative-ai , llms , ai-assisted-programming , codex , datasette-agent , micropython",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://static.simonwillison.net/static/2026/micropython-in-datasette-agent.jpg",
+          "video": "",
+          "summary": "I've been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I've been looking for. I've released it as an alpha package called micropython-wasm , and I'm using it for a code execution sandbox plugin for Datasette Agent called datasette-agent-micropython . Why do I want a sandbox? What I want from a sandbox WebAssembly looks really promising here MicroPython in WebAssembly Building the first...",
+          "summaryZh": "**核心要点** 几年来我一直在尝试在沙箱中运行代码的不同方法，但我最近的尝试感觉它可能最终具有我一直在寻找的所有特征。我已将其作为名为 micropython-wasm 的 alpha 包发布，并将其用作 Datasette Agent 的代码执行沙箱插件，名为 datasette-agent-micropython。为什么我需要沙箱？我想要从沙箱 WebAssembly 中得到的东西在这里看起来非常有前途 WebAssembly 中的 MicroPython 构建第一个...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "开源",
+            "RAG"
+          ],
+          "score": 42
+        },
+        {
+          "title": "Learning Visual Spatial Planning from Symbolic State via Modality-Gap-Aware Self-Distillation",
+          "titleZh": "通过模态间隙感知自蒸馏从符号状态学习视觉空间规划",
+          "link": "https://arxiv.org/abs/2606.06076",
+          "publishedAt": "Sat, 06 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.06076v1 Announce Type: new Abstract: While vision-language models excel at general multimodal understanding, they still struggle with visual spatial planning. We attribute this to a perception-reasoning modality gap: visual planning requires models to infer latent state structures from pixels and then reason over the recovered structure to produce valid actions, whereas symbolic planning directly leverages explicit objects and constraints. This creates dual bottlenecks in visual state recovery and multi-step planning. To address this, we propose MGSD, a two-stage modality-gap-aware self-distillation framework. First, a cold-start grounding stage equips the visual student with reliable state representations, minimizing early perception noise. Second, a privileged teacher transfers planning capabilities via on-policy distillation, using explicit symbolic states to supervise the student's own visual rollout prefixes. Crucially, symbolic data is used strictly during training, leaving inference purely visual. Experiments on visual planning benchmarks show that MGSD consistently improves visual planning across both 4B and 8B backbones, raising the macro average by 19.3% and 18.4%, respectively. The resulting models narrow the gap to symbolic-input upper bounds, while ablations and diagnostics confirm that the improvement comes from both visual state recovery and optimal-path reasoning. These results suggest that modality-gap-aware self-distillation improves not only how models perceive actionable states, but also how they plan over the inferred structure. Code is available at https://github.com/Oranger-l/MGSD.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.06076v1 Announce Type: new Abstract: While vision-language models excel at general multimodal understanding, they still struggle with visual spatial planning. We attribute this to a perception-reasoning modality gap: visual planning requires models to infer latent state structures from pixels and then reason over the recovered structure to produce valid actions, whereas symbolic planning directly leverages explicit objects and constraints. This creates dual bottlenecks in visual state recovery and mul...",
+          "summaryZh": "**核心结论** 「通过模态间隙感知自蒸馏从符号状态学习视觉空间规划」要解决的问题是：虽然视觉语言模型擅长一般的多模态理解，但它们仍然在视觉空间规划方面遇到困难。我们将其归因于感知推理模态差距：视觉规划需要模型从像素推断潜在状态结构，然后对恢复的结构进行推理以产生有效的动作，而符号规划直接利用显式对象和约束。这造成了视觉状态恢复和多…的双重瓶颈。 **支撑证据** 摘要与公开信息显示：arXiv:2606.06076v1 虽然视觉语言模型擅长一般的多模态理解，但它们仍然在视觉空间规划方面遇到困难。我们将其归因于感知推理模态差距：视觉规划需要模型从像素推断潜在状态结构，然后对恢复的结构进行推理以产生有效的动作，而符号规划直接利用显式对象和约束。这造成了视觉状态恢复和多...的双重瓶颈。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "推理能力",
+            "多模态",
+            "评测",
+            "开源"
+          ],
+          "score": 39
+        },
+        {
+          "title": "AdaPlanBench: Evaluating Adaptive Planning in Large Language Model Agents under World and User Constraints",
+          "titleZh": "AdaPlanBench：在世界和用户约束下评估大语言模型代理的自适应规划",
+          "link": "https://huggingface.co/papers/2606.05622",
+          "publishedAt": "2026-06-06T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Hugging Face Papers 2026-06-07 排名第 4 的论文候选。",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-06-07 排名第 4 的论文候选。",
+          "summaryZh": "**核心结论** 「AdaPlanBench：在世界和用户约束下评估大语言模型代理的自适应规划」要解决的问题是：Hugging Face Papers 2026-06-07 排名第 4 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-06-07 排名第 4 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "论文"
+          ],
+          "score": 38
+        },
+        {
+          "title": "Harnessing Generalist Agents for Contextualized Time Series",
+          "titleZh": "利用多面手智能体实现情境化时间序列",
+          "link": "https://arxiv.org/abs/2606.05404",
+          "publishedAt": "Sat, 06 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.05404v1 Announce Type: new Abstract: Time series are often embedded in rich contexts that are essential for holistic modeling. Moreover, real-world practitioners often require end-to-end workflows for analyzing temporal dynamics, where widely studied tasks such as forecasting are only one step in a broader solution loop. While generalist AI agents offer a promising interface for such workflows under complex contexts, they still operate primarily in textual spaces that are not fully aligned with structured temporal signals. In this work, we introduce TimeClaw, an agentic harness framework for time series that equips generalist LLM agents with the time series-native runtime support needed for contextualized temporal reasoning. TimeClaw integrates executable temporal tools for grounded and auditable analysis, experience-driven capability evolution for creating reusable analytical routines, and episodic multimodal memory for retrieving relevant reasoning traces. Together, these components unlock harnessed open-ended temporal reasoning with contextual information. Extensive evaluation on multiple benchmarks covering diverse tasks across energy, finance, weather, traffic, and other real-world domains demonstrates improved performance of TimeClaw. Code is available at https://github.com/iDEA-iSAIL-Lab-UIUC/TimeClaw.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.05404v1 Announce Type: new Abstract: Time series are often embedded in rich contexts that are essential for holistic modeling. Moreover, real-world practitioners often require end-to-end workflows for analyzing temporal dynamics, where widely studied tasks such as forecasting are only one step in a broader solution loop. While generalist AI agents offer a promising interface for such workflows under complex contexts, they still operate primarily in textual spaces that are not fully aligned with struct...",
+          "summaryZh": "**核心结论** 「利用多面手智能体实现情境化时间序列」要解决的问题是：时间序列通常嵌入到对整体建模至关重要的丰富上下文中。此外，现实世界的从业者通常需要端到端的工作流程来分析时间动态，其中广泛研究的任务（例如预测）只是更广泛的解决方案循环中的一步。虽然通才人工智能代理为复杂环境下的此类工作流程提供了一个有前途的界面，但它们仍然主要在与结构不完全一致的文本空间中运行。 **支撑证据** 摘要与公开信息显示：arXiv:2606.05404v1 时间序列通常嵌入到对整体建模至关重要的丰富上下文中。此外，现实世界的从业者通常需要端到端的工作流程来分析时间动态，其中广泛研究的任务（例如预测）只是更广泛的解决方案循环中的一步。虽然通才人工智能代理为复杂环境下的此类工作流程提供了一个有前途的界面，但它们仍然主要在与结构不完全一致的文本空间中运行...... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 38
+        },
+        {
+          "title": "VideoKR: Towards Knowledge- and Reasoning-Intensive Video Understanding",
+          "titleZh": "VideoKR：迈向知识和推理密集型视频理解",
+          "link": "https://huggingface.co/papers/2606.05259",
+          "publishedAt": "2026-06-06T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Hugging Face Papers 2026-06-07 排名第 5 的论文候选。",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-06-07 排名第 5 的论文候选。",
+          "summaryZh": "**核心结论** 「VideoKR：迈向知识和推理密集型视频理解」要解决的问题是：Hugging Face Papers 2026-06-07 排名第 5 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-06-07 排名第 5 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "推理能力",
+            "论文",
+            "视频"
+          ],
+          "score": 37
+        },
+        {
+          "title": "How to Stop Shipping Low-Quality RL Environments (with Examples)",
+          "titleZh": "如何停止交付低质量的 RL 环境（附示例）",
+          "link": "https://www.latent.space/p/bad-envs",
+          "publishedAt": "Fri, 05 Jun 2026 18:49:40 GMT",
+          "source": "Latent Space",
+          "sourceType": "research",
+          "description": "Your broken harness is actively making the model worse. Here's what I keep seeing after years of eyeballing trajectories, and what you need to fix.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://substackcdn.com/image/fetch/$s_!VqbO!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fswyx.substack.com%2Fapi%2Fv1%2Fpost_preview%2F200799194%2Ftwitter.jpg%3Fversion%3D4",
+          "video": "",
+          "summary": "Your broken harness is actively making the model worse. Here's what I keep seeing after years of eyeballing trajectories, and what you need to fix.",
+          "summaryZh": "**核心要点** 这篇文章提醒做 **RL 训练环境** 和 **agent 评测 harness** 的团队，一个设计不当的环境不仅会让分数失真，还可能把模型往错误方向优化。作者基于长期观察轨迹的经验，点名批评常见问题，例如奖励设计和真实任务脱节、环境状态暴露不完整、失败原因不可追踪，以及评测脚本把脆弱实现误当成能力提升。 **展开说明** 文章不是在讲某个新算法，而是在讲训练基础设施本身如何决定你最终得到什么模型。对于正在做工具调用、长链路代理和自动化评测的团队，这类环境质量问题会直接影响训练数据、回放分析和后续迭代方向。 **我的判断** 这类经验总结对当下的 agent 研发很有现实价值，因为很多团队现在的瓶颈并不在模型本体，而在任务环境和评测回路是否靠谱；如果后续作者给出更系统的检查清单或案例拆解，值得继续跟进。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型"
+          ],
+          "score": 27
+        },
+        {
+          "title": "micropython-wasm 0.1a2",
+          "titleZh": "micropython-wasm 0.1a2 新增命令行接口",
+          "link": "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything",
+          "publishedAt": "2026-06-06T04:26:06+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Release: micropython-wasm 0.1a2 I added a CLI to micropython-wasm ( issue #7 ), inspired by the first draft of the blog entry when I realized it would be a great way to illustrate the Try it yourself section. Tags: python , sandboxing , webassembly , micropython",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Release: micropython-wasm 0.1a2 I added a CLI to micropython-wasm ( issue #7 ), inspired by the first draft of the blog entry when I realized it would be a great way to illustrate the Try it yourself section. Tags: python , sandboxing , webassembly , micropython",
+          "summaryZh": "**核心要点** **micropython-wasm 0.1a2** 发布，作者为这个能在 **WebAssembly** 环境里运行的 MicroPython 项目补上了 **CLI**，让开发者不只是在网页里点示例，而是可以直接从命令行启动、测试和演示运行流程。这个更新的重点不是大版本能力跃迁，而是把“可试用性”和“可讲解性”补齐。 **展开说明** Simon Willison 提到，这个 CLI 的想法来自他在写博客草稿时意识到，原本的“Try it yourself”部分如果没有命令行入口，读者很难快速复现。对做浏览器沙箱、轻量 Python 运行时和教学型实验环境的人来说，这类工具化改进往往比抽象功能描述更有用。 **我的判断** 这是偏工程体验层的更新，但对想把 Python 运行时嵌进浏览器、文档或交互式 demo 的开发者有参考价值；后续值得看它是否继续补齐包管理、文件系统或与前端工具链的集成能力。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布"
+          ],
+          "score": 27
+        },
+        {
+          "title": "OpenAI Help: Lockdown Mode",
+          "titleZh": "OpenAI 帮助：锁定模式",
+          "link": "https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/#atom-everything",
+          "publishedAt": "2026-06-05T23:56:40+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "OpenAI Help: Lockdown Mode OpenAI first teased this in February , but now it's live and \"rolling out to eligible personal accounts, including Free, Go, Plus, and Pro, and self-serve ChatGPT Business accounts\": Lockdown Mode is designed to help prevent the final stage of data exfiltration from a prompt injection attack by limiting outbound network requests that could transfer sensitive data to an attacker. Lockdown Mode does not prevent prompt injections from appearing in the content ChatGPT processes. For example, a prompt injection could appear in cached web content or in an uploaded file, and could still affect the behavior or accuracy of a response. This looks really good to me. The Lethal Trifecta occurs when an LLM system has access to all three of access to private data, exposure to untrusted content and a way to steal data and transmit it back to the attacker. The only way to solve the trifecta is to cut off one of the three legs, and by far the easiest leg to restrict without making your LLM systems far less useful is the exfiltration vectors to steal data. It looks to me like lockdown mode directly attacks that leg, using mechanisms that are deterministic and, crucially, are not evaluated by AI systems that themselves can be subverted by sufficiently devious attacks. The existence of lockdown mode does however imply that ChatGPT, in its default settings, does not provide robust protection against sufficiently determined data exfiltration attacks! Update : This tweet OpenAI CISO Dane Stuckey: Lockdown mode is not meant for everyone. However, for folks who have an elevated risk profile - due to who they are, what they work on, or the types of data they work with - it's an excellent tool for further securing themselves. This has some tradeoffs on functionality and utility, but for these users, the tradeoff is worthwhile. Tags: security , ai , openai , prompt-injection , llms , lethal-trifecta",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "OpenAI Help: Lockdown Mode OpenAI first teased this in February , but now it's live and \"rolling out to eligible personal accounts, including Free, Go, Plus, and Pro, and self-serve ChatGPT Business accounts\": Lockdown Mode is designed to help prevent the final stage of data exfiltration from a prompt injection attack by limiting outbound network requests that could transfer sensitive data to an attacker. Lockdown Mode does not prevent prompt injections from appearing in the content ChatGPT processes. For exampl...",
+          "summaryZh": "**核心要点** OpenAI 帮助：锁定模式 OpenAI 在 2 月份首次提出这一点，但现在它已经上线，并且“向符合条件的个人帐户推出，包括 Free、Go、Plus 和 Pro，以及自助式 ChatGPT 商业帐户”：锁定模式旨在通过限制可能将敏感数据传输给攻击者的出站网络请求，帮助防止即时注入攻击导致数据泄露的最后阶段。锁定模式不会阻止提示注入出现在内容 ChatGPT 进程中。例如...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 23
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "Gemma 4 Quantization-Aware Training (QAT) weights are now available on Ollama! They reduce memory ...",
+          "titleZh": "Gemma 4 量化感知训练 (QAT) 权重现已在 Ollama 上提供",
+          "link": "https://x.com/ollama/status/2062965815864066079",
+          "publishedAt": "Fri, 05 Jun 2026 18:32:33 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "description": "Gemma 4 Quantization-Aware Training (QAT) weights are now available on Ollama! They reduce memory requirements while maintaining model quality. E2B: ollama run gemma4:e2b-it-qat E4B: ollama run gemma4:e4b-it-qat 12B: ollama run gemma4:12b-it-qat 26B: ollama run gemma4:26b-a4b-it-qat 31B: ollama run gemma4:31b-it-qat Try them with ollama launch integrations to use with your favorite tools 👇👇👇 Google Gemma @googlegemma We just dropped Gemma 4 Quantization-Aware Training (QAT) checkpoints on Hugging Face! All Gemma 4 model sizes and their drafters are now optimized with QAT to cut memory requirements and maximize on-device performance! 🔗 View Quoted Tweet 💬 27 🔄 125 ❤️ 1205 👀 83113 📊 204 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Gemma 4 Quantization-Aware Training (QAT) weights are now available on Ollama! They reduce memory requirements while maintaining model quality. E2B: ollama run gemma4:e2b-it-qat E4B: ollama run gemma4:e4b-it-qat 12B: ollama run gemma4:12b-it-qat 26B: ollama run gemma4:26b-a4b-it-qat 31B: ollama run gemma4:31b-it-qat Try them with ollama launch integrations to use with your favorite tools 👇👇👇 Google Gemma @googlegemma We just dropped Gemma 4 Quantization-Aware Training (QAT) checkpoints on Hugging Face! All Gemma 4 model sizes and their drafters are now optimized with QAT to cut memory requirements and maximize on-device performance! 🔗 View Quoted Tweet 💬 27 🔄 125 ❤️ 1205 👀 83113 📊 204 ⚡ Powered by xgo.ing",
+          "summaryZh": "**Gemma 4 的量化感知训练（QAT）权重** 已经接入 **Ollama**，重点是把 **更低内存占用** 和 **尽量接近原模型质量** 结合起来，方便开发者直接在本地或设备侧运行。当前可直接拉取的规格包括 **E2B、E4B、12B、26B、31B**，对应命令分别是 `gemma4:e2b-it-qat`、`gemma4:e4b-it-qat`、`gemma4:12b-it-qat`、`gemma4:26b-a4b-it-qat` 和 `gemma4:31b-it-qat`。 这意味着 Gemma 4 不只是发布了新的 Hugging Face 检查点，而是已经进入更容易被开发者上手的本地推理分发链路，也可以继续通过 **ollama launch** 接到常用工具里。对关注端侧部署、成本控制和本地 agent 运行的人来说，这是一个值得实测的可用性信号。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型"
+          ],
+          "score": 75
+        },
+        {
+          "title": "What does it take to run vector search at the scale of 20+ billion vectors? At Vector Space Day, Ol...",
+          "titleZh": "在超过 20 亿个向量的规模上运行向量搜索需要什么",
+          "link": "https://x.com/qdrant_engine/status/2063274718468194499",
+          "publishedAt": "Sat, 06 Jun 2026 15:00:01 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "description": "What does it take to run vector search at the scale of 20+ billion vectors? At Vector Space Day, Oleg Tereshin and Xin Liu from @HubSpot will share the story behind building the infrastructure that powers retrieval at massive scale. Building the Infra Behind 20 Billion+ Vectors Learn how @HubSpot evolved from manual, error-prone @qdrant_engine deployments to a fully automated Kubernetes Operator designed for reliability, scalability, and production operations. If you’re managing vector infrastructure, operating Kubernetes at scale, or building retrieval systems in production, this is the kind of talk packed with practical lessons. 📍 The Midway, San Francisco 🗓️ June 11 RSVP luma.com/vsd-sf EF 💬 4 🔄 1 ❤️ 7 👀 217 📊 5 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJlACdRakAI2mwl.jpg",
+          "video": "",
+          "summary": "What does it take to run vector search at the scale of 20+ billion vectors? At Vector Space Day, Oleg Tereshin and Xin Liu from @HubSpot will share the story behind building the infrastructure that powers retrieval at massive scale. Building the Infra Behind 20 Billion+ Vectors Learn how @HubSpot evolved from manual, error-prone @qdrant_engine deployments to a fully automated Kubernetes Operator designed for reliability, scalability, and production operations. If you’re managing vector infrastructure, operating Kubernetes at scale, or building retrieval systems in production, this is the kind of talk packed with practical lessons. 📍 The Midway, San Francisco 🗓️ June 11 RSVP luma.com/vsd-sf EF 💬 4 🔄 1 ❤️ 7 👀 217 📊 5 ⚡ Powered by xgo.ing",
+          "summaryZh": "在超过 20 亿个向量的规模上运行向量搜索需要什么？在矢量空间日上，@HubSpot 的 Oleg Tereshin 和 Xin Liu 将分享构建支持大规模检索的基础设施背后的故事。构建超过 200 亿个向量背后的基础设施 了解 @HubSpot 如何从手动、容易出错的 @qdrant_engine 部署演变为专为可靠性、可扩展性和生产运营而设计的全自动 Kubernetes Operator。如果您正在管理矢量基础设施、大规模操作 Kubernetes 或在生产中构建检索系统，那么这就是充满实践课程的演讲。 旧金山中途岛 6 月 11 日 RSVP luma.com/vsd-sf EF",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 44.42107468403866
+        },
+        {
+          "title": "mvanhorn/last30days-skill",
+          "titleZh": "mvanhorn/last30days-skill：AI 代理技能可研究 Reddit、X、YouT",
+          "link": "https://github.com/mvanhorn/last30days-skill",
+          "publishedAt": "2026-06-06T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/8763990feac80669e911b485107f595df3408ecb212412f5c9c4dcdee3c8d538/mvanhorn/last30days-skill",
+          "video": "",
+          "summary": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "summaryZh": "AI 代理技能可研究 Reddit、X、YouTube、HN、Polymarket 和网络上的任何主题，然后综合得出有依据的摘要（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "CopilotKit/CopilotKit",
+          "titleZh": "CopilotKit/CopilotKit：代理和生成式 UI",
+          "link": "https://github.com/CopilotKit/CopilotKit",
+          "publishedAt": "2026-06-06T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star CopilotKit / CopilotKit The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://private-user-images.githubusercontent.com/66887028/545840497-6f175d86-bd22-4c26-a13a-6013654ed542.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODA3OTk4NTUsIm5iZiI6MTc4MDc5OTU1NSwicGF0aCI6Ii82Njg4NzAyOC81NDU4NDA0OTctNmYxNzVkODYtYmQyMi00YzI2LWExM2EtNjAxMzY1NGVkNTQyLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA2MDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwNjA3VDAyMzIzNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcxY2M4NmQ1ZjYyZjVmNTVmZGFjOWQ5ZDg0ZjYwNzI0ZDZmM2ZkNzkxYjgwNDNjYTZmZmU0ZGY5OGI0MWNkYWUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmdpZiJ9.V0pcMAGFi8J5wEg65gp2Tpjqkvq0EjlsPUEbikKtn2Y",
+          "video": "",
+          "summary": "Star CopilotKit / CopilotKit The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
+          "summaryZh": "代理和生成式 UI 的前端堆栈。 React、Angular、Mobile、Slack 等等。 AG-UI协议的制定者（建议打开仓库查看用法、示例与输出效果。）（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "danielmiessler/Personal_AI_Infrastructure",
+          "titleZh": "danielmiessler/Personal_AI_Infrastructure：个人 AI 基础设施概述：什么是 PAI · 原理",
+          "link": "https://github.com/danielmiessler/Personal_AI_Infrastructure",
+          "publishedAt": "2026-06-06T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Personal AI Infrastructure Overview: What PAI Is · Principles · Features Get Started: Installation · Releases · Packs Resources: FAQ · Roadmap · Community · Contributing Watch the full PAI walkthrough | Read: The Real Internet of Things Important PAI v5.0.0 — Life Operating System — the biggest release in PAI history. PAI is no longer \"AI scaffolding\" — it's a Life Operating System with the unified Pulse daemon (Life Dashboard at localhost:31337 ), a DA (Digital Assistant) identity layer, Algorithm v6.3.0 (Current ",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://repository-images.githubusercontent.com/1052845083/986b3f67-e6d2-4ea1-b583-896f53f5331d",
+          "video": "",
+          "summary": "Personal AI Infrastructure Overview: What PAI Is · Principles · Features Get Started: Installation · Releases · Packs Resources: FAQ · Roadmap · Community · Contributing Watch the full PAI walkthrough | Read: The Real Internet of Things Important PAI v5.0.0 — Life Operating System — the biggest release in PAI history. PAI is no longer \"AI scaffolding\" — it's a Life Operating System with the unified Pulse daemon (Life Dashboard at localhost:31337 ), a DA (Digital Assistant) identity layer, Algorithm v6.3.0 (Current ",
+          "summaryZh": "个人 AI 基础设施概述：什么是 PAI · 原理 · 功能 入门：安装 · 发布 · 包 资源：常见问题解答 · 路线图 · 社区 · 贡献 观看完整的 PAI 演练 |阅读：真正的物联网 重要 PAI v5.0.0 — Life Operating System — PAI 历史上最大的版本。 PAI 不再是“AI 脚手架”——它是一个生活操作系统，带有统一的 Pulse 守护进程（Life Dashboard at localhost:31337）、DA（数字助理）身份层、算法 v6.3.0（当前版本）",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Developers told us building with Codex feels like flying. Go behind the build of Time to Fly 📷",
+          "titleZh": "OpenAI：开发人员告诉我们，使用 Codex 进行构建就像飞翔一样。深入了解《Time to Fly》的构建",
+          "link": "https://x.com/OpenAIDevs/status/2062995624665194959",
+          "publishedAt": "Fri, 05 Jun 2026 20:31:00 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Developers told us building with Codex feels like flying. Go behind the build of Time to Fly 📷 Your browser does not support the video tag. 🔗 View on Twitter 💬 57 🔄 26 ❤️ 704 👀 77314 📊 132 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Developers told us building with Codex feels like flying. Go behind the build of Time to Fly 📷 Your browser does not support the video tag. 🔗 View on Twitter 💬 57 🔄 26 ❤️ 704 👀 77314 📊 132 ⚡ Powered by xgo.ing",
+          "summaryZh": "开发人员告诉我们，使用 Codex 进行构建就像飞翔一样。深入了解 Time to Fly 的构建。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开发者工具",
+            "视频"
+          ],
+          "score": 71.35130763017906
+        },
+        {
+          "title": "Today’s Codex quality-of-life updates start in settings. You can now search Codex settings, with re...",
+          "titleZh": "OpenAI：今天的 Codex 生活质量更新从设置开始",
+          "link": "https://x.com/OpenAIDevs/status/2062987643286438337",
+          "publishedAt": "Fri, 05 Jun 2026 19:59:17 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Today’s Codex quality-of-life updates start in settings. You can now search Codex settings, with results grouped by category, so you can find what you want to change without scanning every section – this makes setup and customization easier. Your browser does not support the video tag. 🔗 View on Twitter 💬 107 🔄 129 ❤️ 2080 👀 373414 📊 352 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-07-2062987643286438337.mp4",
+          "summary": "Today’s Codex quality-of-life updates start in settings. You can now search Codex settings, with results grouped by category, so you can find what you want to change without scanning every section – this makes setup and customization easier. Your browser does not support the video tag. 🔗 View on Twitter 💬 107 🔄 129 ❤️ 2080 👀 373414 📊 352 ⚡ Powered by xgo.ing",
+          "summaryZh": "今天的 Codex 生活质量更新从设置开始。您现在可以搜索 Codex 设置，结果按类别分组，这样您就可以找到想要更改的内容，而无需扫描每个部分 - 这使得设置和自定义变得更加容易。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "Your Codex profile share card now matches your theme and includes any custom pet you’ve selected.",
+          "titleZh": "OpenAI：您的 Codex 个人资料共享卡现在与您的主题相匹配，并包含您选择的任何自定义宠物。",
+          "link": "https://x.com/OpenAIDevs/status/2063043968028569609",
+          "publishedAt": "Fri, 05 Jun 2026 23:43:06 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Your Codex profile share card now matches your theme and includes any custom pet you’ve selected. Your browser does not support the video tag. 🔗 View on Twitter 💬 69 🔄 42 ❤️ 636 👀 53511 📊 137 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-07-2063043968028569609.mp4",
+          "summary": "Your Codex profile share card now matches your theme and includes any custom pet you’ve selected. Your browser does not support the video tag. 🔗 View on Twitter 💬 69 🔄 42 ❤️ 636 👀 53511 📊 137 ⚡ Powered by xgo.ing",
+          "summaryZh": "您的 Codex 个人资料共享卡现在与您的主题相匹配，并包含您选择的任何自定义宠物。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 69.42126945493169
+        },
+        {
+          "title": "Selected as a best paper finalist at #CVPR2026: PixelDiT from NVIDIA Research In most image generat...",
+          "titleZh": "「被选为 #CVPR2026 最佳论文决赛入围者",
+          "link": "https://x.com/NVIDIAAI/status/2063034422698389625",
+          "publishedAt": "Fri, 05 Jun 2026 23:05:10 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "Selected as a best paper finalist at #CVPR2026 : PixelDiT from NVIDIA Research In most image generation models, a pretrained autoencoder compresses the image before any diffusion happens, causing quality loss that accumulates across the entire pipeline. PixelDiT, or Pixel Diffusion Transformers, removes this step entirely. It's a single-stage model that learns the diffusion process directly in pixel space, end-to-end. Your browser does not support the video tag. 🔗 View on Twitter 💬 15 🔄 30 ❤️ 207 👀 18721 📊 47 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-07-2063034422698389625.mp4",
+          "summary": "Selected as a best paper finalist at #CVPR2026 : PixelDiT from NVIDIA Research In most image generation models, a pretrained autoencoder compresses the image before any diffusion happens, causing quality loss that accumulates across the entire pipeline. PixelDiT, or Pixel Diffusion Transformers, removes this step entirely. It's a single-stage model that learns the diffusion process directly in pixel space, end-to-end. Your browser does not support the video tag. 🔗 View on Twitter 💬 15 🔄 30 ❤️ 207 👀 18721 📊 47 ⚡ Powered by xgo.ing",
+          "summaryZh": "**核心结论** 「被选为 #CVPR2026 最佳论文决赛入围者：来自 NVIDIA 研究的 PixelDiT 在大多数图像生成中」要解决的问题是：被选为 #CVPR2026 最佳论文决赛入围者：来自 NVIDIA Research 的 PixelDiT 在大多数图像生成模型中，预训练的自动编码器会在发生任何扩散之前压缩图像，从而导致整个管道中累积的质量损失。PixelDiT（或像素扩散变压器）完全删除了此步骤。它是一个单阶段模型，可以直接在像素空间中端到端地学习扩散过程。 **支撑证据** 摘要与公开信息显示：被选为 #CVPR2026 最佳论文决赛入围者：来自 NVIDIA Research 的 PixelDiT 在大多数图像生成模型中，预训练的自动编码器会在发生任何扩散之前压缩图像，从而导致整个管道中累积的质量损失。 PixelDiT（或像素扩散变压器）完全删除了此步骤。它是一个单阶段模型，可以直接在像素空间中端到端地学习扩散过程。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "论文",
+            "视频",
+            "图像"
+          ],
+          "score": 64.86762507153571
+        },
+        {
+          "title": "Nemotron 3 Ultra is here, and we've got just the tutorial to get you going. Here's how to set up Ul...",
+          "titleZh": "Nemotron 3 Ultra 现已推出，我们为您提供了入门教程",
+          "link": "https://x.com/NVIDIAAI/status/2062987827080499317",
+          "publishedAt": "Fri, 05 Jun 2026 20:00:01 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "Nemotron 3 Ultra is here, and we've got just the tutorial to get you going. Here's how to set up Ultra in your favorite agentic harness + some great demos of the model's capabilities 👇 Your browser does not support the video tag. 🔗 View on Twitter 💬 16 🔄 31 ❤️ 225 👀 15289 📊 53 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-07-2062987827080499317.mp4",
+          "summary": "Nemotron 3 Ultra is here, and we've got just the tutorial to get you going. Here's how to set up Ultra in your favorite agentic harness + some great demos of the model's capabilities 👇 Your browser does not support the video tag. 🔗 View on Twitter 💬 16 🔄 31 ❤️ 225 👀 15289 📊 53 ⚡ Powered by xgo.ing",
+          "summaryZh": "Nemotron 3 Ultra 现已推出，我们为您提供了入门教程。以下是如何在您最喜欢的代理安全带中设置 Ultra + 模型功能的一些精彩演示。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "视频"
+          ],
+          "score": 63.93379386272617
+        },
+        {
+          "title": "Codex now keeps more of your working state across restarts. Unread indicators, prompt drafts, zoom ...",
+          "titleZh": "OpenAI：Codex 现在可以在重新启动后保留更多工作状态",
+          "link": "https://x.com/OpenAIDevs/status/2062987730448216067",
+          "publishedAt": "Fri, 05 Jun 2026 19:59:38 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Codex now keeps more of your working state across restarts. Unread indicators, prompt drafts, zoom level, disabled hotkey preferences, archived-section state, and worktree context all come back the way you expect. 💬 9 🔄 6 ❤️ 354 👀 28607 📊 40 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Codex now keeps more of your working state across restarts. Unread indicators, prompt drafts, zoom level, disabled hotkey preferences, archived-section state, and worktree context all come back the way you expect. 💬 9 🔄 6 ❤️ 354 👀 28607 📊 40 ⚡ Powered by xgo.ing",
+          "summaryZh": "Codex 现在可以在重新启动后保留更多工作状态。未读指示器、提示草稿、缩放级别、禁用的热键首选项、存档部分状态和工作树上下文都会按您期望的方式返回。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 62.575840737922626
+        },
+        
+        {
+          "title": "Claude Design 的小贴士很有意思： ### 第一部分：产品设计心法 1. 交互的本质 - EN: A prototype nobody clicks is just a paintin...",
+          "titleZh": "「Claude Design 的小贴士很有意思： ### 第一部分：产品设计心法 1.",
+          "link": "https://x.com/dotey/status/2063291945972060525",
+          "publishedAt": "Sat, 06 Jun 2026 16:08:28 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "Claude Design 的小贴士很有意思： ### 第一部分：产品设计心法 1. 交互的本质 - EN: A prototype nobody clicks is just a painting. - CN: 没人点击交互的产品原型，充其量只是一幅画罢了。 2. 设计的最高境界 - EN: The best design system is the one nobody notices. - CN: 最好的设计系统，是自然到让人察觉不到它的存在。 3. 字体搭配 - EN: You cannot unsee a bad font pairing. Choose carefully. - CN: 糟糕的字体搭配一旦入眼，就再也忘不掉了。挑选时请务必慎重。 4. 像素级克制 - EN: Every pixel argues for attention. Most should lose. - CN: 屏幕上的每一个像素都在疯狂争夺用户的注意力，但绝大部分像素都应该学会“让步”。 5. 发布的意义 - EN: The fastest way to finish a design is to ship it. - CN: 完成一个设计的绝对捷径，就是把它发布上线。 6. 留白的艺术 - EN: Whitespace is not empty. It is the silence between the notes. - CN: 留白并不代表空洞。它是乐谱上音符之间那迷人的停顿。 7. 色彩法则 - EN: If you need more than three colors, you have zero colors. - CN: 如果你觉得需要三种以上的颜色才能把控画面，那说明你完全失去了对颜色的掌控。 8. 核心规范 - EN: The user's mental model is the only spec that matters. - CN: 用户的心理模型 (mental model)，才是唯一真正重要的产品规范。 --- ### 第二部分：日常实用小妙招 (Info) 9. 去除鞋底口香糖 - EN: Freeze gum with an ice cube for 2 minutes. It peels right off shoes. - CN: 用冰块冷敷口香糖 2 分钟，就能把它从鞋底轻松撕下来。 10. 清洁微波炉 - EN: Microwave a damp paper towel for 30 seconds. Crud wipes right off the inside. - CN: 把湿纸巾放进微波炉里加热 30 秒。微波炉内壁的顽固污垢立刻就能一擦就掉。 11. 拧开滑丝的螺丝 - EN: A rubber band over a stripped screw head gives enough grip to turn it. - CN: 把一根橡皮筋垫在滑丝的螺丝头上，就能增加足够的摩擦力把它拧出来。 12. 修复木家具划痕 - EN: Run walnuts over scratched wood furniture. The oils fill the scratches. - CN: 拿核桃仁在被划伤的木质家具上摩擦。核桃的天然油脂会完美填补那些划痕。 13. 面包保鲜秘诀 - EN: Store bread in the freezer. Toasting it from frozen tastes better than fresh. - CN: 把面包存在冷冻室里。冷冻后再拿去烤，口感甚至比新鲜出炉的还要好。 14. 砧板除味 - EN: Rub a wooden cutting board with lemon and salt to deodorize it completely. - CN: 用柠檬和盐摩擦木质砧板，可以彻底去除难闻的异味。 15. 防止沸水溢出 - EN: Put a wooden spoon across a boiling pot. It won't boil over. - CN: 在沸腾的锅面上横放一把木勺，汤汁就不会溢出来了。 16. 炒出蓬松鸡蛋 - EN: Adding a splash of water instead of milk makes fluffier eggs. Milk makes them dense. - CN: 炒鸡蛋时加一点水而不是牛奶，煎出来的鸡蛋会更蓬松。加牛奶反而会让鸡蛋变紧实。 --- ### 第三部分：Claude 操作与交互技巧 17. 语音控制 - EN: Talk to Claude: tap ⌘G to start voice input, or hold Space in a comment to dictate. - CN: 语音对话 Claude：按下 ⌘G 即可启动语音输入，或者在写评论时按住空格键直接口述。 18. 智能识图 - EN: Drop images here — they auto-attach to your next message as context. - CN: 直接把图片拖到这里——它们会自动附加到你的下一条消息中，作为上下文（Context，即帮助 AI 理解你意图的背景信息）使用。 19. 快捷截图 - EN: ⌘V pastes screenshots straight from your clipboard into the chat view. - CN: 按 ⌘V 可以将剪贴板里的截图直接粘贴到聊天界面中。 20. 代码库读取 - EN: Mount a local folder from the Import menu — Claude reads your codebase live, no copying. - CN: 从“导入”(Import) 菜单挂载本地文件夹——Claude 能实时读取你的代码库 (codebase)，再也不用你手动来回复制粘贴代码了。 21. 导入专业知识 - EN: Attach skills or reference design systems from the Import menu. - CN: 从“导入”菜单中添加特定技能，或者引入你需要参考的设计系统。 22. 精准批注 - EN: Click \"Comment\" in the toolbar, then click any element to annotate it. - CN: 点击工具栏上的“评论”(Comment)，然后点击界面上的任何元素，就可以给它添加批注了。 23. 批量发送 - EN: Leave multiple comments before sending — they all batch into one message. - CN: 你可以在发送前留下多条评论——它们会被打包合并成一条消息一起发给 Claude。 24. 原地修改文本 - EN: Text edit mode lets you click text in the preview and rewrite it in-place. - CN: 开启文本编辑模式后，你只需在预览区域点击文字，就能原地修改它。 25. 输入框管理 - EN: Comments and text edits appear as chips in the composer. Remove any you don't want. - CN: 你的评论和文本修改会变成输入框里的一块块小标签 (chips)。遇到不满意的，随时点叉删掉就行。 26. 实时 UI 调试 - EN: Knobs mode lets you drag-adjust CSS values live — sizes, colors, spacing. Use a prompt to control the UI. - CN: 在“旋钮模式”(Knobs mode) 下，你可以像拧收音机旋钮一样，通过拖拽来实时调整 CSS（层叠样式表，网页外观设计的代码语言）数值，比如大小、颜色和间距。你也可以直接用提示词 (prompt) 来控制用户界面 (UI)。 27. 产品原型进化 - EN: \"Prototype\" starts at wireframes, moves to hi-fi, and ends as a working interactive app. - CN: “原型”(Prototype) 功能带你走完产品设计的全流程：从简单的线框图开始，进化到高保真设计图，最终变成一个真正能点、能用的交互式应用。 28. 生成演讲稿 - EN: Turn on speaker notes when creating decks to get a full presenter script. - CN: 让 AI 帮你制作幻灯片 (decks) 时，记得打开“演讲者备注”(speaker notes)，这样你就能直接获得一份完整的演讲稿。 29. 沉淀工作流 - EN: Ask Claude to \"save this as a template\" — it packages the workflow for reuse. - CN: 告诉 Claude“把这个保存为模板”——它就会把这套工作流 (workflow) 打包，方便你下次直接复用。 30. 多格式导出 - EN: The Share menu lets you export as PPTX, PDF, or a folder to give to Claude Code. - CN: 通过“分享”(Share) 菜单，你可以把作品导出为 PPTX、PDF，或者打包成一个文件夹交给 Claude Code（Anthropic 推出的面向开发者的命令行 AI 编程助手）。 31. 无缝对接开发 - EN: \"Handoff to Claude Code\" creates a dev-ready package with specs and structure. Download it, then tell Claude Code \"create this design.\" - CN: “移交至 Claude Code”(Handoff to Claude Code) 功能会为你生成一个包含规范和结构的“开发就绪”数据包。下载它，然后直接告诉 Claude Code：“帮我把这个设计写成代码。” 32. 切换模型大脑 - EN: Use the Gear next to the Send button to change model. - CN: 点击发送按钮旁边的齿轮图标，即可随时切换不同的大语言模型 (LLM)。 33. 原型内嵌 API - EN: Claude can call the Claude API from inside your prototypes. No backend needed. - CN: Claude 甚至可以直接在你的产品原型中调用 Claude API（应用程序编程接口，相当于连接 AI 大脑的通道）。完全不需要写任何后端代码！ 34. 网页语音交互 - EN: Ask Claude to use the Web Speech API for interactive voice input and output. - CN: 试试让 Claude 调用 Web Speech API（浏览器内置的语音合成与识别接口），让你的网页直接实现可以对话的语音输入与输出。 35. 手绘草图 - EN: The napkin sketch tool lets you draw freehand — great for rough layouts. - CN: “餐巾纸草图”(napkin sketch) 工具允许你随心所欲地手绘涂鸦——非常适合用来勾勒粗略的排版布局。 36. 捕获真实网页 - EN: Import → Web Capture lets you copy elements from real web pages and paste them to Claude. - CN: 使用“导入”→“网页捕获”(Web Capture)，你可以直接从真实的网页上复制元素，然后原封不动地粘贴给 Claude。 💬 22 🔄 19 ❤️ 129 👀 11614 📊 60 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Claude Design 的小贴士很有意思： ### 第一部分：产品设计心法 1. 交互的本质 - EN: A prototype nobody clicks is just a painting. - CN: 没人点击交互的产品原型，充其量只是一幅画罢了。 2. 设计的最高境界 - EN: The best design system is the one nobody notices. - CN: 最好的设计系统，是自然到让人察觉不到它的存在。 3. 字体搭配 - EN: You cannot unsee a bad font pairing. Choose carefully. - CN: 糟糕的字体搭配一旦入眼，就再也忘不掉了。挑选时请务必慎重。 4. 像素级克制 - EN: Every pixel argues for attention. Most should lose. - CN: 屏幕上的每一个像素都在疯狂争夺用户的注意力，但绝大部分像素都应该学会“让步”。 5. 发布的意义 - EN: The fastest way to finish a design is to ship it. - CN:...",
+          "summaryZh": "**核心结论** 「Claude Design 的小贴士很有意思： ### 第一部分：产品设计心法 1. 交互的本质 - EN: A prototype nobody clicks is just a paintin」要解决的问题是：Claude Design 的小贴士很有意思： ### 第一部分：产品设计心法 1. 交互的本质 - EN: A prototype nobody clicks is just a painting. - CN: 没人点击交互的产品原型，充其量只是一幅画罢了。2. 设计的最高境界 - EN: The best design system is the one nobody notices. - CN: 最好的设计系统，是自然到让人察觉不到它的存在。3. 字体搭配 - EN: You cannot unsee a bad font pairing. Choose carefully. - CN: 糟糕的字体搭配一旦入眼，就再也忘不掉了。 **支撑证据** 摘要与公开信息显示：Claude Design 的小贴士很有意思： ### 第一部分：产品设计心法 1. 交互的本质 - EN: A prototype nobody clicks is just a painting. - CN: 没人点击交互的产品原型，充其量只是一幅画罢了。 2. 设计的最高境界 - EN: The best design system is the one nobody notices. - CN: 最好的设计系统，是自然到让人察觉不到它的存在。 3. 字体搭配 - EN: You cannot unsee a bad font pairing. Choose carefully. - CN: 糟糕的字体搭配一旦入眼，就再也忘不掉了。挑选时请务必慎重。 4. 像素级克制 - EN: Every pixel argues for attention. Most should lose. - CN: 屏幕上的每一个像素都在疯狂争夺用户的注意力，但绝大部分像素都应该学会“让步”。 5. 发布的意义 - EN: The fastest way to finish a design is to ship it. - CN:... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。（要点：「Claude Design 的小贴士很有意思： ### 第一部分：产品设计心法 1.。）",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "API",
+            "论文",
+            "RAG",
+            "语音"
+          ],
+          "score": 60.51709005777728
+        },
+        {
+          "title": "We've doubled usage limits in Claude Cowork for the next month. Delegate bigger, more complex tasks...",
+          "titleZh": "我们将下个月 Claude Cowork 的使用限制增加了一倍",
+          "link": "https://x.com/claudeai/status/2063018337567670285",
+          "publishedAt": "Fri, 05 Jun 2026 22:01:15 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "description": "We've doubled usage limits in Claude Cowork for the next month. Delegate bigger, more complex tasks to Claude. 💬 687 🔄 767 ❤️ 12293 👀 1371425 📊 1781 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-07-2063018337567670285.mp4",
+          "summary": "We've doubled usage limits in Claude Cowork for the next month. Delegate bigger, more complex tasks to Claude. 💬 687 🔄 767 ❤️ 12293 👀 1371425 📊 1781 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们将下个月 Claude Cowork 的使用限制增加了一倍。将更大、更复杂的任务委托给Claude。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 60
+        },
+        {
+          "title": "New Anthropic Science Blog: Making Claude a chemist. To manipulate a molecule, chemists first need ...",
+          "titleZh": "新人类科学博客：让Claude成为一名化学家。为了操纵分子，化学家首先需要",
+          "link": "https://x.com/AnthropicAI/status/2062979607448682731",
+          "publishedAt": "Fri, 05 Jun 2026 19:27:21 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "description": "New Anthropic Science Blog: Making Claude a chemist. To manipulate a molecule, chemists first need to understand its structure. Their main tool is NMR spectroscopy. We found Opus 4.7 matches—and on some tasks beats—dedicated NMR software. Read more: anthropic.com/research/makin… 💬 212 🔄 353 ❤️ 3170 👀 335422 📊 624 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "New Anthropic Science Blog: Making Claude a chemist. To manipulate a molecule, chemists first need to understand its structure. Their main tool is NMR spectroscopy. We found Opus 4.7 matches—and on some tasks beats—dedicated NMR software. Read more: anthropic.com/research/makin… 💬 212 🔄 353 ❤️ 3170 👀 335422 📊 624 ⚡ Powered by xgo.ing",
+          "summaryZh": "新人类科学博客：让Claude成为一名化学家。为了操纵分子，化学家首先需要了解其结构。他们的主要工具是核磁共振波谱。我们发现 Opus 4.7 与专用 NMR 软件相匹配，并且在某些任务上优于专用 NMR 软件。阅读更多：anthropic.com/research/makin…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "Token是如何定价的 | Reiner Pope | Roofline分析",
+          "titleZh": "Token是如何定价的 | Reiner Pope | Roofline分析",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a181e707460cabdeb575154",
+          "publishedAt": "2026-06-05T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「Token是如何定价的 | Reiner Pope | Roofline分析」。最近，来自科技播客德瓦凯什·帕特尔（Dwarkesh Patel）的一期硬核节目，恰好完整解答了Token定价、大模型训练与推理成本的所有底层逻辑。这期节目采用了全新的黑板工作室形式。而第一期邀请到的嘉宾，是AI芯片创业圈的重量级人物，莱纳·波普（Reiner Pope），他用7个数学方程，给我们清晰计算出了一个Token从生成到计费的完整报价单。原视频来自： **简介要点**： - 最近，来自科技播客德瓦凯什·帕特尔（Dwarkesh Patel）的一期硬核节目，恰好完整解答了Token定价、大模型训练与推理成本的所有底层逻辑。 - 而第一期邀请到的嘉宾，是AI芯片创业圈的重量级人物，莱纳·波普（Reiner Pope），他用7个数学方程，给我们清晰计算出了一个Token从生成到计费的完整报价单。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "硅谷科技评论",
+      "url": "https://wechat2rss.bestblogs.dev/feed/4515ee058133ff68570ad586abdd81f54f2b6ee3.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/4515ee058133ff68570ad586abdd81f54f2b6ee3.xml"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "歸藏的AI工具箱",
+      "url": "https://wechat2rss.bestblogs.dev/feed/1c3e3571b1627d23ee9c64521a0b0a41d3fe2987.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/1c3e3571b1627d23ee9c64521a0b0a41d3fe2987.xml"
+    },
+    {
+      "source": "智谱",
+      "url": "https://wechat2rss.bestblogs.dev/feed/433d2134dca54d80804daf32e8be546155be3300.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/433d2134dca54d80804daf32e8be546155be3300.xml"
+    },
+    {
+      "source": "月之暗面 Kimi",
+      "url": "https://wechat2rss.bestblogs.dev/feed/c5c43d4bc17bae656763859ed0903bb6314ec6fe.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/c5c43d4bc17bae656763859ed0903bb6314ec6fe.xml"
+    },
+    {
+      "source": "通义大模型",
+      "url": "https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/4ebee6222ae08705b8aabc9116f0defbcb6b17c6.xml"
+    },
+    {
+      "source": "百度AI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/d0767d885e6ba213344fb0c0408c51331e23a994.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/d0767d885e6ba213344fb0c0408c51331e23a994.xml"
+    },
+    {
+      "source": "HelloGitHub",
+      "url": "https://wechat2rss.bestblogs.dev/feed/e6cc80b97bf64eeef61cc5927c78ba6ce3356422.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/e6cc80b97bf64eeef61cc5927c78ba6ce3356422.xml"
+    },
+    {
+      "source": "腾讯混元",
+      "url": "https://wechat2rss.bestblogs.dev/feed/306ce19a1ca590c9c2df781789e828d1acfa1356.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/306ce19a1ca590c9c2df781789e828d1acfa1356.xml"
+    },
+    {
+      "source": "智东西",
+      "url": "https://wechat2rss.bestblogs.dev/feed/cfd52b4245ca6119b2fda4ef934832c689028927.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/cfd52b4245ca6119b2fda4ef934832c689028927.xml"
+    },
+    {
+      "source": "大模型智能",
+      "url": "https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/bfc6440c1a2443fab9a6bf607137d41db5cd5c93.xml"
+    },
+    {
+      "source": "AI炼金术",
+      "url": "https://wechat2rss.bestblogs.dev/feed/4915f3747653bbb9c7975323c11b768d2b9cd6c9.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/4915f3747653bbb9c7975323c11b768d2b9cd6c9.xml"
+    },
+    {
+      "source": "AI科技评论",
+      "url": "https://wechat2rss.bestblogs.dev/feed/789e5fefb9cc2646ba7b680cb7a88378a34eb7a4.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/789e5fefb9cc2646ba7b680cb7a88378a34eb7a4.xml"
+    },
+    {
+      "source": "山行AI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/98bc16b6f53902a2ab511b4faa3499e0a1c78eb1.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/98bc16b6f53902a2ab511b4faa3499e0a1c78eb1.xml"
+    },
+    {
+      "source": "魔搭ModelScope社区",
+      "url": "https://wechat2rss.bestblogs.dev/feed/d993a885260f96057b9a4c96212cb2c95bb5054b.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/d993a885260f96057b9a4c96212cb2c95bb5054b.xml"
+    },
+    {
+      "source": "夕小瑶科技说",
+      "url": "https://wechat2rss.bestblogs.dev/feed/64b57d666259aee6bd097e76164e4a8371f0ad04.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/64b57d666259aee6bd097e76164e4a8371f0ad04.xml"
+    },
+    {
+      "source": "DeeplearningAI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/9d094d066a5faacff0eb0a6b95efbba20d4f1fc9.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/9d094d066a5faacff0eb0a6b95efbba20d4f1fc9.xml"
+    },
+    {
+      "source": "机器之心SOTA模型",
+      "url": "https://wechat2rss.bestblogs.dev/feed/2f520471856d56c7b3a95cd09eb777149b32828a.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/2f520471856d56c7b3a95cd09eb777149b32828a.xml"
+    },
+    {
+      "source": "阶跃星辰",
+      "url": "https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml"
+    },
+    {
+      "source": "字节跳动Seed",
+      "url": "https://wechat2rss.bestblogs.dev/feed/6efd40bb335d2037f365d284cb5e00f0843e737e.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/6efd40bb335d2037f365d284cb5e00f0843e737e.xml"
+    },
+    {
+      "source": "MiniMax 稀宇科技",
+      "url": "https://wechat2rss.bestblogs.dev/feed/00306b171f754d463b28cf83f3ba086ad009b430.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/00306b171f754d463b28cf83f3ba086ad009b430.xml"
+    },
+    {
+      "source": "Datawhale",
+      "url": "https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml"
+    },
+    {
+      "source": "AINLP",
+      "url": "https://wechat2rss.bestblogs.dev/feed/875df1d1a991bf9250ba9813e3148f58ef2240d4.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/875df1d1a991bf9250ba9813e3148f58ef2240d4.xml"
+    }
+  ],
+  "summaryBullets": [
+    "**Nemotron 3 Ultra 现已可供 Perplexity**：和 Computer 上的 Pro 和 Max 订阅者使用。这是 为长期运行的代理构建的新开放模型",
+    "**Gemma 4 量化感知训练 (QAT) 权重现已在 Ollama**：上提供。它们减少了内存需求，同时保持了模型质量",
+    "**OpenAI：开发人员告诉我们，使用 Codex 进行构建就像飞翔一**：开发人员告诉我们，使用 Codex 进行构建就像飞翔一样。深入了解 Time to Fly 的构建",
+    "**OpenAI：今天的 Codex 生活质量更新从设置开始**：今天的 Codex 生活质量更新从设置开始。您现在可以搜索 Codex 设置，结果按类别分组，这样您就可以找到想要更改的内容，而无需扫描每个部分 - 这使得设置和自定义变得",
+    "**OpenAI：您的 Codex 个人资料共享卡现在与您的主题相匹配**：您的 Codex 个人资料共享卡现在与您的主题相匹配，并包含您选择的任何自定义宠物。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接"
+  ]
+}
