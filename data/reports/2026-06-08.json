@@ -1,0 +1,543 @@
+{
+  "date": "2026-06-08",
+  "generatedAt": "2026-06-07T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-08",
+  "stats": {
+    "sources": 134,
+    "fetched": 102,
+    "emailCandidates": 0,
+    "selected": 22,
+    "failures": 3
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "之所以研究 Claude Design，是因为最近摸索出一套不错的开发模式： 1. 先用 Claude Design 去设计 App 的 UI 和 UX，第一版本越简单越好。 Claude Des...",
+          "titleZh": "宝玉复盘 Claude Design 本地化工作流：设计稿、Agent 编码与版本迭代如何串起来",
+          "link": "https://x.com/dotey/status/2063674134903603302",
+          "publishedAt": "Sun, 07 Jun 2026 17:27:09 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "之所以研究 Claude Design，是因为最近摸索出一套不错的开发模式： 1. 先用 Claude Design 去设计 App 的 UI 和 UX，第一版本越简单越好。 Claude Design 交付的结果是 HTML + CSS + React + data.js，通过 CSS 一下就可以看清楚设计系统的颜色系统、尺寸规范，通过 React 可以看清楚组件结构，通过 data 可以知道数据结构什么样子。 这几个组合可比 figma 对于 AI 来说友好多了，尤其是 data.jsx，这是一般的设计 App 不会有的，但对开发特别重要的。 还有一个优势就是交付的结果都是文本格式的，可以一起提交到 git 做版本管理，用 git diff 就可以清楚的让 AI 知道设计稿修改了什么。 2. 把 Claude Design 生成设计稿交给 Claude Opus 4.8 去实现一个 MVP，第一个版本只实现 UI 功能，告诉它技术栈（比如 AppKit 而不是 SwiftUI），通过几个小版本的迭代，让它逐步完善。比如第一个版本只是主界面 之所以不用 GPT，是因为 Opus 在 UI 实现上比 GPT 好太多，同样的设计稿，GPT 实现的各种细节问题的，不能很好的遵守设计稿。 之所以不一下子实现太多功能，是因为功能越少 Agent 越容易聚焦，做出来效果越好。所以怎么拆分版本，也是用好 Coding Agent 的一种能力。 非 UI 的功能，用什么模型没有那么大差别，所以我也会用 Codex 配合非 UI 工作。 3. 每次生成一个版本，要让它可以运行，无论是 Agent 还是人都是需要即时反馈的，有了反馈才知道方向对不对，才知道下一步要做什么。 人在测试的时候，能发现各种问题，代码问题就让 Agent 去修改，UI 设计有问题不是马上修改代码，而是要去 Claude Design 去修改设计稿，设计稿修改完了，把设计稿下载回去，替换本地的设计稿文件。 设计稿替换后，让 Agent 去 git diff 分析一下变更，给它个截图，都不用多说它就知道怎么改了。 4. 版本稳定后继续新一轮迭代 当设计的功能做完之后，不一定是要马上去设计新的功能，而是可以重新审查一下实现的代码，重构优化一下。 比如我在第一版实现后，让 Opus 4.8 去做了性能分析，看性能问题在哪，然后告诉我当前用 NSScrollView，内容一多就内存暴涨，建议 NSTableView。 我心想这不应该是一开始就该考虑到的么！不管怎么样亡羊补牢也不算晚。 性能优化完就继续加功能，更新设计稿，让 Agent 参考新设计稿优化功能。 --- 再回来说研究 Claude Design 的事，因为反复 Claude Design 修改，同步到本地，然后这一步让我后来很烦，因为需要在本地和 Claude Design 网页切换，还要导出下载到本地，解压缩替换。 于是我就想能不能在本地就可以重现 Claude Design 直接集成到本地 Agent，所以我去研究了 Claude Design，然后发现完全可以本地跑起来，只是本地 Agent 在工具调用上有些差异，以及不方便直接在设计稿上标记编辑。 上周正好 Codex 发布了直接调试 iOS 的功能，它带了标记修改的功能，然后我灵机一动，这不正好可以代替 Claude Design 的标记修改功能么。（图2） 问题是 GPT 5.5 模型设计能力不够，在 Codex 里面设计效果也不会好。 接着 Cursor 也发布了网页标记功能，这下正好，Cursor 里面可以用 Opus 4.8，做成 Skill 就可以本地运行了，还可以在 Cursor 内置浏览器中，直接标记、评论修改。 好在 Claude Code 的核心逻辑都在浏览器前端，他们在网页上做了个 Harness，这给了我分析的便利，耐心一点就可以分析出所有的 Prompt、内置 Skills、初始组件，再针对 Cursor 的工具做一些兼容就可以跑起来了。（图3） 测试对比了一下和在 Claude Design 上跑的效果差不多。（图4） 归根结底，还是 Claude Desktop 太拉胯了，Claude Design 本应该集成在 Claude Desktop 的，不然也不需要我这么折腾。 当然不折腾下我也没机会学习 Claude Design 优秀的设计，真的很棒，接下来会系列更新我的学习心得。 推荐去试试最终的 Skill，让你本地就可以跑 Claude Design： github.com/jimliu/baoyu-d… 宝玉 @dotey 最近为了研究 Claude Design，专门写了一个工具，可以解析 HAR 文件，解密 Claude Design 传输的二进制内容，这样可以方便的看到请求的 Prompt 🔗 View Quoted Tweet 💬 23 🔄 59 ❤️ 412 👀 33838 📊 115 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKOklkXWcAArKsq.jpg",
+          "video": "",
+          "summary": "之所以研究 Claude Design，是因为最近摸索出一套不错的开发模式： 1. 先用 Claude Design 去设计 App 的 UI 和 UX，第一版本越简单越好。 Claude Design 交付的结果是 HTML + CSS + React + data.js，通过 CSS 一下就可以看清楚设计系统的颜色系统、尺寸规范，通过 React 可以看清楚组件结构，通过 data 可以知道数据结构什么样子。 这几个组合可比 figma 对于 AI 来说友好多了，尤其是 data.jsx，这是一般的设计 App 不会有的，但对开发特别重要的。 还有一个优势就是交付的结果都是文本格式的，可以一起提交到 git 做版本管理，用 git diff 就可以清楚的让 AI 知道设计稿修改了什么。 2. 把 Claude Design 生成设计稿交给 Claude Opus 4.8 去实现一个 MVP，第一个版本只实现 UI 功能，告诉它技术栈（比如 AppKit 而不是 SwiftUI），通过几个小版本的迭代，让它逐步完善。比如第一个版本只是主界面 之所以不用 GPT，是因为 Opus 在 UI 实现上比 GPT 好太多，同...",
+          "summaryZh": "宝玉总结了一套把 **Claude Design**、**Claude Opus 4.8**、**Codex** 和 **Cursor** 串起来的本地开发流程：先用 Claude Design 产出 **HTML + CSS + React + data.js** 形式的设计稿，再让 Agent 分阶段实现 MVP，并通过 `git diff`、截图和可运行版本做快速迭代。帖子里强调两个关键经验：一是先做小版本、让 Agent 聚焦 UI，再逐步补功能和性能；二是设计稿要能回写到本地并进入版本管理，这样 AI 才能明确知道改了什么。对正在搭建 **AI 辅助设计到编码工作流** 的团队来说，这提供了比传统 Figma 交付更适合 Agent 消化的实践路径。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "开源",
+            "模型"
+          ],
+          "score": 57.194440229728606
+        },
+        {
+          "title": "ChatGPT 要变 AgentGPT 了 当然 ChatGPT 应该不会改名字，但 ChatGPT 应该不再是一个单纯的 Chat 工具了。 OpenAI 内部一位高管对《金融时报》说：\"Cha...",
+          "titleZh": "ChatGPT 或将改版为超级应用：Codex、Agent、图像生成与第三方应用入口将并入主界面",
+          "link": "https://x.com/dotey/status/2063686036895478162",
+          "publishedAt": "Sun, 07 Jun 2026 18:14:27 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "ChatGPT 要变 AgentGPT 了 当然 ChatGPT 应该不会改名字，但 ChatGPT 应该不再是一个单纯的 Chat 工具了。 OpenAI 内部一位高管对《金融时报》说：\"Chat is dead.\"（聊天已死。） OpenAI 正在准备 ChatGPT 自 2022 年上线以来最大规模的改版。改版的方向很明确：不再只做聊天机器人，要做超级应用。编程工具 Codex、能自主执行多步骤任务的 AI agent、图像生成、第三方合作伙伴的应用（目前已知包括 Canva 和 Booking），全部塞进一个统一界面里。 首席产品官 Tibo（Thibault Sottiaux） 对《金融时报》说：目标是打造一个跨越所有平台的个人 AI 助手，覆盖工作和生活的方方面面。更远期的计划是，连用户输入 prompt 这一步都省掉，让模型直接理解用户意图。 【注：Tibo 目前统管 ChatGPT、Codex 和平台产品团队，OpenAI 最近刚把这几个原本独立的团队合并到了他手下。】 改版预计未来几周内开始上线，先从网页端和手机端推出。新界面会更积极地引导用户去用编程、图像生成和第三方应用功能，而不是停留在对话框里聊天。 这次改版的驱动力不只是产品理念，还有来自商业上的压力。 ChatGPT 现在有 9 亿周活跃用户，超过 5000 万付费个人用户，月收入 20 亿美元。但大部分用户用的是免费版，公司至今没有盈利。企业客户目前贡献了约 40% 的收入（来自大约 200 万家企业客户），OpenAI 希望年底前把这个比例提到 50%。Codex 是增长最快的产品线，桌面版上线后周活已经超过 500 万。 把用户从低利润的免费聊天引导到高利润的企业工具和编程产品上，是 IPO 前必须讲出来的故事。 说到 IPO，OpenAI 今年 3 月刚完成了 1220 亿美元的融资轮（Amazon 出了 500 亿，Nvidia 和软银各 300 亿），估值 8520 亿美元。高盛和摩根士丹利正在为 IPO 做准备，目标估值可能超过 1 万亿美元。 但竞争对手 Anthropic 也没闲着。6 月 1 日，Anthropic 向 SEC 提交了保密 S-1 文件，最新一轮融资估值已经达到 9650 亿美元，5 月年化收入 470 亿美元。也就是说，按估值算，Anthropic 已经超过了 OpenAI。在企业市场，Claude Code 的增长也在直接蚕食 Codex 的地盘。Google 那边，Gemini 上个月在 I/O 大会上宣布月活达到 9 亿，逼近 ChatGPT。 OpenAI 现在面对的局面是：消费端被 Google 追，企业端被 Anthropic 抢，自己又还没盈利，IPO 窗口就在眼前。把 ChatGPT 从聊天工具变成平台，既是产品升级，也是给投资人讲的新故事。 对普通用户来说，最直接的变化是：打开 ChatGPT 的界面会跟现在不一样，不再是一个简单的对话框，而是一个带有明确功能入口的应用。对开发者来说，Codex 和 agent 能力的整合意味着更多工作可以在 ChatGPT 内完成，不用跳转到其他工具。 至于 OpenAI 能不能靠这次改版让投资人相信它不只是一家聊天机器人公司，这可能是 Sam Altman 今年最重要的一次产品赌注。 金融汪 @yuyy614893671 根据《金融时报》报道：Open AI 正在筹划对ChatGPT推出以来的最大规模改革 “聊天已死” AI的未来不在于回答问题的聊天机器人，而在于能够为用户执行任务的智能体，也就是Agent！ 🔗 View Quoted Tweet 💬 21 🔄 13 ❤️ 101 👀 28505 📊 30 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKOAynTbQAA1ztT.jpg",
+          "video": "",
+          "summary": "ChatGPT 要变 AgentGPT 了 当然 ChatGPT 应该不会改名字，但 ChatGPT 应该不再是一个单纯的 Chat 工具了。 OpenAI 内部一位高管对《金融时报》说：\"Chat is dead.\"（聊天已死。） OpenAI 正在准备 ChatGPT 自 2022 年上线以来最大规模的改版。改版的方向很明确：不再只做聊天机器人，要做超级应用。编程工具 Codex、能自主执行多步骤任务的 AI agent、图像生成、第三方合作伙伴的应用（目前已知包括 Canva 和 Booking），全部塞进一个统一界面里。 首席产品官 Tibo（Thibault Sottiaux） 对《金融时报》说：目标是打造一个跨越所有平台的个人 AI 助手，覆盖工作和生活的方方面面。更远期的计划是，连用户输入 prompt 这一步都省掉，让模型直接理解用户意图。 【注：Tibo 目前统管 ChatGPT、Codex 和平台产品团队，OpenAI 最近刚把这几个原本独立的团队合并到了他手下。】 改版预计未来几周内开始上线，先从网页端和手机端推出。新界面会更积极地引导用户去用编程、图像生成和第三方应用功能，而不是停留在对话框里聊...",
+          "summaryZh": "据帖文转述 **《金融时报》** 报道，OpenAI 正准备对 **ChatGPT** 做自 2022 年上线以来最大规模的界面改版，目标是不再只提供聊天框，而是把 **Codex**、可执行多步骤任务的 **AI agent**、**图像生成**，以及包括 **Canva**、**Booking** 在内的第三方应用入口统一放进一个主界面，并优先在网页端与手机端推出。帖子还给出商业背景：ChatGPT 目前约有 **9 亿周活跃用户**、**5000 万+ 付费个人用户**、**月收入 20 亿美元**，但公司尚未盈利，OpenAI 也希望把企业收入占比从约 **40%** 提高到 **50%**。如果这一方向属实，它意味着 ChatGPT 的产品定位会进一步从聊天助手转向跨工作流的 **个人 AI 超级应用**。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "模型"
+          ],
+          "score": 53.351483860430626
+        },
+        {
+          "title": "对比一下 GPT-5.5 的设计效果和 Opus 4.8 的设计效果 我真不是尬黑 GPT-5.5，我这种审美水平都能看出来差距 使用 Skill：https://t.co/8zkHcKkI7h ...",
+          "titleZh": "对比一下 GPT-5.5 的设计效果和 Opus 4.8 的设计效果 我真不是尬黑 GPT-5.5，我这种审美水平都能看出来差距 使用 Skill",
+          "link": "https://x.com/dotey/status/2063464057647075379",
+          "publishedAt": "Sun, 07 Jun 2026 03:32:23 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "对比一下 GPT-5.5 的设计效果和 Opus 4.8 的设计效果 我真不是尬黑 GPT-5.5，我这种审美水平都能看出来差距 使用 Skill： github.com/JimLiu/baoyu-d… ---- 提示词 ---- /baoyu-design 帮我开发一款Reader Mac App，帮助我更好的阅读和收藏文章。数据都在本地。 ## 信息采集 1. 主动添加 可以手动添加不同类型的信息： - URL：输入 URL，自动抓取内容和图片 - 附件：上传PDF、视频、图片 - Markdown 编辑：类似于发布博客，输入标题、内容、发布图片 - 其他 2. 自动订阅 - RSS 订阅 - 社交媒体账号：X、微博、YouTube - 其他 ## 信息编辑和分类 1. 标签 每条内容都可以打标签 2. 分类、目录 可以创建树形目录，可以把内容放到不同的分类 3. 收藏 可以点击收藏 4. 编辑 每一条内容都可以编辑，有个内置的Markdown编辑 ## AI 辅助 ### 功能 1. 自动翻译 可以支持不同语言的翻译 2. 总结和摘要 可以去对抓取了的内容进行摘要 3. 二次创作 可以基于一条或者多条内容进行二次创作 ### 交互 1. CMD + K 随时唤出菜单 2. 集成 AI Chat Sidebar 可以显示 Chat Sidebar 通过 AI Chat 去调用 AI Agent 辅助对内容进行处理 3. 选中操作 选中内容文字，可以进行处理，比如翻译、润色、修改之类 宝玉 @dotey Cursor's new browser + element annotation turns it into a design studio. Meet Cursor Design 🎨 — Claude Design, running locally. Describe a screen → get polished HTML → click any element in the preview & say what to change. Best w/ Opus 4.8. npx skills add JimLiu/baoyu-design github.com/JimLiu/baoyu-d… h Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 137 🔄 58 ❤️ 462 👀 122523 📊 216 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKLlEi5W0AAU0rx.jpg",
+          "video": "",
+          "summary": "对比一下 GPT-5.5 的设计效果和 Opus 4.8 的设计效果 我真不是尬黑 GPT-5.5，我这种审美水平都能看出来差距 使用 Skill： github.com/JimLiu/baoyu-d… ---- 提示词 ---- /baoyu-design 帮我开发一款Reader Mac App，帮助我更好的阅读和收藏文章。数据都在本地。 ## 信息采集 1. 主动添加 可以手动添加不同类型的信息： - URL：输入 URL，自动抓取内容和图片 - 附件：上传PDF、视频、图片 - Markdown 编辑：类似于发布博客，输入标题、内容、发布图片 - 其他 2. 自动订阅 - RSS 订阅 - 社交媒体账号：X、微博、YouTube - 其他 ## 信息编辑和分类 1. 标签 每条内容都可以打标签 2. 分类、目录 可以创建树形目录，可以把内容放到不同的分类 3. 收藏 可以点击收藏 4. 编辑 每一条内容都可以编辑，有个内置的Markdown编辑 ## AI 辅助 ### 功能 1. 自动翻译 可以支持不同语言的翻译 2. 总结和摘要 可以去对抓取了的内容进行摘要 3. 二次创作 可以基于一条或者多条内容进行二次...",
+          "summaryZh": "对比一下 GPT-5.5 的设计效果和 Opus 4.8 的设计效果 我真不是尬黑 GPT-5.5，我这种审美水平都能看出来差距 使用 Skill： github.com/JimLiu/baoyu-d… ---- 提示词 ---- /baoyu-design 帮我开发一款Reader Mac App，帮助我更好的阅读和收藏文章。数据都在本地。 ## 信息采集 1. 主动添加 可以手动添加不同类型的信息： - URL：输入 URL，自动抓取内容和图片 - 附件：上传PDF、视频、图片 - Markdown 编辑：类似于发布博客，输入标题、内容、发布图片 - 其他 2. 自动订阅 - RSS 订阅 - 社交媒体账号：X、微博、YouTube - 其他 ## 信息编辑和分类 1. 标签 每条内容都可以打标签 2. 分类、目录 可以创建树形目录，可以把内容放到不同的分类 3. 收藏 可以点击收藏 4. 编辑 每一条内容都可以编辑，有个内置的Markdown编辑 ## AI 辅助 ### 功能 1. 自动翻译 可以支持不同语言的翻译 2. 总结和摘要 可以去对抓取了的内容进行摘要 3. 二次创作 可以基于一条或者多条内容进行二次...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "开源",
+            "视频"
+          ],
+          "score": 49.97623882370609
+        },
+        {
+          "title": "最近为了研究 Claude Design，专门写了一个工具，可以解析 HAR 文件，解密 Claude Design 传输的二进制内容，这样可以方便的看到请求的 Prompt",
+          "titleZh": "宝玉开源 Claude Design 抓包解析工具：可从 HAR 中还原 Prompt 与前端交互细节",
+          "link": "https://x.com/dotey/status/2063475943402872982",
+          "publishedAt": "Sun, 07 Jun 2026 04:19:37 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "最近为了研究 Claude Design，专门写了一个工具，可以解析 HAR 文件，解密 Claude Design 传输的二进制内容，这样可以方便的看到请求的 Prompt 宝玉 @dotey Cursor's new browser + element annotation turns it into a design studio. Meet Cursor Design 🎨 — Claude Design, running locally. Describe a screen → get polished HTML → click any element in the preview & say what to change. Best w/ Opus 4.8. npx skills add JimLiu/baoyu-design github.com/JimLiu/baoyu-d… h Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 49 🔄 11 ❤️ 148 👀 69052 📊 67 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKLu4EOXAAAzoZu.jpg",
+          "video": "",
+          "summary": "最近为了研究 Claude Design，专门写了一个工具，可以解析 HAR 文件，解密 Claude Design 传输的二进制内容，这样可以方便的看到请求的 Prompt 宝玉 @dotey Cursor's new browser + element annotation turns it into a design studio. Meet Cursor Design 🎨 — Claude Design, running locally. Describe a screen → get polished HTML → click any element in the preview & say what to change. Best w/ Opus 4.8. npx skills add JimLiu/baoyu-design github.com/JimLiu/baoyu-d… h Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 49 🔄 11 ❤️ 148 👀 69052...",
+          "summaryZh": "宝玉为研究 **Claude Design** 的工作机制，写了一个可解析 **HAR** 文件并解密其二进制传输内容的工具，用来还原请求里的 **Prompt**、前端 Harness 逻辑和交互细节。这个工具的价值不只是“看热闹”，而是帮助开发者理解 Claude Design 如何组织组件、技能和编辑指令，从而把类似体验迁移到 **Cursor**、本地 Agent 或自定义设计工作流里。对于关心 **AI 设计工具可复刻性**、Prompt 工程和浏览器端能力封装的人来说，这是少见的逆向分析材料。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "视频"
+          ],
+          "score": 42.80885139688124
+        },
+        {
+          "title": "Cursor's new browser + element annotation turns it into a design studio. Meet Cursor Design 🎨 — Cl...",
+          "titleZh": "Cursor的新浏览器+元素注释将其变成了一个设计工作室",
+          "link": "https://x.com/dotey/status/2063448680808452573",
+          "publishedAt": "Sun, 07 Jun 2026 02:31:17 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "Cursor's new browser + element annotation turns it into a design studio. Meet Cursor Design 🎨 — Claude Design, running locally. Describe a screen → get polished HTML → click any element in the preview & say what to change. Best w/ Opus 4.8. npx skills add JimLiu/baoyu-design github.com/JimLiu/baoyu-d… h Your browser does not support the video tag. 🔗 View on Twitter Cursor @cursor_ai With Design Mode, you can now point, draw, or talk to update your UI. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 7 🔄 2 ❤️ 40 👀 165926 📊 15 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Cursor's new browser + element annotation turns it into a design studio. Meet Cursor Design 🎨 — Claude Design, running locally. Describe a screen → get polished HTML → click any element in the preview & say what to change. Best w/ Opus 4.8. npx skills add JimLiu/baoyu-design github.com/JimLiu/baoyu-d… h Your browser does not support the video tag. 🔗 View on Twitter Cursor @cursor_ai With Design Mode, you can now point, draw, or talk to update your UI. Your browser does not support the video tag. 🔗 View on Twi...",
+          "summaryZh": "Cursor的新浏览器+元素注释将其变成了一个设计工作室。认识 Cursor Design — Claude Design，在本地运行。描述屏幕 → 完善 HTML → 单击预览中的任何元素并说出要更改的内容。最好使用 Opus 4.8。 npx 技能 add JimLiu/baoyu-design github.com/JimLiu/baoyu-d... h Cursor 使用设计模式，您现在可以通过指向、绘图或说话来更新您的 UI。 在特威上查看...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "视频"
+          ],
+          "score": 39.138343514977166
+        },
+        {
+          "title": "Cursor 的 Composer 2.5 的效果",
+          "titleZh": "Cursor Composer 2.5 效果展示",
+          "link": "https://x.com/dotey/status/2063514857949831523",
+          "publishedAt": "Sun, 07 Jun 2026 06:54:15 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "Cursor 的 Composer 2.5 的效果 💬 3 🔄 0 ❤️ 13 👀 13379 📊 6 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKMTxUWW0AAyfe6.jpg",
+          "video": "",
+          "summary": "Cursor 的 Composer 2.5 的效果 💬 3 🔄 0 ❤️ 13 👀 13379 📊 6 ⚡ Powered by xgo.ing",
+          "summaryZh": "这条帖子主要是在展示 **Cursor Composer 2.5** 的生成效果，但公开信息非常有限，没有交代具体任务、模型配置、修改方式或相较旧版本的能力提升。它能说明社区正在持续关注 Cursor 的生成式编程体验，但对读者的实际参考价值不高。若后续有更完整的功能说明、真实项目案例或与 **Claude Design / Codex** 的对比，再更值得纳入重点观察。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 29.376256304188622
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "WorldBench: A Challenging and Visually Diverse Multimodal Reasoning Benchmark",
+          "titleZh": "WorldBench：具有挑战性且视觉多样化的多模态推理基准",
+          "link": "https://huggingface.co/papers/2606.06538",
+          "publishedAt": "2026-06-07T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Hugging Face Papers 2026-06-08 排名第 6 的论文候选。",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.06538/gradient.png",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-06-08 排名第 6 的论文候选。",
+          "summaryZh": "**核心结论** 这篇论文认为，现有多模态推理基准虽然任务类型越来越多，但对真实世界视觉多样性的覆盖仍然不够，导致模型在开放场景里的鲁棒性被高估。作者提出 **WorldBench**，希望用更广的图像分布和更难的人工设计问题，重新衡量 MLLM 在真实视觉世界中的推理能力。\n\n**支撑证据** 作者先构建了一个覆盖多个领域、包含数千视觉概念的 taxonomy，再结合搜索引擎和现有数据集收集图像，并通过反复试错手工设计出前沿模型容易出错的问题。论文评测了 **15 个 MLLM**，结果显示最强模型准确率也只有 **64.0%**，部分模型仅略高于随机水平；同时，定量与人工评估都表明 WorldBench 的视觉多样性高于现有同类 benchmark。\n\n**我的判断** 这篇工作对行业的现实意义在于提醒大家，当前多模态模型的“会做题”不等于“看懂真实世界”。如果后续公开完整数据构造流程和标注细节，WorldBench 很可能成为检验视觉鲁棒性和开放场景泛化能力的重要基准。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "推理能力",
+            "多模态",
+            "评测",
+            "论文"
+          ],
+          "score": 40
+        },
+        {
+          "title": "OpenSkill: Open-World Self-Evolution for LLM Agents",
+          "titleZh": "OpenSkill：LLM 代理人的开放世界自我进化",
+          "link": "https://huggingface.co/papers/2606.06741",
+          "publishedAt": "2026-06-07T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Self-evolving agents requires adaptation after deployment, but existing approaches assume a usable learning loop, such as curated skills, successful trajectories, or verifier signals. Real open-world deployments may provide none of these, offering only a task prompt. In this work, we study open-world self-evolution, where an agent must build both its skills and its own verification signals from scratch, using open-world resources but no target-task supervision. We propose OpenSkill, a framework that bootstraps this loop: it acquires grounded knowledge and verification anchors from documentation, repositories, and the web, synthesizes them into transferable skills, and refines those skills against self-built virtual tasks grounded in the anchors rather than in target answers. The open world thus supplies both the knowledge to be learned and a supervision-independent practice environment, with target-task supervision reserved for final evaluation. Across three benchmarks and two target agents, OpenSkill attains the best automated pass rate while satisfying the no-supervision constraint. Analysis shows its skills transfer across models without model-specific adaptation, and its self-built verifier aligns with ground-truth outcomes despite never accessing them.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.06741/gradient.png",
+          "video": "",
+          "summary": "Self-evolving agents requires adaptation after deployment, but existing approaches assume a usable learning loop, such as curated skills, successful trajectories, or verifier signals. Real open-world deployments may provide none of these, offering only a task prompt. In this work, we study open-world self-evolution, where an agent must build both its skills and its own verification signals from scratch, using open-world resources but no target-task supervision.",
+          "summaryZh": "**核心结论** OpenSkill 关注的是一个更接近真实部署环境的问题：很多 Agent 上线后并没有现成的技能库、成功轨迹或 verifier 可用，只拿到一个任务提示就得自己成长。论文提出一种开放世界自进化框架，让 Agent 自己从文档、代码仓库和 Web 资源中抽取知识、合成技能，并同时搭建自己的验证机制，而不是依赖目标任务答案监督训练。\n\n**支撑证据** 方法上，OpenSkill 会先从开放世界资源中找出可落地的知识锚点和验证锚点，再基于这些锚点生成可迁移技能，并用自建的虚拟任务反复打磨这些技能。论文在 **3 个 benchmark**、**2 个目标 Agent** 上评测，结果显示它在不使用目标任务监督的前提下取得了最高的自动化 pass rate；作者还报告，生成出的技能可以跨模型迁移，而自建 verifier 与真实结果保持较好一致性。\n\n**我的判断** 这篇工作值得关注，因为它把 Agent 学习问题从“有老师带着学”推进到“上线后自己找材料、自己练、自己验”。如果后续开源实现足够完整，它会对长期运行的编码 Agent、运维 Agent 和企业工作流 Agent 很有参考价值。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "论文"
+          ],
+          "score": 35
+        },
+        {
+          "title": "Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills",
+          "titleZh": "Socratic-SWE：通过跟踪派生的代理技能自我进化编码代理",
+          "link": "https://huggingface.co/papers/2606.07412",
+          "publishedAt": "2026-06-07T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "LLM-driven software engineering agents have become a central testbed for real-world language-model capability, yet their training remains limited by the availability of high-quality SWE tasks. Existing synthetic data methods typically create tasks through fixed mutation or bug-injection procedures, making the resulting distributions largely independent of the agent's own weaknesses and training progress. We introduce Socratic-SWE, a closed-loop self-evolution framework that reuses the agent's historical solving traces as a source of training signal. Rather than treating traces only as evidence for reward computation, Socratic-SWE distills them into structured agent skills that summarize recurring failures and effective repair patterns. These skills then guide the generation of targeted repair tasks in real repositories. Candidate tasks are checked through execution-based validation and scored with a solver-gradient alignment reward, so that the retained tasks are both verifiable and useful for improving the Solver. The updated Solver produces new traces, enabling the task curriculum to adapt over successive rounds. Across SWE-bench Verified, SWE-bench Lite, SWE-bench Pro, and Terminal-Bench 2.0, Socratic-SWE consistently improves over self-evolving baselines under the same compute budget, reaching 50.40% on SWE-bench Verified after three iterations. These results suggest that solving traces can serve as a scalable substrate for self-evolving SWE agents.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.07412/gradient.png",
+          "video": "",
+          "summary": "LLM-driven software engineering agents have become a central testbed for real-world language-model capability, yet their training remains limited by the availability of high-quality SWE tasks. Existing synthetic data methods typically create tasks through fixed mutation or bug-injection procedures, making the resulting distributions largely independent of the agent's own weaknesses and training progress.",
+          "summaryZh": "**核心结论** Socratic-SWE 想解决的是：编码 Agent 的训练数据往往不是根据它真实暴露出来的弱点来生成的，所以越训越容易“偏题”。作者提出一个闭环自进化框架，把 Agent 过去的解题轨迹当成训练信号，不只是拿来算奖励，而是从中提炼出结构化的“代理技能”，总结它反复失败的模式和有效的修复套路，再反过来生成更有针对性的真实仓库修复任务。\n\n**支撑证据** 这些候选任务会先经过执行验证，再通过 **solver-gradient alignment reward** 评分，确保留下来的任务既可验证、又真的能帮助 Solver 进步。论文在 **SWE-bench Verified、SWE-bench Lite、SWE-bench Pro** 和 **Terminal-Bench 2.0** 上做评测，在相同算力预算下都优于其他自进化基线，并在三轮迭代后把 **SWE-bench Verified** 提升到 **50.40%**。\n\n**我的判断** 这篇论文的价值在于把“历史轨迹”从日志变成课程生成器，方向上很适合当前 Coding Agent 体系。后续如果能看到更细的 skill 抽取方式和任务难度控制策略，它对实际训练自我改进型编程 Agent 会很有借鉴意义。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "论文"
+          ],
+          "score": 35
+        },
+        {
+          "title": "UniSHARP: Universal Sharp Monocular View Synthesis",
+          "titleZh": "UniSHARP：通用锐单目视图合成",
+          "link": "https://huggingface.co/papers/2606.07514",
+          "publishedAt": "2026-06-07T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "In this work, we focus on extending SHARP, the popular photorealistic view synthesis method, for universal monocular rendering across a continuum of camera systems, from conventional perspective cameras to wide-field-of-view, fisheye and omnidirectional panoramic settings. To overcome the pinhole-specific assumptions of SHARP, our key idea is to align various images in a unified omnidirectional latent space. Thus, we propose UniSHARP, which performs implicit alignment in both feature and Gaussian spaces. Specifically, Gaussian primitives are arranged along rays and radial distances in a ray-based universal representation, while 2D semantic and 3D spatial features extracted from UniK3D-inspired encoders are jointly decoded to generate the complete Gaussian cloud. To comprehensively evaluate our method, we construct a benchmark covering diverse imaging systems across various scenes. The benchmark is further stratified by field of view (FoV) to enable fine-grained assessment of the universal monocular rendering task. Extensive experiments on the proposed benchmark demonstrate the effectiveness of UniSHARP, outperforming alternative methods by a large margin. The project page can be found at: https://insta360-research-team.github.io/Unisharp-website/",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.07514/gradient.png",
+          "video": "",
+          "summary": "In this work, we focus on extending SHARP, the popular photorealistic view synthesis method, for universal monocular rendering across a continuum of camera systems, from conventional perspective cameras to wide-field-of-view, fisheye and omnidirectional panoramic settings.",
+          "summaryZh": "**核心结论** UniSHARP 想解决的是单目视图合成方法对相机类型过于敏感的问题。过去很多方法默认输入来自普通针孔相机，但现实里还会遇到 **广角、鱼眼、全景** 等成像系统，因此作者把 SHARP 扩展成一个覆盖多种相机体系的通用单目渲染框架，让一套方法可以处理连续变化的视场和镜头形式。\n\n**支撑证据** 核心做法是把不同相机拍到的图像对齐到统一的全向潜空间里，并在 **feature space** 和 **Gaussian space** 同时做隐式对齐。论文将 Gaussian primitives 按射线与径向距离组织，再结合受 **UniK3D** 启发的 2D 语义和 3D 空间特征解码出完整 Gaussian cloud；同时作者还构建了一个覆盖多类场景和多种成像系统、并按 **FoV** 分层的 benchmark。实验结果表明，UniSHARP 在这一通用单目渲染任务上显著优于其他替代方法。\n\n**我的判断** 这篇论文更偏视觉生成与 3D 重建基础能力，对通用 AI 产品的直接影响不如 Agent 论文大，但对全景相机、空间视频、机器人感知和沉浸式内容生成仍有潜在价值。后续可以关注项目页是否公开更完整的 benchmark 和可复现实验配置。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "论文"
+          ],
+          "score": 32
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "aaif-goose/goose",
+          "titleZh": "aaif-goose/goose：开源、可扩展的 AI 代理，超越代码建议 - 使用任何",
+          "link": "https://github.com/aaif-goose/goose",
+          "publishedAt": "2026-06-07T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star aaif-goose / goose an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/6911080e1eaa3f9ef1d3a3190b16a35affd4a447fba9288d918eb7a54da8d441/aaif-goose/goose",
+          "video": "",
+          "summary": "Star aaif-goose / goose an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+          "summaryZh": "开源、可扩展的 AI 代理，超越代码建议 - 使用任何 LLM 安装、执行、编辑和测试（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体",
+            "开源"
+          ],
+          "score": 33
+        },
+        {
+          "title": "opencv/opencv",
+          "titleZh": "opencv/opencv：经典开源计算机视觉库 OpenCV 持续走高",
+          "link": "https://github.com/opencv/opencv",
+          "publishedAt": "2026-06-07T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "OpenCV: Open Source Computer Vision Library Resources Homepage: https://opencv.org Courses: https://opencv.org/courses Docs: https://docs.opencv.org/4.x/ Q&A forum: https://forum.opencv.org previous forum (read only): http://answers.opencv.org Issue tracking: https://github.com/opencv/opencv/issues Additional OpenCV functionality: https://github.com/opencv/opencv_contrib Donate to OpenCV: https://opencv.org/support/ Contributing Please read the contribution guidelines before starting work on a pull request. Summary",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/7df690e02c3ca3f7e684906ee5eae35979b7111a12884025045d31ab7119072d/opencv/opencv",
+          "video": "",
+          "summary": "OpenCV: Open Source Computer Vision Library Resources Homepage: https://opencv.org Courses: https://opencv.org/courses Docs: https://docs.opencv.org/4.x/ Q&A forum: https://forum.opencv.org previous forum (read only): http://answers.opencv.org Issue tracking: https://github.com/opencv/opencv/issues Additional OpenCV functionality: https://github.com/opencv/opencv_contrib Donate to OpenCV: https://opencv.org/support/ Contributing Please read the contribution guidelines before starting work on a pull request. Summary",
+          "summaryZh": "OpenCV 仍然是最常见的 **开源计算机视觉基础库** 之一，覆盖图像处理、特征提取、传统视觉算法与部分深度学习推理接口。它这次进入趋势榜，更像是在提醒开发者社区：即便生成式 AI 火热，底层视觉工程和经典 CV 工具链依旧有稳定需求。如果你要评估是否引入，建议重点看当前版本与 **opencv_contrib** 的关系、目标平台支持情况，以及是否满足你的推理性能与许可证要求。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "开源"
+          ],
+          "score": 30
+        },
+        {
+          "title": "lfnovo/open-notebook",
+          "titleZh": "lfnovo/open-notebook：本地优先的开源 NotebookLM 替代品",
+          "link": "https://github.com/lfnovo/open-notebook",
+          "publishedAt": "2026-06-07T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Open Notebook An open source, privacy-focused alternative to Google's Notebook LM! Join our Discord server for help, to share workflow ideas, and suggest features! Checkout our website » 📚 Get Started · 📖 User Guide · ✨ Features · 🚀 Deploy Deutsch | Español | français | 日本語 | 한국어 | Português | Русский | 中文 A private, multi-model, 100% local, full-featured alternative to Notebook LM In a world dominated by Artificial Intelligence, having the ability to think 🧠 and acquire new knowledge 💡, is a skill that should",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/lfnovo/open-notebook/raw/main/docs/assets/asset_list.png",
+          "video": "",
+          "summary": "Open Notebook An open source, privacy-focused alternative to Google's Notebook LM! Join our Discord server for help, to share workflow ideas, and suggest features! Checkout our website » 📚 Get Started · 📖 User Guide · ✨ Features · 🚀 Deploy Deutsch | Español | français | 日本語 | 한국어 | Português | Русский | 中文 A private, multi-model, 100% local, full-featured alternative to Notebook LM In a world dominated by Artificial Intelligence, having the ability to think 🧠 and acquire new knowledge 💡, is a skill that should",
+          "summaryZh": "**Open Notebook** 主打 **隐私优先、100% 本地、多模型支持**，定位是 **Google NotebookLM** 的开源替代品。仓库描述显示，它不仅想做一个笔记问答工具，还试图覆盖本地知识管理、工作流整理和多模型调用等完整体验。对不想把个人资料或企业知识库直接交给云端服务的用户来说，这类“本地优先的 AI 笔记系统”有明确吸引力；后续值得继续看它的模型接入方式、向量检索方案、离线性能和跨平台体验。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "开源"
+          ],
+          "score": 30
+        },
+        {
+          "title": "ggml-org/llama.cpp",
+          "titleZh": "ggml-org/llama.cpp：本地 LLM 推理基座继续活跃，新增 Hugging Face 缓存与 gpt-oss 支持信号",
+          "link": "https://github.com/ggml-org/llama.cpp",
+          "publishedAt": "2026-06-07T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "llama.cpp Manifesto / ggml / ops LLM inference in C/C++ Recent API changes Changelog for libllama API Changelog for llama-server REST API Hot topics Hugging Face cache migration: models downloaded with -hf are now stored in the standard Hugging Face cache directory, enabling sharing with other HF tools. guide : using the new WebUI of llama.cpp guide : running gpt-oss with llama.cpp [FEEDBACK] Better packaging for llama.cpp to support downstream consumers 🤗 Support for the gpt-oss model with native MXFP4 format has",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://repository-images.githubusercontent.com/612354784/c59e3320-a236-4182-941f-ea3f1a0f50e7",
+          "video": "",
+          "summary": "llama.cpp Manifesto / ggml / ops LLM inference in C/C++ Recent API changes Changelog for libllama API Changelog for llama-server REST API Hot topics Hugging Face cache migration: models downloaded with -hf are now stored in the standard Hugging Face cache directory, enabling sharing with other HF tools. guide : using the new WebUI of llama.cpp guide : running gpt-oss with llama.cpp [FEEDBACK] Better packaging for llama.cpp to support downstream consumers 🤗 Support for the gpt-oss model with native MXFP4 format has",
+          "summaryZh": "**llama.cpp** 仍是本地大模型推理生态的核心项目之一。仓库当前热点包括：`-hf` 下载模型开始写入标准 **Hugging Face 缓存目录**，方便与其他 HF 工具共享；项目新增了 **gpt-oss** 的运行指南与 **原生 MXFP4** 支持信号；同时还在推进新的 **WebUI** 与打包方式改进。对做本地部署、边缘推理或自建推理服务的团队来说，这些更新意味着 llama.cpp 不只是“能跑模型”，而是在持续完善兼容性、工具链和下游集成体验。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "推理部署"
+          ],
+          "score": 29
+        },
+        {
+          "title": "harry0703/MoneyPrinterTurbo",
+          "titleZh": "harry0703/MoneyPrinterTurbo：MoneyPrinterTurbo \udcb8 简体中文",
+          "link": "https://github.com/harry0703/MoneyPrinterTurbo",
+          "publishedAt": "2026-06-07T18:30:00.000Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "description": "MoneyPrinterTurbo 💸 简体中文 | English | العربية 只需提供一个视频 主题 或 关键词 ，就可以全自动生成视频文案、视频素材、视频字幕、视频背景音乐，然后合成一个高清的短视频。 感谢 AIHubMix 对本项目的赞助。AIHubMix 深度适配 OpenAI、Claude、Gemini、DeepSeek、智谱、千问等全球顶级最新模型，一站式快速接入 GPT-5.5、deepseek-v4-flash 等 700+ 模型（含多个免费模型），提供企业级生产稳定性保障。 Web界面 API界面 功能特性 🎯 完整的 MVC架构 ，代码 结构清晰 ，易于维护，支持 API 和 Web界面 支持视频文案 AI自动生成 ，也可以 自定义文案 支持多种 高清视频 尺寸 竖屏 9:16， 1080x1920 横屏 16:9， 1920x1080 支持 批量视频生成 ，可以一次生成多个视频，然后选择一个最满意的 支持 视频片段时长 设置，方便调节素材切换频率 支持 中文 和 英文 视频文案 支持 多种语音 合成，可 实时试听 效果 支持 字幕生成 ，可以调整 字体 、 位置 、 颜色 、 大小 ，同时",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/harry0703/MoneyPrinterTurbo/raw/main/docs/webui.jpg",
+          "video": "",
+          "summary": "MoneyPrinterTurbo 💸 简体中文 | English | العربية 只需提供一个视频 主题 或 关键词 ，就可以全自动生成视频文案、视频素材、视频字幕、视频背景音乐，然后合成一个高清的短视频。 感谢 AIHubMix 对本项目的赞助。AIHubMix 深度适配 OpenAI、Claude、Gemini、DeepSeek、智谱、千问等全球顶级最新模型，一站式快速接入 GPT-5.5、deepseek-v4-flash 等 700+ 模型（含多个免费模型），提供企业级生产稳定性保障。 Web界面 API界面 功能特性 🎯 完整的 MVC架构 ，代码 结构清晰 ，易于维护，支持 API 和 Web界面 支持视频文案 AI自动生成 ，也可以 自定义文案 支持多种 高清视频 尺寸 竖屏 9:16， 1080x1920 横屏 16:9， 1920x1080 支持 批量视频生成 ，可以一次生成多个视频，然后选择一个最满意的 支持 视频片段时长 设置，方便调节素材切换频率 支持 中文 和 英文 视频文案 支持 多种语音 合成，可 实时试听 效果 支持 字幕生成 ，可以调整 字体 、 位置 、 颜色 、 大小 ，同时",
+          "summaryZh": "MoneyPrinterTurbo \udcb8 简体中文 | English | العربية 只需提供一个视频 主题 或 关键词，就可以全自动生成视频文案、视频素材、视频字幕、视频背景音乐，然后合成一个高清的短视频。 感谢 AIHubMix 对本项目的赞助。AIHubMix 深度适配 OpenAI、Claude、Gemini、DeepSeek、智谱、千问等全球顶级最新模型，一站式快速接入 GPT-5.5、deepseek-v4-flash 等 700+ 模型（含多个免费模型），提供企业级生产稳定性保障。 Web界面 API界面 功能特性 🎯 完整的 MVC架构，代码 结构清晰，易于维护，支持 API 和 Web界面 支持视频文案 AI自动生成，也可以 自定义文案 支持多种 高清视频 尺寸 竖屏 9:16， 1080x1920 横屏 16:9， 1920x1080 支持 批量视频生成，可以一次生成多个视频，然后选择一个最满意的 支持 视频片段时长 设置，方便调节素材切换频率 支持 中文 和 英文 视频文案 支持 多种语音 合成，可 实时试听 效果 支持 字幕生成，可以调整 字体、 位置、 颜色、 大小，同时",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "视频",
+            "模型",
+            "大模型"
+          ],
+          "score": 29
+        },
+        {
+          "title": "Leonxlnx/taste-skill",
+          "titleZh": "Leonxlnx/taste-skill：品味技能 AI 代理的防倾斜前端框架 便携式",
+          "link": "https://github.com/Leonxlnx/taste-skill",
+          "publishedAt": "2026-06-07T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Taste Skill The Anti-Slop Frontend Framework for AI Agents Portable Agent Skills that upgrade AI-built interfaces: stronger layout, typography, motion, and spacing instead of boilerplate-looking UIs. This repo also includes image-generation skills for reference boards (web, mobile, brand kits). Pair them with ChatGPT Images or similar generators, then hand the frames to Codex, Cursor, or Claude Code for implementation. Disclaimer Taste Skill has no official token, coin, or crypto project. Any token using my name, i",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://repository-images.githubusercontent.com/1162099055/0a968964-fdca-4781-853b-84afc2bc2d31",
+          "video": "",
+          "summary": "Taste Skill The Anti-Slop Frontend Framework for AI Agents Portable Agent Skills that upgrade AI-built interfaces: stronger layout, typography, motion, and spacing instead of boilerplate-looking UIs. This repo also includes image-generation skills for reference boards (web, mobile, brand kits). Pair them with ChatGPT Images or similar generators, then hand the frames to Codex, Cursor, or Claude Code for implementation. Disclaimer Taste Skill has no official token, coin, or crypto project. Any token using my name, i",
+          "summaryZh": "品味技能 AI 代理的防倾斜前端框架 便携式代理技能可升级 AI 构建的界面：更强的布局、排版、运动和间距，而不是样板式的 UI。该存储库还包括参考板（网络、移动设备、品牌套件）的图像生成技能。将它们与 ChatGPT Images 或类似的生成器配对，然后将帧交给 Codex、Cursor 或 Claude Code 进行实现。免责声明 Taste Skill 没有官方token、硬币或加密项目。任何使用我名字的令牌，我",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Here are 8 brilliant product design tips straight from Claude Design. Simple, profound, and essentia...",
+          "titleZh": "Claude Design 给出的 8 条产品设计提醒",
+          "link": "https://x.com/dotey/status/2063444443991097775",
+          "publishedAt": "Sun, 07 Jun 2026 02:14:27 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "Here are 8 brilliant product design tips straight from Claude Design. Simple, profound, and essential for every creator and builder: 1. A prototype nobody clicks is just a painting. 2. The best design system is the one nobody notices. 3. You cannot unsee a bad font pairing. Choose carefully. 4. Every pixel argues for attention. Most should lose. 5. The fastest way to finish a design is to ship it. 6. Whitespace is not empty. It is the silence between the notes. 7. If you need more than three colors, you have zero colors. 8. The user's mental model is the only spec that matters. #ProductDesign #UIUX #DesignSystem #ClaudeDesign 宝玉 @dotey Claude Design 的小贴士很有意思： ### 第一部分：产品设计心法 1. 交互的本质 - EN: A prototype nobody clicks is just a painting. - CN: 没人点击交互的产品原型，充其量只是一幅画罢了。 2. 设计的最高境界 - EN: The best design system is the one nobody notices. - CN: 最好的设计系统，是自然到让人察觉不到它的存在。 3. 字体搭配 - EN: You cannot unsee a bad font pairing. Choose carefully. - CN: 糟糕的字体搭配一旦入眼，就再也忘不掉了。挑选时请务必慎重。 4. 像素级克制 - EN: Every pixel argues for attention. Most should lose. - CN: 屏幕上的每一个像素都在疯狂争夺用户的注意力，但绝大部分像素都应该学会“让步”。 5. 发布的意义 - EN: The fastest way to finish a design is to ship it. - CN: 完成一个设计的绝对捷径，就是把它发布上线。 6. 留白的艺术 - EN: Whitespace is not empty. It is the silence between the notes. - CN: 留白并不代表空洞。它是乐谱上音符之间那迷人的停顿。 7. 色彩法则 - EN: If you need more than three colors, you have zero colors. - CN: 如果你觉得需要三种以上的颜色才能把控画面，那说明你完全失去了对颜色的掌控。 8. 核心规范 - EN: The user's mental model is the only spec that matters. - CN: 用户的心理模型 (mental model)，才是唯一真正重要的产品规范。 --- ### 第二部分：日常实用小妙招 (Info) 9. 去除鞋底口香糖 - EN: Freeze gum with an ice cube for 2 minutes. It peels right off shoes. - CN: 用冰块冷敷口香糖 2 分钟，就能把它从鞋底轻松撕下来。 10. 清洁微波炉 - EN: Microwave a damp paper towel for 30 seconds. Crud wipes right off the inside. - CN: 把湿纸巾放进微波炉里加热 30 秒。微波炉内壁的顽固污垢立刻就能一擦就掉。 11. 拧开滑丝的螺丝 - EN: A rubber band over a stripped screw head gives enough grip to turn it. - CN: 把一根橡皮筋垫在滑丝的螺丝头上，就能增加足够的摩擦力把它拧出来。 12. 修复木家具划痕 - EN: Run walnuts over scratched wood furniture. The oils fill the scratches. - CN: 拿核桃仁在被划伤的木质家具上摩擦。核桃的天然油脂会完美填补那些划痕。 13. 面包保鲜秘诀 - EN: Store bread in the freezer. Toasting it from frozen tastes better than fresh. - CN: 把面包存在冷冻室里。冷冻后再拿去烤，口感甚至比新鲜出炉的还要好。 14. 砧板除味 - EN: Rub a wooden cutting board with lemon and salt to deodorize it completely. - CN: 用柠檬和盐摩擦木质砧板，可以彻底去除难闻的异味。 15. 防止沸水溢出 - EN: Put a wooden spoon across a boiling pot. It won't boil over. - CN: 在沸腾的锅面上横放一把木勺，汤汁就不会溢出来了。 16. 炒出蓬松鸡蛋 - EN: Adding a splash of water instead of milk makes fluffier eggs. Milk makes them dense. - CN: 炒鸡蛋时加一点水而不是牛奶，煎出来的鸡蛋会更蓬松。加牛奶反而会让鸡蛋变紧实。 --- ### 第三部分：Claude 操作与交互技巧 17. 语音控制 - EN: Talk to Claude: tap ⌘G to start voice input, or hold Space in a comment to dictate. - CN: 语音对话 Claude：按下 ⌘G 即可启动语音输入，或者在写评论时按住空格键直接口述。 18. 智能识图 - EN: Drop images here — they auto-attach to your next message as context. - CN: 直接把图片拖到这里——它们会自动附加到你的下一条消息中，作为上下文（Context，即帮助 AI 理解你意图的背景信息）使用。 19. 快捷截图 - EN: ⌘V pastes screenshots straight from your clipboard into the chat view. - CN: 按 ⌘V 可以将剪贴板里的截图直接粘贴到聊天界面中。 20. 代码库读取 - EN: Mount a local folder from the Import menu — Claude reads your codebase live, no copying. - CN: 从“导入”(Import) 菜单挂载本地文件夹——Claude 能实时读取你的代码库 (codebase)，再也不用你手动来回复制粘贴代码了。 21. 导入专业知识 - EN: Attach skills or reference design systems from the Import menu. - CN: 从“导入”菜单中添加特定技能，或者引入你需要参考的设计系统。 22. 精准批注 - EN: Click \"Comment\" in the toolbar, then click any element to annotate it. - CN: 点击工具栏上的“评论”(Comment)，然后点击界面上的任何元素，就可以给它添加批注了。 23. 批量发送 - EN: Leave multiple comments before sending — they all batch into one message. - CN: 你可以在发送前留下多条评论——它们会被打包合并成一条消息一起发给 Claude。 24. 原地修改文本 - EN: Text edit mode lets you click text in the preview and rewrite it in-place. - CN: 开启文本编辑模式后，你只需在预览区域点击文字，就能原地修改它。 25. 输入框管理 - EN: Comments and text edits appear as chips in the composer. Remove any you don't want. - CN: 你的评论和文本修改会变成输入框里的一块块小标签 (chips)。遇到不满意的，随时点叉删掉就行。 26. 实时 UI 调试 - EN: Knobs mode lets you drag-adjust CSS values live — sizes, colors, spacing. Use a prompt to control the UI. - CN: 在“旋钮模式”(Knobs mode) 下，你可以像拧收音机旋钮一样，通过拖拽来实时调整 CSS（层叠样式表，网页外观设计的代码语言）数值，比如大小、颜色和间距。你也可以直接用提示词 (prompt) 来控制用户界面 (UI)。 27. 产品原型进化 - EN: \"Prototype\" starts at wireframes, moves to hi-fi, and ends as a working interactive app. - CN: “原型”(Prototype) 功能带你走完产品设计的全流程：从简单的线框图开始，进化到高保真设计图，最终变成一个真正能点、能用的交互式应用。 28. 生成演讲稿 - EN: Turn on speaker notes when creating decks to get a full presenter script. - CN: 让 AI 帮你制作幻灯片 (decks) 时，记得打开“演讲者备注”(speaker notes)，这样你就能直接获得一份完整的演讲稿。 29. 沉淀工作流 - EN: Ask Claude to \"save this as a template\" — it packages the workflow for reuse. - CN: 告诉 Claude“把这个保存为模板”——它就会把这套工作流 (workflow) 打包，方便你下次直接复用。 30. 多格式导出 - EN: The Share menu lets you export as PPTX, PDF, or a folder to give to Claude Code. - CN: 通过“分享”(Share) 菜单，你可以把作品导出为 PPTX、PDF，或者打包成一个文件夹交给 Claude Code（Anthropic 推出的面向开发者的命令行 AI 编程助手）。 31. 无缝对接开发 - EN: \"Handoff to Claude Code\" creates a dev-ready package with specs and structure. Download it, then tell Claude Code \"create this design.\" - CN: “移交至 Claude Code”(Handoff to Claude Code) 功能会为你生成一个包含规范和结构的“开发就绪”数据包。下载它，然后直接告诉 Claude Code：“帮我把这个设计写成代码。” 32. 切换模型大脑 - EN: Use the Gear next to the Send button to change model. - CN: 点击发送按钮旁边的齿轮图标，即可随时切换不同的大语言模型 (LLM)。 33. 原型内嵌 API - EN: Claude can call the Claude API from inside your prototypes. No backend needed. - CN: Claude 甚至可以直接在你的产品原型中调用 Claude API（应用程序编程接口，相当于连接 AI 大脑的通道）。完全不需要写任何后端代码！ 34. 网页语音交互 - EN: Ask Claude to use the Web Speech API for interactive voice input and output. - CN: 试试让 Claude 调用 Web Speech API（浏览器内置的语音合成与识别接口），让你的网页直接实现可以对话的语音输入与输出。 35. 手绘草图 - EN: The napkin sketch tool lets you draw freehand — great for rough layouts. - CN: “餐巾纸草图”(napkin sketch) 工具允许你随心所欲地手绘涂鸦——非常适合用来勾勒粗略的排版布局。 36. 捕获真实网页 - EN: Import → Web Capture lets you copy elements from real web pages and paste them to Claude. - CN: 使用“导入”→“网页捕获”(Web Capture)，你可以直接从真实的网页上复制元素，然后原封不动地粘贴给 Claude。 🔗 View Quoted Tweet 💬 4 🔄 8 ❤️ 35 👀 12270 📊 11 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKLTxPhXIAACx7x.jpg",
+          "video": "",
+          "summary": "Here are 8 brilliant product design tips straight from Claude Design. Simple, profound, and essential for every creator and builder: 1. A prototype nobody clicks is just a painting. 2. The best design system is the one nobody notices. 3. You cannot unsee a bad font pairing. Choose carefully. 4. Every pixel argues for attention. Most should lose. 5. The fastest way to finish a design is to ship it. 6. Whitespace is not empty. It is the silence between the notes. 7. If you need more than three colors, you have zer...",
+          "summaryZh": "这条长帖把 **Claude Design** 的一组产品设计原则整理成了更容易传播的清单，核心包括：**没人会点击的原型只是一幅画**、**最好的设计系统是不被注意到的设计系统**、**像素要克制地争夺注意力**、以及 **最快完成设计的方法往往是尽快发布**。它的价值不在于提出全新理论，而在于把 AI 设计工具背后的默认审美和交互哲学说得更明确。对正在用 **Claude Design、Cursor Design** 或其他 AI UI 工具的人来说，这些原则有助于理解模型为什么会偏好某些排版、留白和组件组织方式。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "产品设计",
+            "交互",
+            "设计系统"
+          ],
+          "score": 57.965984960445894
+        },
+        {
+          "title": "Whenever I don’t use codex for a task, I ask myself why and usually realize that there’s some missin...",
+          "titleZh": "Greg Brockman：很多没让 Codex 处理的任务，本质上是上下文和技能封装还不够",
+          "link": "https://x.com/gdb/status/2063437915347136554",
+          "publishedAt": "Sun, 07 Jun 2026 01:48:30 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "description": "Whenever I don’t use codex for a task, I ask myself why and usually realize that there’s some missing context, I needed to write a skill, or I just didn’t think to use it. Rarely is it because the task is outside of the capabilities of the model. Overhang right now feels large. 💬 274 🔄 140 ❤️ 3257 👀 196511 📊 629 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Whenever I don’t use codex for a task, I ask myself why and usually realize that there’s some missing context, I needed to write a skill, or I just didn’t think to use it. Rarely is it because the task is outside of the capabilities of the model. Overhang right now feels large. 💬 274 🔄 140 ❤️ 3257 👀 196511 📊 629 ⚡ Powered by xgo.ing",
+          "summaryZh": "Greg Brockman 的观点是：很多看起来“AI 还做不了”的任务，真正的瓶颈并不是模型能力上限，而是 **上下文没有喂够**、**技能没有封装好**，或者用户压根还没形成“先让 Codex 试试”的默认习惯。他用这条短帖传递了一个重要信号：在当前阶段，Agent 体验的提升空间很大一部分仍来自工作流设计，而不只是更强模型本身。对团队来说，这也提醒大家要把注意力放到 **上下文工程、技能沉淀、任务模板化** 上。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型"
+          ],
+          "score": 52
+        },
+        {
+          "title": "Automate productivity work? Fleet has you covered Questioning your choices after rooting for the Sp...",
+          "titleZh": "LangChain 推广 Fleet：支持固定重要聊天，面向生产力工作流管理",
+          "link": "https://x.com/LangChain/status/2063350891793760362",
+          "publishedAt": "Sat, 06 Jun 2026 20:02:42 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": "Automate productivity work? Fleet has you covered Questioning your choices after rooting for the Spurs? Fleet also has you covered Brace @BraceSproul Fleet lets you pin important chats so you can quickly revisit them later Never lose track of a conversation again in Fleet 🔗 View Quoted Tweet 💬 7 🔄 3 ❤️ 19 👀 7364 📊 7 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-08-2063350891793760362.mp4",
+          "summary": "Automate productivity work? Fleet has you covered Questioning your choices after rooting for the Spurs? Fleet also has you covered Brace @BraceSproul Fleet lets you pin important chats so you can quickly revisit them later Never lose track of a conversation again in Fleet 🔗 View Quoted Tweet 💬 7 🔄 3 ❤️ 19 👀 7364 📊 7 ⚡ Powered by xgo.ing",
+          "summaryZh": "LangChain 转发的这条产品信号主要在推广 **Fleet** 的对话管理能力，重点功能是把重要聊天 **pin 住**，方便在复杂的生产力工作流里反复回看，不再被连续对话淹没。虽然更新本身不算重磅，但它反映出 Agent 产品正在从“单次生成”走向“长期会话与任务管理”。如果你在做多轮协作式 Agent，这类对话组织能力会直接影响可用性。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 49.112089079071765
+        },
+        {
+          "title": "I don’t know whether to take these specific details like this seriously, but something like this wil...",
+          "titleZh": "Gary Marcus 转评 TurboVec：更省内存的向量检索若成立，可能重估现有数据基础设施投入",
+          "link": "https://x.com/GaryMarcus/status/2063390324228305378",
+          "publishedAt": "Sat, 06 Jun 2026 22:39:23 GMT",
+          "source": "Gary Marcus(@GaryMarcus)",
+          "sourceType": "social",
+          "description": "I don’t know whether to take these specific details like this seriously, but something like this will inevitably happen, sooner or later — and absolutely devastate all the data infrastructure investments. Leonard Rodman @RodmanAi SAM ALTMAN HAS A NEW PROBLEM. 🤯 Google just shrunk 31GB of AI memory down to 4GB. The tool is called TurboVec. It uses up to 16x less memory, searches faster than FAISS, runs fully offline, and works on a regular Mac. No expensive GPU cluster. No cloud dependency. No compromise on speed. → 16x lower memory usage → Faster vector search → Works with LangChain & LlamaIndex → 100% open source The race to build bigger AI models is loud. The race to make them dramatically cheaper just got a lot more interesting. Repo: github.com/RyanCodrai/tur… K 🔗 View Quoted Tweet 💬 14 🔄 10 ❤️ 103 👀 17553 📊 22 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKIUt5yakAAV8UR.jpg",
+          "video": "",
+          "summary": "I don’t know whether to take these specific details like this seriously, but something like this will inevitably happen, sooner or later — and absolutely devastate all the data infrastructure investments. Leonard Rodman @RodmanAi SAM ALTMAN HAS A NEW PROBLEM. 🤯 Google just shrunk 31GB of AI memory down to 4GB. The tool is called TurboVec. It uses up to 16x less memory, searches faster than FAISS, runs fully offline, and works on a regular Mac. No expensive GPU cluster. No cloud dependency. No compromise on spee...",
+          "summaryZh": "Gary Marcus 转评一条关于 **TurboVec** 的消息，后者声称可把向量检索相关的内存占用从 **31GB 缩到 4GB**，同时实现 **最高 16 倍更低内存占用**、比 **FAISS** 更快的搜索速度，并且支持在普通 **Mac** 上离线运行。如果这些指标能被独立验证，它不只是一个新工具，而是会影响大家对向量数据库、云 GPU 和数据基础设施投入规模的判断。现阶段更值得关注的，是 TurboVec 是否公开了足够完整的 benchmark、硬件条件和可复现代码。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "开源"
+          ],
+          "score": 44.69357412759811
+        },
+        {
+          "title": "Mac软件开发上架，从未如此简单，正面刚App Store啊！ 终于等到 @raycast 新AI工具 Glaze @glazeapp 的内测邀请。 一句话 AI 生成Mac 软件并发布上架。 ...",
+          "titleZh": "Glaze 内测信号：一句话生成并上架 Mac 应用，尝试把 AI 开发与分发打通",
+          "link": "https://x.com/vista8/status/2063443048458264603",
+          "publishedAt": "Sun, 07 Jun 2026 02:08:54 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "description": "Mac软件开发上架，从未如此简单，正面刚App Store啊！ 终于等到 @raycast 新AI工具 Glaze @glazeapp 的内测邀请。 一句话 AI 生成Mac 软件并发布上架。 我正在用Spotify API开发一个类似Pandora的音乐电台。 体验了内置Store，一键安装了几个App，功能不复杂，但体验接近原生。 如图片标注工具，Agent Skill管理工具等 💬 28 🔄 14 ❤️ 151 👀 23340 📊 72 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKLL4GAaIAAz5u7.jpg",
+          "video": "",
+          "summary": "Mac软件开发上架，从未如此简单，正面刚App Store啊！ 终于等到 @raycast 新AI工具 Glaze @glazeapp 的内测邀请。 一句话 AI 生成Mac 软件并发布上架。 我正在用Spotify API开发一个类似Pandora的音乐电台。 体验了内置Store，一键安装了几个App，功能不复杂，但体验接近原生。 如图片标注工具，Agent Skill管理工具等 💬 28 🔄 14 ❤️ 151 👀 23340 📊 72 ⚡ Powered by xgo.ing",
+          "summaryZh": "向阳乔木分享了 **Glaze** 的内测体验：产品试图把 **一句话生成 Mac 应用**、**内置应用商店** 和 **分发上架** 串成一条链路，降低从想法到可安装桌面应用的门槛。帖文提到，其内置 Store 已能一键安装若干功能不复杂但接近原生体验的小应用，例如图片标注工具和 Agent Skill 管理工具。对 AI 原生开发平台来说，这类产品值得关注，因为它在尝试把“生成代码”进一步推进到“生成可发布软件”。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "API",
+            "智能体"
+          ],
+          "score": 43.09413405571195
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "原生实时交互模型 | Thinking Machines Lab | 自主式界面",
+          "titleZh": "原生实时交互模型 | Thinking Machines Lab | 自主式界面",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a181f7c7460cabdeb5751b8",
+          "publishedAt": "2026-06-06T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「原生实时交互模型 | Thinking Machines Lab | 自主式界面」。5月11日，由前OpenAI首席技术官米拉·穆拉蒂（Mira Murati）创立的Thinking Machines Lab，抛出了最新的研究成果，交互模型（Interaction Models）。这一次，Thinking Machines Lab试图重构人机协作的底层逻辑，把交互从模型的一项附加功能，变成原生基因。今天这期，我们就来介绍一下这个最新的研究成果。原视频来自： **简介要点**： - 5月11日，由前OpenAI首席技术官米拉·穆拉蒂（Mira Murati）创立的Thinking Machines Lab，抛出了最新的研究成果，交互模型（Interaction Models）。 - 这一次，Thinking Machines Lab试图重构人机协作的底层逻辑，把交互从模型的一项附加功能，变成原生基因。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "模型"
+          ],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "meng shao(@shao__meng)",
+      "url": "https://nitter.net/shao__meng/rss",
+      "error": "直连失败，代理兜底也失败：fetch failed; http://127.0.0.1:6789: Command failed: curl -L --http1.1 --silent --show-error --connect-timeout 10 --max-time 20 -A Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125 Safari/537.36 --proxy http://127.0.0.1:6789 https://nitter.net/shao__meng/rss\ncurl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to nitter.net:443 \n; http://127.0.0.1:7890: Command failed: curl -L --http1.1 --silent --show-error --connect-timeout 10 --max-time 20 -A Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125 Safari/537.36 --proxy http://127.0.0.1:7890 https://nitter.net/shao__meng/rss\ncurl: (7) Failed to connect to 127.0.0.1 port 7890 after 0 ms: Couldn't connect to server\n"
+    }
+  ],
+  "summaryBullets": [
+    "**ChatGPT 超级应用化信号升温**：帖文转述 OpenAI 正筹备把 **Codex、Agent、图像生成** 和第三方应用入口并入 ChatGPT 主界面，产品定位继续从聊天助手转向跨工作流平台。",
+    "**Claude Design 本地化工作流开始成形**：宝玉连续分享了设计稿版本管理、HAR 抓包解析和 Cursor 本地复刻方案，说明 AI 设计到编码的一体化链路正在被社区快速摸索。",
+    "**研究区继续聚焦 Agent 自进化与多模态评测**：**OpenSkill**、**Socratic-SWE** 分别讨论 Agent 如何在缺少监督时自建技能与验证体系，**WorldBench** 则提醒多模态模型在真实视觉多样性面前仍有明显短板。",
+    "**开源基础设施仍然活跃**：**llama.cpp** 持续完善 Hugging Face 缓存与新模型支持，**Open Notebook** 主打本地优先的 NotebookLM 替代路径，说明本地化 AI 工具链仍是热点。",
+    "**AI 产品正从“会生成”走向“可管理、可发布、可长期协作”**：从 Fleet 的会话固定，到 Glaze 尝试一句话生成并分发 Mac 应用，再到 Greg Brockman 强调上下文工程与技能封装，行业关注点正在转向完整工作流。"
+  ]
+}
