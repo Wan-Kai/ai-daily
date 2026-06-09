@@ -1,0 +1,696 @@
+{
+  "date": "2026-06-09",
+  "generatedAt": "2026-06-08T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-09",
+  "stats": {
+    "sources": 134,
+    "fetched": 643,
+    "emailCandidates": 0,
+    "selected": 28,
+    "failures": 7
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "We asked Gemini 3.5 Flash to bring back the classic early-2000s PC drawing experience, and it delive...",
+          "titleZh": "我们要求 Gemini 3.5 Flash 带回 2000 年代早期的经典 PC 绘图体验，它一举实现了这一目标",
+          "link": "https://x.com/GeminiApp/status/2064029133802446984",
+          "publishedAt": "Mon, 08 Jun 2026 16:57:47 GMT",
+          "source": "Google Gemini App(@GeminiApp)",
+          "sourceType": "social",
+          "description": "We asked Gemini 3.5 Flash to bring back the classic early-2000s PC drawing experience, and it delivered in one shot. What are you building first with Canvas? 💬 41 🔄 55 ❤️ 728 👀 1023762 📊 122 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We asked Gemini 3.5 Flash to bring back the classic early-2000s PC drawing experience, and it delivered in one shot. What are you building first with Canvas? 💬 41 🔄 55 ❤️ 728 👀 1023762 📊 122 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们要求 Gemini 3.5 Flash 带回 2000 年代早期的经典 PC 绘图体验，它一举实现了这一目标。您首先要使用 Canvas 构建什么？。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        },
+        {
+          "title": "Multimodal Search✅ Airgapped✅ Apache2✅",
+          "titleZh": "多模式搜索✅ Airgapped✅ Apache2✅ 韩晓 构建了我一直想要的东西，在本地使用 jina-v5-omni 嵌入在 mac 上进行多模式文件搜索",
+          "link": "https://x.com/JinaAI_/status/2063882501375037475",
+          "publishedAt": "Mon, 08 Jun 2026 07:15:08 GMT",
+          "source": "Jina AI(@JinaAI_)",
+          "sourceType": "social",
+          "description": "Multimodal Search✅ Airgapped✅ Apache2✅ Han Xiao @hxiao Built sth I've always wanted, using jina-v5-omni embeddings locally for multimodal file search on mac. + airgapped & fully local, indexes text, PDF, image, audio, and video + Swift-native UI + mlx-swift-transformer optimized core. No Python. + tested on M3 Pro 18G / M3 Ultra 512G / M4 Pro 48G. all work fine, no OOM + local HTTP server exposes index to agents like OpenClaw & Hermes 🔗 View Quoted Tweet 💬 0 🔄 1 ❤️ 13 👀 2468 📊 3 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKFiuwsbYAA_eI8.jpg",
+          "video": "",
+          "summary": "Multimodal Search✅ Airgapped✅ Apache2✅ Han Xiao @hxiao Built sth I've always wanted, using jina-v5-omni embeddings locally for multimodal file search on mac. + airgapped & fully local, indexes text, PDF, image, audio, and video + Swift-native UI + mlx-swift-transformer optimized core. No Python. + tested on M3 Pro 18G / M3 Ultra 512G / M4 Pro 48G. all work fine, no OOM + local HTTP server exposes index to agents like OpenClaw & Hermes 🔗 View Quoted Tweet 💬 0 🔄 1 ❤️ 13 👀 2468 📊 3 ⚡ Powered by xgo.ing",
+          "summaryZh": "多模式搜索✅ Airgapped✅ Apache2✅ 韩晓 构建了我一直想要的东西，在本地使用 jina-v5-omni 嵌入在 mac 上进行多模式文件搜索。 + 气隙和完全本地化，索引文本、PDF、图像、音频和视频 + Swift 原生 UI + mlx-swift-transformer 优化核心。没有Python。 + 在 M3 Pro 18G / M3 Ultra 512G / M4 Pro 48G 上测试。一切正常，没有 OOM + 本地 HTTP 服务器向 OpenClaw 和 Hermes 等代理公开索引 查看引用的推文。这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "多模态",
+            "视频",
+            "图像"
+          ],
+          "score": 56.275353768938814
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Watch, Remember, Reason: Human-View Video Understanding with MLLMs",
+          "titleZh": "观看、记住、推理：使用 MLLM 进行人眼视频理解",
+          "link": "https://arxiv.org/abs/2606.07433",
+          "publishedAt": "Mon, 08 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.07433v1 Announce Type: cross Abstract: Video understanding is being rapidly transformed by multimodal large language models (MLLMs), as research moves from short clips to long, multimodal, and knowledge-intensive video scenarios. These scenarios require models to handle sparse evidence, long-range dependencies, multimodal alignment, and reliable inference under limited computational budgets. This work presents a human-view perspective on LLM-based video understanding, organized around three functional abilities: watching, remembering, and reasoning. Rather than treating video tasks as isolated benchmarks, this view provides a unified structure for analyzing how video MLLMs acquire evidence, preserve context, and produce grounded outputs. We introduce a formulation that characterizes video understanding systems by their perceptual representations, memory states, reasoning traces, and final predictions. Based on this formulation, we identify challenges in spatio-temporal perception, efficient long-video processing, memory modeling, streaming understanding, and faithful reasoning. Representative methods are organized by their roles in video MLLM systems. Watching covers fine-grained, comprehensive, audio-visual, and efficient perception. Remembering includes offline and streaming memory, while reasoning covers text-only reasoning and thinking with videos. We further examine application domains such as egocentric, sports, instructional, medical, and narrative videos, and cover training datasets and evaluation benchmarks across task types, supervision formats, modalities, and capability dimensions. Finally, we outline open problems and future directions for scalable, memory-aware, and evidence-grounded video intelligence. Related works will be continuously traced at https://github.com/marinero4972/Awesome-HumanView-VideoUnderstanding.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.07433v1 Announce Type: cross Abstract: Video understanding is being rapidly transformed by multimodal large language models (MLLMs), as research moves from short clips to long, multimodal, and knowledge-intensive video scenarios. These scenarios require models to handle sparse evidence, long-range dependencies, multimodal alignment, and reliable inference under limited computational budgets. This work presents a human-view perspective on LLM-based video understanding, organized around three functional...",
+          "summaryZh": "**核心结论** 「观看、记住、推理：使用 MLLM 进行人眼视频理解」要解决的问题是：随着研究从短片转向长的、多模态和知识密集型视频场景，多模态大语言模型 (MLLM) 正在迅速改变视频理解。这些场景需要模型能够处理稀疏证据、远程依赖、多模态对齐以及在有限计算预算下的可靠推理。这项工作提出了基于LLM的视频理解的人眼视角，围绕三个功能组织。 **支撑证据** 摘要与公开信息显示：arXiv:2606.07433v1 随着研究从短片转向长的、多模态和知识密集型视频场景，多模态大语言模型 (MLLM) 正在迅速改变视频理解。这些场景需要模型能够处理稀疏证据、远程依赖、多模态对齐以及在有限计算预算下的可靠推理。这项工作提出了基于LLM的视频理解的人眼视角，围绕三个功能组织... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 42
+        },
+        {
+          "title": "Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle",
+          "titleZh": "作为真正的研究人员：评估研究生命周期中的前沿LLM和代理工具的一套基准",
+          "link": "https://arxiv.org/abs/2606.07462",
+          "publishedAt": "Mon, 08 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.07462v1 Announce Type: new Abstract: As foundation models advance and agent scaffolding becomes increasingly sophisticated, agents have demonstrated remarkable proficiency in complex, long-horizon coding tasks and even autonomous experiment execution. Despite their evolution from research assistants into autonomous research agents, these systems still exhibit significant limitations in field sensitivity, research ethics, and nuanced scientific judgment. Consequently, frontier agents remain unable to fully replace human researchers. To bridge this gap, we conceptualize the AARR (Act As a Real Researcher) benchmark series. Unlike existing benchmarks that primarily assess macro-level execution capabilities, AARR focuses on whether agents can emulate the professionalism, thoroughness, and nuanced reasoning that characterize human researchers in granular research scenarios. In this work, we propose AARRI-Bench (Act As a Real Research Intern), the first benchmark in this series. We conduct extensive experiments across frontier models and agentic systems, revealing that even the best-performing configuration (Mini-SWE-Agent with Claude Opus 4.7) achieves only 68.3\\% success rate, frequently overlooking subtle yet critical details that are obvious to real human researchers. Our results indicate that developing researcher-like AI requires further exploration of research behavior, rather than merely complex scaffolding. Our data is released at https://github.com/AARR-bench/AARRI-bench.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.07462v1 Announce Type: new Abstract: As foundation models advance and agent scaffolding becomes increasingly sophisticated, agents have demonstrated remarkable proficiency in complex, long-horizon coding tasks and even autonomous experiment execution. Despite their evolution from research assistants into autonomous research agents, these systems still exhibit significant limitations in field sensitivity, research ethics, and nuanced scientific judgment. Consequently, frontier agents remain unable to f...",
+          "summaryZh": "**核心结论** 「作为真正的研究人员：评估研究生命周期中的前沿LLM和代理工具的一套基准」要解决的问题是：随着基础模型的进步和智能体支架变得越来越复杂，智能体在复杂、长期的编码任务甚至自主实验执行方面表现出了卓越的熟练程度。尽管它们从研究助理演变为自主研究代理人，但这些系统在领域敏感性、研究伦理和细致入微的科学判断方面仍然表现出显着的局限性。因此，边防人员仍然无法。 **支撑证据** 摘要与公开信息显示：arXiv:2606.07462v1 随着基础模型的进步和智能体支架变得越来越复杂，智能体在复杂、长期的编码任务甚至自主实验执行方面表现出了卓越的熟练程度。尽管它们从研究助理演变为自主研究代理人，但这些系统在领域敏感性、研究伦理和细致入微的科学判断方面仍然表现出显着的局限性。因此，边防人员仍然无法... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "推理能力",
+            "评测"
+          ],
+          "score": 39
+        },
+        {
+          "title": "Evaluate your Amazon Nova Sonic voice agent at scale, no microphone required",
+          "titleZh": "大规模评估您的 Amazon Nova Sonic 语音代理，无需麦克风",
+          "link": "https://aws.amazon.com/blogs/machine-learning/evaluate-your-amazon-nova-sonic-voice-agent-at-scale-no-microphone-required/",
+          "publishedAt": "Mon, 08 Jun 2026 15:57:45 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, we walk you through the Nova Sonic Test Harness, an open source framework that we built to solve both problems. It serves as a rapid iteration tool for tuning system prompts and tool configurations (run a conversation, see results, adjust, repeat) and as a comprehensive evaluation framework for validating voice agent quality at scale. It runs complete multi-turn conversations with Amazon Nova Sonic automatically, evaluates them using LLM-as-judge techniques, and can even detect cases where the model’s audio output doesn’t match its text output (audio hallucinations). No microphone required.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/08/ml-21086.png",
+          "video": "",
+          "summary": "In this post, we walk you through the Nova Sonic Test Harness, an open source framework that we built to solve both problems. It serves as a rapid iteration tool for tuning system prompts and tool configurations (run a conversation, see results, adjust, repeat) and as a comprehensive evaluation framework for validating voice agent quality at scale. It runs complete multi-turn conversations with Amazon Nova Sonic automatically, evaluates them using LLM-as-judge techniques, and can even detect cases where the mode...",
+          "summaryZh": "在这篇文章中，我们将带您了解 Nova Sonic Test Harness，这是我们为解决这两个问题而构建的开源框架。它可以作为一种快速迭代工具，用于调整系统提示和工具配置（运行对话、查看结果、调整、重复），并作为大规模验证语音代理质量的综合评估框架。它自动与 Amazon Nova Sonic 运行完整的多轮对话，使用 LLM 作为法官技术对其进行评估，甚至可以检测模式...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "开源",
+            "语音"
+          ],
+          "score": 38
+        },
+        {
+          "title": "End-to-end encrypted ML inference with Amazon SageMaker AI and FHE",
+          "titleZh": "使用 Amazon SageMaker AI 和 FHE 进行端到端加密的 ML 推理",
+          "link": "https://aws.amazon.com/blogs/machine-learning/end-to-end-encrypted-ml-inference-with-amazon-sagemaker-ai-and-fhe/",
+          "publishedAt": "Mon, 08 Jun 2026 16:14:14 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "This blog has previously discussed FHE for ML inference in the post Enable fully homomorphic encryption with Amazon SageMaker endpoints for secure, real-time inferencing, but this post goes a little further. That previous post showed how to implement FHE-based inference 'from scratch' by hand-crafting a linear-regression algorithm using a low-level library called SEAL. Instead, this post shows a much more flexible and higher-level approach based on concrete-ml, a high-level library built specifically for FHE-based inference. It supports several common types of models 'out of the box' and is even API compatible with the well-known ML library scikit-learn.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/26/ML-18990.png",
+          "video": "",
+          "summary": "This blog has previously discussed FHE for ML inference in the post Enable fully homomorphic encryption with Amazon SageMaker endpoints for secure, real-time inferencing, but this post goes a little further. That previous post showed how to implement FHE-based inference 'from scratch' by hand-crafting a linear-regression algorithm using a low-level library called SEAL. Instead, this post shows a much more flexible and higher-level approach based on concrete-ml, a high-level library built specifically for FHE-bas...",
+          "summaryZh": "**核心要点** 本博客之前曾在文章《使用 Amazon SageMaker 端点启用完全同态加密以实现安全、实时推理》中讨论了用于 ML 推理的 FHE，但这篇文章更进一步。上一篇文章展示了如何使用名为 SEAL 的低级库手工制作线性​​回归算法，“从头开始”实现基于 FHE 的推理。相反，这篇文章展示了一种基于crete-ml的更灵活和更高级别的方法，这是一个专门为FHE-bas构建的高级库......",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "推理部署"
+          ],
+          "score": 32
+        },
+        {
+          "title": "datasette-agent-edit 0.1a0",
+          "titleZh": "数据集代理编辑 0.1a0",
+          "link": "https://simonwillison.net/2026/Jun/7/datasette-agent-edit/#atom-everything",
+          "publishedAt": "2026-06-07T23:56:38+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Release: datasette-agent-edit 0.1a0 I'm planning several plugins for Datasette Agent which can make edits to existing pieces of text - things like collaborative Markdown editing, updating large SQL queries, and editing SVG files. Agentic editing of text is a little tricky to get right. My favorite published design for this is for the Claude text editor , which implements the following tools: view - view sections of a file, with line numbers added to every line. str_replace - find an exact old_str and replace it with new_str - fail if the original string is not unique insert - insert the specified text after the specified line number Rather than recreate these patterns for every plugin that needs them I decided to create this base plugin, datasette-agent-edit , which implements the core tools in a way that allows them to be adapted for other plugins. Tags: ai , datasette , generative-ai , llms , llm-tool-use , datasette-agent",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Release: datasette-agent-edit 0.1a0 I'm planning several plugins for Datasette Agent which can make edits to existing pieces of text - things like collaborative Markdown editing, updating large SQL queries, and editing SVG files. Agentic editing of text is a little tricky to get right. My favorite published design for this is for the Claude text editor , which implements the following tools: view - view sections of a file, with line numbers added to every line. str_replace - find an exact old_str and replace it...",
+          "summaryZh": "**核心要点** 发布：datasette-agent-edit 0.1a0 我正在计划为 Datasette Agent 添加几个插件，它们可以编辑现有的文本片段 - 例如协作 Markdown 编辑、更新大型 SQL 查询和编辑 SVG 文件。文本的代理编辑要正确进行有点棘手。我最喜欢的已发布设计是 Claude 文本编辑器，它实现了以下工具： 查看 - 查看文件的各个部分，并在每一行添加行号。 str_replace - 找到一个精确的 old_str 并替换它...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Unlocking AI flexibility in Europe: A guide to cross-region inference for EU data processing and model access",
+          "titleZh": "释放欧洲人工智能的灵活性：欧盟数据处理和模型访问的跨区域推理指南",
+          "link": "https://aws.amazon.com/blogs/machine-learning/unlocking-ai-flexibility-in-europe-a-guide-to-cross-region-inference-for-eu-data-processing-and-model-access/",
+          "publishedAt": "Mon, 08 Jun 2026 16:40:34 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "With access to the latest generative AI models and high-performance accelerated compute in high global demand, AWS customers need tools to take advantage of model availability and capacity across multiple AWS Regions, while still meeting their security and privacy requirements. cross-Region Inference (CRIS) on Amazon Bedrock meets these needs by automatically routing requests across multiple […]",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/05/26/ML-20090.png",
+          "video": "",
+          "summary": "With access to the latest generative AI models and high-performance accelerated compute in high global demand, AWS customers need tools to take advantage of model availability and capacity across multiple AWS Regions, while still meeting their security and privacy requirements. cross-Region Inference (CRIS) on Amazon Bedrock meets these needs by automatically routing requests across multiple […]",
+          "summaryZh": "**核心要点** 由于全球需求旺盛，AWS 客户需要获取最新的生成式 AI 模型和高性能加速计算，因此需要工具来利用跨多个 AWS 区域的模型可用性和容量，同时仍满足其安全和隐私要求。 Amazon Bedrock 上的跨区域推理 (CRIS) 通过自动跨多个 [...] 路由请求来满足这些需求",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "推理部署"
+          ],
+          "score": 29
+        },
+        {
+          "title": "It’s safe to close your laptop now: Hosting coding agents on Amazon Bedrock AgentCore",
+          "titleZh": "现在可以安全地关闭您的笔记本电脑：在 Amazon Bedrock AgentCore 上托管编码代理",
+          "link": "https://aws.amazon.com/blogs/machine-learning/its-safe-to-close-your-laptop-now-hosting-coding-agents-on-amazon-bedrock-agentcore/",
+          "publishedAt": "Mon, 08 Jun 2026 16:35:02 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "Amazon Bedrock AgentCore Runtime gives each agent session its own isolated microVM with a persistent workspace, secure tool access through Gateway, and built-in observability—so you can run Claude Code, Codex, Kiro, and Cursor in parallel without sharing secrets, ports, or filesystems. Close the lid, go to dinner, and pick up where you left off tomorrow.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/03/20817.png",
+          "video": "",
+          "summary": "Amazon Bedrock AgentCore Runtime gives each agent session its own isolated microVM with a persistent workspace, secure tool access through Gateway, and built-in observability—so you can run Claude Code, Codex, Kiro, and Cursor in parallel without sharing secrets, ports, or filesystems. Close the lid, go to dinner, and pick up where you left off tomorrow.",
+          "summaryZh": "**核心要点** Amazon Bedrock AgentCore Runtime 为每个代理会话提供了自己独立的 microVM，其中包含持久工作区、通过网关的安全工具访问以及内置可观察性，因此您可以并行运行 Claude Code、Codex、Kiro 和 Cursor，而无需共享机密、端口或文件系统。盖上盖子，去吃晚饭，明天再从上次停下的地方继续。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        },
+        {
+          "title": "Amazon Quick ARNs: Cross-account migration and namespace permissions",
+          "titleZh": "Amazon Quick ARN：跨账户迁移和命名空间权限",
+          "link": "https://aws.amazon.com/blogs/machine-learning/amazon-quick-arns-cross-account-migration-and-namespace-permissions/",
+          "publishedAt": "Mon, 08 Jun 2026 16:07:29 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, we cover the structure of Amazon Quick ARNs and provide a practical mental model for working with them. By the end, you can look at an ARN and immediately understand what it means for your migration strategy, diagnose permission issues faster, and design multi-tenant architectures with confidence.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/08/ml-20693.png",
+          "video": "",
+          "summary": "In this post, we cover the structure of Amazon Quick ARNs and provide a practical mental model for working with them. By the end, you can look at an ARN and immediately understand what it means for your migration strategy, diagnose permission issues faster, and design multi-tenant architectures with confidence.",
+          "summaryZh": "**核心要点** 在这篇文章中，我们介绍了 Amazon Quick ARN 的结构，并提供了使用它们的实用心智模型。最后，您可以查看 ARN 并立即了解它对您的迁移策略意味着什么，更快地诊断权限问题，并充满信心地设计多租户架构。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型"
+          ],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "AI doesn’t always need the cloud. This project uses Qdrant Edge to build a privacy-first SOS detect...",
+          "titleZh": "人工智能并不总是需要云。该项目使用 Qdrant Edge 构建隐私优先的 SOS 检测",
+          "link": "https://x.com/qdrant_engine/status/2063969292945920190",
+          "publishedAt": "Mon, 08 Jun 2026 13:00:00 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "description": "AI doesn’t always need the cloud. This project uses Qdrant Edge to build a privacy-first SOS detection system that runs locally: → Audio embeddings with YAMNet → Real-time similarity search with Qdrant Edge → Observability with @SignozHQ A creative use of vector search for real-world safety applications. pub.towardsai.net/how-i-built-a-… 💬 3 🔄 0 ❤️ 6 👀 237 📊 4 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKQYCTPaEAA-uLp.jpg",
+          "video": "",
+          "summary": "AI doesn’t always need the cloud. This project uses Qdrant Edge to build a privacy-first SOS detection system that runs locally: → Audio embeddings with YAMNet → Real-time similarity search with Qdrant Edge → Observability with @SignozHQ A creative use of vector search for real-world safety applications. pub.towardsai.net/how-i-built-a-… 💬 3 🔄 0 ❤️ 6 👀 237 📊 4 ⚡ Powered by xgo.ing",
+          "summaryZh": "人工智能并不总是需要云。该项目使用 Qdrant Edge 构建在本地运行的隐私优先的 SOS 检测系统： → 使用 YAMNet 进行音频嵌入 → 使用 Qdrant Edge 进行实时相似性搜索 → 使用 进行可观察性 将矢量搜索创造性地用于现实世界的安全应用。 pub.towardsai.net/how-i-built-a-…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 43.547317586969754
+        },
+        {
+          "title": "📣 𝗢𝘂𝗿 𝘄𝗲𝗯𝗶𝗻𝗮𝗿 𝗮𝗯𝗼𝘂𝘁 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬 𝗶𝘀 𝗵𝗮𝗽𝗽𝗲𝗻𝗶𝗻𝗴 𝘁𝗼𝗱𝗮𝘆! Join us...",
+          "titleZh": "与核心维护人员 Li Liu 和 Jiang Chen 一起了解：Milvus 3.0 架构 → Milvus 3.0 路线图的清晰图片 → Milvus 3.",
+          "link": "https://x.com/milvusio/status/2063990179061264621",
+          "publishedAt": "Mon, 08 Jun 2026 14:23:00 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "description": "📣 𝗢𝘂𝗿 𝘄𝗲𝗯𝗶𝗻𝗮𝗿 𝗮𝗯𝗼𝘂𝘁 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬 𝗶𝘀 𝗵𝗮𝗽𝗽𝗲𝗻𝗶𝗻𝗴 𝘁𝗼𝗱𝗮𝘆! Join us with core maintainers Li Liu and Jiang Chen for: Milvus 3.0 architecture → A clear picture of the Milvus 3.0 roadmap → How Milvus 3.0 powers Zilliz Vector Lakebase → 15–20 min AMA with maintainers zilliz.com/event/whats-ne… 0 #Milvus � #VectorDatabase / #Zilliz v #VectorSearch v #AIInfrastructure e #Zilliz #VectorSearch #AIInfrastructure Milvus @milvusio 🌐 𝗪𝗲𝗯𝗶𝗻𝗮𝗿 | 𝗪𝗵𝗮𝘁’𝘀 𝗡𝗲𝘄 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬: 𝗟𝗶𝘃𝗲 𝗪𝗮𝗹𝗸𝘁𝗵𝗿𝗼𝘂𝗴𝗵 & 𝗔𝗠𝗔, 𝗝𝘂𝗻𝗲 𝟴 𝗼𝗻𝗹𝗶𝗻𝗲 Milvus 3.0 beta is the biggest architectural upgrade since the project began. It brings native support for indexing and querying vectors directly on your data lake, along with a query engine that goes beyond top-K search. In this live session, core maintainers Li Liu and Jiang Chen will walk through what shipped, the design choices behind it, and how Milvus 3.0 powers 𝗭𝗶𝗹𝗹𝗶𝘇 𝗩𝗲𝗰𝘁𝗼𝗿 𝗟𝗮𝗸𝗲𝗯𝗮𝘀𝗲. 🎤 𝗧𝗼𝗽𝗶𝗰𝘀 • What changed in Milvus 3.0 beta • Why data lake-native vector search matters • What’s in beta now and what’s coming in GA • How Milvus 3.0 powers Zilliz Vector Lakebase • 15–20 zilliz.com/event/whats-ne… maintainers 📅 𝗝𝘂𝗻𝗲 𝟴, 𝟮𝟬𝟮𝟲, 𝟰:𝟬𝟬 𝗽𝗺 𝗣𝗗𝗧 🔗 Register here: https://t.co/ccpclyAQa8 Bring your questions about migration, performance, arc #Milvus r #VectorDatabase e #Zilliz ’d like to ask the maintainers. Looking forward to the conversation! #Milvus #VectorDatabase #Zilliz 🔗 View Quoted Tweet 💬 0 🔄 0 ❤️ 0 👀 123 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HJk4wpUaMAALaGa.jpg",
+          "video": "",
+          "summary": "📣 𝗢𝘂𝗿 𝘄𝗲𝗯𝗶𝗻𝗮𝗿 𝗮𝗯𝗼𝘂𝘁 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬 𝗶𝘀 𝗵𝗮𝗽𝗽𝗲𝗻𝗶𝗻𝗴 𝘁𝗼𝗱𝗮𝘆! Join us with core maintainers Li Liu and Jiang Chen for: Milvus 3.0 architecture → A clear picture of the Milvus 3.0 roadmap → How Milvus 3.0 powers Zilliz Vector Lakebase → 15–20 min AMA with maintainers zilliz.com/event/whats-ne… 0 #Milvus � #VectorDatabase / #Zilliz v #VectorSearch v #AIInfrastructure e #Zilliz #VectorSearch #AIInfrastructure Milvus @milvusio 🌐 𝗪𝗲𝗯𝗶𝗻𝗮𝗿 | 𝗪𝗵𝗮𝘁’𝘀 𝗡𝗲𝘄 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬: 𝗟𝗶𝘃𝗲 𝗪𝗮𝗹𝗸𝘁𝗵𝗿𝗼𝘂𝗴𝗵 & 𝗔𝗠𝗔, 𝗝𝘂𝗻𝗲 𝟴 𝗼𝗻𝗹𝗶𝗻𝗲 Milvus 3.0 beta is the biggest architectural upgrade since the project began. It brings native support for indexing and querying vectors directly on your data lake, along with a query engine that goes beyond top-K search. In this live session, core maintainers Li Liu and Jiang Chen will walk through what ship...",
+          "summaryZh": "。！与核心维护人员 Li Liu 和 Jiang Chen 一起了解：Milvus 3.0 架构 → Milvus 3.0 路线图的清晰图片 → Milvus 3.0 如何为 Zilliz Vector Lakebase 提供支持 → 与维护人员进行 15–20 分钟的 AMA zilliz.com/event/whats-ne… 0 / v v e Milvus | ’ .: &，Milvus 3.0 beta 是项目启动以来最大的架构升级。它直接在数据湖上提供对向量索引和查询的本机支持，以及超越前 K 搜索的查询引擎。在本次直播中，核心维护者Li Liu和Jiang Chen将讲述什么船......（要点：与核心维护人员 Li Liu 和 Jiang Chen 一起了解：Milvus 3.0 架构 → Milvus 3.0 路线图的清晰图片 → Milvus 3.。）",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 39.140132527743354
+        },
+        {
+          "title": "phuryn/pm-skills",
+          "titleZh": "phuryn/pm-skills：面向产品经理与增长团队的代理技能市场",
+          "link": "https://github.com/phuryn/pm-skills",
+          "publishedAt": "2026-06-08T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star phuryn / pm-skills PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/phuryn/pm-skills/raw/main/.docs/images/plugins.png",
+          "video": "",
+          "summary": "Star phuryn / pm-skills PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+          "summaryZh": "**核心内容** 这个仓库把 **100 多种代理技能、命令和插件** 按产品发现、策略制定、执行、发布和增长等场景整理成一套可复用市场，目标是让团队更快拼装面向 PM 与运营流程的 AI 工作流。\n\n**展开方式/内容线索** 项目强调技能化复用，而不是单个提示词。读者可以重点看它如何组织能力目录、如何安装指定技能，以及这些技能是否真的覆盖调研、需求整理、上线运营等高频环节。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "产品发布",
+            "智能体"
+          ],
+          "score": 34
+        },
+        {
+          "title": "google/skills",
+          "titleZh": "google/skills：Google 官方代理技能仓库",
+          "link": "https://github.com/google/skills",
+          "publishedAt": "2026-06-08T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Agent Skills This repository contains Agent Skills for Google products and technologies, including Google Cloud . Note This repository is under active development. Installation npx skills add google/skills From the npx install command, you can select the specific skills from this repo to install. Available Skills Gemini API on Agent Platform Gemini Interactions API on Agent Platform Managed Agents API on Agent Platform Skill Registry API on Agent Platform AlloyDB Basics BigQuery Basics Cloud Run Basics Cloud SQL Ba",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/ed055c0373cb3a11870ae801fdd6ed94f73e4adb31cf4bb1ac18e93f43f6077d/google/skills",
+          "video": "",
+          "summary": "Agent Skills This repository contains Agent Skills for Google products and technologies, including Google Cloud . Note This repository is under active development. Installation npx skills add google/skills From the npx install command, you can select the specific skills from this repo to install. Available Skills Gemini API on Agent Platform Gemini Interactions API on Agent Platform Managed Agents API on Agent Platform Skill Registry API on Agent Platform AlloyDB Basics BigQuery Basics Cloud Run Basics Cloud SQL Ba",
+          "summaryZh": "**核心内容** Google 把自家产品和技术相关的 **Agent Skills** 集中放进一个官方仓库，当前已覆盖 **Gemini API、Gemini Interactions、Managed Agents、Skill Registry** 以及一批 Google Cloud 基础能力技能。\n\n**展开方式/内容线索** 仓库仍在积极开发中，安装入口是 `npx skills add google/skills`。如果你在评估可用性，重点应看技能目录是否足够细、与 Agent Platform 的耦合程度，以及后续维护节奏。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Andyyyy64/whichllm",
+          "titleZh": "Andyyyy64/whichllm：找到在您的硬件上实际运行并表现最佳的本地LLM。根据真实",
+          "link": "https://github.com/Andyyyy64/whichllm",
+          "publishedAt": "2026-06-08T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star Andyyyy64 / whichllm Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/Andyyyy64/whichllm/raw/main/assets/demo-run.gif",
+          "video": "",
+          "summary": "Star Andyyyy64 / whichllm Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+          "summaryZh": "找到在您的硬件上实际运行并表现最佳的本地LLM。根据真实的、新近度感知的基准排名，而不是参数计数。一条命令，立即运行。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "评测"
+          ],
+          "score": 29
+        },
+        {
+          "title": "RyanCodrai/turbovec",
+          "titleZh": "RyanCodrai/turbovec：把千万级向量语料压到 4GB 内存的 Rust 索引库",
+          "link": "https://github.com/RyanCodrai/turbovec",
+          "publishedAt": "2026-06-08T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "A 10 million document corpus takes 31 GB of RAM as float32. turbovec fits it in 4 GB - and searches it faster than FAISS. turbovec is a Rust vector index with Python bindings, built on Google Research's TurboQuant algorithm — a data-oblivious quantizer that matches the Shannon lower bound on distortion, with no codebook training and no separate train phase. Online ingest. Add vectors, they're indexed — no train step, no parameter tuning, no rebuilds as the corpus grows. Faster than FAISS. Hand-written NEON (ARM) an",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://repository-images.githubusercontent.com/1192555574/c9d82d4e-1a88-4201-a548-615cfbb0b16a",
+          "video": "",
+          "summary": "A 10 million document corpus takes 31 GB of RAM as float32. turbovec fits it in 4 GB - and searches it faster than FAISS. turbovec is a Rust vector index with Python bindings, built on Google Research's TurboQuant algorithm — a data-oblivious quantizer that matches the Shannon lower bound on distortion, with no codebook training and no separate train phase. Online ingest. Add vectors, they're indexed — no train step, no parameter tuning, no rebuilds as the corpus grows. Faster than FAISS. Hand-written NEON (ARM) an",
+          "summaryZh": "**核心内容** `turbovec` 是一个带 **Python 绑定** 的 **Rust 向量索引库**。项目声称 **1000 万文档** 若按 `float32` 存储需要 **31GB RAM**，而它能把占用压到 **4GB**，同时搜索速度还快过 **FAISS**。\n\n**展开方式/内容线索** 底层采用 Google Research 的 **TurboQuant** 量化思路，不需要单独训练阶段，也不必随着语料增长反复重建索引；项目还强调在线写入、无参数调优，以及针对 **ARM/AVX** 做了手写优化。这类实现很适合关注边缘部署和低内存检索的团队继续深挖。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Introducing a more powerful NotebookLM 🚀 Massive upgrades deliver agentic capabilities in chat, mo...",
+          "titleZh": "NotebookLM 推出更强版本：聊天加入代理式能力并扩展输出格式",
+          "link": "https://x.com/NotebookLM/status/2064016460964585549",
+          "publishedAt": "Mon, 08 Jun 2026 16:07:26 GMT",
+          "source": "NotebookLM(@NotebookLM)",
+          "sourceType": "social",
+          "description": "Introducing a more powerful NotebookLM 🚀 Massive upgrades deliver agentic capabilities in chat, more advanced reasoning, and a suite of new output formats. Tackling complex, multi-step research problems has never been easier. Rolling out now to Google AI Ultra subscribers. Your browser does not support the video tag. 🔗 View on Twitter 💬 127 🔄 330 ❤️ 2921 👀 365817 📊 619 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-09-2064016460964585549.mp4",
+          "summary": "Introducing a more powerful NotebookLM 🚀 Massive upgrades deliver agentic capabilities in chat, more advanced reasoning, and a suite of new output formats. Tackling complex, multi-step research problems has never been easier. Rolling out now to Google AI Ultra subscribers. Your browser does not support the video tag. 🔗 View on Twitter 💬 127 🔄 330 ❤️ 2921 👀 365817 📊 619 ⚡ Powered by xgo.ing",
+          "summaryZh": "NotebookLM 宣布一轮 **大版本升级**：聊天里加入了更强的 **代理式能力**、更高阶的 **推理**，同时新增一组输出格式，目标是让用户能更顺手地处理复杂、多步骤的研究任务。当前版本已开始向 **Google AI Ultra 订阅者** 推出，说明 Google 正在把 NotebookLM 从资料整理工具继续往研究型智能体方向推进。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "推理能力",
+            "视频"
+          ],
+          "score": 76
+        },
+        {
+          "title": "Forget about our users? Who? Us??? Please. These updates are rolling out globally on the web starti...",
+          "titleZh": "NotebookLM 说明新版覆盖范围：先向 Google AI Ultra 与部分 Workspace 套餐开放",
+          "link": "https://x.com/NotebookLM/status/2064022737107247423",
+          "publishedAt": "Mon, 08 Jun 2026 16:32:22 GMT",
+          "source": "NotebookLM(@NotebookLM)",
+          "sourceType": "social",
+          "description": "Forget about our users? Who? Us??? Please. These updates are rolling out globally on the web starting with Google AI Ultra and all Workspace business customers with AI Ultra Access and AI Expanded Access, however we *absolutely* plan to expand to others over time! NotebookLM @NotebookLM Introducing a more powerful NotebookLM 🚀 Massive upgrades deliver agentic capabilities in chat, more advanced reasoning, and a suite of new output formats. Tackling complex, multi-step research problems has never been easier. Rolling out now to Google AI Ultra subscribers. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 26 🔄 51 ❤️ 673 👀 46909 📊 88 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-09-2064022737107247423.mp4",
+          "summary": "Forget about our users? Who? Us??? Please. These updates are rolling out globally on the web starting with Google AI Ultra and all Workspace business customers with AI Ultra Access and AI Expanded Access, however we *absolutely* plan to expand to others over time! NotebookLM @NotebookLM Introducing a more powerful NotebookLM 🚀 Massive upgrades deliver agentic capabilities in chat, more advanced reasoning, and a suite of new output formats. Tackling complex, multi-step research problems has never been easier. Rolling out now to Google AI Ultra subscribers. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 26 🔄 51 ❤️ 673 👀 46909 📊 88 ⚡ Powered by xgo.ing",
+          "summaryZh": "NotebookLM 在补充说明里给出了更清楚的可用性范围：这波更新会先在 **Web 端** 向 **Google AI Ultra** 用户，以及拥有 **AI Ultra Access** 或 **AI Expanded Access** 的 **Workspace 企业客户** 全球推出，后续再逐步扩展到更多用户。这条回复的重要性在于，它把上一条发布里没有讲透的 **支持人群与上线节奏** 补齐了。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "推理能力",
+            "视频"
+          ],
+          "score": 75.18490818699061
+        },
+        {
+          "title": "Turn data and comparisons into charts, directly in ChatGPT. Available now on mobile and web.",
+          "titleZh": "直接在 ChatGPT 中将数据和比较转化为图表。现已在移动设备和网络上提供。",
+          "link": "https://x.com/ChatGPTapp/status/2064018770839113769",
+          "publishedAt": "Mon, 08 Jun 2026 16:16:37 GMT",
+          "source": "ChatGPT(@ChatGPTapp)",
+          "sourceType": "social",
+          "description": "Turn data and comparisons into charts, directly in ChatGPT. Available now on mobile and web. Your browser does not support the video tag. 🔗 View on Twitter 💬 128 🔄 159 ❤️ 2545 👀 145407 📊 438 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-09-2064018770839113769.mp4",
+          "summary": "Turn data and comparisons into charts, directly in ChatGPT. Available now on mobile and web. Your browser does not support the video tag. 🔗 View on Twitter 💬 128 🔄 159 ❤️ 2545 👀 145407 📊 438 ⚡ Powered by xgo.ing",
+          "summaryZh": "直接在 ChatGPT 中将数据和比较转化为图表。现已在移动设备和网络上提供。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "You nailed the point but stumbled on the words, so you record the whole thing again. And again Spee...",
+          "titleZh": "你抓住了要点，但无意中发现了单词，所以你重新记录了整个事情",
+          "link": "https://x.com/HeyGen/status/2064026934875656465",
+          "publishedAt": "Mon, 08 Jun 2026 16:49:03 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "description": "You nailed the point but stumbled on the words, so you record the whole thing again. And again Speech Cleanup takes your first take and removes every filler, pause, false start, and retake automatically The result is one seamless video. Other tools leave it jumping at the cuts Your browser does not support the video tag. 🔗 View on Twitter 💬 197 🔄 193 ❤️ 376 👀 262083 📊 357 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-09-2064026934875656465.mp4",
+          "summary": "You nailed the point but stumbled on the words, so you record the whole thing again. And again Speech Cleanup takes your first take and removes every filler, pause, false start, and retake automatically The result is one seamless video. Other tools leave it jumping at the cuts Your browser does not support the video tag. 🔗 View on Twitter 💬 197 🔄 193 ❤️ 376 👀 262083 📊 357 ⚡ Powered by xgo.ing",
+          "summaryZh": "你抓住了要点，但无意中发现了单词，所以你重新记录了整个事情。语音清理功能会再次处理您的第一次拍摄，并自动删除所有填充物、暂停、错误开始和重新拍摄，最终形成一个无缝视频。其他工具让它在切割时跳跃。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "We published new research with Harvard on the shift from chat interfaces to autonomous agents like C...",
+          "titleZh": "我们与哈佛大学合作发表了关于从聊天界面到 C 等自主代理的转变的新研究",
+          "link": "https://x.com/perplexity_ai/status/2064023455453110286",
+          "publishedAt": "Mon, 08 Jun 2026 16:35:14 GMT",
+          "source": "Perplexity(@perplexity_ai)",
+          "sourceType": "social",
+          "description": "We published new research with Harvard on the shift from chat interfaces to autonomous agents like Computer. Over 3 months, findings show workers using Computer finish tasks in 87% less time at 94% lower cost than Search alone, with higher satisfaction. research.perplexity.ai/articles/how-a… 💬 73 🔄 48 ❤️ 390 👀 43988 📊 123 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKTiZM9bYAET53X.jpg",
+          "video": "",
+          "summary": "We published new research with Harvard on the shift from chat interfaces to autonomous agents like Computer. Over 3 months, findings show workers using Computer finish tasks in 87% less time at 94% lower cost than Search alone, with higher satisfaction. research.perplexity.ai/articles/how-a… 💬 73 🔄 48 ❤️ 390 👀 43988 📊 123 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们与哈佛大学合作发表了关于从聊天界面到计算机等自主代理的转变的新研究。超过 3 个月的调查结果显示，与单独使用搜索相比，使用计算机的员工完成任务的时间减少了 87%，成本降低了 94%，满意度更高。 Research.perplexity.ai/articles/how-a…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 61.58334704330909
+        },
+        {
+          "title": "AI is moving beyond text, images, and code. Engineering artifacts are becoming a new class of model...",
+          "titleZh": "CADGenBench 发布：用统一基准评测 AI 生成和编辑 3D CAD 的能力",
+          "link": "https://x.com/Thom_Wolf/status/2064029993638764672",
+          "publishedAt": "Mon, 08 Jun 2026 17:01:12 GMT",
+          "source": "Thomas Wolf(@Thom_Wolf)",
+          "sourceType": "social",
+          "description": "AI is moving beyond text, images, and code. Engineering artifacts are becoming a new class of model outputs and evaluating them requires different tools than we use for text, code, or images. Today we're excited to release CADGenBench, a benchmark for CAD generation and editing. - Given an engineering drawing → generate a valid 3D CAD model - Given a STEP file + change request → edit it correctly The benchmark is tool-agnostic: any CAD stack works (Fusion, Onshape, build123d, SolidWorks, etc.). Submissions are simply STEP files. Models are scored on: * geometric accuracy * topology correctness * interface compatibility * CAD validity The benchmark is open, the ground truth is private, and the leaderboard is live. Since CAD evaluation is surprisingly subtle, here's how the metrics work 🧵 Michael Rabinovich @MikushRab Introducing CADGenBench: measure how well AI systems produce engineering-grade 3D parts! While current models can generate 3D parts, they are far from precise enough to build functional parts. We built a benchmark to systematically measure their capabilities on two tasks: 1. Generation from an engineering drawing of a part 2. Editing: given an existing STEP file and a requested change The benchmark is tool-agnostic. It makes no assumptions about how you build the model. You can vary the LLM, and you can vary the environment. Use build123d, Onshape, Autodesk, or a model without an LLM entirely. We open sourced the scoring engine and a reference baseline on top of build123d. A collaboration between Hugging Face and @mecadoinc ! Submission space: huggingface.co/spaces/Hugging… Code repository: github.com/huggingface/ca… Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 3 🔄 12 ❤️ 68 👀 14687 📊 15 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-06-09-2064029993638764672.mp4",
+          "summary": "AI is moving beyond text, images, and code. Engineering artifacts are becoming a new class of model outputs and evaluating them requires different tools than we use for text, code, or images. Today we're excited to release CADGenBench, a benchmark for CAD generation and editing. - Given an engineering drawing → generate a valid 3D CAD model - Given a STEP file + change request → edit it correctly The benchmark is tool-agnostic: any CAD stack works (Fusion, Onshape, build123d, SolidWorks, etc.). Submissions are s...",
+          "summaryZh": "Hugging Face 与 Mecado 发布 **CADGenBench**，想解决的是 AI 进入工程设计场景后，现有文本/图像基准已经无法衡量 **3D CAD 生成与编辑** 质量的问题。这个基准覆盖两类任务：一类是根据 **工程图生成可用的 3D CAD 模型**，另一类是基于 **STEP 文件 + 修改要求** 正确完成编辑。\n\n它的评测与工具链无关，**Fusion、Onshape、build123d、SolidWorks** 等方案都能提交，评分看 **几何精度、拓扑正确性、接口兼容性、CAD 有效性**。作者还公开了评分引擎和参考 baseline，这让它有机会成为工程类智能体的重要基准设施。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "评测",
+            "开源",
+            "视频"
+          ],
+          "score": 61.43578705467641
+        },
+        {
+          "title": "One video, now made for every feed and format. Upload your existing video, choose your desired aspec...",
+          "titleZh": "现在，针对每种提要和格式制作一个视频",
+          "link": "https://x.com/runwayml/status/2064012425884569627",
+          "publishedAt": "Mon, 08 Jun 2026 15:51:24 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "description": "One video, now made for every feed and format. Upload your existing video, choose your desired aspect ratio and watch our editing model, Aleph 2.0, fill in the rest of the scene as if you made it that way from the start. Try it on our desktop web app at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 17 ❤️ 138 👀 10906 📊 41 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-09-2064012425884569627.mp4",
+          "summary": "One video, now made for every feed and format. Upload your existing video, choose your desired aspect ratio and watch our editing model, Aleph 2.0, fill in the rest of the scene as if you made it that way from the start. Try it on our desktop web app at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 17 ❤️ 138 👀 10906 📊 41 ⚡ Powered by xgo.ing",
+          "summaryZh": "现在，针对每种提要和格式制作一个视频。上传您现有的视频，选择您想要的宽高比，然后观看我们的编辑模型 Aleph 2.0，填充场景的其余部分，就像您从一开始就这样做一样。通过下面的链接在我们的桌面网络应用上尝试一下。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 59.44019217659028
+        },
+        {
+          "title": "New: You can now connect multiple Gmail and Google Calendar accounts on Manus. Bring your work, per...",
+          "titleZh": "新功能：您现在可以在 Manus 上连接多个 Gmail 和 Google 日历帐户",
+          "link": "https://x.com/ManusAI/status/2064007164159807504",
+          "publishedAt": "Mon, 08 Jun 2026 15:30:29 GMT",
+          "source": "ManusAI(@ManusAI_HQ)",
+          "sourceType": "social",
+          "description": "New: You can now connect multiple Gmail and Google Calendar accounts on Manus. Bring your work, personal, client, or team accounts into one workflow, then choose which account Manus uses when taking action. Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 31 ❤️ 342 👀 24365 📊 67 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-09-2064007164159807504.mp4",
+          "summary": "New: You can now connect multiple Gmail and Google Calendar accounts on Manus. Bring your work, personal, client, or team accounts into one workflow, then choose which account Manus uses when taking action. Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 31 ❤️ 342 👀 24365 📊 67 ⚡ Powered by xgo.ing",
+          "summaryZh": "新功能：您现在可以在 Manus 上连接多个 Gmail 和 Google 日历帐户。将您的工作、个人、客户或团队帐户纳入一个工作流程，然后选择 Manus 在采取操作时使用的帐户。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 59.0326827922854
+        },
+        {
+          "title": "Codex use-cases: “From software engineering and design to data analysis and operations, Codex is bec...",
+          "titleZh": "Codex 用例：“从软件工程和设计到数据分析和操作，Codex 正在成为 AI 队友，而不仅仅是 AI 助手",
+          "link": "https://x.com/gdb/status/2063705280270021087",
+          "publishedAt": "Sun, 07 Jun 2026 19:30:55 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "description": "Codex use-cases: “From software engineering and design to data analysis and operations, Codex is becoming an AI teammate instead of just an AI assistant.” Suraj Sharma @suraj_sharma14 OpenAI just published dozens of real-world workflows showing how teams are using it to automate work. > Manage your inbox and draft replies in your voice > Review GitHub pull requests before human review > Turn Figma designs into production-ready code > Understand large codebases in minutes > Automate bug triage and QA workflows > Query spreadsheets and datasets using natural language > Deploy apps and websites directly from prompts > Build Mac and iOS applications faster > Create slide decks automatically > Turn Slack threads into coding tasks > Use your computer through AI-powered actions From software engineering and design to data analysis and operations, Codex is becoming an AI teammate instead of just an AI assistant. Explore all use cases: developers.openai.com/codex/use-cases 🔗 View Quoted Tweet 💬 126 🔄 88 ❤️ 1224 👀 171291 📊 228 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Codex use-cases: “From software engineering and design to data analysis and operations, Codex is becoming an AI teammate instead of just an AI assistant.” Suraj Sharma @suraj_sharma14 OpenAI just published dozens of real-world workflows showing how teams are using it to automate work. > Manage your inbox and draft replies in your voice > Review GitHub pull requests before human review > Turn Figma designs into production-ready code > Understand large codebases in minutes > Automate bug triage and QA workflows >...",
+          "summaryZh": "Codex 用例：“从软件工程和设计到数据分析和操作，Codex 正在成为 AI 队友，而不仅仅是 AI 助手。” Suraj Sharma @suraj_sharma14 OpenAI 刚刚发布了数十个实际工作流程，展示了团队如何使用它来自动化工作。 > 用声音管理收件箱和草稿回复 > 在人工审核之前审核 GitHub 拉取请求 > 将 Figma 设计转化为可投入生产的代码 > 在几分钟内了解大型代码库 > 自动化错误分类和 QA 工作流程 >...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "开发者工具",
+            "语音"
+          ],
+          "score": 57
+        },
+        {
+          "title": "Voice AI will fundamentally improve access to public services. We're partnering with the UK Governme...",
+          "titleZh": "语音人工智能将从根本上改善公共服务的获取",
+          "link": "https://x.com/ElevenLabs/status/2063989890933498199",
+          "publishedAt": "Mon, 08 Jun 2026 14:21:51 GMT",
+          "source": "ElevenLabs(@elevenlabsio)",
+          "sourceType": "social",
+          "description": "Voice AI will fundamentally improve access to public services. We're partnering with the UK Government to make it easier to access information and services online - especially for people who are visually impaired, struggle to read, or have difficulty navigating the internet. 💬 14 🔄 12 ❤️ 124 👀 11203 📊 29 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKS--joXsAEWOmd.jpg",
+          "video": "",
+          "summary": "Voice AI will fundamentally improve access to public services. We're partnering with the UK Government to make it easier to access information and services online - especially for people who are visually impaired, struggle to read, or have difficulty navigating the internet. 💬 14 🔄 12 ❤️ 124 👀 11203 📊 29 ⚡ Powered by xgo.ing",
+          "summaryZh": "语音人工智能将从根本上改善公共服务的获取。我们正在与英国政府合作，让人们更轻松地在线获取信息和服务，特别是对于视力障碍、阅读困难或上网有困难的人来说。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "语音"
+          ],
+          "score": 55.86567766592888
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "Vol.121｜硅谷AI大转弯，软件正在死去，创业者的真机会在哪里？｜2026年中特辑",
+          "titleZh": "Vol.121｜硅谷AI大转弯，软件正在死去，创业者的真机会在哪里？｜2026年中特辑",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a265d55b30e1571aea280f5",
+          "publishedAt": "2026-06-08T06:34:38.833Z",
+          "source": "开始连接 LinkStart",
+          "sourceType": "podcast",
+          "description": "听《开始连接 LinkStart》上小宇宙。 「开始连接 LinkStart」是一档由极客公园出品的科技商业播客。在这里，我们会邀请各行各业的嘉宾一起跨界对话、碰撞思想，用科技、商业和人文的视角一起描摹这个时代。 欢迎同步关注「公众号/视频号-极客公园」，第一时间，带你追踪科技热点。 公众号/视频号：极客公园 粉丝群：请至单集节目 shownotes 底部扫码加入～",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/Fkm-DmJ_lCbLxtekkyHx2McjuUUB.png",
+          "video": "",
+          "summary": "听《开始连接 LinkStart》上小宇宙。 「开始连接 LinkStart」是一档由极客公园出品的科技商业播客。在这里，我们会邀请各行各业的嘉宾一起跨界对话、碰撞思想，用科技、商业和人文的视角一起描摹这个时代。 欢迎同步关注「公众号/视频号-极客公园」，第一时间，带你追踪科技热点。 公众号/视频号：极客公园 粉丝群：请至单集节目 shownotes 底部扫码加入～",
+          "summaryZh": "**讲了什么**：这一期来自 **开始连接 LinkStart**，主题是「Vol.121｜硅谷AI大转弯，软件正在死去，创业者的真机会在哪里？｜2026年中特辑」。本期节目，我们邀请到了国内出手 AI 最活跃的基金之一——锦秋基金的两位合伙人臧天宇和郑晓超，一起深度复盘 2026 年上半年的模型、应用、具身行业。当底层模型的边界还在野蛮生长，整个行业正迎来估值跳涨与价值重估并存的拐点之年。我们不打算做宏大空泛的行业地图，只想为准备下场或正在路上的创业者，做一份最务实的「决策指南」。我们将用最真实的视角，帮你把那些最纠结的抉择一次性聊透：D1 创业到底选中国还是美国，怎么判断？在 AI 行业的热潮里，哪些是真趋势，哪些只是泡沫？面对大厂的底层挤压，哪些方向是留给创业者的真机会，哪些看起来热火朝天、但其实早就是大厂的终极战场？当底层模型不断吞噬应用，垂类 AI 应用的活路到底在哪里？ **简介要点**： - 本期节目，我们邀请到了国内出手 AI 最活跃的基金之一——锦秋基金的两位合伙人臧天宇和郑晓超，一起深度复盘 2026 年上半年的模型、应用、具身行业。 - 当底层模型的边界还在野蛮生长，整个行业正迎来估值跳涨与价值重估并存的拐点之年。 - 我们不打算做宏大空泛的行业地图，只想为准备下场或正在路上的创业者，做一份最务实的「决策指南」。 - 我们将用最真实的视角，帮你把那些最纠结的抉择一次性聊透：D1 创业到底选中国还是美国，怎么判断？",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "144. 对阳萌的4小时访谈：消费电子死与生、第三类公司、端侧模型、产品方法、游戏模式",
+          "titleZh": "144. 对阳萌的4小时访谈：消费电子死与生、第三类公司、端侧模型、产品方法、游戏模式",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a2543dcb30e1571aea20d0b",
+          "publishedAt": "2026-06-08T00:00:00.000Z",
+          "source": "张小珺Jùn｜商业访谈录",
+          "sourceType": "podcast",
+          "description": "听《张小珺Jùn｜商业访谈录》上小宇宙。 和你一起，从这里，探索新世界！ 《张小珺商业访谈录》是一档深度访谈节目，以2至7小时的长对话为形式，聚焦真实的人物表达与高密度的前沿信息。由语言即世界工作室出品。 主持人张小珺是财经媒体人，专注中国科技业深度报道，覆盖AI、科技巨头、风险投资与知名人物。曾13次获得国内外新闻奖项，其中2022年至2024年连续三届获得亚洲卓越新闻奖（SOPA）——被称为“亚洲普利策”。她也是语言即世界工作室的创始人。 “如果我的访谈能陪你走一段孤独的未知的路，也许有一天可以离目的地更近一点，我就很温暖。”——张小珺",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/nuIHGvi7YMJZVO7CW9hp61dD7ldO.png",
+          "video": "",
+          "summary": "听《张小珺Jùn｜商业访谈录》上小宇宙。 和你一起，从这里，探索新世界！ 《张小珺商业访谈录》是一档深度访谈节目，以2至7小时的长对话为形式，聚焦真实的人物表达与高密度的前沿信息。由语言即世界工作室出品。 主持人张小珺是财经媒体人，专注中国科技业深度报道，覆盖AI、科技巨头、风险投资与知名人物。曾13次获得国内外新闻奖项，其中2022年至2024年连续三届获得亚洲卓越新闻奖（SOPA）——被称为“亚洲普利策”。她也是语言即世界工作室的创始人。 “如果我的访谈能陪你走一段孤独的未知的路，也许有一天可以离目的地更近一点，我就很温暖。”——张小珺",
+          "summaryZh": "**讲了什么**：这一期来自 **张小珺Jùn｜商业访谈录**，主题是「144. 对阳萌的4小时访谈：消费电子死与生、第三类公司、端侧模型、产品方法、游戏模式」。前面几集节目，我和大家一起遇见了许多年轻的面孔——他们是AI时代原生的创业者和技术领袖。但是AI对社会的渗透是全方位的，不止于新技术与新产品。今天我们的嘉宾是安克创新的创始人兼CEO阳萌。他是1982年生人，2011年开始创业，如今掌舵一家市值超过600亿人民币的科技企业。面对新的范式变化，阳萌会怎么做？尤其在消费电子这个无限战争、速生速死的赛场之上。他有很多对产品与组织方法论的思考。接下来，就是我对阳萌的访谈。 **简介要点**： - 前面几集节目，我和大家一起遇见了许多年轻的面孔——他们是AI时代原生的创业者和技术领袖。 - 但是AI对社会的渗透是全方位的，不止于新技术与新产品。 - 他是1982年生人，2011年开始创业，如今掌舵一家市值超过600亿人民币的科技企业。 - DISCLAIMER: 本内容不作为投资建议。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "模型"
+          ],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "DeepSeek",
+      "url": "https://wechat2rss.bestblogs.dev/feed/1709da4f538d4ce4fb6d7a8ba1a5a1c297919601.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/1709da4f538d4ce4fb6d7a8ba1a5a1c297919601.xml"
+    },
+    {
+      "source": "字节跳动Seed",
+      "url": "https://wechat2rss.bestblogs.dev/feed/6efd40bb335d2037f365d284cb5e00f0843e737e.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/6efd40bb335d2037f365d284cb5e00f0843e737e.xml"
+    },
+    {
+      "source": "MiniMax 稀宇科技",
+      "url": "https://wechat2rss.bestblogs.dev/feed/00306b171f754d463b28cf83f3ba086ad009b430.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/00306b171f754d463b28cf83f3ba086ad009b430.xml"
+    },
+    {
+      "source": "Datawhale",
+      "url": "https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml"
+    },
+    {
+      "source": "AINLP",
+      "url": "https://wechat2rss.bestblogs.dev/feed/875df1d1a991bf9250ba9813e3148f58ef2240d4.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/875df1d1a991bf9250ba9813e3148f58ef2240d4.xml"
+    }
+  ],
+  "summaryBullets": [
+    "**NotebookLM 升级代理式研究能力**：聊天加入更强推理与多种输出格式，首批面向 Google AI Ultra 和部分 Workspace 企业套餐开放。",
+    "**ChatGPT 在移动端和网页端加入图表生成功能**：可以直接把数据和对比结果转成图表，说明通用对话产品继续吞并轻量分析场景。",
+    "**turbovec 把千万级向量检索压到 4GB 内存**：这个 Rust 向量索引库强调无训练量化、在线写入和比 FAISS 更快的搜索，适合关注低成本检索基础设施的团队。",
+    "**视频理解论文开始按“观看-记忆-推理”重构问题**：新综述把长视频、多模态对齐、流式记忆和可信推理放到同一框架里，给视频 MLLM 后续研究提供了更清晰坐标。"
+  ]
+}
