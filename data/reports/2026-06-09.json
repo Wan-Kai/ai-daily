@@ -6,7 +6,7 @@
     "sources": 134,
     "fetched": 643,
     "emailCandidates": 0,
-    "selected": 28,
+    "selected": 27,
     "failures": 7
   },
   "sections": [
@@ -28,34 +28,10 @@
           "image": "",
           "video": "",
           "summary": "We asked Gemini 3.5 Flash to bring back the classic early-2000s PC drawing experience, and it delivered in one shot. What are you building first with Canvas? 💬 41 🔄 55 ❤️ 728 👀 1023762 📊 122 ⚡ Powered by xgo.ing",
-          "summaryZh": "我们要求 Gemini 3.5 Flash 带回 2000 年代早期的经典 PC 绘图体验，它一举实现了这一目标。您首先要使用 Canvas 构建什么？。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "summaryZh": "Google 用 **Gemini 3.5 Flash** 在 **Canvas** 里复刻了早期 PC 绘图程序的交互风格，强调模型已经能一次性生成带复古界面的可用原型。这条演示本身不是单独的新功能公告，但它很好地展示了 **Canvas + Gemini** 在界面生成和前端原型制作上的即时能力，适合关注 AI 辅助创作工作流的人继续观察。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [],
           "score": 59
-        },
-        {
-          "title": "Multimodal Search✅ Airgapped✅ Apache2✅",
-          "titleZh": "多模式搜索✅ Airgapped✅ Apache2✅ 韩晓 构建了我一直想要的东西，在本地使用 jina-v5-omni 嵌入在 mac 上进行多模式文件搜索",
-          "link": "https://x.com/JinaAI_/status/2063882501375037475",
-          "publishedAt": "Mon, 08 Jun 2026 07:15:08 GMT",
-          "source": "Jina AI(@JinaAI_)",
-          "sourceType": "social",
-          "description": "Multimodal Search✅ Airgapped✅ Apache2✅ Han Xiao @hxiao Built sth I've always wanted, using jina-v5-omni embeddings locally for multimodal file search on mac. + airgapped & fully local, indexes text, PDF, image, audio, and video + Swift-native UI + mlx-swift-transformer optimized core. No Python. + tested on M3 Pro 18G / M3 Ultra 512G / M4 Pro 48G. all work fine, no OOM + local HTTP server exposes index to agents like OpenClaw & Hermes 🔗 View Quoted Tweet 💬 0 🔄 1 ❤️ 13 👀 2468 📊 3 ⚡ Powered by xgo.ing",
-          "section": "product_updates",
-          "channel": "social",
-          "trust": "official",
-          "image": "https://pbs.twimg.com/media/HKFiuwsbYAA_eI8.jpg",
-          "video": "",
-          "summary": "Multimodal Search✅ Airgapped✅ Apache2✅ Han Xiao @hxiao Built sth I've always wanted, using jina-v5-omni embeddings locally for multimodal file search on mac. + airgapped & fully local, indexes text, PDF, image, audio, and video + Swift-native UI + mlx-swift-transformer optimized core. No Python. + tested on M3 Pro 18G / M3 Ultra 512G / M4 Pro 48G. all work fine, no OOM + local HTTP server exposes index to agents like OpenClaw & Hermes 🔗 View Quoted Tweet 💬 0 🔄 1 ❤️ 13 👀 2468 📊 3 ⚡ Powered by xgo.ing",
-          "summaryZh": "多模式搜索✅ Airgapped✅ Apache2✅ 韩晓 构建了我一直想要的东西，在本地使用 jina-v5-omni 嵌入在 mac 上进行多模式文件搜索。 + 气隙和完全本地化，索引文本、PDF、图像、音频和视频 + Swift 原生 UI + mlx-swift-transformer 优化核心。没有Python。 + 在 M3 Pro 18G / M3 Ultra 512G / M4 Pro 48G 上测试。一切正常，没有 OOM + 本地 HTTP 服务器向 OpenClaw 和 Hermes 等代理公开索引 查看引用的推文。这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "智能体",
-            "多模态",
-            "视频",
-            "图像"
-          ],
-          "score": 56.275353768938814
         }
       ]
     },
@@ -102,7 +78,7 @@
           "image": "",
           "video": "",
           "summary": "arXiv:2606.07462v1 Announce Type: new Abstract: As foundation models advance and agent scaffolding becomes increasingly sophisticated, agents have demonstrated remarkable proficiency in complex, long-horizon coding tasks and even autonomous experiment execution. Despite their evolution from research assistants into autonomous research agents, these systems still exhibit significant limitations in field sensitivity, research ethics, and nuanced scientific judgment. Consequently, frontier agents remain unable to f...",
-          "summaryZh": "**核心结论** 「作为真正的研究人员：评估研究生命周期中的前沿LLM和代理工具的一套基准」要解决的问题是：随着基础模型的进步和智能体支架变得越来越复杂，智能体在复杂、长期的编码任务甚至自主实验执行方面表现出了卓越的熟练程度。尽管它们从研究助理演变为自主研究代理人，但这些系统在领域敏感性、研究伦理和细致入微的科学判断方面仍然表现出显着的局限性。因此，边防人员仍然无法。 **支撑证据** 摘要与公开信息显示：arXiv:2606.07462v1 随着基础模型的进步和智能体支架变得越来越复杂，智能体在复杂、长期的编码任务甚至自主实验执行方面表现出了卓越的熟练程度。尽管它们从研究助理演变为自主研究代理人，但这些系统在领域敏感性、研究伦理和细致入微的科学判断方面仍然表现出显着的局限性。因此，边防人员仍然无法... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "summaryZh": "**核心结论** 这篇论文想回答一个更现实的问题：今天的前沿模型和 Agent 框架，能不能像真正的研究助理甚至研究员一样，在完整科研流程里做出专业、细致、合乎规范的判断。作者认为现有 benchmark 太偏“把任务做完”，却不够衡量研究工作里那些真正关键的细节判断，所以提出了 **AARR（Act As a Real Researcher）** 系列基准，并先发布第一套 **AARRI-Bench**，专门检查模型是否具备接近真实研究实习生的工作质量。\n\n**支撑证据** 论文把评测重点放在研究生命周期中的细粒度场景，而不是只看宏观任务成败。作者测试了多种前沿模型与 Agent 组合，结果显示当前最强配置 **Mini-SWE-Agent + Claude Opus 4.7** 的成功率也只有 **68.3%**，而且经常漏掉对真人研究者来说很明显、但对模型很难把握的细节。论文同时公开了数据集，方便后续复现和继续扩展。\n\n**我的判断** 这篇工作的价值在于，它把“Agent 会不会做科研”从演示视频拉回到可检验的 benchmark。后续值得重点看两件事：一是基准是否真的覆盖跨学科研究中的关键判断，二是公开数据和案例能不能帮助团队更系统地发现 Agent 在研究场景中的失误模式。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "产品发布",
