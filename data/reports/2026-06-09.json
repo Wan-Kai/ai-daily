@@ -4,10 +4,10 @@
   "title": "AI 日报 - 2026-06-09",
   "stats": {
     "sources": 134,
-    "fetched": 643,
+    "fetched": 644,
     "emailCandidates": 0,
-    "selected": 27,
-    "failures": 7
+    "selected": 31,
+    "failures": 2
   },
   "sections": [
     {
@@ -28,10 +28,96 @@
           "image": "",
           "video": "",
           "summary": "We asked Gemini 3.5 Flash to bring back the classic early-2000s PC drawing experience, and it delivered in one shot. What are you building first with Canvas? 💬 41 🔄 55 ❤️ 728 👀 1023762 📊 122 ⚡ Powered by xgo.ing",
-          "summaryZh": "Google 用 **Gemini 3.5 Flash** 在 **Canvas** 里复刻了早期 PC 绘图程序的交互风格，强调模型已经能一次性生成带复古界面的可用原型。这条演示本身不是单独的新功能公告，但它很好地展示了 **Canvas + Gemini** 在界面生成和前端原型制作上的即时能力，适合关注 AI 辅助创作工作流的人继续观察。",
+          "summaryZh": "我们要求 Gemini 3.5 Flash 带回 2000 年代早期的经典 PC 绘图体验，它一举实现了这一目标。您首先要使用 Canvas 构建什么？。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [],
           "score": 59
+        },
+        {
+          "title": "Submissions are now open: https://t.co/1UlpYHOIqJ",
+          "titleZh": "提交现已开放： meetnmake.lo",
+          "link": "https://x.com/Lovable/status/2064011006569787490",
+          "publishedAt": "Mon, 08 Jun 2026 15:45:46 GMT",
+          "source": "Lovable(@lovable_dev)",
+          "sourceType": "social",
+          "description": "Submissions are now open: meetnmake.lovable.app Granola @meetgranola Meet with Granola, Make with @Lovable . The Granola connector is live on Lovable - pull your meeting notes straight in and start building. We're running a build contest with Lovable to celebrate. Submissions open Monday! Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 2 🔄 8 ❤️ 92 👀 14962 📊 12 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-09-2064011006569787490.mp4",
+          "summary": "Submissions are now open: meetnmake.lovable.app Granola @meetgranola Meet with Granola, Make with @Lovable . The Granola connector is live on Lovable - pull your meeting notes straight in and start building. We're running a build contest with Lovable to celebrate. Submissions open Monday! Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 2 🔄 8 ❤️ 92 👀 14962 📊 12 ⚡ Powered by xgo.ing",
+          "summaryZh": "提交现已开放： meetnmake.lovable.app Granola 与 Granola 见面，与 一起制作。 Granola 连接器已在 Lovable 上上线 - 直接将您的会议笔记拉入并开始构建。我们将与 Lovable 一起举办建造比赛来庆祝。周一开放提交！ 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 54.522066081719
+        },
+        {
+          "title": "Introducing a more powerful NotebookLM 🚀 Massive upgrades deliver agentic capabilities in chat, mo...",
+          "titleZh": "NotebookLM 升级聊天代理能力、推理能力和输出格式",
+          "link": "https://x.com/NotebookLM/status/2064016460964585549",
+          "publishedAt": "Mon, 08 Jun 2026 16:07:26 GMT",
+          "source": "NotebookLM(@NotebookLM)",
+          "sourceType": "social",
+          "description": "Introducing a more powerful NotebookLM 🚀 Massive upgrades deliver agentic capabilities in chat, more advanced reasoning, and a suite of new output formats. Tackling complex, multi-step research problems has never been easier. Rolling out now to Google AI Ultra subscribers. Your browser does not support the video tag. 🔗 View on Twitter 💬 129 🔄 331 ❤️ 2937 👀 369687 📊 623 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-09-2064016460964585549.mp4",
+          "summary": "Introducing a more powerful NotebookLM 🚀 Massive upgrades deliver agentic capabilities in chat, more advanced reasoning, and a suite of new output formats. Tackling complex, multi-step research problems has never been easier. Rolling out now to Google AI Ultra subscribers. Your browser does not support the video tag. 🔗 View on Twitter 💬 129 🔄 331 ❤️ 2937 👀 369687 📊 623 ⚡ Powered by xgo.ing",
+          "summaryZh": "Google 宣布 **NotebookLM** 新一轮大版本升级，重点加入 **聊天中的 agentic capabilities**、更强的推理能力，以及一组新的输出格式，目标是让复杂、多步骤的研究整理任务更容易完成。当前更新已开始向 **Google AI Ultra 订阅者** 推送，后续是否扩展到更广泛用户仍值得继续跟踪。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "推理能力",
+            "视频"
+          ],
+          "score": 76
+        },
+        {
+          "title": "Turn data and comparisons into charts, directly in ChatGPT. Available now on mobile and web.",
+          "titleZh": "ChatGPT 现已支持直接把数据和对比结果生成图表",
+          "link": "https://x.com/ChatGPTapp/status/2064018770839113769",
+          "publishedAt": "Mon, 08 Jun 2026 16:16:37 GMT",
+          "source": "ChatGPT(@ChatGPTapp)",
+          "sourceType": "social",
+          "description": "Turn data and comparisons into charts, directly in ChatGPT. Available now on mobile and web. Your browser does not support the video tag. 🔗 View on Twitter 💬 128 🔄 159 ❤️ 2545 👀 145407 📊 438 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-09-2064018770839113769.mp4",
+          "summary": "Turn data and comparisons into charts, directly in ChatGPT. Available now on mobile and web. Your browser does not support the video tag. 🔗 View on Twitter 💬 128 🔄 159 ❤️ 2545 👀 145407 📊 438 ⚡ Powered by xgo.ing",
+          "summaryZh": "**ChatGPT** 现在可以直接把数据和比较结果转成图表，官方说明该能力已在 **Web** 和 **移动端** 上线。对经常用对话式方式做数据说明、报告草拟或轻量分析的用户来说，这意味着从文本结论到可视化输出的链路进一步缩短。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "New: You can now connect multiple Gmail and Google Calendar accounts on Manus. Bring your work, per...",
+          "titleZh": "Manus 支持同时连接多个 Gmail 和 Google Calendar 账户",
+          "link": "https://x.com/ManusAI/status/2064007164159807504",
+          "publishedAt": "Mon, 08 Jun 2026 15:30:29 GMT",
+          "source": "ManusAI(@ManusAI_HQ)",
+          "sourceType": "social",
+          "description": "New: You can now connect multiple Gmail and Google Calendar accounts on Manus. Bring your work, personal, client, or team accounts into one workflow, then choose which account Manus uses when taking action. Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 31 ❤️ 342 👀 24365 📊 67 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-09-2064007164159807504.mp4",
+          "summary": "New: You can now connect multiple Gmail and Google Calendar accounts on Manus. Bring your work, personal, client, or team accounts into one workflow, then choose which account Manus uses when taking action. Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 31 ❤️ 342 👀 24365 📊 67 ⚡ Powered by xgo.ing",
+          "summaryZh": "**Manus** 新增多账户连接能力，用户现在可以在同一工作流里接入多个 **Gmail** 和 **Google Calendar** 账户，并在执行动作时指定 Manus 使用哪一个账户。这个更新更贴近真实办公场景，尤其适合需要在 **个人、团队、客户** 多身份之间切换的助理型自动化流程。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 59.0326827922854
         }
       ]
     },
@@ -39,6 +125,31 @@
       "id": "research_frontier",
       "title": "研究前线",
       "items": [
+        {
+          "title": "SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks",
+          "titleZh": "SpatialWorld：现实世界任务中多模态智能体交互式空间推理的基准测试",
+          "link": "https://huggingface.co/papers/2606.09669",
+          "publishedAt": "2026-06-08T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Paper page - SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up The paper can be also found in https://github.com/Hongcheng-Gao/SpatialWorld/bl",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Paper page - SpatialWorld: Benchmarking Interactive Spatial Reasoning of Multimodal Agents in Real-World Tasks Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up The paper can be also found in https://github.com/Hongcheng-Gao/SpatialWorld/bl",
+          "summaryZh": "**核心结论** 这篇论文要解决的是：现有多模态空间推理评测大多停留在静态问答或单一模拟器里，难以判断智能体在真实任务中能否一边观察环境、一边规划动作并完成长链路任务。作者提出 **SpatialWorld**，把空间推理问题改造成更接近真实世界的交互式任务，让模型在仅有第一人称视觉输入、信息不完整的条件下主动探索、收集证据并做决策。\n\n**支撑证据** 论文构建了一个跨 **8 种异构模拟后端** 的统一评测协议，包含 **760 个人工标注任务**，覆盖家庭、出行、社交协作等多类场景。每个任务都配有人工验证的初始状态、参考轨迹和终止状态验证器，并评测了 **15 个先进智能体**。结果显示这一问题远未解决：表现最好的 **GPT-5** 平均任务成功率只有 **17.4%**，最强开源模型 **Qwen-3.5** 也只有 **14.1%**，而且任务成功率与执行效率之间存在明显错配。\n\n**我的判断** 这篇工作的重要性不在于再做一个静态 benchmark，而在于把多模态智能体最薄弱的 **主动探索** 和 **长程规划** 暴露出来。若后续代码、任务集和评测器开放得足够完整，它会成为空间智能体和具身代理很值得跟踪的基础测试床。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "推理能力",
+            "多模态",
+            "评测",
+            "论文"
+          ],
+          "score": 43
+        },
         {
           "title": "Watch, Remember, Reason: Human-View Video Understanding with MLLMs",
           "titleZh": "观看、记住、推理：使用 MLLM 进行人眼视频理解",
@@ -63,31 +174,6 @@
             "评测"
           ],
           "score": 42
-        },
-        {
-          "title": "Act As a Real Researcher: A Suite of Benchmarks Evaluating Frontier LLMs and Agentic Harnesses in Research Lifecycle",
-          "titleZh": "作为真正的研究人员：评估研究生命周期中的前沿LLM和代理工具的一套基准",
-          "link": "https://arxiv.org/abs/2606.07462",
-          "publishedAt": "Mon, 08 Jun 2026 00:00:00 -0400",
-          "source": "arXiv cs.AI",
-          "sourceType": "research",
-          "description": "arXiv:2606.07462v1 Announce Type: new Abstract: As foundation models advance and agent scaffolding becomes increasingly sophisticated, agents have demonstrated remarkable proficiency in complex, long-horizon coding tasks and even autonomous experiment execution. Despite their evolution from research assistants into autonomous research agents, these systems still exhibit significant limitations in field sensitivity, research ethics, and nuanced scientific judgment. Consequently, frontier agents remain unable to fully replace human researchers. To bridge this gap, we conceptualize the AARR (Act As a Real Researcher) benchmark series. Unlike existing benchmarks that primarily assess macro-level execution capabilities, AARR focuses on whether agents can emulate the professionalism, thoroughness, and nuanced reasoning that characterize human researchers in granular research scenarios. In this work, we propose AARRI-Bench (Act As a Real Research Intern), the first benchmark in this series. We conduct extensive experiments across frontier models and agentic systems, revealing that even the best-performing configuration (Mini-SWE-Agent with Claude Opus 4.7) achieves only 68.3\\% success rate, frequently overlooking subtle yet critical details that are obvious to real human researchers. Our results indicate that developing researcher-like AI requires further exploration of research behavior, rather than merely complex scaffolding. Our data is released at https://github.com/AARR-bench/AARRI-bench.",
-          "section": "research_frontier",
-          "channel": "paper_feed",
-          "trust": "rank",
-          "image": "",
-          "video": "",
-          "summary": "arXiv:2606.07462v1 Announce Type: new Abstract: As foundation models advance and agent scaffolding becomes increasingly sophisticated, agents have demonstrated remarkable proficiency in complex, long-horizon coding tasks and even autonomous experiment execution. Despite their evolution from research assistants into autonomous research agents, these systems still exhibit significant limitations in field sensitivity, research ethics, and nuanced scientific judgment. Consequently, frontier agents remain unable to f...",
-          "summaryZh": "**核心结论** 这篇论文想回答一个更现实的问题：今天的前沿模型和 Agent 框架，能不能像真正的研究助理甚至研究员一样，在完整科研流程里做出专业、细致、合乎规范的判断。作者认为现有 benchmark 太偏“把任务做完”，却不够衡量研究工作里那些真正关键的细节判断，所以提出了 **AARR（Act As a Real Researcher）** 系列基准，并先发布第一套 **AARRI-Bench**，专门检查模型是否具备接近真实研究实习生的工作质量。\n\n**支撑证据** 论文把评测重点放在研究生命周期中的细粒度场景，而不是只看宏观任务成败。作者测试了多种前沿模型与 Agent 组合，结果显示当前最强配置 **Mini-SWE-Agent + Claude Opus 4.7** 的成功率也只有 **68.3%**，而且经常漏掉对真人研究者来说很明显、但对模型很难把握的细节。论文同时公开了数据集，方便后续复现和继续扩展。\n\n**我的判断** 这篇工作的价值在于，它把“Agent 会不会做科研”从演示视频拉回到可检验的 benchmark。后续值得重点看两件事：一是基准是否真的覆盖跨学科研究中的关键判断，二是公开数据和案例能不能帮助团队更系统地发现 Agent 在研究场景中的失误模式。",
-          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
-          "tags": [
-            "产品发布",
-            "模型",
-            "智能体",
-            "推理能力",
-            "评测"
-          ],
-          "score": 39
         },
         {
           "title": "Evaluate your Amazon Nova Sonic voice agent at scale, no microphone required",
@@ -236,40 +322,21 @@
           "publishedAt": "Mon, 08 Jun 2026 13:00:00 GMT",
           "source": "Qdrant(@qdrant_engine)",
           "sourceType": "social",
-          "description": "AI doesn’t always need the cloud. This project uses Qdrant Edge to build a privacy-first SOS detection system that runs locally: → Audio embeddings with YAMNet → Real-time similarity search with Qdrant Edge → Observability with @SignozHQ A creative use of vector search for real-world safety applications. pub.towardsai.net/how-i-built-a-… 💬 3 🔄 0 ❤️ 6 👀 237 📊 4 ⚡ Powered by xgo.ing",
+          "description": "AI doesn’t always need the cloud. This project uses Qdrant Edge to build a privacy-first SOS detection system that runs locally: → Audio embeddings with YAMNet → Real-time similarity search with Qdrant Edge → Observability with @SignozHQ A creative use of vector search for real-world safety applications. pub.towardsai.net/how-i-built-a-… 💬 3 🔄 0 ❤️ 6 👀 242 📊 4 ⚡ Powered by xgo.ing",
           "section": "open_source_top",
           "channel": "social",
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HKQYCTPaEAA-uLp.jpg",
           "video": "",
-          "summary": "AI doesn’t always need the cloud. This project uses Qdrant Edge to build a privacy-first SOS detection system that runs locally: → Audio embeddings with YAMNet → Real-time similarity search with Qdrant Edge → Observability with @SignozHQ A creative use of vector search for real-world safety applications. pub.towardsai.net/how-i-built-a-… 💬 3 🔄 0 ❤️ 6 👀 237 📊 4 ⚡ Powered by xgo.ing",
+          "summary": "AI doesn’t always need the cloud. This project uses Qdrant Edge to build a privacy-first SOS detection system that runs locally: → Audio embeddings with YAMNet → Real-time similarity search with Qdrant Edge → Observability with @SignozHQ A creative use of vector search for real-world safety applications. pub.towardsai.net/how-i-built-a-… 💬 3 🔄 0 ❤️ 6 👀 242 📊 4 ⚡ Powered by xgo.ing",
           "summaryZh": "人工智能并不总是需要云。该项目使用 Qdrant Edge 构建在本地运行的隐私优先的 SOS 检测系统： → 使用 YAMNet 进行音频嵌入 → 使用 Qdrant Edge 进行实时相似性搜索 → 使用 进行可观察性 将矢量搜索创造性地用于现实世界的安全应用。 pub.towardsai.net/how-i-built-a-…",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [],
-          "score": 43.547317586969754
-        },
-        {
-          "title": "📣 𝗢𝘂𝗿 𝘄𝗲𝗯𝗶𝗻𝗮𝗿 𝗮𝗯𝗼𝘂𝘁 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬 𝗶𝘀 𝗵𝗮𝗽𝗽𝗲𝗻𝗶𝗻𝗴 𝘁𝗼𝗱𝗮𝘆! Join us...",
-          "titleZh": "与核心维护人员 Li Liu 和 Jiang Chen 一起了解：Milvus 3.0 架构 → Milvus 3.0 路线图的清晰图片 → Milvus 3.",
-          "link": "https://x.com/milvusio/status/2063990179061264621",
-          "publishedAt": "Mon, 08 Jun 2026 14:23:00 GMT",
-          "source": "Milvus(@milvusio)",
-          "sourceType": "social",
-          "description": "📣 𝗢𝘂𝗿 𝘄𝗲𝗯𝗶𝗻𝗮𝗿 𝗮𝗯𝗼𝘂𝘁 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬 𝗶𝘀 𝗵𝗮𝗽𝗽𝗲𝗻𝗶𝗻𝗴 𝘁𝗼𝗱𝗮𝘆! Join us with core maintainers Li Liu and Jiang Chen for: Milvus 3.0 architecture → A clear picture of the Milvus 3.0 roadmap → How Milvus 3.0 powers Zilliz Vector Lakebase → 15–20 min AMA with maintainers zilliz.com/event/whats-ne… 0 #Milvus � #VectorDatabase / #Zilliz v #VectorSearch v #AIInfrastructure e #Zilliz #VectorSearch #AIInfrastructure Milvus @milvusio 🌐 𝗪𝗲𝗯𝗶𝗻𝗮𝗿 | 𝗪𝗵𝗮𝘁’𝘀 𝗡𝗲𝘄 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬: 𝗟𝗶𝘃𝗲 𝗪𝗮𝗹𝗸𝘁𝗵𝗿𝗼𝘂𝗴𝗵 & 𝗔𝗠𝗔, 𝗝𝘂𝗻𝗲 𝟴 𝗼𝗻𝗹𝗶𝗻𝗲 Milvus 3.0 beta is the biggest architectural upgrade since the project began. It brings native support for indexing and querying vectors directly on your data lake, along with a query engine that goes beyond top-K search. In this live session, core maintainers Li Liu and Jiang Chen will walk through what shipped, the design choices behind it, and how Milvus 3.0 powers 𝗭𝗶𝗹𝗹𝗶𝘇 𝗩𝗲𝗰𝘁𝗼𝗿 𝗟𝗮𝗸𝗲𝗯𝗮𝘀𝗲. 🎤 𝗧𝗼𝗽𝗶𝗰𝘀 • What changed in Milvus 3.0 beta • Why data lake-native vector search matters • What’s in beta now and what’s coming in GA • How Milvus 3.0 powers Zilliz Vector Lakebase • 15–20 zilliz.com/event/whats-ne… maintainers 📅 𝗝𝘂𝗻𝗲 𝟴, 𝟮𝟬𝟮𝟲, 𝟰:𝟬𝟬 𝗽𝗺 𝗣𝗗𝗧 🔗 Register here: https://t.co/ccpclyAQa8 Bring your questions about migration, performance, arc #Milvus r #VectorDatabase e #Zilliz ’d like to ask the maintainers. Looking forward to the conversation! #Milvus #VectorDatabase #Zilliz 🔗 View Quoted Tweet 💬 0 🔄 0 ❤️ 0 👀 123 ⚡ Powered by xgo.ing",
-          "section": "open_source_top",
-          "channel": "social",
-          "trust": "official",
-          "image": "https://pbs.twimg.com/media/HJk4wpUaMAALaGa.jpg",
-          "video": "",
-          "summary": "📣 𝗢𝘂𝗿 𝘄𝗲𝗯𝗶𝗻𝗮𝗿 𝗮𝗯𝗼𝘂𝘁 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬 𝗶𝘀 𝗵𝗮𝗽𝗽𝗲𝗻𝗶𝗻𝗴 𝘁𝗼𝗱𝗮𝘆! Join us with core maintainers Li Liu and Jiang Chen for: Milvus 3.0 architecture → A clear picture of the Milvus 3.0 roadmap → How Milvus 3.0 powers Zilliz Vector Lakebase → 15–20 min AMA with maintainers zilliz.com/event/whats-ne… 0 #Milvus � #VectorDatabase / #Zilliz v #VectorSearch v #AIInfrastructure e #Zilliz #VectorSearch #AIInfrastructure Milvus @milvusio 🌐 𝗪𝗲𝗯𝗶𝗻𝗮𝗿 | 𝗪𝗵𝗮𝘁’𝘀 𝗡𝗲𝘄 𝗶𝗻 𝗠𝗶𝗹𝘃𝘂𝘀 𝟯.𝟬: 𝗟𝗶𝘃𝗲 𝗪𝗮𝗹𝗸𝘁𝗵𝗿𝗼𝘂𝗴𝗵 & 𝗔𝗠𝗔, 𝗝𝘂𝗻𝗲 𝟴 𝗼𝗻𝗹𝗶𝗻𝗲 Milvus 3.0 beta is the biggest architectural upgrade since the project began. It brings native support for indexing and querying vectors directly on your data lake, along with a query engine that goes beyond top-K search. In this live session, core maintainers Li Liu and Jiang Chen will walk through what ship...",
-          "summaryZh": "。！与核心维护人员 Li Liu 和 Jiang Chen 一起了解：Milvus 3.0 架构 → Milvus 3.0 路线图的清晰图片 → Milvus 3.0 如何为 Zilliz Vector Lakebase 提供支持 → 与维护人员进行 15–20 分钟的 AMA zilliz.com/event/whats-ne… 0 / v v e Milvus | ’ .: &，Milvus 3.0 beta 是项目启动以来最大的架构升级。它直接在数据湖上提供对向量索引和查询的本机支持，以及超越前 K 搜索的查询引擎。在本次直播中，核心维护者Li Liu和Jiang Chen将讲述什么船......（要点：与核心维护人员 Li Liu 和 Jiang Chen 一起了解：Milvus 3.0 架构 → Milvus 3.0 路线图的清晰图片 → Milvus 3.。）",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [],
-          "score": 39.140132527743354
+          "score": 43.56086156178246
         },
         {
           "title": "phuryn/pm-skills",
-          "titleZh": "phuryn/pm-skills：面向产品经理与增长团队的代理技能市场",
+          "titleZh": "phuryn/pm-skills：面向产品与增长流程的智能体技能市场",
           "link": "https://github.com/phuryn/pm-skills",
           "publishedAt": "2026-06-08T18:30:00.000Z",
           "source": "GitHub Trending Daily",
@@ -281,7 +348,7 @@
           "image": "https://github.com/phuryn/pm-skills/raw/main/.docs/images/plugins.png",
           "video": "",
           "summary": "Star phuryn / pm-skills PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
-          "summaryZh": "**核心内容** 这个仓库把 **100 多种代理技能、命令和插件** 按产品发现、策略制定、执行、发布和增长等场景整理成一套可复用市场，目标是让团队更快拼装面向 PM 与运营流程的 AI 工作流。\n\n**展开方式/内容线索** 项目强调技能化复用，而不是单个提示词。读者可以重点看它如何组织能力目录、如何安装指定技能，以及这些技能是否真的覆盖调研、需求整理、上线运营等高频环节。",
+          "summaryZh": "**pm-skills** 是一个面向产品、增长和执行流程的智能体技能市场，仓库汇总了 **100+ agentic skills、commands 和 plugins**，覆盖从需求发现、策略制定到执行落地的完整链路。它更像一套可复用的工作流资产库，适合想快速组装多角色 AI 协作流程的团队先看清技能组织方式、安装路径和可扩展性。",
           "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
           "tags": [
             "产品发布",
@@ -291,7 +358,7 @@
         },
         {
           "title": "google/skills",
-          "titleZh": "google/skills：Google 官方代理技能仓库",
+          "titleZh": "google/skills：Google 官方 Agent Skills 仓库",
           "link": "https://github.com/google/skills",
           "publishedAt": "2026-06-08T18:30:00.000Z",
           "source": "GitHub Trending Daily",
@@ -300,10 +367,10 @@
           "section": "open_source_top",
           "channel": "open_source_rank",
           "trust": "rank",
-          "image": "https://opengraph.githubassets.com/ed055c0373cb3a11870ae801fdd6ed94f73e4adb31cf4bb1ac18e93f43f6077d/google/skills",
+          "image": "https://opengraph.githubassets.com/13cdff949d89bd46ba929b3c343061e79c17dc554fd7cd4119f2a84b89481084/google/skills",
           "video": "",
           "summary": "Agent Skills This repository contains Agent Skills for Google products and technologies, including Google Cloud . Note This repository is under active development. Installation npx skills add google/skills From the npx install command, you can select the specific skills from this repo to install. Available Skills Gemini API on Agent Platform Gemini Interactions API on Agent Platform Managed Agents API on Agent Platform Skill Registry API on Agent Platform AlloyDB Basics BigQuery Basics Cloud Run Basics Cloud SQL Ba",
-          "summaryZh": "**核心内容** Google 把自家产品和技术相关的 **Agent Skills** 集中放进一个官方仓库，当前已覆盖 **Gemini API、Gemini Interactions、Managed Agents、Skill Registry** 以及一批 Google Cloud 基础能力技能。\n\n**展开方式/内容线索** 仓库仍在积极开发中，安装入口是 `npx skills add google/skills`。如果你在评估可用性，重点应看技能目录是否足够细、与 Agent Platform 的耦合程度，以及后续维护节奏。",
+          "summaryZh": "**google/skills** 是 Google 官方整理的智能体技能仓库，目标是把 Google 自家的云服务、代理平台能力和常见数据基础设施封装成可直接安装的技能模块。仓库说明它仍在持续开发中，目前提供的方向包括 **Gemini 相关接口接入**、**托管式代理能力**、**技能注册能力**，以及围绕 **数据库、数据仓库、应用运行环境** 的基础技能。对想接入 Google 生态的团队来说，它更像一份官方维护的技能目录和安装入口，而不是单一项目代码。",
           "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
           "tags": [
             "智能体"
@@ -321,7 +388,7 @@
           "section": "open_source_top",
           "channel": "open_source_rank",
           "trust": "rank",
-          "image": "https://github.com/Andyyyy64/whichllm/raw/main/assets/demo-run.gif",
+          "image": "https://opengraph.githubassets.com/ed2a743590dd0e0af5d72471b9ce39d5bcd43b8a6bc744b4830bec738708f8ec/Andyyyy64/whichllm",
           "video": "",
           "summary": "Star Andyyyy64 / whichllm Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
           "summaryZh": "找到在您的硬件上实际运行并表现最佳的本地LLM。根据真实的、新近度感知的基准排名，而不是参数计数。一条命令，立即运行。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
@@ -333,7 +400,7 @@
         },
         {
           "title": "RyanCodrai/turbovec",
-          "titleZh": "RyanCodrai/turbovec：把千万级向量语料压到 4GB 内存的 Rust 索引库",
+          "titleZh": "RyanCodrai/turbovec：把千万级向量检索压到 4GB 内存的 Rust 索引",
           "link": "https://github.com/RyanCodrai/turbovec",
           "publishedAt": "2026-06-08T18:30:00.000Z",
           "source": "GitHub Trending Daily",
@@ -345,7 +412,7 @@
           "image": "https://repository-images.githubusercontent.com/1192555574/c9d82d4e-1a88-4201-a548-615cfbb0b16a",
           "video": "",
           "summary": "A 10 million document corpus takes 31 GB of RAM as float32. turbovec fits it in 4 GB - and searches it faster than FAISS. turbovec is a Rust vector index with Python bindings, built on Google Research's TurboQuant algorithm — a data-oblivious quantizer that matches the Shannon lower bound on distortion, with no codebook training and no separate train phase. Online ingest. Add vectors, they're indexed — no train step, no parameter tuning, no rebuilds as the corpus grows. Faster than FAISS. Hand-written NEON (ARM) an",
-          "summaryZh": "**核心内容** `turbovec` 是一个带 **Python 绑定** 的 **Rust 向量索引库**。项目声称 **1000 万文档** 若按 `float32` 存储需要 **31GB RAM**，而它能把占用压到 **4GB**，同时搜索速度还快过 **FAISS**。\n\n**展开方式/内容线索** 底层采用 Google Research 的 **TurboQuant** 量化思路，不需要单独训练阶段，也不必随着语料增长反复重建索引；项目还强调在线写入、无参数调优，以及针对 **ARM/AVX** 做了手写优化。这类实现很适合关注边缘部署和低内存检索的团队继续深挖。",
+          "summaryZh": "**turbovec** 是一个带 **Python 绑定** 的 Rust 向量索引，主打在极低内存占用下完成大规模近似向量检索。仓库给出的卖点很直接：**1000 万文档** 若用 `float32` 需约 **31GB RAM**，而 turbovec 可压到 **4GB**，同时检索速度还快于 **FAISS**。它基于 Google Research 的 **TurboQuant** 算法，不需要单独训练阶段、参数调优或随语料增长重建索引，适合关注边缘部署和成本敏感检索场景的团队评估。",
           "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
           "tags": [],
           "score": 27
@@ -357,31 +424,31 @@
       "title": "社媒观察",
       "items": [
         {
-          "title": "Introducing a more powerful NotebookLM 🚀 Massive upgrades deliver agentic capabilities in chat, mo...",
-          "titleZh": "NotebookLM 推出更强版本：聊天加入代理式能力并扩展输出格式",
-          "link": "https://x.com/NotebookLM/status/2064016460964585549",
-          "publishedAt": "Mon, 08 Jun 2026 16:07:26 GMT",
-          "source": "NotebookLM(@NotebookLM)",
+          "title": "Multimodal Search✅ Airgapped✅ Apache2✅",
+          "titleZh": "Jina 展示基于 jina-v5-omni 的本地多模态文件搜索方案",
+          "link": "https://x.com/JinaAI_/status/2063882501375037475",
+          "publishedAt": "Mon, 08 Jun 2026 07:15:08 GMT",
+          "source": "Jina AI(@JinaAI_)",
           "sourceType": "social",
-          "description": "Introducing a more powerful NotebookLM 🚀 Massive upgrades deliver agentic capabilities in chat, more advanced reasoning, and a suite of new output formats. Tackling complex, multi-step research problems has never been easier. Rolling out now to Google AI Ultra subscribers. Your browser does not support the video tag. 🔗 View on Twitter 💬 127 🔄 330 ❤️ 2921 👀 365817 📊 619 ⚡ Powered by xgo.ing",
+          "description": "Multimodal Search✅ Airgapped✅ Apache2✅ Han Xiao @hxiao Built sth I've always wanted, using jina-v5-omni embeddings locally for multimodal file search on mac. + airgapped & fully local, indexes text, PDF, image, audio, and video + Swift-native UI + mlx-swift-transformer optimized core. No Python. + tested on M3 Pro 18G / M3 Ultra 512G / M4 Pro 48G. all work fine, no OOM + local HTTP server exposes index to agents like OpenClaw & Hermes 🔗 View Quoted Tweet 💬 0 🔄 1 ❤️ 13 👀 2488 📊 3 ⚡ Powered by xgo.ing",
           "section": "social_shares",
           "channel": "social",
           "trust": "official",
-          "image": "",
-          "video": "./media/2026-06-09-2064016460964585549.mp4",
-          "summary": "Introducing a more powerful NotebookLM 🚀 Massive upgrades deliver agentic capabilities in chat, more advanced reasoning, and a suite of new output formats. Tackling complex, multi-step research problems has never been easier. Rolling out now to Google AI Ultra subscribers. Your browser does not support the video tag. 🔗 View on Twitter 💬 127 🔄 330 ❤️ 2921 👀 365817 📊 619 ⚡ Powered by xgo.ing",
-          "summaryZh": "NotebookLM 宣布一轮 **大版本升级**：聊天里加入了更强的 **代理式能力**、更高阶的 **推理**，同时新增一组输出格式，目标是让用户能更顺手地处理复杂、多步骤的研究任务。当前版本已开始向 **Google AI Ultra 订阅者** 推出，说明 Google 正在把 NotebookLM 从资料整理工具继续往研究型智能体方向推进。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "image": "https://pbs.twimg.com/media/HKFiuwsbYAA_eI8.jpg",
+          "video": "",
+          "summary": "Multimodal Search✅ Airgapped✅ Apache2✅ Han Xiao @hxiao Built sth I've always wanted, using jina-v5-omni embeddings locally for multimodal file search on mac. + airgapped & fully local, indexes text, PDF, image, audio, and video + Swift-native UI + mlx-swift-transformer optimized core. No Python. + tested on M3 Pro 18G / M3 Ultra 512G / M4 Pro 48G. all work fine, no OOM + local HTTP server exposes index to agents like OpenClaw & Hermes 🔗 View Quoted Tweet 💬 0 🔄 1 ❤️ 13 👀 2488 📊 3 ⚡ Powered by xgo.ing",
+          "summaryZh": "Jina 团队转发了一个基于 **jina-v5-omni embeddings** 的本地多模态搜索方案：支持 **文本、PDF、图片、音频、视频** 统一索引，采用 **Swift 原生 UI** 和 `mlx-swift-transformer` 优化核心，且可在 **M3 Pro 18G、M3 Ultra 512G、M4 Pro 48G** 上本地运行而不 OOM。方案还提供本地 HTTP 接口，可把索引暴露给 **OpenClaw**、**Hermes** 等智能体调用，适合关注端侧检索和隐私隔离场景的团队继续跟进。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "智能体",
-            "推理能力",
-            "视频"
+            "多模态",
+            "图像"
           ],
-          "score": 76
+          "score": 56.28060947895381
         },
         {
           "title": "Forget about our users? Who? Us??? Please. These updates are rolling out globally on the web starti...",
-          "titleZh": "NotebookLM 说明新版覆盖范围：先向 Google AI Ultra 与部分 Workspace 套餐开放",
+          "titleZh": "NotebookLM 解释新升级的首批可用范围和后续扩展计划",
           "link": "https://x.com/NotebookLM/status/2064022737107247423",
           "publishedAt": "Mon, 08 Jun 2026 16:32:22 GMT",
           "source": "NotebookLM(@NotebookLM)",
@@ -393,7 +460,7 @@
           "image": "",
           "video": "./media/2026-06-09-2064022737107247423.mp4",
           "summary": "Forget about our users? Who? Us??? Please. These updates are rolling out globally on the web starting with Google AI Ultra and all Workspace business customers with AI Ultra Access and AI Expanded Access, however we *absolutely* plan to expand to others over time! NotebookLM @NotebookLM Introducing a more powerful NotebookLM 🚀 Massive upgrades deliver agentic capabilities in chat, more advanced reasoning, and a suite of new output formats. Tackling complex, multi-step research problems has never been easier. Rolling out now to Google AI Ultra subscribers. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 26 🔄 51 ❤️ 673 👀 46909 📊 88 ⚡ Powered by xgo.ing",
-          "summaryZh": "NotebookLM 在补充说明里给出了更清楚的可用性范围：这波更新会先在 **Web 端** 向 **Google AI Ultra** 用户，以及拥有 **AI Ultra Access** 或 **AI Expanded Access** 的 **Workspace 企业客户** 全球推出，后续再逐步扩展到更多用户。这条回复的重要性在于，它把上一条发布里没有讲透的 **支持人群与上线节奏** 补齐了。",
+          "summaryZh": "针对用户追问，NotebookLM 官方补充说明：这轮升级会先在 **Web 端** 向 **Google AI Ultra** 用户，以及拥有 **AI Ultra Access / AI Expanded Access** 的 **Workspace 企业客户** 全球推出，后续还会逐步扩大到更多用户。相比首发公告，这条回复更明确了首批可用人群和扩圈方向，是判断 NotebookLM 商业化节奏的重要补充。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "智能体",
@@ -401,27 +468,6 @@
             "视频"
           ],
           "score": 75.18490818699061
-        },
-        {
-          "title": "Turn data and comparisons into charts, directly in ChatGPT. Available now on mobile and web.",
-          "titleZh": "直接在 ChatGPT 中将数据和比较转化为图表。现已在移动设备和网络上提供。",
-          "link": "https://x.com/ChatGPTapp/status/2064018770839113769",
-          "publishedAt": "Mon, 08 Jun 2026 16:16:37 GMT",
-          "source": "ChatGPT(@ChatGPTapp)",
-          "sourceType": "social",
-          "description": "Turn data and comparisons into charts, directly in ChatGPT. Available now on mobile and web. Your browser does not support the video tag. 🔗 View on Twitter 💬 128 🔄 159 ❤️ 2545 👀 145407 📊 438 ⚡ Powered by xgo.ing",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "official",
-          "image": "",
-          "video": "./media/2026-06-09-2064018770839113769.mp4",
-          "summary": "Turn data and comparisons into charts, directly in ChatGPT. Available now on mobile and web. Your browser does not support the video tag. 🔗 View on Twitter 💬 128 🔄 159 ❤️ 2545 👀 145407 📊 438 ⚡ Powered by xgo.ing",
-          "summaryZh": "直接在 ChatGPT 中将数据和比较转化为图表。现已在移动设备和网络上提供。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "视频"
-          ],
-          "score": 62
         },
         {
           "title": "You nailed the point but stumbled on the words, so you record the whole thing again. And again Spee...",
@@ -451,35 +497,35 @@
           "publishedAt": "Mon, 08 Jun 2026 16:35:14 GMT",
           "source": "Perplexity(@perplexity_ai)",
           "sourceType": "social",
-          "description": "We published new research with Harvard on the shift from chat interfaces to autonomous agents like Computer. Over 3 months, findings show workers using Computer finish tasks in 87% less time at 94% lower cost than Search alone, with higher satisfaction. research.perplexity.ai/articles/how-a… 💬 73 🔄 48 ❤️ 390 👀 43988 📊 123 ⚡ Powered by xgo.ing",
+          "description": "We published new research with Harvard on the shift from chat interfaces to autonomous agents like Computer. Over 3 months, findings show workers using Computer finish tasks in 87% less time at 94% lower cost than Search alone, with higher satisfaction. research.perplexity.ai/articles/how-a… 💬 73 🔄 50 ❤️ 397 👀 44667 📊 124 ⚡ Powered by xgo.ing",
           "section": "social_shares",
           "channel": "social",
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HKTiZM9bYAET53X.jpg",
           "video": "",
-          "summary": "We published new research with Harvard on the shift from chat interfaces to autonomous agents like Computer. Over 3 months, findings show workers using Computer finish tasks in 87% less time at 94% lower cost than Search alone, with higher satisfaction. research.perplexity.ai/articles/how-a… 💬 73 🔄 48 ❤️ 390 👀 43988 📊 123 ⚡ Powered by xgo.ing",
+          "summary": "We published new research with Harvard on the shift from chat interfaces to autonomous agents like Computer. Over 3 months, findings show workers using Computer finish tasks in 87% less time at 94% lower cost than Search alone, with higher satisfaction. research.perplexity.ai/articles/how-a… 💬 73 🔄 50 ❤️ 397 👀 44667 📊 124 ⚡ Powered by xgo.ing",
           "summaryZh": "我们与哈佛大学合作发表了关于从聊天界面到计算机等自主代理的转变的新研究。超过 3 个月的调查结果显示，与单独使用搜索相比，使用计算机的员工完成任务的时间减少了 87%，成本降低了 94%，满意度更高。 Research.perplexity.ai/articles/how-a…",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "智能体"
           ],
-          "score": 61.58334704330909
+          "score": 61.65889912142066
         },
         {
           "title": "AI is moving beyond text, images, and code. Engineering artifacts are becoming a new class of model...",
-          "titleZh": "CADGenBench 发布：用统一基准评测 AI 生成和编辑 3D CAD 的能力",
+          "titleZh": "CADGenBench 想评测 AI 能否真正生成可制造的 CAD 零件",
           "link": "https://x.com/Thom_Wolf/status/2064029993638764672",
           "publishedAt": "Mon, 08 Jun 2026 17:01:12 GMT",
           "source": "Thomas Wolf(@Thom_Wolf)",
           "sourceType": "social",
-          "description": "AI is moving beyond text, images, and code. Engineering artifacts are becoming a new class of model outputs and evaluating them requires different tools than we use for text, code, or images. Today we're excited to release CADGenBench, a benchmark for CAD generation and editing. - Given an engineering drawing → generate a valid 3D CAD model - Given a STEP file + change request → edit it correctly The benchmark is tool-agnostic: any CAD stack works (Fusion, Onshape, build123d, SolidWorks, etc.). Submissions are simply STEP files. Models are scored on: * geometric accuracy * topology correctness * interface compatibility * CAD validity The benchmark is open, the ground truth is private, and the leaderboard is live. Since CAD evaluation is surprisingly subtle, here's how the metrics work 🧵 Michael Rabinovich @MikushRab Introducing CADGenBench: measure how well AI systems produce engineering-grade 3D parts! While current models can generate 3D parts, they are far from precise enough to build functional parts. We built a benchmark to systematically measure their capabilities on two tasks: 1. Generation from an engineering drawing of a part 2. Editing: given an existing STEP file and a requested change The benchmark is tool-agnostic. It makes no assumptions about how you build the model. You can vary the LLM, and you can vary the environment. Use build123d, Onshape, Autodesk, or a model without an LLM entirely. We open sourced the scoring engine and a reference baseline on top of build123d. A collaboration between Hugging Face and @mecadoinc ! Submission space: huggingface.co/spaces/Hugging… Code repository: github.com/huggingface/ca… Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 3 🔄 12 ❤️ 68 👀 14687 📊 15 ⚡ Powered by xgo.ing",
+          "description": "AI is moving beyond text, images, and code. Engineering artifacts are becoming a new class of model outputs and evaluating them requires different tools than we use for text, code, or images. Today we're excited to release CADGenBench, a benchmark for CAD generation and editing. - Given an engineering drawing → generate a valid 3D CAD model - Given a STEP file + change request → edit it correctly The benchmark is tool-agnostic: any CAD stack works (Fusion, Onshape, build123d, SolidWorks, etc.). Submissions are simply STEP files. Models are scored on: * geometric accuracy * topology correctness * interface compatibility * CAD validity The benchmark is open, the ground truth is private, and the leaderboard is live. Since CAD evaluation is surprisingly subtle, here's how the metrics work 🧵 Michael Rabinovich @MikushRab Introducing CADGenBench: measure how well AI systems produce engineering-grade 3D parts! While current models can generate 3D parts, they are far from precise enough to build functional parts. We built a benchmark to systematically measure their capabilities on two tasks: 1. Generation from an engineering drawing of a part 2. Editing: given an existing STEP file and a requested change The benchmark is tool-agnostic. It makes no assumptions about how you build the model. You can vary the LLM, and you can vary the environment. Use build123d, Onshape, Autodesk, or a model without an LLM entirely. We open sourced the scoring engine and a reference baseline on top of build123d. A collaboration between Hugging Face and @mecadoinc ! Submission space: huggingface.co/spaces/Hugging… Code repository: github.com/huggingface/ca… Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 3 🔄 12 ❤️ 72 👀 15920 📊 15 ⚡ Powered by xgo.ing",
           "section": "social_shares",
           "channel": "social",
           "trust": "expert",
           "image": "",
           "video": "./media/2026-06-09-2064029993638764672.mp4",
           "summary": "AI is moving beyond text, images, and code. Engineering artifacts are becoming a new class of model outputs and evaluating them requires different tools than we use for text, code, or images. Today we're excited to release CADGenBench, a benchmark for CAD generation and editing. - Given an engineering drawing → generate a valid 3D CAD model - Given a STEP file + change request → edit it correctly The benchmark is tool-agnostic: any CAD stack works (Fusion, Onshape, build123d, SolidWorks, etc.). Submissions are s...",
-          "summaryZh": "Hugging Face 与 Mecado 发布 **CADGenBench**，想解决的是 AI 进入工程设计场景后，现有文本/图像基准已经无法衡量 **3D CAD 生成与编辑** 质量的问题。这个基准覆盖两类任务：一类是根据 **工程图生成可用的 3D CAD 模型**，另一类是基于 **STEP 文件 + 修改要求** 正确完成编辑。\n\n它的评测与工具链无关，**Fusion、Onshape、build123d、SolidWorks** 等方案都能提交，评分看 **几何精度、拓扑正确性、接口兼容性、CAD 有效性**。作者还公开了评分引擎和参考 baseline，这让它有机会成为工程类智能体的重要基准设施。",
+          "summaryZh": "Thomas Wolf 介绍了新发布的 **CADGenBench**，核心问题不是“模型会不会生成 3D 形状”，而是它能不能产出真正可用的 **工程级 CAD 部件**。这个基准覆盖两类任务：根据工程图生成有效 **3D CAD 模型**，以及根据 **STEP 文件 + 修改请求** 做正确编辑；评测指标包括 **几何精度、拓扑正确性、接口兼容性、CAD 有效性**。它对工具链保持中立，支持 **Fusion、Onshape、build123d、SolidWorks** 等不同 CAD 栈，并已开源评分引擎和参考基线，更像是 AI 走向制造级设计的重要前置基础设施。",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "产品发布",
@@ -488,7 +534,7 @@
             "开源",
             "视频"
           ],
-          "score": 61.43578705467641
+          "score": 61.586193649947035
         },
         {
           "title": "One video, now made for every feed and format. Upload your existing video, choose your desired aspec...",
@@ -497,41 +543,20 @@
           "publishedAt": "Mon, 08 Jun 2026 15:51:24 GMT",
           "source": "Runway(@runwayml)",
           "sourceType": "social",
-          "description": "One video, now made for every feed and format. Upload your existing video, choose your desired aspect ratio and watch our editing model, Aleph 2.0, fill in the rest of the scene as if you made it that way from the start. Try it on our desktop web app at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 17 ❤️ 138 👀 10906 📊 41 ⚡ Powered by xgo.ing",
+          "description": "One video, now made for every feed and format. Upload your existing video, choose your desired aspect ratio and watch our editing model, Aleph 2.0, fill in the rest of the scene as if you made it that way from the start. Try it on our desktop web app at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 18 ❤️ 142 👀 11445 📊 42 ⚡ Powered by xgo.ing",
           "section": "social_shares",
           "channel": "social",
           "trust": "official",
           "image": "",
           "video": "./media/2026-06-09-2064012425884569627.mp4",
-          "summary": "One video, now made for every feed and format. Upload your existing video, choose your desired aspect ratio and watch our editing model, Aleph 2.0, fill in the rest of the scene as if you made it that way from the start. Try it on our desktop web app at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 17 ❤️ 138 👀 10906 📊 41 ⚡ Powered by xgo.ing",
+          "summary": "One video, now made for every feed and format. Upload your existing video, choose your desired aspect ratio and watch our editing model, Aleph 2.0, fill in the rest of the scene as if you made it that way from the start. Try it on our desktop web app at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 18 ❤️ 142 👀 11445 📊 42 ⚡ Powered by xgo.ing",
           "summaryZh": "现在，针对每种提要和格式制作一个视频。上传您现有的视频，选择您想要的宽高比，然后观看我们的编辑模型 Aleph 2.0，填充场景的其余部分，就像您从一开始就这样做一样。通过下面的链接在我们的桌面网络应用上尝试一下。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型",
             "视频"
           ],
-          "score": 59.44019217659028
-        },
-        {
-          "title": "New: You can now connect multiple Gmail and Google Calendar accounts on Manus. Bring your work, per...",
-          "titleZh": "新功能：您现在可以在 Manus 上连接多个 Gmail 和 Google 日历帐户",
-          "link": "https://x.com/ManusAI/status/2064007164159807504",
-          "publishedAt": "Mon, 08 Jun 2026 15:30:29 GMT",
-          "source": "ManusAI(@ManusAI_HQ)",
-          "sourceType": "social",
-          "description": "New: You can now connect multiple Gmail and Google Calendar accounts on Manus. Bring your work, personal, client, or team accounts into one workflow, then choose which account Manus uses when taking action. Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 31 ❤️ 342 👀 24365 📊 67 ⚡ Powered by xgo.ing",
-          "section": "social_shares",
-          "channel": "social",
-          "trust": "official",
-          "image": "",
-          "video": "./media/2026-06-09-2064007164159807504.mp4",
-          "summary": "New: You can now connect multiple Gmail and Google Calendar accounts on Manus. Bring your work, personal, client, or team accounts into one workflow, then choose which account Manus uses when taking action. Your browser does not support the video tag. 🔗 View on Twitter 💬 19 🔄 31 ❤️ 342 👀 24365 📊 67 ⚡ Powered by xgo.ing",
-          "summaryZh": "新功能：您现在可以在 Manus 上连接多个 Gmail 和 Google 日历帐户。将您的工作、个人、客户或团队帐户纳入一个工作流程，然后选择 Manus 在采取操作时使用的帐户。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "视频"
-          ],
-          "score": 59.0326827922854
+          "score": 59.567861959788445
         },
         {
           "title": "Codex use-cases: “From software engineering and design to data analysis and operations, Codex is bec...",
@@ -563,19 +588,19 @@
           "publishedAt": "Mon, 08 Jun 2026 14:21:51 GMT",
           "source": "ElevenLabs(@elevenlabsio)",
           "sourceType": "social",
-          "description": "Voice AI will fundamentally improve access to public services. We're partnering with the UK Government to make it easier to access information and services online - especially for people who are visually impaired, struggle to read, or have difficulty navigating the internet. 💬 14 🔄 12 ❤️ 124 👀 11203 📊 29 ⚡ Powered by xgo.ing",
+          "description": "Voice AI will fundamentally improve access to public services. We're partnering with the UK Government to make it easier to access information and services online - especially for people who are visually impaired, struggle to read, or have difficulty navigating the internet. 💬 14 🔄 12 ❤️ 125 👀 11368 📊 29 ⚡ Powered by xgo.ing",
           "section": "social_shares",
           "channel": "social",
           "trust": "official",
           "image": "https://pbs.twimg.com/media/HKS--joXsAEWOmd.jpg",
           "video": "",
-          "summary": "Voice AI will fundamentally improve access to public services. We're partnering with the UK Government to make it easier to access information and services online - especially for people who are visually impaired, struggle to read, or have difficulty navigating the internet. 💬 14 🔄 12 ❤️ 124 👀 11203 📊 29 ⚡ Powered by xgo.ing",
+          "summary": "Voice AI will fundamentally improve access to public services. We're partnering with the UK Government to make it easier to access information and services online - especially for people who are visually impaired, struggle to read, or have difficulty navigating the internet. 💬 14 🔄 12 ❤️ 125 👀 11368 📊 29 ⚡ Powered by xgo.ing",
           "summaryZh": "语音人工智能将从根本上改善公共服务的获取。我们正在与英国政府合作，让人们更轻松地在线获取信息和服务，特别是对于视力障碍、阅读困难或上网有困难的人来说。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "语音"
           ],
-          "score": 55.86567766592888
+          "score": 55.88904354386497
         }
       ]
     },
@@ -636,37 +661,13 @@
       "source": "Hugging Face",
       "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
       "error": "HTTP 500"
-    },
-    {
-      "source": "DeepSeek",
-      "url": "https://wechat2rss.bestblogs.dev/feed/1709da4f538d4ce4fb6d7a8ba1a5a1c297919601.xml",
-      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/1709da4f538d4ce4fb6d7a8ba1a5a1c297919601.xml"
-    },
-    {
-      "source": "字节跳动Seed",
-      "url": "https://wechat2rss.bestblogs.dev/feed/6efd40bb335d2037f365d284cb5e00f0843e737e.xml",
-      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/6efd40bb335d2037f365d284cb5e00f0843e737e.xml"
-    },
-    {
-      "source": "MiniMax 稀宇科技",
-      "url": "https://wechat2rss.bestblogs.dev/feed/00306b171f754d463b28cf83f3ba086ad009b430.xml",
-      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/00306b171f754d463b28cf83f3ba086ad009b430.xml"
-    },
-    {
-      "source": "Datawhale",
-      "url": "https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml",
-      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml"
-    },
-    {
-      "source": "AINLP",
-      "url": "https://wechat2rss.bestblogs.dev/feed/875df1d1a991bf9250ba9813e3148f58ef2240d4.xml",
-      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/875df1d1a991bf9250ba9813e3148f58ef2240d4.xml"
     }
   ],
   "summaryBullets": [
-    "**NotebookLM 升级代理式研究能力**：聊天加入更强推理与多种输出格式，首批面向 Google AI Ultra 和部分 Workspace 企业套餐开放。",
-    "**ChatGPT 在移动端和网页端加入图表生成功能**：可以直接把数据和对比结果转成图表，说明通用对话产品继续吞并轻量分析场景。",
-    "**turbovec 把千万级向量检索压到 4GB 内存**：这个 Rust 向量索引库强调无训练量化、在线写入和比 FAISS 更快的搜索，适合关注低成本检索基础设施的团队。",
-    "**视频理解论文开始按“观看-记忆-推理”重构问题**：新综述把长视频、多模态对齐、流式记忆和可信推理放到同一框架里，给视频 MLLM 后续研究提供了更清晰坐标。"
+    "**NotebookLM** 完成大版本升级，加入 **聊天代理能力、更强推理和新输出格式**，并率先向 **Google AI Ultra** 与部分 Workspace 企业客户开放。",
+    "**ChatGPT** 开始支持直接把 **数据和比较结果生成图表**，能力已覆盖 **Web 和移动端**，让对话式分析更接近可交付输出。",
+    "**SpatialWorld** 把多模态智能体空间推理评测推进到交互式真实任务层面，覆盖 **8 个模拟后端、760 个任务**，但 **GPT-5** 成功率也只有 **17.4%**。",
+    "**Qdrant Edge** 的本地 SOS 检测案例展示了端侧向量检索的新用法：结合 **YAMNet 音频嵌入、实时相似度搜索和本地可观测性**，强调隐私优先部署。",
+    "**Manus** 新增 **多 Gmail / Google Calendar 账户接入**，让同一工作流里切换个人、团队和客户身份成为标准能力。"
   ]
 }

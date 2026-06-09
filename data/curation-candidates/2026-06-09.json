@@ -1,6 +1,6 @@
 {
   "date": "2026-06-09",
-  "generatedAt": "2026-06-09T02:07:04.291Z",
+  "generatedAt": "2026-06-09T02:43:28.618Z",
   "papers": [
     {
       "id": "huggingface-co-papers-2606-05563",
@@ -21,6 +21,29 @@
       ],
       "score": 37,
       "selectionReason": "Hugging Face 周榜候选，排名第 2，主题信号：LLM、评测、研究、AI，质量分 37。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "huggingface-co-papers-2606-07297",
+      "category": "papers",
+      "titleZh": "SWE-Explore: Benchmarking How Coding Agents Explore Repositories",
+      "title": "SWE-Explore: Benchmarking How Coding Agents Explore Repositories",
+      "source": "Hugging Face Weekly Papers",
+      "url": "https://huggingface.co/papers/2606.07297",
+      "publishedAt": "",
+      "selectedAt": "2026-06-09",
+      "summaryZh": "**核心结论**：这篇论文是 Hugging Face Weekly Papers 的高热候选，周榜排名第 5，主题集中在 Agent、评测、研究、AI。当前自动摘要只能确认它具备社区关注度和主题相关性，正式通过前需要基于原文补充更完整的中文解读。\n**如何论证**：Hugging Face Papers 2026-W24 周榜入选论文。\n**审核重点**：请重点判断它是否有清晰问题定义、明确方法、可复核实验结果、开源代码或高质量机构/作者信号；如果这些信息不足，应先暂不通过或拒绝。",
+      "takeaways": [],
+      "tags": [
+        "Agent",
+        "评测",
+        "研究",
+        "AI"
+      ],
+      "score": 35,
+      "selectionReason": "Hugging Face 周榜候选，排名第 5，主题信号：Agent、评测、研究、AI，质量分 35。",
       "reviewStatus": "pending",
       "reviewNote": "",
       "status": "candidate"
@@ -89,6 +112,73 @@
       ],
       "score": 31,
       "selectionReason": "Hugging Face 周榜候选，排名第 4，主题信号：评测、研究、AI，质量分 31。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "huggingface-co-papers-2606-04525",
+      "category": "papers",
+      "titleZh": "GENEB: Why Genomic Models Are Hard to Compare",
+      "title": "GENEB: Why Genomic Models Are Hard to Compare",
+      "source": "Hugging Face Weekly Papers",
+      "url": "https://huggingface.co/papers/2606.04525",
+      "publishedAt": "",
+      "selectedAt": "2026-06-09",
+      "summaryZh": "**核心结论**：这篇论文是 Hugging Face Weekly Papers 的高热候选，周榜排名第 3，主题集中在 研究、AI。当前自动摘要只能确认它具备社区关注度和主题相关性，正式通过前需要基于原文补充更完整的中文解读。\n**如何论证**：Hugging Face Papers 2026-W24 周榜入选论文。\n**审核重点**：请重点判断它是否有清晰问题定义、明确方法、可复核实验结果、开源代码或高质量机构/作者信号；如果这些信息不足，应先暂不通过或拒绝。",
+      "takeaways": [],
+      "tags": [
+        "研究",
+        "AI"
+      ],
+      "score": 29,
+      "selectionReason": "Hugging Face 周榜候选，排名第 3，主题信号：研究、AI，质量分 29。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "huggingface-co-papers-2606-06476",
+      "category": "papers",
+      "titleZh": "Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators",
+      "title": "Thinking with Imagination: Agentic Visual Spatial Reasoning with World Simulators",
+      "source": "Hugging Face Weekly Papers",
+      "url": "https://huggingface.co/papers/2606.06476",
+      "publishedAt": "",
+      "selectedAt": "2026-06-09",
+      "summaryZh": "**核心结论**：这篇论文是 Hugging Face Weekly Papers 的高热候选，周榜排名第 20，主题集中在 Agent、推理、研究、AI。当前自动摘要只能确认它具备社区关注度和主题相关性，正式通过前需要基于原文补充更完整的中文解读。\n**如何论证**：Hugging Face Papers 2026-W24 周榜入选论文。\n**审核重点**：请重点判断它是否有清晰问题定义、明确方法、可复核实验结果、开源代码或高质量机构/作者信号；如果这些信息不足，应先暂不通过或拒绝。",
+      "takeaways": [],
+      "tags": [
+        "Agent",
+        "推理",
+        "研究",
+        "AI"
+      ],
+      "score": 29,
+      "selectionReason": "Hugging Face 周榜候选，排名第 20，主题信号：Agent、推理、研究、AI，质量分 29。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "huggingface-co-papers-2606-05761",
+      "category": "papers",
+      "titleZh": "SubtleMemory: A Benchmark for Fine-Grained Relational Memory Discrimination in Long-Horizon AI Agents",
+      "title": "SubtleMemory: A Benchmark for Fine-Grained Relational Memory Discrimination in Long-Horizon AI Agents",
+      "source": "Hugging Face Weekly Papers",
+      "url": "https://huggingface.co/papers/2606.05761",
+      "publishedAt": "",
+      "selectedAt": "2026-06-09",
+      "summaryZh": "**核心结论**：这篇论文是 Hugging Face Weekly Papers 的高热候选，周榜排名第 12，主题集中在 Agent、评测、研究、AI。当前自动摘要只能确认它具备社区关注度和主题相关性，正式通过前需要基于原文补充更完整的中文解读。\n**如何论证**：Hugging Face Papers 2026-W24 周榜入选论文。\n**审核重点**：请重点判断它是否有清晰问题定义、明确方法、可复核实验结果、开源代码或高质量机构/作者信号；如果这些信息不足，应先暂不通过或拒绝。",
+      "takeaways": [],
+      "tags": [
+        "Agent",
+        "评测",
+        "研究",
+        "AI"
+      ],
+      "score": 28,
+      "selectionReason": "Hugging Face 周榜候选，排名第 12，主题信号：Agent、评测、研究、AI，质量分 28。",
       "reviewStatus": "pending",
       "reviewNote": "",
       "status": "candidate"
@@ -162,6 +252,74 @@
       ],
       "score": 32,
       "selectionReason": "博客候选来自 MIT Technology Review，主题信号：Agent、安全治理，质量分 32；需要人工确认是否属于长期可回看的技术解释、工程复盘、研究解读或实践案例。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "deepmind-google-blog-opening-new-paths-in-aging-research",
+      "category": "blogs",
+      "titleZh": "Opening new paths in aging research",
+      "title": "Opening new paths in aging research",
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
+      "publishedAt": "2026-05-16",
+      "selectedAt": "2026-06-09",
+      "duration": "",
+      "summaryZh": "**核心内容**：这篇文章来自 Google DeepMind Blog，主题与 RAG、研究 相关。它进入候选池是因为来源、标题和摘要显示出一定的长期阅读价值。\n**展开方式**：Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research.\n**审核重点**：请重点判断文章是否讲清了具体问题、方法路径、案例细节、工程取舍或研究证据；如果只是普通发布、活动通知、浅层宣传或二手转述，不应通过。",
+      "takeaways": [],
+      "tags": [
+        "RAG",
+        "研究"
+      ],
+      "score": 31,
+      "selectionReason": "博客候选来自 Google DeepMind Blog，主题信号：RAG、研究，质量分 31；需要人工确认是否属于长期可回看的技术解释、工程复盘、研究解读或实践案例。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "blogs-nvidia-com-blog-cvpr-research-grasping-driving-agent-training",
+      "category": "blogs",
+      "titleZh": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
+      "title": "NVIDIA Research Unlocks Advanced Grasping, Smarter Autonomous Driving and Agent Training at Scale",
+      "source": "NVIDIA AI Blog",
+      "url": "https://blogs.nvidia.com/blog/cvpr-research-grasping-driving-agent-training/",
+      "publishedAt": "2026-06-03",
+      "selectedAt": "2026-06-09",
+      "duration": "",
+      "summaryZh": "**核心内容**：这篇文章来自 NVIDIA AI Blog，主题与 Agent、RAG、工程落地、研究 相关。它进入候选池是因为来源、标题和摘要显示出一定的长期阅读价值。\n**展开方式**：What makes a robot gripper useful isn’t that it can pick up one object — it’s that it can pick up the next one, and the one after that, with a tool it’s never held before. What makes an autonomous vehicle system safe isn’t just that it can reason through a sit\n**审核重点**：请重点判断文章是否讲清了具体问题、方法路径、案例细节、工程取舍或研究证据；如果只是普通发布、活动通知、浅层宣传或二手转述，不应通过。",
+      "takeaways": [],
+      "tags": [
+        "Agent",
+        "RAG",
+        "工程落地",
+        "研究"
+      ],
+      "score": 31,
+      "selectionReason": "博客候选来自 NVIDIA AI Blog，主题信号：Agent、RAG、工程落地、研究，质量分 31；需要人工确认是否属于长期可回看的技术解释、工程复盘、研究解读或实践案例。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "openai-com-index-warp",
+      "category": "blogs",
+      "titleZh": "Warp’s big bet on building open source with GPT-5.5",
+      "title": "Warp’s big bet on building open source with GPT-5.5",
+      "source": "OpenAI News",
+      "url": "https://openai.com/index/warp",
+      "publishedAt": "2026-05-27",
+      "selectedAt": "2026-06-09",
+      "duration": "",
+      "summaryZh": "**核心内容**：这篇文章来自 OpenAI News，主题与 Agent、开源 相关。它进入候选池是因为来源、标题和摘要显示出一定的长期阅读价值。\n**展开方式**：Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.\n**审核重点**：请重点判断文章是否讲清了具体问题、方法路径、案例细节、工程取舍或研究证据；如果只是普通发布、活动通知、浅层宣传或二手转述，不应通过。",
+      "takeaways": [],
+      "tags": [
+        "Agent",
+        "开源"
+      ],
+      "score": 28,
+      "selectionReason": "博客候选来自 OpenAI News，主题信号：Agent、开源，质量分 28；需要人工确认是否属于长期可回看的技术解释、工程复盘、研究解读或实践案例。",
       "reviewStatus": "pending",
       "reviewNote": "",
       "status": "candidate"
