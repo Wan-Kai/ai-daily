@@ -1,0 +1,834 @@
+{
+  "date": "2026-06-10",
+  "generatedAt": "2026-06-09T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-10",
+  "stats": {
+    "sources": 134,
+    "fetched": 1447,
+    "emailCandidates": 0,
+    "selected": 35,
+    "failures": 2
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Today, we released Gemini 3.5 Live Translate, our latest audio model for live speech-to-speech trans...",
+          "titleZh": "今天，我们发布了 Gemini 3.5 Live Translate，这是我们用于实时语音到语音翻译的最新音频模型",
+          "link": "https://x.com/GoogleAI/status/2064366504112505266",
+          "publishedAt": "Tue, 09 Jun 2026 15:18:23 GMT",
+          "source": "Google AI(@GoogleAI)",
+          "sourceType": "social",
+          "description": "Today, we released Gemini 3.5 Live Translate, our latest audio model for live speech-to-speech translation. It supports over 70 languages and starts translating as soon as you start talking, streaming translations while listening to what you say next. No awkward pauses or choppy audio, just real connection without language barriers. So, how does it work? 🤔 The model is able to make split-second decisions to juggle speed and translation quality so conversations actually feel fluid, human, and natural. In order to do this, the model must receive and contextualize the input while simultaneously outputting the translated speech. Through this process, Gemini 3.5 Live Translate manages to stay mere seconds behind each speaker and can even maintain pacing, pitch, and intonation across extended sessions. See it in action below, or try it yourself in the Google Translate app on iOS & Android. Your browser does not support the video tag. 🔗 View on Twitter 💬 67 🔄 253 ❤️ 1933 👀 133207 📊 324 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-10-2064366504112505266.mp4",
+          "summary": "Today, we released Gemini 3.5 Live Translate, our latest audio model for live speech-to-speech translation. It supports over 70 languages and starts translating as soon as you start talking, streaming translations while listening to what you say next. No awkward pauses or choppy audio, just real connection without language barriers. So, how does it work? 🤔 The model is able to make split-second decisions to juggle speed and translation quality so conversations actually feel fluid, human, and natural. In order to do this, the model must receive and contextualize the input while simultaneously outputting the translated speech. Through this process, Gemini 3.5 Live Translate manages to stay mere seconds behind each speaker and can even maintain pacing, pitch, and intonation across extended sessions. See it in action below, or try it yourself in the Google Translate app on iOS & Android....",
+          "summaryZh": "今天，我们发布了 Gemini 3.5 Live Translate，这是我们用于实时语音到语音翻译的最新音频模型。它支持 70 多种语言，当您开始讲话时，它会立即开始翻译，并在聆听您接下来说的话的同时传输翻译。没有尴尬的停顿或断断续续的音频，只有真正的联系，没有语言障碍。那么，它是如何运作的呢？ 该模型能够在瞬间做出决定，兼顾速度和翻译质量，因此对话实际上感觉流畅、人性化和自然。为此，模型必须接收输入并将其置于上下文中，同时输出翻译后的语音。通过这个过程，Gemini 3.5 实时翻译能够在每个发言者后面仅停留几秒钟，甚至可以在长时间会话中保持节奏、音调和语调。请参阅下面的实际操作，或者在 iOS 和 Android 上的 Google 翻译应用中亲自尝试一下......",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "视频"
+          ],
+          "score": 77
+        },
+        {
+          "title": "Introducing Cohere's first open-source coding model: North Mini Code Small & efficient, designe...",
+          "titleZh": "隆重推出 Cohere 的第一个开源编码模型：North Mini Code 小而高效，专为代理性能而设计，并为社区输入而构建",
+          "link": "https://x.com/cohere/status/2064378058329526556",
+          "publishedAt": "Tue, 09 Jun 2026 16:04:18 GMT",
+          "source": "cohere(@cohere)",
+          "sourceType": "social",
+          "description": "Introducing Cohere's first open-source coding model: North Mini Code Small & efficient, designed for agentic performance and built for community input. Your browser does not support the video tag. 🔗 View on Twitter 💬 47 🔄 170 ❤️ 1385 👀 225403 📊 304 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Introducing Cohere's first open-source coding model: North Mini Code Small & efficient, designed for agentic performance and built for community input. Your browser does not support the video tag. 🔗 View on Twitter 💬 47 🔄 170 ❤️ 1385 👀 225403 📊 304 ⚡ Powered by xgo.ing",
+          "summaryZh": "隆重推出 Cohere 的第一个开源编码模型：North Mini Code 小而高效，专为代理性能而设计，并为社区输入而构建。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "视频"
+          ],
+          "score": 76
+        },
+        {
+          "title": "For a small group of cyber defenders and critical infrastructure providers, we are also launching Cl...",
+          "titleZh": "对于一小部分网络防御者和关键基础设施提供商，我们还推出了 Claude Mythos 5",
+          "link": "https://x.com/claudeai/status/2064394158056386684",
+          "publishedAt": "Tue, 09 Jun 2026 17:08:16 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "description": "For a small group of cyber defenders and critical infrastructure providers, we are also launching Claude Mythos 5. Mythos 5 shares the same underlying model as Fable 5, but with the safeguards lifted in some areas. 💬 18 🔄 73 ❤️ 2133 👀 393109 📊 200 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "For a small group of cyber defenders and critical infrastructure providers, we are also launching Claude Mythos 5. Mythos 5 shares the same underlying model as Fable 5, but with the safeguards lifted in some areas. 💬 18 🔄 73 ❤️ 2133 👀 393109 📊 200 ⚡ Powered by xgo.ing",
+          "summaryZh": "对于一小部分网络防御者和关键基础设施提供商，我们还推出了 Claude Mythos 5。Mythos 5 与《神鬼寓言 5》具有相同的底层模型，但在某些领域取消了防护措施。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型"
+          ],
+          "score": 74
+        },
+        {
+          "title": "Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Its capabili...",
+          "titleZh": "隆重推出《Claude寓言 5》：一款神话级模型，我们已确保其可安全用于一般用途",
+          "link": "https://x.com/claudeai/status/2064394146916229443",
+          "publishedAt": "Tue, 09 Jun 2026 17:08:13 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "description": "Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Its capabilities exceed those of any model we’ve ever made generally available. Your browser does not support the video tag. 🔗 View on Twitter 💬 3766 🔄 11760 ❤️ 82464 👀 22833184 📊 15189 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-10-2064394146916229443.mp4",
+          "summary": "Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Its capabilities exceed those of any model we’ve ever made generally available. Your browser does not support the video tag. 🔗 View on Twitter 💬 3766 🔄 11760 ❤️ 82464 👀 22833184 📊 15189 ⚡ Powered by xgo.ing",
+          "summaryZh": "隆重推出《Claude寓言 5》：一款神话级模型，我们已确保其可安全用于一般用途。它的功能超过了我们已经推出的任何型号。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 73
+        },
+        {
+          "title": "Want to turn a website into a launch video for your brand? This tutorial shows you how We used @ol...",
+          "titleZh": "HeyGen 教你把网站页面直接做成品牌发布视频",
+          "link": "https://x.com/HeyGen/status/2064073873579262249",
+          "publishedAt": "Mon, 08 Jun 2026 19:55:34 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "description": "Want to turn a website into a launch video for your brand? This tutorial shows you how We used @ollama as example, but the workflow works for any company. Every frame is HTML, CSS, and GSAP, written like a webpage and rendered with HyperFrames Follow the workflow below ↓ Your browser does not support the video tag. 🔗 View on Twitter 💬 41 🔄 60 ❤️ 361 👀 29402 📊 150 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-10-2064073873579262249.mp4",
+          "summary": "Want to turn a website into a launch video for your brand? This tutorial shows you how We used @ollama as example, but the workflow works for any company. Every frame is HTML, CSS, and GSAP, written like a webpage and rendered with HyperFrames Follow the workflow below ↓ Your browser does not support the video tag. 🔗 View on Twitter 💬 41 🔄 60 ❤️ 361 👀 29402 📊 150 ⚡ Powered by xgo.ing",
+          "summaryZh": "HeyGen 分享了一套把**品牌官网直接转成发布视频**的制作流程：示例里用了 **@ollama** 的页面素材，但方法本身适用于任何公司。它把每一帧都当作网页来写，用 **HTML、CSS 和 GSAP** 组织动画，再通过 **HyperFrames** 渲染成最终视频，适合产品发布、品牌宣传和功能演示类内容团队直接复用。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "视频"
+          ],
+          "score": 72.13133070842424
+        },
+        {
+          "title": "Final stop: Tokyo. Register to hear directly from the teams behind Claude: https://t.co/SkYZwjK3GS",
+          "titleZh": "终点站：东京。注册以直接聆听 Claud",
+          "link": "https://x.com/claudeai/status/2064139073590104402",
+          "publishedAt": "Tue, 09 Jun 2026 00:14:39 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "description": "Final stop: Tokyo. Register to hear directly from the teams behind Claude: claude.com/code-with-clau… Claude @claudeai Code with Claude, our developer conference, returns next week. Whether you're just getting started with Claude Code or you've been building for a while, there's a session for you. Register for the livestream: claude.com/code-with-clau… Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 143 🔄 522 ❤️ 4627 👀 1006558 📊 593 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-10-2064139073590104402.mp4",
+          "summary": "Final stop: Tokyo. Register to hear directly from the teams behind Claude: claude.com/code-with-clau… Claude @claudeai Code with Claude, our developer conference, returns next week. Whether you're just getting started with Claude Code or you've been building for a while, there's a session for you. Register for the livestream: claude.com/code-with-clau… Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 143 🔄 522 ❤️ 4627 👀 1006558 📊 593 ⚡ Powered by xgo.ing",
+          "summaryZh": "终点站：东京。注册以直接聆听 Claude 背后团队的声音：claude.com/code-with-clau… Claude Code with Claude，我们的开发者大会将于下周回归。无论您是刚刚开始使用 Claude Code 还是已经构建了一段时间，总有适合您的课程。注册直播：claude.com/code-with-clau…查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开发者工具",
+            "视频"
+          ],
+          "score": 72
+        },
+        {
+          "title": "Introducing FrontierCode: a coding eval that raises the bar for difficulty & quality. Each task ...",
+          "titleZh": "FrontierCode 简介：一种提高难度和质量标准的编码评估",
+          "link": "https://x.com/cognition/status/2064061031912288715",
+          "publishedAt": "Mon, 08 Jun 2026 19:04:33 GMT",
+          "source": "Cognition(@cognition_labs)",
+          "sourceType": "social",
+          "description": "Introducing FrontierCode: a coding eval that raises the bar for difficulty & quality. Each task took 40+ hrs of work by leading open-source maintainers. Models write sloppy code that works but isn’t maintainable. Our eval is first to measure: would you actually merge this code? 💬 228 🔄 306 ❤️ 4161 👀 2403498 📊 945 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKT9bbsagAAipOJ.jpg",
+          "video": "",
+          "summary": "Introducing FrontierCode: a coding eval that raises the bar for difficulty & quality. Each task took 40+ hrs of work by leading open-source maintainers. Models write sloppy code that works but isn’t maintainable. Our eval is first to measure: would you actually merge this code? 💬 228 🔄 306 ❤️ 4161 👀 2403498 📊 945 ⚡ Powered by xgo.ing",
+          "summaryZh": "FrontierCode 简介：一种提高难度和质量标准的编码评估。每项任务都需要领先的开源维护人员花费 40 多个小时的时间。模型编写的代码可以工作但不可维护。我们的评估首先要衡量的是：你真的会合并这段代码吗？。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 71
+        },
+        {
+          "title": "Claude Fable 5 is now available in Cursor. It sets a new state of the art on CursorBench at 72.9%, ...",
+          "titleZh": "《Claude寓言 5》现已在 Cursor 中提供",
+          "link": "https://x.com/cursor_ai/status/2064394824313376787",
+          "publishedAt": "Tue, 09 Jun 2026 17:10:55 GMT",
+          "source": "Cursor(@cursor_ai)",
+          "sourceType": "social",
+          "description": "Claude Fable 5 is now available in Cursor. It sets a new state of the art on CursorBench at 72.9%, 8 points above the previous best. 💬 184 🔄 345 ❤️ 4853 👀 601212 📊 758 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKYz6_ua4AA7_57.jpg",
+          "video": "",
+          "summary": "Claude Fable 5 is now available in Cursor. It sets a new state of the art on CursorBench at 72.9%, 8 points above the previous best. 💬 184 🔄 345 ❤️ 4853 👀 601212 📊 758 ⚡ Powered by xgo.ing",
+          "summaryZh": "《Claude寓言 5》现已在 Cursor 中提供。它在 CursorBench 上创下了新的最高水平，达到 72.9%，比之前的最佳水平高出 8 个百分点。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 68
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Artificial Intelligence for Mathematical Reasoning: An Integrated Survey of Language Models, Neuro-symbolic Systems, and Verified Discovery",
+          "titleZh": "用于数学推理的人工智能：语言模型、神经符号系统和验证发现的综合调查",
+          "link": "https://arxiv.org/abs/2606.08728",
+          "publishedAt": "Tue, 09 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.08728v1 Announce Type: new Abstract: Mathematical reasoning has long served as a stringent test of machine intelligence; over the past decade, it has moved from a niche problem within NLP to one of the most consequential AI frontiers. This survey provides a unified account of the field's evolution, from early rule-based math word problem (MWP) solvers and template-driven geometry systems, through neural expression generation and LLM prompting, to contemporary reasoning models, multi-agent systems, neuro-symbolic theorem provers, and verified discovery workflows. We organize the landscape along four axes: (i) informal reasoning over text and diagrams, spanning MWP solving, multimodal geometry, and VLMs; (ii) formal reasoning in proof assistants, including autoformalization, tactic prediction, compiler-guided repair, and proof search; (iii) mathematical discovery, where systems propose constructions, improve bounds, or assist attacks on open problems; and (iv) the inference and training-time techniques, including CoT prompting, tool use, process reward models, and RLVR, that increasingly connect generation with verification. We catalog major benchmarks across grade-school arithmetic, competition mathematics, geometry, formal proving, multimodal and multilingual reasoning, and expert evaluation, and we examine benchmark saturation, contamination, reporting mismatches, and the distinction between pass@1, majority voting, and verifier-assisted pass@$k$. We critically assess failure modes: brittleness under perturbation, reward hacking, multimodal grounding failures, fragile formalization, and the energy cost of reasoning-scale inference. Drawing on recent perspectives from working mathematicians, we identify future directions centered on verified-discovery workflows, reasoning efficiency, and infrastructure to make AI-assisted formalization broadly usable. Companion materials: https://github.com/Starscream-11813/awesome-AI4Math.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.08728v1 Announce Type: new Abstract: Mathematical reasoning has long served as a stringent test of machine intelligence; over the past decade, it has moved from a niche problem within NLP to one of the most consequential AI frontiers. This survey provides a unified account of the field's evolution, from early rule-based math word problem (MWP) solvers and template-driven geometry systems, through neural expression generation and LLM prompting, to contemporary reasoning models, multi-agent systems, neu...",
+          "summaryZh": "**核心结论** 「用于数学推理的人工智能：语言模型、神经符号系统和验证发现的综合调查」要解决的问题是：发布类型：新 数学推理长期以来一直是机器智能的严格测试；在过去的十年里，它已经从 NLP 中的一个小众问题转变为最重要的人工智能前沿之一。这项调查统一描述了该领域的演变，从早期基于规则的数学应用题（MWP）求解器和模板驱动的几何系统，通过神经表达式生成和LLM提示，到当代推理模型、多智能体系统、神经。 **支撑证据** 摘要与公开信息显示：arXiv:2606.08728v1 发布类型：新 数学推理长期以来一直是机器智能的严格测试；在过去的十年里，它已经从 NLP 中的一个小众问题转变为最重要的人工智能前沿之一。这项调查统一描述了该领域的演变，从早期基于规则的数学应用题（MWP）求解器和模板驱动的几何系统，通过神经表达式生成和LLM提示，到当代推理模型、多智能体系统、神经... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 42
+        },
+        {
+          "title": "From Conflict to Consensus: Boosting Medical Reasoning via Multi-Round Agentic RAG",
+          "titleZh": "从冲突到共识：通过多轮代理 RAG 促进医学推理",
+          "link": "https://arxiv.org/abs/2603.03292",
+          "publishedAt": "Tue, 09 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2603.03292v3 Announce Type: replace-cross Abstract: Large Language Models (LLMs) exhibit high reasoning capacity in medical question-answering, but their tendency to produce hallucinations and outdated knowledge poses critical risks in healthcare fields. While Retrieval-Augmented Generation (RAG) mitigates these issues, existing methods rely on noisy token-level signals and lack the multi-round refinement required for complex reasoning. In this paper, we propose MA-RAG (Multi-Round Agentic RAG), a framework that facilitates test-time scaling for complex medical reasoning by iteratively evolving both external evidence and internal reasoning history within an agentic refinement loop. At each round, the agent transforms semantic conflict among candidate responses into actionable queries to retrieve external evidence, while optimizing history reasoning traces to mitigate long-context degradation. MA-RAG extends the self-consistency principle by leveraging the lack of consistency as a proactive signal for multi-round agentic reasoning and retrieval, and mirrors a boosting mechanism that iteratively minimizes the residual error toward a stable, high-fidelity medical consensus. Extensive evaluations across 7 medical Q&A benchmarks show that MA-RAG consistently surpasses competitive inference-time scaling and RAG baselines, delivering substantial +6.8 points on average accuracy over the backbone model. Our code is available at https://github.com/NJU-RL/MA-RAG.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2603.03292v3 Announce Type: replace-cross Abstract: Large Language Models (LLMs) exhibit high reasoning capacity in medical question-answering, but their tendency to produce hallucinations and outdated knowledge poses critical risks in healthcare fields. While Retrieval-Augmented Generation (RAG) mitigates these issues, existing methods rely on noisy token-level signals and lack the multi-round refinement required for complex reasoning. In this paper, we propose MA-RAG (Multi-Round Agentic RAG), a framewor...",
+          "summaryZh": "**核心结论** 「从冲突到共识：通过多轮代理 RAG 促进医学推理」要解决的问题是：发布类型：replace-cross 大语言模型（LLM）在医学问答中表现出较高的推理能力，但其产生幻觉和过时知识的倾向给医疗保健领域带来了严重风险。虽然检索增强生成（RAG）可以缓解这些问题，但现有方法依赖于嘈杂的令牌级信号，并且缺乏复杂推理所需的多轮细化。在本文中，我们提出了 MA-RAG（多轮代理 RAG），一个框架。 **支撑证据** 摘要与公开信息显示：arXiv:2603.03292v3 发布类型：replace-cross 大语言模型（LLM）在医学问答中表现出较高的推理能力，但其产生幻觉和过时知识的倾向给医疗保健领域带来了严重风险。虽然检索增强生成（RAG）可以缓解这些问题，但现有方法依赖于嘈杂的令牌级信号，并且缺乏复杂推理所需的多轮细化。在本文中，我们提出了 MA-RAG（多轮代理 RAG），一个框架... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "评测",
+            "论文"
+          ],
+          "score": 41
+        },
+        {
+          "title": "Siri AI at WWDC 2026",
+          "titleZh": "考虑到那些只相信苹果 2024 年 WW",
+          "link": "https://simonwillison.net/2026/Jun/8/wwdc/#atom-everything",
+          "publishedAt": "2026-06-08T23:58:04+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Given how badly burned anyone who took Apple's 2024 WWDC Apple Intelligence announcements at face value was, I'm holding to a strict \"I'll believe it when I see it\" policy for everything they announced today . The new Siri AI features do at least look feasible with today's technology, especially since Apple are licensing a custom Gemini-derived model that they can run on their own Private Cloud Compute . It sounds like they'll be taking advantage of vision LLMs to extract information from the user's screen, which neatly sidesteps the need for every existing application to ship custom code in order to integrate with Apple Intelligence. Vision LLMs were a much less mature category in June 2024. The new Core AI library looks like a good step in enabling developers to finally take full advantage of Apple's hardware for running their own models. It integrates with Meta's open source PyTorch ecosystem, using these Core AI PyTorch extensions : Core AI PyTorch Extensions ( coreai-torch ) is a Python package that bridges PyTorch and Core AI. You can use it to bring up an existing PyTorch model — exported as a torch.export.ExportedProgram — into a Core AI AIProgram ready to run on Apple hardware, traversing the FX graph node-by-node and mapping ATen operators to Core AI operations. You can install an iOS 27 Developer Beta today, which supposedly has the new features - but you then have to make it through a waiting list for access to the new Siri AI. Aaron Perris from MacRumors reports having made it off the waitlist so we may start seeing credible reports on how well Siri AI works in the very near future. Update : These Private Cloud Compute Gemini models are running in Google Cloud, and using NVIDIA hardware. According to Expanding Private Cloud Compute on Apple's Security Research blog: For the most demanding tasks, including agentic tool-use and complex reasoning, we worked with Google and NVIDIA to extend our PCC infrastructure to Google Cloud systems using NVIDIA GPUs, while maintaining Apple's powerful security and privacy protections. [...] PCC on Google Cloud leverages many of the same architectural security patterns as PCC on Apple silicon to implement these layered protections: initial network data parsing for each request happens in a dedicated process within its own namespace, shared inference software is recycled with a short time-to-live duration, and attested keys are held in a separate, dedicated confidential VM isolated from external inputs. [...] As with PCC on Apple silicon, all binaries will be published for public inspection. Tags: vision-llms , apple , generative-ai , ai , llms , gemini , nvidia , google",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Given how badly burned anyone who took Apple's 2024 WWDC Apple Intelligence announcements at face value was, I'm holding to a strict \"I'll believe it when I see it\" policy for everything they announced today . The new Siri AI features do at least look feasible with today's technology, especially since Apple are licensing a custom Gemini-derived model that they can run on their own Private Cloud Compute . It sounds like they'll be taking advantage of vision LLMs to extract information from the user's screen, whic...",
+          "summaryZh": "**核心要点** 考虑到那些只相信苹果 2024 年 WWDC 苹果情报公告表面意义的人会受到多么严重的伤害，我对他们今天宣布的一切都坚持严格的“我看到它就会相信”的政策。新的 Siri AI 功能至少在当今的技术下看起来是可行的，特别是因为苹果正在授权定制的 Gemini 衍生模型，该模型可以在自己的私有云计算上运行。听起来他们将利用视觉LLM从用户的屏幕中提取信息，这......",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "开源",
+            "开发者工具"
+          ],
+          "score": 41
+        },
+        {
+          "title": "Bidirectional Semantic Complementary Tool Retrieval for Remote Sensing Agents",
+          "titleZh": "遥感代理双向语义补充工具检索",
+          "link": "https://arxiv.org/abs/2606.07538",
+          "publishedAt": "Tue, 09 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.07538v1 Announce Type: cross Abstract: Large language model (LLM)-based agents provide a novel paradigm for the automated processing of remote sensing(RS) data. Their success in complex RS tasks rely on extensive specialized tool libraries. However, tool documentation often exceeds the context window limits of LLMs, making precise tool retrieval essential for agentic workflows. Existing tool retrieval methods face \"semantic asymmetry\" bottleneck: natural language queries typically express macro-level intentions lacking tool-specific semantics, while tool documentation provides fine-grained technical descriptions lacking operational context for workflows. To bridge this semantic gap, this paper proposes a bidirectional semantic complementary tool retrieval method. First, on the query side, we introduce a planning-based query enhancement mechanism that leverages the reasoning capabilities of agents to decompose abstract intentions into logical subtasks, thereby actively supplementing the query with missing functional semantics. Second, on the tool side, addressing the strong coupling characteristics of RS tool chains, we construct a dynamic tool dependency graph with continual learning capabilities. By employing a neighborhood information aggregation mechanism, contextual information from precursor tools is explicitly injected into the current node representation, enriching tool descriptions with contextual semantics. Experimental results on the RS dataset GeoPlan-bench and the general-purpose dataset API- Bank demonstrate that the proposed method not only significantly improves tool retrieval accuracy for complex RS tasks but also exhibits robust extensibility for transfer to general-domain tasks. The source code and dataset are available at https://github.com/geox-lab/BSCTR.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.07538v1 Announce Type: cross Abstract: Large language model (LLM)-based agents provide a novel paradigm for the automated processing of remote sensing(RS) data. Their success in complex RS tasks rely on extensive specialized tool libraries. However, tool documentation often exceeds the context window limits of LLMs, making precise tool retrieval essential for agentic workflows. Existing tool retrieval methods face \"semantic asymmetry\" bottleneck: natural language queries typically express macro-level...",
+          "summaryZh": "**核心结论** 「遥感代理双向语义补充工具检索」要解决的问题是：基于大语言模型（LLM）的代理为遥感（RS）数据的自动化处理提供了一种新颖的范例。他们在复杂的遥感任务中的成功依赖于广泛的专业工具库。然而，工具文档通常超出了LLM的上下文窗口限制，这使得精确的工具检索对于代理工作流程至关重要。 **支撑证据** 摘要与公开信息显示：arXiv:2606.07538v1 基于大语言模型（LLM）的代理为遥感（RS）数据的自动化处理提供了一种新颖的范例。他们在复杂的遥感任务中的成功依赖于广泛的专业工具库。然而，工具文档通常超出了LLM的上下文窗口限制，这使得精确的工具检索对于代理工作流程至关重要。现有工具检索方法面临“语义不对称”瓶颈：自然语言查询通常表达宏观层面... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "推理能力",
+            "论文"
+          ],
+          "score": 40
+        },
+        {
+          "title": "Decoupling Semantics and Logic: A Training-Free Coarse-to-Fine Pipeline for Video Retrieval-Augmented Generation",
+          "titleZh": "解耦语义和逻辑：用于视频检索增强生成的免训练粗到细管道",
+          "link": "https://arxiv.org/abs/2606.07924",
+          "publishedAt": "Tue, 09 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.07924v1 Announce Type: cross Abstract: This paper presents our system description for the 2nd Workshop on Multimodal Augmented Generation via MultimodAl Retrieval (MAGMaR). Addressing the critical challenges of cross-lingual long-video comprehension, strict persona adherence, and zero-hallucination temporal grounding, we propose a fully training-free, two-stage cascaded Video RAG pipeline. Our architecture strategically decouples semantic retrieval from cognitive logical reasoning through a modality-aware division of labor. In the first stage, a high-recall semantic pre-fetching module employs dense retrieval using only high-fidelity visual summaries and global text descriptions, explicitly isolating noisy modalities (e.g., OCR and ASR) to maintain a pristine vector space. In the second stage, an Adaptive, Iterative, and Reasoning-based (A.I.R.) filtering agent, powered by a commercial Large Language Model (LLM), performs fine-grained cognitive reranking. The agent re-incorporates full multimodal contexts to enforce strict logical alignment with user personas, effectively pruning semantically similar but logically irrelevant candidates. Finally, a Prompt Sculpting mechanism constrains the generator to synthesize the distilled subset into strictly formatted JSON responses with exact chunk-level citations. Evaluated on the RAG track, our resource-aware approach shows exceptional precision in both information retrieval and persona-conditioned generation.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.07924v1 Announce Type: cross Abstract: This paper presents our system description for the 2nd Workshop on Multimodal Augmented Generation via MultimodAl Retrieval (MAGMaR). Addressing the critical challenges of cross-lingual long-video comprehension, strict persona adherence, and zero-hallucination temporal grounding, we propose a fully training-free, two-stage cascaded Video RAG pipeline. Our architecture strategically decouples semantic retrieval from cognitive logical reasoning through a modality-a...",
+          "summaryZh": "**核心结论** 「解耦语义和逻辑：用于视频检索增强生成的免训练粗到细管道」要解决的问题是：本文介绍了我们对第二届多模态增强生成研讨会 (MAGMaR) 的系统描述。为了解决跨语言长视频理解、严格人物角色遵守和零幻觉时间基础等关键挑战，我们提出了一种完全免训练的两阶段级联视频 RAG 管道。我们的架构通过模态将语义检索与认知逻辑推理战略性地分离。 **支撑证据** 摘要与公开信息显示：arXiv:2606.07924v1 本文介绍了我们对第二届多模态增强生成研讨会 (MAGMaR) 的系统描述。为了解决跨语言长视频理解、严格人物角色遵守和零幻觉时间基础等关键挑战，我们提出了一种完全免训练的两阶段级联视频 RAG 管道。我们的架构通过模态将语义检索与认知逻辑推理战略性地分离... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "多模态",
+            "论文"
+          ],
+          "score": 39
+        },
+        {
+          "title": "Hands-free first notice of loss: Using Strands Agents and Amazon Bedrock AgentCore Browser Tool for intelligent claims intake",
+          "titleZh": "免提第一时间通知损失：使用 Strands Agents 和 Amazon Bedrock AgentCore 浏览器工具进行智能索赔受理",
+          "link": "https://aws.amazon.com/blogs/machine-learning/hands-free-first-notice-of-loss-using-strands-agents-and-amazon-bedrock-agentcore-browser-tool-for-intelligent-claims-intake/",
+          "publishedAt": "Tue, 09 Jun 2026 16:43:28 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, we demonstrate how a hands-free FNOL intake system combines agents built with the Strands Agents SDK for domain reasoning with Amazon Bedrock AgentCore Browser Tool for live portal interaction. This approach preserves human expertise while removing repetitive screen work.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/09/ml-19303.png",
+          "video": "",
+          "summary": "In this post, we demonstrate how a hands-free FNOL intake system combines agents built with the Strands Agents SDK for domain reasoning with Amazon Bedrock AgentCore Browser Tool for live portal interaction. This approach preserves human expertise while removing repetitive screen work.",
+          "summaryZh": "**核心要点** 在这篇文章中，我们演示了免提 FNOL 引入系统如何将使用 Strands Agents SDK 构建的用于域推理的代理与用于实时门户交互的 Amazon Bedrock AgentCore 浏览器工具结合起来。这种方法保留了人类的专业知识，同时消除了重复的屏幕工作。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "推理能力"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Build an agentic incident triage assistant with Amazon Quick and New Relic",
+          "titleZh": "使用 Amazon Quick 和 New Relic 构建代理事件分类助手",
+          "link": "https://aws.amazon.com/blogs/machine-learning/build-an-agentic-incident-triage-assistant-with-amazon-quick-and-new-relic/",
+          "publishedAt": "Tue, 09 Jun 2026 16:10:37 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "This post shows engineering teams how to apply that principle to one of the most time-sensitive workflows in engineering: incident triage. You will build a custom incident triage assistant agent using Amazon Quick that orchestrates a response with the New Relic Model Context Protocol (MCP) Server and Asana through native integrations. From a single prompt, the Amazon Quick agent investigates the incident, assembles a root cause analysis (RCA) brief with evidence links, and creates a tracked Asana task ready for handoff.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/04/ML-20579-1-1146x630.png",
+          "video": "",
+          "summary": "This post shows engineering teams how to apply that principle to one of the most time-sensitive workflows in engineering: incident triage. You will build a custom incident triage assistant agent using Amazon Quick that orchestrates a response with the New Relic Model Context Protocol (MCP) Server and Asana through native integrations. From a single prompt, the Amazon Quick agent investigates the incident, assembles a root cause analysis (RCA) brief with evidence links, and creates a tracked Asana task ready for...",
+          "summaryZh": "**核心要点** 这篇文章向工程团队展示了如何将该原则应用于工程中对时间最敏感的工作流程之一：事件分类。您将使用 Amazon Quick 构建自定义事件分类助理代理，通过本机集成协调 New Relic 模型上下文协议 (MCP) 服务器和 Asana 的响应。根据单个提示，Amazon Quick 代理会调查该事件，汇总带有证据链接的根本原因分析 (RCA) 简介，并创建一个跟踪的 Asana 任务，以备...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "[AINews] FrontierCode: Benchmarking for Code Quality over Slop",
+          "titleZh": "[AINews] FrontierCode：代码质量超标基准测试",
+          "link": "https://www.latent.space/p/ainews-frontiercode-benchmarking",
+          "publishedAt": "Tue, 09 Jun 2026 06:12:33 GMT",
+          "source": "Latent Space",
+          "sourceType": "research",
+          "description": "AINews: Weekday Roundups [AINews] FrontierCode: Benchmarking for Code Quality over Slop We made a thing! Jun 09, 2026 ∙ Paid 38 Share Second batch of AI Leadership and Engineering+Workshops tickets for AI Engineer World’s Fair sold out last night! Last 500 tickets on sale now - get while stocks last! 20% off for the first 20 readers who see this. It is rare that we are personally involved in the title story of the day, and Apple’s WWDC announcing Gemini-powered Siri was a possible candidate, but we’ve been fooled b",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://substackcdn.com/image/fetch/$s_!64bV!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fswyx.substack.com%2Fapi%2Fv1%2Fpost_preview%2F201254482%2Ftwitter.jpg%3Fversion%3D4",
+          "video": "",
+          "summary": "AINews: Weekday Roundups [AINews] FrontierCode: Benchmarking for Code Quality over Slop We made a thing! Jun 09, 2026 ∙ Paid 38 Share Second batch of AI Leadership and Engineering+Workshops tickets for AI Engineer World’s Fair sold out last night! Last 500 tickets on sale now - get while stocks last! 20% off for the first 20 readers who see this. It is rare that we are personally involved in the title story of the day, and Apple’s WWDC announcing Gemini-powered Siri was a possible candidate, but we’ve been fooled b",
+          "summaryZh": "**核心要点** AINews：工作日综述 [AINews] FrontierCode：代码质量基准测试 我们成功了！ 2026 年 6 月 9 日 ∙ 付费 38 份 AI 工程师世界博览会第二批 AI 领导力和工程+研讨会门票昨晚已售完！最后 500 张门票现已发售 - 售完即止！前 20 位看到此内容的读者可享受 20% 的折扣。我们很少亲自参与当天的标题故事，苹果的 WWDC 宣布 Gemini 驱动的 Siri 是一个可能的候选者，但我们被愚弄了",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "评测"
+          ],
+          "score": 26
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "We keep blaming the model for problems caused by bad memory systems. Shoving more chat history into...",
+          "titleZh": "我们一直将由糟糕的记忆系统引起的问题归咎于模型",
+          "link": "https://x.com/weaviate_io/status/2064340749529817211",
+          "publishedAt": "Tue, 09 Jun 2026 13:36:02 GMT",
+          "source": "Weaviate • vector database(@weaviate_io)",
+          "sourceType": "social",
+          "description": "We keep blaming the model for problems caused by bad memory systems. Shoving more chat history into context is not memory. It’s an invitation to delay, cost, contradiction, and eventually confusion. Modern apps need something stricter: - Extract what facts matter - Reconcile them with what’s already known - Remove duplicates and preserve updates - Retrieve everything reliably later That’s the idea behind Engram - our managed memory service built on Weaviate. Instead of treating memory as an ever-growing prompt, Engram treats it as infrastructure. You send raw inputs that could be conversations, strings, or pre-extracted facts, and Engram runs an async pipeline to extract signals, transform them against existing memory, and commit a clean state into the database. So when an agent needs to recall something later, it’s not searching a pile of noisy transcripts. It’s retrieving maintained memory. This matters most when you need agents to: - Remember user preferences without bloating context - Learn from prior tasks - Update stale facts instead of just duplicating them - Keep memory scoped correctly across users, teams, or workflows Learn more about Engram: weaviate.io/blog/engram-de… Get started: console.weaviate.cloud/signin?utm_sou… 💬 1 🔄 2 ❤️ 10 👀 469 📊 4 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKYC-LYX0AAxnmt.jpg",
+          "video": "",
+          "summary": "We keep blaming the model for problems caused by bad memory systems. Shoving more chat history into context is not memory. It’s an invitation to delay, cost, contradiction, and eventually confusion. Modern apps need something stricter: - Extract what facts matter - Reconcile them with what’s already known - Remove duplicates and preserve updates - Retrieve everything reliably later That’s the idea behind Engram - our managed memory service built on Weaviate. Instead of treating memory as an ever-growing prompt, Engram treats it as infrastructure. You send raw inputs that could be conversations, strings, or pre-extracted facts, and Engram runs an async pipeline to extract signals, transform them against existing memory, and commit a clean state into the database. So when an agent needs to recall something later, it’s not searching a pile of noisy transcripts. It’s retrieving maintained...",
+          "summaryZh": "我们一直将由糟糕的记忆系统引起的问题归咎于模型。将更多聊天记录放入上下文中并不是记忆。这会导致延误、成本、矛盾，并最终造成混乱。现代应用需要更严格的东西： - 提取重要的事实 - 将它们与已知的内容进行协调 - 删除重复项并保留更新 - 稍后可靠地检索所有内容 这就是 Engram 背后的想法 - 我们基于 Weaviate 构建的托管内存服务。英格拉姆没有将记忆视为不断增长的提示，而是将其视为基础设施。您发送的原始输入可以是对话、字符串或预先提取的事实，Engram 运行异步管道来提取信号，根据现有内存进行转换，并将干净的状态提交到数据库中。因此，当智能体稍后需要回忆某些内容时，它不会搜索一堆嘈杂的记录。它正在检索维护...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 51.42899003263978
+        },
+        {
+          "title": "What if your photo gallery could do more than just store images? This project by Vatsala Singh turn...",
+          "titleZh": "如果您的照片库不仅仅可以存储图像怎么办？ Vatsala Singh 的这个项目转",
+          "link": "https://x.com/qdrant_engine/status/2064331681377776104",
+          "publishedAt": "Tue, 09 Jun 2026 13:00:00 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "description": "What if your photo gallery could do more than just store images? This project by Vatsala Singh turns a personal photo collection into an autonomous AI agent using Qdrant as the retrieval layer. Instead of manually searching folders or scrolling through thousands of images, the agent can: → Understand natural language requests → Search memories semantically → Retrieve relevant photos and context → Act as a personal visual memory system It’s a great example of how vector search with Qdrant transforms static data into something AI can reason over and interact with. Read more here: ai.gopubby.com/how-i-turned-m… 💬 4 🔄 0 ❤️ 7 👀 243 📊 5 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKQaZQxbwAAn_U9.jpg",
+          "video": "",
+          "summary": "What if your photo gallery could do more than just store images? This project by Vatsala Singh turns a personal photo collection into an autonomous AI agent using Qdrant as the retrieval layer. Instead of manually searching folders or scrolling through thousands of images, the agent can: → Understand natural language requests → Search memories semantically → Retrieve relevant photos and context → Act as a personal visual memory system It’s a great example of how vector search with Qdrant transforms static data into something AI can reason over and interact with. Read more here: ai.gopubby.com/how-i-turned-m… 💬 4 🔄 0 ❤️ 7 👀 243 📊 5 ⚡ Powered by xgo.ing",
+          "summaryZh": "如果您的照片库不仅仅可以存储图像怎么办？ Vatsala Singh 的这个项目将个人照片集转变为使用 Qdrant 作为检索层的自主 AI 代理。智能体无需手动搜索文件夹或滚动浏览数千张图像，而是可以： → 理解自然语言请求 → 按语义搜索记忆 → 检索相关照片和上下文 → 充当个人视觉记忆系统 这是一个很好的例子，说明 Qdrant 的矢量搜索如何将静态数据转换为人工智能可以推理和交互的数据。在这里阅读更多信息：ai.gopubby.com/how-i-turned-m…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "图像"
+          ],
+          "score": 48.89241469181189
+        },
+        {
+          "title": "𝗪𝗲 𝗰𝗹𝗮𝘀𝘀𝗶𝗳𝘆 𝗛𝗲𝗿𝗺𝗲𝘀 𝘄𝗶𝘁𝗵 𝘀𝗸𝗶𝗹𝗹𝘀 𝗮𝘀 𝗮𝗻 𝗟𝟯. 𝗛𝗲𝗿𝗲'𝘀 𝘄𝗵𝘆, 𝗮𝗻𝗱 ...",
+          "titleZh": "Milvus 解读 Hermes + skills 为何仍属于 L3 智能体",
+          "link": "https://x.com/milvusio/status/2064372699414053201",
+          "publishedAt": "Tue, 09 Jun 2026 15:43:00 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "description": "𝗪𝗲 𝗰𝗹𝗮𝘀𝘀𝗶𝗳𝘆 𝗛𝗲𝗿𝗺𝗲𝘀 𝘄𝗶𝘁𝗵 𝘀𝗸𝗶𝗹𝗹𝘀 𝗮𝘀 𝗮𝗻 𝗟𝟯. 𝗛𝗲𝗿𝗲'𝘀 𝘄𝗵𝘆, 𝗮𝗻𝗱 𝗵𝗲𝗿𝗲'𝘀 𝘄𝗵𝗮𝘁 𝘆𝗼𝘂 𝗰𝗮𝗻 𝗱𝗼 𝘁𝗼 𝗴𝗲𝘁 𝗺𝗼𝗿𝗲 𝗼𝘂𝘁 𝗼𝗳 𝗶𝘁. We classify agents into four levels. L1 does the work for you. L2 gets better on its own across sessions. L3 applies the judgment you’ve encoded, even when you are not actively supervising it. L4 improves the users' judgment, not just their output. Hermes + skills is already a strong L3 stack: persistent memory, reusable skills, and a layer for carrying identity and preferences across sessions. But it's still L3, and L3 has its drawbacks. 𝗧𝗵𝗲 𝗯𝗶𝗴𝗴𝗲𝘀𝘁 𝗱𝗿𝗮𝘄𝗯𝗮𝗰𝗸 𝗼𝗳 𝗟𝟯 𝗮𝗴𝗲𝗻𝘁𝘀 𝗶𝘀 𝘁𝗵𝗮𝘁 𝘆𝗼𝘂𝗿 𝗯𝗿𝗮𝗶𝗻 𝗰𝗮𝗽𝘀 𝘁𝗵𝗲𝗶𝗿 𝗽𝗼𝘁𝗲𝗻𝘁𝗶𝗮𝗹. They can run many tasks in parallel, but you can't review them that way. Switching between sessions to check each one costs real cognitive effort, and the more you switch, the worse your judgment gets across all of them. 𝗧𝗵𝗲 𝘄𝗮𝘆 𝘁𝗼 𝗴𝗲𝘁 𝘁𝗵𝗲 𝗺𝗼𝘀𝘁 𝗼𝘂𝘁 𝗼𝗳 𝗟𝟯 𝗶𝘀 𝘁𝗼 𝗴𝗶𝘃𝗲 𝘁𝗵𝗲 𝗮𝗴𝗲𝗻𝘁 𝘆𝗼𝘂𝗿 𝗷𝘂𝗱𝗴𝗺𝗲𝗻𝘁 𝘂𝗽 𝗳𝗿𝗼𝗻𝘁: 𝘆𝗼𝘂𝗿 𝗳𝗿𝗮𝗺𝗲𝘄𝗼𝗿𝗸, 𝘆𝗼𝘂𝗿 𝗽𝗿𝗲𝗳𝗲𝗿𝗲𝗻𝗰𝗲𝘀, 𝗵𝗼𝘄 𝘆𝗼𝘂 𝘄𝗲𝗶𝗴𝗵 𝘁𝗿𝗮𝗱𝗲𝗼𝗳𝗳𝘀, 𝘄𝗵𝗮𝘁 𝗴𝗼𝗼𝗱 𝗹𝗼𝗼𝗸𝘀 𝗹𝗶𝗸𝗲. It evaluates its own output against those standards. You stop switching between sessions to make decisions, and the agent's throughput is less bottlenecked by your attention. 𝗟𝟯 𝗮𝗴𝗲𝗻𝘁𝘀 𝘀𝘁𝗶𝗹𝗹 𝗵𝗮𝘃𝗲 𝗮 𝗹𝗶𝗺𝗶𝘁. The agent can only be as good as the judgment you gave it, and that judgment is only as current as the last time you updated it. If you're not growing, your rules go stale, and the agent keeps performing inside a dated framework. That's the L4 problem: how does the agent improve the person using it, not just serve them faster? More on that next. 💬 0 🔄 0 ❤️ 2 👀 97 📊 1 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKXbeC9acAA5dK6.jpg",
+          "video": "",
+          "summary": "𝗪𝗲 𝗰𝗹𝗮𝘀𝘀𝗶𝗳𝘆 𝗛𝗲𝗿𝗺𝗲𝘀 𝘄𝗶𝘁𝗵 𝘀𝗸𝗶𝗹𝗹𝘀 𝗮𝘀 𝗮𝗻 𝗟𝟯. 𝗛𝗲𝗿𝗲'𝘀 𝘄𝗵𝘆, 𝗮𝗻𝗱 𝗵𝗲𝗿𝗲'𝘀 𝘄𝗵𝗮𝘁 𝘆𝗼𝘂 𝗰𝗮𝗻 𝗱𝗼 𝘁𝗼 𝗴𝗲𝘁 𝗺𝗼𝗿𝗲 𝗼𝘂𝘁 𝗼𝗳 𝗶𝘁. We classify agents into four levels. L1 does the work for you. L2 gets better on its own across sessions. L3 applies the judgment you’ve encoded, even when you are not actively supervising it. L4 improves the users' judgment, not just their output. Hermes + skills is already a strong L3 stack: persistent memory, reusable skills, and a layer for carrying identity and preferences across sessions. But it's still L3, and L3 has its drawbacks. 𝗧𝗵𝗲 𝗯𝗶𝗴𝗴𝗲𝘀𝘁 𝗱𝗿𝗮𝘄𝗯𝗮𝗰𝗸 𝗼𝗳 𝗟𝟯 𝗮𝗴𝗲𝗻𝘁𝘀 𝗶𝘀 𝘁𝗵𝗮𝘁 𝘆𝗼𝘂𝗿 𝗯𝗿𝗮𝗶𝗻 𝗰𝗮𝗽𝘀 𝘁𝗵𝗲𝗶𝗿 𝗽𝗼𝘁𝗲𝗻𝘁𝗶𝗮𝗹. They can run many tasks in parallel, but you can't review them that way. Switching between sessions to check each one costs real cognitive...",
+          "summaryZh": "Milvus 用 **L1-L4 四级框架**解释智能体能力边界：**L1** 只执行任务，**L2** 能跨会话自我改进，**L3** 会按用户预先注入的判断标准持续工作，**L4** 则要反过来提升用户本人的判断力。文中认为 **Hermes + skills** 已具备**持久记忆、可复用技能、身份与偏好继承**等典型 **L3** 特征，但瓶颈仍在人的注意力和规则更新频率上，核心问题是怎样把人的判断前置给智能体，而不是靠频繁切会话人工兜底。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 43.89532413241739
+        },
+        {
+          "title": "x1xhlol/system-prompts-and-models-of-ai-tools",
+          "titleZh": "system-prompts-and-models-of-ai-tools：收录多款 AI 工具系统提示词与模型线索",
+          "link": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+          "publishedAt": "2026-06-09T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Sponsor Star x1xhlol / system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://camo.githubusercontent.com/9f485ed81b5b953691f197f5b0b2f2dbb0e28c5e0be112e14a28c20dc74b71c3/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d783178686c6f6c2f73797374656d2d70726f6d7074732d616e642d6d6f64656c732d6f662d61692d746f6f6c7326747970653d44617465",
+          "video": "",
+          "summary": "Sponsor Star x1xhlol / system-prompts-and-models-of-ai-tools FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+          "summaryZh": "这个仓库把 **Augment Code、Claude Code、Cursor、Devin、Lovable、Manus、Replit、Windsurf、v0** 等一批热门 AI 工具涉及的**系统提示词、内部工具线索和模型信息**集中整理到一起，目标是为研究 AI 编码产品行为、提示词设计和能力边界提供可检索的资料库。它的价值不在单一功能，而在于把分散在不同产品里的提示词与实现痕迹做成统一索引，方便开发者横向比较不同 AI 助手的产品策略与交互约束。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "模型",
+            "智能体",
+            "开源"
+          ],
+          "score": 36
+        },
+        {
+          "title": "yikart/AiToEarn",
+          "titleZh": "yikart/AiToEarn：Aitoearn：OPC（一人公司）的AI内容营销智能体",
+          "link": "https://github.com/yikart/AiToEarn",
+          "publishedAt": "2026-06-09T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Aitoearn：OPC（一人公司）的AI内容营销智能体 简体中文 | English | 日本語 Monetize · Publish · Engage · Create —— 一站式平台。 AiToEarn 通过 AI Agent自动化 ，帮助 OPC（一人公司）、创作者、品牌与企业在全球主流平台上构建、分发并变现内容。 支持渠道： 抖音、小红书（Rednote）、快手、哔哩哔哩、视频号、TikTok、YouTube、Facebook、Instagram、Threads、Twitter（X）、Pinterest、LinkedIn 🚀 快速使用 AiToEarn（5 种方式） 方式 适合谁 需要部署吗 ① 打开网站直接用 所有用户 ❌ 不需要 ② 在龙虾 OpenClaw 中用 龙虾用户 ❌ 不需要 ③ 在 Claude / Cursor 等 AI 助手中用 AI 工具用户 ❌ 不需要 ④ Docker 一键部署 想私有化部署的团队 ✅ 需要服务器 ⑤ 源码开发 开发者 ✅ 需要开发环境 💡 方式 ②③④ 都需要先获取 API Key ，请先看 如何获取 API Key 。 最新动态 2026-05-21 : 2.4 ",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/yikart/AiToEarn/raw/main/presentation/engage-thumbnail-cn.png",
+          "video": "",
+          "summary": "Aitoearn：OPC（一人公司）的AI内容营销智能体 简体中文 | English | 日本語 Monetize · Publish · Engage · Create —— 一站式平台。 AiToEarn 通过 AI Agent自动化 ，帮助 OPC（一人公司）、创作者、品牌与企业在全球主流平台上构建、分发并变现内容。 支持渠道： 抖音、小红书（Rednote）、快手、哔哩哔哩、视频号、TikTok、YouTube、Facebook、Instagram、Threads、Twitter（X）、Pinterest、LinkedIn 🚀 快速使用 AiToEarn（5 种方式） 方式 适合谁 需要部署吗 ① 打开网站直接用 所有用户 ❌ 不需要 ② 在龙虾 OpenClaw 中用 龙虾用户 ❌ 不需要 ③ 在 Claude / Cursor 等 AI 助手中用 AI 工具用户 ❌ 不需要 ④ Docker 一键部署 想私有化部署的团队 ✅ 需要服务器 ⑤ 源码开发 开发者 ✅ 需要开发环境 💡 方式 ②③④ 都需要先获取 API Key ，请先看 如何获取 API Key 。 最新动态 2026-05-21 : 2.4 ",
+          "summaryZh": "Aitoearn：OPC（一人公司）的AI内容营销智能体 简体中文 | English | 日本語 Monetize · Publish · Engage · Create —— 一站式平台。 AiToEarn 通过 AI Agent自动化，帮助 OPC（一人公司）、创作者、品牌与企业在全球主流平台上构建、分发并变现内容。 支持渠道： 抖音、小红书（Rednote）、快手、哔哩哔哩、视频号、TikTok、YouTube、Facebook、Instagram、Threads、Twitter（X）、Pinterest、LinkedIn \ude80 快速使用 AiToEarn（5 种方式） 方式 适合谁 需要部署吗 ① 打开网站直接用 所有用户 ❌ 不需要 ② 在龙虾 OpenClaw 中用 龙虾用户 ❌ 不需要 ③ 在 Claude / Cursor 等 AI 助手中用 AI 工具用户 ❌ 不需要 ④ Docker 一键部署 想私有化部署的团队 ✅ 需要服务器 ⑤ 源码开发 开发者 ✅ 需要开发环境 \udca1 方式 ②③④ 都需要先获取 API Key，请先看 如何获取 API Key。 最新动态 2026-05-21 : 2.4",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        },
+        {
+          "title": "From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI",
+          "titleZh": "从一次性提示到工作流程：如何在 GitHub Copilot CLI 中使用自定义代理",
+          "link": "https://github.blog/ai-and-ml/github-copilot/from-one-off-prompts-to-workflows-how-to-use-custom-agents-in-github-copilot-cli/",
+          "publishedAt": "Tue, 09 Jun 2026 16:00:00 +0000",
+          "source": "The GitHub Blog",
+          "sourceType": "open_source",
+          "description": "Custom agents let GitHub Copilot CLI understand your stack and team workflows, turning one-off terminal prompts into repeatable, reviewable processes. The post From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI appeared first on The GitHub Blog .",
+          "section": "open_source_top",
+          "channel": "open_source",
+          "trust": "expert",
+          "image": "https://github.blog/wp-content/uploads/2026/01/CLIBanner_BlogHeader_01.jpg?fit=2400%2C1260",
+          "video": "",
+          "summary": "Custom agents let GitHub Copilot CLI understand your stack and team workflows, turning one-off terminal prompts into repeatable, reviewable processes. The post From one-off prompts to workflows: How to use custom agents in GitHub Copilot CLI appeared first on The GitHub Blog .",
+          "summaryZh": "自定义代理让 GitHub Copilot CLI 了解您的堆栈和团队工作流程，将一次性终端提示转变为可重复、可审查的流程。从一次性提示到工作流程：如何在 GitHub Copilot CLI 中使用自定义代理一文首先出现在 GitHub 博客 上。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体",
+            "开源"
+          ],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Want a closer look at today’s launch? Here is a breakdown of what’s new and exciting 🧵: First up: ...",
+          "titleZh": "想仔细看看今天的发布吗。以下是新的和令人兴奋的内容的细分：首先：升级的、更周到的聊天体验",
+          "link": "https://x.com/NotebookLM/status/2064084153533165588",
+          "publishedAt": "Mon, 08 Jun 2026 20:36:25 GMT",
+          "source": "NotebookLM(@NotebookLM)",
+          "sourceType": "social",
+          "description": "Want a closer look at today’s launch? Here is a breakdown of what’s new and exciting 🧵: First up: An upgraded, more thoughtful chat experience. Powered by Gemini 3.5 and @Antigravity , you will now have better visibility into the AI's thinking process. Plus, each notebook has a secure cloud computer including 100+ curated software skills, unlocking deeper research and more complex analysis. Your browser does not support the video tag. 🔗 View on Twitter 💬 49 🔄 220 ❤️ 1784 👀 174240 📊 377 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-10-2064084153533165588.mp4",
+          "summary": "Want a closer look at today’s launch? Here is a breakdown of what’s new and exciting 🧵: First up: An upgraded, more thoughtful chat experience. Powered by Gemini 3.5 and @Antigravity , you will now have better visibility into the AI's thinking process. Plus, each notebook has a secure cloud computer including 100+ curated software skills, unlocking deeper research and more complex analysis. Your browser does not support the video tag. 🔗 View on Twitter 💬 49 🔄 220 ❤️ 1784 👀 174240 📊 377 ⚡ Powered by xgo.ing",
+          "summaryZh": "想仔细看看今天的发布吗？以下是新的和令人兴奋的内容的细分：首先：升级的、更周到的聊天体验。在 Gemini 3.5 和 @Antigravity 的支持下，您现在可以更好地了解人工智能的思维过程。此外，每台笔记本电脑均配有安全的云计算机，其中包括 100 多种精选软件技能，可进行更深入的研究和更复杂的分析。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "视频"
+          ],
+          "score": 74
+        },
+        {
+          "title": "Claude Fable 5 is now available in Devin. Fable 5 earns the #1 spot on FrontierCode, our benchmark ...",
+          "titleZh": "《Claude寓言 5》现已在德文发售",
+          "link": "https://x.com/cognition/status/2064398549073453266",
+          "publishedAt": "Tue, 09 Jun 2026 17:25:43 GMT",
+          "source": "Cognition(@cognition_labs)",
+          "sourceType": "social",
+          "description": "Claude Fable 5 is now available in Devin. Fable 5 earns the #1 spot on FrontierCode, our benchmark for real-world engineering tasks that grades mergeability and quality: 💬 38 🔄 97 ❤️ 1225 👀 112355 📊 188 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKY09uxaYAALXS9.jpg",
+          "video": "",
+          "summary": "Claude Fable 5 is now available in Devin. Fable 5 earns the #1 spot on FrontierCode, our benchmark for real-world engineering tasks that grades mergeability and quality: 💬 38 🔄 97 ❤️ 1225 👀 112355 📊 188 ⚡ Powered by xgo.ing",
+          "summaryZh": "《Claude寓言 5》现已在德文发售。 《神鬼寓言 5》在 FrontierCode 上排名第一，FrontierCode 是我们对可合并性和质量进行评分的现实工程任务基准：。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "评测"
+          ],
+          "score": 70
+        },
+        {
+          "title": "Releasing a model this capable comes with risks. Without safeguards, Fable 5’s capabilities in areas...",
+          "titleZh": "Claude：发布具有这种功能的模型会带来风险",
+          "link": "https://x.com/claudeai/status/2064394155258765783",
+          "publishedAt": "Tue, 09 Jun 2026 17:08:15 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "description": "Releasing a model this capable comes with risks. Without safeguards, Fable 5’s capabilities in areas like cybersecurity could be misused to cause serious damage. Queries on a narrow range of topics will instead receive a response from our next-most-capable model, Opus 4.8. Your browser does not support the video tag. 🔗 View on Twitter 💬 129 🔄 347 ❤️ 6419 👀 878192 📊 780 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Releasing a model this capable comes with risks. Without safeguards, Fable 5’s capabilities in areas like cybersecurity could be misused to cause serious damage. Queries on a narrow range of topics will instead receive a response from our next-most-capable model, Opus 4.8. Your browser does not support the video tag. 🔗 View on Twitter 💬 129 🔄 347 ❤️ 6419 👀 878192 📊 780 ⚡ Powered by xgo.ing",
+          "summaryZh": "发布具有这种功能的模型会带来风险。如果没有保障措施，《神鬼寓言 5》在网络安全等领域的功能可能会被滥用，造成严重损害。对较小范围主题的查询将收到来自我们功能第二强大的模型 Opus 4.8 的响应。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 65
+        },
+        {
+          "title": "Fable 5 is state-of-the-art on nearly all tested benchmarks, with exceptional performance in softwar...",
+          "titleZh": "Claude：《神鬼寓言 5》在几乎所有测试基准上都是最先进的，在软件工程、知识工作、科学研究和视觉方",
+          "link": "https://x.com/claudeai/status/2064394151441863006",
+          "publishedAt": "Tue, 09 Jun 2026 17:08:14 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "description": "Fable 5 is state-of-the-art on nearly all tested benchmarks, with exceptional performance in software engineering, knowledge work, scientific research, and vision. The longer and more complex the task, the larger Fable 5’s lead over our other models. 💬 419 🔄 1481 ❤️ 12768 👀 3249382 📊 2058 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKYwNlEWMAAJanX.png",
+          "video": "",
+          "summary": "Fable 5 is state-of-the-art on nearly all tested benchmarks, with exceptional performance in software engineering, knowledge work, scientific research, and vision. The longer and more complex the task, the larger Fable 5’s lead over our other models. 💬 419 🔄 1481 ❤️ 12768 👀 3249382 📊 2058 ⚡ Powered by xgo.ing",
+          "summaryZh": "《神鬼寓言 5》在几乎所有测试基准上都是最先进的，在软件工程、知识工作、科学研究和视觉方面具有卓越的表现。任务越长、越复杂，《神鬼寓言 5》相对于我们其他模型的领先优势就越大。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "评测"
+          ],
+          "score": 65
+        },
+        {
+          "title": "23,000+ ChinaRxiv papers are now freely available with more complete English translations after one ...",
+          "titleZh": "OpenAI：23,000 多篇 ChinaRxiv 论文现已免费提供，经过一次",
+          "link": "https://x.com/OpenAIDevs/status/2064346891673059484",
+          "publishedAt": "Tue, 09 Jun 2026 14:00:27 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "23,000+ ChinaRxiv papers are now freely available with more complete English translations after one developer replaced a complex OCR pipeline with GPT‑5.5. x.com/seconds_0/stat… 0.005 Seconds (3/694) @seconds_0 x.com/i/article/2059… 🔗 View Quoted Tweet 💬 32 🔄 60 ❤️ 772 👀 119942 📊 137 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "23,000+ ChinaRxiv papers are now freely available with more complete English translations after one developer replaced a complex OCR pipeline with GPT‑5.5. x.com/seconds_0/stat… 0.005 Seconds (3/694) @seconds_0 x.com/i/article/2059… 🔗 View Quoted Tweet 💬 32 🔄 60 ❤️ 772 👀 119942 📊 137 ⚡ Powered by xgo.ing",
+          "summaryZh": "**核心结论** 「23,000 多篇 ChinaRxiv 论文现已免费提供，经过一次」要解决的问题是：在一位开发人员用 GPT-5.5 取代了复杂的 OCR 管道后，现在可以免费获取 23,000 多篇 ChinaRxiv 论文，并提供更完整的英文翻译。x.com/seconds_0/stat… 0.005 秒 (3/694) x.com/i/article/2059… 查看引用的推文。 **支撑证据** 摘要与公开信息显示：在一位开发人员用 GPT-5.5 取代了复杂的 OCR 管道后，现在可以免费获取 23,000 多篇 ChinaRxiv 论文，并提供更完整的英文翻译。 x.com/seconds_0/stat... 0.005 秒 (3/694) x.com/i/article/2059... 查看引用的推文 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "论文",
+            "开发者工具"
+          ],
+          "score": 64
+        },
+        {
+          "title": "Claude Fable 5 is now available in Devin Desktop and CLI!",
+          "titleZh": "《Claude寓言 5》现已在 Devin 桌面和 CLI 中提供！",
+          "link": "https://x.com/devindesktop/status/2064398778355036392",
+          "publishedAt": "Tue, 09 Jun 2026 17:26:38 GMT",
+          "source": "Windsurf(@windsurf_ai)",
+          "sourceType": "social",
+          "description": "Claude Fable 5 is now available in Devin Desktop and CLI! Cognition @cognition Claude Fable 5 is now available in Devin. Fable 5 earns the #1 spot on FrontierCode, our benchmark for real-world engineering tasks that grades mergeability and quality: 🔗 View Quoted Tweet 💬 9 🔄 12 ❤️ 128 👀 11323 📊 22 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKY09uxaYAALXS9.jpg",
+          "video": "",
+          "summary": "Claude Fable 5 is now available in Devin Desktop and CLI! Cognition @cognition Claude Fable 5 is now available in Devin. Fable 5 earns the #1 spot on FrontierCode, our benchmark for real-world engineering tasks that grades mergeability and quality: 🔗 View Quoted Tweet 💬 9 🔄 12 ❤️ 128 👀 11323 📊 22 ⚡ Powered by xgo.ing",
+          "summaryZh": "《Claude寓言 5》现已在 Devin 桌面和 CLI 中提供！ Cognition Claude Fable 5 现已在 Devin 中提供。 《神鬼寓言 5》在 FrontierCode 上获得第一名，FrontierCode 是我们对可合并性和质量进行评级的现实工程任务基准：查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "评测"
+          ],
+          "score": 63.75124533685027
+        },
+        {
+          "title": "Small: 30 billion parameters, 3B active. Efficient: Benchmarks to 33.4 on the Artificial Analysis C...",
+          "titleZh": "小：300亿个参数，3B活跃。高效：人工分析 C 的 33.4 基准",
+          "link": "https://x.com/cohere/status/2064378689349968224",
+          "publishedAt": "Tue, 09 Jun 2026 16:06:48 GMT",
+          "source": "cohere(@cohere)",
+          "sourceType": "social",
+          "description": "Small: 30 billion parameters, 3B active. Efficient: Benchmarks to 33.4 on the Artificial Analysis Coding Index, competitive among similar sized models. Open Source: Apache 2.0 license so developers can experiment, test, and build their way. Learn more: cohere.com/blog/north-min… 💬 4 🔄 11 ❤️ 168 👀 25673 📊 31 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Small: 30 billion parameters, 3B active. Efficient: Benchmarks to 33.4 on the Artificial Analysis Coding Index, competitive among similar sized models. Open Source: Apache 2.0 license so developers can experiment, test, and build their way. Learn more: cohere.com/blog/north-min… 💬 4 🔄 11 ❤️ 168 👀 25673 📊 31 ⚡ Powered by xgo.ing",
+          "summaryZh": "小：300亿个参数，3B活跃。高效：人工分析编码指数基准达到 33.4，在类似大小的模型中具有竞争力。开源：Apache 2.0 许可证，以便开发人员可以按照自己的方式进行试验、测试和构建。了解更多：cohere.com/blog/north-min…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "评测",
+            "开源",
+            "开发者工具"
+          ],
+          "score": 63.38311962018733
+        },
+        {
+          "title": "This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but with ad...",
+          "titleZh": "这是一个超级令人兴奋的版本 - Claude Fable 5 与 Mythos 具有相同的底层模型，但增加了保障措施",
+          "link": "https://x.com/karpathy/status/2064409694761054332",
+          "publishedAt": "Tue, 09 Jun 2026 18:10:00 GMT",
+          "source": "Andrej Karpathy(@karpathy)",
+          "sourceType": "social",
+          "description": "This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but with added safeguards. The benchmarks are great and it's SOTA on everything by a margin but I'll add that *qualitatively* also, this is a major-version-bump-deserving step change forward (imo of the same order as Claude 4.5 was in November), peaking especially for long problem-solving sessions on very difficult problems. You can give it a lot more ambitious tasks than what you're used to, the model \"gets it\" and it will just go, and it's never felt this tempting to stop looking at the code at all (but don't do this in prod!). The model still has quirks that people will run into and the safeguards are configured to be a little too trigger happy for launch, which can hopefully be tuned over time. I feel a lot of things changing as working software increasingly comes out on a tap. The Jevon's paradox kicks in and I feel my own demand for software growing substantially. You can ask for anything - explainers, visualizers, dashboards, bespoke single-use apps (e.g. a full wandb that is hyper-specific just for your project), you can 10X your test suite, auto-optimize code, run giant research projects with custom HTML for the results, anything! \"Free your mind\" (Matrix ref). Really looking forward to all the things people build! Claude @claudeai Fable 5 is state-of-the-art on nearly all tested benchmarks, with exceptional performance in software engineering, knowledge work, scientific research, and vision. The longer and more complex the task, the larger Fable 5’s lead over our other models. 🔗 View Quoted Tweet 💬 777 🔄 1509 ❤️ 16735 👀 1257787 📊 2136 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKYwNlEWMAAJanX.png",
+          "video": "",
+          "summary": "This is a super exciting release - Claude Fable 5 is the same underlying model as Mythos but with added safeguards. The benchmarks are great and it's SOTA on everything by a margin but I'll add that *qualitatively* also, this is a major-version-bump-deserving step change forward (imo of the same order as Claude 4.5 was in November), peaking especially for long problem-solving sessions on very difficult problems. You can give it a lot more ambitious tasks than what you're used to, the model \"gets it\" and it will...",
+          "summaryZh": "这是一个超级令人兴奋的版本 - Claude Fable 5 与 Mythos 具有相同的底层模型，但增加了保障措施。基准测试很棒，而且在所有方面都处于 SOTA 水平，但我还要补充一点，“定性地”，这是一个值得重大版本突破的进步（我认为与 11 月的 Claude 4.5 的顺序相同），尤其是在解决非常困难的问题的长时间问题解决会议上达到顶峰。你可以给它比你习惯的任务更雄心勃勃的任务，模型“明白了”，它会......",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "评测"
+          ],
+          "score": 63
+        },
+        {
+          "title": "New Science Blog: Why has AI advanced faster in coding than in biology? To agents, bio databases a...",
+          "titleZh": "新科学博客：为什么人工智能在编码方面比在生物学方面进步得更快",
+          "link": "https://x.com/AnthropicAI/status/2064054837294354677",
+          "publishedAt": "Mon, 08 Jun 2026 18:39:56 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "description": "New Science Blog: Why has AI advanced faster in coding than in biology? To agents, bio databases are like cities built before cars—maddening to drive in because they're designed for different traffic. How do we build infrastructure agents can use? anthropic.com/research/agent… 💬 285 🔄 464 ❤️ 3464 👀 564621 📊 839 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "New Science Blog: Why has AI advanced faster in coding than in biology? To agents, bio databases are like cities built before cars—maddening to drive in because they're designed for different traffic. How do we build infrastructure agents can use? anthropic.com/research/agent… 💬 285 🔄 464 ❤️ 3464 👀 564621 📊 839 ⚡ Powered by xgo.ing",
+          "summaryZh": "新科学博客：为什么人工智能在编码方面比在生物学方面进步得更快？对于特工来说，生物数据库就像在汽车出现之前建造的城市一样——开车进去会让人发疯，因为它们是为不同的交通而设计的。我们如何构建代理可以使用的基础设施？ anthropic.com/research/agent…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 62
+        },
+        {
+          "title": "Hyperframes is now an official @claudeai connector LLM answers are often dense pages of text that g...",
+          "titleZh": "Hyperframes 现在是 连接器的官方 LLM 答案通常是密集的文本页面，我们与 anthropic 合作来解决这个问题， 作为 mcp 运行，您的工作文",
+          "link": "https://x.com/HeyGen/status/2064385555480326405",
+          "publishedAt": "Tue, 09 Jun 2026 16:34:05 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "description": "Hyperframes is now an official @claudeai connector LLM answers are often dense pages of text that go unread we partnered with anthropic to fix that, @HyperFrames_ runs as an mcp where you work docs get skimmed. video gets understood proof: this video was made with Hyperframes Your browser does not support the video tag. 🔗 View on Twitter 💬 118 🔄 107 ❤️ 383 👀 315580 📊 222 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-10-2064385555480326405.mp4",
+          "summary": "Hyperframes is now an official @claudeai connector LLM answers are often dense pages of text that go unread we partnered with anthropic to fix that, @HyperFrames_ runs as an mcp where you work docs get skimmed. video gets understood proof: this video was made with Hyperframes Your browser does not support the video tag. 🔗 View on Twitter 💬 118 🔄 107 ❤️ 383 👀 315580 📊 222 ⚡ Powered by xgo.ing",
+          "summaryZh": "Hyperframes 现在是 连接器的官方 LLM 答案通常是密集的文本页面，我们与 anthropic 合作来解决这个问题， 作为 mcp 运行，您的工作文档会被略读。视频得到理解证明：该视频是使用 Hyperframes 118 107 383 315580 222 制作的",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "EP127 从 Skills 到自动化工作流，论 Agent 如何接管真实生产力 ⚙️",
+          "titleZh": "EP127 从 Skills 到自动化工作流，论 Agent 如何接管真实生产力 ⚙",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a281b8434bdac55b506eb7b",
+          "publishedAt": "2026-06-09T14:02:10.100Z",
+          "source": "硬地骇客",
+          "sourceType": "podcast",
+          "description": "听《硬地骇客》上小宇宙。 来自三位拥有10年+互联网创业者的深度思考和对话，我们关注前沿科技，分享创业故事，打造 “超级个体”，寻找利基市场，构建小而美的生意，同时也希望和广大 Hacker 一起探讨技术、产品和商业之美。 硬地骇客是一群追求自由充实的生活并喜欢挑战的 Builder，他们热爱技术，热爱构建产品，崇尚依靠产品驱动的增长方式构建出自己的小生意。 \"每个人都值得拥有一个小生意” 本节目可以在Podwise.ai、小宇宙、YouTube、Apple podcast、Spotify、喜马拉雅FM、QQ音乐、网易云音乐同步收听。 官网：https://hardhacker.com/ 智能播客平台：https://podwise.ai Discord 社区：https://discord.com/invite/MGmp9QjfkK 用爱发电不用容易，欢迎到爱发电请我们喝☕️https://afdian.net/a/hardhacker",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FuH2kr-H-doEWzfo0ICiKgb6e_8F.png",
+          "video": "",
+          "summary": "听《硬地骇客》上小宇宙。 来自三位拥有10年+互联网创业者的深度思考和对话，我们关注前沿科技，分享创业故事，打造 “超级个体”，寻找利基市场，构建小而美的生意，同时也希望和广大 Hacker 一起探讨技术、产品和商业之美。 硬地骇客是一群追求自由充实的生活并喜欢挑战的 Builder，他们热爱技术，热爱构建产品，崇尚依靠产品驱动的增长方式构建出自己的小生意。 \"每个人都值得拥有一个小生意” 本节目可以在Podwise.ai、小宇宙、YouTube、Apple podcast、Spotify、喜马拉雅FM、QQ音乐、网易云音乐同步收听。 官网：https://hardhacker.com/ 智能播客平台：https://podwise.ai Discord 社区：https://discord.com/invite/MGmp9QjfkK 用爱发电不用容易，欢迎到爱发电请我们喝☕️https://afdian.net/a/hardhacker",
+          "summaryZh": "**讲了什么**：这一期来自 **硬地骇客**，主题是「EP127 从 Skills 到自动化工作流，论 Agent 如何接管真实生产力 ⚙」。从 Claude Code、Codex 到 OpenClaw，哪些 Skills 真正改变了工作流？为什么越来越多人开始不看代码，只看结果？GrillMe、TDD、Playwright、Computer Use 等热门 Skills 到底解决了什么问题？以及在 Coding 之外，知识管理、投资研究、邮件处理等场景里，Skills 又能带来哪些意想不到的价值。如果你正在思考如何让 Agent 真正成为自己的数字分身，这期节目或许会给你不少启发。本shownotes由 castwise.ai 制作 Podwise - Podcast Knowledge at 10x Speed! **简介要点**： - 以及在 Coding 之外，知识管理、投资研究、邮件处理等场景里，Skills 又能带来哪些意想不到的价值。 - 如果你正在思考如何让 Agent 真正成为自己的数字分身，这期节目或许会给你不少启发。 - 本shownotes由 castwise.ai 制作 Podwise - Podcast Knowledge at 10x Speed!",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "智能体"
+          ],
+          "score": null
+        },
+        {
+          "title": "用 AI 做会议纪要，是 AI 转型中最荒谬的事儿",
+          "titleZh": "用 AI 做会议纪要，是 AI 转型中最荒谬的事儿",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a26b614a1049eb63a9b23e2",
+          "publishedAt": "2026-06-08T12:29:00.000Z",
+          "source": "AI炼金术",
+          "sourceType": "podcast",
+          "description": "「 不是每个人拿到了一份用 AI 做的会议纪要，这就叫 AI 化了。整个组织共享了一个被持续维护的事实库，不需要人类去看单独的会议纪要，这才是 AI 化。 」 这是这一期单口的题眼。 —— 你全公司都在用 AI 写会议纪要、写代码、做 PPT，每个人都快了好几倍——可一年下来，组织整体好像没提效。 任鑫这期给了一个扎心的判断： 用 AI 做会议纪要，本身就是一件很荒谬的事 。它只是把「抄写员」变快了，而组织真正的卡点从来不在任务层，在部门与部门之间的协调层。 为了把这件事讲透，他翻出一段波音造飞机的历史段子：1985 年的波音工程师明明用上了 CAD，却把图纸打印出来开会，结果一扇舱门改了上万次。 今天的会议室，其实还很像那个工程间。 亮点 「 用 AI 做会议纪要，就像把 CAD 图打印出来开会 」 任鑫开篇就抛了个荒诞的画面：设计师用 CAD 把桌子椅子杯子设计好了，不把电子文档发给你，而是打印成一张纸，开个会用嘴跟你讲「你看这杯子好不好」，你说好，就拿着这张纸回去照着上生产线。「你会不会觉得这人神经病？」在别的领域我们一眼看出荒谬，可换成会议纪要就习以为常了——我们讨论的本该是「数字世界里那个东西」，结果却在用嘴和脑子",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9mNTFhLWF1ZGlvZnJlZWhpZ2hxcHMvQjkvNzAvR01Db09TSUh2N0JGQUFWZ1B3SDNSN2VoLmpwZWc=.jpeg",
+          "video": "",
+          "summary": "「 不是每个人拿到了一份用 AI 做的会议纪要，这就叫 AI 化了。整个组织共享了一个被持续维护的事实库，不需要人类去看单独的会议纪要，这才是 AI 化。 」 这是这一期单口的题眼。 —— 你全公司都在用 AI 写会议纪要、写代码、做 PPT，每个人都快了好几倍——可一年下来，组织整体好像没提效。 任鑫这期给了一个扎心的判断： 用 AI 做会议纪要，本身就是一件很荒谬的事 。它只是把「抄写员」变快了，而组织真正的卡点从来不在任务层，在部门与部门之间的协调层。 为了把这件事讲透，他翻出一段波音造飞机的历史段子：1985 年的波音工程师明明用上了 CAD，却把图纸打印出来开会，结果一扇舱门改了上万次。 今天的会议室，其实还很像那个工程间。 亮点 「 用 AI 做会议纪要，就像把 CAD 图打印出来开会 」 任鑫开篇就抛了个荒诞的画面：设计师用 CAD 把桌子椅子杯子设计好了，不把电子文档发给你，而是打印成一张纸，开个会用嘴跟你讲「你看这杯子好不好」，你说好，就拿着这张纸回去照着上生产线。「你会不会觉得这人神经病？」在别的领域我们一眼看出荒谬，可换成会议纪要就习以为常了——我们讨论的本该是「数字世界里那个东西」，结果却在用嘴和脑子",
+          "summaryZh": "**讲了什么**：这一期来自 **AI炼金术**，主题是「用 AI 做会议纪要，是 AI 转型中最荒谬的事儿」。「不是每个人拿到了一份用 AI 做的会议纪要，这就叫 AI 化了。整个组织共享了一个被持续维护的事实库，不需要人类去看单独的会议纪要，这才是 AI 化。」 这是这一期单口的题眼。—— 你全公司都在用 AI 写会议纪要、写代码、做 PPT，每个人都快了好几倍——可一年下来，组织整体好像没提效。任鑫这期给了一个扎心的判断：用 AI 做会议纪要，本身就是一件很荒谬的事。它只是把「抄写员」变快了，而组织真正的卡点从来不在任务层，在部门与部门之间的协调层。为了把这件事讲透，他翻出一段波音造飞机的历史段子：1985 年的波音工程师明明用上了 CAD，却把图纸打印出来开会，结果一扇舱门改了上万次。今天的会议室，其实还很像那个工程间。 **简介要点**： - 「不是每个人拿到了一份用 AI 做的会议纪要，这就叫 AI 化了。 - 整个组织共享了一个被持续维护的事实库，不需要人类去看单独的会议纪要，这才是 AI 化。 - —— 你全公司都在用 AI 写会议纪要、写代码、做 PPT，每个人都快了好几倍——可一年下来，组织整体好像没提效。 - 任鑫这期给了一个扎心的判断：用 AI 做会议纪要，本身就是一件很荒谬的事。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "AI的个人英雄主义时代已经过去 | 姚顺宇 | 从高能物理研究转向AI | 黑盒",
+          "titleZh": "AI的个人英雄主义时代已经过去 | 姚顺宇 | 从高能物理研究转向AI | 黑盒",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a182091ac7bdb080c323829",
+          "publishedAt": "2026-06-07T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「AI的个人英雄主义时代已经过去 | 姚顺宇 | 从高能物理研究转向AI | 黑盒」。5月11日，张小珺发布了对前Anthropic AI研究员、现任DeepMind的研究科学家姚顺宇的四小时专访。在这场访谈，姚顺宇完全颠覆了大众印象中对于传统研究员刻板、内向的印象，反而极其直接坦率，很多观点十分犀利，甚至听上去有些离经叛道。比如他说，自己在这个行业既没有什么导师，又没有什么旧友，所以无需顾忌人情世故，想喷谁喷谁。他说，AI个人英雄主义时代已经过去了，所谓的旧时代英雄在他看来甚至有些愚蠢，现在的AI行业本质是浪推着人走，研究者只是顺应行业趋势的冲浪者，而非创造浪潮的人。他说，如果你觉得哪个老登傻，那你就可以直接说他傻。无所谓的啊。 **简介要点**： - 5月11日，张小珺发布了对前Anthropic AI研究员、现任DeepMind的研究科学家姚顺宇的四小时专访。 - 他说，AI个人英雄主义时代已经过去了，所谓的旧时代英雄在他看来甚至有些愚蠢，现在的AI行业本质是浪推着人走，研究者只是顺应行业趋势的冲浪者，而非创造浪潮的人。 - 他还说，AI研究本身并不需要多高的智商，绝大多数工作本科生就能完成，行业最核心的特质是靠谱、做事细致、对自己的工作负责。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    }
+  ],
+  "summaryBullets": [
+    "**今天，我们发布了 Gemini 3.5 Live Translate**：这是我们用于实时语音到语音翻译的最新音频模型。它支持 70 多种语言，当您开始讲话时，它会立即开始翻译",
+    "**想仔细看看今天的发布吗。以下是新的和令人兴奋的内容的细分：首先：升级**：的、更周到的聊天体验",
+    "**我们一直将由糟糕的记忆系统引起的问题归咎于模型**：将更多聊天记录放入上下文中并不是记忆",
+    "**如果您的照片库不仅仅可以存储图像怎么办**：Vatsala Singh 的这个项目将个人照片集转变为使用 Qdrant 作为检索层的自主 AI 代理",
+    "**'，'。我们将代理分为四个级别**：'，'。我们将代理分为四个级别"
+  ]
+}
