@@ -809,9 +809,9 @@
     }
   ],
   "summaryBullets": [
-    "**将 Ollama 与 的 Hermes Desktop 一起使用**：Hermes Desktop 将相同的代理（其多代理引擎、自我改进技能和消息传递集成）引入",
-    "**OpenAI：对于音乐家和作曲家 来说，Codex 就像工作室助手一**：对于音乐家和作曲家 来说，Codex 就像工作室助手一样。他要求使用 3/4 的钢琴曲目，设定节奏和和声，然后描述演奏应该如何构建",
-    "**详细了解 eToro 的代理商 Tori 如何利用 SpaceXAI**：的模型和实时数据帮助消费者分析市场情绪 x.ai/news/grok-etoro。这更像一条官方/社区",
-    "**详细了解我们与 的合作，打造具有聊天、语音功能的个性化购物助手**：详细了解我们与 合作构建具有聊天、语音和图像模型的个性化购物助手 x.ai/news/grok-gopu。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接"
+    "**Claude 生态继续加码代理工作流**：Claude Managed Agents 开始公开测试定时部署和 Vault 环境变量，Claude Code 的动态工作流转为普遍可用；与此同时，Perplexity 也把 **Claude Fable 5** 作为 Computer 编排模型上线，说明长任务代理正在从演示走向真实工作流。",
+    "**DiffusionGemma 把文本扩散路线重新带回台前**：Google 推出基于 **Apache 2.0** 的实验性开放模型 **DiffusionGemma**，主打每步并行生成 **256 tokens**、在 **单张 H100 达到 1000+ TPS**，并强调代码补全、内联编辑和非线性生成等速度优先场景。",
+    "**开源开发者工具同时补性能与安全**：Cohere 将首个代码模型 **North Mini Code** 完全开源并在 OpenCode 免费提供，Replit 与 Socket 推出 **Package Firewall** 在依赖安装阶段拦截恶意包，v0 则新增 secret 检测并自动转成环境变量，三条信号都在强化 AI 编程工作流的可用性和安全边界。",
+    "**研究与工程讨论都在回到结构化代理**：今天研究前线既有评测多场景智能体的 **T1-Bench**，也有 Weaviate 对 **Engram** 记忆分层的结构化解释；延伸阅读里的播客则讨论知识图谱、本体和长期记忆如何给 Agent 加约束，反映行业开始重视代理系统的组织、隔离与评估。"
   ]
 }
