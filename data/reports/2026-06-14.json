@@ -1,0 +1,861 @@
+{
+  "date": "2026-06-14",
+  "generatedAt": "2026-06-13T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-14",
+  "stats": {
+    "sources": 134,
+    "fetched": 146,
+    "emailCandidates": 0,
+    "selected": 32,
+    "failures": 23
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Add near real-time voice translation to your apps with Gemini 3.5 Live Translate via the Gemini Live...",
+          "titleZh": "通过 Gemini Live API 使用 Gemini 3.5 Live Translate 将近乎实时的语音翻译添加到您的应用中",
+          "link": "https://x.com/googleaidevs/status/2065548876753654106",
+          "publishedAt": "Fri, 12 Jun 2026 21:36:42 GMT",
+          "source": "Google AI Developers(@googleaidevs)",
+          "sourceType": "social",
+          "description": "Add near real-time voice translation to your apps with Gemini 3.5 Live Translate via the Gemini Live API. 🎙️ Watch how the model handles live broadcast ingestion and translation with continuous speech-to-speech streaming (S2ST) and synced transcripts, letting users tune into global radio broadcasts in their native language. Your browser does not support the video tag. 🔗 View on Twitter 💬 11 🔄 29 ❤️ 223 👀 13570 📊 48 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-14-2065548876753654106.mp4",
+          "summary": "Add near real-time voice translation to your apps with Gemini 3.5 Live Translate via the Gemini Live API. 🎙️ Watch how the model handles live broadcast ingestion and translation with continuous speech-to-speech streaming (S2ST) and synced transcripts, letting users tune into global radio broadcasts in their native language. Your browser does not support the video tag. 🔗 View on Twitter 💬 11 🔄 29 ❤️ 223 👀 13570 📊 48 ⚡ Powered by xgo.ing",
+          "summaryZh": "通过 Gemini Live API 使用 Gemini 3.5 Live Translate 将近乎实时的语音翻译添加到您的应用中。 观看该模型如何通过连续语音到语音流 (S2ST) 和同步文字记录来处理实时广播摄取和翻译，让用户以母语收听全球广播。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "语音",
+            "视频"
+          ],
+          "score": 65.63333360456679
+        },
+        {
+          "title": "You can continue to use Command A+ and North Mini Code whether we want you to or not",
+          "titleZh": "无论我们是否愿意，您都可以继续使用 Command A+ 和 North Mini 代码",
+          "link": "https://x.com/cohere/status/2065795514013020211",
+          "publishedAt": "Sat, 13 Jun 2026 13:56:45 GMT",
+          "source": "cohere(@cohere)",
+          "sourceType": "social",
+          "description": "You can continue to use Command A+ and North Mini Code whether we want you to or not ClaudeDevs @ClaudeDevs As a result of a US government directive, we are suspending access to Claude Fable 5 for all users. You can continue to use all other Claude models. Here’s what this means for you: Across Claude products, new sessions will run on your selected default model or Opus 4.8, and existing Fable 5 sessions will end with an error. On the Claude Platform, requests to Fable 5 will also return an error. Please update your integrations to other Claude models. We know this is a disruption to your workflows; we appreciate your patience and support. 🔗 View Quoted Tweet 💬 22 🔄 47 ❤️ 662 👀 50460 📊 76 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "You can continue to use Command A+ and North Mini Code whether we want you to or not ClaudeDevs @ClaudeDevs As a result of a US government directive, we are suspending access to Claude Fable 5 for all users. You can continue to use all other Claude models. Here’s what this means for you: Across Claude products, new sessions will run on your selected default model or Opus 4.8, and existing Fable 5 sessions will end with an error. On the Claude Platform, requests to Fable 5 will also return an error. Please update your integrations to other Claude models. We know this is a disruption to your workflows; we appreciate your patience and support. 🔗 View Quoted Tweet 💬 22 🔄 47 ❤️ 662 👀 50460 📊 76 ⚡ Powered by xgo.ing",
+          "summaryZh": "无论我们是否愿意，您都可以继续使用 Command A+ 和 North Mini Code ClaudeDevs @ClaudeDevs 根据美国政府指令，我们将暂停所有用户对 Claude Fable 5 的访问。您可以继续使用所有其他Claude模型。这对您来说意味着：在 Claude 产品中，新会话将在您选择的默认模型或 Opus 4.8 上运行，而现有的《神鬼寓言 5》会话将以错误结束。在 Claude 平台上，对《神鬼寓言 5》的请求也会返回错误。请更新您与其他 Claude 模型的集成。我们知道这会扰乱您的工作流程；感谢您的耐心和支持。 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 62.06469820359416
+        },
+        {
+          "title": "New video is out! You no longer build one thing at a time on Replit. Run parallel agents to ship a ...",
+          "titleZh": "新视频出炉了。您不再在 Replit 上一次构建一件事",
+          "link": "https://x.com/Replit/status/2065509442070720733",
+          "publishedAt": "Fri, 12 Jun 2026 19:00:00 GMT",
+          "source": "Replit ⠕(@Replit)",
+          "sourceType": "social",
+          "description": "New video is out! You no longer build one thing at a time on Replit. Run parallel agents to ship a website, mobile app, video, and pitch deck from one project, all at once. And you can now add multiple artifacts to projects you already have. Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 8 ❤️ 74 👀 5287 📊 19 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "New video is out! You no longer build one thing at a time on Replit. Run parallel agents to ship a website, mobile app, video, and pitch deck from one project, all at once. And you can now add multiple artifacts to projects you already have. Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 8 ❤️ 74 👀 5287 📊 19 ⚡ Powered by xgo.ing",
+          "summaryZh": "新视频出炉了！您不再在 Replit 上一次构建一件事。运行并行代理，一次性从一个项目交付网站、移动应用、视频和宣传材料。现在，您可以将多个工件添加到已有的项目中。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 56.89675722915377
+        },
+        {
+          "title": "Drop it into what you already use. OpenAI + Anthropic compatible endpoints. Works with Claude Code,...",
+          "titleZh": "Fireworks 上线兼容 OpenAI 与 Anthropic 的 Qwen 3.7 Max 接入端点",
+          "link": "https://x.com/FireworksAI_HQ/status/2065649347044503624",
+          "publishedAt": "Sat, 13 Jun 2026 04:15:56 GMT",
+          "source": "Fireworks AI(@FireworksAI_HQ)",
+          "sourceType": "social",
+          "description": "Drop it into what you already use. OpenAI + Anthropic compatible endpoints. Works with Claude Code, Cursor, LangChain, etc. Run it serverless today, and get in touch if you’re interested in early-access for Qwen 3.7 Max or bespoke workloads. Get started: fireworks.ai/blog/qwen-3p7-… 💬 0 🔄 0 ❤️ 5 👀 778 📊 1 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKqpC81bcAAft6s.jpg",
+          "video": "",
+          "summary": "Drop it into what you already use. OpenAI + Anthropic compatible endpoints. Works with Claude Code, Cursor, LangChain, etc. Run it serverless today, and get in touch if you’re interested in early-access for Qwen 3.7 Max or bespoke workloads. Get started: fireworks.ai/blog/qwen-3p7-… 💬 0 🔄 0 ❤️ 5 👀 778 📊 1 ⚡ Powered by xgo.ing",
+          "summaryZh": "Fireworks 宣布其 **Qwen 3.7 Max** 服务可直接复用现有 **OpenAI** 和 **Anthropic** 兼容接口，已经适配 **Claude Code、Cursor、LangChain** 等常见开发工具链。团队强调该模型现在就能以 **serverless** 方式运行；如果需要更早拿到 **Qwen 3.7 Max** 或定制化工作负载支持，也可以申请早期接入。这意味着已经基于现有兼容接口搭建推理网关或代理框架的团队，迁移接入新模型的门槛会更低。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 51.44991118804342
+        },
+        {
+          "title": "What can you do with the GitHub Copilot app? @kdaigle shares some of his favorite features 🎤",
+          "titleZh": "您可以使用 GitHub Copilot 应用做什么？ @kdaigle 分享了他最喜欢的一些功能",
+          "link": "https://x.com/github/status/2065800244109926909",
+          "publishedAt": "Sat, 13 Jun 2026 14:15:33 GMT",
+          "source": "GitHub(@github)",
+          "sourceType": "social",
+          "description": "What can you do with the GitHub Copilot app? @kdaigle shares some of his favorite features 🎤 Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 9 ❤️ 53 👀 18073 📊 13 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-14-2065800244109926909.mp4",
+          "summary": "What can you do with the GitHub Copilot app? @kdaigle shares some of his favorite features 🎤 Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 9 ❤️ 53 👀 18073 📊 13 ⚡ Powered by xgo.ing",
+          "summaryZh": "您可以使用 GitHub Copilot 应用做什么？ 分享了他最喜欢的一些功能。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "视频"
+          ],
+          "score": 48.218246443200805
+        },
+        {
+          "title": "Try it out yourself. Anyone currently on a paid Copilot plan can use the GitHub Copilot app now. 👇 ...",
+          "titleZh": "自己尝试一下。目前使用付费 Copilot 计划的任何人现在都可以使用 GitHub Copilot 应用。",
+          "link": "https://x.com/github/status/2065800451879047516",
+          "publishedAt": "Sat, 13 Jun 2026 14:16:23 GMT",
+          "source": "GitHub(@github)",
+          "sourceType": "social",
+          "description": "Try it out yourself. Anyone currently on a paid Copilot plan can use the GitHub Copilot app now. 👇 github.com/features/ai/gi… 8 💬 2 🔄 2 ❤️ 7 👀 10450 📊 3 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Try it out yourself. Anyone currently on a paid Copilot plan can use the GitHub Copilot app now. 👇 github.com/features/ai/gi… 8 💬 2 🔄 2 ❤️ 7 👀 10450 📊 3 ⚡ Powered by xgo.ing",
+          "summaryZh": "自己尝试一下。目前使用付费 Copilot 计划的任何人现在都可以使用 GitHub Copilot 应用。 github.com/features/ai/gi。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源"
+          ],
+          "score": 40.07246048373568
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+          "titleZh": "SpatialClaw：重新思考代理空间推理的动作界面",
+          "link": "https://huggingface.co/papers/2606.13673",
+          "publishedAt": "2026-06-13T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Hugging Face Papers 2026-06-14 排名第 4 的论文候选。",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-06-14 排名第 4 的论文候选。",
+          "summaryZh": "**核心结论** 「SpatialClaw：重新思考代理空间推理的动作界面」要解决的问题是：Hugging Face Papers 2026-06-14 排名第 4 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-06-14 排名第 4 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "推理能力",
+            "论文"
+          ],
+          "score": 38
+        },
+        {
+          "title": "WeaveBench: A Long-Horizon, Real-World Benchmark for Computer-Use Agents with Hybrid Interfaces",
+          "titleZh": "WeaveBench：具有混合接口的计算机使用代理的长期现实基准",
+          "link": "https://huggingface.co/papers/2606.09426",
+          "publishedAt": "2026-06-13T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Hugging Face Papers 2026-06-14 排名第 3 的论文候选。",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-06-14 排名第 3 的论文候选。",
+          "summaryZh": "**核心结论** 「WeaveBench：具有混合接口的计算机使用代理的长期现实基准」要解决的问题是：Hugging Face Papers 2026-06-14 排名第 3 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-06-14 排名第 3 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "评测",
+            "论文"
+          ],
+          "score": 37
+        },
+        {
+          "title": "OpenAI WebRTC Audio Session, now with document context",
+          "titleZh": "OpenAI WebRTC 音频会话，现在带有文档上下文",
+          "link": "https://simonwillison.net/2026/Jun/12/openai-webrtc/#atom-everything",
+          "publishedAt": "2026-06-12T23:53:04+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "OpenAI WebRTC Audio Session, now with document context I built the first version of this tool in December 2024 to try out the then-new OpenAI WebRTC API for interacting with their realtime audio models. Last month OpenAI introduced a brand new model to that API called GPT‑Realtime‑2 , which they promoted as \"our first voice model with GPT‑5‑class reasoning\" - with a Sep 30, 2024 knowledge cut-off. I've been waiting for that model to show up in the ChatGPT iPhone app but it still hasn't, so I revisited my old playground. You can now pick the better model, and you can also paste in a big chunk of document context so you can have as audio conversation in your browser about whatever information you think would be useful to explore in a conversational way. Tags: audio , tools , ai , openai , generative-ai , llms , multi-modal-output , webrtc",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://static.simonwillison.net/static/2026/openai-webrtc-document-context-card.jpg",
+          "video": "",
+          "summary": "OpenAI WebRTC Audio Session, now with document context I built the first version of this tool in December 2024 to try out the then-new OpenAI WebRTC API for interacting with their realtime audio models. Last month OpenAI introduced a brand new model to that API called GPT‑Realtime‑2 , which they promoted as \"our first voice model with GPT‑5‑class reasoning\" - with a Sep 30, 2024 knowledge cut-off. I've been waiting for that model to show up in the ChatGPT iPhone app but it still hasn't, so I revisited my old pla...",
+          "summaryZh": "**核心要点** OpenAI WebRTC 音频会话，现在有了文档上下文，我于 2024 年 12 月构建了该工具的第一个版本，以尝试使用当时新的 OpenAI WebRTC API 与其实时音频模型进行交互。上个月，OpenAI 为该 API 引入了一个名为 GPT-Realtime-2 的全新模型，他们将其宣传为“我们的第一个具有 GPT-5 级推理的语音模型” - 知识截止日期为 2024 年 9 月 30 日。我一直在等待该模型出现在 ChatGPT iPhone 应用中，但它仍然没有出现，所以我重新审视了我的旧模型......",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "推理能力",
+            "语音"
+          ],
+          "score": 35
+        },
+        {
+          "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+          "titleZh": "EvoArena：跟踪动态环境中稳健的 LLM 代理的内存演变",
+          "link": "https://huggingface.co/papers/2606.13681",
+          "publishedAt": "2026-06-13T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Hugging Face Papers 2026-06-14 排名第 1 的论文候选。",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-06-14 排名第 1 的论文候选。",
+          "summaryZh": "**核心结论** 「EvoArena：跟踪动态环境中稳健的 LLM 代理的内存演变」要解决的问题是：Hugging Face Papers 2026-06-14 排名第 1 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-06-14 排名第 1 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "论文"
+          ],
+          "score": 35
+        },
+        {
+          "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
+          "titleZh": "InterleaveThinker：强化代理交错生成",
+          "link": "https://huggingface.co/papers/2606.13679",
+          "publishedAt": "2026-06-13T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Hugging Face Papers 2026-06-14 排名第 5 的论文候选。",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-06-14 排名第 5 的论文候选。",
+          "summaryZh": "**核心结论** 「InterleaveThinker：强化代理交错生成」要解决的问题是：Hugging Face Papers 2026-06-14 排名第 5 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-06-14 排名第 5 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "论文"
+          ],
+          "score": 35
+        },
+        {
+          "title": "Building Supercharger: How Rocket Close optimized title operations with agentic AI",
+          "titleZh": "构建超级充电站：Rocket Close 如何利用代理 AI 优化游戏运营",
+          "link": "https://aws.amazon.com/blogs/machine-learning/building-supercharger-how-rocket-close-optimized-title-operations-with-agentic-ai/",
+          "publishedAt": "Fri, 12 Jun 2026 20:43:56 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, we explore how Rocket Close built a solution using Strands Agents, large language models (LLMs), Amazon Bedrock, Amazon Bedrock Knowledge Bases, and Model Context Protocol (MCP) tools. We cover solution features, the rationale for the technology stack, lessons learned, and the business impact at Rocket Close.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/12/20329.png",
+          "video": "",
+          "summary": "In this post, we explore how Rocket Close built a solution using Strands Agents, large language models (LLMs), Amazon Bedrock, Amazon Bedrock Knowledge Bases, and Model Context Protocol (MCP) tools. We cover solution features, the rationale for the technology stack, lessons learned, and the business impact at Rocket Close.",
+          "summaryZh": "**核心要点** 在本文中，我们将探讨 Rocket Close 如何使用 Strands Agent、大语言模型 (LLM)、Amazon Bedrock、Amazon Bedrock 知识库和模型上下文协议 (MCP) 工具构建解决方案。我们将介绍解决方案的功能、技术堆栈的基本原理、经验教训以及 Rocket Close 的业务影响。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
+          "titleZh": "关于美国政府暂停访问《神鬼寓言 5》和《神话 5》的指令的声明",
+          "link": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything",
+          "publishedAt": "2026-06-13T01:01:50+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5 Well this is nuts : The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Anthropic models will not be affected. We received the directive from the government today at 5:21pm (ET). The letter did not provide specific details of its national security concern. Our understanding is that the government believes it has become aware of a method of bypassing, or \"jailbreaking\" Fable 5. We reviewed a demonstration of this specific technique being used to identify a small number of previously known, minor vulnerabilities. These vulnerabilities all appear relatively simple, and we have found that other publicly-available models are able to discover them as well without requiring a bypass. [...] To date, the government has only given us verbal evidence of a potential narrow, non-universal jailbreak, which essentially consists of asking the model to read a specific codebase and fix any software flaws. Our understanding is that one potential jailbreak was shared with the government. We have reviewed the report and validated that the level of capability displayed there is widely available from other models (including OpenAI's GPT-5.5 ), and is used every day by the defenders who keep systems safe. We will share more details over the next 24 hours. I still have access to Fable via claude.ai and Claude Code now, at 9:01pm ET. Update : I ran this script against the Anthropic API to spot when claude-fable-5 would stop working. My access was cut off at 6:59pm Pacific (9:59pm ET): [2026-06-12T18:56:50-07:00] attempt 35: running uv run llm -m claude-fable-5 hi [2026-06-12T18:56:55-07:00] success: Hi there! How can I help you today? [2026-06-12T18:57:55-07:00] attempt 36: running uv run llm -m claude-fable-5 hi [2026-06-12T18:57:59-07:00] success: Hi! How can I help you today? [2026-06-12T18:58:59-07:00] attempt 37: running uv run llm -m claude-fable-5 hi [2026-06-12T18:59:00-07:00] FAILED after attempt 37 with exit code 1 stderr: Error: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'Claude Fable 5 is not available. Please use Opus 4.8. Learn more: https://www.anthropic.com/news/fable-mythos-access'}, 'request_id': 'req_011CbzRyirV7KZLHYYdBM9od'} Via @AnthropicAI Tags: jailbreaking , ai , generative-ai , llms , anthropic , claude , ai-ethics , claude-mythos",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5 Well this is nuts : The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Anthrop...",
+          "summaryZh": "**核心要点** 关于美国政府暂停访问《神鬼寓言 5》和《神话 5》的指令的声明 这太疯狂了：美国政府以国家安全当局为由，发布了一项出口管制指令，暂停任何外国人（无论是在美国境内还是境外）访问《神鬼寓言 5》和《神话 5》，包括外国 Anthropic 员工。该命令的最终影响是，我们必须突然禁用所有客户的《神鬼寓言 5》和《神话 5》，以确保合规性。访问所有其他人类...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API"
+          ],
+          "score": 29
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": ".@Kimi_Moonshot's kimi-k2.7-code is now available on Ollama's cloud! On Ollama's cloud, this model...",
+          "titleZh": "Ollama Cloud 上线开源代码模型 Kimi-K2.7-Code",
+          "link": "https://x.com/ollama/status/2065606720555213310",
+          "publishedAt": "Sat, 13 Jun 2026 01:26:33 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "description": ". @Kimi_Moonshot 's kimi-k2.7-code is now available on Ollama's cloud! On Ollama's cloud, this model is hosted in the US on the latest NVIDIA B300 datacenter GPUs. Your data stays private and is never trained on. ❤️❤️❤️ Try the model: Claude: ollama launch claude --model kimi-k2.7-code:cloud Codex App: ollama launch codex-app --model kimi-k2.7-code:cloud OpenCode ollama launch opencode --model kimi-k2.7-code:cloud See the model page on Ollama 👇👇👇 Kimi.ai @Kimi_Moonshot 🌘 Kimi-K2.7-Code, our latest coding model, is now released and open-sourced! 🔷 Improved coding & agent performance over K2.6: +21.8% on Kimi Code Bench v2, +11.0% on Program Bench, and +31.5% on MLS Bench Lite. 🔷 Reasoning efficiency: Less overthinking, with 30% lower reasoning-token usage compared to K2.6. 🔷 Long-horizon coding: Improved instruction following, higher end-to-end coding task success rates. ⚡️ 6x High-Speed Mode coming soon! 🔌 Available today via Kimi API and Kimi Code. 🔗 Kimi kimi.com/code JKyGCY � platform.moonshot.ai kbOwCN4 🔗 View Quoted Tweet 💬 28 🔄 54 ❤️ 571 👀 49081 📊 83 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKmxoVmagAAJKj8.jpg",
+          "video": "",
+          "summary": ". @Kimi_Moonshot 's kimi-k2.7-code is now available on Ollama's cloud! On Ollama's cloud, this model is hosted in the US on the latest NVIDIA B300 datacenter GPUs. Your data stays private and is never trained on. ❤️❤️❤️ Try the model: Claude: ollama launch claude --model kimi-k2.7-code:cloud Codex App: ollama launch codex-app --model kimi-k2.7-code:cloud OpenCode ollama launch opencode --model kimi-k2.7-code:cloud See the model page on Ollama 👇👇👇 Kimi.ai @Kimi_Moonshot 🌘 Kimi-K2.7-Code, our latest coding model, is now released and open-sourced! 🔷 Improved coding & agent performance over K2.6: +21.8% on Kimi Code Bench v2, +11.0% on Program Bench, and +31.5% on MLS Bench Lite. 🔷 Reasoning efficiency: Less overthinking, with 30% lower reasoning-token usage compared to K2.6. 🔷 Long-horizon coding: Improved instruction following, higher end-to-end coding task success rates. ⚡️ 6x H...",
+          "summaryZh": "Ollama 宣布，开源代码模型 **Kimi-K2.7-Code** 已经接入 **Ollama Cloud**，当前部署在美国最新一代 **NVIDIA B300** 数据中心 GPU 上，平台同时强调用户数据会保持私密，不会被用于后续训练。开发者现在可以在 **Claude、Codex App、OpenCode** 等客户端里直接选择这一云端模型来跑代码生成和代理式开发任务。被引用的 **Kimi** 官方说明还给出了这次开源版本的核心指标：相较 **K2.6**，它在代码评测、程序基准和轻量多步任务上的成绩分别提升 **21.8%**、**11.0%** 和 **31.5%**，推理过程的 token 消耗下降 **30%**，同时强化了长流程编码任务中的指令遵循和端到端成功率。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "推理能力"
+          ],
+          "score": 87.0090908687186
+        },
+        {
+          "title": "Model page: https://t.co/F6fuze7qzM",
+          "titleZh": "模型页面：ollama.com/library/kimi-k",
+          "link": "https://x.com/ollama/status/2065606722178417099",
+          "publishedAt": "Sat, 13 Jun 2026 01:26:34 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "description": "Model page: ollama.com/library/kimi-k… 💬 2 🔄 1 ❤️ 12 👀 5089 📊 4 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Model page: ollama.com/library/kimi-k… 💬 2 🔄 1 ❤️ 12 👀 5089 📊 4 ⚡ Powered by xgo.ing",
+          "summaryZh": "模型页面：ollama.com/library/kimi-k…（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 49.09503132878011
+        },
+        {
+          "title": "kenn-io/agentsview",
+          "titleZh": "kenn-io/agentsview：针对编码代理的本地优先会话智能和分析，支持 C",
+          "link": "https://github.com/kenn-io/agentsview",
+          "publishedAt": "2026-06-13T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star kenn-io / agentsview Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/2e47734f3d7924023d7eb869de019d3a3c930ec6d7ef982a058ccb991d0e7cdf/kenn-io/agentsview",
+          "video": "",
+          "summary": "Star kenn-io / agentsview Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
+          "summaryZh": "针对编码代理的本地优先会话智能和分析，支持 Claude Code、Codex 和 20 多个其他代理。另外：替换 ccusage 的速度加快 100 倍！（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Panniantong/Agent-Reach",
+          "titleZh": "Agent-Reach：一个免 API 费用的全网搜索 CLI，给 AI 代理补上外部感知能力",
+          "link": "https://github.com/Panniantong/Agent-Reach",
+          "publishedAt": "2026-06-13T18:30:00.000Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/c7d42d428b104abaebaf1466eb965806fe6628aee8edb7bb0ce84c1b28461a22/Panniantong/Agent-Reach",
+          "video": "",
+          "summary": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+          "summaryZh": "让您的人工智能代理有一双能够看到整个互联网的眼睛。阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书 — 一个 CLI，零 API 费用。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "API",
+            "智能体",
+            "开源"
+          ],
+          "score": 30
+        },
+        {
+          "title": "andrewyng/aisuite",
+          "titleZh": "andrewyng/aisuite：OpenCoworker 一个基于 aisuite 构建",
+          "link": "https://github.com/andrewyng/aisuite",
+          "publishedAt": "2026-06-13T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "OpenCoworker An AI agent that lives on your desktop, built on aisuite. OpenCoworker is a desktop AI agent that can not only chat, but also do deep research and carry out tasks for you on your computer. It can read files (with permission) to gain context, read/send messages (slack, email, etc.), and create real deliverables like PDF reports, documents, spreadsheets. It also supports scheduled automations, such as providing you a daily news summary. Requires bringing your own API key (OpenAI, Anthropic, Google) or ru",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/ac93a887d334c128cc6d098617da76d944f7288a6612d650c7a309e4d9ea5914/andrewyng/aisuite",
+          "video": "",
+          "summary": "OpenCoworker An AI agent that lives on your desktop, built on aisuite. OpenCoworker is a desktop AI agent that can not only chat, but also do deep research and carry out tasks for you on your computer. It can read files (with permission) to gain context, read/send messages (slack, email, etc.), and create real deliverables like PDF reports, documents, spreadsheets. It also supports scheduled automations, such as providing you a daily news summary. Requires bringing your own API key (OpenAI, Anthropic, Google) or ru",
+          "summaryZh": "OpenCoworker 一个基于 aisuite 构建于桌面上的 AI 代理。 OpenCoworker 是一款桌面 AI 代理，不仅可以聊天，还可以在计算机上为您进行深入研究并执行任务。它可以读取文件（经过许可）以获取上下文、读取/发送消息（slack、电子邮件等），并创建真正的可交付成果，例如 PDF 报告、文档、电子表格。它还支持预定的自动化，例如为您提供每日新闻摘要。需要自带 API 密钥（OpenAI、Anthropic、Google）或 ru",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        },
+        {
+          "title": "How we made GitHub Copilot CLI more selective about delegation",
+          "titleZh": "我们如何使 GitHub Copilot CLI 对委派更具选择性",
+          "link": "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
+          "publishedAt": "Fri, 12 Jun 2026 22:26:23 +0000",
+          "source": "The GitHub Blog",
+          "sourceType": "open_source",
+          "description": "Better orchestration, fewer handoffs, faster progress, without a single new knob. The post How we made GitHub Copilot CLI more selective about delegation appeared first on The GitHub Blog .",
+          "section": "open_source_top",
+          "channel": "open_source",
+          "trust": "expert",
+          "image": "https://github.blog/wp-content/uploads/2026/06/fig1-tool-failures.gif?resize=768%2C432",
+          "video": "",
+          "summary": "Better orchestration, fewer handoffs, faster progress, without a single new knob. The post How we made GitHub Copilot CLI more selective about delegation appeared first on The GitHub Blog .",
+          "summaryZh": "更好的编排、更少的交接、更快的进度，无需任何新的旋钮。我们如何让 GitHub Copilot CLI 对委派更具选择性一文首先出现在 GitHub 博客上。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "开源"
+          ],
+          "score": 24
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Moonshot released K2.7 Code, the latest in their K2 line of coding models, and it's live on Firework...",
+          "titleZh": "Moonshot 发布了 K2.7 代码，这是其 K2 系列编码模型中的最新版本，并于 Fireworks Day 0 上线，基于无服务器和 API",
+          "link": "https://x.com/FireworksAI_HQ/status/2065655065860550723",
+          "publishedAt": "Sat, 13 Jun 2026 04:38:40 GMT",
+          "source": "Fireworks AI(@FireworksAI_HQ)",
+          "sourceType": "social",
+          "description": "Moonshot released K2.7 Code, the latest in their K2 line of coding models, and it's live on Fireworks Day 0, on serverless and the API. It produces roughly 30% fewer reasoning tokens than K2.6 while scoring higher on Moonshot’s coding benchmarks. For agentic coding work, that difference adds up fast. Here’s how ↓ 💬 8 🔄 5 ❤️ 117 👀 6724 📊 24 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKqkeU-aQAAJNxc.jpg",
+          "video": "",
+          "summary": "Moonshot released K2.7 Code, the latest in their K2 line of coding models, and it's live on Fireworks Day 0, on serverless and the API. It produces roughly 30% fewer reasoning tokens than K2.6 while scoring higher on Moonshot’s coding benchmarks. For agentic coding work, that difference adds up fast. Here’s how ↓ 💬 8 🔄 5 ❤️ 117 👀 6724 📊 24 ⚡ Powered by xgo.ing",
+          "summaryZh": "Moonshot 发布了 K2.7 代码，这是其 K2 系列编码模型中的最新版本，并于 Fireworks Day 0 上线，基于无服务器和 API。它产生的推理标记比 K2.6 少大约 30%，同时在 Moonshot 的编码基准上得分更高。对于代理编码工作来说，这种差异会快速增加。具体方法如下↓",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "推理能力"
+          ],
+          "score": 78.53961147244279
+        },
+        {
+          "title": "And it doesn’t stop at answers. Describe what you’re building and the agent will create a custom gu...",
+          "titleZh": "OpenAI：它并不止于答案。描述您正在构建的内容，代理将创建带有定制提示和相关资源的自定义指南",
+          "link": "https://x.com/OpenAIDevs/status/2065507798268674366",
+          "publishedAt": "Fri, 12 Jun 2026 18:53:29 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "And it doesn’t stop at answers. Describe what you’re building and the agent will create a custom guide with a tailored prompt and relevant resources. Open the guide in Codex or copy it as Markdown for your coding agent. Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 13 ❤️ 289 👀 24795 📊 48 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-14-2065507798268674366.mp4",
+          "summary": "And it doesn’t stop at answers. Describe what you’re building and the agent will create a custom guide with a tailored prompt and relevant resources. Open the guide in Codex or copy it as Markdown for your coding agent. Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 13 ❤️ 289 👀 24795 📊 48 ⚡ Powered by xgo.ing",
+          "summaryZh": "它并不止于答案。描述您正在构建的内容，代理将创建带有定制提示和相关资源的自定义指南。在 Codex 中打开指南或将其复制为 Markdown 格式以供您的编码代理使用。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 68.33548049579957
+        },
+        {
+          "title": "Codex is how @ndrewpignanelli at @intelligenceco updates multiple parts of a website in parallel, tu...",
+          "titleZh": "OpenAI：Codex 是 的 如何并行更新网站的多个部分，将一周的工作变成三天的方法",
+          "link": "https://x.com/OpenAIDevs/status/2065517012311593114",
+          "publishedAt": "Fri, 12 Jun 2026 19:30:05 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Codex is how @ndrewpignanelli at @intelligenceco updates multiple parts of a website in parallel, turning a week of work into three days. Your browser does not support the video tag. 🔗 View on Twitter 💬 30 🔄 24 ❤️ 394 👀 59645 📊 91 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-14-2065517012311593114.mp4",
+          "summary": "Codex is how @ndrewpignanelli at @intelligenceco updates multiple parts of a website in parallel, turning a week of work into three days. Your browser does not support the video tag. 🔗 View on Twitter 💬 30 🔄 24 ❤️ 394 👀 59645 📊 91 ⚡ Powered by xgo.ing",
+          "summaryZh": "Codex 是 的 如何并行更新网站的多个部分，将一周的工作变成三天的方法。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 67.83700207995585
+        },
+        {
+          "title": "Ask our developer docs. They’ll show you the way The new docs agent on 🔗https://t.co/G1783HdxH4 he...",
+          "titleZh": "OpenAI：询问我们的开发人员文档。他们将向您展示 Developers.openai.com 4",
+          "link": "https://x.com/OpenAIDevs/status/2065507724704858173",
+          "publishedAt": "Fri, 12 Jun 2026 18:53:11 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Ask our developer docs. They’ll show you the way The new docs agent on � developers.openai.com 4 helps you find answers about OpenAI products and takes you directly to the relevant documentation. Your browser does not support the video tag. 🔗 View on Twitter 💬 48 🔄 54 ❤️ 915 👀 152639 📊 192 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-14-2065507724704858173.mp4",
+          "summary": "Ask our developer docs. They’ll show you the way The new docs agent on � developers.openai.com 4 helps you find answers about OpenAI products and takes you directly to the relevant documentation. Your browser does not support the video tag. 🔗 View on Twitter 💬 48 🔄 54 ❤️ 915 👀 152639 📊 192 ⚡ Powered by xgo.ing",
+          "summaryZh": "询问我们的开发人员文档。他们将向您展示 Developers.openai.com 4 上的新文档代理可以帮助您找到有关 OpenAI 产品的答案，并直接将您带到相关文档。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "开发者工具",
+            "视频"
+          ],
+          "score": 67
+        },
+        {
+          "title": "The US government, citing national security authorities, has issued an export control directive to s...",
+          "titleZh": "美国政府援引国家安全部门的话说，已发布出口管制指令，以保护",
+          "link": "https://x.com/AnthropicAI/status/2065597531644743999",
+          "publishedAt": "Sat, 13 Jun 2026 00:50:03 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "description": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Claude models is not affected. We apologize for this disruption to our customers. We believe this is a misunderstanding and are working to restore access as soon as possible. Read our full statement: anthropic.com/news/fable-myt… 💬 11846 🔄 24808 ❤️ 83771 👀 79673945 📊 30462 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Claude models is not affected. We apologize for this disruption to our customers. We believe this is a misunderstanding and are working to restore access as soon as possible. Read our full statement: anthropic.com/news/fable-myt… 💬 11846 🔄 24808 ❤️ 83771 👀 79673945 📊 30462 ⚡ Powered by xgo.ing",
+          "summaryZh": "美国政府以国家安全部门为由，发布了一项出口管制指令，暂停任何外国人（无论是在美国境内还是境外）访问《神鬼寓言 5》和《神话 5》，包括 Anthropic 的外籍员工。该命令的最终影响是，我们必须突然禁用所有客户的《神鬼寓言 5》和《神话 5》，以确保合规性。对所有其他Claude模型的访问不受影响。对于给客户带来的干扰，我们深表歉意。我们认为这是一个误会，并正在努力尽快恢复访问。阅读我们的完整声明：anthropic.com/news/fable-myt…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 62
+        },
+        {
+          "title": "When you rent your artificial intelligence, you have no control, and no choice. This is why sovereig...",
+          "titleZh": "当你租用人工智能时，你没有控制权，也没有选择",
+          "link": "https://x.com/cohere/status/2065623344381108539",
+          "publishedAt": "Sat, 13 Jun 2026 02:32:37 GMT",
+          "source": "cohere(@cohere)",
+          "sourceType": "social",
+          "description": "When you rent your artificial intelligence, you have no control, and no choice. This is why sovereignty and ownership matters. Whether it means using your own hardware, open source, or deep customization. Own your AI, own your future. 💬 42 🔄 200 ❤️ 1436 👀 108247 📊 233 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "When you rent your artificial intelligence, you have no control, and no choice. This is why sovereignty and ownership matters. Whether it means using your own hardware, open source, or deep customization. Own your AI, own your future. 💬 42 🔄 200 ❤️ 1436 👀 108247 📊 233 ⚡ Powered by xgo.ing",
+          "summaryZh": "当你租用人工智能时，你没有控制权，也没有选择。这就是主权和所有权很重要的原因。无论是使用您自己的硬件、开源还是深度定制。拥有你的人工智能，就拥有你的未来。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开源"
+          ],
+          "score": 62
+        },
+        {
+          "title": "Introducing the Fusion API, the smartest compound model in the market. Fusion achieves Fable-level ...",
+          "titleZh": "隆重推出 Fusion API，这是市场上最智能的复合模型",
+          "link": "https://x.com/OpenRouter/status/2065856853989270011",
+          "publishedAt": "Sat, 13 Jun 2026 18:00:30 GMT",
+          "source": "OpenRouter(@OpenRouterAI)",
+          "sourceType": "social",
+          "description": "Introducing the Fusion API, the smartest compound model in the market. Fusion achieves Fable-level intelligence at half the price. How it works 👇 💬 222 🔄 476 ❤️ 4909 👀 735457 📊 1376 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKthhcmW4AArHeb.jpg",
+          "video": "",
+          "summary": "Introducing the Fusion API, the smartest compound model in the market. Fusion achieves Fable-level intelligence at half the price. How it works 👇 💬 222 🔄 476 ❤️ 4909 👀 735457 📊 1376 ⚡ Powered by xgo.ing",
+          "summaryZh": "隆重推出 Fusion API，这是市场上最智能的复合模型。 Fusion 以一半的价格实现了寓言级别的智能。运作方式。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "API"
+          ],
+          "score": 56
+        },
+        {
+          "title": "ICYMI: Managed Deep Agents integrates with LangSmith Sandboxes. See how you can allow your agent to...",
+          "titleZh": "ICYMI：托管深度代理与 LangSmith 沙箱集成。了解如何允许您的代理人",
+          "link": "https://x.com/LangChain/status/2065524751737532525",
+          "publishedAt": "Fri, 12 Jun 2026 20:00:51 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": "ICYMI: Managed Deep Agents integrates with LangSmith Sandboxes. See how you can allow your agent to safely execute code: langchain.com/blog/introduci… Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 4 ❤️ 28 👀 4689 📊 8 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-14-2065524751737532525.mp4",
+          "summary": "ICYMI: Managed Deep Agents integrates with LangSmith Sandboxes. See how you can allow your agent to safely execute code: langchain.com/blog/introduci… Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 4 ❤️ 28 👀 4689 📊 8 ⚡ Powered by xgo.ing",
+          "summaryZh": "ICYMI：托管深度代理与 LangSmith 沙箱集成。了解如何让您的代理安全地执行代码：langchain.com/blog/introduci。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 54.35635125566845
+        },
+        {
+          "title": "Replit is taking over NYC and we can't wait to see you at #Vibecon. 2 days of art, code and the bigg...",
+          "titleZh": "Replit 即将占领纽约，我们迫不及待地想在 见到您",
+          "link": "https://x.com/Replit/status/2065554739077767224",
+          "publishedAt": "Fri, 12 Jun 2026 22:00:00 GMT",
+          "source": "Replit ⠕(@Replit)",
+          "sourceType": "social",
+          "description": "Replit is taking over NYC and we can't wait to see you at #Vibecon . 2 days of art, code and the biggest tastemakers in culture. Get the details on vibecon.ai @BrandNewSchool Your browser does not support the video tag. 🔗 View on Twitter Your browser does not support the video tag. 🔗 View on Twitter Your browser does not support the video tag. 🔗 View on Twitter 💬 2 🔄 10 ❤️ 77 👀 9999 📊 15 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-14-2065554739077767224.mp4",
+          "summary": "Replit is taking over NYC and we can't wait to see you at #Vibecon . 2 days of art, code and the biggest tastemakers in culture. Get the details on vibecon.ai @BrandNewSchool Your browser does not support the video tag. 🔗 View on Twitter Your browser does not support the video tag. 🔗 View on Twitter Your browser does not support the video tag. 🔗 View on Twitter 💬 2 🔄 10 ❤️ 77 👀 9999 📊 15 ⚡ Powered by xgo.ing",
+          "summaryZh": "Replit 即将占领纽约，我们迫不及待地想在 见到您。为期 2 天的艺术、代码和文化领域最大的时尚引领者。在 vibecon.ai 上获取详细信息。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 54.12828503579803
+        },
+        {
+          "title": "Celebrate the World Cup with HeyGen Put yourself on the roster: your own player card, your highligh...",
+          "titleZh": "与 HeyGen 一起庆祝世界杯 将自己列入名册：您自己的球员卡、您的精彩片段、您的说话头像 选择您的球队并提示您自己参加锦标赛",
+          "link": "https://x.com/HeyGen/status/2065546001188794628",
+          "publishedAt": "Fri, 12 Jun 2026 21:25:17 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "description": "Celebrate the World Cup with HeyGen Put yourself on the roster: your own player card, your highlight reel, your avatar doing the talking Pick your team and prompt yourself into the tournament Your browser does not support the video tag. 🔗 View on Twitter 💬 4 🔄 6 ❤️ 51 👀 4528 📊 11 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-14-2065546001188794628.mp4",
+          "summary": "Celebrate the World Cup with HeyGen Put yourself on the roster: your own player card, your highlight reel, your avatar doing the talking Pick your team and prompt yourself into the tournament Your browser does not support the video tag. 🔗 View on Twitter 💬 4 🔄 6 ❤️ 51 👀 4528 📊 11 ⚡ Powered by xgo.ing",
+          "summaryZh": "与 HeyGen 一起庆祝世界杯 将自己列入名册：您自己的球员卡、您的精彩片段、您的说话头像 选择您的球队并提示您自己参加锦标赛。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 52.73718293992816
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "泡沫的四个必要不充分条件 | 对谈经济学者朱宁教授",
+          "titleZh": "泡沫的四个必要不充分条件 | 对谈经济学者朱宁教授",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a2a808262c3d8534722ac02",
+          "publishedAt": "2026-06-13T13:30:00.000Z",
+          "source": "42章经",
+          "sourceType": "podcast",
+          "description": "听《42章经》上小宇宙。 你好，我是曲凯，42章经的创始人。 小的时候我不太舍得花钱，记得当年一毛钱一袋的牛肉干真的很好吃，但如果偶尔遇到一个很有趣的人，我会欣然花几十、上百块请他吃个饭，还觉得自己赚到了。 后来长大了一些，开始刷人人网、豆瓣、知乎、再到现在的即刻…… 你有没有偶尔在这些平台刷到过一个很有缘的人，然后在一个夏日的午后，把他的发言、转载和收藏全都看了一遍，并觉得心有戚戚焉。 再后来工作和创业以后，每天就是聊各种各样的投资人、创业者。 如果能聊到一个优秀的人，真的会有一种如沐春风的感觉，并真心觉得很幸福。 而同行们见面经常会聊到的问题也是：最近有没有遇到什么有意思的人？ 所以，这个播客就是要努力把这些人带到你的身边。 我们只专注和有趣、有独到认知、又愿意坦诚分享的聪明人聊天。 希望你听完每一期都能回到小时候，回到那个因为认识了有趣的人、收获了新知，而感到单纯美好幸福的时刻。 如果听完以后，你还能暗自感慨一句， “我也好想认识这个人啊。” 或者， “哇靠，有被启发到。” 那这个播客也就值了。",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FiZZKf2-OlC5ZFzM8VLLmtz4P0ie.png",
+          "video": "",
+          "summary": "听《42章经》上小宇宙。 你好，我是曲凯，42章经的创始人。 小的时候我不太舍得花钱，记得当年一毛钱一袋的牛肉干真的很好吃，但如果偶尔遇到一个很有趣的人，我会欣然花几十、上百块请他吃个饭，还觉得自己赚到了。 后来长大了一些，开始刷人人网、豆瓣、知乎、再到现在的即刻…… 你有没有偶尔在这些平台刷到过一个很有缘的人，然后在一个夏日的午后，把他的发言、转载和收藏全都看了一遍，并觉得心有戚戚焉。 再后来工作和创业以后，每天就是聊各种各样的投资人、创业者。 如果能聊到一个优秀的人，真的会有一种如沐春风的感觉，并真心觉得很幸福。 而同行们见面经常会聊到的问题也是：最近有没有遇到什么有意思的人？ 所以，这个播客就是要努力把这些人带到你的身边。 我们只专注和有趣、有独到认知、又愿意坦诚分享的聪明人聊天。 希望你听完每一期都能回到小时候，回到那个因为认识了有趣的人、收获了新知，而感到单纯美好幸福的时刻。 如果听完以后，你还能暗自感慨一句， “我也好想认识这个人啊。” 或者， “哇靠，有被启发到。” 那这个播客也就值了。",
+          "summaryZh": "**讲了什么**：这一期来自 **42章经**，主题是「泡沫的四个必要不充分条件 | 对谈经济学者朱宁教授」。AI 股票还能买吗？这波到底是不是泡沫、和过往有什么不一样、什么时候会见顶？我们有没有办法预测泡沫破裂、规避风险，甚至赚到钱？相信这些都是很多朋友一直在想的问题。这期节目，我们请到了上海交通大学上海高级金融学院金融学教授朱宁。他长期研究行为经济学、宏观市场和泡沫，对以上问题都有很多深入的见解。先说一个可能会让大家有些失望的结论：泡沫可能永远无法被事先证明。（如果它能被准确预测，大家就会提前撤退，泡沫也就根本起不来了。但这不意味着我们什么都做不了。因为无论市场如何变化，也无论当下是否存在泡沫，总有一些类似于「近大远小」的常识和方法论，能帮助我们尽可能顶着泡沫赚到钱。 **简介要点**： - 此外，我们还聊到了价值投资的变化、投资到底更看运气还是能力，以及该如何理解财富、如何决策等更普世的话题。 - 最后，落到大家更关心的具体投资上，朱宁教授这期反复强调了一件事： 「AI 股票还能不能买」本身就是一个错误的问题。 - * 07:42 「AI 股票还能不能买」就是个错误的问题 * 10:26 投资到底多大程度靠 β、多大程度靠 α？ - * 24:17 两种赚钱模型：财务投资 vs 人力资本投资 * 25:12 到底有没有办法提前识别泡沫？",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "河豚已经不会毒死你了，但我们决定假装它还会",
+          "titleZh": "河豚已经不会毒死你了，但我们决定假装它还会",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a21709097e115babe677663",
+          "publishedAt": "2026-06-04T12:29:00.000Z",
+          "source": "AI炼金术",
+          "sourceType": "podcast",
+          "description": "「 当『不被毒死』这件事变得免费的时候，人类就开始为另外一件事付费——为师傅的那只手，为这场秀。 」 —— 河豚已经不会毒死你了。1990 年起日本大规模养殖，养殖河豚的毒性只有野生的千分之一以下。可日本至今保留着「河豚调理师」的持证制度。 这期单口，抓住的就是这个荒诞： 当「不被毒死」变得免费，你付钱买的就不再是安全，而是仪式感、是那个「拼死吃河豚」可以发朋友圈的故事。 这套逻辑映射到 AI——AI 正在把写报告、做 PPT、写代码、做设计这些工作的 功能性价值，直接打到趋近于 0 。于是真问题不是「AI 能干啥我不能」，而是： 当功能性归零，人类还能靠什么有价值？ 他给自己的答案留了一句话：「在未来我们可能都会变得没有用，但是我们仍然可以有价值。」 本期亮点 「 河豚已经不会毒死你了，但我们决定假装它还会 」 全集的核心段子。1958 年东京一场河豚集体中毒、6 人死亡，日本厚生省随后立了「河豚调理师免许制度」——商业场所处理河豚必须持证师傅操作。到今天约有 5000–6000 名持证师傅，学徒 2–3 年、考试通过率 35%。但故事有后半段：河豚的毒不是自己合成的，是从食物链的细菌吃来的，1990 年开始人工养殖后毒性",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9mNTFhLWF1ZGlvZnJlZWhpZ2hxcHMvQjkvNzAvR01Db09TSUh2N0JGQUFWZ1B3SDNSN2VoLmpwZWc=.jpeg",
+          "video": "",
+          "summary": "「 当『不被毒死』这件事变得免费的时候，人类就开始为另外一件事付费——为师傅的那只手，为这场秀。 」 —— 河豚已经不会毒死你了。1990 年起日本大规模养殖，养殖河豚的毒性只有野生的千分之一以下。可日本至今保留着「河豚调理师」的持证制度。 这期单口，抓住的就是这个荒诞： 当「不被毒死」变得免费，你付钱买的就不再是安全，而是仪式感、是那个「拼死吃河豚」可以发朋友圈的故事。 这套逻辑映射到 AI——AI 正在把写报告、做 PPT、写代码、做设计这些工作的 功能性价值，直接打到趋近于 0 。于是真问题不是「AI 能干啥我不能」，而是： 当功能性归零，人类还能靠什么有价值？ 他给自己的答案留了一句话：「在未来我们可能都会变得没有用，但是我们仍然可以有价值。」 本期亮点 「 河豚已经不会毒死你了，但我们决定假装它还会 」 全集的核心段子。1958 年东京一场河豚集体中毒、6 人死亡，日本厚生省随后立了「河豚调理师免许制度」——商业场所处理河豚必须持证师傅操作。到今天约有 5000–6000 名持证师傅，学徒 2–3 年、考试通过率 35%。但故事有后半段：河豚的毒不是自己合成的，是从食物链的细菌吃来的，1990 年开始人工养殖后毒性",
+          "summaryZh": "**讲了什么**：这一期来自 **AI炼金术**，主题是「河豚已经不会毒死你了，但我们决定假装它还会」。「当『不被毒死』这件事变得免费的时候，人类就开始为另外一件事付费——为师傅的那只手，为这场秀。」 —— 河豚已经不会毒死你了。1990 年起日本大规模养殖，养殖河豚的毒性只有野生的千分之一以下。可日本至今保留着「河豚调理师」的持证制度。这期单口，抓住的就是这个荒诞：当「不被毒死」变得免费，你付钱买的就不再是安全，而是仪式感、是那个「拼死吃河豚」可以发朋友圈的故事。这套逻辑映射到 AI——AI 正在把写报告、做 PPT、写代码、做设计这些工作的功能性价值，直接打到趋近于 0。于是真问题不是「AI 能干啥我不能」，而是：当功能性归零，人类还能靠什么有价值？他给自己的答案留了一句话：「在未来我们可能都会变得没有用，但是我们仍然可以有价值。 **简介要点**： - 这套逻辑映射到 AI——AI 正在把写报告、做 PPT、写代码、做设计这些工作的功能性价值，直接打到趋近于 0。 - 于是真问题不是「AI 能干啥我不能」，而是：当功能性归零，人类还能靠什么有价值？ - 1958 年东京一场河豚集体中毒、6 人死亡，日本厚生省随后立了「河豚调理师免许制度」——商业场所处理河豚必须持证师傅操作。 - 法国的侍酒师，最早的工作是检测酒里有没有毒、管理酒窖；玻璃瓶、软木塞、灭菌技术普及后这职业理论上该消失，结果反而成立协会、发证、考试，变成了「品鉴鉴赏师」——从毒药核检员变成纯表演。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "AI给我带来400倍生产力 | YC总裁Garry Tan | 驾驭AI工具",
+          "titleZh": "AI给我带来400倍生产力 | YC总裁Garry Tan | 驾驭AI工具",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a1823be7460cabdeb57539c",
+          "publishedAt": "2026-06-10T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「AI给我带来400倍生产力 | YC总裁Garry Tan | 驾驭AI工具」。最近YC的总裁Garry Tan，做了一期Lightcone播客对话。在这期内容里，Garry Tan作为YC的掌舵人，同时也是一位时隔13年重新回归代码开发的资深极客，用自己全职工作之余的亲身实践，证明了一件颠覆行业认知的事情，在AI智能体全面普及的今天，单个人就能借助AI工具，实现过去整个专业团队才能完成的开发工作量，他个人的代码产出效率，甚至达到了自己2013年全职写代码时的400倍。而支撑这一切的核心，就是Tokenmaxxing，Token最大化的理念，以及他自己开发的GStack的全新人机协作工作流。原视频来自： **简介要点**： - 而支撑这一切的核心，就是Tokenmaxxing，Token最大化的理念，以及他自己开发的GStack的全新人机协作工作流。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.dev/rss/",
+      "error": "请求超时（15000ms）：https://blog.langchain.dev/rss/"
+    },
+    {
+      "source": "宝玉的分享",
+      "url": "https://baoyu.io/feed.xml",
+      "error": "请求超时（15000ms）：https://baoyu.io/feed.xml"
+    },
+    {
+      "source": "deeplearning.ai",
+      "url": "https://rsshub.bestblogs.dev/deeplearning/the-batch",
+      "error": "请求超时（15000ms）：https://rsshub.bestblogs.dev/deeplearning/the-batch"
+    },
+    {
+      "source": "Last Week in AI",
+      "url": "https://lastweekin.ai/feed/",
+      "error": "请求超时（15000ms）：https://lastweekin.ai/feed/"
+    },
+    {
+      "source": "Microsoft Research Blog",
+      "url": "http://research.microsoft.com/rss/news.xml",
+      "error": "请求超时（15000ms）：http://research.microsoft.com/rss/news.xml"
+    },
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "阶跃星辰",
+      "url": "https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/3e2714d06aa36142e8ed6b3f4e5cf9090a069dd2.xml"
+    },
+    {
+      "source": "Latent Space",
+      "url": "https://www.latent.space/feed",
+      "error": "请求超时（15000ms）：https://www.latent.space/feed"
+    },
+    {
+      "source": "Jina AI",
+      "url": "https://wechat2rss.bestblogs.dev/feed/ff2c5468828ebe7236afd6c1d128e219774487c2.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/ff2c5468828ebe7236afd6c1d128e219774487c2.xml"
+    },
+    {
+      "source": "Datawhale",
+      "url": "https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/ea0dd8bddfe4fbfb32eaa81a1e1b628d45e97a80.xml"
+    },
+    {
+      "source": "AINLP",
+      "url": "https://wechat2rss.bestblogs.dev/feed/875df1d1a991bf9250ba9813e3148f58ef2240d4.xml",
+      "error": "请求超时（15000ms）：https://wechat2rss.bestblogs.dev/feed/875df1d1a991bf9250ba9813e3148f58ef2240d4.xml"
+    },
+    {
+      "source": "Groq",
+      "url": "https://api.bestblogs.dev/feed/groqBlog",
+      "error": "请求超时（15000ms）：https://api.bestblogs.dev/feed/groqBlog"
+    },
+    {
+      "source": "ElevenLabs Blog",
+      "url": "https://api.bestblogs.dev/feed/elevenLabsBlog",
+      "error": "请求超时（15000ms）：https://api.bestblogs.dev/feed/elevenLabsBlog"
+    },
+    {
+      "source": "FireCrawl Blog",
+      "url": "https://api.bestblogs.dev/feed/fireCrawlBlog",
+      "error": "请求超时（15000ms）：https://api.bestblogs.dev/feed/fireCrawlBlog"
+    },
+    {
+      "source": "Thomas Wolf(@Thom_Wolf)",
+      "url": "https://api.xgo.ing/rss/user/4918efb13c47459b8dcaa79cfdf72d09",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/4918efb13c47459b8dcaa79cfdf72d09"
+    },
+    {
+      "source": "李继刚(@lijigang_com)",
+      "url": "https://api.xgo.ing/rss/user/ca2fa444b6ea4b8b974fe148056e497a",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/ca2fa444b6ea4b8b974fe148056e497a"
+    },
+    {
+      "source": "Demis Hassabis(@demishassabis)",
+      "url": "https://api.xgo.ing/rss/user/4a884d5e2f3740c5a26c9c093de6388a",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/4a884d5e2f3740c5a26c9c093de6388a"
+    },
+    {
+      "source": "Qwen(@Alibaba_Qwen)",
+      "url": "https://api.xgo.ing/rss/user/80032d016d654eb4afe741ff34b7643d",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/80032d016d654eb4afe741ff34b7643d"
+    },
+    {
+      "source": "Jeff Dean(@JeffDean)",
+      "url": "https://api.xgo.ing/rss/user/b1013166769c49f8aa3fbdc222867054",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/b1013166769c49f8aa3fbdc222867054"
+    },
+    {
+      "source": "Cognition(@cognition_labs)",
+      "url": "https://api.xgo.ing/rss/user/4cc14cbd15c74e189d537c415369e1a7",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/4cc14cbd15c74e189d537c415369e1a7"
+    },
+    {
+      "source": "Weaviate • vector database(@weaviate_io)",
+      "url": "https://api.xgo.ing/rss/user/2f1035ec6b28475987af06b600e1d04c",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/2f1035ec6b28475987af06b600e1d04c"
+    },
+    {
+      "source": "Runway(@runwayml)",
+      "url": "https://api.xgo.ing/rss/user/e6bb4f612dd24db5bc1a6811e6dd5820",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/e6bb4f612dd24db5bc1a6811e6dd5820"
+    }
+  ],
+  "summaryBullets": [
+    "**的 kimi-k2.7 代码现已在 Ollama 的云上可用**：在 Ollama 的云中，该模型托管在美国最新的 NVIDIA B300 数据中心 GPU 上",
+    "**Moonshot 发布了 K2.7 代码，这是其 K2 系列编码模型**：中的最新版本，并于 Fireworks Day 0 上线，基于无服务器和 API。它产生的推理标记比",
+    "**通过 Gemini Live API 使用 Gemini 3.5**：Live Translate 将近乎实时的语音翻译添加到您的应用中。观看该模型如何通过连续语音到语音流 (",
+    "**无论我们是否愿意，您都可以继续使用 Command A+**：和 North Mini Code ClaudeDevs 根据美国政府指令，我们将暂停所有用户对 Claude",
+    "**美国政府援引国家安全部门的话说，已发布出口管制指令，以保护**：美国政府以国家安全部门为由，发布了一项出口管制指令，暂停任何外国人（无论是在美国境内还是境外）访问《神鬼寓言 5》和《神话 5》，包括 Anthropic 的外籍员工。该命"
+  ]
+}
