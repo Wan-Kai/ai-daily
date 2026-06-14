@@ -6,7 +6,7 @@
     "sources": 134,
     "fetched": 146,
     "emailCandidates": 0,
-    "selected": 32,
+    "selected": 30,
     "failures": 23
   },
   "sections": [
@@ -40,7 +40,7 @@
         },
         {
           "title": "You can continue to use Command A+ and North Mini Code whether we want you to or not",
-          "titleZh": "无论我们是否愿意，您都可以继续使用 Command A+ 和 North Mini 代码",
+          "titleZh": "Cohere 借 Anthropic 中断事件推广 Command A+ 与 North Mini Code",
           "link": "https://x.com/cohere/status/2065795514013020211",
           "publishedAt": "Sat, 13 Jun 2026 13:56:45 GMT",
           "source": "cohere(@cohere)",
@@ -52,34 +52,12 @@
           "image": "",
           "video": "",
           "summary": "You can continue to use Command A+ and North Mini Code whether we want you to or not ClaudeDevs @ClaudeDevs As a result of a US government directive, we are suspending access to Claude Fable 5 for all users. You can continue to use all other Claude models. Here’s what this means for you: Across Claude products, new sessions will run on your selected default model or Opus 4.8, and existing Fable 5 sessions will end with an error. On the Claude Platform, requests to Fable 5 will also return an error. Please update your integrations to other Claude models. We know this is a disruption to your workflows; we appreciate your patience and support. 🔗 View Quoted Tweet 💬 22 🔄 47 ❤️ 662 👀 50460 📊 76 ⚡ Powered by xgo.ing",
-          "summaryZh": "无论我们是否愿意，您都可以继续使用 Command A+ 和 North Mini Code ClaudeDevs @ClaudeDevs 根据美国政府指令，我们将暂停所有用户对 Claude Fable 5 的访问。您可以继续使用所有其他Claude模型。这对您来说意味着：在 Claude 产品中，新会话将在您选择的默认模型或 Opus 4.8 上运行，而现有的《神鬼寓言 5》会话将以错误结束。在 Claude 平台上，对《神鬼寓言 5》的请求也会返回错误。请更新您与其他 Claude 模型的集成。我们知道这会扰乱您的工作流程；感谢您的耐心和支持。 查看引用的推文",
+          "summaryZh": "Cohere 借 **Anthropic 因政府指令暂停 Claude Fable 5** 的突发事件，公开强调自家的 **Command A+** 和 **North Mini Code** 仍可继续使用。它没有发布新模型，但清楚地把 **服务连续性** 和 **代码模型可替代性** 当成卖点来放大。对正在做多模型路由或供应商冗余的团队，这条信号值得关注，因为一旦单一前沿模型被政策或平台因素中断，预案是否完善会立刻影响研发效率。",
           "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
           "tags": [
             "模型"
           ],
           "score": 62.06469820359416
-        },
-        {
-          "title": "New video is out! You no longer build one thing at a time on Replit. Run parallel agents to ship a ...",
-          "titleZh": "新视频出炉了。您不再在 Replit 上一次构建一件事",
-          "link": "https://x.com/Replit/status/2065509442070720733",
-          "publishedAt": "Fri, 12 Jun 2026 19:00:00 GMT",
-          "source": "Replit ⠕(@Replit)",
-          "sourceType": "social",
-          "description": "New video is out! You no longer build one thing at a time on Replit. Run parallel agents to ship a website, mobile app, video, and pitch deck from one project, all at once. And you can now add multiple artifacts to projects you already have. Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 8 ❤️ 74 👀 5287 📊 19 ⚡ Powered by xgo.ing",
-          "section": "product_updates",
-          "channel": "social",
-          "trust": "official",
-          "image": "",
-          "video": "",
-          "summary": "New video is out! You no longer build one thing at a time on Replit. Run parallel agents to ship a website, mobile app, video, and pitch deck from one project, all at once. And you can now add multiple artifacts to projects you already have. Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 8 ❤️ 74 👀 5287 📊 19 ⚡ Powered by xgo.ing",
-          "summaryZh": "新视频出炉了！您不再在 Replit 上一次构建一件事。运行并行代理，一次性从一个项目交付网站、移动应用、视频和宣传材料。现在，您可以将多个工件添加到已有的项目中。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
-          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
-          "tags": [
-            "智能体",
-            "视频"
-          ],
-          "score": 56.89675722915377
         },
         {
           "title": "Drop it into what you already use. OpenAI + Anthropic compatible endpoints. Works with Claude Code,...",
@@ -102,7 +80,7 @@
         },
         {
           "title": "What can you do with the GitHub Copilot app? @kdaigle shares some of his favorite features 🎤",
-          "titleZh": "您可以使用 GitHub Copilot 应用做什么？ @kdaigle 分享了他最喜欢的一些功能",
+          "titleZh": "GitHub 用短视频展示 Copilot 应用的典型使用方式",
           "link": "https://x.com/github/status/2065800244109926909",
           "publishedAt": "Sat, 13 Jun 2026 14:15:33 GMT",
           "source": "GitHub(@github)",
@@ -114,7 +92,7 @@
           "image": "",
           "video": "./media/2026-06-14-2065800244109926909.mp4",
           "summary": "What can you do with the GitHub Copilot app? @kdaigle shares some of his favorite features 🎤 Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 9 ❤️ 53 👀 18073 📊 13 ⚡ Powered by xgo.ing",
-          "summaryZh": "您可以使用 GitHub Copilot 应用做什么？ 分享了他最喜欢的一些功能。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "summaryZh": "GitHub 发布短视频演示 **GitHub Copilot app** 的常见用法，重点传达的是 Copilot 正在从编辑器补全工具延伸成一个更独立的 AI 助手入口。虽然这条内容偏演示而不是规格说明，但结合同日另一条官方信息，可以确认 **付费 Copilot 用户已经开始获得该应用的使用资格**。如果团队正在评估 Copilot 的新入口形态，这条信号说明 GitHub 已经把应用层体验推向更广范围。",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "开源",
@@ -124,7 +102,7 @@
         },
         {
           "title": "Try it out yourself. Anyone currently on a paid Copilot plan can use the GitHub Copilot app now. 👇 ...",
-          "titleZh": "自己尝试一下。目前使用付费 Copilot 计划的任何人现在都可以使用 GitHub Copilot 应用。",
+          "titleZh": "GitHub Copilot app 开始向付费 Copilot 用户开放",
           "link": "https://x.com/github/status/2065800451879047516",
           "publishedAt": "Sat, 13 Jun 2026 14:16:23 GMT",
           "source": "GitHub(@github)",
@@ -136,7 +114,7 @@
           "image": "",
           "video": "",
           "summary": "Try it out yourself. Anyone currently on a paid Copilot plan can use the GitHub Copilot app now. 👇 github.com/features/ai/gi… 8 💬 2 🔄 2 ❤️ 7 👀 10450 📊 3 ⚡ Powered by xgo.ing",
-          "summaryZh": "自己尝试一下。目前使用付费 Copilot 计划的任何人现在都可以使用 GitHub Copilot 应用。 github.com/features/ai/gi。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "summaryZh": "GitHub 表示，当前订阅 **付费 Copilot 计划** 的用户现在已经可以直接使用 **GitHub Copilot app**。这意味着 Copilot 的入口从 IDE 扩展进一步延伸到独立应用形态，后续很可能围绕聊天、任务协作和跨仓库上下文继续扩展。对企业团队来说，接下来最值得确认的是它支持哪些平台、是否复用现有账号权限，以及和组织级策略之间如何打通。",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "开源"
@@ -163,7 +141,7 @@
           "image": "",
           "video": "",
           "summary": "Hugging Face Papers 2026-06-14 排名第 4 的论文候选。",
-          "summaryZh": "**核心结论** 「SpatialClaw：重新思考代理空间推理的动作界面」要解决的问题是：Hugging Face Papers 2026-06-14 排名第 4 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-06-14 排名第 4 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "summaryZh": "**核心结论** 这篇论文聚焦一个老问题：**视觉语言模型在 3D/4D 空间推理上仍然不稳**，关键瓶颈不只是感知模块本身，而是 agent 调这些模块时的动作接口太僵硬。作者提出 **SpatialClaw**，把“写代码”本身变成空间推理 agent 的动作接口，让模型在一个持续保留状态的 Python kernel 里按步骤执行、观察中间结果、再继续推理，而不是一次性把整套分析流程拍脑袋写完。\n\n**支撑证据** 论文把 SpatialClaw 设计成一个**无需训练**的框架：内置输入帧、几何与感知 primitives，VLM 每一步只需生成一个可执行 cell，就能基于前面步骤的文本和视觉结果继续组合操作。作者在 **20 个静态与动态 3D/4D 空间推理基准**上测试，平均准确率达到 **59.9%**，比近期空间推理 agent 高 **11.2 个点**；而且在 **两个模型家族、六个 VLM backbone** 上都出现了稳定提升。\n\n**我的判断** 这篇工作的价值在于它把注意力从“再换一个更强模型”转向“给模型什么样的可编排动作接口”。如果后续代码和 benchmark 细节足够完整，它对机器人、具身智能和视频理解 agent 都有参考意义；但真实落地还要看这类 stateful code interface 的稳定性、执行成本和安全边界。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "智能体",
@@ -186,7 +164,7 @@
           "image": "",
           "video": "",
           "summary": "Hugging Face Papers 2026-06-14 排名第 3 的论文候选。",
-          "summaryZh": "**核心结论** 「WeaveBench：具有混合接口的计算机使用代理的长期现实基准」要解决的问题是：Hugging Face Papers 2026-06-14 排名第 3 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-06-14 排名第 3 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "summaryZh": "**核心结论** WeaveBench 盯住的是一个越来越现实的缺口：**计算机使用 agent 的难点，在于能否在长流程里把 GUI、CLI、代码编辑、浏览器和外部工具串起来完成同一件事**。作者因此提出一个面向混合接口场景的长期任务基准，用来测 agent 是否真的能在真实工作流里“织”起多种操作界面。\n\n**支撑证据** 这个基准包含 **8 个真实工作域的 114 个任务**，任务都来自真实用户请求和可公开验证的交付物；每个任务都要求 agent 在同一条轨迹里混合使用桌面可视操作与命令行/代码操作。论文把任务放进真实 **Ubuntu 桌面 + CLI-agent runtime** 里评估，并额外设计了一个**轨迹感知评审器**，会同时检查文件、截图、日志和动作轨迹，还能识别伪造视觉证据或硬编码指标等“取巧”行为。当前最好的前沿模型组合 PassRate 也只有 **41.2%**，说明这个问题离解决还很远。\n\n**我的判断** 这篇论文的意义不在于再造一个排行榜，而在于它更贴近真实 agent 产品的失败方式。对做电脑代理、自动化助手和 coding agent 的团队来说，WeaveBench 这类“跨界面、长轨迹、可验交付物”的评测会比单点 benchmark 更有参考价值。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "智能体",
@@ -209,7 +187,7 @@
           "image": "https://static.simonwillison.net/static/2026/openai-webrtc-document-context-card.jpg",
           "video": "",
           "summary": "OpenAI WebRTC Audio Session, now with document context I built the first version of this tool in December 2024 to try out the then-new OpenAI WebRTC API for interacting with their realtime audio models. Last month OpenAI introduced a brand new model to that API called GPT‑Realtime‑2 , which they promoted as \"our first voice model with GPT‑5‑class reasoning\" - with a Sep 30, 2024 knowledge cut-off. I've been waiting for that model to show up in the ChatGPT iPhone app but it still hasn't, so I revisited my old pla...",
-          "summaryZh": "**核心要点** OpenAI WebRTC 音频会话，现在有了文档上下文，我于 2024 年 12 月构建了该工具的第一个版本，以尝试使用当时新的 OpenAI WebRTC API 与其实时音频模型进行交互。上个月，OpenAI 为该 API 引入了一个名为 GPT-Realtime-2 的全新模型，他们将其宣传为“我们的第一个具有 GPT-5 级推理的语音模型” - 知识截止日期为 2024 年 9 月 30 日。我一直在等待该模型出现在 ChatGPT iPhone 应用中，但它仍然没有出现，所以我重新审视了我的旧模型......",
+          "summaryZh": "**核心要点** Simon Willison 更新了他之前的 WebRTC 音频实验，现在支持在浏览器语音对话前粘贴大段**文档上下文**，让用户直接围绕指定材料与 **GPT-Realtime-2** 进行语音交流。文章想说明的重点不是单纯换了一个新模型，而是实时语音助手已经开始具备“边读资料边对话”的工作流雏形。\n\n**展开说明** 这个 playground 最早是作者在 **2024 年 12 月** 为测试 OpenAI WebRTC API 搭的。上个月 OpenAI 为这套 API 引入 **GPT-Realtime-2**，并把它描述为首个具备 **GPT-5 级推理**能力的语音模型；作者因此回头升级旧工具，新增“先贴文档、再开语音对话”的能力。这样一来，用户可以直接在浏览器里围绕一段资料进行追问、总结和探索，而不是只做闲聊式语音交互。\n\n**我的判断** 这类小型实验很值得关注，因为它提前暴露了实时语音产品可能走向的交互形态。真正决定落地价值的，将是**文档长度上限、实时延迟、转写稳定性**，以及能否和企业知识库或权限体系结合。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "模型",
@@ -233,7 +211,7 @@
           "image": "",
           "video": "",
           "summary": "Hugging Face Papers 2026-06-14 排名第 1 的论文候选。",
-          "summaryZh": "**核心结论** 「EvoArena：跟踪动态环境中稳健的 LLM 代理的内存演变」要解决的问题是：Hugging Face Papers 2026-06-14 排名第 1 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-06-14 排名第 1 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "summaryZh": "**核心结论** EvoArena 关注的是一个经常被忽略的现实问题：**大模型 agent 不仅要解决任务，还要在不断变化的环境里持续更新自己的知识、技能和行为**。作者提出 **EvoArena** 作为动态环境 benchmark，并进一步设计 **EvoMem**，用补丁式记忆把环境变化记录成结构化更新历史，让 agent 能围绕“环境是怎么变的”进行推理，而不是只记住某个静态状态。\n\n**支撑证据** EvoArena 把环境变化建模成一连串渐进式更新，覆盖 **终端、软件和社交偏好** 等场景。实验结果显示，现有 agent 在这类动态任务上平均准确率只有 **39.6%**，暴露出明显短板；引入 EvoMem 后，EvoArena 平均提升 **1.5%**，在 **GAIA** 和 **LoCoMo** 上也分别提升 **6.1%** 和 **4.8%**。如果看需要连续完成多个相关子任务的链式场景，EvoMem 还能把 chain-level accuracy 再提高 **3.7%**。\n\n**我的判断** 这篇工作的价值在于把 agent memory 从“存点上下文”推进到“显式管理环境演化”。对做长期任务代理、持续助手或企业工作流自动化的团队，这个方向很实用；但后续还要看 patch-based memory 在更大规模环境和更复杂多步任务上的维护成本。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "智能体",
@@ -255,7 +233,7 @@
           "image": "",
           "video": "",
           "summary": "Hugging Face Papers 2026-06-14 排名第 5 的论文候选。",
-          "summaryZh": "**核心结论** 「InterleaveThinker：强化代理交错生成」要解决的问题是：Hugging Face Papers 2026-06-14 排名第 5 的论文候选。 **支撑证据** 摘要与公开信息显示：Hugging Face Papers 2026-06-14 排名第 5 的论文候选。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "summaryZh": "**核心结论** InterleaveThinker 想解决的是一个多模态生成里的卡点：**现有图像模型很会单图生成和编辑，但不擅长按“文字-图片-文字-图片”这种交错序列持续产出内容**，而这种能力对视觉叙事、操作引导和具身任务都很关键。作者提出一个多 agent 流水线，不改底层图像生成器本体，也想把交错生成能力外挂给现有模型。\n\n**支撑证据** 论文把系统拆成两个核心 agent：一个 **planner agent** 负责规划整条图文序列，逐步告诉图像模型每一步该生成什么；另一个 **critic agent** 负责检查输出是否偏离计划，并回写指令让模型重生成。为此作者构建了 **Interleave-Planner-SFT-80k、Interleave-Critic-SFT-112k** 两套监督数据，再用 **Interleave-Critic-RL-13k** 和 GRPO 强化逐步纠错能力。实验显示，这个方法在交错生成 benchmark 上可以做到接近 **Nano Banana** 和 **GPT-5** 的水平，同时还显著提升了底层模型在 **WISE、RISE** 等推理型 benchmark 上的表现。\n\n**我的判断** 这篇工作有意思的地方在于，它把“多模态生成能力提升”转成了一个可外接的 agent 编排问题。若后续代码可复现，它可能给视觉 storytelling、教程生成和具身规划带来一条成本更低的增强路径；但代价是一次完整轨迹可能要调用图像模型很多次，推理成本和延迟需要仔细评估。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "智能体",
@@ -277,7 +255,7 @@
           "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/12/20329.png",
           "video": "",
           "summary": "In this post, we explore how Rocket Close built a solution using Strands Agents, large language models (LLMs), Amazon Bedrock, Amazon Bedrock Knowledge Bases, and Model Context Protocol (MCP) tools. We cover solution features, the rationale for the technology stack, lessons learned, and the business impact at Rocket Close.",
-          "summaryZh": "**核心要点** 在本文中，我们将探讨 Rocket Close 如何使用 Strands Agent、大语言模型 (LLM)、Amazon Bedrock、Amazon Bedrock 知识库和模型上下文协议 (MCP) 工具构建解决方案。我们将介绍解决方案的功能、技术堆栈的基本原理、经验教训以及 Rocket Close 的业务影响。",
+          "summaryZh": "**核心要点** 这篇 AWS 案例拆解了游戏公司 **Rocket Close** 如何用 **Strands Agents、LLM、Amazon Bedrock、Bedrock Knowledge Bases** 和 **MCP 工具** 搭建一个面向游戏运营的 agent 系统，用来优化 title operations。它的价值不只是展示“用了哪些 AI 组件”，而是把实际业务功能、技术栈取舍、经验教训和业务影响一起讲清楚。\n\n**展开说明** 文章重点覆盖四部分：一是系统具体做了哪些运营支持工作；二是为什么选用 **Bedrock + 知识库 + MCP** 这套组合；三是落地过程中遇到的工程问题与经验教训；四是最终给 Rocket Close 带来的业务结果。对想在企业内部落地 agent workflow 的团队，这篇案例提供了一个相对完整的实现样板，而不是停留在概念层面的智能体叙事。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "模型",
@@ -287,7 +265,7 @@
         },
         {
           "title": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5",
-          "titleZh": "关于美国政府暂停访问《神鬼寓言 5》和《神话 5》的指令的声明",
+          "titleZh": "美国政府要求暂停 Fable 5 与 Mythos 5 访问，Anthropic 被迫下线",
           "link": "https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/#atom-everything",
           "publishedAt": "2026-06-13T01:01:50+00:00",
           "source": "Simon Willison's Weblog",
@@ -299,7 +277,7 @@
           "image": "",
           "video": "",
           "summary": "Statement on the US government directive to suspend access to Fable 5 and Mythos 5 Well this is nuts : The US government, citing national security authorities, has issued an export control directive to suspend all access to Fable 5 and Mythos 5 by any foreign national, whether inside or outside the United States, including foreign national Anthropic employees. The net effect of this order is that we must abruptly disable Fable 5 and Mythos 5 for all our customers to ensure compliance. Access to all other Anthrop...",
-          "summaryZh": "**核心要点** 关于美国政府暂停访问《神鬼寓言 5》和《神话 5》的指令的声明 这太疯狂了：美国政府以国家安全当局为由，发布了一项出口管制指令，暂停任何外国人（无论是在美国境内还是境外）访问《神鬼寓言 5》和《神话 5》，包括外国 Anthropic 员工。该命令的最终影响是，我们必须突然禁用所有客户的《神鬼寓言 5》和《神话 5》，以确保合规性。访问所有其他人类...",
+          "summaryZh": "**核心要点** Simon Willison 转述并核验了一份极不寻常的消息：Anthropic 因美国政府以国家安全为由发布的出口管制指令，被要求暂停 **Fable 5** 与 **Mythos 5** 对所有外国公民的访问，包括海外用户和外籍员工；其他 Anthropic 模型暂不受影响。这不是普通的产品调整，而是一次直接由政策触发的模型可用性中断。\n\n**展开说明** 文中记录了 Anthropic 的说法：政府认为其掌握了一种绕过 Fable 5 防护的方法，但 Anthropic 表示相关演示只暴露出少量已知且较轻的漏洞，而且其他公开模型也能做到类似能力。Simon 还自己写脚本轮询 Anthropic API，确认 `claude-fable-5` 在 **2026-06-12 21:59 ET** 左右开始返回 `not_found_error`，说明停用并非传闻，而是已经实际生效。\n\n**我的判断** 这件事对模型供应链和合规风险的提醒远大于八卦价值。对依赖单一前沿模型的跨境团队、代理产品和多模型编排服务来说，尽快准备**可替代模型、权限隔离与降级方案**会更稳妥。",
           "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
           "tags": [
             "模型",
