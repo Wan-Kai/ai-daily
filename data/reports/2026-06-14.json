@@ -381,29 +381,6 @@
           "score": 30
         },
         {
-          "title": "Panniantong/Agent-Reach",
-          "titleZh": "Agent-Reach：一个免 API 费用的全网搜索 CLI，给 AI 代理补上外部感知能力",
-          "link": "https://github.com/Panniantong/Agent-Reach",
-          "publishedAt": "2026-06-13T18:30:00.000Z",
-          "source": "GitHub Trending Weekly",
-          "sourceType": "open_source",
-          "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-          "section": "open_source_top",
-          "channel": "open_source_rank",
-          "trust": "rank",
-          "image": "https://opengraph.githubassets.com/c7d42d428b104abaebaf1466eb965806fe6628aee8edb7bb0ce84c1b28461a22/Panniantong/Agent-Reach",
-          "video": "",
-          "summary": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-          "summaryZh": "让您的人工智能代理有一双能够看到整个互联网的眼睛。阅读和搜索 Twitter、Reddit、YouTube、GitHub、Bilibili、小红书 — 一个 CLI，零 API 费用。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
-          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
-          "tags": [
-            "API",
-            "智能体",
-            "开源"
-          ],
-          "score": 30
-        },
-        {
           "title": "andrewyng/aisuite",
           "titleZh": "andrewyng/aisuite：OpenCoworker 一个基于 aisuite 构建",
           "link": "https://github.com/andrewyng/aisuite",
