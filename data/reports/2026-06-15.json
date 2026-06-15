@@ -287,27 +287,6 @@
             "开源"
           ],
           "score": 30
-        },
-        {
-          "title": "mvanhorn/last30days-skill",
-          "titleZh": "mvanhorn/last30days-skill：AI 代理技能可研究 Reddit、X、YouT",
-          "link": "https://github.com/mvanhorn/last30days-skill",
-          "publishedAt": "2026-06-14T18:30:00.000Z",
-          "source": "GitHub Trending Weekly",
-          "sourceType": "open_source",
-          "description": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-          "section": "open_source_top",
-          "channel": "open_source_rank",
-          "trust": "rank",
-          "image": "https://opengraph.githubassets.com/57034eb125db6d85e4024b540d752ce5e7852c53d04ce36ae8e2eaa7afec15ca/mvanhorn/last30days-skill",
-          "video": "",
-          "summary": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-          "summaryZh": "AI 代理技能可研究 Reddit、X、YouTube、HN、Polymarket 和网络上的任何主题，然后综合得出有依据的摘要（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
-          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
-          "tags": [
-            "智能体"
-          ],
-          "score": 24
         }
       ]
     },
