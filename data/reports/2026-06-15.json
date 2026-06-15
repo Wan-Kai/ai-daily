@@ -1,0 +1,607 @@
+{
+  "date": "2026-06-15",
+  "generatedAt": "2026-06-14T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-15",
+  "stats": {
+    "sources": 134,
+    "fetched": 97,
+    "emailCandidates": 0,
+    "selected": 26,
+    "failures": 4
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "为啥 Codex 还不推出类似 Codex Design 的产品？ Anthropic 最近推出了 Claude Design，是我除了编程之外用得最多的 Agent，也推荐过很多次。效果真的好：你...",
+          "titleZh": "为啥 Codex 还不推出类似 Codex Design 的产品",
+          "link": "https://x.com/dotey/status/2065874894563463660",
+          "publishedAt": "Sat, 13 Jun 2026 19:12:11 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "为啥 Codex 还不推出类似 Codex Design 的产品？ Anthropic 最近推出了 Claude Design，是我除了编程之外用得最多的 Agent，也推荐过很多次。效果真的好：你用一句话描述想要的 App，它直接给你生成一个可交互的原型，点哪哪都有反应，不仔细看还以为在操作真实的 App。 有网友问：为啥 Codex 还不推出类似 Codex Design 的产品？ 简单来说，GPT-5.5 的模型能力还做不好这件事。但要解释清楚为什么，得先理解一个关键区分。 【1】Agent 的两层：模型和 Harness 很多人把 Codex、Claude Design 和 GPT-5.5、Claude Opus 4.8 混在一起说，其实它们是完全不同的两层。 Claude Design 和 Codex 是\"产品层\"，业界叫 Harness，包括提示词、工具链、UI 交互流程这些工程层面的东西。Claude Opus 4.8 和 GPT-5.5 是\"模型层\"，是真正干活的大脑。 打个比方：Harness 是厨房，里面有锅碗瓢盆（工具）和菜谱（Skills），模型是厨师。同一套厨房，换个厨师，做出来的菜完全不一样。 理解了这个区分，后面的事情就好说了。 【2】Harness 不是门槛 Claude Design 的 Harness 层技术上不复杂。花点心思逆向一下，提示词、工具代码几乎都可以拿到。我已经做过了，成果在 baoyu-design（ github.com/JimLiu/baoyu-d… ），可以借助 Skill 把 Claude Design 在其他模型上运行。工程上没秘密。 真正拉开差距的是背后的模型。 【3】高精度可交互原型，难在模型 Claude Design 这个名字容易让人误解，以为交付的是 Figma、Photoshop 那样的静态设计图。实际上它交付的比 Figma 更进一步，是融合了设计稿和原型的高精度可交互原型：你不光能看到设计，还能直接上手操作。 这对模型的要求很高。 举个例子。我要做一个类似 X/微博的客户端。让模型画一个好看的静态界面，很多模型都做得到。但要让这个界面能交互就复杂了：切换不同 Timeline，展示不同类型的推文（文本、图片、视频），点赞要变红心，删推要从列表消失，从列表点进详情再返回，状态还要保持住。 要做到这些，模型必须在动手画 UI 之前，先把整套数据结构和状态管理想清楚：tweet 长什么样、timeline 有哪几种、每个按钮当前是什么状态、状态之间怎么联动。这是系统架构设计的活，不是画 UI 的活。 Claude Design 对模型的要求，是同时具备优秀的 UI/UX 设计能力和系统架构设计能力，缺一个效果就大打折扣。这也是为什么我之前反对只产出纯 HTML 的设计稿，那只是静态的 UI 设计，没有融合 UX 交互。 有条件的话可以自己测试感受一下。比如用这个提示词： Design a X Client for Mac, similar to Tweetbot for Mac from Tapbots 同样的提示词让 Codex 去做，也能出个东西，能看，也能简单交互。但对比一下就知道差距了：列表能滚动，sidebar 不能点；点赞按钮没反应。来回迭代好几轮，才能达到一个勉强凑合的水平。 Claude Design 做出来完全不一样。从 Timeline 切到通知页，从列表点进详情再返回，全程流畅，状态都保持住了。不仔细看真以为在操作一个完成度很高的 App，虽然数据都是模拟的。 Claude Opus 4.8 显然在设计和架构这类场景上做了大量训练和优化。 【4】产出物就是代码 去看 Claude Design 的产出物，注意里面的 data.jsx 文件。它把整个设计的数据结构定义得很清晰，基于这个结构模拟了一套完整数据，然后用 React 在这套数据上构建 UI。 设计产物本身就是代码（React、CSS、JSON），不是 Figma 或 PSD，任何开发者拿到都能直接看出按钮的圆角、主色、间距，照着自己的技术栈实现就行。后续设计变更？git diff 一看就知道改了什么。设计和开发之间的沟通损耗降到了最低。 说得不严谨，应该说设计 Agent 和开发 Agent 之间的沟通损耗很低了。现在都是人在指挥 Agent 去设计，人指挥 Agent 写代码了。 【5】怎么用好 Claude Design 很多人不知道该怎么用好 Claude Design，其实有点像 Vibe Coding：有个基本的想法，先让它做一个版本出来，然后通过 Chat 去指挥 Agent 帮你改，调整几个版本你的思路就清晰了。 整个调整的过程非常神奇，有一种\"言出法随\"的感觉，你想让它怎么改它总能给你实现出来。这也是为啥我现在很痴迷用 Claude Design，反馈来得太快太过瘾了。 还有一个小技巧：不要说太具体的要求，而是说你的目标是想要什么，让它自由发挥。往往能得到更好的效果，毕竟它训练过几乎所有公共的 UI 设计。 回到最初的问题。Codex 不推类似的设计产品，是因为 GPT-5.5 还扛不住这个活。画个好看的界面很多模型都行，难的是在动手之前把数据结构、状态管理、交互逻辑都想清楚，然后一次性交付一个完整的可交互原型。 目前只有 Claude 的模型做到了。至于能领先多久，就看 OpenAI 或者其他家后面模型的进化速度了。 💬 59 🔄 62 ❤️ 349 👀 63668 📊 146 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKt2ALXXcAA-iqw.jpg",
+          "video": "",
+          "summary": "为啥 Codex 还不推出类似 Codex Design 的产品？ Anthropic 最近推出了 Claude Design，是我除了编程之外用得最多的 Agent，也推荐过很多次。效果真的好：你用一句话描述想要的 App，它直接给你生成一个可交互的原型，点哪哪都有反应，不仔细看还以为在操作真实的 App。 有网友问：为啥 Codex 还不推出类似 Codex Design 的产品？ 简单来说，GPT-5.5 的模型能力还做不好这件事。但要解释清楚为什么，得先理解一个关键区分。 【1】Agent 的两层：模型和 Harness 很多人把 Codex、Claude Design 和 GPT-5.5、Claude Opus 4.8 混在一起说，其实它们是完全不同的两层。 Claude Design 和 Codex 是\"产品层\"，业界叫 Harness，包括提示词、工具链、UI 交互流程这些工程层面的东西。Claude Opus 4.8 和 GPT-5.5 是\"模型层\"，是真正干活的大脑。 打个比方：Harness 是厨房，里面有锅碗瓢盆（工具）和菜谱（Skills），模型是厨师。同一套厨房，换个厨师，做出来的菜完全不一样...",
+          "summaryZh": "为啥 Codex 还不推出类似 Codex Design 的产品？ Anthropic 最近推出了 Claude Design，是我除了编程之外用得最多的 Agent，也推荐过很多次。效果真的好：你用一句话描述想要的 App，它直接给你生成一个可交互的原型，点哪哪都有反应，不仔细看还以为在操作真实的 App。 有网友问：为啥 Codex 还不推出类似 Codex Design 的产品？ 简单来说，GPT-5.5 的模型能力还做不好这件事。但要解释清楚为什么，得先理解一个关键区分。 【1】Agent 的两层：模型和 Harness 很多人把 Codex、Claude Design 和 GPT-5.5、Claude Opus 4.8 混在一起说，其实它们是完全不同的两层。 Claude Design 和 Codex 是\"产品层\"，业界叫 Harness，包括提示词、工具链、UI 交互流程这些工程层面的东西。Claude Opus 4.8 和 GPT-5.5 是\"模型层\"，是真正干活的大脑。 打个比方：Harness 是厨房，里面有锅碗瓢盆（工具）和菜谱（Skills），模型是厨师。同一套厨房，换个厨师，做出来的菜完全不一样...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "开源",
+            "模型"
+          ],
+          "score": 57.758996569874064
+        },
+        {
+          "title": "举一个具体的用 Claude Design 更新设计和代码的例子 我有一个视频字幕编辑器工具，是 Claude Design 做的设计，之前标题文字和下面的信息是放在一行，标题一长就放不下，于是我就...",
+          "titleZh": "Claude Design 到 Claude Code 的联动示例：设计改动如何同步成代码改动",
+          "link": "https://x.com/dotey/status/2065940342264770589",
+          "publishedAt": "Sat, 13 Jun 2026 23:32:15 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "举一个具体的用 Claude Design 更新设计和代码的例子 我有一个视频字幕编辑器工具，是 Claude Design 做的设计，之前标题文字和下面的信息是放在一行，标题一长就放不下，于是我就让它变成两行。 图1 是我在设计稿上做的修改，修改好了后导出下载 zip 文件，放到项目中，用 git diff 很容易看到做了哪些变更（图2） 然后一句简单的提示给 Claude Code： > 参考设计稿 design 目录下的相关变更，对 UI 进行变更 Claude 自己通过 git diff 去分析变更，然后找出所有设计稿修改了的位置，自己帮我修改了相应的 Swift 代码，任务完成！（图4是修改后的效果） 全程我主要是在 Claude Design 上修改，然后需要手工去同步一下。 宝玉 @dotey 为啥 Codex 还不推出类似 Codex Design 的产品？ Anthropic 最近推出了 Claude Design，是我除了编程之外用得最多的 Agent，也推荐过很多次。效果真的好：你用一句话描述想要的 App，它直接给你生成一个可交互的原型，点哪哪都有反应，不仔细看还以为在操作真实的 App。 有网友问：为啥 Codex 还不推出类似 Codex Design 的产品？ 简单来说，GPT-5.5 的模型能力还做不好这件事。但要解释清楚为什么，得先理解一个关键区分。 【1】Agent 的两层：模型和 Harness 很多人把 Codex、Claude Design 和 GPT-5.5、Claude Opus 4.8 混在一起说，其实它们是完全不同的两层。 Claude Design 和 Codex 是\"产品层\"，业界叫 Harness，包括提示词、工具链、UI 交互流程这些工程层面的东西。Claude Opus 4.8 和 GPT-5.5 是\"模型层\"，是真正干活的大脑。 打个比方：Harness 是厨房，里面有锅碗瓢盆（工具）和菜谱（Skills），模型是厨师。同一套厨房，换个厨师，做出来的菜完全不一样。 理解了这个区分，后面的事情就好说了。 【2】Harness 不是门槛 Claude Design 的 Harness 层技术上不复杂。花点心思逆向一下，提示词、工具代码几乎都可以拿到。我已经做过了，成果在 baoyu-design（ github.com/JimLiu/baoyu-d… ），可以借助 Skill 把 Claude Design 在其他模型上运行。工程上没秘密。 真正拉开差距的是背后的模型。 【3】高精度可交互原型，难在模型 Claude Design 这个名字容易让人误解，以为交付的是 Figma、Photoshop 那样的静态设计图。实际上它交付的比 Figma 更进一步，是融合了设计稿和原型的高精度可交互原型：你不光能看到设计，还能直接上手操作。 这对模型的要求很高。 举个例子。我要做一个类似 X/微博的客户端。让模型画一个好看的静态界面，很多模型都做得到。但要让这个界面能交互就复杂了：切换不同 Timeline，展示不同类型的推文（文本、图片、视频），点赞要变红心，删推要从列表消失，从列表点进详情再返回，状态还要保持住。 要做到这些，模型必须在动手画 UI 之前，先把整套数据结构和状态管理想清楚：tweet 长什么样、timeline 有哪几种、每个按钮当前是什么状态、状态之间怎么联动。这是系统架构设计的活，不是画 UI 的活。 Claude Design 对模型的要求，是同时具备优秀的 UI/UX 设计能力和系统架构设计能力，缺一个效果就大打折扣。这也是为什么我之前反对只产出纯 HTML 的设计稿，那只是静态的 UI 设计，没有融合 UX 交互。 有条件的话可以自己测试感受一下。比如用这个提示词： Design a X Client for Mac, similar to Tweetbot for Mac from Tapbots 同样的提示词让 Codex 去做，也能出个东西，能看，也能简单交互。但对比一下就知道差距了：列表能滚动，sidebar 不能点；点赞按钮没反应。来回迭代好几轮，才能达到一个勉强凑合的水平。 Claude Design 做出来完全不一样。从 Timeline 切到通知页，从列表点进详情再返回，全程流畅，状态都保持住了。不仔细看真以为在操作一个完成度很高的 App，虽然数据都是模拟的。 Claude Opus 4.8 显然在设计和架构这类场景上做了大量训练和优化。 【4】产出物就是代码 去看 Claude Design 的产出物，注意里面的 data.jsx 文件。它把整个设计的数据结构定义得很清晰，基于这个结构模拟了一套完整数据，然后用 React 在这套数据上构建 UI。 设计产物本身就是代码（React、CSS、JSON），不是 Figma 或 PSD，任何开发者拿到都能直接看出按钮的圆角、主色、间距，照着自己的技术栈实现就行。后续设计变更？git diff 一看就知道改了什么。设计和开发之间的沟通损耗降到了最低。 说得不严谨，应该说设计 Agent 和开发 Agent 之间的沟通损耗很低了。现在都是人在指挥 Agent 去设计，人指挥 Agent 写代码了。 【5】怎么用好 Claude Design 很多人不知道该怎么用好 Claude Design，其实有点像 Vibe Coding：有个基本的想法，先让它做一个版本出来，然后通过 Chat 去指挥 Agent 帮你改，调整几个版本你的思路就清晰了。 整个调整的过程非常神奇，有一种\"言出法随\"的感觉，你想让它怎么改它总能给你实现出来。这也是为啥我现在很痴迷用 Claude Design，反馈来得太快太过瘾了。 还有一个小技巧：不要说太具体的要求，而是说你的目标是想要什么，让它自由发挥。往往能得到更好的效果，毕竟它训练过几乎所有公共的 UI 设计。 回到最初的问题。Codex 不推类似的设计产品，是因为 GPT-5.5 还扛不住这个活。画个好看的界面很多模型都行，难的是在动手之前把数据结构、状态管理、交互逻辑都想清楚，然后一次性交付一个完整的可交互原型。 目前只有 Claude 的模型做到了。至于能领先多久，就看 OpenAI 或者其他家后面模型的进化速度了。 🔗 View Quoted Tweet 💬 18 🔄 8 ❤️ 89 👀 23536 📊 30 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKuxtceWwAAApn-.jpg",
+          "video": "",
+          "summary": "举一个具体的用 Claude Design 更新设计和代码的例子 我有一个视频字幕编辑器工具，是 Claude Design 做的设计，之前标题文字和下面的信息是放在一行，标题一长就放不下，于是我就让它变成两行。 图1 是我在设计稿上做的修改，修改好了后导出下载 zip 文件，放到项目中，用 git diff 很容易看到做了哪些变更（图2） 然后一句简单的提示给 Claude Code： > 参考设计稿 design 目录下的相关变更，对 UI 进行变更 Claude 自己通过 git diff 去分析变更，然后找出所有设计稿修改了的位置，自己帮我修改了相应的 Swift 代码，任务完成！（图4是修改后的效果） 全程我主要是在 Claude Design 上修改，然后需要手工去同步一下。 宝玉 @dotey 为啥 Codex 还不推出类似 Codex Design 的产品？ Anthropic 最近推出了 Claude Design，是我除了编程之外用得最多的 Agent，也推荐过很多次。效果真的好：你用一句话描述想要的 App，它直接给你生成一个可交互的原型，点哪哪都有反应，不仔细看还以为在操作真实的 App。 有网...",
+          "summaryZh": "举一个具体的用 Claude Design 更新设计和代码的例子 我有一个视频字幕编辑器工具，是 Claude Design 做的设计，之前标题文字和下面的信息是放在一行，标题一长就放不下，于是我就让它变成两行。 图1 是我在设计稿上做的修改，修改好了后导出下载 zip 文件，放到项目中，用 git diff 很容易看到做了哪些变更（图2） 然后一句简单的提示给 Claude Code： > 参考设计稿 design 目录下的相关变更，对 UI 进行变更 Claude 自己通过 git diff 去分析变更，然后找出所有设计稿修改了的位置，自己帮我修改了相应的 Swift 代码，任务完成！（图4是修改后的效果） 全程我主要是在 Claude Design 上修改，然后需要手工去同步一下。 宝玉 @dotey 为啥 Codex 还不推出类似 Codex Design 的产品？ Anthropic 最近推出了 Claude Design，是我除了编程之外用得最多的 Agent，也推荐过很多次。效果真的好：你用一句话描述想要的 App，它直接给你生成一个可交互的原型，点哪哪都有反应，不仔细看还以为在操作真实的 App。 有网...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "开源",
+            "模型"
+          ],
+          "score": 52.56183531859921
+        },
+        {
+          "title": "模型是根本，Harness层相对好补齐，但Harness这层不需要太多垂直领域的，Claude Design 很快就会合并到 Claude Desktop，Codex 在下一代或者几代模型能力够了后，...",
+          "titleZh": "宝玉谈 Claude Design 与 Codex：产品层可补齐，关键瓶颈仍在模型能力",
+          "link": "https://x.com/dotey/status/2065991056261312674",
+          "publishedAt": "Sun, 14 Jun 2026 02:53:46 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "模型是根本，Harness层相对好补齐，但Harness这层不需要太多垂直领域的，Claude Design 很快就会合并到 Claude Desktop，Codex 在下一代或者几代模型能力够了后，会在 Codex App 直接以 Plugin 集成 Codex Design 赖叔 | LaiShu.ai @hiheimu @dotey 模型能力与Harness是相辅相成的。 宝玉这篇对这两个的解释太通透了。另外，宝玉怎么看开源的Open Design之类的？如果他用上了Claude Code的模型，是否也能达到类似的工程能力呢？ 🔗 View Quoted Tweet 💬 20 🔄 4 ❤️ 48 👀 21348 📊 21 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "模型是根本，Harness层相对好补齐，但Harness这层不需要太多垂直领域的，Claude Design 很快就会合并到 Claude Desktop，Codex 在下一代或者几代模型能力够了后，会在 Codex App 直接以 Plugin 集成 Codex Design 赖叔 | LaiShu.ai @hiheimu @dotey 模型能力与Harness是相辅相成的。 宝玉这篇对这两个的解释太通透了。另外，宝玉怎么看开源的Open Design之类的？如果他用上了Claude Code的模型，是否也能达到类似的工程能力呢？ 🔗 View Quoted Tweet 💬 20 🔄 4 ❤️ 48 👀 21348 📊 21 ⚡ Powered by xgo.ing",
+          "summaryZh": "模型是根本，Harness层相对好补齐，但Harness这层不需要太多垂直领域的，Claude Design 很快就会合并到 Claude Desktop，Codex 在下一代或者几代模型能力够了后，会在 Codex App 直接以 Plugin 集成 Codex Design 赖叔 | LaiShu.ai 模型能力与Harness是相辅相成的。 宝玉这篇对这两个的解释太通透了。另外，宝玉怎么看开源的Open Design之类的？如果他用上了Claude Code的模型，是否也能达到类似的工程能力呢？ \udd17 View Quoted Tweet",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "模型"
+          ],
+          "score": 47.9750099293541
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "OmniVideo-100K: A Dataset for Audio-Visual Reasoning through Structured Scripts and Evidence Chains",
+          "titleZh": "OmniVideo-100K：通过结构化脚本和证据链进行视听推理的数据集",
+          "link": "https://huggingface.co/papers/2606.14702",
+          "publishedAt": "2026-06-14T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Hugging Face Papers 2026-06-15 排名第 3 的论文候选。",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.14702/gradient.png",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-06-15 排名第 3 的论文候选。",
+          "summaryZh": "**核心结论**：这篇论文想解决当前音视频问答数据生成流程里两个老问题：一是音频和画面往往被分开描述，声音来源与视觉对象对应不上；二是长视频切片后，同一个人物或物体在不同片段里容易被描述得前后不一致。作者提出一套基于 **结构化脚本** 和 **证据链** 的自动数据引擎，把视频先整理成带实体列表、时间戳、视觉描述、语音转写和非语音声音的脚本，再从这些跨片段线索里生成更强的视听推理问答。\n\n**支撑证据**：作者构建了 **OmniVideo-100K** 指令微调数据集和 **505 条人工验证样本** 的 OmniVideo-Test，覆盖 **10 类视听任务**。用它微调 **VITA-1.5、Qwen2.5-Omni-7B、Qwen3-Omni-30B** 后，在 OmniVideo-Test 上最高提升 **20.59%**，在 **Daily-Omni、JointAVBench** 等已有基准上也出现最高 **12.64%** 的泛化增益，代码和数据已开源到 **MiG-NJU/OmniVideo-100K**。\n\n**我的判断**：这篇工作的价值在于把“更会看视频”拆成更可操作的数据构建问题，尤其适合做长视频、多模态事件链和跨片段因果推理训练。后续值得继续看两点：这种脚本化生成流程是否会引入模板偏差，以及在更复杂开放场景里的泛化是否还能保持。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "推理能力",
+            "论文",
+            "视频"
+          ],
+          "score": 37
+        },
+        {
+          "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+          "titleZh": "ClinHallu：医学 MLLM 推理中诊断阶段性幻觉的基准",
+          "link": "https://huggingface.co/papers/2606.14697",
+          "publishedAt": "2026-06-14T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Paper page - ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Code and datasets: https://github.com/alibaba-damo-academy/ClinHallu \\n\",\"updatedAt\":\"2",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.14697/gradient.png",
+          "video": "",
+          "summary": "Paper page - ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Code and datasets: https://github.com/alibaba-damo-academy/ClinHallu \\n\",\"updatedAt\":\"2",
+          "summaryZh": "**核心结论**：这篇论文不满足于只看“医疗多模态模型有没有答错”，而是继续追问：**幻觉究竟出在看图、调知识，还是整合推理这一步**。作者提出 **ClinHallu**，把医疗 MLLM 的推理过程拆成 **视觉识别、知识召回、推理整合** 三个阶段，希望定位具体是哪一段出了错，从而更细粒度地诊断和缓解高风险医疗场景里的幻觉问题。\n\n**支撑证据**：ClinHallu 基于 **4 个医疗 VQA 数据集** 构建，包含 **7,031 条人工校验样本**，每条都配有结构化参考推理链。作者还设计了 **阶段替换干预**，观察修正某一阶段后最终答案是否改善，并在 **11 个开源和闭源医疗 MLLM** 上做评测。论文同时报告，带推理链监督的微调可以降低阶段性幻觉，代码和数据集已开源到 **alibaba-damo-academy/ClinHallu**。\n\n**我的判断**：这类基准的意义很直接，它让医疗模型的“错”从黑盒结果变成可分析的故障定位，更适合后续做定向修复、对齐和安全评估。值得继续验证的是，这三阶段划分能否覆盖更复杂临床任务，以及结构化推理链是否会影响不同模型之间的公平比较。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "推理能力",
+            "评测",
+            "论文"
+          ],
+          "score": 37
+        },
+        {
+          "title": "From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI",
+          "titleZh": "从聊天机器人到数字同事：向持久自主人工智能的范式转变",
+          "link": "https://huggingface.co/papers/2606.14502",
+          "publishedAt": "2026-06-14T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Paper page - From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up This paper systematically reviews the evolution of AI systems from passive, session-based c",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.14502/gradient.png",
+          "video": "",
+          "summary": "Paper page - From Chatbot to Digital Colleague: The Paradigm Shift Toward Persistent Autonomous AI Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up This paper systematically reviews the evolution of AI systems from passive, session-based c",
+          "summaryZh": "**核心结论**：这篇论文的主线是，AI 系统正在从一次一答、会话结束就“失忆”的聊天机器人，转向能 **长期记忆、持续执行任务、跨会话保持目标** 的“数字同事”。作者把这种变化看成范式迁移，讨论的重点不只是模型更强，而是 AI 是否开始具备更稳定的任务持续性、自主性和协作能力。\n\n**支撑证据**：从论文公开摘要看，这是一篇偏 **系统综述/框架讨论** 的工作，系统回顾了 AI 从被动、会话式助手走向 **persistent autonomous AI** 的演进路径，试图总结支撑这一转变的关键能力和系统特征。它更像在给当前 agent、长期记忆和任务自动化趋势做概念整理，而不是提出单一新模型或单一数据集。\n\n**我的判断**：这篇文章的阅读价值在于，它为“数字员工”“长期运行 agent”这些热词提供了更清晰的框架，有助于判断哪些能力只是 demo，哪些才是真正的系统级门槛。限制也很明显：如果缺少统一实验设置和量化对比，结论更适合作为趋势地图，而不是直接拿来指导工程选型。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "论文"
+          ],
+          "score": 32
+        },
+        {
+          "title": "From AGI to ASI",
+          "titleZh": "从AGI到ASI",
+          "link": "https://huggingface.co/papers/2606.12683",
+          "publishedAt": "2026-06-14T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Paper page - From AGI to ASI Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up https://x.com/scychan_brains/status/2066272306218021011?s=46 \\n\",\"updatedAt\":\"2026-06-15T02:13:50.465Z\",\"author\":{\"_id\":\"648a374f00f7a3374ee64b99\",\"avatarUrl\":\"h",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.12683/gradient.png",
+          "video": "",
+          "summary": "Paper page - From AGI to ASI Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up https://x.com/scychan_brains/status/2066272306218021011?s=46 \\n\",\"updatedAt\":\"2026-06-15T02:13:50.465Z\",\"author\":{\"_id\":\"648a374f00f7a3374ee64b99\",\"avatarUrl\":\"h",
+          "summaryZh": "**核心结论**：这份来自 **Google DeepMind** 的长篇报告关注一个更大的问题：如果人类级 AGI 真出现了，AI 之后会沿着什么路径继续走向 **ASI（超人工智能）**。作者认为，AGI 到 ASI 不一定是一次断崖式跃迁，更可能是由 **规模继续扩张、范式变迁、递归改进、多智能体集体协作** 等多条路径并行推动的一系列持续变化。\n\n**支撑证据**：报告先界定了 AGI 与 ASI 的区别，再讨论四条可能路径和对应摩擦因素。摘要里给出一个关键信号：作者认为过去十年 AI 的算力、资金、研究投入和算法效率都在持续增长，**有效算力每年约 10 倍** 的估计并不能排除未来几年继续加速的可能。同时，报告也强调硬件、数据、算法效率、研究自动化和系统摩擦都可能成为瓶颈，因此整体更像一份研究议程和问题地图，并没有试图给出确定时间表。\n\n**我的判断**：这篇报告值得关注，因为它把“AGI 之后怎么办”拆成了可讨论的技术路径和阻力清单，适合做战略和研究视角的参考。它的局限也很明确：这类宏观报告高度依赖趋势外推和假设组合，适合帮助提问，不适合被当成短期能力判断或投资结论。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "论文"
+          ],
+          "score": 32
+        },
+        {
+          "title": "Publishing WASM wheels to PyPI for use with Pyodide",
+          "titleZh": "将 WASM 轮发布到 PyPI 以与 Pyodide 一起使用",
+          "link": "https://simonwillison.net/2026/Jun/13/publishing-wasm-wheels/#atom-everything",
+          "publishedAt": "2026-06-13T23:55:18+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "The Pyodide 314.0 release announcement (via Hacker News ) includes news I've been looking forward to for a long time: You can now publish Python packages built for Pyodide (or any Python runtime compatible with the PyEmscripten platform defined in PEP 783 ) directly to PyPI and install them at runtime. Previously, the Pyodide maintainers had to maintain, build, and host over 300 packages ourselves. This created a significant burden on our maintainers and became a major bottleneck for the community, as every new package required manual review. Moving forward, package maintainers can simply build and publish Pyodide wheels to PyPI, just as they do for native wheels on Linux, macOS, or Windows. Here's the PR to PyPI itself supporting this , which landed on April 21st. I adore Pyodide , and have been frustrated in the past by this limitation. It's possible to compile C or Rust extensions to WASM in a wheel file, but before now there was no easy way to distribute them. Thanks to the efforts of a whole lot of people, that's now been fixed! Trying it out with luau-wasm I decided to celebrate by finding something I could package. I have quite a few experimental Pyodide projects lying around, but the best fit for this looked to be my Luau WebAssembly research spike from 9th March. Luau is a \"small, fast, and embeddable programming language based on Lua with a gradual type system\", developed by Roblox and released under an MIT license. It's written in C++. I already knew it was possible to compile it to WebAssembly and get it running inside of Pyodide, so I set Codex + GPT-5.5 xhigh the task of packaging my experiment up and publishing it to PyPI using GitHub Actions. It took some iteration, but here's the result: luau-wasm is a brand new PyPI package which publishes a 276KB luau_wasm-0.1a0-cp314-cp314-pyemscripten_2026_0_wasm32.whl file which can be used in Pyodide like this: import micropip await micropip . install ( \"luau-wasm\" ) import luau_wasm print ( luau_wasm . execute ( r''' local animals = {\"fox\", \"owl\", \"frog\", \"rabbit\"} table.sort(animals, function(a, b) return #a for i, name in animals do print(i .. \". \" .. name .. \" (\" .. #name .. \")\") end ''' )) You can run that code in the Pyodide REPL demo to see it in action. The GitHub repo for luau-wasm includes all of the build and deploy scripts (using the latest cibuildwheel ) and also deploys an HTML demo page which loads Pyodide, installs luau-wasm and provides an interface for trying it out: https://simonw.github.io/luau-wasm/ How many packages are using this so far? I was curious to see how many packages are currently publishing wheels for this platform. After some tinkering with ChatGPT I got to this BigQuery SQL which I ran against PyPI's public dataset on BigQuery . Here's the raw JSON of query results and here's a SQLite SQL query in Datasette Lite which dedupes packages by most recent upload date. If the query is right, there are currently 28 PyPI packages publishing with the new pyemscripten_202*_wasm32 tags: luau-wasm , uuid7-rs , cmm-16bit , pyOpenTTDAdmin , imgui-bundle , numbertoolkit , bashkit , geoarrow-rust-core , arro3-io , arro3-core , arro3-compute , onnx , powerfit-em , tcod , chonkie-core , tokie , robotraconteur , pydantic_core , yaml-rs , cadquery-ocp-novtk-OCP.wasm , uuid_utils , base64_utils , pycdfpp , lib3mf-OCP.wasm , typst , toml-rs , onnx-weekly , dummy-pyodide-ext-test Here's hoping we see a whole lot more of those showing up over the coming months and years. Tags: lua , pypi , python , sandboxing , webassembly , github-actions , pyodide",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://static.simonwillison.net/static/2026/luau-wasm.jpg",
+          "video": "",
+          "summary": "The Pyodide 314.0 release announcement (via Hacker News ) includes news I've been looking forward to for a long time: You can now publish Python packages built for Pyodide (or any Python runtime compatible with the PyEmscripten platform defined in PEP 783 ) directly to PyPI and install them at runtime. Previously, the Pyodide maintainers had to maintain, build, and host over 300 packages ourselves. This created a significant burden on our maintainers and became a major bottleneck for the community, as every new...",
+          "summaryZh": "**核心要点** Pyodide 314.0 发布公告（来自 Hacker News）包含了我期待已久的消息：您现在可以将为 Pyodide （或与 PEP 783 中定义的 PyEmscripten 平台兼容的任何 Python 运行时）构建的 Python 包直接发布到 PyPI 并在运行时安装它们。此前，Pyodide 维护者必须自己维护、构建和托管 300 多个软件包。这给我们的维护人员带来了沉重的负担，并成为社区的主要瓶颈，因为每一个新的......",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "开源"
+          ],
+          "score": 31
+        },
+        {
+          "title": "luau-wasm 0.1a0",
+          "titleZh": "luau-wasm 0.1a0：面向 Pyodide 的 Luau WebAssembly 包",
+          "link": "https://simonwillison.net/2026/Jun/13/luau-wasm/#atom-everything",
+          "publishedAt": "2026-06-13T23:14:30+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Release: luau-wasm 0.1a0 Simon Willison’s Weblog Subscribe Sponsored by: Teleport &mdash; Prevent access bottlenecks. Unify identity. Teleport replaces fragmented identity and access tooling with a single identity layer that security teams trust, and engineers want to use. 13th June 2026 Release luau-wasm 0.1a0 &mdash; Luau packaged as a Pyodide WebAssembly wheel See Publishing WASM wheels to PyPI for use with Pyodide for details. Posted 13th June 2026 at 11:14 pm Recent articles Publishing WASM wheels to PyPI for ",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Release: luau-wasm 0.1a0 Simon Willison’s Weblog Subscribe Sponsored by: Teleport &mdash; Prevent access bottlenecks. Unify identity. Teleport replaces fragmented identity and access tooling with a single identity layer that security teams trust, and engineers want to use. 13th June 2026 Release luau-wasm 0.1a0 &mdash; Luau packaged as a Pyodide WebAssembly wheel See Publishing WASM wheels to PyPI for use with Pyodide for details. Posted 13th June 2026 at 11:14 pm Recent articles Publishing WASM wheels to PyPI for ",
+          "summaryZh": "**核心要点**：Simon Willison 发布了 **luau-wasm 0.1a0**，把 Roblox 的 **Luau** 语言封装成可在 **Pyodide** 里安装的 WebAssembly wheel。它本身像是上一篇 Pyodide/PyPI 兼容性更新的落地示例，说明浏览器里的 Python 生态已经开始支持更标准的 WASM 包分发。\n\n**展开说明**：这个包体积约 **276KB**，可以直接通过 `micropip` 安装，并在浏览器环境执行 Luau 代码。对开发者来说，这类案例的实际意义不是某个单独包，而是验证了“把非 Python 运行时能力以 wheel 形式带入 Pyodide”这条链路已经可行，后续更可能带动浏览器内数据处理、推理工具和轻量运行时的扩展。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布"
+          ],
+          "score": 27
+        },
+        {
+          "title": "Mapping SQLite result columns back to their source `table.column`",
+          "titleZh": "将 SQLite 结果列映射回其源“table.column”",
+          "link": "https://simonwillison.net/2026/Jun/13/sqlite-column-provenance/#atom-everything",
+          "publishedAt": "2026-06-13T23:05:00+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Research: Mapping SQLite result columns back to their source `table.column` It would be neat if arbitrary SQL queries in Datasette could be rendered with additional information based on which columns from which tables were included in the results. To build that, we would need to be able to look at a SQL query like select users.name, orders.total from users join orders on orders.user_id = users.id and programmatically identify the table.column for each result - navigating not just joins but also more complex syntax like CTEs. I decided to set Claude Code (Opus 4.8, since Fable is currently banned by the US government ) on the problem. It found several promising solutions - one using apsw , another that uses ctypes to access the SQLite sqlite3_column_table_name() C function (which is not otherwise exposed to Python), and one using clever interrogation of the output of EXPLAIN . Tags: python , sqlite , datasette",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Research: Mapping SQLite result columns back to their source `table.column` It would be neat if arbitrary SQL queries in Datasette could be rendered with additional information based on which columns from which tables were included in the results. To build that, we would need to be able to look at a SQL query like select users.name, orders.total from users join orders on orders.user_id = users.id and programmatically identify the table.column for each result - navigating not just joins but also more complex synt...",
+          "summaryZh": "研究：将 SQLite 结果列映射回其源“table.column” 如果 Datasette 中的任意 SQL 查询可以根据结果中包含的表中的列使用附加信息来呈现，那就太好了。为了构建它，我们需要能够查看 SQL 查询，例如 select users.name、orders.total from users join orders onorders.user_id = users.id 并以编程方式识别每个结果的 table.column - 不仅导航连接，还导航更复杂的语法...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 23
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "GorvGoyl/Clone-Wars",
+          "titleZh": "GorvGoyl/Clone-Wars：收录 100 多个热门网站克隆项目的开源合集",
+          "link": "https://github.com/GorvGoyl/Clone-Wars",
+          "publishedAt": "2026-06-14T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Sponsor Star GorvGoyl / Clone-Wars 100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://repository-images.githubusercontent.com/317836248/96dbc980-8418-11eb-956e-b6af768e1b3e",
+          "video": "",
+          "summary": "Sponsor Star GorvGoyl / Clone-Wars 100+ open-source clones of popular sites like Airbnb, Amazon, Instagram, Netflix, Tiktok, Spotify, Whatsapp, Youtube etc. See source code, demo links, tech stack, github stars.",
+          "summaryZh": "这个仓库把 **100 多个热门互联网产品的开源克隆项目** 放在一起，覆盖 **Airbnb、Amazon、Instagram、Netflix、TikTok、Spotify、WhatsApp、YouTube** 等常见站点，并整理了源码入口、演示链接、技术栈和星标信息。对想做产品拆解、前端练习、系统设计教学或快速找参考实现的人来说，这类合集的价值在于能一次性看到不同产品形态的工程落地方式，也方便横向比较技术选型和交互实现。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "开源"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Panniantong/Agent-Reach",
+          "titleZh": "Panniantong/Agent-Reach：让 AI 代理跨平台读取和搜索互联网内容的 CLI",
+          "link": "https://github.com/Panniantong/Agent-Reach",
+          "publishedAt": "2026-06-14T18:30:00.000Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "description": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/fadd5eae8570fe2987b866c57a6405778ce9a6386895d4d4445e0f1734b78922/Panniantong/Agent-Reach",
+          "video": "",
+          "summary": "Star Panniantong / Agent-Reach Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+          "summaryZh": "这是一个面向 **AI 代理** 的命令行工具，主打让代理直接读取和搜索 **Twitter、Reddit、YouTube、GitHub、Bilibili、小红书** 等平台内容，并强调 **一个 CLI、零额外 API 费用** 的接入方式。它值得关注的点不只是信息源覆盖面，更在于把跨站检索和内容读取封装成统一接口，适合拿来做检索增强、竞品监测、线索收集或自动化调研原型。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "API",
+            "智能体",
+            "开源"
+          ],
+          "score": 30
+        },
+        {
+          "title": "mvanhorn/last30days-skill",
+          "titleZh": "mvanhorn/last30days-skill：AI 代理技能可研究 Reddit、X、YouT",
+          "link": "https://github.com/mvanhorn/last30days-skill",
+          "publishedAt": "2026-06-14T18:30:00.000Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "description": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/57034eb125db6d85e4024b540d752ce5e7852c53d04ce36ae8e2eaa7afec15ca/mvanhorn/last30days-skill",
+          "video": "",
+          "summary": "Star mvanhorn / last30days-skill AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "summaryZh": "AI 代理技能可研究 Reddit、X、YouTube、HN、Polymarket 和网络上的任何主题，然后综合得出有依据的摘要（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 24
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Learn how to vibe code in 5 days! Build scalable agent systems using natural language and complete ...",
+          "titleZh": "5 天学会如何震动代码。在我们的研究人员和工程师主办的 @Kaggle 课程中，使用自然",
+          "link": "https://x.com/googleaidevs/status/2066226263766007808",
+          "publishedAt": "Sun, 14 Jun 2026 18:28:24 GMT",
+          "source": "Google AI Developers(@googleaidevs)",
+          "sourceType": "social",
+          "description": "Learn how to vibe code in 5 days! Build scalable agent systems using natural language and complete a hands-on capstone project in this @Kaggle course hosted by our researchers and engineers. 💬 5 🔄 19 ❤️ 135 👀 7149 📊 34 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKy1pPgbMAA4NW1.jpg",
+          "video": "",
+          "summary": "Learn how to vibe code in 5 days! Build scalable agent systems using natural language and complete a hands-on capstone project in this @Kaggle course hosted by our researchers and engineers. 💬 5 🔄 19 ❤️ 135 👀 7149 📊 34 ⚡ Powered by xgo.ing",
+          "summaryZh": "5 天学会如何震动代码！在我们的研究人员和工程师主办的 @Kaggle 课程中，使用自然语言构建可扩展的代理系统并完成实践顶点项目。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 56.6958259378941
+        },
+        {
+          "title": "“If an AI cannot apply an abstract lesson to a new situation, it is not truly reasoning or learning”...",
+          "titleZh": "「“如果人工智能无法将抽象课程应用到新情况，那么它就不是真正的推理或学习”」要解决的问题",
+          "link": "https://x.com/GaryMarcus/status/2066177872637878369",
+          "publishedAt": "Sun, 14 Jun 2026 15:16:07 GMT",
+          "source": "Gary Marcus(@GaryMarcus)",
+          "sourceType": "social",
+          "description": "“If an AI cannot apply an abstract lesson to a new situation, it is not truly reasoning or learning”, new study with further evidence backing up what I have been saying for 25 years. cc @dwarkesh_sp Rohan Paul @rohanpaul_ai Researchers found our current approach to making AI smarter over time has a giant blind spot. AI is not actually understanding or applying high-level abstract lessons at all. Developers spend massive amounts of time building systems that condense past AI mistakes into neat little rules for the future. This paper proves that the AI essentially throws those rules in the trash and only looks at raw historical logs. Modern LLM systems try to get better over time by storing past tasks as either raw step-by-step histories or condensed summary rules. The study tested if these agents actually use their stored memories by secretly swapping the correct tips with random garbage text. - When the step-by-step histories were messed up, the AI failed hard, proving it heavily relies on copying exact past actions. - But when researchers completely corrupted the condensed summary rules, the AI kept acting normally and showed zero performance drop. If an AI cannot apply an abstract lesson to a new situation, it is not truly reasoning or learning. This raises the question if the entire AI industry need to rethink how memory works because right now these agents are just mimicking instead of understanding. ---- arxiv. org/abs/2601.22436 \"LLM Agents Are Not Always Faithful Self-Evolvers\" 🔗 View Quoted Tweet 💬 39 🔄 111 ❤️ 511 👀 31079 📊 106 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKws5k6aQAAnTQp.jpg",
+          "video": "",
+          "summary": "“If an AI cannot apply an abstract lesson to a new situation, it is not truly reasoning or learning”, new study with further evidence backing up what I have been saying for 25 years. cc @dwarkesh_sp Rohan Paul @rohanpaul_ai Researchers found our current approach to making AI smarter over time has a giant blind spot. AI is not actually understanding or applying high-level abstract lessons at all. Developers spend massive amounts of time building systems that condense past AI mistakes into neat little rules for th...",
+          "summaryZh": "**核心结论** 「“如果人工智能无法将抽象课程应用到新情况，那么它就不是真正的推理或学习”」要解决的问题是：“如果人工智能无法将抽象课程应用到新情况，那么它就不是真正的推理或学习”，这项新研究提供了进一步的证据支持我 25 年来一直在说的话。cc @dwarkesh_sp Rohan Paul @rohanpaul_ai 研究人员发现，随着时间的推移，我们目前使人工智能变得更加智能的方法存在巨大的盲点。人工智能实际上根本没有理解或应用高级抽象课程。 **支撑证据** 摘要与公开信息显示：“如果人工智能无法将抽象课程应用到新情况，那么它就不是真正的推理或学习”，这项新研究提供了进一步的证据支持我 25 年来一直在说的话。 cc @dwarkesh_sp Rohan Paul @rohanpaul_ai 研究人员发现，随着时间的推移，我们目前使人工智能变得更加智能的方法存在巨大的盲点。人工智能实际上根本没有理解或应用高级抽象课程。开发人员花费大量时间构建系统，将过去的人工智能错误浓缩为简洁的小规则...... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "推理能力",
+            "论文",
+            "开发者工具"
+          ],
+          "score": 51.27629739576496
+        },
+        {
+          "title": "horrifying",
+          "titleZh": "「可怕的」要解决的问题是：令人恐惧的 Mike Young @micyoung75 Peter Thiel 和 Balaji Srinivasan 资助了一个名",
+          "link": "https://x.com/GaryMarcus/status/2066148243772506275",
+          "publishedAt": "Sun, 14 Jun 2026 13:18:23 GMT",
+          "source": "Gary Marcus(@GaryMarcus)",
+          "sourceType": "social",
+          "description": "horrifying Mike Young @micyoung75 Peter Thiel and Balaji Srinivasan have funded a platform called Objection.ai that allows anyone to file a complaint against a journalist's story for a starting price of $2,000. A team of human investigators examines the story, then submits findings to a \"jury\" of AI models - OpenAI, Anthropic, Grok, Google - which publish a \"verdict\" on the story's truthfulness and rank individual journalists on metrics including truth-telling and corrections. If the journalist doesn't respond to defend their reporting, the verdict is issued and published online anyway. The platform is being sold as \"letting anyone fight the press like a billionaire.\" The creator is Aron D'Souza, who led the Thiel-funded lawsuit that bankrupted Gawker in 2016. The design choices tell you what this is. The system treats anonymous sources as less trustworthy and ranks anonymous whistleblower claims near the bottom. Anonymous sources are how most significant accountability journalism happens - they're how the Pentagon Papers got out, how the CIA's black site program got exposed, how the HHS stories we've covered this week were reported. The people who most need protection from powerful interests are specifically deprioritized by Objection's scoring system. The creator calls it \"the same as Community Notes.\" A civil rights and defamation attorney calls it \"a high-tech protection racket for the rich and powerful.\" One of those descriptions is accurate. The AI models being used as the \"tribunal\" were trained on journalists' work without consent or compensation. They hallucinate. They amplify bias. They are being deployed here specifically to issue verdicts on the work of the people whose labor built them. Thiel killed Gawker with a lawsuit. This is faster and cheaper. 🔗 View Quoted Tweet 💬 19 🔄 83 ❤️ 398 👀 34381 📊 64 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKgBVjbXQAAMorF.jpg",
+          "video": "",
+          "summary": "horrifying Mike Young @micyoung75 Peter Thiel and Balaji Srinivasan have funded a platform called Objection.ai that allows anyone to file a complaint against a journalist's story for a starting price of $2,000. A team of human investigators examines the story, then submits findings to a \"jury\" of AI models - OpenAI, Anthropic, Grok, Google - which publish a \"verdict\" on the story's truthfulness and rank individual journalists on metrics including truth-telling and corrections. If the journalist doesn't respond t...",
+          "summaryZh": "**核心结论** 「可怕的」要解决的问题是：令人恐惧的 Mike Young @micyoung75 Peter Thiel 和 Balaji Srinivasan 资助了一个名为 Objection.ai 的平台，该平台允许任何人对记者的报道提出投诉，起价为 2,000 美元。一组人类调查人员检查了这个故事，然后将调查结果提交给人工智能模型“陪审团”——OpenAI、Anthropic、Grok、Google——该委员会对故事的真实性做出“裁决”，并根据包括说真话和纠正情况在内的指标对个别记者进行排名。如果记者不回应。 **支撑证据** 摘要与公开信息显示：令人恐惧的 Mike Young @micyoung75 Peter Thiel 和 Balaji Srinivasan 资助了一个名为 Objection.ai 的平台，该平台允许任何人对记者的报道提出投诉，起价为 2,000 美元。一组人类调查人员检查了这个故事，然后将调查结果提交给人工智能模型“陪审团”——OpenAI、Anthropic、Grok、Google——该委员会对故事的真实性做出“裁决”，并根据包括说真话和纠正情况在内的指标对个别记者进行排名。如果记者不回应... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "论文"
+          ],
+          "score": 45.357976854510696
+        },
+        {
+          "title": "免费在线看国内海外电视剧、电影、纪录片，一键换台。 不过，海外频道多数没字幕，很锻炼英语听力。 基于开源IPTV库，去除成人频道（Codex默认操作） 网站地址：https://t.co/FKQ...",
+          "titleZh": "免费在线看国内海外电视剧、电影、纪录片，一键换台",
+          "link": "https://x.com/vista8/status/2066153597839302899",
+          "publishedAt": "Sun, 14 Jun 2026 13:39:39 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "description": "免费在线看国内海外电视剧、电影、纪录片，一键换台。 不过，海外频道多数没字幕，很锻炼英语听力。 基于开源IPTV库，去除成人频道（Codex默认操作） 网站地址： iptv.qiaomu.ai 已免费开源，Github见评论区 💬 4 🔄 4 ❤️ 20 👀 1391 📊 9 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKxxlULaAAAYsfF.jpg",
+          "video": "",
+          "summary": "免费在线看国内海外电视剧、电影、纪录片，一键换台。 不过，海外频道多数没字幕，很锻炼英语听力。 基于开源IPTV库，去除成人频道（Codex默认操作） 网站地址： iptv.qiaomu.ai 已免费开源，Github见评论区 💬 4 🔄 4 ❤️ 20 👀 1391 📊 9 ⚡ Powered by xgo.ing",
+          "summaryZh": "免费在线看国内海外电视剧、电影、纪录片，一键换台。 不过，海外频道多数没字幕，很锻炼英语听力。 基于开源IPTV库，去除成人频道（Codex默认操作） 网站地址： iptv.qiaomu.ai 已免费开源，Github见评论区。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源"
+          ],
+          "score": 44.10124604485555
+        },
+        {
+          "title": "当年 GPT 3.5 的时候，很多人在提示词里面让它把自己当成 GPT-4，号称性能就更好，你现在信吗？",
+          "titleZh": "当年 GPT 3.5 的时候，很多人在提示词里面让它把自己当成 GPT-4，号称性能就更好，你现在信吗？",
+          "link": "https://x.com/dotey/status/2066056108884566122",
+          "publishedAt": "Sun, 14 Jun 2026 07:12:16 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "当年 GPT 3.5 的时候，很多人在提示词里面让它把自己当成 GPT-4，号称性能就更好，你现在信吗？ Phoenix Yin @Phoenixyin13 这是prompt engineering 101。 Fable 5的真正实力来自Mythos-class底层权重，海量新训练数据，外加复杂agent架构，不是prompt copy就能继承的。 泄露prompt与老模型顶多cosplay出味道像的lite版，性能差距巨大。连轻量版都算不上。 真Fable 5在长时程复杂分析、工具链、自验证这些硬核任务上直接甩老模型几条街。 目前还是希望多一些scaling law训练创新和实打实的benchmark。 🔗 View Quoted Tweet 💬 33 🔄 3 ❤️ 67 👀 41728 📊 30 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKv9Ab3WsAEv7MK.jpg",
+          "video": "",
+          "summary": "当年 GPT 3.5 的时候，很多人在提示词里面让它把自己当成 GPT-4，号称性能就更好，你现在信吗？ Phoenix Yin @Phoenixyin13 这是prompt engineering 101。 Fable 5的真正实力来自Mythos-class底层权重，海量新训练数据，外加复杂agent架构，不是prompt copy就能继承的。 泄露prompt与老模型顶多cosplay出味道像的lite版，性能差距巨大。连轻量版都算不上。 真Fable 5在长时程复杂分析、工具链、自验证这些硬核任务上直接甩老模型几条街。 目前还是希望多一些scaling law训练创新和实打实的benchmark。 🔗 View Quoted Tweet 💬 33 🔄 3 ❤️ 67 👀 41728 📊 30 ⚡ Powered by xgo.ing",
+          "summaryZh": "当年 GPT 3.5 的时候，很多人在提示词里面让它把自己当成 GPT-4，号称性能就更好，你现在信吗？ Phoenix Yin 这是prompt engineering 101。 Fable 5的真正实力来自Mythos-class底层权重，海量新训练数据，外加复杂agent架构，不是prompt copy就能继承的。 泄露prompt与老模型顶多cosplay出味道像的lite版，性能差距巨大。连轻量版都算不上。 真Fable 5在长时程复杂分析、工具链、自验证这些硬核任务上直接甩老模型几条街。 目前还是希望多一些scaling law训练创新和实打实的benchmark。 \udd17 View Quoted Tweet",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "评测",
+            "模型"
+          ],
+          "score": 42.99629151653082
+        },
+        {
+          "title": "模型能力才是王道，如果模型能力差不多，自然是 Codex 胜出，模型能力有差距的时候我宁可麻烦一点手动操作 https://t.co/Ms3InQB7fz",
+          "titleZh": "模型能力才是王道，如果模型能力差不多，自然是 Codex 胜出，模型能力有差距的时候我宁可麻烦一点手动操作 x.com/Xxi5olc/status… Axi",
+          "link": "https://x.com/dotey/status/2065940990670614874",
+          "publishedAt": "Sat, 13 Jun 2026 23:34:50 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "模型能力才是王道，如果模型能力差不多，自然是 Codex 胜出，模型能力有差距的时候我宁可麻烦一点手动操作 x.com/Xxi5olc/status… Axi @Xxi5olc @dotey 因为codex browser内建的前端修改功能比claude design强。 跟我一起合作的设计师都觉得claude design是网页版这件事极反常理。 他就应该跟coding agent做在一起。 🔗 View Quoted Tweet 💬 3 🔄 1 ❤️ 6 👀 10295 📊 3 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "模型能力才是王道，如果模型能力差不多，自然是 Codex 胜出，模型能力有差距的时候我宁可麻烦一点手动操作 x.com/Xxi5olc/status… Axi @Xxi5olc @dotey 因为codex browser内建的前端修改功能比claude design强。 跟我一起合作的设计师都觉得claude design是网页版这件事极反常理。 他就应该跟coding agent做在一起。 🔗 View Quoted Tweet 💬 3 🔄 1 ❤️ 6 👀 10295 📊 3 ⚡ Powered by xgo.ing",
+          "summaryZh": "模型能力才是王道，如果模型能力差不多，自然是 Codex 胜出，模型能力有差距的时候我宁可麻烦一点手动操作 x.com/Xxi5olc/status… Axi 因为codex browser内建的前端修改功能比claude design强。 跟我一起合作的设计师都觉得claude design是网页版这件事极反常理。 他就应该跟coding agent做在一起。 \udd17 View Quoted Tweet",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "模型"
+          ],
+          "score": 42.60351494355744
+        },
+        {
+          "title": "could the u.s. policy be any stupider?",
+          "titleZh": "美国可以吗政策会更愚蠢吗？",
+          "link": "https://x.com/GaryMarcus/status/2066220993241309454",
+          "publishedAt": "Sun, 14 Jun 2026 18:07:27 GMT",
+          "source": "Gary Marcus(@GaryMarcus)",
+          "sourceType": "social",
+          "description": "could the u.s. policy be any stupider? Polymarket Money @PolymarketMoney JUST IN: Andrej Karpathy, a top AI scientist at Anthropic, is reportedly barred from accessing the company’s most advanced AI model because he is not a U.S. citizen. 🔗 View Quoted Tweet 💬 40 🔄 39 ❤️ 316 👀 14720 📊 56 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKszxzkb0AAPGs7.png",
+          "video": "",
+          "summary": "could the u.s. policy be any stupider? Polymarket Money @PolymarketMoney JUST IN: Andrej Karpathy, a top AI scientist at Anthropic, is reportedly barred from accessing the company’s most advanced AI model because he is not a U.S. citizen. 🔗 View Quoted Tweet 💬 40 🔄 39 ❤️ 316 👀 14720 📊 56 ⚡ Powered by xgo.ing",
+          "summaryZh": "美国可以吗政策会更愚蠢吗？ Polymarket Money 刚刚报道：Anthropic 的顶级人工智能科学家安德烈·卡帕蒂 (Andrej Karpathy) 据报道被禁止访问该公司最先进的人工智能模型，因为他不是美国公民。 查看引用的推文",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型"
+          ],
+          "score": 42.073046857297534
+        },
+        {
+          "title": "Browser Use plugins are now available in Claude Code. claude plugin marketplace add browser-use/plu...",
+          "titleZh": "浏览器使用插件现在可在 Claude Code 中使用",
+          "link": "https://x.com/browser_use/status/2065984185148624904",
+          "publishedAt": "Sun, 14 Jun 2026 02:26:28 GMT",
+          "source": "Browser Use(@browser_use)",
+          "sourceType": "social",
+          "description": "Browser Use plugins are now available in Claude Code. claude plugin marketplace add browser-use/plugins 💬 8 🔄 3 ❤️ 104 👀 5592 📊 33 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKvZEkFbYAAN5tS.png",
+          "video": "",
+          "summary": "Browser Use plugins are now available in Claude Code. claude plugin marketplace add browser-use/plugins 💬 8 🔄 3 ❤️ 104 👀 5592 📊 33 ⚡ Powered by xgo.ing",
+          "summaryZh": "浏览器使用插件现在可在 Claude Code 中使用。 claude 插件市场添加浏览器使用/插件。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 41.864586917367376
+        },
+        {
+          "title": "想写职场、武侠、修仙等任意风格小说？ 可自己完全没有思路，能创作吗？必须可以！ 今天开源一个乔木小说创作 Skill。 你只需说：“我想写一个小说” 或 “想写一个类似xxx的小说”。 AI自...",
+          "titleZh": "向阳乔木开源小说创作 Skill，支持从一句需求生成剧情与人物设定",
+          "link": "https://x.com/vista8/status/2066165703443726749",
+          "publishedAt": "Sun, 14 Jun 2026 14:27:45 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "description": "想写职场、武侠、修仙等任意风格小说？ 可自己完全没有思路，能创作吗？必须可以！ 今天开源一个乔木小说创作 Skill。 你只需说：“我想写一个小说” 或 “想写一个类似xxx的小说”。 AI自动给出剧情梗概，人物设定，还能把钩子、经典桥段、人物欲望、冲突升级和结尾自动处理好。 跟AI讨论没问题后，再生成完整、低 AI 味的小说。 小说 Skill 安装： npx skills add joeseesun/qiaomu-novel-generator Github免费开源，地址见评论区 💬 19 🔄 15 ❤️ 86 👀 6495 📊 46 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HKx9DUnbYAElBeK.jpg",
+          "video": "",
+          "summary": "想写职场、武侠、修仙等任意风格小说？ 可自己完全没有思路，能创作吗？必须可以！ 今天开源一个乔木小说创作 Skill。 你只需说：“我想写一个小说” 或 “想写一个类似xxx的小说”。 AI自动给出剧情梗概，人物设定，还能把钩子、经典桥段、人物欲望、冲突升级和结尾自动处理好。 跟AI讨论没问题后，再生成完整、低 AI 味的小说。 小说 Skill 安装： npx skills add joeseesun/qiaomu-novel-generator Github免费开源，地址见评论区 💬 19 🔄 15 ❤️ 86 👀 6495 📊 46 ⚡ Powered by xgo.ing",
+          "summaryZh": "向阳乔木分享了一个 **开源小说创作 Skill**，定位是把“我想写一个某种风格的小说”这类一句话需求，扩展成 **剧情梗概、人物设定、冲突升级、经典桥段和结尾设计**，再继续生成完整文本。它值得关注的地方在于把内容创作流程拆成更清晰的工作流，说明现在不少创作者已经不满足于单次 prompt，而是开始把写作规划、细节补全和成稿生成做成可复用的 AI 工具链。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源"
+          ],
+          "score": 41.18631599579999
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "AI的终局还没开始 | Alexander Wang | 加入Meta十个月",
+          "titleZh": "AI的终局还没开始 | Alexander Wang | 加入Meta十个月",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a1fd2d5b30e1571ae9fec48",
+          "publishedAt": "2026-06-13T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「AI的终局还没开始 | Alexander Wang | 加入Meta十个月」。2026年5月14日，亚历山大王（Alexander Wang）做客科技播客节目《Core Memory》，完成了入职Meta近一年来的首次全面公开访谈，这场访谈，从Llama 4偏离轨道的真相、Muse Spark的技术逻辑，到Meta超级智能实验室的内部架构、对AI终局的核心判断，再到他与山姆·奥特曼（Sam Altman）的决裂、和杨立昆的和解，以及马克·扎克伯格亲自煮汤挖人的真实细节，甚至是他开始深度思考的模型福祉等前沿哲学命题，他全都毫无保留地进行了分享。今天这期就来给大家还原一下，亚历山大王加入Meta后的真实工作状态、Meta AI的全盘战略布局，以及在他眼中，当前全球AI行业的格局与未来走向。原视频来自： **简介要点**： - 今天这期就来给大家还原一下，亚历山大王加入Meta后的真实工作状态、Meta AI的全盘战略布局，以及在他眼中，当前全球AI行业的格局与未来走向。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "什么是 HTML-in-Canvas？",
+          "titleZh": "什么是 HTML-in-Canvas？",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a2b618743a22a69558254aa",
+          "publishedAt": "2026-06-12T01:33:52.741Z",
+          "source": "猿来如此",
+          "sourceType": "podcast",
+          "description": "Google I/O 2026 上，Chrome 团队推了一个很容易被低估的新 Web 平台特性：HTML-in-Canvas。 很多人第一眼看到这个名字，脑子里会冒出一句话：哦，不就是终于可以在 canvas 里写 HTML 了吗？ 这理解不能说错，但太浅了。 HTML-in-Canvas 真正重要的地方，不是“Canvas 能不能塞一个 div”。它动的是前端一条存在了很多年的边界：DOM 负责语义、交互和浏览器能力，Canvas / WebGL / WebGPU 负责像素、图形和 GPU 管线。过去这两套世界像两个国家，边境线画得很硬。你要 DOM 的可访问性、复制、查找、翻译、表单和 DevTools，就老老实实待在 DOM 里。你要 shader、3D、游戏、复杂画布和极致视觉控制，就进 canvas，但很多浏览器能力要自己重造，或者直接放弃。 HTML-in-Canvas 的变化是：浏览器开始给这两个国家修桥。 说白了，它不是让 Canvas 变成 DOM，也不是让 DOM 消失。它更像是让真实 DOM 变成图形管线的一种输入。 这就有意思了。 先说它到底是什么 按 Chrome 官方介绍，HTML-in-Can",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FvySQOPeq2hMXhcI_-Ch7PBANemw.png",
+          "video": "",
+          "summary": "Google I/O 2026 上，Chrome 团队推了一个很容易被低估的新 Web 平台特性：HTML-in-Canvas。 很多人第一眼看到这个名字，脑子里会冒出一句话：哦，不就是终于可以在 canvas 里写 HTML 了吗？ 这理解不能说错，但太浅了。 HTML-in-Canvas 真正重要的地方，不是“Canvas 能不能塞一个 div”。它动的是前端一条存在了很多年的边界：DOM 负责语义、交互和浏览器能力，Canvas / WebGL / WebGPU 负责像素、图形和 GPU 管线。过去这两套世界像两个国家，边境线画得很硬。你要 DOM 的可访问性、复制、查找、翻译、表单和 DevTools，就老老实实待在 DOM 里。你要 shader、3D、游戏、复杂画布和极致视觉控制，就进 canvas，但很多浏览器能力要自己重造，或者直接放弃。 HTML-in-Canvas 的变化是：浏览器开始给这两个国家修桥。 说白了，它不是让 Canvas 变成 DOM，也不是让 DOM 消失。它更像是让真实 DOM 变成图形管线的一种输入。 这就有意思了。 先说它到底是什么 按 Chrome 官方介绍，HTML-in-Can",
+          "summaryZh": "**讲了什么**：这一期来自 **猿来如此**，主题是「什么是 HTML-in-Canvas？」。Google I/O 2026 上，Chrome 团队推了一个很容易被低估的新 Web 平台特性：HTML-in-Canvas。很多人第一眼看到这个名字，脑子里会冒出一句话：哦，不就是终于可以在 canvas 里写 HTML 了吗？这理解不能说错，但太浅了。HTML-in-Canvas 真正重要的地方，不是“Canvas 能不能塞一个 div”。它动的是前端一条存在了很多年的边界：DOM 负责语义、交互和浏览器能力，Canvas / WebGL / WebGPU 负责像素、图形和 GPU 管线。过去这两套世界像两个国家，边境线画得很硬。你要 DOM 的可访问性、复制、查找、翻译、表单和 DevTools，就老老实实待在 DOM 里。 **简介要点**： - 用户以为这是界面，辅助技术可能只看到一块空白。 - 你用 DOM，就很难把一个真实按钮贴到 3D 模型上，然后让它被玻璃折射、被 shader 扭曲、跟着模型旋转。 - 你在 canvas 的 paint event 里调用 ctx.drawElementImage(element, x, y)，浏览器就会把这个元素的渲染结果画到 canvas 上。 - 这一步才是很多 3D 开发者眼睛一亮的地方。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "什么是 Loop Engineering？",
+          "titleZh": "什么是 Loop Engineering？",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a27d0507444b5722235f945",
+          "publishedAt": "2026-06-09T08:48:28.888Z",
+          "source": "猿来如此",
+          "sourceType": "podcast",
+          "description": "这两天有句话在 AI 开发圈里传得很猛。 Claude Code 的 Boris Cherny 被转述说： > I don't prompt Claude anymore. I have loops running that prompt Claude and figuring out what to do. My job is to write loops. 翻成人话就是：我已经不再手动 prompt Claude 了。我有一堆 loop 在跑，它们会去 prompt Claude，自己判断下一步该做什么。我的工作是写这些 loop。 很多人看到这句话，第一反应是：好家伙，Prompt Engineering 又过气了？现在要改名 Loop Engineering 了？ 先别急着换头像简介。 大多数人以为 Loop Engineering 是“不用再写 prompt，让 AI 自己干”。但真相是：Prompt 没消失，它只是从主角变成了零件。 以前你坐在 Claude 面前，一句一句催它：查一下、改一下、跑一下、再修一下、再验证一下。现在这些动作被写进了一个可以反复运行的系统里。这个系统知道什么时候启动，知道去哪拿上下文，",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FvySQOPeq2hMXhcI_-Ch7PBANemw.png",
+          "video": "",
+          "summary": "这两天有句话在 AI 开发圈里传得很猛。 Claude Code 的 Boris Cherny 被转述说： > I don't prompt Claude anymore. I have loops running that prompt Claude and figuring out what to do. My job is to write loops. 翻成人话就是：我已经不再手动 prompt Claude 了。我有一堆 loop 在跑，它们会去 prompt Claude，自己判断下一步该做什么。我的工作是写这些 loop。 很多人看到这句话，第一反应是：好家伙，Prompt Engineering 又过气了？现在要改名 Loop Engineering 了？ 先别急着换头像简介。 大多数人以为 Loop Engineering 是“不用再写 prompt，让 AI 自己干”。但真相是：Prompt 没消失，它只是从主角变成了零件。 以前你坐在 Claude 面前，一句一句催它：查一下、改一下、跑一下、再修一下、再验证一下。现在这些动作被写进了一个可以反复运行的系统里。这个系统知道什么时候启动，知道去哪拿上下文，",
+          "summaryZh": "**讲了什么**：这期节目围绕最近在 AI 开发圈流行的 **Loop Engineering** 展开，核心观点是：开发者的重点正在从“手动写一次 prompt”转向“设计能持续运行的循环系统”。节目借 Claude Code 团队成员 Boris Cherny 的表述来解释这种变化，说明 prompt 并没有消失，而是被嵌进了更长的自动化链路里，系统会自己拉取上下文、决定下一步动作、执行检查并继续迭代。\n\n**简介要点**：节目把这个趋势拆成几个具体层面来看：一是为什么单轮对话式协作正让位给可重复运行的 agent loop；二是这些 loop 如何把查资料、改代码、跑测试、验证结果等动作串成流水线；三是这种方法对 AI 编程、工作流编排和工程角色分工意味着什么。整体更像一集面向开发者的趋势解读，而不是单纯追热点的概念翻译。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Thomas Wolf(@Thom_Wolf)",
+      "url": "https://api.xgo.ing/rss/user/4918efb13c47459b8dcaa79cfdf72d09",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/4918efb13c47459b8dcaa79cfdf72d09"
+    },
+    {
+      "source": "Simon Willison(@simonw)",
+      "url": "https://api.xgo.ing/rss/user/30ad80be93c84e44acc37d5ddf31db57",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/30ad80be93c84e44acc37d5ddf31db57"
+    }
+  ],
+  "summaryBullets": [
+    "**Claude Design 引发产品能力讨论**：社媒里最受关注的话题之一，是为什么 **Claude Design** 能直接生成高完成度交互原型，而同类产品还很难稳定做到。讨论焦点落在 **模型能力** 与 **Harness/工具链** 的分工，说明“设计 Agent”正在成为继代码 Agent 之后的新竞赛点。",
+    "**Google 推出 5 天 Agent 系统实战课**：**Google AI Developers** 联合研究员和工程师在 **Kaggle** 上开设短训课程，主打用自然语言构建可扩展 agent 系统并完成实践项目。这类官方教学资源开始把 agent 开发从概念演示推向更标准化的训练路径。",
+    "**OmniVideo-100K 把视听推理数据做得更像真实证据链**：这篇论文提出基于 **实体锚定脚本** 和 **线索驱动问答生成** 的数据引擎，构建 **10 万条** 音视频问答数据，并在 **Qwen Omni、VITA** 等模型上带来明显提升。它值得关注，因为多模态长视频理解的瓶颈越来越像数据组织问题，而不只是模型规模问题。",
+    "**ClinHallu 试图定位医疗多模态模型到底错在哪一步**：论文把医疗 MLLM 的推理拆成 **视觉识别、知识召回、推理整合** 三阶段，构建 **7031 条** 带结构化推理链的基准，用来诊断幻觉来源。对高风险行业来说，这比只看最后答案对错更有实际价值。",
+    "**从聊天机器人到数字同事成为研究新主线**：多篇内容都在指向同一个趋势，AI 系统的重点正在从会话式问答，转向能 **长期记忆、持续执行任务、跨会话协作** 的持久型 agent。无论是论文、产品还是播客讨论，这都在变成下一个阶段的共同语言。"
+  ]
+}
