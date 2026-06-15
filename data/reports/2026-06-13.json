@@ -1,0 +1,825 @@
+{
+  "date": "2026-06-13",
+  "generatedAt": "2026-06-12T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-13",
+  "stats": {
+    "sources": 134,
+    "fetched": 718,
+    "emailCandidates": 0,
+    "selected": 34,
+    "failures": 7
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Here’s what launched this week: — Gemini 3.5 Live Translate our latest audio model for live speech-...",
+          "titleZh": "以下是本周推出的内容： — Gemini 3.5 Live Translate 我们最新的实时语音到语音翻译音频模型 — 进行了重大升级，包括聊天代理功能、更高",
+          "link": "https://x.com/GoogleAI/status/2065478191247130703",
+          "publishedAt": "Fri, 12 Jun 2026 16:55:50 GMT",
+          "source": "Google AI(@GoogleAI)",
+          "sourceType": "social",
+          "description": "Here’s what launched this week: — Gemini 3.5 Live Translate our latest audio model for live speech-to-speech translation — @NotebookLM got a major upgrade including agentic capabilities in chat, more advanced reasoning, and a suite of new output formats — Project Genie from @GoogleLabs is now available to Google AI Ultra 5x subscribers globally — Notebooks in @GeminiApp are now available in the European Economic Area, United Kingdom, and Switzerland — DiffusionGemma, our newest experimental open @googlegemma model that explores text diffusion, an exceptionally fast approach to text generation 💬 34 🔄 22 ❤️ 312 👀 20518 📊 57 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Here’s what launched this week: — Gemini 3.5 Live Translate our latest audio model for live speech-to-speech translation — @NotebookLM got a major upgrade including agentic capabilities in chat, more advanced reasoning, and a suite of new output formats — Project Genie from @GoogleLabs is now available to Google AI Ultra 5x subscribers globally — Notebooks in @GeminiApp are now available in the European Economic Area, United Kingdom, and Switzerland — DiffusionGemma, our newest experimental open @googlegemma model that explores text diffusion, an exceptionally fast approach to text generation 💬 34 🔄 22 ❤️ 312 👀 20518 📊 57 ⚡ Powered by xgo.ing",
+          "summaryZh": "以下是本周推出的内容： — Gemini 3.5 Live Translate 我们最新的实时语音到语音翻译音频模型 — 进行了重大升级，包括聊天代理功能、更高级的推理和一套新的输出格式 — 的 Project Genie 现已向全球 Google AI Ultra 5x 订阅者开放 — 中的笔记本现已在欧洲经济区、英国和瑞士推出 — DiffusionGemma，我们最新的实验开放 模型，探索文本扩散，一种异常快速的文本生成方法。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "推理能力"
+          ],
+          "score": 76.7179353537847
+        },
+        {
+          "title": "We released North Mini Code, our first open-source coding model, just two days ago. We’re already se...",
+          "titleZh": "就在两天前，我们发布了 North Mini Code，这是我们的第一个开源编码模型",
+          "link": "https://x.com/cohere/status/2065184558572532143",
+          "publishedAt": "Thu, 11 Jun 2026 21:29:02 GMT",
+          "source": "cohere(@cohere)",
+          "sourceType": "social",
+          "description": "We released North Mini Code, our first open-source coding model, just two days ago. We’re already seeing developers using it to build amazing things ⬇️ 💬 16 🔄 28 ❤️ 507 👀 43300 📊 89 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We released North Mini Code, our first open-source coding model, just two days ago. We’re already seeing developers using it to build amazing things ⬇️ 💬 16 🔄 28 ❤️ 507 👀 43300 📊 89 ⚡ Powered by xgo.ing",
+          "summaryZh": "就在两天前，我们发布了 North Mini Code，这是我们的第一个开源编码模型。我们已经看到开发人员使用它来构建令人惊叹的东西⬇。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "开发者工具"
+          ],
+          "score": 73.93344665551167
+        },
+        {
+          "title": "/handoff is one of the most powerful features of Devin CLI: close your laptop, your agents keep work...",
+          "titleZh": "/handoff 是 Devin CLI 最强大的功能之一：关闭您的笔记本电脑，您的代理继续在云端工作",
+          "link": "https://x.com/cognition/status/2065156301668171873",
+          "publishedAt": "Thu, 11 Jun 2026 19:36:45 GMT",
+          "source": "Cognition(@cognition_labs)",
+          "sourceType": "social",
+          "description": "/handoff is one of the most powerful features of Devin CLI: close your laptop, your agents keep working from the cloud. Now, we've open sourced it. Jared Zoneraich @imjaredz We've open sourced my favorite Devin feature: /handoff Hand off jobs to cloud Devins from your local machine Install it as a plugin in Claude Code or Codex or any other coding agent Close your laptop without pausing your agents 😉 Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 14 🔄 21 ❤️ 288 👀 45538 📊 49 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-13-2065156301668171873.mp4",
+          "summary": "/handoff is one of the most powerful features of Devin CLI: close your laptop, your agents keep working from the cloud. Now, we've open sourced it. Jared Zoneraich @imjaredz We've open sourced my favorite Devin feature: /handoff Hand off jobs to cloud Devins from your local machine Install it as a plugin in Claude Code or Codex or any other coding agent Close your laptop without pausing your agents 😉 Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 14 🔄 21 ❤️ 288 👀 45538 📊 49 ⚡ Powered by xgo.ing",
+          "summaryZh": "/handoff 是 Devin CLI 最强大的功能之一：关闭您的笔记本电脑，您的代理继续在云端工作。现在，我们已经将其开源。 Jared Zoneraich @imjaredz 我们开源了我最喜欢的 Devin 功能： /handoff 将作业从本地计算机移交给云 Devins 将其作为插件安装在 Claude Code 或 Codex 或任何其他编码代理中 关闭您的笔记本电脑，而不暂停您的代理 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "开源",
+            "视频"
+          ],
+          "score": 72.69210322616308
+        },
+        {
+          "title": "Our Robotics Accelerator has launched with 15 startups helping shape the future of physical AI in Eu...",
+          "titleZh": "我们的机器人加速器已与 15 家初创公司合作推出，帮助塑造欧洲物理人工智能的未来",
+          "link": "https://x.com/GoogleDeepMind/status/2065388989146628563",
+          "publishedAt": "Fri, 12 Jun 2026 11:01:22 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "description": "Our Robotics Accelerator has launched with 15 startups helping shape the future of physical AI in Europe. 🤖 This three-month program will connect them with access to our AI stack, Gemini Robotics models and hands-on support from our teams. Meet the companies → goo.gle/4oeEk2K q 💬 37 🔄 43 ❤️ 303 👀 31515 📊 67 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-13-2065388989146628563.mp4",
+          "summary": "Our Robotics Accelerator has launched with 15 startups helping shape the future of physical AI in Europe. 🤖 This three-month program will connect them with access to our AI stack, Gemini Robotics models and hands-on support from our teams. Meet the companies → goo.gle/4oeEk2K q 💬 37 🔄 43 ❤️ 303 👀 31515 📊 67 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们的机器人加速器已与 15 家初创公司合作推出，帮助塑造欧洲物理人工智能的未来。 这个为期三个月的计划将使他们能够访问我们的人工智能堆栈、Gemini Robotics 模型并获得我们团队的实践支持。认识这些公司 → goo.gle/4oeEk2K q",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型"
+          ],
+          "score": 72.54597992173507
+        },
+        {
+          "title": "Introducing developer mode for browser use in Chrome and the Codex in-app browser. Codex can use th...",
+          "titleZh": "OpenAI：引入了在 Chrome 和 Codex 应用内浏览器中使用浏览器的开发者模式",
+          "link": "https://x.com/OpenAIDevs/status/2065226355495895521",
+          "publishedAt": "Fri, 12 Jun 2026 00:15:07 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Introducing developer mode for browser use in Chrome and the Codex in-app browser. Codex can use the Chrome DevTools Protocol (CDP) to debug browser issues by profiling JavaScript performance and inspecting console output, network traffic, and page state. Your browser does not support the video tag. 🔗 View on Twitter 💬 91 🔄 192 ❤️ 2833 👀 282773 📊 541 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-13-2065226355495895521.mp4",
+          "summary": "Introducing developer mode for browser use in Chrome and the Codex in-app browser. Codex can use the Chrome DevTools Protocol (CDP) to debug browser issues by profiling JavaScript performance and inspecting console output, network traffic, and page state. Your browser does not support the video tag. 🔗 View on Twitter 💬 91 🔄 192 ❤️ 2833 👀 282773 📊 541 ⚡ Powered by xgo.ing",
+          "summaryZh": "引入了在 Chrome 和 Codex 应用内浏览器中使用浏览器的开发者模式。 Codex 可以使用 Chrome 开发工具协议 (CDP) 通过分析 JavaScript 性能并检查控制台输出、网络流量和页面状态来调试浏览器问题。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开发者工具",
+            "视频"
+          ],
+          "score": 72
+        },
+        {
+          "title": "We heard you wanted to use Codex rate limit resets on your own time. Starting today, we’re rolling ...",
+          "titleZh": "OpenAI：我们听说您想在自己的时间使用 Codex 速率限制重置",
+          "link": "https://x.com/OpenAI/status/2065225362544726371",
+          "publishedAt": "Fri, 12 Jun 2026 00:11:11 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "We heard you wanted to use Codex rate limit resets on your own time. Starting today, we’re rolling out the ability to save rate limit resets to use later. We’re starting Go, Plus, Pro, and Business users with one free reset: Your browser does not support the video tag. 🔗 View on Twitter 💬 1170 🔄 1621 ❤️ 20437 👀 3741582 📊 3478 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-13-2065225362544726371.mp4",
+          "summary": "We heard you wanted to use Codex rate limit resets on your own time. Starting today, we’re rolling out the ability to save rate limit resets to use later. We’re starting Go, Plus, Pro, and Business users with one free reset: Your browser does not support the video tag. 🔗 View on Twitter 💬 1170 🔄 1621 ❤️ 20437 👀 3741582 📊 3478 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们听说您想在自己的时间使用 Codex 速率限制重置。从今天开始，我们将推出保存速率限制重置以供以后使用的功能。我们为 Go、Plus、Pro 和 Business 用户提供一次免费重置：。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "Invite a friend to Codex and add another reset to the bank. When they send their first Codex messag...",
+          "titleZh": "OpenAI：邀请朋友加入 Codex 并向银行添加另一个重置",
+          "link": "https://x.com/OpenAIDevs/status/2065225647358886118",
+          "publishedAt": "Fri, 12 Jun 2026 00:12:19 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Invite a friend to Codex and add another reset to the bank. When they send their first Codex message, you’ll both bank one to use when you need it. Rate limit banking is rolling out to Go, Plus, Pro, and Business users, with the first reset on us. x.com/OpenAI/status/… OpenAI @OpenAI We heard you wanted to use Codex rate limit resets on your own time. Starting today, we’re rolling out the ability to save rate limit resets to use later. We’re starting Go, Plus, Pro, and Business users with one free reset: Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 50 🔄 72 ❤️ 1058 👀 129023 📊 141 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-13-2065225647358886118.mp4",
+          "summary": "Invite a friend to Codex and add another reset to the bank. When they send their first Codex message, you’ll both bank one to use when you need it. Rate limit banking is rolling out to Go, Plus, Pro, and Business users, with the first reset on us. x.com/OpenAI/status/… OpenAI @OpenAI We heard you wanted to use Codex rate limit resets on your own time. Starting today, we’re rolling out the ability to save rate limit resets to use later. We’re starting Go, Plus, Pro, and Business users with one free reset: Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 50 🔄 72 ❤️ 1058 👀 129023 📊 141 ⚡ Powered by xgo.ing",
+          "summaryZh": "邀请朋友加入 Codex 并向银行添加另一个重置。当他们发送第一条 Codex 消息时，你们都会保存一条以在需要时使用。利率限制银行业务正在向 Go、Plus、Pro 和 Business 用户推出，我们将首次重置。 x.com/OpenAI/status/... OpenAI @OpenAI 我们听说您想在自己的时间使用 Codex 速率限制重置。从今天开始，我们将推出保存速率限制重置以供以后使用的功能。我们为 Go、Plus、Pro 和 Business 用户提供一次免费重置：查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "Introducing annotations in v0. Click elements in your preview, add comments, then send them all to ...",
+          "titleZh": "在 v0.1 中引入注释单击预览中的元素，添加注释，然后将它们作为单个提示全部发送给代理",
+          "link": "https://x.com/v0/status/2065182747740746039",
+          "publishedAt": "Thu, 11 Jun 2026 21:21:50 GMT",
+          "source": "v0(@v0)",
+          "sourceType": "social",
+          "description": "Introducing annotations in v0. Click elements in your preview, add comments, then send them all to the agent as a single prompt. Your browser does not support the video tag. 🔗 View on Twitter 💬 12 🔄 10 ❤️ 144 👀 11647 📊 29 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-13-2065182747740746039.mp4",
+          "summary": "Introducing annotations in v0. Click elements in your preview, add comments, then send them all to the agent as a single prompt. Your browser does not support the video tag. 🔗 View on Twitter 💬 12 🔄 10 ❤️ 144 👀 11647 📊 29 ⚡ Powered by xgo.ing",
+          "summaryZh": "在 v0.1 中引入注释单击预览中的元素，添加注释，然后将它们作为单个提示全部发送给代理。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 66.94157777451663
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "MiniMax Sparse Attention",
+          "titleZh": "极小极大稀疏注意力",
+          "link": "https://arxiv.org/abs/2606.13392",
+          "publishedAt": "Fri, 12 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.13392v1 Announce Type: new Abstract: Ultra-long-context capability is becoming indispensable for frontier LLMs: agentic workflows, repository-scale code reasoning, and persistent memory all require the model to jointly attend over hundreds of thousands to millions of tokens, yet the quadratic cost of softmax attention makes this untenable at deployment scale. We introduce MiniMax Sparse Attention (MSA), a blockwise sparse attention built upon Grouped Query Attention (GQA). A lightweight Index Branch scores key-value blocks and independently selects a Top-k subset for each GQA group, enabling group-specific sparse retrieval while maintaining efficient block-level execution; the Main Branch then performs exact block-sparse attention over only the selected blocks. Designed around a principle of simplicity and scalability, MSA is deliberately streamlined, making it straightforward to deploy efficiently across a broad range of GPUs. To translate sparsity into practical speedups, we co-design MSA with a GPU execution path that uses exp-free Top-k selection and KV-outer sparse attention to improve tensor-core utilization under block-granular access. On a 109B-parameter model with native multimodal training, MSA performs on par with GQA while reducing per-token attention compute by 28.4x at 1M context. Paired with our co-designed kernel, MSA achieves 14.2x prefill and 7.6x decoding wall-clock speedups on H800. Our inference kernel is available at: https://github.com/MiniMax-AI/MSA. A production-grade natively multimodal model powered by MSA has been publicly released at: https://huggingface.co/MiniMaxAI/MiniMax-M3.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.13392v1 Announce Type: new Abstract: Ultra-long-context capability is becoming indispensable for frontier LLMs: agentic workflows, repository-scale code reasoning, and persistent memory all require the model to jointly attend over hundreds of thousands to millions of tokens, yet the quadratic cost of softmax attention makes this untenable at deployment scale. We introduce MiniMax Sparse Attention (MSA), a blockwise sparse attention built upon Grouped Query Attention (GQA). A lightweight Index Branch s...",
+          "summaryZh": "**核心结论** 「极小极大稀疏注意力」要解决的问题是：超长上下文能力对于前沿LLM来说变得不可或缺：代理工作流程、存储库规模的代码推理和持久内存都需要模型共同参与数十万到数百万个令牌，但 softmax 注意力的二次成本使得这在部署规模上难以维持。我们引入了 MiniMax Sparse Attention (MSA)，这是一种基于分组查询注意力 (GQA) 的块式稀疏注意力。轻量级索引分支。 **支撑证据** 摘要与公开信息显示：arXiv:2606.13392v1 超长上下文能力对于前沿LLM来说变得不可或缺：代理工作流程、存储库规模的代码推理和持久内存都需要模型共同参与数十万到数百万个令牌，但 softmax 注意力的二次成本使得这在部署规模上难以维持。我们引入了 MiniMax Sparse Attention (MSA)，这是一种基于分组查询注意力 (GQA) 的块式稀疏注意力。轻量级索引分支... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "推理能力",
+            "多模态"
+          ],
+          "score": 42
+        },
+        {
+          "title": "Reasoning for Mobile User Experience with Multimodal LLMs: Task, Benchmark, and Approach",
+          "titleZh": "多模式LLM的移动用户体验推理：任务、基准和方法",
+          "link": "https://arxiv.org/abs/2606.13192",
+          "publishedAt": "Fri, 12 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.13192v1 Announce Type: new Abstract: User experience (UX) centered on usability, perceived consistency, and functional clarity is fundamental to real-world user interfaces (UI). The application of multimodal large language models (MLLMs) in the field of user interfaces is evolving rapidly, such as visual element grounding, graphical user interface (GUI) agents, and design-to-code generation. However, research efforts on evaluating UX based on UI screenshots are still immature. To address this, we propose UXBench, a novel multimodal benchmark consisting of 2,000 VQA data samples designed to assess MLLMs' ability to perform UI-based reasoning. UXBench includes 8 tasks based on real-world UI screenshots that require fine-grained diagnosis of UX issues across layout relationships, visual hierarchy, and content consistency. Our extensive evaluation of mainstream MLLMs shows that they remain fundamentally limited in their capacity for UI-based reasoning. The results underscore the need for further advancements in this area. To bridge this gap, we propose UI-UX, an MLLM based on Qwen3-VL-4B-Thinking foundation model and enhanced via reinforcement learning with two key innovations: a reward routing mechanism that dynamically balances perceptual understanding and logical reasoning during inference, and an asymmetric transition reward that suppresses redundant or insufficient reasoning steps. Experiments demonstrate that UI-UX achieves state-of-the-art (SOTA) performance on UXBench, attaining an accuracy of 0.7963 -- surpassing Claude-4.5-Sonnet's 0.6550 -- while exhibiting strong generalization across diverse UI tasks and maintaining low inference latency.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.13192v1 Announce Type: new Abstract: User experience (UX) centered on usability, perceived consistency, and functional clarity is fundamental to real-world user interfaces (UI). The application of multimodal large language models (MLLMs) in the field of user interfaces is evolving rapidly, such as visual element grounding, graphical user interface (GUI) agents, and design-to-code generation. However, research efforts on evaluating UX based on UI screenshots are still immature. To address this, we prop...",
+          "summaryZh": "**核心结论** 「多模式LLM的移动用户体验推理：任务、基准和方法」要解决的问题是：以可用性、感知一致性和功能清晰度为中心的用户体验 (UX) 是现实世界用户界面 (UI) 的基础。多模态大语言模型（MLLM）在用户界面领域的应用正在迅速发展，例如视觉元素基础、图形用户界面（GUI）代理和设计到代码生成。然而，基于 UI 屏幕截图评估 UX 的研究工作仍不成熟。 **支撑证据** 摘要与公开信息显示：arXiv:2606.13192v1 以可用性、感知一致性和功能清晰度为中心的用户体验 (UX) 是现实世界用户界面 (UI) 的基础。多模态大语言模型（MLLM）在用户界面领域的应用正在迅速发展，例如视觉元素基础、图形用户界面（GUI）代理和设计到代码生成。然而，基于 UI 屏幕截图评估 UX 的研究工作仍不成熟。为了解决这个问题，我们建议... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "推理能力",
+            "多模态"
+          ],
+          "score": 40
+        },
+        {
+          "title": "Claude Fable is relentlessly proactive",
+          "titleZh": "Claude·寓言始终积极主动",
+          "link": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything",
+          "publishedAt": "2026-06-11T23:35:17+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I'll illustrate this with an example. I was hacking on Datasette Agent today when I noticed a glitch: a horizontal scrollbar that shouldn't be there in the jump menu chat prompt. I snapped this screenshot: Then I started a fresh claude session in my datasette-agent checkout, dragged in the screenshot and told it: Look at dependencies to help figure out why there is a horizontal scrollbar here I had a hunch the cause was in a dependency of Datasette Agent (likely Datasette itself) and I knew Fable was good at digging into dependency code, either by inspecting installed files in its own virtual environment site-packages or by referencing a local checkout on disk. Telling it to start with dependencies felt like a good bet. I got distracted by a domestic task and wandered away from my computer. When I came back a few minutes later I saw my machine open a browser window in my regular Firefox and then navigate to the dialog in question . I had not told Claude Code to use any browser automation, and I was pretty sure it wasn't possible for it to trigger mouse movements or keyboard shortcuts within a window, so how was it doing that? I watched in fascination as it continued with its explorations, then saw it open a Safari window instead of Firefox. I also grabbed this snapshot from the Claude terminal: What was it doing there with uv run --with pyobjc-framework-Quartz ? It turns out Fable had hacked up its own pattern for taking screenshots of browser windows. It was using Python to iterate through all available windows on my machine, then filtering for Safari windows with expected strings such as \"textarea\" in the window name. It used that to find their window number - an integer like 153551 - which it could then use with the screencapture CLI tool to grab a PNG. OK fine, that's a neat way of taking screenshots. But what was it taking screenshots of? Turns out it had been writing its own scratch HTML pages to try and recreate the bug, then opening Safari and grabbing screenshots. Here's that /tmp/textarea-scrollbar-test.html page it created, and the screenshot it took with screencapture -x -o -l 153551 /tmp/safari-cases.png : (I have way too many open tabs!) OK, so I can see how it's opening test pages and taking screenshots, but how on earth was it triggering the modal dialog that was meant to be under test? That's only available via a click or a keyboard shortcut, and I couldn't see a mechanism for it to run those in Safari. I eventually figured out what it had done. Claude was running in a folder that contained the source code for the application. It knows enough about Datasette to be able to run a local development server. It turns out it was editing Datasette's own templates to add JavaScript that would trigger the correct keyboard shortcut as soon as the window opened, adding code like this: script > window . addEventListener ( \"load\" , function ( ) { setTimeout ( function ( ) { document . dispatchEvent ( new KeyboardEvent ( \"keydown\" , { key : \"/\" , bubbles : true } ) ) ; } , 1200 ) ; } ) ; script > 1.2 seconds after the window opens, this code triggers a simulated / key, which is the keyboard shortcut for opening the modal dialog. There was one challenge left. In order to understand what was going on, Claude needed to run JavaScript on the page to take measurements for itself. It wrote its own custom web application to capture information via CORS, then ran that as a local server and opened a page with JavaScript that would POST directly to it! Here's the Python web app it wrote, using the standard library http.server package: from http . server import HTTPServer , BaseHTTPRequestHandler class H ( BaseHTTPRequestHandler ): def do_POST ( self ): n = int ( self . headers . get ( \"Content-Length\" , 0 )) open ( \"/tmp/diag.json\" , \"w\" ). write ( self . rfile . read ( n ). decode ()) self . send_response ( 200 ) self . send_header ( \"Access-Control-Allow-Origin\" , \"*\" ) self . end_headers () def do_OPTIONS ( self ): self . send_response ( 200 ) self . send_header ( \"Access-Control-Allow-Origin\" , \"*\" ) self . send_header ( \"Access-Control-Allow-Headers\" , \"*\" ) self . end_headers () def log_message ( self , * a ): # quiet pass HTTPServer (( \"127.0.0.1\" , 9999 ), H ). serve_forever () All this does is accept a POST request full of JSON and write that to the /tmp/diag.json file. It sends Access-Control-Allow-Origin: * headers (including from OPTIONS requests) so that code running on another domain can still communicate back to it. Then Claude injected this code into the template that it was loading in a browser: const host = document . querySelector ( \"navigation-search\" ) ; const ta = host . shadowRoot . querySelector ( \"textarea\" ) ; const cs = getComputedStyle ( ta ) ; fetch ( \"http://127.0.0.1:9999/diag\" , { method : \"POST\" , body : JSON . stringify ( { dpr : window . devicePixelRatio , scrollWidth : ta . scrollWidth , clientWidth : ta . clientWidth , whiteSpace : cs . whiteSpace , width : cs . width , } ) , } ) ; This took measurements of the inside the Web Component and sent them to the server, which wrote them to a file on disk, which Claude could then read. Having figured out all of these tricks Fable... hit some invisible guardrail and downgraded itself to Opus. Thankfully Opus had access to the full transcript and could continue using the tricks pioneered by Fable, and shortly afterwards found, tested and verified the fix . I prompted Opus to: Write a report in /tmp/automation-report.md where you note down all of the tricks you have used in this session to test against real browsers on my computer, include runnable code examples Which produced this report , which was invaluable for piecing together the details of what had happened for this post. I've shared the full terminal transcript of the Claude Code session as well. A review of everything it did Based on a screenshot and a one-line prompt, Claude Fable 5 + Claude Code: Figured out the recipe to run the local development server (with fake environment variables needed to get it running) Fired up a Playwright Chrome session Turned on the visible scrollbars setting for Chrome defaults write com.google.chrome.for.testing AppleShowScrollBars Always (it turned that off again later) Cycled through Firefox and WebKit in Playwright too, failing to recreate the bug Worked out my default browser was Safari Built a textarea-scrollbar-test.html HTML document Opened that in real (not Playwright) Firefox Found that osascript -e 'tell application \"System Events\" to tell process \"firefox\" to id of window 1' was blocked because \"osascript is not allowed assistive access\" Figured out that uv run --with pyobjc-framework-Quartz python workaround, described above Added JavaScript to the site templates in order to trigger the / key Built its own little Python CORS web server to capture JSON data Rewrote the template to capture that data and send it to the server Scripted its way through the Web Component shadow DOM to the information it needed Opened Safari to confirm the source of the bug Modified its custom template to hack in a potential fix Confirmed the hacked fix worked Reported back on how to fix the problem Like I said, relentlessly proactive! An estimate of the cost I'm currently on the $100/month Claude Max plan, which includes a generous allowance for Fable up until June 22nd after which Anthropic say they'll start charging full API prices for it. I'm using AgentsView to track my spending (see this TIL ). Here's what AgentsView says this session would have cost me if I was paying full price for it: ~ % uvx agentsview session usage be8850a7-6119-46a0-b5d6-79c7fff5ae2b Session: be8850a7-6119-46a0-b5d6-79c7fff5ae2b Agent: claude Output: 68606 Peak ctx: 113178 Cost: ~$12.11 (claude-fable-5, claude-opus-4-8) If you don't keep a close eye on it, Fable will quite happily burn $12 in tokens inventing new ways to debug your CSS. I really need to lock this thing down On the one hand, watching Fable go to extreme lengths to get the information that it needed to debug what was, in the end, a two-line CSS fix, was fascinating . But on the other hand... this is a robust reminder that coding agents can do anything you can do by typing commands into a terminal - and frontier models know every trick in the book, and evidently a few that nobody has ever written down before. If Fable had been acting on malicious instructions - a prompt injection attack hidden in code or an issue thread, or something I'd carelessly pasted into my terminal - it's alarming to think quite how far it could go to exfiltrate data or cause other forms of mischief. Running coding agents outside of a sandbox has always been a bad idea - it's my top contender for a Challenger disaster incident, as described by Johann Rehberger in The Normalization of Deviance in AI . Fable is arguably smarter and hence more suspicious of potentially malicious instructions. But that smartness is very much a two-edged sword: if it does get subverted by instructions, the amount of damage it can do given its relentless proactivity is terrifying. Tags: ai , prompt-injection , generative-ai , llms , ai-assisted-programming , coding-agents , claude-code , claude-mythos",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://static.simonwillison.net/static/2026/safari-cases.jpg",
+          "video": "",
+          "summary": "After two days of experience with Claude Fable 5 I think the best way to describe it is relentlessly proactive . It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal. I'll illustrate this with an example. I was hacking on Datasette Agent today when I noticed a glitch: a horizontal scrollbar that shouldn't be there in the jump menu chat prompt. I snapped this screenshot: Then I started a fresh claude session in my datasette-agent checkout, dragged in the screenshot and told...",
+          "summaryZh": "**核心要点** 经过两天的《Claude寓言5》的体验，我认为最好的形容词就是“坚持不懈、积极主动”。它知道很多技巧，并且会部署几乎所有技巧来实现其目标。我将用一个例子来说明这一点。今天我在使用 Datasette Agent 时发现了一个小故障：跳转菜单聊天提示中不应该出现水平滚动条。我拍下了这个屏幕截图：然后我在我的数据集代理结帐中启动了一个新的Claude会话，拖入屏幕截图并告诉...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "RAG"
+          ],
+          "score": 35
+        },
+        {
+          "title": "Build a meeting prep and follow-up assistant with Amazon Quick and Cisco Webex MCP servers",
+          "titleZh": "使用 Amazon Quick 和 Cisco Webex MCP 服务器构建会议准备和后续助理",
+          "link": "https://aws.amazon.com/blogs/machine-learning/build-a-meeting-prep-and-follow-up-assistant-with-amazon-quick-and-cisco-webex-mcp-servers/",
+          "publishedAt": "Fri, 12 Jun 2026 14:49:40 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "This post shows how to build a custom meeting prep and follow-up assistant using Amazon Quick and Cisco Webex MCP servers. From a single prompt, the agent finds an upcoming Webex meeting, reviews prior meeting summaries and transcripts, and pulls related Vidcast highlights and transcript context. It then searches Webex message threads for unresolved follow-ups and creates a concise prep brief. After the meeting, the same assistant can summarize the discussion and identify action items. It can also find related Vidcast updates and draft a follow-up message for the right Webex space.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/12/ml-21199.png",
+          "video": "",
+          "summary": "This post shows how to build a custom meeting prep and follow-up assistant using Amazon Quick and Cisco Webex MCP servers. From a single prompt, the agent finds an upcoming Webex meeting, reviews prior meeting summaries and transcripts, and pulls related Vidcast highlights and transcript context. It then searches Webex message threads for unresolved follow-ups and creates a concise prep brief. After the meeting, the same assistant can summarize the discussion and identify action items. It can also find related V...",
+          "summaryZh": "**核心要点** 本文介绍如何使用 Amazon Quick 和 Cisco Webex MCP 服务器构建自定义会议准备和后续助理。根据单个提示，客服人员可以找到即将召开的 Webex 会议，查看之前的会议摘要和文字记录，并提取相关的 Vidcast 亮点和文字记录上下文。然后，它会在 Webex 消息线程中搜索未解决的后续问题，并创建简洁的准备摘要。会议结束后，同一位助理可以总结讨论并确定行动项目。它还可以找到相关的V...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        },
+        {
+          "title": "From PDFs to insights: Architecting an intelligent document processing pipeline with AWS generative AI services",
+          "titleZh": "从 PDF 到见解：使用 AWS 生成式 AI 服务构建智能文档处理管道",
+          "link": "https://aws.amazon.com/blogs/machine-learning/from-pdfs-to-insights-architecting-an-intelligent-document-processing-pipeline-with-aws-generative-ai-services/",
+          "publishedAt": "Fri, 12 Jun 2026 14:43:11 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "This post outlines the development of a cost-effective and scalable intelligent document processing pipeline on AWS, powered by Amazon Bedrock and its features. BDA is a managed service within Amazon Bedrock that automates the extraction of insights from documents. We demonstrate how BDA extracts and analyzes document content, while Strands Agent hosted on Amazon Bedrock AgentCore Runtime coordinate specialized processing tasks, and Amazon Bedrock Knowledge Base enable contextual understanding across multiple documents. By combining these capabilities within a unified architecture, organizations can transform their document processing workflows with minimal development effort.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/12/ml-18003.png",
+          "video": "",
+          "summary": "This post outlines the development of a cost-effective and scalable intelligent document processing pipeline on AWS, powered by Amazon Bedrock and its features. BDA is a managed service within Amazon Bedrock that automates the extraction of insights from documents. We demonstrate how BDA extracts and analyzes document content, while Strands Agent hosted on Amazon Bedrock AgentCore Runtime coordinate specialized processing tasks, and Amazon Bedrock Knowledge Base enable contextual understanding across multiple do...",
+          "summaryZh": "**核心要点** 本文概述了在 AWS 上开发经济高效且可扩展的智能文档处理管道，该管道由 Amazon Bedrock 及其功能提供支持。 BDA 是 Amazon Bedrock 中的一项托管服务，可自动从文档中提取见解。我们演示了 BDA 如何提取和分析文档内容，而 Amazon Bedrock AgentCore Runtime 上托管的 Strands Agent 如何协调专门的处理任务，而 Amazon Bedrock 知识库则可以实现跨多个领域的上下文理解...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        },
+        {
+          "title": "Extract Data with On-demand and Batch Pipelines Dynamically",
+          "titleZh": "通过按需和批量管道动态提取数据",
+          "link": "https://aws.amazon.com/blogs/machine-learning/extract-data-with-on-demand-and-batch-pipelines-dynamically/",
+          "publishedAt": "Thu, 11 Jun 2026 19:40:33 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "This post demonstrates an intelligent document processing pipeline that consists of both on-demand inference and batch inference options on Amazon Bedrock to enable the flexibility on the document processing time and cost.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/02/ML-18264.png",
+          "video": "",
+          "summary": "This post demonstrates an intelligent document processing pipeline that consists of both on-demand inference and batch inference options on Amazon Bedrock to enable the flexibility on the document processing time and cost.",
+          "summaryZh": "**核心要点** 本文演示了一个智能文档处理管道，其中包含 Amazon Bedrock 上的按需推理和批量推理选项，以实现文档处理时间和成本的灵活性。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "推理部署"
+          ],
+          "score": 26
+        },
+        {
+          "title": "Built from the inside out: How AWS Professional Services became a frontier team first",
+          "titleZh": "由内而外构建：AWS 专业服务如何首先成为前沿团队",
+          "link": "https://aws.amazon.com/blogs/machine-learning/built-from-the-inside-out-how-aws-professional-services-became-a-frontier-team-first/",
+          "publishedAt": "Fri, 12 Jun 2026 13:00:10 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "AWS Professional Services (AWS ProServe) compressed engagement timelines from months to days, not by adding artificial intelligence (AI) tools to an existing process, but by fundamentally rebuilding how we deliver from the inside out. In this post, we share how AWS ProServe became a frontier team, the practices that enabled it, and what your engineering organization can take from our experience.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/11/21052.png",
+          "video": "",
+          "summary": "AWS Professional Services (AWS ProServe) compressed engagement timelines from months to days, not by adding artificial intelligence (AI) tools to an existing process, but by fundamentally rebuilding how we deliver from the inside out. In this post, we share how AWS ProServe became a frontier team, the practices that enabled it, and what your engineering organization can take from our experience.",
+          "summaryZh": "**核心要点** AWS 专业服务 (AWS ProServe) 将参与时间从几个月压缩到几天，不是通过在现有流程中添加人工智能 (AI) 工具，而是从根本上重建我们从内到外的交付方式。在这篇文章中，我们将分享 AWS ProServe 如何成为前沿团队、实现这一目标的实践，以及您的工程组织可以从我们的经验中学到什么。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 24
+        },
+        {
+          "title": "[AINews] Loopcraft: The Art of Stacking Loops",
+          "titleZh": "[AINews] Loopcraft：堆叠循环的艺术",
+          "link": "https://www.latent.space/p/ainews-loopcraft-the-art-of-stacking",
+          "publishedAt": "Fri, 12 Jun 2026 05:34:09 GMT",
+          "source": "Latent Space",
+          "sourceType": "research",
+          "description": "AINews: Weekday Roundups [AINews] Loopcraft: The Art of Stacking Loops a quiet day lets us highlight a great concept from Peter Steinberger, Boris Cherny, and Andrej Karpathy Jun 12, 2026 ∙ Paid 42 2 Share There’s a lot of “loop discourse” in the air: Steipete : “Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore. You should be designing loops that prompt your agents.” Boris : “I don’t prompt Claude anymore. I write loops, the loops do the work.” Andrej on Autoresearch : To get the m",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://substackcdn.com/image/fetch/$s_!O3lF!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fswyx.substack.com%2Fapi%2Fv1%2Fpost_preview%2F201541207%2Ftwitter.jpg%3Fversion%3D4",
+          "video": "",
+          "summary": "AINews: Weekday Roundups [AINews] Loopcraft: The Art of Stacking Loops a quiet day lets us highlight a great concept from Peter Steinberger, Boris Cherny, and Andrej Karpathy Jun 12, 2026 ∙ Paid 42 2 Share There’s a lot of “loop discourse” in the air: Steipete : “Here’s your monthly reminder that you shouldn’t be prompting coding agents anymore. You should be designing loops that prompt your agents.” Boris : “I don’t prompt Claude anymore. I write loops, the loops do the work.” Andrej on Autoresearch : To get the m",
+          "summaryZh": "**核心要点** AINews：工作日综述 [AINews] Loopcraft：堆叠循环的艺术 安静的一天让我们强调 Peter Steinberger、Boris Cherny 和 Andrej Karpathy 的一个伟大概念 2026 年 6 月 12 日 ∙ 付费 42 2 分享 空气中有很多“循环话语”：Steipete：“这是你每月的提醒，你不应该再提示编码代理了。你应该设计提示您的代理的循环。”鲍里斯：“我不再提示Claude了。我写循环，循环完成工作。”安德烈 (Andrej) 谈自动研究：要获得 m",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 24
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "Building a retrieval system is one thing. Knowing whether it’s actually good is another. This pract...",
+          "titleZh": "构建检索系统是一回事。知道它是否真的好是另一回事",
+          "link": "https://x.com/qdrant_engine/status/2065418849231810613",
+          "publishedAt": "Fri, 12 Jun 2026 13:00:01 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "description": "Building a retrieval system is one thing. Knowing whether it’s actually good is another. This practical guide walks through how to evaluate information retrieval systems using a Qdrant-powered retrieval pipeline and Evret. It covers: → Building a retrieval benchmark → Measuring retrieval quality → Evaluating relevance and ranking performance → Moving beyond “it seems to work” testing As RAG and retrieval systems become more critical in production AI applications, evaluation is becoming just as important as retrieval itself. Read here: medium.com/data-science-c… 💬 4 🔄 0 ❤️ 6 👀 188 📊 5 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKWVn6pbwAATr_9.jpg",
+          "video": "",
+          "summary": "Building a retrieval system is one thing. Knowing whether it’s actually good is another. This practical guide walks through how to evaluate information retrieval systems using a Qdrant-powered retrieval pipeline and Evret. It covers: → Building a retrieval benchmark → Measuring retrieval quality → Evaluating relevance and ranking performance → Moving beyond “it seems to work” testing As RAG and retrieval systems become more critical in production AI applications, evaluation is becoming just as important as retrieval itself. Read here: medium.com/data-science-c… 💬 4 🔄 0 ❤️ 6 👀 188 📊 5 ⚡ Powered by xgo.ing",
+          "summaryZh": "构建检索系统是一回事。知道它是否真的好是另一回事。本实用指南介绍了如何使用 Qdrant 支持的检索管道和 Evret 评估信息检索系统。它涵盖： → 建立检索基准 → 衡量检索质量 → 评估相关性和排名性能 → 超越“似乎有效”测试 随着 RAG 和检索系统在生产人工智能应用中变得越来越重要，评估变得与检索本身一样重要。阅读此处：medium.com/data-science-c…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "评测",
+            "RAG"
+          ],
+          "score": 47.49405487065291
+        },
+        {
+          "title": "𝗗𝗼 𝘆𝗼𝘂 𝗸𝗻𝗼𝘄 𝗵𝗼𝘄 𝗺𝗮𝗻𝘆 𝗯𝗶𝗿𝗱𝘀 𝘁𝗵𝗲𝗿𝗲 𝗮𝗿𝗲 𝗶𝗻 𝘁𝗵𝗲 𝗠𝗶𝗹𝘃𝘂𝘀 𝗮𝗻𝗱 ...",
+          "titleZh": "超出您的预期。欢迎来到 .：猛禽，在攻击前会扫描广阔的领地",
+          "link": "https://x.com/milvusio/status/2065456591915159749",
+          "publishedAt": "Fri, 12 Jun 2026 15:30:00 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "description": "𝗗𝗼 𝘆𝗼𝘂 𝗸𝗻𝗼𝘄 𝗵𝗼𝘄 𝗺𝗮𝗻𝘆 𝗯𝗶𝗿𝗱𝘀 𝘁𝗵𝗲𝗿𝗲 𝗮𝗿𝗲 𝗶𝗻 𝘁𝗵𝗲 𝗠𝗶𝗹𝘃𝘂𝘀 𝗮𝗻𝗱 𝗭𝗶𝗹𝗹𝗶𝘇 𝗲𝗰𝗼𝘀𝘆𝘀𝘁𝗲𝗺? More than you might expect. Welcome to the 𝗭𝗶𝗹𝗹𝗶𝘇 𝗕𝗶𝗿𝗱𝗽𝗲𝗱𝗶𝗮. 𝗠𝗶𝗹𝘃𝘂𝘀: 𝘁𝗵𝗲 𝗸𝗶𝘁𝗲 A bird of prey that scans a wide territory before striking. Milvus follows the same pattern for vector search: able to scan hundred-billion-scale vectors in high-dimensional spaces, then find nearest neighbors fast. 𝗖𝗮𝗿𝗱𝗶𝗻𝗮𝗹: 𝘁𝗵𝗲 𝘀𝘁𝗮𝗻𝗱𝗼𝘂𝘁 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗲𝗿 A cardinal is vivid, confident, and hard to miss on any branch. Same idea behind Cardinal — and hard to beat on benchmarks. It's Zilliz Cloud's most advanced vector search engine built for high-performance ANN search, top-K, range search, and filtering-heavy workloads. 𝗪𝗼𝗼𝗱𝗽𝗲𝗰𝗸𝗲𝗿: 𝘁𝗵𝗲 𝗿𝗲𝗹𝗶𝗮𝗯𝗹𝗲 𝘄𝗿𝗶𝘁𝗲𝗿 A woodpecker strikes again and again with steady force and shock resistance. Woodpecker, Milvus's cloud-native WAL, absorbs continuous writes, records them in order, and keeps recovery possible after failures — no Kafka or Pulsar required. 𝗟𝗼𝗼𝗻: 𝘁𝗵𝗲 𝗱𝗲𝗲𝗽 𝗱𝗶𝘃𝗲𝗿 Loons are diving birds and they dive deep, stay submerged, and use denser bones to move with control beneath the surface. That's the idea behind Loon, the new storage engine powering Milvus 3.0 as well as the Zilliz Vector Lakebase: dive into the data lake, find the right version of constantly changing vector data, and read only what the query needs. 𝗕𝗶𝗿𝗱𝘄𝗮𝘁𝗰𝗵𝗲𝗿: 𝘁𝗵𝗲 𝗼𝗯𝘀𝗲𝗿𝘃𝗲𝗿 A birdwatcher doesn't join the flock. They watch closely. Birdwatcher inspects the internal state of Milvus components so operators can see exactly what's happening. Behind every bird name is architecture doing serious work. Which birds do you like best? Drop your pick in the comments. 💬 1 🔄 0 ❤️ 1 👀 96 📊 1 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKh3rV6aEAAv_HN.jpg",
+          "video": "",
+          "summary": "𝗗𝗼 𝘆𝗼𝘂 𝗸𝗻𝗼𝘄 𝗵𝗼𝘄 𝗺𝗮𝗻𝘆 𝗯𝗶𝗿𝗱𝘀 𝘁𝗵𝗲𝗿𝗲 𝗮𝗿𝗲 𝗶𝗻 𝘁𝗵𝗲 𝗠𝗶𝗹𝘃𝘂𝘀 𝗮𝗻𝗱 𝗭𝗶𝗹𝗹𝗶𝘇 𝗲𝗰𝗼𝘀𝘆𝘀𝘁𝗲𝗺? More than you might expect. Welcome to the 𝗭𝗶𝗹𝗹𝗶𝘇 𝗕𝗶𝗿𝗱𝗽𝗲𝗱𝗶𝗮. 𝗠𝗶𝗹𝘃𝘂𝘀: 𝘁𝗵𝗲 𝗸𝗶𝘁𝗲 A bird of prey that scans a wide territory before striking. Milvus follows the same pattern for vector search: able to scan hundred-billion-scale vectors in high-dimensional spaces, then find nearest neighbors fast. 𝗖𝗮𝗿𝗱𝗶𝗻𝗮𝗹: 𝘁𝗵𝗲 𝘀𝘁𝗮𝗻𝗱𝗼𝘂𝘁 𝗽𝗲𝗿𝗳𝗼𝗿𝗺𝗲𝗿 A cardinal is vivid, confident, and hard to miss on any branch. Same idea behind Cardinal — and hard to beat on benchmarks. It's Zilliz Cloud's most advanced vector search engine built for high-performance ANN search, top-K, range search, and filtering-heavy workloads. 𝗪𝗼𝗼𝗱𝗽𝗲𝗰𝗸𝗲𝗿: 𝘁𝗵𝗲 𝗿𝗲𝗹𝗶𝗮𝗯𝗹𝗲 𝘄𝗿𝗶𝘁𝗲𝗿 A woodpecker strikes again and again with steady force...",
+          "summaryZh": "？超出您的预期。欢迎来到 .：猛禽，在攻击前会扫描广阔的领地。 Milvus 遵循相同的向量搜索模式：能够扫描高维空间中的千亿级向量，然后快速找到最近邻。：红衣主教生动、自信，在任何分支上都很难被忽视。 Cardinal 背后有同样的想法——并且在基准测试中很难被击败。它是 Zilliz Cloud 最先进的矢量搜索引擎，专为高性能 ANN 搜索、top-K、范围搜索和过滤繁重的工作负载而构建。：啄木鸟以稳定的力量一次又一次地攻击……",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "评测",
+            "RAG"
+          ],
+          "score": 44.485307579719276
+        },
+        {
+          "title": "mattermost/mattermost",
+          "titleZh": "mattermost/mattermost：Mattermost 是一个开源平台，用于在整个软件开发",
+          "link": "https://github.com/mattermost/mattermost",
+          "publishedAt": "2026-06-12T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star mattermost / mattermost Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://repository-images.githubusercontent.com/37448451/e844fa80-65ed-11e9-8646-de34d3abda57",
+          "video": "",
+          "summary": "Star mattermost / mattermost Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
+          "summaryZh": "Mattermost 是一个开源平台，用于在整个软件开发生命周期中进行安全协作。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "开源"
+          ],
+          "score": 30
+        },
+        {
+          "title": "LMCache/LMCache",
+          "titleZh": "LMCache/LMCache：用于可扩展 LLM 推理的 KV 缓存管理层",
+          "link": "https://github.com/LMCache/LMCache",
+          "publishedAt": "2026-06-12T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "A KV Cache Management Layer for Scalable LLM Inference Blog | Documentation | Join Slack | Community Meeting | Roadmap Updates [2026/05] 🔥 Agentic workload benchmark on AMD MI300X ( blog ). [2026/04] 🔥 LMCache's new multiprocess(MP) architecture release ( blog ). [2026/03] LMCache at GTC 2026 ( post ). [2026/01] LMCache multi-node P2P CPU memory sharing, from experimental feature to production ( blog ). More [2025/11] LMCache x CoreWeave accelerate efficient LLM inference for Cohere ( blog ). [2025/10] LMCache jo",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/89df85c86933595fe1aca42dcdbc258ad42abc8e36de2f6f22e2a88a800ec3f4/LMCache/LMCache",
+          "video": "",
+          "summary": "A KV Cache Management Layer for Scalable LLM Inference Blog | Documentation | Join Slack | Community Meeting | Roadmap Updates [2026/05] 🔥 Agentic workload benchmark on AMD MI300X ( blog ). [2026/04] 🔥 LMCache's new multiprocess(MP) architecture release ( blog ). [2026/03] LMCache at GTC 2026 ( post ). [2026/01] LMCache multi-node P2P CPU memory sharing, from experimental feature to production ( blog ). More [2025/11] LMCache x CoreWeave accelerate efficient LLM inference for Cohere ( blog ). [2025/10] LMCache jo",
+          "summaryZh": "用于可扩展 LLM 推理的 KV 缓存管理层文档 |加入 Slack |社区会议|路线图更新 [2026/05] AMD MI300X 上的代理工作负载基准（博客）。 [2026/04] LMCache全新多进程(MP)架构发布（博客）。 [2026/03] GTC 2026 上的 LMCache（发布）。 [2026/01] LMCache 多节点 P2P CPU 内存共享，从实验功能到生产（博客）。更多 [2025/11] LMCache x CoreWeave 加速 Cohere 的高效 LLM 推理（博客）。 [2025/10] LMCache 工作（建议打开仓库查看用法、示例与输出效果。）（要点：LMCache/LMCache：用于可扩展 LLM 推理的 KV 缓存管理层。）",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        },
+        {
+          "title": "chopratejas/headroom",
+          "titleZh": "chopratejas/headroom：在工具输出进入 LLM 前压缩 token 的代理/MCP 工具",
+          "link": "https://github.com/chopratejas/headroom",
+          "publishedAt": "2026-06-12T18:30:00.000Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "description": "Sponsor Star chopratejas / headroom Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/0e064ef96f24a6959c842e0a05006df4ba3017d8cbde6cdfb1e6b20a8437e2e9/chopratejas/headroom",
+          "video": "",
+          "summary": "Sponsor Star chopratejas / headroom Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+          "summaryZh": "headroom 用来在工具输出、日志、文件和 RAG 块进入 LLM 之前做压缩，目标是在不改变回答质量的情况下减少 **60%-95% token**。它提供库、代理和 MCP server 三种形态，适合放在 Agent 工具调用链、RAG 检索结果和长日志分析前面，优先解决上下文成本和模型输入膨胀问题。评估时需要重点看压缩后是否保留关键证据、对代码/日志/结构化数据的稳定性，以及 MCP 接入是否会增加链路复杂度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "RAG"
+          ],
+          "score": 23
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Congrats to the @MiniMax_AI team on the release of MiniMax M3, a long-context multimodal model for t...",
+          "titleZh": "MiniMax M3：长上下文多模态开源权重模型，支持文本、图像和视频推理",
+          "link": "https://x.com/NVIDIAAI/status/2065445179289665672",
+          "publishedAt": "Fri, 12 Jun 2026 14:44:39 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "Congrats to the @MiniMax_AI team on the release of MiniMax M3, a long-context multimodal model for text, image, and video reasoning. 🙌 Try it today with our free GPU-accelerated endpoint on build.nvidia.com 0. Details: nvda.ws/4v4BWhD W MiniMax (official) @MiniMax_AI MiniMax M3, Open-Weight, Now On Hugging Face , with only ~428B parameters and ~23B activated parameters Weights: huggingface.co/MiniMaxAI/Mini… MiniMax Sparse Attention: huggingface.co/papers/2606.13… 🔗 View Quoted Tweet 💬 34 🔄 78 ❤️ 691 👀 63169 📊 106 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKnuN5uboAAWB7X.png",
+          "video": "",
+          "summary": "Congrats to the @MiniMax_AI team on the release of MiniMax M3, a long-context multimodal model for text, image, and video reasoning. 🙌 Try it today with our free GPU-accelerated endpoint on build.nvidia.com 0. Details: nvda.ws/4v4BWhD W MiniMax (official) @MiniMax_AI MiniMax M3, Open-Weight, Now On Hugging Face , with only ~428B parameters and ~23B activated parameters Weights: huggingface.co/MiniMaxAI/Mini… MiniMax Sparse Attention: huggingface.co/papers/2606.13… 🔗 View Quoted Tweet 💬 34 🔄 78 ❤️ 691 👀 63169 📊 106 ⚡ Powered by xgo.ing",
+          "summaryZh": "**核心结论** NVIDIA 转发 MiniMax M3 发布信息：这是一个面向文本、图像和视频推理的长上下文多模态模型，权重已放到 Hugging Face，并可在 build.nvidia.com 通过免费 GPU 加速端点试用。\n\n**支撑证据** 推文给出的关键信息包括：模型约 **428B 总参数**、约 **23B 激活参数**，并关联了 MiniMax Sparse Attention 论文。它的价值在于把长上下文、多模态和稀疏注意力放在同一个开放权重模型里，适合观察大模型在视频/图像推理和长上下文任务上的工程取舍。\n\n**我的判断** 这条值得跟进 Hugging Face 权重页、论文和实际端点体验。需要复核的重点是许可证、上下文长度、视觉/视频评测结果、推理成本，以及开放权重是否足够支撑本地或企业私有化部署。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "推理能力",
+            "多模态",
+            "论文"
+          ],
+          "score": 78.90051292009974
+        },
+        {
+          "title": "One open model. 350,000+ motion clips. 15,000 FPS. MotionBricks from NVIDIA Research runs real-time...",
+          "titleZh": "「一种开放式模型。350,000 多个动作剪辑",
+          "link": "https://x.com/NVIDIAAI/status/2065196536276173306",
+          "publishedAt": "Thu, 11 Jun 2026 22:16:38 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "One open model. 350,000+ motion clips. 15,000 FPS. MotionBricks from NVIDIA Research runs real-time character animation at scale, without hand-crafted transitions or fine-tuning. And yes, it works for robotics too. #SIGGRAPH2026 paper, demos + code: nvlabs.github.io/motionbricks Your browser does not support the video tag. 🔗 View on Twitter 💬 28 🔄 106 ❤️ 931 👀 72500 📊 203 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "One open model. 350,000+ motion clips. 15,000 FPS. MotionBricks from NVIDIA Research runs real-time character animation at scale, without hand-crafted transitions or fine-tuning. And yes, it works for robotics too. #SIGGRAPH2026 paper, demos + code: nvlabs.github.io/motionbricks Your browser does not support the video tag. 🔗 View on Twitter 💬 28 🔄 106 ❤️ 931 👀 72500 📊 203 ⚡ Powered by xgo.ing",
+          "summaryZh": "**核心结论** 「一种开放式模型。 350,000 多个动作剪辑。 15,000 帧/秒。 NVIDIA Research 的 MotionBricks 实时运行」要解决的问题是：一种开放式模型。350,000 多个动作剪辑。15,000 帧/秒。 **支撑证据** 摘要与公开信息显示：一种开放式模型。 350,000 多个动作剪辑。 15,000 帧/秒。 NVIDIA Research 的 MotionBricks 可大规模运行实时角色动画，无需手工制作过渡或微调。是的，它也适用于机器人技术。 论文、演示 + 代码：nvlabs.github.io/motionbricks **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "论文",
+            "开源",
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "For the next two weeks, Plus and Pro users can invite up to three friends to try Codex. When a frie...",
+          "titleZh": "OpenAI：在接下来的两周内，Plus 和 Pro 用户可以邀请最多三位朋友尝试 Codex",
+          "link": "https://x.com/OpenAI/status/2065225374737543376",
+          "publishedAt": "Fri, 12 Jun 2026 00:11:14 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "For the next two weeks, Plus and Pro users can invite up to three friends to try Codex. When a friend sends their first Codex message, you’ll both get another banked reset. 💬 81 🔄 92 ❤️ 2265 👀 281696 📊 297 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "For the next two weeks, Plus and Pro users can invite up to three friends to try Codex. When a friend sends their first Codex message, you’ll both get another banked reset. 💬 81 🔄 92 ❤️ 2265 👀 281696 📊 297 ⚡ Powered by xgo.ing",
+          "summaryZh": "在接下来的两周内，Plus 和 Pro 用户可以邀请最多三位朋友尝试 Codex。当朋友发送第一条 Codex 消息时，你们都将获得另一次银行重置。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 67
+        },
+        {
+          "title": "MiniMax M3 is live on Fireworks. Day-0, fastest endpoint for the MiniMax series. → Top open-weight ...",
+          "titleZh": "MiniMax M3 在 Fireworks 上上线。 Day-0，MiniMax 系列的最快终点。 → 顶部开放重量",
+          "link": "https://x.com/FireworksAI_HQ/status/2065488511265013786",
+          "publishedAt": "Fri, 12 Jun 2026 17:36:50 GMT",
+          "source": "Fireworks AI(@FireworksAI_HQ)",
+          "sourceType": "social",
+          "description": "MiniMax M3 is live on Fireworks. Day-0, fastest endpoint for the MiniMax series. → Top open-weight model on the Artificial Analysis index → 512K context, native image + video input → MSA sparse attention: 9× faster prefill, 15× faster decode → Priced at parity with M2.7 Long-horizon agents, full-repo understanding, multimodal coding all in one model. Learn more: fireworks.ai/blog/minimax-m… 💬 9 🔄 5 ❤️ 53 👀 8555 📊 19 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKoP8KTbsAAhMzS.jpg",
+          "video": "",
+          "summary": "MiniMax M3 is live on Fireworks. Day-0, fastest endpoint for the MiniMax series. → Top open-weight model on the Artificial Analysis index → 512K context, native image + video input → MSA sparse attention: 9× faster prefill, 15× faster decode → Priced at parity with M2.7 Long-horizon agents, full-repo understanding, multimodal coding all in one model. Learn more: fireworks.ai/blog/minimax-m… 💬 9 🔄 5 ❤️ 53 👀 8555 📊 19 ⚡ Powered by xgo.ing",
+          "summaryZh": "MiniMax M3 在 Fireworks 上上线。 Day-0，MiniMax 系列的最快终点。 → 人工分析指数上顶级的开放权重模型 → 512K 上下文，原生图像 + 视频输入 → MSA 稀疏注意力：预填充速度加快 9 倍，解码速度加快 15 倍 → 定价与 M2.7 长视野代理、全存储库理解、多模态编码均在一个模型中。了解更多：fireworks.ai/blog/minimax-m…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "多模态",
+            "视频",
+            "图像"
+          ],
+          "score": 64.3842837039084
+        },
+        {
+          "title": "Shoutout to Caleb for putting together a great deep dive on Nemotron 3 🙌 Check it out.",
+          "titleZh": "向 Caleb 致敬，他在 Nemotron 3 上进行了精彩的深入研究，请查看。",
+          "link": "https://x.com/NVIDIAAI/status/2065167908750467084",
+          "publishedAt": "Thu, 11 Jun 2026 20:22:53 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "Shoutout to Caleb for putting together a great deep dive on Nemotron 3 🙌 Check it out. Caleb Eom @calebfoundry Nemotron 3 Full Breakdown With the help of Joey Conway from @NVIDIAAI getting into the specifics around why Nemotron 3 is kind of a big deal Biggest headline with Nemotron is: Hybrid Mamba Transformer, Latent MoE, and MTP Hybrid Mamba Transformer essentially attacks right at the Attention mechanism to make the overhead sub-quadratic, but unlike quantizing KV Cache or swapping out attention head, NVIDIA chose Mamba-2 Latent MoE helps further optimize on sparsity by down projecting the dimensions so you're doing less math and less memory movement between HBM and SRAM, you're saving a ton, and NVIDIA made a conscious choice to add more experts given the surplus Finally, MTP or multi token prediction where the model can see future tokens to be more expressive in training and also option to use for speculative decoding during inference Oh, also the model adopts the new OpenMDW 1.1 License Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 11 🔄 24 ❤️ 295 👀 26613 📊 46 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Shoutout to Caleb for putting together a great deep dive on Nemotron 3 🙌 Check it out. Caleb Eom @calebfoundry Nemotron 3 Full Breakdown With the help of Joey Conway from @NVIDIAAI getting into the specifics around why Nemotron 3 is kind of a big deal Biggest headline with Nemotron is: Hybrid Mamba Transformer, Latent MoE, and MTP Hybrid Mamba Transformer essentially attacks right at the Attention mechanism to make the overhead sub-quadratic, but unlike quantizing KV Cache or swapping out attention head, NVIDIA chose Mamba-2 Latent MoE helps further optimize on sparsity by down projecting the dimensions so you're doing less math and less memory movement between HBM and SRAM, you're saving a ton, and NVIDIA made a conscious choice to add more experts given the surplus Finally, MTP or multi token prediction where the model can see future tokens to be more expressive in training and als...",
+          "summaryZh": "向 Caleb 致敬，他在 Nemotron 3 上进行了精彩的深入研究，请查看。 Caleb Eom Nemotron 3 全面分解 在 的 Joey Conway 的帮助下，深入了解 Nemotron 3 为何如此重要的细节 Nemotron 最大的头条新闻是：混合 Mamba Transformer、潜在 MoE 和 MTP 混合 Mamba Transformer 本质上是直接攻击注意力机制，使开销接近二次方，但与量化 KV 缓存或交换注意力头不同，NVIDIA选择 Mamba-2 Latent MoE 通过向下投影维度来帮助进一步优化稀疏性，这样您就可以减少 HBM 和 SRAM 之间的数学运算和内存移动，节省大量资金，并且 NVIDIA 有意识地选择在剩余的情况下添加更多专家最后，MTP 或多令牌预测，其中模型可以看到未来的令牌在训练中更具表现力，并且...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "推理部署",
+            "视频"
+          ],
+          "score": 63.397893336442976
+        },
+        {
+          "title": "AI agents are powerful, but they don’t remember your preferences. So you end up repeating instructi...",
+          "titleZh": "Replit：人工智能代理很强大，但他们不记得你的偏好",
+          "link": "https://x.com/Replit/status/2065146579326271883",
+          "publishedAt": "Thu, 11 Jun 2026 18:58:07 GMT",
+          "source": "Replit ⠕(@Replit)",
+          "sourceType": "social",
+          "description": "AI agents are powerful, but they don’t remember your preferences. So you end up repeating instructions- How you structure projects. Your brand guidelines. You can now teach Replit Agent your conventions with Custom Instructions and Skills. It'll take them into account for every project automatically. Your browser does not support the video tag. 🔗 View on Twitter 💬 23 🔄 25 ❤️ 189 👀 35370 📊 59 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-13-2065146579326271883.mp4",
+          "summary": "AI agents are powerful, but they don’t remember your preferences. So you end up repeating instructions- How you structure projects. Your brand guidelines. You can now teach Replit Agent your conventions with Custom Instructions and Skills. It'll take them into account for every project automatically. Your browser does not support the video tag. 🔗 View on Twitter 💬 23 🔄 25 ❤️ 189 👀 35370 📊 59 ⚡ Powered by xgo.ing",
+          "summaryZh": "人工智能代理很强大，但他们不记得你的偏好。所以你最终会重复说明——如何构建项目。您的品牌指南。您现在可以使用自定义指令和技能向 Replit Agent 教授您的惯例。它会自动将它们考虑到每个项目。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 61.14814334884329
+        },
+        {
+          "title": "Through June 24, Plus and Pro users can refer up to three friends. Send this to the developer frien...",
+          "titleZh": "OpenAI：截至 6 月 24 日，Plus 和 Pro 用户最多可以推荐三位朋友",
+          "link": "https://x.com/OpenAIDevs/status/2065225659946078351",
+          "publishedAt": "Fri, 12 Jun 2026 00:12:22 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Through June 24, Plus and Pro users can refer up to three friends. Send this to the developer friends who keep asking for your Codex setup 😉 💬 4 🔄 1 ❤️ 97 👀 13952 📊 13 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Through June 24, Plus and Pro users can refer up to three friends. Send this to the developer friends who keep asking for your Codex setup 😉 💬 4 🔄 1 ❤️ 97 👀 13952 📊 13 ⚡ Powered by xgo.ing",
+          "summaryZh": "截至 6 月 24 日，Plus 和 Pro 用户最多可以推荐三位朋友。将此发送给一直询问您 Codex 设置的开发者朋友。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开发者工具"
+          ],
+          "score": 60.48293568978073
+        },
+        {
+          "title": "Claude Fable 5 has been out for a couple of days. Some projects people have already built with it:",
+          "titleZh": "Claude Fable 5：上线后已有用户开始用它搭建项目",
+          "link": "https://x.com/claudeai/status/2065456678909227064",
+          "publishedAt": "Fri, 12 Jun 2026 15:30:21 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "description": "Claude Fable 5 has been out for a couple of days. Some projects people have already built with it: 💬 989 🔄 1712 ❤️ 31601 👀 4412855 📊 5704 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Claude Fable 5 has been out for a couple of days. Some projects people have already built with it: 💬 989 🔄 1712 ❤️ 31601 👀 4412855 📊 5704 ⚡ Powered by xgo.ing",
+          "summaryZh": "Claude 官方提到 **Claude Fable 5** 上线数日后，社区已经开始用它构建项目。原推文更像是一个案例串/项目展示入口，而不是单独功能发布；它的价值在于观察新能力被用户拿来做什么、哪些应用形态最早出现。由于 RSS 摘要没有带出具体项目清单，建议打开原文查看完整 thread 和示例链接，再判断是否有值得收录为实践案例或产品信号的内容。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        },
+        {
+          "title": ".@Box Agent is built on Deep Agents. ✅ Cross-library search ✅ Multi-doc synthesis ✅ Structured repo...",
+          "titleZh": "Box Agent 基于 Deep Agents 构建，支持跨库搜索和多文档综合",
+          "link": "https://x.com/LangChain/status/2065480587490521595",
+          "publishedAt": "Fri, 12 Jun 2026 17:05:21 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": ". @Box Agent is built on Deep Agents. ✅ Cross-library search ✅ Multi-doc synthesis ✅ Structured reports ✅ All within Box's existing security and permissions model 💬 3 🔄 5 ❤️ 47 👀 3484 📊 11 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HKoPiBqWsAA0gak.jpg",
+          "video": "",
+          "summary": ". @Box Agent is built on Deep Agents. ✅ Cross-library search ✅ Multi-doc synthesis ✅ Structured reports ✅ All within Box's existing security and permissions model 💬 3 🔄 5 ❤️ 47 👀 3484 📊 11 ⚡ Powered by xgo.ing",
+          "summaryZh": "LangChain 提到 **Box Agent** 基于 **Deep Agents** 构建，能力包括跨资料库搜索、多文档综合、结构化报告，并且运行在 Box 既有的安全与权限模型内。这个信号值得关注，因为它展示了企业内容平台如何把 Agent 能力嵌入现有文档权限体系，而不是绕开企业数据治理重新搭一套工具。后续可以重点看 Box Agent 是否支持可审计引用、权限继承、跨文档任务编排和企业部署配置。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 56.19663161524864
+        },
+        {
+          "title": "Matthew @McConaughey is celebrating the big kickoff today. Thanks to ElevenLabs Dubbing v2, he can r...",
+          "titleZh": "马修@McConaughey 今天正在庆祝盛大的开幕",
+          "link": "https://x.com/ElevenLabs/status/2065147228671394288",
+          "publishedAt": "Thu, 11 Jun 2026 19:00:42 GMT",
+          "source": "ElevenLabs(@elevenlabsio)",
+          "sourceType": "social",
+          "description": "Matthew @McConaughey is celebrating the big kickoff today. Thanks to ElevenLabs Dubbing v2, he can reach fans around the world in their native language while preserving his iconic voice. Your browser does not support the video tag. 🔗 View on Twitter 💬 4 🔄 4 ❤️ 86 👀 11507 📊 15 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-13-2065147228671394288.mp4",
+          "summary": "Matthew @McConaughey is celebrating the big kickoff today. Thanks to ElevenLabs Dubbing v2, he can reach fans around the world in their native language while preserving his iconic voice. Your browser does not support the video tag. 🔗 View on Twitter 💬 4 🔄 4 ❤️ 86 👀 11507 📊 15 ⚡ Powered by xgo.ing",
+          "summaryZh": "马修@McConaughey 今天正在庆祝盛大的开幕。借助 ElevenLabs Dubbing v2，他可以用母语接触世界各地的粉丝，同时保留他标志性的声音。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "语音",
+            "视频"
+          ],
+          "score": 55.946486803309966
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "Vol.123｜拆解 SpaceX IPO ：一场荒漠中的创业，和马斯克的下一个万亿赌注",
+          "titleZh": "Vol.123｜拆解 SpaceX IPO：一场荒漠中的创业，和马斯克的下一个万亿赌注",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a2a84cc62c3d8534722aee9",
+          "publishedAt": "2026-06-12T00:00:00.000Z",
+          "source": "开始连接 LinkStart",
+          "sourceType": "podcast",
+          "description": "听《开始连接 LinkStart》上小宇宙。 「开始连接 LinkStart」是一档由极客公园出品的科技商业播客。在这里，我们会邀请各行各业的嘉宾一起跨界对话、碰撞思想，用科技、商业和人文的视角一起描摹这个时代。 欢迎同步关注「公众号/视频号-极客公园」，第一时间，带你追踪科技热点。 公众号/视频号：极客公园 粉丝群：请至单集节目 shownotes 底部扫码加入～",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/Fkm-DmJ_lCbLxtekkyHx2McjuUUB.png",
+          "video": "",
+          "summary": "听《开始连接 LinkStart》上小宇宙。 「开始连接 LinkStart」是一档由极客公园出品的科技商业播客。在这里，我们会邀请各行各业的嘉宾一起跨界对话、碰撞思想，用科技、商业和人文的视角一起描摹这个时代。 欢迎同步关注「公众号/视频号-极客公园」，第一时间，带你追踪科技热点。 公众号/视频号：极客公园 粉丝群：请至单集节目 shownotes 底部扫码加入～",
+          "summaryZh": "**讲了什么**：这一期来自 **开始连接 LinkStart**，主题是「Vol.123｜拆解 SpaceX IPO：一场荒漠中的创业，和马斯克的下一个万亿赌注」。本期节目的主题，是 Elon Musk 和他旗下那家即将创下人类商业史上最大规模 IPO 的公司：SpaceX。对外界而言，SpaceX 最大的两个标签分别是可回收火箭技术和通信星座 StarLink 星链。但在本期嘉宾翟光龙看来，真正支撑起 SpaceX 超过 1.7 万亿美元估值的，是「太空算力」这个全新的技术名词。「太空算力」在过去半年迅速从一个前沿的技术概念，变成了中美两国科技和商业界快速达成共识的最热门主题。本期节目，我们将从 SpaceX 的创业史讲起，拆解马斯克对于商业航天的路径规划，并探讨「太空算力」将可能以怎样的形式成为美国 AI 产业和中国航天产业的新一轮牵引力。 **简介要点**： - 本期节目的主题，是 Elon Musk 和他旗下那家即将创下人类商业史上最大规模 IPO 的公司：SpaceX。 - 对外界而言，SpaceX 最大的两个标签分别是可回收火箭技术和通信星座 StarLink 星链。 - 但在本期嘉宾翟光龙看来，真正支撑起 SpaceX 超过 1.7 万亿美元估值的，是「太空算力」这个全新的技术名词。 - 「太空算力」在过去半年迅速从一个前沿的技术概念，变成了中美两国科技和商业界快速达成共识的最热门主题。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "发券、裂变、极速版，如何用红包设计增长？丨字节跳动 第8集",
+          "titleZh": "发券、裂变、极速版，如何用红包设计增长？丨字节跳动 第8集",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a2be12243a22a695582ab90",
+          "publishedAt": "2026-06-12T11:04:56.981Z",
+          "source": "乱翻书",
+          "sourceType": "podcast",
+          "description": "听《乱翻书》上小宇宙。 乱翻书是一档关注商业、科技和历史的对话节目，关心How和Why，以及少有人注意到的What。内容主要方向是科技考古、行业观察和前沿思考，研究明星公司的创新、竞争和兴衰循环，希望能够为你提供信息增量。 「乱翻书」主理人是潘乱，科技评论作者，单列双列产品概念提出人，代表作《腾讯没有梦想》、《字节如何跳动》。",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FqqQkG2Api63iYHz38DWlnFdR-1y.jpg",
+          "video": "",
+          "summary": "听《乱翻书》上小宇宙。 乱翻书是一档关注商业、科技和历史的对话节目，关心How和Why，以及少有人注意到的What。内容主要方向是科技考古、行业观察和前沿思考，研究明星公司的创新、竞争和兴衰循环，希望能够为你提供信息增量。 「乱翻书」主理人是潘乱，科技评论作者，单列双列产品概念提出人，代表作《腾讯没有梦想》、《字节如何跳动》。",
+          "summaryZh": "**讲了什么**：这一期来自 **乱翻书**，主题是「发券、裂变、极速版，如何用红包设计增长？丨字节跳动 第8集」。\udcc4本期嘉宾：Tom（上古UG增长专家，现短剧从业者） 🎙主播：潘乱 🎬 视频播客将同步上线于 @潘乱的视频号、哔哩哔哩、微博、小红书、Youtube 等平台。⏰【时间线】 一、从早鸟系统，到字节的竞品雷达 01:14 一个红包，包罗万象 • - 你这么多年投放一共花过多少钱？- 几百亿人民币的量级吧 • 上古增长黑客的打法过气了？• 竞品雷达：QuestMobile（国内）、Data.ai、Semrush等 • 有哪些产品在被你们列入过核心对手？• 监测到竞对上升的趋势之后，怎么办？17:43 红包到底有哪些种类玩法？• 大家在聊到红包的时候，说的是什么？ **简介要点**： - • 竞品雷达：QuestMobile（国内）、Data.ai、Semrush等 • 有哪些产品在被你们列入过核心对手？ - 02:40:12 AI 时代：纯买量时代结束了 • 豆包营销预算减少了很多 • 豆包正在成为一个全民级的应用 • 核心战场，你得在牌桌上，不能掉队 • 买量是不是到今天基本失灵了？",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "145. 口述SpaceX开发史：和前高管洪力德聊，马斯克用人观、最大IPO、太空与AI、人类文明扩张前奏？",
+          "titleZh": "145. 口述SpaceX开发史：和前高管洪力德聊，马斯克用人观、最大IPO、太空与AI、人类文明扩张前奏？",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a2be5da43a22a695582ad20",
+          "publishedAt": "2026-06-12T11:18:46.742Z",
+          "source": "张小珺Jùn｜商业访谈录",
+          "sourceType": "podcast",
+          "description": "听《张小珺Jùn｜商业访谈录》上小宇宙。 和你一起，从这里，探索新世界！ 《张小珺商业访谈录》是一档深度访谈节目，以2至7小时的长对话为形式，聚焦真实的人物表达与高密度的前沿信息。由语言即世界工作室出品。 主持人张小珺是财经媒体人，专注中国科技业深度报道，覆盖AI、科技巨头、风险投资与知名人物。曾13次获得国内外新闻奖项，其中2022年至2024年连续三届获得亚洲卓越新闻奖（SOPA）——被称为“亚洲普利策”。她也是语言即世界工作室的创始人。 “如果我的访谈能陪你走一段孤独的未知的路，也许有一天可以离目的地更近一点，我就很温暖。”——张小珺",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/nl-uMq2sthj3H5NjjTRunzPceVUJ.png",
+          "video": "",
+          "summary": "听《张小珺Jùn｜商业访谈录》上小宇宙。 和你一起，从这里，探索新世界！ 《张小珺商业访谈录》是一档深度访谈节目，以2至7小时的长对话为形式，聚焦真实的人物表达与高密度的前沿信息。由语言即世界工作室出品。 主持人张小珺是财经媒体人，专注中国科技业深度报道，覆盖AI、科技巨头、风险投资与知名人物。曾13次获得国内外新闻奖项，其中2022年至2024年连续三届获得亚洲卓越新闻奖（SOPA）——被称为“亚洲普利策”。她也是语言即世界工作室的创始人。 “如果我的访谈能陪你走一段孤独的未知的路，也许有一天可以离目的地更近一点，我就很温暖。”——张小珺",
+          "summaryZh": "**讲了什么**：这一期来自 **张小珺Jùn｜商业访谈录**，主题是「145. 口述SpaceX开发史：和前高管洪力德聊，马斯克用人观、最大IPO、太空与AI、人类文明扩张前奏？」。站在今天这个SpaceX IPO的历史性时刻，我们决定加更一集节目。我邀请了SpaceX前火箭首席制造工程师洪力德（Lewis Hong），一起来聊聊，随着SpaceX收购整合x.AI并完成截至目前史上的最大一起IPO，在太空与AI加速融合的背景之下，这会不会是人类文明扩张的前奏？ **简介要点**： - 我邀请了SpaceX前火箭首席制造工程师洪力德（Lewis Hong），一起来聊聊，随着SpaceX收购整合x.AI并完成截至目前史上的最大一起IPO，在太空与AI加速融合的背景之下，这会不会是人类文明扩张的前奏？ - DISCLAIMER: 本内容不作为投资建议。 - CONTACT: xiaojunzhang.ai Jump into the new world-and explore with us!",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.dev/rss/",
+      "error": "请求超时（15000ms）：https://blog.langchain.dev/rss/"
+    },
+    {
+      "source": "宝玉的分享",
+      "url": "https://baoyu.io/feed.xml",
+      "error": "请求超时（15000ms）：https://baoyu.io/feed.xml"
+    },
+    {
+      "source": "deeplearning.ai",
+      "url": "https://rsshub.bestblogs.dev/deeplearning/the-batch",
+      "error": "请求超时（15000ms）：https://rsshub.bestblogs.dev/deeplearning/the-batch"
+    },
+    {
+      "source": "Last Week in AI",
+      "url": "https://lastweekin.ai/feed/",
+      "error": "请求超时（15000ms）：https://lastweekin.ai/feed/"
+    },
+    {
+      "source": "Microsoft Research Blog",
+      "url": "http://research.microsoft.com/rss/news.xml",
+      "error": "请求超时（15000ms）：http://research.microsoft.com/rss/news.xml"
+    },
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    }
+  ],
+  "summaryBullets": [
+    "**祝贺 团队发布了 MiniMax M3，这是一个长上下文多模态模型**：「祝贺 团队发布了 MiniMax M3，这是一个长上下文多模态模型，适用于」要解决的问题是：祝贺 团队发布了 MiniMax M3，这是一种用于文本、图像和视频推理的长上",
+    "**以下是本周推出的内容： — Gemini 3.5 Live**：Translate 我们最新的实时语音到语音翻译音频模型 — 进行了重大升级，包括聊天代理功能、更高级的推理和一",
+    "**构建检索系统是一回事。知道它是否真的好是另一回事**：构建检索系统是一回事。知道它是否真的好是另一回事",
+    "**超出您的预期。欢迎来到 .：猛禽，在攻击前会扫描广阔的领地**：超出您的预期。欢迎来到 .：猛禽，在攻击前会扫描广阔的领地",
+    "**极小极大稀疏注意力**：「极小极大稀疏注意力」要解决的问题是：超长上下文能力对于前沿LLM来说变得不可或缺：代理工作流程、存储库规模的代码推理和持久内存都需要模型共同参与数十万到数百万个令牌，但"
+  ]
+}
