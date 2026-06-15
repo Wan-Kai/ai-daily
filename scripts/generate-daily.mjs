@@ -1041,9 +1041,16 @@ function isPaperFeedItem(item) {
   return item.channel === "paper_feed" || /arxiv|hugging face daily papers/i.test(`${item.source} ${item.link}`);
 }
 
+function isAggregatorResearchItem(item) {
+  if (item.channel !== "aggregator") return false;
+  const text = `${item.title} ${item.description} ${item.source}`.toLowerCase();
+  return /论文|paper|arxiv|benchmark|评测|研究团队|uc berkeley|ut austin|faiss|k-means|cvpr|iclr|neurips|icml|acl/i.test(text);
+}
+
 function normalizedSection(item) {
   if (isPaperFeedItem(item)) return "research_frontier";
   if (item.section === "extended_reading" || item.channel === "podcast") return "extended_reading";
+  if (isAggregatorResearchItem(item)) return "research_frontier";
   if (isOpenSourceItem(item)) return "open_source_top";
   if (isProductUpdate(item)) return "product_updates";
   if (item.section === "product_updates") return isProductUpdate(item) ? "product_updates" : "social_shares";
@@ -1065,6 +1072,7 @@ function isPracticeCase(item) {
 function isOpenSourceItem(item) {
   const text = `${item.title} ${item.description} ${item.source}`.toLowerCase();
   if (item.channel === "open_source_rank" || item.source === "GitHub Trending Daily") return true;
+  if (item.channel === "aggregator" && (/github\.com/i.test(item.link || "") || /\bgithub\b|open source|开源|apache 2\.0|mit license/.test(text))) return true;
   if (/datawhale/i.test(item.source) && /开源项目|开源了|github 热榜|星标|deepseek-tui|deepseek 版 claude code/.test(text)) return true;
   if (/qdrant|milvus|weaviate|ollama|hellogithub|逛逛github|开源服务指南/i.test(item.source)) return true;
   if (item.source === "The GitHub Blog" && /agentic workflow|agent pull requests|copilot|token efficiency/i.test(text)) return true;

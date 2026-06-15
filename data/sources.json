@@ -1562,6 +1562,19 @@
     "enabled": true
   },
   {
+    "name": "AI HOT",
+    "url": "https://aihot.virxact.com/feed.xml",
+    "kind": "rss",
+    "type": "aggregator",
+    "section": "social_shares",
+    "channel": "aggregator",
+    "trust": "community",
+    "weight": 4,
+    "lookbackDays": 2,
+    "timeoutMs": 20000,
+    "enabled": true
+  },
+  {
     "name": "Hugging Face Daily Papers",
     "url": "https://huggingface.co/papers/date/{date}",
     "kind": "huggingface_papers",
