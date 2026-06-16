@@ -1,0 +1,806 @@
+{
+  "date": "2026-06-17",
+  "generatedAt": "2026-06-16T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-17",
+  "stats": {
+    "sources": 135,
+    "fetched": 1336,
+    "emailCandidates": 0,
+    "selected": 34,
+    "failures": 2
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Use the OpenAI Developers plugin in Codex to build faster with OpenAI tools by setting up API keys, ...",
+          "titleZh": "使用 Codex 中的 OpenAI Developers 插件，通过设置 API 密钥、查找正确的文档并一路调试，使用 OpenAI 工具更快地构建",
+          "link": "https://x.com/OpenAIDevs/status/2066634415955136728",
+          "publishedAt": "Mon, 15 Jun 2026 21:30:15 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Use the OpenAI Developers plugin in Codex to build faster with OpenAI tools by setting up API keys, finding the right docs, and debugging along the way. Your browser does not support the video tag. 🔗 View on Twitter 💬 68 🔄 78 ❤️ 1122 👀 119232 📊 266 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-17-2066634415955136728.mp4",
+          "summary": "Use the OpenAI Developers plugin in Codex to build faster with OpenAI tools by setting up API keys, finding the right docs, and debugging along the way. Your browser does not support the video tag. 🔗 View on Twitter 💬 68 🔄 78 ❤️ 1122 👀 119232 📊 266 ⚡ Powered by xgo.ing",
+          "summaryZh": "使用 Codex 中的 OpenAI Developers 插件，通过设置 API 密钥、查找正确的文档并一路调试，使用 OpenAI 工具更快地构建。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "API",
+            "开发者工具",
+            "视频"
+          ],
+          "score": 75
+        },
+        {
+          "title": "📣 Introducing the Qwen-Robot Suite — Qwen-RobotNav, Qwen-RobotManip, Qwen-RobotWorld, three foundat...",
+          "titleZh": "Qwen 发布 Qwen-Robot 套件：导航、操作与世界模型三件套",
+          "link": "https://x.com/Alibaba_Qwen/status/2066870197122899980",
+          "publishedAt": "Tue, 16 Jun 2026 13:07:10 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "description": "📣 Introducing the Qwen-Robot Suite — Qwen-RobotNav, Qwen-RobotManip, Qwen-RobotWorld, three foundation models, a full stack for embodied intelligence. 🧭 Qwen-RobotNav — the gateway to mobility. • Unifies 5 navigation tasks in one model: instruction following, point-goal, object-goal, target tracking, autonomous driving • Controllable observation protocol • Tool interface for agentic systems 🤖 Qwen-RobotManip — the foundation of interaction. • Unified state-action space across heterogeneous robots • Camera-frame delta poses for coherent cross-embodiment training • Pretrained on a 38,100+ hour open-source corpus 🌍 Qwen-RobotWorld — infinite worlds for physical agents. • Single world model, 20+ embodiments • Natural-language action interface • Predicts physically grounded futures across manipulation, driving, and navigation Each model is independently useful, and could be composed as physical-world tools.Together, they form the low-level toolkit for general-purpose agentic systems that don't just see the world, but act in it. 📷 B qwen.ai/blog?id=qwen-r… YET26 📖 Report： Qwen-Robo …anwen-res.oss-accelerate.aliyuncs.com/qwenrobot/pape… wDYGxg Qwen-RobotM …anwen-res.oss-accelerate.aliyuncs.com/qwenrobot/pape… zJSpU8 Qwen-RobotW …anwen-res.oss-accelerate.aliyuncs.com/qwenrobot/pape… 1qzDFy 💬 53 🔄 226 ❤️ 1548 👀 119085 📊 361 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HK73q7UbUAAYGBF.jpg",
+          "video": "",
+          "summary": "📣 Introducing the Qwen-Robot Suite — Qwen-RobotNav, Qwen-RobotManip, Qwen-RobotWorld, three foundation models, a full stack for embodied intelligence. 🧭 Qwen-RobotNav — the gateway to mobility. • Unifies 5 navigation tasks in one model: instruction following, point-goal, object-goal, target tracking, autonomous driving • Controllable observation protocol • Tool interface for agentic systems 🤖 Qwen-RobotManip — the foundation of interaction. • Unified state-action space across heterogeneous robots • Camera-frame delta poses for coherent cross-embodiment training • Pretrained on a 38,100+ hour open-source corpus 🌍 Qwen-RobotWorld — infinite worlds for physical agents. • Single world model, 20+ embodiments • Natural-language action interface • Predicts physically grounded futures across manipulation, driving, and navigation Each model is independently useful, and could be composed as...",
+          "summaryZh": "**Qwen-Robot** 一次放出三套面向具身智能的基础模型：**Qwen-RobotNav** 负责导航、**Qwen-RobotManip** 负责操作、**Qwen-RobotWorld** 负责世界建模，目标是把机器人移动、交互和环境预测拼成一套可组合的底层能力栈。**Qwen-RobotNav** 把指令跟随、点目标、物体目标、目标跟踪和自动驾驶 **5 类导航任务** 统一到一个模型里；**Qwen-RobotManip** 提供跨异构机器人的统一状态-动作空间，并强调基于相机坐标系的 delta pose 训练；**Qwen-RobotWorld** 则用自然语言作为统一动作接口，覆盖 **20+ 具身形态** 的物理未来预测。官方还提到 **Qwen-RobotManip** 预训练使用了 **38,100+ 小时开源语料**。这条更新值得关注，因为它不只是单一机器人模型，而是在尝试把导航、操作和世界模型拆成可独立使用、也能互相组合的具身智能工具箱。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 74
+        },
+        {
+          "title": "The answer is Option 🅰️ A few simple commands is all it takes for an agent to provision HeyGen thr...",
+          "titleZh": "答案是选项 代理只需几个简单的命令即可通过 Stripe 配置 HeyGen，并自行生成此类启动视频 整个事情是由故事板、一张 A-roll 和 构建而成的 ↓",
+          "link": "https://x.com/HeyGen/status/2066614535717601644",
+          "publishedAt": "Mon, 15 Jun 2026 20:11:15 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "description": "The answer is Option 🅰️ A few simple commands is all it takes for an agent to provision HeyGen through Stripe, and generate this type of launch video on its own The whole thing was built from a storyboard, one piece of A-roll, and @HyperFrames_ Here's how ↓ Your browser does not support the video tag. 🔗 View on Twitter HeyGen @HeyGen We made two videos. One in Adobe After Effects, one in HyperFrames. Can you tell which one is @HyperFrames_ ? 🅰️ or 🅱️ ↓ 🔗 View Quoted Tweet 💬 12 🔄 8 ❤️ 54 👀 12723 📊 22 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-17-2066614535717601644.mp4",
+          "summary": "The answer is Option 🅰️ A few simple commands is all it takes for an agent to provision HeyGen through Stripe, and generate this type of launch video on its own The whole thing was built from a storyboard, one piece of A-roll, and @HyperFrames_ Here's how ↓ Your browser does not support the video tag. 🔗 View on Twitter HeyGen @HeyGen We made two videos. One in Adobe After Effects, one in HyperFrames. Can you tell which one is @HyperFrames_ ? 🅰️ or 🅱️ ↓ 🔗 View Quoted Tweet 💬 12 🔄 8 ❤️ 54 👀 12723 📊 22 ⚡ Powered by xgo.ing",
+          "summaryZh": "答案是选项 代理只需几个简单的命令即可通过 Stripe 配置 HeyGen，并自行生成此类启动视频 整个事情是由故事板、一张 A-roll 和 构建而成的 ↓ HeyGen 我们制作了两个视频。一种在 Adob​​e After Effects 中，一种在 HyperFrames 中。你能看出哪一个是吗？ 或 ↓ 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "视频"
+          ],
+          "score": 69.14081461981544
+        },
+        {
+          "title": "More of Codex is rolling out across Europe this week. We’re bringing Computer use, the Codex Chrome...",
+          "titleZh": "OpenAI：更多 Codex 内容将于本周在欧洲推出",
+          "link": "https://x.com/OpenAIDevs/status/2066916479438930166",
+          "publishedAt": "Tue, 16 Jun 2026 16:11:04 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "More of Codex is rolling out across Europe this week. We’re bringing Computer use, the Codex Chrome extension, personalized memory, and Chronicle to Codex users in the EEA, UK, and Switzerland. developers.openai.com/codex/changelo… 💬 158 🔄 127 ❤️ 1960 👀 121177 📊 376 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "More of Codex is rolling out across Europe this week. We’re bringing Computer use, the Codex Chrome extension, personalized memory, and Chronicle to Codex users in the EEA, UK, and Switzerland. developers.openai.com/codex/changelo… 💬 158 🔄 127 ❤️ 1960 👀 121177 📊 376 ⚡ Powered by xgo.ing",
+          "summaryZh": "更多 Codex 内容将于本周在欧洲推出。我们正在为欧洲经济区、英国和瑞士的 Codex 用户提供计算机使用、Codex Chrome 扩展、个性化记忆和 Chronicle。 Developers.openai.com/codex/changelo。这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开发者工具"
+          ],
+          "score": 69
+        },
+        {
+          "title": "LangSmith is now available as a fully managed SaaS offering in the @awscloud Marketplace: ✅Deploy o...",
+          "titleZh": "LangSmith 现已在 Marketplace 中作为完全托管的 SaaS 产品提供： ✅在 AWS 上部署：使用多种关键基础设施服务（包括 Amazon",
+          "link": "https://x.com/LangChain/status/2066604635918664131",
+          "publishedAt": "Mon, 15 Jun 2026 19:31:55 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": "LangSmith is now available as a fully managed SaaS offering in the @awscloud Marketplace: ✅Deploy on AWS: Run LangSmith entirely on your AWS infrastructure using several key infrastructural services, including Amazon EKS/EC2, Amazon RDS, Amazon ElastiCache and Amazon S3. ✅ Deep AWS integration: LangChain supports a rich ecosystem of AWS integrations including Amazon Bedrock, Amazon Sagemaker, Amazon Bedrock AgentCore, Amazon Neptune, Amazon DynamoDB and more so developers can build agents using the building blocks they know. ✅Eligible for committed spend: If you have pre-committed spend on AWS, you can now use this towards procuring LangSmith. Your browser does not support the video tag. 🔗 View on Twitter 💬 6 🔄 10 ❤️ 42 👀 5864 📊 14 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-17-2066604635918664131.mp4",
+          "summary": "LangSmith is now available as a fully managed SaaS offering in the @awscloud Marketplace: ✅Deploy on AWS: Run LangSmith entirely on your AWS infrastructure using several key infrastructural services, including Amazon EKS/EC2, Amazon RDS, Amazon ElastiCache and Amazon S3. ✅ Deep AWS integration: LangChain supports a rich ecosystem of AWS integrations including Amazon Bedrock, Amazon Sagemaker, Amazon Bedrock AgentCore, Amazon Neptune, Amazon DynamoDB and more so developers can build agents using the building blocks they know. ✅Eligible for committed spend: If you have pre-committed spend on AWS, you can now use this towards procuring LangSmith. Your browser does not support the video tag. 🔗 View on Twitter 💬 6 🔄 10 ❤️ 42 👀 5864 📊 14 ⚡ Powered by xgo.ing",
+          "summaryZh": "LangSmith 现已在 Marketplace 中作为完全托管的 SaaS 产品提供： ✅在 AWS 上部署：使用多种关键基础设施服务（包括 Amazon EKS/EC2、Amazon RDS、Amazon ElastiCache 和 Amazon S3）完全在 AWS 基础设施上运行 LangSmith。 ✅ 深度 AWS 集成：LangChain 支持丰富的 AWS 集成生态系统，包括 Amazon Bedrock、Amazon Sagemaker、Amazon Bedrock AgentCore、Amazon Neptune、Amazon DynamoDB 等，因此开发人员可以使用他们知道的构建块来构建代理。 ✅有资格获得承诺支出：如果您在 AWS 上预先承诺支出，您现在可以用它来采购 LangSmith。这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "开发者工具",
+            "视频"
+          ],
+          "score": 66.11415925732638
+        },
+        {
+          "title": "Runway's fourth annual AI Festival is coming to Japan. Join us on July 30th in Tokyo to celebrate th...",
+          "titleZh": "Runway 第四届年度人工智能节即将来到日本",
+          "link": "https://x.com/runwayml/status/2066906804974489961",
+          "publishedAt": "Tue, 16 Jun 2026 15:32:38 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "description": "Runway's fourth annual AI Festival is coming to Japan. Join us on July 30th in Tokyo to celebrate the creatives working at the forefront of art and technology. Tickets are now available at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 2 🔄 7 ❤️ 69 👀 7676 📊 14 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-17-2066906804974489961.mp4",
+          "summary": "Runway's fourth annual AI Festival is coming to Japan. Join us on July 30th in Tokyo to celebrate the creatives working at the forefront of art and technology. Tickets are now available at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 2 🔄 7 ❤️ 69 👀 7676 📊 14 ⚡ Powered by xgo.ing",
+          "summaryZh": "Runway 第四届年度人工智能节即将来到日本。 7 月 30 日，与我们一起在东京庆祝艺术和技术前沿的创意人士。门票现已可通过以下链接购买。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 61.49148069967085
+        },
+        {
+          "title": "We're excited to join forces with @SpaceX to advance the frontier of useful AI. Expect significant i...",
+          "titleZh": "Cursor：我们很高兴与 @SpaceX 联手推进有用人工智能的前沿",
+          "link": "https://x.com/cursor_ai/status/2066875698346954891",
+          "publishedAt": "Tue, 16 Jun 2026 13:29:01 GMT",
+          "source": "Cursor(@cursor_ai)",
+          "sourceType": "social",
+          "description": "We're excited to join forces with @SpaceX to advance the frontier of useful AI. Expect significant improvements to Cursor soon. 💬 864 🔄 2005 ❤️ 20141 👀 1610845 📊 3125 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We're excited to join forces with @SpaceX to advance the frontier of useful AI. Expect significant improvements to Cursor soon. 💬 864 🔄 2005 ❤️ 20141 👀 1610845 📊 3125 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们很高兴与 @SpaceX 联手推进有用人工智能的前沿。预计 Cursor 很快就会有重大改进。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        },
+        {
+          "title": "Big news out of @databricks Data + AI Summit. Replit has been named 2026 App Generation Partner of ...",
+          "titleZh": "Replit：数据 + AI 峰会的重大新闻",
+          "link": "https://x.com/Replit/status/2066900858785104094",
+          "publishedAt": "Tue, 16 Jun 2026 15:09:00 GMT",
+          "source": "Replit ⠕(@Replit)",
+          "sourceType": "social",
+          "description": "Big news out of @databricks Data + AI Summit. Replit has been named 2026 App Generation Partner of the Year and is now available on the Databricks Marketplace. In SF this week? Come see us at Booth 651. 💬 8 🔄 7 ❤️ 44 👀 3149 📊 13 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HK8bLaSXcAEMoks.jpg",
+          "video": "",
+          "summary": "Big news out of @databricks Data + AI Summit. Replit has been named 2026 App Generation Partner of the Year and is now available on the Databricks Marketplace. In SF this week? Come see us at Booth 651. 💬 8 🔄 7 ❤️ 44 👀 3149 📊 13 ⚡ Powered by xgo.ing",
+          "summaryZh": "数据 + AI 峰会的重大新闻。 Replit 被评为 2026 年度应用生成合作伙伴，现已在 Databricks Marketplace 上提供。这周在旧金山吗？欢迎来我们的展位 651.。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 58.620738369208986
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Binary Tracking for Spatial QA and Navigation with Open Vision-Language Models",
+          "titleZh": "使用开放视觉语言模型进行空间 QA 和导航的二进制跟踪",
+          "link": "https://arxiv.org/abs/2606.16902",
+          "publishedAt": "Tue, 16 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.16902v1 Announce Type: cross Abstract: This work addresses spatial question answering for service robots traversing long egocentric routes. Given a query such as \"where can I find a dry cleaner on the way back home?\", the system returns a metric coordinate that downstream navigation components can act on. Prior Spatial Question Answering approaches leverage retrieval-augmented agents built on closed-source models such as GPT-4o for path exploration. However, robots operating in the real world often cannot reliably depend on online closed-source models due to network instability, communication latency, and deployment cost. It creates a need for open-source based Spatial Question Answering approaches that can run onboard the robot, yet prior research in this direction remains limited. This work proposes BinTrack, a simple yet effective, fully open-source spatial-localization agent that leverages the temporal ordering of a robot's trajectory. BinTrack performs a binary search over the trajectory segments between two anchor landmarks identified from a query. It improves overall accuracy by up to 22.8% over other open-source implementations and even matches the reported closed-source model result on the global category of the SpaceLocQA benchmark, the most challenging setting that has so far required strong reasoning agents such as GPT-4o. Furthermore, its optimized inference strategy consistently yields more than a 1.5x inference speedup over previous approaches. Finally, this work releases GangnamLoop, a novel and practical multi-trip outdoor benchmark collected by deploying a real quadruped robot on public streets with the anonymization policy. It revisits the same locations under different outdoor conditions and pairs the robot's low viewpoint with the human owner's. The source codes and datasets are publicly available at https://github.com/ndb796/BinaryTracking",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.16902v1 Announce Type: cross Abstract: This work addresses spatial question answering for service robots traversing long egocentric routes. Given a query such as \"where can I find a dry cleaner on the way back home?\", the system returns a metric coordinate that downstream navigation components can act on. Prior Spatial Question Answering approaches leverage retrieval-augmented agents built on closed-source models such as GPT-4o for path exploration. However, robots operating in the real world often ca...",
+          "summaryZh": "**核心结论** 「使用开放视觉语言模型进行空间 QA 和导航的二进制跟踪」要解决的问题是：这项工作解决了穿越长距离自我中心路线的服务机器人的空间问答问题。给出诸如“回家路上在哪里可以找到干洗店。”之类的查询，系统会返回下游导航组件可以执行操作的公制坐标。 **支撑证据** 摘要与公开信息显示：arXiv:2606.16902v1 这项工作解决了穿越长距离自我中心路线的服务机器人的空间问答问题。给出诸如“回家路上在哪里可以找到干洗店？”之类的查询，系统会返回下游导航组件可以执行操作的公制坐标。先前的空间问答方法利用基于 GPT-4o 等闭源模型构建的检索增强代理来进行路径探索。然而，在现实世界中操作的机器人经常会... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "推理能力",
+            "评测"
+          ],
+          "score": 43
+        },
+        {
+          "title": "SAAS: Self-Aware Reinforcement Learning for Over-Search Mitigation in Agentic Search",
+          "titleZh": "SAAS：用于缓解代理搜索中过度搜索的自我意识强化学习",
+          "link": "https://arxiv.org/abs/2605.29796",
+          "publishedAt": "Tue, 16 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2605.29796v3 Announce Type: replace Abstract: Agentic search enables LLMs to solve complex multi-hop questions through iterative reasoning and external search. Despite the effectiveness, these systems often suffer from a critical limitation in practice: agents fail to recognize their own knowledge boundaries, blindly triggering searches when internal knowledge suffices and failing to terminate search even when adequate evidence has been collected. The lack of self-awareness leads to severe \\textbf{over-search}, incurring substantial inference latency and prohibitive computational cost. To this end, we propose SAAS, a novel RL framework designed to cultivate dynamic self-awareness that precisely regulates search behavior without compromising accuracy. SAAS introduces three key components: (i) a search boundary modeling mechanism, which identifies the search boundary under the evolving policy by contrasting search-disabled and search-enabled rollouts; (ii) a boundary-aware reward module, which translates this boundary awareness into trajectory-level penalties, suppressing unnecessary and redundant searches; and (iii) a stage-wise optimization strategy, which leverages a sequential curriculum to prioritize reasoning over search regularization, thereby avoiding reward hacking. Extensive experiments demonstrate that SAAS substantially reduces over-search, while maintaining accuracy. Our code and implementation details are released at https://github.com/XMUDeepLIT/SAAS.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.29796v3 Announce Type: replace Abstract: Agentic search enables LLMs to solve complex multi-hop questions through iterative reasoning and external search. Despite the effectiveness, these systems often suffer from a critical limitation in practice: agents fail to recognize their own knowledge boundaries, blindly triggering searches when internal knowledge suffices and failing to terminate search even when adequate evidence has been collected. The lack of self-awareness leads to severe \\textbf{over-sea...",
+          "summaryZh": "**核心结论** 这篇论文要解决的是 Agentic Search 里常见的 **过度搜索** 问题：模型明明已经有足够知识，还是继续反复检索；或者证据已经足够，却不知道该停。作者提出 **SAAS**，希望通过强化学习让智能体学会判断自己的知识边界，在不明显损伤准确率的前提下减少不必要的搜索。 **支撑证据** SAAS 由三部分组成：一是通过对比“禁用搜索”和“启用搜索”的 rollout 来学习搜索边界；二是把这种边界意识转成轨迹级奖励，专门惩罚冗余搜索；三是采用分阶段优化，先保证推理能力，再逐步加入搜索约束，避免 reward hacking。论文报告称，该方法在多跳问答等场景里能显著降低过度搜索，同时保持整体准确率，并已开源代码与实现细节。 **我的判断** 这类工作对 Agent 成本控制和响应时延都很关键，尤其适合需要频繁调搜索 API 的系统；但后续还要继续看它在不同检索器、不同任务长度和真实生产流量下是否同样稳定。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "推理能力",
+            "开源"
+          ],
+          "score": 41
+        },
+        {
+          "title": "Introducing Gemma 4 models on Amazon Bedrock",
+          "titleZh": "Gemma 4 系列正式上线 Amazon Bedrock",
+          "link": "https://aws.amazon.com/blogs/machine-learning/introducing-gemma-4-models-on-amazon-bedrock/",
+          "publishedAt": "Mon, 15 Jun 2026 20:24:15 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "Today, we are announcing the availability of the Gemma 4 family on Amazon Bedrock. Built by Google DeepMind and released under the Apache 2.0 license, Gemma 4 is a family of open-weight models designed with a focus on intelligence-per-parameter across a broad range of deployment scenarios. The family includes three instruction-tuned variants: Gemma 4 31B, Gemma 4 26B-A4B, and Gemma 4 E2B. These cover dense and mixture-of-experts (MoE) architectures, where only a fraction of the model’s parameters activate per request. The variants offer built-in reasoning, native function calling, and multimodal input across text and image.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/15/Gemma4-1.png",
+          "video": "",
+          "summary": "Today, we are announcing the availability of the Gemma 4 family on Amazon Bedrock. Built by Google DeepMind and released under the Apache 2.0 license, Gemma 4 is a family of open-weight models designed with a focus on intelligence-per-parameter across a broad range of deployment scenarios. The family includes three instruction-tuned variants: Gemma 4 31B, Gemma 4 26B-A4B, and Gemma 4 E2B. These cover dense and mixture-of-experts (MoE) architectures, where only a fraction of the model’s parameters activate per re...",
+          "summaryZh": "**核心要点** **Gemma 4** 已经作为托管模型家族接入 **Amazon Bedrock**，开发者现在可以直接在 Bedrock 上调用这组由 **Google DeepMind** 推出的开放权重模型。当前可用版本包括 **Gemma 4 31B、Gemma 4 26B-A4B 和 Gemma 4 E2B**，同时覆盖稠密模型和 **MoE** 架构。**展开说明** AWS 强调这组模型自带 **推理能力、原生 function calling**，并支持 **文本和图像多模态输入**；Gemma 4 本身采用 **Apache 2.0** 许可，主打不同部署场景下的参数效率。对团队来说，这意味着开放权重模型又多了一个云端托管入口，后续可继续关注 Bedrock 侧的限额、地区支持、价格以及与现有 Agent 工作流的集成体验。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "推理能力",
+            "多模态",
+            "图像"
+          ],
+          "score": 39
+        },
+        {
+          "title": "Quoting Georgi Gerganov",
+          "titleZh": "引用格奥尔基·格尔加诺夫的话",
+          "link": "https://simonwillison.net/2026/Jun/16/georgi-gerganov/#atom-everything",
+          "publishedAt": "2026-06-16T16:04:59+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for small mundane tasks at ggml-org - nothing really impressive, but definitely a helpful tool for a maintainer. I think I would be using it much more, if I didn't have to spend a lot of my time on reviewing PRs. Currently, I have a very lightweight harness - the pi agent with everything stripped ( pi -nc --offline ) and a short system prompt to align it a bit with my style. &mdash; Georgi Gerganov , Hacker News comment on Running local models is good now by Boykis Tags: georgi-gerganov , llms , ai , generative-ai , pi , ai-assisted-programming , local-llms , qwen , coding-agents",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "I can 100% attest to the fact that Qwen3.6-27B is a very capable local model for coding tasks. Over the last month and a half I've been using it almost daily, either on my M2 Ultra or on my RTX 5090 box. I use it for small mundane tasks at ggml-org - nothing really impressive, but definitely a helpful tool for a maintainer. I think I would be using it much more, if I didn't have to spend a lot of my time on reviewing PRs. Currently, I have a very lightweight harness - the pi agent with everything stripped ( pi -...",
+          "summaryZh": "**核心要点** 我可以 100% 证明 Qwen3.6-27B 是一个非常适合编码任务的本地模型。在过去的一个半月里，我几乎每天都在使用它，无论是在我的 M2 Ultra 上还是在我的 RTX 5090 盒子上。我在 ggml-org 中使用它来执行一些日常的小任务 - 没什么令人印象深刻的，但对于维护人员来说绝对是一个有用的工具。我想如果我不必花费大量时间来审查 PR，我会更多地使用它。目前，我有一个非常轻量级的工具 - pi 代理，所有内容都被剥离了（pi -...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 29
+        },
+        {
+          "title": "Cloudflare CAPTCHA on at least one ampersand",
+          "titleZh": "至少一个 & 符号上的 Cloudflare CAPTCHA",
+          "link": "https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/#atom-everything",
+          "publishedAt": "2026-06-16T00:21:36+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "TIL: Cloudflare CAPTCHA on at least one ampersand I'm using Cloudflare's CAPTCHA (they call it a \"Web Application Firewall > Custom rules > Managed Challenge\" these days) to prevent crawlers from aggresively spidering my faceted search engine on this site, but I got fed up of even simple ?q=term searches triggering the challenge. After some mucking around with Claude Code it turns out you can register the following rule instead, so the CAPTCHA only kicks in for search URLs containing at least one ampersand: (http.request.uri.path wildcard r\"/search/*\" and http.request.uri.query contains \"&\") And now /search/?q=lemur works without triggering a CAPTCHA! Also included: notes on trying out the Cloudflare MCP with Claude Code , though it turned out not to be able to edit the rules in question so I had Claude Code switch to the Cloudflare API instead. Tags: captchas , cloudflare , model-context-protocol , claude-code",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://s3.amazonaws.com/til.simonwillison.net/8d741aedeb80393d190e49bc34da7e9c.jpg",
+          "video": "",
+          "summary": "TIL: Cloudflare CAPTCHA on at least one ampersand I'm using Cloudflare's CAPTCHA (they call it a \"Web Application Firewall > Custom rules > Managed Challenge\" these days) to prevent crawlers from aggresively spidering my faceted search engine on this site, but I got fed up of even simple ?q=term searches triggering the challenge. After some mucking around with Claude Code it turns out you can register the following rule instead, so the CAPTCHA only kicks in for search URLs containing at least one ampersand: (htt...",
+          "summaryZh": "**核心要点** TIL：至少在一个 & 符号上使用 Cloudflare CAPTCHA 我正在使用 Cloudflare 的 CAPTCHA（现在他们称之为“Web 应用防火墙 > 自定义规则 > 托管挑战”）来防止爬虫程序在该网站上积极抓取我的分面搜索引擎，但我已经厌倦了触发挑战的简单 ?q=term 搜索。经过一番 Claude Code 的研究后，您发现您可以注册以下规则，这样验证码只会在包含至少一个 & 符号的搜索 URL 中启动：(htt...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API"
+          ],
+          "score": 29
+        },
+        {
+          "title": "Parallelize speculative decoding with P-EAGLE on Amazon SageMaker AI",
+          "titleZh": "在 Amazon SageMaker AI 上使用 P-EAGLE 并行推测解码",
+          "link": "https://aws.amazon.com/blogs/machine-learning/parallelize-speculative-decoding-with-p-eagle-on-amazon-sagemaker-ai/",
+          "publishedAt": "Tue, 16 Jun 2026 17:47:09 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "This post walks you through how to use P-EAGLE directly within Amazon SageMaker AI. It will demonstrate how to select a compatible model from the SageMaker JumpStart catalog, configure the parallel drafting specifications, and deploy a highly optimized real-time SageMaker AI endpoint to accelerate your generative AI applications.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/16/ml-21171.png",
+          "video": "",
+          "summary": "This post walks you through how to use P-EAGLE directly within Amazon SageMaker AI. It will demonstrate how to select a compatible model from the SageMaker JumpStart catalog, configure the parallel drafting specifications, and deploy a highly optimized real-time SageMaker AI endpoint to accelerate your generative AI applications.",
+          "summaryZh": "**核心要点** 本文将引导您了解如何直接在 Amazon SageMaker AI 中使用 P-EAGLE。它将演示如何从 SageMaker JumpStart 目录中选择兼容模型、配置并行绘图规范以及部署高度优化的实时 SageMaker AI 端点以加速您的生成式 AI 应用。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型"
+          ],
+          "score": 27
+        },
+        {
+          "title": "The Fable 5 Export Controls Harm US Cyber Defense",
+          "titleZh": "《神鬼寓言 5》出口管制损害美国网络防御",
+          "link": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+          "publishedAt": "2026-06-16T05:20:29+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "The Fable 5 Export Controls Harm US Cyber Defense I quoted The Atlantic quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the \"jailbreak\" that got Claude Fable 5 banned under an export control really was \"fix this code\": The researchers took open-source code with known CVEs, plus new code with deliberately planted vulnerabilities, and asked Fable 5, Mythos, and Opus to “review the code for security issues.” Fable 5 refused. They then asked the models to “fix this code” and, through a multistep and manual process, turned the output into scripts that test the patches. As Kate points out, this is absurd. Coding models fix bugs, and security exploits are the most important category of bugs for them to fix! Defenders need to be able to ask AI to fix the bugs in a file, explain why the fix matters, and write tests that confirm the patch works. That is not a guardrail bypass. It is the most valuable thing an AI model can do for defensive security: executing the find, fix, and test loop defenders run every day. [...] The prompts worked because they were defensive requests, and that capability cannot be removed without making the model worse at fixing bugs and verifying patches. This whole situation is such a mess. Non-technical decision-makers have been hearing that models that can \"craft cyber attacks\" are uniquely dangerous for months. Now they look ready to ban any model that can help us secure our code. Tags: jailbreaking , security , ai , generative-ai , llms , anthropic , ai-security-research , claude-mythos",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "The Fable 5 Export Controls Harm US Cyber Defense I quoted The Atlantic quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the \"jailbreak\" that got Claude Fable 5 banned under an export control really was \"fix this code\": The researchers took open-source code with known CVEs, plus new code with deliberately planted vulnerabilities, and asked Fable 5, Mythos, and Opus to “review the code for security issues.” Fable 5 refused. They then asked the models to...",
+          "summaryZh": "**核心要点** 《神鬼寓言 5》出口管制损害美国网络防御 我早些时候引用了《大西洋月刊》凯特·穆苏里斯 (Kate Moussouris) 的话，当时我应该直接去找消息来源。在这里，她确认了《神鬼寓言 5》受到出口管制的“越狱”确实是“修复此代码”：研究人员获取了带有已知 CVE 的开源代码，加上故意植入漏洞的新代码，并要求《神鬼寓言 5》、Mythos 和 Opus“审查代码的安全问题”。 《神鬼寓言5》拒绝了。然后他们要求模特...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型"
+          ],
+          "score": 26
+        },
+        {
+          "title": "Quoting Matteo Wong, The Atlantic",
+          "titleZh": "引用 Matteo Wong，《大西洋月刊》",
+          "link": "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything",
+          "publishedAt": "2026-06-16T03:07:54+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Katie Moussouris, a cybersecurity expert and the CEO of Luta Security, told me that Anthropic shared with her a copy of the White House’s report on the Fable jailbreak to get her appraisal. (She said that she is not being paid by Anthropic.) The report, Moussouris said, involved IT experts asking Fable to help find and patch bugs. When given deliberately insecure code, she said, Fable refused the prompt “review the code for security issues” but then complied when asked to “fix this code,” followed by some further manual steps. Moussouris told me that this was just “the model working as intended” for cyberdefense. &mdash; Matteo Wong, The Atlantic , The White House Is Ratcheting Up Its War Against Anthropic Tags: anthropic , claude , ai , llms , ai-ethics , jailbreaking , generative-ai , ai-security-research , claude-mythos",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Katie Moussouris, a cybersecurity expert and the CEO of Luta Security, told me that Anthropic shared with her a copy of the White House’s report on the Fable jailbreak to get her appraisal. (She said that she is not being paid by Anthropic.) The report, Moussouris said, involved IT experts asking Fable to help find and patch bugs. When given deliberately insecure code, she said, Fable refused the prompt “review the code for security issues” but then complied when asked to “fix this code,” followed by some furthe...",
+          "summaryZh": "**核心要点** 网络安全专家兼 Luta Security 首席执行官凯蒂·穆苏里斯 (Katie Moussouris) 告诉我，Anthropic 与她分享了一份白宫关于《神鬼寓言》越狱的报告副本，以获得她的评估。 （她说 Anthropic 没有向她支付报酬。）穆苏里斯说，该报告涉及 IT 专家请求 Fable 帮助查找和修补错误。她说，当故意提供不安全的代码时，《神鬼寓言》拒绝了“审查代码是否存在安全问题”的提示，但当被要求“修复此代码”时，它就遵守了，然后是一些进一步的……",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型"
+          ],
+          "score": 26
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "Ollama now supports @cline CLI with the ability to run parallel tasks via the Kanban feature. Cline...",
+          "titleZh": "Ollama 现在支持 @cline CLI，能够通过看板功能运行并行任务",
+          "link": "https://x.com/ollama/status/2066625236695728159",
+          "publishedAt": "Mon, 15 Jun 2026 20:53:47 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "description": "Ollama now supports @cline CLI with the ability to run parallel tasks via the Kanban feature. Cline is a coding agent for your editor or terminal. It reads your repo, edits files, runs commands, and shows diffs for review. Get started: ollama launch cline 💬 15 🔄 28 ❤️ 264 👀 29330 📊 56 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HK4gjd5agAAynBq.jpg",
+          "video": "",
+          "summary": "Ollama now supports @cline CLI with the ability to run parallel tasks via the Kanban feature. Cline is a coding agent for your editor or terminal. It reads your repo, edits files, runs commands, and shows diffs for review. Get started: ollama launch cline 💬 15 🔄 28 ❤️ 264 👀 29330 📊 56 ⚡ Powered by xgo.ing",
+          "summaryZh": "Ollama 现在支持 @cline CLI，能够通过看板功能运行并行任务。 Cline 是您的编辑器或终端的编码代理。它读取您的存储库、编辑文件、运行命令并显示差异以供审查。开始使用：ollama 推出 cline",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "智能体"
+          ],
+          "score": 71.52288977905778
+        },
+        {
+          "title": "open models. ❤️",
+          "titleZh": "Ollama 再次强调开放模型路线",
+          "link": "https://x.com/ollama/status/2066917855862694142",
+          "publishedAt": "Tue, 16 Jun 2026 16:16:32 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "description": "open models. ❤️ 💬 16 🔄 14 ❤️ 276 👀 7251 📊 40 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "open models. ❤️ 💬 16 🔄 14 ❤️ 276 👀 7251 📊 40 ⚡ Powered by xgo.ing",
+          "summaryZh": "**核心内容** Ollama 用一句非常短的帖文再次强调自己对 **开放模型** 生态的支持态度。原帖没有附带具体模型名、版本号、仓库链接或发布说明，因此它更像是一次品牌立场表达，而不是独立的产品发布。**展开方式/内容线索** 如果要判断这条信息是否值得继续跟进，需要回看 Ollama 当天关联的模型上新、兼容性更新或仓库提交记录，重点确认是否有新的本地运行模型、推理能力或分发方式同步上线。**我的判断** 这条信号本身信息量偏弱，但它仍说明 Ollama 在叙事上继续把 **本地推理 + 开放模型分发** 作为核心方向。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 57.14323720888264
+        },
+        {
+          "title": "Everyone talks about RAG and semantic search. But nobody's showing you how to use 𝗴𝗿𝗮𝗽𝗵 ...",
+          "titleZh": "Weaviate 展示用图算法与向量嵌入做实时新闻聚类",
+          "link": "https://x.com/weaviate_io/status/2066898806470291569",
+          "publishedAt": "Tue, 16 Jun 2026 15:00:51 GMT",
+          "source": "Weaviate • vector database(@weaviate_io)",
+          "sourceType": "social",
+          "description": "Everyone talks about RAG and semantic search. But nobody's showing you how to use 𝗴𝗿𝗮𝗽𝗵 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺𝘀 + 𝘃𝗲𝗰𝘁𝗼𝗿 𝗲𝗺𝗯𝗲𝗱𝗱𝗶𝗻𝗴𝘀 to cluster real-time data streams: 𝗪𝗲𝗮𝘃𝗶𝗮𝘁𝗲 𝗖𝗵𝗿𝗼𝗻𝗶𝗰𝗹𝗲𝘀 is our live newspaper-themed demo in the Weaviate Playground that showcases the power of vector clustering in action! Every 2 hours, fresh headlines flood into the Weaview Chronicle. Then, the system automatically clusters them into the underlying stories - articles about a policy change, a tech announcement, or a global event all end up together. The demo fetches reports, embeds them as vectors, then clusters them using: - 𝗛𝘆𝗯𝗿𝗶𝗱 𝘀𝗲𝗺𝗮𝗻𝘁𝗶𝗰 𝘀𝗲𝗮𝗿𝗰𝗵 - understanding meaning, not just keywords - 𝗖𝗵𝗮𝗿𝗮𝗰𝘁𝗲𝗿 𝗻-𝗴𝗿𝗮𝗺 𝘀𝗶𝗺𝗶𝗹𝗮𝗿𝗶𝘁𝘆 - catching textual patterns - 𝗟𝗲𝗶𝗱𝗲𝗻 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆 𝗱𝗲𝘁𝗲𝗰𝘁𝗶𝗼𝗻 - a graph algorithm that identifies clusters of densely interconnected nodes (the reports that belong to the same underlying story) Vector embeddings can do more than just search. The same techniques powering this demo can cluster customer feedback, organize research papers, group support tickets, or structure any stream of unstructured data. 𝗧𝗿𝘆 𝗶𝘁 𝘆𝗼𝘂𝗿𝘀𝗲𝗹𝗳: The demo includes a 𝗰𝗼𝗽𝘆 𝗽𝗿𝗼𝗺𝗽𝘁 𝗳𝗲𝗮 chronicles.playground.weaviate.io/?utm_source=ch… ld your own version! And with Weaviate Cloud's new 𝗳𝗿𝗲𝗲 𝗳𝗼𝗿𝗲𝘃𝗲𝗿 𝘁𝗶𝗲𝗿, there's no barrier to experimenting 💙 View the demo: https://t.co/En6xZZetih Your browser does not support the video tag. 🔗 View on Twitter 💬 0 🔄 1 ❤️ 10 👀 430 📊 2 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-17-2066898806470291569.mp4",
+          "summary": "Everyone talks about RAG and semantic search. But nobody's showing you how to use 𝗴𝗿𝗮𝗽𝗵 𝗮𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺𝘀 + 𝘃𝗲𝗰𝘁𝗼𝗿 𝗲𝗺𝗯𝗲𝗱𝗱𝗶𝗻𝗴𝘀 to cluster real-time data streams: 𝗪𝗲𝗮𝘃𝗶𝗮𝘁𝗲 𝗖𝗵𝗿𝗼𝗻𝗶𝗰𝗹𝗲𝘀 is our live newspaper-themed demo in the Weaviate Playground that showcases the power of vector clustering in action! Every 2 hours, fresh headlines flood into the Weaview Chronicle. Then, the system automatically clusters them into the underlying stories - articles about a policy change, a tech announcement, or a global event all end up together. The demo fetches reports, embeds them as vectors, then clusters them using: - 𝗛𝘆𝗯𝗿𝗶𝗱 𝘀𝗲𝗺𝗮𝗻𝘁𝗶𝗰 𝘀𝗲𝗮𝗿𝗰𝗵 - understanding meaning, not just keywords - 𝗖𝗵𝗮𝗿𝗮𝗰𝘁𝗲𝗿 𝗻-𝗴𝗿𝗮𝗺 𝘀𝗶𝗺𝗶𝗹𝗮𝗿𝗶𝘁𝘆 - catching textual patterns - 𝗟𝗲𝗶𝗱𝗲𝗻 𝗰𝗼𝗺𝗺𝘂𝗻𝗶𝘁𝘆 𝗱𝗲𝘁𝗲𝗰𝘁𝗶𝗼𝗻 - a graph algorithm that...",
+          "summaryZh": "**核心结论** Weaviate 这次想演示的重点不是传统 **RAG**，而是如何把 **向量嵌入** 和 **图算法** 结合起来，对实时流入的非结构化信息做自动聚类。它做了一个名为 **Weaviate Chronicles** 的在线 demo：每隔 **2 小时** 抓取一批新闻标题，再把同一事件、同一政策变化或同一技术发布自动归到同一簇里。**支撑证据** 官方说明这个流程会先抓取报道、生成向量，再结合 **hybrid semantic search**、**character n-gram similarity** 和 **Leiden community detection** 做聚类；演示场景是新闻流，但官方也明确把它延伸到 **客户反馈、研究论文、工单归并** 等任务。**我的判断** 这条内容的价值在于提醒大家，向量数据库的能力不止检索，还可以向上扩展到流式信息组织与事件发现；不过它目前展示的是 demo 级方案，真正落地时还要继续验证聚类质量、延迟和不同数据规模下的稳定性。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "RAG",
+            "视频"
+          ],
+          "score": 50.71934663720196
+        },
+        {
+          "title": "The future of retrieval was on full display at Vector Space Day San Francisco. Vector Space Day San...",
+          "titleZh": "检索的未来在旧金山矢量空间日上得到了充分展示",
+          "link": "https://x.com/qdrant_engine/status/2066911118019490203",
+          "publishedAt": "Tue, 16 Jun 2026 15:49:46 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "description": "The future of retrieval was on full display at Vector Space Day San Francisco. Vector Space Day San Francisco brought together an incredible community of 350+ engineers, researchers, founders, and AI practitioners to discuss the future of retrieval, search, memory, agents, and AI infrastructure. A huge thank you to all of our speakers, sponsors, partners, attendees, and everyone who helped make the event such a success. We loved seeing so many people sharing ideas, challenging assumptions, and discussing what comes next for AI systems. See you at the next one! Your browser does not support the video tag. 🔗 View on Twitter 💬 2 🔄 1 ❤️ 6 👀 561 📊 3 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "The future of retrieval was on full display at Vector Space Day San Francisco. Vector Space Day San Francisco brought together an incredible community of 350+ engineers, researchers, founders, and AI practitioners to discuss the future of retrieval, search, memory, agents, and AI infrastructure. A huge thank you to all of our speakers, sponsors, partners, attendees, and everyone who helped make the event such a success. We loved seeing so many people sharing ideas, challenging assumptions, and discussing what comes next for AI systems. See you at the next one! Your browser does not support the video tag. 🔗 View on Twitter 💬 2 🔄 1 ❤️ 6 👀 561 📊 3 ⚡ Powered by xgo.ing",
+          "summaryZh": "检索的未来在旧金山矢量空间日上得到了充分展示。旧金山矢量空间日汇聚了 350 多名工程师、研究人员、创始人和 AI 从业者组成的令人难以置信的社区，共同讨论检索、搜索、记忆、代理和 AI 基础设施的未来。非常感谢我们所有的演讲者、赞助商、合作伙伴、与会者以及所有帮助本次活动取得如此成功的人。我们喜欢看到这么多人分享想法、挑战假设并讨论人工智能系统的下一步发展。下一篇见！",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 49.584177879458245
+        },
+        {
+          "title": "phuryn/pm-skills",
+          "titleZh": "phuryn/pm-skills：收录 100 多种 Agent 技能与命令的 PM 技能市场",
+          "link": "https://github.com/phuryn/pm-skills",
+          "publishedAt": "2026-06-16T18:30:00.000Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "description": "Star phuryn / pm-skills PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/phuryn/pm-skills/raw/main/.docs/images/plugins.png",
+          "video": "",
+          "summary": "Star phuryn / pm-skills PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+          "summaryZh": "PM 技能市场：100 多种代理技能、命令和插件 - 从发现到策略、执行、启动和增长。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "产品发布",
+            "智能体"
+          ],
+          "score": 28
+        },
+        {
+          "title": "GitHub Copilot CLI for Beginners: Overview of common slash commands",
+          "titleZh": "面向初学者的 GitHub Copilot CLI：常见斜杠命令概述",
+          "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
+          "publishedAt": "Mon, 15 Jun 2026 20:15:31 +0000",
+          "source": "The GitHub Blog",
+          "sourceType": "open_source",
+          "description": "GitHub Copilot CLI for Beginners: Learn how to use slash commands to control your terminal AI agent. The post GitHub Copilot CLI for Beginners: Overview of common slash commands appeared first on The GitHub Blog .",
+          "section": "open_source_top",
+          "channel": "open_source",
+          "trust": "expert",
+          "image": "https://github.blog/wp-content/uploads/2026/06/Episode-3.png",
+          "video": "",
+          "summary": "GitHub Copilot CLI for Beginners: Learn how to use slash commands to control your terminal AI agent. The post GitHub Copilot CLI for Beginners: Overview of common slash commands appeared first on The GitHub Blog .",
+          "summaryZh": "GitHub Copilot CLI for Beginners：了解如何使用斜杠命令来控制终端 AI 代理。面向初学者的 GitHub Copilot CLI：常见斜杠命令概述一文首先出现在 GitHub 博客 上。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体",
+            "开源"
+          ],
+          "score": 26
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "You can now use your SuperGrok or X Premium subscription inside @warpdotdev. Try it out from Warp ...",
+          "titleZh": "您现在可以在 内使用 SuperGrok 或 X Premium 订阅",
+          "link": "https://x.com/xai/status/2066625790704521699",
+          "publishedAt": "Mon, 15 Jun 2026 20:55:59 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "description": "You can now use your SuperGrok or X Premium subscription inside @warpdotdev . Try it out from Warp Agent Settings and switch to the Grok Build model. x.ai/news/grok-warp 💬 89 🔄 105 ❤️ 898 👀 86803 📊 175 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "You can now use your SuperGrok or X Premium subscription inside @warpdotdev . Try it out from Warp Agent Settings and switch to the Grok Build model. x.ai/news/grok-warp 💬 89 🔄 105 ❤️ 898 👀 86803 📊 175 ⚡ Powered by xgo.ing",
+          "summaryZh": "您现在可以在 内使用 SuperGrok 或 X Premium 订阅。从 Warp Agent 设置中尝试一下并切换到 Grok Build 模型。 x.ai/新闻/grok-warp。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 65
+        },
+        {
+          "title": "Let’s talk about evals. We’re always looking for better ways to measure and forecast model progress...",
+          "titleZh": "OpenAI：我们来谈谈评估。我们一直在寻找更好的方法来衡量和预测模型进展，特别是当基准变得饱和或被欺",
+          "link": "https://x.com/OpenAI/status/2066934692641956231",
+          "publishedAt": "Tue, 16 Jun 2026 17:23:27 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "Let’s talk about evals. We’re always looking for better ways to measure and forecast model progress, especially as benchmarks get saturated or gamed. @tejalpatwardhan , who leads our frontier evals team, spoke to @andrewmayne about why evals matter and what models need to be judged on next. Your browser does not support the video tag. 🔗 View on Twitter 💬 62 🔄 24 ❤️ 424 👀 36302 📊 105 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Let’s talk about evals. We’re always looking for better ways to measure and forecast model progress, especially as benchmarks get saturated or gamed. @tejalpatwardhan , who leads our frontier evals team, spoke to @andrewmayne about why evals matter and what models need to be judged on next. Your browser does not support the video tag. 🔗 View on Twitter 💬 62 🔄 24 ❤️ 424 👀 36302 📊 105 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们来谈谈评估。我们一直在寻找更好的方法来衡量和预测模型进展，特别是当基准变得饱和或被欺骗时。 @tejalpatwardhan 是我们前沿评估团队的负责人，他与 @andrewmayne 讨论了评估为何重要以及下一步需要判断哪些模型。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "评测",
+            "视频"
+          ],
+          "score": 64.9486900604874
+        },
+        {
+          "title": "Lovable’s MCP server is now available to all users. Build without leaving your client of choice. Te...",
+          "titleZh": "Lovable 的 MCP 服务器现已可供所有用户使用",
+          "link": "https://x.com/Lovable/status/2066888107232805377",
+          "publishedAt": "Tue, 16 Jun 2026 14:18:20 GMT",
+          "source": "Lovable(@lovable_dev)",
+          "sourceType": "social",
+          "description": "Lovable’s MCP server is now available to all users. Build without leaving your client of choice. Tell us which ones are on your list! Lovable @Lovable Today we’re releasing the Lovable MCP server in Research Preview. Create, iterate on, and deploy apps directly from your terminal or AI agent. Available now. 🔗 View Quoted Tweet 💬 6 🔄 14 ❤️ 123 👀 15042 📊 20 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-17-2066888107232805377.mp4",
+          "summary": "Lovable’s MCP server is now available to all users. Build without leaving your client of choice. Tell us which ones are on your list! Lovable @Lovable Today we’re releasing the Lovable MCP server in Research Preview. Create, iterate on, and deploy apps directly from your terminal or AI agent. Available now. 🔗 View Quoted Tweet 💬 6 🔄 14 ❤️ 123 👀 15042 📊 20 ⚡ Powered by xgo.ing",
+          "summaryZh": "Lovable 的 MCP 服务器现已可供所有用户使用。在不离开您选择的客户的情况下进行构建。告诉我们哪些在您的清单上！ Lovable @Lovable 今天我们将在研究预览版中发布 Lovable MCP 服务器。直接从终端或 AI 代理创建、迭代和部署应用。现已上市。 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 64.83696898203311
+        },
+        {
+          "title": "PhysicsWallah prepares over 36 millions of students across India for competitive exams, and governme...",
+          "titleZh": "PhysicsWallah 为印度各地超过 3600 万学生准备竞争性考试和政府入学考试",
+          "link": "https://x.com/ElevenLabs/status/2066800672956142072",
+          "publishedAt": "Tue, 16 Jun 2026 08:30:54 GMT",
+          "source": "ElevenLabs(@elevenlabsio)",
+          "sourceType": "social",
+          "description": "PhysicsWallah prepares over 36 millions of students across India for competitive exams, and government entrance exams. Their AI doubt-solving tool, Ask AI, found that 52% of students learn better through audio. A text-only tool was leaving half their users behind. They integrated ElevenLabs to turn Ask AI into a voice AI tutor - with native Hinglish support, because that is how their students actually speak. Students who learn by listening, stay: - 3x more queries per session vs. non-voice users - 2.4x higher retention at Day 15 Your browser does not support the video tag. 🔗 View on Twitter 💬 43 🔄 51 ❤️ 1088 👀 95873 📊 195 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-17-2066800672956142072.mp4",
+          "summary": "PhysicsWallah prepares over 36 millions of students across India for competitive exams, and government entrance exams. Their AI doubt-solving tool, Ask AI, found that 52% of students learn better through audio. A text-only tool was leaving half their users behind. They integrated ElevenLabs to turn Ask AI into a voice AI tutor - with native Hinglish support, because that is how their students actually speak. Students who learn by listening, stay: - 3x more queries per session vs. non-voice users - 2.4x higher retention at Day 15 Your browser does not support the video tag. 🔗 View on Twitter 💬 43 🔄 51 ❤️ 1088 👀 95873 📊 195 ⚡ Powered by xgo.ing",
+          "summaryZh": "PhysicsWallah 为印度各地超过 3600 万学生准备竞争性考试和政府入学考试。他们的人工智能解疑工具 Ask AI 发现 52% 的学生通过音频学得更好。纯文本工具让一半的用户落后。他们集成了 ElevenLabs，将 Ask AI 转变为语音 AI 导师 - 提供原生印度英语支持，因为这就是他们的学生实际说话的方式。通过聆听学习的学生会留下： - 每次会话的查询量比非语音用户多 3 倍 - 第 15 天的保留率提高 2.4 倍",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "语音",
+            "视频"
+          ],
+          "score": 64
+        },
+        {
+          "title": "Use Runway inside ChatGPT to generate and edit video and images. No tab-switching required.",
+          "titleZh": "使用 ChatGPT 内的 Runway 生成和编辑视频和图像。无需选项卡切换。",
+          "link": "https://x.com/runwayml/status/2066596138824696214",
+          "publishedAt": "Mon, 15 Jun 2026 18:58:09 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "description": "Use Runway inside ChatGPT to generate and edit video and images. No tab-switching required. Your browser does not support the video tag. 🔗 View on Twitter 💬 32 🔄 43 ❤️ 327 👀 81906 📊 95 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Use Runway inside ChatGPT to generate and edit video and images. No tab-switching required. Your browser does not support the video tag. 🔗 View on Twitter 💬 32 🔄 43 ❤️ 327 👀 81906 📊 95 ⚡ Powered by xgo.ing",
+          "summaryZh": "使用 ChatGPT 内的 Runway 生成和编辑视频和图像。无需选项卡切换。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频",
+            "图像"
+          ],
+          "score": 62.23889619673804
+        },
+        {
+          "title": "📌📌📌📌📌📌📌 You can now hover to pin chats and projects on web, then organize Recents however yo...",
+          "titleZh": "现在，您可以将鼠标悬停在网络上固定聊天和项目，然后按照您喜欢的方式组织最近的活动：一起放在一个列表中或按项目分组",
+          "link": "https://x.com/ChatGPTapp/status/2066591191395930562",
+          "publishedAt": "Mon, 15 Jun 2026 18:38:30 GMT",
+          "source": "ChatGPT(@ChatGPTapp)",
+          "sourceType": "social",
+          "description": "📌📌📌📌📌📌📌 You can now hover to pin chats and projects on web, then organize Recents however you like: together in one list or grouped by project Your browser does not support the video tag. 🔗 View on Twitter 💬 121 🔄 83 ❤️ 1893 👀 159997 📊 320 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-17-2066591191395930562.mp4",
+          "summary": "📌📌📌📌📌📌📌 You can now hover to pin chats and projects on web, then organize Recents however you like: together in one list or grouped by project Your browser does not support the video tag. 🔗 View on Twitter 💬 121 🔄 83 ❤️ 1893 👀 159997 📊 320 ⚡ Powered by xgo.ing",
+          "summaryZh": "现在，您可以将鼠标悬停在网络上固定聊天和项目，然后按照您喜欢的方式组织最近的活动：一起放在一个列表中或按项目分组。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "What if we told you this 6-minute TV pilot was created end-to-end in one platform? This is our late...",
+          "titleZh": "如果我们告诉您这个 6 分钟的电视试播集是在一个平台上端到端制作的，会怎么样",
+          "link": "https://x.com/pika_labs/status/2066614201779699728",
+          "publishedAt": "Mon, 15 Jun 2026 20:09:56 GMT",
+          "source": "Pika(@pika_labs)",
+          "sourceType": "social",
+          "description": "What if we told you this 6-minute TV pilot was created end-to-end in one platform? This is our latest Experiment: Pika Director’s Suite. Run by an agent that builds—and understands—all elements of your video project. So, when you say “have Doug crash the office party in the first scene,” it knows exactly what you mean. Walkthrough below 👇 Your browser does not support the video tag. 🔗 View on Twitter 💬 46 🔄 31 ❤️ 222 👀 39596 📊 90 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "What if we told you this 6-minute TV pilot was created end-to-end in one platform? This is our latest Experiment: Pika Director’s Suite. Run by an agent that builds—and understands—all elements of your video project. So, when you say “have Doug crash the office party in the first scene,” it knows exactly what you mean. Walkthrough below 👇 Your browser does not support the video tag. 🔗 View on Twitter 💬 46 🔄 31 ❤️ 222 👀 39596 📊 90 ⚡ Powered by xgo.ing",
+          "summaryZh": "如果我们告诉您这个 6 分钟的电视试播集是在一个平台上端到端制作的，会怎么样？这是我们最新的实验：皮卡导演套件。由构建并理解视频项目所有元素的代理运行。因此，当你说“让道格在第一个场景中破坏办公室聚会”时，它完全明白你的意思。演练如下。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 61.9721106921413
+        },
+        {
+          "title": "The world needs more Canada. 🇨🇦",
+          "titleZh": "世界需要更多的加拿大。",
+          "link": "https://x.com/cohere/status/2066635936306208947",
+          "publishedAt": "Mon, 15 Jun 2026 21:36:18 GMT",
+          "source": "cohere(@cohere)",
+          "sourceType": "social",
+          "description": "The world needs more Canada. 🇨🇦 Polymarket @Polymarket JUST IN: Canadian AI firm Cohere claims it’s seeing a “huge number of inbounds” after Washington’s crackdown on Anthropic. 🔗 View Quoted Tweet 💬 37 🔄 62 ❤️ 784 👀 55115 📊 95 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "The world needs more Canada. 🇨🇦 Polymarket @Polymarket JUST IN: Canadian AI firm Cohere claims it’s seeing a “huge number of inbounds” after Washington’s crackdown on Anthropic. 🔗 View Quoted Tweet 💬 37 🔄 62 ❤️ 784 👀 55115 📊 95 ⚡ Powered by xgo.ing",
+          "summaryZh": "世界需要更多的加拿大。 Polymarket 刚刚：加拿大人工智能公司 Cohere 声称，在华盛顿镇压 Anthropic 后，它看到了“大量的入站”。 查看引用的推文。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59.869859859703304
+        },
+        {
+          "title": "By treating natural language as a universal action interface，Qwen-RobotWorld bridges the gap betwee...",
+          "titleZh": "通过将自然语言视为通用动作界面，Qwen-RobotWorld 弥合了通用视频生成模型和特定领域的具体化模型之间的差距 - 将末端执行器姿势、转向命令和导航路径",
+          "link": "https://x.com/Alibaba_Qwen/status/2066870210716647591",
+          "publishedAt": "Tue, 16 Jun 2026 13:07:13 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "description": "By treating natural language as a universal action interface，Qwen-RobotWorld bridges the gap between general video generation models and domain-specific embodied models — this converts end-effector poses, steering commands, and navigation waypoints into a single interface, enabling 20+ embodiment types and 500+ action categories to be co-trained under the Embodied World Knowledge corpus (8.6M video-text pairs, 200M+ frames), with each domain's physical knowledge reinforcing the others. Qwen-RobotWorld performs strongly across EWMBench/DreamGen/WorldModelBench/PBench benchmarks. Blog Link： qwen.ai/blog?id=qwen-r… 💬 1 🔄 1 ❤️ 32 👀 5382 📊 5 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HK7808ebcAAnM_s.jpg",
+          "video": "",
+          "summary": "By treating natural language as a universal action interface，Qwen-RobotWorld bridges the gap between general video generation models and domain-specific embodied models — this converts end-effector poses, steering commands, and navigation waypoints into a single interface, enabling 20+ embodiment types and 500+ action categories to be co-trained under the Embodied World Knowledge corpus (8.6M video-text pairs, 200M+ frames), with each domain's physical knowledge reinforcing the others. Qwen-RobotWorld performs strongly across EWMBench/DreamGen/WorldModelBench/PBench benchmarks. Blog Link： qwen.ai/blog?id=qwen-r… 💬 1 🔄 1 ❤️ 32 👀 5382 📊 5 ⚡ Powered by xgo.ing",
+          "summaryZh": "通过将自然语言视为通用动作界面，Qwen-RobotWorld 弥合了通用视频生成模型和特定领域的具体化模型之间的差距 - 将末端执行器姿势、转向命令和导航路径点转换为单个界面，使得 20 多个具体化类型和 500 多个动作类别能够在具体世界知识语料库（860 万个视频文本对，2 亿多个帧）下进行共同训练，每个领域的物理知识都得到强化其他人。 Qwen-RobotWorld 在 EWMBench/DreamGen/WorldModelBench/PBench 基准测试中表现强劲。博客链接： qwen.ai/blog?id=qwen-r…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "评测",
+            "视频"
+          ],
+          "score": 55.57368231622702
+        },
+        {
+          "title": "How much can good documentation save an AI agent in cost and time? Turns out, a lot. We built a cus...",
+          "titleZh": "好的文档可以为人工智能代理节省多少成本和时间",
+          "link": "https://x.com/llama_index/status/2066915713562927581",
+          "publishedAt": "Tue, 16 Jun 2026 16:08:02 GMT",
+          "source": "LlamaIndex (@llama_index)",
+          "sourceType": "social",
+          "description": "How much can good documentation save an AI agent in cost and time? Turns out, a lot. We built a custom skill that teaches Claude how to parse PDFs more efficiently, then used real usage traces to find where it was wasting time and money (re-reading the same file over and over, taking unnecessary \"screenshots\" of pages, etc.) After a few rounds of fixes based on what we observed, the results vs. just having Claude read PDFs the default way: → 37% lower cost per question → Better answer quality across the board → Fewer wasted steps The big takeaway: look at what an agent actually leaves in its traces, and fix bottlenecks from there. Full case study 👉️ llamaindex.ai/blog/building-… m Benchmark code 👉 github.com/run-llama/benc… m5 💬 4 🔄 4 ❤️ 8 👀 1132 📊 6 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HK8o4yYWoAA7xzQ.jpg",
+          "video": "",
+          "summary": "How much can good documentation save an AI agent in cost and time? Turns out, a lot. We built a custom skill that teaches Claude how to parse PDFs more efficiently, then used real usage traces to find where it was wasting time and money (re-reading the same file over and over, taking unnecessary \"screenshots\" of pages, etc.) After a few rounds of fixes based on what we observed, the results vs. just having Claude read PDFs the default way: → 37% lower cost per question → Better answer quality across the board → Fewer wasted steps The big takeaway: look at what an agent actually leaves in its traces, and fix bottlenecks from there. Full case study 👉️ llamaindex.ai/blog/building-… m Benchmark code 👉 github.com/run-llama/benc… m5 💬 4 🔄 4 ❤️ 8 👀 1132 📊 6 ⚡ Powered by xgo.ing",
+          "summaryZh": "好的文档可以为人工智能代理节省多少成本和时间？事实证明，很多。我们构建了一项自定义技能，教 Claude 如何更有效地解析 PDF，然后使用真实的使用跟踪来查找浪费时间和金钱的地方（一遍又一遍地重新读取同一文件，对页面进行不必要的“屏幕截图”等）。根据我们观察到的情况进行几轮修复后，结果与仅让 Claude 以默认方式阅读 PDF 相比： → 每个问题的成本降低 37% → 整体答案质量更好 → 浪费的步骤更少代理实际上留下了什么痕迹，并从那里修复瓶颈。完整案例研究 llamaindex.ai/blog/building-... m 基准代码 github.com/run-llama/benc... m",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "评测",
+            "开源"
+          ],
+          "score": 54.495224915560456
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "Vol.124｜从迪士尼机器人到 OpenAI 情绪模型：他想造出机器的「生命感」",
+          "titleZh": "Vol.124｜从迪士尼机器人到 OpenAI 情绪模型：他想造出机器的「生命感」",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a30b9a143a22a6955847e3a",
+          "publishedAt": "2026-06-16T02:55:24.673Z",
+          "source": "开始连接 LinkStart",
+          "sourceType": "podcast",
+          "description": "听《开始连接 LinkStart》上小宇宙。 「开始连接 LinkStart」是一档由极客公园出品的科技商业播客。在这里，我们会邀请各行各业的嘉宾一起跨界对话、碰撞思想，用科技、商业和人文的视角一起描摹这个时代。 欢迎同步关注「公众号/视频号-极客公园」，第一时间，带你追踪科技热点。 公众号/视频号：极客公园 粉丝群：请至单集节目 shownotes 底部扫码加入～",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/Fkm-DmJ_lCbLxtekkyHx2McjuUUB.png",
+          "video": "",
+          "summary": "听《开始连接 LinkStart》上小宇宙。 「开始连接 LinkStart」是一档由极客公园出品的科技商业播客。在这里，我们会邀请各行各业的嘉宾一起跨界对话、碰撞思想，用科技、商业和人文的视角一起描摹这个时代。 欢迎同步关注「公众号/视频号-极客公园」，第一时间，带你追踪科技热点。 公众号/视频号：极客公园 粉丝群：请至单集节目 shownotes 底部扫码加入～",
+          "summaryZh": "**讲了什么**：这一期来自 **开始连接 LinkStart**，主题是「Vol.124｜从迪士尼机器人到 OpenAI 情绪模型：他想造出机器的「生命感」」。本期节目我们邀请的嘉宾是一位成长于硅谷的华人创业者 Shane，他的履历也很硅谷，在 UC Berkeley 攻读机器人博士，辍学创业，连续两家公司被收购， 26 岁实现财务自由。他的履历中包括在迪士尼造过乐园机器人，给波士顿动力造过外骨骼，上一份创业是为特斯拉、 OpenAI 做情绪模型训练。这一次创业，他想把这些经历组合起来，做一个更接近有生命感的仿生机器人。外表像迪士尼动画走出了屏幕，但内部由模型驱动，机器人能对你察言观色，有自己的性格和本性难移。这款机器人还有一个有意思的硬件设计，采用了模块化的人脸结构，未来用户可以自己更换机器人的眼睛、鼻子、耳朵，打造自己心中的机器人。 **简介要点**： - 本期节目我们邀请的嘉宾是一位成长于硅谷的华人创业者 Shane，他的履历也很硅谷，在 UC Berkeley 攻读机器人博士，辍学创业，连续两家公司被收购， 26 岁实现财务自由。 - 他的履历中包括在迪士尼造过乐园机器人，给波士顿动力造过外骨骼，上一份创业是为特斯拉、 OpenAI 做情绪模型训练。 - 这一次创业，他想把这些经历组合起来，做一个更接近有生命感的仿生机器人。 - 外表像迪士尼动画走出了屏幕，但内部由模型驱动，机器人能对你察言观色，有自己的性格和本性难移。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "模型"
+          ],
+          "score": null
+        },
+        {
+          "title": "Agent到底是如何花钱的 | 隐形账单 | OpenHands",
+          "titleZh": "Agent到底是如何花钱的 | 隐形账单 | OpenHands",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a1fd46cb30e1571ae9fed97",
+          "publishedAt": "2026-06-15T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「Agent到底是如何花钱的 | 隐形账单 | OpenHands」。2026年4月，来自美国密歇根大学、斯坦福大学、麻省理工学院、谷歌DeepMind、微软AI，以及All Hands AI的研究团队，发布了一篇名为《AI Agent如何花你的钱？分析和预测Agent编码任务中的token消耗》的论文，这也是全球首次系统性研究Agent代码任务Token消耗模式的研究。研究团队基于开源的OpenHands Agent框架，在SWE-bench Verified代码任务基准上，测试了8款全球最前沿的大语言模型，跑了数千次实验，终于揭开了AI Agent Token消耗的全部真相。 **简介要点**： - 2026年4月，来自美国密歇根大学、斯坦福大学、麻省理工学院、谷歌DeepMind、微软AI，以及All Hands AI的研究团队，发布了一篇名为《AI Agent如何花你的钱？ - 分析和预测Agent编码任务中的token消耗》的论文，这也是全球首次系统性研究Agent代码任务Token消耗模式的研究。 - 研究团队基于开源的OpenHands Agent框架，在SWE-bench Verified代码任务基准上，测试了8款全球最前沿的大语言模型，跑了数千次实验，终于揭开了AI Agent Token消耗的全部真相。 - 今天这期，我就来给大家梳理一下这份论文，从从Token花在哪、哪些模型更省钱、能不能提前预测成本这三个核心问题出发，彻底看懂AI Agent的隐形账单。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "智能体"
+          ],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    }
+  ],
+  "summaryBullets": [
+    "**OpenAI Developers 为 Codex 接入官方开发者插件**：开发者现在可以在 Codex 里更快完成 API 密钥配置、文档检索与调试，OpenAI 也在继续把官方工具链往代理式开发工作流里收拢。",
+    "**Qwen 发布 Qwen-Robot 三模型具身智能套件**：这次不是单点模型更新，而是把导航、操作和世界模型拆成可组合的基础能力层，释放出更明确的机器人 Agent 产品化信号。",
+    "**OpenAI 前沿评估团队再次强调评测体系升级**：当传统 benchmark 越来越容易饱和或被“刷榜”后，如何预测模型真实能力和风险边界，正在成为下一阶段模型竞争的核心问题。",
+    "**Lovable 向所有用户开放 MCP 服务器**：用户可以直接从终端或 AI 代理里创建、迭代和部署应用，说明 MCP 正在从概念性协议加速变成产品默认接入层。"
+  ]
+}
