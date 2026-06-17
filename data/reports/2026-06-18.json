@@ -1,0 +1,794 @@
+{
+  "date": "2026-06-18",
+  "generatedAt": "2026-06-17T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-18",
+  "stats": {
+    "sources": 135,
+    "fetched": 762,
+    "emailCandidates": 0,
+    "selected": 33,
+    "failures": 2
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "We're launching code storage and git hosting. Origin gives teams and agents a place to host, review...",
+          "titleZh": "Cursor：我们正在推出代码存储和 git 托管",
+          "link": "https://x.com/cursor_ai/status/2067012220832329782",
+          "publishedAt": "Tue, 16 Jun 2026 22:31:31 GMT",
+          "source": "Cursor(@cursor_ai)",
+          "sourceType": "social",
+          "description": "We're launching code storage and git hosting. Origin gives teams and agents a place to host, review, and collaborate on code. Available this fall. Join the waitlist. cursor.com/origin-waitlist 💬 513 🔄 1130 ❤️ 12640 👀 4171587 📊 2371 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We're launching code storage and git hosting. Origin gives teams and agents a place to host, review, and collaborate on code. Available this fall. Join the waitlist. cursor.com/origin-waitlist 💬 513 🔄 1130 ❤️ 12640 👀 4171587 📊 2371 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们正在推出代码存储和 git 托管。 Origin 为团队和代理提供了托管、审查和协作代码的场所。今年秋季上市。加入候补名单。 cursor.com/origin-waitlist。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "RAG"
+          ],
+          "score": 76
+        },
+        {
+          "title": "Grok is now available on Amazon Bedrock. AWS developers can now build with Grok 4.3, the industry l...",
+          "titleZh": "Grok 现已在 Amazon Bedr",
+          "link": "https://x.com/xai/status/2067263498359624012",
+          "publishedAt": "Wed, 17 Jun 2026 15:10:00 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "description": "Grok is now available on Amazon Bedrock. AWS developers can now build with Grok 4.3, the industry leader in hallucination rate and tool calling, powered by Bedrock’s secure inference engine. 💬 76 🔄 81 ❤️ 841 👀 59761 📊 142 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLBj9qxbQAEOx1K.jpg",
+          "video": "",
+          "summary": "Grok is now available on Amazon Bedrock. AWS developers can now build with Grok 4.3, the industry leader in hallucination rate and tool calling, powered by Bedrock’s secure inference engine. 💬 76 🔄 81 ❤️ 841 👀 59761 📊 142 ⚡ Powered by xgo.ing",
+          "summaryZh": "Grok 现已在 Amazon Bedrock 上提供。 AWS 开发人员现在可以使用 Grok 4.3 进行构建，Grok 4.3 是幻觉率和工具调用方面的行业领导者，由 Bedrock 的安全推理引擎提供支持。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "开发者工具",
+            "推理部署"
+          ],
+          "score": 72
+        },
+        {
+          "title": "Midjourney will be announcing its first hardware project tomorrow (Wednesday 6/17) at 6pm PT. Stay t...",
+          "titleZh": "Midjourney 将于太平洋时间明天（6 月 6 日星期三）下午 6 点宣布其第一个硬件项目",
+          "link": "https://x.com/midjourney/status/2066994481770213697",
+          "publishedAt": "Tue, 16 Jun 2026 21:21:02 GMT",
+          "source": "Midjourney(@midjourney)",
+          "sourceType": "social",
+          "description": "Midjourney will be announcing its first hardware project tomorrow (Wednesday 6/17) at 6pm PT. Stay tuned for a livestream of our in-person launch event in San Francisco. If you're in town and want an invite, reply below, we have just a few slots left. 💬 530 🔄 288 ❤️ 4591 👀 589763 📊 1051 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Midjourney will be announcing its first hardware project tomorrow (Wednesday 6/17) at 6pm PT. Stay tuned for a livestream of our in-person launch event in San Francisco. If you're in town and want an invite, reply below, we have just a few slots left. 💬 530 🔄 288 ❤️ 4591 👀 589763 📊 1051 ⚡ Powered by xgo.ing",
+          "summaryZh": "Midjourney 将于太平洋时间明天（6 月 6 日星期三）下午 6 点宣布其第一个硬件项目。请继续关注我们在旧金山举行的现场发布会的直播。如果您在城里并且想要获得邀请，请在下面回复，我们只剩下几个名额了。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布"
+          ],
+          "score": 71
+        },
+        {
+          "title": "Introducing v0's new design mode. The power of an agent, with the precision of a design tool.",
+          "titleZh": "v0 推出 Design Mode，可直接在画布里微调界面",
+          "link": "https://x.com/v0/status/2067244493498470736",
+          "publishedAt": "Wed, 17 Jun 2026 13:54:29 GMT",
+          "source": "v0(@v0)",
+          "sourceType": "social",
+          "description": "Introducing v0's new design mode. The power of an agent, with the precision of a design tool. Your browser does not support the video tag. 🔗 View on Twitter 💬 23 🔄 28 ❤️ 407 👀 34143 📊 93 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-18-2067244493498470736.mp4",
+          "summary": "Introducing v0's new design mode. The power of an agent, with the precision of a design tool. Your browser does not support the video tag. 🔗 View on Twitter 💬 23 🔄 28 ❤️ 407 👀 34143 📊 93 ⚡ Powered by xgo.ing",
+          "summaryZh": "**v0** 新增 **Design Mode**，用户可以直接在可视化画布里调整 **文案、排版、布局、颜色和样式**，先预览再决定是否保存，不必每次都改代码或等待模型生成。官方强调这套模式 **原生支持 Tailwind 和 shadcn/ui**，而且进行细节微调时 **不消耗 credits**。这意味着 v0 正在把“AI 先生成、设计师再精修”的链路做得更顺，适合已经有前端骨架、但需要快速打磨 UI 的团队。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 70.5476194864856
+        },
+        {
+          "title": "We've released a new big-batch draft mode for V8.1. This new mode lets you generate 24 lower resolut...",
+          "titleZh": "我们为 V8.1 发布了新的大批量草稿模式",
+          "link": "https://x.com/midjourney/status/2067292710063800483",
+          "publishedAt": "Wed, 17 Jun 2026 17:06:05 GMT",
+          "source": "Midjourney(@midjourney)",
+          "sourceType": "social",
+          "description": "We've released a new big-batch draft mode for V8.1. This new mode lets you generate 24 lower resolution images at the half the price of a Standard res 4-image Midjourney Job. When you like an image just press \"Vary\" to get new versions at full resolution. Enjoy! 💬 14 🔄 18 ❤️ 170 👀 5745 📊 36 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLB_wWYa4AAGOei.jpg",
+          "video": "",
+          "summary": "We've released a new big-batch draft mode for V8.1. This new mode lets you generate 24 lower resolution images at the half the price of a Standard res 4-image Midjourney Job. When you like an image just press \"Vary\" to get new versions at full resolution. Enjoy! 💬 14 🔄 18 ❤️ 170 👀 5745 📊 36 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们为 V8.1 发布了新的大批量草稿模式。这种新模式可让您以标准分辨率 4 图像中途作业价格的一半生成 24 张较低分辨率的图像。当您喜欢某个图像时，只需按“变化”即可获得全分辨率的新版本。享受！。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "图像"
+          ],
+          "score": 68.30463133501385
+        },
+        {
+          "title": "Imagine Video 1.5 is generally available in our API: https://t.co/SmAD9BUc0N We've also rolled out ...",
+          "titleZh": "Imagine Video 1.5 可在我们的 API 中全面使用：x.ai/news/grok-imag…我们还向消费者推出了 Video 1.5 Fast",
+          "link": "https://x.com/xai/status/2067092899335159819",
+          "publishedAt": "Wed, 17 Jun 2026 03:52:06 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "description": "Imagine Video 1.5 is generally available in our API: x.ai/news/grok-imag… We've also rolled out Video 1.5 Fast to consumers with better quality and dramatically less wait. 720p videos now render in about 25 seconds, down from 40+ in our previous model. 💬 27 🔄 41 ❤️ 553 👀 98649 📊 77 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Imagine Video 1.5 is generally available in our API: x.ai/news/grok-imag… We've also rolled out Video 1.5 Fast to consumers with better quality and dramatically less wait. 720p videos now render in about 25 seconds, down from 40+ in our previous model. 💬 27 🔄 41 ❤️ 553 👀 98649 📊 77 ⚡ Powered by xgo.ing",
+          "summaryZh": "Imagine Video 1.5 可在我们的 API 中全面使用：x.ai/news/grok-imag…我们还向消费者推出了 Video 1.5 Fast，提供更好的质量和显着减少的等待时间。现在，720p 视频的渲染时间约为 25 秒，低于我们之前模型的 40 秒以上。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "视频"
+          ],
+          "score": 66.15884130543405
+        },
+        {
+          "title": "Open source projects depend on the maintainers who review, release, secure, and steward the infrastr...",
+          "titleZh": "OpenAI：开源项目依赖于审查、发布、保护和管理基础设施的维护者",
+          "link": "https://x.com/OpenAIDevs/status/2067280779689042235",
+          "publishedAt": "Wed, 17 Jun 2026 16:18:40 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Open source projects depend on the maintainers who review, release, secure, and steward the infrastructure many teams build on. We’re proud to support the @rust_foundation 's work. rustfoundation.org/media/rust-fou… 💬 11 🔄 13 ❤️ 242 👀 13998 📊 38 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Open source projects depend on the maintainers who review, release, secure, and steward the infrastructure many teams build on. We’re proud to support the @rust_foundation 's work. rustfoundation.org/media/rust-fou… 💬 11 🔄 13 ❤️ 242 👀 13998 📊 38 ⚡ Powered by xgo.ing",
+          "summaryZh": "开源项目依赖于维护人员，他们负责审查、发布、保护和管理许多团队所构建的基础设施。我们很自豪能够支持 的工作。 rustfoundation.org/media/rust-fou。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "开源"
+          ],
+          "score": 61.13300793210115
+        },
+        {
+          "title": "Introducing On-Call Copilot - a new agent template in LangSmith Fleet → Triages every alert and inv...",
+          "titleZh": "隆重推出 On-Call Copilot",
+          "link": "https://x.com/LangChain/status/2067289293547041192",
+          "publishedAt": "Wed, 17 Jun 2026 16:52:30 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": "Introducing On-Call Copilot - a new agent template in LangSmith Fleet → Triages every alert and investigates root cause across your code and traces → Manages tickets and routes every incident to the right channels → Continuously learns from your runbooks, escalation rules, and noise patterns Your browser does not support the video tag. 🔗 View on Twitter 💬 2 🔄 2 ❤️ 11 👀 2494 📊 5 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-18-2067289293547041192.mp4",
+          "summary": "Introducing On-Call Copilot - a new agent template in LangSmith Fleet → Triages every alert and investigates root cause across your code and traces → Manages tickets and routes every incident to the right channels → Continuously learns from your runbooks, escalation rules, and noise patterns Your browser does not support the video tag. 🔗 View on Twitter 💬 2 🔄 2 ❤️ 11 👀 2494 📊 5 ⚡ Powered by xgo.ing",
+          "summaryZh": "隆重推出 On-Call Copilot - LangSmith Fleet 中的新代理模板 → 对每个警报进行分类并调查代码和跟踪中的根本原因 → 管理票证并将每个事件路由到正确的渠道 → 不断从操作手册、升级规则和噪音模式中学习。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 59.8436945732886
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "ReproRepo: Scaling Reproducibility Audits with GitHub Repository Issues",
+          "titleZh": "ReproRepo：通过 GitHub 存储库问题扩展再现性审核",
+          "link": "https://arxiv.org/abs/2606.18237",
+          "publishedAt": "Wed, 17 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.18237v1 Announce Type: cross Abstract: Reproducing research results from papers and released code is central to scientific progress. Existing works have introduced benchmarks to evaluate whether LLM agents can assist with reproducibility, but they are difficult to scale due to their reliance on substantial manual effort for data curation and evaluation. We introduce ReproRepo, a scalable framework for reproducibility evaluation that leverages human-raised GitHub issues as naturally occurring supervision on realistic reproduction blockers. We instantiate ReproRepo on 1,149 recent machine learning papers from major conferences and evaluate four frontier model-agent configurations. Our results show that LLM agents, even without executing code, can identify many real-world reproducibility problems from paper-repository pairs: the best agent in our study, namely Codex with GPT-5.5, surfaces at least one semantically related human-reported blocker for ~90% of papers in the study. Further analysis shows that agents are particularly effective for surfacing visible failures and identifying the right semantic region, but may still be insufficient in exact localization. ReproRepo can serve as a reusable, scalable framework for future evaluations of LLM agents on real-world reproducibility auditing. Our code is released at https://github.com/LithiumDA/ReproRepo.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.18237v1 Announce Type: cross Abstract: Reproducing research results from papers and released code is central to scientific progress. Existing works have introduced benchmarks to evaluate whether LLM agents can assist with reproducibility, but they are difficult to scale due to their reliance on substantial manual effort for data curation and evaluation. We introduce ReproRepo, a scalable framework for reproducibility evaluation that leverages human-raised GitHub issues as naturally occurring supervisi...",
+          "summaryZh": "**核心结论** 「ReproRepo：通过 GitHub 存储库问题扩展再现性审核」要解决的问题是：从论文和发布的代码中复制研究成果是科学进步的核心。现有的工作已经引入了基准来评估 LLM 代理是否可以帮助再现性，但由于它们依赖于大量的手动数据管理和评估，因此很难扩展。我们介绍 ReproRepo，这是一个用于可重复性评估的可扩展框架，它利用人类提出的 GitHub 问题作为自然发生的监督。 **支撑证据** 摘要与公开信息显示：arXiv:2606.18237v1 从论文和发布的代码中复制研究成果是科学进步的核心。现有的工作已经引入了基准来评估 LLM 代理是否可以帮助再现性，但由于它们依赖于大量的手动数据管理和评估，因此很难扩展。我们介绍 ReproRepo，这是一个用于可重复性评估的可扩展框架，它利用人类提出的 GitHub 问题作为自然发生的监督... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "评测",
+            "论文"
+          ],
+          "score": 40
+        },
+        {
+          "title": "m2sv: A Scalable Benchmark for Map-to-Street-View Spatial Reasoning",
+          "titleZh": "2sv：地图到街景空间推理的可扩展基准",
+          "link": "https://arxiv.org/abs/2601.19099",
+          "publishedAt": "Wed, 17 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2601.19099v2 Announce Type: replace-cross Abstract: Vision--language models (VLMs) achieve strong performance on many multimodal benchmarks but remain brittle on spatial reasoning tasks that require aligning abstract overhead representations with egocentric views. We introduce m2sv, a scalable benchmark for map-to-street-view spatial reasoning that asks models to infer camera viewing direction by aligning a north-up overhead map with a Street View image captured at the same real-world intersection. We release m2sv-20k, a geographically diverse benchmark with controlled ambiguity, along with m2sv-sft-11k, a curated set of structured reasoning traces for supervised fine-tuning. Despite strong performance on existing multimodal benchmarks, the best evaluated VLM achieves only 65.2% accuracy on m2sv, below human annotators who reach 72.0% on average (and 95% for an expert) with strong inter-annotator agreement ($\\kappa$ up to 0.76). While supervised fine-tuning and reinforcement learning yield consistent gains, cross-benchmark evaluations reveal limited transfer. Beyond aggregate accuracy, we systematically analyze difficulty in map-to-street-view reasoning using both structural signals and human effort, and conduct an extensive failure analysis of adapted open models. Our findings highlight persistent gaps in geometric alignment, evidence aggregation, and reasoning consistency, motivating future work on grounded spatial reasoning across viewpoints.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2601.19099v2 Announce Type: replace-cross Abstract: Vision--language models (VLMs) achieve strong performance on many multimodal benchmarks but remain brittle on spatial reasoning tasks that require aligning abstract overhead representations with egocentric views. We introduce m2sv, a scalable benchmark for map-to-street-view spatial reasoning that asks models to infer camera viewing direction by aligning a north-up overhead map with a Street View image captured at the same real-world intersection. We rele...",
+          "summaryZh": "**核心结论** 「m2sv：地图到街景空间推理的可扩展基准」要解决的问题是：视觉语言模型 (VLM) 在许多多模式基准上实现了强大的性能，但在需要将抽象开销表示与以自我为中心的视图对齐的空间推理任务上仍然很脆弱。我们引入了 m2sv，这是一种用于地图到街景空间推理的可扩展基准，要求模型通过将北上的俯视图与在同一现实世界交叉口捕获的街景图像对齐来推断相机的观看方向。我们关系。 **支撑证据** 摘要与公开信息显示：arXiv:2601.19099v2 视觉语言模型 (VLM) 在许多多模式基准上实现了强大的性能，但在需要将抽象开销表示与以自我为中心的视图对齐的空间推理任务上仍然很脆弱。我们引入了 m2sv，这是一种用于地图到街景空间推理的可扩展基准，要求模型通过将北上的俯视图与在同一现实世界交叉口捕获的街景图像对齐来推断相机的观看方向。我们关系... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 40
+        },
+        {
+          "title": "Introducing container caching in Amazon SageMaker AI for faster model scaling",
+          "titleZh": "在 Amazon SageMaker AI 中引入容器缓存以加快模型扩展速度",
+          "link": "https://aws.amazon.com/blogs/machine-learning/introducing-container-caching-in-amazon-sagemaker-ai-for-faster-model-scaling/",
+          "publishedAt": "Tue, 16 Jun 2026 20:16:02 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "Today, we’re excited to announce container image caching for Amazon SageMaker AI inference, the next major advancement in our faster scaling optimization journey. This speeds up end-to-end latency by up to 2x for generative AI models during scale-out events.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/16/ml-21172.png",
+          "video": "",
+          "summary": "Today, we’re excited to announce container image caching for Amazon SageMaker AI inference, the next major advancement in our faster scaling optimization journey. This speeds up end-to-end latency by up to 2x for generative AI models during scale-out events.",
+          "summaryZh": "**核心要点** 今天，我们很高兴地宣布用于 Amazon SageMaker AI 推理的容器图像缓存，这是我们更快的扩展优化之旅的下一个重大进展。这使得生成式 AI 模型在横向扩展事件期间的端到端延迟速度提高了 2 倍。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "推理部署",
+            "图像"
+          ],
+          "score": 31
+        },
+        {
+          "title": "datasette 1.0a34",
+          "titleZh": "Datasette 1.0a34 引用发",
+          "link": "https://simonwillison.net/2026/Jun/16/datasette/#atom-everything",
+          "publishedAt": "2026-06-16T21:31:24+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Release: datasette 1.0a34 Quoting the release notes: The big feature in this alpha is tools to insert, edit and delete rows within the Datasette interface. These features are available on table pages, and edit and delete are also available as action items on the row page. The inspiration for this feature - which is long overdue - was Datasette Agent . I added SQL write support to that the other day which highlighted how absurd it was that you could insert and edit ties via the chat interface but not in the regular Datasette UI! Tags: projects , datasette , annotated-release-notes",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://static.simonwillison.net/static/2026/datasette-edit-first-frame.gif",
+          "video": "",
+          "summary": "Release: datasette 1.0a34 Quoting the release notes: The big feature in this alpha is tools to insert, edit and delete rows within the Datasette interface. These features are available on table pages, and edit and delete are also available as action items on the row page. The inspiration for this feature - which is long overdue - was Datasette Agent . I added SQL write support to that the other day which highlighted how absurd it was that you could insert and edit ties via the chat interface but not in the regul...",
+          "summaryZh": "**核心要点** Datasette 1.0a34 引用发行说明：此 alpha 版本的最大功能是在 Datasette 界面中插入、编辑和删除行的工具。这些功能可在表格页面上使用，编辑和删除也可作为行页面上的操作项使用。这个功能的灵感（早就应该出现）是 Datasette Agent。前几天我添加了 SQL 写入支持，这突显了您可以通过聊天界面插入和编辑关系但不能在常规中插入和编辑关系是多么荒谬...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "智能体"
+          ],
+          "score": 31
+        },
+        {
+          "title": "Safeguard your agentic AI applications with the Amazon Bedrock Guardrails InvokeGuardrailChecks API",
+          "titleZh": "今天，我们宣布推出 Amazon Bed",
+          "link": "https://aws.amazon.com/blogs/machine-learning/safeguard-your-agentic-ai-applications-with-the-amazon-bedrock-guardrails-invokeguardrailchecks-api/",
+          "publishedAt": "Tue, 16 Jun 2026 22:46:46 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "Today, we’re announcing a new API with Amazon Bedrock Guardrails. With this API, you can apply individual safeguards, also referred to as safety checks, at any point in your agentic AI applications without creating guardrail resources. In this post, we walk through how the InvokeGuardrailChecks API works and how to use it to build safe, multi-turn agentic AI applications.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/16/21237-1.png",
+          "video": "",
+          "summary": "Today, we’re announcing a new API with Amazon Bedrock Guardrails. With this API, you can apply individual safeguards, also referred to as safety checks, at any point in your agentic AI applications without creating guardrail resources. In this post, we walk through how the InvokeGuardrailChecks API works and how to use it to build safe, multi-turn agentic AI applications.",
+          "summaryZh": "**核心要点** 今天，我们宣布推出 Amazon Bedrock Guardrails 的新 API。借助此 API，您可以在代理 AI 应用中的任何点应用单独的防护措施（也称为安全检查），而无需创建护栏资源。在这篇文章中，我们将介绍 InvokeGuardrailChecks API 的工作原理以及如何使用它来构建安全的多轮代理 AI 应用。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "API",
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "NetNewsWire Status",
+          "titleZh": "Simon Willison 推荐持续打磨中的开源 RSS 阅读器 NetNewsWire",
+          "link": "https://simonwillison.net/2026/Jun/17/netnewswire-status/#atom-everything",
+          "publishedAt": "2026-06-17T03:36:09+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "NetNewsWire Status I find this inspiring. Brent Simmons retired a year ago, and his retirement project is making one piece of software really, really good - free from any commercial pressure. The software is NetNewsWire - \"it's like podcasts, but for reading \" - first released in 2002 and made open source in 2018. I've been using it on Mac and iPhone for several years now and I'm finding it indispensable. Via Lobste.rs Tags: brent-simmons , netnewswire , open-source",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "NetNewsWire Status I find this inspiring. Brent Simmons retired a year ago, and his retirement project is making one piece of software really, really good - free from any commercial pressure. The software is NetNewsWire - \"it's like podcasts, but for reading \" - first released in 2002 and made open source in 2018. I've been using it on Mac and iPhone for several years now and I'm finding it indispensable. Via Lobste.rs Tags: brent-simmons , netnewswire , open-source",
+          "summaryZh": "**核心要点** Simon Willison 转发了一篇关于 **NetNewsWire** 的短文，核心观点不是新功能发布，而是这款老牌 RSS 阅读器正在以一种少见的方式持续演进：作者 **Brent Simmons** 退休后，把它当成长期项目继续打磨，不受商业化节奏牵引。**展开说明** NetNewsWire 最早发布于 **2002 年**，并在 **2018 年开源**；Simon 表示自己已在 Mac 和 iPhone 上长期使用，认为它已经成为“不可或缺”的阅读工具。**我的判断** 这条信息值得关注，不是因为它代表了新的 AI 产品，而是它提醒读者：在生成式 AI 与信息过载时代，围绕 **RSS、阅读体验和开放生态** 的基础工具仍然有长期价值。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "开源"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Context intelligence for your data and AI agents at scale",
+          "titleZh": "大规模数据和 AI 代理的上下文智能",
+          "link": "https://aws.amazon.com/blogs/machine-learning/context-intelligence-for-your-data-and-ai-agents-at-scale/",
+          "publishedAt": "Wed, 17 Jun 2026 17:17:37 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "Agents are only as intelligent as the context they can reason over. Today, that context is scattered across data lakes, data warehouses, lakehouses, databases, and streams, and in institutional knowledge that has never been written down. You want to trust the decisions made by your AI agents, but that can't happen until agents have context. Imagine what becomes possible when we give agents a safe way to access the context they need to deliver trusted decisions. This is why at the AWS Summit New York City, we’re announcing a series of innovations that deliver intelligence for your data and AI agents at scale.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/17/ml-21188.png",
+          "video": "",
+          "summary": "Agents are only as intelligent as the context they can reason over. Today, that context is scattered across data lakes, data warehouses, lakehouses, databases, and streams, and in institutional knowledge that has never been written down. You want to trust the decisions made by your AI agents, but that can't happen until agents have context. Imagine what becomes possible when we give agents a safe way to access the context they need to deliver trusted decisions. This is why at the AWS Summit New York City, we’re...",
+          "summaryZh": "**核心要点** 智能体的智能程度取决于它们能够推理的上下文。如今，这种背景分散在数据湖、数据仓库、湖屋、数据库和流中，以及从未被记录下来的机构知识中。您希望信任人工智能代理做出的决策，但这只有在代理掌握上下文后才能实现。想象一下，当我们为代理提供一种安全的方式来访问他们提供可信决策所需的上下文时，将会发生什么。这就是为什么在纽约市 AWS 峰会上，我们...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        },
+        {
+          "title": "New in Amazon Bedrock AgentCore: Build agents with broader knowledge and continuous learning",
+          "titleZh": "Amazon Bedrock AgentCore 的新增功能：构建具有更广泛知识和持续学习的代理",
+          "link": "https://aws.amazon.com/blogs/machine-learning/new-in-amazon-bedrock-agentcore-build-agents-with-broader-knowledge-and-continuous-learning/",
+          "publishedAt": "Wed, 17 Jun 2026 15:29:36 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "Today we're introducing new capabilities on Amazon Bedrock AgentCore, the platform to build, connect, and optimize agents. In this post, we cover how these capabilities close each gap: connecting agents to organizational, web, and paid knowledge; helping teams find and fix what's going wrong in production; and enforcing controls that scale as agents grow more capable. Together, they help you build more capable agents faster, govern them with controls that scale, and improve them continuously.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/16/knowledge-layers.png",
+          "video": "",
+          "summary": "Today we're introducing new capabilities on Amazon Bedrock AgentCore, the platform to build, connect, and optimize agents. In this post, we cover how these capabilities close each gap: connecting agents to organizational, web, and paid knowledge; helping teams find and fix what's going wrong in production; and enforcing controls that scale as agents grow more capable. Together, they help you build more capable agents faster, govern them with controls that scale, and improve them continuously.",
+          "summaryZh": "**核心要点** 今天，我们将推出 Amazon Bedrock AgentCore 的新功能，该平台用于构建、连接和优化代理。在这篇文章中，我们将介绍这些功能如何缩小各个差距：将代理与组织、网络和付费知识连接起来；帮助团队发现并修复生产中出现的问题；随着代理能力的增强，实施可扩展的控制措施。它们共同帮助您更快地构建更强大的代理，通过可扩展的控制来管理它们，并不断改进它们。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "You can use GLM-5.2 and Kimi-K2.7-Code in Codex with Ollama! ollama launch codex ollama launch co...",
+          "titleZh": "Ollama 演示在 Codex 中接入 GLM-5.2 与 Kimi-K2.7-Code",
+          "link": "https://x.com/ollama/status/2067307179066224833",
+          "publishedAt": "Wed, 17 Jun 2026 18:03:34 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "description": "You can use GLM-5.2 and Kimi-K2.7-Code in Codex with Ollama! ollama launch codex ollama launch codex-app Tibo @thsottiaux Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models. developers.openai.com/codex/config-a… 🔗 View Quoted Tweet 💬 3 🔄 3 ❤️ 22 👀 1077 📊 5 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "You can use GLM-5.2 and Kimi-K2.7-Code in Codex with Ollama! ollama launch codex ollama launch codex-app Tibo @thsottiaux Reminder that you can use the Codex App, CLI and SDK with any open source model, not just with OpenAI models. developers.openai.com/codex/config-a… 🔗 View Quoted Tweet 💬 3 🔄 3 ❤️ 22 👀 1077 📊 5 ⚡ Powered by xgo.ing",
+          "summaryZh": "Ollama 展示了一个更实用的用法：通过本地模型层，把 **GLM-5.2** 和 **Kimi-K2.7-Code** 接入 **Codex** 工作流。配文同时提醒，**Codex App、CLI 和 SDK** 并不只绑定 OpenAI 自家模型，只要按配置文档接入，也可以调用其他 **开源或自托管代码模型**。这件事值得关注，因为它把“统一的编码代理体验”和“可替换的底层模型”拆开了，团队可以一边保留 Codex 的交互方式，一边根据成本、隐私或性能选择不同模型。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "开源",
+            "开发者工具"
+          ],
+          "score": 67.80201945933034
+        },
+        {
+          "title": "The most requested feature from our community is finally here: Weaviate Cloud access, free ...",
+          "titleZh": "我们社区最需要的功能终于来了：Weaviate 云访问，免费",
+          "link": "https://x.com/weaviate_io/status/2067276258786848826",
+          "publishedAt": "Wed, 17 Jun 2026 16:00:42 GMT",
+          "source": "Weaviate • vector database(@weaviate_io)",
+          "sourceType": "social",
+          "description": "The most requested feature from our community is finally here: Weaviate Cloud access, free 𝘧𝘰𝘳𝘦𝘷𝘦𝘳. No trial period. No ticking clock. Just full access to Weaviate's vector database, query agent, and memory capabilities, no credit card required. Whether you're: - Hacking away on a side project - Building a proof-of-concept - Launching a brand-new startup You can now get started with Weaviate completely free! A massive thank you to our community for your constant feedback and support. We build for you, and we can't wait to see what you create 💙 Sign u weaviate.io/go/console?utm… BCiRbTGr Learn more in this blog by @bobva weaviate.io/blog/weaviate-… 67lU19IZ Your browser does not support the video tag. 🔗 View on Twitter 💬 0 🔄 3 ❤️ 9 👀 639 📊 2 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-18-2067276258786848826.mp4",
+          "summary": "The most requested feature from our community is finally here: Weaviate Cloud access, free 𝘧𝘰𝘳𝘦𝘷𝘦𝘳. No trial period. No ticking clock. Just full access to Weaviate's vector database, query agent, and memory capabilities, no credit card required. Whether you're: - Hacking away on a side project - Building a proof-of-concept - Launching a brand-new startup You can now get started with Weaviate completely free! A massive thank you to our community for your constant feedback and support. We build for you, and we can't wait to see what you create 💙 Sign u weaviate.io/go/console?utm… BCiRbTGr Learn more in this blog by @bobva weaviate.io/blog/weaviate-… 67lU19IZ Your browser does not support the video tag. 🔗 View on Twitter 💬 0 🔄 3 ❤️ 9 👀 639 📊 2 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们社区最需要的功能终于来了：Weaviate 云访问，免费。无试用期。没有滴答作响的时钟。只需完全访问 Weaviate 的矢量数据库、查询代理和内存功能，无需信用卡。无论您是： - 从事业余项目 - 构建概念验证 - 启动全新的初创公司 您现在可以完全免费地开始使用 Wea​​viate！非常感谢我们社区的持续反馈和支持。我们为您构建，我们迫不及待地想看看您创建的内容 登录 weaviate.io/go/console?utm... BCiRbTGr 通过 @bobva weaviate.io/blog/weaviate-... 在此博客中了解更多信息 67lU19IZ",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "视频"
+          ],
+          "score": 62.413389943631756
+        },
+        {
+          "title": "In text retrieval, multi-vector's advantage is conditional. On short documents and simple queries, a...",
+          "titleZh": "Milvus：多向量检索并非总比单向量更强",
+          "link": "https://x.com/milvusio/status/2067266220043485517",
+          "publishedAt": "Wed, 17 Jun 2026 15:20:49 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "description": "In text retrieval, multi-vector's advantage is conditional. On short documents and simple queries, approximation usually erases its lead over dense. Visual documents flip that: multi-vector beat the dense baseline by 𝗻𝗲𝗮𝗿𝗹𝘆 𝟭𝟴 𝗽𝗼𝗶𝗻𝘁𝘀, and the lead held almost intact through approximation. We ran ColQwen (multi-vector) against Qwen3-VL-Embedding (dense) on DocVQA. 𝗧𝗵𝗶𝘀 𝘁𝗮𝘀𝗸 𝗶𝘀 𝗺𝘂𝗹𝘁𝗶𝗺𝗼𝗱𝗮𝗹: 𝘁𝗵𝗲 𝗾𝘂𝗲𝗿𝘆 𝗶𝘀 𝘁𝗲𝘅𝘁, 𝘄𝗵𝗶𝗹𝗲 𝘁𝗵𝗲 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁 𝗶𝘀 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲, 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗺𝗼𝗱𝗲𝗹 𝗲𝗻𝗰𝗼𝗱𝗲𝘀 𝘁𝗵𝗲 𝗶𝗺𝗮𝗴𝗲 𝗶𝗻𝘁𝗼 𝘃𝗲𝗰𝘁𝗼𝗿𝘀. For ColBERT-style models, such as ColQwen, the image is encoded into multiple vectors at the patch level. For dense models, such as Qwen3-VL-Embedding, the image is encoded into a single vector. 𝗘𝘅𝗮𝗰𝘁 𝘀𝗲𝗮𝗿𝗰𝗵 (BruteForce, the quality ceiling): • Dense: 𝟬.𝟱𝟮𝟭 nDCG @10 • ColQwen2: 𝟬.𝟲𝟭𝟬 (+8.9 pt) • ColQwen3: 𝟬.𝟲𝟵𝟴 (+17.7 pt) 𝗔𝗽𝗽𝗿𝗼𝘅𝗶𝗺𝗮𝘁𝗲 𝘀𝗲𝗮𝗿𝗰𝗵 (LEMUR, ratio=5.0): • ColQwen2: 𝟬.𝟱𝟵𝟲 (+7.5 pt over dense) • ColQwen3: 𝟬.𝟳𝟬𝟰 (+18.3 pt over dense) 𝗔𝗽𝗽𝗿𝗼𝘅𝗶𝗺𝗮𝘁𝗶𝗼𝗻 𝗰𝗼𝘀𝘁 𝘄𝗮𝘀 𝗲𝗳𝗳𝗲𝗰𝘁𝗶𝘃𝗲𝗹𝘆 𝘇𝗲𝗿𝗼. ColQwen3 landed 0.006 above its own exact score, which is noise on 100 queries. On text benchmarks like MS MARCO and SciFact, approximation usually wipes the multi-vector lead out. Here it didn't move. 𝗧𝗵𝗲 𝗴𝗮𝗽 𝗰𝗼𝗺𝗲𝘀 𝗳𝗿𝗼𝗺 𝘁𝗵𝗲 𝗽𝗮𝗴𝗲 𝗶𝘁𝘀𝗲𝗹𝗳: 𝘁𝗮𝗯𝗹𝗲𝘀, 𝗰𝗵𝗮𝗿𝘁𝘀, 𝗺𝘂𝗹𝘁𝗶-𝗰𝗼𝗹𝘂𝗺𝗻 𝗹𝗮𝘆𝗼𝘂𝘁𝘀, 𝗳𝗼𝗻𝘁 𝗵𝗶𝗲𝗿𝗮𝗿𝗰𝗵𝘆. A dense model folds all of that into one vector and loses the spatial structure. Patch-level multi-vectors keep each region as its own vector, so MaxSim can match a query against the specific parts of the page that matter. A single vector can't carry the structure of a full page. 𝗢𝗻𝗲 𝗰𝗮𝘃𝗲𝗮𝘁: 𝗧𝗼𝗸𝗲𝗻𝗔𝗡𝗡 𝗱𝗼𝗲𝘀𝗻'𝘁 𝘄𝗼𝗿𝗸 𝗵𝗲𝗿𝗲 𝗮𝘁 𝗮𝗹𝗹. Both models scored under 0.05. Visual models emit thousands of patches per page (ColQwen2: 5,143; ColQwen3: 1,250), and each patch covers so little of the image that per-patch ANN can't locate the right page. The usable strategies are the compression ones, MUVERA and LEMUR. 𝗜𝗳 𝘆𝗼𝘂'𝗿𝗲 𝗿𝗲𝘁𝗿𝗶𝗲𝘃𝗶𝗻𝗴 𝗶𝗻𝘃𝗼𝗶𝗰𝗲𝘀, 𝗿𝗲𝗽𝗼𝗿𝘁𝘀, 𝘀𝗰𝗮𝗻𝘀, 𝗼𝗿 𝗣𝗗𝗙 𝗽𝗮𝗴𝗲𝘀 𝗯𝘆 𝘁𝗵𝗲𝗶𝗿 𝘃𝗶𝘀𝘂𝗮𝗹 𝗰𝗼𝗻𝘁𝗲𝗻𝘁, 𝗺𝘂𝗹𝘁𝗶-𝘃𝗲𝗰𝘁𝗼𝗿 𝘄𝗶𝘁𝗵 𝗟𝗘𝗠𝗨𝗥 𝗼𝗿 𝗠𝗨𝗩𝗘𝗥𝗔 𝗶𝘀 𝗮 𝗺𝗲𝗮𝘀𝘂𝗿𝗮𝗯𝗹𝗲 𝘀𝘁𝗲𝗽 𝘂𝗽 𝗳𝗿𝗼𝗺 𝗮 𝗱𝗲𝗻𝘀𝗲 𝗯𝗮𝘀𝗲𝗹𝗶𝗻𝗲, 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗹𝗲𝗮𝗱 𝘀𝘂𝗿𝘃𝗶𝘃𝗲𝘀 𝗼𝗻𝗰𝗲 𝘆𝗼𝘂 𝗺𝗼𝘃𝗲 𝗼𝗳𝗳 𝗲𝘅𝗮𝗰𝘁 𝘀𝗲𝗮𝗿𝗰𝗵. 💬 0 🔄 0 ❤️ 2 👀 109 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLBnlCCaIAEADmx.jpg",
+          "video": "",
+          "summary": "In text retrieval, multi-vector's advantage is conditional. On short documents and simple queries, approximation usually erases its lead over dense. Visual documents flip that: multi-vector beat the dense baseline by 𝗻𝗲𝗮𝗿𝗹𝘆 𝟭𝟴 𝗽𝗼𝗶𝗻𝘁𝘀, and the lead held almost intact through approximation. We ran ColQwen (multi-vector) against Qwen3-VL-Embedding (dense) on DocVQA. 𝗧𝗵𝗶𝘀 𝘁𝗮𝘀𝗸 𝗶𝘀 𝗺𝘂𝗹𝘁𝗶𝗺𝗼𝗱𝗮𝗹: 𝘁𝗵𝗲 𝗾𝘂𝗲𝗿𝘆 𝗶𝘀 𝘁𝗲𝘅𝘁, 𝘄𝗵𝗶𝗹𝗲 𝘁𝗵𝗲 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁 𝗶𝘀 𝗮𝗻 𝗶𝗺𝗮𝗴𝗲, 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗺𝗼𝗱𝗲𝗹 𝗲𝗻𝗰𝗼𝗱𝗲𝘀 𝘁𝗵𝗲 𝗶𝗺𝗮𝗴𝗲 𝗶𝗻𝘁𝗼 𝘃𝗲𝗰𝘁𝗼𝗿𝘀. For ColBERT-style models, such as ColQwen, the image is encoded into multiple vectors at the patch level. For dense models, such as Qwen3-VL-Embedding, the image is encoded into a single vector. 𝗘𝘅𝗮𝗰𝘁 𝘀𝗲𝗮𝗿𝗰𝗵 (BruteForce, the quality ceiling): • Dense: 𝟬.𝟱𝟮𝟭 nDCG @10 • ColQwen2: 𝟬.𝟲...",
+          "summaryZh": "**核心要点** Milvus 分享了一组检索实验，结论不是“多向量一定更好”，而是 **多向量的收益高度依赖任务类型**。在 **短文档、简单查询** 的文本检索里，ANN 近似搜索往往会吃掉它相对单向量密集检索的优势；但到了 **视觉文档** 场景，尤其是 **DocVQA** 一类任务，多向量方案的领先会明显放大。**展开说明** 这组对比使用了 **ColQwen/ColQwen2** 这类多向量方案与 **Qwen3-VL-Embedding** 这类单向量密集方案，重点说明图像或复杂页面在 patch 级表示下更适合多向量建模。**我的判断** 对做 RAG 或企业检索的人来说，这条信号很实用：是否上多向量，不应只看宣传口径，而要先看你的数据是“短文本”还是“复杂视觉文档”。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "评测",
+            "图像"
+          ],
+          "score": 47.97057404661599
+        },
+        {
+          "title": "Most search systems treat relevance as something that happens after retrieval. But what if relevanc...",
+          "titleZh": "大多数搜索系统将相关性视为检索后发生的事情",
+          "link": "https://x.com/qdrant_engine/status/2067235079202697577",
+          "publishedAt": "Wed, 17 Jun 2026 13:17:04 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "description": "Most search systems treat relevance as something that happens after retrieval. But what if relevance could be part of the search itself? At @berlinbuzzwords 2026, @krotenWanderung explored how Relevance Feedback can be pushed directly into the vector space, helping search systems improve retrieval quality at the source. The talk covers: → The foundations of relevance feedback in information retrieval → How relevance signals can be incorporated directly into search → Practical applications for modern retrieval systems Watch the recording: youtube.com/watch?v=7E6Ls1… 💬 0 🔄 2 ❤️ 2 👀 136 📊 1 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLBLFLTacAAVZ3I.jpg",
+          "video": "",
+          "summary": "Most search systems treat relevance as something that happens after retrieval. But what if relevance could be part of the search itself? At @berlinbuzzwords 2026, @krotenWanderung explored how Relevance Feedback can be pushed directly into the vector space, helping search systems improve retrieval quality at the source. The talk covers: → The foundations of relevance feedback in information retrieval → How relevance signals can be incorporated directly into search → Practical applications for modern retrieval systems Watch the recording: youtube.com/watch?v=7E6Ls1… 💬 0 🔄 2 ❤️ 2 👀 136 📊 1 ⚡ Powered by xgo.ing",
+          "summaryZh": "大多数搜索系统将相关性视为检索后发生的事情。但如果相关性可以成为搜索本身的一部分呢？在 @berlinbuzzwords 2026 上，@krotenWanderung 探索了如何将相关性反馈直接推入向量空间，帮助搜索系统从源头提高检索质量。演讲涵盖： → 信息检索中相关性反馈的基础 → 如何将相关性信号直接纳入搜索 → 现代检索系统的实际应用 观看录音：youtube.com/watch?v=7E6Ls1…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 42.067808379052586
+        },
+        {
+          "title": "Vercel 发布开源 AI 智能体框架 Eve：每个智能体就是一个文件目录",
+          "titleZh": "Vercel 发布开源 AI 智能体框架 Eve：每个智能体就是一个文件目录",
+          "link": "https://www.marktechpost.com/2026/06/17/vercel-releases-eve",
+          "publishedAt": "Wed, 17 Jun 2026 17:22:51 GMT",
+          "source": "AI HOT",
+          "sourceType": "aggregator",
+          "description": "Vercel 发布开源 AI 智能体框架 Eve（npm 包，Apache-2.0 许可）。Eve 采用文件系统优先设计：每个智能体对应一个磁盘目录，目录结构直接映射模型、指令、工具、技能、连接、子智能体等能力，无需额外注册代码。内置六大生产级能力：持久执行（每步检查点，崩溃后可恢复）、沙箱计算、人机审批、安全连接（支持 MCP 和 OpenAPI）、多通道（Slack、Discord、Teams 等）以及追踪与评估（OpenTelemetry）。Vercel 内部运行了上百个智能体，包括数据分析工具 d0（月处理超3万查询）、自动销售代理 Lead Agent（年费约5000美元、回报32倍）和支持智能体 Vertex（自主解决92%工单）。",
+          "section": "open_source_top",
+          "channel": "aggregator",
+          "trust": "community",
+          "image": "https://www.marktechpost.com/wp-content/uploads/2026/06/blog191-10.png",
+          "video": "",
+          "summary": "Vercel 发布开源 AI 智能体框架 Eve（npm 包，Apache-2.0 许可）。Eve 采用文件系统优先设计：每个智能体对应一个磁盘目录，目录结构直接映射模型、指令、工具、技能、连接、子智能体等能力，无需额外注册代码。内置六大生产级能力：持久执行（每步检查点，崩溃后可恢复）、沙箱计算、人机审批、安全连接（支持 MCP 和 OpenAPI）、多通道（Slack、Discord、Teams 等）以及追踪与评估（OpenTelemetry）。Vercel 内部运行了上百个智能体，包括数据分析工具 d0（月处理超3万查询）、自动销售代理 Lead Agent（年费约5000美元、回报32倍）和支持智能体 Vertex（自主解决92%工单）。",
+          "summaryZh": "Vercel 发布开源 AI 智能体框架 Eve（npm 包，Apache-2.0 许可）。Eve 采用文件系统优先设计：每个智能体对应一个磁盘目录，目录结构直接映射模型、指令、工具、技能、连接、子智能体等能力，无需额外注册代码。内置六大生产级能力：持久执行（每步检查点，崩溃后可恢复）、沙箱计算、人机审批、安全连接（支持 MCP 和 OpenAPI）、多通道（Slack、Discord、Teams 等）以及追踪与评估（OpenTelemetry）。Vercel 内部运行了上百个智能体，包括数据分析工具 d0（月处理超3万查询）、自动销售代理 Lead Agent（年费约5000美元、回报32倍）和支持智能体 Vertex（自主解决92%工单）。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "API",
+            "智能体",
+            "安全",
+            "开源",
+            "模型"
+          ],
+          "score": 31
+        },
+        {
+          "title": "google-research/timesfm",
+          "titleZh": "google-research/timesfm：TimesFM（时间序列基础模型）是 G",
+          "link": "https://github.com/google-research/timesfm",
+          "publishedAt": "2026-06-17T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "Star google-research / timesfm TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+          "summaryZh": "TimesFM（时间序列基础模型）是 Google Research 开发的用于时间序列预测的预训练时间序列基础模型。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "模型"
+          ],
+          "score": 30
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Code is the right action interface for spatial reasoning agents. New from NVIDIA Research: SpatialC...",
+          "titleZh": "NVIDIA Research 提出 SpatialClaw，用代码驱动空间推理代理",
+          "link": "https://x.com/NVIDIAAI/status/2066974091689476320",
+          "publishedAt": "Tue, 16 Jun 2026 20:00:00 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "Code is the right action interface for spatial reasoning agents. New from NVIDIA Research: SpatialClaw, a training-free agent that uses code as its action interface for complex visual tasks. Instead of calling a fixed set of pre-defined tools, the agent writes Python inside a persistent kernel, so it can compose perception modules, inspect intermediate results, and revise its strategy across steps. Perception outputs become ordinary variables it can reuse and combine with libraries like NumPy and SciPy. With no benchmark-specific or model-specific tuning, it beats a recent prior agent by 11.2 points across 20 benchmarks and holds up consistently across six different model backbones. You can check out SpatialClaw here: nvda.ws/4esHxr9 💬 27 🔄 94 ❤️ 632 👀 48760 📊 169 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HK9TsuuXAAAwKxG.jpg",
+          "video": "",
+          "summary": "Code is the right action interface for spatial reasoning agents. New from NVIDIA Research: SpatialClaw, a training-free agent that uses code as its action interface for complex visual tasks. Instead of calling a fixed set of pre-defined tools, the agent writes Python inside a persistent kernel, so it can compose perception modules, inspect intermediate results, and revise its strategy across steps. Perception outputs become ordinary variables it can reuse and combine with libraries like NumPy and SciPy. With no benchmark-specific or model-specific tuning, it beats a recent prior agent by 11.2 points across 20 benchmarks and holds up consistently across six different model backbones. You can check out SpatialClaw here: nvda.ws/4esHxr9 💬 27 🔄 94 ❤️ 632 👀 48760 📊 169 ⚡ Powered by xgo.ing",
+          "summaryZh": "**核心要点** NVIDIA Research 发布 **SpatialClaw**，把“写代码”而不是“调固定工具”作为空间推理代理的主操作接口。它的核心思路是让代理在 **持久化 Python 内核** 里直接编排感知模块、检查中间结果，再根据结果改写后续步骤。**展开说明** 这种方式让感知输出变成普通变量，可继续交给 **NumPy、SciPy** 等库处理，不必被预设工具链限制。官方给出的结果是：在 **20 个基准** 上，相比最近的前代代理平均提升 **11.2 个点**，并且在 **6 种不同模型骨干** 上都保持一致。**我的判断** 这条研究信号的重要性在于，它进一步强化了“代码执行环境是代理能力放大器”的趋势，后续值得关注它在真实机器人、三维理解或复杂视觉工作流中的泛化能力。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "评测"
+          ],
+          "score": 70.64032898743844
+        },
+        {
+          "title": "Our latest economic research introduces a framework for tracking Claude Code as it scales. Who is ...",
+          "titleZh": "我们最新的经济研究引入了一个跟踪Claude代码规模的框架",
+          "link": "https://x.com/AnthropicAI/status/2066969532380721386",
+          "publishedAt": "Tue, 16 Jun 2026 19:41:53 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "description": "Our latest economic research introduces a framework for tracking Claude Code as it scales. Who is using Claude Code, and what are they using it for? How is the value of tasks changing? And how much does domain expertise shape whether a session succeeds? anthropic.com/research/claud… 💬 430 🔄 334 ❤️ 3108 👀 747573 📊 872 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Our latest economic research introduces a framework for tracking Claude Code as it scales. Who is using Claude Code, and what are they using it for? How is the value of tasks changing? And how much does domain expertise shape whether a session succeeds? anthropic.com/research/claud… 💬 430 🔄 334 ❤️ 3108 👀 747573 📊 872 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们最新的经济研究引入了一个跟踪Claude代码规模的框架。谁在使用 Claude Code，他们用它做什么？任务的价值如何变化？领域专业知识对会议是否成功有多大影响？ anthropic.com/research/claud。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 67
+        },
+        {
+          "title": "Grok Imagine Video 1.5 is here Our new image-to-video model with sharper realism, better physics an...",
+          "titleZh": "Grok Imagine Video 1.5 现已推出 我们新的图像到视频模型具有更清晰的真实感、更好的物理效果和更快的生成 grok.com/imagine",
+          "link": "https://x.com/xai/status/2067092897951109427",
+          "publishedAt": "Wed, 17 Jun 2026 03:52:06 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "description": "Grok Imagine Video 1.5 is here Our new image-to-video model with sharper realism, better physics and faster generations 🧵 grok.com/imagine 5 Your browser does not support the video tag. 🔗 View on Twitter 💬 413 🔄 455 ❤️ 3204 👀 4920697 📊 749 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Grok Imagine Video 1.5 is here Our new image-to-video model with sharper realism, better physics and faster generations 🧵 grok.com/imagine 5 Your browser does not support the video tag. 🔗 View on Twitter 💬 413 🔄 455 ❤️ 3204 👀 4920697 📊 749 ⚡ Powered by xgo.ing",
+          "summaryZh": "Grok Imagine Video 1.5 现已推出 我们新的图像到视频模型具有更清晰的真实感、更好的物理效果和更快的生成 grok.com/imagine。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频",
+            "图像"
+          ],
+          "score": 67
+        },
+        {
+          "title": "We’re sharing new research on a method for anticipating how models may behave in real-world use befo...",
+          "titleZh": "OpenAI：我们正在分享一种新的研究方法，用于预测模型在现实世界中的使用情况",
+          "link": "https://x.com/OpenAI/status/2066969635099144682",
+          "publishedAt": "Tue, 16 Jun 2026 19:42:18 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "We’re sharing new research on a method for anticipating how models may behave in real-world use before release: simulating deployment with recent, de-identified user requests and studying candidate model responses. openai.com/index/deployme… 💬 205 🔄 223 ❤️ 2375 👀 279916 📊 472 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We’re sharing new research on a method for anticipating how models may behave in real-world use before release: simulating deployment with recent, de-identified user requests and studying candidate model responses. openai.com/index/deployme… 💬 205 🔄 223 ❤️ 2375 👀 279916 📊 472 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们正在分享一种新的研究方法，用于在发布之前预测模型在实际使用中的表现：使用最近的、去识别化的用户请求来模拟部署，并研究候选模型响应。 openai.com/index/deployme。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型"
+          ],
+          "score": 66
+        },
+        {
+          "title": "GPT-5.4 helped drive a medicinal chemistry project from literature review to a validated experimenta...",
+          "titleZh": "OpenAI：GPT-5.4 帮助推动药物化学项目从文献综述到验证的实验结果",
+          "link": "https://x.com/OpenAI/status/2067293745075442171",
+          "publishedAt": "Wed, 17 Jun 2026 17:10:11 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "GPT-5.4 helped drive a medicinal chemistry project from literature review to a validated experimental result. Paired with Molecule.one ’s Maria AI and specialized lab, the model proposed an unexpected way to improve a widely used reaction in drug discovery. Your browser does not support the video tag. 🔗 View on Twitter 💬 91 🔄 103 ❤️ 1132 👀 69138 📊 197 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "GPT-5.4 helped drive a medicinal chemistry project from literature review to a validated experimental result. Paired with Molecule.one ’s Maria AI and specialized lab, the model proposed an unexpected way to improve a widely used reaction in drug discovery. Your browser does not support the video tag. 🔗 View on Twitter 💬 91 🔄 103 ❤️ 1132 👀 69138 📊 197 ⚡ Powered by xgo.ing",
+          "summaryZh": "GPT-5.4 帮助推动药物化学项目从文献综述到验证的实验结果。该模型与 Molecule.one 的 Maria AI 和专业实验室相结合，提出了一种意想不到的方法来改进药物发现中广泛使用的反应。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 65
+        },
+        {
+          "title": "See how @heavypulp made a trailer worthy of the big screen with this powerful new model:",
+          "titleZh": "xAI 用案例展示 Grok Imagine Video 1.5 的视频生成能力",
+          "link": "https://x.com/xai/status/2067092900694135081",
+          "publishedAt": "Wed, 17 Jun 2026 03:52:06 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "description": "See how @heavypulp made a trailer worthy of the big screen with this powerful new model: Your browser does not support the video tag. 🔗 View on Twitter 💬 193 🔄 281 ❤️ 2957 👀 3913388 📊 642 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "See how @heavypulp made a trailer worthy of the big screen with this powerful new model: Your browser does not support the video tag. 🔗 View on Twitter 💬 193 🔄 281 ❤️ 2957 👀 3913388 📊 642 ⚡ Powered by xgo.ing",
+          "summaryZh": "xAI 用创作者 **@heavypulp** 的案例，展示了 **Grok Imagine Video 1.5** 生成电影预告片级画面的能力。这条内容对应的是 xAI 刚发布的 **Imagine Video 1.5**：官方称新版在 **运动一致性、物理表现、音频与语音同步** 上继续提升，并把 **6 秒 720p 视频** 的生成时间压到大约 **25 秒**。这类案例演示值得关注，因为它比单纯的跑分更能说明模型在真实创作工作流里是否可用。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 65
+        },
+        {
+          "title": "Lightning fast 📸 A new and much improved way to take and upload photos in ChatGPT on iOS.",
+          "titleZh": "快如闪电 在 iOS 上的 ChatGPT 中拍摄和上传照片的全新且改进的方式。",
+          "link": "https://x.com/ChatGPTapp/status/2066985553074200968",
+          "publishedAt": "Tue, 16 Jun 2026 20:45:33 GMT",
+          "source": "ChatGPT(@ChatGPTapp)",
+          "sourceType": "social",
+          "description": "Lightning fast 📸 A new and much improved way to take and upload photos in ChatGPT on iOS. Your browser does not support the video tag. 🔗 View on Twitter 💬 87 🔄 77 ❤️ 1545 👀 133588 📊 248 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-18-2066985553074200968.mp4",
+          "summary": "Lightning fast 📸 A new and much improved way to take and upload photos in ChatGPT on iOS. Your browser does not support the video tag. 🔗 View on Twitter 💬 87 🔄 77 ❤️ 1545 👀 133588 📊 248 ⚡ Powered by xgo.ing",
+          "summaryZh": "快如闪电 在 iOS 上的 ChatGPT 中拍摄和上传照片的全新且改进的方式。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "HyperFrames is now officially live on @Grok Grok knows everything. HyperFrames shows it Any answer...",
+          "titleZh": "HyperFrames 现已在 @Grok 上正式上线 Grok 知道一切",
+          "link": "https://x.com/HeyGen/status/2067265154505744833",
+          "publishedAt": "Wed, 17 Jun 2026 15:16:35 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "description": "HyperFrames is now officially live on @Grok Grok knows everything. HyperFrames shows it Any answer becomes a polished video in minutes Proof: this video was created entirely with it Your browser does not support the video tag. 🔗 View on Twitter 💬 143 🔄 147 ❤️ 389 👀 198482 📊 271 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-18-2067265154505744833.mp4",
+          "summary": "HyperFrames is now officially live on @Grok Grok knows everything. HyperFrames shows it Any answer becomes a polished video in minutes Proof: this video was created entirely with it Your browser does not support the video tag. 🔗 View on Twitter 💬 143 🔄 147 ❤️ 389 👀 198482 📊 271 ⚡ Powered by xgo.ing",
+          "summaryZh": "HyperFrames 现已在 @Grok 上正式上线 Grok 知道一切。 HyperFrames 展示了它 任何答案都会在几分钟内变成精美的视频 证明：该视频完全是用它创建的。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "智谱 GLM-5.2 正式发布和开源了，基准测试成绩相当吓人 核心定位是处理长周期任务，并且有稳定的 100 万上下文，模型还引入了思考力度控制。 架构层面，GLM-5.2 提出了 IndexSh...",
+          "titleZh": "智谱发布并开源 GLM-5.2，主打长周期任务与 100 万上下文",
+          "link": "https://x.com/op7418/status/2067077537721954542",
+          "publishedAt": "Wed, 17 Jun 2026 02:51:04 GMT",
+          "source": "歸藏(guizang.ai)(@op7418)",
+          "sourceType": "social",
+          "description": "智谱 GLM-5.2 正式发布和开源了，基准测试成绩相当吓人 核心定位是处理长周期任务，并且有稳定的 100 万上下文，模型还引入了思考力度控制。 架构层面，GLM-5.2 提出了 IndexShare 机制，每四层稀疏注意力共享同一个 indexer，从而在百万 token 上下文下将每 token 的计算量降低约 2.9 倍。 Z.ai @Zai_org Introducing GLM-5.2: Frontier Intelligence, Open Weights - Significant improvements in coding and agentic tasks - Strong long-horizon capabilities with a 1M context window - Two levels of reasoning effort: GLM-5.2 (max) pushes the limits, while GLM-5.2 (high) strikes a strong balance between performance and token efficiency - MIT-licensed open weights - Same API pricing as GLM-5.1 Tech Blog: z.ai/blog/glm-5.2 Weights: huggingface.co/zai-org/GLM-5.2 API: docs.z.ai/guides/llm/glm… Coding Plan: z.ai/subscribe Chat: chat.z.ai 🔗 View Quoted Tweet 💬 36 🔄 9 ❤️ 95 👀 132858 📊 34 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HK-7jKeb0AAPMQL.jpg",
+          "video": "",
+          "summary": "智谱 GLM-5.2 正式发布和开源了，基准测试成绩相当吓人 核心定位是处理长周期任务，并且有稳定的 100 万上下文，模型还引入了思考力度控制。 架构层面，GLM-5.2 提出了 IndexShare 机制，每四层稀疏注意力共享同一个 indexer，从而在百万 token 上下文下将每 token 的计算量降低约 2.9 倍。 Z.ai @Zai_org Introducing GLM-5.2: Frontier Intelligence, Open Weights - Significant improvements in coding and agentic tasks - Strong long-horizon capabilities with a 1M context window - Two levels of reasoning effort: GLM-5.2 (max) pushes the limits, while GLM-5.2 (high) strikes a strong balance between performance and token efficiency - MIT-lice...",
+          "summaryZh": "智谱正式发布并 **MIT 开源** **GLM-5.2**，把重点放在 **编码、Agent 任务** 和 **长周期推理** 上。官方给出的关键信号包括：支持稳定的 **100 万 token 上下文**、提供 **GLM-5.2 (max)** 与 **GLM-5.2 (high)** 两档思考力度控制，并保持与 **GLM-5.1** 相同的 API 定价。架构层面，GLM-5.2 引入 **IndexShare** 机制，让每四层稀疏注意力共享同一个 indexer，据称可在百万上下文下把单 token 计算量降低约 **2.9 倍**。这值得关注，因为它同时押注了开源权重、长上下文和 Agent 执行三条主线，后续要重点看真实代码任务、长任务稳定性和社区复现效果。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "API",
+            "智能体",
+            "推理能力",
+            "开源",
+            "模型"
+          ],
+          "score": 60.18237312514576
+        },
+        {
+          "title": "Domain experts—as judged by the questions they ask and vocabulary they use about a subject—are more ...",
+          "titleZh": "领域专家——根据他们提出的问题和他们使用的关于某个主题的词汇来判断——更有可能获得成功",
+          "link": "https://x.com/AnthropicAI/status/2066969540412780644",
+          "publishedAt": "Tue, 16 Jun 2026 19:41:55 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "description": "Domain experts—as judged by the questions they ask and vocabulary they use about a subject—are more likely to see success. But the gap between intermediate and expert users is quite modest, suggesting that proficiency in a domain is sufficient to code successfully within it. 💬 35 🔄 26 ❤️ 388 👀 102226 📊 76 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HK9Yl8mbAAA3Ul1.jpg",
+          "video": "",
+          "summary": "Domain experts—as judged by the questions they ask and vocabulary they use about a subject—are more likely to see success. But the gap between intermediate and expert users is quite modest, suggesting that proficiency in a domain is sufficient to code successfully within it. 💬 35 🔄 26 ❤️ 388 👀 102226 📊 76 ⚡ Powered by xgo.ing",
+          "summaryZh": "领域专家——根据他们提出的问题和他们使用的关于某个主题的词汇来判断——更有可能获得成功。但中级用户和专家用户之间的差距相当小，这表明对某个领域的熟练程度足以在该领域成功编码。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 58.293176858355565
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "Yann LeCun：五年内JEPA将统治全球 AI ｜ OpenAI会是下一个Sun ｜ LLM存在内生安全缺陷",
+          "titleZh": "Yann LeCun：五年内JEPA将统治全球 AI ｜ OpenAI会是下一个Sun ｜ LLM存在内生安全缺陷",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a1fda827444b5722232ac1b",
+          "publishedAt": "2026-06-16T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「Yann LeCun：五年内JEPA将统治全球 AI ｜ OpenAI会是下一个Sun ｜ LLM存在内生安全缺陷」。2026年5月16日，图灵奖得主、深度学习重量级人物杨立昆（Yann LeCun），在红点AI播客中，又抛出了一大堆惊世骇俗的言论。他直言，五年内JEPA模型将全面统治全球智能系统，还说自己对Llama模型没有任何技术贡献，判定OpenAI终将成为下一个被时代淘汰的Sun公司，更是直接批评大语言模型存在无法修复的内生安全缺陷，甚至预言在2027年初，整个AI行业都必须承认，之前的路线走偏了。作为全球顶级的AI前沿大佬，杨立昆一直对自己的JEPA模型无比自信，多次批评如今的大模型技术路线，而现在自己出来创业之后，发言更是没有什么顾忌了。所以我们今天就来看看，他在这期播客中到底都说了些什么。原视频来自： **简介要点**： - 2026年5月16日，图灵奖得主、深度学习重量级人物杨立昆（Yann LeCun），在红点AI播客中，又抛出了一大堆惊世骇俗的言论。 - 作为全球顶级的AI前沿大佬，杨立昆一直对自己的JEPA模型无比自信，多次批评如今的大模型技术路线，而现在自己出来创业之后，发言更是没有什么顾忌了。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "安全"
+          ],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    }
+  ],
+  "summaryBullets": [
+    "**Cursor：我们正在推出代码存储和 git 托管**：我们正在推出代码存储和 git 托管。Origin 为团队和代理提供了托管、审查和协作代码的场所",
+    "**代码是空间推理代理的正确操作接口**：NVIDIA Research 的新产品：SpatialClaw，一种无需训练的代理，使用代码作为复杂视觉任务的操作界面",
+    "**我们最新的经济研究引入了一个跟踪Claude代码规模的框架**：谁在使用 Claude Code，他们用它做什么",
+    "**Grok Imagine Video 1.5 现已推出 我们新的图像**：到视频模型具有更清晰的真实感、更好的物理效果和更快的生成 grok.com/imagine。这更像一条官"
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "date": "2026-06-18",
+  "generatedAt": "2026-06-17T18:36:27.535Z",
+  "papers": [
+    {
+      "id": "huggingface-co-papers-2606-11176",
+      "category": "papers",
+      "titleZh": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
+      "title": "Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories",
+      "source": "Hugging Face Weekly Papers",
+      "url": "https://huggingface.co/papers/2606.11176",
+      "publishedAt": "",
+      "selectedAt": "2026-06-18",
+      "summaryZh": "**核心结论**：这篇论文是 Hugging Face Weekly Papers 的高热候选，周榜排名第 3，主题集中在 Agent、多模态、研究、AI。当前自动摘要只能确认它具备社区关注度和主题相关性，正式通过前需要基于原文补充更完整的中文解读。\n**如何论证**：Hugging Face Papers 2026-W25 周榜入选论文。\n**审核重点**：请重点判断它是否有清晰问题定义、明确方法、可复核实验结果、开源代码或高质量机构/作者信号；如果这些信息不足，应先暂不通过或拒绝。",
+      "takeaways": [],
+      "tags": [
+        "Agent",
+        "多模态",
+        "研究",
+        "AI"
+      ],
+      "score": 38,
+      "selectionReason": "Hugging Face 周榜候选，排名第 3，主题信号：Agent、多模态、研究、AI，质量分 38。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "huggingface-co-papers-2606-14777",
+      "category": "papers",
+      "titleZh": "JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence",
+      "title": "JoyAI-VL-Interaction: Real-Time Vision-Language Interaction Intelligence",
+      "source": "Hugging Face Weekly Papers",
+      "url": "https://huggingface.co/papers/2606.14777",
+      "publishedAt": "",
+      "selectedAt": "2026-06-18",
+      "summaryZh": "**核心结论**：这篇论文是 Hugging Face Weekly Papers 的高热候选，周榜排名第 1，主题集中在 多模态、研究、AI。当前自动摘要只能确认它具备社区关注度和主题相关性，正式通过前需要基于原文补充更完整的中文解读。\n**如何论证**：Hugging Face Papers 2026-W25 周榜入选论文。\n**审核重点**：请重点判断它是否有清晰问题定义、明确方法、可复核实验结果、开源代码或高质量机构/作者信号；如果这些信息不足，应先暂不通过或拒绝。",
+      "takeaways": [],
+      "tags": [
+        "多模态",
+        "研究",
+        "AI"
+      ],
+      "score": 35,
+      "selectionReason": "Hugging Face 周榜候选，排名第 1，主题信号：多模态、研究、AI，质量分 35。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "huggingface-co-papers-2606-18023",
+      "category": "papers",
+      "titleZh": "LoopCoder-v2: Only Loop Once for Efficient Test-Time Computation Scaling",
+      "title": "LoopCoder-v2: Only Loop Once for Efficient Test-Time Computation Scaling",
+      "source": "Hugging Face Weekly Papers",
+      "url": "https://huggingface.co/papers/2606.18023",
+      "publishedAt": "",
+      "selectedAt": "2026-06-18",
+      "summaryZh": "**核心结论**：这篇论文是 Hugging Face Weekly Papers 的高热候选，周榜排名第 2，主题集中在 开源、研究、AI。当前自动摘要只能确认它具备社区关注度和主题相关性，正式通过前需要基于原文补充更完整的中文解读。\n**如何论证**：Hugging Face Papers 2026-W25 周榜入选论文。\n**审核重点**：请重点判断它是否有清晰问题定义、明确方法、可复核实验结果、开源代码或高质量机构/作者信号；如果这些信息不足，应先暂不通过或拒绝。",
+      "takeaways": [],
+      "tags": [
+        "开源",
+        "研究",
+        "AI"
+      ],
+      "score": 33,
+      "selectionReason": "Hugging Face 周榜候选，排名第 2，主题信号：开源、研究、AI，质量分 33。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "huggingface-co-papers-2606-16140",
+      "category": "papers",
+      "titleZh": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models",
+      "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models",
+      "source": "Hugging Face Weekly Papers",
+      "url": "https://huggingface.co/papers/2606.16140",
+      "publishedAt": "",
+      "selectedAt": "2026-06-18",
+      "summaryZh": "**核心结论**：这篇论文是 Hugging Face Weekly Papers 的高热候选，周榜排名第 7，主题集中在 LLM、推理、研究、AI。当前自动摘要只能确认它具备社区关注度和主题相关性，正式通过前需要基于原文补充更完整的中文解读。\n**如何论证**：Hugging Face Papers 2026-W25 周榜入选论文。\n**审核重点**：请重点判断它是否有清晰问题定义、明确方法、可复核实验结果、开源代码或高质量机构/作者信号；如果这些信息不足，应先暂不通过或拒绝。",
+      "takeaways": [],
+      "tags": [
+        "LLM",
+        "推理",
+        "研究",
+        "AI"
+      ],
+      "score": 33,
+      "selectionReason": "Hugging Face 周榜候选，排名第 7，主题信号：LLM、推理、研究、AI，质量分 33。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "blogs-nvidia-com-blog-cvpr-physical-ai-research-agent-skills",
+      "category": "blogs",
+      "titleZh": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+      "title": "NVIDIA Enables the Next Era Of Physical AI Research With Agent Skills For Autonomous Vehicles, Robotics And Vision AI",
+      "source": "NVIDIA AI Blog",
+      "url": "https://blogs.nvidia.com/blog/cvpr-physical-ai-research-agent-skills/",
+      "publishedAt": "2026-06-03",
+      "selectedAt": "2026-06-18",
+      "duration": "",
+      "summaryZh": "**核心内容**：这篇文章来自 NVIDIA AI Blog，主题与 Agent、评测、RAG、研究 相关。它进入候选池是因为来源、标题和摘要显示出一定的长期阅读价值。\n**展开方式**：At CVPR, NVIDIA is unveiling new physical AI agent skills that help researchers and developers speed the development of autonomous vehicles, robots and vision AI systems. The core challenge in physical AI research isn’t simply developing stronger models. It’s \n**审核重点**：请重点判断文章是否讲清了具体问题、方法路径、案例细节、工程取舍或研究证据；如果只是普通发布、活动通知、浅层宣传或二手转述，不应通过。",
+      "takeaways": [],
+      "tags": [
+        "Agent",
+        "评测",
+        "RAG",
+        "研究"
+      ],
+      "score": 37,
+      "selectionReason": "博客候选来自 NVIDIA AI Blog，主题信号：Agent、评测、RAG、研究，质量分 37；需要人工确认是否属于长期可回看的技术解释、工程复盘、研究解读或实践案例。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "simonwillison-net-2026-jun-11-anthropic-walks-back-policy",
+      "category": "blogs",
+      "titleZh": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
+      "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
+      "source": "Simon Willison",
+      "url": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
+      "publishedAt": "2026-06-11",
+      "selectedAt": "2026-06-18",
+      "duration": "",
+      "summaryZh": "**核心内容**：这篇文章来自 Simon Willison，主题与 LLM、RAG、研究 相关。它进入候选池是因为来源、标题和摘要显示出一定的长期阅读价值。\n**展开方式**：Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude Big scoop for Maxwell Zeff at Wired: “We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made t\n**审核重点**：请重点判断文章是否讲清了具体问题、方法路径、案例细节、工程取舍或研究证据；如果只是普通发布、活动通知、浅层宣传或二手转述，不应通过。",
+      "takeaways": [],
+      "tags": [
+        "LLM",
+        "RAG",
+        "研究"
+      ],
+      "score": 33,
+      "selectionReason": "博客候选来自 Simon Willison，主题信号：LLM、RAG、研究，质量分 33；需要人工确认是否属于长期可回看的技术解释、工程复盘、研究解读或实践案例。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    },
+    {
+      "id": "deepmind-google-blog-opening-new-paths-in-aging-research",
+      "category": "blogs",
+      "titleZh": "Opening new paths in aging research",
+      "title": "Opening new paths in aging research",
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/blog/opening-new-paths-in-aging-research/",
+      "publishedAt": "2026-05-16",
+      "selectedAt": "2026-06-18",
+      "duration": "",
+      "summaryZh": "**核心内容**：这篇文章来自 Google DeepMind Blog，主题与 RAG、研究 相关。它进入候选池是因为来源、标题和摘要显示出一定的长期阅读价值。\n**展开方式**：Calico Life Sciences uses Co-Scientist to connect scattered findings and generate new leads in aging research.\n**审核重点**：请重点判断文章是否讲清了具体问题、方法路径、案例细节、工程取舍或研究证据；如果只是普通发布、活动通知、浅层宣传或二手转述，不应通过。",
+      "takeaways": [],
+      "tags": [
+        "RAG",
+        "研究"
+      ],
+      "score": 31,
+      "selectionReason": "博客候选来自 Google DeepMind Blog，主题信号：RAG、研究，质量分 31；需要人工确认是否属于长期可回看的技术解释、工程复盘、研究解读或实践案例。",
+      "reviewStatus": "pending",
+      "reviewNote": "",
+      "status": "candidate"
+    }
+  ],
+  "podcasts": []
+}
