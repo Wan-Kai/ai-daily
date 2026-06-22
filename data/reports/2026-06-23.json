@@ -1,0 +1,704 @@
+{
+  "date": "2026-06-23",
+  "generatedAt": "2026-06-22T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-23",
+  "stats": {
+    "sources": 135,
+    "fetched": 132,
+    "emailCandidates": 0,
+    "selected": 29,
+    "failures": 3
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "We’re expanding OpenAI Daybreak to help democratize patching vulnerable software at machine speed: ...",
+          "titleZh": "我们正在扩展 OpenAI Daybreak，以帮助以机器速度民主化修补易受攻击的软件： - Codex 安全插件：查找、验证和修复 Codex 内部的漏洞",
+          "link": "https://x.com/OpenAI/status/2069104283824640023",
+          "publishedAt": "Mon, 22 Jun 2026 17:04:38 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "We’re expanding OpenAI Daybreak to help democratize patching vulnerable software at machine speed: - Codex Security plugin: find, validate, and fix vulnerabilities right inside Codex - The full version of GPT-5.5-Cyber model: a great model for trusted defenders - Cyber Partner Program: powering products built on top of our best cyber capabilities for leading security companies to secure the world's software - Patch the Planet: working with maintainers to secure critical open source projects openai.com/index/daybreak… 💬 133 🔄 147 ❤️ 1577 👀 201897 📊 307 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We’re expanding OpenAI Daybreak to help democratize patching vulnerable software at machine speed: - Codex Security plugin: find, validate, and fix vulnerabilities right inside Codex - The full version of GPT-5.5-Cyber model: a great model for trusted defenders - Cyber Partner Program: powering products built on top of our best cyber capabilities for leading security companies to secure the world's software - Patch the Planet: working with maintainers to secure critical open source projects openai.com/index/daybreak… 💬 133 🔄 147 ❤️ 1577 👀 201897 📊 307 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们正在扩展 OpenAI Daybreak，以帮助以机器速度民主化修补易受攻击的软件： - Codex 安全插件：查找、验证和修复 Codex 内部的漏洞 - GPT-5.5-Cyber 模型的完整版本：值得信赖的防御者的绝佳模型 - 网络合作伙伴计划：为领先的安全公司提供基于我们最佳网络功能构建的产品，以确保全球软件的安全 - Patch the Planet：与维护人员合作，确保关键开源项目的安全 openai.com/index/daybreak。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "开源"
+          ],
+          "score": 73
+        },
+        {
+          "title": "We’re also launching the OpenAI Daybreak Cyber Partner Program with leading security software and se...",
+          "titleZh": "我们还与领先的安全软件和服务提供商启动了 OpenAI Daybreak 网络合作伙伴计",
+          "link": "https://x.com/OpenAI/status/2069104290065776881",
+          "publishedAt": "Mon, 22 Jun 2026 17:04:39 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "We’re also launching the OpenAI Daybreak Cyber Partner Program with leading security software and services providers. Participating partners can use GPT‑5.5 with Trusted Access for Cyber in the security products and services they provide to customers. This allows their customers to benefit from the model’s defensive capabilities and make their software more resilient, but keeps direct model access in the hands of participating partners. 💬 4 🔄 7 ❤️ 125 👀 24386 📊 14 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We’re also launching the OpenAI Daybreak Cyber Partner Program with leading security software and services providers. Participating partners can use GPT‑5.5 with Trusted Access for Cyber in the security products and services they provide to customers. This allows their customers to benefit from the model’s defensive capabilities and make their software more resilient, but keeps direct model access in the hands of participating partners. 💬 4 🔄 7 ❤️ 125 👀 24386 📊 14 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们还与领先的安全软件和服务提供商启动了 OpenAI Daybreak 网络合作伙伴计划。参与合作伙伴可以在向客户提供的安全产品和服务中使用 GPT-5.5 和 Trusted Access for Cyber​​。这使他们的客户能够从模型的防御能力中受益，并使他们的软件更具弹性，但仍将直接模型访问权保留在参与合作伙伴的手中。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型"
+          ],
+          "score": 67.48736972619923
+        },
+        {
+          "title": "Introducing Ads Engine in @ElevenCreative. Connect your Google, Meta, and LinkedIn ad accounts. Loc...",
+          "titleZh": "在 @ElevenCreative 中引入广告引擎",
+          "link": "https://x.com/ElevenLabs/status/2069111326987673761",
+          "publishedAt": "Mon, 22 Jun 2026 17:32:37 GMT",
+          "source": "ElevenLabs(@elevenlabsio)",
+          "sourceType": "social",
+          "description": "Introducing Ads Engine in @ElevenCreative . Connect your Google, Meta, and LinkedIn ad accounts. Localize your existing ads across 50+ languages and push the finished creatives back to your ad platform. Your browser does not support the video tag. 🔗 View on Twitter 💬 5 🔄 9 ❤️ 71 👀 13965 📊 18 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Introducing Ads Engine in @ElevenCreative . Connect your Google, Meta, and LinkedIn ad accounts. Localize your existing ads across 50+ languages and push the finished creatives back to your ad platform. Your browser does not support the video tag. 🔗 View on Twitter 💬 5 🔄 9 ❤️ 71 👀 13965 📊 18 ⚡ Powered by xgo.ing",
+          "summaryZh": "在 @ElevenCreative 中引入广告引擎。连接您的 Google、Meta 和 LinkedIn 广告帐户。将您现有的广告本地化为 50 多种语言，并将完成的创意推送回您的广告平台。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62.425089292666215
+        },
+        {
+          "title": "Good governance is not about slowing teams down. It’s about making fast iteration possible without l...",
+          "titleZh": "LangChain 预告 6 月 24 日直播：如何用治理机制把智能体实验变成可重复的生产实践",
+          "link": "https://x.com/LangChain/status/2069103577511940408",
+          "publishedAt": "Mon, 22 Jun 2026 17:01:49 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": "Good governance is not about slowing teams down. It’s about making fast iteration possible without losing visibility, control, or consistency. events.langchain.com/webinar/the-ag… Join @hwchase17 on June 24 and learn how teams are moving from agent experimentation to a repeatable production practice. 💬 3 🔄 0 ❤️ 9 👀 898 📊 3 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLbuvNKXAAAYDvZ.jpg",
+          "video": "",
+          "summary": "Good governance is not about slowing teams down. It’s about making fast iteration possible without losing visibility, control, or consistency. events.langchain.com/webinar/the-ag… Join @hwchase17 on June 24 and learn how teams are moving from agent experimentation to a repeatable production practice. 💬 3 🔄 0 ❤️ 9 👀 898 📊 3 ⚡ Powered by xgo.ing",
+          "summaryZh": "LangChain 预告将在 **6 月 24 日** 举办一场关于 **AI 治理与生产落地** 的直播。核心信息不是“放慢团队速度”，而是在 **不牺牲可见性、控制力和一致性** 的前提下，让团队继续保持快速迭代。直播将由 **@hwchase17** 参与，重点讨论企业团队如何把零散的 **智能体实验** 变成一套 **可重复、可规模化的生产实践**。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 48.03269952892781
+        },
+        {
+          "title": "Today we are shipping the Interactions API into GA, our new API designed to let you orchestrate acro...",
+          "titleZh": "今天，我们将交互 API 交付到 GA 中，我们的新 API 旨在让您编排杂技",
+          "link": "https://x.com/OfficialLoganK/status/2069115284519346263",
+          "publishedAt": "Mon, 22 Jun 2026 17:48:20 GMT",
+          "source": "Logan Kilpatrick(@OfficialLoganK)",
+          "sourceType": "social",
+          "description": "Today we are shipping the Interactions API into GA, our new API designed to let you orchestrate across models and agents in the same interface, and is our new default API going forward. Interactions sets the stage for the new era of Agents : ) x.com/GoogleAIStudio… Google AI Studio @GoogleAIStudio x.com/i/article/2069… 🔗 View Quoted Tweet 💬 21 🔄 11 ❤️ 148 👀 11250 📊 30 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Today we are shipping the Interactions API into GA, our new API designed to let you orchestrate across models and agents in the same interface, and is our new default API going forward. Interactions sets the stage for the new era of Agents : ) x.com/GoogleAIStudio… Google AI Studio @GoogleAIStudio x.com/i/article/2069… 🔗 View Quoted Tweet 💬 21 🔄 11 ❤️ 148 👀 11250 📊 30 ⚡ Powered by xgo.ing",
+          "summaryZh": "今天，我们将交互 API 引入 GA，我们的新 API 旨在让您在同一界面中跨模型和代理进行编排，并且是我们未来新的默认 API。交互为代理的新时代奠定了基础:) x.com/GoogleAIStudio… Google AI Studio x.com/i/article/2069… 查看引用的推文",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体"
+          ],
+          "score": 45.2703169335951
+        },
+        {
+          "title": "We're accelerating patching, in addition to vuln finding, with new tools and models in OpenAI Daybre...",
+          "titleZh": "除了漏洞查找之外，我们还利用 OpenAI Daybre 中的新工具和模型来加速修补",
+          "link": "https://x.com/gdb/status/2069112120206332130",
+          "publishedAt": "Mon, 22 Jun 2026 17:35:46 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "description": "We're accelerating patching, in addition to vuln finding, with new tools and models in OpenAI Daybreak. Our models are now discovering and generating patches for critical vulns in major browsers, network infrastructure, and operating systems (such as FreeBSD and the Linux kernel), and patching projects like cURL, Go, Python, Sigstore, and pyca/cryptography. Working together with partners and the ecosystem to help secure the world's software: OpenAI @OpenAI We’re expanding OpenAI Daybreak to help democratize patching vulnerable software at machine speed: - Codex Security plugin: find, validate, and fix vulnerabilities right inside Codex - The full version of GPT-5.5-Cyber model: a great model for trusted defenders - Cyber Partner Program: powering products built on top of our best cyber capabilities for leading security companies to secure the world's software - Patch the Planet: working with maintainers to secure critical open source projects openai.com/index/daybreak… 🔗 View Quoted Tweet 💬 0 🔄 2 ❤️ 18 👀 2991 📊 2 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "We're accelerating patching, in addition to vuln finding, with new tools and models in OpenAI Daybreak. Our models are now discovering and generating patches for critical vulns in major browsers, network infrastructure, and operating systems (such as FreeBSD and the Linux kernel), and patching projects like cURL, Go, Python, Sigstore, and pyca/cryptography. Working together with partners and the ecosystem to help secure the world's software: OpenAI @OpenAI We’re expanding OpenAI Daybreak to help democratize patc...",
+          "summaryZh": "除了漏洞查找之外，我们还利用 OpenAI Daybreak 中的新工具和模型来加速修补。我们的模型现在正在为主要浏览器、网络基础设施和操作系统（例如 FreeBSD 和 Linux 内核）中的关键漏洞发现并生成补丁，并修补 cURL、Go、Python、Sigstore 和 pyca/cryptography 等项目。与合作伙伴和生态系统合作，帮助保护世界软件的安全：OpenAI 我们正在扩展 OpenAI Daybreak，以帮助实现补丁民主化……",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "开源"
+          ],
+          "score": 43.283199297039275
+        },
+        {
+          "title": "great work by @alihcevik @_philschmid and so many others across Google for making this API and getti...",
+          "titleZh": "和 Google 的许多其他人所做的出色工作，他们制作了这个 API 并让我们为未来做好",
+          "link": "https://x.com/OfficialLoganK/status/2069115858782507021",
+          "publishedAt": "Mon, 22 Jun 2026 17:50:37 GMT",
+          "source": "Logan Kilpatrick(@OfficialLoganK)",
+          "sourceType": "social",
+          "description": "great work by @alihcevik @_philschmid and so many others across Google for making this API and getting us setup for the future! 💬 1 🔄 0 ❤️ 7 👀 1575 📊 2 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "great work by @alihcevik @_philschmid and so many others across Google for making this API and getting us setup for the future! 💬 1 🔄 0 ❤️ 7 👀 1575 📊 2 ⚡ Powered by xgo.ing",
+          "summaryZh": "和 Google 的许多其他人所做的出色工作，他们制作了这个 API 并让我们为未来做好准备！。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "API"
+          ],
+          "score": 28.709724263362062
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "WorldLines: Benchmarking and Modeling Long-Horizon Stateful Embodied Agents",
+          "titleZh": "WorldLines：长期状态实体代理的基准测试和建模",
+          "link": "https://huggingface.co/papers/2606.18847",
+          "publishedAt": "2026-06-22T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Hugging Face Papers 2026-06-23 排名第 6 的论文候选。",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.18847/gradient.png",
+          "video": "",
+          "summary": "Hugging Face Papers 2026-06-23 排名第 6 的论文候选。",
+          "summaryZh": "**核心结论** 这篇论文想解决的是：**实体智能体** 在真实家庭里需要长期记住 **用户习惯、世界状态变化和过往交互**，但现有基准往往要么只测语言检索问答，要么只测短周期任务执行，缺少对“长期记忆如何影响行动决策”的系统评估。作者提出 **WorldLines**，把长期家庭辅助任务拆成带时间跨度的对话、动作、执行反馈、物体与设备状态变化，再转成可评测的 **Memory QA** 和 **Embodied Task Planning** 样本；同时给出一个名为 **ObsMem** 的记忆框架，用于维护“看见过什么、状态怎么变过”的可追踪记忆。 **支撑证据** 按论文摘要，WorldLines 构造的是 **长期、动态、部分可观测** 的家庭环境轨迹，并把证据链直接关联到样本中。实验显示，现有方法在 **部分可观测、世界状态被新事件覆盖、以及把长期记忆转成具身行动计划** 这几类问题上仍然明显吃力；而 **ObsMem** 在这些场景里提供了更强的参考架构。 **我的判断** 这类工作对 **家庭机器人、陪伴型智能体和长期 Agent 评测** 都很关键，因为行业当前更缺少的是能在长期环境里记住状态、持续做对事的评测框架。后续值得关注它的任务复杂度、真实家庭迁移效果，以及是否会开放更完整的数据和基线实现。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "评测",
+            "论文"
+          ],
+          "score": 40
+        },
+        {
+          "title": "Multi-Turn Reflective Masking Elicits Reasoning in Mask Diffusion Models",
+          "titleZh": "多圈反射掩模在掩模扩散模型中引发推理",
+          "link": "https://huggingface.co/papers/2606.16700",
+          "publishedAt": "2026-06-22T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Paper page - Multi-Turn Reflective Masking Elicits Reasoning in Mask Diffusion Models Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up What is the native form of reasoning for Mask Diffusion Models (LLaDa, DiffusionGemma, etc.)? \\n For aut",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.16700/gradient.png",
+          "video": "",
+          "summary": "Paper page - Multi-Turn Reflective Masking Elicits Reasoning in Mask Diffusion Models Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up What is the native form of reasoning for Mask Diffusion Models (LLaDa, DiffusionGemma, etc.)? \\n For aut",
+          "summaryZh": "**核心结论** 这篇论文讨论的是：**掩模扩散模型** 能不能像人一样，先给出一个答案，再只改错的局部，而不是每次都从头重写。作者认为，自回归模型常见的 **链式思考** 和 **反思修正** 依赖顺序生成，不适合高效做局部返工；而掩模扩散模型天然支持“只改一部分”的编辑，因此提出 **Reflective Masking（RM）**，让模型通过多轮掩模与去噪，逐步回看并修正先前输出，从而激发出更强的推理能力。 **支撑证据** 按论文摘要，RM 只需要 **轻量后训练**，**不改模型架构**，还能配合一个无参数的 **History Reference** 机制，把前几轮中间状态拿来辅助后续修正。作者在 **文本生成、数独、图像编辑** 等多种任务和模态上做了实验，结果显示 RM 持续优于标准掩模式基线，并体现出较好的通用性。 **我的判断** 这条线值得关注，因为它提供了一种不同于自回归 CoT 的 **测试时扩展** 思路，特别适合需要反复局部修订的任务。真正要看的是，它在更大模型和更复杂推理场景下能否继续保持优势，以及推理成本是否仍然划算。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "推理能力",
+            "论文"
+          ],
+          "score": 38
+        },
+        {
+          "title": "Embed the world: Multimodal AI for searchable aerial imagery at scale",
+          "titleZh": "嵌入世界：多模态人工智能可大规模搜索航空图像",
+          "link": "https://aws.amazon.com/blogs/machine-learning/embed-the-world-multimodal-ai-for-searchable-aerial-imagery-at-scale/",
+          "publishedAt": "Mon, 22 Jun 2026 16:32:15 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, we walk through the problem space, our architecture on Amazon Bedrock and Amazon OpenSearch Serverless, the evaluation methodology we built on OpenStreetMap ground truth, four experiments that compared embedding models, fusion strategies, captioning, and search methods, and the practical guidance you can apply when building a similar system. You’ll learn which design choices move the needle for geospatial semantic search, including why Amazon Nova Multimodal Embeddings delivered the highest F1 scores across both benchmark queries in our evaluation. The work described here evolved into Vexcel Intelligence, a searchable imagery product.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/02/ML-20912-10.png",
+          "video": "",
+          "summary": "In this post, we walk through the problem space, our architecture on Amazon Bedrock and Amazon OpenSearch Serverless, the evaluation methodology we built on OpenStreetMap ground truth, four experiments that compared embedding models, fusion strategies, captioning, and search methods, and the practical guidance you can apply when building a similar system. You’ll learn which design choices move the needle for geospatial semantic search, including why Amazon Nova Multimodal Embeddings delivered the highest F1 scor...",
+          "summaryZh": "**核心要点** 在这篇文章中，我们将介绍问题空间、我们在 Amazon Bedrock 和 Amazon OpenSearch Serverless 上的架构、我们在 OpenStreetMap ground Truth 上构建的评估方法、比较嵌入模型、融合策略、字幕和搜索方法的四个实验，以及构建类似系统时可以应用的实用指南。您将了解哪些设计选择推动了地理空间语义搜索，包括为什么 Amazon Nova Multimodal Embeddings 提供了最高的 F1 分数...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "多模态",
+            "评测",
+            "图像"
+          ],
+          "score": 34
+        },
+        {
+          "title": "sqlite-utils 4.0rc1 adds migrations and nested transactions",
+          "titleZh": "-utils 4.0rc1 添加了迁移和嵌套事务",
+          "link": "https://simonwillison.net/2026/Jun/21/sqlite-utils-40rc1/#atom-everything",
+          "publishedAt": "2026-06-21T23:35:47+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package , including support for complex table transformations , automatic table creation from JSON data and a whole lot more. I released sqlite-utils 4.0rc1 , the first release candidate for sqlite-utils v4. The major version bump indicates some (minor) backwards incompatible changes, so I'm interested in having people try this out before I commit to a stable release. New feature: migrations There are two significant new features in this RC compared to the previous 4.0 alphas. The first is support for database migrations . This isn't a completely new implementation - it's a slightly modified port of the sqlite-migrate package I released a few years ago. I think that package has proved itself over time, so I'm now ready to bundle it with sqlite-utils directly. Here's what a set of migrations in a migrations.py file looks like: from sqlite_utils import Database , Migrations migrations = Migrations ( \"creatures\" ) @ migrations () def create_table ( db ): db [ \"creatures\" ]. create ( { \"id\" : int , \"name\" : str , \"species\" : str }, pk = \"id\" , ) @ migrations () def add_weight ( db ): db [ \"creatures\" ]. add_column ( \"weight\" , float ) This defines a set of two migrations, one creating the creatures table and another adding a column to it. You can then run those migrations either using Python: db = Database ( \"creatures.db\" ) migrations . apply ( db ) Or with the command-line migrate command: sqlite-utils migrate creatures.db migrations.py The system is deliberately small: it doesn't provide reverse migrations, so any mistakes you make should be fixed by deploying a fresh migration to undo them. Its predecessor has been used by LLM and various other projects for several years, so I'm confident that the design is stable and works well. The new migrations feature is documented here . New feature: db.atomic() transactions This feature is a lot less exercised than migrations, so it deserves more attention from testers. Previously, sqlite-utils mostly left transaction management up to its users, via a with db.conn: construct that reused the sqlite3 mechanism directly. SQLite supports nested transactions in the form of savepoints, so I wanted an abstraction that could make those as easy to use as possible. I borrowed the terminology \"atomic\" from Django and Peewee. Here's what the new API looks like: with db . atomic (): db . table ( \"dogs\" ). insert ({ \"id\" : 1 , \"name\" : \"Cleo\" }, pk = \"id\" ) try : with db . atomic (): db . table ( \"dogs\" ). insert ({ \"id\" : 2 , \"name\" : \"Pancakes\" }) raise ValueError ( \"skip this one\" ) except ValueError : pass db . table ( \"dogs\" ). insert ({ \"id\" : 3 , \"name\" : \"Marnie\" }) More details in the documentation . Backwards incompatible changes The backwards incompatible changes in v4 were described in the alpha release notes. For 4.0a0 : Upsert operations now use SQLite's INSERT ... ON CONFLICT SET syntax on all SQLite versions later than 3.23.1. This is a very slight breaking change for apps that depend on the previous INSERT OR IGNORE followed by UPDATE behavior. ( #652 ) Python library users can opt-in to the previous implementation by passing use_old_upsert=True to the Database() constructor, see Alternative upserts using INSERT OR IGNORE . Dropped support for Python 3.8, added support for Python 3.13. ( #646 ) sqlite-utils tui is now provided by the sqlite-utils-tui plugin. ( #648 ) Test suite now also runs against SQLite 3.23.1, the last version (from 2018-04-10) before the new INSERT ... ON CONFLICT SET syntax was added. ( #654 ) And for 4.0a1 : Breaking change : The db.table(table_name) method now only works with tables. To access a SQL view use db.view(view_name) instead. ( #657 ) The table.insert_all() and table.upsert_all() methods can now accept an iterator of lists or tuples as an alternative to dictionaries. The first item should be a list/tuple of column names. See Inserting data from a list or tuple iterator for details. ( #672 ) Breaking change : The default floating point column type has been changed from FLOAT to REAL , which is the correct SQLite type for floating point values. This affects auto-detected columns when inserting data. ( #645 ) Now uses pyproject.toml in place of setup.py for packaging. ( #675 ) Tables in the Python API now do a much better job of remembering the primary key and other schema details from when they were first created. ( #655 ) Breaking change : The table.convert() and sqlite-utils convert mechanisms no longer skip values that evaluate to False . Previously the --skip-false option was needed, this has been removed. ( #542 ) Breaking change : Tables created by this library now wrap table and column names in \"double-quotes\" in the schema. Previously they would use [square-braces] . ( #677 ) The --functions CLI argument now accepts a path to a Python file in addition to accepting a string full of Python code. It can also now be specified multiple times. ( #659 ) Breaking change: Type detection is now the default behavior for the insert and upsert CLI commands when importing CSV or TSV data. Previously all columns were treated as TEXT unless the --detect-types flag was passed. Use the new --no-detect-types flag to restore the old behavior. The SQLITE_UTILS_DETECT_TYPES environment variable has been removed. ( #679 ) Try it out You can install the new RC like this: pip install sqlite-utils==4.0rc1 Or try the CLI version directly with uvx like this: uvx --with sqlite-utils==4.0rc1 sqlite-utils --help Come chat with us about it in the sqlite-utils Discord channel , or file any bugs in GitHub Issues . Tags: migrations , projects , sqlite , sqlite-utils , annotated-release-notes",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "sqlite-utils is my combined Python library and CLI tool for working with SQLite databases. It provides an extensive set of higher-level operations on top of Python's default sqlite3 package , including support for complex table transformations , automatic table creation from JSON data and a whole lot more. I released sqlite-utils 4.0rc1 , the first release candidate for sqlite-utils v4. The major version bump indicates some (minor) backwards incompatible changes, so I'm interested in having people try this out b...",
+          "summaryZh": "**核心要点** sqlite-utils 是我的组合 Python 库和 CLI 工具，用于处理 SQLite 数据库。它在 Python 默认的 sqlite3 包之上提供了一组广泛的高级操作，包括对复杂表转换的支持、从 JSON 数据自动创建表等等。我发布了 sqlite-utils 4.0rc1，这是 sqlite-utils v4 的第一个候选版本。主要版本的提升表明了一些（次要的）向后不兼容的更改，所以我有兴趣让人们尝试一下......",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "API",
+            "开源"
+          ],
+          "score": 33
+        },
+        {
+          "title": "Building pay-per-intelligence for AI agents: How Ampersend uses Amazon Bedrock AgentCore Payments",
+          "titleZh": "为 AI 代理构建按智能付费的模式：Ampersend 如何使用 Amazon Bedrock AgentCore Payments",
+          "link": "https://aws.amazon.com/blogs/machine-learning/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments/",
+          "publishedAt": "Mon, 22 Jun 2026 17:53:40 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, you will learn how Ampersend built a pay-per-intelligence routing layer on top of Amazon Bedrock AgentCore Payments. AI agents autonomously route tasks to the most effective model, pay per request, and operate within spending budgets. You will also see how the two-hop payment pattern works end-to-end and how to get started with your own implementation.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/18/ML-21061.png",
+          "video": "",
+          "summary": "In this post, you will learn how Ampersend built a pay-per-intelligence routing layer on top of Amazon Bedrock AgentCore Payments. AI agents autonomously route tasks to the most effective model, pay per request, and operate within spending budgets. You will also see how the two-hop payment pattern works end-to-end and how to get started with your own implementation.",
+          "summaryZh": "**核心要点** 在本文中，您将了解 Ampersend 如何在 Amazon Bedrock AgentCore Payments 之上构建按情报付费的路由层。人工智能代理自动将任务路由到最有效的模型，按请求付费，并在支出预算内运行。您还将了解两跳支付模式如何端到端工作以及如何开始您自己的实施。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "sqlite-utils 4.0rc1",
+          "titleZh": "发布：sqlite-utils 4.0rc1 Simon Willison 的博客 订阅 赞助商：Microsoft — Agent 项目在演示和生产之间陷入停",
+          "link": "https://simonwillison.net/2026/Jun/21/sqlite-utils/#atom-everything",
+          "publishedAt": "2026-06-21T23:30:04+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Release: sqlite-utils 4.0rc1 Simon Willison’s Weblog Subscribe Sponsored by: Microsoft &mdash; Agent projects stall between demo and production. Microsoft's MVP checklist closes that gap. Try it 21st June 2026 Release sqlite-utils 4.0rc1 &mdash; Python CLI utility and library for manipulating SQLite databases See sqlite-utils 4.0rc1 adds migrations and nested transactions . Posted 21st June 2026 at 11:30 pm Recent articles sqlite-utils 4.0rc1 adds migrations and nested transactions - 21st June 2026 Datasette Apps: ",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Release: sqlite-utils 4.0rc1 Simon Willison’s Weblog Subscribe Sponsored by: Microsoft &mdash; Agent projects stall between demo and production. Microsoft's MVP checklist closes that gap. Try it 21st June 2026 Release sqlite-utils 4.0rc1 &mdash; Python CLI utility and library for manipulating SQLite databases See sqlite-utils 4.0rc1 adds migrations and nested transactions . Posted 21st June 2026 at 11:30 pm Recent articles sqlite-utils 4.0rc1 adds migrations and nested transactions - 21st June 2026 Datasette Apps: ",
+          "summaryZh": "发布：sqlite-utils 4.0rc1 Simon Willison 的博客 订阅 赞助商：Microsoft — Agent 项目在演示和生产之间陷入停滞。 Microsoft 的 MVP 检查表弥补了这一差距。尝试一下 2026 年 6 月 21 日发布 sqlite-utils 4.0rc1 — 用于操作 SQLite 数据库的 Python CLI 实用程序和库 请参阅 sqlite-utils 4.0rc1 添加迁移和嵌套事务。发布于 2026 年 6 月 21 日晚上 11:30 最近的文章 sqlite-utils 4.0rc1 添加了迁移和嵌套事务 - 2026 年 6 月 21 日 Datasette 应用：（要点：发布：sqlite-utils 4.0rc1 Simon Willison 的博客 订阅 赞助商：Microsoft — Agent 项目在演示和生产之间陷入停。）",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布"
+          ],
+          "score": 27
+        },
+        {
+          "title": "Temporary Cloudflare Accounts for AI agents",
+          "titleZh": "AI 代理的临时 Cloudflare 帐户",
+          "link": "https://simonwillison.net/2026/Jun/21/temporary-cloudflare-accounts/#atom-everything",
+          "publishedAt": "2026-06-21T22:01:04+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Temporary Cloudflare Accounts for AI agents The announcement says this is \"for AI agents\" but (as is pretty common these days) the AI hook isn't really necessary, this is an interesting feature for everyone else as well. Short version: you can now create a Cloudflare Workers project and run this, without even creating a Cloudflare account: npx wrangler deploy --temporary Cloudflare will deploy the application to a new, ephemeral project which will stay live for 60 minutes. I had GPT-5.5 xhigh in Codex Desktop build this test application providing a tool for following HTTP redirects and returning the final destination. The temporary deployment worked as advertised. Running the deployment spits out the URL to a page for claiming the new project, for if you want it to last for more than 60 minutes. Here's what that claim screen looks like: Via Hacker News Tags: cloudflare",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://static.simonwillison.net/static/2026/cloudflare-claim.jpg",
+          "video": "",
+          "summary": "Temporary Cloudflare Accounts for AI agents The announcement says this is \"for AI agents\" but (as is pretty common these days) the AI hook isn't really necessary, this is an interesting feature for everyone else as well. Short version: you can now create a Cloudflare Workers project and run this, without even creating a Cloudflare account: npx wrangler deploy --temporary Cloudflare will deploy the application to a new, ephemeral project which will stay live for 60 minutes. I had GPT-5.5 xhigh in Codex Desktop bu...",
+          "summaryZh": "**核心要点** 用于 AI 代理的临时 Cloudflare 帐户 该公告称这是“用于 AI 代理”，但（如今很常见）AI 挂钩并不是真正必要的，这对于其他人来说也是一个有趣的功能。简短版本：您现在可以创建一个 Cloudflare Workers 项目并运行该项目，甚至无需创建 Cloudflare 帐户： npx wrangler deploy --temporary Cloudflare 会将应用部署到一个新的临时项目，该项目将持续运行 60 分钟。我在 Codex Desktop 中有 GPT-5.5 xhigh...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        },
+        {
+          "title": "Running ComfyUI workflows on Amazon SageMaker AI processing jobs",
+          "titleZh": "在 Amazon SageMaker AI 处理作业上运行 ComfyUI 工作流程",
+          "link": "https://aws.amazon.com/blogs/machine-learning/running-comfyui-workflows-on-amazon-sagemaker-ai-processing-jobs/",
+          "publishedAt": "Mon, 22 Jun 2026 16:28:46 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, we walk you through how to deploy ComfyUI workflows on Amazon SageMaker AI processing jobs to generate hundreds of high-quality images in a single batch. You learn how to set up the infrastructure using AWS Cloud Development Kit (AWS CDK), configure GPU-accelerated processing, and automate image generation at scale. You can then adapt this solution to your ComfyUI workflows specific to your needs. We will guide you through a practical, step-by-step process to automate ComfyUI workflows to generate hundreds of high-quality images in a single batch empowering you to scale your creative pipeline.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/22/ml-19966.png",
+          "video": "",
+          "summary": "In this post, we walk you through how to deploy ComfyUI workflows on Amazon SageMaker AI processing jobs to generate hundreds of high-quality images in a single batch. You learn how to set up the infrastructure using AWS Cloud Development Kit (AWS CDK), configure GPU-accelerated processing, and automate image generation at scale. You can then adapt this solution to your ComfyUI workflows specific to your needs. We will guide you through a practical, step-by-step process to automate ComfyUI workflows to generate...",
+          "summaryZh": "**核心要点** 在这篇文章中，我们将引导您了解如何在 Amazon SageMaker AI 处理作业上部署 ComfyUI 工作流程，以在单个批次中生成数百张高质量图像。您将了解如何使用 AWS 云开发套件 (AWS CDK) 设置基础设施、配置 GPU 加速处理以及大规模自动生成图像。然后，您可以根据您的具体需求调整此解决方案以适应您的 ComfyUI 工作流程。我们将指导您完成一个实用的分步过程，以自动化 ComfyUI 工作流程来生成...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "图像"
+          ],
+          "score": 26
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "Attu used to feel like a lightweight console for one Milvus instance. 𝗔𝘁𝘁𝘂 𝟯.𝟬 𝗕𝗲𝘁𝗮 𝗶𝘀 ...",
+          "titleZh": "Attu 过去感觉就像是一个 Milvus 实例的轻量级控制台",
+          "link": "https://x.com/milvusio/status/2069080474002006085",
+          "publishedAt": "Mon, 22 Jun 2026 15:30:01 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "description": "Attu used to feel like a lightweight console for one Milvus instance. 𝗔𝘁𝘁𝘂 𝟯.𝟬 𝗕𝗲𝘁𝗮 𝗶𝘀 𝗯𝗲𝗰𝗼𝗺𝗶𝗻𝗴 𝗮𝗻 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝘀 𝗰𝗼𝗻𝘀𝗼𝗹𝗲 𝗳𝗼𝗿 𝗺𝘂𝗹𝘁𝗶-𝗰𝗹𝘂𝘀𝘁𝗲𝗿 𝗠𝗶𝗹𝘃𝘂𝘀 𝘄𝗼𝗿𝗸. 𝗢𝗻𝗲 𝗰𝗵𝗮𝗻𝗴𝗲 𝗺𝗮𝗸𝗲𝘀 𝘁𝗵𝗮𝘁 𝗽𝗿𝗮𝗰𝘁𝗶𝗰𝗮𝗹: 𝗹𝗼𝗰𝗮𝗹 𝘀𝘁𝗮𝘁𝗲 𝗻𝗼𝘄 𝘀𝘂𝗿𝘃𝗶𝘃𝗲𝘀 𝗿𝗲𝘀𝘁𝗮𝗿𝘁𝘀. In 2.x, Attu was stateless. Restart the container, and your saved connections were gone. You rebuilt the workspace from scratch. 𝗜𝗻 𝟯.𝟬, 𝗔𝘁𝘁𝘂 𝘀𝘁𝗼𝗿𝗲𝘀 𝗹𝗼𝗰𝗮𝗹 𝘀𝘁𝗮𝘁𝗲 𝗶𝗻 𝗮 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲, 𝗶𝗻𝗰𝗹𝘂𝗱𝗶𝗻𝗴:• cluster configs • agent conversation history • custom skills • LLM config 𝗠𝗼𝘂𝗻𝘁 𝗼𝗻𝗲 𝗗𝗼𝗰𝗸𝗲𝗿 𝘃𝗼𝗹𝘂𝗺𝗲: -𝘃 𝗮𝘁𝘁𝘂-𝗱𝗮𝘁𝗮:/𝗱𝗮𝘁𝗮 𝗮𝗻𝗱 𝘆𝗼𝘂𝗿 𝘄𝗼𝗿𝗸𝘀𝗽𝗮𝗰𝗲 𝗰𝗮𝗻 𝗻𝗼𝘄 𝗰𝗮𝗿𝗿𝘆 𝗼𝘃𝗲𝗿 𝗯𝗲𝘁𝘄𝗲𝗲𝗻 𝘀𝗲𝘀𝘀𝗶𝗼𝗻𝘀, 𝘀𝘂𝗿𝘃𝗶𝘃𝗶𝗻𝗴 𝗰𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿 𝗿𝗲𝘀𝘁𝗮𝗿𝘁𝘀. It turns Attu from something you open and close into somethi milvus.io/blog/attu-3-0-… text as you work. It means you can configure your LLM provider once, build a pre-launch checklist as a reusable agent skill, and pick up a diagnostic conversation days later without re-explaining the problem. 𝗙𝘂𝗹𝗹 𝗯𝗿𝗲𝗮𝗸𝗱𝗼𝘄𝗻 𝗼𝗻 𝘁𝗵𝗲 𝗠𝗶𝗹𝘃𝘂𝘀 𝗯𝗹𝗼𝗴: https://t.co/oFAc2cIyFx 💬 0 🔄 0 ❤️ 0 👀 86 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-23-2069080474002006085.mp4",
+          "summary": "Attu used to feel like a lightweight console for one Milvus instance. 𝗔𝘁𝘁𝘂 𝟯.𝟬 𝗕𝗲𝘁𝗮 𝗶𝘀 𝗯𝗲𝗰𝗼𝗺𝗶𝗻𝗴 𝗮𝗻 𝗼𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝘀 𝗰𝗼𝗻𝘀𝗼𝗹𝗲 𝗳𝗼𝗿 𝗺𝘂𝗹𝘁𝗶-𝗰𝗹𝘂𝘀𝘁𝗲𝗿 𝗠𝗶𝗹𝘃𝘂𝘀 𝘄𝗼𝗿𝗸. 𝗢𝗻𝗲 𝗰𝗵𝗮𝗻𝗴𝗲 𝗺𝗮𝗸𝗲𝘀 𝘁𝗵𝗮𝘁 𝗽𝗿𝗮𝗰𝘁𝗶𝗰𝗮𝗹: 𝗹𝗼𝗰𝗮𝗹 𝘀𝘁𝗮𝘁𝗲 𝗻𝗼𝘄 𝘀𝘂𝗿𝘃𝗶𝘃𝗲𝘀 𝗿𝗲𝘀𝘁𝗮𝗿𝘁𝘀. In 2.x, Attu was stateless. Restart the container, and your saved connections were gone. You rebuilt the workspace from scratch. 𝗜𝗻 𝟯.𝟬, 𝗔𝘁𝘁𝘂 𝘀𝘁𝗼𝗿𝗲𝘀 𝗹𝗼𝗰𝗮𝗹 𝘀𝘁𝗮𝘁𝗲 𝗶𝗻 𝗮 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲, 𝗶𝗻𝗰𝗹𝘂𝗱𝗶𝗻𝗴:• cluster configs • agent conversation history • custom skills • LLM config 𝗠𝗼𝘂𝗻𝘁 𝗼𝗻𝗲 𝗗𝗼𝗰𝗸𝗲𝗿 𝘃𝗼𝗹𝘂𝗺𝗲: -𝘃 𝗮𝘁𝘁𝘂-𝗱𝗮𝘁𝗮:/𝗱𝗮𝘁𝗮 𝗮𝗻𝗱 𝘆𝗼𝘂𝗿 𝘄𝗼𝗿𝗸𝘀𝗽𝗮𝗰𝗲 𝗰𝗮𝗻 𝗻𝗼𝘄 𝗰𝗮𝗿𝗿𝘆 𝗼𝘃𝗲𝗿 𝗯𝗲𝘁𝘄𝗲𝗲𝗻 𝘀𝗲𝘀𝘀𝗶𝗼𝗻𝘀, 𝘀𝘂𝗿𝘃𝗶𝘃𝗶𝗻𝗴 𝗰𝗼𝗻𝘁𝗮𝗶𝗻𝗲𝗿 𝗿𝗲𝘀𝘁𝗮𝗿𝘁𝘀. It turns Attu from...",
+          "summaryZh": "Attu 过去感觉就像是一个 Milvus 实例的轻量级控制台。 - . :。在 2.x 中，Attu 是无状态的。重新启动容器，您保存的连接就消失了。您从头开始重建了工作区。 ., , :• 集群配置• 代理对话历史记录• 自定义技能• LLM 配置: - -:/ , .它使阿图从...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "智能体"
+          ],
+          "score": 53.90927887892793
+        },
+        {
+          "title": "heygen-com/hyperframes",
+          "titleZh": "heygen-com/hyperframes：编写 HTML。渲染视频",
+          "link": "https://github.com/heygen-com/hyperframes",
+          "publishedAt": "2026-06-22T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Write HTML. Render video. Built for agents. Quickstart | Showcase | Playground | Catalog | Docs | Discord HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. Quick Start With an AI coding agent Install the HyperFrames skills, then describe the video you want: npx skills add heygen-com/hyperframes Try a prompt like: Using ",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/2e775a83970e0a1088320d205bd2668fcf18e33e9ff83eabacfec16cb3e3e962/heygen-com/hyperframes",
+          "video": "",
+          "summary": "Write HTML. Render video. Built for agents. Quickstart | Showcase | Playground | Catalog | Docs | Discord HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows. Quick Start With an AI coding agent Install the HyperFrames skills, then describe the video you want: npx skills add heygen-com/hyperframes Try a prompt like: Using ",
+          "summaryZh": "编写 HTML。渲染视频。专为代理商打造。快速入门 |展示 |游乐场|目录|文档 | Discord HyperFrames 是一个开源框架，用于将 HTML、CSS、媒体和可搜索动画转换为确定性 MP4 视频。通过 CLI 在本地使用它，通过具有技能的 AI 编码代理，或作为托管创作工作流程背后的渲染核心。使用 AI 编码代理快速入门 安装 HyperFrames 技能，然后描述您想要的视频： npx Skills add heygen-com/hyperframes 尝试如下提示： 使用",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 32
+        },
+        {
+          "title": "Stirling-Tools/Stirling-PDF",
+          "titleZh": "Stirling-Tools/Stirling-PDF：Stirling PDF - 开源 PDF 平台",
+          "link": "https://github.com/Stirling-Tools/Stirling-PDF",
+          "publishedAt": "2026-06-22T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Stirling PDF - The Open-Source PDF Platform Stirling PDF is a powerful, open-source PDF editing platform. Run it as a personal desktop app, in the browser, or deploy it on your own servers with a private API. Edit, sign, redact, convert, and automate PDFs without sending documents to external services. Key Capabilities Everywhere you work - Desktop client, browser UI, and self-hosted server with a private API. 50+ PDF tools - Edit, merge, split, sign, redact, convert, OCR, compress, and more. Automation & workflows",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://repository-images.githubusercontent.com/594155488/e847631d-8898-4616-b558-8a9dde7f743a",
+          "video": "",
+          "summary": "Stirling PDF - The Open-Source PDF Platform Stirling PDF is a powerful, open-source PDF editing platform. Run it as a personal desktop app, in the browser, or deploy it on your own servers with a private API. Edit, sign, redact, convert, and automate PDFs without sending documents to external services. Key Capabilities Everywhere you work - Desktop client, browser UI, and self-hosted server with a private API. 50+ PDF tools - Edit, merge, split, sign, redact, convert, OCR, compress, and more. Automation & workflows",
+          "summaryZh": "Stirling PDF - 开源 PDF 平台 Stirling PDF 是一个功能强大的开源 PDF 编辑平台。将其作为个人桌面应用在浏览器中运行，或使用私有 API 将其部署在您自己的服务器上。编辑、签名、编辑、转换和自动化 PDF，无需将文档发送到外部服务。关键功能 无论您在哪里工作 - 桌面客户端、浏览器 UI 以及具有私有 API 的自托管服务器。 50 多个 PDF 工具 - 编辑、合并、拆分、签名、编辑、转换、OCR、压缩等。自动化和工作流程",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "开源"
+          ],
+          "score": 30
+        },
+        {
+          "title": "jamiepine/voicebox",
+          "titleZh": "jamiepine/voicebox：Voicebox 开源人工智能语音工作室。克隆任何声音",
+          "link": "https://github.com/jamiepine/voicebox",
+          "publishedAt": "2026-06-22T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Voicebox The open-source AI voice studio. Clone any voice. Generate speech. Dictate into any app. Talk to agents in voices you own. The full voice I/O stack, running locally on your machine. voicebox.sh • Docs • Download • Features • API • Troubleshooting Click the image above to watch the demo video on voicebox.sh What is Voicebox? Voicebox is a local-first AI voice studio — a free and open-source alternative to ElevenLabs and WisprFlow in one app. Clone voices from a few seconds of audio, generate speech in 23 la",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/jamiepine/voicebox/raw/main/landing/public/assets/app-screenshot-1.webp",
+          "video": "",
+          "summary": "Voicebox The open-source AI voice studio. Clone any voice. Generate speech. Dictate into any app. Talk to agents in voices you own. The full voice I/O stack, running locally on your machine. voicebox.sh • Docs • Download • Features • API • Troubleshooting Click the image above to watch the demo video on voicebox.sh What is Voicebox? Voicebox is a local-first AI voice studio — a free and open-source alternative to ElevenLabs and WisprFlow in one app. Clone voices from a few seconds of audio, generate speech in 23 la",
+          "summaryZh": "Voicebox 开源人工智能语音工作室。克隆任何声音。生成语音。对任何应用进行口述。用您自己的声音与特工交谈。完整的语音 I/O 堆栈，在您的计算机上本地运行。 voicebox.sh • 文档 • 下载 • 功能 • API • 故障排除 单击上图观看 voicebox.sh 上的演示视频 什么是 Voicebox？ Voicebox 是一个本地优先的 AI 语音工作室 - 一个应用中 ElevenLabs 和 WisprFlow 的免费开源替代品。从几秒钟的音频中克隆声音，在 23 秒内生成语音",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "语音"
+          ],
+          "score": 29
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Google DeepMind 🤝 @A24 We’re launching a research partnership with A24 to ensure the tools of the ...",
+          "titleZh": "Google DeepMind 我们正在与 A24 建立研究合作伙伴关系，以确保未来的工具由使用它们的创建者塑造",
+          "link": "https://x.com/GoogleDeepMind/status/2069066675895337405",
+          "publishedAt": "Mon, 22 Jun 2026 14:35:11 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "description": "Google DeepMind 🤝 @A24 We’re launching a research partnership with A24 to ensure the tools of the future are shaped by the creators who use them. Find out more → goo.gle/3QwvgKq S 💬 37 🔄 68 ❤️ 696 👀 60153 📊 112 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLbLluDb0AAK-vO.png",
+          "video": "",
+          "summary": "Google DeepMind 🤝 @A24 We’re launching a research partnership with A24 to ensure the tools of the future are shaped by the creators who use them. Find out more → goo.gle/3QwvgKq S 💬 37 🔄 68 ❤️ 696 👀 60153 📊 112 ⚡ Powered by xgo.ing",
+          "summaryZh": "Google DeepMind 我们正在与 A24 建立研究合作伙伴关系，以确保未来的工具由使用它们的创建者塑造。了解更多 → goo.gle/3QwvgKq S。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布"
+          ],
+          "score": 71.79930965770211
+        },
+        {
+          "title": "Patch the Planet is our effort to help open source maintainers move from security findings to merged...",
+          "titleZh": "OpenAI：Patch the Planet 是我们帮助开源维护人员从安全发现转向合并修复的努力",
+          "link": "https://x.com/OpenAI/status/2069104288417390688",
+          "publishedAt": "Mon, 22 Jun 2026 17:04:39 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "Patch the Planet is our effort to help open source maintainers move from security findings to merged fixes. We’re working with Trail of Bits, HackerOne, Calif, researchers, and maintainers to bring Codex Security and advanced models into the remediation process, with human review at the center. Your browser does not support the video tag. 🔗 View on Twitter 💬 10 🔄 14 ❤️ 159 👀 31436 📊 25 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Patch the Planet is our effort to help open source maintainers move from security findings to merged fixes. We’re working with Trail of Bits, HackerOne, Calif, researchers, and maintainers to bring Codex Security and advanced models into the remediation process, with human review at the center. Your browser does not support the video tag. 🔗 View on Twitter 💬 10 🔄 14 ❤️ 159 👀 31436 📊 25 ⚡ Powered by xgo.ing",
+          "summaryZh": "Patch the Planet 是我们帮助开源维护人员从安全发现转向合并修复的努力。我们正在与 Trail of Bits、HackerOne、Calif、研究人员和维护人员合作，将 Codex Security 和高级模型引入修复过程，并以人工审核为中心。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "开源",
+            "视频"
+          ],
+          "score": 70.95621677650874
+        },
+        {
+          "title": "Mistral officially has 1,000 team members around the world! Thank you to our incredible talent for ...",
+          "titleZh": "Mistral 在全球正式拥有 1,000 名团队成员",
+          "link": "https://x.com/MistralAI/status/2069077356266795207",
+          "publishedAt": "Mon, 22 Jun 2026 15:17:37 GMT",
+          "source": "Mistral AI(@MistralAI)",
+          "sourceType": "social",
+          "description": "Mistral officially has 1,000 team members around the world! Thank you to our incredible talent for believing in the mission and contributing to what we are building each and every day. You too can be a part of the next chapter in our journey as we continue to grow and serve our customers. Apply for open roles at Mistral across all functions here: mistral.ai/careers/ 💬 13 🔄 29 ❤️ 442 👀 34768 📊 62 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLbW4NbXMAAVWnW.jpg",
+          "video": "",
+          "summary": "Mistral officially has 1,000 team members around the world! Thank you to our incredible talent for believing in the mission and contributing to what we are building each and every day. You too can be a part of the next chapter in our journey as we continue to grow and serve our customers. Apply for open roles at Mistral across all functions here: mistral.ai/careers/ 💬 13 🔄 29 ❤️ 442 👀 34768 📊 62 ⚡ Powered by xgo.ing",
+          "summaryZh": "Mistral 在全球正式拥有 1,000 名团队成员！感谢我们令人难以置信的人才相信我们的使命并为我们每天的建设做出贡献。随着我们不断发展和服务客户​​，您也可以成为我们旅程的下一篇章的一部分。在此申请米斯特拉尔所有职能部门的空缺职位：mistral.ai/careers/",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 57.49777375002406
+        },
+        {
+          "title": "At @CERN, finding the universe's smallest particles requires big collaborative efforts. 🤝 Research...",
+          "titleZh": "在@CERN，寻找宇宙最小的粒子需要巨大的协作努力",
+          "link": "https://x.com/github/status/2068776680278167657",
+          "publishedAt": "Sun, 21 Jun 2026 19:22:51 GMT",
+          "source": "GitHub(@github)",
+          "sourceType": "social",
+          "description": "At @CERN , finding the universe's smallest particles requires big collaborative efforts. 🤝 Research fellow Batoul Diab shares how the ALICE collaboration uses open source code on GitHub to analyze massive amounts of physics data. Watch to see shared code, peer review, and global teamwork power modern scientific breakthroughs. 💡 Your browser does not support the video tag. 🔗 View on Twitter 💬 18 🔄 28 ❤️ 239 👀 44182 📊 43 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-23-2068776680278167657.mp4",
+          "summary": "At @CERN , finding the universe's smallest particles requires big collaborative efforts. 🤝 Research fellow Batoul Diab shares how the ALICE collaboration uses open source code on GitHub to analyze massive amounts of physics data. Watch to see shared code, peer review, and global teamwork power modern scientific breakthroughs. 💡 Your browser does not support the video tag. 🔗 View on Twitter 💬 18 🔄 28 ❤️ 239 👀 44182 📊 43 ⚡ Powered by xgo.ing",
+          "summaryZh": "在@CERN，寻找宇宙最小的粒子需要巨大的协作努力。 研究员 Batoul Diab 分享了 ALICE 合作如何使用 GitHub 上的开源代码来分析大量物理数据。观看共享代码、同行评审和全球团队合作推动现代科学突破。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "视频"
+          ],
+          "score": 55.692277364916094
+        },
+        {
+          "title": "Big release out of Japan’s Sakana AI. Its Fugu and Fugu Ultra models use agent orchestration of a v...",
+          "titleZh": "日本 Sakana AI 的重大发布",
+          "link": "https://x.com/TheRundownAI/status/2068877482690805842",
+          "publishedAt": "Mon, 22 Jun 2026 02:03:24 GMT",
+          "source": "The Rundown AI(@TheRundownAI)",
+          "sourceType": "social",
+          "description": "Big release out of Japan’s Sakana AI. Its Fugu and Fugu Ultra models use agent orchestration of a variety of other models to reach Fable/Mythos levels on several benchmarks Sakana AI @SakanaAILabs Introducing Sakana Fugu: A full multi-agent orchestration system accessible via a single model API. Our ‘Fugu Ultra’ model matches the performance of Fable and Mythos, delivering frontier capability without the risk of export controls. Try it: sakana.ai/fugu 🐡 🔗 View Quoted Tweet 💬 4 🔄 3 ❤️ 34 👀 12001 📊 8 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-06-23-2068877482690805842.mp4",
+          "summary": "Big release out of Japan’s Sakana AI. Its Fugu and Fugu Ultra models use agent orchestration of a variety of other models to reach Fable/Mythos levels on several benchmarks Sakana AI @SakanaAILabs Introducing Sakana Fugu: A full multi-agent orchestration system accessible via a single model API. Our ‘Fugu Ultra’ model matches the performance of Fable and Mythos, delivering frontier capability without the risk of export controls. Try it: sakana.ai/fugu 🐡 🔗 View Quoted Tweet 💬 4 🔄 3 ❤️ 34 👀 12001 📊 8 ⚡ Power...",
+          "summaryZh": "日本 Sakana AI 的重大发布。其 Fugu 和 Fugu Ultra 模型使用各种其他模型的代理编排，在多个基准上达到寓言/神话级别 Sakana AI 介绍 Sakana Fugu：通过单个模型 API 访问的完整多代理编排系统。我们的“Fugu Ultra”模型与《Fable》和《Mythos》的性能相匹配，提供前沿功能，且没有出口管制的风险。尝试一下：sakana.ai/fugu 查看引用的推文 4 3 34 12001 8 ⚡ Power...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "评测"
+          ],
+          "score": 55.19824259803816
+        },
+        {
+          "title": "Creator Off Script with @dreamfallart Maria Rubtsova has created multiple viral AI videos, includ...",
+          "titleZh": "与 @dreamfallart 合作的 Off Script 创作者 Maria Rubtsova 创作了多个病毒式 AI 视频，其中一个观看次数超过 1 亿次",
+          "link": "https://x.com/Kling_ai/status/2069072926003839303",
+          "publishedAt": "Mon, 22 Jun 2026 15:00:01 GMT",
+          "source": "Kling AI(@Kling_ai)",
+          "sourceType": "social",
+          "description": "Creator Off Script with @dreamfallart Maria Rubtsova has created multiple viral AI videos, including one that reached over 100M views and nearly 5M interactions — turning her signature visual style into something audiences instantly connect with. She brings a digital artist’s eye into AI creation, crafting lifelike women, polished motion, and visuals that feel stylish, confident, and alive. We talked about finding her creative lane, using Kling to make AI video feel more realistic, polished, and alive, and why taste still leads the process. Tap the video for the full Q&A 👀 Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 8 ❤️ 73 👀 24594 📊 18 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Creator Off Script with @dreamfallart Maria Rubtsova has created multiple viral AI videos, including one that reached over 100M views and nearly 5M interactions — turning her signature visual style into something audiences instantly connect with. She brings a digital artist’s eye into AI creation, crafting lifelike women, polished motion, and visuals that feel stylish, confident, and alive. We talked about finding her creative lane, using Kling to make AI video feel more realistic, polished, and alive, and why taste still leads the process. Tap the video for the full Q&A 👀 Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 8 ❤️ 73 👀 24594 📊 18 ⚡ Powered by xgo.ing",
+          "summaryZh": "与 @dreamfallart 合作的 Off Script 创作者 Maria Rubtsova 创作了多个病毒式 AI 视频，其中一个观看次数超过 1 亿次，互动次数接近 500 万次，将她标志性的视觉风格转变为观众立即产生共鸣的东西。她将数字艺术家的视角融入人工智能创作中，打造出栩栩如生的女性、精美的动作以及时尚、自信和活力的视觉效果。我们讨论了寻找她的创意之路，使用 Kling 让人工智能视频感觉更真实、更精致、更生动，以及为什么品味仍然主导着这个过程。点击视频查看完整问答",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 54.874772125137525
+        },
+        {
+          "title": "3D scene reconstruction works great until the camera never sees part of the scene. ArtiFixer from N...",
+          "titleZh": "「3D 场景重建效果非常好，直到相机看不到场景的一部分",
+          "link": "https://x.com/NVIDIAAI/status/2069118220506628287",
+          "publishedAt": "Mon, 22 Jun 2026 18:00:00 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "3D scene reconstruction works great until the camera never sees part of the scene. ArtiFixer from NVIDIA Research is an open autoregressive model that fills in the missing geometry that other methods leave blank. #SIGGRAPH2026 paper, code + demo: nvda.ws/4oILqNd Your browser does not support the video tag. 🔗 View on Twitter 💬 2 🔄 1 ❤️ 18 👀 2298 📊 5 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-23-2069118220506628287.mp4",
+          "summary": "3D scene reconstruction works great until the camera never sees part of the scene. ArtiFixer from NVIDIA Research is an open autoregressive model that fills in the missing geometry that other methods leave blank. #SIGGRAPH2026 paper, code + demo: nvda.ws/4oILqNd Your browser does not support the video tag. 🔗 View on Twitter 💬 2 🔄 1 ❤️ 18 👀 2298 📊 5 ⚡ Powered by xgo.ing",
+          "summaryZh": "**核心结论** 「3D 场景重建效果非常好，直到相机看不到场景的一部分。来自 N…的 ArtiFixer」要解决的问题是：3D 场景重建效果非常好，直到相机看不到场景的一部分。NVIDIA Research 的 ArtiFixer 是一种开放式自回归模型，可以填补其他方法留下的空白几何图形。论文、代码 + 演示：nvda.ws/4oILqNd。 **支撑证据** 摘要与公开信息显示：3D 场景重建效果非常好，直到相机看不到场景的一部分。 NVIDIA Research 的 ArtiFixer 是一种开放式自回归模型，可以填补其他方法留下的空白几何图形。 论文、代码 + 演示：nvda.ws/4oILqNd **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "论文",
+            "视频"
+          ],
+          "score": 54.23650410676286
+        },
+        {
+          "title": "LangSmith LLM Gateway sits between your agents and LLM providers. It enforces spend limits and reda...",
+          "titleZh": "LangSmith LLM Gateway 位于您的代理和 LLM 提供商之间",
+          "link": "https://x.com/LangChain/status/2069043280013091243",
+          "publishedAt": "Mon, 22 Jun 2026 13:02:13 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": "LangSmith LLM Gateway sits between your agents and LLM providers. It enforces spend limits and redacts PII before requests reach the model, stopping problems at the source rather than just logging them after the damage has been done. Everything you need to know: langchain.com/blog/introduci… 💬 6 🔄 1 ❤️ 19 👀 4476 📊 8 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLa35dzWYAAjs_2.jpg",
+          "video": "",
+          "summary": "LangSmith LLM Gateway sits between your agents and LLM providers. It enforces spend limits and redacts PII before requests reach the model, stopping problems at the source rather than just logging them after the damage has been done. Everything you need to know: langchain.com/blog/introduci… 💬 6 🔄 1 ❤️ 19 👀 4476 📊 8 ⚡ Powered by xgo.ing",
+          "summaryZh": "LangSmith LLM Gateway 位于您的代理和 LLM 提供商之间。它在请求到达模型之前强制执行支出限制并编辑 PII，从源头上阻止问题，而不是在损坏发生后才记录它们。您需要了解的一切：langchain.com/blog/introduci...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 54.12775865557332
+        },
+        {
+          "title": "Quake turns 30 today. 🎉 Three decades later, you can still dig into the source code that helped s...",
+          "titleZh": "今天雷神之锤 30 岁了。三十年后，您仍然可以深入研究帮助塑造现代游戏引擎、多人网络和模组社区的源代码",
+          "link": "https://x.com/github/status/2069025193620648259",
+          "publishedAt": "Mon, 22 Jun 2026 11:50:21 GMT",
+          "source": "GitHub(@github)",
+          "sourceType": "social",
+          "description": "Quake turns 30 today. 🎉 Three decades later, you can still dig into the source code that helped shape modern game engines, multiplayer networking, and modding communities. 🎮 github.com/id-software/qu… RM Your browser does not support the video tag. 🔗 View on Twitter 💬 15 🔄 63 ❤️ 337 👀 47171 📊 58 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-23-2069025193620648259.mp4",
+          "summary": "Quake turns 30 today. 🎉 Three decades later, you can still dig into the source code that helped shape modern game engines, multiplayer networking, and modding communities. 🎮 github.com/id-software/qu… RM Your browser does not support the video tag. 🔗 View on Twitter 💬 15 🔄 63 ❤️ 337 👀 47171 📊 58 ⚡ Powered by xgo.ing",
+          "summaryZh": "今天雷神之锤 30 岁了。 三十年后，您仍然可以深入研究帮助塑造现代游戏引擎、多人网络和模组社区的源代码。 github.com/id-software/qu… RM。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "视频"
+          ],
+          "score": 53.94267316653588
+        },
+        {
+          "title": "Give it a try!",
+          "titleZh": "尝试一下！",
+          "link": "https://x.com/LangChain/status/2069092444621205697",
+          "publishedAt": "Mon, 22 Jun 2026 16:17:35 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": "Give it a try! Sydney Runkle @sydneyrunkle you can try out GLM 5.2 with deepagents code (dcode) today!! dcode is general purpose and provider agnostic, so you can take any of the new oss models for a spin! docs: docs.langchain.com/oss/python/dee… Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 1 🔄 1 ❤️ 6 👀 4338 📊 2 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-23-2069092444621205697.mp4",
+          "summary": "Give it a try! Sydney Runkle @sydneyrunkle you can try out GLM 5.2 with deepagents code (dcode) today!! dcode is general purpose and provider agnostic, so you can take any of the new oss models for a spin! docs: docs.langchain.com/oss/python/dee… Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 1 🔄 1 ❤️ 6 👀 4338 📊 2 ⚡ Powered by xgo.ing",
+          "summaryZh": "尝试一下！ Sydney Runkle 您今天可以使用 deepagents 代码 (dcode) 尝试 GLM 5.2！ dcode 是通用目的且与提供商无关，因此您可以尝试任何新的 oss 模型！文档：docs.langchain.com/oss/python/dee… 查看引用的推文（要点：尝试一下！。）",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "视频"
+          ],
+          "score": 53.73956662224279
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": []
+    }
+  ],
+  "failures": [
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "AI HOT",
+      "url": "https://aihot.virxact.com/feed.xml",
+      "error": "HTTP 304"
+    }
+  ],
+  "summaryBullets": [
+    "**OpenAI Daybreak 扩展到补丁生成链路**：OpenAI 一次性公开了 **Codex 安全插件、GPT-5.5-Cyber 完整版、Cyber Partner Program** 和 **Patch the Planet**，把重点从“发现漏洞”推进到“验证并生成补丁”，说明 AI 安全产品正在更深地切入真实软件维护流程。",
+    "**Google AI Studio 把 Interactions API 推进到 GA**：新接口主打在同一套接口里编排 **多模型与多智能体**，并被定位为后续默认 API，这意味着 Google 正把 Agent 编排从实验能力往标准接入层收敛。",
+    "**长期记忆开始成为具身智能体评测重点**：论文 **WorldLines** 专门测试家庭场景里长期状态记忆如何影响行动规划，并提出 **ObsMem** 作为参考架构，提醒大家评估实体 Agent 时不能只看短任务成功率。",
+    "**掩模扩散模型也在探索推理能力**：论文 **Reflective Masking** 尝试让模型多轮回看并局部修正输出，在 **文本生成、数独、图像编辑** 等任务上优于常规掩模式基线，给“非自回归推理”提供了新方向。"
+  ]
+}

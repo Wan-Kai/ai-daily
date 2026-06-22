@@ -1,0 +1,940 @@
+{
+  "date": "2026-06-19",
+  "generatedAt": "2026-06-18T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-19",
+  "stats": {
+    "sources": 135,
+    "fetched": 774,
+    "emailCandidates": 0,
+    "selected": 35,
+    "failures": 24
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Your coding agent does more than write code. It ships the launch video. Drop HeyGen's MCP server in...",
+          "titleZh": "您的编码代理所做的不仅仅是编写代码",
+          "link": "https://x.com/HeyGen/status/2067653661346636237",
+          "publishedAt": "Thu, 18 Jun 2026 17:00:22 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "description": "Your coding agent does more than write code. It ships the launch video. Drop HeyGen's MCP server into @cursor_ai , point it at your README, and it builds a finished product video from one prompt - pulling your features and pricing straight from the repo. No filming, no editing. Your browser does not support the video tag. 🔗 View on Twitter 💬 71 🔄 68 ❤️ 239 👀 345993 📊 137 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-19-2067653661346636237.mp4",
+          "summary": "Your coding agent does more than write code. It ships the launch video. Drop HeyGen's MCP server into @cursor_ai , point it at your README, and it builds a finished product video from one prompt - pulling your features and pricing straight from the repo. No filming, no editing. Your browser does not support the video tag. 🔗 View on Twitter 💬 71 🔄 68 ❤️ 239 👀 345993 📊 137 ⚡ Powered by xgo.ing",
+          "summaryZh": "您的编码代理所做的不仅仅是编写代码。它发布了发布视频。将 HeyGen 的 MCP 服务器放入 @cursor_ai，将其指向您的自述文件，它会根据一个提示构建一个成品视频 - 直接从存储库中提取您的功能和定价。没有拍摄，没有剪辑。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "视频"
+          ],
+          "score": 76.36447849616614
+        },
+        {
+          "title": "Grok models are now available on Databricks Agent Bricks. Bring SpaceXAI's latest models to your en...",
+          "titleZh": "Grok 模型现已在 Databricks Agent Bricks 上提供。将 SpaceXAI 的最新模型带入您的环境",
+          "link": "https://x.com/xai/status/2067638691275907084",
+          "publishedAt": "Thu, 18 Jun 2026 16:00:53 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "description": "Grok models are now available on Databricks Agent Bricks. Bring SpaceXAI's latest models to your enterprise data to power capable AI agents. x.ai/news/grok-data… Your browser does not support the video tag. 🔗 View on Twitter 💬 180 🔄 179 ❤️ 1446 👀 3518134 📊 302 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-19-2067638691275907084.mp4",
+          "summary": "Grok models are now available on Databricks Agent Bricks. Bring SpaceXAI's latest models to your enterprise data to power capable AI agents. x.ai/news/grok-data… Your browser does not support the video tag. 🔗 View on Twitter 💬 180 🔄 179 ❤️ 1446 👀 3518134 📊 302 ⚡ Powered by xgo.ing",
+          "summaryZh": "Grok 模型现已在 Databricks Agent Bricks 上提供。将 SpaceXAI 的最新模型引入您的企业数据，为强大的 AI 代理提供支持。 x.ai/新闻/grok-data。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "视频"
+          ],
+          "score": 76
+        },
+        {
+          "title": "P-image-try-on from @PrunaAI is now on Replicate! The most affordable virtual try on model out ther...",
+          "titleZh": "的 P-image-try-on 现已复",
+          "link": "https://x.com/replicate/status/2067613174103244811",
+          "publishedAt": "Thu, 18 Jun 2026 14:19:29 GMT",
+          "source": "Replicate(@replicate)",
+          "sourceType": "social",
+          "description": "P-image-try-on from @PrunaAI is now on Replicate! The most affordable virtual try on model out there. Pruna AI @PrunaAI P-Image-Try-On delivers the fastest and cheapest virtual try-on on the market. • Affordable: $0.015 for the first garment, $0.008 for each additional one • Multi-garment: fit up to 11 garment references onto a person photo • Quality mode for • Turbo mode for even higher speeds • Prompt guidance and pose guidance for precise control Ideal for fashion, e-commerce, and catalog teams shipping VTO without reshoots. Available day 0 on Pruna API and with our launch partners: @cloudflare @scenario_gg @replicate @wiroai @tellersai @eachlabs @wavespeed_ai @runware @LookFashionai 👉 Playground: buff.ly/H0JaU3o Y 📚 API buff.ly/eC37dSK oW 🧩 P-Video, P-Image, P-Image-Edit & mor buff.ly/tL6ADhO aA1 Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 2 🔄 4 ❤️ 24 👀 3262 📊 7 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-19-2067613174103244811.mp4",
+          "summary": "P-image-try-on from @PrunaAI is now on Replicate! The most affordable virtual try on model out there. Pruna AI @PrunaAI P-Image-Try-On delivers the fastest and cheapest virtual try-on on the market. • Affordable: $0.015 for the first garment, $0.008 for each additional one • Multi-garment: fit up to 11 garment references onto a person photo • Quality mode for • Turbo mode for even higher speeds • Prompt guidance and pose guidance for precise control Ideal for fashion, e-commerce, and catalog teams shipping VTO without reshoots. Available day 0 on Pruna API and with our launch partners: @cloudflare @scenario_gg @replicate @wiroai @tellersai @eachlabs @wavespeed_ai @runware @LookFashionai 👉 Playground: buff.ly/H0JaU3o Y 📚 API buff.ly/eC37dSK oW 🧩 P-Video, P-Image, P-Image-Edit & mor buff.ly/tL6ADhO aA1 Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Twe...",
+          "summaryZh": "的 P-image-try-on 现已复制！最实惠的虚拟试穿模型。 Pruna AI P-Image-Try-On 提供市场上最快、最便宜的虚拟试穿。 • 经济实惠：第一件衣服 0.015 美元，每件额外 0.008 美元 • 多种服装：在一张照片上最多可容纳 11 件服装参考 • 质量模式 • Turbo 模式可实现更高的速度 • 提示指导和姿势指导以实现精确控制 非常适合时尚、电子商务和目录团队无需重新拍摄即可运送 VTO。在 Pruna API 上以及我们的发布合作伙伴的第 0 天可用： Playground：buff.ly/H0JaU3o Y API buff.ly/eC37dSK oW P-Video、P-Image、P-Image-Edit & mor buff.ly/tL6ADhO aA1 查看引用特威...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "视频",
+            "图像"
+          ],
+          "score": 70.73724690876166
+        },
+        {
+          "title": "New in ChatGPT: a better way to schedule tasks. Scheduled tasks are faster, more reliable, and easi...",
+          "titleZh": "ChatGPT 的新功能：更好的任务安排方式",
+          "link": "https://x.com/ChatGPTapp/status/2067316960875168181",
+          "publishedAt": "Wed, 17 Jun 2026 18:42:27 GMT",
+          "source": "ChatGPT(@ChatGPTapp)",
+          "sourceType": "social",
+          "description": "New in ChatGPT: a better way to schedule tasks. Scheduled tasks are faster, more reliable, and easier to manage from the new Scheduled page. The new scheduled tasks experience is rolling out to Go, Plus, Pro, Business, and Enterprise users on web and mobile. Your browser does not support the video tag. 🔗 View on Twitter 💬 144 🔄 222 ❤️ 2969 👀 367870 📊 557 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-19-2067316960875168181.mp4",
+          "summary": "New in ChatGPT: a better way to schedule tasks. Scheduled tasks are faster, more reliable, and easier to manage from the new Scheduled page. The new scheduled tasks experience is rolling out to Go, Plus, Pro, Business, and Enterprise users on web and mobile. Your browser does not support the video tag. 🔗 View on Twitter 💬 144 🔄 222 ❤️ 2969 👀 367870 📊 557 ⚡ Powered by xgo.ing",
+          "summaryZh": "ChatGPT 的新功能：更好的任务安排方式。通过新的“计划”页面，计划任务更快、更可靠且更易于管理。新的计划任务体验正在向 Web 和移动设备上的 Go、Plus、Pro、Business 和 Enterprise 用户推出。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "New in Claude Code: Artifacts. Interactive pages built from your session, like a PR walkthrough or ...",
+          "titleZh": "Claude代码中的新内容：工件",
+          "link": "https://x.com/claudeai/status/2067671912038240487",
+          "publishedAt": "Thu, 18 Jun 2026 18:12:53 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "description": "New in Claude Code: Artifacts. Interactive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link. Available in beta on Team and Enterprise plans. Your browser does not support the video tag. 🔗 View on Twitter 💬 366 🔄 459 ❤️ 8098 👀 1142187 📊 1475 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-19-2067671912038240487.mp4",
+          "summary": "New in Claude Code: Artifacts. Interactive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link. Available in beta on Team and Enterprise plans. Your browser does not support the video tag. 🔗 View on Twitter 💬 366 🔄 459 ❤️ 8098 👀 1142187 📊 1475 ⚡ Powered by xgo.ing",
+          "summaryZh": "Claude代码中的新内容：工件。根据您的会话构建的交互式页面，例如 PR 演练或实时项目仪表板，通过私人链接与您的团队共享。在团队和企业计划中提供测试版。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "Build in Lovable, from Claude. New native integrations with our MCP server = chat to @claudeai, exp...",
+          "titleZh": "由 Claude 打造 Lovable。",
+          "link": "https://x.com/Lovable/status/2067326328110494129",
+          "publishedAt": "Wed, 17 Jun 2026 19:19:40 GMT",
+          "source": "Lovable(@lovable_dev)",
+          "sourceType": "social",
+          "description": "Build in Lovable, from Claude. New native integrations with our MCP server = chat to @claudeai , export from Claude Design, and ship with Claude Code, directly to Lovable. To get started, go to Claude → Click on the + sign → Connectors → Browse Connectors → Lovable. Your browser does not support the video tag. 🔗 View on Twitter 💬 39 🔄 52 ❤️ 498 👀 56922 📊 129 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Build in Lovable, from Claude. New native integrations with our MCP server = chat to @claudeai , export from Claude Design, and ship with Claude Code, directly to Lovable. To get started, go to Claude → Click on the + sign → Connectors → Browse Connectors → Lovable. Your browser does not support the video tag. 🔗 View on Twitter 💬 39 🔄 52 ❤️ 498 👀 56922 📊 129 ⚡ Powered by xgo.ing",
+          "summaryZh": "由 Claude 打造 Lovable。与我们的 MCP 服务器的新本机集成 = 与 聊天，从 Claude Design 导出，并与 Claude Code 一起直接发送到 Lovable。首先，转到 Claude → 单击 + 号 → 连接器 → 浏览连接器 → Lovable。这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 68.97594558383206
+        },
+        {
+          "title": "New in Claude Design: it stays on brand with your design system across projects, lets you edit direc...",
+          "titleZh": "Claude Design 的新增功能：它与您跨项目的设计系统保持一致，让您可以直接在画布上进行编辑，与 Claude Code 同步，并连接到您已使用的更多工",
+          "link": "https://x.com/claudeai/status/2067325887909884315",
+          "publishedAt": "Wed, 17 Jun 2026 19:17:55 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "description": "New in Claude Design: it stays on brand with your design system across projects, lets you edit directly on the canvas, syncs with Claude Code, and connects to more of the tools you already use. 💬 626 🔄 948 ❤️ 12228 👀 4677882 📊 2487 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLCU9x3XgAArrnJ.jpg",
+          "video": "",
+          "summary": "New in Claude Design: it stays on brand with your design system across projects, lets you edit directly on the canvas, syncs with Claude Code, and connects to more of the tools you already use. 💬 626 🔄 948 ❤️ 12228 👀 4677882 📊 2487 ⚡ Powered by xgo.ing",
+          "summaryZh": "Claude Design 的新增功能：它与您跨项目的设计系统保持一致，让您可以直接在画布上进行编辑，与 Claude Code 同步，并连接到您已使用的更多工具。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 68
+        },
+        {
+          "title": "📣 Calling all influencers and wannabe influencers: we’re here to help you blow up. Introducing the...",
+          "titleZh": "呼吁所有影响者和想要成为影响者的人：我们在这里帮助你爆炸",
+          "link": "https://x.com/pika_labs/status/2067674905970352130",
+          "publishedAt": "Thu, 18 Jun 2026 18:24:47 GMT",
+          "source": "Pika(@pika_labs)",
+          "sourceType": "social",
+          "description": "📣 Calling all influencers and wannabe influencers: we’re here to help you blow up. Introducing the Influencer Ignition Kit—4 new follower-boosting skills: >Persona Builder >Content Director >Viral Hook >Fix My Look Available for any agent with the Pika MCP. Your browser does not support the video tag. 🔗 View on Twitter 💬 22 🔄 19 ❤️ 103 👀 32563 📊 52 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "📣 Calling all influencers and wannabe influencers: we’re here to help you blow up. Introducing the Influencer Ignition Kit—4 new follower-boosting skills: >Persona Builder >Content Director >Viral Hook >Fix My Look Available for any agent with the Pika MCP. Your browser does not support the video tag. 🔗 View on Twitter 💬 22 🔄 19 ❤️ 103 👀 32563 📊 52 ⚡ Powered by xgo.ing",
+          "summaryZh": "呼吁所有影响者和想要成为影响者的人：我们在这里帮助你爆炸。推出 Influencer Ignition Kit — 4 种新的追随者提升技能：>角色构建器>内容总监>病毒挂钩>修复我的外观适用于任何拥有 Pika MCP 的代理。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 67.80102780364668
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "FutureOmni: Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs",
+          "titleZh": "FutureOmni：从多模式LLM的全模式环境中评估未来预测",
+          "link": "https://arxiv.org/abs/2601.13836",
+          "publishedAt": "Thu, 18 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.CV",
+          "sourceType": "research",
+          "description": "arXiv:2601.13836v2 Announce Type: replace-cross Abstract: Although Multimodal Large Language Models (MLLMs) demonstrate strong omni-modal perception, their ability to forecast future events from audio-visual cues remains largely unexplored, as existing benchmarks focus mainly on retrospective understanding. To bridge this gap, we introduce FutureOmni, the first benchmark designed to evaluate omni-modal future forecasting from audio-visual environments. The evaluated models are required to perform cross-modal causal and temporal reasoning, as well as effectively leverage internal knowledge to predict future events. FutureOmni is constructed via a scalable LLM-assisted, human-in-the-loop pipeline and contains 919 videos and 1,034 multiple-choice QA pairs across 8 primary domains. Evaluations on 13 omni-modal and 7 video-only models show that current systems struggle with audio-visual future prediction, particularly in speech-heavy scenarios, with the best accuracy of 64.8% achieved by Gemini 3 Flash. To mitigate this limitation, we curate a 7K-sample instruction-tuning dataset and propose an Omni-Modal Future Forecasting (OFF) training strategy. Evaluations on FutureOmni and popular audio-visual and video-only benchmarks demonstrate that OFF enhances future forecasting and generalization. We publicly release all code (https://github.com/OpenMOSS/FutureOmni) and datasets (https://huggingface.co/datasets/OpenMOSS-Team/FutureOmni).",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2601.13836v2 Announce Type: replace-cross Abstract: Although Multimodal Large Language Models (MLLMs) demonstrate strong omni-modal perception, their ability to forecast future events from audio-visual cues remains largely unexplored, as existing benchmarks focus mainly on retrospective understanding. To bridge this gap, we introduce FutureOmni, the first benchmark designed to evaluate omni-modal future forecasting from audio-visual environments. The evaluated models are required to perform cross-modal cau...",
+          "summaryZh": "**核心结论** 「FutureOmni：从多模式LLM的全模式环境中评估未来预测」要解决的问题是：尽管多模态大语言模型（MLLM）表现出强大的全模态感知，但它们根据视听线索预测未来事件的能力在很大程度上仍未得到探索，因为现有基准主要侧重于回顾性理解。为了弥补这一差距，我们引入了 FutureOmni，这是第一个旨在评估视听环境中的全模式未来预测的基准。评估的模型需要执行跨模式任务。 **支撑证据** 摘要与公开信息显示：arXiv:2601.13836v2 尽管多模态大语言模型（MLLM）表现出强大的全模态感知，但它们根据视听线索预测未来事件的能力在很大程度上仍未得到探索，因为现有基准主要侧重于回顾性理解。为了弥补这一差距，我们引入了 FutureOmni，这是第一个旨在评估视听环境中的全模式未来预测的基准。评估的模型需要执行跨模式任务... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 40
+        },
+        {
+          "title": "Spatio-Temporal Fusion Model for Standard View Classification of Echocardiographic Videos",
+          "titleZh": "用于超声心动图视频标准视图分类的时空融合模型",
+          "link": "https://arxiv.org/abs/2606.17437",
+          "publishedAt": "Thu, 18 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.17437v1 Announce Type: cross Abstract: Automated classification of standard echocardiographic views is crucial for efficient clinical workflow but faces three main challenges. First, publicly available datasets are scarce and limited in scale and view coverage. Second, the performance of some modern video-level architectures for echocardiographic view classification remains underexplored. Third, some view categories exhibit highly similar spatial appearances, making single-frame features insufficient for discrimination, while heterogeneous frame quality complicates robust temporal information fusion. To address these challenges, we release the Echocardiographic Videos of Nine Views (EV9V) dataset, comprising 5,138 videos, 910,579 frames, and 9 standard views, which is, to the best of our knowledge, the largest publicly available echocardiography video dataset. Using EV9V, we systematically benchmark representative video classification architectures, including Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), and Transformers. Furthermore, we propose a Spatio-Temporal Fusion Model (STFM), an efficient dual-stream CNN-LSTM (Long Short-Term Memory) framework that jointly captures spatial anatomical structures and temporal cardiac dynamics. The proposed framework leverages uncertainty-aware learning to preferentially sample representative video segments during training and evidence-based fusion during inference, improving robustness to variations in frame quality across echocardiographic videos. Extensive experiments demonstrate that our method achieves competitive performance across diverse video classification models, validating the effectiveness of uncertainty-aware spatio-temporal learning for echocardiographic view classification. The code is available at https://github.com/bgx666/stfm.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.17437v1 Announce Type: cross Abstract: Automated classification of standard echocardiographic views is crucial for efficient clinical workflow but faces three main challenges. First, publicly available datasets are scarce and limited in scale and view coverage. Second, the performance of some modern video-level architectures for echocardiographic view classification remains underexplored. Third, some view categories exhibit highly similar spatial appearances, making single-frame features insufficient...",
+          "summaryZh": "**核心结论** 「用于超声心动图视频标准视图分类的时空融合模型」要解决的问题是：标准超声心动图视图的自动分类对于高效的临床工作流程至关重要，但面临三个主要挑战。首先，公开可用的数据集稀缺，且规模和视图覆盖范围有限。其次，一些用于超声心动图视图分类的现代视频级架构的性能仍未得到充分探索。 **支撑证据** 摘要与公开信息显示：arXiv:2606.17437v1 标准超声心动图视图的自动分类对于高效的临床工作流程至关重要，但面临三个主要挑战。首先，公开可用的数据集稀缺，且规模和视图覆盖范围有限。其次，一些用于超声心动图视图分类的现代视频级架构的性能仍未得到充分探索。第三，一些视图类别表现出高度相似的空间外观，使得单帧特征不足...... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "评测",
+            "开源",
+            "推理部署"
+          ],
+          "score": 39
+        },
+        {
+          "title": "GLM-5.2 is probably the most powerful text-only open weights LLM",
+          "titleZh": "GLM-5.2 可能是最强大的纯文本开放权重 LLM",
+          "link": "https://simonwillison.net/2026/Jun/17/glm-52/#atom-everything",
+          "publishedAt": "2026-06-17T23:58:39+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases, this is 753B parameter, 1.51TB monster - with 40 active parameters (Mixture of Experts). GLM-5.2 is a text input only model - Z.ai have a separate vision family most recently represented by GLM-5V-Turbo , but that one isn't open weights. GLM-5.2 has a 1 million token context window, up from GLM-5.1's 200,000. The buzz around this model is strong. Artificial Analysis, who run one of the most widely respected independent benchmarks: GLM-5.2 is the new leading open weights model on the Artificial Analysis Intelligence Index . GLM-5.2 is the leading open weights model on the Intelligence Index v4.1. At 51, it leads MiniMax-M3 (44), DeepSeek V4 Pro (max, 44) and Kimi K2.6 (43) They did however find it to be quite token-hungry: GLM-5.2 uses more output tokens per task than other leading open weights models: the model uses 43k output tokens per Intelligence Index task, up from GLM-5.1 (26k) and above MiniMax-M3 (24k), Kimi K2.6 (35k) and DeepSeek V4 Pro (max, 37k) The model is also now ranked 2nd on the Code Arena WebDev leaderboard , behind only Claude Fable 5. That leaderboard measures \"front-end web development tasks, including agentic coding workflows\". I'm impressed to see it rank so highly given the lack of image input, which I had incorrectly assumed was a key part of building a truly great frontend coding model. I've been trying it out via OpenRouter , which has it from 9 different providers, almost all of which are charging $1.40/million for input and $4.40/million for output. For comparison, GPT-5.5 is $5/$30 and Claude Opus 4.5-4.8 is $5/$25. Excellent pelican, disappointing opossum GLM-5.1 gave me one of my favorite pelicans and my all time favorite opossum (for the prompt \"Generate an SVG of a NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER\".) Interestingly, in both of those cases the model chose to return SVG wrapped in an HTML document that added additional animations using CSS. Let's try GLM-5.2. For \"Generate an SVG of a pelican riding a bicycle\" I got this : It's a self-contained fully animated SVG, and the animations aren't broken! Often I'll see eyes falling off or wheels rotating independently of the bicycle but here everything works great. It's a very nice vector illustration of a pelican too. Very impressive. Sadly, the NORTH VIRGINIA OPOSSUM ON AN E-SCOOTER did not come out nearly as well : This is such a step down from GLM-5.1! As a reminder, that possum looked like this: 5.2 didn't even try to animate it. Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , llm-release , openrouter , ai-in-china , glm",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://static.simonwillison.net/static/2026/glm-5.2-pelican-card.jpg",
+          "video": "",
+          "summary": "Chinese AI lab Z.ai released GLM-5.2 to their coding plan subscribers on June 13th, and then yesterday (June 16th) released the full open weights under an MIT license. Similar in size to their previous GLM-5 and GLM-5.1 releases, this is 753B parameter, 1.51TB monster - with 40 active parameters (Mixture of Experts). GLM-5.2 is a text input only model - Z.ai have a separate vision family most recently represented by GLM-5V-Turbo , but that one isn't open weights. GLM-5.2 has a 1 million token context window, up...",
+          "summaryZh": "**核心要点** 中国人工智能实验室 Z.ai 于 6 月 13 日向其编码计划订阅者发布了 GLM-5.2，然后昨天（6 月 16 日）在 MIT 许可下发布了完整的开放权重。大小与之前的 GLM-5 和 GLM-5.1 版本类似，这是 753B 参数、1.51TB 怪物 - 具有 40 个活跃参数（专家混合）。 GLM-5.2 是一种仅文本输入模型 - Z.ai 有一个单独的视觉系列，最近以 GLM-5V-Turbo 为代表，但该系列不是开放权重。 GLM-5.2 有 100 万个 token 上下文窗口，向上...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "评测",
+            "图像"
+          ],
+          "score": 38
+        },
+        {
+          "title": "Amazon Bedrock AgentCore harness is now generally available: Go from idea to production-grade agent in minutes",
+          "titleZh": "Amazon Bedrock AgentCore 线束现已全面上市：只需几分钟即可从创意变为生产级代理",
+          "link": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-is-now-generally-available-go-from-idea-to-production-grade-agent-in-minutes/",
+          "publishedAt": "Thu, 18 Jun 2026 17:32:22 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "Today, Amazon Bedrock AgentCore harness is generally available. Two API calls (CreateHarness to define an agent, and InvokeHarness to run it), and you have an agent running in seconds. The agent runs in its own isolated environment with a filesystem and shell, so it can read files, run commands, and write code safely. It remembers users and conversations across sessions, picks up skills you point it at (including the AWS-curated catalog), browses the web, calls your tools through gateway or MCP, and switches model providers mid-session without losing context. Every step streams back to you in real time and is automatically traced to Amazon CloudWatch. You don’t need to write orchestration code or build a container, unless you want to.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/17/ml-20804.png",
+          "video": "",
+          "summary": "Today, Amazon Bedrock AgentCore harness is generally available. Two API calls (CreateHarness to define an agent, and InvokeHarness to run it), and you have an agent running in seconds. The agent runs in its own isolated environment with a filesystem and shell, so it can read files, run commands, and write code safely. It remembers users and conversations across sessions, picks up skills you point it at (including the AWS-curated catalog), browses the web, calls your tools through gateway or MCP, and switches mod...",
+          "summaryZh": "**核心要点** 如今，Amazon Bedrock AgentCore 线束已全面上市。两次 API 调用（CreateHarness 定义代理，InvokeHarness 运行它），几秒钟内即可运行代理。该代理在具有文件系统和 shell 的独立环境中运行，因此它可以安全地读取文件、运行命令和编写代码。它会记住跨会话的用户和对话，获取您指定的技能（包括 AWS 策划的目录），浏览网页，通过网关或 MCP 调用您的工具，以及切换模式...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体"
+          ],
+          "score": 33
+        },
+        {
+          "title": "Amazon SageMaker AI Async Inference now supports inline request payloads",
+          "titleZh": "Amazon SageMaker AI 异步推理现在支持内联请求负载",
+          "link": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-async-inference-now-supports-inline-request-payloads/",
+          "publishedAt": "Wed, 17 Jun 2026 20:56:36 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "Today, we’re announcing inline payload support for Amazon SageMaker AI Async Inference. Customers can now send inference payloads directly in the request body of the InvokeEndpointAsync API, removing the need to upload input data to Amazon Simple Storage Service (Amazon S3) before each invocation.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/17/21184.png",
+          "video": "",
+          "summary": "Today, we’re announcing inline payload support for Amazon SageMaker AI Async Inference. Customers can now send inference payloads directly in the request body of the InvokeEndpointAsync API, removing the need to upload input data to Amazon Simple Storage Service (Amazon S3) before each invocation.",
+          "summaryZh": "**核心要点** 今天，我们宣布为 Amazon SageMaker AI 异步推理提供内联有效负载支持。客户现在可以直接在 InvokeEndpointAsync API 的请求正文中发送推理负载，无需在每次调用之前将输入数据上传到 Amazon Simple Storage Service (Amazon S3)。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "API",
+            "推理部署",
+            "RAG"
+          ],
+          "score": 31
+        },
+        {
+          "title": "Get back hours every day with autonomous agents in Amazon Quick",
+          "titleZh": "借助 Amazon Quick 中的自主代理，每天节省时间",
+          "link": "https://aws.amazon.com/blogs/machine-learning/get-back-hours-every-day-with-autonomous-agents-in-amazon-quick/",
+          "publishedAt": "Wed, 17 Jun 2026 20:35:39 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "Today, Quick gets even more powerful: new autonomous agents that work continuously&nbsp;on your behalf,&nbsp;an activity feed that helps you prioritize your most important work, and the ability to&nbsp;find insights&nbsp;across every data source your business runs on from a single&nbsp;question.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/17/ml-21220.png",
+          "video": "",
+          "summary": "Today, Quick gets even more powerful: new autonomous agents that work continuously&nbsp;on your behalf,&nbsp;an activity feed that helps you prioritize your most important work, and the ability to&nbsp;find insights&nbsp;across every data source your business runs on from a single&nbsp;question.",
+          "summaryZh": "**核心要点** 如今，Quick 变得更加强大：新的自主代理可以代表您持续工作，活动源可以帮助您确定最重要工作的优先级，并且能够通过单个问题在您的业务运行的每个数据源中找到见解。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        },
+        {
+          "title": "AI 智能体够格吗？在自有工具上评测开源模型",
+          "titleZh": "AI 智能体够格吗？在自有工具上评测开源模型",
+          "link": "https://huggingface.co/blog/is-it-agentic-enough",
+          "publishedAt": "Thu, 18 Jun 2026 00:00:00 GMT",
+          "source": "AI HOT",
+          "sourceType": "aggregator",
+          "description": "Hugging Face 发布面向 AI 智能体使用场景的基准测试框架，以 transformers 库为案例评估库的智能体友好度。框架使用 pi coding agent 与开源模型驱动，通过 Hugging Face Jobs 分散任务确保硬件一致。评估关注 agent 完成任务的成本、延迟、token 使用量和失败率，而非仅最终结果。此前 hf CLI 经优化后 agent token 使用量减少 1.3-1.8 倍（最高 6 倍），该框架旨在验证类似优化对 transformers 的效果。",
+          "section": "research_frontier",
+          "channel": "aggregator",
+          "trust": "community",
+          "image": "",
+          "video": "",
+          "summary": "Hugging Face 发布面向 AI 智能体使用场景的基准测试框架，以 transformers 库为案例评估库的智能体友好度。框架使用 pi coding agent 与开源模型驱动，通过 Hugging Face Jobs 分散任务确保硬件一致。评估关注 agent 完成任务的成本、延迟、token 使用量和失败率，而非仅最终结果。此前 hf CLI 经优化后 agent token 使用量减少 1.3-1.8 倍（最高 6 倍），该框架旨在验证类似优化对 transformers 的效果。",
+          "summaryZh": "Hugging Face 发布面向 AI 智能体使用场景的基准测试框架，以 transformers 库为案例评估库的智能体友好度。框架使用 pi coding agent 与开源模型驱动，通过 Hugging Face Jobs 分散任务确保硬件一致。评估关注 agent 完成任务的成本、延迟、token 使用量和失败率，而非仅最终结果。此前 hf CLI 经优化后 agent token 使用量减少 1.3-1.8 倍（最高 6 倍），该框架旨在验证类似优化对 transformers 的效果。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "开源",
+            "模型"
+          ],
+          "score": 26
+        },
+        {
+          "title": "The Professor of Outputmaxxing — Anjney Midha, AMP",
+          "titleZh": "我们将讨论这位传奇投资者如何从新加坡的卑",
+          "link": "https://www.latent.space/p/anj",
+          "publishedAt": "Thu, 18 Jun 2026 17:30:00 GMT",
+          "source": "Latent Space",
+          "sourceType": "research",
+          "description": "We talk about how this legendary investor went from humble beginnings in Singapore to leading rounds in Anthropic, Mistral, Black Forest Labs, and Periodic Labs... and the AMP secret master plan!",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://substackcdn.com/image/fetch/$s_!6XAi!,w_1200,h_600,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-video.s3.amazonaws.com%2Fvideo_upload%2Fpost%2F202359797%2F8dbbb3fa-e808-473c-af72-b9aee4fe0026%2Ftranscoded-1781652240.png",
+          "video": "",
+          "summary": "We talk about how this legendary investor went from humble beginnings in Singapore to leading rounds in Anthropic, Mistral, Black Forest Labs, and Periodic Labs... and the AMP secret master plan!",
+          "summaryZh": "**核心要点** 我们将讨论这位传奇投资者如何从新加坡的卑微出身，到在 Anthropic、Mistral、Black Forest Labs 和 periodic Labs 的领投……以及 AMP 秘密总体规划！",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 24
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "let's go open models! ❤️",
+          "titleZh": "让我们去打开模型吧！",
+          "link": "https://x.com/ollama/status/2067331795235074215",
+          "publishedAt": "Wed, 17 Jun 2026 19:41:23 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "description": "let's go open models! ❤️ Hassan @nutlope This model is insane at design. I asked GLM 5.2 (left) and Opus 4.8 (right) to build me a landing page and you can't even tell the difference. GLM cost $0.06 while opus cost $0.49. More than 6x cheaper while being faster + more token efficient. Another win for open source AI. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 23 🔄 52 ❤️ 1129 👀 62381 📊 126 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-19-2067331795235074215.mp4",
+          "summary": "let's go open models! ❤️ Hassan @nutlope This model is insane at design. I asked GLM 5.2 (left) and Opus 4.8 (right) to build me a landing page and you can't even tell the difference. GLM cost $0.06 while opus cost $0.49. More than 6x cheaper while being faster + more token efficient. Another win for open source AI. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 23 🔄 52 ❤️ 1129 👀 62381 📊 126 ⚡ Powered by xgo.ing",
+          "summaryZh": "让我们去打开模型吧！ Hassan @nutlope 这个模型的设计很疯狂。我要求 GLM 5.2（左）和 Opus 4.8（右）为我构建一个登陆页面，你甚至无法分辨出区别。 GLM 成本为 0.06 美元，而 opus 成本为 0.49 美元。价格便宜 6 倍以上，同时速度更快 + token效率更高。开源人工智能的又一次胜利。 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "开源",
+            "视频"
+          ],
+          "score": 68
+        },
+        {
+          "title": "Most vector database pilots struggle with data ingestion before they even get to search. You build ...",
+          "titleZh": "大多数矢量数据库试点在开始搜索之前都在努力解决数据摄取问题",
+          "link": "https://x.com/weaviate_io/status/2067623500932661726",
+          "publishedAt": "Thu, 18 Jun 2026 15:00:31 GMT",
+          "source": "Weaviate • vector database(@weaviate_io)",
+          "sourceType": "social",
+          "description": "Most vector database pilots struggle with data ingestion before they even get to search. You build a slick retrieval pipeline, it works fine on 1,000 docs… then someone hands you a few million more and you start seeing errors on all sides. So we decided to cover some of the best practices that could save you a headache or two: • 𝗦𝗲𝗿𝘃𝗲𝗿-𝘀𝗶𝗱𝗲 � collection.batch.stream ://t.co/Fj7K0ObVaM() sets the rate for you; no batch-size tuning, the server handles the import size dynamically. • 𝗜𝗱𝗲𝗺𝗽𝗼𝘁𝗲𝗻𝘁 𝗿𝗲𝘁𝗿𝗶𝗲𝘀 — deterministic UUIDs so re-runs never duplicate or double-bill • 𝗯𝗹𝗼𝗯𝗛𝗮𝘀𝗵 — keep the object embeddings, drop the oversized objects which you are already storing somewhere else (10 TB → a few GB, same search quality) • 𝗣𝗗𝗙𝘀, 𝗻𝗼 𝗢𝗖𝗥 — just embed the page images with a multimodal model • 𝗧𝗲𝘅𝘁, 𝗶𝗺𝗮𝗴𝗲, 𝗮𝘂𝗱𝗶𝗼 & 𝘃𝗶𝗱𝗲𝗼 — one collection, one query Rewritte weaviate.io/blog/data-impo… ree times this quarter? This one's for you 👇 🔗 https://t.co/939ia66tzM 💬 0 🔄 0 ❤️ 1 👀 253 📊 1 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLGsnfDXoAA3W6i.jpg",
+          "video": "",
+          "summary": "Most vector database pilots struggle with data ingestion before they even get to search. You build a slick retrieval pipeline, it works fine on 1,000 docs… then someone hands you a few million more and you start seeing errors on all sides. So we decided to cover some of the best practices that could save you a headache or two: • 𝗦𝗲𝗿𝘃𝗲𝗿-𝘀𝗶𝗱𝗲 � collection.batch.stream ://t.co/Fj7K0ObVaM() sets the rate for you; no batch-size tuning, the server handles the import size dynamically. • 𝗜𝗱𝗲𝗺𝗽𝗼𝘁𝗲𝗻𝘁 𝗿𝗲𝘁𝗿𝗶𝗲𝘀 — deterministic UUIDs so re-runs never duplicate or double-bill • 𝗯𝗹𝗼𝗯𝗛𝗮𝘀𝗵 — keep the object embeddings, drop the oversized objects which you are already storing somewhere else (10 TB → a few GB, same search quality) • 𝗣𝗗𝗙𝘀, 𝗻𝗼 𝗢𝗖𝗥 — just embed the page images with a multimodal model • 𝗧𝗲𝘅𝘁, 𝗶𝗺𝗮𝗴𝗲, 𝗮𝘂𝗱𝗶𝗼 & 𝘃𝗶𝗱𝗲𝗼 — one collection...",
+          "summaryZh": "大多数矢量数据库试点在开始搜索之前都在努力解决数据摄取问题。您构建了一个灵活的检索管道，它在 1,000 个文档上运行良好……然后有人给了您几百万个文档，您开始看到各个方面的错误。因此，我们决定介绍一些可以为您省去一两个麻烦的最佳实践： - collection.batch.stream ://t.co/Fj7K0ObVaM() 为您设置速率；没有批量大小调整，服务器动态处理导入大小。 • — 确定性 UUID，因此重新运行不会重复或重复 • — 保留对象嵌入，删除已存储在其他位置的超大对象（10 TB → 几 GB，相同的搜索质量） • , — 只需使用多模式模型嵌入页面图像 • , , & — 一个集合...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "多模态",
+            "图像"
+          ],
+          "score": 48.81137055758583
+        },
+        {
+          "title": "𝗬𝗼𝘂𝗿 𝘁𝗲𝘀𝘁 𝘀𝗲𝘁 𝘀𝗵𝗼𝘄𝘀 𝘀𝘁𝗿𝗼𝗻𝗴 𝗿𝗲𝗰𝗮𝗹𝗹, 𝗯𝘂𝘁 𝗿𝗲𝘁𝗿𝗶𝗲𝘃𝗮𝗹 𝗺𝗮𝘆 ...",
+          "titleZh": ".，@。假设您的平均召回率 @5 为 85%",
+          "link": "https://x.com/milvusio/status/2067630919070929350",
+          "publishedAt": "Thu, 18 Jun 2026 15:30:00 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "description": "𝗬𝗼𝘂𝗿 𝘁𝗲𝘀𝘁 𝘀𝗲𝘁 𝘀𝗵𝗼𝘄𝘀 𝘀𝘁𝗿𝗼𝗻𝗴 𝗿𝗲𝗰𝗮𝗹𝗹, 𝗯𝘂𝘁 𝗿𝗲𝘁𝗿𝗶𝗲𝘃𝗮𝗹 𝗺𝗮𝘆 𝘀𝘁𝗶𝗹𝗹 𝗳𝗮𝗶𝗹 𝗯𝗮𝗱𝗹𝘆 𝗳𝗼𝗿 𝗰𝗲𝗿𝘁𝗮𝗶𝗻 𝗾𝘂𝗲𝗿𝘆 𝘁𝘆𝗽𝗲𝘀. 𝗧𝗵𝗲 𝗽𝗿𝗼𝗯𝗹𝗲𝗺 𝗺𝗶𝗴𝗵𝘁 𝗯𝗲 𝗵𝗼𝘄 𝘆𝗼𝘂 𝗺𝗲𝗮𝘀𝘂𝗿𝗲 𝗿𝗲𝗰𝗮𝗹𝗹, 𝗲𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗹𝘆 𝗶𝗳 𝘆𝗼𝘂 𝗼𝗻𝗹𝘆 𝗹𝗼𝗼𝗸 𝗮𝘁 𝗮𝘃𝗲𝗿𝗮𝗴𝗲 𝗥𝗲𝗰𝗮𝗹𝗹@𝟱. Say your average Recall @5 is 85%. That looks healthy at first glance. But break it down by query type, and you find exact-term queries are at 40%. The other categories pulled the average up, and you never saw where it failed. 𝗗𝗼 𝗻𝗼𝘁 𝘁𝗿𝗲𝗮𝘁 𝗿𝗲𝗰𝗮𝗹𝗹 𝗮𝘀 𝗼𝗻𝗲 𝗻𝘂𝗺𝗯𝗲𝗿. 𝗦𝗼𝗿𝘁 𝘆𝗼𝘂𝗿 𝘁𝗲𝘀𝘁 𝗰𝗮𝘀𝗲𝘀 𝗯𝘆 𝘁𝘆𝗽𝗲: • Exact-term queries (product models, API names, contract IDs) • Multi-hop questions (answer spread across several documents) • Long-tail questions (rare, but high-risk when they fail) • Unanswerable questions (not in the knowledge base — the system should say so) • Permission-filtered questions (different users see different documents) 𝗣𝘂𝘁 𝗮𝘁 𝗹𝗲𝗮𝘀𝘁 𝟱–𝟭𝟬 𝗰𝗮𝘀𝗲𝘀 𝗶𝗻 𝗲𝗮𝗰𝗵 𝗰𝗮𝘁𝗲𝗴𝗼𝗿𝘆 𝗮𝗻𝗱 𝗰𝗵𝗲𝗰𝗸 𝗿𝗲𝗰𝗮𝗹𝗹 𝘀𝗲𝗽𝗮𝗿𝗮𝘁𝗲𝗹𝘆. 𝗪𝗵𝗲𝗻 𝗼𝗻𝗲 𝘀𝗲𝗴𝗺𝗲𝗻𝘁 𝗹𝗮𝗴𝘀, 𝘆𝗼𝘂 𝗸𝗻𝗼𝘄 𝘄𝗵𝗶𝗰𝗵 𝗽𝗮𝗿𝘁 𝗼𝗳 𝘁𝗵𝗲 𝗿𝗲𝘁𝗿𝗶𝗲𝘃𝗮𝗹 𝘀𝘁𝗮𝗰𝗸 𝘁𝗼 𝗶𝗻𝘀𝗽𝗲𝗰𝘁. 💬 0 🔄 0 ❤️ 0 👀 58 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLE08TfaAAATOkX.jpg",
+          "video": "",
+          "summary": "𝗬𝗼𝘂𝗿 𝘁𝗲𝘀𝘁 𝘀𝗲𝘁 𝘀𝗵𝗼𝘄𝘀 𝘀𝘁𝗿𝗼𝗻𝗴 𝗿𝗲𝗰𝗮𝗹𝗹, 𝗯𝘂𝘁 𝗿𝗲𝘁𝗿𝗶𝗲𝘃𝗮𝗹 𝗺𝗮𝘆 𝘀𝘁𝗶𝗹𝗹 𝗳𝗮𝗶𝗹 𝗯𝗮𝗱𝗹𝘆 𝗳𝗼𝗿 𝗰𝗲𝗿𝘁𝗮𝗶𝗻 𝗾𝘂𝗲𝗿𝘆 𝘁𝘆𝗽𝗲𝘀. 𝗧𝗵𝗲 𝗽𝗿𝗼𝗯𝗹𝗲𝗺 𝗺𝗶𝗴𝗵𝘁 𝗯𝗲 𝗵𝗼𝘄 𝘆𝗼𝘂 𝗺𝗲𝗮𝘀𝘂𝗿𝗲 𝗿𝗲𝗰𝗮𝗹𝗹, 𝗲𝘀𝗽𝗲𝗰𝗶𝗮𝗹𝗹𝘆 𝗶𝗳 𝘆𝗼𝘂 𝗼𝗻𝗹𝘆 𝗹𝗼𝗼𝗸 𝗮𝘁 𝗮𝘃𝗲𝗿𝗮𝗴𝗲 𝗥𝗲𝗰𝗮𝗹𝗹@𝟱. Say your average Recall @5 is 85%. That looks healthy at first glance. But break it down by query type, and you find exact-term queries are at 40%. The other categories pulled the average up, and you never saw where it failed. 𝗗𝗼 𝗻𝗼𝘁 𝘁𝗿𝗲𝗮𝘁 𝗿𝗲𝗰𝗮𝗹𝗹 𝗮𝘀 𝗼𝗻𝗲 𝗻𝘂𝗺𝗯𝗲𝗿. 𝗦𝗼𝗿𝘁 𝘆𝗼𝘂𝗿 𝘁𝗲𝘀𝘁 𝗰𝗮𝘀𝗲𝘀 𝗯𝘆 𝘁𝘆𝗽𝗲: • Exact-term queries (product models, API names, contract IDs) • Multi-hop questions (answer spread across several documents) • Long-tail questions (rare, but high-risk when they fail) • Unanswerable questions (not...",
+          "summaryZh": ", .，@。假设您的平均召回率 @5 为 85%。乍一看，这看起来很健康。但按查询类型细分，您会发现精确词查询占 40%。其他类别拉高了平均水平，但你永远看不到它失败的地方。： • 精确术语查询（产品型号、API 名称、合同 ID） • 多跳问题（答案分布在多个文档中） • 长尾问题（罕见，但失败时风险较高） • 无法回答的问题（不...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "RAG"
+          ],
+          "score": 46.656278017463215
+        },
+        {
+          "title": "Kilo-Org/kilocode",
+          "titleZh": "Kilo-Org/kilocode：Kilo 是一款一体化代理工程平台。使用最流行的开源编码",
+          "link": "https://github.com/Kilo-Org/kilocode",
+          "publishedAt": "2026-06-18T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star Kilo-Org / kilocode Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/c8d6fee75f008c2fdea40327429581e8879fbb62f316babe5947855e73739f0d/Kilo-Org/kilocode",
+          "video": "",
+          "summary": "Star Kilo-Org / kilocode Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+          "summaryZh": "Kilo 是一款一体化代理工程平台。使用最流行的开源编码代理更快地构建、发布和迭代。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体",
+            "开源"
+          ],
+          "score": 33
+        },
+        {
+          "title": "obra/superpowers",
+          "titleZh": "obra/superpowers：Superpowers Superpowers 是一种适",
+          "link": "https://github.com/obra/superpowers",
+          "publishedAt": "2026-06-18T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. We're Hiring! We're hiring someone to help out full time with Superpowers community and code work. You can read about the job at https://primeradiant.com/jobs/superpowers-community-engineer/ If this sounds like someone you know, definitely send them our way. Quickstart Give your agent Superpowers: Claude Code , An",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/7b92393564c6803b7467043ec71e57d8e7e8d0664df4daa3bb05ca6e64871927/obra/superpowers",
+          "video": "",
+          "summary": "Superpowers Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them. We're Hiring! We're hiring someone to help out full time with Superpowers community and code work. You can read about the job at https://primeradiant.com/jobs/superpowers-community-engineer/ If this sounds like someone you know, definitely send them our way. Quickstart Give your agent Superpowers: Claude Code , An",
+          "summaryZh": "Superpowers Superpowers 是一种适用于编码代理的完整软件开发方法，建立在一组可组合技能和一些初始指令之上，以确保您的代理使用它们。我们正在招聘！我们正在招聘某人全职帮助 Superpowers 社区和代码工作。您可以在以下位置阅读有关该职位的信息：如果这听起来像是您认识的人，请务必将其发送给我们。快速入门 赋予您的代理超能力：Claude Code，An",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "zai-org/GLM-5",
+          "titleZh": "zai-org/GLM-5：GLM-5.2 & GLM-5.1 & GLM-5 加入",
+          "link": "https://github.com/zai-org/GLM-5",
+          "publishedAt": "2026-06-18T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "GLM-5.2 & GLM-5.1 & GLM-5 👋 Join our Wechat or Discord community. 📖 Check out the GLM-5.2 blog and GLM-5 Technical report . 📍 Use GLM-5.2 API services on Z.ai API Platform. 🔜 Try GLM-5.2 at z.ai . Introduction GLM-5.2 GLM-5.2, our latest flagship model for long-horizon tasks. It marks a substantial leap in long-horizon task capability over its predecessor GLM-5.1 and, for the first time, delivers that capability on a solid 1M-token context . GLM-5.2's new capabilities include: Solid 1M Context: A solid 1M-token",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/zai-org/GLM-5/raw/main/resources/bench_51.png",
+          "video": "",
+          "summary": "GLM-5.2 & GLM-5.1 & GLM-5 👋 Join our Wechat or Discord community. 📖 Check out the GLM-5.2 blog and GLM-5 Technical report . 📍 Use GLM-5.2 API services on Z.ai API Platform. 🔜 Try GLM-5.2 at z.ai . Introduction GLM-5.2 GLM-5.2, our latest flagship model for long-horizon tasks. It marks a substantial leap in long-horizon task capability over its predecessor GLM-5.1 and, for the first time, delivers that capability on a solid 1M-token context . GLM-5.2's new capabilities include: Solid 1M Context: A solid 1M-token",
+          "summaryZh": "GLM-5.2 & GLM-5.1 & GLM-5 加入我们的微信或 Discord 社区。 查看 GLM-5.2 博客和 GLM-5 技术报告。 在Z.ai API平台上使用GLM-5.2 API服务。 尝试 z.ai 上的 GLM-5.2。简介 GLM-5.2 GLM-5.2，我们用于长视野任务的最新旗舰型号。它标志着长期任务能力相对于其前身 GLM-5.1 的重大飞跃，并且首次在可靠的 1M token环境中提供该能力。 GLM-5.2 的新功能包括： 可靠的 1M 上下文：可靠的 1M token",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Last week, we hosted Women who Code(x) The output: task agents, personal guides, and a lot of proje...",
+          "titleZh": "OpenAI：上周，我们举办了 Women who Code(x) 输出：任务代理",
+          "link": "https://x.com/OpenAIDevs/status/2067328594758848513",
+          "publishedAt": "Wed, 17 Jun 2026 19:28:40 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Last week, we hosted Women who Code(x) The output: task agents, personal guides, and a lot of projects shipped with Codex Your browser does not support the video tag. 🔗 View on Twitter 💬 37 🔄 29 ❤️ 390 👀 49026 📊 81 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-19-2067328594758848513.mp4",
+          "summary": "Last week, we hosted Women who Code(x) The output: task agents, personal guides, and a lot of projects shipped with Codex Your browser does not support the video tag. 🔗 View on Twitter 💬 37 🔄 29 ❤️ 390 👀 49026 📊 81 ⚡ Powered by xgo.ing",
+          "summaryZh": "上周，我们举办了 Women who Code(x) 输出：任务代理、个人指南以及 Codex 附带的许多项目。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 70.9383861145062
+        },
+        {
+          "title": "Introducing LifeSciBench, a benchmark for measuring and improving how well AI supports real-world li...",
+          "titleZh": "OpenAI：隆重推出 LifeSciBench，这是一个衡量和改进人工智能对现实世界生命科学研究的支",
+          "link": "https://x.com/OpenAI/status/2067346916929937827",
+          "publishedAt": "Wed, 17 Jun 2026 20:41:29 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "Introducing LifeSciBench, a benchmark for measuring and improving how well AI supports real-world life science research. Developed with 173 scientists from biotechnology and pharmaceutical research, LifeSciBench includes 750 expert-authored tasks across seven biological research workflows. openai.com/index/introduc… 💬 198 🔄 289 ❤️ 2863 👀 529146 📊 518 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLCs-hgaUAAuUAP.jpg",
+          "video": "",
+          "summary": "Introducing LifeSciBench, a benchmark for measuring and improving how well AI supports real-world life science research. Developed with 173 scientists from biotechnology and pharmaceutical research, LifeSciBench includes 750 expert-authored tasks across seven biological research workflows. openai.com/index/introduc… 💬 198 🔄 289 ❤️ 2863 👀 529146 📊 518 ⚡ Powered by xgo.ing",
+          "summaryZh": "隆重推出 LifeSciBench，这是一个衡量和改进人工智能对现实世界生命科学研究的支持程度的基准。 LifeSciBench 由来自生物技术和药物研究领域的 173 名科学家共同开发，包括 7 个生物研究工作流程中的 750 项专家编写的任务。 openai.com/index/introduc...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "评测"
+          ],
+          "score": 70
+        },
+        {
+          "title": "Introducing Brain in Computer. Brain is a continuously learning memory system. Every task on Comput...",
+          "titleZh": "介绍计算机中的大脑。大脑是一个不断学习的记忆系统",
+          "link": "https://x.com/perplexity_ai/status/2067642139014742348",
+          "publishedAt": "Thu, 18 Jun 2026 16:14:35 GMT",
+          "source": "Perplexity(@perplexity_ai)",
+          "sourceType": "social",
+          "description": "Introducing Brain in Computer. Brain is a continuously learning memory system. Every task on Computer plugs into a context graph built by Brain. It makes Computer more stateful with every run. Available as a research preview for all Perplexity Max subscribers. Your browser does not support the video tag. 🔗 View on Twitter 💬 130 🔄 144 ❤️ 1507 👀 257905 📊 387 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-19-2067642139014742348.mp4",
+          "summary": "Introducing Brain in Computer. Brain is a continuously learning memory system. Every task on Computer plugs into a context graph built by Brain. It makes Computer more stateful with every run. Available as a research preview for all Perplexity Max subscribers. Your browser does not support the video tag. 🔗 View on Twitter 💬 130 🔄 144 ❤️ 1507 👀 257905 📊 387 ⚡ Powered by xgo.ing",
+          "summaryZh": "介绍计算机中的大脑。大脑是一个不断学习的记忆系统。计算机上的每个任务都插入由 Brain 构建的上下文图中。它使计算机在每次运行时都更加有状态。所有 Perplexity Max 订阅者均可作为研究预览版获得。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "Use VMs with Grok Build preinstalled with one click",
+          "titleZh": "一键使用预装 Grok Build 的虚拟机",
+          "link": "https://x.com/xai/status/2067351099271745992",
+          "publishedAt": "Wed, 17 Jun 2026 20:58:06 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "description": "Use VMs with Grok Build preinstalled with one click DigitalOcean @digitalocean . @grok Build is on DigitalOcean Marketplace. 🆕☁️🤖 SSH in. Run grok. Build. @xAI 's coding agent, pre-configured on DigitalOcean Serverless Inference. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 41 🔄 77 ❤️ 690 👀 94122 📊 87 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-19-2067351099271745992.mp4",
+          "summary": "Use VMs with Grok Build preinstalled with one click DigitalOcean @digitalocean . @grok Build is on DigitalOcean Marketplace. 🆕☁️🤖 SSH in. Run grok. Build. @xAI 's coding agent, pre-configured on DigitalOcean Serverless Inference. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 41 🔄 77 ❤️ 690 👀 94122 📊 87 ⚡ Powered by xgo.ing",
+          "summaryZh": "一键使用预装了 Grok Build 的虚拟机 DigitalOcean。 Build 在 DigitalOcean Marketplace 上。 ☁ SSH 输入。运行 grok。建造。 的编码代理，在 DigitalOcean Serverless Inference 上预先配置。 查看引用的推文（要点：一键使用预装 Grok Build 的虚拟机。）",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "推理部署",
+            "视频"
+          ],
+          "score": 67
+        },
+        {
+          "title": "GPT-5.5 Instant is now on par with our frontier Thinking models for health-related questions. Every...",
+          "titleZh": "OpenAI：GPT-5.5 Instant 现在与我们针对健康相关问题的前沿思维模型相当",
+          "link": "https://x.com/OpenAI/status/2067672740539306261",
+          "publishedAt": "Thu, 18 Jun 2026 18:16:11 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "GPT-5.5 Instant is now on par with our frontier Thinking models for health-related questions. Every week, more than 230 million people turn to ChatGPT with health and wellness questions, and GPT-5.5 Instant is better at recognizing when urgent care may be needed, asking for relevant context, explaining uncertainty, and making complex information easier to understand. Because GPT-5.5 Instant is available to all free users in ChatGPT, these improvements can help more people. Physician-led evaluation was critical to making these major intelligence gains. Your browser does not support the video tag. 🔗 View on Twitter 💬 139 🔄 129 ❤️ 2195 👀 194255 📊 330 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "GPT-5.5 Instant is now on par with our frontier Thinking models for health-related questions. Every week, more than 230 million people turn to ChatGPT with health and wellness questions, and GPT-5.5 Instant is better at recognizing when urgent care may be needed, asking for relevant context, explaining uncertainty, and making complex information easier to understand. Because GPT-5.5 Instant is available to all free users in ChatGPT, these improvements can help more people. Physician-led evaluation was critical to making these major intelligence gains. Your browser does not support the video tag. 🔗 View on Twitter 💬 139 🔄 129 ❤️ 2195 👀 194255 📊 330 ⚡ Powered by xgo.ing",
+          "summaryZh": "GPT-5.5 Instant 现在与我们针对健康相关问题的前沿思维模型相当。每周都有超过 2.3 亿人向 ChatGPT 提出健康和保健问题，而 GPT-5.5 Instant 更擅长识别何时可能需要紧急护理、询问相关背景、解释不确定性以及使复杂信息更容易理解。由于 GPT-5.5 Instant 可供 ChatGPT 中的所有免费用户使用，因此这些改进可以帮助更多的人。医生主导的评估对于取得这些重大智力成果至关重要。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 65
+        },
+        {
+          "title": "North Mini Code is now supported on @ollama. Now, run our model locally, and use it with Codex, Open...",
+          "titleZh": "现在支持 North Mini 代码",
+          "link": "https://x.com/cohere/status/2067671127904698498",
+          "publishedAt": "Thu, 18 Jun 2026 18:09:47 GMT",
+          "source": "cohere(@cohere)",
+          "sourceType": "social",
+          "description": "North Mini Code is now supported on @ollama . Now, run our model locally, and use it with Codex, OpenClaw, and more. Download it here: cohere.link/SVwVbGZ 💬 1 🔄 7 ❤️ 67 👀 20707 📊 13 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLHWlvQWQAAN6hk.jpg",
+          "video": "",
+          "summary": "North Mini Code is now supported on @ollama . Now, run our model locally, and use it with Codex, OpenClaw, and more. Download it here: cohere.link/SVwVbGZ 💬 1 🔄 7 ❤️ 67 👀 20707 📊 13 ⚡ Powered by xgo.ing",
+          "summaryZh": "现在支持 North Mini 代码。现在，在本地运行我们的模型，并将其与 Codex、OpenClaw 等一起使用。在这里下载：cohere.link/SVwVbGZ。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 62.91145285493754
+        },
+        {
+          "title": "Together with researchers at Boston Children’s Hospital and Harvard, we published a study in NEJM AI...",
+          "titleZh": "OpenAI：我们与波士顿儿童医院和哈佛大学的研究人员一起在 NEJM AI 上发表了一项研究",
+          "link": "https://x.com/OpenAI/status/2067625110199247353",
+          "publishedAt": "Thu, 18 Jun 2026 15:06:55 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "Together with researchers at Boston Children’s Hospital and Harvard, we published a study in NEJM AI showing how o3 Deep Research helped clinicians revisit previously unsolved rare pediatric disease cases, and find answers for families who had waited years. Your browser does not support the video tag. 🔗 View on Twitter 💬 120 🔄 185 ❤️ 1692 👀 378387 📊 307 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Together with researchers at Boston Children’s Hospital and Harvard, we published a study in NEJM AI showing how o3 Deep Research helped clinicians revisit previously unsolved rare pediatric disease cases, and find answers for families who had waited years. Your browser does not support the video tag. 🔗 View on Twitter 💬 120 🔄 185 ❤️ 1692 👀 378387 📊 307 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们与波士顿儿童医院和哈佛大学的研究人员一起在 NEJM AI 上发表了一项研究，展示了 o3 Deep Research 如何帮助临床医生重新审视以前未解决的罕见儿科疾病病例，并为等待多年的家庭找到答案。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "Design in Claude. Build in Replit You can now send your design from Claude Design to Replit to turn...",
+          "titleZh": "Claude的设计。在 Replit 中构建 现​​在，您可以将您的设计从 Claude Design 发送到 Replit，将其变成可用的应用",
+          "link": "https://x.com/Replit/status/2067328501003497684",
+          "publishedAt": "Wed, 17 Jun 2026 19:28:18 GMT",
+          "source": "Replit ⠕(@Replit)",
+          "sourceType": "social",
+          "description": "Design in Claude. Build in Replit You can now send your design from Claude Design to Replit to turn it into a working app Your browser does not support the video tag. 🔗 View on Twitter 💬 30 🔄 69 ❤️ 718 👀 274444 📊 181 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-19-2067328501003497684.mp4",
+          "summary": "Design in Claude. Build in Replit You can now send your design from Claude Design to Replit to turn it into a working app Your browser does not support the video tag. 🔗 View on Twitter 💬 30 🔄 69 ❤️ 718 👀 274444 📊 181 ⚡ Powered by xgo.ing",
+          "summaryZh": "Claude的设计。在 Replit 中构建 现​​在，您可以将您的设计从 Claude Design 发送到 Replit，将其变成可用的应用。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "A technical dive inside our new \"Midjourney Scanner\"",
+          "titleZh": "我们新的“中途扫描仪”的技术探索",
+          "link": "https://x.com/midjourney/status/2067422898407837797",
+          "publishedAt": "Thu, 18 Jun 2026 01:43:24 GMT",
+          "source": "Midjourney(@midjourney)",
+          "sourceType": "social",
+          "description": "A technical dive inside our new \"Midjourney Scanner\" Your browser does not support the video tag. 🔗 View on Twitter 💬 1059 🔄 2664 ❤️ 23771 👀 8171121 📊 5628 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "A technical dive inside our new \"Midjourney Scanner\" Your browser does not support the video tag. 🔗 View on Twitter 💬 1059 🔄 2664 ❤️ 23771 👀 8171121 📊 5628 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们新的“中途扫描仪”的技术潜水。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        },
+        {
+          "title": "Announcing a new division of Midjourney called \"Midjourney Medical\"",
+          "titleZh": "宣布 Midjourney 成立一个新部门，名为“Midjourney Medical”",
+          "link": "https://x.com/midjourney/status/2067421950314688759",
+          "publishedAt": "Thu, 18 Jun 2026 01:39:38 GMT",
+          "source": "Midjourney(@midjourney)",
+          "sourceType": "social",
+          "description": "Announcing a new division of Midjourney called \"Midjourney Medical\" Your browser does not support the video tag. 🔗 View on Twitter 💬 1889 🔄 3529 ❤️ 29571 👀 10227448 📊 7118 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Announcing a new division of Midjourney called \"Midjourney Medical\" Your browser does not support the video tag. 🔗 View on Twitter 💬 1889 🔄 3529 ❤️ 29571 👀 10227448 📊 7118 ⚡ Powered by xgo.ing",
+          "summaryZh": "宣布中程成立新部门“中程医疗”。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 62
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "王昊奋：大模型越强，知识图谱反而越重要",
+          "titleZh": "王昊奋：大模型越强，知识图谱反而越重要",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a295a804b98e40f257bc40f",
+          "publishedAt": "2026-06-10T12:28:00.000Z",
+          "source": "AI炼金术",
+          "sourceType": "podcast",
+          "description": "大模型一来，很多人都觉得知识图谱、本体（ontology）这些“上古概念”该进博物馆了。王昊奋的判断正好相反： 大模型越强，它们反而越重要——本体和知识图谱，正是 AI Agent 需要的那道“缰绳”。 这一期很硬：从“企业为什么一直在建知识图谱”，一路聊到“Palantir 和 Claude 正在用两种相反的路子，做同一件事”。如果你在做 AI 落地、做 Agent，值得反复回听。 嘉宾 王昊奋 ｜同济大学长聘教授、博士生导师，开放知识图谱社区 OpenKG 发起人 亮点 知识图谱没过时，它成了 agent 的 harness 先想一个问题：让 AI 自己干活，最大的麻烦是什么？是它太自由、容易跑偏。可企业的决策错一次就赔钱，赔不起。怎么办？得给它加一道约束，逼它按规矩来——这道约束，行业里叫 harness。王昊奋说，别把 harness 想得多新鲜：把概念、关系、规矩定死，不许 AI 乱来，这件事知识图谱干了十几年了。所以他反问：「 本体也好、知识图谱，不就是一种更约束的东西吗？ 」结论就清楚了：大模型不但没淘汰知识图谱，反而因为它太能跑，才更需要知识图谱来给它上规矩。 Palantir 走本体优先，Claude 走模",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9mNTFhLWF1ZGlvZnJlZWhpZ2hxcHMvQjkvNzAvR01Db09TSUh2N0JGQUFWZ1B3SDNSN2VoLmpwZWc=.jpeg",
+          "video": "",
+          "summary": "大模型一来，很多人都觉得知识图谱、本体（ontology）这些“上古概念”该进博物馆了。王昊奋的判断正好相反： 大模型越强，它们反而越重要——本体和知识图谱，正是 AI Agent 需要的那道“缰绳”。 这一期很硬：从“企业为什么一直在建知识图谱”，一路聊到“Palantir 和 Claude 正在用两种相反的路子，做同一件事”。如果你在做 AI 落地、做 Agent，值得反复回听。 嘉宾 王昊奋 ｜同济大学长聘教授、博士生导师，开放知识图谱社区 OpenKG 发起人 亮点 知识图谱没过时，它成了 agent 的 harness 先想一个问题：让 AI 自己干活，最大的麻烦是什么？是它太自由、容易跑偏。可企业的决策错一次就赔钱，赔不起。怎么办？得给它加一道约束，逼它按规矩来——这道约束，行业里叫 harness。王昊奋说，别把 harness 想得多新鲜：把概念、关系、规矩定死，不许 AI 乱来，这件事知识图谱干了十几年了。所以他反问：「 本体也好、知识图谱，不就是一种更约束的东西吗？ 」结论就清楚了：大模型不但没淘汰知识图谱，反而因为它太能跑，才更需要知识图谱来给它上规矩。 Palantir 走本体优先，Claude 走模",
+          "summaryZh": "**讲了什么**：这一期来自 **AI炼金术**，主题是「王昊奋：大模型越强，知识图谱反而越重要」。大模型一来，很多人都觉得知识图谱、本体（ontology）这些“上古概念”该进博物馆了。王昊奋的判断正好相反：大模型越强，它们反而越重要——本体和知识图谱，正是 AI Agent 需要的那道“缰绳”。这一期很硬：从“企业为什么一直在建知识图谱”，一路聊到“Palantir 和 Claude 正在用两种相反的路子，做同一件事”。如果你在做 AI 落地、做 Agent，值得反复回听。嘉宾 王昊奋｜同济大学长聘教授、博士生导师，开放知识图谱社区 OpenKG 发起人 亮点 知识图谱没过时，它成了 agent 的 harness 先想一个问题：让 AI 自己干活，最大的麻烦是什么？是它太自由、容易跑偏。可企业的决策错一次就赔钱，赔不起。 **简介要点**： - 大模型一来，很多人都觉得知识图谱、本体（ontology）这些“上古概念”该进博物馆了。 - 王昊奋的判断正好相反：大模型越强，它们反而越重要——本体和知识图谱，正是 AI Agent 需要的那道“缰绳”。 - 如果你在做 AI 落地、做 Agent，值得反复回听。 - 嘉宾 王昊奋｜同济大学长聘教授、博士生导师，开放知识图谱社区 OpenKG 发起人 亮点 知识图谱没过时，它成了 agent 的 harness 先想一个问题：让 AI 自己干活，最大的麻烦是什么？",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "模型",
+            "大模型"
+          ],
+          "score": null
+        },
+        {
+          "title": "No.98 AI 时代，非程序员如何跨越技术鸿沟？晓宇的保姆级教学实录",
+          "titleZh": "No.98 AI 时代，非程序员如何跨越技术鸿沟？晓宇的保姆级教学实录",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a32c7804233e62bc54b9ad9",
+          "publishedAt": "2026-06-17T23:00:00.000Z",
+          "source": "Web Worker-AI程序员都爱听",
+          "sourceType": "podcast",
+          "description": "介绍 本期 Web Worker 播客是一期特别的线下局！我们在 Google I/O 活动现场抓到了老朋友晓宇。作为一名资深程序员，晓宇最近做了一件非常有意思的事——为“零基础的非程序员”开了一门 AI 编程（Vibe Coding）课。 在教小白用 AI 写代码的过程中，她遇到了各种令人啼笑皆非却又引人深思的挑战：从怎么打开终端，到用“澡堂子手环”解释 API，再到被杀毒软件拦截安装包…… 这不仅是一次消除“知识诅咒”的保姆级教学复盘，更引发了我们关于“技术被折叠”的深刻探讨。 有人质疑她是不是在贩卖焦虑、赚信息差？在面对极度内卷的 AI 行业时，我们又该如何缓解求职恐慌？ 无论你是想用 AI 提效的非程序员，还是对用户需求充满好奇的开发者，这期节目都能给你带来全新的视角与共鸣！ 注：报名备注 webworker听友即可享受折扣价 嘉宾介绍 晓宇： 努力转型中的 AI 程序员，面向非程序员的 AI 课程主理人。 时间轴 [ 00:00 ] Web Worker 线下局开场，老朋友晓宇分享近期尝试转型 AI 程序员的近况 [ 02:15 ] 为什么专门为非程序员开一门 AI 编程课？只因为朋友发出的求助信号 [ 05:30",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/nhvaDG-AoJD5Nsv5GP_uPsEvvrQ9.jpg",
+          "video": "",
+          "summary": "介绍 本期 Web Worker 播客是一期特别的线下局！我们在 Google I/O 活动现场抓到了老朋友晓宇。作为一名资深程序员，晓宇最近做了一件非常有意思的事——为“零基础的非程序员”开了一门 AI 编程（Vibe Coding）课。 在教小白用 AI 写代码的过程中，她遇到了各种令人啼笑皆非却又引人深思的挑战：从怎么打开终端，到用“澡堂子手环”解释 API，再到被杀毒软件拦截安装包…… 这不仅是一次消除“知识诅咒”的保姆级教学复盘，更引发了我们关于“技术被折叠”的深刻探讨。 有人质疑她是不是在贩卖焦虑、赚信息差？在面对极度内卷的 AI 行业时，我们又该如何缓解求职恐慌？ 无论你是想用 AI 提效的非程序员，还是对用户需求充满好奇的开发者，这期节目都能给你带来全新的视角与共鸣！ 注：报名备注 webworker听友即可享受折扣价 嘉宾介绍 晓宇： 努力转型中的 AI 程序员，面向非程序员的 AI 课程主理人。 时间轴 [ 00:00 ] Web Worker 线下局开场，老朋友晓宇分享近期尝试转型 AI 程序员的近况 [ 02:15 ] 为什么专门为非程序员开一门 AI 编程课？只因为朋友发出的求助信号 [ 05:30",
+          "summaryZh": "**讲了什么**：这一期来自 **Web Worker-AI程序员都爱听**，主题是「No.98 AI 时代，非程序员如何跨越技术鸿沟？晓宇的保姆级教学实录」。介绍 本期 Web Worker 播客是一期特别的线下局！我们在 Google I/O 活动现场抓到了老朋友晓宇。作为一名资深程序员，晓宇最近做了一件非常有意思的事——为“零基础的非程序员”开了一门 AI 编程（Vibe Coding）课。在教小白用 AI 写代码的过程中，她遇到了各种令人啼笑皆非却又引人深思的挑战：从怎么打开终端，到用“澡堂子手环”解释 API，再到被杀毒软件拦截安装包…… 这不仅是一次消除“知识诅咒”的保姆级教学复盘，更引发了我们关于“技术被折叠”的深刻探讨。有人质疑她是不是在贩卖焦虑、赚信息差？在面对极度内卷的 AI 行业时，我们又该如何缓解求职恐慌？ **简介要点**： - 作为一名资深程序员，晓宇最近做了一件非常有意思的事——为“零基础的非程序员”开了一门 AI 编程（Vibe Coding）课。 - 在面对极度内卷的 AI 行业时，我们又该如何缓解求职恐慌？ - 无论你是想用 AI 提效的非程序员，还是对用户需求充满好奇的开发者，这期节目都能给你带来全新的视角与共鸣！ - 注：报名备注 webworker听友即可享受折扣价 嘉宾介绍 晓宇： 努力转型中的 AI 程序员，面向非程序员的 AI 课程主理人。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "哪条路线，才能通往「世界模型」的终局？｜对话黄碧薇：Aether AI 创始人",
+          "titleZh": "哪条路线，才能通往「世界模型」的终局？｜对话黄碧薇：Aether AI 创始人",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a333a614233e62bc54ba990",
+          "publishedAt": "2026-06-18T16:00:00.000Z",
+          "source": "十字路口Crossing",
+          "sourceType": "podcast",
+          "description": "听《十字路口Crossing》上小宇宙。 AI 正在给各行各业带来改变，我们在「十字路口」关注变革与机会，寻找、访谈和凝聚 AI 时代的「积极行动者」，和他们一起，探索和拥抱新变化、新的可能性。 「十字路口」是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/Fn-V-e4dOc8LxBhO5hdRRkXzPm2R.png",
+          "video": "",
+          "summary": "听《十字路口Crossing》上小宇宙。 AI 正在给各行各业带来改变，我们在「十字路口」关注变革与机会，寻找、访谈和凝聚 AI 时代的「积极行动者」，和他们一起，探索和拥抱新变化、新的可能性。 「十字路口」是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。",
+          "summaryZh": "**讲了什么**：这一期来自 **十字路口Crossing**，主题是「哪条路线，才能通往「世界模型」的终局？｜对话黄碧薇：Aether AI 创始人」。\udea5 总有人在朝着星辰大海前进。世界模型是 2026 年 AI 与具身智能领域最热的关键词之一。但越是热门的词，越容易被过度使用：视频生成、3D 生成、JEPA、VLA、WAM，似乎都可以被叫作世界模型。可当我们真正谈论「世界模型」时，我们到底在谈论什么？本周「十字路口」邀请到 Aether AI 创始人 / CEO 黄碧薇教授。她从德国马克思普朗克研究所、CMU 到 UCSD，一路深耕因果发现与因果 AI，是这个领域的重要学术贡献者之一。 **简介要点**： - 世界模型是 2026 年 AI 与具身智能领域最热的关键词之一。 - 但越是热门的词，越容易被过度使用：视频生成、3D 生成、JEPA、VLA、WAM，似乎都可以被叫作世界模型。 - 可当我们真正谈论「世界模型」时，我们到底在谈论什么？ - 本周「十字路口」邀请到 Aether AI 创始人 / CEO 黄碧薇教授。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "模型"
+          ],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "LangChain Blog",
+      "url": "https://blog.langchain.dev/rss/",
+      "error": "请求超时（15000ms）：https://blog.langchain.dev/rss/"
+    },
+    {
+      "source": "宝玉的分享",
+      "url": "https://baoyu.io/feed.xml",
+      "error": "请求超时（15000ms）：https://baoyu.io/feed.xml"
+    },
+    {
+      "source": "deeplearning.ai",
+      "url": "https://rsshub.bestblogs.dev/deeplearning/the-batch",
+      "error": "请求超时（15000ms）：https://rsshub.bestblogs.dev/deeplearning/the-batch"
+    },
+    {
+      "source": "Last Week in AI",
+      "url": "https://lastweekin.ai/feed/",
+      "error": "请求超时（15000ms）：https://lastweekin.ai/feed/"
+    },
+    {
+      "source": "Microsoft Research Blog",
+      "url": "http://research.microsoft.com/rss/news.xml",
+      "error": "请求超时（15000ms）：http://research.microsoft.com/rss/news.xml"
+    },
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Greg Brockman(@gdb)",
+      "url": "https://api.xgo.ing/rss/user/af19d054e26a49129f23abfa82d9e268",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/af19d054e26a49129f23abfa82d9e268"
+    },
+    {
+      "source": "Fei-Fei Li(@drfeifei)",
+      "url": "https://api.xgo.ing/rss/user/a4bfe44bfc0d4c949da21ebd3f5f42a5",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/a4bfe44bfc0d4c949da21ebd3f5f42a5"
+    },
+    {
+      "source": "Thomas Wolf(@Thom_Wolf)",
+      "url": "https://api.xgo.ing/rss/user/4918efb13c47459b8dcaa79cfdf72d09",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/4918efb13c47459b8dcaa79cfdf72d09"
+    },
+    {
+      "source": "Logan Kilpatrick(@OfficialLoganK)",
+      "url": "https://api.xgo.ing/rss/user/4f63d960de644aeebd0aa97e4994dafe",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/4f63d960de644aeebd0aa97e4994dafe"
+    },
+    {
+      "source": "Rowan Cheung(@rowancheung)",
+      "url": "https://api.xgo.ing/rss/user/a636de3cbda0495daabd15b9fd298614",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/a636de3cbda0495daabd15b9fd298614"
+    },
+    {
+      "source": "李继刚(@lijigang_com)",
+      "url": "https://api.xgo.ing/rss/user/ca2fa444b6ea4b8b974fe148056e497a",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/ca2fa444b6ea4b8b974fe148056e497a"
+    },
+    {
+      "source": "Demis Hassabis(@demishassabis)",
+      "url": "https://api.xgo.ing/rss/user/4a884d5e2f3740c5a26c9c093de6388a",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/4a884d5e2f3740c5a26c9c093de6388a"
+    },
+    {
+      "source": "bolt.new(@boltdotnew)",
+      "url": "https://api.xgo.ing/rss/user/760ab7cd9708452c9ce1f9144b92a430",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/760ab7cd9708452c9ce1f9144b92a430"
+    },
+    {
+      "source": "宝玉(@dotey)",
+      "url": "https://api.xgo.ing/rss/user/97f1484ae48c430fbbf3438099743674",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/97f1484ae48c430fbbf3438099743674"
+    },
+    {
+      "source": "NotebookLM(@NotebookLM)",
+      "url": "https://api.xgo.ing/rss/user/221a88341acb475db221a12fed8208d0",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/221a88341acb475db221a12fed8208d0"
+    },
+    {
+      "source": "Google AI Developers(@googleaidevs)",
+      "url": "https://api.xgo.ing/rss/user/69d925d4a8d44221b03eecbe07bd0f74",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/69d925d4a8d44221b03eecbe07bd0f74"
+    },
+    {
+      "source": "Google Gemini App(@GeminiApp)",
+      "url": "https://api.xgo.ing/rss/user/6fb337feeec44ca38b79491b971d868d",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/6fb337feeec44ca38b79491b971d868d"
+    },
+    {
+      "source": "歸藏(guizang.ai)(@op7418)",
+      "url": "https://api.xgo.ing/rss/user/831fac36aa0a49a9af79f35dc1c9b5d9",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/831fac36aa0a49a9af79f35dc1c9b5d9"
+    },
+    {
+      "source": "Augment Code(@augmentcode)",
+      "url": "https://api.xgo.ing/rss/user/e153fdd077df458b8298d975c060dcc3",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/e153fdd077df458b8298d975c060dcc3"
+    },
+    {
+      "source": "向阳乔木(@vista8)",
+      "url": "https://api.xgo.ing/rss/user/9de19c78f7454ad08c956c1a00d237fe",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/9de19c78f7454ad08c956c1a00d237fe"
+    },
+    {
+      "source": "Kling AI(@Kling_ai)",
+      "url": "https://api.xgo.ing/rss/user/564237c3de274d58a04f064920817888",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/564237c3de274d58a04f064920817888"
+    },
+    {
+      "source": "Simon Willison(@simonw)",
+      "url": "https://api.xgo.ing/rss/user/30ad80be93c84e44acc37d5ddf31db57",
+      "error": "fetch failed"
+    }
+  ],
+  "summaryBullets": [
+    "**您的编码代理所做的不仅仅是编写代码**：它发布了发布视频",
+    "**上周，我们举办了 Women who Code(x) 输出：任务代理**：个人指南以及 Codex 附带的许多项目。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链",
+    "**让我们去打开模型吧！**：让我们去打开模型吧。Hassan 这个模型的设计很疯狂",
+    "**呼吁所有影响者和想要成为影响者的人：我们在这里帮助你爆炸**：推出 Influencer Ignition Kit — 4 种新的追随者提升技能：>角色构建器>内容总监>病毒挂"
+  ]
+}

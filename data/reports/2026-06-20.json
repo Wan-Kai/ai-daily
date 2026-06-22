@@ -1,0 +1,854 @@
+{
+  "date": "2026-06-20",
+  "generatedAt": "2026-06-19T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-20",
+  "stats": {
+    "sources": 135,
+    "fetched": 620,
+    "emailCandidates": 0,
+    "selected": 32,
+    "failures": 19
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Introducing /automate, a skill for agents to set up automations for you. Describe your task in plai...",
+          "titleZh": "Cursor：介绍 /automate，这是一项让客服人员为您设置自动化的技能",
+          "link": "https://x.com/cursor_ai/status/2067683814516858962",
+          "publishedAt": "Thu, 18 Jun 2026 19:00:11 GMT",
+          "source": "Cursor(@cursor_ai)",
+          "sourceType": "social",
+          "description": "Introducing /automate, a skill for agents to set up automations for you. Describe your task in plain language. Cursor configures the triggers, instructions, and tools. Your browser does not support the video tag. 🔗 View on Twitter 💬 103 🔄 240 ❤️ 3028 👀 195323 📊 578 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-20-2067683814516858962.mp4",
+          "summary": "Introducing /automate, a skill for agents to set up automations for you. Describe your task in plain language. Cursor configures the triggers, instructions, and tools. Your browser does not support the video tag. 🔗 View on Twitter 💬 103 🔄 240 ❤️ 3028 👀 195323 📊 578 ⚡ Powered by xgo.ing",
+          "summaryZh": "介绍 /automate，这是一项让客服人员为您设置自动化的技能。用通俗易懂的语言描述您的任务。光标配置触发器、指令和工具。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 73
+        },
+        {
+          "title": "As your work evolves, your credibility evolves with it. We're proud to be a featured partner in @Li...",
+          "titleZh": "Replit：随着你的工作的发展，你的信誉也会随之发展。我们很荣幸成为 @Li 的特色合作伙伴",
+          "link": "https://x.com/Replit/status/2068000881518252097",
+          "publishedAt": "Fri, 19 Jun 2026 16:00:06 GMT",
+          "source": "Replit ⠕(@Replit)",
+          "sourceType": "social",
+          "description": "As your work evolves, your credibility evolves with it. We're proud to be a featured partner in @LinkedIn 's connected apps launch. The work you've actually built on Replit can show up right on your in your Linkedin profile. Connect Replit and let your builds speak for themselves. news.linkedin.com/2026/visibilit… 💬 3 🔄 6 ❤️ 36 👀 5055 📊 8 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "As your work evolves, your credibility evolves with it. We're proud to be a featured partner in @LinkedIn 's connected apps launch. The work you've actually built on Replit can show up right on your in your Linkedin profile. Connect Replit and let your builds speak for themselves. news.linkedin.com/2026/visibilit… 💬 3 🔄 6 ❤️ 36 👀 5055 📊 8 ⚡ Powered by xgo.ing",
+          "summaryZh": "随着你的工作的发展，你的信誉也会随之发展。我们很荣幸成为 互联应用发布的特色合作伙伴。您实际在 Replit 上构建的作品可以直接显示在您的 Linkedin 个人资料中。连接 Replit，让您的构建不言而喻。 news.linkedin.com/2026/visibilit…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布"
+          ],
+          "score": 61.12077356553595
+        },
+        {
+          "title": "📣 @MicrosoftAI's MAI‑Code‑1‑Flash is now available across additional GitHub Copilot surfaces. Desi...",
+          "titleZh": "的 MAI‑Code‑1‑Flash 现",
+          "link": "https://x.com/github/status/2067704358821597555",
+          "publishedAt": "Thu, 18 Jun 2026 20:21:49 GMT",
+          "source": "GitHub(@github)",
+          "sourceType": "social",
+          "description": "📣 @MicrosoftAI 's MAI‑Code‑1‑Flash is now available across additional GitHub Copilot surfaces. Designed and tuned specifically for GitHub Copilot, it delivers best‑in‑class quality for its size, outperforming other small models in early testing. Try it out in Copilot CLI or the GitHub Copilot app. github.blog/changelog/2026… V 💬 12 🔄 38 ❤️ 296 👀 30779 📊 45 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "📣 @MicrosoftAI 's MAI‑Code‑1‑Flash is now available across additional GitHub Copilot surfaces. Designed and tuned specifically for GitHub Copilot, it delivers best‑in‑class quality for its size, outperforming other small models in early testing. Try it out in Copilot CLI or the GitHub Copilot app. github.blog/changelog/2026… V 💬 12 🔄 38 ❤️ 296 👀 30779 📊 45 ⚡ Powered by xgo.ing",
+          "summaryZh": "的 MAI‑Code‑1‑Flash 现已在其他 GitHub Copilot 界面上提供。它专为 GitHub Copilot 设计和调整，在其尺寸内提供一流的质量，在早期测试中优于其他小型模型。在 Copilot CLI 或 GitHub Copilot 应用中尝试一下。 github.blog/changelog/2026…V。这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "开源"
+          ],
+          "score": 60.91950128687188
+        },
+        {
+          "title": "Pull requests are easier to open than ever, but every review still takes human effort. Introducing ...",
+          "titleZh": "拉取请求比以往任何时候都更容易打开，但每次审查仍然需要人力",
+          "link": "https://x.com/github/status/2067751695514542329",
+          "publishedAt": "Thu, 18 Jun 2026 23:29:55 GMT",
+          "source": "GitHub(@github)",
+          "sourceType": "social",
+          "description": "Pull requests are easier to open than ever, but every review still takes human effort. Introducing pull request limits: maintainers can cap how many open PRs contributors without write access can have and set a bypass list for trusted contributors. More signal, less queue noise. Your browser does not support the video tag. 🔗 View on Twitter 💬 16 🔄 32 ❤️ 319 👀 51208 📊 50 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-20-2067751695514542329.mp4",
+          "summary": "Pull requests are easier to open than ever, but every review still takes human effort. Introducing pull request limits: maintainers can cap how many open PRs contributors without write access can have and set a bypass list for trusted contributors. More signal, less queue noise. Your browser does not support the video tag. 🔗 View on Twitter 💬 16 🔄 32 ❤️ 319 👀 51208 📊 50 ⚡ Powered by xgo.ing",
+          "summaryZh": "拉取请求比以往任何时候都更容易打开，但每次审查仍然需要人力。引入拉取请求限制：维护人员可以限制没有写访问权限的开放 PR 贡献者可以拥有的开放 PR 数量，并为受信任的贡献者设置绕过列表。更多的信号，更少的队列噪音。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "视频"
+          ],
+          "score": 58.352096157054476
+        },
+        {
+          "title": "We've also added GitHub triggers for issues, reviews, and workflow runs, plus computer use for cloud...",
+          "titleZh": "Cursor：我们还添加了用于问题、评论和工作流程运行的 GitHub 触发器，以及用于云的计算机使用",
+          "link": "https://x.com/cursor_ai/status/2067683818488930393",
+          "publishedAt": "Thu, 18 Jun 2026 19:00:12 GMT",
+          "source": "Cursor(@cursor_ai)",
+          "sourceType": "social",
+          "description": "We've also added GitHub triggers for issues, reviews, and workflow runs, plus computer use for cloud agents. See the full update here: cursor.com/changelog/06-1… 💬 2 🔄 3 ❤️ 103 👀 27716 📊 14 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We've also added GitHub triggers for issues, reviews, and workflow runs, plus computer use for cloud agents. See the full update here: cursor.com/changelog/06-1… 💬 2 🔄 3 ❤️ 103 👀 27716 📊 14 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们还添加了用于问题、评论和工作流程运行的 GitHub 触发器，以及云代理的计算机使用。请在此处查看完整更新：cursor.com/changelog/06-1。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "开源"
+          ],
+          "score": 57.413493927314065
+        },
+        {
+          "title": "Record & Replay is an optional feature rolling out to select markets, with broader availability ...",
+          "titleZh": "OpenAI：录制和重播是一项可选功能，已向特定市场推出，并且未来将提供更广泛的可用性",
+          "link": "https://x.com/OpenAIDevs/status/2067681321695191545",
+          "publishedAt": "Thu, 18 Jun 2026 18:50:17 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Record & Replay is an optional feature rolling out to select markets, with broader availability to come. https://t.co/nALATgauj5 💬 15 🔄 31 ❤️ 491 👀 70620 📊 97 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Record & Replay is an optional feature rolling out to select markets, with broader availability to come. https://t.co/nALATgauj5 💬 15 🔄 31 ❤️ 491 👀 70620 📊 97 ⚡ Powered by xgo.ing",
+          "summaryZh": "录制和重播是一项可选功能，已向特定市场推出，并且未来将提供更广泛的可用性。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 57.25568114474716
+        },
+        {
+          "title": "Claude Code 推出 Artifact 功能：AI 编程从终端走向可视化协作 Claude Code 现在可以把工作过程生成 Artifact，简单说就是一个实时更新的网页。PR 走查、系统...",
+          "titleZh": "Claude Code 推出 Artifact 功能：AI 编程从终端走向可视化协作 Claude Code 现在可以把工作过程生成 Artifact，简单说就",
+          "link": "https://x.com/dotey/status/2067708784106160322",
+          "publishedAt": "Thu, 18 Jun 2026 20:39:24 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "Claude Code 推出 Artifact 功能：AI 编程从终端走向可视化协作 Claude Code 现在可以把工作过程生成 Artifact，简单说就是一个实时更新的网页。PR 走查、系统架构说明、调试时间线、发布清单，这些原本只存在于终端会话里的东西，现在变成一个链接，发给团队成员直接打开就能看。 生成 Artifact 时，Claude Code 会用到当前会话的完整上下文，包括代码库、已接入的外部工具（比如监控系统）和对话内容。一个事故调查页面可以同时展示出错的测试代码、监控工具里的错误曲线，以及 Claude 的根因分析推理，不需要你手动接数据源或搭基础设施。 Artifact 会随会话进展自动更新。每次更新后，打开页面的人立刻能看到最新版本，同一个链接始终有效，历史版本也可以随时回溯。 Anthropic 在内部测试中发现，最高频的场景是调试。一个工程师在早会前启动事故排查，Claude Code 查着日志就发布了一个 Artifact：时间线、可疑提交、错误率图表。她把链接丢进群里，等早会开始时页面已经更新了两次。团队不用再听\"我来介绍一下 agent 查到了什么\"，所有人看着同一个页面讨论就行。 这其实解决了 AI 编程工具的一个实际问题：agent 在终端里干了很多活，但成果只有操作者自己看得到，团队协作时还得靠人肉\"翻译\"。Artifact 把这个中间环节省了。 安全方面，Artifact 默认私有，只有同组织内认证成员可以查看，不能公开。管理员可以控制组织级开关、设置角色权限和数据保留策略。 除了调试和 PR 走查，Anthropic 列出的用例还包括：法务用它审计所有第三方依赖的开源许可证，安全团队做代码审查报告并把每个发现链接到具体代码行，平台财务从 Terraform 代码里提取云资源成本分布，设计师用真实组件库生成多套 UI 方案直接挑选。 目前 Artifact 功能以 beta 形式向 Claude Team 和 Enterprise 组织开放，可通过 Claude Code CLI 和桌面应用生成，页面在任何浏览器里查看。个人用户暂时用不了。 Claude @claudeai New in Claude Code: Artifacts. Interactive pages built from your session, like a PR walkthrough or a living project dashboard, shared with your team at a private link. Available in beta on Team and Enterprise plans. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 71 🔄 30 ❤️ 179 👀 37148 📊 81 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-06-20-2067708784106160322.mp4",
+          "summary": "Claude Code 推出 Artifact 功能：AI 编程从终端走向可视化协作 Claude Code 现在可以把工作过程生成 Artifact，简单说就是一个实时更新的网页。PR 走查、系统架构说明、调试时间线、发布清单，这些原本只存在于终端会话里的东西，现在变成一个链接，发给团队成员直接打开就能看。 生成 Artifact 时，Claude Code 会用到当前会话的完整上下文，包括代码库、已接入的外部工具（比如监控系统）和对话内容。一个事故调查页面可以同时展示出错的测试代码、监控工具里的错误曲线，以及 Claude 的根因分析推理，不需要你手动接数据源或搭基础设施。 Artifact 会随会话进展自动更新。每次更新后，打开页面的人立刻能看到最新版本，同一个链接始终有效，历史版本也可以随时回溯。 Anthropic 在内部测试中发现，最高频的场景是调试。一个工程师在早会前启动事故排查，Claude Code 查着日志就发布了一个 Artifact：时间线、可疑提交、错误率图表。她把链接丢进群里，等早会开始时页面已经更新了两次。团队不用再听\"我来介绍一下 agent 查到了什么\"，所有人看着同一个页面讨论就行。...",
+          "summaryZh": "Claude Code 推出 Artifact 功能：AI 编程从终端走向可视化协作 Claude Code 现在可以把工作过程生成 Artifact，简单说就是一个实时更新的网页。PR 走查、系统架构说明、调试时间线、发布清单，这些原本只存在于终端会话里的东西，现在变成一个链接，发给团队成员直接打开就能看。 生成 Artifact 时，Claude Code 会用到当前会话的完整上下文，包括代码库、已接入的外部工具（比如监控系统）和对话内容。一个事故调查页面可以同时展示出错的测试代码、监控工具里的错误曲线，以及 Claude 的根因分析推理，不需要你手动接数据源或搭基础设施。 Artifact 会随会话进展自动更新。每次更新后，打开页面的人立刻能看到最新版本，同一个链接始终有效，历史版本也可以随时回溯。 Anthropic 在内部测试中发现，最高频的场景是调试。一个工程师在早会前启动事故排查，Claude Code 查着日志就发布了一个 Artifact：时间线、可疑提交、错误率图表。她把链接丢进群里，等早会开始时页面已经更新了两次。团队不用再听\"我来介绍一下 agent 查到了什么\"，所有人看着同一个页面讨论就行。...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "视频",
+            "安全",
+            "开源"
+          ],
+          "score": 56.7160665959785
+        },
+        {
+          "title": "Cursor Automations now support an emoji trigger in Slack. React to any message to kick off a run.",
+          "titleZh": "Cursor：光标自动化现在支持 Slack 中的表情符号触发器。对任何消息做出反应即可开始跑步。",
+          "link": "https://x.com/cursor_ai/status/2067683817113137173",
+          "publishedAt": "Thu, 18 Jun 2026 19:00:12 GMT",
+          "source": "Cursor(@cursor_ai)",
+          "sourceType": "social",
+          "description": "Cursor Automations now support an emoji trigger in Slack. React to any message to kick off a run. Your browser does not support the video tag. 🔗 View on Twitter 💬 6 🔄 4 ❤️ 191 👀 20672 📊 25 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-20-2067683817113137173.mp4",
+          "summary": "Cursor Automations now support an emoji trigger in Slack. React to any message to kick off a run. Your browser does not support the video tag. 🔗 View on Twitter 💬 6 🔄 4 ❤️ 191 👀 20672 📊 25 ⚡ Powered by xgo.ing",
+          "summaryZh": "光标自动化现在支持 Slack 中的表情符号触发器。对任何消息做出反应即可开始跑步。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 55.84934822045202
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Testing Mythos and Fable, Moving Beyond SWE-bench, Nvidia's Open Contender",
+          "titleZh": "测试神话和寓言，超越 SWE-bench，Nvidia 的公开竞争者",
+          "link": "https://www.deeplearning.ai/the-batch/issue-358",
+          "publishedAt": "Fri, 19 Jun 2026 14:00:21 GMT",
+          "source": "deeplearning.ai",
+          "sourceType": "research",
+          "description": "The Batch AI News and Insights: Over the last two weeks, both the U.S. Government and Anthropic took significant actions that demonstrated their power to control access to AI by restricting what others can do with frontier models. Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Over the last two weeks, both the U.S. Government and Anthropic took significant actions that demonstrated their power to control access to AI by restricting what others can do with frontier models. This has been one of those moments that, once seen, will be hard to unsee, and it is significantly accelerating many businesses’ and nation states’ efforts to ensure reliable access to AI that no one else can terminate.&nbsp; Anthropic first released Claude Fable 5, a version of its Mythos model with additional guardrails, including some restrictions that seem well justified on safety grounds (such as limitations on applying it to hacking, bioweapons, and so forth). However, it also restricted developers’ ability to use it to build competing LLM technology. This move was concerning, given that the whole AI community, including Anthropic, has benefitted tremendously from open research — indeed, the AI revolution was kicked off by my former team (Google Brain) freely publishing the Transformers paper! Imagine if Microsoft’s terms of use barred anyone from using their tools to build competitive software, or if Google barred using it to search for information to work on competing search engines. Anthropic’s argument that it was unsafe for others to be able to make advances in AI also rang hollow. Initially, Anthropic silently degraded Fable 5’s performance for users detected to be working on LLM research through invisible interventions that weakened the model’s outputs without notifying the user.&nbsp;After significant backlash, it walked back this decision and decided to be transparent when it did this, but it still refuses to use its latest capabilities to help AI researchers. This move represents a raw demonstration of power by Anthropic. It has used “safety”&nbsp;arguments to hinder potential competitors. Platforms succeed when they are viewed as stable, reliable partners that one can build on. The sudden rule changes by Anthropic (including a mandatory 30 day data retention policy for Fable usage) have made developers wonder about the stability of building on any one proprietary LLM provider, not just Anthropic. The U.S. Government then shortly followed with an even greater demonstration of power. It used the Commerce Department’s authority to regulate technologies that may be national security threats to restrict exports of Mythos and Fable, requiring a license for use by any foreign national, whether inside or outside of the U.S., including employees of Anthropic. This led Anthropic to disable access to Fable to all users worldwide. Sam Altman pointed out, referring to Anthropic, “It is clearly incredible marketing to say, ‘We have built a bomb, we are about to drop it on your head. We will sell you a bomb shelter for $100 million.’” But when one engages in this type of fear-based marketing, it increases the odds that the U.S. Government will agree with you and slap export controls on the bomb you say you have built. To be clear, I don't think Anthropic has built anything like a bomb, and I don't think export controls on Fable are appropriate. However, following the U.S. Government making this move, many nations, including U.S. allies, saw how the U.S. can suddenly yank their access to AI models. In many capitals around the world, this has spurred discussions on AI sovereignty and how others can ensure uninterrupted access to this critical technology. For decades, many nations were comfortable having many parts of their supply chain rely on the U.S., China, and other major producers. Once a nation issues a threat, or takes action, to limit other nations’&nbsp;access, other nations will rationally try to secure alternatives. For decades, semiconductor manufacturing in China made slow progress; once the U.S. moved to limit China’s access, China’s efforts kicked into high gear. Similarly, once China threatened U.S. access to rare earth minerals, U.S. efforts to secure alternatives accelerated. Now that it has become crystal clear that private U.S. companies and the U.S. government can limit, in short order, other nations’&nbsp;access to frontier AI models, the incentive of others to invest more in alternatives like&nbsp; open source &nbsp;grows significantly. Of course, training frontier models is not easy, so it remains to be seen how successful they are, but we have crossed the rubicon. Satya Nadella wrote an&nbsp; essay &nbsp;about the importance of building a healthy ecosystem on top of frontier AI technology. I heartily agree with him, and hope this week’s events will ultimately prove to be constructive steps toward this. I hope we can build a more free, more open world, where research is freely shared, and laws and societal norms shape a level playing field that allows everyone to make progress. A silver lining of the events of these past two weeks is now that everyone better realizes key points of instability of the current system, we can all work to create a more stable foundation. Keep building! Andrew&nbsp; A MESSAGE FROM&nbsp; DEEPLEARNING.AI Learn to add voice to your AI agents and applications using three practical patterns: embed voice in an app, layer it onto an existing agent, or give your agent a tool to place outbound phone calls.&nbsp; Enroll for free News Claude’s Benchmark Problems Before Anthropic pulled its latest Claude models from circulation, even professional testers couldn’t readily tell whether they were getting a Mythos-class model or a lesser version under the same name. What’s new: &nbsp;Multiple independent organizations reported that they could not fully evaluate&nbsp; Claude Fable 5 , the safeguarded, publicly available version of Anthropic’s Claude Mythos 5. In all cases, the model refused some test prompts or routed them to the less capable Claude Opus 4.8. Some evaluators withheld proprietary prompts because of Anthropic’s new data retention policy. How Claude Fable 5 works: &nbsp;Anthropic’s classifiers screened each prompt before it reached Claude Fable 5. A flagged prompt was either answered by a weaker model in its place or refused outright. To use Claude Fable 5, all users must accept&nbsp;Anthropic&nbsp; retaining &nbsp;prompts and outputs for 30 days. Classifiers screened each prompt for questions about cybersecurity, biology and chemistry, or AI model engineering. A flagged prompt never reached Claude Fable 5. In Anthropic’s own apps, including the Claude Code harness used in some evaluations, flagged prompts were routed automatically to Claude Opus 4.8, which answered in Claude Fable 5’s place. But Claude Code recorded the switch in a separate log event rather than in the answer text. Evaluators had to search the logs and separate out tasks Claude Opus 4.8 had answered if they wished to distinguish between responses from Claude Opus 4.8 and Claude Fable 5. Through the API (which is how most evaluators used the model), the same flag produced an outright refusal and no answer. In this case, the evaluator can enable a fallback to retry the prompt on Claude Opus 4.8 or score the task as a failure. How evaluators scored the model: &nbsp;Each chose between a “pure” evaluation of Claude Fable 5, to try to measure its capabilities without influence from Claude Opus 4.8, and a “practical” evaluation of the model,&nbsp;including refusals and fallbacks. Claude Mythos 5 was not publicly released and so could not be independently evaluated.&nbsp; Artificial Analysis, which evaluated Claude Fable 5 before its launch,&nbsp; recorded &nbsp;the model falling back to Claude Opus 4.8 on roughly 8 percent of tasks in its Intelligence Index, a composite of 10 tests of economically useful tasks. Most of these fallbacks were responses to science questions. Artificial Analysis included all fallback responses as part of its evaluation, producing blended scores. Vals AI, which tests both public and proprietary benchmarks of economically useful AI tasks,&nbsp; published &nbsp;two sets of scores for Claude Fable 5, one including Claude Opus 4.8 fallback answers and one that counted every refusal as a failure. Vals AI also reported a nearly 100 percent rate of refusals on biology and cybersecurity questions. On Agents’ Last Exam, a test of long-horizon agentic tasks with verifiable outcomes, evaluators&nbsp; reported &nbsp;that Claude Fable 5 refused about 35 percent of tasks. The model flagged science questions as “cybersecurity or biology” and switched to Claude Opus 4.8 mid-task, recording the task in a separate log event rather than in the response. The evaluators compared Claude Fable 5’s performance to other models on both “untouched” tasks (where all answers were only generated by Claude Fable 5) and composite tasks (where Claude Opus 4.8 contributed some or all of the response). ARC Prize Foundation, which runs the ARC-AGI abstract reasoning tests,&nbsp; declined &nbsp;to run its verified evaluations rather than expose its private test set to the retention requirement and said it would post those results if&nbsp;it could test without handing the questions over. Results: &nbsp;Claude Fable 5 ranks highest on questions it answered without fallback responses. Where Claude Opus 4.8 answered the refused prompts in its place, Claude Fable 5 still ranked at or near the top. Where refusals were scored as failures or the two models were measured apart, its standing dropped significantly. On Artificial Analysis’ Intelligence Index, Claude Fable 5 (including fallback responses by Claude Opus 4.8) placed first at 64.9, 3.5 percent higher than Claude Opus 4.8. Despite refusing 9 percent of test questions on Humanity’s Last Exam, Claude Fable 5 finished with a score of 53 percent, the highest score yet recorded and more than 7 percent higher than Claude Opus 4.8. On Vals AI’s test suite, which it ran with Anthropic’s optional fallback enabled so that Claude Fable 5’s refusals were retried on Claude Opus 4.8, Claude Fable 5 placed first on most of its benchmarks, including 75.14 percent on the overall Vals Index. Counting those refusals as failures only dropped its overall score to 74.92 percent&nbsp;but gutted its scores in flagged domains. For example, on GPQA Diamond (graduate-level science questions), Claude Fable 5 fell from 93.18 percent accuracy (second place) to 55.56 percent (94th place). On Agents’ Last Exam, the tasks Claude Code/Claude Fable 5 answered itself earned a pass rate of 22.8 percent, close to Codex/GPT-5.5 (23.8 percent) and well ahead of Claude Code/Claude Opus 4.8 (15.8 percent). On tasks where Claude Fable 5’s safeguards diverted responses to Claude Opus 4.8, the result fell to 17.6 percent. Claude Fable 5’s composite pass rate was 22.0 percent, behind GPT-5.5 at 24.0 percent. Why it matters:&nbsp; What Anthropic describes as safety measures have made direct measurement of Claude Fable 5’s capabilities impossible. Measuring the model with its safeguards bypassed would not settle the question. A score taken without the classifiers describes a version of Claude Fable 5 the public can’t reach. And any score taken with classifiers describes a moving target since Anthropic can retune them at any time. We’re thinking: &nbsp;Benchmarks typically ask how capable a model is. Anthropic’s Claude Fable 5 forces a more material question: How much of that capability do its users actually receive? That gap is what evaluators must now capture, reporting not just a model’s peak score but what a developer can count on in practice. (Anecdotally, Fable is a remarkable coding model, and we look forward to when access to it is restored, or other providers offer models of a similar capability.)&nbsp; Agentic Tests&nbsp;Beyond the Bug Hunt SWE-bench, a family of benchmarks that focuses on an LLM’s ability to fix software&nbsp;bugs, is giving way to new tests that evaluate agent software-engineering performance in more challenging ways. What’s new: &nbsp;Three recently released benchmarks are strong contenders to replace the SWE-bench family (SWE-bench, SWE-Bench Pro, SWE-bench Multilingual, and SWE-bench Verified). DeepSWE ,&nbsp;which measures agents’ feature-implementation capabilities by posing problems that are more challenging to diagnose and require more code to solve. ProgramBench &nbsp;measures how well agents can develop new programs from ideas entered as prompts. ITBench-AA &nbsp;extends&nbsp;testing an agent’s ability to diagnose issues within modern hardware stacks. DeepSWE : Developed by Datacurve, DeepSWE is closest in intent to SWE-bench, which has been forked multiple times since LLMs started routinely acing it. DeepSWE presents examples that have been vetted by human experts and minimizes the risk that it might contaminate training datasets by drawing examples from private code bases. It consists of 113 problems in 5 languages. Independent benchmark firm Artificial Analysis recently&nbsp; replaced &nbsp;SWE-Bench Pro with DeepSWE for its Intelligence and Coding Agent indices. Given a brief prompt (in contrast to the detailed prompts in SWE-Bench Pro, a revision of SWE-bench), the agentic harness mini-swe-agent must use an LLM to devise a solution from many&nbsp;acceptable possibilities. The solutions require around 5.5 times more lines of code than SWE-Bench Pro.&nbsp; Unlike SWE-bench, DeepSWE uses human-written problems and tests to verify potential solutions. The problems are based on real&nbsp;repositories, but not taken from existing or solved code. For example, one task is “Extend indexing ranges so arrays and strings support a third slice component: value[start:end:step]” in the ABS programming language GitHub&nbsp; repository . Currently, GPT-5.5 set to xhigh reasoning leads DeepSWE, solving 70 percent of the problems. Next-best is Claude Opus 4.8, which solved 58 percent. Gemini 3 Flash achieved 5 percent, making for&nbsp;a 65 point spread across the three leading models. ProgramBench : Developed by researchers at Meta, Stanford, and Harvard, ProgramBench tests how well a model&nbsp;controlled by the SWE-agent harness turns 200 ideas into functional programs without human oversight. The agent, which has access to a console that can execute an existing program, must reproduce the program by producing its inputs and outputs. The authors built the benchmark using an agent (either mini-SWE-agent or SWE-agent) with Claude Sonnet 4.5 to (i) identify a&nbsp;candidate repository, (ii) build an executable program, (iii) generate tests that show what happens when the program processes various inputs, and (iv) build a testing environments including a compiled executable program, documentation of how to use the executable, and test assets the model might not be able to generate, like images. The programs to be replicated range from easy to hard. For instance, one called entr&nbsp;simply runs a command when a file changes. A&nbsp;more complicated program called&nbsp;ffmpeg encodes, decodes, and otherwise processes audio and video. So far, no model has been able to create programs that pass all the tests. Lowering the bar to passing at least 95 percent, Claude Opus 4.7 reproduced 3 percent of the programs, Claude Opus 4.6 reproduced 2.5 percent, and Claude Sonnet 4.6 reproduced 1.6 percent. At the time of&nbsp;publication, no other model has reproduced any of the programs. ITBench-AA : Developed by IBM and the independent testing lab Artificial Analysis, ITBench-AA updates IBM’s earlier&nbsp; ITBench . It tests the ability of a model controlled by Artificial Analysis’ Stirrup harness to diagnose the technical conditions that lead software systems to make an error, such as running out of memory or changing a configuration file incorrectly. ITBench-AA consists of 59 human-written incidents based on real-world events. Each incident includes alerts, events, error traces, system metrics, manifests of all the applications involved, as well as a ground-truth diagnosis of the root cause. For example, in one incident, a program faced seven different alerts that mentioned high error rates. The diagnosis was human error (servers were taken offline for maintenance). ITBench-AA measures full recall, the ratio of correct diagnoses to all diagnoses; if a model misses any root cause, it will achieve zero for that incident. Among models tested so far, Claude Opus 4.7 set to max reasoning achieved 46.7 percent, the highest full recall. GPT-5.5 set to xhigh reasoning achieved 45.8 percent. At the bottom of the list, Llama 3.3 70B achieved 0.6 percent, a spread of over 40 percent. Why it matters : For years, the best measurements of a model’s general agentic capabilities were SWE-bench and its variants. They were designed primarily to measure the ability of models, and later agents, to fix bugs and solve other basic software engineering problems. Over time, the models became capable enough to achieve nearly 100 percent (possibly because the benchmark problems found their way into the models’ training data). Meanwhile, agents took on more difficult tasks, running longer with less-specific and less-consistent human instructions. DeepSWE, ProgramBench, and ITBench-AA, despite their different&nbsp;approaches, all pose&nbsp;problems that add both complexity and specificity and are unlikely to be in models’ training sets. We're thinking : It’s heartening to see how far agents have come, and humbling to know how much room they still have to improve. N vidia’s Nemotron Goes Big Nvidia’s largest-yet model is among the best-performing from a developer based in the U.S. and among the most open developed by anyone. What’s new: &nbsp;Built on a hybrid transformer-mamba architecture,&nbsp; Nemotron 3 Ultra &nbsp;is a large language model built for long-running agentic tasks. It’s far faster than competitors but its performance is not in the top tier. Nvidia published its weights, training data and recipes, and reinforcement learning environments. Input/output: &nbsp;Text in (up to 1 million tokens), text out (around 183 tokens per second) Architecture: &nbsp;Mamba-transformer mixture-of-experts (550 billion parameters total, 55 billion active per token) Features: &nbsp;Three reasoning modes (off, regular, medium), reasoning budget, tool use, fine-tuned for open agent harnesses such as Hermes Agent and OpenClaw, multilingual (12 languages) Performance: &nbsp;Highest-scoring U.S. open-weights model on the Artificial Analysis Intelligence Index, fastest among open-weights models of comparable intelligence Availability/price: &nbsp; Weights and data &nbsp;as well as&nbsp; code &nbsp;freely available under&nbsp; OpenMDW-1.1 &nbsp;license, chat via Perplexity Pro subscription, API via Nvidia and other vendors at a median $0.60/$2.60 per million input/output tokens. How it works: &nbsp;Nemotron 3 Ultra&nbsp; scales up &nbsp;the design of the smaller Nemotron 3 Super. It interleaves mamba and self-attention layers within a mixture-of-experts structure. Nvidia refined the model via supervised fine-tuning, reinforcement learning across multiple domains and environments, and distillation that involved multiple teachers. The team pretrained the base model on 20 trillion text tokens in two phases: (i) 15 trillion tokens of training in broad knowledge and (ii) 5 trillion tokens of training on higher-quality data including 173 billion tokens of GitHub code and synthetic datasets for legal and factual knowledge. They trained the model using a quantized 4-bit format, NVFP4, to reduce memory use and process tokens more efficiently. The hybrid architecture uses&nbsp; mamba &nbsp;layers to process long sequences while using less memory and computation than the self attention mechanism in transformer layers, and a smaller set of attention layers to achieve more-precise recall across long contexts. The&nbsp; LatentMoE &nbsp;mixture-of-experts implementation compresses each token into a smaller representation before routing it to a subset of 10 experts, and multi-token prediction layers generate more than one token at a time. The team fine-tuned the model via supervised learning, then used reinforcement learning with automatically verifiable rewards across reasoning, coding, agentic, chat, safety, and usability tasks. Separately, they trained more than 10 models, each specialized on a separate domain. These became teachers of the model-in-progress via&nbsp; Multi-Teacher On-Policy Distillation , in which each teacher graded the student model’s outputs within its specialty and rewarded the student after every token rather than the end of the task. Nvidia ran the distillation in two iterative rounds, rebuilding the teachers from the improved student model at the start of each round. Performance: &nbsp;Independent testing by Artificial Analysis ranked Nemotron 3 Ultra highest in intelligence among open-weights models from U.S. developers, but not as high as DeepSeek V4 Pro or the newly released GLM-5.2. Nemotron 3 Ultra also&nbsp;ran faster than open-weights rivals of similar size. On Artificial Analysis’&nbsp; Intelligence Index , a composite of 10 tests of economically useful tasks, Nemotron 3 Ultra set to an unspecified level of reasoning scored 47.7 using the reduced-precision NVFP4 weights Nvidia recommends for inference, 48.2 at full precision. This performance exceeds U.S. open-weights models including Google Gemma 4 31B set to reasoning (39.2) and OpenAI gpt-oss-120b set to high reasoning (33.3). However it fell behind China’s Moonshot Kimi K2.6 (53.9), the leading open-weights model. On Artificial Analysis’ IFBench, which measures a model’s ability to follow instructions, Nemotron 3 Ultra (81.4 percent) placed third behind Grok 4.3 set to medium reasoning (83.3 percent) and Grok 4.20 0309 and MiniMax-M3, both set to reasoning (tied at 82.9 percent). In Nvidia’s tests, Nemotron 3 Ultra excelled on the Ruler test of long-context recall with a context of 1 million tokens (95 percent). It matched the larger Kimi K2.6 on the PinchBench test of agent productivity (91 percent). However, it trailed on the Terminal-Bench 2.0 test of agentic coding (54 percent) behind Moonshot Kimi K2.6 (67 percent) and Z.ai GLM 5.1 (64 percent). In tests by Artificial Analysis, Nemotron 3 Ultra running on multiple providers set to an unspecified level of reasoning was around three times as fast (around 183 tokens per second) on average as comparable open-weights models such as Moonshot Kimi K2.6 and DeepSeek V4 Pro. Behind the news: &nbsp;Shortly before launching Nemotron 3 Ultra, Nvidia shipped a number of other releases that aim to improve agentic performance. It&nbsp; delivered &nbsp;the Vera CPU, its first processor designed for agentic work;&nbsp; introduced &nbsp;RTX Spark, a Windows PC chip for on-device agents; and&nbsp; released &nbsp;Cosmos 3, an open world model that generates training data for robots, self-driving cars, and other agents that act in the world.&nbsp; Why it matters: &nbsp;The most capable open-weights models for building agents lately have come from China (Kimi K2.6, Qwen3.5, DeepSeek V4, GLM-5.2). Nemotron 3 Ultra puts a U.S. developer back in the mix and gives developers a fast, open, fully documented base to adapt for agentic workloads. We’re thinking: &nbsp;Nvidia has a good reasons to release strong open-weights models:&nbsp;Avoiding concentration in a small number of&nbsp;proprietary&nbsp;model developers will accelerate adoption and&nbsp;create a healthier ecosystem, which will benefit the market leader in AI semiconductors. Additionally, the more developers build agents on models tuned for Nvidia’s chips, the greater the demand for those chips.&nbsp;We’re glad that Nvidia has&nbsp;incentive&nbsp;to keep pushing the frontier and releasing open models! Reinforcement Learning With Hints Reinforcement learning can’t train a model to solve a difficult problem if the model doesn’t discover all the right steps. But giving the model the first few steps can make all the difference.&nbsp; What’s new:&nbsp; Yuxiao Qu, Amrith Setlur, Virginia Smith, Ruslan Salakhutdinov and Aviral Kumar from Carnegie Mellon University introduced&nbsp; Privileged On-Policy Exploration &nbsp;(POPE), a training method for large language models that pairs the reinforcement learning algorithm GRPO with custom-built datasets. During training on a problem that LLMs frequently don’t solve, such as a difficult math problem, besides giving the model the&nbsp;problem, POPE appends the beginnings of a solution. Key insight:&nbsp; In supervised fine-tuning, given a problem and a solution, a model can learn to generate the solution. But it may learn that specific solution rather than general problem-solving skills that would lead to solutions that weren’t in the training data. In reinforcement learning, the beginning of a solution can serve as a hint that helps the model discover a solution. For example, along with an instruction to &nbsp;“Solve this geometry problem,” the model may also receive the first few steps such as “Draw the auxiliary triangle and apply the Pythagorean theorem…,” and continue from there. Given both hinted and unhinted versions of the same problems during training, the model can also find the early steps without hints. How it works:&nbsp; The authors&nbsp;used the customized dataset to fine-tune a&nbsp;pretrained&nbsp; Qwen3-4B-Instruct-2507 &nbsp;via&nbsp; GRPO. Starting with&nbsp; three &nbsp; math &nbsp; datasets &nbsp;of problems with known solutions, the authors selected&nbsp;examples that the pretrained model failed to solve correctly in 128 attempts, generating up to&nbsp;32 thousand tokens per attempt. For each&nbsp;example, the authors extracted the beginning of the solution, or&nbsp;prefix. They fed Qwen3-4B-Instruct-2507 progressively longer prefixes, up to a quarter the length of the solution, until it correctly completed the solution. They appended this prefix to the corresponding example along&nbsp;with an instruction to continue solving the task from that point onward. During GRPO, they&nbsp;showed the model each problem many times both with and without its prefix in an equal ratio. If the model solved the problem, GRPO adjusted the model’s weights to increase the probability that it would generate the same tokens, making&nbsp;similar solutions more likely. If it failed, GRPO adjusted the model’s weights to decrease the probability.&nbsp; Results: &nbsp;The authors compared Qwen3-4B-Instruct-2507 after fine-tuning via POPE versus typical GRPO and supervised fine-tuning. It consistently outperformed both, and it outperformed supervised fine-tuning by a large margin. They evaluated the results after one try (pass@1) and 16 tries (pass@16). On the&nbsp; AIME 2025 &nbsp;dataset of competition math problems, POPE (53.1 percent pass@1, 82.6 percent pass@16) outperformed typical GRPO (49.6 percent pass@1, 81.4 pass@16). On the&nbsp; HMMT 2025 , which is also made up of competition math problems, POPE (37.8 percent pass@1, 67.5 percent pass@16) exceeded typical GRPO (31.0 percent pass@1, 63.8 percent pass@16). Yes, but: &nbsp;POPE requires problems with known solutions. In domains where such solutions are expensive to obtain, it inherits that cost.&nbsp; Why it matters: &nbsp;This work attacked one of the biggest bottlenecks in reinforcement learning: exploration. Current reinforcement learning methods work best with problems that models already can partly solve. When problems are hard, reinforcement learning burns large amounts of computation in exploration, which algorithmically boils down to&nbsp;“keep trying and hope to stumble onto a successful solution.”&nbsp;POPE leads the model onto the right track, after which reinforcement learning can be more effective. We’re thinking: &nbsp;This approach breaks up learning hard problems into two steps: (i) finding a good state from which to solve the problem and (ii) solving the problem. Instead of trying to do both at once, an LLM starts with (ii), and once it learns that, it’s easier to learn how to do (i).",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://www.deeplearning.ai/_next/image?url=https%3A%2F%2Fhome-wordpress.deeplearning.ai%2Fwp-content%2Fuploads%2F2023%2F03%2F2.png&w=3840&q=75",
+          "video": "",
+          "summary": "The Batch AI News and Insights: Over the last two weeks, both the U.S. Government and Anthropic took significant actions that demonstrated their power to control access to AI by restricting what others can do with frontier models. Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, Over the last two weeks, both the U.S. Government and Anthropic took significant actions that demonstrated their power to control access to AI by restricting what others can do with frontier models. This has been...",
+          "summaryZh": "**核心要点** 批量人工智能新闻和见解：在过去的两周里，美国政府和 Anthropic 都采取了重大行动，证明了他们有能力通过限制其他人对前沿模型的操作来控制对人工智能的访问。正在加载 Elevenlabs 文本转语音 AudioNative 播放器...亲爱的朋友们，在过去的两周里，美国政府和 Anthropic 都采取了重大行动，通过限制其他人对前沿模型的操作来展示他们控制人工智能访问的能力。这已经...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "推理能力"
+          ],
+          "score": 66
+        },
+        {
+          "title": "ScaleWoB: Guiding GUI Agents with Coding Agents via Large-Scale Environmental Synthesis",
+          "titleZh": "ScaleWoB：通过大规模环境综合使用编码代理指导 GUI 代理",
+          "link": "https://arxiv.org/abs/2605.25160",
+          "publishedAt": "Fri, 19 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2605.25160v2 Announce Type: replace Abstract: GUI agents powered by large language models are advancing rapidly, creating urgent needs for evaluation and training based on realistic environments. However, directly doing so in real-world environments introduces some challenges that cannot be overlooked. Real-world environments are complex and uncontrollable, making it difficult to construct verifiable rewards and to save or reset states. Existing works prioritize reproducibility but are often limited to open-source apps or file-operation tasks for reliable reward building, leaving a persistent gap from real-world usage. Furthermore, relying on virtual machines or docker images demand high resource requirements and suffer from slow response speeds, which limit the efficiency. We present \\sys, a framework that could produce high-fidelity synthesized interactive environments for GUI agents across platforms with verifiable rewards. These environments behave as backend-free webpages accessible via URL, requiring near-zero setup and low resource cost, making the approach suitable for both large-scale evaluation and downstream agent training. We support multiple GUI platforms including mobile, desktop, and automotive/in-vehicle interfaces based on the same pipeline, covering 100+ environments and 1000+ verifiable tasks. Among them, 120 challenging tasks across 63 simulated mobile applications are released as a fully synthesized mobile GUI agent benchmark. Experiment results on five state-of-the-art mobile GUI agents reveal substantial headroom -- the average success rate is only 27.92\\%, dropping to 17.82\\% on long-horizon subset -- while humans reach 92.08\\%. A comparison against real-world sample tasks shows that assessments made in our synthetic environments generalize to real apps. The project website is at https://scalewob.github.io.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2605.25160v2 Announce Type: replace Abstract: GUI agents powered by large language models are advancing rapidly, creating urgent needs for evaluation and training based on realistic environments. However, directly doing so in real-world environments introduces some challenges that cannot be overlooked. Real-world environments are complex and uncontrollable, making it difficult to construct verifiable rewards and to save or reset states. Existing works prioritize reproducibility but are often limited to ope...",
+          "summaryZh": "**核心结论** 「ScaleWoB：通过大规模环境综合使用编码代理指导 GUI 代理」要解决的问题是：基于大语言模型的 GUI 代理正在迅速发展，迫切需要基于现实环境的评估和培训。然而，直接在现实环境中这样做会带来一些不容忽视的挑战。现实世界的环境复杂且不可控，因此很难构建可验证的奖励以及保存或重置状态。 **支撑证据** 摘要与公开信息显示：arXiv:2605.25160v2 基于大语言模型的 GUI 代理正在迅速发展，迫切需要基于现实环境的评估和培训。然而，直接在现实环境中这样做会带来一些不容忽视的挑战。现实世界的环境复杂且不可控，因此很难构建可验证的奖励以及保存或重置状态。现有的工作优先考虑可重复性，但通常仅限于操作... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "评测"
+          ],
+          "score": 43
+        },
+        {
+          "title": "CARE: Competence-Aware Reward Shaping for Adaptive Reasoning Length in Video-MLLMs",
+          "titleZh": "CARE：视频 MLLM 中自适应推理长度的能力感知奖励塑造",
+          "link": "https://arxiv.org/abs/2606.19927",
+          "publishedAt": "Fri, 19 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.CV",
+          "sourceType": "research",
+          "description": "arXiv:2606.19927v1 Announce Type: new Abstract: In multimodal video reasoning, reinforcement learning-based methods typically rely on simplistic and inflexible reasoning-length control strategies that fail to adapt to the model's evolving competence. This mismatch may suppress necessary exploration at early stages, while encouraging redundant reasoning and inefficient decoding once the model becomes more competent. In this paper, we propose CARE, a competence-aware reward shaping framework for adaptive reasoning length optimization in multimodal reasoning. Specifically, CARE maintains a smoothed competence estimate via an exponential moving average of pass rates, and uses it to route training into progressive stages that shift the reward preference from exploration-oriented long-form reasoning to efficiency-oriented concise reasoning. To avoid conflating verbosity with intrinsic task complexity, CARE further normalizes reasoning effort with batch-level statistics, and introduces a posterior amplifier to strengthen reward signals for unexpectedly strong performance on historically difficult samples. The proposed mechanism is seamlessly integrated into the GRPO training pipeline and incurs no additional inference-time overhead. Extensive experiments on multiple video reasoning and general video understanding benchmarks demonstrate that CARE consistently improves reasoning accuracy, stabilizes reinforcement learning, and significantly enhances token efficiency. Moreover, CARE exhibits a characteristic inverted-U trajectory of reasoning length during training, and yields shorter yet more informative reasoning traces at convergence, indicating effective adaptive allocation of reasoning budget. We provide the source code for our proposed CARE framework and experiments at https://github.com/1Pansy/Video-CARE.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.19927v1 Announce Type: new Abstract: In multimodal video reasoning, reinforcement learning-based methods typically rely on simplistic and inflexible reasoning-length control strategies that fail to adapt to the model's evolving competence. This mismatch may suppress necessary exploration at early stages, while encouraging redundant reasoning and inefficient decoding once the model becomes more competent. In this paper, we propose CARE, a competence-aware reward shaping framework for adaptive reasoning...",
+          "summaryZh": "**核心结论** 「CARE：视频 MLLM 中自适应推理长度的能力感知奖励塑造」要解决的问题是：发布类型：新 在多模态视频推理中，基于强化学习的方法通常依赖于简单且不灵活的推理长度控制策略，无法适应模型不断发展的能力。这种不匹配可能会抑制早期阶段必要的探索，同时一旦模型变得更有能力，就会鼓励冗余推理和低效解码。在本文中，我们提出了 CARE，一种用于自适应推理的能力感知奖励塑造框架。 **支撑证据** 摘要与公开信息显示：arXiv:2606.19927v1 发布类型：新 在多模态视频推理中，基于强化学习的方法通常依赖于简单且不灵活的推理长度控制策略，无法适应模型不断发展的能力。这种不匹配可能会抑制早期阶段必要的探索，同时一旦模型变得更有能力，就会鼓励冗余推理和低效解码。在本文中，我们提出了 CARE，一种用于自适应推理的能力感知奖励塑造框架...... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 43
+        },
+        {
+          "title": "PerceptionDLM: Parallel Region Perception with Multimodal Diffusion Language Models",
+          "titleZh": "PerceptionDLM：具有多模态扩散语言模型的并行区域感知",
+          "link": "https://arxiv.org/abs/2606.19534",
+          "publishedAt": "Fri, 19 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.19534v1 Announce Type: cross Abstract: Multimodal large language models (MLLMs) have achieved remarkable progress in visual understanding tasks. However, most existing MLLMs rely on autoregressive generation, which limits their efficiency for perception tasks that require captioning multiple regions. In this work, we propose PerceptionDLM, a multimodal diffusion language model optimized for efficient parallel region perception. Built upon PerceptionDLM-Base, a strong foundational baseline that achieves state-of-the-art performance among open-source diffusion MLLMs, our architecture fully leverages the parallel decoding nature of DLMs. Specifically, we introduce efficient prompting and structured attention masking to enable simultaneous perception of multiple masked regions, allowing the model to generate region descriptions in parallel at both the sequence and token levels. This design significantly improves inference efficiency compared with existing approaches that process regions sequentially. To systematically evaluate the parallelism property of visual perception capability for DLMs, we construct a new Parallel Detailed Localized Captioning Benchmark (ParaDLC-Bench) by scaling the DLC-Bench to include multiple region masks per image, enabling joint evaluation of both caption quality and inference efficiency. Experiments demonstrate that PerceptionDLM maintains competitive performance in region captioning while achieving substantial speed improvements for multi-region perception tasks. Our results highlight the potential of multimodal diffusion language models for efficient, parallel visual perception. To the best of our knowledge, we are the first to achieve parallel region caption and perception by leveraging the advantages of diffusion language models. Code, models, and datasets are released.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.19534v1 Announce Type: cross Abstract: Multimodal large language models (MLLMs) have achieved remarkable progress in visual understanding tasks. However, most existing MLLMs rely on autoregressive generation, which limits their efficiency for perception tasks that require captioning multiple regions. In this work, we propose PerceptionDLM, a multimodal diffusion language model optimized for efficient parallel region perception. Built upon PerceptionDLM-Base, a strong foundational baseline that achieve...",
+          "summaryZh": "**核心结论** 「PerceptionDLM：具有多模态扩散语言模型的并行区域感知」要解决的问题是：发布类型：cross 多模态大语言模型（MLLM）在视觉理解任务中取得了显着的进展。然而，大多数现有的 MLLM 依赖于自回归生成，这限制了它们执行需要为多个区域添加字幕的感知任务的效率。在这项工作中，我们提出了 PerceptionDLM，一种针对高效并行区域感知而优化的多模态扩散语言模型。 **支撑证据** 摘要与公开信息显示：arXiv:2606.19534v1 发布类型：cross 多模态大语言模型（MLLM）在视觉理解任务中取得了显着的进展。然而，大多数现有的 MLLM 依赖于自回归生成，这限制了它们执行需要为多个区域添加字幕的感知任务的效率。在这项工作中，我们提出了 PerceptionDLM，一种针对高效并行区域感知而优化的多模态扩散语言模型。基于 PerceptionDLM-Base，这是一个强大的基础基线，可实现... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "多模态",
+            "评测",
+            "推理部署"
+          ],
+          "score": 39
+        },
+        {
+          "title": "Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick",
+          "titleZh": "利用 Adob​​e Marketing Agent for Amazon Quick 的见解加快营销活动工作流程",
+          "link": "https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/",
+          "publishedAt": "Fri, 19 Jun 2026 14:05:04 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "This post shows how to enable Adobe Marketing Agent for Amazon Quick using a Model Context Protocol (MCP). We walk you through how to configure the integration, authenticate using your Adobe credentials, and get the latest insights in Amazon Quick. The sample workflow returns audience rankings, loyalty segment summaries, journey usage, and conflict recommendations.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/18/ML-21232-1-1119x630.png",
+          "video": "",
+          "summary": "This post shows how to enable Adobe Marketing Agent for Amazon Quick using a Model Context Protocol (MCP). We walk you through how to configure the integration, authenticate using your Adobe credentials, and get the latest insights in Amazon Quick. The sample workflow returns audience rankings, loyalty segment summaries, journey usage, and conflict recommendations.",
+          "summaryZh": "**核心要点** 本文介绍如何使用模型上下文协议 (MCP) 启用 Adob​​e Marketing Agent for Amazon Quick。我们将引导您了解如何配置集成、使用您的 Adob​​e 凭证进行身份验证以及在 Amazon Quick 中获取最新见解。示例工作流程返回受众排名、忠诚度细分摘要、旅程使用情况和冲突建议。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
+          "titleZh": "使用 CloudWatch 上的 SageMaker 详细指标和 Insights 仪表板监控和调试生成式 AI 推理",
+          "link": "https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch/",
+          "publishedAt": "Thu, 18 Jun 2026 23:31:58 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "Amazon SageMaker AI provides fully managed real-time inference hosting for machine learning models. You deploy a model to a SageMaker endpoint backed by one or more compute instances, and SageMaker handles provisioning and scaling. SageMaker supports multiple endpoint architectures. This post focuses on the two most relevant to generative AI workloads with detailed observability: Single-model endpoints (SME) and Inference component (IC) endpoints.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/18/ML-21272-16.png",
+          "video": "",
+          "summary": "Amazon SageMaker AI provides fully managed real-time inference hosting for machine learning models. You deploy a model to a SageMaker endpoint backed by one or more compute instances, and SageMaker handles provisioning and scaling. SageMaker supports multiple endpoint architectures. This post focuses on the two most relevant to generative AI workloads with detailed observability: Single-model endpoints (SME) and Inference component (IC) endpoints.",
+          "summaryZh": "**核心要点** Amazon SageMaker AI 为机器学习模型提供完全托管的实时推理托管。您将模型部署到由一个或多个计算实例支持的 SageMaker 终端节点，SageMaker 负责处理配置和扩展。 SageMaker 支持多种端点架构。本文重点介绍与具有详细可观察性的生成式 AI 工作负载最相关的两个：单模型端点 (SME) 和推理组件 (IC) 端点。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "推理部署"
+          ],
+          "score": 29
+        },
+        {
+          "title": "Introducing Web Search on Amazon Bedrock AgentCore",
+          "titleZh": "在 Amazon Bedrock AgentCore 上推出 Web 搜索",
+          "link": "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-agentcore/",
+          "publishedAt": "Fri, 19 Jun 2026 14:15:24 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "Web Search on Amazon Bedrock AgentCore is now generally available. In this post, we walk through what makes Web Search on Amazon Bedrock AgentCore different, why it matters, and how to wire it in with a few lines of code.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/17/ml-21231.png",
+          "video": "",
+          "summary": "Web Search on Amazon Bedrock AgentCore is now generally available. In this post, we walk through what makes Web Search on Amazon Bedrock AgentCore different, why it matters, and how to wire it in with a few lines of code.",
+          "summaryZh": "**核心要点** Amazon Bedrock AgentCore 上的 Web 搜索现已全面推出。在这篇文章中，我们将介绍 Amazon Bedrock AgentCore 上的 Web 搜索有何不同、其重要性以及如何通过几行代码将其连接起来。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        },
+        {
+          "title": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+          "titleZh": "DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环",
+          "link": "https://x.com/AYi_AInotes/status/2067819352926150953",
+          "publishedAt": "Fri, 19 Jun 2026 03:58:46 GMT",
+          "source": "AI HOT",
+          "sourceType": "aggregator",
+          "description": "DeepSeek研究员Deli Chen将AutoResearch协议开源，并发布Self-play综述论文。其AI智能体首次完全自主地在DeepSeek 285B模型上完成完整RL研究闭环--从实验设计、写代码、提交GPU任务、debug到结论总结，全程零人工干预。系统调用了GRPO工具，被视为持续学习研究的开端。",
+          "section": "research_frontier",
+          "channel": "aggregator",
+          "trust": "community",
+          "image": "",
+          "video": "",
+          "summary": "DeepSeek研究员Deli Chen将AutoResearch协议开源，并发布Self-play综述论文。其AI智能体首次完全自主地在DeepSeek 285B模型上完成完整RL研究闭环--从实验设计、写代码、提交GPU任务、debug到结论总结，全程零人工干预。系统调用了GRPO工具，被视为持续学习研究的开端。",
+          "summaryZh": "**核心结论** 「DeepSeek研究员开源AutoResearch：AI自主跑通285B模型RL研究闭环」要解决的问题是：DeepSeek研究员Deli Chen将AutoResearch协议开源，并发布Self-play综述论文。其AI智能体首次完全自主地在DeepSeek 285B模型上完成完整RL研究闭环--从实验设计、写代码、提交GPU任务、debug到结论总结，全程零人工干预。系统调用了GRPO工具，被视为持续学习研究的开端。 **支撑证据** 摘要与公开信息显示：DeepSeek研究员Deli Chen将AutoResearch协议开源，并发布Self-play综述论文。其AI智能体首次完全自主地在DeepSeek 285B模型上完成完整RL研究闭环--从实验设计、写代码、提交GPU任务、debug到结论总结，全程零人工干预。系统调用了GRPO工具，被视为持续学习研究的开端。 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "模型",
+            "智能体"
+          ],
+          "score": 23
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "𝗔 𝗹𝗼𝘁 𝗼𝗳 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝗔𝗜 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝘀𝘁𝗼𝗽 𝗮𝘁 𝗮𝗻𝘀𝘄𝗲𝗿𝗶𝗻𝗴 ...",
+          "titleZh": "Attu 3.0 的 AI 代理连接到 50 多个 Milvus 工具，涵盖集合、数",
+          "link": "https://x.com/milvusio/status/2067985761304293430",
+          "publishedAt": "Fri, 19 Jun 2026 15:00:01 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "description": "𝗔 𝗹𝗼𝘁 𝗼𝗳 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝗔𝗜 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝘀𝘁𝗼𝗽 𝗮𝘁 𝗮𝗻𝘀𝘄𝗲𝗿𝗶𝗻𝗴 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀. 𝗔𝘁𝘁𝘂 𝟯.𝟬 𝗯𝗲𝘁𝗮 𝗴𝗼𝗲𝘀 𝗳𝘂𝗿𝘁𝗵𝗲𝗿: 𝗶𝘁𝘀 𝗮𝗴𝗲𝗻𝘁 𝗰𝗮𝗻 𝘁𝗮𝗸𝗲 𝗮𝗰𝘁𝗶𝗼𝗻. Attu 3.0's AI agent connects to 50+ Milvus tools across collections, data operations, diagnostics, and RBAC. 𝗬𝗼𝘂 𝗱𝗲𝘀𝗰𝗿𝗶𝗯𝗲 𝘄𝗵𝗮𝘁 𝘆𝗼𝘂 𝘄𝗮𝗻𝘁 𝗶𝗻 𝗻𝗮𝘁𝘂𝗿𝗮𝗹 𝗹𝗮𝗻𝗴𝘂𝗮𝗴𝗲, 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗮𝗴𝗲𝗻𝘁 𝗰𝗮𝗹𝗹𝘀 𝘁𝗵𝗲 𝗿𝗶𝗴𝗵𝘁 𝘁𝗼𝗼𝗹𝘀 𝘁𝗼 𝗿𝘂𝗻 𝗶𝘁. You can ask it to list collections, create a collection with the right schema, insert test data, run a vector search, check cluster health, investigate slow search, inspect memory usage, compact a collection, or create a read-only user. 𝗔𝗰𝘁𝗶𝗼𝗻𝘀 𝗮𝗿𝗲 𝗴𝗮𝘁𝗲𝗱 𝗯𝘆 𝗿𝗶𝘀𝗸: • Read-only actions return results directly • Sensitive or destructive actions, such as dropping a collection or changing privileges, show a confirmation dialog with the exact parameters before anything runs • Every call is visible, including which tools ran, token usage, and any failures You bring your own LLM: github.com/zilliztech/att… Seek, Gemini, or any OpenAI-compatible endpoint. milvus.io/blog/attu-3-0-… ted locally, and no agent traffic is routed through a Zilliz-managed service. 𝗧𝗿𝘆 𝗶𝘁 𝗵𝗲𝗿𝗲: https://t.co/gzwdbjtXcF 𝗢𝗿 𝗿𝗲𝗮𝗱 𝗮𝗯𝗼𝘂𝘁 𝗵𝗼𝘄 𝗶𝘁 𝘄𝗼𝗿𝗸𝘀 𝗼𝗻 𝘁𝗵𝗲 𝗠𝗶𝗹𝘃𝘂𝘀 𝗯𝗹𝗼𝗴: https://t.co/Z37S2MmS29 💬 0 🔄 1 ❤️ 1 👀 98 📊 1 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-20-2067985761304293430.mp4",
+          "summary": "𝗔 𝗹𝗼𝘁 𝗼𝗳 𝗱𝗮𝘁𝗮𝗯𝗮𝘀𝗲 𝗔𝗜 𝗳𝗲𝗮𝘁𝘂𝗿𝗲𝘀 𝘀𝘁𝗼𝗽 𝗮𝘁 𝗮𝗻𝘀𝘄𝗲𝗿𝗶𝗻𝗴 𝗾𝘂𝗲𝘀𝘁𝗶𝗼𝗻𝘀. 𝗔𝘁𝘁𝘂 𝟯.𝟬 𝗯𝗲𝘁𝗮 𝗴𝗼𝗲𝘀 𝗳𝘂𝗿𝘁𝗵𝗲𝗿: 𝗶𝘁𝘀 𝗮𝗴𝗲𝗻𝘁 𝗰𝗮𝗻 𝘁𝗮𝗸𝗲 𝗮𝗰𝘁𝗶𝗼𝗻. Attu 3.0's AI agent connects to 50+ Milvus tools across collections, data operations, diagnostics, and RBAC. 𝗬𝗼𝘂 𝗱𝗲𝘀𝗰𝗿𝗶𝗯𝗲 𝘄𝗵𝗮𝘁 𝘆𝗼𝘂 𝘄𝗮𝗻𝘁 𝗶𝗻 𝗻𝗮𝘁𝘂𝗿𝗮𝗹 𝗹𝗮𝗻𝗴𝘂𝗮𝗴𝗲, 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗮𝗴𝗲𝗻𝘁 𝗰𝗮𝗹𝗹𝘀 𝘁𝗵𝗲 𝗿𝗶𝗴𝗵𝘁 𝘁𝗼𝗼𝗹𝘀 𝘁𝗼 𝗿𝘂𝗻 𝗶𝘁. You can ask it to list collections, create a collection with the right schema, insert test data, run a vector search, check cluster health, investigate slow search, inspect memory usage, compact a collection, or create a read-only user. 𝗔𝗰𝘁𝗶𝗼𝗻𝘀 𝗮𝗿𝗲 𝗴𝗮𝘁𝗲𝗱 𝗯𝘆 𝗿𝗶𝘀𝗸: • Read-only actions return results directly • Sensitive or destructive actions, such as dropping a collection or changing privile...",
+          "summaryZh": "。 :。 Attu 3.0 的 AI 代理连接到 50 多个 Milvus 工具，涵盖集合、数据操作、诊断和 RBAC。 , .您可以要求它列出集合、创建具有正确架构的集合、插入测试数据、运行向量搜索、检查集群运行状况、调查缓慢搜索、检查内存使用情况、压缩集合或创建只读用户。： • 只读操作直接返回结果 • 敏感或破坏性操作，例如删除集合或更改权限...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "开源"
+          ],
+          "score": 46.79963276588021
+        },
+        {
+          "title": "calesthio/OpenMontage",
+          "titleZh": "calesthio/OpenMontage：世界上第一个开源的代理视频制作系统。12条管道、52种工",
+          "link": "https://github.com/calesthio/OpenMontage",
+          "publishedAt": "2026-06-19T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://repository-images.githubusercontent.com/1195360525/645f0bc1-450d-4791-99b8-6102b4bb9f3d",
+          "video": "",
+          "summary": "Star calesthio / OpenMontage World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+          "summaryZh": "世界上第一个开源的代理视频制作系统。 12条管道、52种工具、500+座席技能。将您的人工智能编码助手变成一个完整的视频制作工作室。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 32
+        },
+        {
+          "title": "BuilderIO/agent-native",
+          "titleZh": "BuilderIO/agent-native：Agent-Native 用于您拥有的代理应",
+          "link": "https://github.com/BuilderIO/agent-native",
+          "publishedAt": "2026-06-19T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Agent-Native Open-source framework for agentic applications you own. Don't choose between rich user interfaces and autonomous agents. Every Agent-Native app is both. Agents and UIs — Fully Connected The agent and the UI are equal citizens of the same system. Every action works both ways — click it or ask for it. Everything syncs — Agent and UI share one database and one state. Changes from either side show up instantly on the other. Real-time multiplayer — Humans and agents collaborate in the same document simultan",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/70730254f8e4d54190138e9961f29e389814293953d7a7fe2fde18b3b5e2b6e4/BuilderIO/agent-native",
+          "video": "",
+          "summary": "Agent-Native Open-source framework for agentic applications you own. Don't choose between rich user interfaces and autonomous agents. Every Agent-Native app is both. Agents and UIs — Fully Connected The agent and the UI are equal citizens of the same system. Every action works both ways — click it or ask for it. Everything syncs — Agent and UI share one database and one state. Changes from either side show up instantly on the other. Real-time multiplayer — Humans and agents collaborate in the same document simultan",
+          "summaryZh": "Agent-Native 用于您拥有的代理应用的开源框架。不要在丰富的用户界面和自治代理之间进行选择。每个 Agent-Native 应用都是两者兼而有之。代理和 UI — 完全连接 代理和 UI 是同一系统的平等公民。每个操作都是双向的——点击它或请求它。一切同步 — Agent 和 UI 共享一个数据库和一种状态。任何一方的变化都会立即显示在另一方。实时多人游戏——人类和代理在同一个文档中同时协作",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "withastro/flue",
+          "titleZh": "withastro/flue：用于构建自主代理工作流的 TypeScript 框架",
+          "link": "https://github.com/withastro/flue",
+          "publishedAt": "2026-06-19T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Flue — The Agent Harness Framework Not another SDK. Build autonomous agents and powerful AI workflows with Flue's programmable TypeScript harness. next(); // Compose the complete harness your agent needs to do real work, // complete with virtual, local, or remote container sandbox. export default createAgent(() => ({ model: 'anthropic/claude-sonnet-4-6', tools: [...githubTools], skills: [triage, verify], sandbox: local(), instructions, }));\"> // agents/triage.ts import { createAgent , type AgentRouteHandler } from ",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/8ed97cd1574938e719bc96c82ab147d2b3cfff8df3399401daf7cf839bb6199b/withastro/flue",
+          "video": "",
+          "summary": "Flue — The Agent Harness Framework Not another SDK. Build autonomous agents and powerful AI workflows with Flue's programmable TypeScript harness. next(); // Compose the complete harness your agent needs to do real work, // complete with virtual, local, or remote container sandbox. export default createAgent(() => ({ model: 'anthropic/claude-sonnet-4-6', tools: [...githubTools], skills: [triage, verify], sandbox: local(), instructions, }));\"> // agents/triage.ts import { createAgent , type AgentRouteHandler } from ",
+          "summaryZh": "**Flue** 把自主代理封装成一个可编排的 **TypeScript harness**：开发者可以把模型、工具、技能和沙箱能力组合进同一条执行链，而不是只接一个聊天 SDK。仓库首页重点展示了 **`createAgent`** 这类声明式接口，支持把 **GitHub 工具、技能路由、本地或远程容器沙箱** 放进同一个代理定义里，更适合做需要真实执行环境的 agent 工作流。对需要在代码库里落地代理编排的团队来说，这类框架值得关注，但还需要继续核查它的稳定性、调试体验和生产部署方式。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "DeusData/codebase-memory-mcp",
+          "titleZh": "DeusData/codebase-memory-mcp：高性能代码智能MCP服务器。将代码库索引到持",
+          "link": "https://github.com/DeusData/codebase-memory-mcp",
+          "publishedAt": "2026-06-19T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://repository-images.githubusercontent.com/1166102148/c6b6a073-5cad-4f9a-81c4-16018827c144",
+          "video": "",
+          "summary": "Star DeusData / codebase-memory-mcp High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+          "summaryZh": "高性能代码智能MCP服务器。将代码库索引到持久知识图谱中——以毫秒为单位的平均存储库。 158 种语言，亚毫秒级查询，标记减少 99%。单个静态二进制文件，零依赖性。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "RAG"
+          ],
+          "score": 29
+        },
+        {
+          "title": "palmier-io/palmier-pro",
+          "titleZh": "palmier-io/palmier-pro：Palmier Pro 专为 AI 打造的视频编辑器。需",
+          "link": "https://github.com/palmier-io/palmier-pro",
+          "publishedAt": "2026-06-19T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Palmier Pro The video editor built for AI. Requires macOS 26 (Tahoe) on Apple Silicon Palmier Pro is an open source video editor for Mac. You and your agent can generate and edit videos together inside the timeline. Swift-native video editor We built Palmier Pro from scratch with Swift. The north star is Premiere Pro, with our take on integrating AI into the workflow. Built-in Generative AI Generate videos and images with SOTA models like Seedance, Kling, Nano Banana Pro inside the timeline editor. Integrates with ",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/2ad3bcc744fa5c5fbc359d77d36c2a5616d8af6c3affda2694674e05e0d73a2f/palmier-io/palmier-pro",
+          "video": "",
+          "summary": "Palmier Pro The video editor built for AI. Requires macOS 26 (Tahoe) on Apple Silicon Palmier Pro is an open source video editor for Mac. You and your agent can generate and edit videos together inside the timeline. Swift-native video editor We built Palmier Pro from scratch with Swift. The north star is Premiere Pro, with our take on integrating AI into the workflow. Built-in Generative AI Generate videos and images with SOTA models like Seedance, Kling, Nano Banana Pro inside the timeline editor. Integrates with ",
+          "summaryZh": "Palmier Pro 专为 AI 打造的视频编辑器。需要 Apple Silicon 上的 macOS 26 (Tahoe) Palmier Pro 是一款适用于 Mac 的开源视频编辑器。您和您的代理可以在时间线内一起生成和编辑视频。 Swift 原生视频编辑器 我们使用 Swift 从头开始​​构建 Palmier Pro。北极星是 Premiere Pro，我们致力于将人工智能集成到工作流程中。内置生成人工智能在时间线编辑器中使用 Seedance、Kling、Nano Banana Pro 等 SOTA 模型生成视频和图像。集成于",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "视频"
+          ],
+          "score": 29
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Show Codex a workflow once. Reuse it as a skill. Record & Replay lets you show Codex a recurrin...",
+          "titleZh": "OpenAI：向 Codex 展示一次工作流程",
+          "link": "https://x.com/OpenAIDevs/status/2067681320281723113",
+          "publishedAt": "Thu, 18 Jun 2026 18:50:17 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Show Codex a workflow once. Reuse it as a skill. Record & Replay lets you show Codex a recurring task, like filing an expense report or submitting a time-off request. Codex turns that demo into an inspectable, editable skill. You control when recording starts and stops. Your browser does not support the video tag. 🔗 View on Twitter 💬 430 🔄 1076 ❤️ 11960 👀 3289353 📊 3241 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-20-2067681320281723113.mp4",
+          "summary": "Show Codex a workflow once. Reuse it as a skill. Record & Replay lets you show Codex a recurring task, like filing an expense report or submitting a time-off request. Codex turns that demo into an inspectable, editable skill. You control when recording starts and stops. Your browser does not support the video tag. 🔗 View on Twitter 💬 430 🔄 1076 ❤️ 11960 👀 3289353 📊 3241 ⚡ Powered by xgo.ing",
+          "summaryZh": "向 Codex 展示一次工作流程。将其重新用作技能。记录和重播可让您向 Codex 展示重复性任务，例如提交费用报告或提交休假请求。 Codex 将该演示转变为可检查、可编辑的技能。您可以控制录制的开始和停止时间。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "baoyu-design skill 更新：可以在制作 PPT、动画视频或者网站时调用 AI 生图技能配图了，当然需要你本地 Agent 有配置画图 Skill。 如果是 Codex 可以直接调用内...",
+          "titleZh": "-design skill 更新：可以在制作 PPT、动画视频或者网站时调用 AI 生图技能配图了，当然需要你本地 Agent 有配置画图 Skill。 如果是 Codex 可以直接调用内",
+          "link": "https://x.com/dotey/status/2067876611873964284",
+          "publishedAt": "Fri, 19 Jun 2026 07:46:18 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "baoyu-design skill 更新：可以在制作 PPT、动画视频或者网站时调用 AI 生图技能配图了，当然需要你本地 Agent 有配置画图 Skill。 如果是 Codex 可以直接调用内置画图工具，如果你用 Claude Code 的话可以配合 baoyu-image-gen skill 去调用 Codex CLI 画图。 用它来生成 PPT 效果特别好，可以自动帮你在 PPT 合适位置插入配图，最牛的是你可以连图片一起导出为 PPTX，还可以接着用 PowerPoint 或者 Keynote 二次编辑。 推荐去试试看： baoyu-design Skill： github.com/jimliu/baoyu-d… baoyu-image-gen Skill： github.com/JimLiu/baoyu-s… 宝玉 @dotey baoyu-design skill 可以在本地生成动画视频，导出 mp4 格式，就像附件视频这个。 Claude Design 网页版可以用提示词创建动画视频，但你需要在网页上才能看到视频，无法下载。也有人基于第三方插件录屏软件实现过，不过很麻烦，效果也不是很好。 在这套 Skill 基础上，我已经实现了直接把动画导出成 mp4 视频的能力。 生成动画和导出视频，其实原理差不多，就是每一帧画面，都是根据所在时间坐标算出来的，就像一个函数 f(t)，你传入给动画引擎任意一个时间点 t，它能直接算出那一瞬间屏幕上每个元素的位置、透明度、大小，所有视觉状态完全由 t 决定。不需要从头播放到那个时刻，也不需要记住之前发生了什么。 传统写动画的方式是命令式的：到了某个时刻，去改某个元素的位置，把透明度调一下。状态散落在各处，时间一乱画面就乱。这套引擎反过来，用的是声明式思路：你不去驱动元素运动，只描述在第 t 秒，每个元素应该长什么样。 打个比方，传统动画像看电影，你必须从头看才知道第 30 分钟画面是什么。这套引擎更像一本特殊的书，翻到任意一页，画面都是完整的、确定的。 这个设计带来了三个能力： 1. 拖动播放条跳到任意位置可以，因为 f(t) 随时能算； 2. 反复调试同一个画面可以，因为同一个 t 永远产出同一帧； 3. 把动画导出成视频也可以，而且方式很巧妙。 那么导出视频是怎么实现的呢？ 直觉上，把浏览器里的动画变成 MP4，录个屏不就行了？ 录屏是实时的。机器稍微一卡就掉帧，拍出来的视频不可复现。而且播放条、黑色背景、圆角阴影这些\"播放器外壳\"会一起被录进去。 baoyu-design 用的方法更像定格动画的拍摄：启动一个无头浏览器（没有界面的 Chromium），加载动画页面，通过引擎预留的一个控制接口精确操控时间轴。每设定一个时间点，等浏览器把画面渲染完成，截一张图，通过管道直接喂给 ffmpeg 编码。一段 95 秒、30fps 的动画就是 2850 次\"摆好时间，拍照\"的循环。慢，但每一帧都是精确的，绝不掉帧。 这里有个容易忽略的细节：设定时间后，工具会等两帧 requestAnimationFrame 再截图。因为修改时间只是改了 React 状态，浏览器还需要一到两帧才能把新画面真正画到屏幕上。等少了，截到的可能是上一帧的残影。 为了让画面更锐利，截图时用 2 倍设备像素比渲染，实际按 3840×2160 出图，最后由 ffmpeg 缩回 1080p。原理和高分辨率印刷一样：先在更大的画布上精细绘制，再高质量缩小，文字边缘和细线会明显更清晰。 baoyu-design 在 GitHub 开源（MIT 协议），目前 1.2K star。感兴趣的可以去看看它的 skills/baoyu-design 目录，动画引擎的完整实现都在里面。 github.com/jimliu/baoyu-d… Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 47 🔄 46 ❤️ 257 👀 31104 📊 92 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-06-20-2067876611873964284.mp4",
+          "summary": "baoyu-design skill 更新：可以在制作 PPT、动画视频或者网站时调用 AI 生图技能配图了，当然需要你本地 Agent 有配置画图 Skill。 如果是 Codex 可以直接调用内置画图工具，如果你用 Claude Code 的话可以配合 baoyu-image-gen skill 去调用 Codex CLI 画图。 用它来生成 PPT 效果特别好，可以自动帮你在 PPT 合适位置插入配图，最牛的是你可以连图片一起导出为 PPTX，还可以接着用 PowerPoint 或者 Keynote 二次编辑。 推荐去试试看： baoyu-design Skill： github.com/jimliu/baoyu-d… baoyu-image-gen Skill： github.com/JimLiu/baoyu-s… 宝玉 @dotey baoyu-design skill 可以在本地生成动画视频，导出 mp4 格式，就像附件视频这个。 Claude Design 网页版可以用提示词创建动画视频，但你需要在网页上才能看到视频，无法下载。也有人基于第三方插件录屏软件实现过，不过很麻烦，效果也不是很好。 在这套 Sk...",
+          "summaryZh": "baoyu-design skill 更新：可以在制作 PPT、动画视频或者网站时调用 AI 生图技能配图了，当然需要你本地 Agent 有配置画图 Skill。 如果是 Codex 可以直接调用内置画图工具，如果你用 Claude Code 的话可以配合 baoyu-image-gen skill 去调用 Codex CLI 画图。 用它来生成 PPT 效果特别好，可以自动帮你在 PPT 合适位置插入配图，最牛的是你可以连图片一起导出为 PPTX，还可以接着用 PowerPoint 或者 Keynote 二次编辑。 推荐去试试看： baoyu-design Skill： github.com/jimliu/baoyu-d… baoyu-image-gen Skill： github.com/JimLiu/baoyu-s… 宝玉 baoyu-design skill 可以在本地生成动画视频，导出 mp4 格式，就像附件视频这个。 Claude Design 网页版可以用提示词创建动画视频，但你需要在网页上才能看到视频，无法下载。也有人基于第三方插件录屏软件实现过，不过很麻烦，效果也不是很好。 在这套 Sk...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "开源",
+            "视频",
+            "图像"
+          ],
+          "score": 60.41116108561798
+        },
+        {
+          "title": "We're gonna do a Midjourney Medical AMA (ask me anything ) right here all afternoon. Post your quest...",
+          "titleZh": "我们整个下午都会在这里进行中途医疗 AMA（有什么问题可以问我）",
+          "link": "https://x.com/midjourney/status/2067688872944025975",
+          "publishedAt": "Thu, 18 Jun 2026 19:20:17 GMT",
+          "source": "Midjourney(@midjourney)",
+          "sourceType": "social",
+          "description": "We're gonna do a Midjourney Medical AMA (ask me anything ) right here all afternoon. Post your questions below and we'll try to answer as many as we can! ❤️ 💬 870 🔄 180 ❤️ 4491 👀 302735 📊 1186 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We're gonna do a Midjourney Medical AMA (ask me anything ) right here all afternoon. Post your questions below and we'll try to answer as many as we can! ❤️ 💬 870 🔄 180 ❤️ 4491 👀 302735 📊 1186 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们整个下午都会在这里进行中途医疗 AMA（有什么问题可以问我）。请在下面发表您的问题，我们将尽力回答！。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        },
+        {
+          "title": "有意思，开发一个MCP，连接到网页版的ChatGPT。 使用这个MCP就能读取本地的文件。 Codex额度用光，无法重置时，也可以继续用ChatGPT开发。 变向获得了双倍codex额度，虽然有...",
+          "titleZh": "有意思，开发一个MCP，连接到网页版的ChatGPT",
+          "link": "https://x.com/vista8/status/2067762899813274072",
+          "publishedAt": "Fri, 19 Jun 2026 00:14:27 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "description": "有意思，开发一个MCP，连接到网页版的ChatGPT。 使用这个MCP就能读取本地的文件。 Codex额度用光，无法重置时，也可以继续用ChatGPT开发。 变向获得了双倍codex额度，虽然有点诡异。 配置注意事项： 打开 ChatGPT网页端，设置->应用->高级模式->开启开发模式，添加MCP waishnav @wshxnv Alrighty, everything is ready 😎 here’s an unofficial “2x Codex limits” promo from my side for you all. meet DevSpace — an MCP connector app that turns ChatGPT into Codex. npm install -g @waishnav /devspace After installing, tunnel the MCP server over the internet and enjoy 2x limits. You can use GPT-5.5 Pro, xHigh, or High for planning, then hand off the task to your local Codex/pi/opencode/cursor/claude code instance. Or you can just use it for reviewing code written by other local coding agents Go ahead, experiment with different workflows, and keep the feedback coming on GitHub Issues or in my DMs And let’s thank OpenAI for being so generous by giving us separate ChatGPT and Codex limits and by being so chill around this MCP :) Please use it sparingly, only when you run out of limits. Don’t overuse it — in the end, they do have a button to stop it 🙂 Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 45 🔄 76 ❤️ 511 👀 82588 📊 178 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-06-20-2067762899813274072.mp4",
+          "summary": "有意思，开发一个MCP，连接到网页版的ChatGPT。 使用这个MCP就能读取本地的文件。 Codex额度用光，无法重置时，也可以继续用ChatGPT开发。 变向获得了双倍codex额度，虽然有点诡异。 配置注意事项： 打开 ChatGPT网页端，设置->应用->高级模式->开启开发模式，添加MCP waishnav @wshxnv Alrighty, everything is ready 😎 here’s an unofficial “2x Codex limits” promo from my side for you all. meet DevSpace — an MCP connector app that turns ChatGPT into Codex. npm install -g @waishnav /devspace After installing, tunnel the MCP server over the internet and enjoy 2x limits. You can use GPT-5.5 Pro, xHigh, or High for planning, then hand...",
+          "summaryZh": "向阳乔木转发的 **DevSpace** 项目把 **网页版 ChatGPT** 通过 **MCP Connector** 接到本地开发环境，思路是让 ChatGPT 充当前端入口，再把任务交给本地的 **Codex / Claude Code / Cursor** 等代理执行。原帖给出的配置路径包括在 ChatGPT 网页端开启开发模式、添加 MCP，并通过 `npm install -g @waishnav/devspace` 安装连接器；作者还强调这更适合在 **Codex 配额临时用尽** 时作为补充工作流，而不是长期滥用。这个案例说明第三方正在快速试探 **ChatGPT + 本地 coding agent** 的混合协作方式，但安全边界、稳定性和官方可持续性仍需继续观察。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "开源",
+            "视频"
+          ],
+          "score": 57.64820243739301
+        },
+        {
+          "title": "Riverflow 2.5 is now on Replicate. Try the image model that is topping charts on @Designarena !",
+          "titleZh": "Riverflow 2.5 现已推出 Replicate。尝试在@Designarena 上名列前茅的图像模型！",
+          "link": "https://x.com/replicate/status/2067738761270596076",
+          "publishedAt": "Thu, 18 Jun 2026 22:38:32 GMT",
+          "source": "Replicate(@replicate)",
+          "sourceType": "social",
+          "description": "Riverflow 2.5 is now on Replicate. Try the image model that is topping charts on @Designarena ! Riverflow @riverflow_ai Riverflow 2.5 Pro just topped the charts. Across all three categories on @Designarena 's global benchmarking - Image, Graphic Design and Image Editing - Riverflow 2.5 Pro came in at #1 Design Arena is powered by real user voting, the people who we created it for. The results speak for themselves: #1 Image #1 Graphic Design #1 Image Editing #3 Logo Beating GPT Image 2, Gemini 3 Pro, Ideogram and every other model in the field. Riverflow 2.5 Pro is available now on OpenRouter, Runware and Replicate. Or get in touch with us directly. 🔗 View Quoted Tweet 💬 2 🔄 3 ❤️ 35 👀 4574 📊 9 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLIVETZWcAAUbvl.jpg",
+          "video": "",
+          "summary": "Riverflow 2.5 is now on Replicate. Try the image model that is topping charts on @Designarena ! Riverflow @riverflow_ai Riverflow 2.5 Pro just topped the charts. Across all three categories on @Designarena 's global benchmarking - Image, Graphic Design and Image Editing - Riverflow 2.5 Pro came in at #1 Design Arena is powered by real user voting, the people who we created it for. The results speak for themselves: #1 Image #1 Graphic Design #1 Image Editing #3 Logo Beating GPT Image 2, Gemini 3 Pro, Ideogram and every other model in the field. Riverflow 2.5 Pro is available now on OpenRouter, Runware and Replicate. Or get in touch with us directly. 🔗 View Quoted Tweet 💬 2 🔄 3 ❤️ 35 👀 4574 📊 9 ⚡ Powered by xgo.ing",
+          "summaryZh": "Riverflow 2.5 现已推出 Replicate。尝试在 上名列前茅的图像模型！ Riverflow Riverflow 2.5 Pro 刚刚荣登排行榜榜首。在 的全球基准测试的所有三个类别中——图像、图形设计和图像编辑——Riverflow 2.5 Pro 名列第一，Design Arena 是由真实用户投票提供支持的，这些投票是我们为之创建的。结果不言而喻： 图像 图形设计 图像编辑 徽标击败 GPT Image 2、Gemini 3 Pro、Ideogram 和该领域的所有其他模型。 Riverflow 2.5 Pro 现已在 OpenRouter、Runware 和 Replicate 上提供。或者直接与我们联系。 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "评测",
+            "图像"
+          ],
+          "score": 56.39703788804844
+        },
+        {
+          "title": "强烈推荐安装这个Skill，比官方的Skill-creator强大很多。 如果不会写skill，用姚老师这个skill可以写出90分的skill 这个skill来源于Anthropic 官方泄露的...",
+          "titleZh": "强烈推荐安装这个Skill，比官方的Skill-creator强大很多",
+          "link": "https://x.com/vista8/status/2067748609509257601",
+          "publishedAt": "Thu, 18 Jun 2026 23:17:40 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "description": "强烈推荐安装这个Skill，比官方的Skill-creator强大很多。 如果不会写skill，用姚老师这个skill可以写出90分的skill 这个skill来源于Anthropic 官方泄露的Claude code源码，还有全网其他模型的skill整合后的元Skill。 经过姚老师长达一个月的打磨，这是我用过的最好的Meta Skill Github： github.com/yaojingang/yao… 姚金刚 @yaojingang 终于完成了对元Skill（创建skill的skill）的2.0升级 已推送到GitHub 这两天又进行了一些微调和测试，欢迎体验 相关资源与文档分享： 1、元skill仓库： github.com/yaojingang/yao… 2、2.0升级方案： doc.laoyao.cn/unyyhc 3、2.0与1.0的对比报告： doc.laoyao.cn/l3lkgm 🔗 View Quoted Tweet 💬 48 🔄 231 ❤️ 1147 👀 143677 📊 401 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HLE8v1CbsAES_-U.jpg",
+          "video": "",
+          "summary": "强烈推荐安装这个Skill，比官方的Skill-creator强大很多。 如果不会写skill，用姚老师这个skill可以写出90分的skill 这个skill来源于Anthropic 官方泄露的Claude code源码，还有全网其他模型的skill整合后的元Skill。 经过姚老师长达一个月的打磨，这是我用过的最好的Meta Skill Github： github.com/yaojingang/yao… 姚金刚 @yaojingang 终于完成了对元Skill（创建skill的skill）的2.0升级 已推送到GitHub 这两天又进行了一些微调和测试，欢迎体验 相关资源与文档分享： 1、元skill仓库： github.com/yaojingang/yao… 2、2.0升级方案： doc.laoyao.cn/unyyhc 3、2.0与1.0的对比报告： doc.laoyao.cn/l3lkgm 🔗 View Quoted Tweet 💬 48 🔄 231 ❤️ 1147 👀 143677 📊 401 ⚡ Powered by xgo.ing",
+          "summaryZh": "强烈推荐安装这个Skill，比官方的Skill-creator强大很多。 如果不会写skill，用姚老师这个skill可以写出90分的skill 这个skill来源于Anthropic 官方泄露的Claude code源码，还有全网其他模型的skill整合后的元Skill。 经过姚老师长达一个月的打磨，这是我用过的最好的Meta Skill Github： github.com/yaojingang/yao… 姚金刚 终于完成了对元Skill（创建skill的skill）的2.0升级 已推送到GitHub 这两天又进行了一些微调和测试，欢迎体验 相关资源与文档分享： 1、元skill仓库： github.com/yaojingang/yao… 2、2.0升级方案： doc.laoyao.cn/unyyhc 3、2.0与1.0的对比报告： doc.laoyao.cn/l3lkgm \udd17 View Quoted Tweet（要点：强烈推荐安装这个Skill，比官方的Skill-creator强大很多。）",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "模型"
+          ],
+          "score": 56
+        },
+        {
+          "title": "Replit’s vibecon is the coolest! here’s what you missed: > blind self portraits > custom frag...",
+          "titleZh": "Replit 的 vibecon 是最酷",
+          "link": "https://x.com/Replit/status/2067698980335579143",
+          "publishedAt": "Thu, 18 Jun 2026 20:00:27 GMT",
+          "source": "Replit ⠕(@Replit)",
+          "sourceType": "social",
+          "description": "Replit’s vibecon is the coolest! here’s what you missed: > blind self portraits > custom fragrances > robotic arm art > mini games > talks with the top creatives can’t wait for what’s next Your browser does not support the video tag. 🔗 View on Twitter 💬 4 🔄 4 ❤️ 61 👀 10248 📊 11 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-20-2067698980335579143.mp4",
+          "summary": "Replit’s vibecon is the coolest! here’s what you missed: > blind self portraits > custom fragrances > robotic arm art > mini games > talks with the top creatives can’t wait for what’s next Your browser does not support the video tag. 🔗 View on Twitter 💬 4 🔄 4 ❤️ 61 👀 10248 📊 11 ⚡ Powered by xgo.ing",
+          "summaryZh": "Replit 的 vibecon 是最酷的！以下是您错过的内容： > 盲人自画像 > 定制香水 > 机械臂艺术 > 迷你游戏 > 与顶级创意人士对话 迫不及待地等待接下来的内容。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "RAG",
+            "视频"
+          ],
+          "score": 55.28249901069824
+        },
+        {
+          "title": "Don't let your machine be the bottleneck @HyperFrames_ can now render in the cloud on HeyGen no l...",
+          "titleZh": "不要让你的机器成为瓶颈 现在可以在 HeyGen 上的云中渲染，没有本地 chrome、没有 ffmpeg、没有 aws 渲染速度更快，而且你的机器保持空闲，这",
+          "link": "https://x.com/HeyGen/status/2068012006540734821",
+          "publishedAt": "Fri, 19 Jun 2026 16:44:18 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "description": "Don't let your machine be the bottleneck @HyperFrames_ can now render in the cloud on HeyGen no local chrome, no ffmpeg, no aws renders land faster, and your machine stays free so you (or your agent) can keep building while it renders $ npx hyperframes cloud render Your browser does not support the video tag. 🔗 View on Twitter 💬 10 🔄 6 ❤️ 38 👀 1980 📊 19 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-20-2068012006540734821.mp4",
+          "summary": "Don't let your machine be the bottleneck @HyperFrames_ can now render in the cloud on HeyGen no local chrome, no ffmpeg, no aws renders land faster, and your machine stays free so you (or your agent) can keep building while it renders $ npx hyperframes cloud render Your browser does not support the video tag. 🔗 View on Twitter 💬 10 🔄 6 ❤️ 38 👀 1980 📊 19 ⚡ Powered by xgo.ing",
+          "summaryZh": "不要让你的机器成为瓶颈 现在可以在 HeyGen 上的云中渲染，没有本地 chrome、没有 ffmpeg、没有 aws 渲染速度更快，而且你的机器保持空闲，这样你（或你的代理）就可以在渲染时继续构建 $ npx hyperframes cloud render。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 55.041173906600555
+        },
+        {
+          "title": "You don't need to travel the world to create a global ad campaign. From idea to execution, this ent...",
+          "titleZh": "Runway 案例：一名创作者一天内完成全球广告短片制作",
+          "link": "https://x.com/runwayml/status/2068019781056565262",
+          "publishedAt": "Fri, 19 Jun 2026 17:15:12 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "description": "You don't need to travel the world to create a global ad campaign. From idea to execution, this entire ad was produced by a single person in just one day with Runway. Try it yourself at the link below. #MadeWithRunway Your browser does not support the video tag. 🔗 View on Twitter 💬 9 🔄 13 ❤️ 69 👀 6409 📊 19 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-20-2068019781056565262.mp4",
+          "summary": "You don't need to travel the world to create a global ad campaign. From idea to execution, this entire ad was produced by a single person in just one day with Runway. Try it yourself at the link below. #MadeWithRunway Your browser does not support the video tag. 🔗 View on Twitter 💬 9 🔄 13 ❤️ 69 👀 6409 📊 19 ⚡ Powered by xgo.ing",
+          "summaryZh": "Runway 用一条案例短片展示生成式视频广告的工作流：官方称这支面向 **全球广告活动** 的成片，从创意到执行都由 **一名创作者在一天内完成**，并且全程使用 **Runway** 制作。它传递的重点不是单个新模型参数，而是生成式视频工具正在把跨地区取景、拍摄与后期的成本压缩到个人创作者也能承担的范围；如果后续能补充更多素材生成、镜头控制和品牌一致性细节，这会是一个值得继续跟踪的商业制作信号。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 54.38293527569173
+        },
+        {
+          "title": "you can now teach Codex by demonstration:",
+          "titleZh": "您现在可以通过演示来教授 Codex：OpenAI 开发人员 @OpenAIDevs 向 Codex 展示一次工作流程",
+          "link": "https://x.com/gdb/status/2067700691062464887",
+          "publishedAt": "Thu, 18 Jun 2026 20:07:15 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "description": "you can now teach Codex by demonstration: OpenAI Developers @OpenAIDevs Show Codex a workflow once. Reuse it as a skill. Record & Replay lets you show Codex a recurring task, like filing an expense report or submitting a time-off request. Codex turns that demo into an inspectable, editable skill. You control when recording starts and stops. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 91 🔄 120 ❤️ 2753 👀 467160 📊 438 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-06-20-2067700691062464887.mp4",
+          "summary": "you can now teach Codex by demonstration: OpenAI Developers @OpenAIDevs Show Codex a workflow once. Reuse it as a skill. Record & Replay lets you show Codex a recurring task, like filing an expense report or submitting a time-off request. Codex turns that demo into an inspectable, editable skill. You control when recording starts and stops. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 91 🔄 120 ❤️ 2753 👀 467160 📊 438 ⚡ Powered by xgo.ing",
+          "summaryZh": "您现在可以通过演示来教授 Codex：OpenAI 开发人员 @OpenAIDevs 向 Codex 展示一次工作流程。将其重新用作技能。记录和重播可让您向 Codex 展示重复性任务，例如提交费用报告或提交休假请求。 Codex 将该演示转变为可检查、可编辑的技能。您可以控制录制的开始和停止时间。 查看引用的推文",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开发者工具",
+            "视频"
+          ],
+          "score": 54
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": []
+    }
+  ],
+  "failures": [
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Latent Space",
+      "url": "https://www.latent.space/feed",
+      "error": "请求超时（15000ms）：https://www.latent.space/feed"
+    },
+    {
+      "source": "Groq",
+      "url": "https://api.bestblogs.dev/feed/groqBlog",
+      "error": "请求超时（15000ms）：https://api.bestblogs.dev/feed/groqBlog"
+    },
+    {
+      "source": "ElevenLabs Blog",
+      "url": "https://api.bestblogs.dev/feed/elevenLabsBlog",
+      "error": "请求超时（15000ms）：https://api.bestblogs.dev/feed/elevenLabsBlog"
+    },
+    {
+      "source": "FireCrawl Blog",
+      "url": "https://api.bestblogs.dev/feed/fireCrawlBlog",
+      "error": "请求超时（15000ms）：https://api.bestblogs.dev/feed/fireCrawlBlog"
+    },
+    {
+      "source": "Simon Willison's Weblog",
+      "url": "https://simonwillison.net/atom/everything/",
+      "error": "请求超时（15000ms）：https://simonwillison.net/atom/everything/"
+    },
+    {
+      "source": "AI炼金术",
+      "url": "https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8",
+      "error": "请求超时（15000ms）：https://rsshub.bestblogs.dev/xiaoyuzhou/podcast/63e9ef4de99bdef7d39944c8"
+    },
+    {
+      "source": "OpenAI(@OpenAI)",
+      "url": "https://api.xgo.ing/rss/user/0c0856a69f9f49cf961018c32a0b0049",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/0c0856a69f9f49cf961018c32a0b0049"
+    },
+    {
+      "source": "AI Engineer(@aiDotEngineer)",
+      "url": "https://api.xgo.ing/rss/user/7d19a619a1cc4a9896129211269d2c85",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/7d19a619a1cc4a9896129211269d2c85"
+    },
+    {
+      "source": "Latent.Space(@latentspacepod)",
+      "url": "https://api.xgo.ing/rss/user/a7be8b61a1264ea7984abfaea3eff686",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/a7be8b61a1264ea7984abfaea3eff686"
+    },
+    {
+      "source": "Character.AI(@character_ai)",
+      "url": "https://api.xgo.ing/rss/user/3877c31cdb554cffb750b3b683c98c4d",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/3877c31cdb554cffb750b3b683c98c4d"
+    },
+    {
+      "source": "LangChain(@LangChainAI)",
+      "url": "https://api.xgo.ing/rss/user/862fee50a745423c87e2633b274caf1d",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/862fee50a745423c87e2633b274caf1d"
+    },
+    {
+      "source": "Perplexity(@perplexity_ai)",
+      "url": "https://api.xgo.ing/rss/user/fdd601ea751949e7bec9e4cdad7c8e6c",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/fdd601ea751949e7bec9e4cdad7c8e6c"
+    },
+    {
+      "source": "LlamaIndex (@llama_index)",
+      "url": "https://api.xgo.ing/rss/user/67e259bd5be544ce84bbc867eace54c2",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/67e259bd5be544ce84bbc867eace54c2"
+    },
+    {
+      "source": "Dify(@dify_ai)",
+      "url": "https://api.xgo.ing/rss/user/0be252fedbe84ad7bea21be44b18da89",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/0be252fedbe84ad7bea21be44b18da89"
+    },
+    {
+      "source": "ollama(@ollama)",
+      "url": "https://api.xgo.ing/rss/user/6326c63a2dfa445bbde88bea0c3112c2",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/6326c63a2dfa445bbde88bea0c3112c2"
+    },
+    {
+      "source": "Gary Marcus(@GaryMarcus)",
+      "url": "https://api.xgo.ing/rss/user/35a38c5646d946fb894d8c30c1d9629e",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/35a38c5646d946fb894d8c30c1d9629e"
+    },
+    {
+      "source": "Folo AI Community Discussions",
+      "url": "https://api.folo.is/entries",
+      "error": "This operation was aborted"
+    }
+  ],
+  "summaryBullets": [
+    "**Cursor：介绍 /automate，这是一项让客服人员为您设置自**：介绍 /automate，这是一项让客服人员为您设置自动化的技能。用通俗易懂的语言描述您的任务",
+    "**OpenAI：向 Codex 展示一次工作流程**：向 Codex 展示一次工作流程。将其重新用作技能",
+    "**测试神话和寓言，超越 SWE-bench，Nvidia 的公开竞争者**：批量人工智能新闻和见解：在过去的两周里，美国政府和 Anthropic 都采取了重大行动，证明了他们有能力通过限制其他人对前沿模型的操作来控制对人工智能的访问。正在加载",
+    "**随着你的工作的发展，你的信誉也会随之发展**：我们很荣幸成为 互联应用发布的特色合作伙伴",
+    "**的 MAI‑Code‑1‑Flash 现已在其他 GitHub**：Copilot 界面上提供。它专为 GitHub Copilot 设计和调整，在其尺寸内提供一流的质量，在早"
+  ]
+}

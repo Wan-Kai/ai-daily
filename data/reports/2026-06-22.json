@@ -1,0 +1,549 @@
+{
+  "date": "2026-06-22",
+  "generatedAt": "2026-06-21T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-22",
+  "stats": {
+    "sources": 135,
+    "fetched": 92,
+    "emailCandidates": 0,
+    "selected": 23,
+    "failures": 3
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "Peter Yang talks to @liu8in and @JakeFromHeyGen about how HyperFrames actually works and the playboo...",
+          "titleZh": "Peter Yang 与 和 讨论了 H",
+          "link": "https://x.com/HeyGen/status/2068735167817191444",
+          "publishedAt": "Sun, 21 Jun 2026 16:37:53 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "description": "Peter Yang talks to @liu8in and @JakeFromHeyGen about how HyperFrames actually works and the playbook we use to ship product videos fast. (0:00) From HTML to professional launch videos (02:16) Getting started: Install HyperFrames for free (03:50) /website-to-video: Turn any URL into video (08:28) Jake’s 5-step playbook to better generations (10:03) Step 1: Gather assets and create a frame.md (11:46) Step 2: Create a storyboard.md with the scenes (12:45) Step 3: Pull animations from HF launches (15:43) Step 4: Generate and review static frames (17:20) Step 5: Build the video and polish in Studio Jump to any step, or watch the full interview start to finish: youtube.com/watch?v=iqb5Rd… Peter Yang @petergyang \"I've spent $30K on a launch video, now you can make one with code.\" Here's my new episode with @liu8in and @JakeFromHeyGen , where they shared their 5-step playbook for using HyperFrames to make professional launch videos in Codex and Claude Code: 1. Gather video assets and create a frame.md 2. Create a storyboard.md with the scenes 3. Pull animations from the HyperFrames repo 4. Generate and review static frames 5. Build the video with HyperFrames Studio You can also start simple by using the built-in /website-to-video skill to one shot a launch video from any URL. HyperFrames is 100% free and I love how it democratizes video creation for everyone. 📌 Watch now: youtu.be/iqb5Rd6KKr8 O Thanks to our sponsors: @WisprFlow : 4x faster than typing with your voice ref.wisprflow.ai/peter-yang-jun… T @RiversidedotFM : All-in-one AI studio for podcasts and video creators.riverside.com/PeterYang E Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 6 🔄 3 ❤️ 43 👀 8451 📊 12 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-22-2068735167817191444.mp4",
+          "summary": "Peter Yang talks to @liu8in and @JakeFromHeyGen about how HyperFrames actually works and the playbook we use to ship product videos fast. (0:00) From HTML to professional launch videos (02:16) Getting started: Install HyperFrames for free (03:50) /website-to-video: Turn any URL into video (08:28) Jake’s 5-step playbook to better generations (10:03) Step 1: Gather assets and create a frame.md (11:46) Step 2: Create a storyboard.md with the scenes (12:45) Step 3: Pull animations from HF launches (15:43) Step 4: Generate and review static frames (17:20) Step 5: Build the video and polish in Studio Jump to any step, or watch the full interview start to finish: youtube.com/watch?v=iqb5Rd… Peter Yang @petergyang \"I've spent $30K on a launch video, now you can make one with code.\" Here's my new episode with @liu8in and @JakeFromHeyGen , where they shared their 5-step playbook for using Hyper...",
+          "summaryZh": "Peter Yang 与 和 讨论了 HyperFrames 的实际工作原理以及我们用来快速发布产品视频的剧本。 (0:00) 从 HTML 到专业发布视频 (02:16) 入门：免费安装 HyperFrames (03:50) /网站到视频：将任何 URL 转换为视频 (08:28) Jake 的 5 步剧本，打造更好的一代 (10:03) 第 1 步：收集资源并创建一个frame.md (11:46) 第 2 步：使用场景创建一个 Storyboard.md (12:45)第 3 步：从 HF 启动中提取动画 (15:43) 第 4 步：生成并审查静态帧 (17:20) 第 5 步：在 Studio 中构建视频并进行润色 跳至任意步骤，或观看从头到尾的完整采访：youtube.com/watch?v=iqb5Rd… Peter Yang “我在启动视频上花费了 3 万美元，现在您可以用代码制作一个。”这是我与 和 的新剧集，他们分享了使用 Hyper 的 5 步手册...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "语音",
+            "视频"
+          ],
+          "score": 66.51346796118534
+        },
+        {
+          "title": "codex for testing every single feature in your app:",
+          "titleZh": "用于测试应用中每个功能的 codex：Tom Osman ‍⬛ @tomosman 这种“循环”自动化在 Codex 中非常疯狂",
+          "link": "https://x.com/gdb/status/2068761809318990054",
+          "publishedAt": "Sun, 21 Jun 2026 18:23:45 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "description": "codex for testing every single feature in your app: Tom Osman 🐦‍⬛ @tomosman This \"loop\" automation is nuts inside of Codex. \"/goal go over every single feature in this app create a user story with expected behaviour based on the code keep a single canonical spreadsheet tracking the features status - when done switch loop to testing every user story and documenting all errors - when done fix every logistical error or ux error - test every user behaviour again post fix\" Shoutout to @MatthewBerman for the heads up. Hundreds of user stories being worked through like it's nothing. 🔗 View Quoted Tweet 💬 41 🔄 53 ❤️ 1156 👀 169492 📊 264 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HLV49jDWoAAqIzK.jpg",
+          "video": "",
+          "summary": "codex for testing every single feature in your app: Tom Osman 🐦‍⬛ @tomosman This \"loop\" automation is nuts inside of Codex. \"/goal go over every single feature in this app create a user story with expected behaviour based on the code keep a single canonical spreadsheet tracking the features status - when done switch loop to testing every user story and documenting all errors - when done fix every logistical error or ux error - test every user behaviour again post fix\" Shoutout to @MatthewBerman for the heads up...",
+          "summaryZh": "用于测试应用中每个功能的 codex：Tom Osman ‍⬛ @tomosman 这种“循环”自动化在 Codex 中非常疯狂。 “/goal 遍历此应用中的每个功能，根据代码创建具有预期行为的用户故事，保留单个规范电子表格跟踪功能状态 - 完成后切换循环以测试每个用户故事并记录所有错误 - 完成后修复每个逻辑错误或用户体验错误 - 修复后再次测试每个用户行为”向 @MatthewBerman 喊话，请注意...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 50
+        },
+        {
+          "title": "翻译还是得用 Gemini 3.1 Pro 最好，翻译质量是没办法通过工作流弥补的，Opus-4.8 自身写作能力不行翻译的总是很生硬",
+          "titleZh": "翻译还是得用 Gemini 3.1 Pro 最好，翻译质量是没办法通过工作流弥补的，Opus-4.8 自身写作能力不行翻译的总是很生硬 LinearUncle",
+          "link": "https://x.com/dotey/status/2068709091501838520",
+          "publishedAt": "Sun, 21 Jun 2026 14:54:16 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "翻译还是得用 Gemini 3.1 Pro 最好，翻译质量是没办法通过工作流弥补的，Opus-4.8 自身写作能力不行翻译的总是很生硬 LinearUncle @LinearUncle Claude Code 设置/effort 为ultracode，然后翻译英文文章，你就会收获一个自动的多智能体流水线翻译流程： 先让 3 位风格各异的译者各出一稿 → 双语编辑对照原文评审挑出最佳译法 → 综合成定稿 → 最后逐句校对纠错（这句话不是我说的，是ClaudeCode输出的，自己想的办法） 因为我探索了比较久，原始session我截不到开始的内容了，只能用Claude Code History Viewer这个工具贴历史记录。 过程中Claude Code实际上会触发dynamic workflow,然后自动写提示词执行。 参看我上一个帖子的翻译《如何做研究》 🔗 View Quoted Tweet 💬 42 🔄 5 ❤️ 78 👀 18644 📊 39 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HLWBQPJbwAA4dMm.jpg",
+          "video": "",
+          "summary": "翻译还是得用 Gemini 3.1 Pro 最好，翻译质量是没办法通过工作流弥补的，Opus-4.8 自身写作能力不行翻译的总是很生硬 LinearUncle @LinearUncle Claude Code 设置/effort 为ultracode，然后翻译英文文章，你就会收获一个自动的多智能体流水线翻译流程： 先让 3 位风格各异的译者各出一稿 → 双语编辑对照原文评审挑出最佳译法 → 综合成定稿 → 最后逐句校对纠错（这句话不是我说的，是ClaudeCode输出的，自己想的办法） 因为我探索了比较久，原始session我截不到开始的内容了，只能用Claude Code History Viewer这个工具贴历史记录。 过程中Claude Code实际上会触发dynamic workflow,然后自动写提示词执行。 参看我上一个帖子的翻译《如何做研究》 🔗 View Quoted Tweet 💬 42 🔄 5 ❤️ 78 👀 18644 📊 39 ⚡ Powered by xgo.ing",
+          "summaryZh": "翻译还是得用 Gemini 3.1 Pro 最好，翻译质量是没办法通过工作流弥补的，Opus-4.8 自身写作能力不行翻译的总是很生硬 LinearUncle Claude Code 设置/effort 为ultracode，然后翻译英文文章，你就会收获一个自动的多智能体流水线翻译流程： 先让 3 位风格各异的译者各出一稿 → 双语编辑对照原文评审挑出最佳译法 → 综合成定稿 → 最后逐句校对纠错（这句话不是我说的，是ClaudeCode输出的，自己想的办法） 因为我探索了比较久，原始session我截不到开始的内容了，只能用Claude Code History Viewer这个工具贴历史记录。 过程中Claude Code实际上会触发dynamic workflow,然后自动写提示词执行。 参看我上一个帖子的翻译《如何做研究》 \udd17 View Quoted Tweet",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 46.18612290305463
+        },
+        {
+          "title": "codex for testing ever single feature in your app:",
+          "titleZh": "用于测试应用中单个功能的 codex：Tom Osman ‍⬛ @tomosman 这种“循环”自动化在 Codex 中非常疯狂",
+          "link": "https://x.com/gdb/status/2068759320549044426",
+          "publishedAt": "Sun, 21 Jun 2026 18:13:52 GMT",
+          "source": "Greg Brockman(@gdb)",
+          "sourceType": "social",
+          "description": "codex for testing ever single feature in your app: Tom Osman 🐦‍⬛ @tomosman This \"loop\" automation is nuts inside of Codex. \"/goal go over every single feature in this app create a user story with expected behaviour based on the code keep a single canonical spreadsheet tracking the features status - when done switch loop to testing every user story and documenting all errors - when done fix every logistical error or ux error - test every user behaviour again post fix\" Shoutout to @MatthewBerman for the heads up. Hundreds of user stories being worked through like it's nothing. 🔗 View Quoted Tweet 💬 12 🔄 3 ❤️ 40 👀 2801 📊 13 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HLV49jDWoAAqIzK.jpg",
+          "video": "",
+          "summary": "codex for testing ever single feature in your app: Tom Osman 🐦‍⬛ @tomosman This \"loop\" automation is nuts inside of Codex. \"/goal go over every single feature in this app create a user story with expected behaviour based on the code keep a single canonical spreadsheet tracking the features status - when done switch loop to testing every user story and documenting all errors - when done fix every logistical error or ux error - test every user behaviour again post fix\" Shoutout to @MatthewBerman for the heads up....",
+          "summaryZh": "用于测试应用中单个功能的 codex：Tom Osman ‍⬛ @tomosman 这种“循环”自动化在 Codex 中非常疯狂。 “/goal 遍历此应用中的每个功能，根据代码创建具有预期行为的用户故事，保留单个规范电子表格，跟踪功能状态 - 完成后切换循环以测试每个用户故事并记录所有错误 - 完成后修复每个逻辑错误或用户体验错误 - 修复后再次测试每个用户行为”向 @MatthewBerman 大声喊叫，请注意......",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 39.94040095826634
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Playful Agentic Robot Learning",
+          "titleZh": "Playful Agentic Robot Learning：让机器人先通过“自发玩耍”学技能",
+          "link": "https://huggingface.co/papers/2606.19419",
+          "publishedAt": "2026-06-21T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Current agentic robot systems can write executable Code-as-Policy programs, observe feedback, and revise behavior across multiple attempts, but they remain largely task-driven: reusable skills are acquired only after explicit instructions.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.19419/gradient.png",
+          "video": "",
+          "summary": "Current agentic robot systems can write executable Code-as-Policy programs, observe feedback, and revise behavior across multiple attempts, but they remain largely task-driven: reusable skills are acquired only after explicit instructions.",
+          "summaryZh": "**核心结论** 这篇论文想解决的是，机器人智能体通常只会在接到明确任务后临时写策略、反复试错，但很难像人类一样在“玩耍”阶段提前积累可迁移技能。作者提出 **Playful Agentic Robot Learning**，让机器人先做自发探索，再把探索中成功的动作流程沉淀成可复用的代码技能库，等真正任务到来时直接调用。核心系统叫 **RATs（Robotics Agent Teams）**，会自己提出可学的新任务、规划执行代码、检查中间结果、诊断失败并重试。 **支撑证据** 论文在 **LIBERO-PRO** 和 **MolmoSpaces** 上比较了“先玩再学”和“不玩/随机玩”两类基线，报告对下游未见任务分别带来 **20.6** 和 **17.0** 个百分点的提升；把学到的技能库直接塞给其他推理时 Code-as-Policy 智能体，也能让 **RoboSuite** 与真实世界迁移分别再涨 **8.9** 和 **8.8** 分，而且不需要微调底层模型。 **我的判断** 这条路线对具身智能很有价值，因为它把“采技能”和“做任务”分开了，更接近长期学习系统。但要继续看两点：一是自发探索的成本是否过高，二是技能库在不同机器人、不同传感配置之间的迁移效果是否稳定。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "论文"
+          ],
+          "score": 35
+        },
+        {
+          "title": "Beyond Static Leaderboards: Predictive Validity for the Evaluation of LLM Agents",
+          "titleZh": "超越静态排行榜：LLM 代理评估的预测有效性",
+          "link": "https://huggingface.co/papers/2606.19704",
+          "publishedAt": "2026-06-21T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Agent benchmarks are growing fast, but no single benchmark touches more than four or five of the dimensions that deployment exposes. This paper aggregates the largest coordinated deep-dive of one MCP-based industrial-agent benchmark to date.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.19704/gradient.png",
+          "video": "",
+          "summary": "Agent benchmarks are growing fast, but no single benchmark touches more than four or five of the dimensions that deployment exposes. This paper aggregates the largest coordinated deep-dive of one MCP-based industrial-agent benchmark to date.",
+          "summaryZh": "**核心结论** 这篇论文批评当前 **LLM Agent 排行榜** 的核心问题：大家过度关注单一总分，但真实部署会遇到检索策略、编排方式、多模态输入、基础设施优化、隐藏数据分布变化等很多维度，单个 benchmark 根本覆盖不全。作者提出一个更实用的评估视角，主张不要只看“样本内平均分”，而要看配置在样本外场景里的 **预测有效性（predictive validity）**，也就是一个 benchmark 上的排名能不能迁移到新环境。 **支撑证据** 论文汇总了 **14 个并行实现研究**，围绕同一个 **MCP** 工业智能体 benchmark 去系统比较资产类型、编排方式、检索策略、推理模式和评估方法，并把这些结果与另外 **7 个 agent benchmark** 结合分析。作者指出，公开榜单和隐藏测试集之间已经出现明显的排名不稳定现象，因此进一步给出一套 **12 层测量框架** 和 **3 个可证伪的 OOD 标准**，希望把“部署后是否还能排得住”纳入核心指标。 **我的判断** 这对做 Agent 基准和企业选型的人都很关键，因为它直指“榜单好看但上线失灵”的老问题。接下来值得关注的是，这套 predictive validity 指标能否在更多公开 benchmark 上复现，以及社区是否愿意接受比单一分数更复杂的报告方式。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "论文"
+          ],
+          "score": 35
+        },
+        {
+          "title": "Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance",
+          "titleZh": "Moebius：0.2B轻量级图像修复框架，10B级性能",
+          "link": "https://huggingface.co/papers/2606.19195",
+          "publishedAt": "2026-06-21T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "While 10B-level industrial foundation models have pushed the boundaries of image inpainting, their prohibitive computational costs severely hinder practical deployment. To conquer this, the authors propose Moebius, a highly efficient lightweight inpainting framework.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/633d4630e1aec4b8b33ad5b8/-UY5m46z5iP_FeHn00rMo.png",
+          "video": "",
+          "summary": "While 10B-level industrial foundation models have pushed the boundaries of image inpainting, their prohibitive computational costs severely hinder practical deployment. To conquer this, the authors propose Moebius, a highly efficient lightweight inpainting framework.",
+          "summaryZh": "**核心结论** 这篇论文想解决的是，当前高质量图像修复往往依赖 **10B 级通用模型**，效果很好，但推理成本太高，很难真正落地。作者提出 **Moebius**，把任务专用结构压缩到 **0.22B 参数**，目标是在保住细节质量的前提下，把工业级修图能力做成更轻、更快的专用框架。方法上，他们重构了 diffusion backbone，引入 **Local-λ Mix Interaction（LλMI）** 模块，把局部空间上下文和全局语义先验压进固定大小的线性矩阵里，尽量在大幅减参时保留复杂表示能力。 **支撑证据** 为了让小模型不被压缩拖垮，论文又配套设计了 **自适应多粒度蒸馏**，而且蒸馏严格在 latent space 里做，避免昂贵的像素空间解码。作者报告，在自然图像和人像修复基准上，Moebius 能追平甚至超过 **FLUX.1-Fill-Dev（11.9B）** 的生成质量，同时只用不到 **2% 参数量**，总推理时间加速超过 **15 倍**。 **我的判断** 如果这些结果可复现，这会是“轻量专用模型替代超大通用模型”的一个很强信号，尤其适合对延迟和显存敏感的修图场景。后续最值得核实的是：不同遮挡类型、长尾人像细节和真实生产流水线里的稳定性，是否还能保持这种性价比优势。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "论文",
+            "图像"
+          ],
+          "score": 34
+        },
+        {
+          "title": "DragMesh-2: Physically Plausible Dexterous Hand-Object Interaction with Articulated Objects",
+          "titleZh": "DragMesh-2：物理上合理的灵巧手部物体与铰接物体的交互",
+          "link": "https://huggingface.co/papers/2606.15133",
+          "publishedAt": "2026-06-21T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Dexterous interaction with articulated objects is important for household, assistive, and humanoid manipulation, where multi-finger hands can provide compliant contact patterns beyond parallel-jaw grasping. The paper presents DragMesh-2, a contact-driven framework for dexterous interaction with articulated objects.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.15133/gradient.png",
+          "video": "",
+          "summary": "Dexterous interaction with articulated objects is important for household, assistive, and humanoid manipulation, where multi-finger hands can provide compliant contact patterns beyond parallel-jaw grasping. The paper presents DragMesh-2, a contact-driven framework for dexterous interaction with articulated objects.",
+          "summaryZh": "**核心结论** 这篇论文关注的是一个很具体但很难的机器人问题：多指灵巧手怎么稳定地操作 **门把手、抽屉、旋钮** 这类带关节的物体。难点在于，目标部件往往不能直接被驱动，动作必须通过持续的手-物接触自然产生；如果只靠几何轨迹回放或开环执行，常常推不动、拉不稳。作者提出 **DragMesh-2**，把“面向物体的铰接动作生成”扩展成“由手部接触驱动的灵巧交互”，强调让铰接运动真正通过物理接触涌现。 **支撑证据** 论文还提出 **PICA** 训练机制，在没有触觉或力反馈的情况下，把物理相关信号注入策略学习，提升接触载荷变化时的鲁棒性。实验覆盖多种阻尼条件和多类铰接物体，在 **7 个 GAPartNet 物体** 上，DragMesh-2 相比对比方法在接触负载变化下表现出更强鲁棒性，同时保持较高任务成功率；作者也同步提供了纯几何交互资源，供后续灵巧手和 humanoid hand-object interaction 研究使用。 **我的判断** 这类工作对家务机器人和人形机器人都很重要，因为真正难的不是“看见目标”，而是“在不确定接触里把它稳稳拨动”。不过没有触觉反馈时的上限仍然值得继续观察，尤其是更复杂、材料更软或摩擦更不稳定的真实物体场景。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "论文",
+            "RAG"
+          ],
+          "score": 34
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "Let’s go open models! ❤️",
+          "titleZh": "让我们打开模型吧！",
+          "link": "https://x.com/ollama/status/2068526102327492810",
+          "publishedAt": "Sun, 21 Jun 2026 02:47:08 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "description": "Let’s go open models! ❤️ Guillermo Rauch @rauchg Genuinely impressed, almost shocked, at how good GLM-5.2 by @zai_org is at coding. This changes things. 🔗 View Quoted Tweet 💬 31 🔄 51 ❤️ 1045 👀 63485 📊 105 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Let’s go open models! ❤️ Guillermo Rauch @rauchg Genuinely impressed, almost shocked, at how good GLM-5.2 by @zai_org is at coding. This changes things. 🔗 View Quoted Tweet 💬 31 🔄 51 ❤️ 1045 👀 63485 📊 105 ⚡ Powered by xgo.ing",
+          "summaryZh": "让我们打开模型吧！ Guillermo Rauch @rauchg 对于@zai_org 的 GLM-5.2 在编码方面的出色表现，给我留下了深刻的印象，几乎是震惊。这改变了事情。 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 63
+        },
+        {
+          "title": "mukul975/Anthropic-Cybersecurity-Skills",
+          "titleZh": "Anthropic-Cybersecurity-Skills：面向 AI Agent 的 754 条网络安全技能库",
+          "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+          "publishedAt": "2026-06-21T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://repository-images.githubusercontent.com/1166506614/38d9aad0-5e51-43d0-8567-21443768d1be",
+          "video": "",
+          "summary": "Sponsor Star mukul975 / Anthropic-Cybersecurity-Skills 754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+          "summaryZh": "这个仓库把网络安全能力整理成可复用的 **AI Agent 技能库**，面向代码代理、安全测试和红蓝对抗场景。项目简介称共收录 **754 条结构化技能**，覆盖 **26 个安全领域**，并映射到 **MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND、NIST AI RMF** 等 5 套主流框架；同时兼容 **Claude Code、GitHub Copilot、Codex CLI、Cursor、Gemini CLI** 等 20 多个平台。对正在做 Agent 安全评测、对齐训练或安全回归测试的团队来说，这类仓库的价值不只是“技能清单”，更像一套可直接转成 **评测题库、提示模板和安全基线** 的结构化资产。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体",
+            "开源"
+          ],
+          "score": 33
+        },
+        {
+          "title": "bytedance/deer-flow",
+          "titleZh": "bytedance/deer-flow：一个开源的长期 SuperAgent 工具，用于研究、编",
+          "link": "https://github.com/bytedance/deer-flow",
+          "publishedAt": "2026-06-21T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star bytedance / deer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/f078f29eae2f46ea892f1c7aca87b6b341de71e40c9a943448feb6e8a03473f0/bytedance/deer-flow",
+          "video": "",
+          "summary": "Star bytedance / deer-flow An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+          "summaryZh": "一个开源的长期 SuperAgent 工具，用于研究、编码和创建。借助沙箱、内存、工具、技能、子代理和消息网关，它可以处理可能需要几分钟到几小时的不同级别的任务。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体",
+            "RAG"
+          ],
+          "score": 32
+        },
+        {
+          "title": "ZhuLinsen/daily_stock_analysis",
+          "titleZh": "ZhuLinsen/daily_stock_analysis：Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+          "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
+          "publishedAt": "2026-06-21T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://repository-images.githubusercontent.com/1131513930/2a028e99-3b90-4290-8381-d86fffbf3332",
+          "video": "",
+          "summary": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+          "summaryZh": "Star ZhuLinsen / daily_stock_analysis LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        },
+        {
+          "title": "koala73/worldmonitor",
+          "titleZh": "koala73/worldmonitor：实时全球情报仪表板。在统一的态势感知界面中进行人工智能驱",
+          "link": "https://github.com/koala73/worldmonitor",
+          "publishedAt": "2026-06-21T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/koala73/worldmonitor/raw/main/docs/images/worldmonitor-7-mar-2026.jpg",
+          "video": "",
+          "summary": "Star koala73 / worldmonitor Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+          "summaryZh": "实时全球情报仪表板。在统一的态势感知界面中进行人工智能驱动的新闻聚合、地缘政治监控和基础设施跟踪（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "不求设计师！Codex一句话生成App图标，加快项目开发速度。 开源乔木icon设计Skill，支持两种方案： 1. Codex内调用Imagen生图能力，参考小耳@xiaoerzhan收集的几百...",
+          "titleZh": "不求设计师。Codex一句话生成App图标，加快项目开发速度",
+          "link": "https://x.com/vista8/status/2068551441048858744",
+          "publishedAt": "Sun, 21 Jun 2026 04:27:50 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "description": "不求设计师！Codex一句话生成App图标，加快项目开发速度。 开源乔木icon设计Skill，支持两种方案： 1. Codex内调用Imagen生图能力，参考小耳 @xiaoerzhan收集的几百个图标参考生成 。 2. 支持搜索 2w SVG图标，加上纯色或渐变背景生成icon。 无论开发App，还是网页，都可以快速设计图标，挑选使用。当然，精细打磨还是要靠设计师。 Skill安装方法： npx skills add joeseesun/qiaomu-icon-generator 开源Github地址见评论区 💬 57 🔄 19 ❤️ 111 👀 16939 📊 84 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HLT3PMwXYAAWzBj.jpg",
+          "video": "",
+          "summary": "不求设计师！Codex一句话生成App图标，加快项目开发速度。 开源乔木icon设计Skill，支持两种方案： 1. Codex内调用Imagen生图能力，参考小耳 @xiaoerzhan收集的几百个图标参考生成 。 2. 支持搜索 2w SVG图标，加上纯色或渐变背景生成icon。 无论开发App，还是网页，都可以快速设计图标，挑选使用。当然，精细打磨还是要靠设计师。 Skill安装方法： npx skills add joeseesun/qiaomu-icon-generator 开源Github地址见评论区 💬 57 🔄 19 ❤️ 111 👀 16939 📊 84 ⚡ Powered by xgo.ing",
+          "summaryZh": "不求设计师！Codex一句话生成App图标，加快项目开发速度。 开源乔木icon设计Skill，支持两种方案： 1. Codex内调用Imagen生图能力，参考小耳 收集的几百个图标参考生成。 2. 支持搜索 2w SVG图标，加上纯色或渐变背景生成icon。 无论开发App，还是网页，都可以快速设计图标，挑选使用。当然，精细打磨还是要靠设计师。 Skill安装方法： npx skills add joeseesun/qiaomu-icon-generator 开源Github地址见评论区",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "图像"
+          ],
+          "score": 52.90573018456366
+        },
+        {
+          "title": "Weekends are for building. Copilot Max users, check your account for an extra $200 in credits to pow...",
+          "titleZh": "周末是用来建设的。Copilot Max 用户，请检查您的帐户以获得额外的 200 美元积分，以支持您在 GitHub Copilot 应用中的下一个构建",
+          "link": "https://x.com/github/status/2068429622539342276",
+          "publishedAt": "Sat, 20 Jun 2026 20:23:46 GMT",
+          "source": "GitHub(@github)",
+          "sourceType": "social",
+          "description": "Weekends are for building. Copilot Max users, check your account for an extra $200 in credits to power your next build in the GitHub Copilot app. Stand by for more offers for Pro and Pro+ users. 💬 61 🔄 49 ❤️ 570 👀 121838 📊 107 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Weekends are for building. Copilot Max users, check your account for an extra $200 in credits to power your next build in the GitHub Copilot app. Stand by for more offers for Pro and Pro+ users. 💬 61 🔄 49 ❤️ 570 👀 121838 📊 107 ⚡ Powered by xgo.ing",
+          "summaryZh": "周末是用来建设的。 Copilot Max 用户，请检查您的帐户以获得额外的 200 美元积分，以支持您在 GitHub Copilot 应用中的下一个构建。敬请期待 Pro 和 Pro+ 用户的更多优惠。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源"
+          ],
+          "score": 52.845555619925406
+        },
+        {
+          "title": "Will the GitHub Copilot app run Doom? 👀 Yes, yes it will.",
+          "titleZh": "GitHub Copilot 应用会运行 Doom 吗？ 是的，是的，会的。",
+          "link": "https://x.com/github/status/2068709414517743900",
+          "publishedAt": "Sun, 21 Jun 2026 14:55:33 GMT",
+          "source": "GitHub(@github)",
+          "sourceType": "social",
+          "description": "Will the GitHub Copilot app run Doom? 👀 Yes, yes it will. Your browser does not support the video tag. 🔗 View on Twitter 💬 17 🔄 14 ❤️ 114 👀 29925 📊 26 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-22-2068709414517743900.mp4",
+          "summary": "Will the GitHub Copilot app run Doom? 👀 Yes, yes it will. Your browser does not support the video tag. 🔗 View on Twitter 💬 17 🔄 14 ❤️ 114 👀 29925 📊 26 ⚡ Powered by xgo.ing",
+          "summaryZh": "GitHub Copilot 应用会运行 Doom 吗？ 是的，是的，会的。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源",
+            "视频"
+          ],
+          "score": 50.56431939203003
+        },
+        {
+          "title": "GLM 5.2 just beat Fable 5 at website design. 🌐 The crazy part: GLM is text-only. It can build the...",
+          "titleZh": "GLM 5.2 在网站设计方面刚刚击败了《神鬼寓言 5》",
+          "link": "https://x.com/browser_use/status/2068405699340853541",
+          "publishedAt": "Sat, 20 Jun 2026 18:48:42 GMT",
+          "source": "Browser Use(@browser_use)",
+          "sourceType": "social",
+          "description": "GLM 5.2 just beat Fable 5 at website design. 🌐 The crazy part: GLM is text-only. It can build the site, but it can’t inspect the result. So we paired it with Browser Use v2 multimodal QA subagents. > Reviews the site and finds bugs > Judges the aesthetics > Sends GLM targeted fixes to iterate on Build + full QA cost less than $0.75. Try it now ↓ Your browser does not support the video tag. 🔗 View on Twitter Design Arena @Designarena x.com/i/article/2067… 🔗 View Quoted Tweet 💬 50 🔄 133 ❤️ 1727 👀 191893 📊 456 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-06-22-2068405699340853541.mp4",
+          "summary": "GLM 5.2 just beat Fable 5 at website design. 🌐 The crazy part: GLM is text-only. It can build the site, but it can’t inspect the result. So we paired it with Browser Use v2 multimodal QA subagents. > Reviews the site and finds bugs > Judges the aesthetics > Sends GLM targeted fixes to iterate on Build + full QA cost less than $0.75. Try it now ↓ Your browser does not support the video tag. 🔗 View on Twitter Design Arena @Designarena x.com/i/article/2067… 🔗 View Quoted Tweet 💬 50 🔄 133 ❤️ 1727 👀 191893 📊 4...",
+          "summaryZh": "GLM 5.2 在网站设计方面刚刚击败了《神鬼寓言 5》。 疯狂的部分：GLM 是纯文本的。它可以构建站点，但无法检查结果。因此，我们将其与 Browser Use v2 多模式 QA 子代理配对。 > 审查网站并发现错误 > 判断美观 > 发送 GLM 有针对性的修复程序以迭代构建 + 完整 QA 成本低于 0.75 美元。立即尝试 ↓ Design Arena @Designarena x.com/i/article/2067... 查看引用的推文 50 133 1727 191893 4...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "多模态",
+            "视频"
+          ],
+          "score": 50
+        },
+        {
+          "title": "牛逼，最近看到的最酷的项目。",
+          "titleZh": "牛逼，最近看到的最酷的项目。",
+          "link": "https://x.com/vista8/status/2068501121598140854",
+          "publishedAt": "Sun, 21 Jun 2026 01:07:52 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "description": "牛逼，最近看到的最酷的项目。 钟二信 @zhongerxin Cowart：Codex + 无限画布工具插件开源，大家可以来试试啦，这个插件先取名叫 Cowart，别问为什么叫这个，我只能说 Code with Art 这种冠冕堂皇的理由： github.com/zhongerxin/cow… 🔗 View Quoted Tweet 💬 32 🔄 11 ❤️ 82 👀 16874 📊 40 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HLScQzDbcAAyLDe.jpg",
+          "video": "",
+          "summary": "牛逼，最近看到的最酷的项目。 钟二信 @zhongerxin Cowart：Codex + 无限画布工具插件开源，大家可以来试试啦，这个插件先取名叫 Cowart，别问为什么叫这个，我只能说 Code with Art 这种冠冕堂皇的理由： github.com/zhongerxin/cow… 🔗 View Quoted Tweet 💬 32 🔄 11 ❤️ 82 👀 16874 📊 40 ⚡ Powered by xgo.ing",
+          "summaryZh": "牛逼，最近看到的最酷的项目。 钟二信 Cowart：Codex + 无限画布工具插件开源，大家可以来试试啦，这个插件先取名叫 Cowart，别问为什么叫这个，我只能说 Code with Art 这种冠冕堂皇的理由： github.com/zhongerxin/cow… \udd17 View Quoted Tweet",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源"
+          ],
+          "score": 49.694054473732024
+        },
+        {
+          "title": "More alerts ≠ better security 👀 Through collaborative research, we found how LLM-based contextual ...",
+          "titleZh": "更多警报≠更好的安全性通过协作研究，我们发现基于LLM的上下文验证如何能够提高秘密扫描警报质量并将误报减少75.76%",
+          "link": "https://x.com/github/status/2068413578374197367",
+          "publishedAt": "Sat, 20 Jun 2026 19:20:01 GMT",
+          "source": "GitHub(@github)",
+          "sourceType": "social",
+          "description": "More alerts ≠ better security 👀 Through collaborative research, we found how LLM-based contextual verification can improve secret scanning alert quality and reduce false positives by 75.76%. Here's what we learned � github.blog/security/makin… 4l 💬 18 🔄 17 ❤️ 138 👀 31079 📊 33 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "More alerts ≠ better security 👀 Through collaborative research, we found how LLM-based contextual verification can improve secret scanning alert quality and reduce false positives by 75.76%. Here's what we learned � github.blog/security/makin… 4l 💬 18 🔄 17 ❤️ 138 👀 31079 📊 33 ⚡ Powered by xgo.ing",
+          "summaryZh": "更多警报≠更好的安全性通过协作研究，我们发现基于LLM的上下文验证如何能够提高秘密扫描警报质量并将误报减少75.76%。这是我们学到的东西 github.blog/security/makin… 4l。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "开源"
+          ],
+          "score": 48.10007932736914
+        },
+        {
+          "title": "花几块钱就获得Codex三次重置机会，截止6月24。 用闲鱼这种服务有风险吗？实在是消耗太快，一周用量，两天就快用完了。",
+          "titleZh": "花几块钱就获得Codex三次重置机会，截止6月24。 用闲鱼这种服务有风险吗？实在是消耗太快，一周用量，两天就快用完了。",
+          "link": "https://x.com/vista8/status/2068688758594019605",
+          "publishedAt": "Sun, 21 Jun 2026 13:33:29 GMT",
+          "source": "向阳乔木(@vista8)",
+          "sourceType": "social",
+          "description": "花几块钱就获得Codex三次重置机会，截止6月24。 用闲鱼这种服务有风险吗？实在是消耗太快，一周用量，两天就快用完了。 💬 60 🔄 1 ❤️ 41 👀 30638 📊 56 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "花几块钱就获得Codex三次重置机会，截止6月24。 用闲鱼这种服务有风险吗？实在是消耗太快，一周用量，两天就快用完了。 💬 60 🔄 1 ❤️ 41 👀 30638 📊 56 ⚡ Powered by xgo.ing",
+          "summaryZh": "花几块钱就获得Codex三次重置机会，截止6月24。 用闲鱼这种服务有风险吗？实在是消耗太快，一周用量，两天就快用完了。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 40.60979886787139
+        },
+        {
+          "title": "about fucking time. they have always shown a disregard for humanity.",
+          "titleZh": "关于他妈的时间。他们始终表现出对人类的漠视。",
+          "link": "https://x.com/GaryMarcus/status/2068460591908589616",
+          "publishedAt": "Sat, 20 Jun 2026 22:26:49 GMT",
+          "source": "Gary Marcus(@GaryMarcus)",
+          "sourceType": "social",
+          "description": "about fucking time. they have always shown a disregard for humanity. Luiza Jarovsky, PhD @LuizaJarovsky 42 state attorneys general are investigating OpenAI over alleged harmful practices. Read again: 42 state attorneys general are investigating OpenAI over alleged harmful practices. The tide has totally changed. Even the authorities have had enough. AI should exist solely for the purpose of societal good. If, as Dario Amodei says, there is a 25% chance of AI-driven extinction, then: No evidence of direct societal benefit, no AI. Authorities should not accept anything other than that. 🔗 View Quoted Tweet 💬 26 🔄 91 ❤️ 519 👀 18017 📊 71 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HLSUT8tXcAAS2HI.jpg",
+          "video": "",
+          "summary": "about fucking time. they have always shown a disregard for humanity. Luiza Jarovsky, PhD @LuizaJarovsky 42 state attorneys general are investigating OpenAI over alleged harmful practices. Read again: 42 state attorneys general are investigating OpenAI over alleged harmful practices. The tide has totally changed. Even the authorities have had enough. AI should exist solely for the purpose of societal good. If, as Dario Amodei says, there is a 25% chance of AI-driven extinction, then: No evidence of direct societa...",
+          "summaryZh": "关于他妈的时间。他们始终表现出对人类的漠视。 Luiza Jarovsky 博士 @LuizaJarovsky 42 个州总检察长正在调查 OpenAI 涉嫌的有害行为。再读一遍：42 个州总检察长正在调查 OpenAI 涉嫌的有害行为。潮流完全改变了。就连当局也已经受够了。人工智能的存在应该仅仅为了社会公益的目的。如果像 Dario Amodei 所说的那样，人工智能驱动的灭绝有 25% 的可能性，那么：没有证据表明直接社会存在......",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 40.60651266726323
+        },
+        {
+          "title": "Has there ever been a more a soul-crushing technology than Generative AI?",
+          "titleZh": "还有比生成式人工智能更令人心碎的技术吗？",
+          "link": "https://x.com/GaryMarcus/status/2068403585772351647",
+          "publishedAt": "Sat, 20 Jun 2026 18:40:18 GMT",
+          "source": "Gary Marcus(@GaryMarcus)",
+          "sourceType": "social",
+          "description": "Has there ever been a more a soul-crushing technology than Generative AI? Deedy @deedydas Most software engineers are facing an identity crisis bordering on depression. As CTOs aggressively evangelize tokenmaxxing, a class divide ensues. The lazy. The lazy push code. They don't write it. They don't manually test it. They don't even read it. They're on autopilot. See Jira ticket, prompt for task, submit code. Many of them are barely on their computer the whole day. A comment on the PR asking why they did this? The lazy ask AI. A Slack message? The lazy ask AI. Need to prepare for standup? The lazy ask AI. As long as it sounds enough like them and isn't detected. Some of the lazy are even overemployed, and work multiple jobs. The lazy smart ones get away with this, and even rewarded. After all, software engineering for the lazy is just a dance to convince your colleagues you're smart and hard working. The craftsmen. The craftsmen are tired. Very tired. 15 PRs in queue. Slack blowing up. The entire burden of review falls on the craftsman. The burden of understanding. They try. They work their way through the code, thoughtfully commenting to improve what ships. The response? A lazy: \"That's a clever idea! You're absolutely right.\" with an incorrect change. It's fine, the craftsman says. I can fix them. They write a doc urging his colleagues to be better. The next day? 20,000 line PR to review. Day after day, their workload grows. Bugs seep into production. No one seems to care. Another round of AI is thrown at it. Their animosity to their colleagues rises. Eventually, they give up. It's just not what it used to be. The craft they loved is dead. They eventually wake up, a lazy. This isn't all companies. Many companies are genuinely more productive, adopt the right set of principles and practices around AI development and have highly talented teams that trust each other. It tends to happen in bigger companies that are 10+yrs old with a higher talent variance. But it happens. A lot. 🔗 View Quoted Tweet 💬 36 🔄 35 ❤️ 418 👀 71069 📊 65 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Has there ever been a more a soul-crushing technology than Generative AI? Deedy @deedydas Most software engineers are facing an identity crisis bordering on depression. As CTOs aggressively evangelize tokenmaxxing, a class divide ensues. The lazy. The lazy push code. They don't write it. They don't manually test it. They don't even read it. They're on autopilot. See Jira ticket, prompt for task, submit code. Many of them are barely on their computer the whole day. A comment on the PR asking why they did this? Th...",
+          "summaryZh": "还有比生成式人工智能更令人心碎的技术吗？ Deedy @deedydas 大多数软件工程师都面临着近乎抑郁的身份危机。随着首席技术官们积极宣传token最大化，阶级分化随之而来。懒惰者。惰性推送代码。他们不写。他们不手动测试它。他们甚至不读。他们处于自动驾驶状态。请参阅 Jira 票证、任务提示、提交代码。他们中的许多人几乎一整天都没有使用电脑。对公关的评论询问他们为什么这样做？那个...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 40.44719229063039
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "对话 MiniMax 闫俊杰：M3、10X 计划、10T 模型、和智能的终局",
+          "titleZh": "对话 MiniMax 闫俊杰：M3、10X 计划、10T 模型、和智能的终局",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a374ab075ba9e0c53368f7e",
+          "publishedAt": "2026-06-21T16:00:00.000Z",
+          "source": "十字路口Crossing",
+          "sourceType": "podcast",
+          "description": "听《十字路口Crossing》上小宇宙。 AI 正在给各行各业带来改变，我们在「十字路口」关注变革与机会，寻找、访谈和凝聚 AI 时代的「积极行动者」，和他们一起，探索和拥抱新变化、新的可能性。 「十字路口」是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/Fn-V-e4dOc8LxBhO5hdRRkXzPm2R.png",
+          "video": "",
+          "summary": "听《十字路口Crossing》上小宇宙。 AI 正在给各行各业带来改变，我们在「十字路口」关注变革与机会，寻找、访谈和凝聚 AI 时代的「积极行动者」，和他们一起，探索和拥抱新变化、新的可能性。 「十字路口」是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。",
+          "summaryZh": "**讲了什么**：这一期来自 **十字路口Crossing**，主题是「对话 MiniMax 闫俊杰：M3、10X 计划、10T 模型、和智能的终局」。\udea5 本周的「十字路口」在 MiniMax Dev Meetup 现场录制，Koji 对谈MiniMax CEO 闫俊杰（IO）、Multica 创始人张佳圆、DeerFlow 核心负责人何涛，以及上市公司金融行业 AI 负责人虞扬。我们围绕 AI Coding、Agent 与工程化落地的下一阶段展开。 **简介要点**： - \udea5 本周的「十字路口」在 MiniMax Dev Meetup 现场录制，Koji 对谈MiniMax CEO 闫俊杰（IO）、Multica 创始人张佳圆、DeerFlow 核心负责人何涛，以及上市公司金融行业 AI 负责人虞扬。 - 我们围绕 AI Coding、Agent 与工程化落地的下一阶段展开。 - 这期内容更像 2026 年中的一个时代切片：大模型公司、开发者、开源项目与垂直应用的一线代表同台，分享当下真实的观察、故事与认知——也因此更值得被反复回听。 - \udfe2 01:41 M3 的关键突破和评价 * 衡量一代模型到底行不行，IO 盯一个\"比较客观的指标\"——不是分数，那是什么？",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [
+            "模型"
+          ],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "Microsoft Research Blog",
+      "url": "http://research.microsoft.com/rss/news.xml",
+      "error": "fetch failed"
+    },
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    }
+  ],
+  "summaryBullets": [
+    "**HyperFrames 工作流公开**：HeyGen 团队拆解了从 `frame.md`、`storyboard.md` 到静态帧审核和 Studio 拼装的 **5 步视频生成流程**，强调开发者可以直接把网页或产品素材转成上线视频。",
+    "**Agent 评测开始反思排行榜思路**：新论文提出不要只看单一 benchmark 总分，而要看配置在样本外场景里的 **预测有效性**，提醒团队评估 Agent 时必须把部署稳定性纳入核心指标。",
+    "**轻量图像修复模型冲击 10B 级效果**：论文 **Moebius** 把图像修复模型压到 **0.22B 参数**，作者称在多项基准上可追平甚至超过 **FLUX.1-Fill-Dev**，同时带来 **15 倍以上推理加速**。",
+    "**开源安全技能库继续升温**：GitHub Trending 上的 **Anthropic-Cybersecurity-Skills** 收录 **754 条 Agent 网络安全技能**，可直接转成安全评测题库、对齐样本和回归测试资产。",
+    "**MiniMax 一线对谈进入延伸阅读**：小宇宙单集围绕 **M3、10X 计划、10T 模型、AI Coding 与 Agent 工程化落地** 展开，信息密度和一手观察都明显高于普通新闻串讲。"
+  ]
+}
