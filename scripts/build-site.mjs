@@ -99,8 +99,14 @@ function sectionCounts(report) {
     .join(" / ");
 }
 
+function stripInlineMarkdown(value = "") {
+  return String(value || "")
+    .replaceAll("**", "")
+    .replaceAll("`", "");
+}
+
 function searchText(value) {
-  return escapeHtml(String(value || "").replace(/\s+/g, " ").trim());
+  return escapeHtml(stripInlineMarkdown(value).replace(/\s+/g, " ").trim());
 }
 
 function renderItem(item, index) {

@@ -1,0 +1,791 @@
+{
+  "date": "2026-06-25",
+  "generatedAt": "2026-06-24T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-25",
+  "stats": {
+    "sources": 135,
+    "fetched": 701,
+    "emailCandidates": 0,
+    "selected": 33,
+    "failures": 2
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "We’ve designed and built our first AI chip: Jalapeño. Designed from the ground up by OpenAI and bro...",
+          "titleZh": "OpenAI：我们设计并构建了第一款人工智能芯片：Jalapeño",
+          "link": "https://x.com/OpenAI/status/2069770172802773292",
+          "publishedAt": "Wed, 24 Jun 2026 13:10:38 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "We’ve designed and built our first AI chip: Jalapeño. Designed from the ground up by OpenAI and brought to production with @Broadcom , Jalapeño is purpose-built for the LLM workloads powering ChatGPT, Codex, the API, and future agentic products. Chips are foundational to the AI economy. Building our own expands our full-stack platform from products to models to infrastructure, and will help us scale intelligence, serve more people, and expand access to AI. 💬 929 🔄 1349 ❤️ 14786 👀 1739136 📊 2490 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLlMzhyakAArWhk.jpg",
+          "video": "",
+          "summary": "We’ve designed and built our first AI chip: Jalapeño. Designed from the ground up by OpenAI and brought to production with @Broadcom , Jalapeño is purpose-built for the LLM workloads powering ChatGPT, Codex, the API, and future agentic products. Chips are foundational to the AI economy. Building our own expands our full-stack platform from products to models to infrastructure, and will help us scale intelligence, serve more people, and expand access to AI. 💬 929 🔄 1349 ❤️ 14786 👀 1739136 📊 2490 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们设计并构建了第一款人工智能芯片：Jalapeño。 Jalapeo 由 OpenAI 从头开始​​设计，并与 @Broadcom 一起投入生产，专为支持 ChatGPT、Codex、API 和未来代理产品的 LLM 工作负载而构建。芯片是人工智能经济的基础。构建我们自己的平台扩展了我们从产品到模型再到基础设施的全栈平台，并将帮助我们扩展智能、服务更多人并扩大人工智能的使用范围。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体"
+          ],
+          "score": 77
+        },
+        {
+          "title": "Over the past six months, we shipped 30+ models, features, and upgraded tools for the API. Our chan...",
+          "titleZh": "OpenAI：在过去的六个月中，我们为 API 发布了 30 多个模型、功能和升级工具",
+          "link": "https://x.com/OpenAIDevs/status/2069499656305090671",
+          "publishedAt": "Tue, 23 Jun 2026 19:15:42 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Over the past six months, we shipped 30+ models, features, and upgraded tools for the API. Our changelog has been busy. Here’s what you may have missed for the API: New models • GPT-5.5 • GPT-5.4 mini • GPT-5.4 nano • GPT-Realtime-2 • GPT-Realtime-Whisper • GPT-Realtime-Translate • GPT-Image-2 Agent building blocks • Agents SDK harness & sandbox • Skills in the Responses API • Server-side compaction • WebSocket mode • Hosted shell More ways to build • Admin API enhancements • OpenAI CLI • Models on Amazon Bedrock Your browser does not support the video tag. 🔗 View on Twitter 💬 103 🔄 65 ❤️ 1131 👀 131764 📊 237 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-25-2069499656305090671.mp4",
+          "summary": "Over the past six months, we shipped 30+ models, features, and upgraded tools for the API. Our changelog has been busy. Here’s what you may have missed for the API: New models • GPT-5.5 • GPT-5.4 mini • GPT-5.4 nano • GPT-Realtime-2 • GPT-Realtime-Whisper • GPT-Realtime-Translate • GPT-Image-2 Agent building blocks • Agents SDK harness & sandbox • Skills in the Responses API • Server-side compaction • WebSocket mode • Hosted shell More ways to build • Admin API enhancements • OpenAI CLI • Models on Amazon Bedrock Your browser does not support the video tag. 🔗 View on Twitter 💬 103 🔄 65 ❤️ 1131 👀 131764 📊 237 ⚡ Powered by xgo.ing",
+          "summaryZh": "在过去的六个月中，我们为 API 发布了 30 多个模型、功能和升级工具。我们的变更日志一直很忙。以下是您可能错过的 API 内容： 新模型 • GPT-5.5 • GPT-5.4 mini • GPT-5.4 nano • GPT-Realtime-2 • GPT-Realtime-Whisper • GPT-Realtime-Translate • GPT-Image-2 代理构建块 • 代理 SDK 工具和沙箱 • 响应 API 技能 • 服务器端压缩 • WebSocket 模式 • 托管 shell 更多构建方法 • 管理 API增强功能 • OpenAI CLI • Amazon Bedrock 上的模型。这是一次明确的产品/功能可用性变化，建议对照官方说明确认支持应用范围（哪些产品/套餐/地区/入口）、具体能力边界与已知限制。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "视频",
+            "图像"
+          ],
+          "score": 73
+        },
+        {
+          "title": "📣📣 Meet Qwen-AgentWorld — a native language world model that simulates 7 agent environments (MCP,...",
+          "titleZh": "Qwen-AgentWorld — 一种本机语言世界模型，可在单个模型中模拟 7 个代理环境（MCP、搜索、终端、SWE、Web、操作系统、Android）",
+          "link": "https://x.com/Alibaba_Qwen/status/2069720365442719867",
+          "publishedAt": "Wed, 24 Jun 2026 09:52:43 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "description": "📣📣 Meet Qwen-AgentWorld — a native language world model that simulates 7 agent environments (MCP, Search, Terminal, SWE, Web, OS, Android) within a single model. Environment modeling is the training objective from day one, not a post-hoc adaptation. 🤔 LLMs are trained to be better agents — better at acting in environments. But nobody has trained them to model the environments themselves. 🗺️ Our roadmap: investigate how language world modeling can push the boundaries of general agent capabilities, along two routes: 1️⃣ Build a foundation model for environment simulation — outperforming Claude Opus 4.8 and GPT-5.4 on AgentWorldBench 2️⃣ Investigate how world modeling enhances agent training: 🔬 Controllable Sim RL (agentic RL with LWM as environments) surpasses training in real environments 🧠 Learning to predict environments (LWM warm-up) makes agents stronger — remarkably, even without any agent-specific training, this predictive knowledge transfers to agentic tasks with zero fine-tuning 📑 arxiv.org/abs/2606.24597 l5RKq71 � qwen.ai/blog?id=qwen-a… VcKyhsx2 💻 github.com/QwenLM/Qwen-Ag… 5Lvb1UZCn 🤗 Hug huggingface.co/collections/Qw… Kw3QBL1TM5 🧩 M modelscope.cn/collections/Qw… /YBnGYgMWWI 💬 106 🔄 332 ❤️ 2222 👀 257980 📊 604 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLkfslHWsAAxwe3.jpg",
+          "video": "",
+          "summary": "📣📣 Meet Qwen-AgentWorld — a native language world model that simulates 7 agent environments (MCP, Search, Terminal, SWE, Web, OS, Android) within a single model. Environment modeling is the training objective from day one, not a post-hoc adaptation. 🤔 LLMs are trained to be better agents — better at acting in environments. But nobody has trained them to model the environments themselves. 🗺️ Our roadmap: investigate how language world modeling can push the boundaries of general agent capabilities, along two routes: 1️⃣ Build a foundation model for environment simulation — outperforming Claude Opus 4.8 and GPT-5.4 on AgentWorldBench 2️⃣ Investigate how world modeling enhances agent training: 🔬 Controllable Sim RL (agentic RL with LWM as environments) surpasses training in real environments 🧠 Learning to predict environments (LWM warm-up) makes agents stronger — remarkably, even wi...",
+          "summaryZh": "Qwen-AgentWorld — 一种本机语言世界模型，可在单个模型中模拟 7 个代理环境（MCP、搜索、终端、SWE、Web、操作系统、Android）。环境建模从第一天起就是培训目标，而不是事后适应。 LLM经过培训成为更好的代理人——更擅长在环境中行动。但没有人训练他们自己模拟环境。 我们的路线图：研究语言世界建模如何突破通用智能体能力的界限，沿着两条路线： 1⃣ 构建环境模拟的基础模型 - 在 AgentWorldBench 上优于 Claude Opus 4.8 和 GPT-5.4 2⃣ 研究世界建模如何增强智能体训练：可控 Sim RL（以 LWM 作为环境的智能体 RL）超越真实环境中的训练 学习预测环境（LWM 预热）使智能体变得更强 —值得注意的是，即使...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "开源"
+          ],
+          "score": 69
+        },
+        {
+          "title": "Show us how you build with Codex. Chaotic desk, clean desk, couch desk, airport-floor desk. We don’...",
+          "titleZh": "OpenAI：向我们展示您如何使用 Codex 进行构建",
+          "link": "https://x.com/OpenAIDevs/status/2069571091144884247",
+          "publishedAt": "Tue, 23 Jun 2026 23:59:33 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Show us how you build with Codex. Chaotic desk, clean desk, couch desk, airport-floor desk. We don’t judge the workspace. Create your own Codex billboard here: codex-billboard.vercel.app 💬 123 🔄 28 ❤️ 624 👀 113141 📊 196 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLiX70kaUAADwu6.jpg",
+          "video": "",
+          "summary": "Show us how you build with Codex. Chaotic desk, clean desk, couch desk, airport-floor desk. We don’t judge the workspace. Create your own Codex billboard here: codex-billboard.vercel.app 💬 123 🔄 28 ❤️ 624 👀 113141 📊 196 ⚡ Powered by xgo.ing",
+          "summaryZh": "向我们展示您如何使用 Codex 进行构建。混乱的办公桌、干净的办公桌、沙发办公桌、机场楼层办公桌。我们不会评判工作空间。在这里创建您自己的 Codex 广告牌：codex-billboard.vercel.app。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 67.78217352751605
+        },
+        {
+          "title": "New in Runway, you can now localize ads. One image in, any language out. Input a single ad and get ...",
+          "titleZh": "Runway 中的新功能，您现在可以本地化广告",
+          "link": "https://x.com/runwayml/status/2069796562805440964",
+          "publishedAt": "Wed, 24 Jun 2026 14:55:30 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "description": "New in Runway, you can now localize ads. One image in, any language out. Input a single ad and get a version for every market. All with a single click. Your browser does not support the video tag. 🔗 View on Twitter 💬 9 🔄 10 ❤️ 117 👀 11733 📊 31 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-25-2069796562805440964.mp4",
+          "summary": "New in Runway, you can now localize ads. One image in, any language out. Input a single ad and get a version for every market. All with a single click. Your browser does not support the video tag. 🔗 View on Twitter 💬 9 🔄 10 ❤️ 117 👀 11733 📊 31 ⚡ Powered by xgo.ing",
+          "summaryZh": "Runway 中的新功能，您现在可以本地化广告。输入一张图像，输出任何语言。输入一个广告并获得适合每个市场的版本。只需单击一下即可。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频",
+            "图像"
+          ],
+          "score": 65.47448252536142
+        },
+        {
+          "title": "Try the new Firecrawl plugin in the Grok Build Plugin Marketplace",
+          "titleZh": "在 Grok Build 插件市场中尝试",
+          "link": "https://x.com/xai/status/2069536627349962987",
+          "publishedAt": "Tue, 23 Jun 2026 21:42:36 GMT",
+          "source": "xAI(@xai)",
+          "sourceType": "social",
+          "description": "Try the new Firecrawl plugin in the Grok Build Plugin Marketplace Firecrawl @firecrawl Firecrawl is now an official plugin in @grok build 🔥 Your Grok agents can now search the web, scrape, and interact with any page, directly in the CLI. Find us on the @xai marketplace today and get started free with 1,000 monthly credits. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 52 🔄 108 ❤️ 1101 👀 157111 📊 139 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-25-2069536627349962987.mp4",
+          "summary": "Try the new Firecrawl plugin in the Grok Build Plugin Marketplace Firecrawl @firecrawl Firecrawl is now an official plugin in @grok build 🔥 Your Grok agents can now search the web, scrape, and interact with any page, directly in the CLI. Find us on the @xai marketplace today and get started free with 1,000 monthly credits. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 52 🔄 108 ❤️ 1101 👀 157111 📊 139 ⚡ Powered by xgo.ing",
+          "summaryZh": "在 Grok Build 插件市场中尝试新的 Firecrawl 插件 Firecrawl Firecrawl 现在是 build 中的官方插件 您的 Grok 代理现在可以直接在 CLI 中搜索网络、抓取并与任何页面交互。立即在 市场上找到我们，即可免费开始使用 1,000 个每月积分。 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 65
+        },
+        {
+          "title": "The Gemini Interactions API is your unified interface for text, multimodal inputs, tool use, and man...",
+          "titleZh": "Gemini Interactions API 是您在单个端点中进行文本、多模式输入、工具使用和托管代理的统一界面",
+          "link": "https://x.com/googleaidevs/status/2069536713526194269",
+          "publishedAt": "Tue, 23 Jun 2026 21:42:57 GMT",
+          "source": "Google AI Developers(@googleaidevs)",
+          "sourceType": "social",
+          "description": "The Gemini Interactions API is your unified interface for text, multimodal inputs, tool use, and managed agents all in a single endpoint. Go from prompt to production faster than ever. Read the developer guide ⬇️ x.com/GoogleAIStudio… Google AI Studio @GoogleAIStudio x.com/i/article/2069… 🔗 View Quoted Tweet 💬 6 🔄 12 ❤️ 109 👀 11520 📊 18 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "The Gemini Interactions API is your unified interface for text, multimodal inputs, tool use, and managed agents all in a single endpoint. Go from prompt to production faster than ever. Read the developer guide ⬇️ x.com/GoogleAIStudio… Google AI Studio @GoogleAIStudio x.com/i/article/2069… 🔗 View Quoted Tweet 💬 6 🔄 12 ❤️ 109 👀 11520 📊 18 ⚡ Powered by xgo.ing",
+          "summaryZh": "Gemini Interactions API 是您在单个端点中进行文本、多模式输入、工具使用和托管代理的统一界面。从提示到生产的速度比以往更快。阅读开发者指南 ⬇ x.com/GoogleAIStudio... Google AI Studio x.com/i/article/2069... 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "API",
+            "智能体",
+            "多模态",
+            "开发者工具"
+          ],
+          "score": 64.33079075019805
+        },
+        {
+          "title": "We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used ...",
+          "titleZh": "OpenAI：我们为您提供了新版本的 GPT-5.5 Instant，与它交谈更加有趣",
+          "link": "https://x.com/OpenAI/status/2069843083701915755",
+          "publishedAt": "Wed, 24 Jun 2026 18:00:21 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles complex constraints more reliably and makes shopping and local recommendations more useful and cohesive. Rolling out today to paid users, tomorrow to free users. 💬 176 🔄 84 ❤️ 1245 👀 75420 📊 256 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We have a new version of GPT-5.5 Instant for you, and it's much more fun to talk to. Our most-used model is now better at understanding the intent behind a question and adapting its response accordingly. It also handles complex constraints more reliably and makes shopping and local recommendations more useful and cohesive. Rolling out today to paid users, tomorrow to free users. 💬 176 🔄 84 ❤️ 1245 👀 75420 📊 256 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们为您提供了新版本的 GPT-5.5 Instant，与它交谈更加有趣。我们最常用的模型现在可以更好地理解问题背后的意图并相应地调整其响应。它还可以更可靠地处理复杂的约束，并使购物和本地推荐更加有用和一致。今天向付费用户推出，明天向免费用户推出。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 62
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Navigating User Behavior toward Personalized Multimodal Generation",
+          "titleZh": "引导用户行为走向个性化多模式生成",
+          "link": "https://arxiv.org/abs/2606.24196",
+          "publishedAt": "Wed, 24 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.24196v1 Announce Type: new Abstract: Modern AIGC pipelines deliver high-fidelity images and videos but presuppose a well-formed creation instruction, while end users rarely articulate visual details, leaving generators misaligned with user demand. We study personalized content generation, which turns a user's interaction history into an executable instruction for downstream synthesis, and identify two obstacles: behavior must be encoded in a form legible to language reasoning, and the model must acquire instruction-writing skill absent from both pretraining and behavior data. We propose NaviGen, which represents each item with a dual identifier coupling a collaborative code and a textual code as a behavioral substrate and a semantic bridge in one token stream. On this representation, a two-stage SFT+RL pipeline first distills preference reasoning and instruction writing from evolutionarily searched supervision, then aligns generation with user intent through hierarchical and self-consistent rewards. Experiments across product, game, and short-video domains show that NaviGen improves personalized image and video generation, strengthens next-item prediction, and yields more specific, relevant, and visually generatable instructions. Our code is anonymously released at: https://github.com/iLearn-Lab/NaviGen.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.24196v1 Announce Type: new Abstract: Modern AIGC pipelines deliver high-fidelity images and videos but presuppose a well-formed creation instruction, while end users rarely articulate visual details, leaving generators misaligned with user demand. We study personalized content generation, which turns a user's interaction history into an executable instruction for downstream synthesis, and identify two obstacles: behavior must be encoded in a form legible to language reasoning, and the model must acqui...",
+          "summaryZh": "**核心结论** 「引导用户行为走向个性化多模式生成」要解决的问题是：现代 AIGC 管道提供高保真图像和视频，但前提是格式良好的创建指令，而最终用户很少阐明视觉细节，导致生成器与用户需求不一致。我们研究个性化内容生成，它将用户的交互历史记录转化为下游合成的可执行指令，并确定了两个障碍：行为必须以语言推理可读的形式进行编码，并且模型必须获得。 **支撑证据** 摘要与公开信息显示：arXiv:2606.24196v1 现代 AIGC 管道提供高保真图像和视频，但前提是格式良好的创建指令，而最终用户很少阐明视觉细节，导致生成器与用户需求不一致。我们研究个性化内容生成，它将用户的交互历史记录转化为下游合成的可执行指令，并确定了两个障碍：行为必须以语言推理可读的形式进行编码，并且模型必须获得... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "推理能力",
+            "多模态",
+            "开源"
+          ],
+          "score": 41
+        },
+        {
+          "title": "DramaDirector: Geometry-Guided Short Drama Generation",
+          "titleZh": "戏剧导演：几何引导的短剧生成",
+          "link": "https://arxiv.org/abs/2606.24107",
+          "publishedAt": "Wed, 24 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.24107v1 Announce Type: cross Abstract: Short dramas, with their rapid shot rhythms, dialogue-driven focus shifts, and demanding cinematographic grounding, pose challenges that prompt-level or text-only video generation pipelines struggle to meet. We study plot-to-short-drama generation, where a global plot and local context are transformed into visually grounded multi-shot videos. We propose DramaDirector, a geometry-grounded framework that lets the planner borrow cinematographic geometry from a gallery of real short-drama shots indexed by depth and pose. DramaDirector decouples each shot into static visual and dynamic narrative conditions, trains the planner with schema-constrained SFT and GRPO under a learned text-visual alignment reward, and retrieves depth-pose references to guide first-frame generation and image-to-video synthesis. We also introduce DramaBoard, a benchmark built from 35 live-action dramas, 2.8K episodes, and 81K shots, with structured storyboards and multi-dimensional evaluation protocols. Experiments show that DramaDirector improves over representative multi-agent and video generation baselines on faithfulness, consistency, and controllability. Our code is released at: https://github.com/iLearn-Lab/DramaDirector",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.24107v1 Announce Type: cross Abstract: Short dramas, with their rapid shot rhythms, dialogue-driven focus shifts, and demanding cinematographic grounding, pose challenges that prompt-level or text-only video generation pipelines struggle to meet. We study plot-to-short-drama generation, where a global plot and local context are transformed into visually grounded multi-shot videos. We propose DramaDirector, a geometry-grounded framework that lets the planner borrow cinematographic geometry from a galle...",
+          "summaryZh": "**核心结论** 「戏剧导演：几何引导的短剧生成」要解决的问题是：短剧因其快速的拍摄节奏、对话驱动的焦点转移以及要求严格的电影摄影基础，给提示级或纯文本视频生成管道带来了难以应对的挑战。我们研究情节到短剧的生成，其中全局情节和局部上下文被转化为视觉基础的多镜头视频。我们提出了 DramaDirector，一个基于几何的框架，让规划者可以从画廊借用电影几何。 **支撑证据** 摘要与公开信息显示：arXiv:2606.24107v1 短剧因其快速的拍摄节奏、对话驱动的焦点转移以及要求严格的电影摄影基础，给提示级或纯文本视频生成管道带来了难以应对的挑战。我们研究情节到短剧的生成，其中全局情节和局部上下文被转化为视觉基础的多镜头视频。我们提出了 DramaDirector，一个基于几何的框架，让规划者可以从画廊借用电影几何...... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "API",
+            "智能体",
+            "评测",
+            "开源"
+          ],
+          "score": 40
+        },
+        {
+          "title": "余一：没有 AI 转型，只有自然生发",
+          "titleZh": "余一：没有 AI 转型，只有自然生发",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a3bed3afd8019cde5947192",
+          "publishedAt": "Wed, 24 Jun 2026 13:54:42 GMT",
+          "source": "AI炼金术",
+          "sourceType": "research",
+          "description": "余一是我身边用 AI 用得 最疯魔 的同学。 每隔一段时间我就找她来刺激一下自己——每次看她演示使用 AI 的神奇方法，我第一反应总是\"神经病啊\"，仔细想想又觉得\"好像很有道理\"，回过味来就下决心\"我得用一下\"。每次聊完，都觉得自己用 AI 用得太老登、老保守了。 为了保持新锐，我每隔几个月就找她聊聊，所谓 定期进货 。 这次进货，前后聊了两个小时，分成两半： 上半场 ，我把她拽来拷问腾讯研究院那份《超级个体时代》报告——我最近过了上千份 AI 报告，这是 可抄袭比例最高的一份 ，非常实战 & 非常有洞见。把这个原作者抓来，主要是要问问：个体提效 30 倍不罕见，小公司提效三五倍很正常， 为什么大公司只提效 3%、5% ？中间到底发生了什么？可以怎么办呢？ 下半场 ，我让她掀开自己那套疯狂的个人系统给我看——她给自己请了一个叫\"AI 余一\"的 CEO，自己退居董事长，0 点到 5 点放手让 AI 自己干活，早上起来验收。看看她具体怎么干的——大家感兴趣的话，强烈建议去各大视频平台同时看看视频。 听完我给自己加了个 to-do：把我自己的工作流，至少做成她那样。 嘉宾 余一 ｜腾讯研究院研究员，《从超级个体到超级团队》报告主创。长期做 AI 与组织的一手田野调查，自己部门内部就搭了一个\"AI 原生小组\"实验了一年。她被公认为\"超级个体\"本人——这份报告里很多打动人的问题，就是她自己实践中真实卡过的坑。 亮点 → 「 最佳实践一出现，就已经不是最佳实践了 」 余一用两分钟讲清楚这份报告想解决的根问题：市场上所有 AI 最佳实践，你够到的时候它都已经过时了——两个月前的方案，此刻就是旧的。「你抄别人没法抄，甚至你抄自己都没法抄。」于是她们干脆不写\"哪个行业做了什么\"这种会过期的东西，转去找一个能穿越模型周期的母题： 超级个体——怎么识别、怎么放大、怎么聚合成超级团队 。 → 怎么一眼认出超级个体：四个维度 余一给了一套可以直接拿去面试的标准——① AI-first 重构了工作流 （不是脑子里想着\"我用一下 AI\"，是整个工作就架在 AI 上）；② 极强的 主观能动性 ；③ 影响力的 外溢性 （她用自己的活让周围人看到 AI 能变成什么样）；④ 能力跃迁 （生产力 5 到 10 倍 + 端到端独立闭环的验证能力）。「放在一起，你去面试她其实很好面。」 → CEO 自己没被 AI coding 震撼过，团队不可能跃迁 这是余一问了一圈创始人后最硬的一条。橘子、范凌她都问过——哪怕到现在 CEO 亲自写 coding 已经很奢侈，但 每个人都至少有过一周，沉迷于 AI coding、被 agent 震撼到的\"啊哈时刻\" 。「如果一号位自己没有过这个时刻，她对 AI 的理解现在都是错的，她不可能让团队跟着跃迁。」 → 影子 AI 是公司的生死线 全场最锋利的判断。「一个公司能不能处理好影子 AI，基本上就是生死线了。」如果员工还瞒着你偷偷用 AI—— 你的第二曲线就已经被掐断了 ，因为最可能成为你最佳实践的，恰恰是从你自己土壤里长出来、被你识别出来的人。余一还专门发过短视频说：「 逼着员工上交 skill 是一件很蠢的事 ，这等于把公司往影子 AI 的方向又强劲推了一步。」任鑫接：如果你正在这样的公司里，建议就是——赶紧撤，换个环境。 → 海盗配架构师：组织该干的不是规划方向，是当园丁 余一把超级个体叫\"海盗\"（擅长开拓），把组织擅长的叫\"架构师\"（擅长构建）。这个阶段组织最该做的不是给海盗规划方向，而是 管好这个张力 ：把她做出来的 demo 快速接上数据、安全、支付、增长渠道，从 demo 推到产品、推到市场。「土壤的作用比设计大得多。设计很多时候是设计不出来的。」 → 段子时间：还能这样搞 报告里的鲜活案例任鑫最爱听——ListenHub 只留一个人 维护老摊子；范凌（特赞）创始人和 CTO 两个周末 手搓出产品原型、配套网站和视频全自己做；安克搞\" 招飞考试 \"，所有人面试必须过 AI 实操关，直接决定薪水和 offer，会议室全程录音沉淀知识库、默认全员可见；橘子那边「 bug 只存在一天 」，因为第二天就上新——「这不就是把 AI 的速度变成组织的速度吗？」 → 给企业家的最小启动动作 （ROI 最高的两件事） 余一压到最小：① 把公司里 已经自发用 AI 拿到结果的人识别出来，让她的成果被公司看到 （这都做不到就先招人）；② 创始人如果还没一手体感，给自己花三天时间买 Claude Code / Codex 补课，端到端做完一件事拿到\"啊哈时刻\"。「你有 100 美金的 token，就该给 90 美金让她们去折腾。」任鑫附议：这俩是 ROI 最高的， 别搞系统化学习。 → 下半场：她给自己请了个 AI 当 CEO 余一掀开自己那套个人系统：\"AI 余一\"是 CEO，对结果负责、主动运营 ；她自己退居 董事长，只给方向、判断和最后裁决 。「我们不是工具和使用者的关系。」 0 点到 5 点是 AI 的时间 ，早上起来常发现\"又多搞了几个乐高块、几个最佳实践\"。她把所有 skill 拆成了原子块 + 最佳实践 + 一摞协议（记忆 / 运营 / 复利 / 沟通），靠 benchmark 滚动迭代，模型一升级就让 AI 扫一遍找断裂点。 → （彩蛋） 所有人都能成为超级个体——但别拖 收尾余一给个体的建议：别等系统、别追完美， 端到端打磨一件你工作里真实的事，做到 90 分 ——「80 分到 90 分真的很痛苦，痛苦就会体现出你这个人的价值。」这就是你在公司的金牌。但她补了一句紧迫感：「 三个月前的超级个体和未来三个月的超级个体不是一个东西，此刻的超级个体，未来就是普通人 。」任鑫收口：现在赶紧 stand out，三个月后只会更痛苦。 时间戳 00:05 开篇：组织竞争力公式 + 「只增效 20-30%，原生 5 到 10 倍」 01:11 任鑫介绍余一：定期找\"最疯魔的同学\"进货 07:51 这份报告解决什么：最佳实践一出现就过期 09:18 三个困扰 →「没有 AI 转型，只有 AI 原生重做一回」 15:40 超级个体的四个识别维度 17:23 CEO 必须自己被 AI coding 震撼过 23:28 组织竞争力公式拆解 + 独立闭环的悖论 28:11 海盗配架构师：组织当园丁、营造土壤 32:46 老业务怎么办：留人维护，分开做新事 42:23 影子 AI 是生死线 + 「逼员工上交 skill 很蠢」 46:21 案例段子：ListenHub / 范凌 / 安克招飞考试 / 橘子 bug 只活一天 / 李志飞每项目一个 agent 54:53 协调层：组织是路由器、决策权让渡给 AI、考核 agent 闲置率 1:02:17 给企业家的最小启动动作 + 别搞系统化学习 1:16:52 下半场：余一的个人系统（AI 余一 / 三个包 / 提问 skill） 1:30:00 skill OS：拆成原子块 + 最佳实践 + 各种协议 1:37:00 0 点到 5 点是 AI 的时间 + github 学习模式 1:43:05 「AI 余一是 CEO，我是董事长」 2:02:17 给个体的建议：端到端打磨到 90 分，现在就做 欢迎订阅「AI 炼金术」的播客，以及同名公众号、视频号 &nbsp; 「AI 炼金术」是一档由徐文浩和任鑫——两位多年老友、AI 领域的资深从业者——打造的播客。这里是探讨 AI 和创业的理想聚集地，我们会邀请一线创业者、产品产品和科研学者，深入探讨 AI 如何重塑行业、变革生活，以及如何从 0 到 1 打造 AI 原生产品。&nbsp; 我们的讨论会涵盖多个话题：从 AI 如何改变世界的未来，到如何找到 AI 创业的 PMF；从如何利用 AI 降本增效，到怎样将 AI 技术融入日常生活……如果你对 AI、产品、创业感兴趣，这里有满满的干货和一线实战经验，欢迎关注并推荐给你的朋友，共同探索未来的无限可能！&nbsp; 商务合作：公众号 「AI炼金术 」菜单栏中【商务】获取联系方式&nbsp; 节目主理人： &nbsp; 徐文浩： 某AI创业公司联合创始人，正在面向全球市场开发AI应用。连续创业者，参与过多家创业公司，拼多多早期员工。广告科技公司MediaV的算法和数据负责人，后被360收购。离开后加入成立不到1个月的拼多多。后创办了基于AI的海外客服聊天机器人公司 BotHub.AI 和 海外社交电商平台 Bukito 都宣告失败。2023年再次下场创业。&nbsp; 任鑫： 美元基金合伙人，主要在投资和孵化面向全球市场的 AI 应用。之前是连续创业者，曾经打造“今夜酒店特价”用移动互联网应用特价销售酒店尾房；被京东并购后内部创业“京东到家”开展本地即时零售业务；2015 年再次创业 Get 探索对话式人工智能助理成为先烈；2021 年出售公司，2023 年重新回到 AI 世界。 播客剪辑： 十六颗糖 BGM： 片头： Shortwire - Reconfig 片尾： SpoonBeats,Thomas Ng - Summer Lover",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://bts-image.xyzcdn.net/aHR0cHM6Ly9mZGZzLnhtY2RuLmNvbS9zdG9yYWdlcy9mNTFhLWF1ZGlvZnJlZWhpZ2hxcHMvQjkvNzAvR01Db09TSUh2N0JGQUFWZ1B3SDNSN2VoLmpwZWc=.jpeg",
+          "video": "",
+          "summary": "余一是我身边用 AI 用得 最疯魔 的同学。 每隔一段时间我就找她来刺激一下自己——每次看她演示使用 AI 的神奇方法，我第一反应总是\"神经病啊\"，仔细想想又觉得\"好像很有道理\"，回过味来就下决心\"我得用一下\"。每次聊完，都觉得自己用 AI 用得太老登、老保守了。 为了保持新锐，我每隔几个月就找她聊聊，所谓 定期进货 。 这次进货，前后聊了两个小时，分成两半： 上半场 ，我把她拽来拷问腾讯研究院那份《超级个体时代》报告——我最近过了上千份 AI 报告，这是 可抄袭比例最高的一份 ，非常实战 & 非常有洞见。把这个原作者抓来，主要是要问问：个体提效 30 倍不罕见，小公司提效三五倍很正常， 为什么大公司只提效 3%、5% ？中间到底发生了什么？可以怎么办呢？ 下半场 ，我让她掀开自己那套疯狂的个人系统给我看——她给自己请了一个叫\"AI 余一\"的 CEO，自己退居董事长，0 点到 5 点放手让 AI 自己干活，早上起来验收。看看她具体怎么干的——大家感兴趣的话，强烈建议去各大视频平台同时看看视频。 听完我给自己加了个 to-do：把我自己的工作流，至少做成她那样。 嘉宾 余一 ｜腾讯研究院研究员，《从超级个体到超级团队》报...",
+          "summaryZh": "**核心要点** 余一是我身边用 AI 用得 最疯魔 的同学。 每隔一段时间我就找她来刺激一下自己——每次看她演示使用 AI 的神奇方法，我第一反应总是\"神经病啊\"，仔细想想又觉得\"好像很有道理\"，回过味来就下决心\"我得用一下\"。每次聊完，都觉得自己用 AI 用得太老登、老保守了。 为了保持新锐，我每隔几个月就找她聊聊，所谓 定期进货。 这次进货，前后聊了两个小时，分成两半： 上半场，我把她拽来拷问腾讯研究院那份《超级个体时代》报告——我最近过了上千份 AI 报告，这是 可抄袭比例最高的一份，非常实战 & 非常有洞见。把这个原作者抓来，主要是要问问：个体提效 30 倍不罕见，小公司提效三五倍很正常， 为什么大公司只提效 3%、5%？中间到底发生了什么？可以怎么办呢？ 下半场，我让她掀开自己那套疯狂的个人系统给我看——她给自己请了一个叫\"AI 余一\"的 CEO，自己退居董事长，0 点到 5 点放手让 AI 自己干活，早上起来验收。看看她具体怎么干的——大家感兴趣的话，强烈建议去各大视频平台同时看看视频。 听完我给自己加了个 to-do：把我自己的工作流，至少做成她那样。 嘉宾 余一 ｜腾讯研究院研究员，《从超级个体到超级团队》报...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "评测",
+            "开源",
+            "安全",
+            "模型"
+          ],
+          "score": 37
+        },
+        {
+          "title": "Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis",
+          "titleZh": "Talos：通过自动化、迭代基因组再分析扩展罕见疾病诊断",
+          "link": "https://www.microsoft.com/en-us/research/blog/talos-scaling-rare-disease-diagnosis-with-automated-iterative-genomic-reanalysis/",
+          "publishedAt": "Wed, 24 Jun 2026 14:00:14 +0000",
+          "source": "Microsoft Research Blog",
+          "sourceType": "research",
+          "description": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert review. The post Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis appeared first on Microsoft Research .",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "official",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/06/Talos_Fig1.png",
+          "video": "",
+          "summary": "Talos was built to help resolve a major bottleneck in genomic medicine: human review time. The open-source system recovered 90% of in-scope diagnoses while surfacing just 1.3 candidate variants per patient for expert review. The post Talos: Scaling rare disease diagnosis with automated, iterative genomic reanalysis appeared first on Microsoft Research .",
+          "summaryZh": "**核心要点** Talos 的建立是为了帮助解决基因组医学的一个主要瓶颈：人工审查时间。该开源系统恢复了 90% 的范围内诊断，同时仅显示每位患者 1.3 个候选变异供专家审查。 《Talos：通过自动化、迭代基因组再分析扩展罕见疾病诊断》一文首先出现在 Microsoft Research 上。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [],
+          "score": 33
+        },
+        {
+          "title": "datasette 1.0a35",
+          "titleZh": "发布：datasette 1.0a35",
+          "link": "https://simonwillison.net/2026/Jun/23/datasette/#atom-everything",
+          "publishedAt": "2026-06-23T21:34:37+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Release: datasette 1.0a35 I'll write more about this one tomorrow, but it's a big release. Three highlights from the release notes: New \"Create table\" interface in the database actions menu, backed by the / /-/create JSON API . It can define columns, primary keys, custom column types, NOT NULL constraints, literal defaults, expression defaults and single-column foreign keys. ( #2787 ) New \"Alter table\" table action and / / /-/alter JSON API for changing existing tables: add, rename, reorder and drop columns; change column types, defaults, NOT NULL constraints, primary keys and foreign keys; and rename the table. The alter table dialog also includes a \"Drop table\" button. ( #2788 ) New Template context documentation listing the variables available to custom templates for Datasette's core pages. Variables documented there are treated as a stable API for custom templates until Datasette 2.0. The documentation is generated from dataclass definitions next to the view code, with tests that compare the documented fields against the actual contexts rendered by the database, table, query and row pages. ( #1510 , #2127 , #1477 , #2803 ) Here's a rough video demo I made of the new create/alter table feature as part of reviewing the PR : Tags: datasette",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://static.simonwillison.net/static/2026/create-alter-demo-first-frame.jpg",
+          "video": "https://static.simonwillison.net/static/2026/create-alter-demo.mp4",
+          "summary": "Release: datasette 1.0a35 I'll write more about this one tomorrow, but it's a big release. Three highlights from the release notes: New \"Create table\" interface in the database actions menu, backed by the / /-/create JSON API . It can define columns, primary keys, custom column types, NOT NULL constraints, literal defaults, expression defaults and single-column foreign keys. ( #2787 ) New \"Alter table\" table action and / / /-/alter JSON API for changing existing tables: add, rename, reorder and drop columns; cha...",
+          "summaryZh": "**核心要点** 发布：datasette 1.0a35 我明天会写更多关于这个的内容，但这是一个重要的版本。发行说明中的​​三个亮点： 数据库操作菜单中的新“创建表”界面，由 / //-/create JSON API 支持。它可以定义列、主键、自定义列类型、NOT NULL 约束、文字默认值、表达式默认值和单列外键。 （＃2787）新的“Alter table”表操作和///-/alter JSON API用于更改现有表：添加，重命名，重新排序和删除列；查...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "API",
+            "视频"
+          ],
+          "score": 33
+        },
+        {
+          "title": "Build a healthcare appointment agent with Amazon Nova 2 Sonic",
+          "titleZh": "使用 Amazon Nova 2 Sonic 构建医疗保健预约代理",
+          "link": "https://aws.amazon.com/blogs/machine-learning/build-a-healthcare-appointment-agent-with-amazon-nova-2-sonic/",
+          "publishedAt": "Wed, 24 Jun 2026 18:20:27 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, you will learn how to build a voice agent that handles appointment reminder conversations using Amazon Nova 2 Sonic and Amazon Bedrock AgentCore. The agent authenticates patients by voice, manages appointments (confirm, cancel, or reschedule), collects pre-visit health information, and escalates to human staff when needed. You handle routine calls at scale, which can help reduce no-show rates. This sample focuses on the agentic side of the problem: voice conversation and tool orchestration. A browser-based interface is included for testing. To connect the agent to actual phone lines for outbound dialing, you would integrate a telephony service such as Amazon Connect Customer.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/24/ML-19583.png",
+          "video": "",
+          "summary": "In this post, you will learn how to build a voice agent that handles appointment reminder conversations using Amazon Nova 2 Sonic and Amazon Bedrock AgentCore. The agent authenticates patients by voice, manages appointments (confirm, cancel, or reschedule), collects pre-visit health information, and escalates to human staff when needed. You handle routine calls at scale, which can help reduce no-show rates. This sample focuses on the agentic side of the problem: voice conversation and tool orchestration. A brows...",
+          "summaryZh": "**核心要点** 在本文中，您将了解如何使用 Amazon Nova 2 Sonic 和 Amazon Bedrock AgentCore 构建处理预约提醒对话的语音代理。该代理通过语音对患者进行身份验证，管理预约（确认、取消或重新安排），收集就诊前的健康信息，并在需要时升级给工作人员。您可以大规模处理例行呼叫，这有助于降低缺席率。此示例重点关注问题的代理方面：语音对话和工具编排。一个眉毛...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "语音"
+          ],
+          "score": 29
+        },
+        {
+          "title": "How Loka Built a Natural, Low-Latency Voice Agent with Amazon Nova 2 Sonic",
+          "titleZh": "Loka 如何使用 Amazon Nova 2 Sonic 构建自然、低延迟的语音代理",
+          "link": "https://aws.amazon.com/blogs/machine-learning/how-loka-built-a-natural-low-latency-voice-agent-with-amazon-nova-2-sonic/",
+          "publishedAt": "Wed, 24 Jun 2026 16:56:24 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, we demonstrate the architecture and approach Loka used to solve a common frustration: robotic, slow voice assistants that cause customers to hang up, damaging brand reputation and driving up support costs.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/02/20376.png",
+          "video": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-20376/demo.mp4",
+          "summary": "In this post, we demonstrate the architecture and approach Loka used to solve a common frustration: robotic, slow voice assistants that cause customers to hang up, damaging brand reputation and driving up support costs.",
+          "summaryZh": "**核心要点** 在这篇文章中，我们展示了 Loka 用于解决常见问题的架构和方法：机器人、缓慢的语音助手会导致客户挂断电话，损害品牌声誉并增加支持成本。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体",
+            "语音"
+          ],
+          "score": 29
+        },
+        {
+          "title": "[AINews] Claude Tag: Multiplayer, Proactive, Persistent Agents in Slack",
+          "titleZh": "[AINews] Claude Tag：Slack 中的多人、主动、持久代理",
+          "link": "https://www.latent.space/p/ainews-claude-tag-multiplayer-proactive",
+          "publishedAt": "Wed, 24 Jun 2026 07:14:26 GMT",
+          "source": "Latent Space",
+          "sourceType": "research",
+          "description": "AINews: Weekday Roundups [AINews] Claude Tag: Multiplayer, Proactive, Persistent Agents in Slack Claude finally gets a Slackbot upgrade Jun 24, 2026 ∙ Paid 47 Share We have covered the Age of Async Agents on the podcast: There has been a wave of companies building their own background agents from Shopify to Stripe to Paradigm to Razorpay , and even Cognition’s friends Ramp have built their own coding agent with other friend Modal . And today it is time for Anthropic’s take on the situation with Claude Tag : Claude ",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://substackcdn.com/image/fetch/$s_!43wW!,f_auto,q_auto:best,fl_progressive:steep/https%3A%2F%2Fswyx.substack.com%2Fapi%2Fv1%2Fpost_preview%2F203334305%2Ftwitter.jpg%3Fversion%3D4",
+          "video": "",
+          "summary": "AINews: Weekday Roundups [AINews] Claude Tag: Multiplayer, Proactive, Persistent Agents in Slack Claude finally gets a Slackbot upgrade Jun 24, 2026 ∙ Paid 47 Share We have covered the Age of Async Agents on the podcast: There has been a wave of companies building their own background agents from Shopify to Stripe to Paradigm to Razorpay , and even Cognition’s friends Ramp have built their own coding agent with other friend Modal . And today it is time for Anthropic’s take on the situation with Claude Tag : Claude ",
+          "summaryZh": "**核心要点** AINews：工作日综述 [AINews] Claude 标签：Slack 中的多人、主动、持久代理 Claude 终于获得了 Slackbot 升级 Jun 24, 2026 ∙ 付费 47 分享 我们在播客上报道了异步代理时代：已经有一波公司建立了自己的后台代理，从 Shopify 到 Stripe 到 Paradigm 到 Razorpay，甚至 Cognition 的朋友 Ramp 也建立了他们自己的编码代理与其他朋友 Modal。今天是 Anthropic 与 Claude 一起探讨这一情况的时候了 Tag : Claude",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "What happens when your AI remembers you as an engineer, then learns you're CEO? Most systems just s...",
+          "titleZh": "当你的人工智能记住你是一名工程师，然后得知你是首席执行官时，会发生什么",
+          "link": "https://x.com/weaviate_io/status/2069782704439087571",
+          "publishedAt": "Wed, 24 Jun 2026 14:00:26 GMT",
+          "source": "Weaviate • vector database(@weaviate_io)",
+          "sourceType": "social",
+          "description": "What happens when your AI remembers you as an engineer, then learns you're CEO? Most systems just store both. Engram does something smarter: When new information arrives, Engram doesn't just pile it on top of existing memories. It actively reconciles them. Here's what happens in this case: 1. Engram extracts the new fact: \"User has been promoted to CEO\" 2. It retrieves related memories from Weaviate, finding \"User works as a machine learning engineer\" 3. Using an LLM tool call, it determines the appropriate action: - Rewrite the existing memory: \"The user used to work as a machine learning engineer, but has now been promoted to CEO\" - Delete the duplicate new memory to prevent redundancy The result: no duplicate memories, history is maintained, and the context stays clean. This is memory as infrastructure. Not just storage, but active maintenance that prevents the ever-growing pile of contradictory facts that would otherwise pollute your agent's context. Read more about how Engram handles memory reconciliation: weaviate.io/blog/engram-de… Or get started in the docs: docs.weaviate.io/engram?utm_sou… 💬 2 🔄 2 ❤️ 4 👀 363 📊 3 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLlYZosWUAAVi6W.jpg",
+          "video": "",
+          "summary": "What happens when your AI remembers you as an engineer, then learns you're CEO? Most systems just store both. Engram does something smarter: When new information arrives, Engram doesn't just pile it on top of existing memories. It actively reconciles them. Here's what happens in this case: 1. Engram extracts the new fact: \"User has been promoted to CEO\" 2. It retrieves related memories from Weaviate, finding \"User works as a machine learning engineer\" 3. Using an LLM tool call, it determines the appropriate action: - Rewrite the existing memory: \"The user used to work as a machine learning engineer, but has now been promoted to CEO\" - Delete the duplicate new memory to prevent redundancy The result: no duplicate memories, history is maintained, and the context stays clean. This is memory as infrastructure. Not just storage, but active maintenance that prevents the ever-growing pile of...",
+          "summaryZh": "当你的人工智能记住你是一名工程师，然后得知你是首席执行官时，会发生什么？大多数系统只存储两者。英格拉姆做了一些更聪明的事情：当新信息到达时，英格拉姆不只是将其堆放在现有的记忆之上。它积极地调和他们。在这种情况下，会发生以下情况： 1. Engram 提取新事实：“用户已晋升为 CEO” 2. 从 Weaviate 检索相关记忆，找到“用户担任机器学习工程师” 3. 使用 LLM 工具调用，确定适当的操作： - 重写现有记忆：“用户曾经担任机器学习工程师，但现在已晋升为 CEO” - 删除重复的新记忆以防止冗余 结果：没有重复的记忆，保留历史记录和上下文保持干净。这就是作为基础设施的内存。不仅仅是存储，还包括积极的维护，以防止不断增加的堆积......",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "RAG"
+          ],
+          "score": 57.068895856976646
+        },
+        {
+          "title": "𝗟𝗟𝗠𝘀 𝗸𝗲𝗲𝗽 𝗰𝗶𝘁𝗶𝗻𝗴 𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘁𝗵𝗮𝘁 𝗱𝗼𝗻'𝘁 𝘀𝗮𝘆 𝘄𝗵𝗮𝘁 𝘁𝗵𝗲𝘆 ...",
+          "titleZh": "'。 '。 -： '。答案带有干净的 [1][2][3]",
+          "link": "https://x.com/milvusio/status/2069805248319729894",
+          "publishedAt": "Wed, 24 Jun 2026 15:30:00 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "description": "𝗟𝗟𝗠𝘀 𝗸𝗲𝗲𝗽 𝗰𝗶𝘁𝗶𝗻𝗴 𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘁𝗵𝗮𝘁 𝗱𝗼𝗻'𝘁 𝘀𝗮𝘆 𝘄𝗵𝗮𝘁 𝘁𝗵𝗲𝘆 𝗰𝗹𝗮𝗶𝗺. 𝗛𝗲𝗿𝗲'𝘀 𝗵𝗼𝘄 𝘁𝗼 𝗳𝗶𝘅 𝗶𝘁. 𝗧𝗵𝗲 𝗳𝗮𝗶𝗹𝘂𝗿𝗲 𝗶𝘀 𝗳𝗮𝗺𝗶𝗹𝗶𝗮𝗿 𝗳𝗿𝗼𝗺 𝗮𝗻𝘆 𝗵𝗶𝗴𝗵-𝘀𝘁𝗮𝗸𝗲𝘀 𝗥𝗔𝗚: 𝗮 𝗰𝗶𝘁𝗮𝘁𝗶𝗼𝗻 𝘁𝗮𝗴 𝗱𝗼𝗲𝘀𝗻'𝘁 𝗺𝗲𝗮𝗻 𝘁𝗵𝗲 𝗰𝗶𝘁𝗲𝗱 𝗽𝗮𝘀𝘀𝗮𝗴𝗲 𝘀𝘂𝗽𝗽𝗼𝗿𝘁𝘀 𝘁𝗵𝗲 𝗰𝗹𝗮𝗶𝗺. The answer comes back with clean [1][2][3] markers, the right document is in the top-5, everything looks sourced. Then you open the citation and the cited passage says nothing that backs the sentence attached to it. Most teams blame the generation layer and swap the model, rewrite the prompt, pile on instructions. 𝗕𝘂𝘁 𝗮 𝗹𝗼𝘁 𝗼𝗳 𝗰𝗶𝘁𝗮𝘁𝗶𝗼𝗻 𝗲𝗿𝗿𝗼𝗿𝘀 𝗻𝗲𝘃𝗲𝗿 𝗰𝗮𝗺𝗲 𝗳𝗿𝗼𝗺 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻. 𝗔 𝗯𝗿𝗼𝗸𝗲𝗻 𝗰𝗶𝘁𝗮𝘁𝗶𝗼𝗻 𝗶𝘀 𝘂𝘀𝘂𝗮𝗹𝗹𝘆 𝗼𝗻𝗲 𝗼𝗳 𝘁𝘄𝗼 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝘀, 𝗳𝗶𝘅𝗲𝗱 𝗶𝗻 𝗱𝗶𝗳𝗳𝗲𝗿𝗲𝗻𝘁 𝗽𝗹𝗮𝗰𝗲𝘀. • 𝗙𝗮𝗶𝘁𝗵𝗳𝘂𝗹𝗻𝗲𝘀𝘀 is whether the generated text itself is hallucinated. The model says \"150W power draw,\" but the retrieved docs only say \"low-power.\" The 150W is invented. 𝗙𝗶𝘅 𝗶𝘁 𝗶𝗻 𝘁𝗵𝗲 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 𝗹𝗮𝘆𝗲𝗿: tighten prompt constraints, or switch the base model. • 𝗖𝗶𝘁𝗮𝘁𝗶𝗼𝗻 𝗔𝗰𝗰𝘂𝗿𝗮𝗰𝘆 is whether the citation's metadata maps to the right place. The marker points to the wrong passage in the right document, or to a chunk ID that re-chunking already deleted. 𝗙𝗶𝘅 𝗶𝘁 𝗶𝗻 𝘁𝗵𝗲 𝗲𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗹𝗮𝘆𝗲𝗿: citation resolution and metadata management, which has nothing to do with model quality. 𝗖𝗶𝘁𝗮𝘁𝗶𝗼𝗻 𝗔𝗰𝗰𝘂𝗿𝗮𝗰𝘆 𝗳𝗮𝗶𝗹𝘀 𝗶𝗻 𝗳𝗶𝘃𝗲 𝘀𝗵𝗮𝗽𝗲𝘀: • 𝗠𝗶𝘀𝘀𝗶𝗻𝗴 𝗰𝗶𝘁𝗮𝘁𝗶𝗼𝗻: a factual statement with no source attached. Fix the output format and attribution requirements. • 𝗚𝗵𝗼𝘀𝘁 𝗰𝗶𝘁𝗮𝘁𝗶𝗼𝗻: the cited chunk ID no longer exists, usually after an index rebuild leaves old IDs stale while the prompt template keeps emitting them. Fix the ID lifecycle, not the model. • 𝗪𝗲𝗮𝗸-𝘀𝘂𝗽𝗽𝗼𝗿𝘁 𝗰𝗶𝘁𝗮𝘁𝗶𝗼𝗻: the chunk exists but doesn't support the claim. The model says \"rate limit is 100 requests/sec\" and cites a chunk that only mentions \"supports batch calls.\" Add claim-level entailment checks instead of trusting the marker. • 𝗢𝘃𝗲𝗿-𝗰𝗶𝘁𝗮𝘁𝗶𝗼𝗻: several loosely related sources stacked behind one sentence, which dilutes trust instead of building it. • 𝗗𝗼𝗰-𝗹𝗲𝘃𝗲𝗹 𝗰𝗶𝘁𝗮𝘁𝗶𝗼𝗻: attribution to \"Document A\" but not the actual passage. For long documents, that's barely verifiable. The first three are the ones to monitor first. Each fails in a different layer, so misclassifying the error sends you to repair the wrong system. Before changing the model, check what kind of citation failure you actually have. 𝗔 𝗥𝗔𝗚 𝘀𝘆𝘀𝘁𝗲𝗺 𝘁𝗵𝗮𝘁 𝘀𝗵𝗼𝘄𝘀 𝗰𝗶𝘁𝗮𝘁𝗶𝗼𝗻 𝗺𝗮𝗿𝗸𝗲𝗿𝘀 𝗯𝘂𝘁 𝘃𝗮𝗹𝗶𝗱𝗮𝘁𝗲𝘀 𝗻𝗼𝗻𝗲 𝗼𝗳 𝘁𝗵𝗲𝗺 𝗰𝗮𝗻 𝗯𝗲 𝘄𝗼𝗿𝘀𝗲 𝘁𝗵𝗮𝗻 𝗼𝗻𝗲 𝘄𝗶𝘁𝗵 𝗻𝗼 𝗰𝗶𝘁𝗮𝘁𝗶𝗼𝗻𝘀 𝗮𝘁 𝗮𝗹𝗹. 𝗔 𝗰𝗹𝗲𝗮𝗻 [𝟭][𝟮][𝟯] 𝘀𝘂𝗿𝗳𝗮𝗰𝗲 𝗺𝗮𝗸𝗲𝘀 𝘀𝘁𝗮𝗹𝗲, 𝘄𝗿𝗼𝗻𝗴, 𝗼𝗿 𝘂𝗻𝘀𝘂𝗽𝗽𝗼𝗿𝘁𝗲𝗱 𝗲𝘃𝗶𝗱𝗲𝗻𝗰𝗲 𝗹𝗼𝗼𝗸 𝘁𝗿𝘂𝘀𝘁𝘄𝗼𝗿𝘁𝗵𝘆. 💬 0 🔄 0 ❤️ 0 👀 81 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLk7TG1WoAAL0FP.jpg",
+          "video": "",
+          "summary": "𝗟𝗟𝗠𝘀 𝗸𝗲𝗲𝗽 𝗰𝗶𝘁𝗶𝗻𝗴 𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘁𝗵𝗮𝘁 𝗱𝗼𝗻'𝘁 𝘀𝗮𝘆 𝘄𝗵𝗮𝘁 𝘁𝗵𝗲𝘆 𝗰𝗹𝗮𝗶𝗺. 𝗛𝗲𝗿𝗲'𝘀 𝗵𝗼𝘄 𝘁𝗼 𝗳𝗶𝘅 𝗶𝘁. 𝗧𝗵𝗲 𝗳𝗮𝗶𝗹𝘂𝗿𝗲 𝗶𝘀 𝗳𝗮𝗺𝗶𝗹𝗶𝗮𝗿 𝗳𝗿𝗼𝗺 𝗮𝗻𝘆 𝗵𝗶𝗴𝗵-𝘀𝘁𝗮𝗸𝗲𝘀 𝗥𝗔𝗚: 𝗮 𝗰𝗶𝘁𝗮𝘁𝗶𝗼𝗻 𝘁𝗮𝗴 𝗱𝗼𝗲𝘀𝗻'𝘁 𝗺𝗲𝗮𝗻 𝘁𝗵𝗲 𝗰𝗶𝘁𝗲𝗱 𝗽𝗮𝘀𝘀𝗮𝗴𝗲 𝘀𝘂𝗽𝗽𝗼𝗿𝘁𝘀 𝘁𝗵𝗲 𝗰𝗹𝗮𝗶𝗺. The answer comes back with clean [1][2][3] markers, the right document is in the top-5, everything looks sourced. Then you open the citation and the cited passage says nothing that backs the sentence attached to it. Most teams blame the generation layer and swap the model, rewrite the prompt, pile on instructions. 𝗕𝘂𝘁 𝗮 𝗹𝗼𝘁 𝗼𝗳 𝗰𝗶𝘁𝗮𝘁𝗶𝗼𝗻 𝗲𝗿𝗿𝗼𝗿𝘀 𝗻𝗲𝘃𝗲𝗿 𝗰𝗮𝗺𝗲 𝗳𝗿𝗼𝗺 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻. 𝗔 𝗯𝗿𝗼𝗸𝗲𝗻 𝗰𝗶𝘁𝗮𝘁𝗶𝗼𝗻 𝗶𝘀 𝘂𝘀𝘂𝗮𝗹𝗹𝘆 𝗼𝗻𝗲 𝗼𝗳 𝘁𝘄𝗼 𝗽𝗿𝗼𝗯𝗹𝗲𝗺𝘀, 𝗳𝗶𝘅𝗲𝗱 𝗶𝗻 𝗱𝗶𝗳𝗳𝗲𝗿𝗲𝗻𝘁 𝗽𝗹\ud835...",
+          "summaryZh": "'。 '。 -： '。答案带有干净的 [1][2][3] 标记，正确的文档位于前 5 名中，所有内容看起来都有来源。然后你打开引文，被引用的段落没有任何内容支持所附句子。大多数团队将责任归咎于生成层并交换模型、重写提示、堆积指令。 , ...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 41.870720778575574
+        },
+        {
+          "title": "interviewstreet/hiring-agent",
+          "titleZh": "interviewstreet/hiring-agent：招聘代理简历评分管道从 PDF 中提取结构化数据，通过",
+          "link": "https://github.com/interviewstreet/hiring-agent",
+          "publishedAt": "2026-06-24T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Hiring Agent Resume-to-Score pipeline that extracts structured data from PDFs, enriches with GitHub signals, and outputs a fair, explainable evaluation. Contents Overview Architecture Installation and Setup Prerequisites Quick setup with pip Ollama models Configuration How it works CLI usage Directory layout Provider details Contributing License Overview Hiring Agent parses a resume PDF to Markdown, extracts sectioned JSON using a local or hosted LLM, augments the data with GitHub profile and repository signals, th",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/a800327096ad59a7a7d52272f8a36cd04dfa9af8553a7e6012971b0c47831fb9/interviewstreet/hiring-agent",
+          "video": "",
+          "summary": "Hiring Agent Resume-to-Score pipeline that extracts structured data from PDFs, enriches with GitHub signals, and outputs a fair, explainable evaluation. Contents Overview Architecture Installation and Setup Prerequisites Quick setup with pip Ollama models Configuration How it works CLI usage Directory layout Provider details Contributing License Overview Hiring Agent parses a resume PDF to Markdown, extracts sectioned JSON using a local or hosted LLM, augments the data with GitHub profile and repository signals, th",
+          "summaryZh": "招聘代理简历评分管道从 PDF 中提取结构化数据，通过 GitHub 信号进行丰富，并输出公平、可解释的评估。目录 概述 架构 安装和设置先决条件 使用 pip Ollama 模型快速设置 配置 工作原理 CLI 使用 目录布局 提供商详细信息 贡献许可证 概述 Hiring Agent 将简历 PDF 解析为 Markdown，使用本地或托管的 LLM 提取分段 JSON，使用 GitHub 配置文件和存储库信号增强数据，",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "JCodesMore/ai-website-cloner-template",
+          "titleZh": "JCodesMore/ai-website-cloner-template：AI 网站克隆模板 一个可重复使用的模板，用",
+          "link": "https://github.com/JCodesMore/ai-website-cloner-template",
+          "publishedAt": "2026-06-24T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "AI Website Cloner Template A reusable template for reverse-engineering any website into a clean, modern Next.js codebase using AI coding agents. Recommended: Claude Code with Opus 4.7 for best results — but works with a variety of AI coding agents. Point it at a URL, run /clone-website , and your AI agent will inspect the site, extract design tokens and assets, write component specs, and dispatch parallel builders to reconstruct every section. Demo Click the image above to watch the full demo on YouTube. Quick Star",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/5a5092ee544bc9553cc4655fa733c2047968adf779af5c64feae4c58af94f394/JCodesMore/ai-website-cloner-template",
+          "video": "",
+          "summary": "AI Website Cloner Template A reusable template for reverse-engineering any website into a clean, modern Next.js codebase using AI coding agents. Recommended: Claude Code with Opus 4.7 for best results — but works with a variety of AI coding agents. Point it at a URL, run /clone-website , and your AI agent will inspect the site, extract design tokens and assets, write component specs, and dispatch parallel builders to reconstruct every section. Demo Click the image above to watch the full demo on YouTube. Quick Star",
+          "summaryZh": "AI 网站克隆模板 一个可重复使用的模板，用于使用 AI 编码代理将任何网站逆向工程为干净、现代的 Next.js 代码库。推荐：使用 Opus 4.7 进行 Claude Code 以获得最佳结果 - 但可与各种 AI 编码代理配合使用。将其指向 URL，运行 /clone-website，您的 AI 代理将检查该站点，提取设计令牌和资产，编写组件规格，并分派并行构建器来重建每个部分。演示 单击上面的图片即可在 YouTube 上观看完整演示。快星",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "stablyai/orca",
+          "titleZh": "stablyai/orca：Orca 是与一组并行代理一起工作的 ADE。使用您自己",
+          "link": "https://github.com/stablyai/orca",
+          "publishedAt": "2026-06-24T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/4f5881d40995d4a1c1c38012267551bd064b64007651040d23cf2d29ab8a8b63/stablyai/orca",
+          "video": "",
+          "summary": "Star stablyai / orca Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+          "summaryZh": "Orca 是与一组并行代理一起工作的 ADE。使用您自己的订阅运行任何编码代理。可在桌面和移动设备上使用。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "google-labs-code/design.md",
+          "titleZh": "google-labs-code/design.md：用于向编码代理描述视觉标识的格式规范。DESIGN.",
+          "link": "https://github.com/google-labs-code/design.md",
+          "publishedAt": "2026-06-24T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star google-labs-code / design.md A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/1aa3d434c11abd11dfb7cd96d6c385e22cab09be4c8eec73fe71d539b4a02098/google-labs-code/design.md",
+          "video": "",
+          "summary": "Star google-labs-code / design.md A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+          "summaryZh": "用于向编码代理描述视觉标识的格式规范。 DESIGN.md 使代理能够对设计系统有持久的、结构化的理解。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Bring open models to where you're already working. FireConnect brings Fireworks' top models directl...",
+          "titleZh": "FireConnect 把 Fireworks 开放模型接入 Claude Code、Codex 等开发工具",
+          "link": "https://x.com/FireworksAI_HQ/status/2069556087033119189",
+          "publishedAt": "Tue, 23 Jun 2026 22:59:56 GMT",
+          "source": "Fireworks AI(@FireworksAI_HQ)",
+          "sourceType": "social",
+          "description": "Bring open models to where you're already working. FireConnect brings Fireworks' top models directly into Claude Code, Pi, OpenCode, and Codex. Watch our Head of AI Education @Prof_oz show you how: Sinan Ozdemir 🎆 @Prof_OZ How to run GLM-5.2 (Or Minimax or Qwen or Deepseek or Kimi) in Claude Code No JSON editing. No vim 😮‍💨 1. Install Claude Code npm install -g @anthropic -ai/claude-code 2. Grab a Fireworks API key fireworks.ai lC 3. Install FireConnect + drop in your key (one line): curl -fsS raw.githubusercontent.com/fw-ai/fireconn… 99 | FIREWORKS_API_KEY=\"fw_...\" bash 4. Flip it on: fireconnect claude on 5. Switch to GLM-5.2 and bam! Swap models with: fireconnect claude model select Docs to do the same for Pi, Opencode, and Codex docs.fireworks.ai/ecosystem/fire… IZ Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 2 🔄 5 ❤️ 29 👀 43968 📊 7 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-25-2069556087033119189.mp4",
+          "summary": "Bring open models to where you're already working. FireConnect brings Fireworks' top models directly into Claude Code, Pi, OpenCode, and Codex. Watch our Head of AI Education @Prof_oz show you how: Sinan Ozdemir 🎆 @Prof_OZ How to run GLM-5.2 (Or Minimax or Qwen or Deepseek or Kimi) in Claude Code No JSON editing. No vim 😮‍💨 1. Install Claude Code npm install -g @anthropic -ai/claude-code 2. Grab a Fireworks API key fireworks.ai lC 3. Install FireConnect + drop in your key (one line): curl -fsS raw.githubusercontent.com/fw-ai/fireconn… 99 | FIREWORKS_API_KEY=\"fw_...\" bash 4. Flip it on: fireconnect claude on 5. Switch to GLM-5.2 and bam! Swap models with: fireconnect claude model select Docs to do the same for Pi, Opencode, and Codex docs.fireworks.ai/ecosystem/fire… IZ Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 2 🔄 5 ❤️ 29 👀 43968 📊 7...",
+          "summaryZh": "**Fireworks** 发布了 **FireConnect**，把自家开放模型直接接入 **Claude Code、Pi、OpenCode 和 Codex** 这类开发工具。官方演示里点名支持 **GLM-5.2、MiniMax、Qwen、DeepSeek、Kimi** 等模型，强调接入过程 **不用手改 JSON，也不用折腾 Vim**。实际流程就是安装 CLI、配置 `FIREWORKS_API_KEY`，再执行 `fireconnect` 的启用与模型切换命令；这类适配层正在把 **开放模型** 更快带进现有代码代理工作流。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "开源",
+            "视频"
+          ],
+          "score": 69.90662865703143
+        },
+        {
+          "title": "What happens when millions of AI agents start negotiating, transacting, and delegating to one anothe...",
+          "titleZh": "当数以百万计的人工智能代理开始相互谈判、交易和委托时会发生什么",
+          "link": "https://x.com/GoogleDeepMind/status/2069785314663497966",
+          "publishedAt": "Wed, 24 Jun 2026 14:10:48 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "description": "What happens when millions of AI agents start negotiating, transacting, and delegating to one another? @weballergy joined our podcast with @fryrsquared to explore the rise of agentic economies – and how we can diversify agent decision-making to avoid AI groupthink. Timecodes: 00:00 Intro 1:07 Defining AI agents 4:44 Agentic exploration in science and research 15:46 Delegation between agents 22:46 Agentic security and traps 29:31 Building an agentic economy 33:22 Cognitive monoculture 36:29 Distributed intelligence Your browser does not support the video tag. 🔗 View on Twitter 💬 42 🔄 44 ❤️ 344 👀 45521 📊 92 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "What happens when millions of AI agents start negotiating, transacting, and delegating to one another? @weballergy joined our podcast with @fryrsquared to explore the rise of agentic economies – and how we can diversify agent decision-making to avoid AI groupthink. Timecodes: 00:00 Intro 1:07 Defining AI agents 4:44 Agentic exploration in science and research 15:46 Delegation between agents 22:46 Agentic security and traps 29:31 Building an agentic economy 33:22 Cognitive monoculture 36:29 Distributed intelligence Your browser does not support the video tag. 🔗 View on Twitter 💬 42 🔄 44 ❤️ 344 👀 45521 📊 92 ⚡ Powered by xgo.ing",
+          "summaryZh": "当数以百万计的人工智能代理开始相互谈判、交易和委托时会发生什么？ @weballergy 与 @fryrsquared 一起加入我们的播客，探讨代理经济的兴起，以及我们如何使代理决策多样化，以避免人工智能群体思维。时间码： 00:00 简介 1:07 定义 AI 代理 4:44 科学研究中的代理探索 15:46 代理之间的委托 22:46 代理安全与陷阱 29:31 构建代理经济 33:22 认知单一文化 36:29 分布式智能",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 63.078501865094935
+        },
+        {
+          "title": "We open-source Qwen-AgentWorld-35B-A3B (MoE, 35B/3B active, 256K context) and AgentWorldBench. Two ...",
+          "titleZh": "Qwen 开源 Qwen-AgentWorld-35B-A3B 与 AgentWorldBench",
+          "link": "https://x.com/Alibaba_Qwen/status/2069720412481888400",
+          "publishedAt": "Wed, 24 Jun 2026 09:52:54 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "description": "We open-source Qwen-AgentWorld-35B-A3B (MoE, 35B/3B active, 256K context) and AgentWorldBench. Two routes, one roadmap: 🔬 Build the simulator — scalable, controllable, surpassing real environments 🧠 Internalize world modeling — predict before you act Qwen-AgentWorld is our attempt to investigate how language world modeling can further expand the boundaries of general agent capabilities. Go build on it 🏃🏃‍♂️ 📑 Pa arxiv.org/abs/2606.24597 RKq71 📖 qwen.ai/blog?id=qwen-a… Kyhsx2 💻 G github.com/QwenLM/Qwen-Ag… vb1UZCn 🤗 Huggi huggingface.co/collections/Qw… 3QBL1TM5 🧩 Mod modelscope.cn/collections/Qw… BnGYgMWWI 💬 10 🔄 16 ❤️ 120 👀 12541 📊 35 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLkfvbmXwAA8rth.jpg",
+          "video": "",
+          "summary": "We open-source Qwen-AgentWorld-35B-A3B (MoE, 35B/3B active, 256K context) and AgentWorldBench. Two routes, one roadmap: 🔬 Build the simulator — scalable, controllable, surpassing real environments 🧠 Internalize world modeling — predict before you act Qwen-AgentWorld is our attempt to investigate how language world modeling can further expand the boundaries of general agent capabilities. Go build on it 🏃🏃‍♂️ 📑 Pa arxiv.org/abs/2606.24597 RKq71 📖 qwen.ai/blog?id=qwen-a… Kyhsx2 💻 G github.com/QwenLM/Qwen-Ag… vb1UZCn 🤗 Huggi huggingface.co/collections/Qw… 3QBL1TM5 🧩 Mod modelscope.cn/collections/Qw… BnGYgMWWI 💬 10 🔄 16 ❤️ 120 👀 12541 📊 35 ⚡ Powered by xgo.ing",
+          "summaryZh": "**Qwen** 开源了 **Qwen-AgentWorld-35B-A3B** 和配套评测 **AgentWorldBench**。这套工作把“**语言世界建模**”拆成两条路线：一条是构建 **可扩展、可控的环境模拟器**，另一条是让模型在行动前先学会 **预测环境变化**，再把这种能力迁移到通用智能体任务。官方同时公开了 **MoE 架构、35B 参数 / 3B 激活、256K 上下文**，并给出论文、博客、GitHub、Hugging Face 与 ModelScope 入口，方便社区直接复现和二次开发。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "开源"
+          ],
+          "score": 62.980982203839574
+        },
+        {
+          "title": "Seedance 4K. Seedance Mini. Kling 3.0 Turbo. Available now. The world’s best models, in one place. ...",
+          "titleZh": "Runway 上线 Seedance 4K、Seedance Mini 和 Kling 3.0 Turbo",
+          "link": "https://x.com/runwayml/status/2069535148450705517",
+          "publishedAt": "Tue, 23 Jun 2026 21:36:44 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "description": "Seedance 4K. Seedance Mini. Kling 3.0 Turbo. Available now. The world’s best models, in one place. Use code 30RUNWAY to get 30% off your first 3 months. Get started at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 30 🔄 24 ❤️ 242 👀 193223 📊 73 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-25-2069535148450705517.mp4",
+          "summary": "Seedance 4K. Seedance Mini. Kling 3.0 Turbo. Available now. The world’s best models, in one place. Use code 30RUNWAY to get 30% off your first 3 months. Get started at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 30 🔄 24 ❤️ 242 👀 193223 📊 73 ⚡ Powered by xgo.ing",
+          "summaryZh": "**Runway** 宣布其模型集合新增 **Seedance 4K、Seedance Mini 和 Kling 3.0 Turbo**，并用一条视频素材集中展示这批能力。官方同时给出优惠码 **`30RUNWAY`**，新用户前 **3 个月可享 7 折**，说明这波动作不只是能力补齐，也是在推动更多创作者把多家视频模型纳入同一个工作台使用。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 62.75875840810248
+        },
+        {
+          "title": "🧠 Paradigm II — Agent Foundation Model: world modeling as agent capability. Single-turn, non-agent...",
+          "titleZh": "范式 II — 代理基础模型：作为代理能力的世界建模",
+          "link": "https://x.com/Alibaba_Qwen/status/2069720397747220493",
+          "publishedAt": "Wed, 24 Jun 2026 09:52:51 GMT",
+          "source": "Qwen(@Alibaba_Qwen)",
+          "sourceType": "social",
+          "description": "🧠 Paradigm II — Agent Foundation Model: world modeling as agent capability. Single-turn, non-agentic environment prediction → tested directly on multi-turn, tool-calling agent tasks. No agentic RL, no task-specific tuning. Gains across 7 benchmarks, including 3 entirely out-of-domain: - In-domain: Terminal-Bench 2.0 +6.3, SWE-Bench +3.4, WideSearch +12.8 - Out-of-domain: Claw-Eval +11.3, QwenClawBench +9.7, BFCL v4 +9.0 World modeling internalizes \"predict before you act\" as a transferable reasoning pattern. 💬 2 🔄 0 ❤️ 47 👀 10524 📊 6 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLkarNQXkAAtu30.png",
+          "video": "",
+          "summary": "🧠 Paradigm II — Agent Foundation Model: world modeling as agent capability. Single-turn, non-agentic environment prediction → tested directly on multi-turn, tool-calling agent tasks. No agentic RL, no task-specific tuning. Gains across 7 benchmarks, including 3 entirely out-of-domain: - In-domain: Terminal-Bench 2.0 +6.3, SWE-Bench +3.4, WideSearch +12.8 - Out-of-domain: Claw-Eval +11.3, QwenClawBench +9.7, BFCL v4 +9.0 World modeling internalizes \"predict before you act\" as a transferable reasoning pattern. 💬 2 🔄 0 ❤️ 47 👀 10524 📊 6 ⚡ Powered by xgo.ing",
+          "summaryZh": "范式 II — 代理基础模型：作为代理能力的世界建模。单轮、非代理环境预测 → 直接在多轮、工具调用代理任务上进行测试。没有代理强化学习，没有针对特定任务的调整。在 7 个基准测试中取得进步，其中包括 3 个完全域外的基准： - 域内：Terminal-Bench 2.0 +6.3、SWE-Bench +3.4、WideSearch +12.8 - 域外：Claw-Eval +11.3、QwenClawBench +9.7、BFCL v4 +9.0 世界建模将“行动前预测”内化为可转移的推理模式。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "评测"
+          ],
+          "score": 60.23541936098357
+        },
+        {
+          "title": "You can turn an existing LangGraph agent into a fully functional voice agent with @pipecat_ai. Thi...",
+          "titleZh": "您可以使用 @pipecat_ai 将现有的 LangGraph 代理转变为功能齐全的语",
+          "link": "https://x.com/LangChain/status/2069517869503668281",
+          "publishedAt": "Tue, 23 Jun 2026 20:28:04 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": "You can turn an existing LangGraph agent into a fully functional voice agent with @pipecat_ai . This 17-minute walkthrough shows you exactly how to do it. Your browser does not support the video tag. 🔗 View on Twitter LangChain @LangChain 🗣️Voice traces in LangSmith just got an update! Now, LangSmith has an audio player that runs inline with spans. No new tabs necessary. See what was being played when a particular span was active, or see what span was active when a particular piece of audio was being played. 🔗 View Quoted Tweet 💬 3 🔄 12 ❤️ 56 👀 15268 📊 14 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLhEL8TXYAAFWwi.jpg",
+          "video": "",
+          "summary": "You can turn an existing LangGraph agent into a fully functional voice agent with @pipecat_ai . This 17-minute walkthrough shows you exactly how to do it. Your browser does not support the video tag. 🔗 View on Twitter LangChain @LangChain 🗣️Voice traces in LangSmith just got an update! Now, LangSmith has an audio player that runs inline with spans. No new tabs necessary. See what was being played when a particular span was active, or see what span was active when a particular piece of audio was being played. 🔗 View Quoted Tweet 💬 3 🔄 12 ❤️ 56 👀 15268 📊 14 ⚡ Powered by xgo.ing",
+          "summaryZh": "您可以使用 @pipecat_ai 将现有的 LangGraph 代理转变为功能齐全的语音代理。这个 17 分钟的演练向您展示了具体的操作方法。 LangChain @LangChain LangSmith 中的语音轨迹刚刚获得更新！现在，LangSmith 拥有一个与 Span 内联运行的音频播放器。无需新选项卡。查看特定跨度处于活动状态时正在播放的内容，或者查看正在播放特定音频片段时处于活动状态的跨度。 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "语音",
+            "视频"
+          ],
+          "score": 59.12916201127881
+        },
+        {
+          "title": "分享一下我管理 Skills 的方式，偏极客风格，不一定适合所有人，但可以给大家提供一个思路。 一、Skills 只装在项目里，不装全局 Agent 的 Skills 可以装在全局（所有项目共享）...",
+          "titleZh": "分享一下我管理 Skills 的方式，偏极客风格，不一定适合所有人，但可以给大家提供一个",
+          "link": "https://x.com/dotey/status/2069632132431929651",
+          "publishedAt": "Wed, 24 Jun 2026 04:02:06 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "分享一下我管理 Skills 的方式，偏极客风格，不一定适合所有人，但可以给大家提供一个思路。 一、Skills 只装在项目里，不装全局 Agent 的 Skills 可以装在全局（所有项目共享）或者项目内（只有当前项目能用）。我选择只装在项目内，最主要的原因是节约上下文空间。 Agent 在工作时有一个上下文窗口，你可以把它想象成 Claude 的工作台——台面大小是有限的。虽然 Skill 默认只会加载名称、描述等摘要信息（不会把完整内容全部摊开），但积少成多——全局装了几十个 Skill，光是这些摘要加在一起也会占掉不少工作台空间。而且一旦 Claude 判断某个 Skill 跟当前任务相关，就会把它的完整内容加载进来，全局 Skill 越多，被误触发的概率也越大，白白浪费空间。 只在项目内安装真正需要的 Skills，工作台上就只摆当前用得到的资料，把宝贵的空间留给更重要的内容，Claude 干活也更高效。 二、用软链接来安装 Skills 这是我管理方式的核心，先解释一下什么是软链接。 你可以把软链接理解成 Windows 的快捷方式——文件本体只有一份，但你可以在很多地方创建快捷方式指向它。改了本体，所有快捷方式指向的内容都会同步变化。 我的具体做法分三步： 第一步：把开源 Skills 项目下载到统一的目录 我在电脑上有一个专门存放 GitHub 项目的文件夹 ~/GitHub，所有下载的开源项目都放在这里面，比如： ~/GitHub/baoyu-skills ← 存放各种 Skills 的开源项目 ~/GitHub/baoyu-design ← 另一个开源项目 这个文件夹就像一个仓库，所有 Skills 的原件都保存在这里。 第二步：在自己的项目中创建软链接 假设我有一个写作项目 ~/GitHub/baoyu-writing，里面需要用到好几个 Skills。我不会把 Skills 复制进来，而是创建软链接，让项目指向仓库里的原件： 项目内的路径 → 实际指向的位置（原件） .agents/skills/baoyu-comic → ~/GitHub/baoyu-skills/skills/baoyu-comic .agents/skills/baoyu-design → ~/GitHub/baoyu-design/skills/baoyu-design 第三步：给 Claude Code 建一个入口 最后再创建一个软链接，让 Claude Code 能找到这些 Skills： .claude/skills → .agents/skills 这样 Claude Code 就能顺着这条链找到所有需要的 Skills 了。 三、不用记命令，让 Agent 帮你干 看到这里你可能会想：软链接的命令我记不住怎么办？ 完全不用记。直接用自然语言告诉 Codex/Claude Code 你要做什么就行了，比如： > 帮我把 ~/GitHub/baoyu-skills/skills/baoyu-comic 软链接到 .agents/skills/baoyu-comic 甚至更简单： 帮我把 baoyu-skills 项目里的 baoyu-comic 这个 skill 链接到当前项目 Agent 会自动帮你创建软链接，后续的维护、添加、删除也都可以交给它。你只需要说清楚要把哪个 Skill 链到哪，剩下的脏活累活让 Agent 干就好。 四、为什么值得这么折腾？ 初次设置确实比直接复制粘贴多花几分钟，但后续维护特别省心，主要有两个好处： 好处一：更新只需一次。因为所有项目都是通过软链接指向同一份原件的，所以当开源项目有更新时，我只需要去 ~/GitHub/baoyu-skills 拉取最新代码，所有用到这个 Skill 的项目就自动变成最新版了。 好处二：修了 bug 可以直接反哺。比如我在写作项目里用漫画 Skill 画漫画时发现了一个问题，直接让 Agent 修复就好。因为是软链接，Agent 修改的其实是仓库里的原件（~/GitHub/baoyu-skills/skills/baoyu-comic），我可以直接把修复提交到开源项目，相当于顺手给开源社区做了贡献。 LinearUncle @LinearUncle 我快疯了。日常同时用 4个 coding agent，skills 各写各的： /.agents/skills、/.codex/skills、~/.claude/skills 已经一团浆糊，CC 里找不到 Codex 的 skill，反过来也一样。 目前的打算： 写脚本把各自独有的skills软链到另外两方去，crontab定时跑一下，有更优雅的方案或者工具吗？ 🔗 View Quoted Tweet 💬 94 🔄 136 ❤️ 656 👀 68441 📊 235 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HLjPDTLW8AALIp2.jpg",
+          "video": "",
+          "summary": "分享一下我管理 Skills 的方式，偏极客风格，不一定适合所有人，但可以给大家提供一个思路。 一、Skills 只装在项目里，不装全局 Agent 的 Skills 可以装在全局（所有项目共享）或者项目内（只有当前项目能用）。我选择只装在项目内，最主要的原因是节约上下文空间。 Agent 在工作时有一个上下文窗口，你可以把它想象成 Claude 的工作台——台面大小是有限的。虽然 Skill 默认只会加载名称、描述等摘要信息（不会把完整内容全部摊开），但积少成多——全局装了几十个 Skill，光是这些摘要加在一起也会占掉不少工作台空间。而且一旦 Claude 判断某个 Skill 跟当前任务相关，就会把它的完整内容加载进来，全局 Skill 越多，被误触发的概率也越大，白白浪费空间。 只在项目内安装真正需要的 Skills，工作台上就只摆当前用得到的资料，把宝贵的空间留给更重要的内容，Claude 干活也更高效。 二、用软链接来安装 Skills 这是我管理方式的核心，先解释一下什么是软链接。 你可以把软链接理解成 Windows 的快捷方式——文件本体只有一份，但你可以在很多地方创建快捷方式指向它。改了本体，所有快...",
+          "summaryZh": "分享一下我管理 Skills 的方式，偏极客风格，不一定适合所有人，但可以给大家提供一个思路。 一、Skills 只装在项目里，不装全局 Agent 的 Skills 可以装在全局（所有项目共享）或者项目内（只有当前项目能用）。我选择只装在项目内，最主要的原因是节约上下文空间。 Agent 在工作时有一个上下文窗口，你可以把它想象成 Claude 的工作台——台面大小是有限的。虽然 Skill 默认只会加载名称、描述等摘要信息（不会把完整内容全部摊开），但积少成多——全局装了几十个 Skill，光是这些摘要加在一起也会占掉不少工作台空间。而且一旦 Claude 判断某个 Skill 跟当前任务相关，就会把它的完整内容加载进来，全局 Skill 越多，被误触发的概率也越大，白白浪费空间。 只在项目内安装真正需要的 Skills，工作台上就只摆当前用得到的资料，把宝贵的空间留给更重要的内容，Claude 干活也更高效。 二、用软链接来安装 Skills 这是我管理方式的核心，先解释一下什么是软链接。 你可以把软链接理解成 Windows 的快捷方式——文件本体只有一份，但你可以在很多地方创建快捷方式指向它。改了本体，所有快...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "开源"
+          ],
+          "score": 59
+        },
+        {
+          "title": "The rise of MoE models introduced new challenges in training, and @huggingface's Transformers v5 bro...",
+          "titleZh": "MoE 模型的兴起给训练带来了新的挑战， 的 Transformers v5 为解决这些挑战提供了一流的支持",
+          "link": "https://x.com/NVIDIAAI/status/2069813582825418828",
+          "publishedAt": "Wed, 24 Jun 2026 16:03:08 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "The rise of MoE models introduced new challenges in training, and @huggingface 's Transformers v5 brought first-class support for solving them. Now, NeMo AutoModel builds on top of v5. Part of the NeMo framework for building models at scale, NeMo AutoModel brings optimizations to a broad set of model families through support for Expert Parallelism, DeepEP, and TransformerEngine kernels with a few lines of code. We found NeMo AutoModel brings a 3.4 to 3.7x higher training throughput for popular MoE models. You can read more here: nvda.ws/4eopYty 💬 10 🔄 37 ❤️ 191 👀 18217 📊 45 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLl0e1eWoAACE44.jpg",
+          "video": "",
+          "summary": "The rise of MoE models introduced new challenges in training, and @huggingface 's Transformers v5 brought first-class support for solving them. Now, NeMo AutoModel builds on top of v5. Part of the NeMo framework for building models at scale, NeMo AutoModel brings optimizations to a broad set of model families through support for Expert Parallelism, DeepEP, and TransformerEngine kernels with a few lines of code. We found NeMo AutoModel brings a 3.4 to 3.7x higher training throughput for popular MoE models. You can read more here: nvda.ws/4eopYty 💬 10 🔄 37 ❤️ 191 👀 18217 📊 45 ⚡ Powered by xgo.ing",
+          "summaryZh": "MoE 模型的兴起给训练带来了新的挑战， 的 Transformers v5 为解决这些挑战提供了一流的支持。现在，NeMo AutoModel 构建在 v5 之上。作为用于大规模构建模型的 NeMo 框架的一部分，NeMo AutoModel 通过使用几行代码支持专家并行、DeepEP 和 TransformerEngine 内核，为广泛的模型系列带来了优化。我们发现 NeMo AutoModel 为流行的 MoE 模型带来了 3.4 至 3.7 倍的训练吞吐量。您可以在这里阅读更多信息：nvda.ws/4eopYty",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 58.72491583981468
+        },
+        {
+          "title": "Most teams building today have traces, what they don't have is a system for continuously improving t...",
+          "titleZh": "如今大多数球队的建设都有痕迹，他们没有的是一个不断改进他们的经纪人的系统",
+          "link": "https://x.com/LangChain/status/2069535988272009272",
+          "publishedAt": "Tue, 23 Jun 2026 21:40:04 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": "Most teams building today have traces, what they don't have is a system for continuously improving their agents. The teams that do use an agent development lifecycle: build, test, deploy, and monitor. The problem with this lifecycle? It scales at the speed of their engineers. Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 9 ❤️ 47 👀 7684 📊 11 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-25-2069535988272009272.mp4",
+          "summary": "Most teams building today have traces, what they don't have is a system for continuously improving their agents. The teams that do use an agent development lifecycle: build, test, deploy, and monitor. The problem with this lifecycle? It scales at the speed of their engineers. Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 9 ❤️ 47 👀 7684 📊 11 ⚡ Powered by xgo.ing",
+          "summaryZh": "如今大多数球队的建设都有痕迹，他们没有的是一个不断改进他们的经纪人的系统。使用代理开发生命周期的团队：构建、测试、部署和监控。这个生命周期有问题吗？它以工程师的速度进行扩展。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 56.15549074858396
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "268.AI时代，个人工作台会重新回到手机吗？",
+          "titleZh": "268.AI时代，个人工作台会重新回到手机吗？",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a3bdd319d2f5743683d4841",
+          "publishedAt": "2026-06-24T13:49:54.122Z",
+          "source": "乱翻书",
+          "sourceType": "podcast",
+          "description": "听《乱翻书》上小宇宙。 乱翻书是一档关注商业、科技和历史的对话节目，关心How和Why，以及少有人注意到的What。内容主要方向是科技考古、行业观察和前沿思考，研究明星公司的创新、竞争和兴衰循环，希望能够为你提供信息增量。 「乱翻书」主理人是潘乱，科技评论作者，单列双列产品概念提出人，代表作《腾讯没有梦想》、《字节如何跳动》。",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FqqQkG2Api63iYHz38DWlnFdR-1y.jpg",
+          "video": "",
+          "summary": "听《乱翻书》上小宇宙。 乱翻书是一档关注商业、科技和历史的对话节目，关心How和Why，以及少有人注意到的What。内容主要方向是科技考古、行业观察和前沿思考，研究明星公司的创新、竞争和兴衰循环，希望能够为你提供信息增量。 「乱翻书」主理人是潘乱，科技评论作者，单列双列产品概念提出人，代表作《腾讯没有梦想》、《字节如何跳动》。",
+          "summaryZh": "**讲了什么**：这一期来自 **乱翻书**，主题是「268.AI时代，个人工作台会重新回到手机吗？」。🎙【本期嘉宾】庄明浩、罗璇 庄明浩（「屠龙之术」主播） 罗璇（RWKV元始智能联合创始人） 主播：潘乱（「乱翻书」主理人） \udca1本期节目由vivo赞助播出， vivo X Fold6 即将于6月26日19:00发布 ⏰【时间线】 一、从App到Agent：手机为什么重新变重要了？01:50 哪些工作移动端可以取代PC，哪些无法取代？07:03 AI硬件为什么绕了一大圈，最后又回到了手机？11:31 为什么手机在今天，依然是AI时代最特殊的智能设备？14:26 工作流里AI最大的瓶颈到底是模型能力还是完整上下文？二、工作台回归，回来是同一个东西吗？17:34 折叠屏手机工作台，和PC时代的工作台相比，有什么变化？ **简介要点**： - 07:03 AI硬件为什么绕了一大圈，最后又回到了手机？ - 11:31 为什么手机在今天，依然是AI时代最特殊的智能设备？ - 14:26 工作流里AI最大的瓶颈到底是模型能力还是完整上下文？ - 22:44 如果Agent会越来越强，那 APP会不会就会退居幕后？",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "SpaceX IPO直指2万亿市值 | 亮眼增长背后的大幅亏损 | 星链 | 火箭发射 | AI",
+          "titleZh": "SpaceX IPO直指2万亿市值 | 亮眼增长背后的大幅亏损 | 星链 | 火箭发射 | AI",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a2d349a4233e62bc5492df9",
+          "publishedAt": "2026-06-23T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「SpaceX IPO直指2万亿市值 | 亮眼增长背后的大幅亏损 | 星链 | 火箭发射 | AI」。人类资本市场历史上最疯狂的IPO就要来了。北京时间5月21日凌晨，SpaceX正式向美国SEC提交了一份长达近500页的S-1文件，计划6月12日在纳斯达克挂牌，股票代码SPCX。目标估值1.75万亿到2万亿美元，融资750到800亿美元。一家年亏近50亿、正在疯狂烧钱的公司，凭什么敢要2万亿美元的估值？马斯克到底在招股书里画了一张多大的饼？答案就藏在三个关键词里，星链印钞、AI烧钱，以及一个比全球GDP四分之一还大的、高达28.5万亿美元的可服务市场。原视频来自： **简介要点**： - 答案就藏在三个关键词里，星链印钞、AI烧钱，以及一个比全球GDP四分之一还大的、高达28.5万亿美元的可服务市场。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    }
+  ],
+  "summaryBullets": [
+    "**OpenAI** 公布首款自研 **AI 芯片 Jalapeño**，继续把 **ChatGPT、Codex 与 API** 的底层算力往自有栈收拢；同一天还放出 **GPT-5.5 Instant** 与 API 半年 **30+** 项更新，产品层和基础设施层同步推进。",
+    "**Qwen-AgentWorld** 是今天最强的研究兼开源信号：官方同时发布 **35B/3B active、256K 上下文** 的模型、**AgentWorldBench** 评测和论文，核心思路是让智能体先学会 **建模环境**，再把这种能力迁移到真实任务。",
+    "**开放模型接入开发工具** 的趋势继续升温。**FireConnect** 把 Fireworks 模型带进 **Claude Code、Codex** 等工具，**Gemini Interactions API** 则试图把文本、多模态、工具调用和托管代理收敛到单一端点。",
+    "**视频生成与语音代理** 仍在快速迭代。**Runway** 集中上线 **Seedance 4K / Mini 与 Kling 3.0 Turbo**，AWS 展示 **Amazon Nova 2 Sonic** 在医疗预约和低延迟语音代理里的落地方式；延伸阅读则把视角拉回 **AI 时代个人工作台会不会回到手机**。"
+  ]
+}
