@@ -1,0 +1,819 @@
+{
+  "date": "2026-06-27",
+  "generatedAt": "2026-06-26T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-27",
+  "stats": {
+    "sources": 135,
+    "fetched": 699,
+    "emailCandidates": 0,
+    "selected": 34,
+    "failures": 3
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "The next generation of HyperFrames skills is here 9 workflows your agent now actually understands ...",
+          "titleZh": "下一代 HyperFrames 技能就在这里，您的代理现在可以真正理解启动视频的 9 个工作流程",
+          "link": "https://x.com/HeyGen/status/2070557221340196913",
+          "publishedAt": "Fri, 26 Jun 2026 17:18:05 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "description": "The next generation of HyperFrames skills is here 9 workflows your agent now actually understands a launch video. a music video. captions and overlays on video it knows which one you mean from context and routes there on its own get started below ↓ Your browser does not support the video tag. 🔗 View on Twitter 💬 296 🔄 285 ❤️ 656 👀 221307 📊 457 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-27-2070557221340196913.mp4",
+          "summary": "The next generation of HyperFrames skills is here 9 workflows your agent now actually understands a launch video. a music video. captions and overlays on video it knows which one you mean from context and routes there on its own get started below ↓ Your browser does not support the video tag. 🔗 View on Twitter 💬 296 🔄 285 ❤️ 656 👀 221307 📊 457 ⚡ Powered by xgo.ing",
+          "summaryZh": "下一代 HyperFrames 技能就在这里，您的代理现在可以真正理解启动视频的 9 个工作流程。一段音乐视频。视频上的字幕和叠加，它从上下文和路线中知道您指的是哪一个，从下面开始 ↓。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "视频"
+          ],
+          "score": 77
+        },
+        {
+          "title": "Introducing Agent 2.0 Go from a simple prompt to fully realized marketing briefs and campaign asset...",
+          "titleZh": "Agent 2.0 简介 在 Runway Agent 中从简单的提示到完全实现的营销简报和活动资产",
+          "link": "https://x.com/runwayml/status/2070215480401604954",
+          "publishedAt": "Thu, 25 Jun 2026 18:40:07 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "description": "Introducing Agent 2.0 Go from a simple prompt to fully realized marketing briefs and campaign assets right inside of Runway Agent. You can also easily analyze your performance data to improve your creative and scale it across platforms, formats and markets. Agent is being built to become the most capable autonomous agent for real-world work. Your browser does not support the video tag. 🔗 View on Twitter 💬 25 🔄 51 ❤️ 375 👀 230784 📊 111 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-27-2070215480401604954.mp4",
+          "summary": "Introducing Agent 2.0 Go from a simple prompt to fully realized marketing briefs and campaign assets right inside of Runway Agent. You can also easily analyze your performance data to improve your creative and scale it across platforms, formats and markets. Agent is being built to become the most capable autonomous agent for real-world work. Your browser does not support the video tag. 🔗 View on Twitter 💬 25 🔄 51 ❤️ 375 👀 230784 📊 111 ⚡ Powered by xgo.ing",
+          "summaryZh": "Agent 2.0 简介 在 Runway Agent 中从简单的提示到完全实现的营销简报和活动资产。您还可以轻松分析效果数据，以改进您的创意并跨平台、格式和市场进行扩展。 Agent 旨在成为现实世界工作中最有能力的自主代理。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 72.19254278223383
+        },
+        {
+          "title": "Two quick updates in image world. Try adding --preview to your prompt for a early peak at V8.2 aesth...",
+          "titleZh": "图像世界的两次快速更新。尝试将 --preview 添加到您的提示中，以便尽早达到 V8.2 美观和个性化的峰值",
+          "link": "https://x.com/midjourney/status/2070223272072065228",
+          "publishedAt": "Thu, 25 Jun 2026 19:11:05 GMT",
+          "source": "Midjourney(@midjourney)",
+          "sourceType": "social",
+          "description": "Two quick updates in image world. Try adding --preview to your prompt for a early peak at V8.2 aesthetics & personalization. We've also updated our big batch draft mode to work with --sref random so you can explore style space 24x faster than before. Enjoy! Midjourney @midjourney We've released a new big-batch draft mode for V8.1. This new mode lets you generate 24 lower resolution images at the half the price of a Standard res 4-image Midjourney Job. When you like an image just press \"Vary\" to get new versions at full resolution. Enjoy! 🔗 View Quoted Tweet 💬 42 🔄 24 ❤️ 358 👀 65451 📊 76 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLrpGGYbMAAmXvP.jpg",
+          "video": "",
+          "summary": "Two quick updates in image world. Try adding --preview to your prompt for a early peak at V8.2 aesthetics & personalization. We've also updated our big batch draft mode to work with --sref random so you can explore style space 24x faster than before. Enjoy! Midjourney @midjourney We've released a new big-batch draft mode for V8.1. This new mode lets you generate 24 lower resolution images at the half the price of a Standard res 4-image Midjourney Job. When you like an image just press \"Vary\" to get new versions at full resolution. Enjoy! 🔗 View Quoted Tweet 💬 42 🔄 24 ❤️ 358 👀 65451 📊 76 ⚡ Powered by xgo.ing",
+          "summaryZh": "图像世界的两次快速更新。尝试将 --preview 添加到您的提示中，以便尽早达到 V8.2 美观和个性化的峰值。我们还更新了大批量草稿模式以与 --sref random 配合使用，这样您探索样式空间的速度比以前快 24 倍。享受！ Midjourney @midjourney 我们为 V8.1 发布了新的大批量草稿模式。这种新模式可让您以标准分辨率 4 图像中途作业价格的一半生成 24 张较低分辨率的图像。当您喜欢某个图像时，只需按“变化”即可获得全分辨率的新版本。享受！ 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "图像"
+          ],
+          "score": 71.87361064980911
+        },
+        {
+          "title": "GPT‑5.6 Sol launches with our most robust safety stack yet. We strengthened real-time protections a...",
+          "titleZh": "OpenAI：GPT‑5.6 Sol 推出了我们迄今为止最强大的安全堆栈",
+          "link": "https://x.com/OpenAI/status/2070555280052826429",
+          "publishedAt": "Fri, 26 Jun 2026 17:10:22 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "GPT‑5.6 Sol launches with our most robust safety stack yet. We strengthened real-time protections against high-risk cyber activity and repeated misuse, then spent weeks hardening the system with human red teaming and over 700,000 A100-equivalent GPU hours of automated testing. 💬 30 🔄 34 ❤️ 1140 👀 112056 📊 115 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "GPT‑5.6 Sol launches with our most robust safety stack yet. We strengthened real-time protections against high-risk cyber activity and repeated misuse, then spent weeks hardening the system with human red teaming and over 700,000 A100-equivalent GPU hours of automated testing. 💬 30 🔄 34 ❤️ 1140 👀 112056 📊 115 ⚡ Powered by xgo.ing",
+          "summaryZh": "GPT‑5.6 Sol 推出了我们迄今为止最强大的安全堆栈。我们加强了针对高风险网络活动和重复滥用的实时保护，然后花了数周的时间通过人工红队和超过 700,000 个相当于 A100 的 GPU 小时的自动化测试来强化系统。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布"
+          ],
+          "score": 71
+        },
+        {
+          "title": "Introducing a limited preview of GPT-5.6 Sol, our next generation frontier model, as well as GPT-5.6...",
+          "titleZh": "OpenAI：推出 GPT-5.6 Sol（我们的下一代前沿型号）的有限预览版，以及 GPT-5.6",
+          "link": "https://x.com/OpenAI/status/2070555272230384038",
+          "publishedAt": "Fri, 26 Jun 2026 17:10:20 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "Introducing a limited preview of GPT-5.6 Sol, our next generation frontier model, as well as GPT-5.6 Terra, a balanced model for efficient, everyday work, and GPT-5.6 Luna, a fast and affordable model for high-volume work. openai.com/index/previewi… 💬 1322 🔄 1988 ❤️ 14318 👀 1477011 📊 3234 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Introducing a limited preview of GPT-5.6 Sol, our next generation frontier model, as well as GPT-5.6 Terra, a balanced model for efficient, everyday work, and GPT-5.6 Luna, a fast and affordable model for high-volume work. openai.com/index/previewi… 💬 1322 🔄 1988 ❤️ 14318 👀 1477011 📊 3234 ⚡ Powered by xgo.ing",
+          "summaryZh": "推出 GPT-5.6 Sol（我们的下一代前沿型号）的有限预览版，以及 GPT-5.6 Terra（适合高效日常工作的平衡型号）和 GPT-5.6 Luna（适合大批量工作的快速且经济实惠的型号）。 openai.com/index/previewi。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 70
+        },
+        {
+          "title": "You can now spin up a persistent cloud development environment in one prompt with the @DigitalOcean ...",
+          "titleZh": "OpenAI：现在，您可以使用 Codex 的 @DigitalOcean 插件在一个提示中启动持久云",
+          "link": "https://x.com/OpenAIDevs/status/2070261549391024403",
+          "publishedAt": "Thu, 25 Jun 2026 21:43:11 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "You can now spin up a persistent cloud development environment in one prompt with the @DigitalOcean plugin for Codex. It runs in your DigitalOcean account and keeps working when you step away. Your browser does not support the video tag. 🔗 View on Twitter 💬 54 🔄 53 ❤️ 909 👀 228860 📊 214 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "You can now spin up a persistent cloud development environment in one prompt with the @DigitalOcean plugin for Codex. It runs in your DigitalOcean account and keeps working when you step away. Your browser does not support the video tag. 🔗 View on Twitter 💬 54 🔄 53 ❤️ 909 👀 228860 📊 214 ⚡ Powered by xgo.ing",
+          "summaryZh": "现在，您可以使用 Codex 的 @DigitalOcean 插件在一个提示中启动持久云开发环境。它在您的 DigitalOcean 帐户中运行，并在您离开时继续工作。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "Codex in the ChatGPT mobile app is now generally available. Connect your phone and computer more se...",
+          "titleZh": "OpenAI：ChatGPT 移动应用中的 Codex 现已全面可用",
+          "link": "https://x.com/OpenAIDevs/status/2070254532911882707",
+          "publishedAt": "Thu, 25 Jun 2026 21:15:18 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Codex in the ChatGPT mobile app is now generally available. Connect your phone and computer more securely with one-to-one device pairing. We’ve also added notifications, goals, side chat, file previews, and inline review comments. x.com/OpenAI/status/… OpenAI @OpenAI You've been asking for this one... Now in preview: Codex in the ChatGPT mobile app. Start new work, review outputs, steer execution, and approve next steps, all from the ChatGPT mobile app. Codex will keep running on your laptop, Mac mini, or devbox. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 98 🔄 124 ❤️ 1717 👀 249196 📊 241 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-27-2070254532911882707.mp4",
+          "summary": "Codex in the ChatGPT mobile app is now generally available. Connect your phone and computer more securely with one-to-one device pairing. We’ve also added notifications, goals, side chat, file previews, and inline review comments. x.com/OpenAI/status/… OpenAI @OpenAI You've been asking for this one... Now in preview: Codex in the ChatGPT mobile app. Start new work, review outputs, steer execution, and approve next steps, all from the ChatGPT mobile app. Codex will keep running on your laptop, Mac mini, or devbox. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 98 🔄 124 ❤️ 1717 👀 249196 📊 241 ⚡ Powered by xgo.ing",
+          "summaryZh": "ChatGPT 移动应用中的 Codex 现已全面可用。通过一对一设备配对，更安全地连接您的手机和计算机。我们还添加了通知、目标、旁聊、文件预览和内嵌评论。 x.com/OpenAI/status/... OpenAI @OpenAI 您一直在要求这个...现在预览：ChatGPT 移动应用中的 Codex。开始新工作、审查输出、指导执行并批准后续步骤，所有这些都可以通过 ChatGPT 移动应用完成。 Codex 将继续在您的笔记本电脑、Mac mini 或 devbox 上运行。 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "New models are on the horizon.",
+          "titleZh": "新车型即将面世。",
+          "link": "https://x.com/ChatGPTapp/status/2070572959086121283",
+          "publishedAt": "Fri, 26 Jun 2026 18:20:37 GMT",
+          "source": "ChatGPT(@ChatGPTapp)",
+          "sourceType": "social",
+          "description": "New models are on the horizon. OpenAI @OpenAI Introducing a limited preview of GPT-5.6 Sol, our next generation frontier model, as well as GPT-5.6 Terra, a balanced model for efficient, everyday work, and GPT-5.6 Luna, a fast and affordable model for high-volume work. openai.com/index/previewi… 🔗 View Quoted Tweet 💬 23 🔄 9 ❤️ 110 👀 2646 📊 24 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "New models are on the horizon. OpenAI @OpenAI Introducing a limited preview of GPT-5.6 Sol, our next generation frontier model, as well as GPT-5.6 Terra, a balanced model for efficient, everyday work, and GPT-5.6 Luna, a fast and affordable model for high-volume work. openai.com/index/previewi… 🔗 View Quoted Tweet 💬 23 🔄 9 ❤️ 110 👀 2646 📊 24 ⚡ Powered by xgo.ing",
+          "summaryZh": "新车型即将面世。 OpenAI 推出 GPT-5.6 Sol（我们的下一代前沿模型）的有限预览版，以及 GPT-5.6 Terra（用于高效日常工作的平衡模型）和 GPT-5.6 Luna（用于大批量工作的快速且经济实惠的模型）。 openai.com/index/previewi… 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 63.69563406881026
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "A New Generation Studies AI, Apple's Recipe for On-Device Models, GLM5.2 Tackles Open-Ended Problems",
+          "titleZh": "新一代研究人工智能、苹果设备上模型的配方、GLM5.2 解决开放式问题",
+          "link": "https://www.deeplearning.ai/the-batch/issue-359",
+          "publishedAt": "Fri, 26 Jun 2026 14:00:18 GMT",
+          "source": "deeplearning.ai",
+          "sourceType": "research",
+          "description": "The Batch News & Insights: “Loop engineering” is a hot buzzphrase after Boris Cherney (Claude Code’s creator) and Peter Steinberger&nbsp;(OpenClaw's creator) both mentioned it on social media. Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, “Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) and Peter Steinberger&nbsp;(OpenClaw's creator) went viral on social media.&nbsp;Loops are now a key part of how we get AI agents to iterate at length to build software. In this letter, I’d like to share my 3 key loops, shown in the image below, for building 0-to-1 products. These loops guide not just how I build software, but also how I decide what software to build.&nbsp; Agentic coding loop:&nbsp; Given a product specification and optionally a set of evals (that is, a dataset against which to measure performance), we can have an AI agent write code, test its work, and keep iterating until the code is bug-free and meets its specification. This idea of closing the loop took off around the end of last year, and it has been a game changer in enabling coding agents to work longer productively without human intervention. For example, over the weekend, I was building an app for my daughter to practice typing, and my coding agent could easily work for around an hour, using a web browser to check what it had built multiple times before getting back to me, without needing my intervention.&nbsp; The engineering loop executes quickly. Every few minutes, the coding agent might build&nbsp;and test a new version of the software. I hear frequently from developers who are finding new ways to engineer more effective engineering loops. This is an active area of invention!&nbsp; Developer feedback loop: &nbsp;In this loop, a developer examines the current product and steers the coding agent to improve it. Last year, a lot of developers (including me) were acting as the QA (quality assurance) function for our coding agents, manually finding bugs and then asking the agent to fix them. But with coding agents much more able to test their own code, the amount of time we need to spend on this function has decreased significantly. This allows us to make higher-level product decisions, such as what key features to offer, where the UI needs improvement, and so on.&nbsp; The developer-feedback loop operates over time intervals between tens of minutes and hours — that's how frequently a developer might review a product and give feedback. In the case of the typing app, I changed my mind a few times about the visual design, what cat costumes she can unlock as she learns (she loves cats), and the user flow for a grown-up to log in and steer the child's learning experience. When a developer has a clear vision for what to build, it is still a lot of work to translate that vision into a specification for a coding agent to implement. Further, after the developer has&nbsp;seen an implementation, they might update (or perhaps clarify) the spec to steer it toward what they want. If you find that the system repeatedly runs into certain problems, building a set of evals for the agent becomes useful. AI-native teams are increasingly using AI to help shape product direction, for example, automating the gathering and analysis of usage data, summarizing written and verbal customer feedback, or carrying out competitive analysis. However, for pretty much all the products I’m involved in, I see humans as having a significant context advantage over current AI systems — we know a lot more than the AI system about the users and the context the product has to operate in — and thus humans play a critical role. Many people describe this human contribution as “taste,” but I prefer to think of it as humans having a context advantage, since that gives us a clearer path to helping AI systems get better. This also speaks to why this step can’t be automated: So long as the human knows something the AI does not, human-in-the-loop is needed to to inject that knowledge into the system.&nbsp; External feedback loop: &nbsp;This includes a wide range of&nbsp; tactics &nbsp;like asking a few friends for feedback, launching to alpha testers, or putting the code into production with A/B testing. These tactics are usually slow, rarely taking less than hours and sometimes taking&nbsp;days or even weeks. This data informs the&nbsp; developer vision , which in turn continues to drive the detailed product spec, which in turn drives the coding agent.&nbsp; With coding agents speeding up software development, more engineers are starting to play a partial product management role. For many engineers who are growing into this role, the hardest part is shaping the product vision and striking a balance between building (bridging the gap between vision and spec) and getting user feedback to evolve the vision. It is important to do both! I will write more about how to do this in future letters, but for now, I find it encouraging that engineers are playing an expanded role (just as product managers and designers now do more engineering).&nbsp; Keep building! Andrew&nbsp;&nbsp; A MESSAGE FROM&nbsp; DEEPLEARNING.AI Stop watching your terminal. Learn to teach your agent to call you when it needs your input. Join the free&nbsp; 7-Day Voice AI Builder Challenge &nbsp;today.&nbsp; News Top Agentic Performance, Low Cost Z.ai released an open-weights model that rivals proprietary leaders for autonomous agentic tasks. What’s new: &nbsp; GLM-5.2 , the latest in a series of large language models that are optimized for coding, including an input context far larger than its predecessor’s. Input/output: &nbsp;Text in (up to 1 million tokens), text out (up to 128,000 tokens, 103 tokens per second) Architecture: &nbsp;Mixture-of-experts transformer, 753 billion parameters total, 40 billion parameters active per token Features: &nbsp;Two reasoning levels (high, max), function calling, structured output, context caching (reuses inputs so repeated parts of prompts are not recomputed) Performance: &nbsp;First among open models (third among all currently&nbsp;available models) on Artificial Analysis’s Intelligence Index v4.1, leads all models on PostTrainBench (a test of long-running agentic coding), second on&nbsp; Arena.ai &nbsp;Code Arena WebDev leaderboard Availability/price: &nbsp;Weights available for commercial and noncommercial uses under MIT license via&nbsp; Hugging Face ,&nbsp; API &nbsp;$1.40/$0.26/$4.40 per million input/cached/output tokens, GLM Coding Plans $12.60 to $112 per month Undisclosed: &nbsp;Training data and methods specific to GLM-5.2 How it works: &nbsp;GLM-5.2 builds on&nbsp; GLM-5 . The team modified the earlier model’s implementation of&nbsp; DeepSeek sparse attention &nbsp;to reduce the processing required, making it practical to expand the input context to 1 million tokens from GLM-5’s 200,000 tokens. Z.ai trained GLM-5.2 specifically on long-running agentic tasks such as deep research, code deployment and performance optimization, and complex debugging. Earlier GLM models learned via Group Relative Policy Optimization, a reinforcement learning method that dispenses greater rewards for attempts to complete a task that outperform the average of several attempts. However, GLM-5.2’s tasks ran long enough that the team divided individual attempts into pieces, so they couldn’t average them easily. Instead, the team switched to Proximal Policy Optimization, which judges each attempt individually via a critic model. During reinforcement learning, a coding task usually is graded based on a pass-fail check. But an agentic process, instead of solving a problem, can pass such tests by using tools to, for instance, fetch reference solutions from GitHub. GLM-5.2 resorted to such reward hacking more frequently than GLM-5.1 did. To address this, the team added a rule-based filter that flagged suspect tool calls, used a separate language model to judge whether each flagged call shortcutted the task, and blocked such calls by feeding GLM-5.2 dummy data so training could continue. To reduce the computation required to process attention over longer contexts, the model uses a sparse attention indexer — a component that, for each new token, selects which earlier tokens to attend to — once every four layers instead of every layer, reusing its output for the other three layers. The company says this cuts per-token computation by 2.9 times within 1-million-token context. This approach modifies an earlier method called&nbsp; IndexCache . To generate tokens faster, a small draft model proposes several tokens at once and the main model accepts or rejects them in a process called&nbsp; speculative decoding . GLM-5.2 accepts 5.47 tokens compared to GLM-5.1’s 4.56, a 20 percent gain. Performance: &nbsp;GLM-5.2 posted the strongest performance of any open-weights model in Artificial Analysis’s&nbsp;tests. It ran close to the leading proprietary models from Anthropic and OpenAI on several agentic benchmarks, edging ahead of some and trailing others narrowly. On Artificial Analysis’s&nbsp; Intelligence Index , a composite of 9 evaluations of economically useful tasks, GLM-5.2 set to max reasoning (51) ranked first among open-weights models, behind Claude Opus 4.8 set to max reasoning (56) and GPT-5.5 set to xhigh reasoning (55) but well ahead of DeepSeek V4 Pro set to max reasoning and MiniMax-M3 set to unspecified reasoning (tied at 44). On the Arena.ai Code Arena’s WebDev leaderboard, which ranks models according to human votes on web development tasks, GLM-5.2 set to max reasoning (1,593 Elo)&nbsp; ranked &nbsp;second behind Claude Fable 5 (1,654 Elo) and ahead of all variants of Claude Opus 4 and GPT-5.5. On&nbsp; PostTrainBench , a test that asks an agent to fine-tune four large language models and evaluates their performance on seven benchmarks, GLM-5.2 set to max reasoning (34.3 percent) narrowly topped Claude Opus 4.8 set to max reasoning (34.1 percent) and Claude Fable 5 set to max reasoning (30.7 percent). On&nbsp; AA-Briefcase , an Artificial Analysis benchmark introduced in June 2026 that scores agents’ ability to generate business documents such as spreadsheets, presentations, and memos, GLM-5.2 set to max reasoning (1,266 Elo) led all open-weights models and placed third overall behind Claude Fable 5 (1,587 Elo) and Claude Opus 4.8 set to max reasoning (1,356 Elo). Behind the news: &nbsp;High-performance, open-weights models become more attractive as the U.S. government and U.S. companies tighten the screws&nbsp;on AI technology developed within the country. Z.ai released GLM-5.2 only one day after the U.S. government restricted access to Anthropic’s Claude Fable 5 and Claude Mythos 5 to citizens, and Anthropic suspended access to Claude Fable 5. Why it matters: &nbsp;Beyond GLM-5.2’s open license, the low cost of Z.ai’s API gives developers an additional incentive to adopt it. Developers who find Claude Opus 4.8 or GPT-5.5 too pricey can obtain similar agentic and coding capabilities for as little as a quarter of the cost, according to Artificial Analysis’ assessment of&nbsp; cost per intelligence . We’re thinking: &nbsp;Open weights continue to close in on top closed models. GLM-5.2’s outstanding performance on web-dev and post-training tasks suggests that advanced agentic capabilities are available to anyone with sufficiently advanced hardware, free of charge. AI Degrees on the Rise Universities in the U.S. are rapidly rolling out undergraduate majors, minors, and specializations in artificial intelligence to meet the growing demand for AI expertise. What’s new: &nbsp;There are at least 1,000 AI programs across nearly 584 U.S. colleges and universities, including 78 majors and 103 minors as of April, according to the&nbsp; Center for Inclusive Computing at Northeastern University . These numbers have risen dramatically.&nbsp;In 2021, just five&nbsp;schools offered majors in AI,&nbsp; The New York Times &nbsp; reported .&nbsp; How it works: &nbsp;Course requirements for a bachelor’s degree in artificial intelligence run the gamut. Some programs are highly technical and math-intensive, while others take a broader, interdisciplinary approach that includes courses in ethics, policy, or domain-specific applications. Some emphasize the theoretical foundations of AI,&nbsp;while others focus on how to build and deploy AI systems in practice. Carnegie Mellon University, a university in the state of Pennsylvania&nbsp;with one of the country’s top Computer Science programs, became the first U.S. university to offer a bachelor’s&nbsp;degree in artificial intelligence in 2018. Its&nbsp; curriculum &nbsp;emphasizes mathematical rigor, requiring seven courses in mathematics and statistics, five in computer science and principles of computing and programming, three in artificial intelligence, one in ethics, and additional courses spanning human cognition, perception and language, machine learning, and human-computer interaction. The University of Oklahoma Polytechnic Institute’s&nbsp; applied AI degree &nbsp;focuses on practical knowledge. Apart from math and statistics requirements, it requires students to complete 15 AI and computing courses in subjects including robotics, machine learning, reinforcement learning, computer vision, cloud computing, and DevOps. Other AI degrees are more interdisciplinary. Drake University in Iowa&nbsp; offers &nbsp;a bachelor of arts in AI tailored to students in humanities and business. The course requirements are flexible, allowing students to choose from clusters of courses in philosophy, English, computer science, information systems, and psychology. Only two math classes are required for the degree.&nbsp; Many schools that don’t provide AI degrees offer specialized AI concentrations. Students on the AI track at Stanford University take seven&nbsp; qualifying courses &nbsp;in fields such as natural language processing, computer vision, and robotics. (Disclosure: Andrew Ng serves as an adjunct professor in Stanford’s Computer Science department.) Behind the news: &nbsp;Some commentators&nbsp; argue &nbsp;that universities have moved too slowly to prepare students for employers that expect&nbsp;AI competency. Others&nbsp; dismiss &nbsp;AI degrees as a fad. However, even some proponents warn that specialized AI degrees may come at the expense of broader computer science foundations, which students may need to adapt in a rapidly evolving field. Why it matters: &nbsp;Today’s curricula could shape who enters the profession and what skills the next generation of AI engineers brings with them. It’s only natural to expect a standardized, one-size-fits-all education in a field as varied as AI. Some roles in industry resemble traditional software engineering jobs with AI components; others require deeper expertise in machine learning research, distributed systems, or data engineering. There will also always be large gaps between programs designed to prepare students for graduate work and others that assume the bachelor’s will be a terminal degree.&nbsp; We’re thinking: &nbsp;AI is moving so quickly that many universities are struggling to adapt. The established pace of change in academic curricula — in which the&nbsp;faculty learns a topic, proposes new courses, gets approval from a curriculum committee, and perhaps modifies degree requirements — is poorly matched to the rapid pace of change of AI. However, we are glad that universities are moving in this direction, and that a number of innovative faculty and administrators are finding ways to move faster. This will be important to prepare students not only for the jobs of 2026, but for those in many years beyond.&nbsp; Large-Model AI&nbsp;for Apple Devices The third generation of Apple Foundation Models — fruit of Apple’s collaboration with Google — introduces a variation on the mixture-of-experts architecture that runs on local&nbsp;devices.&nbsp;&nbsp; What’s new:&nbsp; AFM 3 Core Advanced, a model designed to generate text and speech on some Apple devices, exceeds the processing efficiency of the popular mixture-of-experts architecture while occupying &nbsp;substantially less working memory. (Other models in the&nbsp; AFM 3 family , all of which are custom-built and distilled from unspecified Google Gemini models, include AFM 3 Core, which also runs on Apple devices, and AFM 3 Cloud, AFM 3 Cloud Image, and AFM 3 Cloud Pro, which run on servers.) Input/output: &nbsp;Text, images, speech in; text, speech out Architecture: &nbsp;Modified mixture-of-experts transformer (20 billion parameters total, 1 to 4 billion parameters active) Availability: &nbsp;Available in fall 2026&nbsp;with Apple operating system updates to&nbsp;Macs and iPhone 17 Pro/Max/Air phones Features: &nbsp;Text understanding and generation, speech understanding and generation, image understanding, tool use, skills, reasoning, 25 languages Undisclosed: &nbsp;input/output size limits, benchmark performance, specific training data and&nbsp;methods How it works : AFM 3 Core Advanced&nbsp;is optimized to run on Apple silicon. Like other models in its family, AFM 3 Core Advanced was trained on a mixture of publicly available information, licensed data, data collected from studies, and generated data. No user data or user interactions with models was included. The training process included pretraining, supervised fine-tuning, and reinforcement learning.&nbsp; An&nbsp; alternative &nbsp;to MoE called Instruction-Following Pruning enables AFM 3 Core Advanced to run more quickly and memory-efficiently. A typical mixture-of-experts model uses routing layers within the model to choose which parts of the network (experts) to activate for each output token. Instead of using routing layers within the model, AFM 3 Core Advanced uses a separate transformer to choose which experts to activate for some or all output tokens. Since the network doesn’t switch experts for every token, it can achieve faster inference than&nbsp;typical mixture-of-experts models of the same size. Results : Apple has not yet published any benchmark results for AFM 3 models yet. It says it will release results later in the year. Like other AFM 3 models, AFM 3 Core Advanced outperformed the previous generation&nbsp;in proprietary measurements of human preference.&nbsp;&nbsp; Behind the news : In January, Apple&nbsp; struck &nbsp;a multi-year agreement with Google to use Gemini models as the basis of its AI models. As part of the AFM 3 launch, Apple Vice President of AI Amar Subramanya&nbsp; revealed &nbsp;that the models were \"distillation-based, not a wholesale adoption of Gemini.” Concurrently, Apple&nbsp; announced &nbsp;plans for its Foundation Models Framework to accommodate models from other companies. Developers who are building on Apple hardware will be able to choose between AFM 3 models and alternatives that implement Apple’s LanguageModel protocol, including Anthropic Claude or Google&nbsp;Gemini families. Why it matters : AFM 3 Core Advanced’s architecture is a notable accomplishment. A typical mixture of experts requires loading the whole model into active memory (RAM or VRAM), since loading the experts token by token from flash-memory storage is slow. AFM 3 Core Advanced uses the same experts across multiple tokens. This makes it practical to store the model in flash memory — a larger, more capable model that can run on local devices. We’re thinking : Constraints on memory and bandwidth make it impractical for most apps to download and run multi-billion-parameter models. So iOS developers have ample incentive to use streamlined models that are designed to run on iOS hardware. Moreover, Apple’s partnership with Google lets it tap into the latter’s expertise at running such&nbsp;models on phones. Biological Molecules as Language Google’s AlphaFold models pioneered the task of finding the shapes of biologically active molecules, opening new pathways for drug development. An open-source team refined AlphaFold 3’s architecture using insights drawn from large language models. What’s new:&nbsp; A team at the non-profit biomedical research organization Biohub and the independent AI-for-biology lab EvolutionaryScale released&nbsp; ESMFold2 , which infers the shapes of biologically active molecules — including proteins, DNA, RNA, and molecules that bind to them — by treating their components like a natural language. Where AlphaFold 3 and ESMFold2 infer molecular shapes by considering characteristics of multiple related molecules that have been aligned for comparison, ESMFold2 can also use a separate&nbsp;transformer to embed individual molecules directly, in the manner of a large language model. In addition to ESMFold2, the team released its embedding model, which is called ESMC. Input/output: &nbsp;Input is an amino-acid sequence that defines proteins, base-pair sequence that defines DNA or RNA, standardized text description (SMILES) of other biologically active molecules, or multiple sequence alignment (MSA) that aligns related amino-acid or base-pair sequences; output is molecular shape and error estimates Architecture: &nbsp;Mixed (6.2 billion parameters) Performance: &nbsp;Outperforms AlphaFold 3 and other competing models when inputs are not MSAs, comparable to AlphaFold and other competing models when inputs are MSAs Availability: &nbsp;Free via&nbsp; website , weights available for&nbsp; download &nbsp;via HuggingFace,&nbsp; API &nbsp;via Biohub Key insight:&nbsp; To analyze a given molecule, AlphaFold3 and similar models must also receive an MSA, which requires finding related molecules in existing databases and aligning them properly. But transformer-based large language models are good at producing embeddings based on large amounts of training data, and databases are available to provide vast numbers of sequences and standardized text descriptions of bioactive molecules. A transformer can be trained to embed individual molecules, and the embedding can serve as input instead of an MSA. How it works:&nbsp; Given a protein, DNA, or RNA sequence or description of a bioactive molecule, ESMFold2 (i) embeds the input in three different ways, including (a) the sequence, (b) its atoms, and (c) an MSA if it receives one. (ii) It produces an embedding that represents the physical distances between amino acids, base pairs, or atoms in a molecule. (iii) It estimates the coordinates of the atoms in the input. And (iv) it estimates its error in those coordinates. It learned to perform these steps using&nbsp; two &nbsp; datasets &nbsp;that match existing sequences and descriptions to their shapes. Given an input, the system produced three embeddings. (a) To embed amino-acid or base-pair sequences, the system uses ESMC, a transformer model. This model was trained to fill in masked tokens in roughly 2.8 billion sequences in&nbsp; three &nbsp; protein &nbsp; databases .&nbsp; (b) A separate transformer embedded the atoms. (c) To embed MSAs, the system uses a&nbsp; pairmixer &nbsp;model that&nbsp;updates each element in a matrix based on the elements in the same row or column of the matrix. In this model, the matrix represents an MSA. Given these embeddings, another pairmixer produces an embedding that represents the pairwise distances between amino acids, base pairs, and atoms. The embedding starts as pure noise. During training, it was refined by cycling through the model up to 6 times. (At inference, it cycles 10 times, as this delivered the best performance.) Given the embedding of distances, embeddings of sequences and atoms, and a noisy point cloud of atoms, the diffusion model removes the noise to deduce the atoms’ positions. Given the embeddings of distance, sequences, and atoms and the point cloud, a third pairmixer estimates various errors, including the error between the predicted distances and actual distances between pairs of atoms. Results:&nbsp; The authors tested ESMFold2 using&nbsp; FoldBench , which includes tests of finding the shapes of biologically active molecules in various combinations. Given only proteins as input, ESMFold2 outperformed&nbsp; Chai-1 , a molecular model that doesn’t accept MSAs. Given MSAs, it performed similarly to competing models that use MSAs, including AlphaFold3. The team evaluated the ability, given a protein sequence, to deduce its shape according to Local Distance Difference Test (lDDT), which measures similarity between estimated inter-atom distances and ground truth, higher is better. ESMFold2 achieved 0.85 lDDT, while Chai-1 achieved 0.81 lDDT. Testing the same capability given an MSA, ESMFold2 achieved 0.89 lDDT, the same as AlphaFold3 and&nbsp; Protenix-v1 . Given a protein and a DNA molecule that were bound together, the team evaluated the DockQ pass rate, or the similarity between estimated inter-atom distances and ground truth at the points where the molecules touch, higher is better. ESMFold2 (80 percent) slightly outperformed Chai-1 (71 percent). Given the same molecules plus an MSA, ESMFold2 (79 percent) matched Protenix-v1 but underperformed AlphaFold3 (82 percent). Behind the news:&nbsp; ESMFold2 is an update to Biohub’s 2022 ESMFold. It’s bigger and trained on more data. In addition,&nbsp;its architecture incorporates top-performing components proposed in other work, notably AlphaFold3, such as a diffusion model that predicts atom coordinates and a model that estimates error in the system’s output. Why it matters:&nbsp; Using a transformer — essentially a large language model — to embed &nbsp; molecules&nbsp;gives ESMFold2 &nbsp;t he ability to process input molecules without requiring an aligned set of biologically related molecules. This capability reduces friction in biological research. It's especially important if a molecule is novel (such as a rapidly evolving viral protein) or synthetic (such as a product of synthetic biology)&nbsp;and if information about related molecules is scarce. Moreover, since the system has open weights, it’s freely available to scientists whatever their means or affiliation. We're thinking: &nbsp;LLMs have proven the value of applying more processing at inference. ESMFold2’s distance-estimation model uses the same principle, improving performance by cycling its embedding through the model multiple times.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://www.deeplearning.ai/_next/image?url=https%3A%2F%2Fhome-wordpress.deeplearning.ai%2Fwp-content%2Fuploads%2F2023%2F03%2F4.png&w=3840&q=75",
+          "video": "",
+          "summary": "The Batch News & Insights: “Loop engineering” is a hot buzzphrase after Boris Cherney (Claude Code’s creator) and Peter Steinberger&nbsp;(OpenClaw's creator) both mentioned it on social media. Loading the Elevenlabs Text to Speech AudioNative Player... Dear friends, “Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) and Peter Steinberger&nbsp;(OpenClaw's creator) went viral on social media.&nbsp;Loops are now a key part of how we get AI agents to iterate at length...",
+          "summaryZh": "**核心要点** Batch 新闻与见解：Boris Cherney（Claude Code 的创建者）和 Peter Steinberger（OpenClaw 的创建者）都在社交媒体上提到后，“循环工程”成为热门流行语。加载 Elevenlabs 文本转语音 AudioNative 播放器...亲爱的朋友们，Boris Cherny（Claude Code 的创建者）和 Peter Steinberger（OpenClaw 的创建者）提到“循环工程”后，它在社交媒体上疯传，成为热门词汇。 循环现在是我们如何让人工智能代理进行详细迭代的关键部分......",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "智能体",
+            "推理能力"
+          ],
+          "score": 59
+        },
+        {
+          "title": "Perception, Verdict, and Evolution: Hindsight-Driven Self-Refining Forensics Agent for AI-Generated Image Detection",
+          "titleZh": "感知、判决和进化：用于人工智能生成图像检测的后见之明驱动的自我完善取证代理",
+          "link": "https://arxiv.org/abs/2606.26552",
+          "publishedAt": "Fri, 26 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.26552v1 Announce Type: cross Abstract: The rapid advancement of generative models presents a significant challenge to existing deepfake detection methods, particularly given the widespread dissemination of highly realistic AI-generated images. Although Multimodal Large Language Models (MLLMs) show strong potential for this task, existing approaches suffer from two key limitations: insufficient sensitivity to fine-grained forensic artifacts and reliance on static synthetic supervision from frontier models, leading to limited flexibility and high-cost. To address these issues, we propose ForeAgent, an agentic forensics framework for AI-generated image detection with iterative self-evolution. First, ForeAgent adopts a Perception-Verdict architecture that aggregates multi-view cues spanning semantic, spatial, and frequency-domain features, and leverages an MLLM as a verdict module to fuse these signals for a logical-grounded verdict. Second, to enable continual self-improvement, we introduce a Hindsight-Driven Self-Refining strategy following a Sampling-Reflection-Evolution paradigm. The agent performs inference rollouts on training instances. Guided by ground-truth labels as hindsight, it reflects on failure cases and low-quality reasoning trajectories to regenerate higher-quality reasoning traces. These synthesized samples are then strictly filtered through a dual-expert quality gating module. ForeAgent continuously evolves via fine-tuning on self-curated high-quality samples. Extensive experiments demonstrate that ForeAgent achieves state-of-the-art performance on the Chameleon benchmark, reaching 82.18% accuracy (+16.41% over AIDE), and achieves 93.3% mean accuracy on AIGCDetect-Benchmark across 16 generators. In addition, external evaluation shows that ForeAgent produces more consistent and causally grounded reasoning compared to GPT-5 and GPT-5-mini.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.26552v1 Announce Type: cross Abstract: The rapid advancement of generative models presents a significant challenge to existing deepfake detection methods, particularly given the widespread dissemination of highly realistic AI-generated images. Although Multimodal Large Language Models (MLLMs) show strong potential for this task, existing approaches suffer from two key limitations: insufficient sensitivity to fine-grained forensic artifacts and reliance on static synthetic supervision from frontier mod...",
+          "summaryZh": "**核心结论** 「感知、判决和进化：用于人工智能生成图像检测的后见之明驱动的自我完善取证代理」要解决的问题是：生成模型的快速发展对现有的 Deepfake 检测方法提出了重大挑战，特别是考虑到高度逼真的 AI 生成图像的广泛传播。尽管多模态大语言模型（MLLM）在这项任务上显示出强大的潜力，但现有方法存在两个关键限制：对细粒度取证工件的敏感性不足以及依赖前沿模型的静态综合监督。 **支撑证据** 摘要与公开信息显示：arXiv:2606.26552v1 生成模型的快速发展对现有的 Deepfake 检测方法提出了重大挑战，特别是考虑到高度逼真的 AI 生成图像的广泛传播。尽管多模态大语言模型（MLLM）在这项任务上显示出强大的潜力，但现有方法存在两个关键限制：对细粒度取证工件的敏感性不足以及依赖前沿模型的静态综合监督...... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "推理能力",
+            "多模态"
+          ],
+          "score": 44
+        },
+        {
+          "title": "Do Safety Guardrails Need to Reason? LeanGuard: A Fast and Light Approach for Robust Moderation",
+          "titleZh": "安全护栏需要讲道理吗？ LeanGuard：一种快速、轻松的稳健审核方法",
+          "link": "https://arxiv.org/abs/2606.26686",
+          "publishedAt": "Fri, 26 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2606.26686v1 Announce Type: new Abstract: In order to screen a prompt or a response, the recent guardrail methods generate a chain-of-thought (CoT) before they issue a verdict. This design follows a common belief that step-by-step reasoning improves a decision. However, CoT also makes the guard heavy and slow, because the model must generate many tokens before it decides. This may not match how guardrails are actually deployed. A guardrail sometimes should not be heavy and slow, and it often runs on-device, for example on an embodied robot. In this paper, we pose a question whether a safety guardrail really needs to reason. To answer this question, we train a lightweight bidirectional encoder and a reasoning guard on the same corpus, and we then remove only the reasoning while we keep everything else fixed. With this controlled same-base comparison, we show that the chain does not improve moderation accuracy. We name the resulting guard LeanGuard. A 395M label-only encoder reaches an average F1 of 82.90 $\\pm$ 0.26 over public benchmarks. It matches a reasoning guard that is built on a much larger decoder, while it uses only a single forward pass over an input of at most 512 tokens. This is about a ~100x reduction in inference compute. We further show that this label-only encoder stays robust under training-label noise and retains far more recall at a strict false-positive rate than the reasoning guard, so a heavier reasoning guard is not the more robust choice either. Our finding suggests that the current guardrail benchmarks may not be hard enough to reward reasoning, and that the necessity of CoT for moderation is still not proven. We release all source codes and models including LeanGuard at https://github.com/ndb796/LeanGuard.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2606.26686v1 Announce Type: new Abstract: In order to screen a prompt or a response, the recent guardrail methods generate a chain-of-thought (CoT) before they issue a verdict. This design follows a common belief that step-by-step reasoning improves a decision. However, CoT also makes the guard heavy and slow, because the model must generate many tokens before it decides. This may not match how guardrails are actually deployed. A guardrail sometimes should not be heavy and slow, and it often runs on-device...",
+          "summaryZh": "**核心结论** 「安全护栏需要讲道理吗？ LeanGuard：一种快速、轻松的稳健审核方法」要解决的问题是：也使得守卫变得沉重而缓慢，因为模型在做出决定之前必须生成许多token。这可能与护栏的实际部署方式不符。护栏有时不应该又重又慢，而且它通常在设备上运行。 **支撑证据** 摘要与公开信息显示：arXiv:2606.26686v1 也使得守卫变得沉重而缓慢，因为模型在做出决定之前必须生成许多token。这可能与护栏的实际部署方式不符。护栏有时不应该又重又慢，而且它通常在设备上运行...... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "推理能力",
+            "评测",
+            "论文"
+          ],
+          "score": 42
+        },
+        {
+          "title": "Incident Report: CVE-2026-LGTM",
+          "titleZh": "事件报告：CVE-2026-LGTM A",
+          "link": "https://simonwillison.net/2026/Jun/26/incident-report/#atom-everything",
+          "publishedAt": "2026-06-26T17:58:54+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing \"a 430% YoY increase in adversarial multi-agent security reasoning.\" The stock opens up 6%. Tags: security , ai , prompt-injection , generative-ai , llms , supply-chain , ai-security-research , andrew-nesbitt",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Incident Report: CVE-2026-LGTM Spectacular hypothetical incident report by Andrew Nesbitt. Day 2, 16:00 UTC --- Two AI review agents from competing vendors, both attached to a downstream pull request bumping foxhole-lz4 , enter a disagreement loop over whether the package is malicious. After 340 comments and $41,255 in inference spend, Finance revokes both API keys; one vendor's marketing team, cc'd on the cost anomaly alert, issues a press release citing \"a 430% YoY increase in adversarial multi-agent security...",
+          "summaryZh": "**核心要点** 事件报告：CVE-2026-LGTM Andrew Nesbitt 撰写的精彩假设事件报告。第 2 天，16:00 UTC --- 来自竞争供应商的两个 AI 审查代理，都附加到了碰撞 Foxhole-lz4 的下游拉取请求，进入了关于软件包是否恶意的分歧循环。在收到 340 条评论和 41,255 美元的推理支出后，Finance 撤销了这两个 API 密钥；一家供应商的营销团队抄送了成本异常警报，发布了一份新闻稿，称“对抗性多代理安全性同比增长了 430%...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "API",
+            "智能体",
+            "推理能力",
+            "推理部署"
+          ],
+          "score": 38
+        },
+        {
+          "title": "Quoting OpenAI",
+          "titleZh": "我们开始对 GPT‑5.6 系列进行有限",
+          "link": "https://simonwillison.net/2026/Jun/26/openai/#atom-everything",
+          "publishedAt": "2026-06-26T17:10:43+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT‑5.5 while being 2x cheaper and Luna brings strong capability at our lowest cost. [...] We believe in broad access, and we plan to make GPT‑5.6 Sol, Terra, and Luna generally available in the coming weeks. As part of our ongoing engagement with the U.S. government, we previewed our plans and the models’ capabilities ahead of today’s launch. At their request, we are starting with a limited preview for a small group of trusted partners whose participation has been shared with the government, before releasing more broadly. [...] GPT‑5.6 is priced per 1M tokens across three model sizes: Sol is $5 input / $30 output; Terra is $2.50 input / $15 output; and Luna is $1 input / $6 output. GPT‑5.6 also introduces more predictable prompt caching, including support for explicit cache breakpoints and a 30-minute minimum cache life. For GPT‑5.6 and later models, cache writes are billed at 1.25x the model’s uncached input rate, while cache reads continue to receive the 90% cached-input discount. &mdash; OpenAI , Previewing GPT‑5.6 Sol: a next-generation model Tags: gpt , generative-ai , ai-security-research , openai , llms , llm-release , llm-pricing",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for everyday work; and Luna, a fast and affordable model. Terra has competitive performance to GPT‑5.5 while being 2x cheaper and Luna brings strong capability at our lowest cost. [...] We believe in broad access, and we plan to make GPT‑5.6 Sol, Terra, and Luna generally available in the coming weeks. As part of our ongoing engagement with the U.S. government, we previewed our plans and the models’ capabili...",
+          "summaryZh": "**核心要点** 我们开始对 GPT‑5.6 系列进行有限预览：Sol，我们的旗舰型号； Terra，适合日常工作的平衡模型； Luna，一种快速且价格实惠的型号。 Terra 的性能与 GPT-5.5 相比具有竞争力，同时价格便宜 2 倍，Luna 以最低的成本提供强大的功能。 [...] 我们相信广泛的访问，我们计划在未来几周内普遍提供 GPT-5.6 Sol、Terra 和 Luna。作为我们与美国政府持续接触的一部分，我们预览了我们的计划和模型的功能......",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "模型"
+          ],
+          "score": 34
+        },
+        {
+          "title": "Production-grade AI agents for financial compliance: Lessons from Stripe",
+          "titleZh": "用于财务合规的生产级人工智能代理：Stripe 的经验教训",
+          "link": "https://aws.amazon.com/blogs/machine-learning/production-grade-ai-agents-for-financial-compliance-lessons-from-stripe/",
+          "publishedAt": "Fri, 26 Jun 2026 14:38:01 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, you learn how Stripe built a production-grade AI agent system for financial compliance. We cover the technical architecture of Stripe’s ReAct agent framework and the infrastructure decisions behind a dedicated agent service. We also discuss the role of human oversight in maintaining accountability, and key lessons about task decomposition, orchestration patterns, and cost optimization through prompt caching. By the end, you will understand how to design agentic systems that scale compliance operations without compromising quality or auditability.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/26/ml-20542.png",
+          "video": "",
+          "summary": "In this post, you learn how Stripe built a production-grade AI agent system for financial compliance. We cover the technical architecture of Stripe’s ReAct agent framework and the infrastructure decisions behind a dedicated agent service. We also discuss the role of human oversight in maintaining accountability, and key lessons about task decomposition, orchestration patterns, and cost optimization through prompt caching. By the end, you will understand how to design agentic systems that scale compliance operati...",
+          "summaryZh": "**核心要点** 在这篇文章中，您将了解 Stripe 如何构建生产级 AI 代理系统以实现财务合规性。我们介绍了 Stripe 的 ReAct 代理框架的技术架构以及专用代理服务背后的基础设施决策。我们还讨论了人类监督在维持责任方面的作用，以及有关任务分解、编排模式和通过即时缓存优化成本的重要经验教训。最后，您将了解如何设计可扩展合规运营的代理系统...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        },
+        {
+          "title": "How Cara pioneers domain-specific AI for enterprise insurance brokerages with AWS",
+          "titleZh": "Cara 如何利用 AWS 为企业保险经纪公司开创特定领域的 AI",
+          "link": "https://aws.amazon.com/blogs/machine-learning/how-cara-pioneers-domain-specific-ai-for-enterprise-insurance-brokerages-with-aws/",
+          "publishedAt": "Fri, 26 Jun 2026 14:42:20 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, we explore how Cara, built in cooperation with AWS, addresses these challenges. We walk through the technical design decisions and the AWS services that support the solution. We also share measurable outcomes Cara has delivered for enterprise brokerages.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/24/20401.png",
+          "video": "",
+          "summary": "In this post, we explore how Cara, built in cooperation with AWS, addresses these challenges. We walk through the technical design decisions and the AWS services that support the solution. We also share measurable outcomes Cara has delivered for enterprise brokerages.",
+          "summaryZh": "**核心要点** 在这篇文章中，我们将探讨与 AWS 合作构建的 Cara 如何应对这些挑战。我们详细介绍了支持该解决方案的技术设计决策和 AWS 服务。我们还分享 Cara 为企业经纪公司提供的可衡量的成果。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "RAG"
+          ],
+          "score": 26
+        },
+        {
+          "title": "AI and Liability",
+          "titleZh": "人工智能与责任",
+          "link": "https://simonwillison.net/2026/Jun/25/ai-and-liability/#atom-everything",
+          "publishedAt": "2026-06-25T22:28:46+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "AI and Liability Bruce Schneier on the recent German ruling that Google be held liable for errors introduced in their AI overviews: AI agents are agents of the person or organization that deploys them—and should be treated by the law as such. If a company hired human writers to write its summaries, that company would be liable for inaccuracies in those summaries. [...] To allow businesses to hide behind the excuse of faulty AI in those same circumstances would be a massive handout to companies, and would introduce disastrous incentives for corporate misbehavior. Why hire human writers, lawyers or doctors when AIs are not only cheaper, but also absolve employers whenever they make a mistake? Tags: bruce-schneier , google , law , ai , generative-ai , llms , ai-ethics , hallucinations",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "AI and Liability Bruce Schneier on the recent German ruling that Google be held liable for errors introduced in their AI overviews: AI agents are agents of the person or organization that deploys them—and should be treated by the law as such. If a company hired human writers to write its summaries, that company would be liable for inaccuracies in those summaries. [...] To allow businesses to hide behind the excuse of faulty AI in those same circumstances would be a massive handout to companies, and would introdu...",
+          "summaryZh": "**核心要点** 人工智能和责任布鲁斯·施奈尔 (Bruce Schneier) 谈及德国最近的一项裁决，即谷歌应对其人工智能概述中引入的错误承担责任：人工智能代理是部署它们的个人或组织的代理，并应受到法律的对待。如果一家公司聘请人类作家来撰写摘要，该公司将为这些摘要中的不准确之处承担责任。 [...]在同样的情况下，允许企业以人工智能故障为借口躲起来，这将是对企业的巨大施舍，并将引入...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 26
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "Last week, we hosted Vector Space Meetup: Retrieval in the Age of Agents. Our CTO Andrey Vasnetsov ...",
+          "titleZh": "上周，我们举办了向量空间聚会：代理时代的检索",
+          "link": "https://x.com/qdrant_engine/status/2070416777616449698",
+          "publishedAt": "Fri, 26 Jun 2026 08:00:00 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "description": "Last week, we hosted Vector Space Meetup: Retrieval in the Age of Agents. Our CTO Andrey Vasnetsov kicked things off with a look at where Qdrant is heading: storage and compute separation taken to its logical limit - querying only the index fragments you need, on your own device, without a cloud round-trip. The panel with @cognee_ , @Haystack_AI by @deepset_ai , @llama_index , and @n8n_io covered agents in production, evaluation, and the decisions that are hardest to undo. A few honest takes from the room: Agents won't always choose to run retrieval when you need them to. That's a bigger problem than most people expect. If you generate your eval dataset and run your LLM-as-a-judge with the same model, you're asking it to grade its own homework. Thanks to everyone who came and pushed back. More details and takes in the full recording on our YouTube: youtube.com/watch?v=EEXUuI… 💬 1 🔄 0 ❤️ 3 👀 356 📊 2 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLtaFodbYAAvmkS.jpg",
+          "video": "",
+          "summary": "Last week, we hosted Vector Space Meetup: Retrieval in the Age of Agents. Our CTO Andrey Vasnetsov kicked things off with a look at where Qdrant is heading: storage and compute separation taken to its logical limit - querying only the index fragments you need, on your own device, without a cloud round-trip. The panel with @cognee_ , @Haystack_AI by @deepset_ai , @llama_index , and @n8n_io covered agents in production, evaluation, and the decisions that are hardest to undo. A few honest takes from the room: Agents won't always choose to run retrieval when you need them to. That's a bigger problem than most people expect. If you generate your eval dataset and run your LLM-as-a-judge with the same model, you're asking it to grade its own homework. Thanks to everyone who came and pushed back. More details and takes in the full recording on our YouTube: youtube.com/watch?v=EEXUuI… 💬 1 🔄...",
+          "summaryZh": "上周，我们举办了向量空间聚会：代理时代的检索。我们的 CTO Andrey Vasnetsov 首先介绍了 Qdrant 的发展方向：存储和计算分离达到了逻辑极限 - 在您自己的设备上仅查询您需要的索引片段，无需云往返。由 @cognee_、 @Haystack_AI by @deepset_ai、 @llama_index 和 @n8n_io 组成的小组涵盖了生产、评估中的代理以及最难撤销的决策。来自房间的一些诚实的看法：代理不会总是在您需要时选择运行检索。这是一个比大多数人预期的更大的问题。如果您生成评估数据集并使用相同的模型运行LLM法官，那么您就是在要求它对自己的作业进行评分。感谢所有前来并支持的人。更多详细信息和完整录音请参见我们的 YouTube：youtube.com/watch?v=EEXUuI... 1 ...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "RAG"
+          ],
+          "score": 50.53827228514412
+        },
+        {
+          "title": "Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks",
+          "titleZh": "跨模型和任务评估 GitHub Copilot 代理工具的性能和效率",
+          "link": "https://github.blog/ai-and-ml/github-copilot/evaluating-performance-and-efficiency-of-the-github-copilot-agentic-harness-across-models-and-tasks/",
+          "publishedAt": "Thu, 25 Jun 2026 22:59:45 +0000",
+          "source": "The GitHub Blog",
+          "sourceType": "open_source",
+          "description": "Explore how the GitHub Copilot agentic harness delivers strong results across multiple benchmarks and leading token efficiency, while maintaining flexibility to choose among more than 20 models. The post Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks appeared first on The GitHub Blog .",
+          "section": "open_source_top",
+          "channel": "open_source",
+          "trust": "expert",
+          "image": "https://github.blog/wp-content/uploads/2026/06/architecture-harness-surfaces.png?resize=1024%2C592",
+          "video": "",
+          "summary": "Explore how the GitHub Copilot agentic harness delivers strong results across multiple benchmarks and leading token efficiency, while maintaining flexibility to choose among more than 20 models. The post Evaluating performance and efficiency of the GitHub Copilot agentic harness across models and tasks appeared first on The GitHub Blog .",
+          "summaryZh": "探索 GitHub Copilot 代理工具如何在多个基准测试中提供强劲的结果和领先的token效率，同时保持在 20 多个模型中进行选择的灵活性。跨模型和任务评估 GitHub Copilot 代理工具的性能和效率一文首先出现在 GitHub 博客上。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "模型",
+            "智能体",
+            "评测",
+            "开源"
+          ],
+          "score": 32
+        },
+        {
+          "title": "opendatalab/MinerU",
+          "titleZh": "opendatalab/MinerU：英语 | 立即访问MinerU→✅零安装网页版✅全功能桌",
+          "link": "https://github.com/opendatalab/MinerU",
+          "publishedAt": "2026-06-26T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "English | 简体中文 🚀 Access MinerU Now→✅ Zero-Install Web Version ✅ Full-Featured Desktop Client ✅ Instant API Access; Skip deployment headaches – get all product formats in one click. Developers, dive in! 👋 join us on Discord and WeChat MinerU — High-accuracy document parsing engine for LLM · RAG · Agent workflows Converts PDF · DOCX · PPTX · XLSX · Images · Web pages into structured Markdown / JSON · VLM+OCR dual engine · 109 languages MCP Server · LangChain / Dify / FastGPT native integration · 10+ domestic AI chi",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://camo.githubusercontent.com/40ca9c73efb26805e0af7b399b8bc91a2d7fe54e6cb313e5a7f5ce59bfd0bfab/68747470733a2f2f6170692e737461722d686973746f72792e636f6d2f7376673f7265706f733d6f70656e646174616c61622f4d696e65725526747970653d44617465",
+          "video": "",
+          "summary": "English | 简体中文 🚀 Access MinerU Now→✅ Zero-Install Web Version ✅ Full-Featured Desktop Client ✅ Instant API Access; Skip deployment headaches – get all product formats in one click. Developers, dive in! 👋 join us on Discord and WeChat MinerU — High-accuracy document parsing engine for LLM · RAG · Agent workflows Converts PDF · DOCX · PPTX · XLSX · Images · Web pages into structured Markdown / JSON · VLM+OCR dual engine · 109 languages MCP Server · LangChain / Dify / FastGPT native integration · 10+ domestic AI chi",
+          "summaryZh": "英语 | 立即访问MinerU→✅零安装网页版✅全功能桌面客户端✅即时API访问；跳过部署难题 - 一键获取所有产品格式。开发者们，快来参与吧！ 加入 Discord 和微信 MinerU — LLM 高精度文档解析引擎 · RAG · 代理工作流程 PDF · DOCX · PPTX · XLSX · 图片 · 网页转结构化 Markdown / JSON · VLM+OCR 双引擎 · 109 种语言 MCP 服务器 · LangChain / Dify / FastGPT 原生集成 · 10+国产人工智能芯片",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "Claude Code v2.1.193 发布",
+          "titleZh": "Claude Code v2.1.193 发布",
+          "link": "https://aihot.virxact.com/items/cmqu24x8v00lssl8065rajmsy",
+          "publishedAt": "Thu, 25 Jun 2026 21:45:57 GMT",
+          "source": "AI HOT",
+          "sourceType": "aggregator",
+          "description": "Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件（默认不记录，需设置 `OTEL_LOG_ASSISTANT_RESPONSES=1`）。Bash 模式支持实时文件路径自动补全；MCP 服务器需认证时显示启动提示。新增空闲后台 shell 命令自动内存压力回收（可禁用）。修复 `/model` UI 状态滞后、后台任务误取消、子 agent 隐藏同级等问题，并改进了后台 agent 启动指令、MCP 认证重连、插件自动重命名等行为。 🔗 阅读原文：https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+          "section": "open_source_top",
+          "channel": "aggregator",
+          "trust": "community",
+          "image": "https://aihot.virxact.com/items/cmqu24x8v00lssl8065rajmsy/opengraph-image-1az256?e76b0ca9d6ef53f8",
+          "video": "",
+          "summary": "Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件（默认不记录，需设置 `OTEL_LOG_ASSISTANT_RESPONSES=1`）。Bash 模式支持实时文件路径自动补全；MCP 服务器需认证时显示启动提示。新增空闲后台 shell 命令自动内存压力回收（可禁用）。修复 `/model` UI 状态滞后、后台任务误取消、子 agent 隐藏同级等问题，并改进了后台 agent 启动指令、MCP 认证重连、插件自动重命名等行为。 🔗 阅读原文：https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+          "summaryZh": "Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件（默认不记录，需设置 `OTEL_LOG_ASSISTANT_RESPONSES=1`）。Bash 模式支持实时文件路径自动补全；MCP 服务器需认证时显示启动提示。新增空闲后台 shell 命令自动内存压力回收（可禁用）。修复 `/model` UI 状态滞后、后台任务误取消、子 agent 隐藏同级等问题，并改进了后台 agent 启动指令、MCP 认证重连、插件自动重命名等行为。 \udd17 阅读原文：",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "开源"
+          ],
+          "score": 27
+        },
+        {
+          "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+          "titleZh": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+          "link": "https://aihot.virxact.com/items/cmqv4vak40a1ssl805nqs76uk",
+          "publishedAt": "Fri, 26 Jun 2026 15:37:43 GMT",
+          "source": "AI HOT",
+          "sourceType": "aggregator",
+          "description": "开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3 秒。人格通过女娲 Skill 从直播语料蒸馏出口头禅和思维逻辑。普通人半小时可跑通：克隆项目后，用 Claude Code 或 Cursor 配置，填两个 API Key 即可使用。 🔗 阅读原文：https://x.com/AYi_AInotes/status/2070531964067623381",
+          "section": "open_source_top",
+          "channel": "aggregator",
+          "trust": "community",
+          "image": "https://aihot.virxact.com/items/cmqv4vak40a1ssl805nqs76uk/opengraph-image-1az256?e76b0ca9d6ef53f8",
+          "video": "",
+          "summary": "开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3 秒。人格通过女娲 Skill 从直播语料蒸馏出口头禅和思维逻辑。普通人半小时可跑通：克隆项目后，用 Claude Code 或 Cursor 配置，填两个 API Key 即可使用。 🔗 阅读原文：https://x.com/AYi_AInotes/status/2070531964067623381",
+          "summaryZh": "开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3 秒。人格通过女娲 Skill 从直播语料蒸馏出口头禅和思维逻辑。普通人半小时可跑通：克隆项目后，用 Claude Code 或 Cursor 配置，填两个 API Key 即可使用。 \udd17 阅读原文：",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "API",
+            "开源",
+            "模型",
+            "大模型"
+          ],
+          "score": 26
+        },
+        {
+          "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
+          "titleZh": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
+          "link": "https://aihot.virxact.com/items/cmqu93tek02e2sl80iom0bica",
+          "publishedAt": "Fri, 26 Jun 2026 01:26:23 GMT",
+          "source": "AI HOT",
+          "sourceType": "aggregator",
+          "description": "博主小互开源个人IP配图技能\"小互IP Studio\"，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论。该Agent可自动读取文章、规划配图类型（情绪图/示意图/四格漫画）、生成并自查返工。默认画风为手绘线稿淡彩，另备5种皮肤（3D盲盒、黑白线稿等）可切换。安装仅需Python3，支持Claude Code、Codex等工具，需自备OpenAI兼容的图像API key（默认GPT-image-2）；也可只输出提示词手动生图。 🔗 阅读原文：https://x.com/xiaohu/status/2070317717811540149",
+          "section": "open_source_top",
+          "channel": "aggregator",
+          "trust": "community",
+          "image": "https://aihot.virxact.com/items/cmqu93tek02e2sl80iom0bica/opengraph-image-1az256?e76b0ca9d6ef53f8",
+          "video": "",
+          "summary": "博主小互开源个人IP配图技能\"小互IP Studio\"，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论。该Agent可自动读取文章、规划配图类型（情绪图/示意图/四格漫画）、生成并自查返工。默认画风为手绘线稿淡彩，另备5种皮肤（3D盲盒、黑白线稿等）可切换。安装仅需Python3，支持Claude Code、Codex等工具，需自备OpenAI兼容的图像API key（默认GPT-image-2）；也可只输出提示词手动生图。 🔗 阅读原文：https://x.com/xiaohu/status/2070317717811540149",
+          "summaryZh": "博主小互开源个人IP配图技能\"小互IP Studio\"，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论。该Agent可自动读取文章、规划配图类型（情绪图/示意图/四格漫画）、生成并自查返工。默认画风为手绘线稿淡彩，另备5种皮肤（3D盲盒、黑白线稿等）可切换。安装仅需Python3，支持Claude Code、Codex等工具，需自备OpenAI兼容的图像API key（默认GPT-image-2）；也可只输出提示词手动生图。 \udd17 阅读原文：",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "API",
+            "智能体",
+            "图像",
+            "开源"
+          ],
+          "score": 25
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Builders Unscripted with @skirano Pietro talked to @romainhuet about pushing the creative edges of ...",
+          "titleZh": "OpenAI 访谈：用 GPT-5.5 与 Codex 把创意变成软件",
+          "link": "https://x.com/OpenAIDevs/status/2070276212984094805",
+          "publishedAt": "Thu, 25 Jun 2026 22:41:27 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "Builders Unscripted with @skirano Pietro talked to @romainhuet about pushing the creative edges of GPT-5.5 and using Codex to turn ideas into software. 03:45 Images into sound 07:57 Multi-agent Codex workflows 14:34 Reviving hardware with Codex 25:27 From doing to directing Your browser does not support the video tag. 🔗 View on Twitter 💬 48 🔄 40 ❤️ 410 👀 54999 📊 121 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Builders Unscripted with @skirano Pietro talked to @romainhuet about pushing the creative edges of GPT-5.5 and using Codex to turn ideas into software. 03:45 Images into sound 07:57 Multi-agent Codex workflows 14:34 Reviving hardware with Codex 25:27 From doing to directing Your browser does not support the video tag. 🔗 View on Twitter 💬 48 🔄 40 ❤️ 410 👀 54999 📊 121 ⚡ Powered by xgo.ing",
+          "summaryZh": "OpenAI 在一档 **Builders Unscripted** 访谈里，围绕 **GPT-5.5** 的创意边界和 **Codex** 的实际工作流做了更细的拆解。内容提到把 **图像转声音**、**多代理 Codex 协作**、以及用 Codex 帮硬件项目重新启动等案例，重点不是单一功能发布，而是展示 OpenAI 正在把模型能力包装成更完整的创作与开发方法论。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频",
+            "图像"
+          ],
+          "score": 73.48167511521362
+        },
+        {
+          "title": "We're proud to join @linuxfoundation and industry peers in launching Akrites. \"Transparency and ope...",
+          "titleZh": "我们很荣幸能够与 @linuxfoundation 和业界同行一起推出 Akrites",
+          "link": "https://x.com/NVIDIAAI/status/2070303538933272622",
+          "publishedAt": "Fri, 26 Jun 2026 00:30:02 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "We're proud to join @linuxfoundation and industry peers in launching Akrites. \"Transparency and open collaboration are how the cybersecurity community has kept infrastructure safe for decades. In the age of AI, these open source foundations have never been more critical.\" — David Reber, Chief Security Officer, NVIDIA The Linux Foundation @linuxfoundation The age of AI requires a new solution to cybersecurity challenges. Today, the Linux Foundation and industry leaders launched Akrites, a coordinated effort to defend critical open source software against AI-enabled cyber threats. Frontier AI can find software vulnerabilities in minutes. Akrites introduces a shared SIRT and a standardized, confidential disclosure process to remediate vulnerabilities upstream before they are exploited. Read the open letter and learn why top organizations are joining together in this critical effort akrites.org/letter/ 🔗 View Quoted Tweet 💬 10 🔄 18 ❤️ 106 👀 14902 📊 18 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLrVymiakAAIgyk.png",
+          "video": "",
+          "summary": "We're proud to join @linuxfoundation and industry peers in launching Akrites. \"Transparency and open collaboration are how the cybersecurity community has kept infrastructure safe for decades. In the age of AI, these open source foundations have never been more critical.\" — David Reber, Chief Security Officer, NVIDIA The Linux Foundation @linuxfoundation The age of AI requires a new solution to cybersecurity challenges. Today, the Linux Foundation and industry leaders launched Akrites, a coordinated effort to defend critical open source software against AI-enabled cyber threats. Frontier AI can find software vulnerabilities in minutes. Akrites introduces a shared SIRT and a standardized, confidential disclosure process to remediate vulnerabilities upstream before they are exploited. Read the open letter and learn why top organizations are joining together in this critical effort akrit...",
+          "summaryZh": "我们很荣幸能够与 @linuxfoundation 和业界同行一起推出 Akrites。 “数十年来，透明度和开放协作是网络安全社区保持基础设施安全的方式。在人工智能时代，这些开源基础从未如此重要。” — David Reber，NVIDIA 首席安全官 Linux 基金会 @linuxfoundation 人工智能时代需要新的解决方案来应对网络安全挑战。今天，Linux 基金会和行业领导者推出了 Akrites，这是一项协调一致的努力，旨在保护关键开源软件免受人工智能网络威胁。 Frontier AI 可以在几分钟内找到软件漏洞。 Akrites 引入了共享 SIRT 和标准化的机密披露流程，以便在上游漏洞被利用之前对其进行修复。阅读这封公开信，了解为什么顶级组织正在共同参与这项关键的努力 akrit ...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "开源"
+          ],
+          "score": 68.97634554998359
+        },
+        {
+          "title": "GPT-5.6 Sol is our most capable model yet for cybersecurity. It shifts the performance-efficiency f...",
+          "titleZh": "OpenAI：GPT-5.6 Sol 是我们迄今为止最强大的网络安全模型",
+          "link": "https://x.com/OpenAI/status/2070555278576439306",
+          "publishedAt": "Fri, 26 Jun 2026 17:10:22 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "GPT-5.6 Sol is our most capable model yet for cybersecurity. It shifts the performance-efficiency frontier for long-horizon security tasks including vulnerability research and exploitation. 💬 24 🔄 64 ❤️ 1210 👀 177141 📊 141 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLwWT8TagAALRWm.jpg",
+          "video": "",
+          "summary": "GPT-5.6 Sol is our most capable model yet for cybersecurity. It shifts the performance-efficiency frontier for long-horizon security tasks including vulnerability research and exploitation. 💬 24 🔄 64 ❤️ 1210 👀 177141 📊 141 ⚡ Powered by xgo.ing",
+          "summaryZh": "GPT-5.6 Sol 是我们迄今为止最强大的网络安全模型。它改变了包括漏洞研究和利用在内的长期安全任务的性能效率前沿。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 63
+        },
+        {
+          "title": "We’ve fixed a number of paper cuts: better handling for long threads, more reliable connections, and...",
+          "titleZh": "OpenAI：「我们修复了一些剪纸问题：更好地处理长线、更可靠的连接，以及」要解决的问题是：我们修复了一些纸张问题：更好地处理长线程、更可靠的连接以及改进的差异处理",
+          "link": "https://x.com/OpenAIDevs/status/2070254534606352727",
+          "publishedAt": "Thu, 25 Jun 2026 21:15:19 GMT",
+          "source": "OpenAI Developers(@OpenAIDevs)",
+          "sourceType": "social",
+          "description": "We’ve fixed a number of paper cuts: better handling for long threads, more reliable connections, and improved diff handling. See everything that’s changed: developers.openai.com/codex/changelo… 💬 6 🔄 2 ❤️ 86 👀 14686 📊 14 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We’ve fixed a number of paper cuts: better handling for long threads, more reliable connections, and improved diff handling. See everything that’s changed: developers.openai.com/codex/changelo… 💬 6 🔄 2 ❤️ 86 👀 14686 📊 14 ⚡ Powered by xgo.ing",
+          "summaryZh": "**核心结论** 「我们修复了一些剪纸问题：更好地处理长线、更可靠的连接，以及」要解决的问题是：我们修复了一些纸张问题：更好地处理长线程、更可靠的连接以及改进的差异处理。查看所有更改的内容：developers.openai.com/codex/changelo。 **支撑证据** 摘要与公开信息显示：我们修复了一些纸张问题：更好地处理长线程、更可靠的连接以及改进的差异处理。查看所有更改的内容：developers.openai.com/codex/changelo... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "论文",
+            "开发者工具"
+          ],
+          "score": 62.80781720223479
+        },
+        {
+          "title": "5) Papercut Fixed: Thinking Levels are now available on Gemini across Web, iOS, and @Android. https...",
+          "titleZh": "Gemini 在 Web、iOS 与 Android 上补齐 Thinking Levels",
+          "link": "https://x.com/GeminiApp/status/2070540541839004123",
+          "publishedAt": "Fri, 26 Jun 2026 16:11:48 GMT",
+          "source": "Google Gemini App(@GeminiApp)",
+          "sourceType": "social",
+          "description": "5) Papercut Fixed: Thinking Levels are now available on Gemini across Web, iOS, and @Android . x.com/joshwoodward/s… Josh Woodward @joshwoodward ✅ Papercut fixed: Thinking Levels are now available on Gemini across Web, iOS, and Android. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 1 🔄 1 ❤️ 13 👀 7256 📊 2 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-27-2070540541839004123.mp4",
+          "summary": "5) Papercut Fixed: Thinking Levels are now available on Gemini across Web, iOS, and @Android . x.com/joshwoodward/s… Josh Woodward @joshwoodward ✅ Papercut fixed: Thinking Levels are now available on Gemini across Web, iOS, and Android. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 1 🔄 1 ❤️ 13 👀 7256 📊 2 ⚡ Powered by xgo.ing",
+          "summaryZh": "**核心结论** Google 宣布 **Thinking Levels** 已在 **Gemini 的 Web、iOS 和 Android** 端同步可用，这意味着分层思考/推理控制能力终于完成跨端补齐，移动端复杂提问的体验会更接近桌面端。**支撑证据** 官方账号直接说明这是一次覆盖 **Web、iOS、Android** 的功能可用性更新，而不是只在单一入口灰度测试，且配套演示视频已经同步发布。**我的判断** 这条更新本身不算新模型发布，但它会直接影响 Gemini 的跨端一致性和高频用户的实际使用感受，后续值得继续看是否扩展到更多账号层级与地区。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 59.27873781432721
+        },
+        {
+          "title": "To keep pace with AI progress, we're advancing how we study Claude's economic impact. Hourly sampl...",
+          "titleZh": "为了跟上人工智能的进步，我们正在推进研究Claude的经济影响的方式",
+          "link": "https://x.com/AnthropicAI/status/2070528961235575278",
+          "publishedAt": "Fri, 26 Jun 2026 15:25:47 GMT",
+          "source": "Anthropic(@AnthropicAI)",
+          "sourceType": "social",
+          "description": "To keep pace with AI progress, we're advancing how we study Claude's economic impact. Hourly sampling and survey data show us how the cadences of life shape usage, what people produce with Claude, and how perceptions of AI's impact may be changing. anthropic.com/research/econo… 💬 253 🔄 122 ❤️ 1373 👀 165776 📊 378 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "To keep pace with AI progress, we're advancing how we study Claude's economic impact. Hourly sampling and survey data show us how the cadences of life shape usage, what people produce with Claude, and how perceptions of AI's impact may be changing. anthropic.com/research/econo… 💬 253 🔄 122 ❤️ 1373 👀 165776 📊 378 ⚡ Powered by xgo.ing",
+          "summaryZh": "为了跟上人工智能的进步，我们正在推进研究Claude的经济影响的方式。每小时的抽样和调查数据向我们展示了生活节奏如何影响使用、人们与 Claude 一起创造了什么，以及对人工智能影响的看法可能会如何变化。 anthropic.com/research/econo…",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 59
+        },
+        {
+          "title": "Motor Neurone Disease took Irene Perrin's speech. It didn't take her love of teaching. Today, she c...",
+          "titleZh": "艾琳·佩林 (Irene Perrin) 发表了《运动神经元疾病》的演讲",
+          "link": "https://x.com/ElevenLabs/status/2070497104695357873",
+          "publishedAt": "Fri, 26 Jun 2026 13:19:12 GMT",
+          "source": "ElevenLabs(@elevenlabsio)",
+          "sourceType": "social",
+          "description": "Motor Neurone Disease took Irene Perrin's speech. It didn't take her love of teaching. Today, she continues educating visitors at Windsor Castle using her ElevenLabs voice. Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 5 ❤️ 69 👀 12167 📊 12 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Motor Neurone Disease took Irene Perrin's speech. It didn't take her love of teaching. Today, she continues educating visitors at Windsor Castle using her ElevenLabs voice. Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 5 ❤️ 69 👀 12167 📊 12 ⚡ Powered by xgo.ing",
+          "summaryZh": "艾琳·佩林 (Irene Perrin) 发表了《运动神经元疾病》的演讲。这并不需要她对教学的热爱。如今，她继续用 ElevenLabs 的声音在温莎城堡为游客提供教育。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "语音",
+            "视频"
+          ],
+          "score": 55.66658345371969
+        },
+        {
+          "title": "In a real conversation, deciding when to speak takes about as much brainpower as deciding what to sa...",
+          "titleZh": "在真实的对话中，决定何时发言和决定说什么都需要耗费同样多的脑力",
+          "link": "https://x.com/LangChain/status/2070537926279053441",
+          "publishedAt": "Fri, 26 Jun 2026 16:01:25 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": "In a real conversation, deciding when to speak takes about as much brainpower as deciding what to say. Voice agents haven't been built that way. @SierraPlatform 's unlock was parallelizing thinking, listening, and talking the way humans actually do. A great insight from @ZackRW from Sierra on the Max Agency podcast. Your browser does not support the video tag. 🔗 View on Twitter 💬 5 🔄 3 ❤️ 17 👀 3697 📊 7 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-27-2070537926279053441.mp4",
+          "summary": "In a real conversation, deciding when to speak takes about as much brainpower as deciding what to say. Voice agents haven't been built that way. @SierraPlatform 's unlock was parallelizing thinking, listening, and talking the way humans actually do. A great insight from @ZackRW from Sierra on the Max Agency podcast. Your browser does not support the video tag. 🔗 View on Twitter 💬 5 🔄 3 ❤️ 17 👀 3697 📊 7 ⚡ Powered by xgo.ing",
+          "summaryZh": "在真实的对话中，决定何时发言和决定说什么都需要耗费同样多的脑力。语音代理并不是这样构建的。 @SierraPlatform 的解锁是按照人类实际的方式并行思考、倾听和交谈。来自 Sierra 的 @ZackRW 在 Max Agency 播客上的精彩见解。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "语音",
+            "视频"
+          ],
+          "score": 55.355311613687526
+        },
+        {
+          "title": ".@mondaydotcom had one agent trying to handle 200+ tools. Context pollution everywhere. The LLM ...",
+          "titleZh": "有一名代理试图处理 200 多种工具",
+          "link": "https://x.com/LangChain/status/2070507927798993352",
+          "publishedAt": "Fri, 26 Jun 2026 14:02:12 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": ". @mondaydotcom had one agent trying to handle 200+ tools. Context pollution everywhere. The LLM was confused, costs rising, and it still wasn't working. @omribruchim on rebuilding Sidekick with Deep Agents: youtu.be/c2fLLS7np3Y Your browser does not support the video tag. 🔗 View on Twitter 💬 6 🔄 4 ❤️ 29 👀 5671 📊 11 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-27-2070507927798993352.mp4",
+          "summary": ". @mondaydotcom had one agent trying to handle 200+ tools. Context pollution everywhere. The LLM was confused, costs rising, and it still wasn't working. @omribruchim on rebuilding Sidekick with Deep Agents: youtu.be/c2fLLS7np3Y Your browser does not support the video tag. 🔗 View on Twitter 💬 6 🔄 4 ❤️ 29 👀 5671 📊 11 ⚡ Powered by xgo.ing",
+          "summaryZh": "。 有一名代理试图处理 200 多种工具。上下文污染无处不在。LLM很混乱，成本不断上升，但仍然行不通。 与 Deep Agent 重建 Sidekick：youtu.be/c2fLLS7np3Y。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 54.782127400827456
+        },
+        {
+          "title": "“If there is a deflation of the AI bubble, the optimists say that the new infrastructure will remain...",
+          "titleZh": "“如果人工智能泡沫破灭，乐观者表示，即使公司不这样做，新的基础设施仍将保留——就像铁路在 19 世纪铁路泡沫破灭中幸存下来一样",
+          "link": "https://x.com/GaryMarcus/status/2070339142689697992",
+          "publishedAt": "Fri, 26 Jun 2026 02:51:31 GMT",
+          "source": "Gary Marcus(@GaryMarcus)",
+          "sourceType": "social",
+          "description": "“If there is a deflation of the AI bubble, the optimists say that the new infrastructure will remain even if the companies do not — just as railways survived the 19th-century railway bust. However, this fails to reckon with the reality of depreciation (few pieces of silicon hold their value for very long because better chips inevitably come along) and the possibility that LLMs could be displaced by more efficient models less dependent on massive numbers of expensive AI chips. In placing massive hyperscaling bets, investors are setting lavish expectations about future earnings. But LLMs are not likely to replicate the near monopolies that have made the market power of current tech giants hard to assail. A better analogy for them might be airlines, which are hobbled by small margins, intense competition, high expenses and dependence on hardware created by outside vendors.” – @garymarcus in @FinancialTimes 💬 46 🔄 130 ❤️ 656 👀 58271 📊 154 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HLtSejeaIAARpRX.jpg",
+          "video": "",
+          "summary": "“If there is a deflation of the AI bubble, the optimists say that the new infrastructure will remain even if the companies do not — just as railways survived the 19th-century railway bust. However, this fails to reckon with the reality of depreciation (few pieces of silicon hold their value for very long because better chips inevitably come along) and the possibility that LLMs could be displaced by more efficient models less dependent on massive numbers of expensive AI chips. In placing massive hyperscaling bets...",
+          "summaryZh": "“如果人工智能泡沫破灭，乐观者表示，即使公司不这样做，新的基础设施仍将保留——就像铁路在 19 世纪铁路泡沫破灭中幸存下来一样。然而，这没有考虑到折旧的现实（很少有硅片能够长期保值，因为更好的芯片不可避免地会出现），也没有考虑到LLM可能会被更高效的模型所取代，而不是依赖大量昂贵的人工智能芯片。在进行大规模的超大规模赌注时……",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型"
+          ],
+          "score": 53
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "罗永浩的X字路口！不借钱给朋友，就会失去朋友失去钱！",
+          "titleZh": "罗永浩的X字路口！不借钱给朋友，就会失去朋友失去钱！",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a3df9b39d2f5743683e1c13",
+          "publishedAt": "2026-06-26T04:25:41.401Z",
+          "source": "罗永浩的十字路口",
+          "sourceType": "podcast",
+          "description": "《十字路口》播客节目简介 本节⽬是⼀档由罗永浩主持的深度播客类节⽬，每集长达三到五个小时。我们与时代浪潮中的⼈物展开对话，聚焦于科技与⼈⽂领域，讲述个体命运故事，探讨时代发展趋势。 本期嘉宾 ：小镟，贤鱼，王继业，小四爷 本期节目是《罗永浩的X字路口》和肆笑喜剧的首次联动，也是一次大型跑题事故的现场实录。 【你将听到】 00:06:05 聊聊跟风 00:17:38 追星经历 00:30:59 中年男女跑半马 00:40:34 警惕连环校园贷 01:09:27 险些欠债三百万 01:32:22 如何来钱快 01:43:13 脱口秀大局观 02:00:49 穷人乍富 02:11:22 消费观念 02:24:31 放心借钱的秘技 02:30:22 讨债人的一天 02:38:49 结尾上价值 ❤️参与录制： 公众号关注「罗永浩的十字路口」，点击菜单“观众招募”，就有机会进入观众招募群，希望下一次录制看到你的身影。 🙋话题征集： 公众号关注「罗永浩的十字路口」，写下你最想听的话题内容，比如“情绪稳定”，就有机会成为我们下期的讨论主题。 👩🏻‍💻了解更多： 微博 @罗永浩的十字路口 小红书 @罗永浩的十字路口 抖音 @罗永浩的十",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FvR7Od3_I3OQq0ac_8xMPc4zqdOt.png",
+          "video": "",
+          "summary": "《十字路口》播客节目简介 本节⽬是⼀档由罗永浩主持的深度播客类节⽬，每集长达三到五个小时。我们与时代浪潮中的⼈物展开对话，聚焦于科技与⼈⽂领域，讲述个体命运故事，探讨时代发展趋势。 本期嘉宾 ：小镟，贤鱼，王继业，小四爷 本期节目是《罗永浩的X字路口》和肆笑喜剧的首次联动，也是一次大型跑题事故的现场实录。 【你将听到】 00:06:05 聊聊跟风 00:17:38 追星经历 00:30:59 中年男女跑半马 00:40:34 警惕连环校园贷 01:09:27 险些欠债三百万 01:32:22 如何来钱快 01:43:13 脱口秀大局观 02:00:49 穷人乍富 02:11:22 消费观念 02:24:31 放心借钱的秘技 02:30:22 讨债人的一天 02:38:49 结尾上价值 ❤️参与录制： 公众号关注「罗永浩的十字路口」，点击菜单“观众招募”，就有机会进入观众招募群，希望下一次录制看到你的身影。 🙋话题征集： 公众号关注「罗永浩的十字路口」，写下你最想听的话题内容，比如“情绪稳定”，就有机会成为我们下期的讨论主题。 👩🏻‍💻了解更多： 微博 @罗永浩的十字路口 小红书 @罗永浩的十字路口 抖音 @罗永浩的十",
+          "summaryZh": "**讲了什么**：这一期来自 **罗永浩的十字路口**，主题是「罗永浩的X字路口！不借钱给朋友，就会失去朋友失去钱！」。《十字路口》播客节目简介 本节⽬是⼀档由罗永浩主持的深度播客类节⽬，每集长达三到五个小时。我们与时代浪潮中的⼈物展开对话，聚焦于科技与⼈⽂领域，讲述个体命运故事，探讨时代发展趋势。本期嘉宾：小镟，贤鱼，王继业，小四爷 本期节目是《罗永浩的X字路口》和肆笑喜剧的首次联动，也是一次大型跑题事故的现场实录。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "AI时代的人类尊严 | 教皇利奥十四世发布首篇通谕 | Magnifica Humanitas",
+          "titleZh": "AI时代的人类尊严 | 教皇利奥十四世发布首篇通谕 | Magnifica Humanitas",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a2d36d44233e62bc5492eda",
+          "publishedAt": "2026-06-25T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「AI时代的人类尊严 | 教皇利奥十四世发布首篇通谕 | Magnifica Humanitas」。5月25日，梵蒂冈教宗利奥十四世（Pope Leo XIV），对外正式发布了一份长达4万字的通谕《Magnifica Humanitas》，中文译名为《伟大的人性》，副标题是在人工智能时代维护人的尊严。这是利奥十四世就任教宗之后的首份通谕，也是天主教历史上第一份专门以人工智能为核心议题的通谕。通谕全程并没有反对技术进步，没有否定人工智能给医疗、教育、扶贫、科研带来的巨大价值，而是反对脱离伦理约束、把效率凌驾于人的尊严之上、让资本与权力主导技术走向的技术文明逻辑。最后，通谕指出，核心问题从来不是机器会不会超越人类智能，而是人类会不会在技术扩张中失去自身的尺度、尊严、自由与精神完整性。今天我们就来给大家总结一下这篇通谕的主要内容。 **简介要点**： - 通谕全程并没有反对技术进步，没有否定人工智能给医疗、教育、扶贫、科研带来的巨大价值，而是反对脱离伦理约束、把效率凌驾于人的尊严之上、让资本与权力主导技术走向的技术文明逻辑。 - 最后，通谕指出，核心问题从来不是机器会不会超越人类智能，而是人类会不会在技术扩张中失去自身的尺度、尊严、自由与精神完整性。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "meng shao(@shao__meng)",
+      "url": "https://nitter.net/shao__meng/rss",
+      "error": "直连失败，代理兜底也失败：fetch failed; http://127.0.0.1:6789: Command failed: curl -L --http1.1 --silent --show-error --connect-timeout 10 --max-time 20 -A Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125 Safari/537.36 --proxy http://127.0.0.1:6789 https://nitter.net/shao__meng/rss\ncurl: (35) LibreSSL SSL_connect: SSL_ERROR_SYSCALL in connection to nitter.net:443 \n; http://127.0.0.1:7890: Command failed: curl -L --http1.1 --silent --show-error --connect-timeout 10 --max-time 20 -A Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125 Safari/537.36 --proxy http://127.0.0.1:7890 https://nitter.net/shao__meng/rss\ncurl: (7) Failed to connect to 127.0.0.1 port 7890 after 0 ms: Couldn't connect to server\n"
+    }
+  ],
+  "summaryBullets": [
+    "**OpenAI 发布 GPT-5.6 系列预览**：**GPT-5.6 Sol** 主打前沿能力与更强安全栈，**Terra** 面向日常高效工作，**Luna** 面向高吞吐低成本场景，说明 OpenAI 正在把同代模型拆成更清晰的产品分层。",
+    "**Codex 的跨端与插件能力继续补齐**：ChatGPT 移动端里的 **Codex** 已全面可用，并新增通知、目标、旁聊、文件预览和内联评审；同时 OpenAI 还上线了 **DigitalOcean 插件**，支持一条提示拉起持久云开发环境。",
+    "**多模态创作产品继续提速**：**Midjourney** 为 V8.2 加入 `--preview`，并让大批量草稿模式支持 `--sref random`；**HeyGen HyperFrames** 则把启动视频、音乐视频、字幕叠加等 **9 类视频工作流** 映射成可理解的代理技能。",
+    "**研究前线出现两条值得跟进的论文信号**：**ForeAgent** 用多视角取证加自我反思迭代，把 AI 生成图像检测在 Chameleon 上做到 **82.18% 准确率**；**LeanGuard** 则表明审核护栏未必需要 CoT，**395M 编码器** 在公开基准上做到 **82.90 F1**，推理算力约降到原来的 **1/100**。",
+    "**产业与社媒讨论开始转向方法论与经济影响**：OpenAI 在 **Builders Unscripted** 里公开讨论 **GPT-5.5 + Codex** 的多代理工作流和创意开发案例；Anthropic 则披露用更高频的抽样与调查数据研究 **Claude** 对工作节奏、创作产出和劳动影响的变化。"
+  ]
+}
