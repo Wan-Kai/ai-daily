@@ -1,0 +1,591 @@
+{
+  "date": "2026-06-29",
+  "generatedAt": "2026-06-28T18:30:00.000Z",
+  "title": "AI 日报 - 2026-06-29",
+  "stats": {
+    "sources": 135,
+    "fetched": 83,
+    "emailCandidates": 0,
+    "selected": 23,
+    "failures": 11
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "✨infinite scroll✨ on Recent Chats is now available on our mobile app ^_−☆ you can revisit every sin...",
+          "titleZh": "Character.AI 移动端最近聊天支持无限滚动，可回看多年历史对话",
+          "link": "https://x.com/character_ai/status/2070964826571247992",
+          "publishedAt": "Sat, 27 Jun 2026 20:17:45 GMT",
+          "source": "Character.AI(@character_ai)",
+          "sourceType": "social",
+          "description": "✨infinite scroll✨ on Recent Chats is now available on our mobile app ^_−☆ you can revisit every single chat you've ever had... even the ones from years ago! say hi to old Characters, it might hit a lil' different now 👀 Your browser does not support the video tag. 🔗 View on Twitter 💬 33 🔄 6 ❤️ 30 👀 13264 📊 32 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-29-2070964826571247992.mp4",
+          "summary": "✨infinite scroll✨ on Recent Chats is now available on our mobile app ^_−☆ you can revisit every single chat you've ever had... even the ones from years ago! say hi to old Characters, it might hit a lil' different now 👀 Your browser does not support the video tag. 🔗 View on Twitter 💬 33 🔄 6 ❤️ 30 👀 13264 📊 32 ⚡ Powered by xgo.ing",
+          "summaryZh": "Character.AI 宣布在**移动端**为 **Recent Chats** 加入**无限滚动**，用户现在可以一直向下翻，重新找到**多年前**和角色的历史对话。这个更新虽然不是新模型，但直接改善了老用户回溯长期聊天记录的体验，也说明陪伴类产品开始把**历史会话资产**当成核心留存能力来经营。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 61.371182653885384
+        },
+        {
+          "title": "谢谢指正",
+          "titleZh": "谢谢指正 核桃 推文有误，GPT4.5是彻底下线了，包括api，api在大约一年前就下线了，web是很长时间以来唯一能用GPT4.5的渠道 \udd17 View",
+          "link": "https://x.com/dotey/status/2070961932480188467",
+          "publishedAt": "Sat, 27 Jun 2026 20:06:15 GMT",
+          "source": "宝玉(@dotey)",
+          "sourceType": "social",
+          "description": "谢谢指正 核桃 @1gedahetao @dotey 推文有误，GPT4.5是彻底下线了，包括api，api在大约一年前就下线了，web是很长时间以来唯一能用GPT4.5的渠道 🔗 View Quoted Tweet 💬 1 🔄 1 ❤️ 7 👀 8564 📊 2 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HL2HY2LaoAATEM6.jpg",
+          "video": "",
+          "summary": "谢谢指正 核桃 @1gedahetao @dotey 推文有误，GPT4.5是彻底下线了，包括api，api在大约一年前就下线了，web是很长时间以来唯一能用GPT4.5的渠道 🔗 View Quoted Tweet 💬 1 🔄 1 ❤️ 7 👀 8564 📊 2 ⚡ Powered by xgo.ing",
+          "summaryZh": "谢谢指正 核桃 推文有误，GPT4.5是彻底下线了，包括api，api在大约一年前就下线了，web是很长时间以来唯一能用GPT4.5的渠道 \udd17 View Quoted Tweet。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "API"
+          ],
+          "score": 31.414540985912012
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
+          "titleZh": "使用 Google 论文助理工具实现科学评审自动化",
+          "link": "https://huggingface.co/papers/2606.28277",
+          "publishedAt": "2026-06-28T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Paper page - Towards Automating Scientific Review with Google's Paper Assistant Tool Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Papers arxiv:2606.28277 Copy markdown Towards Automating Scientific Review with Google's Paper Assistant ",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.28277/gradient.png",
+          "video": "",
+          "summary": "Paper page - Towards Automating Scientific Review with Google's Paper Assistant Tool Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Papers arxiv:2606.28277 Copy markdown Towards Automating Scientific Review with Google's Paper Assistant ",
+          "summaryZh": "**核心结论** 「使用 Google 论文助理工具实现科学评审自动化」要解决的问题是：纸质页面 - 使用 Google 的 Paper Assistant 工具实现自动化科学审查 Hugging Face 模型 数据集 空间 Buckets 新文档 企业定价 网站任务 HuggingChat 集合 语言组织 社区博客文章 每日论文 学习 Discord 论坛 GitHub 解决方案团队和 Enterprise Hugging Face PRO 企业支持 推理提供商 推理端点 存储桶 登录 注册论文 arxiv:2606.28277 复制 markdown 至使用 Google 的 Paper Assistant 实现科学评审自动化。 **支撑证据** 摘要与公开信息显示：纸质页面 - 使用 Google 的 Paper Assistant 工具实现自动化科学审查 Hugging Face 模型 数据集 空间 Buckets 新文档 企业定价 网站任务 HuggingChat 集合 语言组织 社区博客文章 每日论文 学习 Discord 论坛 GitHub 解决方案团队和 Enterprise Hugging Face PRO 企业支持 推理提供商 推理端点 存储桶 登录 注册论文 arxiv:2606.28277 复制 markdown 至使用 Google 的 Paper Assistant 实现科学评审自动化 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "论文"
+          ],
+          "score": 32
+        },
+        {
+          "title": "SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation",
+          "titleZh": "SimFoundry：用于策略学习和评估的模块化和自动化场景生成",
+          "link": "https://huggingface.co/papers/2606.28276",
+          "publishedAt": "2026-06-28T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Paper page - SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Papers arxiv:2606.28276 Copy markdown SimFoundry: Modular and Automated Scene Generation fo",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.28276/gradient.png",
+          "video": "",
+          "summary": "Paper page - SimFoundry: Modular and Automated Scene Generation for Policy Learning and Evaluation Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Papers arxiv:2606.28276 Copy markdown SimFoundry: Modular and Automated Scene Generation fo",
+          "summaryZh": "**核心结论** 「SimFoundry：用于策略学习和评估的模块化和自动化场景生成」要解决的问题是：纸质页面 - SimFoundry：用于政策学习和评估的模块化和自动化场景生成 Hugging Face 模型 数据集 空间 Buckets 新文档 企业定价 网站任务 HuggingChat 集合 语言 组织 社区博客文章 日报 学习 Discord 论坛 GitHub 解决方案团队和企业 Hugging Face PRO 企业支持 推理提供商 推理端点 存储桶 登录 注册论文 arxiv:2606.28276 复制 markdown SimFoundry：模块化和自动场景生成。 **支撑证据** 摘要与公开信息显示：纸质页面 - SimFoundry：用于政策学习和评估的模块化和自动化场景生成 Hugging Face 模型 数据集 空间 Buckets 新文档 企业定价 网站任务 HuggingChat 集合 语言 组织 社区博客文章 日报 学习 Discord 论坛 GitHub 解决方案团队和企业 Hugging Face PRO 企业支持 推理提供商 推理端点 存储桶 登录 注册论文 arxiv:2606.28276 复制 markdown SimFoundry：模块化和自动场景生成 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "论文"
+          ],
+          "score": 32
+        },
+        {
+          "title": "PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation",
+          "titleZh": "PhysisForcing：用于机器人操作的物理强化世界模拟器",
+          "link": "https://huggingface.co/papers/2606.28128",
+          "publishedAt": "2026-06-28T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Paper page - PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Papers arxiv:2606.28128 Copy markdown PhysisForcing: Physics Reinforced World Simulator for Robotic Ma",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.28128/gradient.png",
+          "video": "",
+          "summary": "Paper page - PhysisForcing: Physics Reinforced World Simulator for Robotic Manipulation Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up Papers arxiv:2606.28128 Copy markdown PhysisForcing: Physics Reinforced World Simulator for Robotic Ma",
+          "summaryZh": "**核心结论** 「PhysisForcing：用于机器人操作的物理强化世界模拟器」要解决的问题是：纸质页面 - PhysisForcing：用于机器人操作的物理强化世界模拟器 拥抱人脸模型 数据集 空间 存储桶 新文档 企业定价 网站任务 HuggingChat 集合 语言组织 社区博客文章 每日论文 学习 Discord 论坛 GitHub 解决方案团队和企业 拥抱人脸 PRO 企业支持 推理提供商 推理端点 存储桶 登录 注册论文 arxiv:2606.28128 复制markdown PhysisForcing：机器人机器人的物理强化世界模拟器。 **支撑证据** 摘要与公开信息显示：纸质页面 - PhysisForcing：用于机器人操作的物理强化世界模拟器 拥抱人脸模型 数据集 空间 存储桶 新文档 企业定价 网站任务 HuggingChat 集合 语言组织 社区博客文章 每日论文 学习 Discord 论坛 GitHub 解决方案团队和企业 拥抱人脸 PRO 企业支持 推理提供商 推理端点 存储桶 登录 注册论文 arxiv:2606.28128 复制markdown PhysisForcing：机器人机器人的物理强化世界模拟器 **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "论文"
+          ],
+          "score": 32
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "Run Ornith with Ollama: ollama run ornith For coding, use it with Claude or Pi: ollama launch cla...",
+          "titleZh": "Ornith-1.0 上线 Ollama，开源代理编程模型覆盖 9B 到 397B",
+          "link": "https://x.com/ollama/status/2070972147686945145",
+          "publishedAt": "Sat, 27 Jun 2026 20:46:51 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "description": "Run Ornith with Ollama: ollama run ornith For coding, use it with Claude or Pi: ollama launch claude --model ornith ollama launch pi --model ornith For the more capable 35B model, use: ollama launch claude --model ornith:35b Ornith @ornith_ Aloha! 🌺 Meet Ornith-1.0, a family of open-source LLMs specialized for agentic coding. Ornith-1.0 spans the full parameter sizes including 9B Dense, 31B Dense, 35B MoE, and 397B MoE. It achieves state-of-the-art performance among open-source models of comparable size on coding benchmarks including: ✅Terminal-Bench 2.1(77.5) ✅SWE-Bench(82.4 on verified, 62.2 on pro, 78.9 on Multilingual) ✅NL2Repo(48.2) ✅SWE Atlas(41.2 on QnA, 42.6 RF, 39.1 TW) ✅ClawEval(77.1) Post-trained on top of gemma4 and qwen3.5, Ornith-1.0 employs a novel self-improving training strategy in which reinforcement learning is used to generate not only solution rollouts, but also the task-specific scaffolds that drive those rollouts. By jointly optimizing the scaffold and the resulting solution, the model generate higher-quality solutions in agentic coding.😎 All models are released under the MIT license, enabling full commercial and research use. 📖Tech Blo deep-reinforce.com/ornith_1_0.html WFn 🤗Huggingfa huggingface.co/collections/de… eBtM 🔗 View Quoted Tweet 💬 45 🔄 110 ❤️ 1228 👀 118080 📊 210 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HLqjo1CbMAAoc8u.jpg",
+          "video": "",
+          "summary": "Run Ornith with Ollama: ollama run ornith For coding, use it with Claude or Pi: ollama launch claude --model ornith ollama launch pi --model ornith For the more capable 35B model, use: ollama launch claude --model ornith:35b Ornith @ornith_ Aloha! 🌺 Meet Ornith-1.0, a family of open-source LLMs specialized for agentic coding. Ornith-1.0 spans the full parameter sizes including 9B Dense, 31B Dense, 35B MoE, and 397B MoE. It achieves state-of-the-art performance among open-source models of comparable size on coding benchmarks including: ✅Terminal-Bench 2.1(77.5) ✅SWE-Bench(82.4 on verified, 62.2 on pro, 78.9 on Multilingual) ✅NL2Repo(48.2) ✅SWE Atlas(41.2 on QnA, 42.6 RF, 39.1 TW) ✅ClawEval(77.1) Post-trained on top of gemma4 and qwen3.5, Ornith-1.0 employs a novel self-improving training strategy in which reinforcement learning is used to generate not only solution rollouts, but also...",
+          "summaryZh": "**Ornith-1.0** 现已可通过 **Ollama** 直接运行，开发者可以把它接入本地的代理式编码流程。官方把它定位为面向**智能体编程**的开源模型家族，覆盖 **90 亿、310 亿、350 亿到 3970 亿参数** 多个规格，并公布多项代码与仓库任务评测成绩，例如 **终端任务评测 77.5、SWE-Bench Verified 82.4、仓库生成任务 48.2、ClawEval 77.1**。该系列基于 **Gemma 4** 和 **Qwen 3.5** 做后训练，并以 **MIT 许可证** 发布，意味着团队既能本地试用，也能继续做商用和二次开发评估。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "智能体",
+            "评测"
+          ],
+          "score": 84
+        },
+        {
+          "title": "Model page: https://t.co/xbTqD7KPEt",
+          "titleZh": "模型页面：ollama.com/library/ornith",
+          "link": "https://x.com/ollama/status/2070972230801211633",
+          "publishedAt": "Sat, 27 Jun 2026 20:47:11 GMT",
+          "source": "ollama(@ollama)",
+          "sourceType": "social",
+          "description": "Model page: ollama.com/library/ornith 💬 1 🔄 0 ❤️ 21 👀 5974 📊 4 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Model page: ollama.com/library/ornith 💬 1 🔄 0 ❤️ 21 👀 5974 📊 4 ⚡ Powered by xgo.ing",
+          "summaryZh": "模型页面：ollama.com/library/ornith（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 49.33522758338307
+        },
+        {
+          "title": "Robbyant/lingbot-map",
+          "titleZh": "Robbyant/lingbot-map：LingBot-Map：用于流式 3D 重建",
+          "link": "https://github.com/Robbyant/lingbot-map",
+          "publishedAt": "2026-06-28T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction Robbyant Team teaser.mp4 🗺️ Meet LingBot-Map! We've built a feed-forward 3D foundation model for streaming 3D reconstruction! 🏗️🌍 LingBot-Map has focused on: Geometric Context Transformer : Architecturally unifies coordinate grounding, dense geometric cues, and long-range drift correction within a single streaming framework through anchor context, pose-reference window, and trajectory memory. High-Efficiency Streaming Inference : A feed-f",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/4c05d752490d653e94c404a00d3c0ce52a0dbfa1a80283de2ef03d4b24c31565/Robbyant/lingbot-map",
+          "video": "",
+          "summary": "LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction Robbyant Team teaser.mp4 🗺️ Meet LingBot-Map! We've built a feed-forward 3D foundation model for streaming 3D reconstruction! 🏗️🌍 LingBot-Map has focused on: Geometric Context Transformer : Architecturally unifies coordinate grounding, dense geometric cues, and long-range drift correction within a single streaming framework through anchor context, pose-reference window, and trajectory memory. High-Efficiency Streaming Inference : A feed-f",
+          "summaryZh": "LingBot-Map：用于流式 3D 重建的几何上下文转换器 Robbyant Team teaser.mp4 认识 LingBot-Map！我们已经为流式 3D 重建构建了前馈 3D 基础模型！ LingBot-Map 专注于： 几何上下文转换器：通过锚点上下文、姿势参考窗口和轨迹记忆，在单个流框架内在架构上统一坐标基础、密集几何线索和远程漂移校正。高效流式推理：A feed-f",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "模型"
+          ],
+          "score": 30
+        },
+        {
+          "title": "HKUDS/Vibe-Trading",
+          "titleZh": "HKUDS/Vibe-Trading：英语 | 中文 | 日本语 | 한국어 |",
+          "link": "https://github.com/HKUDS/Vibe-Trading",
+          "publishedAt": "2026-06-28T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "English | 中文 | 日本語 | 한국어 | العربية Vibe-Trading: Your Personal Trading Agent One Command to Empower Your Agent with Comprehensive Trading Capabilities Website · Docs · News · Features · Shadow Account · Demo · Quick Start · Examples · API / MCP · Roadmap · Contributing 📰 News 2026-06-28 🧰 Cross-platform setup/dev + runtime and file-tool hardening : vibe-trading setup and vibe-trading dev now handle Windows TypeScript builds, launch the backend from the right cwd, use the Vite 5899 port, and shut child processes d",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/c40db3f26629d75e6875695641f223bb8c998ba1b8bdf3a302e0cb86ec6d73b1/HKUDS/Vibe-Trading",
+          "video": "",
+          "summary": "English | 中文 | 日本語 | 한국어 | العربية Vibe-Trading: Your Personal Trading Agent One Command to Empower Your Agent with Comprehensive Trading Capabilities Website · Docs · News · Features · Shadow Account · Demo · Quick Start · Examples · API / MCP · Roadmap · Contributing 📰 News 2026-06-28 🧰 Cross-platform setup/dev + runtime and file-tool hardening : vibe-trading setup and vibe-trading dev now handle Windows TypeScript builds, launch the backend from the right cwd, use the Vite 5899 port, and shut child processes d",
+          "summaryZh": "英语 | 中文 | 日本语 | 한국어 | Vibe-Trading：您的个人交易代理 一个命令即可为您的代理提供全面的交易功能 网站 · 文档 · 新闻 · 功能 · 影子账户 · 演示 · 快速入门 · 示例 · API / MCP · 路线图 · 贡献新闻 2026-06-28 跨平台设置/开发 + 运行时和文件工具强化 : vibe-trading 设置和 vibe-trading 开发现在可以处理 Windows TypeScript 构建，从右cwd，使用Vite 5899端口，并关闭子进程",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        },
+        {
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+          "titleZh": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+          "link": "https://aihot.virxact.com/items/cmqxiel9h004ysl50umg2c011",
+          "publishedAt": "Sun, 28 Jun 2026 07:44:41 GMT",
+          "source": "AI HOT",
+          "sourceType": "aggregator",
+          "description": "新浪发布仅3B参数的VibeThinker-3B，在AIME26等数学编程基准上持平DeepSeek V3.2等大200-333倍的模型，LiveCodeBench超越所有20B以下模型，LeetCode竞赛解决123/128题超过GPT-5.2、Kimi K2.5等。但知识密集型GPQA-Diamond大幅落后。模型基于阿里Qwen2.5-Coder-3B，经SFT、强化学习、自蒸馏等多阶段后训练。研究提出\"参数压缩-覆盖假说\"：逻辑推理依赖少数可压缩模式，而广泛世界知识仍需大参数。模型已开源。 🔗 阅读原文：https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "section": "open_source_top",
+          "channel": "aggregator",
+          "trust": "community",
+          "image": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fthe-decoder.com%2Fwp-content%2Fuploads%2F2026%2F06%2Fvibethinker-3b-01-benchmark-overview.jpg",
+          "video": "",
+          "summary": "新浪发布仅3B参数的VibeThinker-3B，在AIME26等数学编程基准上持平DeepSeek V3.2等大200-333倍的模型，LiveCodeBench超越所有20B以下模型，LeetCode竞赛解决123/128题超过GPT-5.2、Kimi K2.5等。但知识密集型GPQA-Diamond大幅落后。模型基于阿里Qwen2.5-Coder-3B，经SFT、强化学习、自蒸馏等多阶段后训练。研究提出\"参数压缩-覆盖假说\"：逻辑推理依赖少数可压缩模式，而广泛世界知识仍需大参数。模型已开源。 🔗 阅读原文：https://the-decoder.com/sinas-open-model-vibethinker-3b-aims-to-show-reasoning-compresses-well-but-factual-knowledge-doesnt",
+          "summaryZh": "新浪发布仅3B参数的VibeThinker-3B，在AIME26等数学编程基准上持平DeepSeek V3.2等大200-333倍的模型，LiveCodeBench超越所有20B以下模型，LeetCode竞赛解决123/128题超过GPT-5.2、Kimi K2.5等。但知识密集型GPQA-Diamond大幅落后。模型基于阿里Qwen2.5-Coder-3B，经SFT、强化学习、自蒸馏等多阶段后训练。研究提出\"参数压缩-覆盖假说\"：逻辑推理依赖少数可压缩模式，而广泛世界知识仍需大参数。模型已开源。 \udd17 阅读原文：",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "推理能力",
+            "开源"
+          ],
+          "score": 26
+        },
+        {
+          "title": "palmier-io/palmier-pro",
+          "titleZh": "palmier-io/palmier-pro：Palmier Pro 专为 AI",
+          "link": "https://github.com/palmier-io/palmier-pro",
+          "publishedAt": "2026-06-28T18:30:00.000Z",
+          "source": "GitHub Trending Weekly",
+          "sourceType": "open_source",
+          "description": "Palmier Pro The video editor built for AI. Requires macOS 26 (Tahoe) on Apple Silicon English · Español · 简体中文 · 繁體中文 · 日本語 · 한국어 · Tiếng Việt · हिन्दी · বাংলা · العربية · Italiano · Português (Brasil) · Français · Русский · Türkçe Palmier Pro is an open source video editor for Mac. You and your agent can generate and edit videos together inside the timeline. Swift-native video editor We built Palmier Pro from scratch with Swift. The north star is Premiere Pro, with our take on integrating AI into the workflow. Bui",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/palmier-io/palmier-pro/raw/main/assets/palmier-ui.png",
+          "video": "",
+          "summary": "Palmier Pro The video editor built for AI. Requires macOS 26 (Tahoe) on Apple Silicon English · Español · 简体中文 · 繁體中文 · 日本語 · 한국어 · Tiếng Việt · हिन्दी · বাংলা · العربية · Italiano · Português (Brasil) · Français · Русский · Türkçe Palmier Pro is an open source video editor for Mac. You and your agent can generate and edit videos together inside the timeline. Swift-native video editor We built Palmier Pro from scratch with Swift. The north star is Premiere Pro, with our take on integrating AI into the workflow. Bui",
+          "summaryZh": "Palmier Pro 专为 AI 打造的视频编辑器。 Apple Silicon 上需要 macOS 26 (Tahoe) 英语·西班牙语·现代·现代·中文·中文·中文·印地语·孟加拉语·阿拉伯语·意大利语·葡萄牙语（巴西）·法语·语言·土耳其语 Palmier Pro 是一款适用于 Mac 的开源视频编辑器。您和您的代理可以在时间轴内一起生成和编辑视频。 Swift-Native 视频编辑器 我们使用 Swift 从头开始​​构建 Palmier Pro。北极星是 Premiere Pro，我们致力于将人工智能集成到工作流程中。布伊",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "视频"
+          ],
+          "score": 23
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "Ends Tuesday. Top winners each get $ + DGX Spark + Stripe credits.",
+          "titleZh": "周二结束。排名第一的获胜者将分别获得 $ + DGX Spark + Stripe 积分。",
+          "link": "https://x.com/NVIDIAAI/status/2071226846805659716",
+          "publishedAt": "Sun, 28 Jun 2026 13:38:56 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "Ends Tuesday. Top winners each get $ + DGX Spark + Stripe credits. Nous Research @NousResearch The Hermes Agent Accelerated Business Hackathon presented by @NVIDIAAI × @stripe × @NousResearch starts now, for builders making agents that can earn, spend, and run real operations at any scale. Our NVIDIA integrations let your team run agents safely through NemoClaw, quickly on Nemotron 3 Ultra, and intelligently with access to their extensive agent skills. The new Stripe Skills for Hermes let your agent buy what it needs, provision its own SaaS, and pay for the services it uses. We want to see what kind of business tooling you can build on top of this foundation, whether it’s a fully automated company or a framework to accelerate enterprise functions. Prizes: 1st — $10,000 cash + NVIDIA DGX Spark + $5,000 Stripe Credits 2nd — $5,000 cash + NVIDIA DGX Spark + $3,000 Stripe Credits 3rd — $2,500 cash + NVIDIA DGX Spark + $1,000 Stripe Credits To enter: 1) Tweet a 1-3 minute demo video tagging @NousResearch with a short writeup 2) Drop the link in the submissions channel: discord.gg/nousresearch/P… 3) Fill out the submission form: form.typeform.com/to/hpEifIK4 Judged by Nous Research, NVIDIA, and Stripe on usefulness, viability, and presentation. Submissions due EOD Tuesday, June 30. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 17 🔄 30 ❤️ 232 👀 47883 📊 43 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Ends Tuesday. Top winners each get $ + DGX Spark + Stripe credits. Nous Research @NousResearch The Hermes Agent Accelerated Business Hackathon presented by @NVIDIAAI × @stripe × @NousResearch starts now, for builders making agents that can earn, spend, and run real operations at any scale. Our NVIDIA integrations let your team run agents safely through NemoClaw, quickly on Nemotron 3 Ultra, and intelligently with access to their extensive agent skills. The new Stripe Skills for Hermes let your agent buy what it needs, provision its own SaaS, and pay for the services it uses. We want to see what kind of business tooling you can build on top of this foundation, whether it’s a fully automated company or a framework to accelerate enterprise functions. Prizes: 1st — $10,000 cash + NVIDIA DGX Spark + $5,000 Stripe Credits 2nd — $5,000 cash + NVIDIA DGX Spark + $3,000 Stripe Credits 3rd — $2...",
+          "summaryZh": "周二结束。排名第一的获胜者将分别获得 $ + DGX Spark + Stripe 积分。 Nous Research 由 × × 主办的 Hermes 代理加速商业黑客马拉松现已开始，面向开发者打造能够赚取、支出和运行任何规模的实际运营的代理。我们的 NVIDIA 集成可让您的团队通过 NemoClaw 安全地运行代理，在 Nemotron 3 Ultra 上快速运行代理，并通过访问他们丰富的代理技能来智能地运行代理。 Hermes 的新 Stripe Skills 让您的代理商可以购买所需的产品、配置自己的 SaaS 并为其使用的服务付费。我们希望了解您可以在此基础上构建什么样的业务工具，无论是完全自动化的公司还是加速企业功能的框架。奖品： 第一名 - 10,000 美元现金 + NVIDIA DGX Spark + 5,000 美元 Stripe 积分 第二名 - 5,000 美元现金 + NVIDIA DGX Spark + 3,000 美元 Stripe 积分 第三名 - 2 美元...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 61.72770521007172
+        },
+        {
+          "title": "Copilot code review now supports AGENTS.md files. 💡 Here's how to customize for more context-aware...",
+          "titleZh": "Copilot 代码审查现在支持 AGENTS.md 文件",
+          "link": "https://x.com/github/status/2070980235873694138",
+          "publishedAt": "Sat, 27 Jun 2026 21:18:59 GMT",
+          "source": "GitHub(@github)",
+          "sourceType": "social",
+          "description": "Copilot code review now supports AGENTS.md files. 💡 Here's how to customize for more context-aware reviews. ▶️ Your browser does not support the video tag. 🔗 View on Twitter 💬 33 🔄 60 ❤️ 552 👀 78419 📊 109 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-06-29-2070980235873694138.mp4",
+          "summary": "Copilot code review now supports AGENTS.md files. 💡 Here's how to customize for more context-aware reviews. ▶️ Your browser does not support the video tag. 🔗 View on Twitter 💬 33 🔄 60 ❤️ 552 👀 78419 📊 109 ⚡ Powered by xgo.ing",
+          "summaryZh": "Copilot 代码审查现在支持 AGENTS.md 文件。 以下是如何定制更多上下文感知评论。 ▶。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体",
+            "视频"
+          ],
+          "score": 55.414679369228864
+        },
+        {
+          "title": "We made @aiDotEngineer World Fair's official opening video with HyperFrames. And the team will be t...",
+          "titleZh": "我们使用 HyperFrames 制作了 世界博览会的官方开幕视频",
+          "link": "https://x.com/HeyGen/status/2071297326744752317",
+          "publishedAt": "Sun, 28 Jun 2026 18:19:00 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "description": "We made @aiDotEngineer World Fair's official opening video with HyperFrames. And the team will be there live, so find us at our booth, and stick around for @Rames_Jusso and @liu8in 's talk. See you there! Your browser does not support the video tag. 🔗 View on Twitter 💬 21 🔄 7 ❤️ 76 👀 8010 📊 31 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We made @aiDotEngineer World Fair's official opening video with HyperFrames. And the team will be there live, so find us at our booth, and stick around for @Rames_Jusso and @liu8in 's talk. See you there! Your browser does not support the video tag. 🔗 View on Twitter 💬 21 🔄 7 ❤️ 76 👀 8010 📊 31 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们使用 HyperFrames 制作了 世界博览会的官方开幕视频。我们的团队将现场直播，所以请在我们的展位上找到我们，并留下来听 和 的演讲。到时见！。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 54.550095653100776
+        },
+        {
+          "title": "Who's your pick? ⚽️ Comment your favorite card below! We’ll choose the most-loved character and br...",
+          "titleZh": "Kling 发起角色投票，下一支视频将按最高票角色制作",
+          "link": "https://x.com/Kling_ai/status/2071247252568605058",
+          "publishedAt": "Sun, 28 Jun 2026 15:00:01 GMT",
+          "source": "Kling AI(@Kling_ai)",
+          "sourceType": "social",
+          "description": "Who's your pick? ⚽️ Comment your favorite card below! We’ll choose the most-loved character and bring them to life in the next video! Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 0 ❤️ 30 👀 4558 📊 9 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Who's your pick? ⚽️ Comment your favorite card below! We’ll choose the most-loved character and bring them to life in the next video! Your browser does not support the video tag. 🔗 View on Twitter 💬 7 🔄 0 ❤️ 30 👀 4558 📊 9 ⚡ Powered by xgo.ing",
+          "summaryZh": "Kling AI 发起一条**角色投票**互动帖，邀请用户在评论区选择最喜欢的角色卡，团队表示会把**得票最高的角色**做成下一支视频内容。这条信息本身不是产品发布，但能反映视频生成产品在社区运营上越来越强调**角色 IP 共创**和用户参与式选题。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 50.35684115063198
+        },
+        {
+          "title": "Four open-weight models have crossed into territory where they are powering real agentic pipelines. ...",
+          "titleZh": "四种开放重量模型已经进入了为真正的代理管道提供动力的领域。",
+          "link": "https://x.com/OpenRouter/status/2070955518772834479",
+          "publishedAt": "Sat, 27 Jun 2026 19:40:46 GMT",
+          "source": "OpenRouter(@OpenRouterAI)",
+          "sourceType": "social",
+          "description": "Four open-weight models have crossed into territory where they are powering real agentic pipelines. New post in our Insights blog about why companies are choosing them in June: openrouter.ai/blog/insights/… 💬 31 🔄 144 ❤️ 1337 👀 86525 📊 269 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HL2DACRXcAAjEEX.png",
+          "video": "",
+          "summary": "Four open-weight models have crossed into territory where they are powering real agentic pipelines. New post in our Insights blog about why companies are choosing them in June: openrouter.ai/blog/insights/… 💬 31 🔄 144 ❤️ 1337 👀 86525 📊 269 ⚡ Powered by xgo.ing",
+          "summaryZh": "四种开放重量模型已经进入了为真正的代理管道提供动力的领域。我们的 Insights 博客中关于公司为何在 6 月选择它们的新帖子：openrouter.ai/blog/insights/。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 48
+        },
+        {
+          "title": "Tip: OpenRouter continuously runs GPQA and TAU-Bench on most open-weight models and publishes the re...",
+          "titleZh": "提示：OpenRouter 在大多数开放权重模型上持续运行 GPQA 和 TAU-Bench，并发布重新",
+          "link": "https://x.com/OpenRouter/status/2071283228908896655",
+          "publishedAt": "Sun, 28 Jun 2026 17:22:59 GMT",
+          "source": "OpenRouter(@OpenRouterAI)",
+          "sourceType": "social",
+          "description": "Tip: OpenRouter continuously runs GPQA and TAU-Bench on most open-weight models and publishes the results publicly. This informs our AutoExacto meta-benchmark, used by default when routing tool calls. Here, @Parasail_io and @Zai_org rank first: openrouter.ai/z-ai/glm-5.2#p… 💬 11 🔄 14 ❤️ 213 👀 17510 📊 38 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HL6sU60WgAAwOjZ.jpg",
+          "video": "",
+          "summary": "Tip: OpenRouter continuously runs GPQA and TAU-Bench on most open-weight models and publishes the results publicly. This informs our AutoExacto meta-benchmark, used by default when routing tool calls. Here, @Parasail_io and @Zai_org rank first: openrouter.ai/z-ai/glm-5.2#p… 💬 11 🔄 14 ❤️ 213 👀 17510 📊 38 ⚡ Powered by xgo.ing",
+          "summaryZh": "提示：OpenRouter 在大多数开放权重模型上持续运行 GPQA 和 TAU-Bench，并公开发布结果。这通知了我们的 AutoExacto 元基准，在路由工具调用时默认使用。这里， 和 排名第一：openrouter.ai/z-ai/glm-5.2…",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "模型",
+            "评测"
+          ],
+          "score": 42.11798527960049
+        },
+        {
+          "title": "Another case of what I call The Klarna Effect.",
+          "titleZh": "我称之为克拉纳效应的另一个例子。",
+          "link": "https://x.com/GaryMarcus/status/2071026100109734094",
+          "publishedAt": "Sun, 28 Jun 2026 00:21:14 GMT",
+          "source": "Gary Marcus(@GaryMarcus)",
+          "sourceType": "social",
+          "description": "Another case of what I call The Klarna Effect. Hedgie @HedgieMarkets 🦔Ford admitted it had to rehire engineers after replacing them with AI systems that couldn't do the job. The company's VP of hardware engineering said they mistakenly believed AI and adjusted design requirements would produce a high-quality product. Ford has cut over 5,000 workers since 2020 and recalled more cars than any other US automaker this year. The company rehired, newly hired, or promoted 350 experienced engineers to fix the damage. CEO Jim Farley has said AI will replace half of all white-collar workers in the US. My Take Ford fired the engineers, the quality collapsed, and then Ford called the engineers back to fix what broke and train the AI that was supposed to replace them. The VP framed this as a lesson learned. I'd call it something else. Ford planned to use its own employees to build the system that would make them obsolete. The employees left before that could happen. Ford now has the top spot in JD Power's quality ranking for the first time in nearly 20 years, but only after it brought the humans back. The company's response to the whole episode is to add 100,000 more AI-powered tests. Farley still says AI will replace half of white-collar workers. Ford just proved it can't replace 350 engineers without the product falling apart, and the CEO's position hasn't changed. That's the part I can't get past. Hedgie🤗 🔗 View Quoted Tweet 💬 29 🔄 107 ❤️ 757 👀 69246 📊 103 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HL1yf9kXYAAWXG8.png",
+          "video": "",
+          "summary": "Another case of what I call The Klarna Effect. Hedgie @HedgieMarkets 🦔Ford admitted it had to rehire engineers after replacing them with AI systems that couldn't do the job. The company's VP of hardware engineering said they mistakenly believed AI and adjusted design requirements would produce a high-quality product. Ford has cut over 5,000 workers since 2020 and recalled more cars than any other US automaker this year. The company rehired, newly hired, or promoted 350 experienced engineers to fix the damage. C...",
+          "summaryZh": "我称之为克拉纳效应的另一个例子。 Hedgie @HedgieMarkets 福特承认，在用无法完成这项工作的人工智能系统取代工程师后，不得不重新雇用他们。该公司硬件工程副总裁表示，他们错误地认为人工智能和调整设计要求会产生高质量的产品。自 2020 年以来，福特已裁员 5,000 多名，今年召回的汽车数量也超过任何其他美国汽车制造商。该公司重新雇用、新雇用或晋升了 350 名经验丰富的工程师来修复损坏。丙...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 42
+        },
+        {
+          "title": "Moving bits to and from memory. Because of parasitic capacitance+resistance of the wires. The bigger...",
+          "titleZh": "将位移入或移出内存。由于导线的寄生电容+电阻",
+          "link": "https://x.com/ylecun/status/2070938749975056399",
+          "publishedAt": "Sat, 27 Jun 2026 18:34:08 GMT",
+          "source": "Yann LeCun(@ylecun)",
+          "sourceType": "social",
+          "description": "Moving bits to and from memory. Because of parasitic capacitance+resistance of the wires. The bigger the memory, the longer the wires. The main trick is to organize the memory hierarchically: registers, small on-chip SRAM, caches of various types, and external RAM. It's all because we have to use hardware multiplexing: reusing the same multiply-accumulate unit for multiple parts of the network. 💬 21 🔄 32 ❤️ 766 👀 54156 📊 108 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Moving bits to and from memory. Because of parasitic capacitance+resistance of the wires. The bigger the memory, the longer the wires. The main trick is to organize the memory hierarchically: registers, small on-chip SRAM, caches of various types, and external RAM. It's all because we have to use hardware multiplexing: reusing the same multiply-accumulate unit for multiple parts of the network. 💬 21 🔄 32 ❤️ 766 👀 54156 📊 108 ⚡ Powered by xgo.ing",
+          "summaryZh": "将位移入或移出内存。由于导线的寄生电容+电阻。内存越大，线越长。主要技巧是分层组织存储器：寄存器、小型片上 SRAM、各种类型的缓存和外部 RAM。这都是因为我们必须使用硬件复用：为网络的多个部分重复使用相同的乘法累加单元。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [],
+          "score": 40.019113914599714
+        },
+        {
+          "title": "因为黄叔是重度知识工作者 需要微信这个Agent入口快速讨论 所以我把这个入口交回了Hermes 不过接入了flomo MCP 让每次Hermes保存到长期记忆的 以及手动触发“保存到flomo”...",
+          "titleZh": "因为黄叔是重度知识工作者 需要微信这个Agent入口快速讨论 所以我把这个入口交回了Hermes 不过接入了flomo MCP 让每次Hermes保存到长期记忆",
+          "link": "https://x.com/PMbackttfuture/status/2071057945807253720",
+          "publishedAt": "Sun, 28 Jun 2026 02:27:47 GMT",
+          "source": "AI产品黄叔(@PMbackttfuture)",
+          "sourceType": "social",
+          "description": "因为黄叔是重度知识工作者 需要微信这个Agent入口快速讨论 所以我把这个入口交回了Hermes 不过接入了flomo MCP 让每次Hermes保存到长期记忆的 以及手动触发“保存到flomo”的内容 都同步保存到flomo 以及立即触发即时增强功能 去flomo/Hermes记忆里找相关知识点 马上丢给我相关的笔记内容 帮助我更好的思考🤔 AI产品黄叔 @PMbackttfuture flomo Agent重度用了一阵 说几点自己的理解 1 关键是降低记录发生前那0.5s的摩擦 2 不是flomo AI化，是回到自己的原点 3 对手不是Notion/ob，是微信文件传输助手 4 不是给重度知识工作者用的，是给普通人的 5 记录更容易后，缺的是脉络 6 AI洞察是flomo多年卡片结构的“迟到红利” 7 DeepSeek V4和王登科，推了flomo一把 8 Agent功能少，反而更可信 9 付费理由是“一个可信的记忆容器” 10 flomo Agent + Codex/Hermes，可以形成“记忆-行动”双系统 🔗 View Quoted Tweet 💬 3 🔄 0 ❤️ 7 👀 3843 📊 5 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HL3Vr-TW0AASS7n.jpg",
+          "video": "",
+          "summary": "因为黄叔是重度知识工作者 需要微信这个Agent入口快速讨论 所以我把这个入口交回了Hermes 不过接入了flomo MCP 让每次Hermes保存到长期记忆的 以及手动触发“保存到flomo”的内容 都同步保存到flomo 以及立即触发即时增强功能 去flomo/Hermes记忆里找相关知识点 马上丢给我相关的笔记内容 帮助我更好的思考🤔 AI产品黄叔 @PMbackttfuture flomo Agent重度用了一阵 说几点自己的理解 1 关键是降低记录发生前那0.5s的摩擦 2 不是flomo AI化，是回到自己的原点 3 对手不是Notion/ob，是微信文件传输助手 4 不是给重度知识工作者用的，是给普通人的 5 记录更容易后，缺的是脉络 6 AI洞察是flomo多年卡片结构的“迟到红利” 7 DeepSeek V4和王登科，推了flomo一把 8 Agent功能少，反而更可信 9 付费理由是“一个可信的记忆容器” 10 flomo Agent + Codex/Hermes，可以形成“记忆-行动”双系统 🔗 View Quoted Tweet 💬 3 🔄 0 ❤️ 7 👀 3843 📊 5 ⚡...",
+          "summaryZh": "因为黄叔是重度知识工作者 需要微信这个Agent入口快速讨论 所以我把这个入口交回了Hermes 不过接入了flomo MCP 让每次Hermes保存到长期记忆的 以及手动触发“保存到flomo”的内容 都同步保存到flomo 以及立即触发即时增强功能 去flomo/Hermes记忆里找相关知识点 马上丢给我相关的笔记内容 帮助我更好的思考🤔 AI产品黄叔 flomo Agent重度用了一阵 说几点自己的理解 1 关键是降低记录发生前那0.5s的摩擦 2 不是flomo AI化，是回到自己的原点 3 对手不是Notion/ob，是微信文件传输助手 4 不是给重度知识工作者用的，是给普通人的 5 记录更容易后，缺的是脉络 6 AI洞察是flomo多年卡片结构的“迟到红利” 7 DeepSeek V4和王登科，推了flomo一把 8 Agent功能少，反而更可信 9 付费理由是“一个可信的记忆容器” 10 flomo Agent + Codex/Hermes，可以形成“记忆-行动”双系统 \udd17 View Quoted Tweet 3 0 7 3843 5 ⚡。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 38.5915950077905
+        },
+        {
+          "title": "🤡",
+          "titleZh": "Acyn @Acyn FOX 发表道歉：Kevin O'Leary 作为嘉宾出现在节目中，讨论了围绕他计划的犹他州数据中心项目正在进行的争议",
+          "link": "https://x.com/GaryMarcus/status/2071048450310017476",
+          "publishedAt": "Sun, 28 Jun 2026 01:50:03 GMT",
+          "source": "Gary Marcus(@GaryMarcus)",
+          "sourceType": "social",
+          "description": "🤡 Acyn @Acyn FOX issues an apology: Kevin O'Leary appeared as a guest on the show and discussed the ongoing controversy surrounding his planned data center project in Utah and made claims relating to the opponents of his product. Mr. O'Leary has now corrected the record and explained he has “no evidence” that they are funded by the Chinese communist party. Fox News media is aware of no evidence they are funded by or acting in the direction of or were in coordination with Chinese interests in opposing Mr. O'Leary's project. Fox News Media also apologizes for the error. Your browser does not support the video tag. 🔗 View on Twitter 🔗 View Quoted Tweet 💬 9 🔄 9 ❤️ 79 👀 10852 📊 13 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "",
+          "video": "./media/2026-06-29-2071048450310017476.mp4",
+          "summary": "🤡 Acyn @Acyn FOX issues an apology: Kevin O'Leary appeared as a guest on the show and discussed the ongoing controversy surrounding his planned data center project in Utah and made claims relating to the opponents of his product. Mr. O'Leary has now corrected the record and explained he has “no evidence” that they are funded by the Chinese communist party. Fox News media is aware of no evidence they are funded by or acting in the direction of or were in coordination with Chinese interests in opposing Mr. O'Lear...",
+          "summaryZh": "Acyn @Acyn FOX 发表道歉：Kevin O'Leary 作为嘉宾出现在节目中，讨论了围绕他计划的犹他州数据中心项目正在进行的争议，并对他的产品的反对者提出了索赔。奥利里先生现已更正了记录，并解释说，他“没有证据”表明它们是由中国共产党资助的。福克斯新闻媒体不知道有任何证据表明他们受到中国利益集团的资助、按照中国利益集团的指示行事或与中国利益集团协调反对奥利尔先生……",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "视频"
+          ],
+          "score": 36.66568465248286
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "我遇到了第一个真正想买的陪伴机器人！｜对话世博：越伴动力创始人【公路播客】",
+          "titleZh": "我遇到了第一个真正想买的陪伴机器人！｜对话世博：越伴动力创始人【公路播客】",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a3f281f9d2f5743683e81b2",
+          "publishedAt": "2026-06-28T16:00:00.000Z",
+          "source": "十字路口Crossing",
+          "sourceType": "podcast",
+          "description": "听《十字路口Crossing》上小宇宙。 AI 正在给各行各业带来改变，我们在「十字路口」关注变革与机会，寻找、访谈和凝聚 AI 时代的「积极行动者」，和他们一起，探索和拥抱新变化、新的可能性。 「十字路口」是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FkChn3p67SN3Oot01dUZGRoQUaJt.png",
+          "video": "",
+          "summary": "听《十字路口Crossing》上小宇宙。 AI 正在给各行各业带来改变，我们在「十字路口」关注变革与机会，寻找、访谈和凝聚 AI 时代的「积极行动者」，和他们一起，探索和拥抱新变化、新的可能性。 「十字路口」是乔布斯对苹果公司的一个比喻，形容它站在科技与人文的十字路口，伟大的产品往往诞生在这里。",
+          "summaryZh": "**讲了什么**：这一期来自 **十字路口Crossing**，主题是「我遇到了第一个真正想买的陪伴机器人！｜对话世博：越伴动力创始人【公路播客】」。\ude97 这是一期「公路播客」——我们把播客搬上了车，边开边聊，氛围松弛下来，往往能聊出平时聊不出的故事和想法。\udea5 如果你关注具身智能，大概率已经见过太多\"参数很强\"的机器人。本周「十字路口」的嘉宾是越伴动力创始人世博同学。他被一些人评价为“少年版稚晖君”：从大一开始就手搓过 30 多款机器人，机械/硬件/软件/运控几乎全栈。⁠ 这次创业，世博选择不设计“有用”的机器人，而是要设计一个\"能长期生活在家里\"的生命。他们刚发布的产品「小伴」不会说人话，却会发出一种像\"外星语\"一样的声音；它会撒娇、会委屈、会拒绝你——但奇怪的是，这些\"不听话\"的瞬间，反而让我觉得：它可真像个生命啊！ **简介要点**： - \udea5 如果你关注具身智能，大概率已经见过太多\"参数很强\"的机器人。 - 他被一些人评价为“少年版稚晖君”：从大一开始就手搓过 30 多款机器人，机械/硬件/软件/运控几乎全栈。 - ⁠ 这次创业，世博选择不设计“有用”的机器人，而是要设计一个\"能长期生活在家里\"的生命。 - 他们刚发布的产品「小伴」不会说人话，却会发出一种像\"外星语\"一样的声音；它会撒娇、会委屈、会拒绝你——但奇怪的是，这些\"不听话\"的瞬间，反而让我觉得：它可真像个生命啊！",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "UFO是机器人？ | 加来道雄 | 永生 | 端粒 | 万物理论 | 弦理论 | UAP目击事件",
+          "titleZh": "UFO是机器人？ | 加来道雄 | 永生 | 端粒 | 万物理论 | 弦理论 | UAP目击事件",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a35f86475ba9e0c533628da",
+          "publishedAt": "2026-06-27T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「UFO是机器人？ | 加来道雄 | 永生 | 端粒 | 万物理论 | 弦理论 | UAP目击事件」。永生到底离我们有多近？宇宙是不是一个精心设计的模拟程序呢？外星文明真的存在吗？为什么说量子计算机可能会颠覆全球金融体系？而这一切的答案，都来自于一位真正的物理学巨擘，加来道雄（Michio Kaku），他作为弦理论的核心研究者，深耕弦理论研究几十年，而弦理论，正是爱因斯坦晚年耗费30年，都没能完成的万物理论的核心候选方向。5月21日，加来道雄参加了CEO日记的一期播客节目，今天，我们就来给大家分享一下这期大开脑洞的内容。原视频来自：",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "OpenAI Blog",
+      "url": "https://openai.com/news/rss.xml",
+      "error": "fetch failed"
+    },
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "OpenAI Developers(@OpenAIDevs)",
+      "url": "https://api.xgo.ing/rss/user/971dc1fc90da449bac23e5fad8a33d55",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/971dc1fc90da449bac23e5fad8a33d55"
+    },
+    {
+      "source": "ChatGPT(@ChatGPTapp)",
+      "url": "https://api.xgo.ing/rss/user/f7992687b8d74b14bf2341eb3a0a5ec4",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/f7992687b8d74b14bf2341eb3a0a5ec4"
+    },
+    {
+      "source": "Sam Altman(@sama)",
+      "url": "https://api.xgo.ing/rss/user/e30d4cd223f44bed9d404807105c8927",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/e30d4cd223f44bed9d404807105c8927"
+    },
+    {
+      "source": "Anthropic(@AnthropicAI)",
+      "url": "https://api.xgo.ing/rss/user/fc28a211471b496682feff329ec616e5",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/fc28a211471b496682feff329ec616e5"
+    },
+    {
+      "source": "Dario Amodei(@DarioAmodei)",
+      "url": "https://api.xgo.ing/rss/user/49666ce6fe3e4cb786c6574684542ec5",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/49666ce6fe3e4cb786c6574684542ec5"
+    },
+    {
+      "source": "Alex Albert(@alexalbert__)",
+      "url": "https://api.xgo.ing/rss/user/524525de0d69407b80f0a7d891fdc8df",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/524525de0d69407b80f0a7d891fdc8df"
+    },
+    {
+      "source": "Greg Brockman(@gdb)",
+      "url": "https://api.xgo.ing/rss/user/af19d054e26a49129f23abfa82d9e268",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/af19d054e26a49129f23abfa82d9e268"
+    },
+    {
+      "source": "Microsoft Research(@MSFTResearch)",
+      "url": "https://api.xgo.ing/rss/user/61f4b78554fb4b8fa5653ec5d924d15a",
+      "error": "请求超时（15000ms）：https://api.xgo.ing/rss/user/61f4b78554fb4b8fa5653ec5d924d15a"
+    }
+  ],
+  "summaryBullets": [
+    "**Character.AI** 在移动端为 **Recent Chats** 加入**无限滚动**，历史聊天可一直追溯到多年前，陪伴类产品开始把长期对话资产做成核心体验。",
+    "**Ornith-1.0** 已上线 **Ollama**，覆盖从 **90 亿到 3970 亿参数** 的多个规格，并公布一组面向智能体编程的代码与仓库任务评测成绩。",
+    "**GitHub Copilot 代码审查**开始支持读取 **AGENTS.md**，意味着团队可以把仓库内的协作规范直接喂给审查流程，提升评论上下文感知能力。",
+    "**OpenRouter** 认为已有 **4 个开放权重模型** 进入可支撑真实 agent pipeline 的阶段，开源模型在生产级智能体场景的可用性继续上探。"
+  ]
+}
