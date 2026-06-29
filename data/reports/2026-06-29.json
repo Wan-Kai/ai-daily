@@ -37,7 +37,7 @@
         },
         {
           "title": "谢谢指正",
-          "titleZh": "谢谢指正 核桃 推文有误，GPT4.5是彻底下线了，包括api，api在大约一年前就下线了，web是很长时间以来唯一能用GPT4.5的渠道 \udd17 View",
+          "titleZh": "GPT-4.5 已彻底下线，Web 曾是最后可用入口",
           "link": "https://x.com/dotey/status/2070961932480188467",
           "publishedAt": "Sat, 27 Jun 2026 20:06:15 GMT",
           "source": "宝玉(@dotey)",
@@ -49,7 +49,7 @@
           "image": "https://pbs.twimg.com/media/HL2HY2LaoAATEM6.jpg",
           "video": "",
           "summary": "谢谢指正 核桃 @1gedahetao @dotey 推文有误，GPT4.5是彻底下线了，包括api，api在大约一年前就下线了，web是很长时间以来唯一能用GPT4.5的渠道 🔗 View Quoted Tweet 💬 1 🔄 1 ❤️ 7 👀 8564 📊 2 ⚡ Powered by xgo.ing",
-          "summaryZh": "谢谢指正 核桃 推文有误，GPT4.5是彻底下线了，包括api，api在大约一年前就下线了，web是很长时间以来唯一能用GPT4.5的渠道 \udd17 View Quoted Tweet。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "summaryZh": "宝玉转述更正称，**GPT-4.5** 现在已经**彻底下线**：API 大约在一年前就已停用，而 **Web** 端此前一直是最后还能使用这一模型的入口。这个提醒值得关注，因为很多团队在盘点旧模型兼容性时，容易把网页可用误当成产品仍在维护；一旦模型完全退出，相关提示词、演示材料和内部流程都需要同步更新。",
           "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
           "tags": [
             "API"
