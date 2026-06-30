@@ -1,0 +1,842 @@
+{
+  "date": "2026-07-01",
+  "generatedAt": "2026-06-30T18:30:00.000Z",
+  "title": "AI 日报 - 2026-07-01",
+  "stats": {
+    "sources": 135,
+    "fetched": 988,
+    "emailCandidates": 0,
+    "selected": 35,
+    "failures": 2
+  },
+  "sections": [
+    {
+      "id": "product_updates",
+      "title": "产品快讯",
+      "items": [
+        {
+          "title": "We’re shipping 2 major releases: 🔘 Nano Banana 2 Lite: our fastest and cheapest Gemini Image model...",
+          "titleZh": "Google 发布 Nano Banana 2 Lite 与 Gemini Omni Flash",
+          "link": "https://x.com/GoogleDeepMind/status/2071988044878516466",
+          "publishedAt": "Tue, 30 Jun 2026 16:03:40 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "description": "We’re shipping 2 major releases: 🔘 Nano Banana 2 Lite: our fastest and cheapest Gemini Image model 🔘 Gemini Omni Flash: now available via the Gemini API and in @GoogleAIStudio to help developers generate and edit high-quality videos. Your browser does not support the video tag. 🔗 View on Twitter 💬 40 🔄 74 ❤️ 516 👀 76238 📊 100 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-07-01-2071988044878516466.mp4",
+          "summary": "We’re shipping 2 major releases: 🔘 Nano Banana 2 Lite: our fastest and cheapest Gemini Image model 🔘 Gemini Omni Flash: now available via the Gemini API and in @GoogleAIStudio to help developers generate and edit high-quality videos. Your browser does not support the video tag. 🔗 View on Twitter 💬 40 🔄 74 ❤️ 516 👀 76238 📊 100 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们将发布 2 个主要版本： Nano Banana 2 Lite：我们最快、最便宜的 Gemini Image 模型 Gemini Omni Flash：现在可通过 Gemini API 和 获取，以帮助开发人员生成和编辑高质量视频。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "开发者工具",
+            "视频"
+          ],
+          "score": 83.54013434264967
+        },
+        {
+          "title": "We’re shipping two major updates to streamline your creative workflow, allowing you to generate high...",
+          "titleZh": "Google 用 Nano Banana 2 Lite 和 Gemini Omni Flash 打通图像到视频工作流",
+          "link": "https://x.com/GoogleAI/status/2071989058952188054",
+          "publishedAt": "Tue, 30 Jun 2026 16:07:42 GMT",
+          "source": "Google AI(@GoogleAI)",
+          "sourceType": "social",
+          "description": "We’re shipping two major updates to streamline your creative workflow, allowing you to generate high-speed images with one model and then instantly animate them with the other—all at a fraction of the cost 🍌⚡️ 1️⃣ Introducing Nano Banana 2 Lite: Our fastest and most cost-efficient Gemini Image model yet delivers text-to-image outputs in under 4 seconds. Now available via the Gemini API and Google AI Studio, and rolling out soon across @NotebookLM , @FlowbyGoogle , @geminiapp , @stitchbygoogle , Google Search and @GooglePhotos . 2️⃣ Gemini Omni Flash in Public Preview: Our natively multimodal model for cost-efficient video generation and conversational editing. Now available via the Gemini API, @googleaistudio , and Gemini Enterprise Agent Platform so you can integrate the model into your workflow. While exciting on their own, the real magic happens when you build using these models together. Watch how our interior design demo integrates Nano Banana 2 Lite and Omni to instantly reimagine any space. Upload a photo, swipe through tailored design concepts, and see Omni bring the details to life in cinematic motion. Try out the demo app in AI Studio: goo.gle/443xPqw G Your browser does not support the video tag. 🔗 View on Twitter 💬 18 🔄 24 ❤️ 288 👀 37292 📊 53 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-07-01-2071989058952188054.mp4",
+          "summary": "We’re shipping two major updates to streamline your creative workflow, allowing you to generate high-speed images with one model and then instantly animate them with the other—all at a fraction of the cost 🍌⚡️ 1️⃣ Introducing Nano Banana 2 Lite: Our fastest and most cost-efficient Gemini Image model yet delivers text-to-image outputs in under 4 seconds. Now available via the Gemini API and Google AI Studio, and rolling out soon across @NotebookLM , @FlowbyGoogle , @geminiapp , @stitchbygoogle , Google Search and @GooglePhotos . 2️⃣ Gemini Omni Flash in Public Preview: Our natively multimodal model for cost-efficient video generation and conversational editing. Now available via the Gemini API, @googleaistudio , and Gemini Enterprise Agent Platform so you can integrate the model into your workflow. While exciting on their own, the real magic happens when you build using these models t...",
+          "summaryZh": "我们将发布两项重大更新，以简化您的创意工作流程，让您可以使用一个模型生成高速图像，然后立即使用另一个模型为其制作动画，而所有这些都只需一小部分成本⚡ 1⃣ 隆重推出 Nano Banana 2 Lite：我们最快且最具成本效益的 Gemini Image 模型可在 4 秒内提供文本到图像的输出。现已通过 Gemini API 和 Google AI Studio 提供，并将很快在、、、、 Google Search 和 上推出。 2⃣ Gemini Omni Flash 公开预览版：我们的原生多模式模型，用于经济高效的视频生成和对话式编辑。现在可通过 Gemini API、 和 Gemini Enterprise Agent Platform 获取，以便您可以将该模型集成到您的工作流程中。虽然它们本身就令人兴奋，但当您使用这些模型进行构建时，真正的魔力就会发生......",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "API",
+            "智能体",
+            "多模态",
+            "视频"
+          ],
+          "score": 80.77566597108427
+        },
+        {
+          "title": "Introducing Claude Sonnet 5, our most agentic Sonnet yet. It makes plans, uses tools like browsers ...",
+          "titleZh": "Anthropic 发布 Claude Sonnet 5，主打更强代理执行能力",
+          "link": "https://x.com/claudeai/status/2072017450611142835",
+          "publishedAt": "Tue, 30 Jun 2026 18:00:31 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "description": "Introducing Claude Sonnet 5, our most agentic Sonnet yet. It makes plans, uses tools like browsers and terminals, and runs autonomously at a level that just a few months ago required larger and more expensive models. Your browser does not support the video tag. 🔗 View on Twitter 💬 328 🔄 451 ❤️ 3054 👀 103102 📊 655 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-07-01-2072017450611142835.mp4",
+          "summary": "Introducing Claude Sonnet 5, our most agentic Sonnet yet. It makes plans, uses tools like browsers and terminals, and runs autonomously at a level that just a few months ago required larger and more expensive models. Your browser does not support the video tag. 🔗 View on Twitter 💬 328 🔄 451 ❤️ 3054 👀 103102 📊 655 ⚡ Powered by xgo.ing",
+          "summaryZh": "隆重推出Claude十四行诗 5，这是我们迄今为止最具活力的十四行诗。它制定计划，使用浏览器和终端等工具，并以几个月前需要更大、更昂贵的模型的水平自主运行。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "视频"
+          ],
+          "score": 76
+        },
+        {
+          "title": "We’re launching Nano Banana 2 Lite, our fastest most cost-efficient Gemini Image model yet, optimize...",
+          "titleZh": "我们正在推出 Nano Banana 2 Lite，这是迄今为止最快、最具成本效益的 Gemini Image 模型，针对高吞吐量开发人员流程进行了优化",
+          "link": "https://x.com/googleaidevs/status/2071988366925521075",
+          "publishedAt": "Tue, 30 Jun 2026 16:04:57 GMT",
+          "source": "Google AI Developers(@googleaidevs)",
+          "sourceType": "social",
+          "description": "We’re launching Nano Banana 2 Lite, our fastest most cost-efficient Gemini Image model yet, optimized for high-throughput developer pipelines. Alongside it, Gemini Omni Flash, our video generation and editing model is now available to developers. Both models are accessible today via @GoogleAIStudio and the Gemini API to help you scale your workflows 👇 Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 5 ❤️ 58 👀 5312 📊 13 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-07-01-2071988366925521075.mp4",
+          "summary": "We’re launching Nano Banana 2 Lite, our fastest most cost-efficient Gemini Image model yet, optimized for high-throughput developer pipelines. Alongside it, Gemini Omni Flash, our video generation and editing model is now available to developers. Both models are accessible today via @GoogleAIStudio and the Gemini API to help you scale your workflows 👇 Your browser does not support the video tag. 🔗 View on Twitter 💬 3 🔄 5 ❤️ 58 👀 5312 📊 13 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们正在推出 Nano Banana 2 Lite，这是迄今为止最快、最具成本效益的 Gemini Image 模型，针对高吞吐量开发人员流程进行了优化。除此之外，我们的视频生成和编辑模型 Gemini Omni Flash 现已向开发人员开放。现在可以通过 @GoogleAIStudio 和 Gemini API 访问这两种模型，以帮助您扩展工作流程",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "模型",
+            "API",
+            "开发者工具",
+            "视频"
+          ],
+          "score": 74.82978026252843
+        },
+        {
+          "title": "Now introducing Replit Desktop, a seamless way to multitask and get the best of Replit right on your...",
+          "titleZh": "现在推出 Replit Desktop，这是一种无缝的多任务处理方式，可以在桌面上充分利用 Replit",
+          "link": "https://x.com/Replit/status/2071666037733605646",
+          "publishedAt": "Mon, 29 Jun 2026 18:44:07 GMT",
+          "source": "Replit ⠕(@Replit)",
+          "sourceType": "social",
+          "description": "Now introducing Replit Desktop, a seamless way to multitask and get the best of Replit right on your Desktop. Supported for both Windows and Mac. Your browser does not support the video tag. 🔗 View on Twitter 💬 26 🔄 46 ❤️ 450 👀 72557 📊 102 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-07-01-2071666037733605646.mp4",
+          "summary": "Now introducing Replit Desktop, a seamless way to multitask and get the best of Replit right on your Desktop. Supported for both Windows and Mac. Your browser does not support the video tag. 🔗 View on Twitter 💬 26 🔄 46 ❤️ 450 👀 72557 📊 102 ⚡ Powered by xgo.ing",
+          "summaryZh": "现在推出 Replit Desktop，这是一种无缝的多任务处理方式，可以在桌面上充分利用 Replit。 Windows 和 Mac 均受支持。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 68.6832936024268
+        },
+        {
+          "title": "Git 2.55 is here with a new incremental repacking strategy, more flexible ways to edit history, and ...",
+          "titleZh": "Git 2.55 带来了新的增量重新打包策略、更灵活的编辑历史记录的方式等等",
+          "link": "https://x.com/github/status/2071672563441279129",
+          "publishedAt": "Mon, 29 Jun 2026 19:10:03 GMT",
+          "source": "GitHub(@github)",
+          "sourceType": "social",
+          "description": "Git 2.55 is here with a new incremental repacking strategy, more flexible ways to edit history, and much more. Check out our highlights from the latest release ✨ github.blog/open-source/gi… 💬 20 🔄 110 ❤️ 865 👀 92779 📊 122 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Git 2.55 is here with a new incremental repacking strategy, more flexible ways to edit history, and much more. Check out our highlights from the latest release ✨ github.blog/open-source/gi… 💬 20 🔄 110 ❤️ 865 👀 92779 📊 122 ⚡ Powered by xgo.ing",
+          "summaryZh": "Git 2.55 带来了新的增量重新打包策略、更灵活的编辑历史记录的方式等等。查看最新版本的亮点✨ github.blog/open-source/gi。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "产品发布",
+            "开源"
+          ],
+          "score": 65
+        },
+        {
+          "title": "Seed Audio 1.0 is now available on Runway for all paid plans. Generate up to 120 seconds of dynamic ...",
+          "titleZh": "Seed Audio 1.0 现已在 Runway 上推出，适用于所有付费计划",
+          "link": "https://x.com/runwayml/status/2071713997464694897",
+          "publishedAt": "Mon, 29 Jun 2026 21:54:42 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "description": "Seed Audio 1.0 is now available on Runway for all paid plans. Generate up to 120 seconds of dynamic speech, sound design and music with simple text prompts. Try it now at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 9 🔄 17 ❤️ 164 👀 17759 📊 38 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-07-01-2071713997464694897.mp4",
+          "summary": "Seed Audio 1.0 is now available on Runway for all paid plans. Generate up to 120 seconds of dynamic speech, sound design and music with simple text prompts. Try it now at the link below. Your browser does not support the video tag. 🔗 View on Twitter 💬 9 🔄 17 ❤️ 164 👀 17759 📊 38 ⚡ Powered by xgo.ing",
+          "summaryZh": "Seed Audio 1.0 现已在 Runway 上推出，适用于所有付费计划。通过简单的文本提示生成长达 120 秒的动态语音、声音设计和音乐。现在就通过下面的链接尝试一下。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 64.75464522922611
+        },
+        {
+          "title": "Introducing Procedures in ElevenAgents - packaged playbooks that let you define how agents operate. ...",
+          "titleZh": "介绍 ElevenAgents 中的程序 - 打包的剧本，可让您定义代理的操作方式",
+          "link": "https://x.com/ElevenLabs/status/2071962893021491221",
+          "publishedAt": "Tue, 30 Jun 2026 14:23:43 GMT",
+          "source": "ElevenLabs(@elevenlabsio)",
+          "sourceType": "social",
+          "description": "Introducing Procedures in ElevenAgents - packaged playbooks that let you define how agents operate. Just as employees follow standard operating procedures (SOPs), Procedures provide agents with a set of instructions to follow in common scenarios. 💬 7 🔄 6 ❤️ 80 👀 10021 📊 21 ⚡ Powered by xgo.ing",
+          "section": "product_updates",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HMEWiFlXIAA6WWv.jpg",
+          "video": "",
+          "summary": "Introducing Procedures in ElevenAgents - packaged playbooks that let you define how agents operate. Just as employees follow standard operating procedures (SOPs), Procedures provide agents with a set of instructions to follow in common scenarios. 💬 7 🔄 6 ❤️ 80 👀 10021 📊 21 ⚡ Powered by xgo.ing",
+          "summaryZh": "介绍 ElevenAgents 中的程序 - 打包的剧本，可让您定义代理的操作方式。正如员工遵循标准操作程序 (SOP) 一样，程序为代理提供了一组在常见情况下需要遵循的说明。这类更新通常会影响产品能力、可用性或接入方式，建议关注支持范围、价格/配额与上线节奏。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 63.22865774014474
+        }
+      ]
+    },
+    {
+      "id": "research_frontier",
+      "title": "研究前线",
+      "items": [
+        {
+          "title": "Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning",
+          "titleZh": "Video-MME-Logical：视频时态逻辑推理的受控诊断基准",
+          "link": "https://huggingface.co/papers/2606.27828",
+          "publishedAt": "2026-06-30T18:30:00.000Z",
+          "source": "Hugging Face Daily Papers",
+          "sourceType": "research",
+          "description": "Paper page - Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up project page: https://mrakas.github.io/video-mme-logical github repo: https://github.co",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/papers/2606.27828/gradient.png",
+          "video": "",
+          "summary": "Paper page - Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning Hugging Face Models Datasets Spaces Buckets new Docs Enterprise Pricing Website Tasks HuggingChat Collections Languages Organizations Community Blog Posts Daily Papers Learn Discord Forum GitHub Solutions Team & Enterprise Hugging Face PRO Enterprise Support Inference Providers Inference Endpoints Storage Buckets Log In Sign Up project page: https://mrakas.github.io/video-mme-logical github repo: https://github.co",
+          "summaryZh": "**核心结论** 「Video-MME-Logical：视频时态逻辑推理的受控诊断基准」要解决的问题是：纸质页面 - Video-MME-Logical：视频时态逻辑推理的受控诊断基准 Hugging Face 模型 数据集 空间 Buckets 新文档 企业定价 网站任务 HuggingChat 集合 语言 组织 社区博客文章 每日论文 学习 Discord 论坛 GitHub 解决方案团队和企业 Hugging Face PRO 企业支持 推理提供商 推理端点 存储桶 登录 注册 项目页面：github 存储库：。 **支撑证据** 摘要与公开信息显示：纸质页面 - Video-MME-Logical：视频时态逻辑推理的受控诊断基准 Hugging Face 模型 数据集 空间 Buckets 新文档 企业定价 网站任务 HuggingChat 集合 语言 组织 社区博客文章 每日论文 学习 Discord 论坛 GitHub 解决方案团队和企业 Hugging Face PRO 企业支持 推理提供商 推理端点 存储桶 登录 注册 项目页面：github 存储库： **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "推理能力",
+            "评测",
+            "论文",
+            "视频"
+          ],
+          "score": 39
+        },
+        {
+          "title": "EXPLORE-Bench: Egocentric Scene Prediction with Long-Horizon Reasoning",
+          "titleZh": "EXPLORE-Bench：利用长视野推理进行以自我为中心的场景预测",
+          "link": "https://arxiv.org/abs/2603.09731",
+          "publishedAt": "Tue, 30 Jun 2026 00:00:00 -0400",
+          "source": "arXiv cs.AI",
+          "sourceType": "research",
+          "description": "arXiv:2603.09731v3 Announce Type: replace-cross Abstract: Multimodal large language models (MLLMs) are increasingly considered as a foundation for embodied agents, yet it remains unclear whether they can reliably reason about the long-term physical consequences of actions from an egocentric viewpoint. We study this gap through a new task, Egocentric Scene Prediction with LOng-horizon REasoning: given an initial-scene image and a sequence of atomic action descriptions, a model is asked to predict the final scene after all actions are executed. To enable systematic evaluation, we introduce EXPLORE-Bench, a benchmark curated from real first-person videos spanning diverse scenarios. Each instance pairs long action sequences with structured final-scene annotations, including object categories, visual attributes, and inter-object relations, which supports fine-grained, quantitative assessment. Experiments on a range of proprietary and open-source MLLMs reveal a significant performance gap to humans, indicating that long-horizon egocentric reasoning remains a major challenge. We further analyze test-time scaling via stepwise reasoning and show that decomposing long action sequences can improve performance to some extent, while incurring non-trivial computational overhead. Overall, EXPLORE-Bench provides a principled testbed for measuring and advancing long-horizon reasoning for egocentric embodied perception.",
+          "section": "research_frontier",
+          "channel": "paper_feed",
+          "trust": "rank",
+          "image": "",
+          "video": "",
+          "summary": "arXiv:2603.09731v3 Announce Type: replace-cross Abstract: Multimodal large language models (MLLMs) are increasingly considered as a foundation for embodied agents, yet it remains unclear whether they can reliably reason about the long-term physical consequences of actions from an egocentric viewpoint. We study this gap through a new task, Egocentric Scene Prediction with LOng-horizon REasoning: given an initial-scene image and a sequence of atomic action descriptions, a model is asked to predict the final scene...",
+          "summaryZh": "**核心结论** 「EXPLORE-Bench：利用长视野推理进行以自我为中心的场景预测」要解决的问题是：多模态大语言模型 (MLLM) 越来越多地被认为是具体代理的基础，但目前尚不清楚它们是否能够从自我中心的角度可靠地推理出行为的长期物理后果。我们通过一项新任务“长视野推理的自我中心场景预测”来研究这一差距：给定初始场景图像和一系列原子动作描述，要求模型预测最终场景。 **支撑证据** 摘要与公开信息显示：arXiv:2603.09731v3 多模态大语言模型 (MLLM) 越来越多地被认为是具体代理的基础，但目前尚不清楚它们是否能够从自我中心的角度可靠地推理出行为的长期物理后果。我们通过一项新任务“长视野推理的自我中心场景预测”来研究这一差距：给定初始场景图像和一系列原子动作描述，要求模型预测最终场景...... **我的判断** 关注它的评测覆盖范围、对比基线是否充分、是否开源代码/模型与可复现细节；若后续有更完整实验或开源材料，再决定是否跟进落地。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理能力",
+            "多模态",
+            "评测"
+          ],
+          "score": 39
+        },
+        {
+          "title": "SkillOpt: Agent skills as trainable parameters",
+          "titleZh": "SkillOpt：代理技能作为可训练参数",
+          "link": "https://www.microsoft.com/en-us/research/blog/skillopt-agent-skills-as-trainable-parameters/",
+          "publishedAt": "Tue, 30 Jun 2026 16:50:02 +0000",
+          "source": "Microsoft Research Blog",
+          "sourceType": "research",
+          "description": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, making agent behavior more reliable without changing model weights. The post SkillOpt: Agent skills as trainable parameters appeared first on Microsoft Research .",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "official",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/01/MFST_feature_SecondThought_1400x788.jpg",
+          "video": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/06/skillopt_teaser-1.mp4",
+          "summary": "AI agents often fail because their instructions, or skills, are manually modified with no guarantee of improvement. Learn how SkillOpt turns skill editing into a training process, making agent behavior more reliable without changing model weights. The post SkillOpt: Agent skills as trainable parameters appeared first on Microsoft Research .",
+          "summaryZh": "**核心要点** 人工智能代理经常失败，因为他们的指令或技能是手动修改的，并且不能保证改进。了解 SkillOpt 如何将技能编辑转变为训练过程，从而在不更改模型权重的情况下使代理行为更加可靠。 SkillOpt：代理技能作为可训练参数一文首先出现在 Microsoft Research 上。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "智能体"
+          ],
+          "score": 39
+        },
+        {
+          "title": "Have your agent record video demos of its work with shot-scraper video",
+          "titleZh": "让您的代理使用镜头抓取视频录制其工作的视频演示",
+          "link": "https://simonwillison.net/2026/Jun/30/shot-scraper-video/#atom-everything",
+          "publishedAt": "2026-06-30T16:54:26+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "shot-scraper video is a new command introduced in today's shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that routine. I've written before about the importance of having coding agents produce demos of their work; this is my latest attempt at enabling them to do that. Here's an example video created using shot-scraper video , exercising a still in development feature adding the ability to create new tables in Datasette from pasted CSV, TSV or JSON data: That video was created by running this command : shot-scraper video datasette-bulk-insert-storyboard.yml \\ --auth datasette-demo-auth.json --mp4 (That --auth JSON file contains a cookie , as described here in the documentation.) Here's the datasette-bulk-insert-storyboard.yml file: output : /tmp/datasette-bulk-insert-demo.webm server : - uv - --directory - /Users/simon/Dropbox/dev/datasette - run - datasette - -p - 6419 - --root - --secret - \" 1 \" - /tmp/demo.db url : http://127.0.0.1:6419/demo/tasks viewport : width : 1280 height : 720 cursor : true wait_for : ' button[data-table-action=\"insert-row\"] ' javascript : | (() => { let clipboardText = \"\"; Object.defineProperty(navigator, \"clipboard\", { configurable: true, get: () => ({ writeText: async (text) => { clipboardText = String(text); }, readText: async () => clipboardText, }), }); })(); scenes : - name : Bulk insert existing table rows do : - pause : 0.8 - click : ' button[data-table-action=\"insert-row\"] ' - wait_for : \" #row-edit-dialog[open] \" - pause : 0.5 - click : \" .row-edit-bulk-insert \" - wait_for : \" .row-edit-bulk-textarea \" - pause : 0.5 - click : \" .row-edit-copy-template \" - wait_for : \" text=Copied \" - pause : 0.8 - fill : into : \" .row-edit-bulk-textarea \" text : | title,owner,status,priority,notes Prepare release video,Ana,doing,1,Recorded with shot-scraper Check pasted CSV import,Ben,review,3,Previewed before inserting Share the branch demo,Chen,queued,2,Bulk insert creates three rows - pause : 0.8 - click : \" .row-edit-save \" - wait_for : \" text=Previewing 3 rows. \" - pause : 1.2 - click : \" .row-edit-save \" - wait_for : \" text=3 rows inserted. \" - pause : 1.0 - click : \" .row-edit-cancel \" - wait_for : \" text=Prepare release video \" - pause : 1.0 - name : Create a table from pasted CSV open : http://127.0.0.1:6419/demo wait_for : ' details.actions-menu-links summary ' do : - pause : 0.8 - click : ' details.actions-menu-links summary ' - click : ' button[data-database-action=\"create-table\"] ' - wait_for : \" #table-create-dialog[open] \" - pause : 0.5 - fill : into : \" .table-create-table-name \" text : \" launch_metrics \" - click : \" .table-create-from-data \" - wait_for : \" .table-create-data-textarea \" - pause : 0.5 - fill : into : \" .table-create-data-textarea \" text : | metric_id,name,score,recorded_on m001,Activation rate,87.5,2026-06-29 m002,Retention check,72.25,2026-06-30 m003,CSV import health,95,2026-07-01 - pause : 0.8 - click : \" .table-create-save \" - wait_for : \" text=Previewing 3 rows. \" - pause : 1.2 - click : \" .table-create-save \" - wait_for_url : \" **/demo/launch_metrics \" - wait_for : \" text=Activation rate \" - pause : 1.2 The video command documentation includes simpler examples, but for the purpose of this post I thought I'd go with something more comprehensive. That demo YAML storyboard was constructed entirely by GPT-5.5 xhigh running in Codex Desktop, using the following prompt run inside my ~/dev/datasette checkout of this branch : Review the changes on this branch. cd to ~/dev/shot-scraper and run the command \"uv run shot-scraper video --help\" Now use that new video command to record a video demo of the new features from this branch, including running a \"uv run datasette -p 6419 --root --secret 1 /tmp/demo.db\" development server so you can record the video against a demo DB that you first create. Now that I've released the feature the prompt could say \" run uvx shot-scraper video --help \" instead and it should achieve the same result. I really like this pattern where the --help output for a command provides enough detail that a coding agent can use it - it works kind of like bundling a SKILL.md file directly inside the tool. I used the same pattern for showboat and rodney . How I built this shot-scraper video started as an experimental prototype. shot-scraper is built on top of Playwright , and the key feature it needed was for Playwright to be able to record video of browser sessions with enough control to create the desired demo. I first tried this a few years ago and found that the Playwright-produced videos included additional chrome that was useful for debugging a test failure but unwanted for a product demo. They fixed that a while ago, but there were still some minor blockers. In particular I was getting a few white frames at the start of the videos , since the recording mechanism kicked in before the first URL was loaded by the browser. Playwright 1.59 added a new screencast mechanism providing much more finely grained control over video recording. This was very nearly what I needed, but the resulting videos were fixed at 800px wide. I found a landed PR fixing that but it wasn't yet in a release. Then yesterday they shipped it in playwright-python 1.61.0 and I was finally unblocked to finish implementing the feature! The code itself was all written by GPT-5.5 xhigh in Codex Desktop. I had it write the documentation as well which gave me a very useful frame for reviewing the design - much of the iteration on the feature came from reviewing that documentation, spotting things that were redundant, inconsistent or confusing, and requesting (or dictating) a better design. The YAML format itself was mostly defined by the coding agent. I had it use Pydantic to both define and validate the format, partly to make the design easier to review. This is a great example of the kind of feature that I almost certainly wouldn't have taken on without coding agent support. I filed the original issue in February 2024, and had difficulty finding the necessary time to solve this in amongst all of my other projects. Tags: projects , python , yaml , ai , datasette , playwright , shot-scraper , generative-ai , llms , pydantic , coding-agents , agentic-engineering",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://static.simonwillison.net/static/2026/shot-scraper-video-card.jpg",
+          "video": "https://static.simonwillison.net/static/2026/datasette-bulk-insert-demo.mp4",
+          "summary": "shot-scraper video is a new command introduced in today's shot-scraper 1.10 release which accepts a storyboard.yml file defining a routine to run against a web application and uses Playwright to record a video of that routine. I've written before about the importance of having coding agents produce demos of their work; this is my latest attempt at enabling them to do that. Here's an example video created using shot-scraper video , exercising a still in development feature adding the ability to create new tables...",
+          "summaryZh": "**核心要点** shot-scraper video 是今天的 shot-scraper 1.10 版本中引入的新命令，它接受定义针对 Web 应用运行的例程的 Storyboard.yml 文件，并使用 Playwright 录制该例程的视频。我之前写过关于让编码代理制作其工作演示的重要性；这是我帮助他们做到这一点的最新尝试。这是使用 shot-scraper video 创建的示例视频，练习了仍在开发中的功能，添加了创建新表的功能...",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "视频"
+          ],
+          "score": 37
+        },
+        {
+          "title": "Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity",
+          "titleZh": "Memora：平衡抽象性和特异性的谐波记忆表示",
+          "link": "https://www.microsoft.com/en-us/research/blog/memora-a-harmonic-memory-representation-balancing-abstraction-and-specificity/",
+          "publishedAt": "Mon, 29 Jun 2026 21:14:22 +0000",
+          "source": "Microsoft Research Blog",
+          "sourceType": "research",
+          "description": "AI agents can't remember past conversations. They must constantly reload or retrieve context, which grows less efficient as tasks get longer and more complex. Memora solves this with a scalable memory system separating what’s stored from how it's retrieved. The post Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity appeared first on Microsoft Research .",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "official",
+          "image": "https://www.microsoft.com/en-us/research/wp-content/uploads/2026/06/figure_2_high_res_Memora-1-scaled.png",
+          "video": "",
+          "summary": "AI agents can't remember past conversations. They must constantly reload or retrieve context, which grows less efficient as tasks get longer and more complex. Memora solves this with a scalable memory system separating what’s stored from how it's retrieved. The post Memora: A Harmonic Memory Representation Balancing Abstraction and Specificity appeared first on Microsoft Research .",
+          "summaryZh": "**核心要点** 人工智能代理无法记住过去的对话。他们必须不断地重新加载或检索上下文，随着任务变得更长、更复杂，效率就会降低。 Memora 通过可扩展的内存系统解决了这个问题，该系统将存储内容与检索方式分开。文章 Memora：平衡抽象性和特异性的谐波记忆表示首先出现在 Microsoft Research 上。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 36
+        },
+        {
+          "title": "shot-scraper 1.10",
+          "titleZh": "刮刀 1.10",
+          "link": "https://simonwillison.net/2026/Jun/30/shot-scraper/#atom-everything",
+          "publishedAt": "2026-06-30T15:10:14+00:00",
+          "source": "Simon Willison's Weblog",
+          "sourceType": "research",
+          "description": "Release: shot-scraper 1.10 The big new feature is shot-scraper video storyboard.yml , described in detail in Have your agent record video demos of its work with shot-scraper video . Tags: shot-scraper",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "",
+          "video": "",
+          "summary": "Release: shot-scraper 1.10 The big new feature is shot-scraper video storyboard.yml , described in detail in Have your agent record video demos of its work with shot-scraper video . Tags: shot-scraper",
+          "summaryZh": "**核心要点** 发布： shot-scraper 1.10 最大的新功能是 shot-scraper videostoryboard.yml，在让您的代理使用 shot-scraper video 录制其工作的视频演示中详细描述。标签： 刮刀（要点：刮刀 1.10。）",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "视频"
+          ],
+          "score": 32
+        },
+        {
+          "title": "Implementing resilience patterns with Amazon Bedrock and LLM gateway",
+          "titleZh": "使用 Amazon Bedrock 和 LLM 网关实施弹性模式",
+          "link": "https://aws.amazon.com/blogs/machine-learning/implementing-resilience-patterns-with-amazon-bedrock-and-llm-gateway/",
+          "publishedAt": "Tue, 30 Jun 2026 16:40:47 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "In this post, you will learn five practical patterns for building resilient generative AI applications on AWS, progressing from native Amazon Bedrock features to multi-model orchestration using an LLM gateway. These patterns address real-world challenges such as quota exhaustion during unexpected traffic surges, maximizing availability through geographic distribution of inference, and helping prevent noisy neighbor problems in multi-tenant environments.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/23/19331.png",
+          "video": "",
+          "summary": "In this post, you will learn five practical patterns for building resilient generative AI applications on AWS, progressing from native Amazon Bedrock features to multi-model orchestration using an LLM gateway. These patterns address real-world challenges such as quota exhaustion during unexpected traffic surges, maximizing availability through geographic distribution of inference, and helping prevent noisy neighbor problems in multi-tenant environments.",
+          "summaryZh": "**核心要点** 在本文中，您将学习在 AWS 上构建弹性生成 AI 应用的五种实用模式，从原生 Amazon Bedrock 功能发展到使用 LLM 网关的多模型编排。这些模式解决了现实世界的挑战，例如意外流量激增期间的配额耗尽，通过推理的地理分布最大化可用性，并帮助防止多租户环境中的嘈杂邻居问题。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "模型",
+            "推理部署"
+          ],
+          "score": 29
+        },
+        {
+          "title": "Build generative UI for AI agents on Amazon Bedrock AgentCore with the AG-UI protocol",
+          "titleZh": "本文将介绍 AG-UI 如何集成到 Fu",
+          "link": "https://aws.amazon.com/blogs/machine-learning/build-generative-ui-for-ai-agents-on-amazon-bedrock-agentcore-with-the-ag-ui-protocol/",
+          "publishedAt": "Tue, 30 Jun 2026 16:46:17 +0000",
+          "source": "AWS Machine Learning Blog",
+          "sourceType": "research",
+          "description": "This post walks through how AG-UI integrates into the Fullstack AgentCore Solution Template (FAST) to build interactive agent frontends on Amazon Bedrock AgentCore. We then show how CopilotKit extends this with generative UI, shared state, and human-in-the-loop interactions, all deployed on Amazon Bedrock AgentCore.",
+          "section": "research_frontier",
+          "channel": "research_blog",
+          "trust": "expert",
+          "image": "https://d2908q01vomqb2.cloudfront.net/f1f836cb4ea6efb2a0b1b99f41ad8b103eff4b59/2026/06/25/ml-20863-img1.png",
+          "video": "https://d2908q01vomqb2.cloudfront.net/artifacts/DBSBlogs/ML-20863/output_progressive.mp4",
+          "summary": "This post walks through how AG-UI integrates into the Fullstack AgentCore Solution Template (FAST) to build interactive agent frontends on Amazon Bedrock AgentCore. We then show how CopilotKit extends this with generative UI, shared state, and human-in-the-loop interactions, all deployed on Amazon Bedrock AgentCore.",
+          "summaryZh": "**核心要点** 本文将介绍 AG-UI 如何集成到 Fullstack AgentCore 解决方案模板 (FAST) 中，以在 Amazon Bedrock AgentCore 上构建交互式代理前端。然后，我们展示 CopilotKit 如何通过生成 UI、共享状态和人机交互交互来扩展此功能，所有这些都部署在 Amazon Bedrock AgentCore 上。",
+          "whyItMatters": "这提供了模型能力、评测方法或研究方向的新信号，适合纳入前沿观察。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 27
+        }
+      ]
+    },
+    {
+      "id": "open_source_top",
+      "title": "开源项目",
+      "items": [
+        {
+          "title": "\"Do we still need (traditional) search engines when AI can do & knows everything?\" That was the que...",
+          "titleZh": "“当人工智能无所不能、无所不知时，我们还需要（传统）搜索引擎吗？”这就是问题",
+          "link": "https://x.com/qdrant_engine/status/2071822630639022394",
+          "publishedAt": "Tue, 30 Jun 2026 05:06:22 GMT",
+          "source": "Qdrant(@qdrant_engine)",
+          "sourceType": "social",
+          "description": "\"Do we still need (traditional) search engines when AI can do & knows everything?\" That was the question Charlie Hull put to our @krotenWanderung , Atita Arora, Jo Kristian Bergum, and Dmitry Kan at @berlinbuzzwords , and nobody agreed it was time to throw the engines away. A few moments worth checking out: [1] Dmitry Kan brutally admitted he closed his laptop for three days after ChatGPT first launched. Just sat there, thinking “it’s over”. Then opened it back up and got on with it, and ever since it’s not even close to “over”, for him & for all the “search” people. [2] @krotenWanderung named three \"old but gold\" search techniques she keeps seeing people reinvent in their agentic search pipelines: relevance feedback loops, MMR for result diversity between hops, and crowdsourcing-style sub-agent evaluations. All from decades ago. All suddenly very relevant again. [3] And Jo said that AI agents are better users of keyword search than humans ever were. The honest conclusion, as @krotenWanderung put it, \"I don't think we solved search. I think everything became even more complicated.\" But in the best possible way:) Link to see the full video: youtube.com/watch?v=StaPk0… 💬 2 🔄 0 ❤️ 6 👀 496 📊 3 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HMCXVKZW8AAI5MX.jpg",
+          "video": "",
+          "summary": "\"Do we still need (traditional) search engines when AI can do & knows everything?\" That was the question Charlie Hull put to our @krotenWanderung , Atita Arora, Jo Kristian Bergum, and Dmitry Kan at @berlinbuzzwords , and nobody agreed it was time to throw the engines away. A few moments worth checking out: [1] Dmitry Kan brutally admitted he closed his laptop for three days after ChatGPT first launched. Just sat there, thinking “it’s over”. Then opened it back up and got on with it, and ever since it’s not even close to “over”, for him & for all the “search” people. [2] @krotenWanderung named three \"old but gold\" search techniques she keeps seeing people reinvent in their agentic search pipelines: relevance feedback loops, MMR for result diversity between hops, and crowdsourcing-style sub-agent evaluations. All from decades ago. All suddenly very relevant again. [3] And Jo said that...",
+          "summaryZh": "“当人工智能无所不能、无所不知时，我们还需要（传统）搜索引擎吗？”这是查理·赫尔向我们@krotenWanderung、Atita Arora、Jo Kristian Bergum 和@berlinbuzzwords 的 Dmitry Kan 提出的问题，但没有人同意是时候扔掉引擎了。一些值得一看的时刻：[1] Dmitry Kan 残酷地承认，在 ChatGPT 首次推出后，他关闭了笔记本电脑三天。只是坐在那里，想着“一切都结束了”。然后重新打开它并继续进行，从那时起，对于他和所有“搜索”人员来说，它甚至还没有接近“结束”。 [2] @krotenWanderung 提到了她不断看到人们在代理搜索管道中重新发明的三种“古老但黄金”的搜索技术：相关性反馈循环、跳跃之间结果多样性的 MMR 以及众包式子代理评估。都是几十年前的事了。一切突然又变得非常相关了。 [3] 乔说……",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "产品发布",
+            "智能体",
+            "视频"
+          ],
+          "score": 60.90204799787669
+        },
+        {
+          "title": "You searched \"cozy fall vibes.\" The store returned zero results. We built a demo that shows exactly...",
+          "titleZh": "您搜索了“舒适的秋季氛围”。商店返回零结果",
+          "link": "https://x.com/weaviate_io/status/2071972068782915889",
+          "publishedAt": "Tue, 30 Jun 2026 15:00:11 GMT",
+          "source": "Weaviate • vector database(@weaviate_io)",
+          "sourceType": "social",
+          "description": "You searched \"cozy fall vibes.\" The store returned zero results. We built a demo that shows exactly what good search looks like in ecommerce. It's not just a search bar. Real product discovery needs keywords, semantics, filters, and recommendations all working together. We built 𝗪𝗲𝗖𝗼𝗺𝗺𝗲𝗿𝗰𝗲 in the Weaviate Playground to show exactly that 🔥 Type a keyword, a mood, or a vibe and it routes your query through: - 𝗕𝗠𝟮𝟱 keyword search for exact matches - 𝗩𝗲𝗰𝘁𝗼𝗿 𝘀𝗲𝗮𝗿𝗰𝗵 for semantic, meaning-based results - 𝗛𝘆𝗯𝗿𝗶𝗱 𝘀𝗲𝗮𝗿𝗰𝗵 for everything in between Real-time faceted filtering lets you slice results by category, brand, and price instantly. And on every product page, near-object vector search surfaces similar items automatically. One Weaviate collection powers all of it — search 𝘢𝘯𝘥 recommendations, no extra infrastructure needed. We have a copy-paste prompt for Cursor, Claude Code, or whatever else you use in our Weaviate Playground so you can eas playground.weaviate.io/?utm_source=ch… Check it out here: https:/ ecommerce.playground.weaviate.io/?utm_source=ch… iew the live demo: https://t.co/4YI9kC4MyF 💬 1 🔄 3 ❤️ 9 👀 343 📊 3 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HMEfnZVW4AAdf-O.jpg",
+          "video": "",
+          "summary": "You searched \"cozy fall vibes.\" The store returned zero results. We built a demo that shows exactly what good search looks like in ecommerce. It's not just a search bar. Real product discovery needs keywords, semantics, filters, and recommendations all working together. We built 𝗪𝗲𝗖𝗼𝗺𝗺𝗲𝗿𝗰𝗲 in the Weaviate Playground to show exactly that 🔥 Type a keyword, a mood, or a vibe and it routes your query through: - 𝗕𝗠𝟮𝟱 keyword search for exact matches - 𝗩𝗲𝗰𝘁𝗼𝗿 𝘀𝗲𝗮𝗿𝗰𝗵 for semantic, meaning-based results - 𝗛𝘆𝗯𝗿𝗶𝗱 𝘀𝗲𝗮𝗿𝗰𝗵 for everything in between Real-time faceted filtering lets you slice results by category, brand, and price instantly. And on every product page, near-object vector search surfaces similar items automatically. One Weaviate collection powers all of it — search 𝘢𝘯𝘥 recommendations, no extra infrastructure needed. We have a copy-paste promp...",
+          "summaryZh": "您搜索了“舒适的秋季氛围”。商店返回零结果。我们构建了一个演示，准确展示了电子商务中良好的搜索是什么样子的。它不仅仅是一个搜索栏。真正的产品发现需要关键词、语义、过滤器和推荐一起工作。我们内置了 Weaviate Playground，以准确显示输入关键字、心情或氛围，它会通过以下方式路由您的查询： - 精确匹配的关键字搜索 - 基于语义、基于意义的结果 - 介于两者之间的所有内容 实时分面过滤可让您立即按类别、品牌和价格对结果进行切片。在每个产品页面上，近对象矢量搜索都会自动显示相似的商品。一个 Weaviate 集合为所有这一切提供支持 - 搜索推荐，无需额外的基础设施。我们有一个复制粘贴提示...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [],
+          "score": 53.309987642177205
+        },
+        {
+          "title": "We kept seeing the same pattern with agents: when the same agent lived inside IM instead of a termin...",
+          "titleZh": "我们不断看到代理的相同模式：当同一个代理驻留在 IM 而不是终端或单独的 Web 应用中时，更多的人使用它，并且答案通常更好",
+          "link": "https://x.com/milvusio/status/2071972041293807651",
+          "publishedAt": "Tue, 30 Jun 2026 15:00:04 GMT",
+          "source": "Milvus(@milvusio)",
+          "sourceType": "social",
+          "description": "We kept seeing the same pattern with agents: when the same agent lived inside IM instead of a terminal or separate web app, more people used it, and the answers were often better. The reason was not the UI alone. IM already contains the working context: the question, the people involved, the decision history, the links, the screenshots, and the half-finished reasoning that never makes it into a doc. But that context is still incomplete. The answer often depends on code, design docs, GitHub issues, database rows, customer notes, or a debugging session from last week. That is the gap MFS is trying to close. MFS gives those different sources stable, file-like paths, so an agent can move through them the way an engineer would: find likely places first, then inspect the original file, thread, issue, or record before answering. For agentic workflows, this matters. The best interface may be IM, but the best answers need context from everywhere else too. MFS turns conversations, team knowledge, and external tools into one searchable context layer for agents. Repo: github.com/zilliztech/mfs… Your browser does not support the video tag. 🔗 View on Twitter 💬 0 🔄 0 ❤️ 0 👀 98 ⚡ Powered by xgo.ing",
+          "section": "open_source_top",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-07-01-2071972041293807651.mp4",
+          "summary": "We kept seeing the same pattern with agents: when the same agent lived inside IM instead of a terminal or separate web app, more people used it, and the answers were often better. The reason was not the UI alone. IM already contains the working context: the question, the people involved, the decision history, the links, the screenshots, and the half-finished reasoning that never makes it into a doc. But that context is still incomplete. The answer often depends on code, design docs, GitHub issues, database rows, customer notes, or a debugging session from last week. That is the gap MFS is trying to close. MFS gives those different sources stable, file-like paths, so an agent can move through them the way an engineer would: find likely places first, then inspect the original file, thread, issue, or record before answering. For agentic workflows, this matters. The best interface may be...",
+          "summaryZh": "我们不断看到代理的相同模式：当同一个代理驻留在 IM 而不是终端或单独的 Web 应用中时，更多的人使用它，并且答案通常更好。原因不仅仅是用户界面。 IM 已经包含了工作上下文：问题、涉及的人员、决策历史、链接、屏幕截图以及从未进入文档的半成品推理。但这个背景仍然不完整。答案通常取决于代码、设计文档、GitHub 问题、数据库行、客户注释或上周的调试会话。这就是 MFS 试图弥补的差距。 MFS 为这些不同的源提供了稳定的、类似文件的路径，因此代理可以像工程师一样在它们之间移动：首先找到可能的位置，然后在回答之前检查原始文件、线程、问题或记录。对于代理工作流程来说，这很重要。最好的界面可能是...",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "推理能力",
+            "开源",
+            "视频"
+          ],
+          "score": 49.993452791896324
+        },
+        {
+          "title": "diegosouzapw/OmniRoute",
+          "titleZh": "diegosouzapw/OmniRoute：永远不要停止编码。免费 AI 网关：一个端点，160 多",
+          "link": "https://github.com/diegosouzapw/OmniRoute",
+          "publishedAt": "2026-06-30T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free AI gateway: one endpoint, 160+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://opengraph.githubassets.com/97bda1194d806694941d2a833b4304a26260f82e28fe42fa5033ae155bfe3fb1/diegosouzapw/OmniRoute",
+          "video": "",
+          "summary": "Sponsor Star diegosouzapw / OmniRoute Never stop coding. Free AI gateway: one endpoint, 160+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+          "summaryZh": "永远不要停止编码。免费 AI 网关：一个端点，160 多个提供商（50 多个免费），将 Claude Code、Codex、Cursor、Cline 和 Copilot 连接到免费的 Claude/GPT/Gemini。 RTK+Caveman 堆叠压缩可节省 15-95% 的令牌、智能自动回退、MCP/A2A、多模式 API、桌面/PWA。（建议打开仓库查看用法、示例与输出效果。）",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "API",
+            "多模态"
+          ],
+          "score": 33
+        },
+        {
+          "title": "altic-dev/FluidVoice",
+          "titleZh": "altic-dev/FluidVoice：最快且唯一的 macOS 听写应用，具有设备上 STT",
+          "link": "https://github.com/altic-dev/FluidVoice",
+          "publishedAt": "2026-06-30T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Sponsor Star altic-dev / FluidVoice Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://github.com/altic-dev/FluidVoice/raw/main/assets/cmd_mode_ss.png",
+          "video": "",
+          "summary": "Sponsor Star altic-dev / FluidVoice Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.",
+          "summaryZh": "最快且唯一的 macOS 听写应用，具有设备上 STT 和自定义训练的 AI 增强模型 - 本地 Wispr Flow 替代方案。 One ⭐ 让我们走了很长一段路:)) Windows、iOS 和 Linux 即将推出。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "模型",
+            "语音"
+          ],
+          "score": 32
+        },
+        {
+          "title": "google/agents-cli",
+          "titleZh": "google/agents-cli：CLI 和技能可将任何编码助理转变为在 G",
+          "link": "https://github.com/google/agents-cli",
+          "publishedAt": "2026-06-30T18:30:00.000Z",
+          "source": "GitHub Trending Daily",
+          "sourceType": "open_source",
+          "description": "Star google / agents-cli The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
+          "section": "open_source_top",
+          "channel": "open_source_rank",
+          "trust": "rank",
+          "image": "https://raw.githubusercontent.com/google/agents-cli/main/docs/src/assets/architecture.png",
+          "video": "",
+          "summary": "Star google / agents-cli The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
+          "summaryZh": "CLI 和技能可将任何编码助理转变为在 Google Cloud 上创建、评估和部署 AI 代理的专家。（信息较短：建议查看仓库/原文的功能清单、安装方式、许可证与最新发布说明，再判断是否值得跟进。）。如果你在评估是否要引入，建议优先看 README 的「适用场景」「核心能力/限制」「依赖与接入步骤」，并关注最近提交/Issue 以判断维护活跃度。",
+          "whyItMatters": "这可能代表近期开发者关注的开源方向，可继续观察项目活跃度和可用性。",
+          "tags": [
+            "智能体"
+          ],
+          "score": 30
+        }
+      ]
+    },
+    {
+      "id": "social_shares",
+      "title": "社媒观察",
+      "items": [
+        {
+          "title": "We’re introducing GeneBench-Pro, a research-level benchmark for a harder kind of AI progress: how we...",
+          "titleZh": "OpenAI 推出 GeneBench-Pro，评估智能体处理复杂生物数据的研究能力",
+          "link": "https://x.com/OpenAI/status/2072004836674167294",
+          "publishedAt": "Tue, 30 Jun 2026 17:10:23 GMT",
+          "source": "OpenAI(@OpenAI)",
+          "sourceType": "social",
+          "description": "We’re introducing GeneBench-Pro, a research-level benchmark for a harder kind of AI progress: how well agents can navigate messy biological data, choose the right analysis path, and make judgment calls that real computational research depends on. openai.com/index/introduc… 💬 141 🔄 115 ❤️ 1485 👀 127163 📊 271 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "We’re introducing GeneBench-Pro, a research-level benchmark for a harder kind of AI progress: how well agents can navigate messy biological data, choose the right analysis path, and make judgment calls that real computational research depends on. openai.com/index/introduc… 💬 141 🔄 115 ❤️ 1485 👀 127163 📊 271 ⚡ Powered by xgo.ing",
+          "summaryZh": "我们将推出 GeneBench-Pro，这是一个针对更困难的人工智能进展的研究级基准：智能体如何驾驭混乱的生物数据，选择正确的分析路径，并做出真正的计算研究所依赖的判断。 openai.com/index/introduc。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "智能体",
+            "评测"
+          ],
+          "score": 72
+        },
+        {
+          "title": "Watch Devin Fusion work: The sidekick model handles fetching information and skimming sources. The...",
+          "titleZh": "观看 Devin Fusion 的工作：sidekick 模型负责获取信息和浏览源",
+          "link": "https://x.com/cognition/status/2071974121177481674",
+          "publishedAt": "Tue, 30 Jun 2026 15:08:20 GMT",
+          "source": "Cognition(@cognition_labs)",
+          "sourceType": "social",
+          "description": "Watch Devin Fusion work: The sidekick model handles fetching information and skimming sources. The frontier model makes a plan for implementation, then delegates well-scoped sub-tasks to the sidekick with its own cached context. Your browser does not support the video tag. 🔗 View on Twitter Cognition @cognition Conventional model routing sucks. It passes benchmarks but fails to write code you'd actually merge. Introducing Devin Fusion, a new hybrid-model harness for agentic coding. In testing, it reduces the cost of Fable-level intelligence by 35% and still feels good to use. 🔗 View Quoted Tweet 💬 7 🔄 9 ❤️ 78 👀 10254 📊 15 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-07-01-2071974121177481674.mp4",
+          "summary": "Watch Devin Fusion work: The sidekick model handles fetching information and skimming sources. The frontier model makes a plan for implementation, then delegates well-scoped sub-tasks to the sidekick with its own cached context. Your browser does not support the video tag. 🔗 View on Twitter Cognition @cognition Conventional model routing sucks. It passes benchmarks but fails to write code you'd actually merge. Introducing Devin Fusion, a new hybrid-model harness for agentic coding. In testing, it reduces the cost of Fable-level intelligence by 35% and still feels good to use. 🔗 View Quoted Tweet 💬 7 🔄 9 ❤️ 78 👀 10254 📊 15 ⚡ Powered by xgo.ing",
+          "summaryZh": "观看 Devin Fusion 的工作：sidekick 模型负责获取信息和浏览源。前沿模型制定实施计划，然后将范围明确的子任务委托给具有自己缓存上下文的 sidekick。认知 @cognition 传统模型路由很糟糕。它通过了基准测试，但无法编写您实际合并的代码。隆重推出 Devin Fusion，这是一种用于代理编码的新型混合模型工具。在测试中，它降低了寓言级智能的成本35%，并且使用起来感觉仍然不错。 查看引用的推文",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "评测",
+            "视频"
+          ],
+          "score": 70.51000184921028
+        },
+        {
+          "title": "Introducing Claude Science, a new app designed with every stage of research in mind. Artifacts tra...",
+          "titleZh": "隆重推出 Claude Science，这是一款专为研究的每个阶段而设计的新应用",
+          "link": "https://x.com/claudeai/status/2072002740830842899",
+          "publishedAt": "Tue, 30 Jun 2026 17:02:04 GMT",
+          "source": "Claude(@claudeai)",
+          "sourceType": "social",
+          "description": "Introducing Claude Science, a new app designed with every stage of research in mind. Artifacts traced to their code, environments managed on demand, and 60+ optional scientific databases that you can connect. Available now in beta. Your browser does not support the video tag. 🔗 View on Twitter 💬 520 🔄 704 ❤️ 8493 👀 512536 📊 1571 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-07-01-2072002740830842899.mp4",
+          "summary": "Introducing Claude Science, a new app designed with every stage of research in mind. Artifacts traced to their code, environments managed on demand, and 60+ optional scientific databases that you can connect. Available now in beta. Your browser does not support the video tag. 🔗 View on Twitter 💬 520 🔄 704 ❤️ 8493 👀 512536 📊 1571 ⚡ Powered by xgo.ing",
+          "summaryZh": "隆重推出 Claude Science，这是一款专为研究的每个阶段而设计的新应用。工件可追溯到其代码、按需管理的环境以及您可以连接的 60 多个可选科学数据库。现已推出测试版。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频"
+          ],
+          "score": 70
+        },
+        {
+          "title": "“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) ...",
+          "titleZh": "Boris Cherny（Claude Code 的创建者）和 Peter Steinberger（OpenClaw 的创建者）提到“循环工程”后，该词在社交媒",
+          "link": "https://x.com/AndrewYNg/status/2071988145667928442",
+          "publishedAt": "Tue, 30 Jun 2026 16:04:04 GMT",
+          "source": "Andrew Ng(@AndrewYNg)",
+          "sourceType": "social",
+          "description": "“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) and Peter Steinberger (OpenClaw's creator) went viral on social media. Loops are now a key part of how we get AI agents to iterate at length to build software. In this letter, I’d like to share my 3 key loops, shown in the image below, for building 0-to-1 products. These loops guide not just how I build software, but also how I decide what software to build. Agentic coding loop: Given a product specification and optionally a set of evals (that is, a dataset against which to measure performance), we can have an AI agent write code, test its work, and keep iterating until the code is bug-free and meets its specification. This idea of closing the loop took off around the end of last year, and it has been a game changer in enabling coding agents to work longer productively without human intervention. For example, over the weekend, I was building an app for my daughter to practice typing, and my coding agent could easily work for around an hour, using a web browser to check what it had built multiple times before getting back to me, without needing my intervention. The engineering loop executes quickly. Every few minutes, the coding agent might build and test a new version of the software. I hear frequently from developers who are finding new ways to engineer more effective engineering loops. This is an active area of invention! Developer feedback loop: In this loop, a developer examines the current product and steers the coding agent to improve it. Last year, a lot of developers (including me) were acting as the QA (quality assurance) function for our coding agents, manually finding bugs and then asking the agent to fix them. But with coding agents much more able to test their own code, the amount of time we need to spend on this function has decreased significantly. This allows us to make higher-level product decisions, such as what key features to offer, where the UI needs improvement, and so on. The developer-feedback loop operates over time intervals between tens of minutes and hours — that's how frequently a developer might review a product and give feedback. In the case of the typing app, I changed my mind a few times about the visual design, what cat costumes she can unlock as she learns (she loves cats), and the user flow for a grown-up to log in and steer the child's learning experience. When a developer has a clear vision for what to build, it is still a lot of work to translate that vision into a specification for a coding agent to implement. Further, after the developer has seen an implementation, they might update (or perhaps clarify) the spec to steer it toward what they want. If you find that the system repeatedly runs into certain problems, building a set of evals for the agent becomes useful. AI-native teams are increasingly using AI to help shape product direction, for example, automating the gathering and analysis of usage data, summarizing written and verbal customer feedback, or carrying out competitive analysis. However, for pretty much all the products I’m involved in, I see humans as having a significant context advantage over current AI systems — we know a lot more than the AI system about the users and the context the product has to operate in — and thus humans play a critical role. Many people describe this human contribution as “taste,” but I prefer to think of it as humans having a context advantage, since that gives us a clearer path to helping AI systems get better. This also speaks to why this step can’t be automated: So long as the human knows something the AI does not, human-in-the-loop is needed to to inject that knowledge into the system. External feedback loop: This includes a wide range of tactics like asking a few friends for feedback, launching to alpha testers, or putting the code into production with A/B testing. These tactics are usually slow, rarely taking less than hours and sometimes taking days or even weeks. This data informs the developer vision, which in turn continues to drive the detailed product spec, which in turn drives the coding agent. With coding agents speeding up software development, more engineers are starting to play a partial product management role. For many engineers who are growing into this role, the hardest part is shaping the product vision and striking a balance between building (bridging the gap between vision and spec) and getting user feedback to evolve the vision. It is important to do both! I will write more about how to do this in future posts, but for now, I find it encouraging that engineers are playing an expanded role (just as product managers and designers now do more engineering). [Original text: The Batch] 💬 70 🔄 123 ❤️ 862 👀 49218 📊 272 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "expert",
+          "image": "https://pbs.twimg.com/media/HMEtxp3bsAARJdi.jpg",
+          "video": "",
+          "summary": "“Loop engineering” is a hot buzzphrase after mentions of it by Boris Cherny (Claude Code’s creator) and Peter Steinberger (OpenClaw's creator) went viral on social media. Loops are now a key part of how we get AI agents to iterate at length to build software. In this letter, I’d like to share my 3 key loops, shown in the image below, for building 0-to-1 products. These loops guide not just how I build software, but also how I decide what software to build. Agentic coding loop: Given a product specification and o...",
+          "summaryZh": "Boris Cherny（Claude Code 的创建者）和 Peter Steinberger（OpenClaw 的创建者）提到“循环工程”后，该词在社交媒体上疯传，成为热门词汇。循环现在是我们如何让人工智能代理进行详细迭代以构建软件的关键部分。在这封信中，我想分享我用于构建 0 到 1 产品的 3 个关键循环，如下图所示。这些循环不仅指导我如何构建软件，还指导我如何决定构建什么软件。代理编码循环：给定产品规格和...",
+          "whyItMatters": "这条社媒信号有助于捕捉官方发布之外的讨论、观点或早期趋势。",
+          "tags": [
+            "产品发布",
+            "API",
+            "智能体",
+            "开发者工具",
+            "RAG"
+          ],
+          "score": 66
+        },
+        {
+          "title": "How HeyGen Models generate a 30-minute video, the longest single-pass AI generation ever. 6× the ind...",
+          "titleZh": "HeyGen 模型如何生成 30 分钟的视频，这是有史以来最长的单通道 AI 生成",
+          "link": "https://x.com/HeyGen/status/2071998058402042231",
+          "publishedAt": "Tue, 30 Jun 2026 16:43:27 GMT",
+          "source": "HeyGen(@HeyGen_Official)",
+          "sourceType": "social",
+          "description": "How HeyGen Models generate a 30-minute video, the longest single-pass AI generation ever. 6× the industry ceiling The hard part was never length, it was consistency. Most systems drift; the face stops looking like you. HeyGen Models stay locked in Full technical report below ↓ 💬 141 🔄 156 ❤️ 335 👀 318812 📊 221 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HME3Ob3bsAAWv1d.jpg",
+          "video": "",
+          "summary": "How HeyGen Models generate a 30-minute video, the longest single-pass AI generation ever. 6× the industry ceiling The hard part was never length, it was consistency. Most systems drift; the face stops looking like you. HeyGen Models stay locked in Full technical report below ↓ 💬 141 🔄 156 ❤️ 335 👀 318812 📊 221 ⚡ Powered by xgo.ing",
+          "summaryZh": "HeyGen 模型如何生成 30 分钟的视频，这是有史以来最长的单通道 AI 生成。 6 倍行业上限 困难的部分从来不是长度，而是一致性。大多数系统都会漂移；脸不再像你了。 HeyGen 模型保持锁定在下面的完整技术报告 ↓。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "视频"
+          ],
+          "score": 65
+        },
+        {
+          "title": "Frontier agent performance you can customize, tune, and deploy on your terms. @langchain integrates...",
+          "titleZh": "您可以根据自己的条件自定义、调整和部署 Frontier 代理性能",
+          "link": "https://x.com/NVIDIAAI/status/2071700368338059682",
+          "publishedAt": "Mon, 29 Jun 2026 21:00:32 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "Frontier agent performance you can customize, tune, and deploy on your terms. @langchain integrates with NVIDIA Nemotron models across agent workflows, from inference to orchestration, on an open stack built for production. Your browser does not support the video tag. 🔗 View on Twitter 💬 15 🔄 20 ❤️ 153 👀 15564 📊 35 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-07-01-2071700368338059682.mp4",
+          "summary": "Frontier agent performance you can customize, tune, and deploy on your terms. @langchain integrates with NVIDIA Nemotron models across agent workflows, from inference to orchestration, on an open stack built for production. Your browser does not support the video tag. 🔗 View on Twitter 💬 15 🔄 20 ❤️ 153 👀 15564 📊 35 ⚡ Powered by xgo.ing",
+          "summaryZh": "您可以根据自己的条件自定义、调整和部署 Frontier 代理性能。 @langchain 在专为生产而构建的开放堆栈上与跨代理工作流程（从推理到编排）的 NVIDIA Nemotron 模型集成。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "推理部署",
+            "视频"
+          ],
+          "score": 64.88686514299741
+        },
+        {
+          "title": "What if your model handled its own tuning? ⚙️ With NVIDIA TAO 7, just prompt your coding agent what...",
+          "titleZh": "NVIDIA TAO 7 为编码代理加入模型自动调优技能",
+          "link": "https://x.com/NVIDIAAI/status/2072001364666847719",
+          "publishedAt": "Tue, 30 Jun 2026 16:56:35 GMT",
+          "source": "NVIDIA AI(@NVIDIAAI)",
+          "sourceType": "social",
+          "description": "What if your model handled its own tuning? ⚙️ With NVIDIA TAO 7, just prompt your coding agent what you want in plain language and let it do the rest. • Agent skills plug into your coding agent and improve accuracy. • AutoML removes the guesswork from hyperparameters. LLM-guided tuning finds strong configs up to 2x faster. • Fine-tune any @huggingface CV or VLM model on local NVIDIA GPUs. • Data enhanced fine-tuning helps your agent identify why the model fails, then fix it. Try TAO skills ➡️ nvda.ws/4bknjPs Your browser does not support the video tag. 🔗 View on Twitter 💬 6 🔄 11 ❤️ 76 👀 5646 📊 19 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-07-01-2072001364666847719.mp4",
+          "summary": "What if your model handled its own tuning? ⚙️ With NVIDIA TAO 7, just prompt your coding agent what you want in plain language and let it do the rest. • Agent skills plug into your coding agent and improve accuracy. • AutoML removes the guesswork from hyperparameters. LLM-guided tuning finds strong configs up to 2x faster. • Fine-tune any @huggingface CV or VLM model on local NVIDIA GPUs. • Data enhanced fine-tuning helps your agent identify why the model fails, then fix it. Try TAO skills ➡️ nvda.ws/4bknjPs Your browser does not support the video tag. 🔗 View on Twitter 💬 6 🔄 11 ❤️ 76 👀 5646 📊 19 ⚡ Powered by xgo.ing",
+          "summaryZh": "NVIDIA 宣传 **TAO 7** 新增可嵌入编码代理的模型调优能力，开发者可以直接用自然语言告诉代理目标，让它自动完成部分配置与优化流程。官方给出的能力点包括：把 **agent skills** 接入编码代理以提升准确率，用 **AutoML** 减少超参数试错，用 **LLM 引导调优** 将强配置搜索速度提升到 **最高 2 倍**，以及在本地 **NVIDIA GPU** 上微调任意 **Hugging Face** 的 **CV** 或 **VLM** 模型。它还强调数据增强微调可帮助代理定位模型失败原因并继续修复，说明 NVIDIA 正把传统训练工具链进一步包装成面向代理工作流的产品能力。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "视频"
+          ],
+          "score": 60.17715011440475
+        },
+        {
+          "title": "Nano Banana 2 Lite delivers text-to-image outputs in just 4 seconds. It’s designed for quicker idea...",
+          "titleZh": "Nano Banana 2 Lite 只需 4 秒即可实现文本到图像的输出",
+          "link": "https://x.com/GoogleDeepMind/status/2071988047445438475",
+          "publishedAt": "Tue, 30 Jun 2026 16:03:40 GMT",
+          "source": "Google DeepMind(@GoogleDeepMind)",
+          "sourceType": "social",
+          "description": "Nano Banana 2 Lite delivers text-to-image outputs in just 4 seconds. It’s designed for quicker ideation and workflows where speed and cost are the primary roadblocks. Your browser does not support the video tag. 🔗 View on Twitter 💬 9 🔄 19 ❤️ 163 👀 44356 📊 28 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "./media/2026-07-01-2071988047445438475.mp4",
+          "summary": "Nano Banana 2 Lite delivers text-to-image outputs in just 4 seconds. It’s designed for quicker ideation and workflows where speed and cost are the primary roadblocks. Your browser does not support the video tag. 🔗 View on Twitter 💬 9 🔄 19 ❤️ 163 👀 44356 📊 28 ⚡ Powered by xgo.ing",
+          "summaryZh": "Nano Banana 2 Lite 只需 4 秒即可实现文本到图像的输出。它专为更快的构思和工作流程而设计，其中速度和成本是主要障碍。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "视频",
+            "图像"
+          ],
+          "score": 59.43187863222191
+        },
+        {
+          "title": "Building voice agents can come with tradeoffs. 💬 Better convos w/ speech to speech models Vs 🥪 Mo...",
+          "titleZh": "构建语音代理可能需要权衡。使用语音到语音模型的更好的对话 Vs 使用三明治架构的更可靠的线束 如何使用两者构建语音研究代理： ✅ Gemini Live：低延迟",
+          "link": "https://x.com/LangChain/status/2072001573408968736",
+          "publishedAt": "Tue, 30 Jun 2026 16:57:25 GMT",
+          "source": "LangChain(@LangChainAI)",
+          "sourceType": "social",
+          "description": "Building voice agents can come with tradeoffs. 💬 Better convos w/ speech to speech models Vs 🥪 More reliable harnesses w/ sandwich architecture How to build a voice research agent with both: ✅ Gemini Live: low-latency, natural-sounding convos ✅ Deep Agents: long-running research tasks ✅ LangSmith: full tracing & observability Your browser does not support the video tag. 🔗 View on Twitter 💬 6 🔄 5 ❤️ 17 👀 4557 📊 10 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "",
+          "video": "",
+          "summary": "Building voice agents can come with tradeoffs. 💬 Better convos w/ speech to speech models Vs 🥪 More reliable harnesses w/ sandwich architecture How to build a voice research agent with both: ✅ Gemini Live: low-latency, natural-sounding convos ✅ Deep Agents: long-running research tasks ✅ LangSmith: full tracing & observability Your browser does not support the video tag. 🔗 View on Twitter 💬 6 🔄 5 ❤️ 17 👀 4557 📊 10 ⚡ Powered by xgo.ing",
+          "summaryZh": "构建语音代理可能需要权衡。 使用语音到语音模型的更好的对话 Vs 使用三明治架构的更可靠的线束 如何使用两者构建语音研究代理： ✅ Gemini Live：低延迟、听起来自然的对话 ✅ Deep Agent：长时间运行的研究任务 ✅ LangSmith：完整的跟踪和可观察性",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型",
+            "智能体",
+            "语音",
+            "视频"
+          ],
+          "score": 58.91065204246131
+        },
+        {
+          "title": "Today, we're announcing a strategic partnership with MIXI, one of Japan's largest gaming, sports and...",
+          "titleZh": "今天，我们宣布与日本最大的游戏、体育和娱乐公司之一 MIXI 建立战略合作伙伴关系",
+          "link": "https://x.com/runwayml/status/2071754645052047811",
+          "publishedAt": "Tue, 30 Jun 2026 00:36:13 GMT",
+          "source": "Runway(@runwayml)",
+          "sourceType": "social",
+          "description": "Today, we're announcing a strategic partnership with MIXI, one of Japan's largest gaming, sports and entertainment companies. MIXI will be deploying Runway across their organization, and we'll work together to explore emerging applications for world models across gaming, animation and interactive experiences. Learn more at the link below. 💬 11 🔄 25 ❤️ 159 👀 32175 📊 41 ⚡ Powered by xgo.ing",
+          "section": "social_shares",
+          "channel": "social",
+          "trust": "official",
+          "image": "https://pbs.twimg.com/media/HMBZu_-WkAA8R0G.jpg",
+          "video": "",
+          "summary": "Today, we're announcing a strategic partnership with MIXI, one of Japan's largest gaming, sports and entertainment companies. MIXI will be deploying Runway across their organization, and we'll work together to explore emerging applications for world models across gaming, animation and interactive experiences. Learn more at the link below. 💬 11 🔄 25 ❤️ 159 👀 32175 📊 41 ⚡ Powered by xgo.ing",
+          "summaryZh": "今天，我们宣布与日本最大的游戏、体育和娱乐公司之一 MIXI 建立战略合作伙伴关系。 MIXI 将在整个组织内部署 Runway，我们将共同探索游戏、动画和互动体验领域世界模型的新兴应用。请通过下面的链接了解更多信息。这更像一条官方/社区信号，建议打开原文查看完整上下文与后续链接。",
+          "whyItMatters": "这可能影响 AI 产品能力、开发者 API 或企业采用路径，值得关注后续落地。",
+          "tags": [
+            "模型"
+          ],
+          "score": 58.48690595249196
+        }
+      ]
+    },
+    {
+      "id": "extended_reading",
+      "title": "延伸阅读",
+      "items": [
+        {
+          "title": "Meta2026股东大会 | 董事会连任 | 股东十项独立提案全部否决 | AI战略",
+          "titleZh": "Meta2026股东大会 | 董事会连任 | 股东十项独立提案全部否决 | AI战略",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a35fa1f608f69578bd6edf3",
+          "publishedAt": "2026-06-29T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「Meta2026股东大会 | 董事会连任 | 股东十项独立提案全部否决 | AI战略」。5月27日，Meta以线上形式召开了年度股东大会，董事会提名的12位董事全部成功连任，而股东们提出的十项提案，全部被投票否决。在表决环节结束后，扎克伯格占据了会议的大部分时间，他将AI的商业机会划分为四大明确方向，更是直言这是自己经营Meta 20年来，整个行业最激动人心的发展时刻。接下来我们会按照议题顺序，给大家梳理一下 原视频来自： **简介要点**： - 在表决环节结束后，扎克伯格占据了会议的大部分时间，他将AI的商业机会划分为四大明确方向，更是直言这是自己经营Meta 20年来，整个行业最激动人心的发展时刻。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "Anthropic发布Claude 4.8 | 动态工作流 | 诚实度提升 | 大型代码迁移",
+          "titleZh": "Anthropic发布Claude 4.8 | 动态工作流 | 诚实度提升 | 大型代码迁移",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a35f918608f69578bd6ed16",
+          "publishedAt": "2026-06-28T21:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「Anthropic发布Claude 4.8 | 动态工作流 | 诚实度提升 | 大型代码迁移」。美国时间5月28日，Anthropic一天之内干了三件事。先是发布了新的旗舰模型Claude Opus 4.8，最大的变化是它开始学会了承认不确定，另外还推出了动态工作流、思考强度控制和更便宜的快速模式。其次，Anthropic宣布完成了650亿美元H轮融资，投后估值9650亿美元，正式超过了OpenAI上一轮的估值8520亿。第三，在Opus 4.8的发布公告末尾，Anthropic提醒，Mythos级别的模型将在未来几周向所有客户开放。今天我们就来简单梳理一下这几个事。原视频来自： **简介要点**： - 先是发布了新的旗舰模型Claude Opus 4.8，最大的变化是它开始学会了承认不确定，另外还推出了动态工作流、思考强度控制和更便宜的快速模式。 - 其次，Anthropic宣布完成了650亿美元H轮融资，投后估值9650亿美元，正式超过了OpenAI上一轮的估值8520亿。 - 第三，在Opus 4.8的发布公告末尾，Anthropic提醒，Mythos级别的模型将在未来几周向所有客户开放。",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        },
+        {
+          "title": "长鑫存储年底会超过美光吗 | 中美韩存储三国杀 | DRAM | HBM | 长江存储 | 三星",
+          "titleZh": "长鑫存储年底会超过美光吗 | 中美韩存储三国杀 | DRAM | HBM | 长江存储 | 三星",
+          "link": "https://www.xiaoyuzhoufm.com/episode/6a3fcbb99d2f5743683ebef3",
+          "publishedAt": "2026-06-29T09:00:00.000Z",
+          "source": "AI前沿",
+          "sourceType": "podcast",
+          "description": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "section": "extended_reading",
+          "channel": "podcast",
+          "trust": "expert",
+          "image": "https://image.xyzcdn.net/FoIfNX9RQacfiF8FdfV614QkGhDN.png",
+          "video": "",
+          "summary": "听《AI前沿》上小宇宙。 初入 AI 领域，是不是感觉前路迷茫？别怕，AI 前沿闪亮登场！它仿若夜空中最耀眼的指引星辰，专为初级入门者与进阶求知者点亮 AI 知识的浩瀚夜空。精准聚焦 AI 最新动态，以简洁明快的方式呈现前沿进展，还贴心地配备音频说听功能，让你在忙碌生活中，只需戴上耳机，就能与 AI 前沿智慧 “亲密接触”，跟随它，一步步揭开 AI 神秘面纱，迈向知识的光明彼岸。所有内容来自网络，如有侵权，请联系删除",
+          "summaryZh": "**讲了什么**：这一期来自 **AI前沿**，主题是「长鑫存储年底会超过美光吗 | 中美韩存储三国杀 | DRAM | HBM | 长江存储 | 三星」。本期围绕近期存储行业四大热点事件，拆解中韩美存储产业三大赛道的竞争格局，分析长鑫存储业绩爆发的周期属性与真实成长价值，梳理美光与长鑫的市场消长关系，客观评估长鑫“全球第三大DRAM厂商”的含金量，探讨存储行业分化趋势与未来竞争走向。原视频来自：",
+          "whyItMatters": "这期播客提供了更长篇的背景、访谈或案例，可作为日报之外的延伸阅读。",
+          "tags": [],
+          "score": null
+        }
+      ]
+    }
+  ],
+  "failures": [
+    {
+      "source": "ShowMeAI研究中心",
+      "url": "https://wechat2rss.bestblogs.dev/feed/854a592a3bac3c2574d092daf4628cf65dfd1858.xml",
+      "error": "HTTP 500"
+    },
+    {
+      "source": "Hugging Face",
+      "url": "https://wechat2rss.bestblogs.dev/feed/8b68fdb4f24ab2287100988a8cec36363fec4214.xml",
+      "error": "HTTP 500"
+    }
+  ],
+  "summaryBullets": [
+    "**Google** 同步发布 **Nano Banana 2 Lite** 和 **Gemini Omni Flash**：前者主打 **4 秒级文生图** 与更低成本，后者已通过 **Gemini API** 和 **Google AI Studio** 提供视频生成与编辑能力，说明图像到视频的一体化创作链路正在加速产品化。",
+    "**Anthropic** 发布 **Claude Sonnet 5**，强调模型能自己制定计划、调用 **浏览器** 和 **终端** 等工具执行任务。更便宜模型具备接近高端代理模型的自主能力，意味着智能体产品的成本门槛还在继续下探。",
+    "**研究前线** 今天集中在智能体能力评测与训练方法：**Video-MME-Logical** 想更细地测视频时序逻辑推理，**SkillOpt** 则把 agent skill 当作可训练参数优化，反映行业正在从“会不会用工具”转向“如何系统提升代理质量”。",
+    "**开源与社媒** 两条线都在强化开发者工作流：一边有 **google/agents-cli**、**OmniRoute** 这类代理工具链项目继续冒头，另一边 **OpenAI** 抛出 **GeneBench-Pro**、**Claude Science** 等研究与评测产品，说明模型公司正把能力边界从聊天扩展到实验、科研和复杂工作流。"
+  ]
+}
